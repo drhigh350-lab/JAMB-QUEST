@@ -21,7 +21,7 @@
 - [x] Add daily-system, activity, achievement, and streak-recovery data models for the 380 comeback loop.
 - [x] Build the in-app daily comeback check-in, minimum action, consistency score, XP, badges, and mission flow.
 - [x] Add opt-in browser notification subscriptions, permission states, and an off-switch with no loss of core gameplay.
-- [ ] Configure a deployed daily scheduler only after the push UI, service worker, and notification keys are ready.
+- [x] Configure a deployed daily scheduler only after the push UI, service worker, and notification keys are ready.
 - [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
 - [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
 - [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.
@@ -33,3 +33,9 @@
 - [x] Parse, validate, deduplicate, and stage Drive-extracted questions under distinct owner-provided source labels without overwriting model questions.
 - [x] Keep source provenance visible and do not represent owner-provided material as official JAMB wording without verification.
 - [ ] Verify installation, offline app-shell behavior, cached model-bank gameplay, and authorisation-source separation before delivery.
+- [x] Add a persistent mobile-friendly tab bar for Practice, Progress, Profile, and About.
+- [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
+- [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
+- [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.
+- [x] Exercise all four tab panels at desktop and phone sizes, checking for overlap, dead ends, and misplaced fixed navigation.
+- [x] Exercise the signed-in Profile tab flow and confirm that profile editing, push controls, installation controls, and logout remain reachable.
