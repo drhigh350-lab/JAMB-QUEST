@@ -1,40 +1,23 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+/* Field Notes Arcade: React is the picture frame; quiz state and data stay in focused game modules. */
+
 import ErrorBoundary from "./components/ErrorBoundary";
-import { ThemeProvider } from "./contexts/ThemeContext";
+import "./field-notes-overrides.css";
 import Home from "./pages/Home";
-
-
-function Router() {
-  return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
-
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+import { useQuizGame } from "./game/useQuizGame";
+import { QuizShell } from "./components/QuizShell";
+import { ResultSummary } from "./components/ResultSummary";
 
 function App() {
+  const game = useQuizGame();
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-        </TooltipProvider>
-      </ThemeProvider>
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} />}
+      {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
+        <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.nextQuestion} onQuit={game.quitRound} />
+      )}
+      {game.screen === "result" && game.roundConfig && (
+        <ResultSummary config={game.roundConfig} questions={game.roundQuestions} answers={game.answers} score={game.score} correctCount={game.correctCount} bestScore={game.progress.bestScore} onRetry={game.retryRound} onReview={() => game.startRound({ ...game.roundConfig!, mode: "review" })} onHome={game.goHome} />
+      )}
     </ErrorBoundary>
   );
 }

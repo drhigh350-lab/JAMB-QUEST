@@ -1,0 +1,35 @@
+/* Field Notes Arcade: style-review amendments layered after the base theme. */
+
+.brand-lockup > div { position: relative; }
+.brand-lockup > div span { color: var(--maize); font-style: italic; font-weight: 700; text-decoration: underline 2px var(--maize); text-underline-offset: 3px; transform: rotate(-4deg); }
+.brand-lockup > div small { position: absolute; left: 1px; top: 24px; color: rgba(18,40,63,.46); font: 700 7px "Space Grotesk", sans-serif; letter-spacing: .15em; white-space: nowrap; }
+.tape-label { color: var(--ink) !important; }
+.hero-copy h1 em { color: var(--ink) !important; background: linear-gradient(transparent 66%, var(--maize) 66%); }
+.section-side-note { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.section-stamp, .progress-stamp { color: var(--ink); font: 800 9px "Space Grotesk", sans-serif; letter-spacing: .15em; }
+.section-stamp { padding: 5px 7px; background: var(--maize); transform: rotate(2deg); box-shadow: 3px 3px 0 rgba(18,40,63,.14); }
+.subject-card { padding-top: 33px; }
+.subject-card::before { content: "STUDY SLIP"; position: absolute; top: 11px; right: 14px; color: rgba(18,40,63,.42); font: 700 8px "Space Grotesk", sans-serif; letter-spacing: .12em; }
+.subject-card:nth-child(2) { margin-top: 14px; }
+.subject-card:nth-child(4) { margin-top: -9px; }
+.subject-card.subject-active::after { content: "SELECTED"; position: absolute; top: 10px; left: 16px; color: var(--ink); font: 700 8px "Space Grotesk", sans-serif; letter-spacing: .12em; background: var(--maize); padding: 3px 5px; transform: rotate(-2deg); }
+.subject-slip-mark { position: absolute; left: 19px; top: 11px; color: rgba(18,40,63,.35); font: 700 8px "Space Grotesk", sans-serif; letter-spacing: .11em; }
+.subject-card.subject-active::before { content: ""; }
+.mode-panel { position: relative; padding-top: 47px; }
+.mode-panel-stamp { position: absolute; top: -15px; right: 31px; padding: 6px 9px; color: var(--ink); background: var(--maize); font: 800 9px "Space Grotesk", sans-serif; letter-spacing: .14em; transform: rotate(2deg); box-shadow: 3px 3px 0 rgba(18,40,63,.16); }
+.progress-strip { position: relative; padding-top: 43px; }
+.progress-stamp { position: absolute; left: 0; top: 12px; }
+.progress-mark { color: var(--ink); }
+.progress-mark svg { color: var(--maize); }
+.result-kicker { color: var(--ink) !important; }
+
+@media (max-width: 900px) {
+  .section-side-note { align-items: flex-start; margin-top: 11px; }
+}
+
+@media (max-width: 620px) {
+  .subject-card:nth-child(2), .subject-card:nth-child(4) { margin-top: 0; }
+  .mode-panel { padding-top: 22px; }
+  .mode-panel-stamp { top: -12px; right: 15px; font-size: 8px; }
+  .progress-strip { padding-top: 43px; }
+}
