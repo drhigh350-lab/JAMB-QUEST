@@ -9,6 +9,7 @@ import { systemRouter } from "./_core/systemRouter";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
 
 const subjectSchema = z.enum(["Use of English", "Biology", "Chemistry", "Physics"]);
+const roundSubjectSchema = z.union([subjectSchema, z.literal("Full JAMB Mock")]);
 
 export const appRouter = router({
   system: systemRouter,
@@ -40,13 +41,29 @@ export const appRouter = router({
     })).mutation(({ ctx, input }) => upsertPushSubscription(ctx.user.id, ctx.user.name ?? null, JSON.stringify(input))),
     disablePush: protectedProcedure.mutation(({ ctx }) => disablePushSubscriptions(ctx.user.id, ctx.user.name ?? null)),
     recordRound: protectedProcedure.input(z.object({
-      subject: subjectSchema,
+      subject: roundSubjectSchema,
       mode: z.enum(["sprint", "cbt", "review"]),
       questionCount: z.number().int().min(1).max(100),
       correctCount: z.number().int().min(0).max(100),
       score: z.number().int().min(0).max(100_000),
       wrongIds: z.array(z.string().min(1).max(128)).max(100),
-    })).mutation(({ ctx, input }) => recordLearnerRound(ctx.user.id, ctx.user.name ?? null, input)),
+      durationSeconds: z.number().int().min(0).max(21_600).default(0),
+      flaggedIds: z.array(z.string().min(1).max(128)).max(100).default([]),
+      answerReview: z.array(z.object({
+        questionId: z.string().min(1).max(128),
+        subject: subjectSchema,
+        topic: z.string().min(1).max(160),
+        selectedIndex: z.number().int().min(0).max(3).nullable(),
+        correct: z.boolean(),
+        timedOut: z.boolean(),
+        flagged: z.boolean(),
+      })).max(100).default([]),
+    })).mutation(({ ctx, input }) => recordLearnerRound(ctx.user.id, ctx.user.name ?? null, {
+      ...input,
+      durationSeconds: input.durationSeconds ?? 0,
+      flaggedIds: input.flaggedIds ?? [],
+      answerReview: input.answerReview ?? [],
+    })),
   }),
   questionSources: router({
     list: publicProcedure.query(() => getQuestionSourceCatalogue()),

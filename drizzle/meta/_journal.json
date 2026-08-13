@@ -43,6 +43,13 @@
       "when": 1786648221845,
       "tag": "0005_tiny_gorilla_man",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1786659155463,
+      "tag": "0006_bent_puff_adder",
+      "breakpoints": true
     }
   ]
 }

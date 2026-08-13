@@ -5,6 +5,8 @@ import { httpBatchLink, TRPCClientError } from "@trpc/client";
 import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
+import CbtFlowFixture from "./e2e/CbtFlowFixture";
+import ProgressAnalyticsFixture from "./e2e/ProgressAnalyticsFixture";
 import QuizFlowFixture from "./e2e/QuizFlowFixture";
 import { startLogin } from "./const";
 import "./index.css";
@@ -74,11 +76,13 @@ const trpcClient = trpc.createClient({
 });
 
 const isQuizFlowFixture = new URLSearchParams(window.location.search).get("e2eQuizFixture") === "1";
+const isCbtFlowFixture = new URLSearchParams(window.location.search).get("e2eCbtFixture") === "1";
+const isProgressAnalyticsFixture = new URLSearchParams(window.location.search).get("e2eProgressAnalyticsFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isQuizFlowFixture ? <QuizFlowFixture /> : <App />}
+      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

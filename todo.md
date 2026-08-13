@@ -35,6 +35,12 @@
 - [x] Keep source provenance visible and do not represent owner-provided material as official JAMB wording without verification.
 - [x] Verify installation, offline app-shell behavior, cached model-bank gameplay, and authorisation-source separation before delivery.
 - [x] Add a persistent mobile-friendly tab bar for Practice, Progress, Profile, and About.
+- [x] Add a standard timed CBT exam mode with subject mix, question navigator, flagged questions, submit confirmation, and a full answer-review screen.
+- [x] Add learner performance charts and persistent exam/practice logs showing score trend, subject accuracy, timing, and weak-topic recovery.
+- [x] Add a CBT submit-confirmation step before entering final answer review, with browser-flow coverage.
+- [x] Add a dedicated weak-topic recovery panel derived from persisted answer-review data and verify the Progress analytics view in the browser.
+- [x] Inspect and stage the newly supplied Lekki Headmaster and JAMB Idioms PDFs with verification-pending provenance; do not add unvalidated items to gameplay.
+- [ ] Apply the user's forthcoming rich-explanation examples as the quality standard before enriching the next question batch.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.
@@ -111,4 +117,4 @@
 - [x] Verify one staged Lekki Headmaster record end to end: internal provenance remains verification-pending and the learner-facing card still shows only the uniform topic context and explanation format.
 - [x] Correct the Lekki Headmaster parser to align answer keys by chapter sequence rather than unreliable OCR printed numbers, and reject or report chapter coverage anomalies before staging.
 
-- [ ] Keep the Lekki Headmaster source inactive and paused until the user supplies a cleaner source file with reliable answer-key alignment and question-specific explanations.
+- [x] Keep the Lekki Headmaster source inactive and paused until the user supplies a cleaner source file with reliable answer-key alignment and question-specific explanations.

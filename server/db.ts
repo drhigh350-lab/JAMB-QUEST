@@ -53,6 +53,7 @@ export type LearnerDashboard = {
     badges: string[];
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean };
+  performance: { weakTopics: Array<{ topic: string; misses: number; attempts: number; accuracy: number }> };
   recentRounds: Array<{
     id: number;
     subject: string;
@@ -60,6 +61,8 @@ export type LearnerDashboard = {
     questionCount: number;
     correctCount: number;
     score: number;
+    durationSeconds: number;
+    flaggedCount: number;
     completedAt: Date;
   }>;
 };
@@ -71,6 +74,9 @@ export type RoundRecordInput = {
   correctCount: number;
   score: number;
   wrongIds: string[];
+  durationSeconds: number;
+  flaggedIds: string[];
+  answerReview: Array<{ questionId: string; subject: string; topic: string; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean }>;
 };
 
 const EMPTY_LEDGER: LedgerSnapshot = {
@@ -172,6 +178,21 @@ function parseScoreMap(raw: string | null): Record<string, number> {
   }
 }
 
+function parseAnswerReview(raw: string | null): Array<{ topic: string; correct: boolean }> {
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.flatMap((entry) => {
+      if (!entry || typeof entry !== "object") return [];
+      const value = entry as { topic?: unknown; correct?: unknown };
+      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ topic: value.topic, correct: value.correct }] : [];
+    });
+  } catch {
+    return [];
+  }
+}
+
 export function buildLedgerSnapshot(input: {
   totalAnswered?: number;
   totalCorrect?: number;
@@ -235,6 +256,14 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const timeZone = profile?.timeZone ?? "Africa/Lagos";
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
+  const weakTopicMap = new Map<string, { misses: number; attempts: number }>();
+  rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
+    const current = weakTopicMap.get(answer.topic) ?? { misses: 0, attempts: 0 };
+    current.attempts += 1;
+    if (!answer.correct) current.misses += 1;
+    weakTopicMap.set(answer.topic, current);
+  });
+  const weakTopics = Array.from(weakTopicMap.entries()).map(([topic, value]) => ({ topic, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
   const today = activities.find((activity) => activity.dateKey === dateKey);
   const completedDays = recentActivity.filter((activity) => activity.completedMinimum).length;
 
@@ -267,6 +296,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       badges: achievements.map((achievement) => achievement.badgeKey),
     },
     reminder: { enabled: Boolean(reminder?.enabled), reminderTime: reminder?.reminderTime ?? "19:00", pushEnabled: Boolean(pushSubscription?.enabled) },
+    performance: { weakTopics },
     recentRounds: rounds.reverse().map((round) => ({
       id: round.id,
       subject: round.subject,
@@ -274,6 +304,8 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       questionCount: round.questionCount,
       correctCount: round.correctCount,
       score: round.score,
+      durationSeconds: round.durationSeconds,
+      flaggedCount: parseStringList(round.flaggedQuestionIds).length,
       completedAt: round.completedAt,
     })),
   };
@@ -296,7 +328,7 @@ export async function recordLearnerRound(userId: number, fallbackName: string | 
   const [system] = await db.select().from(learnerSystems).where(eq(learnerSystems.userId, userId)).limit(1);
   const current = buildLedgerSnapshot(stored);
   const newWrongIds = Array.from(new Set([...current.wrongIds, ...input.wrongIds.filter((id) => typeof id === "string")])).slice(-80);
-  const subjectBest = { ...current.subjectBest, [input.subject]: Math.max(current.subjectBest[input.subject] ?? 0, input.score) };
+  const subjectBest = input.subject === "Full JAMB Mock" ? current.subjectBest : { ...current.subjectBest, [input.subject]: Math.max(current.subjectBest[input.subject] ?? 0, input.score) };
 
   await db.update(learnerProgress).set({
     totalAnswered: current.totalAnswered + input.questionCount,
@@ -315,6 +347,9 @@ export async function recordLearnerRound(userId: number, fallbackName: string | 
     questionCount: input.questionCount,
     correctCount: input.correctCount,
     score: input.score,
+    durationSeconds: input.durationSeconds,
+    flaggedQuestionIds: JSON.stringify(input.flaggedIds),
+    answerReviewJson: JSON.stringify(input.answerReview),
   });
 
   const timeZone = profile?.timeZone ?? "Africa/Lagos";

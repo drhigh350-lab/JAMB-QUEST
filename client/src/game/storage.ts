@@ -41,7 +41,9 @@ export function recordRound(
   const correct = roundAnswers.filter((answer) => answer.correct).length;
   const newWrongIds = questions.filter((question) => answers[question.id] && !answers[question.id].correct).map((question) => question.id);
   const subjectBest = { ...progress.subjectBest };
-  subjectBest[config.subject] = Math.max(subjectBest[config.subject] ?? 0, score);
+  if (config.subject !== "Full JAMB Mock") {
+    subjectBest[config.subject] = Math.max(subjectBest[config.subject] ?? 0, score);
+  }
   return {
     totalAnswered: progress.totalAnswered + roundAnswers.length,
     totalCorrect: progress.totalCorrect + correct,

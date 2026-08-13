@@ -15,9 +15,11 @@ interface QuestionCardProps {
   onSelect: (index: number) => void;
   onSubmit: () => void;
   onNext: () => void;
+  cbtMode?: boolean;
+  onSaveAndNext?: () => void;
 }
 
-export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext }: QuestionCardProps) {
+export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D"];
   const explanationLines = questionExplanationLines(question);
   return (
@@ -70,9 +72,9 @@ export function QuestionCard({ question, index, total, selectedIndex, answered, 
         </div>
       ) : (
         <div className="question-actions">
-          <p className="hint-line"><Clock3 size={15} /> Select an answer, then lock it in.</p>
-          <button className="button button-primary" onClick={onSubmit} disabled={selectedIndex === null}>
-            Submit answer <Send size={16} />
+          <p className="hint-line"><Clock3 size={15} /> {cbtMode ? "Your answer is saved. You can revisit or change it before final submission." : "Select an answer, then lock it in."}</p>
+          <button className="button button-primary" onClick={cbtMode ? onSaveAndNext : onSubmit} disabled={!cbtMode && selectedIndex === null}>
+            {cbtMode ? "Save & next" : "Submit answer"} <Send size={16} />
           </button>
         </div>
       )}

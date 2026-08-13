@@ -1,6 +1,6 @@
 /* Field Notes Arcade: the question bank is a remote, validated data layer rather than a visual placeholder. */
 
-import type { BankQuestion, QuizMode, Subject } from "./types";
+import type { BankQuestion, QuizMode, RoundSubject, Subject } from "./types";
 
 export const QUESTION_BANK_URL =
   "/manus-storage/jamb_high_yield_practice_bank_1000_biology_batches_1_5_759ba726.json";
@@ -37,11 +37,19 @@ function isBankQuestion(value: unknown): value is BankQuestion {
 
 export function selectQuestions(
   questions: BankQuestion[],
-  subject: Subject,
+  subject: RoundSubject,
   mode: QuizMode,
   count: number,
   wrongIds: string[],
 ): BankQuestion[] {
+  if (subject === "Full JAMB Mock") {
+    const perSubject = Math.floor(count / SUBJECTS.length);
+    const remainder = count % SUBJECTS.length;
+    return SUBJECTS.flatMap((currentSubject, index) => {
+      const selected = questions.filter((question) => question.subject === currentSubject);
+      return shuffle(selected).slice(0, perSubject + (index < remainder ? 1 : 0));
+    });
+  }
   const subjectQuestions = questions.filter((question) => question.subject === subject);
   const source = mode === "review" ? subjectQuestions.filter((question) => wrongIds.includes(question.id)) : subjectQuestions;
   return shuffle(source.length ? source : subjectQuestions).slice(0, Math.min(count, source.length || subjectQuestions.length));

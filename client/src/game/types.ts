@@ -1,8 +1,9 @@
 /* Field Notes Arcade: shared game vocabulary keeps quiz rules separate from the visual frame. */
 
 export type Subject = "Use of English" | "Biology" | "Chemistry" | "Physics";
+export type RoundSubject = Subject | "Full JAMB Mock";
 export type QuizMode = "sprint" | "cbt" | "review";
-export type GameScreen = "home" | "quiz" | "result";
+export type GameScreen = "home" | "quiz" | "result" | "exam-review";
 
 export interface BankQuestion {
   id: string;
@@ -30,7 +31,7 @@ export interface QuestionBankPayload {
 }
 
 export interface RoundConfig {
-  subject: Subject;
+  subject: RoundSubject;
   mode: QuizMode;
   count: number;
 }
@@ -39,6 +40,16 @@ export interface AnswerRecord {
   selectedIndex: number | null;
   correct: boolean;
   timedOut: boolean;
+}
+
+export interface ExamReviewRecord {
+  questionId: string;
+  subject: Subject;
+  topic: string;
+  selectedIndex: number | null;
+  correct: boolean;
+  timedOut: boolean;
+  flagged: boolean;
 }
 
 export interface StoredProgress {

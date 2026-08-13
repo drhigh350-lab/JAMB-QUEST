@@ -67,6 +67,9 @@ export const quizRounds = mysqlTable("quizRounds", {
   questionCount: int("questionCount").notNull(),
   correctCount: int("correctCount").notNull(),
   score: int("score").notNull(),
+  durationSeconds: int("durationSeconds").notNull().default(0),
+  flaggedQuestionIds: text("flaggedQuestionIds"),
+  answerReviewJson: text("answerReviewJson"),
   completedAt: timestamp("completedAt").defaultNow().notNull(),
 });
 
