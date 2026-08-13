@@ -10,6 +10,8 @@ await page.evaluate(async () => navigator.serviceWorker.ready);
 await context.setOffline(true);
 await page.reload({ waitUntil: "domcontentloaded" });
 await page.getByRole("heading", { name: /smash 380/i }).waitFor();
+await page.getByRole("button", { name: "Practice", exact: true }).last().waitFor({ state: "visible" });
+await page.getByRole("button", { name: "About", exact: true }).last().waitFor({ state: "visible" });
 
 await context.setOffline(false);
 await browser.close();
