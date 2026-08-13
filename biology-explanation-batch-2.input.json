@@ -1,0 +1,624 @@
+[
+  {
+    "id": "BIO-026",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cell organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organelle controls the activities of a typical animal cell?",
+    "options": [
+      "Nucleus",
+      "Vacuole",
+      "Cell wall",
+      "Chloroplast"
+    ],
+    "answer_index": 0,
+    "answer_text": "Nucleus",
+    "explanation": "The nucleus contains genetic material and coordinates the activities of the cell.",
+    "tags": [
+      "cells",
+      "organelles"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-027",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organelle is the site of photosynthesis in plants?",
+    "options": [
+      "Chloroplast",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "answer_index": 0,
+    "answer_text": "Chloroplast",
+    "explanation": "Chloroplasts contain chlorophyll and carry out photosynthesis.",
+    "tags": [
+      "Cells and organelles",
+      "Plant biology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-028",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which level of organisation in multicellular organisms is formed when different tissues work together to perform a specific function?",
+    "options": [
+      "Cell",
+      "Tissue",
+      "Organ",
+      "System"
+    ],
+    "answer_index": 2,
+    "answer_text": "Organ",
+    "explanation": "An organ is made up of tissues that cooperate to perform a particular function.",
+    "tags": [
+      "Levels of organisation",
+      "Biology basics",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-029",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which concept best explains the evolutionary relationships among organisms used in modern classification?",
+    "options": [
+      "Taxonomy",
+      "Phylogeny",
+      "Binomial nomenclature",
+      "Kingdom grouping"
+    ],
+    "answer_index": 1,
+    "answer_text": "Phylogeny",
+    "explanation": "Phylogeny maps evolutionary relationships; classification increasingly reflects phylogeny.",
+    "tags": [
+      "Classification",
+      "Evolution",
+      "taxonomy",
+      "UTME"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-030",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In life-history terms, which strategy describes organisms that mature early and produce many offspring with little parental care?",
+    "options": [
+      "K-strategy",
+      "r-strategy",
+      "Logistic strategy",
+      "Stable strategy"
+    ],
+    "answer_index": 1,
+    "answer_text": "r-strategy",
+    "explanation": "r-strategists invest in many offspring with minimal parental care; K-strategists invest in fewer offspring with more parental care.",
+    "tags": [
+      "Life histories",
+      "Ecology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-031",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Adaptive colouration",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which colour pattern serves as camouflage to hide an organism from predators?",
+    "options": [
+      "Aposematic colouration",
+      "Camouflage",
+      "Mimicry",
+      "Warning colouration"
+    ],
+    "answer_index": 1,
+    "answer_text": "Camouflage",
+    "explanation": "Camouflage allows organisms to blend with their surroundings, reducing visibility to predators.",
+    "tags": [
+      "Adaptive colouration",
+      "Ecology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-032",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Structural/behavioural adaptation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which structural adaptation helps camels survive desert conditions?",
+    "options": [
+      "Thick fur over the entire body",
+      "Palmate leaves on feet",
+      "Fat stored in humps",
+      "Large eyes to scare predators"
+    ],
+    "answer_index": 2,
+    "answer_text": "Fat stored in humps",
+    "explanation": "Humps store fat, which can be metabolised for water and energy, aiding survival in arid climates.",
+    "tags": [
+      "Structural/behavioural adaptation",
+      "Animal adaptation",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-033",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which soil bacteria form nodules on legume roots and fix atmospheric nitrogen for the plant?",
+    "options": [
+      "Lactobacillus",
+      "Rhizobium",
+      "Streptococcus",
+      "Azotobacter"
+    ],
+    "answer_index": 1,
+    "answer_text": "Rhizobium",
+    "explanation": "Rhizobium forms nitrogen-fixing nodules on legume roots, enriching soil nitrogen.",
+    "tags": [
+      "Economic importance",
+      "Nitrogen fixation",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-034",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Plants are characterised by which of the following features?",
+    "options": [
+      "Chlorophyll in chloroplasts and cellulose cell walls",
+      "Ability to move rapidly",
+      "External skeletons",
+      "Lack of cells"
+    ],
+    "answer_index": 0,
+    "answer_text": "Chlorophyll in chloroplasts and cellulose cell walls",
+    "explanation": "Plants are photosynthetic and have cellulose cell walls; they do not have external skeletons.",
+    "tags": [
+      "Classification",
+      "Plants",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-035",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "The ribosome is primarily involved in which cellular function?",
+    "options": [
+      "Packaging of proteins",
+      "Protein synthesis",
+      "ATP production",
+      "Waste breakdown"
+    ],
+    "answer_index": 1,
+    "answer_text": "Protein synthesis",
+    "explanation": "Ribosomes synthesize proteins from amino acids.",
+    "tags": [
+      "Cells and organelles",
+      "Protein synthesis",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-036",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "An organ is composed of which of the following?",
+    "options": [
+      "Tissues",
+      "Cells",
+      "Organs",
+      "Systems"
+    ],
+    "answer_index": 0,
+    "answer_text": "Tissues",
+    "explanation": "An organ is made up of tissues that perform coordinated functions.",
+    "tags": [
+      "Levels of organisation",
+      "Biology basics",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-037",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Characteristics of life",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which process maintains stable internal conditions in an organism?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Homeostasis",
+      "Assimilation"
+    ],
+    "answer_index": 2,
+    "answer_text": "Homeostasis",
+    "explanation": "Homeostasis keeps internal conditions within narrow limits; other processes are essential but do not denote regulation.",
+    "tags": [
+      "Characteristics of life",
+      "Homeostasis",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-038",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which life-history trait describes high parental care and relatively few offspring?",
+    "options": [
+      "r-strategy",
+      "K-strategy",
+      "Malthusian strategy",
+      "Strategic stasis"
+    ],
+    "answer_index": 1,
+    "answer_text": "K-strategy",
+    "explanation": "K-strategists invest in few offspring with high parental care; r-strategists produce many offspring with little care.",
+    "tags": [
+      "Life histories",
+      "Ecology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-039",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which domain includes organisms that are prokaryotic and often inhabit extreme environments?",
+    "options": [
+      "Bacteria",
+      "Eukarya",
+      "Archaea",
+      "Protozoa"
+    ],
+    "answer_index": 2,
+    "answer_text": "Archaea",
+    "explanation": "Archaea are prokaryotic and frequently found in extreme environments; bacteria are prokaryotic but not restricted to extremes.",
+    "tags": [
+      "Classification",
+      "Domains",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-040",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Adaptive colouration",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which type of colouration involves warning predators that an animal is toxic?",
+    "options": [
+      "Camouflage",
+      "Aposematic colouration",
+      "Mimicry",
+      "Disruptive colouring"
+    ],
+    "answer_index": 1,
+    "answer_text": "Aposematic colouration",
+    "explanation": "Aposematic colouration serves as a warning signal to predators about toxicity.",
+    "tags": [
+      "Adaptive colouration",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-041",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organism is commonly used in bread making due to fermentation producing carbon dioxide?",
+    "options": [
+      "Lactobacillus",
+      "Saccharomyces cerevisiae",
+      "Penicillium notatum",
+      "Aspergillus niger"
+    ],
+    "answer_index": 1,
+    "answer_text": "Saccharomyces cerevisiae",
+    "explanation": "Saccharomyces cerevisiae ferments sugars in dough, producing CO2 that leavens bread.",
+    "tags": [
+      "Economic importance",
+      "Fermentation",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-042",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organelle is the primary site of cellular respiration and ATP production?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Chloroplast",
+      "Golgi apparatus"
+    ],
+    "answer_index": 1,
+    "answer_text": "Mitochondrion",
+    "explanation": "Mitochondria generate ATP through respiration.",
+    "tags": [
+      "Cells and organelles",
+      "Mitochondria",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-043",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which level of organisation includes all the living members of different species interacting in an area?",
+    "options": [
+      "Population",
+      "Community",
+      "Ecosystem",
+      "Habitat"
+    ],
+    "answer_index": 1,
+    "answer_text": "Community",
+    "explanation": "A community comprises all living organisms in an area; ecosystem includes the physical environment as well.",
+    "tags": [
+      "Levels of organisation",
+      "Ecology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-044",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which taxonomic rank comes directly above genus?",
+    "options": [
+      "Species",
+      "Family",
+      "Order",
+      "Phylum"
+    ],
+    "answer_index": 1,
+    "answer_text": "Family",
+    "explanation": "Family is the taxonomic rank above genus in the hierarchy.",
+    "tags": [
+      "Classification",
+      "Taxonomy",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-045",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In a population that approaches its carrying capacity, which pattern of population growth is most likely observed?",
+    "options": [
+      "Exponential growth",
+      "Logistic growth",
+      "Arithmetic growth",
+      "Geometric growth"
+    ],
+    "answer_index": 1,
+    "answer_text": "Logistic growth",
+    "explanation": "Logistic growth shows slowing as resources become limiting near carrying capacity.",
+    "tags": [
+      "Life histories",
+      "Population ecology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-046",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Structural/behavioural adaptation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which structural adaptation reduces water loss in desert animals?",
+    "options": [
+      "Waxy cuticle on skin",
+      "Large ears with hair",
+      "Bright plumage",
+      "Long, slender legs"
+    ],
+    "answer_index": 0,
+    "answer_text": "Waxy cuticle on skin",
+    "explanation": "A waxy cuticle reduces water loss through evaporation.",
+    "tags": [
+      "Structural/behavioural adaptation",
+      "Desert biology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-047",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which fungus is historically important for producing penicillin?",
+    "options": [
+      "Penicillium notatum",
+      "Saccharomyces cerevisiae",
+      "Aspergillus niger",
+      "Rhizopus stolonifer"
+    ],
+    "answer_index": 0,
+    "answer_text": "Penicillium notatum",
+    "explanation": "Penicillium notatum is the classic Penicillium species associated with penicillin production.",
+    "tags": [
+      "Economic importance",
+      "Antibiotics",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-048",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Fungi are best characterised by which feature?",
+    "options": [
+      "Chlorophyll-containing cells",
+      "Cell walls made of cellulose",
+      "Heterotrophic nutrition and chitin in cell walls",
+      "Chitin-free cell walls"
+    ],
+    "answer_index": 2,
+    "answer_text": "Heterotrophic nutrition and chitin in cell walls",
+    "explanation": "Fungi are heterotrophic and have chitin in their cell walls.",
+    "tags": [
+      "Classification",
+      "Fungi",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-049",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which feature distinguishes eukaryotic cells from prokaryotic cells?",
+    "options": [
+      "Presence of a nucleus",
+      "Lack of ribosomes",
+      "Absence of DNA",
+      "Smaller size"
+    ],
+    "answer_index": 0,
+    "answer_text": "Presence of a nucleus",
+    "explanation": "Eukaryotic cells possess a true nucleus; prokaryotes lack a membrane-bound nucleus.",
+    "tags": [
+      "Cells and organelles",
+      "Cell biology",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-050",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organism forms nodules on legume roots and fixes atmospheric nitrogen, improving soil fertility?",
+    "options": [
+      "Rhizobium",
+      "Azotobacter",
+      "Streptomyces",
+      "Nostoc"
+    ],
+    "answer_index": 0,
+    "answer_text": "Rhizobium",
+    "explanation": "Rhizobium forms nitrogen-fixing nodules on legume roots, enriching soil nitrogen.",
+    "tags": [
+      "Economic importance",
+      "Nitrogen fixation",
+      "UTME",
+      "Nigeria"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  }
+]

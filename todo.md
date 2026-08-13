@@ -74,3 +74,8 @@
 
 - [x] Source the component-level QuestionCard verification directly from the generated Biology pilot asset so the test covers the real integrated data-to-UI path.
 
+- [x] Generate and quality-check Biology explanation batch 2 with the same structured six-sentence contract before integration.
+- [x] Integrate only the approved Biology batch 2 records and rerun real-asset and component-level verification.
+
+- [x] Point the QuestionCard component test at a batch-2 Biology record from the combined batches-1-and-2 asset and assert topic-only context plus six enriched lines.
+
