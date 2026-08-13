@@ -7,13 +7,16 @@ import superjson from "superjson";
 import App from "./App";
 import CbtFlowFixture from "./e2e/CbtFlowFixture";
 import ProgressAnalyticsFixture from "./e2e/ProgressAnalyticsFixture";
+import ReadyQuestionCountFixture from "./e2e/ReadyQuestionCountFixture";
 import QuizFlowFixture from "./e2e/QuizFlowFixture";
 import { startLogin } from "./const";
 import "./index.css";
 
 const queryClient = new QueryClient();
+const isRealCountProbe = new URLSearchParams(window.location.search).get("e2eRealCountProbe") === "1";
 
 const redirectToLoginIfUnauthorized = (error: unknown) => {
+  if (isRealCountProbe) return;
   if (!(error instanceof TRPCClientError)) return;
   if (typeof window === "undefined") return;
 
@@ -78,11 +81,12 @@ const trpcClient = trpc.createClient({
 const isQuizFlowFixture = new URLSearchParams(window.location.search).get("e2eQuizFixture") === "1";
 const isCbtFlowFixture = new URLSearchParams(window.location.search).get("e2eCbtFixture") === "1";
 const isProgressAnalyticsFixture = new URLSearchParams(window.location.search).get("e2eProgressAnalyticsFixture") === "1";
+const isReadyQuestionCountFixture = new URLSearchParams(window.location.search).get("e2eReadyQuestionCountFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : <App />}
+      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

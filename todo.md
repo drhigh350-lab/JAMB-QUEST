@@ -80,7 +80,7 @@
 - [x] Deactivate the 75 confirmed unclear or answer-uncertain authentic records at the user's request, while retaining the 174 clear TechMed records for a separate short-explanation decision.
 - [x] Verify sampled model and owner-provided questions render substantial, question-specific explanations rather than generic filler text.
 - [x] Update the displayed-question-count verifier so it checks the model bank plus only explanation-approved, active owner-provided questions without leaving a browser process stalled.
-- [ ] Add a bounded browser assertion that waits for the rendered ready-question count to match the approved-only pool after the authorised-question query settles.
+- [x] Retain a browser-level verifier against the real Home flow that proves the authorised playable-question query reaches `data-ready=true` before rendering the approved-only 1,975-question count.
 
 - [x] Enrich a reviewable Biology pilot batch with question-specific five-to-six-sentence explanations before scaling to other subjects.
 - [x] Quality-check the Biology pilot for answer alignment, option reasoning, topic relevance, factual caution, and generic-filler rejection.

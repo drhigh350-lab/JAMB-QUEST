@@ -11,6 +11,8 @@ const baseProps = {
   onRetryLoad: vi.fn(),
   onStart: vi.fn(),
   questionSources: [],
+  examHistory: [],
+  weakTopics: [],
   auth: { loading: false, isAuthenticated: false, profileName: "Learner", targetScore: 380, onLogout: vi.fn(), onSaveProfile: vi.fn(), savingProfile: false },
   onUpdateDailyMinimum: vi.fn(),
   onEnablePush: vi.fn(),
@@ -22,10 +24,10 @@ const baseProps = {
 
 describe("ready question count", () => {
   it("renders the settled approved-only total through a stable ready-count hook", () => {
-    const html = renderToStaticMarkup(React.createElement(Home, { ...baseProps, questionCount: 1046, questionCountReady: true }));
+    const html = renderToStaticMarkup(React.createElement(Home, { ...baseProps, questionCount: 1975, questionCountReady: true }));
     expect(html).toContain('data-testid="ready-question-count"');
     expect(html).toContain('data-ready="true"');
-    expect(html).toContain("1,046 questions ready");
+    expect(html).toContain("1,975 questions ready");
   });
 
   it("marks the count as unsettled while the authorised-question query is still loading", () => {
