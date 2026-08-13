@@ -40,5 +40,5 @@
 - [x] Exercise all four tab panels at desktop and phone sizes, checking for overlap, dead ends, and misplaced fixed navigation.
 - [x] Exercise the signed-in Profile tab flow and confirm that profile editing, push controls, installation controls, and logout remain reachable.
 - [x] Fix the deployed PWA update path so the fixed bottom tab navigation appears on existing browser and installed-app sessions.
-- [ ] Verify the live production app shows the fixed bottom tab bar after a service-worker update, without requiring manual cache clearing.
-- [ ] Reproduce and document an old-cache-to-new-worker production upgrade that refreshes the fixed tab bar without manual cache clearing.
+- [x] Verify the live production app shows the fixed bottom tab bar after a service-worker update, without requiring manual cache clearing.
+- [x] Reproduce and document an old-cache-to-new-worker production upgrade that refreshes the fixed tab bar without manual cache clearing.

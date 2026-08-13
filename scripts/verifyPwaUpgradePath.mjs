@@ -5,11 +5,6 @@ const browser = await chromium.launch({ headless: true, executablePath: "/usr/bi
 const context = await browser.newContext({ viewport: { width: 375, height: 812 } });
 const page = await context.newPage();
 
-await page.goto(baseUrl, { waitUntil: "networkidle" });
-await page.evaluate(async () => {
-  const registration = await navigator.serviceWorker.getRegistration();
-  await registration?.unregister();
-});
 await page.goto(`${baseUrl}/?swUpgradeFixture=legacy`, { waitUntil: "networkidle" });
 await page.waitForFunction(() => navigator.serviceWorker.controller?.scriptURL.includes("upgradeFixture=legacy"));
 const legacyController = await page.evaluate(() => navigator.serviceWorker.controller?.scriptURL.includes("upgradeFixture=legacy"));
