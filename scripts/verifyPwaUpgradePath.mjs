@@ -13,11 +13,11 @@ await page.evaluate(async () => {
 await page.reload({ waitUntil: "networkidle" });
 
 await page.evaluate(async () => {
-  await navigator.serviceWorker.register("/sw-upgrade-test.js");
+  await navigator.serviceWorker.register("/sw.js?upgradeFixture=legacy");
   await navigator.serviceWorker.ready;
 });
 await page.reload({ waitUntil: "networkidle" });
-const legacyController = await page.evaluate(() => navigator.serviceWorker.controller?.scriptURL.includes("sw-upgrade-test.js"));
+const legacyController = await page.evaluate(() => navigator.serviceWorker.controller?.scriptURL.includes("upgradeFixture=legacy"));
 if (!legacyController) throw new Error("Legacy service-worker fixture did not control the page.");
 
 const reloadAfterUpgrade = page.waitForEvent("framenavigated", (frame) => frame === page.mainFrame());

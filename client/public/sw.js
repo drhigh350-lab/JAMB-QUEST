@@ -1,6 +1,7 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
-const CACHE_NAME = "jamb-quest-shell-v2";
+const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v2";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
 self.addEventListener("install", (event) => {
@@ -8,7 +9,12 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith("jamb-quest-") && key !== CACHE_NAME).map((key) => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith("jamb-quest-") && key !== CACHE_NAME).map((key) => caches.delete(key)))).then(async () => {
+    await self.clients.claim();
+    if (UPGRADE_TEST_LEGACY) return;
+    const openWindows = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+    await Promise.all(openWindows.map((client) => client.navigate(client.url).catch(() => undefined)));
+  }));
 });
 
 self.addEventListener("message", (event) => {
