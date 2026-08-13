@@ -35,7 +35,7 @@ function flush() {
   }
   if (current.questionText && options.length === 4 && answerIndex >= 0 && answerIndex < 4) {
     parsed.push({
-      externalId: `${sourceFile.replace(/[^a-z0-9]+/gi, "-")}-${current.number}`,
+      externalId: `${sourceFile.replace(/[^a-z0-9]+/gi, "-")}-${(current.subject ?? subject ?? "unclassified").replace(/[^a-z0-9]+/gi, "-")}-${current.number}`,
       subject: current.subject ?? subject ?? "Unclassified",
       topic: "To be tagged during syllabus mapping",
       difficulty: "medium",
