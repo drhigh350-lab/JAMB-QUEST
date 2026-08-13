@@ -42,6 +42,18 @@
 - [x] Fix the deployed PWA update path so the fixed bottom tab navigation appears on existing browser and installed-app sessions.
 - [x] Verify the live production app shows the fixed bottom tab bar after a service-worker update, without requiring manual cache clearing.
 - [x] Reproduce and document an old-cache-to-new-worker production upgrade that refreshes the fixed tab bar without manual cache clearing.
-- [ ] Import the staged owner-provided Biology Markdown batch into gameplay under a distinct verification-pending source label.
-- [ ] Add a repeatable Markdown-source intake path that validates, deduplicates, labels, and reports each new owner-provided question batch on the route to 10,000 questions.
-- [ ] Research public feature patterns in leading JAMB study apps and write a differentiated, non-copying product roadmap for JAMB Quest.
+- [x] Import the staged owner-provided Biology Markdown batch into gameplay under a distinct verification-pending source label.
+- [x] Add a repeatable Markdown-source intake path that validates, deduplicates, labels, and reports each new owner-provided question batch on the route to 10,000 questions.
+- [x] Research public feature patterns in leading JAMB study apps and write a differentiated, non-copying product roadmap for JAMB Quest.
+- [x] Reconcile the legacy JAMB Mock mixed-subject import by removing duplicate Biology rows and restoring correct per-source question totals.
+- [x] Add and run an end-to-end mixed-subject Markdown import verification proving subject-aware source labels, unique external IDs, and no duplicate playable rows after reruns.
+- [x] Re-verify the displayed total question count after database reconciliation so the live bank count reflects actual unique playable records.
+
+- [x] Add a DB-backed end-to-end verification for mixed-subject Markdown reruns that imports or re-imports a fixture and asserts correct source labels plus zero duplicate question items afterward.
+- [x] Verify in the browser or with an automated page assertion that the displayed total question count matches the reconciled database-backed total after duplicate cleanup, and fix the count source if stale.
+
+- [x] Execute the Markdown importer twice against a controlled mixed-subject fixture and assert unchanged counts, correct source labels, and zero duplicate question items after the second run.
+- [x] Add a database-backed full playable-bank total query and make the browser assertion compare the rendered question count against that verified total rather than a hardcoded number.
+
+- [x] Extend the rerun verification to assert expected TechMed provenance labels and per-label counts after the second importer run, then rerun it successfully.
+
