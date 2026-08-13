@@ -48,7 +48,8 @@
 - [x] Add an explicit revision-planner panel that converts weak topics, saved questions, and recent CBT comparison into an ordered next-study plan.
 - [x] Handle unavailable bookmark and topic-drill records safely without falling back to unrelated subject questions.
 - [ ] Add an authenticated browser/DB-backed flow that saves a question, confirms it appears in Progress, and reopens that exact question.
-- [ ] Prepare the rich-question intake workflow to preserve the user's supplied explanation style when the next batch arrives.
+- [x] Prepare the rich-question intake workflow to preserve the user's supplied explanation style when the next batch arrives.
+- [x] Preserve multiline rich explanations and supplied topic headings through Markdown parsing without changing their instructional wording.
 - [x] Inspect and stage the newly supplied Lekki Headmaster and JAMB Idioms PDFs with verification-pending provenance; do not add unvalidated items to gameplay.
 - [ ] Apply the user's forthcoming rich-explanation examples as the quality standard before enriching the next question batch.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
