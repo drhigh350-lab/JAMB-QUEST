@@ -1,0 +1,37 @@
+{
+  "name": "JAMB Quest — Comeback System",
+  "short_name": "JAMB Quest",
+  "description": "An installable JAMB practice game built around small daily systems for a 380 comeback.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f2e6",
+  "theme_color": "#f7f2e6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/manus-storage/jamb-quest-icon-192_ed1eeeb2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/manus-storage/jamb-quest-icon-512_23766a78.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/manus-storage/jamb-quest-icon-maskable-192_638c27ad.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/manus-storage/jamb-quest-icon-maskable-512_543a8655.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

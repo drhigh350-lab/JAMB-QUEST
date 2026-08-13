@@ -1,6 +1,6 @@
 /* Field Notes Arcade: React is the picture frame; quiz state and data stay in focused game modules. */
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -14,12 +14,21 @@ import type { StoredProgress } from "./game/types";
 import { urlBase64ToUint8Array } from "./lib/push";
 import "./comeback.css";
 
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+}
+
 function App() {
   const { user, loading: authLoading, isAuthenticated, logout } = useAuth();
   const utils = trpc.useUtils();
   const dashboardQuery = trpc.learner.dashboard.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const sourceQuery = trpc.questionSources.list.useQuery();
+  const authorisedQuestionsQuery = trpc.questions.authorisedPlayable.useQuery(undefined, { retry: false });
   const [pushStatus, setPushStatus] = useState<"idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed">("idle");
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [installStatus, setInstallStatus] = useState<"idle" | "installing" | "installed" | "dismissed">("idle");
+  const [isOnline, setIsOnline] = useState(() => typeof navigator === "undefined" || navigator.onLine);
   const pushKeyQuery = trpc.push.publicKey.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const updateProfile = trpc.learner.updateProfile.useMutation({
     onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard),
@@ -43,7 +52,7 @@ function App() {
   const handleRoundComplete = useCallback((payload: Parameters<typeof recordRound.mutate>[0]) => {
     if (isAuthenticated) recordRound.mutate(payload);
   }, [isAuthenticated, recordRound]);
-  const game = useQuizGame({ remoteProgress, onRoundComplete: handleRoundComplete });
+  const game = useQuizGame({ remoteProgress, onRoundComplete: handleRoundComplete, additionalQuestions: authorisedQuestionsQuery.data ?? [] });
   const profileName = dashboardQuery.data?.profile.displayName ?? user?.name ?? "Learner";
   const setupBrowserPush = useCallback(async () => {
     if (!isAuthenticated || !("serviceWorker" in navigator) || !("PushManager" in window) || !("Notification" in window)) {
@@ -79,9 +88,43 @@ function App() {
       onError: () => setPushStatus("failed"),
     });
   }, [disablePush, updateReminder]);
+  useEffect(() => {
+    if (!("serviceWorker" in navigator)) return;
+    void navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+  }, []);
+  useEffect(() => {
+    const handleBeforeInstall = (event: Event) => {
+      event.preventDefault();
+      setInstallPrompt(event as BeforeInstallPromptEvent);
+    };
+    const handleInstalled = () => {
+      setInstallPrompt(null);
+      setInstallStatus("installed");
+    };
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    window.addEventListener("beforeinstallprompt", handleBeforeInstall);
+    window.addEventListener("appinstalled", handleInstalled);
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", handleBeforeInstall);
+      window.removeEventListener("appinstalled", handleInstalled);
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
+  const installPwa = useCallback(async () => {
+    if (!installPrompt) return;
+    setInstallStatus("installing");
+    await installPrompt.prompt();
+    const choice = await installPrompt.userChoice;
+    setInstallPrompt(null);
+    setInstallStatus(choice.outcome === "accepted" ? "installed" : "dismissed");
+  }, [installPrompt]);
   return (
     <ErrorBoundary>
-      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionSources={sourceQuery.data ?? []} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} pushWorking={enablePush.isPending || disablePush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} />}
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionSources={sourceQuery.data ?? []} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} pushWorking={enablePush.isPending || disablePush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.nextQuestion} onQuit={game.quitRound} />
       )}

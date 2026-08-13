@@ -25,3 +25,11 @@
 - [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
 - [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
 - [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.
+- [x] Add an installable PWA manifest, app icons, service worker, and clear install affordance for supported devices.
+- [x] Cache the app shell and existing model question bank for resilient offline quiz play with a clear offline status.
+- [x] Add production-size 192px and 512px maskable PWA icon assets and reference them in the app manifest.
+- [x] Re-verify PWA installation metadata after adding platform-ready icon assets.
+- [x] Download and profile the confirmed 27 eligible owner-provided Drive PDFs across English, Biology, Chemistry, Physics, and one mixed JAMB simulation; exclude Mathematics from the current four-subject game scope.
+- [x] Parse, validate, deduplicate, and stage Drive-extracted questions under distinct owner-provided source labels without overwriting model questions.
+- [x] Keep source provenance visible and do not represent owner-provided material as official JAMB wording without verification.
+- [ ] Verify installation, offline app-shell behavior, cached model-bank gameplay, and authorisation-source separation before delivery.

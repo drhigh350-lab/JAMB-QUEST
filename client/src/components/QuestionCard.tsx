@@ -17,6 +17,7 @@ interface QuestionCardProps {
 
 export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D"];
+  const ownerProvided = question.tags.includes("owner-provided");
   return (
     <section className="question-card" aria-labelledby="question-title">
       <div className="question-card-topline">
@@ -24,6 +25,7 @@ export function QuestionCard({ question, index, total, selectedIndex, answered, 
           <span className="subject-chip">{question.subject}</span>
           <span className="meta-divider">/</span>
           <span>Question {String(index + 1).padStart(2, "0")} of {String(total).padStart(2, "0")}</span>
+          {ownerProvided && <span className="question-provenance">OWNER-PROVIDED · VERIFICATION PENDING</span>}
         </div>
         <span className={`difficulty difficulty-${question.difficulty}`}>{question.difficulty}</span>
       </div>

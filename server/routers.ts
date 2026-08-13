@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { disablePushSubscriptions, getLearnerDashboard, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { disablePushSubscriptions, getLearnerDashboard, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -50,6 +50,9 @@ export const appRouter = router({
   }),
   questionSources: router({
     list: publicProcedure.query(() => getQuestionSourceCatalogue()),
+  }),
+  questions: router({
+    authorisedPlayable: publicProcedure.query(() => getPlayableAuthorisedQuestions()),
   }),
   push: router({
     publicKey: publicProcedure.query(() => getWebPushPublicKey()),

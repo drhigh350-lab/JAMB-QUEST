@@ -20,9 +20,10 @@ export type RoundCompletionPayload = {
 type QuizGameOptions = {
   remoteProgress?: StoredProgress;
   onRoundComplete?: (payload: RoundCompletionPayload) => void;
+  additionalQuestions?: BankQuestion[];
 };
 
-export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions = {}) {
+export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestions = [] }: QuizGameOptions = {}) {
   const [questions, setQuestions] = useState<BankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -54,6 +55,15 @@ export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions
 
   useEffect(() => reload(), [reload]);
 
+  const playableQuestions = useMemo(() => {
+    const seen = new Set<string>();
+    return [...questions, ...additionalQuestions].filter((question) => {
+      if (seen.has(question.id)) return false;
+      seen.add(question.id);
+      return true;
+    });
+  }, [additionalQuestions, questions]);
+
   const remoteProgressKey = useMemo(() => (remoteProgress ? JSON.stringify(remoteProgress) : null), [remoteProgress]);
   useEffect(() => {
     if (remoteProgress) setProgress(remoteProgress);
@@ -81,8 +91,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions
 
   const startRound = useCallback(
     (config: RoundConfig) => {
-      if (!questions.length) return;
-      const picked = selectQuestions(questions, config.subject, config.mode, config.count, progress.wrongIds);
+      if (!playableQuestions.length) return;
+      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds);
       if (!picked.length) return;
       setRoundConfig(config);
       setRoundQuestions(picked);
@@ -95,7 +105,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions
       setStreak(0);
       setScreen("quiz");
     },
-    [progress.wrongIds, questions],
+    [playableQuestions, progress.wrongIds],
   );
 
   const submitAnswer = useCallback(
@@ -141,7 +151,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions
   }, [roundConfig, startRound]);
 
   return {
-    questions,
+    questions: playableQuestions,
     loading,
     loadError,
     reload,

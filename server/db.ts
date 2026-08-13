@@ -496,6 +496,63 @@ export async function getQuestionSourceCatalogue() {
   return db.select().from(questionSources);
 }
 
+type AuthorisedPlayableRow = {
+  id: number;
+  subject: string;
+  topic: string;
+  difficulty: "easy" | "medium" | "hard";
+  questionText: string;
+  optionsJson: string;
+  answerIndex: number;
+  explanation: string | null;
+  sourceLabel: string;
+};
+
+const PLAYABLE_SUBJECTS = new Set(["Use of English", "Biology", "Chemistry", "Physics"]);
+
+export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
+  if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
+  try {
+    const options = JSON.parse(row.optionsJson);
+    if (!Array.isArray(options) || options.length !== 4 || options.some((option) => typeof option !== "string" || !option.trim())) return null;
+    if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex > 3) return null;
+    return {
+      id: `authorised-${row.id}`,
+      subject: row.subject as "Use of English" | "Biology" | "Chemistry" | "Physics",
+      topic: row.topic,
+      subtopic: "Owner-provided source",
+      difficulty: row.difficulty,
+      question_type: "multiple_choice" as const,
+      question: row.questionText,
+      options,
+      answer_index: row.answerIndex,
+      answer_text: options[row.answerIndex],
+      explanation: row.explanation ?? "Answer mapped from the owner-provided source; verification-pending wording is labelled in the source ledger.",
+      tags: ["owner-provided", "verification-pending"],
+      source: row.sourceLabel,
+    };
+  } catch {
+    return null;
+  }
+}
+
+export async function getPlayableAuthorisedQuestions() {
+  const db = await getDb();
+  if (!db) return [];
+  const rows = await db.select({
+    id: questionItems.id,
+    subject: questionItems.subject,
+    topic: questionItems.topic,
+    difficulty: questionItems.difficulty,
+    questionText: questionItems.questionText,
+    optionsJson: questionItems.optionsJson,
+    answerIndex: questionItems.answerIndex,
+    explanation: questionItems.explanation,
+    sourceLabel: questionSources.label,
+  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(eq(questionSources.isActive, 1));
+  return rows.map(toPlayableAuthorisedQuestion).filter((question): question is NonNullable<typeof question> => question !== null);
+}
+
 export async function importAuthorisedQuestionSet(userId: number, input: AuthorisedQuestionImport) {
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
