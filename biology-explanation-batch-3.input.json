@@ -1,0 +1,601 @@
+[
+  {
+    "id": "BIO-051",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "flowering-plant and mammalian structures",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In a flowering plant, which tissue forms the outer protective layer of the root?",
+    "options": [
+      "Cortex",
+      "Epiblem",
+      "Epidermis",
+      "Endodermis"
+    ],
+    "answer_index": 2,
+    "answer_text": "Epidermis",
+    "explanation": "Epidermis is the outermost protective layer of the root and gives rise to root hairs, increasing surface area for absorption.",
+    "tags": [
+      "plant",
+      "root",
+      "tissue"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-052",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which reagent tests for lipids by forming a red-stained emulsion?",
+    "options": [
+      "Benedict's solution",
+      "Biuret reagent",
+      "Sudan III",
+      "Iodine solution"
+    ],
+    "answer_index": 2,
+    "answer_text": "Sudan III",
+    "explanation": "Sudan III stains lipids, forming a red-stained emulsion when fats are present.",
+    "tags": [
+      "nutrition",
+      "food tests",
+      "lipids"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-053",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which colour change indicates a positive Benedict's test for reducing sugars?",
+    "options": [
+      "Blue to brick-red",
+      "Blue to green",
+      "Blue to orange",
+      "Blue remains"
+    ],
+    "answer_index": 0,
+    "answer_text": "Blue to brick-red",
+    "explanation": "Benedict's solution is blue; a brick-red precipitate indicates reducing sugars are present.",
+    "tags": [
+      "nutrition",
+      "sugars",
+      "testing"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-054",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In humans, which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "options": [
+      "Pulmonary artery",
+      "Aorta",
+      "Pulmonary vein",
+      "Vena cava"
+    ],
+    "answer_index": 2,
+    "answer_text": "Pulmonary vein",
+    "explanation": "The pulmonary vein carries oxygenated blood from the lungs to the left atrium of the heart.",
+    "tags": [
+      "circulation",
+      "blood vessels",
+      "oxygen"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-055",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In plants, which tissue transports sugars from leaves to storage organs?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Cortex"
+    ],
+    "answer_index": 1,
+    "answer_text": "Phloem",
+    "explanation": "Phloem transports dissolved sugars (photosynthates) from sources like leaves to sinks such as storage tissues.",
+    "tags": [
+      "plant transport",
+      "phloem",
+      "sugars"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-056",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "respiration",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In aerobic respiration, which gas is required by cells?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer_index": 0,
+    "answer_text": "Oxygen",
+    "explanation": "Oxygen is used as the final electron acceptor in aerobic respiration to produce ATP.",
+    "tags": [
+      "respiration",
+      "gas exchange"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-057",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which part of the kidney filters blood to form urine?",
+    "options": [
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Glomerulus",
+      "Distal convoluted tubule"
+    ],
+    "answer_index": 2,
+    "answer_text": "Glomerulus",
+    "explanation": "Glomerulus filters blood; Bowman's capsule collects the filtrate to begin urine formation.",
+    "tags": [
+      "kidney",
+      "nephron",
+      "urine"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-058",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which hormone increases water reabsorption in the kidney to concentrate urine?",
+    "options": [
+      "Aldosterone",
+      "Antidiuretic hormone",
+      "Insulin",
+      "Adrenaline"
+    ],
+    "answer_index": 1,
+    "answer_text": "Antidiuretic hormone",
+    "explanation": "Antidiuretic hormone (ADH) increases water reabsorption in collecting ducts, concentrating urine.",
+    "tags": [
+      "kidney",
+      "hormones",
+      "homeostasis"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-059",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "support and movement",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which joint allows movement in all directions, such as in the shoulder?",
+    "options": [
+      "Hinge joint",
+      "Ball-and-socket joint",
+      "Pivot joint",
+      "Gliding joint"
+    ],
+    "answer_index": 1,
+    "answer_text": "Ball-and-socket joint",
+    "explanation": "Ball-and-socket joints permit multi-directional movement and rotation.",
+    "tags": [
+      "skeleton",
+      "joints",
+      "movement"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-060",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "reproduction",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "In humans, which hormone triggers ovulation?",
+    "options": [
+      "FSH",
+      "LH",
+      "Progesterone",
+      "Estrogen"
+    ],
+    "answer_index": 1,
+    "answer_text": "LH",
+    "explanation": "LH surge triggers ovulation from the ovary.",
+    "tags": [
+      "reproduction",
+      "hormones",
+      "ovulation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-061",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "growth",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which plant hormone is mainly responsible for stem elongation?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Gibberellin",
+      "Ethylene"
+    ],
+    "answer_index": 2,
+    "answer_text": "Gibberellin",
+    "explanation": "Gibberellins promote stem elongation by stimulating cell elongation and division.",
+    "tags": [
+      "plant hormones",
+      "growth",
+      "gibberellin"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-062",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nervous and hormonal coordination",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "The part of the brain that coordinates movement and balance is the cerebellum.",
+    "options": [
+      "Cerebrum",
+      "Medulla oblongata",
+      "Cerebellum",
+      "Hypothalamus"
+    ],
+    "answer_index": 2,
+    "answer_text": "Cerebellum",
+    "explanation": "The cerebellum governs balance and fine motor coordination.",
+    "tags": [
+      "brain",
+      "nervous system",
+      "coordination"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-063",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "sense organs",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "The structure that primarily controls pupil size is the iris.",
+    "options": [
+      "Retina",
+      "Lens",
+      "Iris",
+      "Cornea"
+    ],
+    "answer_index": 2,
+    "answer_text": "Iris",
+    "explanation": "The iris contains radial and circular muscles that dilate or constrict the pupil.",
+    "tags": [
+      "eye",
+      "sense organs",
+      "pupil"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-064",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "homeostasis",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "If blood glucose rises after a meal, which hormone lowers it?",
+    "options": [
+      "Glucagon",
+      "Insulin",
+      "Adrenaline",
+      "Thyroxine"
+    ],
+    "answer_index": 1,
+    "answer_text": "Insulin",
+    "explanation": "Insulin promotes uptake of glucose into cells and storage as glycogen, lowering blood glucose.",
+    "tags": [
+      "homeostasis",
+      "glucose",
+      "hormones"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-065",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "flowering-plant and mammalian structures",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which tissue in flowering plants transports water from roots to leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cambium",
+      "Cortex"
+    ],
+    "answer_index": 1,
+    "answer_text": "Xylem",
+    "explanation": "Xylem transports water and mineral ions in the transpiration stream.",
+    "tags": [
+      "plant structure",
+      "xylem",
+      "water transport"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-066",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Iodine turns blue-black in the presence of which substance?",
+    "options": [
+      "Starch",
+      "Protein",
+      "Fat",
+      "Reducing sugar"
+    ],
+    "answer_index": 0,
+    "answer_text": "Starch",
+    "explanation": "Iodine solution changes to blue-black when starch is present.",
+    "tags": [
+      "nutrition",
+      "starch",
+      "tests"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-067",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which blood vessel carries blood away from the heart to the body?",
+    "options": [
+      "Vein",
+      "Artery",
+      "Capillary",
+      "Venule"
+    ],
+    "answer_index": 1,
+    "answer_text": "Artery",
+    "explanation": "Arteries transport blood away from the heart under high pressure.",
+    "tags": [
+      "circulation",
+      "blood vessels",
+      "arteries"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-068",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "respiration",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "The primary energy currency produced during cellular respiration is what?",
+    "options": [
+      "ATP",
+      "ADP",
+      "NADH",
+      "FADH2"
+    ],
+    "answer_index": 0,
+    "answer_text": "ATP",
+    "explanation": "ATP is the main energy currency produced during respiration.",
+    "tags": [
+      "energy",
+      "ATP",
+      "respiration"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-069",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which hormone regulates salt balance and water loss in the kidney?",
+    "options": [
+      "Insulin",
+      "Aldosterone",
+      "Adrenaline",
+      "Thyroxine"
+    ],
+    "answer_index": 1,
+    "answer_text": "Aldosterone",
+    "explanation": "Aldosterone acts on the kidney to increase sodium reabsorption and water retention.",
+    "tags": [
+      "hormones",
+      "kidney",
+      "homeostasis"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-070",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "support and movement",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "What connective tissue binds bones together at joints?",
+    "options": [
+      "Tendons",
+      "Cartilage",
+      "Ligaments",
+      "Muscles"
+    ],
+    "answer_index": 2,
+    "answer_text": "Ligaments",
+    "explanation": "Ligaments connect bones to bones at joints, stabilising them.",
+    "tags": [
+      "skeleton",
+      "joints",
+      "ligaments"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-071",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "growth",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Deficiency of which mineral commonly limits plant growth and leaf colour?",
+    "options": [
+      "Phosphorus",
+      "Nitrogen",
+      "Calcium",
+      "Potassium"
+    ],
+    "answer_index": 1,
+    "answer_text": "Nitrogen",
+    "explanation": "Nitrogen deficiency often causes stunted growth and pale leaves due to reduced protein synthesis.",
+    "tags": [
+      "plants",
+      "growth",
+      "mineral deficiency"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-072",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nervous and hormonal coordination",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organ produces insulin?",
+    "options": [
+      "Pancreas",
+      "Pituitary",
+      "Adrenal",
+      "Thyroid"
+    ],
+    "answer_index": 0,
+    "answer_text": "Pancreas",
+    "explanation": "Insulin is produced by the pancreatic islets (beta cells) of the pancreas.",
+    "tags": [
+      "hormones",
+      "pancreas",
+      "diabetes"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-073",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "sense organs",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which sense organ detects sound?",
+    "options": [
+      "Ear",
+      "Eye",
+      "Nose",
+      "Skin"
+    ],
+    "answer_index": 0,
+    "answer_text": "Ear",
+    "explanation": "The ear contains organs such as the cochlea that detect sound waves.",
+    "tags": [
+      "sense organs",
+      "hearing",
+      "ear"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-074",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "homeostasis",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which brain region maintains body temperature and hunger regulation?",
+    "options": [
+      "Cerebellum",
+      "Hypothalamus",
+      "Medulla oblongata",
+      "Cerebrum"
+    ],
+    "answer_index": 1,
+    "answer_text": "Hypothalamus",
+    "explanation": "The hypothalamus regulates temperature, hunger, and water balance as part of homeostasis.",
+    "tags": [
+      "brain",
+      "homeostasis",
+      "hypothalamus"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-075",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "reproduction",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Fertilisation in humans typically occurs in which structure?",
+    "options": [
+      "Ovary",
+      "Uterus",
+      "Vagina",
+      "Oviduct"
+    ],
+    "answer_index": 3,
+    "answer_text": "Oviduct",
+    "explanation": "Fertilisation commonly occurs in the oviduct (fallopian tube) where sperm meet the ovulated egg.",
+    "tags": [
+      "reproduction",
+      "gametes",
+      "fertilisation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  }
+]

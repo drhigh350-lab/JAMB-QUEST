@@ -1,9 +1,12 @@
 import { readFile } from "node:fs/promises";
 
-const bank = JSON.parse(await readFile("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_2.json", "utf8"));
-const pilot = JSON.parse(await readFile("/home/ubuntu/jamb-quiz-game/biology-explanation-pilot.output.json", "utf8"));
-const batch2 = JSON.parse(await readFile("/home/ubuntu/jamb-quiz-game/biology-explanation-batch-2.output.json", "utf8"));
-const records = [...pilot, ...batch2];
+const bank = JSON.parse(await readFile("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_3.json", "utf8"));
+const batches = await Promise.all([
+  "biology-explanation-pilot.output.json",
+  "biology-explanation-batch-2.output.json",
+  "biology-explanation-batch-3.output.json",
+].map((name) => readFile(`/home/ubuntu/jamb-quiz-game/${name}`, "utf8").then(JSON.parse)));
+const records = batches.flat();
 const approved = records.filter((record) => record.quality_gate && !record.needs_review);
 const flagged = records.filter((record) => record.needs_review);
 const bankById = new Map(bank.questions.map((question) => [question.id, question]));
@@ -18,4 +21,4 @@ for (const record of flagged) {
   if (!question) throw new Error(`Missing flagged record ${record.id}`);
   if (question.explanation.split(/\r?\n/).filter(Boolean).length >= 6) throw new Error(`Flagged record integrated unexpectedly: ${record.id}`);
 }
-console.log(JSON.stringify({ verified: true, totalQuestions: bank.questions.length, approvedIntegrated: approved.length, flaggedHeldBack: flagged.length, batches: { pilot: pilot.length, batch2: batch2.length } }, null, 2));
+console.log(JSON.stringify({ verified: true, totalQuestions: bank.questions.length, approvedIntegrated: approved.length, flaggedHeldBack: flagged.length, batches: batches.map((batch) => ({ total: batch.length, approved: batch.filter((record) => record.quality_gate && !record.needs_review).length })) }, null, 2));

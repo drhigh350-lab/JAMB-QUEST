@@ -79,3 +79,8 @@
 
 - [x] Point the QuestionCard component test at a batch-2 Biology record from the combined batches-1-and-2 asset and assert topic-only context plus six enriched lines.
 
+- [x] Generate and quality-check Biology explanation batch 3 with the same structured six-sentence contract before integration.
+- [x] Integrate only the approved Biology batch 3 records and verify the combined asset and QuestionCard path.
+
+- [x] Point the QuestionCard component test at a batch-3 Biology record from the combined batches-1-to-3 asset and rerun the real UI-path verification.
+

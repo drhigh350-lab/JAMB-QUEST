@@ -5,20 +5,20 @@ import { describe, expect, it, vi } from "vitest";
 import { QuestionCard } from "../client/src/components/QuestionCard";
 import type { BankQuestion, QuestionBankPayload } from "../client/src/game/types";
 
-const pilotBank = JSON.parse(readFileSync("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_2.json", "utf8")) as QuestionBankPayload;
-const biologyPilot = pilotBank.questions.find((question) => question.id === "BIO-026") as BankQuestion | undefined;
+const pilotBank = JSON.parse(readFileSync("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_3.json", "utf8")) as QuestionBankPayload;
+const biologyPilot = pilotBank.questions.find((question) => question.id === "BIO-052") as BankQuestion | undefined;
 
-if (!biologyPilot) throw new Error("BIO-026 is missing from the combined Biology batches-1-and-2 asset");
+if (!biologyPilot) throw new Error("BIO-052 is missing from the combined Biology batches-1-to-3 asset");
 
 describe("uniform Biology question card", () => {
   it("renders the real pilot asset with topic-only context and six enriched explanation lines", () => {
     const element = React.createElement(QuestionCard, { question: biologyPilot, index: 0, total: 10, selectedIndex: 2, answered: true, answer: { selectedIndex: 2, correct: true, timedOut: false }, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() });
     const html = renderToStaticMarkup(element);
-    expect(html).toContain("Topic: Variety of organisms");
+    expect(html).toContain("Topic: Form and functions");
     expect(html).not.toContain("OWNER-PROVIDED");
     expect(html).not.toContain("difficulty-medium");
     expect((html.match(/class=\"explanation-block\"/g) ?? []).length).toBe(1);
     expect((html.match(/class=\"explanation-block\"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(6);
-    expect(html).toContain("transcription of genes");
+    expect(html).toContain("nonpolar lipid phase");
   });
 });
