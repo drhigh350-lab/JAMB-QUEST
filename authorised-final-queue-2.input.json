@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "authorised-90092",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Another name for a fertilized egg is a:",
+    "options": [
+      "Placenta",
+      "Zygote",
+      "Foetus",
+      "Ovum"
+    ],
+    "answer_index": 1,
+    "explanation": "A zygote is formed when a sperm fertilizes an ovum. It develops into an embryo and later a foetus.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90093",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Root hairs are developed from the:",
+    "options": [
+      "Root apex",
+      "Epidermis of roots",
+      "Vascular bundles",
+      "Endodermis"
+    ],
+    "answer_index": 1,
+    "explanation": "Root hairs are tubular extensions of epidermal cells that increase surface area for water and mineral absorption.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90094",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following elements are necessary for the formation of chlorophyll in a plant?",
+    "options": [
+      "Magnesium and iron",
+      "Calcium and potassium",
+      "Calcium and sulphur",
+      "Potassium and sulphur"
+    ],
+    "answer_index": 0,
+    "explanation": "Magnesium is the central atom in the chlorophyll porphyrin ring, and iron is required for chlorophyll synthesis.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90095",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following statements is NOT true of mammalian erythrocytes?",
+    "options": [
+      "They have haemoglobin",
+      "They appear yellow when looked at singly",
+      "They are disc-shaped",
+      "They have nuclei at maturity"
+    ],
+    "answer_index": 3,
+    "explanation": "Mature mammalian red blood cells are enucleated (lack nuclei) to maximize space for haemoglobin.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90096",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The part of the mammalian brain responsible for maintaining balance is the:",
+    "options": [
+      "Medulla oblongata",
+      "Olfactory lobe",
+      "Cerebellum",
+      "Cerebrum"
+    ],
+    "answer_index": 2,
+    "explanation": "The cerebellum coordinates movement, posture, and balance.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90097",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If an isolated living cell is left in distilled water for two hours, it is likely to:",
+    "options": [
+      "Lose water",
+      "Lose all water",
+      "Reproduce by binary fission",
+      "Become more turgid"
+    ],
+    "answer_index": 3,
+    "explanation": "Distilled water is hypotonic relative to the cell cytoplasm, so water enters the cell by osmosis, making it turgid.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90098",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Groundnut is not really a 'nut' in the biological sense because:",
+    "options": [
+      "Harvested from inside ground",
+      "Its pericarp is not hard and tough",
+      "The fruit is succulent",
+      "It is an achene"
+    ],
+    "answer_index": 1,
+    "explanation": "True nuts have a hard, woody pericarp. Groundnut is actually a legume (pod), not a true nut.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90099",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "What type of fruit is formed from a single flower having several free carpels?",
+    "options": [
+      "Multiple fruit",
+      "Simple fruit",
+      "Aggregate fruit",
+      "Dehiscent fruit"
+    ],
+    "answer_index": 2,
+    "explanation": "Aggregate fruits (e.g., strawberry, custard apple) develop from a single flower with many free carpels.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90100",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following diseases is NOT caused by a virus?",
+    "options": [
+      "Rinderpest",
+      "Maize rust",
+      "Newcastle disease",
+      "Swine fever"
+    ],
+    "answer_index": 1,
+    "explanation": "Maize rust is a fungal disease. Rinderpest, Newcastle disease, and swine fever are viral.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90101",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A centipede differs from a millipede by its:",
+    "options": [
+      "Colour",
+      "Numerous abdominal segments",
+      "Poison claws",
+      "Cylindrical body"
+    ],
+    "answer_index": 2,
+    "explanation": "Centipedes have one pair of legs per segment and possess poison claws (forcipules), while millipedes have two pairs per segment and are generally herbivorous/detritivorous.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90102",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An organism having one pair of identical genes is:",
+    "options": [
+      "A heterozygote",
+      "A hybrid",
+      "An allelomorph",
+      "A homozygote"
+    ],
+    "answer_index": 3,
+    "explanation": "A homozygote has two identical alleles for a trait (e.g., AA or aa). Heterozygotes have different alleles (Aa).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90103",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "One disease NOT caused directly by bacteria is:",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "Pneumonia",
+      "Tetanus"
+    ],
+    "answer_index": 0,
+    "explanation": "Malaria is caused by Plasmodium parasites (protozoa) transmitted by mosquitoes. TB, pneumonia, and tetanus are bacterial.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90104",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The dental formula i 3/3 : c 1/1 : pm 4/4 : m 2/3 = 42 represents that of a:",
+    "options": [
+      "Rabbit",
+      "Full grown man",
+      "Young child",
+      "Dog"
+    ],
+    "answer_index": 3,
+    "explanation": "This dental formula (42 teeth) with well-developed carnassials matches that of a dog. Humans have 32 teeth; rabbits have different formulas.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90105",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of these worms is beneficial to man?",
+    "options": [
+      "Hookworm",
+      "Tapeworm",
+      "Roundworm",
+      "Earthworm"
+    ],
+    "answer_index": 3,
+    "explanation": "Earthworms improve soil fertility through aeration and decomposition. Hookworms, tapeworms, and roundworms are parasites.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90106",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following diseases could be exclusively associated with a river basin?",
+    "options": [
+      "Malaria",
+      "Syphilis",
+      "Onchocerciasis",
+      "Cholera"
+    ],
+    "answer_index": 2,
+    "explanation": "Onchocerciasis (river blindness) is transmitted by blackflies that breed near fast-flowing rivers and streams.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90107",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following will NOT allow osmosis to take place?",
+    "options": [
+      "Pig's bladder",
+      "Cellophane",
+      "Parchment paper",
+      "Transparent polythene"
+    ],
+    "answer_index": 3,
+    "explanation": "Osmosis requires a semi-permeable membrane. Transparent polythene is not semi-permeable; the others can act as such.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90108",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The function of the ossicles (malleus, incus and stapes) in the mammalian ear is the:",
+    "options": [
+      "Transmission of vibrations",
+      "Regulation of pressures",
+      "Support of inner ear",
+      "Maintenance of balance"
+    ],
+    "answer_index": 0,
+    "explanation": "The ossicles amplify and transmit sound vibrations from the tympanic membrane to the oval window of the cochlea.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90109",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following instruments is used for determining turbidity of water?",
+    "options": [
+      "Thermometer",
+      "Secchi Disc",
+      "Rain gauge",
+      "Hygrometer"
+    ],
+    "answer_index": 1,
+    "explanation": "A Secchi disc measures water clarity/turbidity by determining how deep it remains visible when lowered into water.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90110",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "In Rhizopus, carbohydrate is stored in the form of:",
+    "options": [
+      "Starch",
+      "Glucose",
+      "Paramylon",
+      "Glycogen"
+    ],
+    "answer_index": 3,
+    "explanation": "Fungi like Rhizopus store carbohydrates as glycogen, similar to animals. Plants store starch.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90111",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Urea is produced in the:",
+    "options": [
+      "Liver",
+      "Bladder",
+      "Spleen",
+      "Kidneys"
+    ],
+    "answer_index": 0,
+    "explanation": "The liver produces urea from ammonia via the ornithine/urea cycle. The kidneys then excrete it.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90112",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The mouth part of the housefly is adapted for:",
+    "options": [
+      "Lapping and sponging",
+      "Sucking and chewing",
+      "Piercing and sucking",
+      "Chewing and lapping"
+    ],
+    "answer_index": 0,
+    "explanation": "Houseflies have sponging-lapping mouthparts with a proboscis for soaking up liquid food.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90113",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The male toad differs from the female by having:",
+    "options": [
+      "Vocal sacs",
+      "Shorter hind limbs",
+      "Longer fore limbs",
+      "Bulging eyes"
+    ],
+    "answer_index": 0,
+    "explanation": "Male toads possess vocal sacs used for calling during the breeding season.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90114",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Mosses, liverworts, and ferns can be grouped together because they:",
+    "options": [
+      "Are all aquatic",
+      "All grow in deserts",
+      "Are seedless plants",
+      "Have undifferentiated bodies"
+    ],
+    "answer_index": 2,
+    "explanation": "All three groups reproduce by spores rather than seeds. They are non-seed plants.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90115",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following invertebrates does NOT possess antennae?",
+    "options": [
+      "Centipede",
+      "Crustacean",
+      "Millipede",
+      "Spider"
+    ],
+    "answer_index": 3,
+    "explanation": "Spiders (arachnids) lack antennae. Centipedes, millipedes (myriapods), and crustaceans all have antennae.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90116",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The mammalian organ through which nourishment and oxygen diffuse into a developing embryo is called the:",
+    "options": [
+      "Amnion",
+      "Chorion",
+      "Umbilical cord",
+      "Placenta"
+    ],
+    "answer_index": 3,
+    "explanation": "The placenta is the site of exchange between maternal and fetal blood, providing nutrients and oxygen while removing wastes.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90117",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following statements is NOT true of enzymes?",
+    "options": [
+      "They are proteins",
+      "They need cofactors",
+      "They are sensitive to pH",
+      "They can withstand high temperatures"
+    ],
+    "answer_index": 3,
+    "explanation": "Enzymes are proteins that are denatured by high temperatures. They function optimally within specific temperature ranges.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90118",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The dorsal and anal fins of fish are used for:",
+    "options": [
+      "Steering",
+      "Upward movements",
+      "Controlling rolling movements",
+      "Downward movements"
+    ],
+    "answer_index": 2,
+    "explanation": "The dorsal and anal fins act as stabilizers, preventing rolling and maintaining upright balance.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90119",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Exoskeletons are NOT found in the:",
+    "options": [
+      "Maggot",
+      "Mosquito larva",
+      "Earthworm",
+      "Caterpillar"
+    ],
+    "answer_index": 2,
+    "explanation": "Earthworms have a hydrostatic skeleton (fluid-filled coelom). Maggots, mosquito larvae, and caterpillars have exoskeletons.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90120",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Blood clotting is initiated by:",
+    "options": [
+      "Leucocytes",
+      "Platelets",
+      "Haemolymph",
+      "Erythrocytes"
+    ],
+    "answer_index": 1,
+    "explanation": "Platelets (thrombocytes) aggregate at injury sites and release clotting factors to initiate coagulation.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90121",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Pepsin is a digestive enzyme which breaks:",
+    "options": [
+      "Cellulose into glucose",
+      "Carbohydrates into simple sugars",
+      "Protein into peptones",
+      "Fats into glycerol and fatty acids"
+    ],
+    "answer_index": 2,
+    "explanation": "Pepsin is a protease secreted in the stomach that breaks proteins into smaller peptides (peptones).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90122",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Anaerobic respiration in yeast produces:",
+    "options": [
+      "CO₂ and ethanol",
+      "CO₂ and water",
+      "CO₂ and oxygen",
+      "CO₂ and glucose"
+    ],
+    "answer_index": 0,
+    "explanation": "Yeast undergoes alcoholic fermentation, converting glucose to ethanol and carbon dioxide without oxygen.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90123",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Underground stems which grow horizontally through the soil are:",
+    "options": [
+      "Bulbs",
+      "Rhizomes",
+      "Runners",
+      "Corms"
+    ],
+    "answer_index": 1,
+    "explanation": "Rhizomes (e.g., ginger, iris) are horizontal underground stems. Runners are above-ground (stolons).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90124",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The parts used by a tapeworm to fasten itself to the host's intestine are the:",
+    "options": [
+      "Neck and suckers",
+      "Hooks and suckers",
+      "Rostellum and suckers",
+      "Young proglottis and neck"
+    ],
+    "answer_index": 1,
+    "explanation": "Tapeworms (Taenia) use hooks and suckers on their scolex to attach to the intestinal wall.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90125",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If an animal is very active and has good muscular control, it is likely to have a well-developed:",
+    "options": [
+      "Olfactory lobe",
+      "Cerebral hemisphere",
+      "Optic lobe",
+      "Cerebellum"
+    ],
+    "answer_index": 3,
+    "explanation": "The cerebellum coordinates voluntary movements, balance, and muscular control.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90126",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following adaptations is NOT concerned with the flight of birds?",
+    "options": [
+      "Reduced body weight",
+      "Webbed feet",
+      "Streamlined shape",
+      "Powerful muscles"
+    ],
+    "answer_index": 1,
+    "explanation": "Webbed feet are primarily for swimming (as in ducks). Reduced weight, streamlined shape, and powerful flight muscles are direct flight adaptations.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90127",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An anemometer is an instrument for measuring:",
+    "options": [
+      "Relative humidity",
+      "Altitude",
+      "Wind speed",
+      "Turbidity"
+    ],
+    "answer_index": 2,
+    "explanation": "An anemometer measures wind speed and pressure. A hygrometer measures humidity.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90128",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is NOT regarded as a pollutant on land or in the air?",
+    "options": [
+      "Noise",
+      "Smoke",
+      "Sulphur dioxide",
+      "Nitrogen"
+    ],
+    "answer_index": 3,
+    "explanation": "Nitrogen (N₂) makes up ~78% of the atmosphere and is not a pollutant at normal concentrations. Noise, smoke, and SO₂ are pollutants.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90129",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Heat produced in tissue respiration in plants is:",
+    "options": [
+      "A chemical form",
+      "The only form",
+      "The main form",
+      "A waste form of energy"
+    ],
+    "answer_index": 3,
+    "explanation": "Heat released during respiration is dissipated as waste energy; it is not the usable form (ATP) that cells require.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90130",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The axial skeleton of a mammal does not include the bones of the:",
+    "options": [
+      "Skull",
+      "Tail",
+      "Limbs",
+      "Back"
+    ],
+    "answer_index": 2,
+    "explanation": "The axial skeleton includes the skull, vertebral column (back), ribs, and sternum. The limbs belong to the appendicular skeleton.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90131",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Erosion can be reduced along a slope by:",
+    "options": [
+      "Ridging across the slope",
+      "Ridging up the slope",
+      "Ridging down the slope",
+      "Crop rotation"
+    ],
+    "answer_index": 0,
+    "explanation": "Contour ridging (across the slope) slows water runoff and reduces soil erosion on sloped land.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90132",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Denitrifying bacteria in nature liberate gaseous nitrogen directly from:",
+    "options": [
+      "Ammonium salts",
+      "Soil nitrates",
+      "Thunderstorms",
+      "Plant and animal proteins"
+    ],
+    "answer_index": 1,
+    "explanation": "Denitrifying bacteria convert soil nitrates (NO₃⁻) back into atmospheric nitrogen gas (N₂).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90133",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is most advanced in the evolutionary trend of animals?",
+    "options": [
+      "Liver fluke",
+      "Earthworm",
+      "Snail",
+      "Cockroach"
+    ],
+    "answer_index": 3,
+    "explanation": "Among the options, the cockroach (an arthropod) is the most evolutionarily advanced, with specialized systems, jointed appendages, and complex segmentation.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90134",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is the lowest category of classification?",
+    "options": [
+      "Class",
+      "Species",
+      "Family",
+      "Genus"
+    ],
+    "answer_index": 1,
+    "explanation": "The hierarchy is Kingdom → Phylum → Class → Order → Family → Genus → Species. Species is the basic/lowest unit.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90135",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Plants that show secondary growth are usually found among the:",
+    "options": [
+      "Dicotyledons",
+      "Thallophytes",
+      "Pteridophytes",
+      "Monocotyledons"
+    ],
+    "answer_index": 0,
+    "explanation": "Dicots typically exhibit secondary growth (increase in girth via vascular cambium). Most monocots lack secondary growth.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90136",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Fungi are a distinct group of eukaryotes mainly because they have:",
+    "options": [
+      "Many fruiting bodies",
+      "Sexual and asexual reproduction",
+      "Spores",
+      "No chlorophyll"
+    ],
+    "answer_index": 3,
+    "explanation": "Fungi are heterotrophic decomposers that lack chlorophyll and cannot photosynthesize, distinguishing them from plants.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90137",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An arthropod that is destructive at the early stage of its life cycle is the:",
+    "options": [
+      "Butterfly",
+      "Mosquito",
+      "Bee",
+      "Millipede"
+    ],
+    "answer_index": 1,
+    "explanation": "Mosquito larvae are aquatic and can be pests; adult females transmit diseases. Butterflies, bees, and millipedes are not notably destructive as larvae.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90138",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An animal body that can be cut along its axis in any plane to give two identical parts is said to be:",
+    "options": [
+      "Radially symmetrical",
+      "Bilaterally symmetrical",
+      "Asymmetrical",
+      "Symmetrical"
+    ],
+    "answer_index": 0,
+    "explanation": "Radial symmetry (e.g., in cnidarians and echinoderms) allows any longitudinal plane through the central axis to produce mirror images.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90139",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following possesses mammary glands?",
+    "options": [
+      "Dogfish",
+      "Whale",
+      "Shark",
+      "Catfish"
+    ],
+    "answer_index": 1,
+    "explanation": "Whales are mammals and possess mammary glands to nurse their young. Dogfish, sharks, and catfish are fish.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90140",
+    "subject": "Biology",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The feature that links birds to reptiles in evolution is the possession of:",
+    "options": [
+      "Feathers",
+      "Beak",
+      "Skeleton",
+      "Scales"
+    ],
+    "answer_index": 3,
+    "explanation": "Birds have scales on their legs and feet, a reptilian characteristic supporting their evolutionary descent from reptilian ancestors (archosaurs).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology"
+  },
+  {
+    "id": "authorised-90141",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "X is a crystalline salt of sodium. Solution of X in water has a sweet taste and melts on heating. In the presence of yeast and in the absence of air, X is converted to ethanol and carbon dioxide. Compound X is:",
+    "options": [
+      "Sodium carbonate",
+      "Sodium bicarbonate",
+      "Sucrose",
+      "Glucose"
+    ],
+    "answer_index": 3,
+    "explanation": "Glucose (C₆H₁₂O₆) is a reducing sugar that undergoes alcoholic fermentation by yeast to produce ethanol and CO₂.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90142",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The alkanol obtained from the production of soap is:",
+    "options": [
+      "Ethanol",
+      "Glycerol",
+      "Methanol",
+      "Propanol"
+    ],
+    "answer_index": 1,
+    "explanation": "Saponification of fats/oils with alkalis yields soap (fatty acid salts) and glycerol (propane-1,2,3-triol) as a by-product.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90143",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The flame used by welders in cutting metals is:",
+    "options": [
+      "Butane gas flame",
+      "Acetylene flame",
+      "Kerosene flame",
+      "Oxy-acetylene flame"
+    ],
+    "answer_index": 3,
+    "explanation": "The oxy-acetylene flame reaches very high temperatures (~3500°C), making it ideal for welding and cutting metals.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90144",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Consecutive members of an alkane homologous series differ by:",
+    "options": [
+      "CH",
+      "CH₂",
+      "CH₃",
+      "CₙHₙ"
+    ],
+    "answer_index": 0,
+    "explanation": "Each successive alkane differs by a CH₂ unit (methylene group) in its molecular formula.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90145",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If an element has the electronic configuration 1s² 2s² 2p⁶ 3s² 3p², it is:",
+    "options": [
+      "A metal",
+      "An alkaline earth metal",
+      "An s-block element",
+      "A p-block element"
+    ],
+    "answer_index": 3,
+    "explanation": "The outermost electrons are in the 3p orbital. This is silicon (Si), a metalloid in Group 14 (p-block).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90146",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Some CuSO₄·5H₂O was heated at 120°C. Wt of crucible = 10.00g; Wt of crucible + CuSO₄·5H₂O = 14.98g; Wt of crucible + residue = 13.54g. How many molecules of water of crystallization were lost?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 3,
+    "explanation": "Mass of hydrate = 4.98g; mass of residue (anhydrous) = 3.54g; water lost = 1.44g. Moles of CuSO₄ = 3.54/159.5 ≈ 0.0222 mol. Moles of H₂O lost = 1.44/18 = 0.08 mol. Ratio = 0.08/0.0222 ≈ 3.6 ≈ 4 water molecules lost.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90147",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The three-dimensional shape of methane is:",
+    "options": [
+      "Hexagonal",
+      "Trigonal",
+      "Linear",
+      "Tetrahedral"
+    ],
+    "answer_index": 3,
+    "explanation": "Methane (CH₄) has a tetrahedral geometry with bond angles of 109.5°, based on VSEPR theory.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90148",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The molecular formula of X is:",
+    "options": [
+      "C₁₂H₂₂O₁₁",
+      "C₆H₁₂O₆",
+      "C₃H₆O₃",
+      "C₇H₁₄O₇"
+    ],
+    "answer_index": 0,
+    "explanation": "X is glucose, a monosaccharide with molecular formula C₆H₁₂O₆.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90149",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Reaction of X with yeast forms the basis of the:",
+    "options": [
+      "Plastic industry",
+      "Textile industry",
+      "Brewing industry",
+      "Soap industry"
+    ],
+    "answer_index": 2,
+    "explanation": "Fermentation of glucose by yeast produces ethanol, the basis of brewing alcoholic beverages.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90150",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The correct name of the compound CH₃-C(CH₃)=CH-CH₃ is:",
+    "options": [
+      "2-methylbut-1-ene",
+      "2-methylbut-2-ene",
+      "2-methylbutane",
+      "2-ethylprop-1-ene"
+    ],
+    "answer_index": 1,
+    "explanation": "The longest chain has 4 carbons (but-), the double bond is between C2 and C3 (but-2-ene), and a methyl group is on C2.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90151",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "How many isomeric forms are there for the molecular formula C₃H₆Br₂?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 3,
+    "explanation": "C₃H₆Br₂ has four structural isomers: 1,1-dibromopropane, 1,2-dibromopropane, 1,3-dibromopropane, and 2,2-dibromopropane.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90152",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Sodium sulphate decahydrate (Na₂SO₄·10H₂O) on exposure to air loses all its water of crystallization. The process is known as:",
+    "options": [
+      "Efflorescence",
+      "Hygroscopy",
+      "Deliquescence",
+      "Effervescence"
+    ],
+    "answer_index": 0,
+    "explanation": "Efflorescence is the loss of water of crystallization from a hydrated salt when exposed to air.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90153",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Crude petroleum involves the process of:",
+    "options": [
+      "Decantation",
+      "Distillation",
+      "Filtration",
+      "Evaporation"
+    ],
+    "answer_index": 1,
+    "explanation": "Crude oil is refined by fractional distillation, separating components based on boiling points.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90154",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "20cm³ of hydrogen gas are sparked with 20cm³ of oxygen gas. The resulting mixture is cooled and passed over calcium chloride. The volume of the residual gas is:",
+    "options": [
+      "40cm³",
+      "30cm³",
+      "20cm³",
+      "10cm³"
+    ],
+    "answer_index": 3,
+    "explanation": "2H₂ + O₂ → 2H₂O. 20cm³ H₂ reacts with 10cm³ O₂. Excess O₂ = 10cm³ remains; water is absorbed by CaCl₂.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90155",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Sodium chloride may be obtained from brine by:",
+    "options": [
+      "Titration",
+      "Decantation",
+      "Distillation",
+      "Evaporation"
+    ],
+    "answer_index": 3,
+    "explanation": "Brine is concentrated salt solution; evaporating the water crystallizes out solid NaCl.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90156",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "For the reaction NH₄NO₂ → N₂ + 2H₂O, calculate the volume of nitrogen at S.T.P from 3.20g of the salt.",
+    "options": [
+      "2.24dm³",
+      "2.24cm³",
+      "1.12dm³",
+      "4.48dm³"
+    ],
+    "answer_index": 2,
+    "explanation": "Molar mass NH₄NO₂ = 64g/mol. Moles = 3.20/64 = 0.05 mol. 1 mol gas = 22.4dm³ at STP. Volume = 0.05 × 22.4 = 1.12dm³.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90157",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A molar solution of caustic soda is prepared by dissolving:",
+    "options": [
+      "40g NaOH in 100g water",
+      "40g NaOH in 1000g water",
+      "20g NaOH in 500g solution",
+      "40g NaOH in 1000cm³ of solution"
+    ],
+    "answer_index": 3,
+    "explanation": "Molarity (M) = moles per liter of solution. 40g NaOH = 1 mole; dissolved in 1000cm³ (1dm³) gives 1M solution.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90158",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which among the elements (1. Carbon, 2. Oxygen, 3. Copper, 4. Bromine, 5. Zinc) will NOT react with either water or steam?",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "3 and 4",
+      "1, 2, and 3"
+    ],
+    "answer_index": 3,
+    "explanation": "Carbon, oxygen, and copper do not react with water or steam under normal conditions. Zinc reacts with steam.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90159",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Lime-water is an aqueous solution of:",
+    "options": [
+      "Ca(OH)₂",
+      "CaCO₃",
+      "Ca(HCO₃)₂",
+      "CaSO₄"
+    ],
+    "answer_index": 0,
+    "explanation": "Lime-water is a saturated solution of calcium hydroxide, Ca(OH)₂.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90160",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An element that can exist in two or more different structural forms which possess the same chemical properties is said to exhibit:",
+    "options": [
+      "Isomerism",
+      "Isotopy",
+      "Allotropy",
+      "Hygroscopy"
+    ],
+    "answer_index": 2,
+    "explanation": "Allotropy is the existence of an element in multiple physical forms (e.g., carbon as diamond and graphite).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90161",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If the cost of electricity required to deposit 1g of magnesium is ₦5.00, how much would it cost to deposit 10g of aluminium? [Mg=24, Al=27]",
+    "options": [
+      "₦10.00",
+      "₦27.00",
+      "₦44.44",
+      "₦66.67"
+    ],
+    "answer_index": 3,
+    "explanation": "Using Faraday's laws: Q ∝ mass × valency/M. For Mg (valency 2): Q_Mg = (1/24)×2 = 1/12 F. For Al (valency 3): Q_Al = (10/27)×3 = 10/9 F. Cost ratio = (10/9)/(1/12) = 40/3. Cost = ₦5 × 40/3 = ₦66.67.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90162",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An aqueous solution of an inorganic salt gave white precipitate (i) soluble in excess NaOH (ii) insoluble in excess NH₃ (iii) with dilute HCl. The cation is:",
+    "options": [
+      "Na⁺",
+      "Ca²⁺",
+      "Zn²⁺",
+      "Pb²⁺"
+    ],
+    "answer_index": 3,
+    "explanation": "Pb²⁺ forms white Pb(OH)₂ soluble in excess NaOH (as [Pb(OH)₄]²⁻) but insoluble in excess NH₃. PbCl₂ is also white and soluble in hot water.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90163",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "In dilute solution the heat of reaction NaOH + HCl → NaCl + H₂O is -57.3kJ. The heat of reaction 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O is:",
+    "options": [
+      "+28.65kJ",
+      "28.65kJ",
+      "57.3kJ",
+      "114.6kJ"
+    ],
+    "answer_index": 3,
+    "explanation": "The reaction involves 2 moles of NaOH (neutralization), so ΔH = 2 × (-57.3) = -114.6 kJ.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90164",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The oxidation state of Carbon in K₂CO₃ is:",
+    "options": [
+      "+1",
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "answer_index": 3,
+    "explanation": "2(+1) + C + 3(-2) = 0 → C = +4.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90165",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a physical change?",
+    "options": [
+      "Burning kerosene",
+      "Freezing of water",
+      "Exposing white phosphorus to air",
+      "Rusting of iron"
+    ],
+    "answer_index": 1,
+    "explanation": "Freezing is a phase change (liquid to solid) with no new substance formed. The others are chemical changes.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90166",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Bronze is an alloy of:",
+    "options": [
+      "Copper and Zinc",
+      "Copper and Tin",
+      "Aluminum and Copper",
+      "Iron and Carbon"
+    ],
+    "answer_index": 1,
+    "explanation": "Bronze is primarily copper alloyed with tin. Brass is copper and zinc.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90167",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Permanent hardness of water is caused by the presence of:",
+    "options": [
+      "Ca(HCO₃)₂",
+      "MgSO₄",
+      "Na₂SO₄",
+      "KNO₃"
+    ],
+    "answer_index": 1,
+    "explanation": "Permanent hardness is caused by sulphates and chlorides of calcium and magnesium (e.g., MgSO₄, CaSO₄), which are not removed by boiling.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90168",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The gas that turns red litmus paper blue is:",
+    "options": [
+      "HCl",
+      "CO₂",
+      "NH₃",
+      "SO₂"
+    ],
+    "answer_index": 2,
+    "explanation": "Ammonia (NH₃) is alkaline and turns red litmus blue. The others are acidic gases.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90169",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is used to ripen fruits?",
+    "options": [
+      "Ethene",
+      "Ethane",
+      "Methane",
+      "Butane"
+    ],
+    "answer_index": 0,
+    "explanation": "Ethene (ethylene) is a plant hormone that triggers and accelerates fruit ripening.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90170",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Organic chemistry is the study of:",
+    "options": [
+      "Carbon compounds",
+      "All living matter",
+      "Rocks and minerals",
+      "Oxygen compounds"
+    ],
+    "answer_index": 0,
+    "explanation": "Organic chemistry is the branch dealing with carbon-containing compounds (with few exceptions like CO, CO₂, carbonates).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90171",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The general formula for Alkanoic acids is:",
+    "options": [
+      "CₙH₂ₙ₊₁OH",
+      "CₙH₂ₙ₊₁COOH",
+      "CₙH₂ₙO₂",
+      "CₙH₂ₙ"
+    ],
+    "answer_index": 1,
+    "explanation": "Alkanoic (carboxylic) acids have the general formula CₙH₂ₙ₊₁COOH or simply R-COOH.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90172",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Ethanol reacts with excess acidified K₂Cr₂O₇ to produce:",
+    "options": [
+      "Ethane",
+      "Ethene",
+      "Ethanoic acid",
+      "Ethanal"
+    ],
+    "answer_index": 2,
+    "explanation": "Acidified K₂Cr₂O₇ is a strong oxidizing agent that oxidizes ethanol first to ethanal, then further to ethanoic acid.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90173",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following substances is not a polymer?",
+    "options": [
+      "Nylon",
+      "Starch",
+      "Propane",
+      "Protein"
+    ],
+    "answer_index": 2,
+    "explanation": "Propane (C₃H₈) is a small hydrocarbon molecule, not a polymer. Nylon, starch, and proteins are all polymers.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90174",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A substance that speeds up a chemical reaction without being consumed is a:",
+    "options": [
+      "Reactant",
+      "Product",
+      "Catalyst",
+      "Solvent"
+    ],
+    "answer_index": 2,
+    "explanation": "A catalyst lowers activation energy and increases reaction rate without being consumed in the reaction.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90175",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The pH of a 0.001M HCl solution is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 2,
+    "explanation": "pH = -log[H⁺] = -log(10⁻³) = 3.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90176",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Boyle's law states that at constant temperature, the volume of a gas is inversely proportional to its:",
+    "options": [
+      "Mass",
+      "Density",
+      "Pressure",
+      "Number of moles"
+    ],
+    "answer_index": 2,
+    "explanation": "Boyle's Law: V ∝ 1/P (at constant T and n).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90177",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The separation technique used to separate immiscible liquids is:",
+    "options": [
+      "Distillation",
+      "Chromatography",
+      "Separating funnel",
+      "Filtration"
+    ],
+    "answer_index": 2,
+    "explanation": "Immiscible liquids of different densities separate into layers and can be drained separately using a separating funnel.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90178",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which element is used in the vulcanization of rubber?",
+    "options": [
+      "Carbon",
+      "Sulphur",
+      "Phosphorus",
+      "Silicon"
+    ],
+    "answer_index": 1,
+    "explanation": "Sulphur cross-links rubber polymer chains during vulcanization.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90179",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is an acidic salt?",
+    "options": [
+      "Na₂SO₄",
+      "NaHSO₄",
+      "Na₂CO₃",
+      "KNO₃"
+    ],
+    "answer_index": 1,
+    "explanation": "NaHSO₄ is an acid salt (contains replaceable hydrogen). Na₂CO₃ is basic; Na₂SO₄ and KNO₃ are neutral.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90180",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The maximum number of electrons in the L-shell (n=2) is:",
+    "options": [
+      "2",
+      "8",
+      "18",
+      "32"
+    ],
+    "answer_index": 1,
+    "explanation": "The L-shell (n=2) contains one 2s and three 2p orbitals, accommodating a maximum of 8 electrons.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90181",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Isotopes of an element differ in:",
+    "options": [
+      "Atomic number",
+      "Number of electrons",
+      "Number of neutrons",
+      "Chemical properties"
+    ],
+    "answer_index": 2,
+    "explanation": "Isotopes have the same proton number (atomic number) but different neutron numbers, hence different mass numbers.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90182",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which gas is evolved when sodium reacts with water?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "answer_index": 1,
+    "explanation": "2Na + 2H₂O → 2NaOH + H₂↑. Sodium reacts vigorously with cold water to produce hydrogen gas.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90183",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The main constituent of natural gas is:",
+    "options": [
+      "Ethene",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer_index": 1,
+    "explanation": "Natural gas consists primarily of methane (CH₄), typically 70-90%.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90184",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following oxides is amphoteric?",
+    "options": [
+      "Na₂O",
+      "Al₂O₃",
+      "SO₂",
+      "CaO"
+    ],
+    "answer_index": 1,
+    "explanation": "Aluminium oxide reacts with both acids and bases, exhibiting amphoteric behavior.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90185",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "In the electrolysis of brine, the anode product is:",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Chlorine",
+      "Sodium"
+    ],
+    "answer_index": 2,
+    "explanation": "At the anode: 2Cl⁻ → Cl₂ + 2e⁻. Hydrogen is produced at the cathode; NaOH remains in solution.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90186",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Fats and oils are:",
+    "options": [
+      "Ethers",
+      "Esters",
+      "Alcohols",
+      "Acids"
+    ],
+    "answer_index": 1,
+    "explanation": "Fats and oils are triglycerides—esters formed from glycerol and three fatty acid molecules.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90187",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The purest form of iron is:",
+    "options": [
+      "Cast iron",
+      "Pig iron",
+      "Wrought iron",
+      "Steel"
+    ],
+    "answer_index": 2,
+    "explanation": "Wrought iron has the lowest carbon content (~0.1%) and highest purity among the options.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90188",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a heavy chemical?",
+    "options": [
+      "Sulphuric acid",
+      "Panadol",
+      "Quinine",
+      "Dye"
+    ],
+    "answer_index": 0,
+    "explanation": "Heavy chemicals are produced in large quantities for industry (e.g., H₂SO₄, HCl, NaOH). Drugs and dyes are fine chemicals.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90189",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Mortar is a mixture of:",
+    "options": [
+      "Cement, sand and water",
+      "Lime, sand and clay",
+      "Cement and water",
+      "Clay and water"
+    ],
+    "answer_index": 0,
+    "explanation": "Mortar is a bonding material made from cement, sand, and water. Concrete includes aggregates (gravel/stone) as well.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90190",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Diamond and Graphite are:",
+    "options": [
+      "Isomers",
+      "Isotopes",
+      "Allotropes",
+      "Isobars"
+    ],
+    "answer_index": 2,
+    "explanation": "They are different structural forms (allotropes) of the element carbon.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90191",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A reaction that releases heat to the surroundings is:",
+    "options": [
+      "Endothermic",
+      "Exothermic",
+      "Reversible",
+      "Adiabatic"
+    ],
+    "answer_index": 1,
+    "explanation": "Exothermic reactions have negative enthalpy change (ΔH < 0), releasing heat to the environment.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90192",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The oxidation number of Chromium in K₂Cr₂O₇ is:",
+    "options": [
+      "+5",
+      "+6",
+      "+7",
+      "+3"
+    ],
+    "answer_index": 1,
+    "explanation": "2(+1) + 2Cr + 7(-2) = 0 → 2Cr = +12 → Cr = +6.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90193",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a transition metal?",
+    "options": [
+      "Calcium",
+      "Sodium",
+      "Copper",
+      "Aluminum"
+    ],
+    "answer_index": 2,
+    "explanation": "Copper (Cu) is a d-block transition metal. Ca, Na, and Al are main-group elements.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90194",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Water gas is a mixture of:",
+    "options": [
+      "CO and H₂",
+      "CO₂ and H₂",
+      "CO and N₂",
+      "CO₂ and N₂"
+    ],
+    "answer_index": 0,
+    "explanation": "Water gas is produced by passing steam over hot coke: C + H₂O → CO + H₂.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90195",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The process of coating iron with zinc is called:",
+    "options": [
+      "Tinning",
+      "Galvanizing",
+      "Electroplating",
+      "Alloying"
+    ],
+    "answer_index": 1,
+    "explanation": "Galvanization coats iron/steel with zinc to prevent rusting via sacrificial protection.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90196",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following has a coordinate covalent bond?",
+    "options": [
+      "NH₃",
+      "CH₄",
+      "NH₄⁺",
+      "H₂O"
+    ],
+    "answer_index": 0,
+    "explanation": "In NH₄⁺, the fourth N-H bond is formed when the nitrogen lone pair is donated to H⁺ (coordinate/dative covalent bond).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90197",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An example of a hygroscopic substance is:",
+    "options": [
+      "CaCl₂",
+      "Na₂CO₃·10H₂O",
+      "CuSO₄·5H₂O",
+      "NaCl"
+    ],
+    "answer_index": 0,
+    "explanation": "Anhydrous CaCl₂ is strongly hygroscopic, absorbing moisture from air. The hydrated salts listed are not hygroscopic in their listed forms.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90198",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The shape of the Ammonia molecule is:",
+    "options": [
+      "Linear",
+      "Trigonal planar",
+      "Trigonal pyramidal",
+      "Tetrahedral"
+    ],
+    "answer_index": 2,
+    "explanation": "NH₃ has three bonding pairs and one lone pair on nitrogen, giving a trigonal pyramidal shape (bond angle ~107°).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90199",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a weak acid?",
+    "options": [
+      "HCl",
+      "H₂SO₄",
+      "CH₃COOH",
+      "HNO₃"
+    ],
+    "answer_index": 2,
+    "explanation": "Ethanoic (acetic) acid is a weak acid that only partially dissociates in water. The others are strong acids.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90200",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The gas responsible for the greenhouse effect is:",
+    "options": [
+      "O₂",
+      "N₂",
+      "CO₂",
+      "H₂"
+    ],
+    "answer_index": 2,
+    "explanation": "Carbon dioxide traps infrared radiation in the atmosphere, contributing to the greenhouse effect and global warming.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90201",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Saponification yields:",
+    "options": [
+      "Soap and Water",
+      "Soap and Glycerol",
+      "Fatty acid and Glycerol",
+      "Soap and Alcohol"
+    ],
+    "answer_index": 1,
+    "explanation": "Alkaline hydrolysis of fats/oils produces soap (fatty acid salt) and glycerol.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90202",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a noble gas?",
+    "options": [
+      "Chlorine",
+      "Argon",
+      "Nitrogen",
+      "Oxygen"
+    ],
+    "answer_index": 1,
+    "explanation": "Argon (Ar) is in Group 18 (noble gases). The others are reactive non-metals.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90203",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The monomer of Polythene is:",
+    "options": [
+      "Ethane",
+      "Ethene",
+      "Ethyne",
+      "Ethanol"
+    ],
+    "answer_index": 1,
+    "explanation": "Polythene (polyethylene) is produced by polymerization of ethene (ethylene) monomers.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90204",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which indicator is suitable for a strong acid-weak base titration?",
+    "options": [
+      "Phenolphthalein",
+      "Methyl orange",
+      "Litmus",
+      "Universal indicator"
+    ],
+    "answer_index": 1,
+    "explanation": "Methyl orange (pH range 3.1–4.4) is ideal for strong acid-weak base titrations where the equivalence point is acidic.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90205",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The solubility of a gas in a liquid increases with:",
+    "options": [
+      "Increase in temperature",
+      "Decrease in pressure",
+      "Increase in pressure",
+      "Increase in volume"
+    ],
+    "answer_index": 2,
+    "explanation": "Henry's Law states that gas solubility is directly proportional to the partial pressure of the gas above the liquid.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90206",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which method removes temporary hardness?",
+    "options": [
+      "Boiling",
+      "Adding Alum",
+      "Chlorination",
+      "Filtration"
+    ],
+    "answer_index": 0,
+    "explanation": "Temporary hardness (caused by Ca(HCO₃)₂/Mg(HCO₃)₂) is removed by boiling, which precipitates calcium carbonate.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90207",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The atomic number is equal to the number of:",
+    "options": [
+      "Neutrons",
+      "Protons",
+      "Nucleons",
+      "Isotopes"
+    ],
+    "answer_index": 1,
+    "explanation": "The atomic number (Z) uniquely identifies an element as the number of protons in its nucleus.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90208",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which substance turns anhydrous copper(II) sulphate blue?",
+    "options": [
+      "Ethanol",
+      "Water",
+      "Benzene",
+      "Acid"
+    ],
+    "answer_index": 1,
+    "explanation": "Anhydrous CuSO₄ (white) hydrates to form CuSO₄·5H₂O (blue) in the presence of water, serving as a moisture test.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90209",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is used as an electrolyte in a car battery?",
+    "options": [
+      "HCl",
+      "H₂SO₄",
+      "HNO₃",
+      "CH₃COOH"
+    ],
+    "answer_index": 1,
+    "explanation": "Lead-acid car batteries use dilute sulphuric acid as the electrolyte.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90210",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Cracking is a process used to:",
+    "options": [
+      "Polymerize rubber",
+      "Break down large hydrocarbon molecules",
+      "Purify water",
+      "Make soap"
+    ],
+    "answer_index": 1,
+    "explanation": "Catalytic cracking breaks heavy petroleum fractions into smaller, more valuable molecules like petrol and kerosene.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90211",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The functional group of alkanols is:",
+    "options": [
+      "COOH",
+      "OH",
+      "CHO",
+      "CO-"
+    ],
+    "answer_index": 1,
+    "explanation": "Alkanols (alcohols) contain the hydroxyl (-OH) functional group attached to a saturated carbon chain.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90212",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which metal is extracted from Haematite?",
+    "options": [
+      "Aluminum",
+      "Iron",
+      "Copper",
+      "Zinc"
+    ],
+    "answer_index": 1,
+    "explanation": "Haematite (Fe₂O₃) is the principal ore of iron, extracted in blast furnaces.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90213",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a mixture?",
+    "options": [
+      "Air",
+      "Water",
+      "Sodium Chloride",
+      "Iron filings"
+    ],
+    "answer_index": 0,
+    "explanation": "Air is a homogeneous mixture of nitrogen, oxygen, argon, CO₂, and other gases. Water, NaCl, and iron are pure substances.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90214",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "What is the molar mass of H₂SO₄? [H=1, S=32, O=16]",
+    "options": [
+      "49",
+      "98",
+      "81",
+      "100"
+    ],
+    "answer_index": 1,
+    "explanation": "(2×1) + 32 + (4×16) = 2 + 32 + 64 = 98 g/mol.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90215",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The reaction N₂ + 3H₂ ⇌ 2NH₃ is the Haber process for making:",
+    "options": [
+      "Nitric acid",
+      "Ammonia",
+      "Fertilizers",
+      "Explosives"
+    ],
+    "answer_index": 1,
+    "explanation": "The Haber-Bosch process synthesizes ammonia from nitrogen and hydrogen under high pressure and temperature with an iron catalyst.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90216",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a liquid at room temperature?",
+    "options": [
+      "Bromine",
+      "Chlorine",
+      "Fluorine",
+      "Iodine"
+    ],
+    "answer_index": 0,
+    "explanation": "Bromine (Br₂) is a reddish-brown liquid at room temperature. The other halogens are gases (Cl₂, F₂) or solid (I₂).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90217",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The relative atomic mass is based on the isotope of:",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon-12",
+      "Carbon-14"
+    ],
+    "answer_index": 2,
+    "explanation": "The atomic mass unit (amu) is defined as 1/12th the mass of a carbon-12 atom.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90218",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A salt formed from a strong base and a weak acid will yield a solution that is:",
+    "options": [
+      "Acidic",
+      "Basic/Alkaline",
+      "Neutral",
+      "Amphoteric"
+    ],
+    "answer_index": 1,
+    "explanation": "The conjugate base of the weak acid hydrolyzes water to produce OH⁻ ions, making the solution basic (e.g., CH₃COONa).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90219",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Rusting requires:",
+    "options": [
+      "Water only",
+      "Oxygen only",
+      "Water and Oxygen",
+      "Carbon dioxide"
+    ],
+    "answer_index": 2,
+    "explanation": "Rusting (iron corrosion) is an electrochemical process requiring both oxygen and water: 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90220",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a reducing agent?",
+    "options": [
+      "KMnO₄",
+      "H₂S",
+      "K₂Cr₂O₇",
+      "Cl₂"
+    ],
+    "answer_index": 1,
+    "explanation": "Hydrogen sulphide (H₂S) readily donates electrons and is oxidized to sulphur. KMnO₄, K₂Cr₂O₇, and Cl₂ are oxidizing agents.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90221",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The phenomenon where atoms of the same element have different mass numbers is:",
+    "options": [
+      "Isotopy",
+      "Isomerism",
+      "Allotropy",
+      "Isobar"
+    ],
+    "answer_index": 0,
+    "explanation": "Isotopes are atoms of the same element (same proton number) with different numbers of neutrons (different mass numbers).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90222",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following forms a white precipitate with AgNO₃?",
+    "options": [
+      "Cl⁻",
+      "Br⁻",
+      "I⁻",
+      "NO₃⁻"
+    ],
+    "answer_index": 0,
+    "explanation": "Ag⁺ + Cl⁻ → AgCl↓ (white precipitate). AgBr is cream; AgI is yellow; AgNO₃ does not precipitate with NO₃⁻.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90223",
+    "subject": "Chemistry",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The valency of Carbon in organic compounds is usually:",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "answer_index": 1,
+    "explanation": "Carbon has four valence electrons and forms four covalent bonds to achieve a stable octet, giving it a valency of 4.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry"
+  },
+  {
+    "id": "authorised-90224",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Two cars moving in the same direction have speeds of 100km/h and 130km/h. What is the velocity of the faster car as measured by an observer in the slower car?",
+    "options": [
+      "130",
+      "230",
+      "200",
+      "30 km/h"
+    ],
+    "answer_index": 3,
+    "explanation": "Relative velocity = 130 − 100 = 30 km/h in the same direction.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90225",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A car moves with an initial velocity of 25m/s and reaches a velocity of 45m/s in 10s. What is the acceleration of the car?",
+    "options": [
+      "5",
+      "25",
+      "20",
+      "2 m/s²"
+    ],
+    "answer_index": 3,
+    "explanation": "a = (v − u)/t = (45 − 25)/10 = 20/10 = 2 m/s².",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90226",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "In a hydraulic press, the pump piston exerts a pressure of 100Pa on the liquid. What force is exerted on the second piston of cross-sectional area 3m²?",
+    "options": [
+      "200",
+      "100",
+      "150",
+      "300 N"
+    ],
+    "answer_index": 3,
+    "explanation": "P = F/A → F = P × A = 100 × 3 = 300 N (Pascal's principle).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90227",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The accurate measurement of the relative density of a substance in its powdered form is done with a beam balance and:",
+    "options": [
+      "Eureka can",
+      "Burette",
+      "Pipette",
+      "Density bottle"
+    ],
+    "answer_index": 0,
+    "explanation": "An Eureka can (displacement can) measures the volume of irregular solids or powders by fluid displacement for density calculations.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90228",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "One special advantage of alcohol over mercury as a thermometric liquid is its:",
+    "options": [
+      "Low freezing point",
+      "Low boiling point",
+      "High specific heat capacity",
+      "Low density"
+    ],
+    "answer_index": 0,
+    "explanation": "Alcohol freezes at −115°C, making it suitable for measuring very low temperatures where mercury (−39°C) would solidify.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90229",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Heat is radiated by all hot objects in the form of:",
+    "options": [
+      "Light energy",
+      "Solar energy",
+      "Infrared rays",
+      "Gamma rays"
+    ],
+    "answer_index": 2,
+    "explanation": "Thermal radiation from objects at typical temperatures is primarily infrared electromagnetic radiation.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90230",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The small droplet of water that forms on the grass in the early hours of the morning is:",
+    "options": [
+      "Dew",
+      "Mist",
+      "Fog",
+      "Vapour"
+    ],
+    "answer_index": 0,
+    "explanation": "Dew forms when water vapour condenses on cool surfaces (grass) during calm, clear nights.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90231",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The pressure of one mole of an ideal gas of volume 10⁻²m³ at 27°C is [R = 8.3 J/mol·K]:",
+    "options": [
+      "2.24×10⁴",
+      "2.24×10⁵",
+      "2.49×10⁵",
+      "2.49×10⁴ N/m²"
+    ],
+    "answer_index": 3,
+    "explanation": "P = nRT/V = (1 × 8.3 × 300)/0.01 = 249,000 = 2.49 × 10⁵ Pa.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90232",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following has no effect on radiation?",
+    "options": [
+      "Density",
+      "Temperature",
+      "Surface area",
+      "Nature of surface"
+    ],
+    "answer_index": 0,
+    "explanation": "Thermal radiation depends on temperature, surface area, and emissivity (nature of surface), but not on the density of the material.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90233",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "During a thunderstorm, the sound is heard over a long time. This phenomenon is referred to as:",
+    "options": [
+      "Refraction",
+      "Reverberation",
+      "Superposition",
+      "Diffraction"
+    ],
+    "answer_index": 1,
+    "explanation": "Reverberation is the persistence of sound due to multiple reflections, causing thunder to rumble over an extended period.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90234",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The velocity of sound in air at 16°C is 340m/s. What will it be when the pressure is doubled and temperature raised to 127°C?",
+    "options": [
+      "4,000",
+      "160,000",
+      "8,000",
+      "400 m/s"
+    ],
+    "answer_index": 3,
+    "explanation": "v ∝ √T (independent of pressure for ideal gas). T₁ = 289K, T₂ = 400K. v₂ = 340 × √(400/289) = 340 × 20/17 = 400 m/s.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90235",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "In comparing the camera and the human eye, the film of the camera functions as the:",
+    "options": [
+      "Iris",
+      "Pupil",
+      "Cornea",
+      "Retina"
+    ],
+    "answer_index": 3,
+    "explanation": "The camera film records the image just as the retina (containing photoreceptors) receives and processes the image in the eye.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90236",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is used for the correction of short-sightedness?",
+    "options": [
+      "Concave lens",
+      "Concave mirror",
+      "Convex mirror",
+      "Convex lens"
+    ],
+    "answer_index": 0,
+    "explanation": "Short-sightedness (myopia) occurs when images form in front of the retina; a concave (diverging) lens corrects this.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90237",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "When a positively charged rod is brought nearer the cap of a positively charged electroscope, the leaves' divergence will:",
+    "options": [
+      "Converge",
+      "Remain constant",
+      "Diverge",
+      "Be neutralized"
+    ],
+    "answer_index": 2,
+    "explanation": "Like charges repel; bringing a positive rod closer induces more positive charge on the leaves, increasing their divergence.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90238",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following is a pure semiconductor?",
+    "options": [
+      "Silicon",
+      "Phosphorus",
+      "Transistor",
+      "Carbon"
+    ],
+    "answer_index": 0,
+    "explanation": "Pure (intrinsic) silicon has equal electron and hole concentrations. Doping silicon creates n-type or p-type extrinsic semiconductors.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90239",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A carpenter on a roof 20m high dropped a hammer of mass 1.5kg. The kinetic energy just before hitting the ground is [g=10m/s²]:",
+    "options": [
+      "450",
+      "600",
+      "150",
+      "300 J"
+    ],
+    "answer_index": 3,
+    "explanation": "KE = mgh = 1.5 × 10 × 20 = 300 J (conservation of energy: PE at top = KE at bottom).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90240",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "An object of mass 2kg moves with velocity 10m/s round a circle of radius 4m. Calculate the centripetal force.",
+    "options": [
+      "40",
+      "25",
+      "100",
+      "50 N"
+    ],
+    "answer_index": 3,
+    "explanation": "F = mv²/r = (2 × 100)/4 = 200/4 = 50 N.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90241",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If it takes an object 3s to fall freely to the ground, what is the distance covered? [g=10m/s²]",
+    "options": [
+      "60",
+      "90",
+      "30",
+      "45 m"
+    ],
+    "answer_index": 3,
+    "explanation": "s = ½gt² = ½ × 10 × 9 = 45 m.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90242",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following could be effectively used to reduce friction?",
+    "options": [
+      "Petrol",
+      "Kerosene",
+      "Grease",
+      "Water"
+    ],
+    "answer_index": 2,
+    "explanation": "Grease is a viscous lubricant that forms a film between surfaces, reducing friction and wear.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90243",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A perfect emitter or absorber of radiant energy is a:",
+    "options": [
+      "Red body",
+      "Conductor",
+      "Black body",
+      "White body"
+    ],
+    "answer_index": 2,
+    "explanation": "A black body absorbs all incident radiation and emits the maximum possible thermal radiation at every wavelength (ideal emitter).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90244",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The phenomenon that shows that an increase in pressure lowers the melting point can be observed in:",
+    "options": [
+      "Regelation",
+      "Sublimation",
+      "Condensation",
+      "Coagulation"
+    ],
+    "answer_index": 0,
+    "explanation": "Regelation is the melting of ice under pressure and refreezing when pressure is removed, demonstrating pressure-dependent melting.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90245",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following types of waves needs a medium for propagation?",
+    "options": [
+      "X-rays",
+      "Sound waves",
+      "Light waves",
+      "Radio waves"
+    ],
+    "answer_index": 1,
+    "explanation": "Sound is a mechanical wave requiring a medium. Electromagnetic waves (X-rays, light, radio) propagate through vacuum.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90246",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "When the human eye loses its power of accommodation, the defect is known as:",
+    "options": [
+      "Long-sightedness",
+      "Short-sightedness",
+      "Presbyopia",
+      "Astigmatism"
+    ],
+    "answer_index": 2,
+    "explanation": "Presbyopia is age-related loss of lens elasticity and accommodation ability, affecting near vision.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90247",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following electromagnetic waves has the highest frequency?",
+    "options": [
+      "X-rays",
+      "UV rays",
+      "Radio waves",
+      "Infrared"
+    ],
+    "answer_index": 0,
+    "explanation": "In the EM spectrum: radio < microwave < infrared < visible < UV < X-rays < gamma rays. X-rays have higher frequency than the others listed.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90248",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "When a red rose flower is observed in blue light, what colour does the observer see?",
+    "options": [
+      "Yellow",
+      "Red",
+      "Black",
+      "Magenta"
+    ],
+    "answer_index": 2,
+    "explanation": "A red object reflects red light and absorbs blue light. Under blue illumination, no red light is reflected, so it appears black.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90249",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The capacitance of a parallel plate capacitor is 20μF in air and 60μF with dielectric. What is the dielectric constant?",
+    "options": [
+      "2",
+      "0.3",
+      "6",
+      "3"
+    ],
+    "answer_index": 3,
+    "explanation": "K = C/C₀ = 60/20 = 3.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90250",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "If electricity costs ₦4 per kWh, what is the cost of operating an appliance rated 250V, 2A for 6 hours?",
+    "options": [
+      "₦24",
+      "₦0.12",
+      "₦12",
+      "₦16"
+    ],
+    "answer_index": 2,
+    "explanation": "P = VI = 250 × 2 = 500W = 0.5kW. Energy = 0.5 × 6 = 3kWh. Cost = 3 × 4 = ₦12.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90251",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The bond between silicon and germanium is:",
+    "options": [
+      "Electrovalent",
+      "Covalent",
+      "Ionic",
+      "Metallic"
+    ],
+    "answer_index": 1,
+    "explanation": "Both are Group 14 metalloids; they form covalent bonds by sharing electrons.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90252",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which material has an increase in resistance with temperature?",
+    "options": [
+      "Electrolyte",
+      "Water",
+      "Metals",
+      "Semiconductor"
+    ],
+    "answer_index": 2,
+    "explanation": "Metals have positive temperature coefficients—resistance increases with temperature due to increased lattice vibrations.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90253",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The electrical properties of germanium can be altered drastically by impurities. The process is:",
+    "options": [
+      "Doping",
+      "Saturation",
+      "Bonding",
+      "Diffusion"
+    ],
+    "answer_index": 0,
+    "explanation": "Doping introduces controlled impurities (e.g., boron, phosphorus) to modify semiconductor conductivity.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90254",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Heat transfer by vibration of molecules of the medium is:",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation",
+      "Diffusion"
+    ],
+    "answer_index": 1,
+    "explanation": "Conduction transfers heat through direct molecular collisions and lattice vibrations without bulk movement.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90255",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The characteristic of a vibration that determines its intensity is the:",
+    "options": [
+      "Frequency",
+      "Overtone",
+      "Wavelength",
+      "Amplitude"
+    ],
+    "answer_index": 3,
+    "explanation": "Intensity (loudness for sound, brightness for light) is proportional to the square of the amplitude.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90256",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The use of lenses is NOT applicable in the:",
+    "options": [
+      "Projector",
+      "Human eye",
+      "Periscope",
+      "Telescope"
+    ],
+    "answer_index": 2,
+    "explanation": "Simple periscopes use plane mirrors or prisms, not lenses, to change the line of sight.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90257",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Detecting a pin mistakenly swallowed by a child requires:",
+    "options": [
+      "X-ray",
+      "Therapy",
+      "Crystallography",
+      "Mammography"
+    ],
+    "answer_index": 0,
+    "explanation": "X-rays penetrate soft tissue but are absorbed by metals, making them ideal for locating swallowed metallic objects.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90258",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which particles CANNOT be deflected by both electric and magnetic fields?",
+    "options": [
+      "Gamma rays",
+      "Alpha particles",
+      "Wave particles",
+      "Beta particles"
+    ],
+    "answer_index": 0,
+    "explanation": "Gamma rays are neutral electromagnetic radiation (photons) and carry no charge, so they are unaffected by electric/magnetic fields.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90259",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The coefficient of friction between two perfectly smooth surfaces is:",
+    "options": [
+      "Infinity",
+      "One",
+      "Zero",
+      "One-half"
+    ],
+    "answer_index": 2,
+    "explanation": "Perfectly smooth surfaces have no interlocking or adhesion, resulting in zero friction.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90260",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Total internal reflection will not occur when light travels from:",
+    "options": [
+      "Water to air",
+      "Water into glass",
+      "Glass to air",
+      "Glass into water"
+    ],
+    "answer_index": 1,
+    "explanation": "TIR occurs only when light travels from a denser to a rarer medium. Glass is denser than water, so water → glass is denser to denser.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90261",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "Which of the following obeys Ohm's law?",
+    "options": [
+      "Electrolytes",
+      "Metals",
+      "Diode",
+      "Glass"
+    ],
+    "answer_index": 1,
+    "explanation": "Metals are ohmic conductors with linear V-I relationships at constant temperature. Diodes and electrolytes are non-ohmic.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90262",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The particle nature of light is demonstrated by the:",
+    "options": [
+      "Photoelectric effect",
+      "Speed of light",
+      "Colours",
+      "Diffraction"
+    ],
+    "answer_index": 0,
+    "explanation": "The photoelectric effect shows light behaving as discrete packets of energy (photons), supporting particle theory.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90263",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "A quantity which requires magnitude and direction to be specified is:",
+    "options": [
+      "Temperature",
+      "Distance",
+      "Displacement",
+      "Mass"
+    ],
+    "answer_index": 2,
+    "explanation": "Displacement is a vector quantity requiring both magnitude and direction. Temperature, distance, and mass are scalars.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90264",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The quantity of heat needed to raise the temperature of a body by 1K is the body's:",
+    "options": [
+      "Heat capacity",
+      "Internal energy",
+      "Specific heat capacity",
+      "Latent heat"
+    ],
+    "answer_index": 0,
+    "explanation": "Heat capacity (C) = Q/ΔT, the total heat required to raise the entire body's temperature by 1K.",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  },
+  {
+    "id": "authorised-90265",
+    "subject": "Physics",
+    "topic": "To be tagged during syllabus mapping",
+    "question": "The temperature at which water vapor present in the air is just sufficient to saturate air is:",
+    "options": [
+      "Boiling point",
+      "Ice point",
+      "Saturation point",
+      "Dew point"
+    ],
+    "answer_index": 3,
+    "explanation": "The dew point is the temperature at which air becomes saturated with water vapor, causing condensation (dew).",
+    "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics"
+  }
+]
