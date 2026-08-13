@@ -1,7 +1,7 @@
 {
   "total": 1224,
-  "approved": 46,
-  "needsReview": 1178,
+  "approved": 514,
+  "needsReview": 710,
   "sources": {
     "Owner-provided Drive: ENGLISH UTME– 500 Likely  Questions and Answers.pdf": {
       "total": 1,
@@ -15,18 +15,18 @@
     },
     "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf": {
       "total": 191,
-      "approved": 46,
-      "needsReview": 145
+      "approved": 186,
+      "needsReview": 5
     },
     "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf": {
       "total": 179,
-      "approved": 0,
-      "needsReview": 179
+      "approved": 166,
+      "needsReview": 13
     },
     "Owner-provided Biology non-diagram collection — pending provenance review": {
       "total": 476,
-      "approved": 0,
-      "needsReview": 476
+      "approved": 162,
+      "needsReview": 314
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry": {
       "total": 109,

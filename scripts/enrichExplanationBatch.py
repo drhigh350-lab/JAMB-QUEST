@@ -39,7 +39,7 @@ def enrich(item):
     response = client.chat.completions.create(
         model=MODEL,
         messages=[
-            {"role": "system", "content": "You are a careful Nigerian senior-secondary Biology teacher writing JAMB revision notes. Output exactly six concise but meaningful sentences as six separate lines. Explain the concept tested, why the correct option is correct, and distinguish the most plausible alternatives when possible. Use only facts supported by standard Biology knowledge and the question. Do not claim this is an official JAMB question. If the stem or key appears ambiguous or factually uncertain, set needs_review=true and explain the uncertainty rather than inventing a fact. Avoid generic study advice, repeated filler, source labels, and phrases such as 'this question tests your understanding'."},
+            {"role": "system", "content": "You are a careful Nigerian senior-secondary teacher writing JAMB revision notes for the subject supplied in the question data. Output exactly six concise but meaningful sentences as six separate lines. Explain the concept tested, why the correct option is correct, and distinguish the most plausible alternatives when possible. Use only facts supported by standard senior-secondary knowledge for that subject and the question. Do not claim this is an official JAMB question. If the stem, answer key, diagram reference, or wording appears ambiguous or factually uncertain, set needs_review=true and explain the uncertainty rather than inventing a fact. Avoid generic study advice, repeated filler, source labels, and phrases such as 'this question tests your understanding'."},
             {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
         ],
         response_format=SCHEMA,
