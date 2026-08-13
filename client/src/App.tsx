@@ -90,6 +90,8 @@ function App() {
   }, [disablePush, updateReminder]);
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
+    const legacyUpgradeFixture = new URLSearchParams(window.location.search).get("swUpgradeFixture") === "legacy";
+    const workerPath = legacyUpgradeFixture ? "/sw.js?upgradeFixture=legacy" : "/sw.js";
     let reloading = false;
     const refreshForNewWorker = () => {
       if (reloading) return;
@@ -97,7 +99,7 @@ function App() {
       window.location.reload();
     };
     navigator.serviceWorker.addEventListener("controllerchange", refreshForNewWorker);
-    void navigator.serviceWorker.register("/sw.js").then((registration) => {
+    void navigator.serviceWorker.register(workerPath).then((registration) => {
       const activateWaitingWorker = () => registration.waiting?.postMessage({ type: "SKIP_WAITING" });
       activateWaitingWorker();
       registration.addEventListener("updatefound", () => {
