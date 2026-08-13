@@ -12,6 +12,8 @@ export default function CbtFlowFixture() {
   const [flaggedIds, setFlaggedIds] = useState<string[]>([]);
   const [screen, setScreen] = useState<"quiz" | "review" | "logged">("quiz");
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [secondsLeft, setSecondsLeft] = useState(1200);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     void loadQuestionBank().then((bank) => {
@@ -21,6 +23,12 @@ export default function CbtFlowFixture() {
       setQuestions(selected);
     }).catch((error) => setLoadError(error instanceof Error ? error.message : "Unable to load CBT fixture"));
   }, []);
+
+  useEffect(() => {
+    if (screen !== "quiz" || isPaused) return;
+    const interval = window.setInterval(() => setSecondsLeft((current) => Math.max(0, current - 1)), 1000);
+    return () => window.clearInterval(interval);
+  }, [isPaused, screen]);
 
   const question = questions[currentIndex];
   const goTo = (index: number) => {
@@ -42,5 +50,5 @@ export default function CbtFlowFixture() {
   if (!question) return <main data-e2e="cbt-loading">Loading four-subject CBT fixture…</main>;
   if (screen === "logged") return <main data-e2e="cbt-logged">CBT exam log saved.</main>;
   if (screen === "review") return <ExamReview config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} answers={answerMap} flaggedIds={flaggedIds} onFinalize={() => setScreen("logged")} onHome={() => setScreen("quiz")} />;
-  return <QuizShell config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} currentIndex={currentIndex} currentQuestion={question} selectedIndex={selectedIndex} answered={false} currentAnswer={currentAnswer} secondsLeft={1200} streak={0} answers={answerMap} onSelect={select} onSubmit={() => undefined} onNext={() => goTo((currentIndex + 1) % questions.length)} onQuit={() => undefined} flaggedIds={flaggedIds} onNavigate={goTo} onToggleFlag={toggleFlag} onFinishCbt={() => setScreen("review")} />;
+  return <QuizShell config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} currentIndex={currentIndex} currentQuestion={question} selectedIndex={selectedIndex} answered={false} currentAnswer={currentAnswer} secondsLeft={secondsLeft} streak={0} answers={answerMap} onSelect={select} onSubmit={() => undefined} onNext={() => goTo((currentIndex + 1) % questions.length)} onQuit={() => undefined} flaggedIds={flaggedIds} onNavigate={goTo} onToggleFlag={toggleFlag} onFinishCbt={() => setScreen("review")} isPaused={isPaused} onTogglePause={() => setIsPaused((current) => !current)} />;
 }

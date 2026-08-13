@@ -39,6 +39,16 @@
 - [x] Add learner performance charts and persistent exam/practice logs showing score trend, subject accuracy, timing, and weak-topic recovery.
 - [x] Add a CBT submit-confirmation step before entering final answer review, with browser-flow coverage.
 - [x] Add a dedicated weak-topic recovery panel derived from persisted answer-review data and verify the Progress analytics view in the browser.
+- [x] Add browser coverage for the real useQuizGame CBT pause/resume flow, proving its actual countdown freezes and resumes without losing saved answers or navigator state.
+- [ ] Add a revision planner, saved-question bookmarks, and focused topic drills based on missed-question patterns.
+- [x] Add an exam-result comparison view that turns logged attempts into actionable next-step recommendations.
+- [ ] Persist authenticated saved-question bookmarks and make each saved record returnable from Progress.
+- [x] Add focused topic drills from weak-topic recovery while preserving normal sprint, recovery, and full-mock selection rules.
+- [x] Add a latest-versus-previous CBT comparison with an evidence-based next study action.
+- [x] Add an explicit revision-planner panel that converts weak topics, saved questions, and recent CBT comparison into an ordered next-study plan.
+- [x] Handle unavailable bookmark and topic-drill records safely without falling back to unrelated subject questions.
+- [ ] Add an authenticated browser/DB-backed flow that saves a question, confirms it appears in Progress, and reopens that exact question.
+- [ ] Prepare the rich-question intake workflow to preserve the user's supplied explanation style when the next batch arrives.
 - [x] Inspect and stage the newly supplied Lekki Headmaster and JAMB Idioms PDFs with verification-pending provenance; do not add unvalidated items to gameplay.
 - [ ] Apply the user's forthcoming rich-explanation examples as the quality standard before enriching the next question batch.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.

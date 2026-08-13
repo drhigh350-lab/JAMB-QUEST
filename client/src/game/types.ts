@@ -34,6 +34,8 @@ export interface RoundConfig {
   subject: RoundSubject;
   mode: QuizMode;
   count: number;
+  topic?: string;
+  questionIds?: string[];
 }
 
 export interface AnswerRecord {

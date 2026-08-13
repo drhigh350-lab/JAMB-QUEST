@@ -44,6 +44,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [flaggedIds, setFlaggedIds] = useState<string[]>([]);
+  const [isPaused, setIsPaused] = useState(false);
 
   const reload = useCallback(() => {
     const controller = new AbortController();
@@ -107,10 +108,10 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   }, [answers, roundConfig, roundQuestions, screen, secondsLeft]);
 
   useEffect(() => {
-    if (screen !== "quiz" || (!isCbt && answered)) return;
+    if (screen !== "quiz" || isPaused || (!isCbt && answered)) return;
     const interval = window.setInterval(() => setSecondsLeft((current) => Math.max(current - 1, 0)), 1000);
     return () => window.clearInterval(interval);
-  }, [answered, isCbt, screen]);
+  }, [answered, isCbt, isPaused, screen]);
 
   useEffect(() => {
     if (screen !== "quiz" || secondsLeft !== 0) return;
@@ -121,8 +122,11 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const startRound = useCallback(
     (config: RoundConfig) => {
       if (!playableQuestions.length) return;
-      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds);
-      if (!picked.length) return;
+      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds, { topic: config.topic, questionIds: config.questionIds });
+      if (!picked.length) {
+        setLoadError(config.questionIds?.length ? "That saved question is no longer available in the current bank." : config.topic ? `No playable questions are currently available for ${config.topic}.` : "No playable questions are available for this round.");
+        return;
+      }
       const startingSeconds = config.mode === "cbt" ? Math.max(CBT_MINIMUM_SECONDS, config.count * 75) : DEFAULT_SECONDS;
       setRoundConfig(config);
       setRoundQuestions(picked);
@@ -136,6 +140,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
       setScore(0);
       setStreak(0);
       setFlaggedIds([]);
+      setIsPaused(false);
       setScreen("quiz");
     },
     [playableQuestions, progress.wrongIds],
@@ -202,6 +207,11 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setFlaggedIds((current) => current.includes(currentQuestion.id) ? current.filter((id) => id !== currentQuestion.id) : [...current, currentQuestion.id]);
   }, [currentQuestion, isCbt]);
 
+  const togglePause = useCallback(() => {
+    if (!isCbt || screen !== "quiz") return;
+    setIsPaused((current) => !current);
+  }, [isCbt, screen]);
+
   const submitCbtReview = useCallback(() => {
     if (!isCbt) return;
     recordFinalRound(answers, score);
@@ -234,6 +244,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     wrongQuestions,
     flaggedIds,
     isCbt,
+    isPaused,
     canReview: progress.wrongIds.length > 0,
     startRound,
     selectAnswer,
@@ -242,6 +253,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     navigateCbt,
     saveAndNextCbt,
     toggleFlag,
+    togglePause,
     finishCbt,
     submitCbtReview,
     quitRound,

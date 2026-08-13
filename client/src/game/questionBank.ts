@@ -41,17 +41,27 @@ export function selectQuestions(
   mode: QuizMode,
   count: number,
   wrongIds: string[],
+  filters?: { topic?: string; questionIds?: string[] },
 ): BankQuestion[] {
   if (subject === "Full JAMB Mock") {
-    const perSubject = Math.floor(count / SUBJECTS.length);
-    const remainder = count % SUBJECTS.length;
-    return SUBJECTS.flatMap((currentSubject, index) => {
+    const distribution = count === 180
+      ? { "Use of English": 60, Biology: 40, Chemistry: 40, Physics: 40 } satisfies Record<Subject, number>
+      : Object.fromEntries(SUBJECTS.map((currentSubject, index) => [currentSubject, Math.floor(count / SUBJECTS.length) + (index < count % SUBJECTS.length ? 1 : 0)])) as Record<Subject, number>;
+    return SUBJECTS.flatMap((currentSubject) => {
       const selected = questions.filter((question) => question.subject === currentSubject);
-      return shuffle(selected).slice(0, perSubject + (index < remainder ? 1 : 0));
+      return shuffle(selected).slice(0, distribution[currentSubject]);
     });
   }
   const subjectQuestions = questions.filter((question) => question.subject === subject);
-  const source = mode === "review" ? subjectQuestions.filter((question) => wrongIds.includes(question.id)) : subjectQuestions;
+  const savedQuestionIds = new Set(filters?.questionIds ?? []);
+  const source = savedQuestionIds.size
+    ? subjectQuestions.filter((question) => savedQuestionIds.has(question.id))
+    : filters?.topic
+      ? subjectQuestions.filter((question) => question.topic === filters.topic)
+      : mode === "review"
+        ? subjectQuestions.filter((question) => wrongIds.includes(question.id))
+        : subjectQuestions;
+  if (savedQuestionIds.size || filters?.topic) return shuffle(source).slice(0, Math.min(count, source.length));
   return shuffle(source.length ? source : subjectQuestions).slice(0, Math.min(count, source.length || subjectQuestions.length));
 }
 

@@ -1,7 +1,7 @@
 /* Field Notes Arcade: answer choices behave like marked strips on a study sheet. */
 
 import React from "react";
-import { CheckCircle2, Clock3, Send, XCircle } from "lucide-react";
+import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
 
@@ -17,9 +17,11 @@ interface QuestionCardProps {
   onNext: () => void;
   cbtMode?: boolean;
   onSaveAndNext?: () => void;
+  isBookmarked?: boolean;
+  onToggleBookmark?: () => void;
 }
 
-export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext }: QuestionCardProps) {
+export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext, isBookmarked = false, onToggleBookmark }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D"];
   const explanationLines = questionExplanationLines(question);
   return (
@@ -28,7 +30,7 @@ export function QuestionCard({ question, index, total, selectedIndex, answered, 
         <div className="question-meta">
           <span>Question {String(index + 1).padStart(2, "0")} of {String(total).padStart(2, "0")}</span>
         </div>
-        <span className="question-topic-label">Topic: {normalisedTopic(question.topic)}</span>
+        <div className="question-card-tools"><span className="question-topic-label">Topic: {normalisedTopic(question.topic)}</span>{onToggleBookmark && <button className={`bookmark-control ${isBookmarked ? "active" : ""}`} onClick={onToggleBookmark} aria-pressed={isBookmarked} title={isBookmarked ? "Remove saved question" : "Save question for revision"}>{isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}<span>{isBookmarked ? "Saved" : "Save"}</span></button>}</div>
       </div>
       <div className="question-rule" />
       <div className="question-copy">

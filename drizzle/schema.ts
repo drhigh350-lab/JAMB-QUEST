@@ -74,6 +74,20 @@ export const quizRounds = mysqlTable("quizRounds", {
 });
 
 /**
+ * Learner bookmarks support returnable revision for model and authorised questions.
+ * Question IDs remain strings because model-bank items are remote JSON records.
+ */
+export const learnerBookmarks = mysqlTable("learnerBookmarks", {
+  id: int("id").autoincrement().primaryKey(),
+  bookmarkKey: varchar("bookmarkKey", { length: 192 }).notNull().unique(),
+  userId: int("userId").notNull().references(() => users.id),
+  questionId: varchar("questionId", { length: 128 }).notNull(),
+  subject: varchar("subject", { length: 48 }).notNull(),
+  topic: varchar("topic", { length: 160 }).notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+/**
  * Provenance records keep original model questions clearly distinct from authorised question sets.
  */
 export const questionSources = mysqlTable("questionSources", {
@@ -204,6 +218,7 @@ export const projectPushConfigs = mysqlTable("projectPushConfigs", {
 export type LearnerProfile = typeof learnerProfiles.$inferSelect;
 export type LearnerProgress = typeof learnerProgress.$inferSelect;
 export type QuizRound = typeof quizRounds.$inferSelect;
+export type LearnerBookmark = typeof learnerBookmarks.$inferSelect;
 export type QuestionSource = typeof questionSources.$inferSelect;
 export type QuestionImport = typeof questionImports.$inferSelect;
 export type QuestionItem = typeof questionItems.$inferSelect;

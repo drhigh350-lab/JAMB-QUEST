@@ -1,6 +1,6 @@
 import { chromium } from "@playwright/test";
 
-const baseUrl = "https://jambquiz-kmqgtf9m.manus.space";
+const baseUrl = process.env.JAMB_QUEST_URL ?? "https://jambquiz-kmqgtf9m.manus.space";
 const browser = await chromium.launch({ headless: true, executablePath: "/usr/bin/chromium" });
 const context = await browser.newContext({ viewport: { width: 375, height: 812 } });
 const page = await context.newPage();

@@ -8,6 +8,7 @@ import webpush, { type PushSubscription } from "web-push";
 import {
   InsertUser,
   learnerAchievements,
+  learnerBookmarks,
   learnerDailyActivities,
   learnerProfiles,
   learnerProgress,
@@ -53,7 +54,9 @@ export type LearnerDashboard = {
     badges: string[];
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean };
-  performance: { weakTopics: Array<{ topic: string; misses: number; attempts: number; accuracy: number }> };
+  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }> };
+  revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
+  comparison: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
   recentRounds: Array<{
     id: number;
     subject: string;
@@ -178,19 +181,47 @@ function parseScoreMap(raw: string | null): Record<string, number> {
   }
 }
 
-function parseAnswerReview(raw: string | null): Array<{ topic: string; correct: boolean }> {
+function parseAnswerReview(raw: string | null): Array<{ topic: string; subject: string | null; correct: boolean }> {
   if (!raw) return [];
   try {
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
     return parsed.flatMap((entry) => {
       if (!entry || typeof entry !== "object") return [];
-      const value = entry as { topic?: unknown; correct?: unknown };
-      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ topic: value.topic, correct: value.correct }] : [];
+      const value = entry as { topic?: unknown; subject?: unknown; correct?: unknown };
+      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, correct: value.correct }] : [];
     });
   } catch {
     return [];
   }
+}
+
+export function buildExamComparison(
+  rounds: Array<{ id: number; mode: string; questionCount: number; correctCount: number; durationSeconds: number; flaggedCount: number; completedAt: Date }>,
+  weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>,
+) {
+  const exams = rounds.filter((round) => round.mode === "cbt").slice(0, 2);
+  const latestRound = exams[0];
+  const previousRound = exams[1];
+  const toSummary = (round: typeof latestRound) => round ? {
+    id: round.id,
+    accuracy: round.questionCount ? Math.round((round.correctCount / round.questionCount) * 100) : 0,
+    durationSeconds: round.durationSeconds,
+    flaggedCount: round.flaggedCount,
+    completedAt: round.completedAt,
+  } : null;
+  const latest = toSummary(latestRound);
+  const previous = toSummary(previousRound);
+  const accuracyChange = latest && previous ? latest.accuracy - previous.accuracy : null;
+  const priorityTopic = weakTopics[0];
+  const recommendation = !latest
+    ? "Take a timed CBT mock to create your first performance baseline."
+    : priorityTopic
+      ? `Run a focused ${Math.min(20, Math.max(10, priorityTopic.misses * 5))}-question drill on ${priorityTopic.topic}; it is your clearest recovery opportunity.`
+      : latest.flaggedCount
+        ? "Revisit the questions you flagged, then take another short CBT to confirm the improvement."
+        : "Keep your system steady with a short mixed practice round before your next timed CBT.";
+  return { latest, previous, accuracyChange, recommendation };
 }
 
 export function buildLedgerSnapshot(input: {
@@ -253,17 +284,31 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const activities = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.userId, userId));
   const achievements = await db.select().from(learnerAchievements).where(eq(learnerAchievements.userId, userId));
   const rounds = await db.select().from(quizRounds).where(eq(quizRounds.userId, userId)).orderBy(quizRounds.completedAt).limit(12);
+  const bookmarks = await db.select().from(learnerBookmarks).where(eq(learnerBookmarks.userId, userId));
   const timeZone = profile?.timeZone ?? "Africa/Lagos";
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
-  const weakTopicMap = new Map<string, { misses: number; attempts: number }>();
+  const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
   rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
-    const current = weakTopicMap.get(answer.topic) ?? { misses: 0, attempts: 0 };
+    const key = `${answer.subject ?? ""}\u0000${answer.topic}`;
+    const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
     current.attempts += 1;
     if (!answer.correct) current.misses += 1;
-    weakTopicMap.set(answer.topic, current);
+    weakTopicMap.set(key, current);
   });
-  const weakTopics = Array.from(weakTopicMap.entries()).map(([topic, value]) => ({ topic, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+  const weakTopics = Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+  const recentRounds = rounds.reverse().map((round) => ({
+    id: round.id,
+    subject: round.subject,
+    mode: round.mode,
+    questionCount: round.questionCount,
+    correctCount: round.correctCount,
+    score: round.score,
+    durationSeconds: round.durationSeconds,
+    flaggedCount: parseStringList(round.flaggedQuestionIds).length,
+    completedAt: round.completedAt,
+  }));
+  const comparison = buildExamComparison(recentRounds, weakTopics);
   const today = activities.find((activity) => activity.dateKey === dateKey);
   const completedDays = recentActivity.filter((activity) => activity.completedMinimum).length;
 
@@ -297,18 +342,19 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     },
     reminder: { enabled: Boolean(reminder?.enabled), reminderTime: reminder?.reminderTime ?? "19:00", pushEnabled: Boolean(pushSubscription?.enabled) },
     performance: { weakTopics },
-    recentRounds: rounds.reverse().map((round) => ({
-      id: round.id,
-      subject: round.subject,
-      mode: round.mode,
-      questionCount: round.questionCount,
-      correctCount: round.correctCount,
-      score: round.score,
-      durationSeconds: round.durationSeconds,
-      flaggedCount: parseStringList(round.flaggedQuestionIds).length,
-      completedAt: round.completedAt,
-    })),
+    revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
+    comparison,
+    recentRounds,
   };
+}
+
+export async function toggleLearnerBookmark(userId: number, fallbackName: string | null, input: { questionId: string; subject: string; topic: string }) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const bookmarkKey = `${userId}:${input.questionId}`;
+  const [existing] = await db.select().from(learnerBookmarks).where(eq(learnerBookmarks.bookmarkKey, bookmarkKey)).limit(1);
+  if (existing) await db.delete(learnerBookmarks).where(eq(learnerBookmarks.id, existing.id));
+  else await db.insert(learnerBookmarks).values({ bookmarkKey, userId, questionId: input.questionId, subject: input.subject, topic: input.topic });
+  return getLearnerDashboard(userId, fallbackName);
 }
 
 export async function updateLearnerProfile(userId: number, fallbackName: string | null, update: { displayName?: string; targetScore?: number; timeZone?: string }) {
