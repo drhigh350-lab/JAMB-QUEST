@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786621556517,
+      "tag": "0000_blushing_shinobi_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786622108985,
+      "tag": "0001_daily_killraven",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786623600915,
+      "tag": "0002_regular_betty_brant",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786623787320,
+      "tag": "0003_big_black_knight",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786624053342,
+      "tag": "0004_majestic_beyonder",
+      "breakpoints": true
+    }
+  ]
+}

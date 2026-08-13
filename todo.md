@@ -1,0 +1,27 @@
+# JAMB Quest Upgrade Checklist
+
+- [x] Read the full-stack WebDev guide and apply the user/auth/database feature scaffold.
+- [x] Add profile identity and account-state UI without disrupting the existing quiz flow.
+- [x] Move progress, best scores, wrong-answer history, and round summaries from local-only storage to per-user persistence.
+- [x] Define question provenance fields so original model questions and authorised real questions are visibly separated.
+- [x] Add an import-ready schema and validation path for the user’s authorised question files.
+- [ ] Verify sign-in-aware UI, signed-out fallback, profile persistence contracts, quiz gameplay, and question-source labeling.
+- [ ] Save and deliver the upgraded checkpoint with concise setup notes for the user’s future question upload.
+- [x] Implement an authenticated authorised-question import workflow with source metadata, schema validation, status handling, and clear error states.
+- [ ] Test and document a real signed-in profile flow: login, save profile, completed-round sync, reload persistence, logout fallback, and source labels.
+- [x] Preserve guest-first gameplay and defer only the user-mediated OAuth completion test until the user independently signs in after publication.
+- [x] Summarize the Atomic Habits systems-first brief into product principles for a 380-score comeback journey.
+- [x] Connect and inspect the owner’s authorised Google Drive past-question folder without importing unverified material.
+- [x] Validate and stage the supplied Biology authentic-question Markdown separately from the original model bank.
+- [x] Re-theme the experience around “Comeback from Setback” and “Smashing 380 in JAMB.”
+- [x] Add habit-driven gamification: daily minimum system, streak recovery, consistency score, comeback XP, badges, and focused missions.
+- [x] Add a personal activity and progress view with daily history, subject mastery, goal trajectory, and wrong-answer recovery.
+- [x] Select and implement a daily accountability-notification approach after presenting viable delivery options.
+- [ ] Verify the authentic-question provenance labels, comeback loop, progress calculations, daily-notification setup, and responsive UI.
+- [x] Add daily-system, activity, achievement, and streak-recovery data models for the 380 comeback loop.
+- [x] Build the in-app daily comeback check-in, minimum action, consistency score, XP, badges, and mission flow.
+- [x] Add opt-in browser notification subscriptions, permission states, and an off-switch with no loss of core gameplay.
+- [ ] Configure a deployed daily scheduler only after the push UI, service worker, and notification keys are ready.
+- [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
+- [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
+- [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.

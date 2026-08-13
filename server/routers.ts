@@ -1,0 +1,68 @@
+/* Field Notes Arcade: authenticated procedures keep each learner’s revision ledger private and useful. */
+
+import { z } from "zod";
+import { COOKIE_NAME } from "@shared/const";
+import { disablePushSubscriptions, getLearnerDashboard, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { authorisedImportSchema } from "./questionImport";
+import { getSessionCookieOptions } from "./_core/cookies";
+import { systemRouter } from "./_core/systemRouter";
+import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
+
+const subjectSchema = z.enum(["Use of English", "Biology", "Chemistry", "Physics"]);
+
+export const appRouter = router({
+  system: systemRouter,
+  auth: router({
+    me: publicProcedure.query((opts) => opts.ctx.user),
+    logout: publicProcedure.mutation(({ ctx }) => {
+      const cookieOptions = getSessionCookieOptions(ctx.req);
+      ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
+      return { success: true } as const;
+    }),
+  }),
+  learner: router({
+    dashboard: protectedProcedure.query(({ ctx }) => getLearnerDashboard(ctx.user.id, ctx.user.name ?? null)),
+    updateProfile: protectedProcedure.input(z.object({
+      displayName: z.string().trim().max(80).optional(),
+      targetScore: z.number().int().min(1).max(400).optional(),
+      timeZone: z.string().trim().min(1).max(64).optional(),
+    })).mutation(({ ctx, input }) => updateLearnerProfile(ctx.user.id, ctx.user.name ?? null, input)),
+    updateSystem: protectedProcedure.input(z.object({
+      dailyMinimum: z.number().int().min(5).max(80).optional(),
+    })).mutation(({ ctx, input }) => updateLearnerSystem(ctx.user.id, ctx.user.name ?? null, input)),
+    updateReminder: protectedProcedure.input(z.object({
+      enabled: z.boolean().optional(),
+      reminderTime: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/).optional(),
+    })).mutation(({ ctx, input }) => updateReminderPreferences(ctx.user.id, ctx.user.name ?? null, input)),
+    enablePush: protectedProcedure.input(z.object({
+      endpoint: z.string().url(),
+      keys: z.object({ p256dh: z.string().min(8), auth: z.string().min(8) }),
+    })).mutation(({ ctx, input }) => upsertPushSubscription(ctx.user.id, ctx.user.name ?? null, JSON.stringify(input))),
+    disablePush: protectedProcedure.mutation(({ ctx }) => disablePushSubscriptions(ctx.user.id, ctx.user.name ?? null)),
+    recordRound: protectedProcedure.input(z.object({
+      subject: subjectSchema,
+      mode: z.enum(["sprint", "cbt", "review"]),
+      questionCount: z.number().int().min(1).max(100),
+      correctCount: z.number().int().min(0).max(100),
+      score: z.number().int().min(0).max(100_000),
+      wrongIds: z.array(z.string().min(1).max(128)).max(100),
+    })).mutation(({ ctx, input }) => recordLearnerRound(ctx.user.id, ctx.user.name ?? null, input)),
+  }),
+  questionSources: router({
+    list: publicProcedure.query(() => getQuestionSourceCatalogue()),
+  }),
+  push: router({
+    publicKey: publicProcedure.query(() => getWebPushPublicKey()),
+  }),
+  questionImports: router({
+    validate: adminProcedure.input(authorisedImportSchema).query(({ input }) => ({
+      valid: true,
+      sourceLabel: input.sourceLabel,
+      questionCount: input.questions.length,
+      subjects: Array.from(new Set(input.questions.map((question) => question.subject))),
+    })),
+    import: adminProcedure.input(authorisedImportSchema).mutation(({ ctx, input }) => importAuthorisedQuestionSet(ctx.user.id, input)),
+  }),
+});
+
+export type AppRouter = typeof appRouter;

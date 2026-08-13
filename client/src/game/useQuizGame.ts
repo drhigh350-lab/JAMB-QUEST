@@ -8,7 +8,21 @@ import type { AnswerRecord, BankQuestion, GameScreen, QuizMode, RoundConfig, Sto
 const DEFAULT_SECONDS = 35;
 const CBT_SECONDS = 50;
 
-export function useQuizGame() {
+export type RoundCompletionPayload = {
+  subject: Subject;
+  mode: QuizMode;
+  questionCount: number;
+  correctCount: number;
+  score: number;
+  wrongIds: string[];
+};
+
+type QuizGameOptions = {
+  remoteProgress?: StoredProgress;
+  onRoundComplete?: (payload: RoundCompletionPayload) => void;
+};
+
+export function useQuizGame({ remoteProgress, onRoundComplete }: QuizGameOptions = {}) {
   const [questions, setQuestions] = useState<BankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -39,6 +53,11 @@ export function useQuizGame() {
   }, []);
 
   useEffect(() => reload(), [reload]);
+
+  const remoteProgressKey = useMemo(() => (remoteProgress ? JSON.stringify(remoteProgress) : null), [remoteProgress]);
+  useEffect(() => {
+    if (remoteProgress) setProgress(remoteProgress);
+  }, [remoteProgressKey]);
 
   const currentQuestion = roundQuestions[currentIndex] ?? null;
   const currentAnswer = currentQuestion ? answers[currentQuestion.id] : undefined;
@@ -96,8 +115,17 @@ export function useQuizGame() {
     if (!answered || !roundConfig) return;
     if (currentIndex >= roundQuestions.length - 1) {
       const nextProgress = recordRound(progress, roundConfig, roundQuestions, answers, score);
+      const completedWrongIds = roundQuestions.filter((question) => answers[question.id] && !answers[question.id].correct).map((question) => question.id);
       setProgress(nextProgress);
-      saveProgress(nextProgress);
+      if (!remoteProgress) saveProgress(nextProgress);
+      onRoundComplete?.({
+        subject: roundConfig.subject,
+        mode: roundConfig.mode,
+        questionCount: roundQuestions.length,
+        correctCount: Object.values(answers).filter((answer) => answer.correct).length,
+        score,
+        wrongIds: completedWrongIds,
+      });
       setScreen("result");
       return;
     }
@@ -105,7 +133,7 @@ export function useQuizGame() {
     setSelectedIndex(null);
     setAnswered(false);
     setSecondsLeft(roundConfig.mode === "cbt" ? CBT_SECONDS : DEFAULT_SECONDS);
-  }, [answers, answered, currentIndex, progress, roundConfig, roundQuestions, score]);
+  }, [answers, answered, currentIndex, onRoundComplete, progress, remoteProgress, roundConfig, roundQuestions, score]);
 
   const quitRound = useCallback(() => setScreen("home"), []);
   const retryRound = useCallback(() => {

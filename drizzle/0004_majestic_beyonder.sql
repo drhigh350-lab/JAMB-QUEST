@@ -1,0 +1,1 @@
+ALTER TABLE `learnerReminderPreferences` ADD `lastSentDate` varchar(10);
