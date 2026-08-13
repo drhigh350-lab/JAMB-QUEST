@@ -32,6 +32,8 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('self.addEventListener("fetch"');
     expect(worker).toContain('self.addEventListener("push"');
     expect(worker).toContain('self.addEventListener("notificationclick"');
+    expect(worker).toContain('self.addEventListener("message"');
+    expect(worker).toContain('"SKIP_WAITING"');
     expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
   });
 });

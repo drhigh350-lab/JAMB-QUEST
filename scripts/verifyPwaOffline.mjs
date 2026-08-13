@@ -1,0 +1,16 @@
+import { chromium } from "@playwright/test";
+
+const baseUrl = "https://jambquiz-kmqgtf9m.manus.space";
+const browser = await chromium.launch({ headless: true, executablePath: "/usr/bin/chromium" });
+const context = await browser.newContext({ viewport: { width: 375, height: 812 } });
+const page = await context.newPage();
+
+await page.goto(baseUrl, { waitUntil: "networkidle" });
+await page.evaluate(async () => navigator.serviceWorker.ready);
+await context.setOffline(true);
+await page.reload({ waitUntil: "domcontentloaded" });
+await page.getByRole("heading", { name: /smash 380/i }).waitFor();
+
+await context.setOffline(false);
+await browser.close();
+console.log("pwa-offline-app-shell-verified");

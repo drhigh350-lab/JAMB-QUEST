@@ -90,7 +90,26 @@ function App() {
   }, [disablePush, updateReminder]);
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
-    void navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+    let reloading = false;
+    const refreshForNewWorker = () => {
+      if (reloading) return;
+      reloading = true;
+      window.location.reload();
+    };
+    navigator.serviceWorker.addEventListener("controllerchange", refreshForNewWorker);
+    void navigator.serviceWorker.register("/sw.js").then((registration) => {
+      const activateWaitingWorker = () => registration.waiting?.postMessage({ type: "SKIP_WAITING" });
+      activateWaitingWorker();
+      registration.addEventListener("updatefound", () => {
+        const installing = registration.installing;
+        if (!installing) return;
+        installing.addEventListener("statechange", () => {
+          if (installing.state === "installed" && navigator.serviceWorker.controller) installing.postMessage({ type: "SKIP_WAITING" });
+        });
+      });
+      void registration.update().catch(() => undefined);
+    }).catch(() => undefined);
+    return () => navigator.serviceWorker.removeEventListener("controllerchange", refreshForNewWorker);
   }, []);
   useEffect(() => {
     const handleBeforeInstall = (event: Event) => {
