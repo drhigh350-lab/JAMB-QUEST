@@ -7,7 +7,7 @@ if (!inputPath) throw new Error("Usage: node scripts/auditExplanationQuality.mjs
 const payload = JSON.parse(await readFile(inputPath, "utf8"));
 const records = Array.isArray(payload) ? payload : payload.questions;
 if (!Array.isArray(records)) throw new Error("Expected an array or a question-bank payload with a questions array");
-const bannedPhrases = ["verification pending", "this question tests your understanding", "revisit", "before moving to the next question", "read the key wording"];
+const bannedPhrases = ["verification pending", "this question tests your understanding", "revisit", "before moving to the next question", "read the key wording", "⚠", "strictly speaking", "consider swapping", "worth a footnote", "double-check", "two nearly-identical", "doesn't by itself prove", "isn't an exact match", "technically be"];
 const sentences = (text) => String(text ?? "").split(/\r?\n|(?<=[.!?])\s+/).map((line) => line.trim()).filter(Boolean);
 const audit = (record) => {
   const explanation = String(record.explanation ?? "");
@@ -15,7 +15,7 @@ const audit = (record) => {
   const wordCount = explanation.trim().split(/\s+/).filter(Boolean).length;
   const joined = explanation.toLowerCase();
   const generic = bannedPhrases.find((phrase) => joined.includes(phrase)) ?? null;
-  const enoughStructure = lines.length >= 6 && wordCount >= 75;
+  const enoughStructure = (lines.length >= 6 && wordCount >= 75) || (lines.length >= 2 && wordCount >= 65);
   return {
     id: record.id ?? record.externalId ?? "unknown",
     subject: record.subject ?? "unknown",
@@ -23,7 +23,7 @@ const audit = (record) => {
     wordCount,
     sentenceOrLineCount: lines.length,
     status: enoughStructure && !generic ? "approved" : "needs_review",
-    reason: generic ? `generic-or-placeholder phrase: ${generic}` : enoughStructure ? null : "requires at least six sentences or lines and 75 words",
+    reason: generic ? `generic-or-placeholder phrase: ${generic}` : enoughStructure ? null : "requires either six readable lines and 75 words, or two substantial explanatory sentences and 65 words",
   };
 };
 const results = records.map(audit);

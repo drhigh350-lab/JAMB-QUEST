@@ -10,6 +10,7 @@ import ProgressAnalyticsFixture from "./e2e/ProgressAnalyticsFixture";
 import ReadyQuestionCountFixture from "./e2e/ReadyQuestionCountFixture";
 import RealGameCbtFixture from "./e2e/RealGameCbtFixture";
 import QuizFlowFixture from "./e2e/QuizFlowFixture";
+import SubmittedRichQuestionFixture from "./e2e/SubmittedRichQuestionFixture";
 import { startLogin } from "./const";
 import "./index.css";
 
@@ -84,11 +85,12 @@ const isCbtFlowFixture = new URLSearchParams(window.location.search).get("e2eCbt
 const isProgressAnalyticsFixture = new URLSearchParams(window.location.search).get("e2eProgressAnalyticsFixture") === "1";
 const isReadyQuestionCountFixture = new URLSearchParams(window.location.search).get("e2eReadyQuestionCountFixture") === "1";
 const isRealGameCbtFixture = new URLSearchParams(window.location.search).get("e2eRealGameCbtFixture") === "1";
+const isSubmittedRichQuestionFixture = new URLSearchParams(window.location.search).get("e2eSubmittedRichQuestionFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : <App />}
+      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

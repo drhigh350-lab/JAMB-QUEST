@@ -9,9 +9,9 @@ const sourceFile = basename(inputPath);
 const subjectFrom = (value) => {
   const lower = value.toLowerCase();
   if (lower.includes("english")) return "Use of English";
-  if (lower.includes("biology")) return "Biology";
-  if (lower.includes("chemistry")) return "Chemistry";
-  if (lower.includes("physics")) return "Physics";
+  if (lower.includes("biology") || /^bio[_-]/.test(lower)) return "Biology";
+  if (lower.includes("chemistry") || /^chem[_-]/.test(lower)) return "Chemistry";
+  if (lower.includes("physics") || /^phys[_-]/.test(lower)) return "Physics";
   return null;
 };
 const clean = (value) => value.replaceAll("✅", "").replace(/\*\*/g, "").replace(/__+/g, "").replace(/^\s*[-•]\s*/, "").replace(/^\s*[A-D][.)]\s*/i, "").trim();
@@ -20,8 +20,42 @@ const normalise = (value) => clean(value).toLowerCase().replace(/[^a-z0-9]+/g, "
 const isAnswerLine = (line) => /^\s*\*{0,2}answer\s*:/i.test(line);
 const optionMatch = (line) => line.match(/^\s*[-•]\s*([A-D])[.)]\s*(.+)$/i);
 const topicMatch = (line) => line.match(/^\s*(?:#{1,6}\s*)?(?:topic|subtopic)\s*:\s*(.+)$/i);
+const inlineOptions = (line) => [...line.matchAll(/(?:^|\s)([A-D])[.)]\s*(.*?)(?=\s+[A-D][.)]\s*|$)/gi)].map((match) => match[2].trim()).filter(Boolean);
+const inferTopic = (question, subjectName) => {
+  const text = question.toLowerCase();
+  const matches = (pattern) => pattern.test(text);
+  if (subjectName === "Chemistry") {
+    if (matches(/electroly|faraday|moles of electrons|cathode|anode/)) return "Electrochemistry";
+    if (matches(/acid|alkali|neutralis|ph|aqua regia/)) return "Acids, Bases and Salts";
+    if (matches(/polymer|plastic|monomer|pvc|perspex|detergent/)) return "Organic Chemistry and Polymers";
+    if (matches(/moles|molar|empirical formula|percentage|gas law|solubility/)) return "Mole Concept and Stoichiometry";
+    if (matches(/benzene|alcohol|alkane|alkene|homologous|decarboxyl/)) return "Organic Chemistry";
+    if (matches(/iron|gold|steel|solder|extraction|blast furnace|ore/)) return "Metals and Extraction";
+    if (matches(/hydrogen|haber|bosch|chlorine|bleaching/)) return "Industrial Chemistry";
+    if (matches(/bond|ionisation|electron|periodic|atomic/)) return "Atomic Structure and Bonding";
+    return "General Chemistry";
+  }
+  if (subjectName === "Biology") {
+    if (matches(/gene|allele|chromosome|meiosis|mitosis|inheritance|blood group|sex-linked|evolution/)) return "Genetics and Evolution";
+    if (matches(/ecology|succession|savanna|food chain|ddt|pollution|brackish|desert/)) return "Ecology";
+    if (matches(/heart|blood|lung|kidney|brain|ear|liver|pancreas|hormone|excret/)) return "Human Physiology";
+    if (matches(/plant|flower|xylem|transpiration|photosynthesis|root|stamen/)) return "Plant Biology";
+    if (matches(/fungi|bacteria|disease|cholera|ringworm|organism/)) return "Classification and Microorganisms";
+    if (matches(/cell|dna|protein|respiration|glucose/)) return "Cell Biology and Metabolism";
+    return "General Biology";
+  }
+  if (subjectName === "Physics") {
+    if (matches(/current|voltage|resistance|transformer|fuse|circuit|power|ammeter|electric/)) return "Electricity";
+    if (matches(/wave|sound|light|mirror|lens|refraction|diffraction|doppler|colour|radioactivity/)) return "Waves, Optics and Modern Physics";
+    if (matches(/motion|velocity|acceleration|force|work|energy|momentum|projectile|pendulum/)) return "Mechanics";
+    if (matches(/heat|temperature|specific heat|thermal|viscosity/)) return "Thermal Physics";
+    if (matches(/magnetic|induction|motor|lenz|resonance/)) return "Magnetism and Electromagnetism";
+    return "General Physics";
+  }
+  return "To be tagged during syllabus mapping";
+};
 
-let subject = subjectFrom(text.split("\n").slice(0, 8).join(" ")) ?? null;
+let subject = subjectFrom(text.split("\n").slice(0, 8).join(" ")) ?? subjectFrom(sourceFile) ?? null;
 let current = null;
 let collectingBullets = false;
 const parsed = [];
@@ -38,7 +72,7 @@ function flush() {
     parsed.push({
       externalId: `${sourceFile.replace(/[^a-z0-9]+/gi, "-")}-${(current.subject ?? subject ?? "unclassified").replace(/[^a-z0-9]+/gi, "-")}-${current.number}`,
       subject: current.subject ?? subject ?? "Unclassified",
-      topic: clean(current.topic ?? "To be tagged during syllabus mapping"),
+      topic: clean(current.topic ?? inferTopic(current.questionText, current.subject ?? subject ?? "")),
       difficulty: "medium",
       question: clean(current.questionText),
       options,
@@ -55,7 +89,7 @@ function flush() {
 for (const rawLine of text.split(/\r?\n/)) {
   const line = rawLine.trim();
   const headingSubject = subjectFrom(line);
-  if (headingSubject) subject = headingSubject;
+  if (headingSubject && (!current || /^#{1,6}\s/.test(line) || /^\s*subject\s*:/i.test(line))) subject = headingSubject;
   const numberedHeading = line.match(/^##\s*Q?\s*(\d+)\s*$/i);
   const numberedBold = line.match(/^\*{2}\s*(\d+)\.\s*(.+?)\s*\*{2}\s*$/);
   if (numberedHeading || numberedBold) {
@@ -89,6 +123,12 @@ for (const rawLine of text.split(/\r?\n/)) {
     collectingBullets = true;
     continue;
   }
+  const inline = inlineOptions(line);
+  if (inline.length === 4 && !current.options.length) {
+    current.options.push(...inline.map(clean));
+    collectingBullets = false;
+    continue;
+  }
   const option = optionMatch(line);
   if (option && (collectingBullets || current.options.length < 4)) {
     current.options.push(clean(option[2]));
@@ -100,6 +140,7 @@ for (const rawLine of text.split(/\r?\n/)) {
     current.answerLetter = letter?.[1]?.toUpperCase();
     current.answerText = letter ? answer.slice(letter[0].length) : answer;
     collectingBullets = false;
+    current.collectingExplanation = true;
     continue;
   }
   if (!current.questionText && line && !line.startsWith("---") && !/^\s*(Format|Date|Source|Compiled):/i.test(line)) current.questionText = line;

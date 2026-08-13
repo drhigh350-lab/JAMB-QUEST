@@ -9,7 +9,28 @@ INPUT = Path(os.environ.get("EXPLANATION_INPUT", "biology-explanation-pilot.inpu
 OUTPUT = Path(os.environ.get("EXPLANATION_OUTPUT", "biology-explanation-pilot.output.json"))
 MODEL = os.environ.get("EXPLANATION_MODEL", "gpt-5-mini")
 WORKERS = max(1, int(os.environ.get("EXPLANATION_WORKERS", "5")))
+STYLE_REFERENCE = Path(os.environ.get("EXPLANATION_STYLE_REFERENCE", "")) if os.environ.get("EXPLANATION_STYLE_REFERENCE") else None
 client = OpenAI()
+
+def build_style_reference():
+    if not STYLE_REFERENCE or not STYLE_REFERENCE.exists():
+        return "No owner-supplied style reference is available; use the standard six-line JAMB explanation contract."
+    try:
+        records = json.loads(STYLE_REFERENCE.read_text())
+        samples = []
+        for record in records:
+            explanation = str(record.get("explanation", "")).strip()
+            if len(explanation.split()) >= 65:
+                samples.append(explanation)
+            if len(samples) == 3:
+                break
+        if not samples:
+            return "No substantive owner-supplied style reference is available; use the standard six-line JAMB explanation contract."
+        return "Owner-supplied rich explanation style reference. Follow its content-dense, concept-first teaching voice: name the exact concept, explain why the correct answer fits, distinguish meaningful distractors or conditions, and add a concrete scientific or calculation link when it helps. Preserve this approach without copying sentences or adding generic study advice.\n\n" + "\n\n---\n\n".join(samples)
+    except Exception:
+        return "Owner-supplied style reference could not be read; use the standard six-line JAMB explanation contract."
+
+STYLE_CONTRACT = build_style_reference()
 
 SCHEMA = {
     "type": "json_schema",
@@ -44,7 +65,7 @@ def enrich(item):
             request = {
                 "model": MODEL,
                 "messages": [
-                    {"role": "system", "content": "You are a careful Nigerian senior-secondary teacher writing JAMB revision notes for the subject supplied in the question data. Output exactly six concise but meaningful sentences as six separate lines. Explain the concept tested, why the correct option is correct, and distinguish the most plausible alternatives when possible. Use only facts supported by standard senior-secondary knowledge for that subject and the question. Do not claim this is an official JAMB question. If the stem, answer key, diagram reference, or wording appears ambiguous or factually uncertain, set needs_review=true and explain the uncertainty rather than inventing a fact. Avoid generic study advice, repeated filler, source labels, and phrases such as 'this question tests your understanding'."},
+                    {"role": "system", "content": "You are a careful Nigerian senior-secondary teacher writing JAMB revision notes for the subject supplied in the question data. Output exactly six concise but meaningful sentences as six separate lines. Explain the concept tested, why the correct option is correct, and distinguish the most plausible alternatives when possible. Use only facts supported by standard senior-secondary knowledge for that subject and the question. Do not claim this is an official JAMB question. If the stem, answer key, diagram reference, or wording appears ambiguous or factually uncertain, set needs_review=true and explain the uncertainty rather than inventing a fact. Avoid generic study advice, repeated filler, source labels, and phrases such as 'this question tests your understanding'.\n\n" + STYLE_CONTRACT},
                     {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
                 ],
                 "response_format": SCHEMA,
@@ -74,7 +95,7 @@ def enrich(item):
     result["quality_gate"] = len(lines) == 6 and result["word_count"] >= 75 and not any(phrase in joined for phrase in generic)
     if not result["quality_gate"]:
         result["needs_review"] = True
-    return {"id": item["id"], "subject": item["subject"], "topic": item["topic"], "question": item["question"], "answer_index": item["answer_index"], "answer_text": item["options"][item["answer_index"]], "original_explanation": item.get("explanation", ""), **result}
+    return {"id": item["id"], "subject": item["subject"], "topic": item["topic"], "question": item["question"], "answer_index": item["answer_index"], "answer_text": item["options"][item["answer_index"]], "original_explanation": item.get("explanation", ""), "style_reference_used": bool(STYLE_REFERENCE and STYLE_REFERENCE.exists()), **result}
 
 items = json.loads(INPUT.read_text())
 results = [None] * len(items)

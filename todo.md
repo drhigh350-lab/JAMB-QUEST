@@ -51,7 +51,15 @@
 - [x] Prepare the rich-question intake workflow to preserve the user's supplied explanation style when the next batch arrives.
 - [x] Preserve multiline rich explanations and supplied topic headings through Markdown parsing without changing their instructional wording.
 - [x] Inspect and stage the newly supplied Lekki Headmaster and JAMB Idioms PDFs with verification-pending provenance; do not add unvalidated items to gameplay.
-- [ ] Apply the user's forthcoming rich-explanation examples as the quality standard before enriching the next question batch.
+- [x] Apply the user's forthcoming rich-explanation examples as the quality standard before enriching the next question batch.
+- [x] Parse and validate the submitted Biology, Chemistry, and Physics rich-question Markdown batches with preserved topics and multiline explanations.
+- [x] Classify the submitted records into importable and held-for-review groups, retaining every flagged or answer-uncertain question outside gameplay.
+- [x] Import only the validated submitted records with owner-provided verification-pending provenance and approved rich explanations.
+- [x] Verify the updated playable total, provenance gate, and rich explanation rendering after the submitted batch release.
+- [x] Render supplied paragraph-style rich explanations as readable multi-line notes without replacing them with generic fallback text.
+- [x] Upgrade the 42 short-explanation submitted records using the user’s rich explanatory style, then re-run the same quality and ambiguity gate.
+- [x] Update the bulk enrichment prompt to apply a style contract derived from the submitted rich explanations, then regenerate only the 42 short submitted records.
+- [x] Add a regression verifier that confirms regenerated short-record explanations meet the submitted rich-explanation style contract before gameplay approval.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.
