@@ -3,7 +3,7 @@
 import type { BankQuestion, QuizMode, Subject } from "./types";
 
 export const QUESTION_BANK_URL =
-  "/manus-storage/jamb_high_yield_practice_bank_1000_e93a7fa1.json";
+  "/manus-storage/jamb_high_yield_practice_bank_1000_biology_pilot_6abe327d.json";
 
 const SUBJECTS: Subject[] = ["Use of English", "Biology", "Chemistry", "Physics"];
 

@@ -5,7 +5,8 @@ const browser = await chromium.launch({ headless: true, executablePath: "/usr/bi
 const context = await browser.newContext({ viewport: { width: 375, height: 812 } });
 const page = await context.newPage();
 
-await page.goto(baseUrl, { waitUntil: "networkidle" });
+await page.goto(baseUrl, { waitUntil: "domcontentloaded", timeout: 30_000 });
+await page.waitForTimeout(1_500);
 await page.evaluate(async () => navigator.serviceWorker.ready);
 await context.setOffline(true);
 await page.reload({ waitUntil: "domcontentloaded" });

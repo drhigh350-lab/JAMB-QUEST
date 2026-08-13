@@ -1,0 +1,600 @@
+[
+  {
+    "id": "BIO-001",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Characteristics of life",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which of the following is a characteristic of living organisms?",
+    "options": [
+      "Movement by voluntary muscles only",
+      "Growth, reproduction, excretion and responsiveness",
+      "Existence without energy requirements",
+      "Inanimate objects cannot respond to stimuli"
+    ],
+    "answer_index": 1,
+    "answer_text": "Growth, reproduction, excretion and responsiveness",
+    "explanation": "Living things grow, reproduce, excrete waste, and respond to stimuli; these are defining features of life.",
+    "tags": [
+      "life",
+      "characteristics",
+      "biology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-002",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organelle is the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "answer_index": 2,
+    "answer_text": "Mitochondrion",
+    "explanation": "Mitochondria generate ATP through cellular respiration, providing energy for the cell.",
+    "tags": [
+      "cells",
+      "organelles",
+      "biology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-003",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which sequence correctly shows increasing levels of organisation in animals?",
+    "options": [
+      "Cell → Tissue → Organ → Organ system",
+      "Tissue → Cell → Organ → Organ system",
+      "Organ → Cell → Tissue → Organ system",
+      "Cell → Organ → Tissue → Organ system"
+    ],
+    "answer_index": 0,
+    "answer_text": "Cell → Tissue → Organ → Organ system",
+    "explanation": "From smallest unit to complex: cell, tissue, organ, organ system.",
+    "tags": [
+      "levels",
+      "organization",
+      "anatomy"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-004",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "What is the correct form of the binomial name for humans?",
+    "options": [
+      "Homo sapiens",
+      "sapiens Homo",
+      "Homo sapiens Linnaeus",
+      "Homo Homo"
+    ],
+    "answer_index": 0,
+    "answer_text": "Homo sapiens",
+    "explanation": "Binomial nomenclature uses genus name capitalised and species name lowercase; Homo sapiens is correct.",
+    "tags": [
+      "taxonomy",
+      "nomenclature",
+      "classification"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-005",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which insect undergoes complete metamorphosis?",
+    "options": [
+      "Grasshopper",
+      "Butterfly",
+      "Cockroach",
+      "Aphid"
+    ],
+    "answer_index": 1,
+    "answer_text": "Butterfly",
+    "explanation": "Butterflies undergo complete metamorphosis with egg, larva, pupa, adult.",
+    "tags": [
+      "development",
+      "insects",
+      "metamorphosis"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-006",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Adaptive colouration",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which statement best describes camouflage?",
+    "options": [
+      "Bright colours to warn predators",
+      "Blending with the environment to avoid detection",
+      "Mimicking the appearance of another species",
+      "Warning colouration to deter predators"
+    ],
+    "answer_index": 1,
+    "answer_text": "Blending with the environment to avoid detection",
+    "explanation": "Camouflage helps an animal blend with its surroundings to avoid detection.",
+    "tags": [
+      "colouration",
+      "adaptation",
+      "ecology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-007",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Structural/behavioural adaptation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "The hump of a camel stores fat and helps the animal survive in deserts. This is an example of which type of adaptation?",
+    "options": [
+      "Structural adaptation",
+      "Behavioural adaptation",
+      "Physiological adaptation",
+      "Genetic adaptation"
+    ],
+    "answer_index": 0,
+    "answer_text": "Structural adaptation",
+    "explanation": "Humps are a physical feature; storing fat is a structural adaptation aiding survival.",
+    "tags": [
+      "adaptation",
+      "anatomy",
+      "desert"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-008",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance of organisms",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which insect is most important for pollination of many crops?",
+    "options": [
+      "Mosquito",
+      "Beetle",
+      "Bee",
+      "Fly"
+    ],
+    "answer_index": 2,
+    "answer_text": "Bee",
+    "explanation": "Bees are key pollinators for many crops due to their foraging behaviour.",
+    "tags": [
+      "ecology",
+      "agriculture",
+      "pollination"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-009",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In the typical plant life cycle, which stage follows seed germination?",
+    "options": [
+      "Flower",
+      "Mature seed",
+      "Seedling",
+      "Fruit"
+    ],
+    "answer_index": 2,
+    "answer_text": "Seedling",
+    "explanation": "Seed germination produces a seedling which then grows to form a mature plant.",
+    "tags": [
+      "plants",
+      "growth",
+      "life-cycle"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-010",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which organism is prokaryotic?",
+    "options": [
+      "Amoeba",
+      "Bacillus",
+      "Yeast",
+      "Algae"
+    ],
+    "answer_index": 1,
+    "answer_text": "Bacillus",
+    "explanation": "Bacillus is a bacterium, a prokaryote; amoeba, yeast, and algae are eukaryotic.",
+    "tags": [
+      "microbiology",
+      "taxonomy",
+      "prokaryote"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-011",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which organelle contains enzymes for intracellular digestion?",
+    "options": [
+      "Nucleus",
+      "Lysosome",
+      "Chloroplast",
+      "Ribosome"
+    ],
+    "answer_index": 1,
+    "answer_text": "Lysosome",
+    "explanation": "Lysosomes contain hydrolytic enzymes for intracellular digestion.",
+    "tags": [
+      "cells",
+      "organelles",
+      "digestion"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-012",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which organelle is associated with protein synthesis and has ribosomes on its surface?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Rough endoplasmic reticulum",
+      "Lysosome"
+    ],
+    "answer_index": 2,
+    "answer_text": "Rough endoplasmic reticulum",
+    "explanation": "Rough ER has ribosomes and synthesizes proteins.",
+    "tags": [
+      "cells",
+      "organelles",
+      "protein synthesis"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-013",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In plants, which tissue conducts water and minerals from the roots to the rest of the plant?",
+    "options": [
+      "Meristem",
+      "Epidermal tissue",
+      "Vascular tissue",
+      "Ground tissue"
+    ],
+    "answer_index": 2,
+    "answer_text": "Vascular tissue",
+    "explanation": "Vascular tissue (xylem) conducts water and minerals.",
+    "tags": [
+      "plants",
+      "tissues",
+      "transport"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-014",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Characteristics of life",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which of the following is evidence that an organism is alive?",
+    "options": [
+      "Does not respond to stimuli",
+      "Does not grow",
+      "Responds to stimuli",
+      "Is inanimate"
+    ],
+    "answer_index": 2,
+    "answer_text": "Responds to stimuli",
+    "explanation": "Response to stimuli is a hallmark of life; growth also indicates life.",
+    "tags": [
+      "life",
+      "biology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-015",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Adaptive colouration",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "A leaf insect that resembles a leaf is an example of which type of colouration?",
+    "options": [
+      "Mimicry",
+      "Aposematism",
+      "Camouflage",
+      "Warning colouration"
+    ],
+    "answer_index": 2,
+    "answer_text": "Camouflage",
+    "explanation": "It uses camouflage to blend in with leaves.",
+    "tags": [
+      "ecology",
+      "adaptation",
+      "camouflage"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-016",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance of organisms",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which organism is commonly used for bread making due to fermentation producing carbon dioxide?",
+    "options": [
+      "Lactobacillus",
+      "Saccharomyces cerevisiae",
+      "Penicillium notatum",
+      "Rhizopus stolonifer"
+    ],
+    "answer_index": 1,
+    "answer_text": "Saccharomyces cerevisiae",
+    "explanation": "Saccharomyces cerevisiae ferments sugars producing CO2 to leaven bread.",
+    "tags": [
+      "microbiology",
+      "fermentation",
+      "food"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-017",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "What is the correct binomial name for humans?",
+    "options": [
+      "Homo sapiens",
+      "Homo sapiens Linnaeus",
+      "sapiens Homo",
+      "Homo Homo"
+    ],
+    "answer_index": 0,
+    "answer_text": "Homo sapiens",
+    "explanation": "Binomial name format Genus species; Linnaeus is the authority, not part of the name.",
+    "tags": [
+      "taxonomy",
+      "nomenclature"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-018",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Characteristics of life",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which of the following is an example of homeostasis?",
+    "options": [
+      "Photosynthesis in light conditions",
+      "Sweating to cool the body in heat",
+      "Germination of seeds",
+      "Growth of a plant toward light"
+    ],
+    "answer_index": 1,
+    "answer_text": "Sweating to cool the body in heat",
+    "explanation": "Maintaining stable internal conditions; sweating helps regulate body temperature.",
+    "tags": [
+      "homeostasis",
+      "physiology",
+      "life"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-019",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which reproductive strategy involves producing many offspring with little parental care?",
+    "options": [
+      "r-strategy",
+      "K-strategy",
+      "Constructive strategy",
+      "Parental-care strategy"
+    ],
+    "answer_index": 0,
+    "answer_text": "r-strategy",
+    "explanation": "r-strategy involves many offspring with minimal parental care.",
+    "tags": [
+      "reproduction",
+      "ecology",
+      "life-history"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-020",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Levels of organisation",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which is the simplest unit that carries out all life processes in animals?",
+    "options": [
+      "Organ",
+      "Tissue",
+      "Cell",
+      "System"
+    ],
+    "answer_index": 2,
+    "answer_text": "Cell",
+    "explanation": "The cell is the basic unit of life that carries out all life processes.",
+    "tags": [
+      "cells",
+      "organism",
+      "biology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-021",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Structural adaptation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which beak adaptation would help a finch crack hard seeds?",
+    "options": [
+      "Broad and strong beak",
+      "Long slender beak for nectar",
+      "Long legs for hopping",
+      "Bright colourful beak for display"
+    ],
+    "answer_index": 0,
+    "answer_text": "Broad and strong beak",
+    "explanation": "A broad, strong beak is useful for cracking hard seeds, an example of structural adaptation.",
+    "tags": [
+      "adaptation",
+      "anatomy",
+      "birds"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-022",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Economic importance of organisms",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which association between plant roots and fungi improves uptake of water and minerals?",
+    "options": [
+      "Parasitism",
+      "Predation",
+      "Mutualism (mycorrhizae)",
+      "Commensalism"
+    ],
+    "answer_index": 2,
+    "answer_text": "Mutualism (mycorrhizae)",
+    "explanation": "Mycorrhizae are mutualistic associations enhancing nutrient uptake.",
+    "tags": [
+      "ecology",
+      "symbiosis",
+      "plants"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-023",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Classification",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which feature is characteristic of the phylum Chordata?",
+    "options": [
+      "Exoskeleton",
+      "Dorsal nerve cord",
+      "Jointed legs",
+      "Segmented body"
+    ],
+    "answer_index": 1,
+    "answer_text": "Dorsal nerve cord",
+    "explanation": "Chordates have a dorsal nerve cord at some life stage.",
+    "tags": [
+      "taxonomy",
+      "anatomy",
+      "phylum"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-024",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Cells and organelles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "What is the main function of ribosomes?",
+    "options": [
+      "Energy production",
+      "Protein synthesis",
+      "DNA replication",
+      "Storage"
+    ],
+    "answer_index": 1,
+    "answer_text": "Protein synthesis",
+    "explanation": "Ribosomes synthesize proteins.",
+    "tags": [
+      "cells",
+      "organelles",
+      "protein"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-025",
+    "subject": "Biology",
+    "topic": "Variety of organisms",
+    "subtopic": "Life histories",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In a frog’s life cycle, which stage follows the egg?",
+    "options": [
+      "Tadpole",
+      "Adult frog",
+      "Froglet",
+      "Spawn"
+    ],
+    "answer_index": 0,
+    "answer_text": "Tadpole",
+    "explanation": "Eggs hatch into tadpoles; this is the larval stage.",
+    "tags": [
+      "life-cycle",
+      "amphibians",
+      "ecology"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  }
+]

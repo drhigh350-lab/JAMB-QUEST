@@ -1,0 +1,70 @@
+{
+  "batch": "Biology pilot",
+  "selected": 25,
+  "ready": 24,
+  "flagged": [
+    {
+      "id": "BIO-010",
+      "question": "Which organism is prokaryotic?",
+      "answer": "Bacillus",
+      "confidence": "high",
+      "lines": [
+        "Prokaryotes are organisms whose cells lack a membrane-bound nucleus and membrane-bound organelles and typically have simpler cell structure than eukaryotes.",
+        "Bacillus is a genus of bacteria, so its cells are prokaryotic, lacking a nucleus and often having a peptidoglycan cell wall.",
+        "Amoeba are unicellular eukaryotes (protists) with a true nucleus and membrane-bound organelles.",
+        "Yeast are unicellular fungi and therefore eukaryotic, possessing nuclei and organelles and commonly reproducing by budding.",
+        "Algae are mostly eukaryotic photosynthetic organisms, but the common term can include cyanobacteria (''blue‑green algae''), which are prokaryotic, so the label 'algae' can be ambiguous.",
+        "Therefore Bacillus is the unambiguous prokaryotic choice among the listed options, though the inclusion of 'algae' could require clarification in a strict classification context."
+      ]
+    }
+  ],
+  "qualityGate": {
+    "sixLines": true,
+    "minimumWords": true,
+    "genericFillerRejected": true
+  },
+  "samples": [
+    {
+      "id": "BIO-001",
+      "question": "Which of the following is a characteristic of living organisms?",
+      "answer": "Growth, reproduction, excretion and responsiveness",
+      "topic": "Variety of organisms",
+      "lines": [
+        "Living organisms are characterized by ordered biological processes such as cellular organization, metabolism, growth, reproduction, excretion and responsiveness.",
+        "The correct option lists four core life processes—growth, reproduction, excretion and responsiveness—that are widely accepted as criteria distinguishing living systems from nonliving matter.",
+        "Movement by voluntary muscles only is incorrect because many organisms (plants, bacteria, fungi) lack muscles yet show movement or positional change by other mechanisms.",
+        "Existence without energy requirements is false because all living organisms require energy for metabolism, maintenance and reproduction, usually obtained from chemical bonds or sunlight.",
+        "The statement 'inanimate objects cannot respond to stimuli' is too absolute and misleading: nonliving systems can undergo physical or chemical changes when disturbed, whereas biological responsiveness implies organized sensing and coordinated physiological response.",
+        "Therefore the best choice is the option that names growth, reproduction, excretion and responsiveness, since these reflect fundamental, coordinated life processes present in living organisms."
+      ]
+    },
+    {
+      "id": "BIO-002",
+      "question": "Which organelle is the powerhouse of the cell?",
+      "answer": "Mitochondrion",
+      "topic": "Variety of organisms",
+      "lines": [
+        "The question identifies the organelle responsible for producing the cell's usable chemical energy (ATP).",
+        "Mitochondria generate ATP through the citric acid cycle and oxidative phosphorylation, which is why they are called the powerhouse.",
+        "The nucleus contains DNA and controls gene expression but does not perform bulk ATP synthesis.",
+        "Ribosomes translate mRNA to make proteins and lack the membrane-bound respiratory chains needed for oxidative phosphorylation.",
+        "The Golgi apparatus modifies, sorts and packages proteins and lipids for transport rather than generating ATP.",
+        "Chloroplasts produce energy-rich sugars in photosynthetic cells and prokaryotes perform respiration at the plasma membrane, yet in most eukaryotic cells mitochondria are the principal ATP producers."
+      ]
+    },
+    {
+      "id": "BIO-003",
+      "question": "Which sequence correctly shows increasing levels of organisation in animals?",
+      "answer": "Cell → Tissue → Organ → Organ system",
+      "topic": "Variety of organisms",
+      "lines": [
+        "The concept is hierarchical organization in animals from the simplest structural unit to increasingly complex systems.",
+        "Cells are the basic structural and functional units that combine to form tissues.",
+        "Different tissues integrate to form organs with specific functions, and different organs work together as organ systems.",
+        "Therefore the correct sequence is Cell → Tissue → Organ → Organ system, listing levels in increasing complexity.",
+        "Option 2 (Tissue → Cell → Organ → Organ system) is wrong because it reverses the fundamental cell-to-tissue relationship.",
+        "Options 3 and 4 are incorrect because they place organs before tissues or otherwise disrupt the normal progression of cells → tissues → organs → organ systems."
+      ]
+    }
+  ]
+}

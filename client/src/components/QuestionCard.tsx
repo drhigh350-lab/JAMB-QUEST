@@ -1,7 +1,9 @@
 /* Field Notes Arcade: answer choices behave like marked strips on a study sheet. */
 
+import React from "react";
 import { CheckCircle2, Clock3, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
+import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
 
 interface QuestionCardProps {
   question: BankQuestion;
@@ -17,21 +19,18 @@ interface QuestionCardProps {
 
 export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D"];
-  const ownerProvided = question.tags.includes("owner-provided");
+  const explanationLines = questionExplanationLines(question);
   return (
     <section className="question-card" aria-labelledby="question-title">
       <div className="question-card-topline">
         <div className="question-meta">
-          <span className="subject-chip">{question.subject}</span>
-          <span className="meta-divider">/</span>
           <span>Question {String(index + 1).padStart(2, "0")} of {String(total).padStart(2, "0")}</span>
-          {ownerProvided && <span className="question-provenance">OWNER-PROVIDED · VERIFICATION PENDING</span>}
         </div>
-        <span className={`difficulty difficulty-${question.difficulty}`}>{question.difficulty}</span>
+        <span className="question-topic-label">Topic: {normalisedTopic(question.topic)}</span>
       </div>
       <div className="question-rule" />
       <div className="question-copy">
-        <span className="eyebrow">{question.topic.toUpperCase()}</span>
+        <span className="eyebrow">QUESTION</span>
         <h1 id="question-title">{question.question}</h1>
       </div>
       <div className="option-list" role="radiogroup" aria-label="Answer options">
@@ -63,7 +62,7 @@ export function QuestionCard({ question, index, total, selectedIndex, answered, 
           <div className="feedback-stamp">{answer?.correct ? "CORRECT" : answer?.timedOut ? "TIME" : "REVIEW"}</div>
           <div className="feedback-copy">
             <strong>{answer?.correct ? "That mark counts." : answer?.timedOut ? "The clock moved on." : "Not this time."}</strong>
-            <p>{question.explanation}</p>
+            <div className="explanation-block" aria-label="Detailed explanation">{explanationLines.map((line, lineIndex) => <p key={`${question.id}-explanation-${lineIndex}`}>{line}</p>)}</div>
           </div>
           <button className="button button-dark button-small" onClick={onNext}>
             {index === total - 1 ? "See result" : "Next question"} <Send size={15} />

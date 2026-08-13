@@ -57,3 +57,20 @@
 
 - [x] Extend the rerun verification to assert expected TechMed provenance labels and per-label counts after the second importer run, then rerun it successfully.
 
+- [x] Research leading JAMB CBT apps and document the common learner-facing patterns JAMB Quest should adopt without copying branding or content.
+- [x] Standardise the learner-facing question format so every question uses the same layout and exposes only topic context, not confusing source-set labels.
+- [x] Ensure every playable question has a useful explanation of at least five to six readable lines, with a safe fallback for short or missing explanations.
+- [ ] Validate the uniform question card, topic display, explanation readability, responsive quiz flow, and updated tests.
+
+- [ ] Add a real explanation-quality pipeline that upgrades short model and imported explanations into question-specific five-to-six-line learning notes or flags records as needing review before gameplay.
+- [ ] Verify sampled model and owner-provided questions render substantial, question-specific explanations rather than generic filler text.
+
+- [x] Enrich a reviewable Biology pilot batch with question-specific five-to-six-sentence explanations before scaling to other subjects.
+- [x] Quality-check the Biology pilot for answer alignment, option reasoning, topic relevance, factual caution, and generic-filler rejection.
+- [x] Integrate only the validated Biology pilot into the playable explanation pipeline and verify it in the uniform quiz card.
+
+- [x] Add a successful component-level or browser-level verification that loads a Biology pilot question from the updated asset and asserts topic-only context plus six enriched explanation lines.
+- [ ] Re-run and record a passing responsive quiz-flow check for the updated uniform question card after the Biology pilot asset switch.
+
+- [x] Source the component-level QuestionCard verification directly from the generated Biology pilot asset so the test covers the real integrated data-to-UI path.
+
