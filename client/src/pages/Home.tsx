@@ -1,6 +1,6 @@
 /* Field Notes Arcade: a focused study desk, with each mission surfaced only when it is useful. */
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { startLogin } from "@/const";
 import { ArrowRight, Atom, Award, BellOff, BellRing, BookOpen, CalendarCheck2, CheckCircle2, CircleHelp, CircleUserRound, Clock3, Download, Flame, FlaskConical, Leaf, ListChecks, Loader2, LogIn, Medal, RotateCcw, ShieldCheck, Sparkles, Target, Trophy, Wifi, WifiOff, Zap } from "lucide-react";
 import { ProfilePanel } from "@/components/ProfilePanel";
@@ -31,7 +31,7 @@ type ComebackState = {
 type ReminderState = { enabled: boolean; reminderTime: string; pushEnabled: boolean };
 
 interface HomeProps {
-  loading: boolean; loadError: string | null; progress: StoredProgress; canReview: boolean; onRetryLoad: () => void; onStart: (config: RoundConfig) => void; questionCount: number;
+  loading: boolean; loadError: string | null; progress: StoredProgress; canReview: boolean; onRetryLoad: () => void; onStart: (config: RoundConfig) => void; questionCount: number; questionCountReady: boolean;
   auth: { loading: boolean; isAuthenticated: boolean; profileName: string; targetScore: number; onLogout: () => void; onSaveProfile: (displayName: string, targetScore: number) => void; savingProfile: boolean };
   questionSources: Array<{ id: number; label: string; sourceType: "model" | "authorised"; permissionNote: string | null }>;
   comeback?: ComebackState; reminder?: ReminderState; onUpdateDailyMinimum: (dailyMinimum: number) => void; onEnablePush: () => void; onDisablePush: () => void; pushWorking: boolean; pushStatus: "idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed";
@@ -42,7 +42,7 @@ function guestComeback() {
   return { dailyMinimum: 10, currentStreak: 0, longestStreak: 0, comebackXp: 0, level: 1, recoveryPending: false, consistencyScore: 0, today: { dateKey: "today", questionsAnswered: 0, correctCount: 0, completedMinimum: false, xpEarned: 0 }, activity: [], badges: [] } satisfies ComebackState;
 }
 
-export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionSources, comeback, reminder, onUpdateDailyMinimum, onEnablePush, onDisablePush, pushWorking, pushStatus, pwa }: HomeProps) {
+export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, questionSources, comeback, reminder, onUpdateDailyMinimum, onEnablePush, onDisablePush, pushWorking, pushStatus, pwa }: HomeProps) {
   const [activeTab, setActiveTab] = useState<AppTab>(() => {
     const requested = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("tab");
     return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
@@ -82,7 +82,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
       <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span><strong>JAMB</strong><span>QUEST</span><small>COME BACK</small></span></button>
       <nav className="header-nav" aria-label="Primary navigation">
         {tabItems.slice(0, 2).map(({ id, label }) => <button key={id} className={`header-tab ${activeTab === id ? "active" : ""}`} onClick={() => setActiveTab(id)}>{label}</button>)}
-        <span className={`header-status ${pwa.isOnline ? "" : "offline"}`}><i /> {loading ? "Loading bank" : pwa.isOnline ? `${questionCount.toLocaleString()} questions ready` : "Offline system"}</span>
+        <span className={`header-status ${pwa.isOnline ? "" : "offline"}`} data-testid="ready-question-count" data-ready={questionCountReady ? "true" : "false"}><i /> {loading ? "Loading bank" : pwa.isOnline ? `${questionCount.toLocaleString()} questions ready` : "Offline system"}</span>
         {auth.isAuthenticated ? <button className="profile-trigger" onClick={() => setActiveTab("profile")}><span>{auth.profileName.slice(0, 1).toUpperCase()}</span><b>{auth.profileName}</b></button> : <button className="sign-in-trigger" onClick={startLogin} disabled={auth.loading}><LogIn size={14} /> {auth.loading ? "Checking profile" : "Save my marks"}</button>}
       </nav>
     </header>

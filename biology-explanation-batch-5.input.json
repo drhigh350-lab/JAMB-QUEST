@@ -1,0 +1,582 @@
+[
+  {
+    "id": "BIO-101",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Plant transport in flowering-plant structures",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "In flowering plants, which tissue conducts water from the roots to the leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cortex",
+      "Cambium"
+    ],
+    "answer_index": 1,
+    "answer_text": "Xylem",
+    "explanation": "Xylem vessels are specialised for water transport from roots to shoots, due to lignified walls and pits.",
+    "tags": [
+      "plant",
+      "xylem",
+      "transport"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-102",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Cardiovascular: heart chambers",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which chamber of the human heart receives oxygenated blood from the lungs?",
+    "options": [
+      "Right atrium",
+      "Left atrium",
+      "Right ventricle",
+      "Left ventricle"
+    ],
+    "answer_index": 1,
+    "answer_text": "Left atrium",
+    "explanation": "Oxygenated blood returns from the lungs to the left atrium via pulmonary veins.",
+    "tags": [
+      "heart",
+      "anatomy",
+      "circulation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-103",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Nutrition tests",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which reagent is used to test for reducing sugars?",
+    "options": [
+      "Benedict's solution",
+      "Biuret reagent",
+      "Iodine solution",
+      "Sudan III stain"
+    ],
+    "answer_index": 0,
+    "answer_text": "Benedict's solution",
+    "explanation": "Benedict's solution changes colour in the presence of reducing sugars when heated.",
+    "tags": [
+      "nutrition",
+      "biochemical tests"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-104",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Transport: water transport in plants",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "What is the primary force that pulls water up the xylem in plants?",
+    "options": [
+      "Root pressure",
+      "Capillary action",
+      "Transpiration pull",
+      "Osmosis in epidermal cells"
+    ],
+    "answer_index": 2,
+    "answer_text": "Transpiration pull",
+    "explanation": "Transpiration creates a negative pressure that pulls water upward through the xylem (cohesion-tension theory).",
+    "tags": [
+      "plant",
+      "transport",
+      "transpiration"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-105",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Respiration: mitochondrial respiration",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organelle is the main site of aerobic respiration?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Chloroplast",
+      "Ribosome"
+    ],
+    "answer_index": 1,
+    "answer_text": "Mitochondrion",
+    "explanation": "Mitochondria host the enzymes of aerobic respiration and ATP production.",
+    "tags": [
+      "cell biology",
+      "respiration"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-106",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Excretion: kidney nephron function",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which substance is actively reabsorbed in the proximal convoluted tubule of the mammalian kidney?",
+    "options": [
+      "Glucose",
+      "Urea",
+      "Creatinine",
+      "Potassium ions"
+    ],
+    "answer_index": 0,
+    "answer_text": "Glucose",
+    "explanation": "Glucose is actively reabsorbed in the proximal tubule; most of it is reclaimed from the filtrate.",
+    "tags": [
+      "kidney",
+      "nephron",
+      "excretion"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-107",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Support and movement: joints",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which type of joint allows movement in multiple directions, such as the shoulder?",
+    "options": [
+      "Hinge joint",
+      "Ball-and-socket joint",
+      "Pivot joint",
+      "Immovable joint"
+    ],
+    "answer_index": 1,
+    "answer_text": "Ball-and-socket joint",
+    "explanation": "Ball-and-socket joints permit movement in several directions and planes.",
+    "tags": [
+      "skeletal",
+      "joints",
+      "movement"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-108",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Reproduction: human fertilization",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "In humans, fertilisation typically occurs in the fallopian tube. Which structure carries the fertilised egg to the uterus?",
+    "options": [
+      "Ovary",
+      "Fallopian tube",
+      "Uterus",
+      "Cervix"
+    ],
+    "answer_index": 1,
+    "answer_text": "Fallopian tube",
+    "explanation": "The fallopian tube transports the zygote toward the uterus after fertilisation.",
+    "tags": [
+      "reproduction",
+      "human"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-109",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Growth: plant meristems",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Where does most primary growth in plants occur?",
+    "options": [
+      "Cambium",
+      "Apical meristem",
+      "Lateral meristem",
+      "Root cap"
+    ],
+    "answer_index": 1,
+    "answer_text": "Apical meristem",
+    "explanation": "Apical meristems at tips of shoots and roots drive primary growth in length.",
+    "tags": [
+      "growth",
+      "plants"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-110",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Nervous coordination: brain function",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which part of the brain coordinates balance and fine muscular movement?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+    ],
+    "answer_index": 1,
+    "answer_text": "Cerebellum",
+    "explanation": "The cerebellum coordinates balance and coordination of movement.",
+    "tags": [
+      "nervous",
+      "brain"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-111",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Sense organs: eye",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which part of the eye controls the size of the pupil?",
+    "options": [
+      "Lens",
+      "Retina",
+      "Iris",
+      "Cornea"
+    ],
+    "answer_index": 2,
+    "answer_text": "Iris",
+    "explanation": "The iris contains the pupil constrictor and dilator muscles that regulate pupil size.",
+    "tags": [
+      "sense organs",
+      "eye"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-112",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Homeostasis: temperature regulation",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "When the body overheats, which process helps to cool the body?",
+    "options": [
+      "Vasoconstriction",
+      "Vasodilation",
+      "Shivering",
+      "Increased respiration rate"
+    ],
+    "answer_index": 1,
+    "answer_text": "Vasodilation",
+    "explanation": "Vasodilation increases blood flow to the skin, promoting heat loss; sweating also aids cooling.",
+    "tags": [
+      "homeostasis",
+      "thermoregulation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-113",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Plant physiology: stomata",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Opening and closing of stomata are controlled by which cells?",
+    "options": [
+      "Epidermal cells",
+      "Guard cells",
+      "Xylem cells",
+      "Phloem cells"
+    ],
+    "answer_index": 1,
+    "answer_text": "Guard cells",
+    "explanation": "Guard cells surround stomata and regulate their aperture in response to light, CO2, and water status.",
+    "tags": [
+      "plants",
+      "gas exchange"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-114",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Nutrition tests: lipids",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which reagent gives a positive colour change with lipids in a simple test?",
+    "options": [
+      "Benedict's solution",
+      "Biuret reagent",
+      "Sudan III stain",
+      "Iodine solution"
+    ],
+    "answer_index": 2,
+    "answer_text": "Sudan III stain",
+    "explanation": "Sudan III stains lipids, indicating their presence in a sample.",
+    "tags": [
+      "nutrition",
+      "tests"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-115",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Transport: transpiration factors",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Increasing the relative humidity around a leaf tends to decrease the rate of transpiration. True or false?",
+    "options": [
+      "True",
+      "False",
+      "Cannot be determined",
+      "Only at night"
+    ],
+    "answer_index": 0,
+    "answer_text": "True",
+    "explanation": "Higher humidity reduces the vapor pressure gradient, lowering transpiration rate.",
+    "tags": [
+      "plant",
+      "transpiration"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-116",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Respiration energy production",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "In aerobic respiration, which stage yields the greatest amount of ATP?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Fermentation"
+    ],
+    "answer_index": 2,
+    "answer_text": "Electron transport chain",
+    "explanation": "The electron transport chain produces most of the ATP during oxidative phosphorylation.",
+    "tags": [
+      "respiration",
+      "energy"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-117",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Homeostasis: kidney and hormones",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which hormone increases water reabsorption in the kidney?",
+    "options": [
+      "Insulin",
+      "ADH (vasopressin)",
+      "Adrenaline",
+      "Thyroxine"
+    ],
+    "answer_index": 1,
+    "answer_text": "ADH (vasopressin)",
+    "explanation": "ADH increases water reabsorption in the collecting ducts of the kidney.",
+    "tags": [
+      "homeostasis",
+      "endocrine"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-118",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Support and movement: skeletal muscles",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which tissue is primarily responsible for voluntary movement?",
+    "options": [
+      "Smooth muscle",
+      "Cardiac muscle",
+      "Skeletal muscle",
+      "Nervous tissue"
+    ],
+    "answer_index": 2,
+    "answer_text": "Skeletal muscle",
+    "explanation": "Skeletal muscle attaches to bones and is responsible for voluntary movements.",
+    "tags": [
+      "movement",
+      "muscle"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-119",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Reproduction: plant fertilisation",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In flowering plants, which structure becomes the seed after fertilisation?",
+    "options": [
+      "Ovary",
+      "Ovule",
+      "Stigma",
+      "Style"
+    ],
+    "answer_index": 1,
+    "answer_text": "Ovule",
+    "explanation": "Fertilisation occurs in the ovule; after fertilisation, the ovule develops into the seed.",
+    "tags": [
+      "reproduction",
+      "plants"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-120",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Growth: plant hormones",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which plant hormone promotes stem elongation and seed germination?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Gibberellin",
+      "Abscisic acid"
+    ],
+    "answer_index": 2,
+    "answer_text": "Gibberellin",
+    "explanation": "Gibberellins promote stem elongation and seed germination in many plants.",
+    "tags": [
+      "growth",
+      "hormones"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-121",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Nervous coordination: reflex arc",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "In a simple reflex arc, which component carries impulses from the receptor toward the spinal cord?",
+    "options": [
+      "Motor neuron",
+      "Sensory neuron",
+      "Interneuron",
+      "Effector"
+    ],
+    "answer_index": 1,
+    "answer_text": "Sensory neuron",
+    "explanation": "Sensory neurons carry impulses from receptors to the spinal cord during reflex actions.",
+    "tags": [
+      "nervous",
+      "reflex"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-122",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Sense organs: eye detail",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which part of the eye provides the sharpest central vision?",
+    "options": [
+      "Blind spot",
+      "Retina",
+      "Optic nerve",
+      "Fovea centralis"
+    ],
+    "answer_index": 3,
+    "answer_text": "Fovea centralis",
+    "explanation": "The fovea centralis contains tightly packed cone cells for high-acuity central vision.",
+    "tags": [
+      "eye",
+      "vision"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-123",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Homeostasis: temperature control",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which mechanism helps to cool the body when overheated?",
+    "options": [
+      "Vasoconstriction",
+      "Vasodilation",
+      "Shivering",
+      "Increased respiration"
+    ],
+    "answer_index": 1,
+    "answer_text": "Vasodilation",
+    "explanation": "Vasodilation increases blood flow to the skin; sweating also contributes to cooling.",
+    "tags": [
+      "homeostasis",
+      "thermoregulation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-124",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Transport: phloem function",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "The movement of sugars from leaves to storage tissues in plants occurs via which tissue?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "answer_index": 1,
+    "answer_text": "Phloem",
+    "explanation": "Phloem transports photosynthetic products like sucrose from source (leaves) to sinks (storage tissues).",
+    "tags": [
+      "transport",
+      "phloem"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-125",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "Support and movement: joints types",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which type of joint allows movement in one plane, such as the knee or elbow?",
+    "options": [
+      "Ball-and-socket",
+      "Hinge",
+      "Saddle",
+      "Pivot"
+    ],
+    "answer_index": 1,
+    "answer_text": "Hinge",
+    "explanation": "Hinge joints permit movement mainly in one plane, e.g., bending the knee or elbow.",
+    "tags": [
+      "movement",
+      "joints"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  }
+]

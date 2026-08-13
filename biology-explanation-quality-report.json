@@ -1,0 +1,147 @@
+{
+  "inputPath": "/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_4.json",
+  "total": 1000,
+  "approved": 97,
+  "needsReview": 903,
+  "samples": {
+    "approved": [
+      {
+        "id": "BIO-001",
+        "subject": "Biology",
+        "topic": "Variety of organisms",
+        "wordCount": 147,
+        "sentenceOrLineCount": 6,
+        "status": "approved",
+        "reason": null
+      },
+      {
+        "id": "BIO-002",
+        "subject": "Biology",
+        "topic": "Variety of organisms",
+        "wordCount": 106,
+        "sentenceOrLineCount": 6,
+        "status": "approved",
+        "reason": null
+      },
+      {
+        "id": "BIO-003",
+        "subject": "Biology",
+        "topic": "Variety of organisms",
+        "wordCount": 110,
+        "sentenceOrLineCount": 6,
+        "status": "approved",
+        "reason": null
+      },
+      {
+        "id": "BIO-004",
+        "subject": "Biology",
+        "topic": "Variety of organisms",
+        "wordCount": 128,
+        "sentenceOrLineCount": 6,
+        "status": "approved",
+        "reason": null
+      },
+      {
+        "id": "BIO-005",
+        "subject": "Biology",
+        "topic": "Variety of organisms",
+        "wordCount": 128,
+        "sentenceOrLineCount": 6,
+        "status": "approved",
+        "reason": null
+      }
+    ],
+    "needsReview": [
+      {
+        "id": "ENG-001",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 8,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-002",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 9,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-003",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 6,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-004",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 10,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-005",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 8,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-006",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 6,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-007",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 11,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-008",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 5,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-009",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 9,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      },
+      {
+        "id": "ENG-010",
+        "subject": "Use of English",
+        "topic": "Comprehension and summary",
+        "wordCount": 6,
+        "sentenceOrLineCount": 1,
+        "status": "needs_review",
+        "reason": "requires at least six sentences or lines and 75 words"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `questionItems` ADD `explanationStatus` enum('pending','approved','needs_review') DEFAULT 'needs_review' NOT NULL;

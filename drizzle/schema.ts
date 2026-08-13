@@ -111,6 +111,7 @@ export const questionItems = mysqlTable("questionItems", {
   optionsJson: text("optionsJson").notNull(),
   answerIndex: int("answerIndex").notNull(),
   explanation: text("explanation"),
+  explanationStatus: mysqlEnum("explanationStatus", ["pending", "approved", "needs_review"]).notNull().default("needs_review"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 

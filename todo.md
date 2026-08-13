@@ -25,6 +25,7 @@
 - [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
 - [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
 - [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.
+- [x] Add a pure reminder-delivery eligibility helper and unit test the already-sent, completed-minimum, and eligible reminder decisions.
 - [x] Add an installable PWA manifest, app icons, service worker, and clear install affordance for supported devices.
 - [x] Cache the app shell and existing model question bank for resilient offline quiz play with a clear offline status.
 - [x] Add production-size 192px and 512px maskable PWA icon assets and reference them in the app manifest.
@@ -32,7 +33,7 @@
 - [x] Download and profile the confirmed 27 eligible owner-provided Drive PDFs across English, Biology, Chemistry, Physics, and one mixed JAMB simulation; exclude Mathematics from the current four-subject game scope.
 - [x] Parse, validate, deduplicate, and stage Drive-extracted questions under distinct owner-provided source labels without overwriting model questions.
 - [x] Keep source provenance visible and do not represent owner-provided material as official JAMB wording without verification.
-- [ ] Verify installation, offline app-shell behavior, cached model-bank gameplay, and authorisation-source separation before delivery.
+- [x] Verify installation, offline app-shell behavior, cached model-bank gameplay, and authorisation-source separation before delivery.
 - [x] Add a persistent mobile-friendly tab bar for Practice, Progress, Profile, and About.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
@@ -60,17 +61,26 @@
 - [x] Research leading JAMB CBT apps and document the common learner-facing patterns JAMB Quest should adopt without copying branding or content.
 - [x] Standardise the learner-facing question format so every question uses the same layout and exposes only topic context, not confusing source-set labels.
 - [x] Ensure every playable question has a useful explanation of at least five to six readable lines, with a safe fallback for short or missing explanations.
-- [ ] Validate the uniform question card, topic display, explanation readability, responsive quiz flow, and updated tests.
+- [x] Validate the uniform question card, topic display, explanation readability, responsive quiz flow, and updated tests.
 
-- [ ] Add a real explanation-quality pipeline that upgrades short model and imported explanations into question-specific five-to-six-line learning notes or flags records as needing review before gameplay.
+- [x] Add a real explanation-quality pipeline that upgrades short model and imported explanations into question-specific five-to-six-line learning notes or flags records as needing review before gameplay.
+- [x] Add a reusable explanation-quality auditor that accepts structured rich notes and flags generic or underdeveloped imported explanations for review.
+- [x] Add an imported-question enrichment path that preserves already-rich supplied notes, upgrades short authorised explanations in batches, and records review status before gameplay exposure.
+- [x] Keep authorised questions that fail the explanation-quality gate out of active gameplay until they are enriched or explicitly approved, then rerun a DB-backed quality audit.
+- [x] Generate and quality-check a 25-question owner-provided Biology explanation pilot, then approve only the records that pass the same six-sentence quality gate.
+- [x] Generate and quality-check a second non-overlapping 25-question owner-provided Biology explanation batch, preserving the three ambiguous pilot records for separate source review.
 - [ ] Verify sampled model and owner-provided questions render substantial, question-specific explanations rather than generic filler text.
+- [x] Update the displayed-question-count verifier so it checks the model bank plus only explanation-approved, active owner-provided questions without leaving a browser process stalled.
+- [ ] Add a bounded browser assertion that waits for the rendered ready-question count to match the approved-only pool after the authorised-question query settles.
 
 - [x] Enrich a reviewable Biology pilot batch with question-specific five-to-six-sentence explanations before scaling to other subjects.
 - [x] Quality-check the Biology pilot for answer alignment, option reasoning, topic relevance, factual caution, and generic-filler rejection.
 - [x] Integrate only the validated Biology pilot into the playable explanation pipeline and verify it in the uniform quiz card.
 
 - [x] Add a successful component-level or browser-level verification that loads a Biology pilot question from the updated asset and asserts topic-only context plus six enriched explanation lines.
-- [ ] Re-run and record a passing responsive quiz-flow check for the updated uniform question card after the Biology pilot asset switch.
+- [x] Re-run and record a passing responsive quiz-flow check for the updated uniform question card after the Biology pilot asset switch.
+
+- [x] Add an auth-independent real-asset quiz-shell interaction fixture for desktop and mobile verification of starting, answering, and revealing the uniform explanation card.
 
 - [x] Source the component-level QuestionCard verification directly from the generated Biology pilot asset so the test covers the real integrated data-to-UI path.
 
@@ -87,3 +97,15 @@
 - [x] Generate and quality-check Biology explanation batch 4 with the same structured six-sentence contract before integration.
 - [x] Integrate only the approved Biology batch 4 records and verify the combined asset and QuestionCard path.
 
+- [ ] Generate and quality-check the next explanation batch from the user’s forthcoming rich-explanation Markdown source, preserving its supplied explanations where they meet the quality gate.
+- [x] Generate and quality-check Biology explanation batch 5 with the same structured six-sentence contract while the richer Markdown source is pending.
+- [x] Integrate only the approved Biology batch 5 records and verify the combined asset and real QuestionCard path.
+- [x] Search the authorised Drive corpus for The Lekki Headmaster materials and stage any matching files with explicit novel provenance and verification-pending status.
+- [ ] Validate any Lekki Headmaster question keys and explanations before adding them to gameplay; do not represent staged material as verified official content until checked.
+- [x] Preserve the uniform learner-facing format while keeping novel provenance in the internal source ledger.
+
+- [x] Add a Lekki Headmaster staging/import path that writes its verification-pending source metadata into the same internal source ledger used by other authorised question batches without exposing source-set labels in gameplay.
+- [x] Verify one staged Lekki Headmaster record end to end: internal provenance remains verification-pending and the learner-facing card still shows only the uniform topic context and explanation format.
+- [x] Correct the Lekki Headmaster parser to align answer keys by chapter sequence rather than unreliable OCR printed numbers, and reject or report chapter coverage anomalies before staging.
+
+- [ ] Keep the Lekki Headmaster source inactive and paused until the user supplies a cleaner source file with reliable answer-key alignment and question-specific explanations.

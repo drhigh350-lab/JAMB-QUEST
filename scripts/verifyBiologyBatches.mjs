@@ -1,7 +1,9 @@
 import { readFile } from "node:fs/promises";
 
-const bank = JSON.parse(await readFile("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_4.json", "utf8"));
-const names = ["biology-explanation-pilot.output.json", "biology-explanation-batch-2.output.json", "biology-explanation-batch-3.output.json", "biology-explanation-batch-4.output.json"];
+const batchNumber = Number(process.argv[2]);
+if (!Number.isInteger(batchNumber) || batchNumber < 1) throw new Error("Usage: node scripts/verifyBiologyBatches.mjs <batch-number>");
+const bank = JSON.parse(await readFile(`/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_${batchNumber}.json`, "utf8"));
+const names = ["biology-explanation-pilot.output.json", ...Array.from({ length: Math.max(0, batchNumber - 1) }, (_, index) => `biology-explanation-batch-${index + 2}.output.json`)];
 const batches = await Promise.all(names.map((name) => readFile(`/home/ubuntu/jamb-quiz-game/${name}`, "utf8").then(JSON.parse)));
 const records = batches.flat();
 const approved = records.filter((record) => record.quality_gate && !record.needs_review);
@@ -18,4 +20,4 @@ for (const record of flagged) {
   if (!question) throw new Error(`Missing flagged record ${record.id}`);
   if (question.explanation.split(/\r?\n/).filter(Boolean).length >= 6) throw new Error(`Flagged record integrated unexpectedly: ${record.id}`);
 }
-console.log(JSON.stringify({ verified: true, totalQuestions: bank.questions.length, approvedIntegrated: approved.length, flaggedHeldBack: flagged.length, batches: batches.map((batch) => ({ total: batch.length, approved: batch.filter((record) => record.quality_gate && !record.needs_review).length })) }, null, 2));
+console.log(JSON.stringify({ verified: true, batchNumber, totalQuestions: bank.questions.length, approvedIntegrated: approved.length, flaggedHeldBack: flagged.length, batches: batches.map((batch) => ({ total: batch.length, approved: batch.filter((record) => record.quality_gate && !record.needs_review).length })) }, null, 2));

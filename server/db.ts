@@ -1,6 +1,6 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
@@ -451,6 +451,14 @@ export async function sendLearnerPush(userId: number, title: string, body: strin
   return results.filter((result): result is PromiseFulfilledResult<{ id: number; delivered: boolean }> => result.status === "fulfilled").map((result) => result.value);
 }
 
+export type DailyReminderDecision = "send" | "already_sent" | "minimum_completed";
+
+export function getDailyReminderDecision(input: { lastSentDate: string | null; dateKey: string; completedMinimum: boolean }): DailyReminderDecision {
+  if (input.lastSentDate === input.dateKey) return "already_sent";
+  if (input.completedMinimum) return "minimum_completed";
+  return "send";
+}
+
 export async function sendDailyComebackReminders() {
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
@@ -462,12 +470,13 @@ export async function sendDailyComebackReminders() {
     const [profile] = await db.select().from(learnerProfiles).where(eq(learnerProfiles.userId, preference.userId)).limit(1);
     const [system] = await db.select().from(learnerSystems).where(eq(learnerSystems.userId, preference.userId)).limit(1);
     const dateKey = localDateKey(profile?.timeZone ?? "Africa/Lagos");
-    if (preference.lastSentDate === dateKey) {
+    const [activity] = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.activityKey, `${preference.userId}:${dateKey}`)).limit(1);
+    const decision = getDailyReminderDecision({ lastSentDate: preference.lastSentDate, dateKey, completedMinimum: Boolean(activity?.completedMinimum) });
+    if (decision === "already_sent") {
       skipped += 1;
       continue;
     }
-    const [activity] = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.activityKey, `${preference.userId}:${dateKey}`)).limit(1);
-    if (activity?.completedMinimum) {
+    if (decision === "minimum_completed") {
       await db.update(learnerReminderPreferences).set({ lastSentDate: dateKey }).where(eq(learnerReminderPreferences.id, preference.id));
       skipped += 1;
       continue;
@@ -512,6 +521,7 @@ type AuthorisedPlayableRow = {
   optionsJson: string;
   answerIndex: number;
   explanation: string | null;
+  explanationStatus: "pending" | "approved" | "needs_review";
   sourceLabel: string;
 };
 
@@ -555,8 +565,9 @@ export async function getPlayableAuthorisedQuestions() {
     optionsJson: questionItems.optionsJson,
     answerIndex: questionItems.answerIndex,
     explanation: questionItems.explanation,
+    explanationStatus: questionItems.explanationStatus,
     sourceLabel: questionSources.label,
-  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(eq(questionSources.isActive, 1));
+  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(and(eq(questionSources.isActive, 1), eq(questionItems.explanationStatus, "approved")));
   return rows.map(toPlayableAuthorisedQuestion).filter((question): question is NonNullable<typeof question> => question !== null);
 }
 
