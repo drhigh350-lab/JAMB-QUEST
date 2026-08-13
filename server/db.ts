@@ -3,6 +3,7 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
+import mysql, { type Pool } from "mysql2";
 import webpush, { type PushSubscription } from "web-push";
 import {
   InsertUser,
@@ -24,6 +25,7 @@ import { ENV } from "./_core/env";
 import type { AuthorisedQuestionImport } from "./questionImport";
 
 let _db: ReturnType<typeof drizzle> | null = null;
+let _pool: Pool | null = null;
 
 export type LedgerSnapshot = {
   totalAnswered: number;
@@ -83,13 +85,18 @@ const EMPTY_LEDGER: LedgerSnapshot = {
 
 const BADGE_KEYS = ["first-step", "returner", "three-day-builder", "seven-day-builder", "hundred-mark-club"] as const;
 
-// Lazily create the drizzle instance so local tooling can run without a DB.
+// Lazily create one managed mysql2 pool so app traffic and bulk imports share a bounded connection lifecycle.
 export async function getDb() {
-  if (!_db && process.env.DATABASE_URL) {
+  if (_db) return _db;
+  if (ENV.databaseUrl) {
     try {
-      _db = drizzle(process.env.DATABASE_URL);
+      _pool = mysql.createPool({ uri: ENV.databaseUrl, connectionLimit: 4, connectTimeout: 10_000, enableKeepAlive: true });
+      await _pool.promise().query("SELECT 1");
+      _db = drizzle(_pool);
     } catch (error) {
-      console.warn("[Database] Failed to connect:", error);
+      console.warn("[Database] Failed to connect; database-backed actions are unavailable.");
+      _pool?.end();
+      _pool = null;
       _db = null;
     }
   }
@@ -578,7 +585,7 @@ export async function importAuthorisedQuestionSet(userId: number, input: Authori
   const importId = createdImports[0]?.id;
   if (!importId) throw new Error("Could not create the authorised question import record");
 
-  await db.insert(questionItems).values(input.questions.map((question) => ({
+  const questionRows = input.questions.map((question) => ({
     sourceId,
     externalId: question.externalId,
     subject: question.subject,
@@ -588,7 +595,10 @@ export async function importAuthorisedQuestionSet(userId: number, input: Authori
     optionsJson: JSON.stringify(question.options),
     answerIndex: question.answerIndex,
     explanation: question.explanation ?? null,
-  })));
+  }));
+  for (let index = 0; index < questionRows.length; index += 100) {
+    await db.insert(questionItems).values(questionRows.slice(index, index + 100));
+  }
 
   await db.update(questionImports).set({ importStatus: "imported" }).where(eq(questionImports.id, importId));
 

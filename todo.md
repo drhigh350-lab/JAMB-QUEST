@@ -42,3 +42,6 @@
 - [x] Fix the deployed PWA update path so the fixed bottom tab navigation appears on existing browser and installed-app sessions.
 - [x] Verify the live production app shows the fixed bottom tab bar after a service-worker update, without requiring manual cache clearing.
 - [x] Reproduce and document an old-cache-to-new-worker production upgrade that refreshes the fixed tab bar without manual cache clearing.
+- [ ] Import the staged owner-provided Biology Markdown batch into gameplay under a distinct verification-pending source label.
+- [ ] Add a repeatable Markdown-source intake path that validates, deduplicates, labels, and reports each new owner-provided question batch on the route to 10,000 questions.
+- [ ] Research public feature patterns in leading JAMB study apps and write a differentiated, non-copying product roadmap for JAMB Quest.
