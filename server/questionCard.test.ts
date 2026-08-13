@@ -5,10 +5,10 @@ import { describe, expect, it, vi } from "vitest";
 import { QuestionCard } from "../client/src/components/QuestionCard";
 import type { BankQuestion, QuestionBankPayload } from "../client/src/game/types";
 
-const pilotBank = JSON.parse(readFileSync("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_3.json", "utf8")) as QuestionBankPayload;
-const biologyPilot = pilotBank.questions.find((question) => question.id === "BIO-052") as BankQuestion | undefined;
+const pilotBank = JSON.parse(readFileSync("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_4.json", "utf8")) as QuestionBankPayload;
+const biologyPilot = pilotBank.questions.find((question) => question.id === "BIO-076") as BankQuestion | undefined;
 
-if (!biologyPilot) throw new Error("BIO-052 is missing from the combined Biology batches-1-to-3 asset");
+if (!biologyPilot) throw new Error("BIO-076 is missing from the combined Biology batches-1-to-4 asset");
 
 describe("uniform Biology question card", () => {
   it("renders the real pilot asset with topic-only context and six enriched explanation lines", () => {
@@ -19,6 +19,6 @@ describe("uniform Biology question card", () => {
     expect(html).not.toContain("difficulty-medium");
     expect((html.match(/class=\"explanation-block\"/g) ?? []).length).toBe(1);
     expect((html.match(/class=\"explanation-block\"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(6);
-    expect(html).toContain("nonpolar lipid phase");
+    expect(html).toContain("unicellular extensions");
   });
 });

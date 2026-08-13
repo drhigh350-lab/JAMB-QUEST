@@ -1,11 +1,8 @@
 import { readFile } from "node:fs/promises";
 
-const bank = JSON.parse(await readFile("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_3.json", "utf8"));
-const batches = await Promise.all([
-  "biology-explanation-pilot.output.json",
-  "biology-explanation-batch-2.output.json",
-  "biology-explanation-batch-3.output.json",
-].map((name) => readFile(`/home/ubuntu/jamb-quiz-game/${name}`, "utf8").then(JSON.parse)));
+const bank = JSON.parse(await readFile("/home/ubuntu/jamb_question_bank/jamb_high_yield_practice_bank_1000_biology_batches_1_4.json", "utf8"));
+const names = ["biology-explanation-pilot.output.json", "biology-explanation-batch-2.output.json", "biology-explanation-batch-3.output.json", "biology-explanation-batch-4.output.json"];
+const batches = await Promise.all(names.map((name) => readFile(`/home/ubuntu/jamb-quiz-game/${name}`, "utf8").then(JSON.parse)));
 const records = batches.flat();
 const approved = records.filter((record) => record.quality_gate && !record.needs_review);
 const flagged = records.filter((record) => record.needs_review);

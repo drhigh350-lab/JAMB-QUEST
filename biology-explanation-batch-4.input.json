@@ -1,0 +1,580 @@
+[
+  {
+    "id": "BIO-076",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "flowering-plant structures",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which part of a flowering plant is primarily responsible for absorbing water and minerals from the soil?",
+    "options": [
+      "Root hair",
+      "Cortex",
+      "Endodermis",
+      "Xylem"
+    ],
+    "answer_index": 0,
+    "answer_text": "Root hair",
+    "explanation": "Root hairs increase surface area for water and mineral uptake from the soil.",
+    "tags": [
+      "plants",
+      "anatomy",
+      "roots"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-077",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "flowering-plant transport",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which tissue in flowering plants principally transports organic nutrients, such as sugar, from leaves to other parts?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cortex",
+      "Cambium"
+    ],
+    "answer_index": 1,
+    "answer_text": "Phloem",
+    "explanation": "Phloem carries dissolved sugars in the sieve tubes to growing and storage parts of the plant.",
+    "tags": [
+      "plants",
+      "transport"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-078",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which reagent is used to detect reducing sugars in a solution, giving a brick-red precipitate upon heating?",
+    "options": [
+      "Iodine solution",
+      "Benedict's solution",
+      "Biuret reagent",
+      "Sudan III"
+    ],
+    "answer_index": 1,
+    "answer_text": "Benedict's solution",
+    "explanation": "Benedict's solution yields brick-red Cu2O precipitate with reducing sugars under heat.",
+    "tags": [
+      "biochemistry",
+      "tests"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-079",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which test is used to detect lipids, typically forming a cloudy emulsion when mixed with ethanol and water?",
+    "options": [
+      "Biuret test",
+      "Emulsion (ethanol) test",
+      "Iodine test",
+      "Benedict's test"
+    ],
+    "answer_index": 1,
+    "answer_text": "Emulsion (ethanol) test",
+    "explanation": "The emulsion test uses ethanol to extract lipids; shake with water, a milky emulsion indicates lipids.",
+    "tags": [
+      "biochemistry",
+      "lipids"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-080",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport (blood vessels and circulation)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": [
+      "Veins",
+      "Arteries",
+      "Capillaries",
+      "Venules"
+    ],
+    "answer_index": 1,
+    "answer_text": "Arteries",
+    "explanation": "Arteries carry blood away from the heart under pressure.",
+    "tags": [
+      "circulation",
+      "anatomy"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-081",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "respiration (gas exchange)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Alveoli are well suited for gas exchange mainly because they have a",
+    "options": [
+      "Thick walls",
+      "Large surface area",
+      "Low moisture",
+      "No capillaries"
+    ],
+    "answer_index": 1,
+    "answer_text": "Large surface area",
+    "explanation": "Alveoli have a large surface area with a rich capillary network and thin walls.",
+    "tags": [
+      "respiration",
+      "gas exchange"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-082",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion (kidney structure)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "In the kidney, which structure is the primary site of ultrafiltration of blood?",
+    "options": [
+      "Renal pelvis",
+      "Medulla",
+      "Glomerulus",
+      "Collecting duct"
+    ],
+    "answer_index": 2,
+    "answer_text": "Glomerulus",
+    "explanation": "The glomerulus filters blood under pressure as the initial ultrafiltration step.",
+    "tags": [
+      "excretion",
+      "kidney"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-083",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion (water balance)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "A hormone that increases water reabsorption in the kidney is most active in which part of the nephron?",
+    "options": [
+      "Glomerulus",
+      "Proximal tubule",
+      "Loop of Henle",
+      "Collecting duct"
+    ],
+    "answer_index": 3,
+    "answer_text": "Collecting duct",
+    "explanation": "Antidiuretic hormone (ADH) increases water reabsorption in the collecting duct, regulating urine concentration.",
+    "tags": [
+      "excretion",
+      "homeostasis"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-084",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "support and movement (bones & joints)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which joint type allows movement primarily in one plane, such as a knee or elbow?",
+    "options": [
+      "Ball-and-socket",
+      "Pivot",
+      "Hinge",
+      "Saddle"
+    ],
+    "answer_index": 2,
+    "answer_text": "Hinge",
+    "explanation": "A hinge joint allows bending and straightening in one plane, e.g., knee.",
+    "tags": [
+      "movement",
+      "anatomy"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-085",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "growth and tropisms",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which plant hormone is mainly responsible for phototropism in shoots?",
+    "options": [
+      "Cytokinin",
+      "Auxin",
+      "Gibberellin",
+      "Ethene"
+    ],
+    "answer_index": 1,
+    "answer_text": "Auxin",
+    "explanation": "Auxin moves to the shaded side, promoting cell elongation and bending toward light.",
+    "tags": [
+      "plants",
+      "growth"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-086",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nervous coordination (neurons)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which part of a neuron conducts impulses away from the cell body?",
+    "options": [
+      "Dendrite",
+      "Axon",
+      "Cell body",
+      "Synapse"
+    ],
+    "answer_index": 1,
+    "answer_text": "Axon",
+    "explanation": "The axon transmits impulses away from the neuron to other neurons or effectors.",
+    "tags": [
+      "nervous",
+      "neuron"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-087",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "hormonal coordination (endocrine system)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which gland secretes insulin to regulate blood glucose?",
+    "options": [
+      "Pituitary",
+      "Pancreas",
+      "Thyroid",
+      "Adrenal"
+    ],
+    "answer_index": 1,
+    "answer_text": "Pancreas",
+    "explanation": "The pancreas releases insulin which lowers blood glucose.",
+    "tags": [
+      "endocrine",
+      "glucose"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-088",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "sense organs (eye)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which part of the eye adjusts the size of the pupil in response to light?",
+    "options": [
+      "Cornea",
+      "Retina",
+      "Iris",
+      "Sclera"
+    ],
+    "answer_index": 2,
+    "answer_text": "Iris",
+    "explanation": "The iris controls pupil size by changing its diameter.",
+    "tags": [
+      "sense",
+      "eye"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-089",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "homeostasis (temperature regulation)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "On becoming hot, which process helps cool the body by evaporation?",
+    "options": [
+      "Shivering",
+      "Vasoconstriction",
+      "Sweating",
+      "Breathing hard"
+    ],
+    "answer_index": 2,
+    "answer_text": "Sweating",
+    "explanation": "Sweating produces a cooling effect by evaporation.",
+    "tags": [
+      "homeostasis",
+      "thermoregulation"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-090",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "reproduction (humans)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which organ in males produces male gametes (sperm)?",
+    "options": [
+      "Testes",
+      "Ovaries",
+      "Epididymis",
+      "Vas deferens"
+    ],
+    "answer_index": 0,
+    "answer_text": "Testes",
+    "explanation": "The testes produce sperm cells.",
+    "tags": [
+      "reproduction",
+      "humans"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-091",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "reproduction (plants - fertilisation and fruit)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which part of a flower develops into a fruit after fertilisation?",
+    "options": [
+      "Sepal",
+      "Petal",
+      "Ovule",
+      "Ovary"
+    ],
+    "answer_index": 3,
+    "answer_text": "Ovary",
+    "explanation": "The ovary develops into the fruit after fertilisation.",
+    "tags": [
+      "reproduction",
+      "plants"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-092",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "growth and tropisms",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "What causes shoots to bend toward a light source?",
+    "options": [
+      "Growth in the dark",
+      "Movement of starch from light side",
+      "Movement of the hormone auxin to the shaded side",
+      "Reaction of the leaf to light shade"
+    ],
+    "answer_index": 2,
+    "answer_text": "Movement of the hormone auxin to the shaded side",
+    "explanation": "Auxin accumulates on the shaded side, causing cells to elongate and bend toward the light.",
+    "tags": [
+      "plants",
+      "growth",
+      "tropism"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-093",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport (water and minerals in plants)",
+    "difficulty": "hard",
+    "question_type": "multiple_choice",
+    "question": "Which layer of root tissue contains the Casparian strip that regulates entry of water and minerals into the vascular cylinder?",
+    "options": [
+      "Epidermis",
+      "Cortex",
+      "Endodermis",
+      "Pericycle"
+    ],
+    "answer_index": 2,
+    "answer_text": "Endodermis",
+    "explanation": "The endodermis has the Casparian strip, forcing water to pass through cell membranes before entering the vascular tissue.",
+    "tags": [
+      "plants",
+      "root",
+      "anatomy"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-094",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "respiration (gas exchange and energy)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "During respiration, which gas is consumed and which is released in the body?",
+    "options": [
+      "O2 consumed; CO2 produced",
+      "CO2 consumed; O2 produced",
+      "O2 produced; CO2 consumed",
+      "N2 consumed; O2 produced"
+    ],
+    "answer_index": 0,
+    "answer_text": "O2 consumed; CO2 produced",
+    "explanation": "Oxygen is consumed to release energy, and carbon dioxide is produced as a waste product.",
+    "tags": [
+      "respiration",
+      "gas exchange"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-095",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "transport (water movement in plants)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "The movement of water and minerals from root to shoot is called the",
+    "options": [
+      "Translocation",
+      "Transpiration stream",
+      "Cohesion-tension theory",
+      "Respiration stream"
+    ],
+    "answer_index": 1,
+    "answer_text": "Transpiration stream",
+    "explanation": "Transpiration stream pulls water up through xylem via cohesion-tension mechanism.",
+    "tags": [
+      "plants",
+      "water transport"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-096",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "excretion (kidney waste products)",
+    "difficulty": "easy",
+    "question_type": "multiple_choice",
+    "question": "Which waste product is commonly used as an indicator of kidney function in urine tests?",
+    "options": [
+      "Urea",
+      "Glucose",
+      "Bilirubin",
+      "Creatinine"
+    ],
+    "answer_index": 3,
+    "answer_text": "Creatinine",
+    "explanation": "Creatinine clearance is used as a marker of kidney function; urea levels can be affected by diet.",
+    "tags": [
+      "excretion",
+      "kidney"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-097",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nervous system (balance and coordination)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which part of the brain mainly coordinates balance and smooth muscle activity?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+    ],
+    "answer_index": 1,
+    "answer_text": "Cerebellum",
+    "explanation": "Cerebellum integrates sensory information for balance and coordinating movement.",
+    "tags": [
+      "nervous",
+      "brain"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-098",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "sense organs (ear)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which part of the ear contains the organ of Corti responsible for hearing?",
+    "options": [
+      "Outer ear",
+      "Middle ear",
+      "Inner ear (cochlea)",
+      "Semicircular canals"
+    ],
+    "answer_index": 2,
+    "answer_text": "Inner ear (cochlea)",
+    "explanation": "Organ of Corti sits in the cochlea in the inner ear.",
+    "tags": [
+      "sense",
+      "ear"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-099",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "hormonal coordination (glucose regulation)",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which hormone raises blood glucose by promoting glycogen breakdown in the liver?",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Adrenaline",
+      "Thyroxine"
+    ],
+    "answer_index": 1,
+    "answer_text": "Glucagon",
+    "explanation": "Glucagon stimulates glycogenolysis, increasing blood glucose.",
+    "tags": [
+      "endocrine",
+      "glucose"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  },
+  {
+    "id": "BIO-100",
+    "subject": "Biology",
+    "topic": "Form and functions",
+    "subtopic": "nutrition and food tests",
+    "difficulty": "medium",
+    "question_type": "multiple_choice",
+    "question": "Which test utilises iodine to indicate the presence of starch in a sample?",
+    "options": [
+      "Benedict's test",
+      "Biuret test",
+      "Iodine test",
+      "Sudan III test"
+    ],
+    "answer_index": 2,
+    "answer_text": "Iodine test",
+    "explanation": "Iodine solution turns blue-black in the presence of starch.",
+    "tags": [
+      "nutrition",
+      "tests"
+    ],
+    "source": "Original JAMB-aligned practice item; not an official past question."
+  }
+]
