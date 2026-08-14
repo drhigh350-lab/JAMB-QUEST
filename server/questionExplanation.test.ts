@@ -19,28 +19,36 @@ const question: BankQuestion = {
 };
 
 describe("uniform question explanation", () => {
-  it("normalises the topic and returns six learning lines", () => {
+  it("normalises the topic and returns natural explanatory paragraphs without template labels", () => {
     expect(normalisedTopic(question.topic)).toBe("Cell structure");
     const lines = questionExplanationLines(question);
-    expect(lines).toHaveLength(6);
+    expect(lines).toHaveLength(2);
     expect(lines[0]).toContain("Nucleus");
-    expect(lines[1]).toContain("contains genetic material");
-    expect(lines[2]).toContain("Cell structure");
+    expect(lines[0]).toContain("contains genetic material");
+    expect(lines[1]).toContain("Cell structure");
+    expect(lines.join(" ")).not.toMatch(/answer:|core idea:|topic focus:|reasoning step:|exam takeaway:/i);
   });
 
   it("uses a safe topic and answer fallback when source text is short", () => {
     const lines = questionExplanationLines({ ...question, topic: "", explanation: "", answer_text: "Nucleus" });
     expect(normalisedTopic("")).toBe("General revision");
-    expect(lines).toHaveLength(6);
+    expect(lines).toHaveLength(2);
     expect(lines[0]).toContain("Nucleus");
-    expect(lines[1]).toContain("The correct answer is Nucleus");
+    expect(lines[1]).toContain("General revision");
   });
 
-  it("preserves rich paragraph-style author explanations by wrapping their own words rather than replacing them with generic notes", () => {
+  it("preserves a rich paragraph-style author explanation verbatim rather than replacing or rewrapping it", () => {
     const richExplanation = "Meiosis is a specialised cell division that produces haploid gametes for sexual reproduction. It reduces the chromosome number from the diploid parent state to a haploid daughter state. Two successive divisions follow one DNA replication event, so four daughter cells are usually formed. Crossing over and independent assortment during meiosis increase genetic variation among gametes. Mitosis instead preserves chromosome number for growth, repair, and replacement of body cells. The exam cue is that a question about gametes and chromosome-number reduction points to meiosis.";
     const lines = questionExplanationLines({ ...question, explanation: richExplanation });
-    expect(lines).toHaveLength(6);
-    expect(lines.join(" ")).toContain("independent assortment");
+    expect(lines).toEqual([richExplanation]);
+    expect(lines[0]).toContain("independent assortment");
     expect(lines.join(" ")).not.toContain("Reasoning step:");
+  });
+
+  it("preserves authentic paragraph boundaries and internal wording without whitespace collapse", () => {
+    const authenticExplanation = "Glucose is fermented by yeast without oxygen, producing ethanol and carbon dioxide.\n\nThat reaction identifies glucose, not a mineral salt or another simple organic compound.";
+    const lines = questionExplanationLines({ ...question, explanation: authenticExplanation });
+    expect(lines).toEqual(authenticExplanation.split("\n\n"));
+    expect(lines.join("\n\n")).toBe(authenticExplanation);
   });
 });

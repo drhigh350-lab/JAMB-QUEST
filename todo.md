@@ -25,6 +25,7 @@
 - [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
 - [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
 - [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.
+- [ ] Verify the deployed reminder callback against a real opted-in incomplete learner twice, retaining evidence of one send followed by a no-duplicate result.
 - [x] Add a pure reminder-delivery eligibility helper and unit test the already-sent, completed-minimum, and eligible reminder decisions.
 - [x] Add an installable PWA manifest, app icons, service worker, and clear install affordance for supported devices.
 - [x] Cache the app shell and existing model question bank for resilient offline quiz play with a clear offline status.
@@ -60,6 +61,13 @@
 - [x] Upgrade the 42 short-explanation submitted records using the user’s rich explanatory style, then re-run the same quality and ambiguity gate.
 - [x] Update the bulk enrichment prompt to apply a style contract derived from the submitted rich explanations, then regenerate only the 42 short submitted records.
 - [x] Add a regression verifier that confirms regenerated short-record explanations meet the submitted rich-explanation style contract before gameplay approval.
+- [ ] Replace formulaic generated explanation language with the user’s compact, natural teaching-paragraph style.
+- [x] Convert already released label-led generated explanations into compact neutral paragraphs while leaving authentic source prose untouched.
+- [x] Preserve every user-supplied authentic explanation verbatim in learner-facing cards rather than rewrapping it into generated templates.
+- [x] Preserve authentic paragraph boundaries and whitespace without text collapsing, with a multi-paragraph learner-card regression test.
+- [ ] Regenerate previously AI-written explanations against the authentic-style contract and keep only answer-safe, style-conforming versions.
+- [x] Add a style regression check that rejects label-led, repetitive, or template-like generated explanations before release.
+- [x] Detect repeated sentence stems or duplicated clauses in generated explanations and prove the release verifier rejects a repetitive fixture.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.

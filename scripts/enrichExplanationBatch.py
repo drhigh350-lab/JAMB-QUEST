@@ -26,7 +26,7 @@ def build_style_reference():
                 break
         if not samples:
             return "No substantive owner-supplied style reference is available; use the standard six-line JAMB explanation contract."
-        return "Owner-supplied rich explanation style reference. Follow its content-dense, concept-first teaching voice: name the exact concept, explain why the correct answer fits, distinguish meaningful distractors or conditions, and add a concrete scientific or calculation link when it helps. Preserve this approach without copying sentences or adding generic study advice.\n\n" + "\n\n---\n\n".join(samples)
+        return "Owner-supplied rich explanation style reference. Follow its compact, natural teaching-paragraph voice: write two or three connected paragraphs with no headings, labels, bullets, numbering, or template phrases. Open directly with the relevant fact, process, or calculation; explain why the correct answer fits; then naturally contrast the most meaningful alternative(s) or condition(s). Preserve this approach without copying sentences, mentioning source material, or adding generic study advice.\n\n" + "\n\n---\n\n".join(samples)
     except Exception:
         return "Owner-supplied style reference could not be read; use the standard six-line JAMB explanation contract."
 
@@ -40,7 +40,7 @@ SCHEMA = {
         "schema": {
             "type": "object",
             "properties": {
-                "lines": {"type": "array", "items": {"type": "string"}, "minItems": 6, "maxItems": 6},
+                "lines": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 3},
                 "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
                 "needs_review": {"type": "boolean"},
             },
@@ -60,12 +60,13 @@ def enrich(item):
         "current_explanation": item.get("explanation", ""),
     }
     result = None
+    last_error = "unknown model failure"
     for attempt in range(3):
         try:
             request = {
                 "model": MODEL,
                 "messages": [
-                    {"role": "system", "content": "You are a careful Nigerian senior-secondary teacher writing JAMB revision notes for the subject supplied in the question data. Output exactly six concise but meaningful sentences as six separate lines. Explain the concept tested, why the correct option is correct, and distinguish the most plausible alternatives when possible. Use only facts supported by standard senior-secondary knowledge for that subject and the question. Do not claim this is an official JAMB question. If the stem, answer key, diagram reference, or wording appears ambiguous or factually uncertain, set needs_review=true and explain the uncertainty rather than inventing a fact. Avoid generic study advice, repeated filler, source labels, and phrases such as 'this question tests your understanding'.\n\n" + STYLE_CONTRACT},
+                    {"role": "system", "content": "You are a careful Nigerian senior-secondary teacher writing JAMB revision notes for the subject supplied in the question data. Output two or three compact, natural explanatory paragraphs as separate strings. Do not use labels such as 'Concept', 'Mechanism', 'Observation', 'Distinction', 'Therefore', or 'Answer'; do not use bullets, numbering, or template-like study advice. Begin directly with the relevant fact, process, or calculation. Explain why the correct option fits and naturally contrast the most meaningful alternatives or conditions where useful. Use only facts supported by standard senior-secondary knowledge for the supplied question. Do not claim this is an official JAMB question. If the stem, answer key, diagram reference, or wording appears ambiguous or factually uncertain, set needs_review=true rather than inventing a fact.\n\n" + STYLE_CONTRACT},
                     {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
                 ],
                 "response_format": SCHEMA,
@@ -82,17 +83,22 @@ def enrich(item):
             if content:
                 result = json.loads(content)
                 break
-        except Exception:
-            pass
+            if response.choices:
+                last_error = f"empty model content; finish_reason={response.choices[0].finish_reason}"
+            else:
+                last_error = "empty model response choices"
+        except Exception as error:
+            last_error = f"{type(error).__name__}: {error}"
         time.sleep(1.5 * (attempt + 1))
     if result is None:
-        return {"id": item["id"], "subject": item["subject"], "topic": item["topic"], "question": item["question"], "answer_index": item["answer_index"], "answer_text": item["options"][item["answer_index"]], "original_explanation": item.get("explanation", ""), "lines": ["This record could not be safely enriched automatically."] * 6, "confidence": "low", "needs_review": True, "word_count": 0, "quality_gate": False}
+        return {"id": item["id"], "subject": item["subject"], "topic": item["topic"], "question": item["question"], "answer_index": item["answer_index"], "answer_text": item["options"][item["answer_index"]], "original_explanation": item.get("explanation", ""), "lines": ["This record could not be safely enriched automatically."] * 2, "confidence": "low", "needs_review": True, "word_count": 0, "quality_gate": False, "generation_error": last_error}
     lines = [" ".join(line.split()).strip() for line in result["lines"]]
     joined = " ".join(lines).lower()
     generic = ["this question tests your understanding", "revisit", "before moving to the next question", "read the key wording"]
     result["lines"] = lines
     result["word_count"] = len(joined.split())
-    result["quality_gate"] = len(lines) == 6 and result["word_count"] >= 75 and not any(phrase in joined for phrase in generic)
+    label_led = ["concept:", "mechanism:", "observation:", "distinction:", "therefore:", "answer:"]
+    result["quality_gate"] = 2 <= len(lines) <= 3 and result["word_count"] >= 65 and not any(phrase in joined for phrase in generic + label_led)
     if not result["quality_gate"]:
         result["needs_review"] = True
     return {"id": item["id"], "subject": item["subject"], "topic": item["topic"], "question": item["question"], "answer_index": item["answer_index"], "answer_text": item["options"][item["answer_index"]], "original_explanation": item.get("explanation", ""), "style_reference_used": bool(STYLE_REFERENCE and STYLE_REFERENCE.exists()), **result}

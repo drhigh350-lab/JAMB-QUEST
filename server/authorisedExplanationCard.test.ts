@@ -13,13 +13,13 @@ const sourceQuestion = input.find((record) => record.id === approvedOutput?.id);
 if (!approvedOutput || !sourceQuestion) throw new Error("A quality-approved owner-provided explanation sample is required for this test");
 
 describe("quality-approved owner-provided question card", () => {
-  it("renders an authentic question with six substantial explanation lines and no provenance leak", () => {
+  it("renders an authentic question with a preserved substantial explanation paragraph and no provenance leak", () => {
     const question: BankQuestion = { ...sourceQuestion, subtopic: "Owner-provided source", difficulty: "medium", question_type: "multiple_choice", answer_text: sourceQuestion.options[sourceQuestion.answer_index], explanation: approvedOutput.lines.join("\n"), tags: ["owner-provided", "verification-pending"], source: "Owner-provided source" };
     const html = renderToStaticMarkup(React.createElement(QuestionCard, { question, index: 0, total: 10, selectedIndex: sourceQuestion.answer_index, answered: true, answer: { selectedIndex: sourceQuestion.answer_index, correct: true, timedOut: false }, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
     const explanation = approvedOutput.lines.join(" ").toLowerCase();
     const answerTerms = sourceQuestion.options[sourceQuestion.answer_index].toLowerCase().match(/[a-z]{4,}/g) ?? [];
     const questionTerms = sourceQuestion.question.toLowerCase().match(/[a-z]{6,}/g) ?? [];
-    expect((html.match(/class="explanation-block"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(6);
+    expect((html.match(/class="explanation-block"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(1);
     expect(html).not.toContain("OWNER-PROVIDED");
     expect(html).not.toContain("Verification Pending");
     expect(approvedOutput.lines.join(" ").split(/\s+/).length).toBeGreaterThanOrEqual(75);

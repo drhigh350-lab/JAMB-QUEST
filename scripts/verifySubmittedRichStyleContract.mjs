@@ -11,9 +11,9 @@ const failures = approved.flatMap((record) => {
   const questionTerms = String(record.question).toLowerCase().match(/[a-z]{4,}/g) ?? [];
   const reasons = [];
   if (record.style_reference_used !== true) reasons.push("submitted style reference was not applied");
-  if (!Array.isArray(record.lines) || record.lines.length !== 6) reasons.push("requires exactly six generated lines");
-  if (joined.split(/\s+/).filter(Boolean).length < 75) reasons.push("requires at least 75 words");
-  if (firstLine.startsWith("answer:") || firstLine.startsWith("correct answer")) reasons.push("must begin concept-first rather than with a generic answer cue");
+  if (!Array.isArray(record.lines) || record.lines.length < 2 || record.lines.length > 3) reasons.push("requires two or three compact explanatory paragraphs");
+  if (joined.split(/\s+/).filter(Boolean).length < 65) reasons.push("requires at least 65 words");
+  if (/^(concept|mechanism|observation|distinction|therefore|answer)\s*:/.test(firstLine)) reasons.push("must begin with natural explanatory prose rather than a template label");
   if (banned.some((phrase) => joined.includes(phrase))) reasons.push("contains generic or provenance wording");
   if (!questionTerms.some((term) => joined.includes(term) || (term.endsWith("s") && joined.includes(term.slice(0, -1))))) reasons.push("does not connect back to the question concept");
   return reasons.length ? [{ id: record.id, reasons }] : [];
