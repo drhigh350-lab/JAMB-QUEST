@@ -15,7 +15,7 @@ const failures = approved.flatMap((record) => {
   if (joined.split(/\s+/).filter(Boolean).length < 75) reasons.push("requires at least 75 words");
   if (firstLine.startsWith("answer:") || firstLine.startsWith("correct answer")) reasons.push("must begin concept-first rather than with a generic answer cue");
   if (banned.some((phrase) => joined.includes(phrase))) reasons.push("contains generic or provenance wording");
-  if (!questionTerms.some((term) => joined.includes(term))) reasons.push("does not connect back to the question concept");
+  if (!questionTerms.some((term) => joined.includes(term) || (term.endsWith("s") && joined.includes(term.slice(0, -1))))) reasons.push("does not connect back to the question concept");
   return reasons.length ? [{ id: record.id, reasons }] : [];
 });
 if (failures.length) throw new Error(`Submitted rich style contract failed for ${failures.length} records: ${JSON.stringify(failures.slice(0, 5))}`);

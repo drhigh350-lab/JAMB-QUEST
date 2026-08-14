@@ -1,7 +1,8 @@
 {
-  "total": 1149,
-  "approved": 975,
-  "needsReview": 174,
+  "total": 1437,
+  "approved": 1420,
+  "needsReview": 17,
+  "storedStatusMismatches": 0,
   "sources": {
     "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf": {
       "total": 186,
@@ -30,18 +31,48 @@
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology": {
       "total": 89,
-      "approved": 40,
-      "needsReview": 49
+      "approved": 86,
+      "needsReview": 3
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": {
       "total": 83,
-      "approved": 0,
-      "needsReview": 83
+      "approved": 74,
+      "needsReview": 9
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": {
       "total": 42,
-      "approved": 0,
-      "needsReview": 42
+      "approved": 37,
+      "needsReview": 5
+    },
+    "Owner-provided Markdown · chem_part1.md · Chemistry": {
+      "total": 49,
+      "approved": 49,
+      "needsReview": 0
+    },
+    "Owner-provided Markdown · chem_part2.md · Chemistry": {
+      "total": 44,
+      "approved": 44,
+      "needsReview": 0
+    },
+    "Owner-provided Markdown · phys_part1.md · Physics": {
+      "total": 48,
+      "approved": 48,
+      "needsReview": 0
+    },
+    "Owner-provided Markdown · phys_part2.md · Physics": {
+      "total": 50,
+      "approved": 50,
+      "needsReview": 0
+    },
+    "Owner-provided Markdown · bio_part1.md · Biology": {
+      "total": 48,
+      "approved": 48,
+      "needsReview": 0
+    },
+    "Owner-provided Markdown · bio_part2.md · Biology": {
+      "total": 49,
+      "approved": 49,
+      "needsReview": 0
     }
   }
 }

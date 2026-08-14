@@ -96,6 +96,8 @@
 - [x] Generate and quality-check a second non-overlapping 25-question owner-provided Biology explanation batch, preserving the three ambiguous pilot records for separate source review.
 - [x] Process up to 500 additional owner-provided authentic questions tonight through accelerated explanation batches, releasing only explanation-approved records and retaining unclear items for review.
 - [ ] Complete the remaining eligible owner-provided authentic-question enrichment and release pass, with only corrupted, diagram-dependent, or answer-uncertain records left held for cleaner source review.
+- [x] Enrich the 174 clear held owner-provided records using the submitted explanation-style contract and release only quality-approved results.
+- [x] Align the authorised explanation audit with the approved paragraph-style contract so its reporting matches the playable-bank gate.
 - [x] Deactivate the 75 confirmed unclear or answer-uncertain authentic records at the user's request, while retaining the 174 clear TechMed records for a separate short-explanation decision.
 - [x] Verify sampled model and owner-provided questions render substantial, question-specific explanations rather than generic filler text.
 - [x] Update the displayed-question-count verifier so it checks the model bank plus only explanation-approved, active owner-provided questions without leaving a browser process stalled.
