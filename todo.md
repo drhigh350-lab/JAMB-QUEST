@@ -84,7 +84,7 @@
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
 - [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
 - [ ] Prepare error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope.
-- [ ] Deliver the selected core daily study-and-revision loop: one clear daily action, exact mistake recovery, and brief performance guidance.
+- [x] Deliver the selected core daily study-and-revision loop: one clear daily action, exact mistake recovery, and brief performance guidance.
 - [x] Make the main daily action an automatic 20-question mission from the learner’s weakest available topic.
 - [x] Show concise review analytics that connect score, accuracy, speed, weak topics, and exact missed-question recovery to a next action.
 - [x] Show an estimated UTME score only after a completed full 180-question mock; show no projection from shorter practice rounds.

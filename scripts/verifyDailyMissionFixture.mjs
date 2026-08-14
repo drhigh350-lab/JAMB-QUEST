@@ -8,6 +8,7 @@ try {
   await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1`, { waitUntil: "commit", timeout: 30_000 });
   await page.locator(".daily-mission-panel").waitFor({ state: "visible", timeout: 30_000 });
   if (!(await page.locator(".daily-mission-panel").innerText()).includes("Genetics")) throw new Error("Daily mission did not prioritise the weakest available topic.");
+  if (await page.getByRole("button", { name: /continue 20-question mission|repair my mistakes/i }).count()) throw new Error("A duplicate daily-system launch action competed with the primary automatic mission.");
   await page.getByRole("button", { name: /start today's mission/i }).click();
   const missionConfig = await page.getByTestId("fixture-launched-config").textContent();
   if (!missionConfig?.includes('"subject":"Biology"') || !missionConfig.includes('"topic":"Genetics"') || !missionConfig.includes('"count":20')) throw new Error(`Daily mission did not launch the 20-question weak-topic drill: ${missionConfig}`);
