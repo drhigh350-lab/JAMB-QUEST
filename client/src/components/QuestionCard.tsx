@@ -24,13 +24,14 @@ interface QuestionCardProps {
 export function QuestionCard({ question, index, total, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext, isBookmarked = false, onToggleBookmark }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D"];
   const explanationLines = questionExplanationLines(question);
+  const topic = normalisedTopic(question.topic);
   return (
     <section className="question-card" aria-labelledby="question-title">
       <div className="question-card-topline">
         <div className="question-meta">
           <span>Question {String(index + 1).padStart(2, "0")} of {String(total).padStart(2, "0")}</span>
         </div>
-        <div className="question-card-tools"><span className="question-topic-label">Topic: {normalisedTopic(question.topic)}</span>{onToggleBookmark && <button className={`bookmark-control ${isBookmarked ? "active" : ""}`} onClick={onToggleBookmark} aria-pressed={isBookmarked} title={isBookmarked ? "Remove saved question" : "Save question for revision"}>{isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}<span>{isBookmarked ? "Saved" : "Save"}</span></button>}</div>
+        <div className="question-card-tools">{topic !== "Unclassified" && <span className="question-topic-label">Topic: {topic}</span>}{onToggleBookmark && <button className={`bookmark-control ${isBookmarked ? "active" : ""}`} onClick={onToggleBookmark} aria-pressed={isBookmarked} title={isBookmarked ? "Remove saved question" : "Save question for revision"}>{isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}<span>{isBookmarked ? "Saved" : "Save"}</span></button>}</div>
       </div>
       <div className="question-rule" />
       <div className="question-copy">

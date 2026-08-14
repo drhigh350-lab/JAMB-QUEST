@@ -1,6 +1,6 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { and, eq } from "drizzle-orm";
+import { and, eq, inArray } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
@@ -24,6 +24,7 @@ import {
 } from "../drizzle/schema";
 import { ENV } from "./_core/env";
 import type { AuthorisedQuestionImport } from "./questionImport";
+import { inferTopicFromQuestion, inferVerifiedTopic } from "../shared/topicInference";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 let _pool: Pool | null = null;
@@ -197,16 +198,18 @@ function parseAnswerReview(raw: string | null): Array<{ questionId: string | nul
   }
 }
 
-function normalisePersistedTopic(subject: string | null, topic: string) {
+function normalisePersistedTopic(subject: string | null, topic: string, inferredTopic?: string): string | null {
   const cleaned = topic.trim();
-  if (!cleaned || cleaned.toLowerCase() === "to be tagged during syllabus mapping") return subject ? `${subject} practice` : "General practice";
+  if ((!cleaned || cleaned.toLowerCase() === "to be tagged during syllabus mapping") && inferredTopic) return inferredTopic;
+  if (!cleaned || cleaned.toLowerCase() === "to be tagged during syllabus mapping" || cleaned.toLowerCase() === "unclassified") return null;
   return cleaned;
 }
 
-export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: string | null }>) {
+export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: string | null }>, inferredTopicsByQuestionId = new Map<string, string>()) {
   const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
   rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
-    const topic = normalisePersistedTopic(answer.subject, answer.topic);
+    const topic = normalisePersistedTopic(answer.subject, answer.topic, answer.questionId ? inferredTopicsByQuestionId.get(answer.questionId) : undefined);
+    if (!topic) return;
     const key = `${answer.subject ?? ""}\u0000${topic}`;
     const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
     current.attempts += 1;
@@ -326,7 +329,18 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
   const answerReviews = rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson));
-  const weakTopics = summariseWeakTopicsFromRounds(rounds);
+  const placeholderIds = Array.from(new Set(answerReviews.flatMap((answer) => {
+    const match = answer.questionId?.match(/^authorised-(\d+)$/);
+    return match && answer.topic.trim().toLowerCase() === "to be tagged during syllabus mapping" ? [Number(match[1])] : [];
+  })));
+  const placeholderQuestions = placeholderIds.length ? await db.select({ id: questionItems.id, subject: questionItems.subject, topic: questionItems.topic, questionText: questionItems.questionText }).from(questionItems).where(inArray(questionItems.id, placeholderIds)) : [];
+  const inferredTopicsByQuestionId = new Map(placeholderQuestions.flatMap((question) => {
+    const inferredTopic = question.topic.trim().toLowerCase() === "to be tagged during syllabus mapping"
+      ? inferVerifiedTopic(question.subject as "Use of English" | "Biology" | "Chemistry" | "Physics", question.questionText)
+      : question.topic;
+    return inferredTopic ? [[`authorised-${question.id}`, inferredTopic] as const] : [];
+  }));
+  const weakTopics = summariseWeakTopicsFromRounds(rounds, inferredTopicsByQuestionId);
   const subjectPerformance = summariseSubjectPerformance(answerReviews);
   const fullMockSubjectPerformance = selectFullMockSubjectPerformance(rounds);
   const recentRounds = rounds.reverse().map((round) => {

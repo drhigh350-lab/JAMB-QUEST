@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { isRoundTimed } from "./dailyMission";
-import { loadQuestionBank, selectQuestions } from "./questionBank";
+import { loadQuestionBank, normaliseQuestionTopic, selectQuestions } from "./questionBank";
 import { clearActiveCbtSession, getActiveCbtSession, getProgress, recordRound, saveActiveCbtSession, saveProgress } from "./storage";
 import type { ActiveCbtSession, AnswerRecord, BankQuestion, ExamReviewRecord, GameScreen, QuizMode, RoundConfig, RoundSubject, StoredProgress } from "./types";
 
@@ -66,7 +66,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
 
   const playableQuestions = useMemo(() => {
     const seen = new Set<string>();
-    return [...questions, ...additionalQuestions].filter((question) => {
+    return [...questions, ...additionalQuestions].map(normaliseQuestionTopic).filter((question) => {
       if (seen.has(question.id)) return false;
       seen.add(question.id);
       return true;

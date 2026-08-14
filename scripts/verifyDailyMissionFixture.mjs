@@ -12,6 +12,12 @@ try {
   await page.getByRole("button", { name: /start today's mission/i }).click();
   const missionConfig = await page.getByTestId("fixture-launched-config").textContent();
   if (!missionConfig?.includes('"subject":"Biology"') || !missionConfig.includes('"topic":"Genetics"') || !missionConfig.includes('"count":20')) throw new Error(`Daily mission did not launch the 20-question weak-topic drill: ${missionConfig}`);
+  await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&actualTopic=1`, { waitUntil: "commit", timeout: 30_000 });
+  const actualTopicPanel = await page.locator(".daily-mission-panel").innerText();
+  if (!actualTopicPanel.includes("Gas Laws and Diffusion") || actualTopicPanel.includes("Chemistry practice")) throw new Error(`Legacy weak-topic mission did not render the verified actual topic: ${actualTopicPanel}`);
+  await page.getByRole("button", { name: /start today's mission/i }).click();
+  const actualTopicConfig = await page.getByTestId("fixture-launched-config").textContent();
+  if (!actualTopicConfig?.includes('"subject":"Chemistry"') || !actualTopicConfig.includes('"topic":"Gas Laws and Diffusion"') || !actualTopicConfig.includes('"count":20')) throw new Error(`Actual-topic mission did not launch the verified Chemistry drill: ${actualTopicConfig}`);
   await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&diagnostic=1`, { waitUntil: "commit", timeout: 30_000 });
   const diagnosticPanel = await page.locator(".daily-mission-panel").innerText();
   if (!diagnosticPanel.includes("4-subject diagnostic baseline") || !diagnosticPanel.includes("five each")) throw new Error(`Diagnostic baseline was not the first daily action: ${diagnosticPanel}`);

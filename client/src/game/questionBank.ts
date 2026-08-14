@@ -1,6 +1,7 @@
 /* Field Notes Arcade: the question bank is a remote, validated data layer rather than a visual placeholder. */
 
 import type { BankQuestion, QuizMode, RoundSubject, Subject } from "./types";
+import { inferTopicFromQuestion } from "@shared/topicInference";
 
 export const QUESTION_BANK_URL =
   "/manus-storage/jamb_high_yield_practice_bank_1000_biology_batches_1_5_759ba726.json";
@@ -9,9 +10,11 @@ const SUBJECTS: Subject[] = ["Use of English", "Biology", "Chemistry", "Physics"
 const INTERNAL_TOPIC_LABEL = "to be tagged during syllabus mapping";
 
 export function normaliseLearnerTopic(subject: Subject, topic: string | undefined) {
-  const cleaned = topic?.trim() ?? "";
-  if (!cleaned || cleaned.toLowerCase() === INTERNAL_TOPIC_LABEL) return `${subject} practice`;
-  return cleaned;
+  return inferTopicFromQuestion(subject, "", topic);
+}
+
+export function normaliseQuestionTopic(question: BankQuestion) {
+  return { ...question, topic: inferTopicFromQuestion(question.subject, question.question, question.topic) };
 }
 
 export async function loadQuestionBank(signal?: AbortSignal): Promise<BankQuestion[]> {
@@ -20,7 +23,7 @@ export async function loadQuestionBank(signal?: AbortSignal): Promise<BankQuesti
   const payload = (await response.json()) as { questions?: unknown };
   if (!Array.isArray(payload.questions)) throw new Error("The question bank format is invalid.");
 
-  const questions = payload.questions.filter(isBankQuestion).map((question) => ({ ...question, topic: normaliseLearnerTopic(question.subject, question.topic) }));
+  const questions = payload.questions.filter(isBankQuestion).map(normaliseQuestionTopic);
   if (questions.length < 100) throw new Error("The question bank returned too few valid questions.");
   return questions;
 }

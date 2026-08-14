@@ -88,11 +88,16 @@ describe("diagnostic review loop", () => {
     expect(selectDailyMission({ weakTopics, fallbackSubject: "Physics", wrongIds: [], recoveryPending: false }).config).toMatchObject({ subject: "Biology", topic: "Genetics", count: 20, timing: "study" });
   });
 
-  it("replaces internal mapping text in persisted review data before it reaches a daily mission", () => {
+  it("replaces internal mapping text in persisted review data with the actual question-derived topic before it reaches a daily mission", () => {
     const weakTopics = summariseWeakTopicsFromRounds([{
-      answerReviewJson: JSON.stringify([{ questionId: "CHE-1", subject: "Chemistry", topic: "To be tagged during syllabus mapping", correct: false }]),
-    }]);
-    expect(weakTopics).toMatchObject([{ subject: "Chemistry", topic: "Chemistry practice", misses: 1 }]);
-    expect(selectDailyMission({ weakTopics, fallbackSubject: "Biology", wrongIds: [], recoveryPending: false }).label).toContain("Chemistry practice");
+      answerReviewJson: JSON.stringify([{ questionId: "authorised-60074", subject: "Chemistry", topic: "To be tagged during syllabus mapping", correct: false }]),
+    }], new Map([["authorised-60074", "Gas Laws and Diffusion"]]));
+    expect(weakTopics).toMatchObject([{ subject: "Chemistry", topic: "Gas Laws and Diffusion", misses: 1 }]);
+    expect(selectDailyMission({ weakTopics, fallbackSubject: "Biology", wrongIds: [], recoveryPending: false }).label).toContain("Gas Laws and Diffusion");
+  });
+
+  it("excludes unresolved topics from weakness guidance rather than presenting a generic classification", () => {
+    const weakTopics = summariseWeakTopicsFromRounds([{ answerReviewJson: JSON.stringify([{ questionId: "authorised-unknown", subject: "Chemistry", topic: "Unclassified", correct: false }]) }]);
+    expect(weakTopics).toEqual([]);
   });
 });

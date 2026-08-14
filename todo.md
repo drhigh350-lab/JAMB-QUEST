@@ -86,6 +86,10 @@
 - [x] Persist an active CBT’s answers, flags, current question, and remaining time locally so an interruption can resume the same exam.
 - [x] Verify a refreshed CBT session restores the exact in-progress question, selected answer, flag, and countdown without restoring an untimed Study session.
 - [x] Replace the learner-facing “To be tagged during syllabus mapping” topic label with clear neutral study wording everywhere it is active, including persisted weak-topic analytics and daily-mission cards.
+- [x] Audit all active approved placeholder-topic records and produce a deterministic report that assigns verified actual topics or marks unresolved records as excluded from weakness guidance.
+- [x] Migrate only verified actual topics for placeholder records, while excluding unresolved records from weak-topic and daily-mission analytics.
+- [x] Add browser or fixture coverage proving an affected legacy weak-topic mission renders an actual classified topic rather than a generic fallback.
+- [x] Keep the JAMB Quest roadmap focused on preparation, CBT simulation, mistake correction, weakness tracking, target scoring, study planning, and offline readiness; defer marketplace, live teaching, social, and AI-tutor modules.
 - [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
 - [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
@@ -98,7 +102,7 @@
 - [x] Add unit and browser coverage for pace-aware next-action recommendations across slow-but-accurate and inaccurate-but-fast scenarios.
 - [x] Show each subject’s answer-review accuracy alongside its clearest weak topic on Progress.
 - [x] Make every weak-topic recovery action launch the exact 20-question topic drill.
-- [ ] Defer nonessential marketplace-style modules from the submitted brief unless the user explicitly reprioritizes them.
+- [x] Keep nonessential marketplace-style modules from the submitted brief deferred unless the user explicitly reprioritizes them.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.
