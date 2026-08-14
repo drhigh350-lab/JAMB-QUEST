@@ -185,3 +185,5 @@
 - [x] Correct the Lekki Headmaster parser to align answer keys by chapter sequence rather than unreliable OCR printed numbers, and reject or report chapter coverage anomalies before staging.
 
 - [x] Keep the Lekki Headmaster source inactive and paused until the user supplies a cleaner source file with reliable answer-key alignment and question-specific explanations.
+- [x] Record and apply the final JAMB Quest positioning: a serious preparation weapon where Practice → Understand → Diagnose → Improve → Repeat guides every core product decision.
+- [x] Refine the full 180-question UTME mock navigator into direct subject-oriented palettes with local numbering, per-subject answered progress, and accessible answered/unanswered/flagged states.

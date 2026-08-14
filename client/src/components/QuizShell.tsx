@@ -42,6 +42,17 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
   const currentFlagged = flaggedIds.includes(currentQuestion.id);
   const answeredCount = Object.keys(answers).length;
   const unansweredCount = questions.length - answeredCount;
+  const fullMockCbt = cbtMode && config.subject === "Full JAMB Mock";
+  const subjectIndices = fullMockCbt ? questions.map((question, index) => ({ question, index })).filter(({ question }) => question.subject === currentQuestion.subject).map(({ index }) => index) : [];
+  const subjectPosition = fullMockCbt ? subjectIndices.indexOf(currentIndex) : currentIndex;
+  const localQuestionIndex = fullMockCbt ? Math.max(0, subjectPosition) : currentIndex;
+  const localQuestionTotal = fullMockCbt ? subjectIndices.length : questions.length;
+  const previousIndex = fullMockCbt ? subjectIndices[Math.max(0, subjectPosition - 1)] ?? currentIndex : Math.max(0, currentIndex - 1);
+  const nextIndex = fullMockCbt ? subjectIndices[Math.min(subjectIndices.length - 1, subjectPosition + 1)] ?? currentIndex : Math.min(questions.length - 1, currentIndex + 1);
+  const canGoPrevious = currentIndex !== previousIndex;
+  const canGoNext = currentIndex !== nextIndex;
+  const navigatePrevious = () => onNavigate?.(previousIndex);
+  const navigateNext = () => onNavigate?.(nextIndex);
   const firstMatchingIndex = (predicate: (question: BankQuestion) => boolean) => questions.findIndex(predicate);
   const reviewMatching = (predicate: (question: BankQuestion) => boolean) => {
     const index = firstMatchingIndex(predicate);
@@ -58,15 +69,15 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
       if (["A", "B", "C", "D", "P", "N", "S", "R", "Y"].includes(key)) event.preventDefault();
       const optionIndex = ["A", "B", "C", "D"].indexOf(key);
       if (optionIndex >= 0 && !isPaused) onSelect(optionIndex);
-      if (key === "P") onNavigate?.(Math.max(0, currentIndex - 1));
-      if (key === "N") onNavigate?.(Math.min(questions.length - 1, currentIndex + 1));
+      if (key === "P") navigatePrevious();
+      if (key === "N") navigateNext();
       if (key === "S") setSubmitConfirmOpen(true);
       if (key === "R" && submitConfirmOpen) setSubmitConfirmOpen(false);
       if (key === "Y" && submitConfirmOpen) { setSubmitConfirmOpen(false); onFinishCbt?.(); }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [cbtMode, currentIndex, isPaused, onFinishCbt, onNavigate, onSelect, questions.length, submitConfirmOpen]);
+  }, [cbtMode, currentIndex, isPaused, navigateNext, navigatePrevious, onFinishCbt, onSelect, submitConfirmOpen]);
   return (
     <main className="quiz-layout page-shell">
       <header className="quiz-header">
@@ -76,9 +87,9 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
       </header>
       <div className="quiz-progress-row"><div className="progress-track"><span style={{ width: `${((cbtMode ? answeredCount : currentIndex + (answered ? 1 : 0)) / questions.length) * 100}%` }} /></div><span>{cbtMode ? `${answeredCount} answered` : `${currentIndex + 1} / ${questions.length}`}</span>{streak > 1 && <span className="streak-badge"><Flame size={15} /> {streak} streak</span>}{cbtMode ? <><button className="pause-hint pause-control" onClick={onTogglePause}><Pause size={13} /> {isPaused ? "Resume exam" : "Pause exam"}</button><span className="keyboard-hint" title="A–D answer · P previous · N next · S submit · R return · Y confirm">Keys: A–D · P/N · S/R/Y</span></> : <span className="pause-hint">Untimed study</span>}</div>
       <div className="quiz-workspace">
-        <QuestionCard question={currentQuestion} index={currentIndex} total={questions.length} selectedIndex={selectedIndex} answered={answered} answer={currentAnswer} onSelect={onSelect} onSubmit={onSubmit} onNext={onNext} cbtMode={cbtMode} onSaveAndNext={onNext} isBookmarked={bookmarkedQuestionIds.includes(currentQuestion.id)} onToggleBookmark={onToggleBookmark} />
-        <div className="cbt-ledger-stack"><QuestionLedger questions={questions} currentIndex={currentIndex} answers={answers} cbtMode={cbtMode} flaggedIds={flaggedIds} onNavigate={onNavigate} />
-          {cbtMode && <div className="cbt-actions"><div className="cbt-nav-actions"><button className="button button-outline" onClick={() => onNavigate?.(Math.max(0, currentIndex - 1))} disabled={currentIndex === 0}>Previous</button><button className="button button-outline" onClick={() => onNavigate?.(Math.min(questions.length - 1, currentIndex + 1))} disabled={currentIndex === questions.length - 1}>Next</button></div><button className={`button ${currentFlagged ? "button-primary" : "button-outline"}`} onClick={onToggleFlag}><Flag size={15} /> {currentFlagged ? "Unflag question" : "Flag for review"}</button><AlertDialog open={submitConfirmOpen} onOpenChange={setSubmitConfirmOpen}><AlertDialogTrigger asChild><button className="button button-dark">Finish & review <Send size={15} /></button></AlertDialogTrigger><AlertDialogContent><AlertDialogHeader><AlertDialogTitle>Review before submission</AlertDialogTitle><AlertDialogDescription>Use the real JAMB-style review step before finalising this mock. Keyboard: R returns to the exam; Y confirms the review screen.</AlertDialogDescription></AlertDialogHeader><div className="cbt-submit-summary"><div><strong>{answeredCount}/{questions.length}</strong><span>answered</span></div><div><strong>{unansweredCount}</strong><span>unanswered</span></div><div><strong>{flaggedIds.length}</strong><span>flagged</span></div></div><div className="cbt-submit-review-actions"><button className="button button-outline" disabled={!unansweredCount} onClick={() => reviewMatching((question) => !answers[question.id])}>Review unanswered</button><button className="button button-outline" disabled={!flaggedIds.length} onClick={() => reviewMatching((question) => flaggedIds.includes(question.id))}>Review flagged</button></div><AlertDialogFooter><AlertDialogCancel>Continue exam</AlertDialogCancel><AlertDialogAction onClick={() => { setSubmitConfirmOpen(false); onFinishCbt?.(); }}>Review my answers</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog></div>}
+        <QuestionCard question={currentQuestion} index={localQuestionIndex} total={localQuestionTotal} subjectLabel={fullMockCbt ? currentQuestion.subject : undefined} selectedIndex={selectedIndex} answered={answered} answer={currentAnswer} onSelect={onSelect} onSubmit={onSubmit} onNext={fullMockCbt ? navigateNext : onNext} cbtMode={cbtMode} onSaveAndNext={fullMockCbt ? navigateNext : onNext} isBookmarked={bookmarkedQuestionIds.includes(currentQuestion.id)} onToggleBookmark={onToggleBookmark} />
+        <div className="cbt-ledger-stack"><QuestionLedger questions={questions} currentIndex={currentIndex} answers={answers} cbtMode={cbtMode} fullMock={fullMockCbt} flaggedIds={flaggedIds} onNavigate={onNavigate} />
+          {cbtMode && <div className="cbt-actions"><div className="cbt-nav-actions"><button className="button button-outline" onClick={navigatePrevious} disabled={!canGoPrevious}>Previous</button><button className="button button-outline" onClick={navigateNext} disabled={!canGoNext}>Next</button></div><button className={`button ${currentFlagged ? "button-primary" : "button-outline"}`} onClick={onToggleFlag}><Flag size={15} /> {currentFlagged ? "Unflag question" : "Flag for review"}</button><AlertDialog open={submitConfirmOpen} onOpenChange={setSubmitConfirmOpen}><AlertDialogTrigger asChild><button className="button button-dark">Finish & review <Send size={15} /></button></AlertDialogTrigger><AlertDialogContent><AlertDialogHeader><AlertDialogTitle>Review before submission</AlertDialogTitle><AlertDialogDescription>Use the real JAMB-style review step before finalising this mock. Keyboard: R returns to the exam; Y confirms the review screen.</AlertDialogDescription></AlertDialogHeader><div className="cbt-submit-summary"><div><strong>{answeredCount}/{questions.length}</strong><span>answered</span></div><div><strong>{unansweredCount}</strong><span>unanswered</span></div><div><strong>{flaggedIds.length}</strong><span>flagged</span></div></div><div className="cbt-submit-review-actions"><button className="button button-outline" disabled={!unansweredCount} onClick={() => reviewMatching((question) => !answers[question.id])}>Review unanswered</button><button className="button button-outline" disabled={!flaggedIds.length} onClick={() => reviewMatching((question) => flaggedIds.includes(question.id))}>Review flagged</button></div><AlertDialogFooter><AlertDialogCancel>Continue exam</AlertDialogCancel><AlertDialogAction onClick={() => { setSubmitConfirmOpen(false); onFinishCbt?.(); }}>Review my answers</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog></div>}
         </div>
       </div>
     </main>

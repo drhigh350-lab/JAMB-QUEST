@@ -18,8 +18,8 @@ export default function CbtFlowFixture() {
   useEffect(() => {
     void loadQuestionBank().then((bank) => {
       const needed = ["Use of English", "Biology", "Chemistry", "Physics"] as const;
-      const selected = needed.map((subject) => bank.find((question) => question.subject === subject)).filter((question): question is BankQuestion => Boolean(question));
-      if (selected.length !== 4) throw new Error("CBT fixture could not load all four subjects");
+      const selected = needed.flatMap((subject) => bank.filter((question) => question.subject === subject).slice(0, 2));
+      if (selected.length !== 8) throw new Error("CBT fixture could not load two questions for all four subjects");
       setQuestions(selected);
     }).catch((error) => setLoadError(error instanceof Error ? error.message : "Unable to load CBT fixture"));
   }, []);

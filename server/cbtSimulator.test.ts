@@ -2,6 +2,7 @@ import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it, vi } from "vitest";
 import { ExamReview } from "../client/src/components/ExamReview";
+import { QuestionLedger } from "../client/src/components/QuestionLedger";
 import { selectQuestions } from "../client/src/game/questionBank";
 import { buildExamComparison } from "./db";
 import type { BankQuestion, Subject } from "../client/src/game/types";
@@ -57,6 +58,23 @@ describe("CBT simulator", () => {
       Chemistry: 40,
       Physics: 40,
     });
+  });
+
+  it("renders a full-mock navigator with local subject numbering, per-subject progress, and accessible palette states", () => {
+    const html = renderToStaticMarkup(React.createElement(QuestionLedger, {
+      questions,
+      currentIndex: 3,
+      answers: { [questions[3].id]: { selectedIndex: 1, correct: true, timedOut: false } },
+      cbtMode: true,
+      fullMock: true,
+      flaggedIds: [questions[4].id],
+      onNavigate: vi.fn(),
+    }));
+    expect(html).toContain("Biology palette");
+    expect(html).toContain("Biology, question 1: current");
+    expect(html).toContain("Biology, question 2: flagged, unanswered");
+    expect(html).toContain("English");
+    expect(html).toContain("0/3");
   });
 
   it("selects only the requested topic or saved question IDs for focused revision without changing full-mock rules", () => {
