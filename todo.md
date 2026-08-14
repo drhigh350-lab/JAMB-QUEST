@@ -89,7 +89,7 @@
 - [x] Audit all active approved placeholder-topic records and produce a deterministic report that assigns verified actual topics or marks unresolved records as excluded from weakness guidance.
 - [x] Migrate only verified actual topics for placeholder records, while excluding unresolved records from weak-topic and daily-mission analytics.
 - [x] Add browser or fixture coverage proving an affected legacy weak-topic mission renders an actual classified topic rather than a generic fallback.
-- [ ] Map the remaining 124 unresolved approved-question topics against a trusted JAMB syllabus or owner-supplied source before allowing them into weakness guidance.
+- [ ] Map the remaining 83 unresolved approved-question topics against a trusted JAMB syllabus or owner-supplied source before allowing them into weakness guidance.
 - [x] Keep the JAMB Quest roadmap focused on preparation, CBT simulation, mistake correction, weakness tracking, target scoring, study planning, and offline readiness; defer marketplace, live teaching, social, and AI-tutor modules.
 - [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.

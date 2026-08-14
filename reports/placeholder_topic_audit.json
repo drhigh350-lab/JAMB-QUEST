@@ -1,8 +1,8 @@
 {
   "placeholderTopic": "To be tagged during syllabus mapping",
-  "total": 124,
+  "total": 83,
   "classifiedCount": 0,
-  "unresolvedCount": 124,
+  "unresolvedCount": 83,
   "bySubject": {
     "Use of English": {
       "classified": 0,
@@ -11,7 +11,7 @@
     },
     "Biology": {
       "classified": 0,
-      "unresolved": 121,
+      "unresolved": 80,
       "topics": {}
     },
     "Chemistry": {
@@ -28,81 +28,15 @@
   "classified": [],
   "unresolved": [
     {
-      "id": 30098,
-      "subject": "Biology",
-      "questionText": "A tissue is composed of a group of:",
-      "topic": null
-    },
-    {
-      "id": 30114,
-      "subject": "Biology",
-      "questionText": "Which of the following is the largest organ in the human body?",
-      "topic": null
-    },
-    {
       "id": 30117,
       "subject": "Biology",
       "questionText": "Which type of skeleton is most appropriate for a cockroach?",
       "topic": null
     },
     {
-      "id": 30130,
-      "subject": "Biology",
-      "questionText": "Organisms that maintain a constant internal body temperature regardless of environmental fluctuations are called:",
-      "topic": null
-    },
-    {
-      "id": 30134,
-      "subject": "Biology",
-      "questionText": "The function of lenticels in woody stems is mainly to:",
-      "topic": null
-    },
-    {
       "id": 30136,
       "subject": "Biology",
       "questionText": "The ecological phenomenon where two different species live together and both benefit from the relationship is known as:",
-      "topic": null
-    },
-    {
-      "id": 30137,
-      "subject": "Biology",
-      "questionText": "People suffering from myopia:",
-      "topic": null
-    },
-    {
-      "id": 30147,
-      "subject": "Biology",
-      "questionText": "The hepatic portal vein is unique because it:",
-      "topic": null
-    },
-    {
-      "id": 30153,
-      "subject": "Biology",
-      "questionText": "The ability to taste Phenylthiocarbamide PTC is an example of:",
-      "topic": null
-    },
-    {
-      "id": 30157,
-      "subject": "Biology",
-      "questionText": "Ovulation in humans refers to the release of:",
-      "topic": null
-    },
-    {
-      "id": 30158,
-      "subject": "Biology",
-      "questionText": "An example of a hermaphrodite organism is the:",
-      "topic": null
-    },
-    {
-      "id": 30161,
-      "subject": "Biology",
-      "questionText": "Fraternal twins are produced when:",
-      "topic": null
-    },
-    {
-      "id": 30164,
-      "subject": "Biology",
-      "questionText": "Which relationship is an example of commensalism?",
       "topic": null
     },
     {
@@ -130,75 +64,9 @@
       "topic": null
     },
     {
-      "id": 30180,
-      "subject": "Biology",
-      "questionText": "In the carbon cycle, carbon is removed from the atmosphere primarily by the process of:",
-      "topic": null
-    },
-    {
-      "id": 30189,
-      "subject": "Biology",
-      "questionText": "The type of fruit formed from a single carpel that splits open along both sutures at maturity is a:",
-      "topic": null
-    },
-    {
-      "id": 30193,
-      "subject": "Biology",
-      "questionText": "Which type of placentation is characterized by ovules attached along the single ventral suture of a single carpel, as seen in legumes?",
-      "topic": null
-    },
-    {
-      "id": 30195,
-      "subject": "Biology",
-      "questionText": "The theory of \"use and disuse\" was propounded by:",
-      "topic": null
-    },
-    {
-      "id": 30196,
-      "subject": "Biology",
-      "questionText": "Which of the following is an example of homologous structures?",
-      "topic": null
-    },
-    {
-      "id": 30198,
-      "subject": "Biology",
-      "questionText": "Fossil records are most often found in which type of rock?",
-      "topic": null
-    },
-    {
-      "id": 30200,
-      "subject": "Biology",
-      "questionText": "The presence of vestigial organs in an organism suggests that:",
-      "topic": null
-    },
-    {
-      "id": 30201,
-      "subject": "Biology",
-      "questionText": "The process by which new species are formed is called:",
-      "topic": null
-    },
-    {
-      "id": 30206,
-      "subject": "Biology",
-      "questionText": "Which of the following conditions is necessary for fossilization to occur?",
-      "topic": null
-    },
-    {
       "id": 30210,
       "subject": "Biology",
       "questionText": "The process by which the body maintains a constant internal environment is called:",
-      "topic": null
-    },
-    {
-      "id": 30213,
-      "subject": "Biology",
-      "questionText": "Which of the following is an example of a physiological variation?",
-      "topic": null
-    },
-    {
-      "id": 30218,
-      "subject": "Biology",
-      "questionText": "Which biome is characterized by large herbivores and a few scattered fire- resistant trees?",
       "topic": null
     },
     {
@@ -208,45 +76,15 @@
       "topic": null
     },
     {
-      "id": 30223,
-      "subject": "Biology",
-      "questionText": "The deliberate movement of an organism toward or away from a chemical stimulus is called:",
-      "topic": null
-    },
-    {
-      "id": 30232,
-      "subject": "Biology",
-      "questionText": "The movement of a whole organism or its parts in response to a directional stimulus such as light or chemicals is termed:",
-      "topic": null
-    },
-    {
-      "id": 30239,
-      "subject": "Biology",
-      "questionText": "Aestivation in land snails is primarily triggered by:",
-      "topic": null
-    },
-    {
       "id": 30242,
       "subject": "Biology",
       "questionText": "Reading the verdict of a case by a magistrate is an example of:",
       "topic": null
     },
     {
-      "id": 30247,
-      "subject": "Biology",
-      "questionText": "The red mangrove tree Rhizophora is predominantly adapted to survive in:",
-      "topic": null
-    },
-    {
       "id": 30249,
       "subject": "Biology",
       "questionText": "In the human dental formula i 2/2, c 1/1, pm 2/2, m 3/3, the total number of teeth present in a full adult dentition is:",
-      "topic": null
-    },
-    {
-      "id": 30255,
-      "subject": "Biology",
-      "questionText": "Which of the following is considered the basic physical and functional unit of heredity?",
       "topic": null
     },
     {
@@ -274,48 +112,6 @@
       "topic": null
     },
     {
-      "id": 30298,
-      "subject": "Biology",
-      "questionText": "The involuntary, rapid automatic response to a stimulus without conscious thought is a:",
-      "topic": null
-    },
-    {
-      "id": 30306,
-      "subject": "Biology",
-      "questionText": "Human height, weight, and skin color are examples of:",
-      "topic": null
-    },
-    {
-      "id": 30308,
-      "subject": "Biology",
-      "questionText": "The movement of molecules from a region of higher concentration to lower concentration along a concentration gradient is:",
-      "topic": null
-    },
-    {
-      "id": 30309,
-      "subject": "Biology",
-      "questionText": "Which of the following is a non-renewable natural resource?",
-      "topic": null
-    },
-    {
-      "id": 30322,
-      "subject": "Biology",
-      "questionText": "What type of fruit is a mango or peach, characterized by a fleshy mesocarp and a stony endocarp?",
-      "topic": null
-    },
-    {
-      "id": 30324,
-      "subject": "Biology",
-      "questionText": "The relationship between a tapeworm and a human host is an example of:",
-      "topic": null
-    },
-    {
-      "id": 30329,
-      "subject": "Biology",
-      "questionText": "Color blindness and haemophilia are inherited as:",
-      "topic": null
-    },
-    {
       "id": 30338,
       "subject": "Biology",
       "questionText": "Which adaptation is characteristic of hydrophytes like the water lily?",
@@ -337,12 +133,6 @@
       "id": 30354,
       "subject": "Biology",
       "questionText": "An example of an animal exhibiting radial symmetry is a:",
-      "topic": null
-    },
-    {
-      "id": 30356,
-      "subject": "Biology",
-      "questionText": "What type of selection occurs when environmental conditions favor intermediate phenotypes over extreme variations?",
       "topic": null
     },
     {
@@ -370,18 +160,6 @@
       "topic": null
     },
     {
-      "id": 30383,
-      "subject": "Biology",
-      "questionText": "Which of the following is an example of continuous variation in humans?",
-      "topic": null
-    },
-    {
-      "id": 30384,
-      "subject": "Biology",
-      "questionText": "Which of the following human traits is an example of discontinuous variation?",
-      "topic": null
-    },
-    {
       "id": 30390,
       "subject": "Biology",
       "questionText": "The primary site of water reabsorption in the human nephron under the influence of ADH is the:",
@@ -406,12 +184,6 @@
       "topic": null
     },
     {
-      "id": 30418,
-      "subject": "Biology",
-      "questionText": "What type of fruit is tomato or guava, characterized by a completely fleshy pericarp enclosing multiple seeds?",
-      "topic": null
-    },
-    {
       "id": 30426,
       "subject": "Biology",
       "questionText": "The condition resulting from a lack of iron in human diet which impairs hemoglobin synthesis is:",
@@ -424,21 +196,9 @@
       "topic": null
     },
     {
-      "id": 30431,
-      "subject": "Biology",
-      "questionText": "Which of the following pairs consists of homologous structures?",
-      "topic": null
-    },
-    {
       "id": 30432,
       "subject": "Biology",
       "questionText": "The presence of analogous structures is evidence of:",
-      "topic": null
-    },
-    {
-      "id": 30436,
-      "subject": "Biology",
-      "questionText": "Which of the following is a vestigial organ in humans?",
       "topic": null
     },
     {
@@ -589,12 +349,6 @@
       "id": 90047,
       "subject": "Biology",
       "questionText": "A cross between AS × AS produces? A cross between AS × AS produces? Options:",
-      "topic": null
-    },
-    {
-      "id": 90048,
-      "subject": "Biology",
-      "questionText": "A tissue is composed of a group of:",
       "topic": null
     },
     {

@@ -4,7 +4,7 @@ import { inferTopicFromQuestion, inferVerifiedTopic } from "../shared/topicInfer
 describe("verified topic inference", () => {
   it("assigns a specific topic only when question wording supports it", () => {
     expect(inferVerifiedTopic("Chemistry", "If hydrogen diffuses in 40 seconds, how long will gas M take?")).toBe("Gas Laws and Diffusion");
-    expect(inferVerifiedTopic("Biology", "The basic structural and functional unit of life is the:")).toBe("Cell Biology and Metabolism");
+    expect(inferVerifiedTopic("Biology", "The basic structural and functional unit of life is the:")).toBe("Living Organisms and Organization");
   });
 
   it("leaves unsupported placeholder questions unclassified instead of inventing a topic", () => {
