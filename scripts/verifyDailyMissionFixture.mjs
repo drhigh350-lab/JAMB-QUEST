@@ -12,6 +12,12 @@ try {
   await page.getByRole("button", { name: /start today's mission/i }).click();
   const missionConfig = await page.getByTestId("fixture-launched-config").textContent();
   if (!missionConfig?.includes('"subject":"Biology"') || !missionConfig.includes('"topic":"Genetics"') || !missionConfig.includes('"count":20')) throw new Error(`Daily mission did not launch the 20-question weak-topic drill: ${missionConfig}`);
+  await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&diagnostic=1`, { waitUntil: "commit", timeout: 30_000 });
+  const diagnosticPanel = await page.locator(".daily-mission-panel").innerText();
+  if (!diagnosticPanel.includes("4-subject diagnostic baseline") || !diagnosticPanel.includes("five each")) throw new Error(`Diagnostic baseline was not the first daily action: ${diagnosticPanel}`);
+  await page.getByRole("button", { name: /start today's mission/i }).click();
+  const diagnosticConfig = await page.getByTestId("fixture-launched-config").textContent();
+  if (!diagnosticConfig?.includes('"subject":"Full JAMB Mock"') || !diagnosticConfig.includes('"count":20') || !diagnosticConfig.includes('"timing":"study"')) throw new Error(`Diagnostic baseline did not launch the expected 20-question untimed mixed set: ${diagnosticConfig}`);
   await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&tab=progress`, { waitUntil: "commit", timeout: 30_000 });
   await page.locator(".progress-signals").waitFor({ state: "visible", timeout: 30_000 });
   const signals = await page.locator(".progress-signals").innerText();

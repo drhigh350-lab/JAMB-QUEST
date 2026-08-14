@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot, selectFullMockSubjectPerformance, summariseSubjectPerformance } from "./db";
+import { buildLedgerSnapshot, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
+import { selectDailyMission } from "../client/src/game/dailyMission";
 
 describe("buildLedgerSnapshot", () => {
   it("hydrates valid persisted learner progress into the UI ledger shape", () => {
@@ -69,5 +70,21 @@ describe("selectFullMockSubjectPerformance", () => {
       { subject: "Full JAMB Mock", questionCount: 180, answerReviewJson: JSON.stringify([{ subject: "Biology", topic: "Ecology", correct: true }, { subject: "Biology", topic: "Ecology", correct: false }, { subject: "Physics", topic: "Forces", correct: true }]) },
     ])).toEqual([{ subject: "Biology", attempts: 2, accuracy: 50 }, { subject: "Physics", attempts: 1, accuracy: 100 }]);
     expect(selectFullMockSubjectPerformance([{ subject: "Biology", questionCount: 40, answerReviewJson: null }])).toEqual([]);
+  });
+});
+
+describe("diagnostic review loop", () => {
+  it("turns persisted diagnostic answer reviews into the next weak-topic mission", () => {
+    const weakTopics = summariseWeakTopicsFromRounds([{
+      answerReviewJson: JSON.stringify([
+        { questionId: "BIO-1", subject: "Biology", topic: "Genetics", correct: false },
+        { questionId: "BIO-2", subject: "Biology", topic: "Genetics", correct: false },
+        { questionId: "BIO-3", subject: "Biology", topic: "Genetics", correct: false },
+        { questionId: "CHE-1", subject: "Chemistry", topic: "Atomic structure", correct: false },
+        { questionId: "ENG-1", subject: "Use of English", topic: "Lexis", correct: true },
+      ]),
+    }]);
+    expect(weakTopics[0]).toMatchObject({ subject: "Biology", topic: "Genetics", misses: 3, accuracy: 0 });
+    expect(selectDailyMission({ weakTopics, fallbackSubject: "Physics", wrongIds: [], recoveryPending: false }).config).toMatchObject({ subject: "Biology", topic: "Genetics", count: 20, timing: "study" });
   });
 });

@@ -19,7 +19,7 @@ export function selectDailyMission({ weakTopics, fallbackSubject, wrongIds, reco
   if (weakness && isSubject(weakness.subject)) {
     return { label: `${weakness.subject}: ${weakness.topic}`, note: `${weakness.accuracy}% accuracy from ${weakness.misses} recorded miss${weakness.misses === 1 ? "" : "es"}. Fix this first with 20 focused questions.`, config: { subject: weakness.subject, mode: "sprint" as const, count: 20, timing: "study", topic: weakness.topic } satisfies RoundConfig };
   }
-  return { label: `${fallbackSubject}: focused foundation`, note: "No weak-topic evidence yet. Build your first 20-question baseline and the system will choose the next priority.", config: { subject: fallbackSubject, mode: "sprint" as const, count: 20, timing: "study" } satisfies RoundConfig };
+  return { label: "4-subject diagnostic baseline", note: "Start with 20 questions—five each from English, Biology, Chemistry, and Physics. Your next mission will target the weakest evidence.", config: { subject: "Full JAMB Mock" as RoundSubject, mode: "sprint" as const, count: 20, timing: "study" } satisfies RoundConfig };
 }
 
 export function summariseRoundAnalytics(rounds: RoundAnalyticsInput[]) {

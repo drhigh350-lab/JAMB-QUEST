@@ -35,6 +35,18 @@ describe("CBT simulator", () => {
     });
   });
 
+  it("builds the diagnostic baseline with five questions from each study subject", () => {
+    const diagnosticPool = subjects.flatMap((subject) => Array.from({ length: 5 }, (_, index) => ({ ...questions.find((question) => question.subject === subject)!, id: `diagnostic-${subject}-${index}` })));
+    const selected = selectQuestions(diagnosticPool, "Full JAMB Mock", "sprint", 20, []);
+    expect(selected).toHaveLength(20);
+    expect(Object.fromEntries(subjects.map((subject) => [subject, selected.filter((question) => question.subject === subject).length]))).toEqual({
+      "Use of English": 5,
+      Biology: 5,
+      Chemistry: 5,
+      Physics: 5,
+    });
+  });
+
   it("uses the standard 180-question allocation for the full JAMB mock", () => {
     const standardPool = subjects.flatMap((subject) => Array.from({ length: subject === "Use of English" ? 60 : 40 }, (_, index) => ({ ...questions.find((question) => question.subject === subject)!, id: `standard-${subject}-${index}` })));
     const selected = selectQuestions(standardPool, "Full JAMB Mock", "cbt", 180, []);

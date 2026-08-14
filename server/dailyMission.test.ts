@@ -7,6 +7,11 @@ describe("daily study mission", () => {
     expect(recovery.config).toMatchObject({ subject: "Full JAMB Mock", mode: "review", count: 2, questionIds: ["BIO-1", "CHE-2"], recoveryOrigin: "missed-questions" });
   });
 
+  it("uses a four-subject diagnostic only when no recovery or weak-topic evidence exists", () => {
+    const diagnostic = selectDailyMission({ weakTopics: [], fallbackSubject: "Biology", wrongIds: [], recoveryPending: false });
+    expect(diagnostic).toMatchObject({ label: "4-subject diagnostic baseline", config: { subject: "Full JAMB Mock", mode: "sprint", count: 20, timing: "study" } });
+  });
+
   it("assigns a 20-question mission to the weakest available topic and calculates concise round analytics", () => {
     const mission = selectDailyMission({ weakTopics: [{ subject: "Chemistry", topic: "Stoichiometry", misses: 3, accuracy: 40 }], fallbackSubject: "Biology", wrongIds: [], recoveryPending: false });
     expect(mission.config).toMatchObject({ subject: "Chemistry", mode: "sprint", count: 20, topic: "Stoichiometry" });

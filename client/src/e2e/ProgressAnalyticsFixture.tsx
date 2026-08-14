@@ -7,6 +7,7 @@ export default function ProgressAnalyticsFixture() {
   const [launchedConfig, setLaunchedConfig] = useState<string>("");
   const scenario = new URLSearchParams(window.location.search).get("paceScenario");
   const fullMock = new URLSearchParams(window.location.search).get("fullMock") === "1";
+  const diagnostic = new URLSearchParams(window.location.search).get("diagnostic") === "1";
   const isSlowAccurate = scenario === "slow-accurate";
   const isFastInaccurate = scenario === "fast-inaccurate";
   const totalAnswered = (isSlowAccurate || isFastInaccurate) ? 40 : 80;
@@ -24,7 +25,7 @@ export default function ProgressAnalyticsFixture() {
   return <><Home
     loading={false}
     loadError={null}
-    progress={{ totalAnswered, totalCorrect, bestScore: 3200, lastScore: 2800, roundsPlayed: 3, wrongIds: ["BIO-001"], subjectBest: { Biology: 3200, Chemistry: 2700, Physics: 2500, "Use of English": 3000 } }}
+    progress={{ totalAnswered: diagnostic ? 0 : totalAnswered, totalCorrect: diagnostic ? 0 : totalCorrect, bestScore: 3200, lastScore: 2800, roundsPlayed: diagnostic ? 0 : 3, wrongIds: diagnostic ? [] : ["BIO-001"], subjectBest: { Biology: 3200, Chemistry: 2700, Physics: 2500, "Use of English": 3000 } }}
     canReview
     onRetryLoad={() => undefined}
     onStart={(config) => setLaunchedConfig(JSON.stringify(config))}
@@ -35,7 +36,7 @@ export default function ProgressAnalyticsFixture() {
     comeback={{ dailyMinimum: 10, currentStreak: 3, longestStreak: 5, comebackXp: 450, level: 3, recoveryPending: false, consistencyScore: 64, today: { dateKey: "2026-08-13", questionsAnswered: 20, correctCount: 14, completedMinimum: true, xpEarned: 210 }, activity: [], badges: ["first-step"] }}
     reminder={{ enabled: false, reminderTime: "19:00", pushEnabled: false }}
     examHistory={examHistory}
-    weakTopics={[{ topic: "Genetics", subject: "Biology", misses: 4, attempts: 6, accuracy: 33 }, { topic: "Stoichiometry", subject: "Chemistry", misses: 3, attempts: 5, accuracy: 40 }]}
+    weakTopics={diagnostic ? [] : [{ topic: "Genetics", subject: "Biology", misses: 4, attempts: 6, accuracy: 33 }, { topic: "Stoichiometry", subject: "Chemistry", misses: 3, attempts: 5, accuracy: 40 }]}
     subjectPerformance={[{ subject: "Biology", attempts: 25, accuracy: 72 }, { subject: "Chemistry", attempts: 20, accuracy: 64 }]}
     fullMockSubjectPerformance={fullMock ? [{ subject: "Use of English", attempts: 60, accuracy: 80 }, { subject: "Biology", attempts: 40, accuracy: 75 }, { subject: "Chemistry", attempts: 40, accuracy: 70 }, { subject: "Physics", attempts: 40, accuracy: 95 }] : []}
     bookmarks={[{ questionId: "BIO-001", subject: "Biology", topic: "Genetics", createdAt: now }, { questionId: "CHE-010", subject: "Chemistry", topic: "Stoichiometry", createdAt: new Date("2026-08-12T19:00:00.000Z") }]}

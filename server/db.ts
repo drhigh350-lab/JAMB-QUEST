@@ -197,6 +197,18 @@ function parseAnswerReview(raw: string | null): Array<{ questionId: string | nul
   }
 }
 
+export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: string | null }>) {
+  const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
+  rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
+    const key = `${answer.subject ?? ""}\u0000${answer.topic}`;
+    const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
+    current.attempts += 1;
+    if (!answer.correct) current.misses += 1;
+    weakTopicMap.set(key, current);
+  });
+  return Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+}
+
 export function buildExamComparison(
   rounds: Array<{ id: number; mode: string; questionCount: number; correctCount: number; durationSeconds: number; flaggedCount: number; completedAt: Date }>,
   weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>,
@@ -307,15 +319,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
   const answerReviews = rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson));
-  const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
-  answerReviews.forEach((answer) => {
-    const key = `${answer.subject ?? ""}\u0000${answer.topic}`;
-    const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
-    current.attempts += 1;
-    if (!answer.correct) current.misses += 1;
-    weakTopicMap.set(key, current);
-  });
-  const weakTopics = Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+  const weakTopics = summariseWeakTopicsFromRounds(rounds);
   const subjectPerformance = summariseSubjectPerformance(answerReviews);
   const fullMockSubjectPerformance = selectFullMockSubjectPerformance(rounds);
   const recentRounds = rounds.reverse().map((round) => {
