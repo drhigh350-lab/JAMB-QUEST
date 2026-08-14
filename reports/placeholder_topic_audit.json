@@ -1,8 +1,8 @@
 {
   "placeholderTopic": "To be tagged during syllabus mapping",
-  "total": 394,
+  "total": 165,
   "classifiedCount": 0,
-  "unresolvedCount": 394,
+  "unresolvedCount": 165,
   "bySubject": {
     "Use of English": {
       "classified": 0,
@@ -11,278 +11,26 @@
     },
     "Biology": {
       "classified": 0,
-      "unresolved": 280,
+      "unresolved": 121,
       "topics": {}
     },
     "Chemistry": {
       "classified": 0,
-      "unresolved": 98,
+      "unresolved": 43,
       "topics": {}
     },
     "Physics": {
       "classified": 0,
-      "unresolved": 16,
+      "unresolved": 1,
       "topics": {}
     }
   },
   "classified": [],
   "unresolved": [
     {
-      "id": 30002,
-      "subject": "Biology",
-      "questionText": "An onion bulb is best classified as a(n):",
-      "topic": null
-    },
-    {
-      "id": 30007,
-      "subject": "Biology",
-      "questionText": "Which of the following correctly arranges the levels of biological organization from the most complex to the simplest?",
-      "topic": null
-    },
-    {
-      "id": 30010,
-      "subject": "Biology",
-      "questionText": "Which of the following organism division pairs is correctly matched?",
-      "topic": null
-    },
-    {
-      "id": 30012,
-      "subject": "Biology",
-      "questionText": "Maize belongs to which of the following groups?",
-      "topic": null
-    },
-    {
-      "id": 30020,
-      "subject": "Biology",
-      "questionText": "An animal possesses scales, teeth, nares, and a backbone. The animal is most likely a:",
-      "topic": null
-    },
-    {
-      "id": 30024,
-      "subject": "Biology",
-      "questionText": "An enzyme that functions optimally in an acidic medium in the mammalian digestive system is:",
-      "topic": null
-    },
-    {
-      "id": 30028,
-      "subject": "Biology",
-      "questionText": "Which of the following nitrogenous wastes requires the greatest volume of water for its elimination?",
-      "topic": null
-    },
-    {
-      "id": 30029,
-      "subject": "Biology",
-      "questionText": "In humans, fertilization normally occurs in the:",
-      "topic": null
-    },
-    {
-      "id": 30034,
-      "subject": "Biology",
-      "questionText": "The structure in the mammalian eye responsible for focusing light rays sharply onto the retina by changing its curvature is the:",
-      "topic": null
-    },
-    {
-      "id": 30037,
-      "subject": "Biology",
-      "questionText": "The type of germination where the cotyledons are pushed above the ground surface due to rapid elongation of the hypocotyl is:",
-      "topic": null
-    },
-    {
-      "id": 30039,
-      "subject": "Biology",
-      "questionText": "The joint located between the atlas and axis vertebrae, which allows for the turning movement of the head, is a:",
-      "topic": null
-    },
-    {
-      "id": 30043,
-      "subject": "Biology",
-      "questionText": "The function of the Malpighian tubules in insects is:",
-      "topic": null
-    },
-    {
-      "id": 30045,
-      "subject": "Biology",
-      "questionText": "The division of labor among individuals in a termite colony is an example of:",
-      "topic": null
-    },
-    {
-      "id": 30047,
-      "subject": "Biology",
-      "questionText": "Which organ removes the largest amount of excess water from the body?",
-      "topic": null
-    },
-    {
-      "id": 30049,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is not sexually transmitted?",
-      "topic": null
-    },
-    {
-      "id": 30052,
-      "subject": "Biology",
-      "questionText": "The longest bone in the human body is the:",
-      "topic": null
-    },
-    {
-      "id": 30055,
-      "subject": "Biology",
-      "questionText": "Which of the following structures is not a skeletal material?",
-      "topic": null
-    },
-    {
-      "id": 30056,
-      "subject": "Biology",
-      "questionText": "The deficiency of vitamin D leads to:",
-      "topic": null
-    },
-    {
-      "id": 30058,
-      "subject": "Biology",
-      "questionText": "Which of the following is not part of the mammalian male reproductive system?",
-      "topic": null
-    },
-    {
-      "id": 30060,
-      "subject": "Biology",
-      "questionText": "The deficiency of vitamin B₁ leads to:",
-      "topic": null
-    },
-    {
-      "id": 30063,
-      "subject": "Biology",
-      "questionText": "Which of the following bones is correctly matched with the part of the human skeleton to which it belongs?",
-      "topic": null
-    },
-    {
-      "id": 30069,
-      "subject": "Biology",
-      "questionText": "The instrument used to determine the relative humidity of an atmosphere in ecological studies is a:",
-      "topic": null
-    },
-    {
-      "id": 30072,
-      "subject": "Biology",
-      "questionText": "The type of soil that holds the least amount of water and has the highest rate of drainage is:",
-      "topic": null
-    },
-    {
-      "id": 30080,
-      "subject": "Biology",
-      "questionText": "The structural adaptation that allows fish to swim efficiently by reducing friction against water is:",
-      "topic": null
-    },
-    {
-      "id": 30081,
-      "subject": "Biology",
-      "questionText": "Biological control of pests involves:",
-      "topic": null
-    },
-    {
-      "id": 30083,
-      "subject": "Biology",
-      "questionText": "An ecosystem characterized by low rainfall, cold temperatures, and dwarf woody vegetation is the:",
-      "topic": null
-    },
-    {
-      "id": 30087,
-      "subject": "Biology",
-      "questionText": "In the mammalian skeleton, the thoracic vertebrae are distinguished by the presence of:",
-      "topic": null
-    },
-    {
-      "id": 30088,
-      "subject": "Biology",
-      "questionText": "A disease caused by a protozoan parasite transmitted by the bite of an infected female Anopheles mosquito is:",
-      "topic": null
-    },
-    {
-      "id": 30090,
-      "subject": "Biology",
-      "questionText": "The respiratory organ used by an adult toad for gaseous exchange when submerged in water is the:",
-      "topic": null
-    },
-    {
-      "id": 30091,
-      "subject": "Biology",
-      "questionText": "Which of the following animals has homodont dentition?",
-      "topic": null
-    },
-    {
-      "id": 30092,
-      "subject": "Biology",
-      "questionText": "Fibrinogen and prothrombin play important roles in:",
-      "topic": null
-    },
-    {
-      "id": 30093,
-      "subject": "Biology",
-      "questionText": "The pathogen that causes smallpox belongs to which group?",
-      "topic": null
-    },
-    {
-      "id": 30095,
-      "subject": "Biology",
-      "questionText": "The main site for the absorption of digested food in the mammalian alimentary canal is the:",
-      "topic": null
-    },
-    {
       "id": 30098,
       "subject": "Biology",
       "questionText": "A tissue is composed of a group of:",
-      "topic": null
-    },
-    {
-      "id": 30099,
-      "subject": "Biology",
-      "questionText": "Which of the following is an example of a vertebrate?",
-      "topic": null
-    },
-    {
-      "id": 30100,
-      "subject": "Biology",
-      "questionText": "Which of the following glands secretes insulin?",
-      "topic": null
-    },
-    {
-      "id": 30102,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is caused by a virus?",
-      "topic": null
-    },
-    {
-      "id": 30104,
-      "subject": "Biology",
-      "questionText": "The cilia in Paramecium are used for:",
-      "topic": null
-    },
-    {
-      "id": 30105,
-      "subject": "Biology",
-      "questionText": "The structure that prevents food from entering the trachea during swallowing is the:",
-      "topic": null
-    },
-    {
-      "id": 30108,
-      "subject": "Biology",
-      "questionText": "Which of the following is another name for platelets?",
-      "topic": null
-    },
-    {
-      "id": 30111,
-      "subject": "Biology",
-      "questionText": "The population of different organisms that exist together in a habitat is called:",
-      "topic": null
-    },
-    {
-      "id": 30112,
-      "subject": "Biology",
-      "questionText": "An example of a flightless bird belonging to the class Aves is the:",
-      "topic": null
-    },
-    {
-      "id": 30113,
-      "subject": "Biology",
-      "questionText": "Which of the following glands is known as the \"master gland\" of the endocrine system?",
       "topic": null
     },
     {
@@ -292,39 +40,9 @@
       "topic": null
     },
     {
-      "id": 30115,
-      "subject": "Biology",
-      "questionText": "Which of the following is a characteristic feature of mammals?",
-      "topic": null
-    },
-    {
       "id": 30117,
       "subject": "Biology",
       "questionText": "Which type of skeleton is most appropriate for a cockroach?",
-      "topic": null
-    },
-    {
-      "id": 30119,
-      "subject": "Biology",
-      "questionText": "The specialized respiratory structures used for gaseous exchange in adult insects are:",
-      "topic": null
-    },
-    {
-      "id": 30120,
-      "subject": "Biology",
-      "questionText": "An example of an aquatic ecosystem food producer is:",
-      "topic": null
-    },
-    {
-      "id": 30124,
-      "subject": "Biology",
-      "questionText": "Which type of joint is found at the human knee and elbow?",
-      "topic": null
-    },
-    {
-      "id": 30125,
-      "subject": "Biology",
-      "questionText": "Organisms that feed directly on primary producers in an ecosystem are classified as:",
       "topic": null
     },
     {
@@ -334,27 +52,9 @@
       "topic": null
     },
     {
-      "id": 30132,
-      "subject": "Biology",
-      "questionText": "In an ecosystem, energy transfer between successive trophic levels decreases primarily because energy is lost as:",
-      "topic": null
-    },
-    {
-      "id": 30133,
-      "subject": "Biology",
-      "questionText": "Which of the following organisms exhibits a saprophytic mode of nutrition?",
-      "topic": null
-    },
-    {
       "id": 30134,
       "subject": "Biology",
       "questionText": "The function of lenticels in woody stems is mainly to:",
-      "topic": null
-    },
-    {
-      "id": 30135,
-      "subject": "Biology",
-      "questionText": "Which enzyme in the mammalian pancreatic juice breaks down emulsified fats into fatty acids and glycerol?",
       "topic": null
     },
     {
@@ -370,27 +70,9 @@
       "topic": null
     },
     {
-      "id": 30142,
-      "subject": "Biology",
-      "questionText": "The role of decomposers in an ecosystem is to:",
-      "topic": null
-    },
-    {
-      "id": 30144,
-      "subject": "Biology",
-      "questionText": "Nitrogen gas is returned to the atmosphere from nitrates in the soil by the action of:",
-      "topic": null
-    },
-    {
       "id": 30147,
       "subject": "Biology",
       "questionText": "The hepatic portal vein is unique because it:",
-      "topic": null
-    },
-    {
-      "id": 30151,
-      "subject": "Biology",
-      "questionText": "In humans, fertilization usually occurs in the:",
       "topic": null
     },
     {
@@ -412,45 +94,15 @@
       "topic": null
     },
     {
-      "id": 30159,
-      "subject": "Biology",
-      "questionText": "Which instrument is used to determine the turbidity or clarity of water in an aquatic ecosystem?",
-      "topic": null
-    },
-    {
-      "id": 30160,
-      "subject": "Biology",
-      "questionText": "The structure that provides nutrients and oxygen to the developing foetus in mammals is the:",
-      "topic": null
-    },
-    {
       "id": 30161,
       "subject": "Biology",
       "questionText": "Fraternal twins are produced when:",
       "topic": null
     },
     {
-      "id": 30162,
-      "subject": "Biology",
-      "questionText": "Which of the following organisms exhibits internal fertilization?",
-      "topic": null
-    },
-    {
       "id": 30164,
       "subject": "Biology",
       "questionText": "Which relationship is an example of commensalism?",
-      "topic": null
-    },
-    {
-      "id": 30167,
-      "subject": "Biology",
-      "questionText": "Which of the following factors is density-dependent in a population?",
-      "topic": null
-    },
-    {
-      "id": 30169,
-      "subject": "Biology",
-      "questionText": "Which of the following best describes gregarious behaviour in animals?",
       "topic": null
     },
     {
@@ -478,51 +130,9 @@
       "topic": null
     },
     {
-      "id": 30175,
-      "subject": "Biology",
-      "questionText": "Which of the following components of soil has the highest water-holding capacity?",
-      "topic": null
-    },
-    {
-      "id": 30179,
-      "subject": "Biology",
-      "questionText": "An example of a continuous variation in human populations is:",
-      "topic": null
-    },
-    {
       "id": 30180,
       "subject": "Biology",
       "questionText": "In the carbon cycle, carbon is removed from the atmosphere primarily by the process of:",
-      "topic": null
-    },
-    {
-      "id": 30181,
-      "subject": "Biology",
-      "questionText": "The structural adaptation of Amoeba for ingestion of food particles is the formation of:",
-      "topic": null
-    },
-    {
-      "id": 30182,
-      "subject": "Biology",
-      "questionText": "Which of the following mammalian vertebrae possesses transverse foramina for the passage of vertebral arteries?",
-      "topic": null
-    },
-    {
-      "id": 30183,
-      "subject": "Biology",
-      "questionText": "A disease transmitted by the bite of an infected tsetse fly is:",
-      "topic": null
-    },
-    {
-      "id": 30185,
-      "subject": "Biology",
-      "questionText": "Which part of the mammalian eye regulates the amount of light entering through the pupil?",
-      "topic": null
-    },
-    {
-      "id": 30186,
-      "subject": "Biology",
-      "questionText": "The mode of nutrition in Spirogyra is:",
       "topic": null
     },
     {
@@ -574,27 +184,9 @@
       "topic": null
     },
     {
-      "id": 30207,
-      "subject": "Biology",
-      "questionText": "In the human digestive system, the enzyme pepsin acts on:",
-      "topic": null
-    },
-    {
-      "id": 30209,
-      "subject": "Biology",
-      "questionText": "Which instrument is used to measure the rate of wind speed in a terrestrial ecosystem?",
-      "topic": null
-    },
-    {
       "id": 30210,
       "subject": "Biology",
       "questionText": "The process by which the body maintains a constant internal environment is called:",
-      "topic": null
-    },
-    {
-      "id": 30212,
-      "subject": "Biology",
-      "questionText": "The cervical vertebrae are found in which region of the body?",
       "topic": null
     },
     {
@@ -604,39 +196,9 @@
       "topic": null
     },
     {
-      "id": 30215,
-      "subject": "Biology",
-      "questionText": "Which biome in Nigeria is characterized by tall grasses, scattered fire-resistant trees, and seasonal rainfall?",
-      "topic": null
-    },
-    {
-      "id": 30217,
-      "subject": "Biology",
-      "questionText": "The respiratory organ of an insect consists of a network of tubes called:",
-      "topic": null
-    },
-    {
       "id": 30218,
       "subject": "Biology",
       "questionText": "Which biome is characterized by large herbivores and a few scattered fire- resistant trees?",
-      "topic": null
-    },
-    {
-      "id": 30219,
-      "subject": "Biology",
-      "questionText": "What type of joint is formed between the femur and tibia?",
-      "topic": null
-    },
-    {
-      "id": 30220,
-      "subject": "Biology",
-      "questionText": "The coloration of the eye is an example of which type of variation?",
-      "topic": null
-    },
-    {
-      "id": 30221,
-      "subject": "Biology",
-      "questionText": "If an ovary is positioned on the receptacle above all other floral parts, it is called a:",
       "topic": null
     },
     {
@@ -652,33 +214,9 @@
       "topic": null
     },
     {
-      "id": 30228,
-      "subject": "Biology",
-      "questionText": "Which of the following organisms is an invertebrate that possesses an exoskeleton made of chitin and jointed appendages?",
-      "topic": null
-    },
-    {
-      "id": 30230,
-      "subject": "Biology",
-      "questionText": "The process of seed germination in which the cotyledons are pushed above the ground surface is known as:",
-      "topic": null
-    },
-    {
       "id": 30232,
       "subject": "Biology",
       "questionText": "The movement of a whole organism or its parts in response to a directional stimulus such as light or chemicals is termed:",
-      "topic": null
-    },
-    {
-      "id": 30234,
-      "subject": "Biology",
-      "questionText": "Which structural adaptation increases the surface area for nutrient absorption in the mammalian small intestine?",
-      "topic": null
-    },
-    {
-      "id": 30237,
-      "subject": "Biology",
-      "questionText": "Which human endocrine gland secretes thyroxine to regulate the basal metabolic rate?",
       "topic": null
     },
     {
@@ -688,39 +226,9 @@
       "topic": null
     },
     {
-      "id": 30240,
-      "subject": "Biology",
-      "questionText": "Which of the following structural features distinguishes Class Mammalia from all other vertebrate classes?",
-      "topic": null
-    },
-    {
-      "id": 30241,
-      "subject": "Biology",
-      "questionText": "The type of nutrition exhibited by Spirogyra is:",
-      "topic": null
-    },
-    {
       "id": 30242,
       "subject": "Biology",
       "questionText": "Reading the verdict of a case by a magistrate is an example of:",
-      "topic": null
-    },
-    {
-      "id": 30243,
-      "subject": "Biology",
-      "questionText": "Kwashiorkor is a nutritional deficiency disease caused by:",
-      "topic": null
-    },
-    {
-      "id": 30245,
-      "subject": "Biology",
-      "questionText": "During gaseous exchange in bony fish, the main function of the gill rakers is:",
-      "topic": null
-    },
-    {
-      "id": 30246,
-      "subject": "Biology",
-      "questionText": "An example of a sesamoid bone developed within a tendon in the human skeleton is the:",
       "topic": null
     },
     {
@@ -736,18 +244,6 @@
       "topic": null
     },
     {
-      "id": 30253,
-      "subject": "Biology",
-      "questionText": "In an umbrella-shaped mushroom, the reproductive spores are produced within the:",
-      "topic": null
-    },
-    {
-      "id": 30254,
-      "subject": "Biology",
-      "questionText": "In the male reproductive system, seminal fluid semen is produced by the combined secretions of the prostate gland, Cowper's gland, and the:",
-      "topic": null
-    },
-    {
       "id": 30255,
       "subject": "Biology",
       "questionText": "Which of the following is considered the basic physical and functional unit of heredity?",
@@ -760,51 +256,9 @@
       "topic": null
     },
     {
-      "id": 30261,
-      "subject": "Biology",
-      "questionText": "Fertilization in frogs takes place externally in water and is classified as:",
-      "topic": null
-    },
-    {
-      "id": 30263,
-      "subject": "Biology",
-      "questionText": "Which of the following organisms exhibits autotrophic nutrition?",
-      "topic": null
-    },
-    {
-      "id": 30270,
-      "subject": "Biology",
-      "questionText": "Which enzyme in the human digestive system breaks down fats into fatty acids and glycerol?",
-      "topic": null
-    },
-    {
-      "id": 30271,
-      "subject": "Biology",
-      "questionText": "The structural adaptation in birds that aids in crushing tough seeds and grains is the presence of a:",
-      "topic": null
-    },
-    {
-      "id": 30274,
-      "subject": "Biology",
-      "questionText": "The movement of dissolved organic solutes from source leaves to sink tissues through the phloem is termed:",
-      "topic": null
-    },
-    {
       "id": 30276,
       "subject": "Biology",
       "questionText": "The division of the skeleton into an axial skeleton and an appendicular skeleton is a feature of:",
-      "topic": null
-    },
-    {
-      "id": 30277,
-      "subject": "Biology",
-      "questionText": "Which bone forms part of the axial skeleton in humans?",
-      "topic": null
-    },
-    {
-      "id": 30278,
-      "subject": "Biology",
-      "questionText": "The joint between the atlas and axis vertebrae allowing head rotation is a:",
       "topic": null
     },
     {
@@ -814,57 +268,15 @@
       "topic": null
     },
     {
-      "id": 30285,
-      "subject": "Biology",
-      "questionText": "An ecological pyramid that can never be inverted in a healthy ecosystem is the pyramid of:",
-      "topic": null
-    },
-    {
       "id": 30287,
       "subject": "Biology",
       "questionText": "The vector responsible for transmitting Trypanosoma, the causative organism of African sleeping sickness, is the:",
       "topic": null
     },
     {
-      "id": 30288,
-      "subject": "Biology",
-      "questionText": "The fluid-filled membrane that cushions and protects the mammalian embryo against mechanical shock is the:",
-      "topic": null
-    },
-    {
-      "id": 30293,
-      "subject": "Biology",
-      "questionText": "Deficiency of Vitamin D in growing children leads to defective bone mineralization known as:",
-      "topic": null
-    },
-    {
       "id": 30298,
       "subject": "Biology",
       "questionText": "The involuntary, rapid automatic response to a stimulus without conscious thought is a:",
-      "topic": null
-    },
-    {
-      "id": 30300,
-      "subject": "Biology",
-      "questionText": "Which biome in Nigeria is characterized by high annual rainfall, dense multi- layered canopy, and rich biodiversity?",
-      "topic": null
-    },
-    {
-      "id": 30301,
-      "subject": "Biology",
-      "questionText": "The enzyme present in saliva that initiates the chemical digestion of starches into maltose is:",
-      "topic": null
-    },
-    {
-      "id": 30303,
-      "subject": "Biology",
-      "questionText": "In humans, fertilization typically occurs in which region of the female reproductive tract?",
-      "topic": null
-    },
-    {
-      "id": 30304,
-      "subject": "Biology",
-      "questionText": "Nitrogen gas in the atmosphere is converted into nitrates in the soil during lightning discharges via:",
       "topic": null
     },
     {
@@ -886,18 +298,6 @@
       "topic": null
     },
     {
-      "id": 30312,
-      "subject": "Biology",
-      "questionText": "The joint present at the elbow and knee allowing movement in a single plane is a:",
-      "topic": null
-    },
-    {
-      "id": 30314,
-      "subject": "Biology",
-      "questionText": "The disease caused by the flagellated protozoan Trypanosoma and transmitted by tsetse flies is:",
-      "topic": null
-    },
-    {
       "id": 30322,
       "subject": "Biology",
       "questionText": "What type of fruit is a mango or peach, characterized by a fleshy mesocarp and a stony endocarp?",
@@ -910,27 +310,9 @@
       "topic": null
     },
     {
-      "id": 30326,
-      "subject": "Biology",
-      "questionText": "The backbone of mammals is composed of a series of small, ring-like bones called:",
-      "topic": null
-    },
-    {
       "id": 30329,
       "subject": "Biology",
       "questionText": "Color blindness and haemophilia are inherited as:",
-      "topic": null
-    },
-    {
-      "id": 30334,
-      "subject": "Biology",
-      "questionText": "Germination in which the cotyledons remain below the soil surface, such as in maize, is:",
-      "topic": null
-    },
-    {
-      "id": 30337,
-      "subject": "Biology",
-      "questionText": "In terrestrial mammals, excessive water loss through sweating causes the pituitary gland to release more:",
       "topic": null
     },
     {
@@ -940,39 +322,15 @@
       "topic": null
     },
     {
-      "id": 30343,
-      "subject": "Biology",
-      "questionText": "The structure that prevents food from entering the trachea during swallowing in mammals is the:",
-      "topic": null
-    },
-    {
       "id": 30345,
       "subject": "Biology",
       "questionText": "In angiosperms, the male gametophyte is represented by the:",
       "topic": null
     },
     {
-      "id": 30346,
-      "subject": "Biology",
-      "questionText": "An enzyme that functions optimally in a highly acidic environment inside the human stomach is:",
-      "topic": null
-    },
-    {
-      "id": 30348,
-      "subject": "Biology",
-      "questionText": "Which human endocrine gland produces calcitonin and regulates basal metabolic rate?",
-      "topic": null
-    },
-    {
       "id": 30349,
       "subject": "Biology",
       "questionText": "The structural feature of a tapeworm that enables it to anchor securely to the host's intestinal wall is the:",
-      "topic": null
-    },
-    {
-      "id": 30353,
-      "subject": "Biology",
-      "questionText": "What structural unit of the skeletal system protects the spinal cord in vertebrates?",
       "topic": null
     },
     {
@@ -988,12 +346,6 @@
       "topic": null
     },
     {
-      "id": 30360,
-      "subject": "Biology",
-      "questionText": "Human deficiency of Vitamin A leads to impairment of vision known as:",
-      "topic": null
-    },
-    {
       "id": 30361,
       "subject": "Biology",
       "questionText": "The functional gap across which nerve impulses pass from one neuron to another using neurotransmitters is the:",
@@ -1006,57 +358,15 @@
       "topic": null
     },
     {
-      "id": 30365,
-      "subject": "Biology",
-      "questionText": "Which ecological instrument is used to determine water transparency and turbidity in an aquatic habitat?",
-      "topic": null
-    },
-    {
-      "id": 30367,
-      "subject": "Biology",
-      "questionText": "The bone that articulates with the scapula at the shoulder joint and the radius and ulna at the elbow is the:",
-      "topic": null
-    },
-    {
-      "id": 30369,
-      "subject": "Biology",
-      "questionText": "What type of fruit develops from a single ovary without fertilization occurring?",
-      "topic": null
-    },
-    {
-      "id": 30372,
-      "subject": "Biology",
-      "questionText": "An example of a flightless bird with a flat sternum lacking a keel is the:",
-      "topic": null
-    },
-    {
       "id": 30374,
       "subject": "Biology",
       "questionText": "Which stage of complete metamorphosis in insects is non-feeding and quiescent while internal restructuring occurs?",
       "topic": null
     },
     {
-      "id": 30375,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is vector-borne and caused by a protozoan parasite?",
-      "topic": null
-    },
-    {
       "id": 30376,
       "subject": "Biology",
       "questionText": "The movement of water molecules across a selectively permeable membrane from a region of higher water potential to lower water potential is:",
-      "topic": null
-    },
-    {
-      "id": 30378,
-      "subject": "Biology",
-      "questionText": "In the human digestive tract, emulsification of fats is carried out by:",
-      "topic": null
-    },
-    {
-      "id": 30382,
-      "subject": "Biology",
-      "questionText": "The ultimate source of energy driving all terrestrial food webs and ecosystems is:",
       "topic": null
     },
     {
@@ -1072,27 +382,9 @@
       "topic": null
     },
     {
-      "id": 30387,
-      "subject": "Biology",
-      "questionText": "A major structural adaptation of tapeworms Taenia solium to a parasitic lifestyle is the:",
-      "topic": null
-    },
-    {
       "id": 30390,
       "subject": "Biology",
       "questionText": "The primary site of water reabsorption in the human nephron under the influence of ADH is the:",
-      "topic": null
-    },
-    {
-      "id": 30391,
-      "subject": "Biology",
-      "questionText": "Which enzyme in pancreatic juice breaks down emulsified fats into fatty acids and glycerol?",
-      "topic": null
-    },
-    {
-      "id": 30395,
-      "subject": "Biology",
-      "questionText": "During mammalian exhalation, the diaphragm muscle relaxes and becomes:",
       "topic": null
     },
     {
@@ -1114,57 +406,9 @@
       "topic": null
     },
     {
-      "id": 30402,
-      "subject": "Biology",
-      "questionText": "Respiratory organs found in terrestrial arachnids such as scorpions and spiders are called:",
-      "topic": null
-    },
-    {
-      "id": 30403,
-      "subject": "Biology",
-      "questionText": "Deficiency of Vitamin C in human diet causes breakdown of collagen leading to bleeding gums, a condition called:",
-      "topic": null
-    },
-    {
-      "id": 30405,
-      "subject": "Biology",
-      "questionText": "An aquatic organism that attaches itself to submerged substrates like rocks and cannot move freely is described as:",
-      "topic": null
-    },
-    {
-      "id": 30409,
-      "subject": "Biology",
-      "questionText": "In ecosystem dynamics, organisms that break down complex organic waste into inorganic nutrients returned to soil are:",
-      "topic": null
-    },
-    {
-      "id": 30414,
-      "subject": "Biology",
-      "questionText": "The main function of the placenta during mammalian embryonic development is:",
-      "topic": null
-    },
-    {
-      "id": 30415,
-      "subject": "Biology",
-      "questionText": "An example of an air-borne viral disease affecting humans is:",
-      "topic": null
-    },
-    {
-      "id": 30416,
-      "subject": "Biology",
-      "questionText": "Which joint type allows multi-directional movement, rotational and operational, such as at the shoulder and hip?",
-      "topic": null
-    },
-    {
       "id": 30418,
       "subject": "Biology",
       "questionText": "What type of fruit is tomato or guava, characterized by a completely fleshy pericarp enclosing multiple seeds?",
-      "topic": null
-    },
-    {
-      "id": 30423,
-      "subject": "Biology",
-      "questionText": "What mode of nutrition is exhibited by Euglena, which acts as an autotroph in sunlight and a heterotroph in darkness?",
       "topic": null
     },
     {
@@ -1192,12 +436,6 @@
       "topic": null
     },
     {
-      "id": 30434,
-      "subject": "Biology",
-      "questionText": "The formation of new species from an existing population is called:",
-      "topic": null
-    },
-    {
       "id": 30436,
       "subject": "Biology",
       "questionText": "Which of the following is a vestigial organ in humans?",
@@ -1210,21 +448,9 @@
       "topic": null
     },
     {
-      "id": 30442,
-      "subject": "Biology",
-      "questionText": "Which of the following is NOT a skin disease?",
-      "topic": null
-    },
-    {
       "id": 30443,
       "subject": "Biology",
       "questionText": "What is meant by the term cold chain?",
-      "topic": null
-    },
-    {
-      "id": 30444,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is prevented by the BCG vaccine?",
       "topic": null
     },
     {
@@ -1234,27 +460,9 @@
       "topic": null
     },
     {
-      "id": 30448,
-      "subject": "Biology",
-      "questionText": "The term used to describe the total structural role and functional position of a species within its habitat is its:",
-      "topic": null
-    },
-    {
-      "id": 30449,
-      "subject": "Biology",
-      "questionText": "What structural adaptation prevents the mammalian trachea from collapsing during inspiration?",
-      "topic": null
-    },
-    {
       "id": 30455,
       "subject": "Biology",
       "questionText": "The adaptive radiation of Darwin’s finches on the Galapagos Islands is a classic example of:",
-      "topic": null
-    },
-    {
-      "id": 30459,
-      "subject": "Biology",
-      "questionText": "The joint between the atlas and axis vertebrae that allows the turning movement of the head is a:",
       "topic": null
     },
     {
@@ -1273,30 +481,6 @@
       "id": 30471,
       "subject": "Biology",
       "questionText": "An organism that produces its own organic food using chemical energy derived from inorganic oxidation reactions is a:",
-      "topic": null
-    },
-    {
-      "id": 30472,
-      "subject": "Biology",
-      "questionText": "In an aquatic ecosystem, organisms that swim actively and independently against water currents are known as:",
-      "topic": null
-    },
-    {
-      "id": 30473,
-      "subject": "Biology",
-      "questionText": "Which human mineral deficiency leads to thyroid enlargement known as goitre?",
-      "topic": null
-    },
-    {
-      "id": 30475,
-      "subject": "Biology",
-      "questionText": "Which of the following organisms obtains nutrients by secreting digestive enzymes onto dead organic matter and absorbing the soluble products?",
-      "topic": null
-    },
-    {
-      "id": 30476,
-      "subject": "Biology",
-      "questionText": "Which of the following ecological instruments is used to measure atmospheric humidity?",
       "topic": null
     },
     {
@@ -1330,21 +514,9 @@
       "topic": null
     },
     {
-      "id": 90013,
-      "subject": "Biology",
-      "questionText": "An example of a fungal disease is? An example of a fungal disease is? Options:",
-      "topic": null
-    },
-    {
       "id": 90014,
       "subject": "Biology",
       "questionText": "Who postulated the theory of acquired traits? Who postulated the theory of acquired traits? Options:",
-      "topic": null
-    },
-    {
-      "id": 90017,
-      "subject": "Biology",
-      "questionText": "The apex predator in an aquatic habitat is? The apex predator in an aquatic habitat is? Options:",
       "topic": null
     },
     {
@@ -1390,12 +562,6 @@
       "topic": null
     },
     {
-      "id": 90034,
-      "subject": "Biology",
-      "questionText": "Pepsin is secreted by the? Pepsin is secreted by the? Options:",
-      "topic": null
-    },
-    {
       "id": 90035,
       "subject": "Biology",
       "questionText": "The lateral line in a tadpole is used for? The lateral line in a tadpole is used for? Options:",
@@ -1432,33 +598,9 @@
       "topic": null
     },
     {
-      "id": 90049,
-      "subject": "Biology",
-      "questionText": "The population of different organisms that exist together in a habitat is called a:",
-      "topic": null
-    },
-    {
-      "id": 90051,
-      "subject": "Biology",
-      "questionText": "Which organ removes the largest amount of excess water from the body?",
-      "topic": null
-    },
-    {
       "id": 90052,
       "subject": "Biology",
       "questionText": "A group of organisms of the same kind inhabiting the same environment is called a:",
-      "topic": null
-    },
-    {
-      "id": 90053,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is not sexually transmitted?",
-      "topic": null
-    },
-    {
-      "id": 90054,
-      "subject": "Biology",
-      "questionText": "One of the following diseases is caused by a fungus:",
       "topic": null
     },
     {
@@ -1474,21 +616,9 @@
       "topic": null
     },
     {
-      "id": 90060,
-      "subject": "Biology",
-      "questionText": "The deficiency of vitamin D leads to:",
-      "topic": null
-    },
-    {
       "id": 90065,
       "subject": "Biology",
       "questionText": "Angiosperms belong to the class:",
-      "topic": null
-    },
-    {
-      "id": 90067,
-      "subject": "Biology",
-      "questionText": "Which of the following is not part of the mammalian male reproductive organ?",
       "topic": null
     },
     {
@@ -1507,12 +637,6 @@
       "id": 90078,
       "subject": "Biology",
       "questionText": "The scientific study of life is called:",
-      "topic": null
-    },
-    {
-      "id": 90080,
-      "subject": "Biology",
-      "questionText": "One of the following exists as a colony:",
       "topic": null
     },
     {
@@ -1540,27 +664,9 @@
       "topic": null
     },
     {
-      "id": 90092,
-      "subject": "Biology",
-      "questionText": "Another name for a fertilized egg is a:",
-      "topic": null
-    },
-    {
-      "id": 90095,
-      "subject": "Biology",
-      "questionText": "Which of the following statements is NOT true of mammalian erythrocytes?",
-      "topic": null
-    },
-    {
       "id": 90098,
       "subject": "Biology",
       "questionText": "Groundnut is not really a 'nut' in the biological sense because:",
-      "topic": null
-    },
-    {
-      "id": 90100,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases is NOT caused by a virus?",
       "topic": null
     },
     {
@@ -1576,12 +682,6 @@
       "topic": null
     },
     {
-      "id": 90106,
-      "subject": "Biology",
-      "questionText": "Which of the following diseases could be exclusively associated with a river basin?",
-      "topic": null
-    },
-    {
       "id": 90107,
       "subject": "Biology",
       "questionText": "Which of the following will NOT allow osmosis to take place?",
@@ -1591,12 +691,6 @@
       "id": 90109,
       "subject": "Biology",
       "questionText": "Which of the following instruments is used for determining turbidity of water?",
-      "topic": null
-    },
-    {
-      "id": 90111,
-      "subject": "Biology",
-      "questionText": "Urea is produced in the:",
       "topic": null
     },
     {
@@ -1612,45 +706,9 @@
       "topic": null
     },
     {
-      "id": 90115,
-      "subject": "Biology",
-      "questionText": "Which of the following invertebrates does NOT possess antennae?",
-      "topic": null
-    },
-    {
-      "id": 90116,
-      "subject": "Biology",
-      "questionText": "The mammalian organ through which nourishment and oxygen diffuse into a developing embryo is called the:",
-      "topic": null
-    },
-    {
-      "id": 90117,
-      "subject": "Biology",
-      "questionText": "Which of the following statements is NOT true of enzymes?",
-      "topic": null
-    },
-    {
       "id": 90118,
       "subject": "Biology",
       "questionText": "The dorsal and anal fins of fish are used for:",
-      "topic": null
-    },
-    {
-      "id": 90119,
-      "subject": "Biology",
-      "questionText": "Exoskeletons are NOT found in the:",
-      "topic": null
-    },
-    {
-      "id": 90121,
-      "subject": "Biology",
-      "questionText": "Pepsin is a digestive enzyme which breaks:",
-      "topic": null
-    },
-    {
-      "id": 90123,
-      "subject": "Biology",
-      "questionText": "Underground stems which grow horizontally through the soil are:",
       "topic": null
     },
     {
@@ -1684,21 +742,9 @@
       "topic": null
     },
     {
-      "id": 90130,
-      "subject": "Biology",
-      "questionText": "The axial skeleton of a mammal does not include the bones of the:",
-      "topic": null
-    },
-    {
       "id": 90131,
       "subject": "Biology",
       "questionText": "Erosion can be reduced along a slope by:",
-      "topic": null
-    },
-    {
-      "id": 90138,
-      "subject": "Biology",
-      "questionText": "An animal body that can be cut along its axis in any plane to give two identical parts is said to be:",
       "topic": null
     },
     {
@@ -1708,57 +754,9 @@
       "topic": null
     },
     {
-      "id": 60001,
-      "subject": "Chemistry",
-      "questionText": "H₂S(g) + Cl₂(g) → 2HCl(g) + S(s) — the oxidizing agent is? H₂S(g) + Cl₂(g) → 2HCl(g) + S(s) — the oxidizing agent is? Options:",
-      "topic": null
-    },
-    {
-      "id": 60002,
-      "subject": "Chemistry",
-      "questionText": "N₂ + 3H₂ ⇌ 2NH₃  ΔH = −90KJ — yield of ammonia decreased by? N₂ + 3H₂ ⇌ 2NH₃  ΔH = −90KJ — yield of ammonia decreased by? Options:",
-      "topic": null
-    },
-    {
-      "id": 60004,
-      "subject": "Chemistry",
-      "questionText": "Organic compound giving effervescence with NaHCO₃ is? Organic compound giving effervescence with NaHCO₃ is? Options:",
-      "topic": null
-    },
-    {
       "id": 60007,
       "subject": "Chemistry",
       "questionText": "CH₃CH₂COOC₂H₅ is the product of reaction between? CH₃CH₂COOC₂H₅ is the product of reaction between? Options:",
-      "topic": null
-    },
-    {
-      "id": 60010,
-      "subject": "Chemistry",
-      "questionText": "Residual solids from fractional distillation of petroleum used as? Residual solids from fractional distillation of petroleum used as? Options:",
-      "topic": null
-    },
-    {
-      "id": 60012,
-      "subject": "Chemistry",
-      "questionText": "Reduction of alkanones with LiAlH₄ produces? Reduction of alkanones with LiAlH₄ produces? Options:",
-      "topic": null
-    },
-    {
-      "id": 60015,
-      "subject": "Chemistry",
-      "questionText": "Non-volatile residue from destructive distillation of coal? Non-volatile residue from destructive distillation of coal? Options:",
-      "topic": null
-    },
-    {
-      "id": 60016,
-      "subject": "Chemistry",
-      "questionText": "Gas used as anaesthetic? Gas used as anaesthetic? Options:",
-      "topic": null
-    },
-    {
-      "id": 60026,
-      "subject": "Chemistry",
-      "questionText": "Solution conducting highest electricity? Solution conducting highest electricity? Options:",
       "topic": null
     },
     {
@@ -1768,45 +766,9 @@
       "topic": null
     },
     {
-      "id": 60028,
-      "subject": "Chemistry",
-      "questionText": "A chemical reaction in which enthalpy change is positive is? A chemical reaction in which enthalpy change is positive is? Options:",
-      "topic": null
-    },
-    {
-      "id": 60030,
-      "subject": "Chemistry",
-      "questionText": "Use of tetraethyl lead in petrol reduced because? Use of tetraethyl lead in petrol reduced because? Options:",
-      "topic": null
-    },
-    {
-      "id": 60033,
-      "subject": "Chemistry",
-      "questionText": "Zone of a flame representing incomplete combustion? Zone of a flame representing incomplete combustion? Options:",
-      "topic": null
-    },
-    {
       "id": 60036,
       "subject": "Chemistry",
       "questionText": "Major effect of oil pollution in coastal water? Major effect of oil pollution in coastal water? Options:",
-      "topic": null
-    },
-    {
-      "id": 60037,
-      "subject": "Chemistry",
-      "questionText": "Major advantage of hard water over soft water? Major advantage of hard water over soft water? Options:",
-      "topic": null
-    },
-    {
-      "id": 60038,
-      "subject": "Chemistry",
-      "questionText": "During filtration, the filtrate and residue respectively are? During filtration, the filtrate and residue respectively are? Options:",
-      "topic": null
-    },
-    {
-      "id": 60039,
-      "subject": "Chemistry",
-      "questionText": "Phenomenon when molecules escaping from liquid equals those returning? Phenomenon when molecules escaping from liquid equals those returning? Options:",
       "topic": null
     },
     {
@@ -1822,33 +784,9 @@
       "topic": null
     },
     {
-      "id": 60046,
-      "subject": "Chemistry",
-      "questionText": "Total protons and neutrons present in X²⁺? Total protons and neutrons present in X²⁺? Options:",
-      "topic": null
-    },
-    {
-      "id": 60049,
-      "subject": "Chemistry",
-      "questionText": "Phosphorus has decay constant 5.85 × 10⁻³ s⁻¹. Find its half-life. Phosphorus has decay constant 5.85 × 10⁻³ s⁻¹. Find its half-life. Options:",
-      "topic": null
-    },
-    {
-      "id": 60050,
-      "subject": "Chemistry",
-      "questionText": "Equation for oxidation of SO₂ into SO₃? Equation for oxidation of SO₂ into SO₃? Options:",
-      "topic": null
-    },
-    {
       "id": 60053,
       "subject": "Chemistry",
       "questionText": "Chemical property between CH₃CH₂OH and CH₃OCH₃? Chemical property between CH₃CH₂OH and CH₃OCH₃? Options:",
-      "topic": null
-    },
-    {
-      "id": 60055,
-      "subject": "Chemistry",
-      "questionText": "Compound broken down to form ethanol during fermentation? Compound broken down to form ethanol during fermentation? Options:",
       "topic": null
     },
     {
@@ -1858,51 +796,9 @@
       "topic": null
     },
     {
-      "id": 60071,
-      "subject": "Chemistry",
-      "questionText": "Zone in a flame representing incomplete combustion? Zone in a flame representing incomplete combustion? Options:",
-      "topic": null
-    },
-    {
-      "id": 60073,
-      "subject": "Chemistry",
-      "questionText": "Valency if tetraoxosulphate of element X has formula X(SO₄)? Valency if tetraoxosulphate of element X has formula X(SO₄)? Options:",
-      "topic": null
-    },
-    {
       "id": 60076,
       "subject": "Chemistry",
       "questionText": "Effect of oil pollution on marine bodies? Effect of oil pollution on marine bodies? Options:",
-      "topic": null
-    },
-    {
-      "id": 60078,
-      "subject": "Chemistry",
-      "questionText": "If enthalpy change is positive, what type of reaction? If enthalpy change is positive, what type of reaction? Options:",
-      "topic": null
-    },
-    {
-      "id": 60081,
-      "subject": "Chemistry",
-      "questionText": "Why isn't lead tetraethyl used as an anti-knock agent? Why isn't lead tetraethyl used as an anti-knock agent? Options:",
-      "topic": null
-    },
-    {
-      "id": 60085,
-      "subject": "Chemistry",
-      "questionText": "Metallic compound used in water treatment to remove colloidal organic matter? Metallic compound used in water treatment to remove colloidal organic matter? Options:",
-      "topic": null
-    },
-    {
-      "id": 60086,
-      "subject": "Chemistry",
-      "questionText": "Reaction occurring spontaneously when free energy is? Reaction occurring spontaneously when free energy is? Options:",
-      "topic": null
-    },
-    {
-      "id": 60087,
-      "subject": "Chemistry",
-      "questionText": "Separation process in purification of bauxite (in order) Separation process in purification of bauxite (in order) Options:",
       "topic": null
     },
     {
@@ -1918,75 +814,9 @@
       "topic": null
     },
     {
-      "id": 60091,
-      "subject": "Chemistry",
-      "questionText": "Sequential order of water treatment for town supply? Sequential order of water treatment for town supply? Options:",
-      "topic": null
-    },
-    {
-      "id": 60094,
-      "subject": "Chemistry",
-      "questionText": "Few drops of concentrated HNO₃ added to unknown substance gives intense yellow coloration — what functional group? Few drops of concentrated HNO₃ added to unknown substance gives intense yellow coloration — what functional group? Options:",
-      "topic": null
-    },
-    {
-      "id": 60095,
-      "subject": "Chemistry",
-      "questionText": "Functional group of alkyl alkanoate? Functional group of alkyl alkanoate? Options:",
-      "topic": null
-    },
-    {
-      "id": 60098,
-      "subject": "Chemistry",
-      "questionText": "Van der Waals forces dominant in: H₂SO₄, H₂O, AlCl₃, Na? Van der Waals forces dominant in: H₂SO₄, H₂O, AlCl₃, Na? Options:",
-      "topic": null
-    },
-    {
-      "id": 60099,
-      "subject": "Chemistry",
-      "questionText": "Which radioactive radiation has velocity close to visible light? Which radioactive radiation has velocity close to visible light? Options:",
-      "topic": null
-    },
-    {
-      "id": 60101,
-      "subject": "Chemistry",
-      "questionText": "A reducing agent will? A reducing agent will? Options:",
-      "topic": null
-    },
-    {
       "id": 60104,
       "subject": "Chemistry",
       "questionText": "What is an amphoteric oxide? What is an amphoteric oxide? Options:",
-      "topic": null
-    },
-    {
-      "id": 60108,
-      "subject": "Chemistry",
-      "questionText": "Noble gas with high power of fog penetration used in aerodrome beacons? Noble gas with high power of fog penetration used in aerodrome beacons? Options:",
-      "topic": null
-    },
-    {
-      "id": 60109,
-      "subject": "Chemistry",
-      "questionText": "Which is used as fuel in miners' lamps? Which is used as fuel in miners' lamps? Options:",
-      "topic": null
-    },
-    {
-      "id": 90142,
-      "subject": "Chemistry",
-      "questionText": "The alkanol obtained from the production of soap is:",
-      "topic": null
-    },
-    {
-      "id": 90143,
-      "subject": "Chemistry",
-      "questionText": "The flame used by welders in cutting metals is:",
-      "topic": null
-    },
-    {
-      "id": 90146,
-      "subject": "Chemistry",
-      "questionText": "Some CuSO₄·5H₂O was heated at 120°C. Wt of crucible = 10.00g; Wt of crucible + CuSO₄·5H₂O = 14.98g; Wt of crucible + residue = 13.54g. How many molecules of water of crystallization were lost?",
       "topic": null
     },
     {
@@ -2008,81 +838,9 @@
       "topic": null
     },
     {
-      "id": 90152,
-      "subject": "Chemistry",
-      "questionText": "Sodium sulphate decahydrate (Na₂SO₄·10H₂O) on exposure to air loses all its water of crystallization. The process is known as:",
-      "topic": null
-    },
-    {
-      "id": 90153,
-      "subject": "Chemistry",
-      "questionText": "Crude petroleum involves the process of:",
-      "topic": null
-    },
-    {
-      "id": 90155,
-      "subject": "Chemistry",
-      "questionText": "Sodium chloride may be obtained from brine by:",
-      "topic": null
-    },
-    {
-      "id": 90156,
-      "subject": "Chemistry",
-      "questionText": "For the reaction NH₄NO₂ → N₂ + 2H₂O, calculate the volume of nitrogen at S.T.P from 3.20g of the salt.",
-      "topic": null
-    },
-    {
-      "id": 90159,
-      "subject": "Chemistry",
-      "questionText": "Lime-water is an aqueous solution of:",
-      "topic": null
-    },
-    {
-      "id": 90161,
-      "subject": "Chemistry",
-      "questionText": "If the cost of electricity required to deposit 1g of magnesium is ₦5.00, how much would it cost to deposit 10g of aluminium? [Mg=24, Al=27]",
-      "topic": null
-    },
-    {
-      "id": 90162,
-      "subject": "Chemistry",
-      "questionText": "An aqueous solution of an inorganic salt gave white precipitate (i) soluble in excess NaOH (ii) insoluble in excess NH₃ (iii) with dilute HCl. The cation is:",
-      "topic": null
-    },
-    {
-      "id": 90164,
-      "subject": "Chemistry",
-      "questionText": "The oxidation state of Carbon in K₂CO₃ is:",
-      "topic": null
-    },
-    {
-      "id": 90165,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a physical change?",
-      "topic": null
-    },
-    {
       "id": 90166,
       "subject": "Chemistry",
       "questionText": "Bronze is an alloy of:",
-      "topic": null
-    },
-    {
-      "id": 90167,
-      "subject": "Chemistry",
-      "questionText": "Permanent hardness of water is caused by the presence of:",
-      "topic": null
-    },
-    {
-      "id": 90168,
-      "subject": "Chemistry",
-      "questionText": "The gas that turns red litmus paper blue is:",
-      "topic": null
-    },
-    {
-      "id": 90169,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is used to ripen fruits?",
       "topic": null
     },
     {
@@ -2098,33 +856,15 @@
       "topic": null
     },
     {
-      "id": 90175,
-      "subject": "Chemistry",
-      "questionText": "The pH of a 0.001M HCl solution is:",
-      "topic": null
-    },
-    {
       "id": 90176,
       "subject": "Chemistry",
       "questionText": "Boyle's law states that at constant temperature, the volume of a gas is inversely proportional to its:",
       "topic": null
     },
     {
-      "id": 90177,
-      "subject": "Chemistry",
-      "questionText": "The separation technique used to separate immiscible liquids is:",
-      "topic": null
-    },
-    {
       "id": 90178,
       "subject": "Chemistry",
       "questionText": "Which element is used in the vulcanization of rubber?",
-      "topic": null
-    },
-    {
-      "id": 90181,
-      "subject": "Chemistry",
-      "questionText": "Isotopes of an element differ in:",
       "topic": null
     },
     {
@@ -2242,12 +982,6 @@
       "topic": null
     },
     {
-      "id": 90211,
-      "subject": "Chemistry",
-      "questionText": "The functional group of alkanols is:",
-      "topic": null
-    },
-    {
       "id": 90212,
       "subject": "Chemistry",
       "questionText": "Which metal is extracted from Haematite?",
@@ -2272,123 +1006,15 @@
       "topic": null
     },
     {
-      "id": 90220,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a reducing agent?",
-      "topic": null
-    },
-    {
       "id": 90221,
       "subject": "Chemistry",
       "questionText": "The phenomenon where atoms of the same element have different mass numbers is:",
       "topic": null
     },
     {
-      "id": 90222,
-      "subject": "Chemistry",
-      "questionText": "Which of the following forms a white precipitate with AgNO₃?",
-      "topic": null
-    },
-    {
-      "id": 90223,
-      "subject": "Chemistry",
-      "questionText": "The valency of Carbon in organic compounds is usually:",
-      "topic": null
-    },
-    {
-      "id": 90228,
-      "subject": "Physics",
-      "questionText": "One special advantage of alcohol over mercury as a thermometric liquid is its:",
-      "topic": null
-    },
-    {
       "id": 90230,
       "subject": "Physics",
       "questionText": "The small droplet of water that forms on the grass in the early hours of the morning is:",
-      "topic": null
-    },
-    {
-      "id": 90232,
-      "subject": "Physics",
-      "questionText": "Which of the following has no effect on radiation?",
-      "topic": null
-    },
-    {
-      "id": 90235,
-      "subject": "Physics",
-      "questionText": "In comparing the camera and the human eye, the film of the camera functions as the:",
-      "topic": null
-    },
-    {
-      "id": 90236,
-      "subject": "Physics",
-      "questionText": "Which of the following is used for the correction of short-sightedness?",
-      "topic": null
-    },
-    {
-      "id": 90237,
-      "subject": "Physics",
-      "questionText": "When a positively charged rod is brought nearer the cap of a positively charged electroscope, the leaves' divergence will:",
-      "topic": null
-    },
-    {
-      "id": 90238,
-      "subject": "Physics",
-      "questionText": "Which of the following is a pure semiconductor?",
-      "topic": null
-    },
-    {
-      "id": 90241,
-      "subject": "Physics",
-      "questionText": "If it takes an object 3s to fall freely to the ground, what is the distance covered? [g=10m/s²]",
-      "topic": null
-    },
-    {
-      "id": 90242,
-      "subject": "Physics",
-      "questionText": "Which of the following could be effectively used to reduce friction?",
-      "topic": null
-    },
-    {
-      "id": 90244,
-      "subject": "Physics",
-      "questionText": "The phenomenon that shows that an increase in pressure lowers the melting point can be observed in:",
-      "topic": null
-    },
-    {
-      "id": 90251,
-      "subject": "Physics",
-      "questionText": "The bond between silicon and germanium is:",
-      "topic": null
-    },
-    {
-      "id": 90255,
-      "subject": "Physics",
-      "questionText": "The characteristic of a vibration that determines its intensity is the:",
-      "topic": null
-    },
-    {
-      "id": 90257,
-      "subject": "Physics",
-      "questionText": "Detecting a pin mistakenly swallowed by a child requires:",
-      "topic": null
-    },
-    {
-      "id": 90259,
-      "subject": "Physics",
-      "questionText": "The coefficient of friction between two perfectly smooth surfaces is:",
-      "topic": null
-    },
-    {
-      "id": 90261,
-      "subject": "Physics",
-      "questionText": "Which of the following obeys Ohm's law?",
-      "topic": null
-    },
-    {
-      "id": 90263,
-      "subject": "Physics",
-      "questionText": "A quantity which requires magnitude and direction to be specified is:",
       "topic": null
     }
   ]
