@@ -95,6 +95,7 @@
 - [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
 - [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
+- [x] Add a focused subject-and-topic Study drill that launches an exact 20-question practice set from the completed syllabus-grounded topics.
 - [ ] Prepare error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope.
 - [x] Deliver the selected core daily study-and-revision loop: one clear daily action, exact mistake recovery, and brief performance guidance.
 - [x] Make the main daily action an automatic 20-question mission from the learner’s weakest available topic.

@@ -14,6 +14,7 @@ import RealGameCbtFixture from "./e2e/RealGameCbtFixture";
 import RecoveryEmptyStateFixture from "./e2e/RecoveryEmptyStateFixture";
 import QuizFlowFixture from "./e2e/QuizFlowFixture";
 import SubmittedRichQuestionFixture from "./e2e/SubmittedRichQuestionFixture";
+import TopicPracticeFixture from "./e2e/TopicPracticeFixture";
 import { startLogin } from "./const";
 import "./index.css";
 
@@ -92,11 +93,12 @@ const isRecoveryEmptyStateFixture = new URLSearchParams(window.location.search).
 const isSubmittedRichQuestionFixture = new URLSearchParams(window.location.search).get("e2eSubmittedRichQuestionFixture") === "1";
 const isCalculatorFixture = new URLSearchParams(window.location.search).get("e2eCalculatorFixture") === "1";
 const isCbtResumeFixture = new URLSearchParams(window.location.search).get("e2eCbtResumeFixture") === "1";
+const isTopicPracticeFixture = new URLSearchParams(window.location.search).get("e2eTopicPracticeFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : <App />}
+      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );
