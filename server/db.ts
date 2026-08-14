@@ -54,7 +54,7 @@ export type LearnerDashboard = {
     badges: string[];
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean };
-  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }> };
+  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }> };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
   comparison: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
   recentRounds: Array<{
@@ -225,6 +225,18 @@ export function buildExamComparison(
   return { latest, previous, accuracyChange, recommendation };
 }
 
+export function summariseSubjectPerformance(answers: Array<{ subject?: string | null; correct: boolean }>) {
+  const bySubject = new Map<string, { attempts: number; correct: number }>();
+  answers.forEach((answer) => {
+    if (!answer.subject) return;
+    const current = bySubject.get(answer.subject) ?? { attempts: 0, correct: 0 };
+    current.attempts += 1;
+    if (answer.correct) current.correct += 1;
+    bySubject.set(answer.subject, current);
+  });
+  return Array.from(bySubject.entries()).map(([subject, value]) => ({ subject, attempts: value.attempts, accuracy: Math.round((value.correct / value.attempts) * 100) })).sort((left, right) => left.subject.localeCompare(right.subject));
+}
+
 export function buildLedgerSnapshot(input: {
   totalAnswered?: number;
   totalCorrect?: number;
@@ -289,8 +301,9 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const timeZone = profile?.timeZone ?? "Africa/Lagos";
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
+  const answerReviews = rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson));
   const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
-  rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
+  answerReviews.forEach((answer) => {
     const key = `${answer.subject ?? ""}\u0000${answer.topic}`;
     const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
     current.attempts += 1;
@@ -298,6 +311,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     weakTopicMap.set(key, current);
   });
   const weakTopics = Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+  const subjectPerformance = summariseSubjectPerformance(answerReviews);
   const recentRounds = rounds.reverse().map((round) => {
     const review = parseAnswerReview(round.answerReviewJson);
     return {
@@ -346,7 +360,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       badges: achievements.map((achievement) => achievement.badgeKey),
     },
     reminder: { enabled: Boolean(reminder?.enabled), reminderTime: reminder?.reminderTime ?? "19:00", pushEnabled: Boolean(pushSubscription?.enabled) },
-    performance: { weakTopics },
+    performance: { weakTopics, subjectPerformance },
     revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
     comparison,
     recentRounds,

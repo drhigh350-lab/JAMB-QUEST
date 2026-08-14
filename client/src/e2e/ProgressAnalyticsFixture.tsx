@@ -33,6 +33,7 @@ export default function ProgressAnalyticsFixture() {
     reminder={{ enabled: false, reminderTime: "19:00", pushEnabled: false }}
     examHistory={examHistory}
     weakTopics={[{ topic: "Genetics", subject: "Biology", misses: 4, attempts: 6, accuracy: 33 }, { topic: "Stoichiometry", subject: "Chemistry", misses: 3, attempts: 5, accuracy: 40 }]}
+    subjectPerformance={[{ subject: "Biology", attempts: 25, accuracy: 72 }, { subject: "Chemistry", attempts: 20, accuracy: 64 }]}
     bookmarks={[{ questionId: "BIO-001", subject: "Biology", topic: "Genetics", createdAt: now }, { questionId: "CHE-010", subject: "Chemistry", topic: "Stoichiometry", createdAt: new Date("2026-08-12T19:00:00.000Z") }]}
     comparison={{ latest: { id: 1, accuracy: 70, durationSeconds: 2100, flaggedCount: 4, completedAt: now }, previous: { id: 3, accuracy: 58, durationSeconds: 2250, flaggedCount: 6, completedAt: new Date("2026-08-11T19:00:00.000Z") }, accuracyChange: 12, recommendation: "Run a focused 20-question drill on Genetics; it is your clearest recovery opportunity." }}
     onUpdateDailyMinimum={() => undefined}

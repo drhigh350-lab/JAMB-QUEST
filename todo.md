@@ -73,10 +73,10 @@
 - [x] Verify calculator use during a real CBT exam keeps the countdown, selected answer, flag, and navigator state intact after closing.
 - [x] Add calculator unit and browser coverage, including phone-sized verification.
 - [x] Make every Progress recovery action open its exact saved, missed, or weak-topic question set instead of behaving as a static summary.
-- [ ] Provide an honest empty state when a requested recovery set no longer has matching playable questions.
-- [ ] Add browser coverage proving Progress actions launch the matching recovery questions and never silently substitute unrelated material.
-- [ ] Differentiate unavailable saved-question and missed-question recovery messages so the learner knows exactly what no longer exists.
-- [ ] Add a Progress browser scenario that requests an unavailable recovery record and proves the app stays on Progress with a truthful no-match message.
+- [x] Provide an honest empty state when a requested recovery set no longer has matching playable questions.
+- [x] Add browser coverage proving Progress actions launch the matching recovery questions and never silently substitute unrelated material.
+- [x] Differentiate unavailable saved-question and missed-question recovery messages so the learner knows exactly what no longer exists.
+- [x] Add a Progress browser scenario that requests an unavailable recovery record and proves the app stays on Progress with a truthful no-match message.
 - [x] Add authentic JAMB keyboard shortcuts for answer selection, previous/next navigation, and the submit-confirmation workflow in CBT mode.
 - [x] Upgrade CBT submission review with direct actions to inspect unanswered and flagged questions before final submission.
 - [ ] Separate no-timer Study mode from strict Exam mode in the learner-facing practice setup.
@@ -90,6 +90,8 @@
 - [x] Show an estimated UTME score only after a completed full 180-question mock; show no projection from shorter practice rounds.
 - [x] Make the analytics next action responsive to accuracy and pace, choosing a speed drill for slow-but-accurate work and a weak-topic repair for inaccurate-but-fast work.
 - [x] Add unit and browser coverage for pace-aware next-action recommendations across slow-but-accurate and inaccurate-but-fast scenarios.
+- [x] Show each subject’s answer-review accuracy alongside its clearest weak topic on Progress.
+- [x] Make every weak-topic recovery action launch the exact 20-question topic drill.
 - [ ] Defer nonessential marketplace-style modules from the submitted brief unless the user explicitly reprioritizes them.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.

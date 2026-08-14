@@ -4,7 +4,7 @@ import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics }
 describe("daily study mission", () => {
   it("prioritises exact recovery items before a weak-topic mission", () => {
     const recovery = selectDailyMission({ weakTopics: [{ subject: "Biology", topic: "Genetics", misses: 4, accuracy: 33 }], fallbackSubject: "Physics", wrongIds: ["BIO-1", "CHE-2"], recoveryPending: true });
-    expect(recovery.config).toMatchObject({ subject: "Full JAMB Mock", mode: "review", count: 2, questionIds: ["BIO-1", "CHE-2"] });
+    expect(recovery.config).toMatchObject({ subject: "Full JAMB Mock", mode: "review", count: 2, questionIds: ["BIO-1", "CHE-2"], recoveryOrigin: "missed-questions" });
   });
 
   it("assigns a 20-question mission to the weakest available topic and calculates concise round analytics", () => {

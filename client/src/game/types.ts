@@ -36,6 +36,7 @@ export interface RoundConfig {
   count: number;
   topic?: string;
   questionIds?: string[];
+  recoveryOrigin?: "saved-question" | "missed-questions";
 }
 
 export interface AnswerRecord {

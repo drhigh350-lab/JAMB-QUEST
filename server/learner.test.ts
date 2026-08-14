@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot } from "./db";
+import { buildLedgerSnapshot, summariseSubjectPerformance } from "./db";
 
 describe("buildLedgerSnapshot", () => {
   it("hydrates valid persisted learner progress into the UI ledger shape", () => {
@@ -44,5 +44,20 @@ describe("buildLedgerSnapshot", () => {
       wrongIds: [],
       subjectBest: {},
     });
+  });
+});
+
+describe("summariseSubjectPerformance", () => {
+  it("uses persisted answer reviews to calculate per-subject accuracy without creating evidence for untouched subjects", () => {
+    expect(summariseSubjectPerformance([
+      { subject: "Biology", correct: true },
+      { subject: "Biology", correct: false },
+      { subject: "Biology", correct: true },
+      { subject: "Chemistry", correct: false },
+      { subject: null, correct: true },
+    ])).toEqual([
+      { subject: "Biology", attempts: 3, accuracy: 67 },
+      { subject: "Chemistry", attempts: 1, accuracy: 0 },
+    ]);
   });
 });

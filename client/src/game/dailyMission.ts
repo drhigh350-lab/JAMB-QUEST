@@ -9,7 +9,7 @@ const isSubject = (value: string | null | undefined): value is Subject => studyS
 export function selectDailyMission({ weakTopics, fallbackSubject, wrongIds, recoveryPending }: { weakTopics: WeakTopicInput[]; fallbackSubject: Subject; wrongIds: string[]; recoveryPending: boolean }) {
   if (recoveryPending && wrongIds.length) {
     const questionIds = wrongIds.slice(0, 20);
-    return { label: "Repair recent mistakes", note: `Revisit ${questionIds.length} question${questionIds.length === 1 ? "" : "s"} you previously missed before starting new material.`, config: { subject: "Full JAMB Mock" as RoundSubject, mode: "review" as const, count: questionIds.length, questionIds } satisfies RoundConfig };
+    return { label: "Repair recent mistakes", note: `Revisit ${questionIds.length} question${questionIds.length === 1 ? "" : "s"} you previously missed before starting new material.`, config: { subject: "Full JAMB Mock" as RoundSubject, mode: "review" as const, count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" } satisfies RoundConfig };
   }
   const weakness = weakTopics.find((topic) => isSubject(topic.subject));
   if (weakness && isSubject(weakness.subject)) {
