@@ -1,8 +1,8 @@
 {
   "placeholderTopic": "To be tagged during syllabus mapping",
-  "total": 165,
+  "total": 124,
   "classifiedCount": 0,
-  "unresolvedCount": 165,
+  "unresolvedCount": 124,
   "bySubject": {
     "Use of English": {
       "classified": 0,
@@ -16,12 +16,12 @@
     },
     "Chemistry": {
       "classified": 0,
-      "unresolved": 43,
+      "unresolved": 3,
       "topics": {}
     },
     "Physics": {
       "classified": 0,
-      "unresolved": 1,
+      "unresolved": 0,
       "topics": {}
     }
   },
@@ -754,93 +754,9 @@
       "topic": null
     },
     {
-      "id": 60007,
-      "subject": "Chemistry",
-      "questionText": "CH₃CH₂COOC₂H₅ is the product of reaction between? CH₃CH₂COOC₂H₅ is the product of reaction between? Options:",
-      "topic": null
-    },
-    {
-      "id": 60027,
-      "subject": "Chemistry",
-      "questionText": "Ionization energy of fluorine is far higher than potassium due to differences in? Ionization energy of fluorine is far higher than potassium due to differences in? Options:",
-      "topic": null
-    },
-    {
-      "id": 60036,
-      "subject": "Chemistry",
-      "questionText": "Major effect of oil pollution in coastal water? Major effect of oil pollution in coastal water? Options:",
-      "topic": null
-    },
-    {
-      "id": 60041,
-      "subject": "Chemistry",
-      "questionText": "Sudan III reagent reacts with fats/oils to give what colour? Sudan III reagent reacts with fats/oils to give what colour? Options:",
-      "topic": null
-    },
-    {
-      "id": 60045,
-      "subject": "Chemistry",
-      "questionText": "Which gas law relates pressure and volume at constant temperature? Which gas law relates pressure and volume at constant temperature? Options:",
-      "topic": null
-    },
-    {
-      "id": 60053,
-      "subject": "Chemistry",
-      "questionText": "Chemical property between CH₃CH₂OH and CH₃OCH₃? Chemical property between CH₃CH₂OH and CH₃OCH₃? Options:",
-      "topic": null
-    },
-    {
-      "id": 60061,
-      "subject": "Chemistry",
-      "questionText": "CH₄ + xO₂ → CO₂ + 2H₂O. What is x? CH₄ + xO₂ → CO₂ + 2H₂O. What is x? Options:",
-      "topic": null
-    },
-    {
-      "id": 60076,
-      "subject": "Chemistry",
-      "questionText": "Effect of oil pollution on marine bodies? Effect of oil pollution on marine bodies? Options:",
-      "topic": null
-    },
-    {
-      "id": 60089,
-      "subject": "Chemistry",
-      "questionText": "If volume of air in tyre is doubled at constant temperature, pressure becomes? If volume of air in tyre is doubled at constant temperature, pressure becomes? Options:",
-      "topic": null
-    },
-    {
-      "id": 60090,
-      "subject": "Chemistry",
-      "questionText": "Example of insoluble chloride in water? Example of insoluble chloride in water? Options:",
-      "topic": null
-    },
-    {
-      "id": 60104,
-      "subject": "Chemistry",
-      "questionText": "What is an amphoteric oxide? What is an amphoteric oxide? Options:",
-      "topic": null
-    },
-    {
       "id": 90147,
       "subject": "Chemistry",
       "questionText": "The three-dimensional shape of methane is:",
-      "topic": null
-    },
-    {
-      "id": 90149,
-      "subject": "Chemistry",
-      "questionText": "Reaction of X with yeast forms the basis of the:",
-      "topic": null
-    },
-    {
-      "id": 90150,
-      "subject": "Chemistry",
-      "questionText": "The correct name of the compound CH₃-C(CH₃)=CH-CH₃ is:",
-      "topic": null
-    },
-    {
-      "id": 90166,
-      "subject": "Chemistry",
-      "questionText": "Bronze is an alloy of:",
       "topic": null
     },
     {
@@ -850,171 +766,9 @@
       "topic": null
     },
     {
-      "id": 90174,
-      "subject": "Chemistry",
-      "questionText": "A substance that speeds up a chemical reaction without being consumed is a:",
-      "topic": null
-    },
-    {
-      "id": 90176,
-      "subject": "Chemistry",
-      "questionText": "Boyle's law states that at constant temperature, the volume of a gas is inversely proportional to its:",
-      "topic": null
-    },
-    {
-      "id": 90178,
-      "subject": "Chemistry",
-      "questionText": "Which element is used in the vulcanization of rubber?",
-      "topic": null
-    },
-    {
-      "id": 90182,
-      "subject": "Chemistry",
-      "questionText": "Which gas is evolved when sodium reacts with water?",
-      "topic": null
-    },
-    {
-      "id": 90183,
-      "subject": "Chemistry",
-      "questionText": "The main constituent of natural gas is:",
-      "topic": null
-    },
-    {
-      "id": 90184,
-      "subject": "Chemistry",
-      "questionText": "Which of the following oxides is amphoteric?",
-      "topic": null
-    },
-    {
-      "id": 90186,
-      "subject": "Chemistry",
-      "questionText": "Fats and oils are:",
-      "topic": null
-    },
-    {
-      "id": 90188,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a heavy chemical?",
-      "topic": null
-    },
-    {
-      "id": 90189,
-      "subject": "Chemistry",
-      "questionText": "Mortar is a mixture of:",
-      "topic": null
-    },
-    {
-      "id": 90190,
-      "subject": "Chemistry",
-      "questionText": "Diamond and Graphite are:",
-      "topic": null
-    },
-    {
-      "id": 90191,
-      "subject": "Chemistry",
-      "questionText": "A reaction that releases heat to the surroundings is:",
-      "topic": null
-    },
-    {
-      "id": 90192,
-      "subject": "Chemistry",
-      "questionText": "The oxidation number of Chromium in K₂Cr₂O₇ is:",
-      "topic": null
-    },
-    {
-      "id": 90193,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a transition metal?",
-      "topic": null
-    },
-    {
-      "id": 90194,
-      "subject": "Chemistry",
-      "questionText": "Water gas is a mixture of:",
-      "topic": null
-    },
-    {
-      "id": 90197,
-      "subject": "Chemistry",
-      "questionText": "An example of a hygroscopic substance is:",
-      "topic": null
-    },
-    {
-      "id": 90198,
-      "subject": "Chemistry",
-      "questionText": "The shape of the Ammonia molecule is:",
-      "topic": null
-    },
-    {
-      "id": 90200,
-      "subject": "Chemistry",
-      "questionText": "The gas responsible for the greenhouse effect is:",
-      "topic": null
-    },
-    {
-      "id": 90201,
-      "subject": "Chemistry",
-      "questionText": "Saponification yields:",
-      "topic": null
-    },
-    {
-      "id": 90202,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a noble gas?",
-      "topic": null
-    },
-    {
-      "id": 90206,
-      "subject": "Chemistry",
-      "questionText": "Which method removes temporary hardness?",
-      "topic": null
-    },
-    {
-      "id": 90208,
-      "subject": "Chemistry",
-      "questionText": "Which substance turns anhydrous copper(II) sulphate blue?",
-      "topic": null
-    },
-    {
-      "id": 90210,
-      "subject": "Chemistry",
-      "questionText": "Cracking is a process used to:",
-      "topic": null
-    },
-    {
-      "id": 90212,
-      "subject": "Chemistry",
-      "questionText": "Which metal is extracted from Haematite?",
-      "topic": null
-    },
-    {
-      "id": 90213,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a mixture?",
-      "topic": null
-    },
-    {
-      "id": 90216,
-      "subject": "Chemistry",
-      "questionText": "Which of the following is a liquid at room temperature?",
-      "topic": null
-    },
-    {
-      "id": 90219,
-      "subject": "Chemistry",
-      "questionText": "Rusting requires:",
-      "topic": null
-    },
-    {
       "id": 90221,
       "subject": "Chemistry",
       "questionText": "The phenomenon where atoms of the same element have different mass numbers is:",
-      "topic": null
-    },
-    {
-      "id": 90230,
-      "subject": "Physics",
-      "questionText": "The small droplet of water that forms on the grass in the early hours of the morning is:",
       "topic": null
     }
   ]

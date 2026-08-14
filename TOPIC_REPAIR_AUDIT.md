@@ -6,6 +6,6 @@ The active 1,000-item model-bank asset does not contain `authorised-60074`. The 
 
 ## Conservative full-bank migration
 
-The active authorised bank originally contained 780 placeholder-topic records. Successive deterministic wording audits classified and migrated **615** records where question wording matched a specific topic rule, including the direct verification of `authorised-60074`. Those records now carry actual stored topics. The remaining **165** records did not meet the conservative evidence rule and remain explicitly unresolved: 121 Biology, 43 Chemistry, and one Physics record. They are excluded from weak-topic and daily-mission guidance rather than being assigned a generic or invented topic.
+The active authorised bank originally contained 780 placeholder-topic records. Successive deterministic wording audits classified and migrated **656** records where question wording matched a specific topic rule, including the direct verification of `authorised-60074`. Those records now carry actual stored topics. The remaining **124** records did not meet the conservative evidence rule and remain explicitly unresolved: 121 Biology and three Chemistry records. They are excluded from weak-topic and daily-mission guidance rather than being assigned a generic or invented topic.
 
 The repeatable audit report is stored at `reports/placeholder_topic_audit.json`. It confirms that all remaining placeholder records are unresolved, not candidates for automatic topic migration.

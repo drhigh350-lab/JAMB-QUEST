@@ -6,25 +6,26 @@ export function inferVerifiedTopic(subject: TopicSubject, questionText: string) 
   const text = questionText.toLowerCase();
   const has = (pattern: RegExp) => pattern.test(text);
   if (subject === "Chemistry") {
-    if (has(/diffus|graham|vapou?r density|gas m|molar mass.*gas/)) return "Gas Laws and Diffusion";
+    if (has(/diffus|graham|vapou?r density|gas m|molar mass.*gas|gas law|boyle.?s law|volume of air/)) return "Gas Laws and Diffusion";
     if (has(/equilibrium|le chatelier|equilibrium constant|yield of ammonia|n₂.*h₂|n2.*h2/)) return "Chemical Equilibrium";
-    if (has(/rate of reaction|activation energy|catalyst|collision theory/)) return "Chemical Kinetics";
+    if (has(/rate of reaction|activation energy|catalyst|collision theory|speeds up a chemical reaction/)) return "Chemical Kinetics";
     if (has(/electroly|faraday|moles of electrons|cathode|anode|conducting highest electricity|deposit.*magnesium|deposit.*aluminium/)) return "Electrochemistry";
-    if (has(/acid|alkali|neutralis|aqua regia|lime-water|\bph\b|litmus/)) return "Acids, Bases and Salts";
-    if (has(/oxidizing agent|reducing agent|oxidation state|oxidation of|oxidation.*so₂|oxidation.*so2/)) return "Redox Chemistry";
-    if (has(/enthalpy|free energy|spontaneous/)) return "Energetics and Thermodynamics";
+    if (has(/acid|alkali|neutralis|aqua regia|lime-water|\bph\b|litmus|amphoteric/)) return "Acids, Bases and Salts";
+    if (has(/oxidizing agent|reducing agent|oxidation state|oxidation number|oxidation of|oxidation.*so₂|oxidation.*so2/)) return "Redox Chemistry";
+    if (has(/enthalpy|free energy|spontaneous|releases heat/)) return "Energetics and Thermodynamics";
     if (has(/flame|combustion|fuel|anti-knock|tetraethyl lead/)) return "Combustion and Fuels";
-    if (has(/petroleum|destructive distillation|fractional distillation|crude oil|coal/)) return "Hydrocarbons and Petroleum";
-    if (has(/water treatment|hard water|brine|water supply|water is caused/)) return "Water and Its Treatment";
-    if (has(/filtration|immiscible|separation technique|purification of bauxite/)) return "Separation Techniques";
-    if (has(/molecules escaping|volatile|physical change|van der waals/)) return "States of Matter and Intermolecular Forces";
-    if (has(/precipitate|unknown substance|qualitative|cation is/)) return "Qualitative Analysis";
-    if (has(/polymer|plastic|monomer|pvc|perspex|detergent/)) return "Organic Chemistry and Polymers";
-    if (has(/moles|molar|empirical formula|percentage composition|solubility|s\.t\.p|stp|water of crystallization/)) return "Mole Concept and Stoichiometry";
-    if (has(/benzene|alcohol|alkane|alkene|homologous|decarboxyl|organic compound|ester|alkanone|ethanol|fermentation|functional group|soap/)) return "Organic Chemistry";
-    if (has(/iron|gold|steel|solder|extraction|blast furnace|ore/)) return "Metals and Extraction";
-    if (has(/hydrogen|haber|bosch|chlorine|bleaching|anaesthetic|aerodrome|miners.? lamps|ripen fruits/)) return "Industrial Chemistry";
-    if (has(/bond|ionisation|electron|periodic|atomic|protons and neutrons|radiation|half-life|valency|methane.*shape/)) return "Atomic Structure and Bonding";
+    if (has(/petroleum|destructive distillation|fractional distillation|crude oil|coal|natural gas|cracking/)) return "Hydrocarbons and Petroleum";
+    if (has(/water treatment|hard water|brine|water supply|water is caused|temporary hardness/)) return "Water and Its Treatment";
+    if (has(/filtration|immiscible|separation technique|purification of bauxite|mixture/)) return "Separation Techniques";
+    if (has(/molecules escaping|volatile|physical change|van der waals|hygroscopic|room temperature/)) return "States of Matter and Intermolecular Forces";
+    if (has(/precipitate|unknown substance|qualitative|cation is|insoluble chloride|anhydrous copper/)) return "Qualitative Analysis";
+    if (has(/polymer|plastic|monomer|pvc|perspex|detergent|vulcanization|fats and oils|saponification/)) return "Organic Chemistry and Polymers";
+    if (has(/moles|molar|empirical formula|percentage composition|solubility|s\.t\.p|stp|water of crystallization|what is x/)) return "Mole Concept and Stoichiometry";
+    if (has(/benzene|alcohol|alkane|alkene|homologous|decarboxyl|organic compound|ester|alkanone|ethanol|fermentation|functional group|soap|sudan iii|ch₃|yeast/)) return "Organic Chemistry";
+    if (has(/iron|gold|steel|solder|extraction|blast furnace|ore|bronze|haematite|rusting/)) return "Metals and Extraction";
+    if (has(/hydrogen|haber|bosch|chlorine|bleaching|anaesthetic|aerodrome|miners.? lamps|ripen fruits|water gas|heavy chemical|mortar|sodium reacts with water/)) return "Industrial Chemistry";
+    if (has(/bond|ionisation|ionization energy|electron|periodic|atomic|protons and neutrons|radiation|half-life|valency|methane.*shape|ammonia molecule|diamond|graphite|isotope|transition metal|noble gas/)) return "Atomic Structure and Bonding";
+    if (has(/oil pollution|greenhouse effect/)) return "Chemistry and the Environment";
   }
   if (subject === "Biology") {
     if (has(/gene|allele|chromosome|meiosis|mitosis|inheritance|blood group|sex-linked|evolution/)) return "Genetics and Evolution";
@@ -50,7 +51,7 @@ export function inferVerifiedTopic(subject: TopicSubject, questionText: string) 
     if (has(/current|voltage|resistance|transformer|fuse|circuit|power|ammeter|electric|electroscope|semiconductor|ohm.?s law|silicon|germanium/)) return "Electricity and Electronics";
     if (has(/wave|sound|light|mirror|lens|refraction|diffraction|doppler|colour|radioactivity|camera|short-sighted|vibration|x-ray|pin mistakenly/)) return "Waves, Optics and Modern Physics";
     if (has(/motion|velocity|acceleration|force|work|energy|momentum|projectile|pendulum|fall freely|friction|vector|magnitude and direction/)) return "Mechanics";
-    if (has(/heat|temperature|specific heat|thermal|viscosity|thermometric|dew|radiation|melting point/)) return "Thermal Physics";
+    if (has(/heat|temperature|specific heat|thermal|viscosity|thermometric|dew|radiation|melting point|droplet of water.*grass/)) return "Thermal Physics";
     if (has(/magnetic|induction|motor|lenz|resonance/)) return "Magnetism and Electromagnetism";
   }
   return null;
