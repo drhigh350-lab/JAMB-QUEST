@@ -22,7 +22,7 @@ export default function QuizFlowFixture() {
   if (!question) return <main data-e2e="quiz-loading">Loading real question asset…</main>;
   return (
     <QuizShell
-      config={{ subject: "Biology", mode: "sprint", count: 1 }}
+      config={{ subject: "Biology", mode: "sprint", count: 1, timing: "study" }}
       questions={[question]}
       currentIndex={0}
       currentQuestion={question}

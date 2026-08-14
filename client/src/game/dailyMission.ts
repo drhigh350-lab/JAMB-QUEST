@@ -6,6 +6,10 @@ export type RoundAnalyticsInput = { subject: string; questionCount: number; corr
 const studySubjects: Subject[] = ["Use of English", "Biology", "Chemistry", "Physics"];
 const isSubject = (value: string | null | undefined): value is Subject => studySubjects.includes(value as Subject);
 
+export function isRoundTimed(config: Pick<RoundConfig, "mode" | "timing"> | null | undefined) {
+  return config?.mode === "cbt" || config?.timing === "timed";
+}
+
 export function selectDailyMission({ weakTopics, fallbackSubject, wrongIds, recoveryPending }: { weakTopics: WeakTopicInput[]; fallbackSubject: Subject; wrongIds: string[]; recoveryPending: boolean }) {
   if (recoveryPending && wrongIds.length) {
     const questionIds = wrongIds.slice(0, 20);
@@ -13,9 +17,9 @@ export function selectDailyMission({ weakTopics, fallbackSubject, wrongIds, reco
   }
   const weakness = weakTopics.find((topic) => isSubject(topic.subject));
   if (weakness && isSubject(weakness.subject)) {
-    return { label: `${weakness.subject}: ${weakness.topic}`, note: `${weakness.accuracy}% accuracy from ${weakness.misses} recorded miss${weakness.misses === 1 ? "" : "es"}. Fix this first with 20 focused questions.`, config: { subject: weakness.subject, mode: "sprint" as const, count: 20, topic: weakness.topic } satisfies RoundConfig };
+    return { label: `${weakness.subject}: ${weakness.topic}`, note: `${weakness.accuracy}% accuracy from ${weakness.misses} recorded miss${weakness.misses === 1 ? "" : "es"}. Fix this first with 20 focused questions.`, config: { subject: weakness.subject, mode: "sprint" as const, count: 20, timing: "study", topic: weakness.topic } satisfies RoundConfig };
   }
-  return { label: `${fallbackSubject}: focused foundation`, note: "No weak-topic evidence yet. Build your first 20-question baseline and the system will choose the next priority.", config: { subject: fallbackSubject, mode: "sprint" as const, count: 20 } satisfies RoundConfig };
+  return { label: `${fallbackSubject}: focused foundation`, note: "No weak-topic evidence yet. Build your first 20-question baseline and the system will choose the next priority.", config: { subject: fallbackSubject, mode: "sprint" as const, count: 20, timing: "study" } satisfies RoundConfig };
 }
 
 export function summariseRoundAnalytics(rounds: RoundAnalyticsInput[]) {

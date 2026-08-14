@@ -34,6 +34,7 @@ export interface RoundConfig {
   subject: RoundSubject;
   mode: QuizMode;
   count: number;
+  timing?: "study" | "timed";
   topic?: string;
   questionIds?: string[];
   recoveryOrigin?: "saved-question" | "missed-questions";

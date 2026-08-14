@@ -1,6 +1,7 @@
 /* Field Notes Arcade: explicit round modes keep timer, answer, feedback, and result transitions deterministic. */
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { isRoundTimed } from "./dailyMission";
 import { loadQuestionBank, selectQuestions } from "./questionBank";
 import { getProgress, recordRound, saveProgress } from "./storage";
 import type { AnswerRecord, BankQuestion, ExamReviewRecord, GameScreen, QuizMode, RoundConfig, RoundSubject, StoredProgress } from "./types";
@@ -84,6 +85,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     [answers, roundQuestions],
   );
   const isCbt = roundConfig?.mode === "cbt";
+  const isTimedRound = isRoundTimed(roundConfig);
 
   const buildReview = useCallback((finalAnswers: Record<string, AnswerRecord>): ExamReviewRecord[] => roundQuestions.map((question) => ({
     questionId: question.id,
@@ -108,10 +110,10 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   }, [answers, roundConfig, roundQuestions, screen, secondsLeft]);
 
   useEffect(() => {
-    if (screen !== "quiz" || isPaused || (!isCbt && answered)) return;
+    if (screen !== "quiz" || !isTimedRound || isPaused || (!isCbt && answered)) return;
     const interval = window.setInterval(() => setSecondsLeft((current) => Math.max(current - 1, 0)), 1000);
     return () => window.clearInterval(interval);
-  }, [answered, isCbt, isPaused, screen]);
+  }, [answered, isCbt, isPaused, isTimedRound, screen]);
 
   useEffect(() => {
     if (screen !== "quiz" || secondsLeft !== 0) return;

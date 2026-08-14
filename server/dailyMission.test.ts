@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics } from "../client/src/game/dailyMission";
+import { isRoundTimed, selectDailyMission, selectProgressNextAction, summariseRoundAnalytics } from "../client/src/game/dailyMission";
 
 describe("daily study mission", () => {
   it("prioritises exact recovery items before a weak-topic mission", () => {
@@ -22,5 +22,11 @@ describe("daily study mission", () => {
     const fallback = "Fix Genetics first with 20 focused questions.";
     expect(selectProgressNextAction({ accuracy: 80, averageSecondsPerQuestion: 100, fallback })).toContain("timed speed drill");
     expect(selectProgressNextAction({ accuracy: 50, averageSecondsPerQuestion: 30, fallback })).toContain("repair the weakest topic first");
+  });
+
+  it("keeps Study and recovery rounds untimed while preserving strict CBT timing", () => {
+    expect(isRoundTimed({ mode: "sprint", timing: "study" })).toBe(false);
+    expect(isRoundTimed({ mode: "review" })).toBe(false);
+    expect(isRoundTimed({ mode: "cbt" })).toBe(true);
   });
 });
