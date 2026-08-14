@@ -657,12 +657,17 @@ type AuthorisedPlayableRow = {
 };
 
 const PLAYABLE_SUBJECTS = new Set(["Use of English", "Biology", "Chemistry", "Physics"]);
+const EMBEDDED_OPTION_METADATA = /(?:✓|©|\bcorrect\s+answer\s*:|\bexplanation\s*:|\bwhy\s+others?\s+are\s+wrong\s*:)/i;
+
+export function hasEmbeddedOptionMetadata(option: string) {
+  return EMBEDDED_OPTION_METADATA.test(option);
+}
 
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
   try {
     const options = JSON.parse(row.optionsJson);
-    if (!Array.isArray(options) || options.length !== 4 || options.some((option) => typeof option !== "string" || !option.trim())) return null;
+    if (!Array.isArray(options) || options.length !== 4 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
     if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex > 3) return null;
     return {
       id: `authorised-${row.id}`,

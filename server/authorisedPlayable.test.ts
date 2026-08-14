@@ -38,4 +38,18 @@ describe("owner-provided playable question mapping", () => {
       sourceLabel: "Owner-provided Drive: sample.pdf",
     })).toBeNull();
   });
+
+  it("rejects an option that contains scraped answer or explanation metadata", () => {
+    expect(toPlayableAuthorisedQuestion({
+      id: 229,
+      subject: "Physics",
+      topic: "Equilibrium of Forces",
+      difficulty: "medium",
+      questionText: "Three concurrent forces are in equilibrium. If two of the forces are 8 N and 6 N at right angles to each other, the third force is",
+      optionsJson: JSON.stringify(["14 N", "2 N", "10 N", "7 N ✓ Correct Answer: C Explanation: The resultant of the two forces is 10 N."]),
+      answerIndex: 2,
+      explanation: "Concurrent forces in equilibrium have a net vector sum of zero.",
+      sourceLabel: "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+    })).toBeNull();
+  });
 });
