@@ -87,4 +87,12 @@ describe("diagnostic review loop", () => {
     expect(weakTopics[0]).toMatchObject({ subject: "Biology", topic: "Genetics", misses: 3, accuracy: 0 });
     expect(selectDailyMission({ weakTopics, fallbackSubject: "Physics", wrongIds: [], recoveryPending: false }).config).toMatchObject({ subject: "Biology", topic: "Genetics", count: 20, timing: "study" });
   });
+
+  it("replaces internal mapping text in persisted review data before it reaches a daily mission", () => {
+    const weakTopics = summariseWeakTopicsFromRounds([{
+      answerReviewJson: JSON.stringify([{ questionId: "CHE-1", subject: "Chemistry", topic: "To be tagged during syllabus mapping", correct: false }]),
+    }]);
+    expect(weakTopics).toMatchObject([{ subject: "Chemistry", topic: "Chemistry practice", misses: 1 }]);
+    expect(selectDailyMission({ weakTopics, fallbackSubject: "Biology", wrongIds: [], recoveryPending: false }).label).toContain("Chemistry practice");
+  });
 });

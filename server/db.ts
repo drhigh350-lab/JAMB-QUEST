@@ -197,10 +197,17 @@ function parseAnswerReview(raw: string | null): Array<{ questionId: string | nul
   }
 }
 
+function normalisePersistedTopic(subject: string | null, topic: string) {
+  const cleaned = topic.trim();
+  if (!cleaned || cleaned.toLowerCase() === "to be tagged during syllabus mapping") return subject ? `${subject} practice` : "General practice";
+  return cleaned;
+}
+
 export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: string | null }>) {
   const weakTopicMap = new Map<string, { misses: number; attempts: number; subject: string | null }>();
   rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
-    const key = `${answer.subject ?? ""}\u0000${answer.topic}`;
+    const topic = normalisePersistedTopic(answer.subject, answer.topic);
+    const key = `${answer.subject ?? ""}\u0000${topic}`;
     const current = weakTopicMap.get(key) ?? { misses: 0, attempts: 0, subject: answer.subject };
     current.attempts += 1;
     if (!answer.correct) current.misses += 1;
