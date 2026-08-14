@@ -72,6 +72,25 @@
 - [x] Make the calculator available from both practice and CBT question screens without interrupting the timer or answer state.
 - [x] Verify calculator use during a real CBT exam keeps the countdown, selected answer, flag, and navigator state intact after closing.
 - [x] Add calculator unit and browser coverage, including phone-sized verification.
+- [x] Make every Progress recovery action open its exact saved, missed, or weak-topic question set instead of behaving as a static summary.
+- [ ] Provide an honest empty state when a requested recovery set no longer has matching playable questions.
+- [ ] Add browser coverage proving Progress actions launch the matching recovery questions and never silently substitute unrelated material.
+- [ ] Differentiate unavailable saved-question and missed-question recovery messages so the learner knows exactly what no longer exists.
+- [ ] Add a Progress browser scenario that requests an unavailable recovery record and proves the app stays on Progress with a truthful no-match message.
+- [x] Add authentic JAMB keyboard shortcuts for answer selection, previous/next navigation, and the submit-confirmation workflow in CBT mode.
+- [x] Upgrade CBT submission review with direct actions to inspect unanswered and flagged questions before final submission.
+- [ ] Separate no-timer Study mode from strict Exam mode in the learner-facing practice setup.
+- [ ] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
+- [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
+- [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
+- [ ] Prepare error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope.
+- [ ] Deliver the selected core daily study-and-revision loop: one clear daily action, exact mistake recovery, and brief performance guidance.
+- [x] Make the main daily action an automatic 20-question mission from the learner’s weakest available topic.
+- [x] Show concise review analytics that connect score, accuracy, speed, weak topics, and exact missed-question recovery to a next action.
+- [x] Show an estimated UTME score only after a completed full 180-question mock; show no projection from shorter practice rounds.
+- [x] Make the analytics next action responsive to accuracy and pace, choosing a speed drill for slow-but-accurate work and a weak-topic repair for inaccurate-but-fast work.
+- [x] Add unit and browser coverage for pace-aware next-action recommendations across slow-but-accurate and inaccurate-but-fast scenarios.
+- [ ] Defer nonessential marketplace-style modules from the submitted brief unless the user explicitly reprioritizes them.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.

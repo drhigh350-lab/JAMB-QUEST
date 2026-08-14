@@ -43,6 +43,11 @@ export function selectQuestions(
   wrongIds: string[],
   filters?: { topic?: string; questionIds?: string[] },
 ): BankQuestion[] {
+  const savedQuestionIds = new Set(filters?.questionIds ?? []);
+  if (savedQuestionIds.size) {
+    const exactQuestions = questions.filter((question) => savedQuestionIds.has(question.id));
+    return shuffle(exactQuestions).slice(0, Math.min(count, exactQuestions.length));
+  }
   if (subject === "Full JAMB Mock") {
     const distribution = count === 180
       ? { "Use of English": 60, Biology: 40, Chemistry: 40, Physics: 40 } satisfies Record<Subject, number>
@@ -53,16 +58,13 @@ export function selectQuestions(
     });
   }
   const subjectQuestions = questions.filter((question) => question.subject === subject);
-  const savedQuestionIds = new Set(filters?.questionIds ?? []);
-  const source = savedQuestionIds.size
-    ? subjectQuestions.filter((question) => savedQuestionIds.has(question.id))
-    : filters?.topic
+  const source = filters?.topic
       ? subjectQuestions.filter((question) => question.topic === filters.topic)
       : mode === "review"
         ? subjectQuestions.filter((question) => wrongIds.includes(question.id))
         : subjectQuestions;
-  if (savedQuestionIds.size || filters?.topic) return shuffle(source).slice(0, Math.min(count, source.length));
-  return shuffle(source.length ? source : subjectQuestions).slice(0, Math.min(count, source.length || subjectQuestions.length));
+  if (filters?.topic || mode === "review") return shuffle(source).slice(0, Math.min(count, source.length));
+  return shuffle(subjectQuestions).slice(0, Math.min(count, subjectQuestions.length));
 }
 
 export function shuffle<T>(items: T[]): T[] {

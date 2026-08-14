@@ -60,6 +60,14 @@ describe("CBT simulator", () => {
     expect(unavailableBookmark).toEqual([]);
   });
 
+  it("opens only the exact missed questions from a Progress log and never substitutes a normal subject set", () => {
+    const exactMisses = [questions.find((question) => question.subject === "Biology")!.id, questions.find((question) => question.subject === "Physics")!.id];
+    const selected = selectQuestions(questions, "Full JAMB Mock", "review", 10, [], { questionIds: exactMisses });
+    const emptyReview = selectQuestions(questions, "Biology", "review", 10, []);
+    expect(selected.map((question) => question.id).sort()).toEqual([...exactMisses].sort());
+    expect(emptyReview).toEqual([]);
+  });
+
   it("compares the two latest CBT logs and recommends the weakest topic rather than claiming a score prediction", () => {
     const comparison = buildExamComparison([
       { id: 2, mode: "cbt", questionCount: 40, correctCount: 30, durationSeconds: 1800, flaggedCount: 2, completedAt: new Date("2026-08-14T11:00:00Z") },

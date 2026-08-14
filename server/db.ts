@@ -66,6 +66,7 @@ export type LearnerDashboard = {
     score: number;
     durationSeconds: number;
     flaggedCount: number;
+    missedQuestionIds: string[];
     completedAt: Date;
   }>;
 };
@@ -181,15 +182,15 @@ function parseScoreMap(raw: string | null): Record<string, number> {
   }
 }
 
-function parseAnswerReview(raw: string | null): Array<{ topic: string; subject: string | null; correct: boolean }> {
+function parseAnswerReview(raw: string | null): Array<{ questionId: string | null; topic: string; subject: string | null; correct: boolean }> {
   if (!raw) return [];
   try {
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
     return parsed.flatMap((entry) => {
       if (!entry || typeof entry !== "object") return [];
-      const value = entry as { topic?: unknown; subject?: unknown; correct?: unknown };
-      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, correct: value.correct }] : [];
+      const value = entry as { questionId?: unknown; topic?: unknown; subject?: unknown; correct?: unknown };
+      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ questionId: typeof value.questionId === "string" ? value.questionId : null, topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, correct: value.correct }] : [];
     });
   } catch {
     return [];
@@ -297,17 +298,21 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     weakTopicMap.set(key, current);
   });
   const weakTopics = Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
-  const recentRounds = rounds.reverse().map((round) => ({
-    id: round.id,
-    subject: round.subject,
-    mode: round.mode,
-    questionCount: round.questionCount,
-    correctCount: round.correctCount,
-    score: round.score,
-    durationSeconds: round.durationSeconds,
-    flaggedCount: parseStringList(round.flaggedQuestionIds).length,
-    completedAt: round.completedAt,
-  }));
+  const recentRounds = rounds.reverse().map((round) => {
+    const review = parseAnswerReview(round.answerReviewJson);
+    return {
+      id: round.id,
+      subject: round.subject,
+      mode: round.mode,
+      questionCount: round.questionCount,
+      correctCount: round.correctCount,
+      score: round.score,
+      durationSeconds: round.durationSeconds,
+      flaggedCount: parseStringList(round.flaggedQuestionIds).length,
+      missedQuestionIds: review.flatMap((answer) => !answer.correct && answer.questionId ? [answer.questionId] : []),
+      completedAt: round.completedAt,
+    };
+  });
   const comparison = buildExamComparison(recentRounds, weakTopics);
   const today = activities.find((activity) => activity.dateKey === dateKey);
   const completedDays = recentActivity.filter((activity) => activity.completedMinimum).length;

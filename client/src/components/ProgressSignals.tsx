@@ -1,0 +1,7 @@
+import React from "react";
+import { Gauge, Target, Timer } from "lucide-react";
+
+export function ProgressSignals({ estimatedUtmeScore, targetScore, averageSecondsPerQuestion, accuracy, nextAction }: { estimatedUtmeScore: number | null; targetScore: number; averageSecondsPerQuestion: number | null; accuracy: number; nextAction: string }) {
+  const targetGap = estimatedUtmeScore === null ? null : Math.max(0, targetScore - estimatedUtmeScore);
+  return <section className="progress-signals tab-section"><div><span className="eyebrow">STUDY SIGNALS</span><h2>Know the next move.</h2><p>{nextAction}</p></div><div className="progress-signal-grid"><div><Target size={17} /><strong>{estimatedUtmeScore === null ? "—" : `${estimatedUtmeScore}/400`}</strong><span>{estimatedUtmeScore === null ? "complete a full mock" : targetGap ? `${targetGap} to target` : "target reached"}</span></div><div><Gauge size={17} /><strong>{accuracy || "—"}{accuracy ? "%" : ""}</strong><span>practice accuracy</span></div><div><Timer size={17} /><strong>{averageSecondsPerQuestion === null ? "—" : `${averageSecondsPerQuestion}s`}</strong><span>average per question</span></div></div></section>;
+}
