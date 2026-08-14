@@ -52,7 +52,7 @@ const inferTopic = (question, subjectName) => {
     if (matches(/magnetic|induction|motor|lenz|resonance/)) return "Magnetism and Electromagnetism";
     return "General Physics";
   }
-  return "To be tagged during syllabus mapping";
+  return "General study";
 };
 
 let subject = subjectFrom(text.split("\n").slice(0, 8).join(" ")) ?? subjectFrom(sourceFile) ?? null;

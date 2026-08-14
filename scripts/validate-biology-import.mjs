@@ -58,7 +58,7 @@ for (let index = 0; index < lines.length; index += 1) {
   staged.push({
     externalId,
     subject: "Biology",
-    topic: "To be tagged during syllabus mapping",
+    topic: "General Biology",
     difficulty: "medium",
     question,
     options: options.map((option) => option.text),
