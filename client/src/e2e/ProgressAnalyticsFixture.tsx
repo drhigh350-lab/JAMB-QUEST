@@ -6,12 +6,15 @@ const now = new Date("2026-08-13T19:00:00.000Z");
 export default function ProgressAnalyticsFixture() {
   const [launchedConfig, setLaunchedConfig] = useState<string>("");
   const scenario = new URLSearchParams(window.location.search).get("paceScenario");
+  const fullMock = new URLSearchParams(window.location.search).get("fullMock") === "1";
   const isSlowAccurate = scenario === "slow-accurate";
   const isFastInaccurate = scenario === "fast-inaccurate";
   const totalAnswered = (isSlowAccurate || isFastInaccurate) ? 40 : 80;
   const totalCorrect = isSlowAccurate ? 32 : isFastInaccurate ? 20 : 55;
   const scenarioDuration = isSlowAccurate ? 4000 : isFastInaccurate ? 1200 : 2100;
-  const examHistory = scenario ? [
+  const examHistory = fullMock ? [
+    { id: 4, subject: "Full JAMB Mock", mode: "cbt", questionCount: 180, correctCount: 144, score: 14400, durationSeconds: 10_800, flaggedCount: 3, missedQuestionIds: ["BIO-001", "CHE-010"], completedAt: now },
+  ] : scenario ? [
     { id: 1, subject: "Full JAMB Mock", mode: "cbt", questionCount: 40, correctCount: totalCorrect, score: 2800, durationSeconds: scenarioDuration, flaggedCount: 4, missedQuestionIds: ["BIO-001", "CHE-010"], completedAt: now },
   ] : [
     { id: 1, subject: "Full JAMB Mock", mode: "cbt", questionCount: 40, correctCount: 28, score: 2800, durationSeconds: 2100, flaggedCount: 4, missedQuestionIds: ["BIO-001", "CHE-010"], completedAt: now },
@@ -34,6 +37,7 @@ export default function ProgressAnalyticsFixture() {
     examHistory={examHistory}
     weakTopics={[{ topic: "Genetics", subject: "Biology", misses: 4, attempts: 6, accuracy: 33 }, { topic: "Stoichiometry", subject: "Chemistry", misses: 3, attempts: 5, accuracy: 40 }]}
     subjectPerformance={[{ subject: "Biology", attempts: 25, accuracy: 72 }, { subject: "Chemistry", attempts: 20, accuracy: 64 }]}
+    fullMockSubjectPerformance={fullMock ? [{ subject: "Use of English", attempts: 60, accuracy: 80 }, { subject: "Biology", attempts: 40, accuracy: 75 }, { subject: "Chemistry", attempts: 40, accuracy: 70 }, { subject: "Physics", attempts: 40, accuracy: 95 }] : []}
     bookmarks={[{ questionId: "BIO-001", subject: "Biology", topic: "Genetics", createdAt: now }, { questionId: "CHE-010", subject: "Chemistry", topic: "Stoichiometry", createdAt: new Date("2026-08-12T19:00:00.000Z") }]}
     comparison={{ latest: { id: 1, accuracy: 70, durationSeconds: 2100, flaggedCount: 4, completedAt: now }, previous: { id: 3, accuracy: 58, durationSeconds: 2250, flaggedCount: 6, completedAt: new Date("2026-08-11T19:00:00.000Z") }, accuracyChange: 12, recommendation: "Run a focused 20-question drill on Genetics; it is your clearest recovery opportunity." }}
     onUpdateDailyMinimum={() => undefined}

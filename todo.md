@@ -80,7 +80,7 @@
 - [x] Add authentic JAMB keyboard shortcuts for answer selection, previous/next navigation, and the submit-confirmation workflow in CBT mode.
 - [x] Upgrade CBT submission review with direct actions to inspect unanswered and flagged questions before final submission.
 - [ ] Separate no-timer Study mode from strict Exam mode in the learner-facing practice setup.
-- [ ] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
+- [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
 - [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
 - [ ] Prepare error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope.

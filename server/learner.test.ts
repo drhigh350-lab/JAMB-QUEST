@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot, summariseSubjectPerformance } from "./db";
+import { buildLedgerSnapshot, selectFullMockSubjectPerformance, summariseSubjectPerformance } from "./db";
 
 describe("buildLedgerSnapshot", () => {
   it("hydrates valid persisted learner progress into the UI ledger shape", () => {
@@ -59,5 +59,15 @@ describe("summariseSubjectPerformance", () => {
       { subject: "Biology", attempts: 3, accuracy: 67 },
       { subject: "Chemistry", attempts: 1, accuracy: 0 },
     ]);
+  });
+});
+
+describe("selectFullMockSubjectPerformance", () => {
+  it("returns contribution evidence only from the newest completed 180-question full mock", () => {
+    expect(selectFullMockSubjectPerformance([
+      { subject: "Full JAMB Mock", questionCount: 40, answerReviewJson: JSON.stringify([{ subject: "Biology", topic: "Ecology", correct: true }]) },
+      { subject: "Full JAMB Mock", questionCount: 180, answerReviewJson: JSON.stringify([{ subject: "Biology", topic: "Ecology", correct: true }, { subject: "Biology", topic: "Ecology", correct: false }, { subject: "Physics", topic: "Forces", correct: true }]) },
+    ])).toEqual([{ subject: "Biology", attempts: 2, accuracy: 50 }, { subject: "Physics", attempts: 1, accuracy: 100 }]);
+    expect(selectFullMockSubjectPerformance([{ subject: "Biology", questionCount: 40, answerReviewJson: null }])).toEqual([]);
   });
 });

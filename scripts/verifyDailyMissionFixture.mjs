@@ -23,6 +23,9 @@ try {
   await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&tab=progress&paceScenario=fast-inaccurate`, { waitUntil: "commit", timeout: 30_000 });
   const fastSignals = (await page.locator(".progress-signals").innerText()).toLowerCase();
   if (!fastSignals.includes("repair the weakest topic first") || !fastSignals.includes("30s per question")) throw new Error(`Fast-but-inaccurate guidance did not prioritise accuracy: ${fastSignals}`);
+  await page.goto(`${baseUrl}/?e2eProgressAnalyticsFixture=1&tab=progress&fullMock=1`, { waitUntil: "commit", timeout: 30_000 });
+  const fullMockSignals = await page.locator(".progress-signals").innerText();
+  if (!fullMockSignals.includes("320/400") || !fullMockSignals.includes("60 TO TARGET") || !fullMockSignals.includes("FULL-MOCK CONTRIBUTION") || !fullMockSignals.includes("ENG 80%") || !fullMockSignals.includes("PHY 95%")) throw new Error(`Full-mock score gap or subject contributions were incomplete: ${fullMockSignals}`);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   if (overflow > 1) throw new Error(`Daily mission phone layout overflowed by ${overflow}px.`);
   console.log(JSON.stringify({ verified: true, dailyWeakTopicMission: true, count: 20, progressSignals: true, paceAwareRecommendations: true, viewport: "390x844" }, null, 2));
