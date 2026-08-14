@@ -84,6 +84,20 @@
 .pause-control { border: 1px solid rgba(18,40,63,.22); background: var(--paper); color: var(--ink); cursor: pointer; }
 .pause-control:hover { border-color: var(--ink); }
 .timer-paused { outline: 3px solid var(--maize); outline-offset: 2px; }
+.quiz-header-controls { display: inline-flex; align-items: center; gap: 8px; }
+.calculator-trigger { color: var(--ink); background: var(--paper); }
+.calculator-dialog { width: min(92vw, 350px); padding: 20px; border: 2px solid var(--ink); background: #fffdf5; box-shadow: 6px 6px 0 var(--maize); }
+.calculator-dialog h2 { color: var(--ink); font: 800 1.15rem "Space Grotesk", sans-serif; }
+.calculator-display { display: grid; gap: 4px; min-height: 85px; margin: 12px 0; padding: 12px; background: var(--ink); color: #fffdf5; text-align: right; overflow: auto; }
+.calculator-display span { color: var(--maize); font: 800 9px "Space Grotesk", sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+.calculator-display output { word-break: break-all; font: 700 clamp(1.35rem, 6vw, 2rem)/1.2 "Space Grotesk", sans-serif; }
+.calculator-keypad { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; }
+.calculator-key { display: inline-flex; align-items: center; justify-content: center; min-height: 47px; border: 1px solid rgba(18,40,63,.25); background: #fff; color: var(--ink); font: 800 1rem "Space Grotesk", sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
+.calculator-key:hover { background: rgba(244,178,40,.22); }
+.calculator-key:active { transform: scale(.97); }
+.calculator-equals { background: var(--green); color: #fffdf5; border-color: var(--green); }
+.calculator-clear { background: var(--maize); }
+.calculator-note { margin: 13px 0 0; color: rgba(18,40,63,.65); font-size: .76rem; line-height: 1.45; }
 .question-card-tools { display: inline-flex; align-items: center; justify-content: flex-end; gap: 8px; }
 .bookmark-control { display: inline-flex; align-items: center; gap: 5px; padding: 5px 7px; border: 1px solid rgba(18,40,63,.2); background: transparent; color: var(--ink); font: 800 9px "Space Grotesk", sans-serif; letter-spacing: .07em; text-transform: uppercase; cursor: pointer; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
 .bookmark-control:hover, .bookmark-control.active { background: var(--maize); border-color: var(--ink); }
@@ -135,6 +149,8 @@
   .exam-log-row { grid-template-columns: 1fr 1fr; gap: 10px; }
   .exam-log-row div:first-child { grid-column: 1 / -1; }
   .question-card-tools { justify-content: space-between; width: 100%; }
+  .quiz-header-controls { gap: 5px; }
+  .calculator-dialog { width: min(94vw, 350px); }
   .question-card-topline { align-items: flex-start; gap: 8px; }
   .comparison-metrics { grid-template-columns: repeat(3, 1fr); }
   .comparison-metrics div { min-height: 58px; padding: 8px; }

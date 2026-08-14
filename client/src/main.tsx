@@ -6,6 +6,7 @@ import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
 import CbtFlowFixture from "./e2e/CbtFlowFixture";
+import CalculatorFixture from "./e2e/CalculatorFixture";
 import ProgressAnalyticsFixture from "./e2e/ProgressAnalyticsFixture";
 import ReadyQuestionCountFixture from "./e2e/ReadyQuestionCountFixture";
 import RealGameCbtFixture from "./e2e/RealGameCbtFixture";
@@ -86,11 +87,12 @@ const isProgressAnalyticsFixture = new URLSearchParams(window.location.search).g
 const isReadyQuestionCountFixture = new URLSearchParams(window.location.search).get("e2eReadyQuestionCountFixture") === "1";
 const isRealGameCbtFixture = new URLSearchParams(window.location.search).get("e2eRealGameCbtFixture") === "1";
 const isSubmittedRichQuestionFixture = new URLSearchParams(window.location.search).get("e2eSubmittedRichQuestionFixture") === "1";
+const isCalculatorFixture = new URLSearchParams(window.location.search).get("e2eCalculatorFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : <App />}
+      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

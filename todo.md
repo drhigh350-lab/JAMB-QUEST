@@ -68,6 +68,10 @@
 - [ ] Regenerate previously AI-written explanations against the authentic-style contract and keep only answer-safe, style-conforming versions.
 - [x] Add a style regression check that rejects label-led, repetitive, or template-like generated explanations before release.
 - [x] Detect repeated sentence stems or duplicated clauses in generated explanations and prove the release verifier rejects a repetitive fixture.
+- [x] Add a simple JAMB-style calculator with standard arithmetic, clear, backspace, and keyboard support.
+- [x] Make the calculator available from both practice and CBT question screens without interrupting the timer or answer state.
+- [x] Verify calculator use during a real CBT exam keeps the countdown, selected answer, flag, and navigator state intact after closing.
+- [x] Add calculator unit and browser coverage, including phone-sized verification.
 - [x] Divide the current home dashboard into focused tab panels so learners are not presented with every function at once.
 - [x] Keep the daily system, quiz entry points, source provenance, and signed-in profile controls reachable from the appropriate tab.
 - [x] Verify tab navigation, profile actions, and responsive layout at desktop and phone sizes.

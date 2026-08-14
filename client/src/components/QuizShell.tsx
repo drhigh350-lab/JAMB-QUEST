@@ -1,10 +1,11 @@
 /* Field Notes Arcade: the quiz shell keeps the ledger, question sheet, and timer in one visible workspace. */
 
 import { ArrowLeft, Flag, Flame, Pause, Send, TimerReset } from "lucide-react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { QuestionCard } from "./QuestionCard";
 import { QuestionLedger } from "./QuestionLedger";
+import { JambCalculator } from "./JambCalculator";
 import type { AnswerRecord, BankQuestion, RoundConfig } from "@/game/types";
 
 interface QuizShellProps {
@@ -43,7 +44,7 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
       <header className="quiz-header">
         <button className="icon-button" onClick={onQuit} aria-label="Leave round"><ArrowLeft size={19} /></button>
         <div className="quiz-header-title"><span className="eyebrow">{cbtMode ? "JAMB CBT MOCK" : config.mode === "review" ? "REVIEW MISSES" : "QUICK SPRINT"}</span><strong>{config.subject}</strong></div>
-        <div className={`timer-block ${timerState} ${isPaused ? "timer-paused" : ""}`}><TimerReset size={17} /><span>{String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}</span></div>
+        <div className="quiz-header-controls"><JambCalculator /><div className={`timer-block ${timerState} ${isPaused ? "timer-paused" : ""}`}><TimerReset size={17} /><span>{String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}</span></div></div>
       </header>
       <div className="quiz-progress-row"><div className="progress-track"><span style={{ width: `${((cbtMode ? answeredCount : currentIndex + (answered ? 1 : 0)) / questions.length) * 100}%` }} /></div><span>{cbtMode ? `${answeredCount} answered` : `${currentIndex + 1} / ${questions.length}`}</span>{streak > 1 && <span className="streak-badge"><Flame size={15} /> {streak} streak</span>}{cbtMode ? <button className="pause-hint pause-control" onClick={onTogglePause}><Pause size={13} /> {isPaused ? "Resume exam" : "Pause exam"}</button> : <span className="pause-hint"><Pause size={13} /> Timer runs live</span>}</div>
       <div className="quiz-workspace">
