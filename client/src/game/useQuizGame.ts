@@ -3,8 +3,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { isRoundTimed } from "./dailyMission";
 import { loadQuestionBank, selectQuestions } from "./questionBank";
-import { getProgress, recordRound, saveProgress } from "./storage";
-import type { AnswerRecord, BankQuestion, ExamReviewRecord, GameScreen, QuizMode, RoundConfig, RoundSubject, StoredProgress } from "./types";
+import { clearActiveCbtSession, getActiveCbtSession, getProgress, recordRound, saveActiveCbtSession, saveProgress } from "./storage";
+import type { ActiveCbtSession, AnswerRecord, BankQuestion, ExamReviewRecord, GameScreen, QuizMode, RoundConfig, RoundSubject, StoredProgress } from "./types";
 
 const DEFAULT_SECONDS = 35;
 const CBT_MINIMUM_SECONDS = 20 * 60;
@@ -46,6 +46,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const [streak, setStreak] = useState(0);
   const [flaggedIds, setFlaggedIds] = useState<string[]>([]);
   const [isPaused, setIsPaused] = useState(false);
+  const [resumableCbt, setResumableCbt] = useState<ActiveCbtSession | null>(() => getActiveCbtSession());
 
   const reload = useCallback(() => {
     const controller = new AbortController();
@@ -86,6 +87,11 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   );
   const isCbt = roundConfig?.mode === "cbt";
   const isTimedRound = isRoundTimed(roundConfig);
+
+  useEffect(() => {
+    if (screen !== "quiz" || !isCbt || !roundConfig || !roundQuestions.length) return;
+    saveActiveCbtSession({ config: roundConfig, questionIds: roundQuestions.map((question) => question.id), answers, flaggedIds, currentIndex, secondsLeft, initialSeconds, isPaused, deadlineAt: isPaused ? null : Date.now() + secondsLeft * 1000 });
+  }, [answers, currentIndex, flaggedIds, initialSeconds, isCbt, isPaused, roundConfig, roundQuestions, screen, secondsLeft]);
 
   const buildReview = useCallback((finalAnswers: Record<string, AnswerRecord>): ExamReviewRecord[] => roundQuestions.map((question) => ({
     questionId: question.id,
@@ -130,6 +136,10 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
         return;
       }
       const startingSeconds = config.mode === "cbt" ? Math.max(CBT_MINIMUM_SECONDS, config.count * 75) : DEFAULT_SECONDS;
+      if (config.mode === "cbt") {
+        clearActiveCbtSession();
+        setResumableCbt(null);
+      }
       setRoundConfig(config);
       setRoundQuestions(picked);
       setCurrentIndex(0);
@@ -178,6 +188,10 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setProgress(nextProgress);
     if (!remoteProgress) saveProgress(nextProgress);
     onRoundComplete?.({ subject: roundConfig.subject, mode: roundConfig.mode, questionCount: roundQuestions.length, correctCount: Object.values(finalAnswers).filter((answer) => answer.correct).length, score: finalScore, wrongIds: completedWrongIds, durationSeconds, flaggedIds, answerReview });
+    if (roundConfig.mode === "cbt") {
+      clearActiveCbtSession();
+      setResumableCbt(null);
+    }
     setScreen("result");
   }, [buildReview, flaggedIds, initialSeconds, onRoundComplete, progress, remoteProgress, roundConfig, roundQuestions, secondsLeft, startedAt]);
 
@@ -219,7 +233,42 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     recordFinalRound(answers, score);
   }, [answers, isCbt, recordFinalRound, score]);
 
-  const quitRound = useCallback(() => setScreen("home"), []);
+  const quitRound = useCallback(() => {
+    if (isCbt) setResumableCbt(getActiveCbtSession());
+    setScreen("home");
+  }, [isCbt]);
+  const resumeCbt = useCallback(() => {
+    if (!resumableCbt || !playableQuestions.length) return;
+    const byId = new Map(playableQuestions.map((question) => [question.id, question]));
+    const restoredQuestions = resumableCbt.questionIds.map((id) => byId.get(id)).filter((question): question is BankQuestion => Boolean(question));
+    if (restoredQuestions.length !== resumableCbt.questionIds.length) {
+      clearActiveCbtSession();
+      setResumableCbt(null);
+      setLoadError("The saved CBT contains questions that are no longer available in the active bank. Start a new CBT instead.");
+      return;
+    }
+    const restoredSeconds = resumableCbt.isPaused || resumableCbt.deadlineAt === null ? resumableCbt.secondsLeft : Math.max(0, Math.ceil((resumableCbt.deadlineAt - Date.now()) / 1000));
+    const restoredIndex = Math.min(Math.max(0, resumableCbt.currentIndex), restoredQuestions.length - 1);
+    setRoundConfig(resumableCbt.config);
+    setRoundQuestions(restoredQuestions);
+    setAnswers(resumableCbt.answers);
+    setFlaggedIds(resumableCbt.flaggedIds);
+    setCurrentIndex(restoredIndex);
+    setSelectedIndex(resumableCbt.answers[restoredQuestions[restoredIndex].id]?.selectedIndex ?? null);
+    setSecondsLeft(restoredSeconds);
+    setInitialSeconds(resumableCbt.initialSeconds);
+    setStartedAt(Date.now() - Math.max(0, resumableCbt.initialSeconds - restoredSeconds) * 1000);
+    setScore(Object.values(resumableCbt.answers).filter((answer) => answer.correct).length * 100);
+    setAnswered(false);
+    setStreak(0);
+    setIsPaused(resumableCbt.isPaused);
+    setLoadError(null);
+    setScreen("quiz");
+  }, [playableQuestions, resumableCbt]);
+  const discardResumableCbt = useCallback(() => {
+    clearActiveCbtSession();
+    setResumableCbt(null);
+  }, []);
   const retryRound = useCallback(() => {
     if (roundConfig) startRound(roundConfig);
   }, [roundConfig, startRound]);
@@ -248,6 +297,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     isCbt,
     isPaused,
     canReview: progress.wrongIds.length > 0,
+    resumableCbt,
     startRound,
     selectAnswer,
     submitAnswer,
@@ -260,6 +310,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     submitCbtReview,
     quitRound,
     retryRound,
+    resumeCbt,
+    discardResumableCbt,
     goHome: quitRound,
   };
 }

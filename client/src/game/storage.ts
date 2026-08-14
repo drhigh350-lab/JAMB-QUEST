@@ -1,8 +1,9 @@
 /* Field Notes Arcade: progress is a quiet paper ledger in local storage, never a blocking login wall. */
 
-import type { AnswerRecord, BankQuestion, RoundConfig, StoredProgress } from "./types";
+import type { ActiveCbtSession, AnswerRecord, BankQuestion, RoundConfig, StoredProgress } from "./types";
 
 const STORAGE_KEY = "jamb-quest-progress-v1";
+const ACTIVE_CBT_KEY = "jamb-quest-active-cbt-v1";
 
 const EMPTY_PROGRESS: StoredProgress = {
   totalAnswered: 0,
@@ -28,6 +29,27 @@ export function getProgress(): StoredProgress {
 export function saveProgress(progress: StoredProgress) {
   if (typeof window === "undefined") return;
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+}
+
+export function getActiveCbtSession(): ActiveCbtSession | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(ACTIVE_CBT_KEY) ?? "null") as Partial<ActiveCbtSession> | null;
+    if (!parsed || parsed.config?.mode !== "cbt" || !Array.isArray(parsed.questionIds) || !parsed.questionIds.length || !parsed.answers || !Array.isArray(parsed.flaggedIds) || typeof parsed.currentIndex !== "number" || typeof parsed.secondsLeft !== "number" || typeof parsed.initialSeconds !== "number" || typeof parsed.isPaused !== "boolean") return null;
+    return { config: parsed.config, questionIds: parsed.questionIds, answers: parsed.answers, flaggedIds: parsed.flaggedIds, currentIndex: parsed.currentIndex, secondsLeft: parsed.secondsLeft, initialSeconds: parsed.initialSeconds, isPaused: parsed.isPaused, deadlineAt: typeof parsed.deadlineAt === "number" ? parsed.deadlineAt : null };
+  } catch {
+    return null;
+  }
+}
+
+export function saveActiveCbtSession(session: ActiveCbtSession) {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(ACTIVE_CBT_KEY, JSON.stringify(session));
+}
+
+export function clearActiveCbtSession() {
+  if (typeof window === "undefined") return;
+  window.localStorage.removeItem(ACTIVE_CBT_KEY);
 }
 
 export function recordRound(

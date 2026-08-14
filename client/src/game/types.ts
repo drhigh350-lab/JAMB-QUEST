@@ -46,6 +46,18 @@ export interface AnswerRecord {
   timedOut: boolean;
 }
 
+export interface ActiveCbtSession {
+  config: RoundConfig;
+  questionIds: string[];
+  answers: Record<string, AnswerRecord>;
+  flaggedIds: string[];
+  currentIndex: number;
+  secondsLeft: number;
+  initialSeconds: number;
+  isPaused: boolean;
+  deadlineAt: number | null;
+}
+
 export interface ExamReviewRecord {
   questionId: string;
   subject: Subject;

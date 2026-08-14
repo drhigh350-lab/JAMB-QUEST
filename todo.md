@@ -83,6 +83,8 @@
 - [x] Add a 20-question mixed-subject diagnostic baseline with five questions per subject for learners without sufficient performance evidence.
 - [x] Verify that completing the diagnostic produces a meaningful weak-topic priority for the following daily mission.
 - [x] Add a regression that persists diagnostic answer reviews and proves the next automatic mission targets the weakest resulting topic.
+- [x] Persist an active CBT’s answers, flags, current question, and remaining time locally so an interruption can resume the same exam.
+- [x] Verify a refreshed CBT session restores the exact in-progress question, selected answer, flag, and countdown without restoring an untimed Study session.
 - [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
 - [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
