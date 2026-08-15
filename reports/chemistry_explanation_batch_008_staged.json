@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-234",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "What is the oxidation state of chlorine in potassium trioxochlorate (V), KClO3?",
+    "options": [
+      "+1",
+      "+3",
+      "+5",
+      "+7"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: the sum of oxidation states in a neutral compound equals 0; K is +1 and O is typically −2.\nLet the oxidation state of Cl be x: +1 + x + 3(−2) = 0.\nSolve: 1 + x − 6 = 0 ⇒ x = +5.\nThus the oxidation state of chlorine is +5, so the correct answer is C (+5).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-235",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "Water hardness caused by dissolved calcium hydrogen trioxocarbonate (IV), Ca(HCO3)2, is known as",
+    "options": [
+      "Permanent hardness",
+      "Temporary hardness",
+      "Artificial hardness",
+      "Alkaline hardness"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: hardness from bicarbonates (hydrogen trioxocarbonate (IV)) of Ca2+ is temporary because these salts decompose on heating.\nDecomposition on heating: Ca(HCO3)2 → CaCO3(s) ↓ + CO2(g) + H2O, so Ca2+ is removed as insoluble CaCO3.\nBecause the dissolved Ca(HCO3)2 can be precipitated and removed by boiling, the hardness it causes is removable.\nCorrect answer: B. Temporary hardness.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-236",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "Which gas law states that the pressure of a fixed mass of gas is directly proportional to its absolute temperature at constant volume?",
+    "options": [
+      "Boyle's Law",
+      "Charles's Law",
+      "Pressure Law (Gay-Lussac's Law)",
+      "Graham's Law"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pressure Law (Gay-Lussac's Law) states that for a fixed mass of gas at constant volume, pressure is directly proportional to absolute temperature.\nUsing the ideal gas law PV = nRT with V and n constant gives P = (nR/V)·T, so P ∝ T.\nThis direct proportionality of pressure with temperature at constant volume is the core of the Pressure Law.\nTherefore the correct option is C: Pressure Law (Gay-Lussac's Law).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-237",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Acid hydrolysis of sucrose (cane sugar) yields an equimolar mixture of",
+    "options": [
+      "Glucose and galactose",
+      "Glucose and fructose",
+      "Glucose and glucose",
+      "Fructose and maltose"
+    ],
+    "answerIndex": 1,
+    "explanation": "Acid hydrolysis cleaves the glycosidic bond of a disaccharide to yield its component monosaccharides in equimolar amounts.\nSucrose is composed of one glucose and one fructose unit joined by an α,β-1,2-glycosidic bond.\nAcidic hydrolysis breaks this bond to give one glucose and one fructose per sucrose molecule.\nTherefore the products are an equimolar mixture of glucose and fructose, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-238",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which indicator turns pink/magenta in alkaline solutions and remains colorless in acidic solutions?",
+    "options": [
+      "Methyl orange",
+      "Litmus",
+      "Phenolphthalein",
+      "Bromothymol blue"
+    ],
+    "answerIndex": 2,
+    "explanation": "Acid–base indicators change color by protonation/deprotonation at characteristic pH values.\nPhenolphthalein is colorless in acidic or neutral solution and turns pink/magenta in alkaline solution (around pH 8.2–10).\nMethyl orange, litmus and bromothymol blue have different color changes and so do not match the described behavior.\nTherefore the correct choice is C. Phenolphthalein.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-239",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Pure alumina (Al2O3) is dissolved in molten cryolite (Na3AlF6) during aluminum extraction to",
+    "options": [
+      "act as a chemical catalyst",
+      "lower the melting point of alumina",
+      "prevent atmospheric oxidation of aluminum",
+      "increase the purity of aluminum metal"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: electrolysis requires a molten electrolyte and lowering the melting point reduces operating temperature and energy demand.\nCryolite acts as a solvent/flux in which Al2O3 dissolves, producing a molten mixture with a much lower melting point than pure alumina.\nThe resulting molten electrolyte also has sufficient ionic conductivity for efficient aluminium extraction at practical temperatures.\nHence option B is correct — cryolite is used primarily to lower the melting point of alumina.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-240",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "How many carbon-carbon double bonds are formally represented in a Kekulé structure of benzene (C6H6)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: The Kekulé structure of benzene is shown as a six-membered ring with alternating single and double C–C bonds.\nAlternation means every other bond around the ring is a double bond.\nCounting those gives 6 ÷ 2 = 3 carbon–carbon double bonds.\nCorrect option: C (3).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-242",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "An aqueous solution turns red litmus paper blue and records a pH of 11. The solution contains an excess of",
+    "options": [
+      "H+ ions",
+      "OH- ions",
+      "Cl- ions",
+      "Na+ ions"
+    ],
+    "answerIndex": 1,
+    "explanation": "pH > 7 indicates a basic solution where OH- concentration exceeds H+ (Kw = 1.0×10^-14).\nRed litmus turning blue confirms the solution is basic.\npH 11 gives [H+] = 10^-11 M.\n[OH-] = Kw/[H+] = 1.0×10^-14 / 10^-11 = 10^-3 M.\nSince OH- (10^-3 M) > H+ (10^-11 M), the solution contains an excess of OH- (option B).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-246",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which element is located in Period 3, Group 1 of the Periodic Table?",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Potassium",
+      "Magnesium"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Period number equals the highest occupied shell and Group 1 elements have one valence electron (alkali metals).\nPeriod 3 therefore has highest shell n=3, and a Group 1 element will have an outer electron in 3s.\nSodium has electronic configuration 1s2 2s2 2p6 3s1, so it is an n=3 element with one valence electron.\nHence the element in Period 3, Group 1 is Sodium — Option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-248",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The subatomic particle possessing a unit positive charge and a relative atomic mass of 1 amu is a",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Alpha particle"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: protons carry a unit positive charge (+1) and have a relative mass of about 1 atomic mass unit (1 amu), while electrons are −1 and neutrons are neutral.\nThe description “unit positive charge and relative mass 1 amu” matches the proton.\nTherefore the correct option is B (Proton).\nElectrons are negatively charged, neutrons have no charge, and alpha particles have +2 charge and ~4 amu, so they are incorrect.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-249",
+    "subject": "Chemistry",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "question": "Which organic functional group reduces Fehling's solution to yield a brick-red precipitate of copper (I) oxide?",
+    "options": [
+      "Alkanone",
+      "Alkanal",
+      "Alkanoic acid",
+      "Alkanol"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fehling's solution oxidizes aldehydes to carboxylic acids while reducing Cu2+ to brick-red Cu2O.\nThe aldehyde functional group (–CHO) is easily oxidized under these conditions, unlike ketones, alcohols or acids.\nAn alkanal contains the –CHO group, so it will reduce Fehling's to give the brick-red copper(I) oxide precipitate.\nTherefore the correct option is B: Alkanal.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-250",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "The industrial process of coating iron sheet surfaces with thin tin metal to prevent corrosion is known as",
+    "options": [
+      "Galvanizing",
+      "Electroplating / Tinning",
+      "Vulcanization",
+      "Annealing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: Corrosion is prevented by a continuous metal coating that blocks oxygen/water and/or provides electrochemical protection; electroplating deposits such a coating.\nIn tinning, tin ions are reduced onto the iron surface by electrolysis to form a thin protective tin layer.\nGalvanizing refers specifically to zinc coating; vulcanization is for rubber and annealing is a heat treatment, so they are incorrect.\nTherefore coating iron sheets with thin tin metal is called electroplating/tinning (Option B).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-003",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Iron is often galvanized in order to",
+    "options": [
+      "make it more malleable",
+      "remove the impurities in it",
+      "protect it against corrosion",
+      "render it passive"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: galvanizing applies a zinc coating that forms a physical barrier and gives sacrificial protection because zinc is more reactive than iron.\nReasoning: the zinc layer prevents moisture and oxygen from contacting the iron and corrodes preferentially.\nResult: the underlying iron is thereby kept from rusting (corroding).\nTherefore this matches option C: protect it against corrosion.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-004",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "In the industrial production of hydrogen gas, carbon (II) oxide (CO) is removed from the reaction mixture by",
+    "options": [
+      "washing under pressure with water",
+      "drying over phosphorus (V) oxide",
+      "passing the mixture through limewater",
+      "using ammoniacal copper (I) chloride solution"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: selective chemical absorption—CO is removed by complexation with Cu(I) in an ammoniacal solution while H2 is inert.\nReason: CO forms a stable soluble complex with cuprous chloride in ammonia, so CO is retained and removed from the gas stream.\nOther options fail: limewater removes CO2, P2O5 only dries gases, and water washing does not selectively absorb CO.\nTherefore passing the mixture through ammoniacal copper(I) chloride solution (option D) removes CO.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-005",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The gas that is most useful in protecting humans against solar radiation is",
+    "options": [
+      "chlorine",
+      "ozone",
+      "carbon (IV) oxide",
+      "hydrogen sulfide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: a protective atmospheric gas must strongly absorb harmful ultraviolet (UV) radiation from the Sun.\nOzone (O3) in the stratosphere absorbs most UV-B and UV-C, preventing these high-energy rays from reaching Earth's surface.\nChlorine, carbon (IV) oxide (CO2) and hydrogen sulfide do not significantly absorb these UV bands and so provide little protection.\nTherefore the gas most useful in protecting humans against solar radiation is ozone — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-006",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Vulcanization of natural rubber involves the reaction/removal of",
+    "options": [
+      "monomers",
+      "single bonds",
+      "double bonds",
+      "polymers"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: Vulcanization uses sulfur to form cross-links in polyisoprene by reacting at carbon–carbon double bonds.\nKey reasoning: Sulfur atoms add to or bridge the C=C sites, converting those double bonds into sulfur-linked single bonds between chains.\nThis cross-linking therefore consumes or alters the double bonds and stabilizes the rubber’s mechanical properties.\nConclusion: Vulcanization involves reaction/removal of double bonds, so option C is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-007",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "The acid used to acidify water in the electrolysis of water is dilute",
+    "options": [
+      "HNO3",
+      "CH3COOH",
+      "H2SO4",
+      "HCl"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: electrolysis of water needs high ionic conductivity and anions that will not be oxidized at the anode.\nA strong acid increases H+ concentration and conductivity; CH3COOH is weak and gives poor conductivity.\nHCl supplies Cl− which is oxidized to Cl2 at the anode (undesirable), whereas H2SO4 supplies H+ and relatively inert SO4^2−.\nTherefore dilute H2SO4 (option C) is used to acidify water for electrolysis.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-009",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "When a salt loses its water of crystallization to the atmosphere on exposure, the process is called",
+    "options": [
+      "efflorescence",
+      "deliquescence",
+      "effervescence",
+      "fluorescence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hydrated salts contain water of crystallization that can be lost or gained depending on vapor pressure differences with the atmosphere.\nIf the vapor pressure of the water in the crystal exceeds the surrounding atmospheric vapor pressure, the salt releases that water and becomes less hydrated.\nThe process of losing water of crystallization on exposure is called efflorescence.\nDeliquescence is the opposite (absorption of moisture), effervescence is gas evolution and fluorescence is light emission, so option A is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-010",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The atomicity of ozone is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 2,
+    "explanation": "Atomicity is the number of atoms present in a single molecule of a substance.\nOzone has the molecular formula O3, indicating one molecule contains three oxygen atoms.\nThus a single ozone molecule contains three atoms.\nTherefore the atomicity of ozone is 3, matching option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-011",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which of the noble gases has the greatest ionization energy?",
+    "options": [
+      "He",
+      "Xe",
+      "Ar",
+      "Rn"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: ionization energy increases across a period and up a group because smaller atoms hold their electrons more tightly.\nAmong noble gases the highest ionization energy will be for the smallest, topmost atom in the group.\nHelium has the smallest atomic radius and highest effective nuclear attraction per electron, so it requires the most energy to remove an electron.\nCorrect answer: A. He",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
