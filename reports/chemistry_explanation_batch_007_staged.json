@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-199",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The functional group present in alkanones (ketones) is",
+    "options": [
+      "-CHO",
+      "-COOH",
+      ">C=O (carbonyl group on non-terminal carbon)",
+      "-OH"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: Ketones have a carbonyl group (C=O) bonded to two carbon atoms, i.e., the carbonyl is internal.\nContrast: Aldehydes are -CHO (terminal C=O), carboxylic acids are -COOH, and alcohols are -OH.\nReasoning: In alkanones the C=O is on a non‑terminal carbon and attached to two alkyl groups, written as >C=O.\nTherefore option C (>C=O, carbonyl group on non-terminal carbon) is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-200",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which acid is present in human gastric juice aiding digestion?",
+    "options": [
+      "Hydrochloric acid (HCl)",
+      "Sulfuric acid (H2SO4)",
+      "Nitric acid (HNO3)",
+      "Lactic acid"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: Effective gastric digestion requires a strong acid to lower pH and activate the protease pepsin.\nKey reasoning: Hydrochloric acid (HCl) is the strong acid secreted into gastric juice by stomach parietal cells.\nElimination: Sulfuric and nitric acids are not secreted in the stomach and lactic acid is not the primary gastric acid.\nConclusion: Therefore the correct answer is A. Hydrochloric acid (HCl).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-201",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "What is the organic product formed when propene reacts with hydrogen bromide (HBr)?",
+    "options": [
+      "1-bromopropane",
+      "2-bromopropane",
+      "1,2-dibromopropane",
+      "Propane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use Markovnikov's rule for electrophilic addition: H from HBr adds to the alkene carbon with more hydrogens and Br to the more substituted carbon.\nPropene has structure CH3–CH=CH2, with the middle carbon secondary and the terminal carbon primary (more Hs).\nTherefore H attaches to the terminal carbon and Br to the middle carbon, forming CH3–CH(Br)–CH3.\nThis product is 2-bromopropane, so the correct answer is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-204",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas turns damp red litmus paper blue?",
+    "options": [
+      "Sulfur dioxide",
+      "Carbon dioxide",
+      "Ammonia",
+      "Chlorine"
+    ],
+    "answerIndex": 2,
+    "explanation": "Red litmus paper turns blue in the presence of a base because OH− ions are produced.\nAmmonia gas dissolves in the moisture to give NH3 + H2O ⇌ NH4+ + OH−.\nThe OH− formed makes the damp red litmus turn blue, indicating a basic gas.\nTherefore the correct option is C: ammonia.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-206",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The mass of an electron is approximately",
+    "options": [
+      "equal to that of a proton",
+      "equal to that of a neutron",
+      "1/1840 of the mass of a proton",
+      "twice the mass of a proton"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: determine the electron-to-proton mass ratio by comparing their known masses.\nme = 9.11×10^-31 kg; mp = 1.67×10^-27 kg.\nme/mp = 9.11×10^-31 ÷ 1.67×10^-27 ≈ 1/1836 ≈ 1/1840.\nTherefore the correct choice is C: the electron's mass is about 1/1840 of a proton.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-207",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "Which technique is best suited for separating a mixture of iron filings and sulfur powder?",
+    "options": [
+      "Distillation",
+      "Magnetic separation",
+      "Filtration",
+      "Sublimation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: use differing physical properties to separate components—here magnetism distinguishes the two.\nReasoning: iron filings are magnetic while sulfur powder is non-magnetic, so a magnet will attract and remove the iron from the mixture.\nOther techniques like distillation, filtration or sublimation depend on boiling point, solubility/particle size, or volatility and are not suited to isolate magnetic particles from a solid mixture.\nTherefore the best technique is B. Magnetic separation.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-208",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which of the following halogen molecules has the highest bond dissociation energy?",
+    "options": [
+      "F2",
+      "Cl2",
+      "Br2",
+      "I2"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: bond dissociation energy depends on effective orbital overlap and interatomic repulsion—better overlap raises bond strength while lone-pair repulsion and larger atomic size lower it.\nF2 suffers significant lone-pair repulsion between very small fluorine atoms which weakens the F–F bond; Cl2 achieves optimal overlap with less repulsion.\nBr2 and I2 are larger so their p-orbital overlap is poorer, giving lower bond energies than Cl2.\nHence Cl2 has the highest bond dissociation energy (Option B).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-211",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which type of nuclear radiation has the highest penetrating power?",
+    "options": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "X-rays"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: neutral, massless, high-energy radiation penetrates matter more than heavy charged particles.\nAlpha particles are heavy and doubly charged so they lose energy quickly and are stopped by paper or skin.\nBeta particles are light charged electrons with moderate penetration, while gamma rays are uncharged high-energy photons that interact weakly with matter.\nHence gamma rays have the highest penetrating power — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-212",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Coal gas is a fuel gas consisting primarily of",
+    "options": [
+      "Methane, carbon (II) oxide, and hydrogen",
+      "Carbon (IV) oxide, oxygen, and nitrogen",
+      "Butane, propane, and ethane",
+      "Sulfur dioxide, carbon monoxide, and water vapor"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: coal gas (town gas) produced by coal gasification contains light hydrocarbons and reducing gases that serve as combustible fuel.\nKey reasoning: the main combustible constituents are methane (CH4), carbon(II) oxide (CO) and hydrogen (H2).\nThis composition exactly matches option A.\nOther options list mainly non-fuel gases (B: CO2/O2/N2), heavier LPG alkanes (C), or pollutants/water vapor (D), so they are incorrect.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-213",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The functional group present in alkanoic acids is",
+    "options": [
+      "-OH",
+      "-CHO",
+      "-COOH",
+      "-COO-"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: alkanoic acids are carboxylic acids and therefore contain the carboxyl functional group.\nThe carboxyl group is written -COOH (a carbonyl C=O plus an OH on the same carbon).\nA (-OH) is an alcohol group, B (-CHO) is an aldehyde, and D (-COO-) is the deprotonated carboxylate ion, so none of these are the neutral carboxyl group.\nHence the correct option is C: -COOH.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-216",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "What is the oxidation number of nitrogen in the nitrate ion (NO3-)?",
+    "options": [
+      "+3",
+      "+4",
+      "+5",
+      "-3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Use the rule that oxidation numbers sum to the ion charge.\nEach oxygen is −2, so three oxygens contribute −6.\nLet N be the oxidation number: N + 3(−2) = −1 ⇒ N − 6 = −1 ⇒ N = +5.\nTherefore the oxidation number of N is +5, so option C is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-218",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Esters are organic compounds widely recognized for their",
+    "options": [
+      "pungent choking odor",
+      "sweet fruity smell",
+      "rotten egg odor",
+      "odorless nature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: Esters contain the −COO− functional group and are usually volatile compounds that produce characteristic odors.\nReasoning: Their molecular structures interact with olfactory receptors to yield pleasant, often sweet or fruity aromas rather than pungent or sulfurous notes.\nTherefore esters are commonly identified by a sweet, fruity smell.\nThis matches option B (sweet fruity smell).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-019",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "What is the conjugate base of hydrogen sulfate ion (HSO4-)?",
+    "options": [
+      "H2SO4",
+      "SO42-",
+      "H+",
+      "SO32-"
+    ],
+    "answerIndex": 1,
+    "explanation": "Conjugate base principle: a conjugate base is formed when an acid loses a proton (H+).\nApply it to HSO4^-: HSO4^- → SO4^2- + H+.\nRemoving H+ from hydrogen sulfate gives the sulfate ion SO4^2-.\nTherefore the correct option is B: SO4^2-.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-221",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "Which metal is extracted commercially by the electrolysis of its fused (molten) chloride?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Sodium",
+      "Lead"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: metals more reactive than hydrogen (very electropositive) cannot be reduced by carbon and are produced by electrolysis of molten salts.\nKey reasoning: sodium is highly electropositive; molten NaCl is electrolysed to give Na at the cathode and Cl2 at the anode.\nIron, copper and lead are less reactive and are commercially obtained by reduction/smelting or other methods, not by electrolysis of fused chlorides.\nTherefore the metal extracted commercially by electrolysis of its fused chloride is sodium — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-223",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following hydrocarbon formulas represents an alkene?",
+    "options": [
+      "C3H8",
+      "C3H6",
+      "C3H4",
+      "C4H10"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alkenes are hydrocarbons with one carbon-carbon double bond and follow the general formula CnH2n.\nFor n = 3 the formula gives C3H2×3 = C3H6.\nAmong the choices, C3H6 is the only formula that fits CnH2n.\nTherefore the correct option is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-224",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Galvanization is the process of protecting iron from rusting by coating it with a thin layer of",
+    "options": [
+      "Tin",
+      "Zinc",
+      "Copper",
+      "Chromium"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: a sacrificial coating must be more reactive than iron so it corrodes preferentially and prevents rust.\nZinc is more reactive (more anodic) than iron and therefore oxidizes first when exposed to air or water.\nThis sacrificial corrosion and the protective zinc compounds that form stop iron from rusting even if the coating is scratched.\nHence galvanization coats iron with zinc — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-227",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "The occurrence of an element in two or more distinct physical forms in the same physical state is called",
+    "options": [
+      "Isomerism",
+      "Isotopy",
+      "Allotropy",
+      "Polymerization"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: When an element exists in two or more distinct physical forms in the same physical state, that phenomenon is called allotropy.\nKey reasoning: These forms differ by atomic arrangement or bonding while remaining the same element (e.g., carbon as diamond and graphite).\nOther options are different concepts: isomerism = different molecular structures, isotopy = same element with different neutron numbers, polymerization = forming long-chain molecules.\nTherefore the correct option is C: Allotropy.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-231",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Fermentation of glucose to ethanol and carbon (IV) oxide is catalyzed by the enzyme",
+    "options": [
+      "Diastase",
+      "Zymase",
+      "Invertase",
+      "Ptyalin"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: specific enzymes catalyze metabolic pathways such as alcoholic fermentation of glucose to ethanol and CO2.\nIn yeast this activity is carried out by the enzyme complex zymase, which converts glucose via glycolytic and fermentative steps to ethanol and CO2.\nDiastase (amylase), invertase and ptyalin act on starch or sucrose, not on alcoholic fermentation.\nTherefore the correct option is B: Zymase.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-232",
+    "subject": "Chemistry",
+    "topic": "Energy changes",
+    "difficulty": "medium",
+    "question": "In an endothermic chemical reaction, the total enthalpy of the products is",
+    "options": [
+      "lower than the enthalpy of the reactants",
+      "higher than the enthalpy of the reactants",
+      "equal to the enthalpy of the reactants",
+      "zero"
+    ],
+    "answerIndex": 1,
+    "explanation": "In an endothermic reaction heat is absorbed from the surroundings, so the enthalpy change ΔH is positive (ΔH > 0).\nThis means H_products − H_reactants = ΔH > 0.\nTherefore the total enthalpy of the products is greater than that of the reactants (H_products > H_reactants).\nThis matches option B: higher than the enthalpy of the reactants.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-233",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas is produced when concentrated sulfuric acid acts as a dehydrating agent on methanoic acid (HCOOH)?",
+    "options": [
+      "Carbon (IV) oxide",
+      "Carbon (II) oxide",
+      "Methane",
+      "Oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: concentrated H2SO4 is a strong dehydrating agent and can remove H2O from formic (methanoic) acid.\nDehydration reaction: HCOOH → CO + H2O.\nThe gaseous product is carbon(II) oxide (CO), not carbon(IV) oxide (CO2) or methane.\nTherefore the correct option is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
