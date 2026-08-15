@@ -1,0 +1,328 @@
+{
+  "batchNumber": 6,
+  "batchSize": 20,
+  "availableCandidates": 635,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30216,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following is a function of the liver?",
+      "options": [
+        "Production of insulin",
+        "Regulation of blood sugar level",
+        "Storage of urine",
+        "Secretion of digestive enzymes"
+      ],
+      "answerIndex": 1,
+      "answerText": "Regulation of blood sugar level",
+      "originalExplanation": "The liver performs many metabolic roles, foremost among them maintaining blood glucose homeostasis.\nIt stores excess glucose as glycogen and releases glucose by glycogenolysis and gluconeogenesis to regulate blood sugar level.\nProduction of insulin is a function of pancreatic beta cells, so 'production of insulin' is not a liver function.\nThe liver does not store urine; urine is collected and stored in the urinary bladder.\nThe liver secretes bile to emulsify fats but does not secrete digestive enzymes—the pancreas and parts of the gut provide most digestive enzymes.\nOther key liver roles include detoxification and synthesis of plasma proteins (e.g., clotting factors), which underline its central metabolic responsibilities.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30217,
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "question": "The respiratory organ of an insect consists of a network of tubes called:",
+      "options": [
+        "Tracheae",
+        "Spiracles",
+        "Gills",
+        "Lungs"
+      ],
+      "answerIndex": 0,
+      "answerText": "Tracheae",
+      "originalExplanation": "Insects respire by a tracheal system composed of tracheae, a branching network of air tubes that distributes oxygen directly to body tissues.\nTracheae connect to the exterior through paired openings called spiracles, which regulate airflow but are not the tube network itself.\nAt the terminal ends tracheae branch into very fine tracheoles where gas exchange with cells occurs by diffusion.\nBecause the tracheae are the internal air-tube system, the option 'Tracheae' is correct for the insect respiratory organ.\n'Spiracles' are plausible distractors since they are involved in respiration, but they are external openings, not the internal network of tubes.\n'Gills' are for aquatic respiration in some animals (and some insect larvae), and 'Lungs' are vertebrate organs; neither describes the typical insect respiratory system.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30218,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Which biome is characterized by large herbivores and a few scattered fire- resistant trees?",
+      "options": [
+        "Savanna",
+        "Tropical Rainforest",
+        "Montane Forest",
+        "Desert"
+      ],
+      "answerIndex": 0,
+      "answerText": "Savanna",
+      "originalExplanation": "The savanna biome is a tropical grassland with pronounced wet and dry seasons, dominated by grasses and a few scattered trees.\nPeriodic fires and heavy grazing maintain the open grassland and favor trees with fire-resistant traits or deep roots, such as Acacia and Baobab.\nThese conditions support large grazing herbivores (for example antelopes, zebras and elephants) and their predators, so large herbivores are characteristic of savannas.\nTropical rainforests are incorrect because they have continuous canopy cover, high year-round rainfall and dense tree growth rather than open grassy areas for large herds.\nMontane forests occur at higher elevations with cooler, often cloud-covered conditions and are generally not dominated by large roaming herbivores or fire-adapted trees.\nDeserts lack the grassy productivity and regular rainfall needed to support large herbivore populations and instead have sparse, drought-adapted vegetation rather than scattered fire-resistant trees.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30219,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "What type of joint is formed between the femur and tibia?",
+      "options": [
+        "Hinge joint",
+        "Ball-and-socket joint",
+        "Pivot joint",
+        "Gliding joint"
+      ],
+      "answerIndex": 0,
+      "answerText": "Hinge joint",
+      "originalExplanation": "A hinge joint is a uniaxial joint that primarily allows movement in one plane, mainly flexion and extension.\nThe articulation between the femur and tibia (the tibiofemoral joint) functions mainly as a hinge joint, permitting bending and straightening of the leg.\nThe femoral condyles and tibial plateaus form complementary surfaces while ligaments and menisci stabilise the joint and restrict excessive side-to-side movement, supporting hinge action.\nA ball-and-socket joint (e.g. hip) allows multi-axial movement including rotation and circumduction, so it is not the femur–tibia joint.\nA pivot joint permits rotation around a single longitudinal axis (e.g. atlantoaxial joint) and a gliding joint involves sliding of flat surfaces (e.g. intercarpal joints); neither describes the tibiofemoral articulation.\nBecause the knee also allows slight rotation when flexed it is sometimes described as a modified hinge (bicondylar) joint, but 'hinge joint' is the correct basic classification for this question.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30220,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "The coloration of the eye is an example of which type of variation?",
+      "options": [
+        "Physiological",
+        "Morphological",
+        "Adaptive",
+        "Recessive"
+      ],
+      "answerIndex": 1,
+      "answerText": "Morphological",
+      "originalExplanation": "Morphological variation refers to differences in the physical structure or appearance of organisms, such as size, shape and colour of body parts.\nEye colour is a visible structural trait of the eye (determined by the amount and distribution of pigment in the iris), so it is classified as morphological variation.\nPhysiological variation involves differences in function or processes (for example metabolic rate or hormone secretion), not outward appearance, so 'physiological' is incorrect.\nAdaptive variation denotes traits shaped by natural selection because they confer survival or reproductive advantage; although some eye colours might have had selective associations in populations, 'adaptive' names an evolutionary cause rather than the trait category.\n‘Recessive’ describes an inheritance pattern of alleles (how a trait is expressed in heterozygotes), not a type of variation; eye colour can involve recessive alleles but that term refers to genetics, not morphology.\nTherefore the best choice is 'Morphological' because eye coloration is an observable, structural characteristic of the organism.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30221,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "If an ovary is positioned on the receptacle above all other floral parts, it is called a:",
+      "options": [
+        "Half inferior ovary",
+        "Superior ovary",
+        "Inferior ovary",
+        "Half superior ovary"
+      ],
+      "answerIndex": 1,
+      "answerText": "Superior ovary",
+      "originalExplanation": "A superior ovary is one that sits on the receptacle with sepals, petals and stamens attached below it.\nBecause the ovary is positioned above all other floral parts on the receptacle, the correct name for this condition is 'superior ovary'.\nAn inferior ovary is the opposite condition: it is fused with or below the receptacle so that the other floral parts arise above the ovary.\nHalf-inferior (partly inferior) and half-superior denote intermediate positions where the ovary is partly immersed in or partly raised above the receptacular tissue, not completely above all parts.\nIn standard floral classification, hypogynous flowers bear a superior ovary while epigynous flowers bear an inferior ovary, which helps link position to flower type.\nGiven the wording 'above all other floral parts', the most plausible and correct option is 'Superior ovary' rather than 'Inferior', 'Half inferior' or 'Half superior'.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30222,
+      "subject": "Biology",
+      "topic": "Adaptations of Organisms",
+      "question": "What is the term for the period of inactivity observed in some animals during prolonged heat or drought?",
+      "options": [
+        "Migration",
+        "Aestivation",
+        "Hibernation",
+        "Adaptation"
+      ],
+      "answerIndex": 1,
+      "answerText": "Aestivation",
+      "originalExplanation": "Aestivation (also spelt estivation) is a period of dormancy during prolonged heat or drought when an animal reduces metabolic activity and conserves water.\nIt is the correct term because this dormancy is specifically a response to high temperature and desiccation risk rather than cold or seasonal movement.\nExamples include certain snails, lungfish and some amphibians or reptiles that burrow, seal themselves off and lower physiological activity to survive dry conditions.\nHibernation is a comparable dormancy but occurs in response to cold and winter food scarcity, not heat and drought.\nMigration involves seasonal movement to better environments, while adaptation is a long-term evolved trait rather than an immediate behavioural dormancy.\nTherefore, among the options given, Aestivation precisely names the inactivity seen during prolonged heat or drought, so it is the correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30223,
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "question": "The deliberate movement of an organism toward or away from a chemical stimulus is called:",
+      "options": [
+        "Phototaxis",
+        "Chemotaxis",
+        "Geotaxis",
+        "Thigmotaxis"
+      ],
+      "answerIndex": 1,
+      "answerText": "Chemotaxis",
+      "originalExplanation": "Chemotaxis is the directional movement of an organism or cell toward (positive chemotaxis) or away from (negative chemotaxis) a chemical stimulus.\nThe correct answer is Chemotaxis because the question specifies a chemical stimulus and chemotaxis is defined as movement in response to chemical gradients.\nMany bacteria, protozoa and immune cells show chemotaxis by moving toward attractant chemicals (e.g. nutrients or signalling molecules) or away from repellents or toxins.\nPhototaxis is movement in response to light and is therefore incorrect here since light is not a chemical cue.\nGeotaxis (or gravitaxis) is movement oriented by gravity and thigmotaxis is movement or positioning in response to touch/contact, so neither matches a chemical stimulus.\nIdentifying the external cue (chemical vs light vs gravity vs touch) is the key to distinguishing chemotaxis from the plausible alternatives.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30225,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Haemophilia is a sex-linked recessive disorder carried on the X chromosome. If a normal man marries a carrier woman, what percentage of their sons is expected to be haemophilic?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answerIndex": 2,
+      "answerText": "50%",
+      "originalExplanation": "Haemophilia is an X‑linked recessive trait, so males (XY) express the disorder if they inherit the mutant X allele.\nA normal man is X^H Y and a carrier woman is X^H X^h, where X^h represents the haemophilia allele.\nSons inherit the Y from their father and one X from their mother, so each son has a 50% chance of receiving X^h.\nTherefore 50% of their sons are expected to be haemophilic, which matches the correct option.\n0% is incorrect because a carrier mother can transmit the mutant X, and 25% is not applicable here (25% arises in autosomal recessive crosses when both parents are carriers).\n100% would require the mother to be homozygous affected (X^h X^h), not merely a carrier; daughters in this cross will be either carriers or normal.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30226,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The plant growth substance responsible for promoting fruit ripening and leaf abscission is:",
+      "options": [
+        "Gibberellin",
+        "Abscisic acid",
+        "Ethylene",
+        "Cytokinin"
+      ],
+      "answerIndex": 2,
+      "answerText": "Ethylene",
+      "originalExplanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening and stimulates leaf abscission by activating ripening enzymes and cell‑wall–degrading enzymes in the abscission zone.\nIn climacteric fruits ethylene synthesis triggers biochemical changes such as conversion of starch to sugars, softening and colour changes characteristic of ripening.\nEthylene induces enzymes like cellulases and polygalacturonases in the abscission zone, causing cell separation and leaf drop.\nAbscisic acid (ABA) is often confused with abscission because of its name, but ABA mainly promotes dormancy, stomatal closure and stress responses rather than directly causing ripening.\nGibberellins chiefly stimulate stem elongation, seed germination and flowering, while cytokinins promote cell division and delay leaf senescence, so neither causes ripening and abscission.\nTherefore, ethylene is the correct option because it directly regulates both fruit ripening and leaf abscission.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30227,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In an aquatic ecosystem, the light penetration zone where photosynthesis can comfortably occur is referred to as the:",
+      "options": [
+        "Aphotic zone",
+        "Photic zone",
+        "Benthic zone",
+        "Abyssal zone"
+      ],
+      "answerIndex": 1,
+      "answerText": "Photic zone",
+      "originalExplanation": "The photic zone is the upper layer of a water body that receives enough sunlight to support photosynthesis.\nIt is also called the euphotic or sunlight zone and its depth varies with water clarity, often reaching up to ~200 m in clear ocean water but much shallower in turbid lakes or coastal waters.\nThe aphotic zone lies below the photic zone and receives insufficient light for photosynthesis, so primary production there is negligible.\nThe benthic zone refers to the bottom substrate and associated organisms and can include parts of the photic or aphotic zones depending on depth and light penetration.\nThe abyssal zone is a deep‑ocean benthic region (roughly 3,000–6,000 m) that is perpetually dark and cold and therefore cannot support photosynthesis.\nThus \"Photic zone\" is correct because it specifically denotes the light‑penetrated layer where photosynthetic organisms can comfortably live and produce organic matter.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30228,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which of the following organisms is an invertebrate that possesses an exoskeleton made of chitin and jointed appendages?",
+      "options": [
+        "Earthworm",
+        "Snail",
+        "Grasshopper",
+        "Starfish"
+      ],
+      "answerIndex": 2,
+      "answerText": "Grasshopper",
+      "originalExplanation": "The question asks which invertebrate has a chitinous exoskeleton and jointed appendages—hallmarks of arthropods.\nGrasshoppers are insects (a class of arthropods) and therefore have a hard external skeleton made of chitin and paired, jointed legs and antennae.\nEarthworms are annelid worms with a soft, segmented body and no external chitinous shell or jointed limbs.\nSnails are molluscs with a calcium-containing shell and a muscular foot, not a chitinous exoskeleton or articulated appendages.\nStarfish are echinoderms with an internal calcareous skeleton (ossicles) and tube feet arranged radially rather than jointed appendages.\nTherefore Grasshopper is correct because it meets both criteria—chitinous exoskeleton and jointed appendages—unlike the other three.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30229,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Nitrogen-fixing bacteria found in the root nodules of leguminous plants belong to the genus:",
+      "options": [
+        "Nitrosomonas",
+        "Nitrobacter",
+        "Rhizobium",
+        "Clostridium"
+      ],
+      "answerIndex": 2,
+      "answerText": "Rhizobium",
+      "originalExplanation": "This question concerns symbiotic nitrogen fixation in leguminous root nodules.\nRhizobium species are the typical endosymbiotic bacteria that infect legume roots and form nodules where they fix atmospheric nitrogen into ammonia using the enzyme nitrogenase.\nThe plant supplies carbohydrates and a low-oxygen environment (via leghemoglobin) that allows nitrogenase activity while the bacteria supply fixed nitrogen for amino acid synthesis.\nNitrosomonas and Nitrobacter are nitrifying bacteria that oxidize ammonia to nitrite and nitrite to nitrate respectively and do not form root nodules.\nClostridium includes some free-living nitrogen-fixing anaerobes but they are not the typical symbionts forming nodules on legume roots.\nTherefore Rhizobium is the correct choice because it specifically forms the mutualistic root nodules characteristic of legumes.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30230,
+      "subject": "Biology",
+      "topic": "Plant Growth and Reproduction",
+      "question": "The process of seed germination in which the cotyledons are pushed above the ground surface is known as:",
+      "options": [
+        "Hypogeal germination",
+        "Epigeal germination",
+        "Viviparous germination",
+        "Dormant germination"
+      ],
+      "answerIndex": 1,
+      "answerText": "Epigeal germination",
+      "originalExplanation": "Epigeal germination is a form of seed germination in which the cotyledons are carried above the soil surface.\nThis upward movement is produced by elongation of the hypocotyl which forms a hook and pulls the cotyledons out of the soil.\nThus option B, Epigeal germination, is correct because it exactly describes cotyledons being pushed above ground.\nHypogeal germination is the opposite condition in which cotyledons remain below ground while the epicotyl or plumule elongates.\nViviparous germination means seeds germinate while still attached to the parent (as in some mangroves), and ‘dormant germination’ is not a standard name for a germination type but refers loosely to delayed germination due to seed dormancy.\nTypical epigeal examples include many bean species and sunflower, whereas peas and some other legumes commonly show hypogeal germination.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30232,
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "question": "The movement of a whole organism or its parts in response to a directional stimulus such as light or chemicals is termed:",
+      "options": [
+        "Tropism",
+        "Nastic movement",
+        "Taxis",
+        "Reflex action"
+      ],
+      "answerIndex": 2,
+      "answerText": "Taxis",
+      "originalExplanation": "Taxis is directional locomotory movement of a whole organism or motile cell toward or away from a stimulus (e.g., phototaxis, chemotaxis).\nIt specifically denotes movement of the organism itself, not growth-based repositioning of parts.\nTropism refers to directional growth responses in plants (like phototropism) and is usually slow and growth-mediated, so it is not taxis.\nNastic movements are responses whose direction is independent of the stimulus direction (for example, nyctinasty or thigmonasty), therefore not classified as taxis.\nReflex actions are rapid involuntary neural responses by animals involving effectors (muscles or glands) and are distinct from whole-organism directional movement toward stimuli.\nBecause the stem describes whole-organism directional movement in response to light or chemicals, the correct term is taxis.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30233,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The ecological transition zone between two distinct biological communities, such as forest and savanna, is called an:",
+      "options": [
+        "Ecological niche",
+        "Ecotone",
+        "Habitat",
+        "Ecosystem"
+      ],
+      "answerIndex": 1,
+      "answerText": "Ecotone",
+      "originalExplanation": "An ecotone is the transitional area where two different biological communities meet and integrate, such as between forest and savanna.\nThis zone contains a mix of species from both adjacent communities and can support species uniquely adapted to intermediate conditions.\nEcotone is correct because it specifically denotes the boundary or transition with changes in environmental factors and species composition.\nAn ecological niche is incorrect here because a niche describes the functional role or requirements of a species, not a community boundary.\nA habitat is the place where an organism lives and an ecosystem is the interacting community plus its physical environment; neither term specifically names a transition zone.\nEcotones often show strong edge effects—changes in species richness and interactions at the boundary—so they are ecologically significant for biodiversity.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30234,
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "question": "Which structural adaptation increases the surface area for nutrient absorption in the mammalian small intestine?",
+      "options": [
+        "Cilia",
+        "Villi",
+        "Alveoli",
+        "Flagella"
+      ],
+      "answerIndex": 1,
+      "answerText": "Villi",
+      "originalExplanation": "The question asks which structural adaptation in the mammalian small intestine increases surface area for nutrient absorption.\nVilli are finger‑like projections of the intestinal mucosa that greatly increase the internal surface area available for digestion and absorption.\nEach villus contains a network of capillaries and a central lacteal to transport absorbed amino acids, monosaccharides and lipids into the blood and lymph.\nCilia and flagella are surface organelles used for cell movement or moving fluids along surfaces and do not increase intestinal absorptive area.\nAlveoli are tiny air sacs in the lungs specialised for gas exchange rather than nutrient absorption, so they are not relevant here.\nBecause villi (and the microvilli on their enterocytes) maximise surface area and shorten diffusion distances for nutrients, 'Villi' is the correct option.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30235,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The primary function of the contractile vacuole in freshwater protozoans like Paramecium is:",
+      "options": [
+        "Excretion of nitrogenous wastes",
+        "Locomotion",
+        "Osmoregulation",
+        "Digestion of food particles"
+      ],
+      "answerIndex": 2,
+      "answerText": "Osmoregulation",
+      "originalExplanation": "The contractile vacuole is a membrane-bound organelle in many freshwater protozoans that collects and expels excess water from the cytoplasm.\nIn a hypotonic freshwater environment water enters the cell by osmosis, so the vacuole periodically fills and contracts to pump the water out, maintaining cell volume and preventing lysis.\nBecause its main role is to regulate internal water content and ion balance, the correct option is Osmoregulation.\nExcretion of nitrogenous wastes is primarily by diffusion across the cell surface or by other excretory structures in multicellular organisms, not the vacuole’s main role here.\nLocomotion in Paramecium is achieved by cilia, so the contractile vacuole does not function in movement.\nDigestion of food particles occurs in food vacuoles and lysosomes, distinguishing digestive function from the contractile vacuole’s osmoregulatory role.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30236,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "A cross between two heterozygous tall plants Tt × Tt will yield a phenotypic ratio of tall to dwarf plants of:",
+      "options": [
+        "1 :",
+        "3 :",
+        "1 : 2 :",
+        "9 : 3 : 3 :"
+      ],
+      "answerIndex": 1,
+      "answerText": "3 :",
+      "originalExplanation": "This is a monohybrid cross involving one gene with two alleles where T (tall) is dominant over t (dwarf).\nA Punnett square for Tt × Tt gives genotypes in the ratio 1 TT : 2 Tt : 1 tt.\nBoth TT and Tt show the tall phenotype, so phenotypically there are three tall to one dwarf.\nTherefore the option indicated as '3 :' should be read as the 3 : 1 phenotypic ratio and is correct.\nOptions like '1 :' or '1 : 2 :' would represent 1:1 or 1:2 ratios that come from different crosses (e.g., homozygote × heterozygote or other mating types) and are not produced by Tt × Tt.\nThe '9 : 3 : 3 :' choice is the typical dihybrid phenotypic ratio (9:3:3:1) and is irrelevant to a single-gene monohybrid cross.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30237,
+      "subject": "Biology",
+      "topic": "Endocrine Regulation",
+      "question": "Which human endocrine gland secretes thyroxine to regulate the basal metabolic rate?",
+      "options": [
+        "Adrenal gland",
+        "Pituitary gland",
+        "Thyroid gland",
+        "Pancreas"
+      ],
+      "answerIndex": 2,
+      "answerText": "Thyroid gland",
+      "originalExplanation": "Thyroxine (T4) is a hormone produced by the thyroid gland that increases basal metabolic rate by stimulating oxygen consumption and heat production in cells.\nThe thyroid gland, located in the front of the neck, is the primary endocrine organ that synthesizes and secretes thyroxine and its active form triiodothyronine (T3).\nThe correct option is Thyroid gland because it directly produces and releases thyroxine into the bloodstream to regulate metabolism.\nThe pituitary gland controls thyroxine release indirectly by secreting thyroid-stimulating hormone (TSH) but does not make thyroxine itself.\nThe adrenal gland secretes corticosteroids and adrenaline, and the pancreas secretes insulin and glucagon; neither of these glands produces thyroxine.\nClinical conditions such as hypothyroidism (low thyroxine) and hyperthyroidism (high thyroxine) alter basal metabolic rate, demonstrating thyroxine's central role in metabolic regulation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

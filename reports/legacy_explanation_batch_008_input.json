@@ -1,0 +1,328 @@
+{
+  "batchNumber": 8,
+  "batchSize": 20,
+  "availableCandidates": 595,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30299,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "During anaerobic breakdown of glucose in mammalian muscles during strenuous exercise, the end product is:",
+      "options": [
+        "Ethanol",
+        "Carbon dioxide",
+        "Lactic acid",
+        "Pyruvic acid"
+      ],
+      "answerIndex": 2,
+      "answerText": "Lactic acid",
+      "originalExplanation": "Under anaerobic conditions in mammalian muscle, glucose is broken down by glycolysis to pyruvic acid, which is then reduced to lactic acid (lactate).\nThe enzyme lactate dehydrogenase catalyses this reduction, using NADH to regenerate NAD+ so glycolysis can continue to supply ATP.\nBecause pyruvate is rapidly converted to lactate when oxygen is scarce, lactic acid (lactate) is the end product of anaerobic glycolysis in muscle.\nPyruvic acid is therefore an intermediate, not the final product under anaerobic muscle conditions.\nCarbon dioxide is produced during aerobic respiration (pyruvate oxidation and the Krebs cycle), and ethanol is produced by alcoholic fermentation in yeasts and microbes, not by mammalian muscle.\nConsequently lactic acid is the correct choice since it accumulates in muscles during strenuous exercise to permit continued ATP generation under low oxygen.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30300,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Which biome in Nigeria is characterized by high annual rainfall, dense multi- layered canopy, and rich biodiversity?",
+      "options": [
+        "Guinea Savanna",
+        "Sudan Savanna",
+        "Tropical Rainforest",
+        "Mangrove Swamp"
+      ],
+      "answerIndex": 2,
+      "answerText": "Tropical Rainforest",
+      "originalExplanation": "A biome is a large ecological area defined by its climate, vegetation structure and characteristic organisms; a tropical rainforest is defined by very high annual rainfall, consistently warm temperatures and a dense, multi-layered canopy.\nTropical rainforests typically receive over 2000 mm of rain yearly and show distinct vertical layers (emergent trees, closed canopy, understory and forest floor), which supports very high species diversity and complex ecological interactions.\nGuinea savanna, though more wooded than northern savannas, has a mixed grass-and-tree profile with lower annual rainfall and lacks the continuous multi-layered canopy of true rainforests.\nSudan savanna is drier still, dominated by grasses and scattered drought-resistant trees, with an open canopy and much lower biodiversity compared with rainforest.\nMangrove swamps occur in coastal, waterlogged and saline conditions with salt-tolerant trees and specialized fauna; they form dense stands but are tidal and structurally different from inland multi-layered tropical rainforests.\nIn Nigeria, tropical rainforest vegetation is found in the southern regions and matches the high rainfall, layered canopy and rich biodiversity described, so 'Tropical Rainforest' is the correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30301,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "The enzyme present in saliva that initiates the chemical digestion of starches into maltose is:",
+      "options": [
+        "Pepsin",
+        "Ptyalin",
+        "Trypsin",
+        "Lipase"
+      ],
+      "answerIndex": 1,
+      "answerText": "Ptyalin",
+      "originalExplanation": "Ptyalin, also called salivary amylase, is the enzyme in saliva that begins chemical digestion of starch into maltose.\nIt is secreted mainly by the parotid salivary glands and hydrolyses alpha-1,4 glycosidic bonds in starch to yield maltose and dextrins.\nPtyalin operates optimally at the near-neutral pH of the mouth and is quickly inactivated when swallowed into the acidic stomach environment.\nPepsin is incorrect because it is a gastric protease that breaks peptide bonds in proteins rather than acting on carbohydrates.\nTrypsin is a pancreatic protease active in the small intestine and lipase hydrolyses triglycerides, so neither participates in starch digestion.\nTherefore ptyalin (salivary amylase) is the correct answer as the salivary enzyme that initiates starch digestion to maltose.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30302,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Which structural modification allows desert plants, xerophytes, to minimize transpiration?",
+      "options": [
+        "Broad, thin leaf blades",
+        "Abundant open stomata on upper epidermis",
+        "Thick waxy cuticle and reduced spine-like leaves",
+        "Spongy aerenchyma tissues"
+      ],
+      "answerIndex": 2,
+      "answerText": "Thick waxy cuticle and reduced spine-like leaves",
+      "originalExplanation": "The question concerns structural adaptations in xerophytes that reduce transpiration in arid environments.\nA thick waxy cuticle reduces cuticular water loss, while reducing leaves to spines greatly lowers surface area for transpiration.\nStomata control gaseous exchange and water loss, and xerophytes often have few, sunken or otherwise protected stomata to limit transpiration.\nBroad, thin leaf blades increase surface area and evaporative loss, so that option is incorrect for xerophytic adaptation.\nAbundant open stomata on the upper epidermis would markedly increase water loss and is the opposite of xerophytic strategy.\nSpongy aerenchyma is typical of aquatic plants to aid buoyancy and internal gas movement, not an adaptation for reducing transpiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30303,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "In humans, fertilization typically occurs in which region of the female reproductive tract?",
+      "options": [
+        "Ovary",
+        "Fallopian tube",
+        "Uterus",
+        "Cervix"
+      ],
+      "answerIndex": 1,
+      "answerText": "Fallopian tube",
+      "originalExplanation": "Fertilization in humans normally takes place in the fallopian tube, most often in its ampulla (the widened middle third).\nAfter ovulation the oocyte is captured by the fimbriae and moved into the tube where ciliary action, muscular contractions and tubal secretions support sperm capacitation and sperm–egg fusion.\nThe ovary produces and releases the oocyte but is not the usual site of sperm–egg union, so 'Ovary' is incorrect.\nThe uterus is the site of implantation and embryo development rather than the location of fertilization.\nThe cervix functions as a passage and selective barrier to sperm entering the uterus and is not where fertilization takes place.\nTherefore 'Fallopian tube' is correct because its structure and secretions provide the proper environment and timing for the sperm and egg to meet and initiate development.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30304,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Nitrogen gas in the atmosphere is converted into nitrates in the soil during lightning discharges via:",
+      "options": [
+        "Biological nitrogen fixation",
+        "Atmospheric nitrogen fixation",
+        "Nitrification",
+        "Ammonification"
+      ],
+      "answerIndex": 1,
+      "answerText": "Atmospheric nitrogen fixation",
+      "originalExplanation": "Lightning provides enough energy to break atmospheric N≡N bonds, producing nitrogen oxides that form nitrate in rainwater (atmospheric nitrogen fixation).\nThis abiotic process is called atmospheric nitrogen fixation because it converts N2 directly into oxidized nitrogen compounds without biological agents.\nNitrogen oxides produced by lightning dissolve in water to form nitric acid and nitrate ions that enter the soil with rainfall.\nBiological nitrogen fixation, by contrast, is carried out by bacteria (e.g., Rhizobium, Azotobacter) that convert N2 to ammonia, not directly to nitrates.\nNitrification is the microbial oxidation of ammonia to nitrite and nitrate in the soil, and ammonification is the breakdown of organic nitrogen to ammonia—both are biological soil processes distinct from lightning-driven fixation.\nTherefore 'atmospheric nitrogen fixation' is the correct choice because lightning-caused NOx production is the abiotic route producing soil nitrates, while the other options describe biological or subsequent microbial transformations.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30305,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The specialized excretory structures found in insects like the cockroach are:",
+      "options": [
+        "Flame cells",
+        "Nephridia",
+        "Malpighian tubules",
+        "Green glands"
+      ],
+      "answerIndex": 2,
+      "answerText": "Malpighian tubules",
+      "originalExplanation": "Malpighian tubules are the specialized excretory organs of insects such as the cockroach.\nThey are blind‑ended tubules that open into the alimentary canal at the junction of the midgut and hindgut and transport salts and nitrogenous wastes into the gut lumen.\nInsects convert toxic ammonia into relatively insoluble uric acid which is secreted by Malpighian tubules and then processed in the hindgut with water and ion reabsorption, conserving water.\nFlame cells (protonephridia) occur in flatworms and some other simple invertebrates and are not structures of insects.\nNephridia are the excretory tubes of annelids (e.g. earthworms) and green glands (antennal glands) are the excretory organs of many crustaceans (e.g. crayfish), so these alternatives do not fit insects.\nThus Malpighian tubules are correct because their structure, position and role in uric acid excretion and water balance match insect physiology.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30306,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Human height, weight, and skin color are examples of:",
+      "options": [
+        "Discontinuous variation",
+        "Continuous variation",
+        "Sex-linked variation",
+        "Mutational variation"
+      ],
+      "answerIndex": 1,
+      "answerText": "Continuous variation",
+      "originalExplanation": "Height, weight and skin colour show continuous variation because they occur across a range of measurements rather than in separate, discrete categories.\nThese traits are typically polygenic, with many genes contributing additively to produce a spectrum of phenotypes.\nEnvironmental influences such as nutrition, health and sun exposure also modify these quantitative traits and increase variation in the population.\nDiscontinuous variation involves distinct classes with no intermediates (for example, ABO blood groups or presence/absence traits), which does not describe height, weight or skin colour.\nSex‑linked variation refers to traits determined by genes on the sex chromosomes and affecting inheritance patterns (for example, red‑green colour blindness), not to the graded distribution seen here.\nMutational variation is caused by changes in DNA sequence and can affect any trait, but it is not the categorical explanation for the continuous ranges observed for height, weight or skin colour.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30307,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "A cross between a pure-breeding red-flowered plant and a pure-breeding white- flowered plant producing all pink offspring in the F₁ generation demonstrates:",
+      "options": [
+        "Complete dominance",
+        "Incomplete dominance",
+        "Codominance",
+        "Epistasis"
+      ],
+      "answerIndex": 1,
+      "answerText": "Incomplete dominance",
+      "originalExplanation": "The pattern is incomplete dominance, where the heterozygote phenotype is intermediate between the two homozygotes.\nA cross of pure-breeding red (RR) with pure-breeding white (rr) giving all pink (Rr) F1 shows neither allele completely masks the other.\nIn incomplete dominance the heterozygote produces a blended phenotype (pink) rather than expressing one parent’s color alone.\nComplete dominance would produce F1 showing only one parental phenotype (all red or all white), not an intermediate color.\nCodominance would display both parental phenotypes simultaneously (e.g., red and white patches), not a uniform pink.\nEpistasis involves interactions between different genes affecting a trait and is not indicated by a single-gene cross yielding intermediate F1 offspring.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30308,
+      "subject": "Biology",
+      "topic": "Transport",
+      "question": "The movement of molecules from a region of higher concentration to lower concentration along a concentration gradient is:",
+      "options": [
+        "Active transport",
+        "Diffusion",
+        "Osmosis",
+        "Imbibition"
+      ],
+      "answerIndex": 1,
+      "answerText": "Diffusion",
+      "originalExplanation": "Diffusion is the passive movement of molecules from a region of higher concentration to a region of lower concentration until equilibrium is reached.\nDiffusion requires no metabolic energy and can occur in gases, liquids, and across permeable membranes.\nThe stem describes this passive movement along a concentration gradient, so 'Diffusion' is the correct option.\nActive transport is not correct because it moves substances against their concentration gradient and requires cellular energy (ATP).\nOsmosis is often confused with diffusion but refers specifically to the net movement of water across a selectively permeable membrane, not all solute molecules.\nImbibition is the absorption of water by colloidal substances or dry materials (e.g. seeds) with swelling, a bulk uptake process rather than simple molecular diffusion along a gradient.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30309,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Which of the following is a non-renewable natural resource?",
+      "options": [
+        "Forest timber",
+        "Wildlife",
+        "Petroleum",
+        "Solar energy"
+      ],
+      "answerIndex": 2,
+      "answerText": "Petroleum",
+      "originalExplanation": "Renewable resources can be replenished naturally at rates comparable to human use, while non‑renewable resources exist in finite amounts and are not replenished on human timescales.\nPetroleum is non‑renewable because it is a fossil fuel formed from buried organic matter over millions of years and cannot be restored within human lifetimes.\nGlobal reserves of petroleum are therefore finite and can be exhausted if extraction continues without substitutes.\nForest timber is generally renewable because trees regrow, but unsustainable logging can locally deplete forests and reduce renewability.\nWildlife is renewable through reproduction, yet populations can collapse or go extinct from overexploitation and habitat loss.\nSolar energy is renewable and effectively inexhaustible for human use, unlike petroleum which requires geological timescales to form.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30310,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The valve located between the right atrium and right ventricle of the human heart is the:",
+      "options": [
+        "Bicuspid valve",
+        "Tricuspid valve",
+        "Aortic semilunar valve",
+        "Pulmonary semilunar valve"
+      ],
+      "answerIndex": 1,
+      "answerText": "Tricuspid valve",
+      "originalExplanation": "The valve between the right atrium and right ventricle is the tricuspid valve, so named because it has three cusps.\nThe tricuspid valve prevents backflow of blood into the right atrium during right ventricular contraction (systole).\nThe bicuspid (mitral) valve is on the left side between the left atrium and left ventricle and has two cusps, so it is not the correct choice here.\nThe aortic semilunar valve sits between the left ventricle and the aorta and has pocket-shaped (semilunar) cusps, differing in location and form from atrioventricular valves.\nThe pulmonary semilunar valve lies between the right ventricle and the pulmonary artery and likewise functions as an outflow valve rather than an atrioventricular valve.\nA useful discriminator is that atrioventricular valves (tricuspid and bicuspid) lie between atria and ventricles while semilunar valves lie at the exits of the ventricles to the great arteries.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30311,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The stage of cell division during which sister chromatids separate and move toward opposite poles of the spindle is:",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "answerIndex": 2,
+      "answerText": "Anaphase",
+      "originalExplanation": "The question asks which phase of mitosis involves sister chromatids separating and moving to opposite poles of the spindle.\nAnaphase is correct because during anaphase the centromeres split and spindle microtubules shorten, pulling the sister chromatids apart toward opposite poles.\nIn metaphase chromosomes are aligned at the cell equator with sister chromatids attached to spindle fibers, but they have not yet separated.\nProphase is characterized by chromosome condensation and spindle formation, not the physical separation of sister chromatids.\nTelophase follows anaphase and involves chromatids reaching the poles, decondensing and being enclosed by new nuclear envelopes.\nNoting that centromere division and poleward movement occur during anaphase distinguishes it clearly from the other mitotic stages.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30312,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "The joint present at the elbow and knee allowing movement in a single plane is a:",
+      "options": [
+        "Ball-and-socket joint",
+        "Hinge joint",
+        "Pivot joint",
+        "Gliding joint"
+      ],
+      "answerIndex": 1,
+      "answerText": "Hinge joint",
+      "originalExplanation": "The joint at the elbow and knee that allows movement primarily in a single plane is the hinge joint.\nHinge joints are uniaxial, formed by complementary convex and concave surfaces that permit mainly flexion and extension in one plane.\nThe elbow (humeroulnar articulation) and the knee (femorotibial articulation) are classical human examples of hinge joints.\nBall-and-socket joints (e.g., shoulder and hip) are multiaxial and allow movement in many planes including rotation, so they are not limited to a single plane.\nPivot joints produce rotation around a single longitudinal axis (e.g., atlas–axis) and gliding joints permit sliding between nearly flat surfaces (e.g., intercarpal joints), so neither matches the elbow/knee function.\nBecause the elbow and knee restrict movement to flexion and extension along one axis and provide stability for load-bearing and lever action, the correct answer is hinge joint.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30313,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In flowering plants, double fertilization results in the formation of a diploid zygote and a triploid:",
+      "options": [
+        "Embryo sac",
+        "Endosperm nucleus",
+        "Perisperm",
+        "Seed coat"
+      ],
+      "answerIndex": 1,
+      "answerText": "Endosperm nucleus",
+      "originalExplanation": "Double fertilization in flowering plants involves two male gametes from a pollen tube; one fuses with the egg cell to form the diploid zygote.\nThe other male gamete fuses with the two polar nuclei in the central cell of the embryo sac to form the triploid primary endosperm nucleus.\nThus the triploid product is the endosperm nucleus, which later develops into nutritive tissue for the embryo.\n\"Embryo sac\" is incorrect because it is the female gametophyte that contains the egg, polar nuclei and synergids, not a fertilization product.\n\"Perisperm\" and \"seed coat\" are maternal tissues—the perisperm derives from nucellar tissue and the seed coat from integuments—so neither is formed by fusion of male gametes.\nTherefore the correct option is Endosperm nucleus, formed by fusion of a sperm nucleus with two polar nuclei giving a 3n nucleus.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30314,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "The disease caused by the flagellated protozoan Trypanosoma and transmitted by tsetse flies is:",
+      "options": [
+        "Malaria",
+        "Sleeping sickness",
+        "Elephantiasis",
+        "River blindness"
+      ],
+      "answerIndex": 1,
+      "answerText": "Sleeping sickness",
+      "originalExplanation": "The disease described is Human African trypanosomiasis (sleeping sickness), caused by flagellated protozoa of the genus Trypanosoma.\nTsetse flies (Glossina spp.) transmit infective trypanosomes during blood meals, introducing the parasite into the human bloodstream.\nTwo main human pathogenic subspecies are Trypanosoma brucei gambiense (chronic West/Central African form) and T. b. rhodesiense (acute East African form), both causing progressive neurological signs and disturbed sleep–wake cycles.\nMalaria is incorrect because it is caused by Plasmodium species transmitted by Anopheles mosquitoes, not by Trypanosoma.\nElephantiasis is lymphatic filariasis due to filarial worms (e.g., Wuchereria bancrofti) transmitted by mosquitoes, and river blindness is caused by the nematode Onchocerca volvulus transmitted by blackflies—none are trypanosomes.\nTherefore the correct option is \"Sleeping sickness,\" as it uniquely matches a Trypanosoma infection transmitted by tsetse flies.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30315,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "In aquatic habitats, organisms that float or drift passively near the surface of water are called:",
+      "options": [
+        "Benthos",
+        "Nekton",
+        "Plankton",
+        "Neuston"
+      ],
+      "answerIndex": 2,
+      "answerText": "Plankton",
+      "originalExplanation": "Organisms that float or drift passively near the water surface are called plankton.\nPlankton comprise phytoplankton (photosynthetic microscopic algae) and zooplankton (small drifting animals) and cannot swim strongly against currents.\nPlankton is correct because the key criterion is passive drifting with water movements rather than active swimming.\nBenthos are bottom-dwelling organisms living on or in the substrate, so they do not fit the description of surface drifters.\nNekton are active, free-swimming organisms (for example most fishes and squids) that can move independently of currents, unlike plankton.\nNeuston live at the water's surface film or immediate surface layer and may include some surface floaters, but they are distinct from the general drifting plankton community.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30317,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The process of tooth decay, dental caries, is initiated by bacteria converting dietary sugars into:",
+      "options": [
+        "Acids",
+        "Alkalis",
+        "Enzymes",
+        "Toxins"
+      ],
+      "answerIndex": 0,
+      "answerText": "Acids",
+      "originalExplanation": "Dental caries begins when oral bacteria ferment dietary sugars (e.g., sucrose, glucose) to produce organic acids, especially lactic acid.\nThese acids lower the pH at the tooth surface and cause demineralization by dissolving the hydroxyapatite crystals in enamel.\nAlkalis would neutralize acid and thus oppose demineralization, so 'Alkalis' is incorrect.\nEnzymes are catalysts produced by microbes and host tissues but they do not directly dissolve enamel the way acids do, making 'Enzymes' an unlikely initiating agent.\nToxins can injure tissues in some infections, but tooth decay is primarily due to acid-mediated chemical dissolution rather than toxin-induced destruction.\nTherefore 'Acids' is correct because bacterial fermentation of sugars produces acids that initiate enamel breakdown and subsequent cavity formation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30318,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which class of kingdom Animalia is characterized by a three-chambered heart, moist skin, and external fertilization?",
+      "options": [
+        "Pisces",
+        "Amphibia",
+        "Reptilia",
+        "Aves"
+      ],
+      "answerIndex": 1,
+      "answerText": "Amphibia",
+      "originalExplanation": "The stem identifies key amphibian traits: a three‑chambered heart, moist glandular skin, and predominantly external fertilization.\nAmphibians typically have two atria and one ventricle (a three‑chambered heart) and use moist, vascularized skin for cutaneous respiration and water balance.\nMany amphibians, especially frogs, lay jelly‑coated eggs in water where males fertilize them externally, matching the external fertilization criterion.\nPisces (fishes) have a two‑chambered heart and gills for respiration; although many fish show external fertilization, they lack amphibian-type moist, glandular skin.\nReptiles usually have dry, scaly skin and internal fertilization with most groups showing a three‑chambered heart (crocodilians are an exception with four chambers), while birds have feathers and a four‑chambered heart and breed via internal fertilization.\nBecause the combined features—moist glandular skin, a typical three‑chambered heart, and mainly external fertilization—best fit Amphibia, Amphibia is the correct option.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30319,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "An example of an air-borne bacterial disease in humans is:",
+      "options": [
+        "Cholera",
+        "Typhoid fever",
+        "Tuberculosis",
+        "Hepatitis B"
+      ],
+      "answerIndex": 2,
+      "answerText": "Tuberculosis",
+      "originalExplanation": "An airborne bacterial disease is one transmitted when infectious respiratory droplets or aerosols are inhaled by a susceptible person.\nTuberculosis is caused by the bacterium Mycobacterium tuberculosis and spreads when infected individuals release droplet nuclei that can be inhaled into the lungs.\nBecause TB is transmitted via inhalation of these infectious particles, Tuberculosis is the correct option.\nCholera is caused by Vibrio cholerae and is primarily water- and food-borne, transmitted via contaminated drinking water or food.\nTyphoid fever, caused by Salmonella typhi, is transmitted mainly by the faecal–oral route through contaminated food and water rather than by airborne droplets.\nHepatitis B is caused by a virus transmitted by blood and bodily fluids and is not spread through airborne respiratory droplets.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

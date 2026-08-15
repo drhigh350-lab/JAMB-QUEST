@@ -1,0 +1,168 @@
+{
+  "batchNumber": 8,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30299,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Under low oxygen in mammalian muscle, glycolysis converts glucose to pyruvate which is then reduced instead of entering aerobic respiration.\nLactate dehydrogenase catalyses the reduction of pyruvate to lactic acid using NADH and regenerating NAD+.\nThis regeneration of NAD+ lets glycolysis continue to supply ATP during strenuous exercise, so lactate accumulates as the final product.\nLactic acid",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30300,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Tropical rainforests have very high annual rainfall and consistently warm temperatures.\nThey develop a dense, multi-layered canopy (emergent trees, canopy, understory, forest floor).\nThis constant moisture and vertical structure support very high species diversity and complex ecological interactions.\nCorrect answer: Tropical Rainforest",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30301,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Ptyalin is salivary amylase, the enzyme in saliva that begins chemical digestion of starch.\nIt hydrolyses alpha-1,4 glycosidic bonds in starch to yield maltose and dextrins.\nPtyalin operates optimally at the near-neutral pH of the mouth, so it initiates starch breakdown before being inactivated in the acidic stomach.\nCorrect answer: Ptyalin",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30302,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Thick waxy cuticle and reduced spine-like leaves\nA thick, waxy cuticle forms a waterproof layer on the surface that greatly reduces cuticular water loss.\nConverting leaves into spines or reducing leaf area lowers the exposed surface area for evaporation.\nTogether these features greatly decrease transpiration in arid conditions by limiting direct water loss from leaf surfaces.",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30303,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Fertilization usually occurs in the fallopian tube, most often in the ampulla (the widened middle third).\nAfter ovulation the fimbriae capture the oocyte and move it into the tube where ciliary action and muscular contractions transport it.\nTubal secretions and these transport mechanisms support sperm capacitation and sperm–egg fusion, providing the proper environment and timing for their meeting.\nCorrect answer: Fallopian tube",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30304,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Lightning supplies enough energy to break the strong N≡N bond in atmospheric nitrogen.\nThe high-energy discharge forms nitrogen oxides (NO and NO2) in the air.\nThese oxides dissolve in rainwater to form nitric acid and nitrate ions that enter the soil, converting N2 directly into nitrates abiotically.\nCorrect answer: Atmospheric nitrogen fixation",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30305,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Malpighian tubules are the specialized excretory organs of insects such as the cockroach.\nThey are blind-ended tubes that open into the alimentary canal at the junction of the midgut and hindgut and collect metabolic wastes.\nThese tubules transport salts and nitrogenous wastes and convert toxic ammonia into relatively insoluble uric acid.\nThe uric acid is deposited into the gut lumen and then processed in the hindgut while water and ions are reabsorbed, conserving water.",
+      "lineCount": 4,
+      "wordCount": 74,
+      "status": "ready"
+    },
+    {
+      "id": 30306,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Continuous variation\nThese traits occur across a range of measurements rather than in separate, discrete categories.\nThey are typically polygenic, with many genes contributing additively to produce a spectrum of phenotypes.\nEnvironmental factors like nutrition and sun exposure further modify these traits, increasing the continuous range.",
+      "lineCount": 4,
+      "wordCount": 46,
+      "status": "ready"
+    },
+    {
+      "id": 30307,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "All F1 plants show an intermediate pink phenotype, not one parent’s colour.\nThis indicates the heterozygote phenotype lies between the two homozygotes because neither allele fully masks the other.\nIn genetic notation, red (RR) crossed with white (rr) produces Rr offspring that show a blended pink phenotype.\nIncomplete dominance",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30308,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Diffusion is the passive movement of molecules from a region of higher concentration to a region of lower concentration until equilibrium is reached.\nIt follows the concentration gradient and does not require metabolic energy.\nIt can occur in gases, liquids, and across permeable membranes, allowing particles to spread out evenly.\nAnswer: Diffusion",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30309,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: Petroleum\nPetroleum is a fossil fuel formed from buried organic matter over millions of years.\nBecause its formation takes geological timescales, it cannot be replenished within human lifetimes.\nTherefore global petroleum reserves are finite and can be exhausted, so it is non-renewable.",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30310,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Tricuspid valve\nIt is the atrioventricular valve that sits between the right atrium and right ventricle.\nIt has three cusps (leaflets), which is why it is called \"tricuspid\".\nDuring right ventricular contraction the valve closes to prevent blood flowing back into the right atrium.",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30311,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "During anaphase the centromeres split, so sister chromatids become separate chromosomes.\nSpindle microtubules shorten and pull the chromatids toward opposite ends of the spindle.\nThis shortening produces the coordinated poleward movement of the separated chromatids.\nAnaphase",
+      "lineCount": 4,
+      "wordCount": 36,
+      "status": "ready"
+    },
+    {
+      "id": 30312,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The hinge joint is correct because it allows movement primarily in a single plane.\nIt is uniaxial, formed by complementary convex and concave surfaces that permit mainly flexion and extension.\nThe elbow (humeroulnar) and the knee (femorotibial) are classical examples demonstrating this one-plane movement.\nFinal answer: Hinge joint",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30313,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "In double fertilization the second sperm nucleus fuses with the two polar nuclei in the central cell of the embryo sac.\nThis fusion combines three haploid nuclei to form a triploid (3n) primary endosperm nucleus.\nThe triploid endosperm nucleus develops into endosperm, the nutritive tissue that supports the embryo.\nCorrect answer: Endosperm nucleus",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30314,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Sleeping sickness is Human African trypanosomiasis caused by flagellated protozoa of the genus Trypanosoma.\nTsetse flies (Glossina spp.) transmit infective trypanosomes to humans during blood meals, introducing the parasite into the bloodstream.\nThe two main human subspecies, T. b. gambiense and T. b. rhodesiense, cause progressive disease that eventually involves the nervous system and disrupts the sleep–wake cycle.\nFinal answer: Sleeping sickness",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30315,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Plankton are organisms that float or drift passively near the water surface.\nThey cannot swim strongly against currents, so they are carried by water movements.\nThe key defining feature is passive drifting at or near the surface, which matches the question.\nCorrect answer: Plankton",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30317,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Oral bacteria ferment dietary sugars into organic acids, especially lactic acid.\nThese acids lower the pH at the tooth surface, creating an acidic environment.\nThe acidic environment causes demineralization by dissolving enamel's hydroxyapatite crystals.\nCorrect answer: Acids",
+      "lineCount": 4,
+      "wordCount": 37,
+      "status": "ready"
+    },
+    {
+      "id": 30318,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "They have a three-chambered heart (two atria and one ventricle) that partly separates oxygenated and deoxygenated blood.\nTheir skin is moist and glandular, allowing cutaneous respiration and helping regulate water balance.\nMost lay jelly-coated eggs in water and undergo external fertilization by the male.\nFinal answer: Amphibia",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30319,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Tuberculosis\nIt is caused by the bacterium Mycobacterium tuberculosis.\nInfected people release droplet nuclei or aerosols when they cough or sneeze that contain the bacteria.\nThese particles can be inhaled into the lungs by others, so TB is transmitted by the airborne route.",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    }
+  ]
+}

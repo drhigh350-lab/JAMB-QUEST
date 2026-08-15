@@ -1,0 +1,168 @@
+{
+  "batchNumber": 9,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30340,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Father AB has genotype IAIB and mother O has genotype ii because the ABO system is controlled by IA, IB and i alleles.\nEach child receives one allele from each parent, so the possible child genotypes are IAi and IBi.\nIAi yields phenotype A and IBi yields phenotype B since IA and IB are expressed when paired with the recessive i allele.\nCorrect answer: A and B only",
+      "lineCount": 4,
+      "wordCount": 68,
+      "status": "ready"
+    },
+    {
+      "id": 30341,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Arteries carry blood away from the heart, so a vessel described as carrying blood away must be an artery.\nThe pulmonary artery transports deoxygenated blood from the right ventricle to the lungs for gas exchange.\nArteries are under higher pressure than veins, so the pulmonary artery carries that deoxygenated blood away from the heart under high pressure.\nPulmonary artery",
+      "lineCount": 4,
+      "wordCount": 59,
+      "status": "ready"
+    },
+    {
+      "id": 30342,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Unicellular green algae have chlorophyll and use sunlight, carbon dioxide and water to perform photosynthesis.\nPhotosynthesis lets them make organic (energy-rich) molecules and release oxygen.\nThese self-made organic molecules form the base food and energy source for other pond organisms.\nTherefore they are Primary producers.",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30343,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Epiglottis\nThe epiglottis is a leaf-shaped flap of elastic cartilage located above the glottis.\nDuring swallowing it folds down to cover the glottis, forming a physical barrier over the tracheal opening.\nThis directs food and drink into the oesophagus and prevents them from entering the trachea, protecting the airway.",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30344,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Freshwater bony fish are ammonotelic and therefore excrete most nitrogenous waste as ammonia.\nAmmonia is highly soluble and diffuses readily across the gill epithelium into the surrounding water.\nDirect excretion of ammonia requires little metabolic conversion, conserving energy for the fish.\nAmmonia",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30345,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Pollen grain\nIt is the haploid male gametophyte produced from microspores in the anther's microsporangia.\nPollen grains are reduced to only a few cells that carry the male genetic material.\nOn pollination a pollen grain germinates, forms a pollen tube and delivers sperm cells that achieve fertilization.",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30346,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: Pepsin\nPepsin is produced as pepsinogen by chief cells and is activated by stomach hydrochloric acid, so it functions where the pH is very low.\nIts catalytic activity is adapted to an optimal pH around 1.5–2, matching the acidic lumen of the stomach.\nThis acid adaptation makes it the enzyme specialized for protein digestion in the stomach.",
+      "lineCount": 4,
+      "wordCount": 58,
+      "status": "ready"
+    },
+    {
+      "id": 30347,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Phototropism is the directional growth of a plant organ in response to light.\nPositive phototropism specifically means growth toward a light source, which describes a stem bending toward unilateral light.\nThe plant hormone auxin becomes concentrated on the shaded side of the stem, causing those cells to elongate more and the stem to curve.\nPositive phototropism",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30348,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Thyroid gland\nIt secretes calcitonin from parafollicular (C) cells, which lowers blood calcium by inhibiting osteoclast activity.\nIt also produces the thyroid hormones triiodothyronine (T3) and thyroxine (T4).\nT3 and T4 raise basal metabolic rate by increasing cellular oxygen consumption and stimulating metabolic processes throughout the body.",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30349,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The rostellum on the scolex bears hooks and suckers that serve as the tapeworm's attachment apparatus.\nHooks pierce and anchor into the intestinal mucosa, creating a fixed point of contact.\nSuckers grip the gut wall and, together with the hooks, resist dislodgement by peristaltic movements.\nRostellum with hooks and suckers",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30350,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Biological nitrogen fixation\nFree-living soil bacteria such as Azotobacter carry out this process using the enzyme nitrogenase.\nNitrogenase reduces atmospheric N2 to ammonia (NH3/NH4+), converting inert gas into a chemical form plants can assimilate.\nBecause Azotobacter directly produces plant-available ammonia from N2, the process is biological nitrogen fixation.",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30351,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Human chromosomal sex is determined by sex chromosomes: females are XX and males are XY.\nMothers produce eggs that each carry an X chromosome.\nA male child is XY, so his single X chromosome must come from his mother.\nHis mother only",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30352,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "A coenzyme is a non-protein organic cofactor that many enzymes need to become fully active.\nIt binds to the apoenzyme to form the active holoenzyme and often takes part in the chemical change by carrying electrons or functional groups.\nBecause many coenzymes are derived from vitamins (for example NAD+ from niacin and FAD from riboflavin), they are organic and non-protein.\nAnswer: Coenzyme",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30353,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The vertebral column is a series of articulated vertebrae that encloses and protects the spinal cord.\nEach vertebra has a central vertebral foramen, and the aligned foramina form a continuous vertebral canal that houses the cord.\nThe bony vertebral arches and processes surround and shield the cord while joints and intervertebral discs provide flexibility and cushioning.\nCorrect answer: Vertebral column",
+      "lineCount": 4,
+      "wordCount": 60,
+      "status": "ready"
+    },
+    {
+      "id": 30354,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Radial symmetry means body parts arranged around a central axis so similar structures repeat in a circle.\nHydra is a cnidarian polyp that exhibits radial symmetry.\nIts mouth and tentacles are arranged around a central oral–aboral axis, producing repeated structures around the center.\nAnswer: Hydra",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30355,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The semicircular canals are part of the vestibular apparatus that detect angular acceleration (rotational movement) of the head.\nEach canal is filled with endolymph and has an ampulla with hair cells; when the head turns the fluid lags and bends the cupula and the hair bundles.\nThat bending generates nerve impulses carried by the vestibular nerve to the brain, which uses them to coordinate posture, balance and stabilise gaze.\nCorrect answer: Maintaining balance and posture",
+      "lineCount": 4,
+      "wordCount": 75,
+      "status": "ready"
+    },
+    {
+      "id": 30356,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Stabilizing selection favors individuals with intermediate phenotypes that best suit the prevailing environment.\nIf both extremes have lower survival or reproduction, intermediates contribute more offspring and increase in frequency.\nOver time this reduces variation around the mean trait value and keeps the population clustered at the intermediate form.\nCorrect answer: Stabilizing selection",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30357,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Hemoglobin\nIn oligochaete earthworms the respiratory pigment is hemoglobin dissolved directly in the blood plasma (extracellular).\nHemoglobin contains an iron-based heme group that binds oxygen reversibly, enabling O2 transport in the blood.\nOxygenation of hemoglobin gives the blood a red color, consistent with an iron-heme oxygen carrier.",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30358,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The vascular cambium is a lateral meristem located between the primary xylem and primary phloem.\nIts cells divide periclinally to form secondary xylem inward and secondary phloem outward.\nAccumulation of secondary xylem on the inner side increases stem and root girth and produces woody tissue and annual rings.\nAnswer: Vascular cambium",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30359,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Mutualism\nRhizobium fixes atmospheric nitrogen into ammonium using nitrogenase, supplying the legume with usable nitrogen for amino acids and proteins.\nIn return the plant supplies carbohydrates and a protected nodule habitat that supports bacterial growth.\nNodules contain leghemoglobin to maintain a low-oxygen environment for nitrogenase, so both partners receive clear, complementary benefits.",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "batchNumber": 7,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30259,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Adult frogs have simple sac-like lungs ventilated by buccal pumping that exchange oxygen and carbon dioxide with the blood.\nTheir skin is thin, richly supplied with blood vessels, and kept moist by mucous glands, allowing direct diffusion of gases.\nThese two routes together provide sufficient gas exchange to meet the adult frog’s metabolic needs on land and in water.\nLungs and moist skin",
+      "lineCount": 4,
+      "wordCount": 63,
+      "status": "ready"
+    },
+    {
+      "id": 30260,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "A tadpole is the specific free-swimming aquatic larval form of a frog.\nIt has a tail and gills that allow underwater respiration during the larval stage.\nDuring metamorphosis the tadpole develops limbs, replaces gills with lungs, and gradually resorbs its tail to become an adult frog.\nAnswer: Tadpole",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30261,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Fertilization in frogs occurs in water where eggs and sperm meet outside the parents' bodies.\nDuring amplexus the male clasps the female and releases sperm over the eggs as she lays them, so fertilization happens externally.\nBecause the gametes unite outside the reproductive tracts of both parents, this fits the definition of external fertilization.\nExternal fertilization",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30262,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Photosynthesis\nPhotosynthesis is the process by which green plants use light energy absorbed by chlorophyll to convert carbon dioxide and water into organic food.\nThis light-driven reaction assembles glucose (an organic food) from CO2 and H2O and releases oxygen as a by-product.\nTherefore photosynthesis uniquely fits the stem: manufacturing organic food from CO2 and water using light energy.",
+      "lineCount": 4,
+      "wordCount": 58,
+      "status": "ready"
+    },
+    {
+      "id": 30263,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Chlamydomonas is a unicellular green alga that contains chloroplasts with chlorophyll.\nIt performs photosynthesis, using light to fix carbon dioxide and water into sugars.\nBecause it makes its own organic food from inorganic materials, it is classified as autotrophic.\nCorrect answer: Chlamydomonas",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30264,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Hydrochloric acid in the stomach creates a highly acidic environment (pH ≈1–2).\nAt this low pH, pepsinogen undergoes a conformational change and is cleaved to form active pepsin (autocatalytic activation).\nPepsin is a protease that hydrolyzes peptide bonds, initiating the breakdown of proteins into smaller peptides.\nCorrect answer: Converting inactive pepsinogen into active pepsin",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    },
+    {
+      "id": 30265,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Phagocytic leucocytes protect the body by ingesting and destroying invading pathogens.\nThey surround and engulf microbes, forming a phagosome inside the leucocyte.\nThe phagosome fuses with lysosomes whose enzymes digest and neutralize the captured pathogen.\nCorrect answer: Phagocytic leucocytes",
+      "lineCount": 4,
+      "wordCount": 39,
+      "status": "ready"
+    },
+    {
+      "id": 30266,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The kidney is the main organ for osmoregulation and for removing nitrogenous wastes such as urea in mammals.\nEach kidney contains many nephrons where blood is filtered at the glomerulus and useful solutes and water are reabsorbed or secreted to form urine.\nUrea carried in the blood is concentrated and excreted by tubular processes in the kidney, and hormones like ADH and the renin–angiotensin–aldosterone system adjust kidney function to maintain water and salt balance.\nAnswer: Kidney",
+      "lineCount": 4,
+      "wordCount": 76,
+      "status": "ready"
+    },
+    {
+      "id": 30267,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Entomophily\nThe prefix \"entomo-\" means insect, so entomophily specifically names pollination carried out by insects.\nInsect-pollinated flowers often produce attractants such as bright colours, scents and nectar to entice insect visitors.\nTheir pollen is commonly sticky or arranged so it adheres to insect bodies, allowing transfer between flowers.",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30268,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Geitonogamy is the transfer of pollen from the anther of one flower to the stigma of another flower on the same plant.\nBecause both flowers are on the same individual, the pollen and ovule share the same genotype, so fertilization is genetically equivalent to self-fertilization.\nPollinators or wind can move pollen between flowers, but that transfer still occurs within a single plant and does not involve different individuals.\nAnswer: Geitonogamy",
+      "lineCount": 4,
+      "wordCount": 70,
+      "status": "ready"
+    },
+    {
+      "id": 30269,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Pollen grain\nPollen grains form in the anther and contain a generative cell that divides to produce the two sperm cells (male gametes).\nThe sperm cells remain inside the pollen grain until pollination triggers pollen-tube growth.\nTherefore the pollen grain physically contains and delivers the male gametes to the embryo sac, making it the correct choice.",
+      "lineCount": 4,
+      "wordCount": 58,
+      "status": "ready"
+    },
+    {
+      "id": 30270,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Lipase is the digestive enzyme that hydrolyses dietary fats (triglycerides) into fatty acids and glycerol.\nIn humans it is secreted mainly by the pancreas and acts in the small intestine.\nBile salts emulsify fats to increase lipase efficiency, and lipase breaks the ester bonds of triglycerides to release glycerol and free fatty acids for absorption.\nAnswer: Lipase",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30271,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The gizzard is a thick-walled, muscular chamber that grinds and crushes hard food.\nIt uses powerful muscle contractions and often ingested grit or stones to provide abrasive grinding.\nThis mechanical action performs the breakdown required for tough seeds and grains.\nCorrect answer: Gizzard",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30272,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Halophytes are plants adapted to grow and reproduce in saline habitats such as salt marshes.\nThey tolerate or remove excess salt using adaptations such as salt-excreting glands and succulence.\nThey also use selective ion uptake and compartmentalize salts in vacuoles to protect essential tissues.\nTherefore plants that grow in saline habitats are correctly classified as Halophytes (option C).",
+      "lineCount": 4,
+      "wordCount": 58,
+      "status": "ready"
+    },
+    {
+      "id": 30273,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cacti have leaves reduced to spines and a thick, waxy cuticle on their stems.\nThe reduced needle-like leaves lower surface area and so greatly reduce transpiration.\nThe thick cuticle and succulent stems store water and limit evaporation, enabling survival in arid conditions.\nCorrect answer: Cactus",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30274,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Translocation\nIt is the transport of dissolved organic solutes, mainly sucrose, from source (mature) leaves to sink tissues through the phloem.\nPhloem loading at sources and unloading at sinks create concentration and pressure differences that drive mass flow (pressure-flow hypothesis).\nTherefore \"Translocation\" specifically denotes the phloem-mediated long-distance movement of organic solutes between sources and sinks.",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30275,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Guttation is the exudation of liquid water from leaf edges or tips when root pressure forces sap out, often at night or in high humidity.\nHydathodes are specialized pores at leaf margins or vein endings that connect directly to the vascular system.\nBecause they provide an open pathway for sap to be released as droplets, hydathodes are the structures that mediate guttation.\nCorrect answer: Hydathodes",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    },
+    {
+      "id": 30276,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Vertebrates\nThey have an internal endoskeleton split into an axial skeleton (skull, vertebral column, ribs, sternum)\nand an appendicular skeleton (pectoral and pelvic girdles plus the limbs).\nThis division is characteristic because the axial supports and protects central organs while the appendicular enables limb movement.",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30277,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The Vertebral column is a chain of vertebrae along the body’s midline that supports the trunk.\nIt transmits weight from the trunk to the pelvis, allowing the body to bear and distribute loads.\nThe vertebrae form a canal that encloses and protects the spinal cord, giving a key protective role.\nCorrect answer: Vertebral column",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    },
+    {
+      "id": 30278,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The axis has a bony projection called the odontoid process (dens) that fits into the ring of the atlas.\nThis ring-and-peg connection creates a pivot around the spine's long axis.\nThat arrangement allows mainly rotation of the head while restricting other movements, so it is classified as a pivot joint.\nPivot joint",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "batchNumber": 6,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30216,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Regulation of blood sugar level\nThe liver stores excess glucose as glycogen when blood sugar is high.\nWhen blood sugar falls it breaks down glycogen (glycogenolysis) and makes glucose via gluconeogenesis.\nThese processes keep blood glucose within a healthy range (homeostasis).",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30217,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Tracheae are the insect respiratory organ because they form an internal branching network of air tubes.\nThis tube network delivers oxygen directly to body tissues rather than relying on the circulatory system to transport gases.\nAt the terminal tracheoles oxygen diffuses into cells and carbon dioxide diffuses out, allowing effective gas exchange.\nCorrect answer: Tracheae",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30218,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Savanna\nIt is a tropical grassland with pronounced wet and dry seasons, dominated by grasses and only a few scattered trees.\nFrequent fires and heavy grazing keep the landscape open and favor trees that resist fire or have deep roots (e.g. Acacia, Baobab).\nThe open, productive grasses support large grazing herbivores such as antelopes, zebras and elephants, so large herbivores are characteristic of the savanna.",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    },
+    {
+      "id": 30219,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The tibiofemoral joint primarily allows uniaxial movement—flexion and extension of the leg, which is the defining feature of a hinge joint.\nThe rounded femoral condyles fit against the tibial plateaus to produce complementary surfaces that guide bending and straightening.\nLigaments and the menisci stabilise the joint and restrict excessive side-to-side motion, reinforcing hinge-like action.\nCorrect answer: Hinge joint",
+      "lineCount": 4,
+      "wordCount": 58,
+      "status": "ready"
+    },
+    {
+      "id": 30220,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Eye colour is a visible structural trait caused by the amount and distribution of pigment in the iris.\nMorphological variation means differences in the physical form or appearance of body parts, including colour.\nSince eye colour is an observable feature of body structure, it is classified as morphological variation.\nCorrect answer: Morphological",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30221,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "A superior ovary is one that sits on the receptacle with sepals, petals and stamens attached below it.\nThe question says the ovary is positioned above all other floral parts on the receptacle.\nThat exact arrangement matches the definition of a superior ovary, so this name is correct.\nSuperior ovary",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30222,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Aestivation\nIt is a period of dormancy animals enter during prolonged heat or drought to survive harsh dry conditions.\nDuring aestivation animals lower metabolic rate and reduce water loss, conserving energy and moisture.\nFor these reasons Aestivation is the correct term for inactivity caused by high temperature and drought.",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30223,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: Chemotaxis\nChemotaxis is the directed movement of an organism or cell toward (positive) or away from (negative) a chemical stimulus.\nThe question specifies a chemical stimulus, so the correct term names movement triggered by chemicals.\nTherefore Chemotaxis is correct because it specifically describes movement in response to chemical gradients.",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30225,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Haemophilia is X-linked recessive, so an XY male will be affected if his single X carries the mutant allele.\nA normal man is X^H Y and a carrier woman is X^H X^h, so each son inherits Y from his father and one maternal X.\nBecause the mother can transmit either X^H or X^h with equal probability, each son has a 50% chance to receive X^h and be haemophilic.\n50%",
+      "lineCount": 4,
+      "wordCount": 69,
+      "status": "ready"
+    },
+    {
+      "id": 30226,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Ethylene is a gaseous plant hormone that activates ripening enzymes in fruit.\nIn climacteric fruits ethylene triggers conversion of starch to sugars, softening and colour changes characteristic of ripening.\nEthylene also induces cell-wall-degrading enzymes such as cellulases and polygalacturonases in the abscission zone, causing cell separation and leaf drop.\nCorrect answer: Ethylene",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30227,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: Photic zone\nThis is the upper layer of a body of water that receives enough sunlight to support photosynthesis.\nIt is also called the euphotic or sunlight zone, and how deep it reaches depends on water clarity.\nBecause it provides sufficient light, photosynthetic organisms there can comfortably produce organic matter.",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30228,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Grasshopper\nGrasshoppers are insects in the arthropod group and have a hard external skeleton made of chitin.\nThey possess paired, jointed appendages such as legs and antennae used for walking and sensing.\nBecause it has both a chitinous exoskeleton and jointed appendages, Grasshopper meets the question's criteria.",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30229,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Rhizobium infects legume roots and forms the characteristic root nodules where symbiosis occurs.\nInside these nodules the bacteria use the enzyme nitrogenase to convert atmospheric N2 into ammonia the plant can use.\nThe plant supplies carbohydrates and creates a low-oxygen environment via leghemoglobin to protect nitrogenase activity.\nAnswer: Rhizobium",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30230,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Epigeal germination is a form of seed germination in which the cotyledons are carried above the soil surface.\nThis upward movement is produced by elongation of the hypocotyl, which forms a hook and pulls the cotyledons out of the soil.\nWhen the hypocotyl straightens the cotyledons appear above ground, directly matching the question’s description.\nEpigeal germination",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30232,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Taxis is directional locomotory movement of a whole organism or motile cell toward or away from a stimulus.\nIt specifically denotes active movement of the organism in response to the direction of a cue such as light or chemicals.\nExamples include phototaxis and chemotaxis, where the organism moves toward or away from the stimulus source.\nAnswer: Taxis",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30233,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Ecotone\nAn ecotone is the transitional area where two different biological communities meet and integrate, such as between forest and savanna.\nThis zone contains a mix of species from both adjacent communities and can support species uniquely adapted to intermediate conditions.\nEcotone specifically denotes the boundary with changes in environmental factors and species composition, so it names the transition zone.",
+      "lineCount": 4,
+      "wordCount": 60,
+      "status": "ready"
+    },
+    {
+      "id": 30234,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Villi are finger-like projections of the intestinal mucosa that greatly increase the small intestine’s internal surface area for nutrient absorption.\nEach villus is covered by absorptive epithelial cells with microvilli, which further multiply the surface available for uptake.\nCapillaries and a central lacteal inside each villus transport absorbed amino acids, monosaccharides and lipids away, maintaining steep gradients for continued absorption.\nAnswer: Villi",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30235,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The contractile vacuole collects excess water that enters the freshwater protozoan by osmosis.\nIt periodically fills and then contracts to expel this water out of the cell into the surrounding medium.\nBy removing excess water the vacuole maintains the cell’s volume and prevents swelling and bursting.\nOsmoregulation",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30236,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Tt × Tt is a monohybrid cross with T (tall) dominant over t (dwarf).\nA Punnett square gives genotypes in the ratio 1 TT : 2 Tt : 1 tt.\nBoth TT and Tt show the tall phenotype, so three of the four offspring are tall and one is dwarf.\nTherefore the correct answer is 3 :",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30237,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Thyroxine (T4) is produced by the thyroid gland.\nT4 increases basal metabolic rate by stimulating cells to consume more oxygen and produce more heat.\nBecause the thyroid synthesizes and secretes thyroxine directly, it is the gland that regulates BMR.\nAnswer: Thyroid gland",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    }
+  ]
+}

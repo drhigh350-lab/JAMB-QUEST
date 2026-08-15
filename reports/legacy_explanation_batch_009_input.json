@@ -1,0 +1,328 @@
+{
+  "batchNumber": 9,
+  "batchSize": 20,
+  "availableCandidates": 575,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30340,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "A man with blood group AB marries a woman with blood group O. What are the possible blood groups of their offspring?",
+      "options": [
+        "AB and O only",
+        "A and B only",
+        "A, B, and AB",
+        "A, B, AB, and O"
+      ],
+      "answerIndex": 1,
+      "answerText": "A and B only",
+      "originalExplanation": "The question tests inheritance of the ABO blood group controlled by three alleles: IA, IB and i.\nA man with blood group AB has genotype IAIB while a woman with group O is genotype ii.\nEach child gets one allele from each parent, so the possible genotypes are IAi and IBi.\nIAi yields phenotype A and IBi yields phenotype B because IA and IB are codominant and i is recessive.\nAB cannot occur because the mother supplies only i alleles, and O cannot occur because the father supplies no i allele.\nHence only A and B phenotypes are possible, so the correct option is \"A and B only\" and the other choices are incorrect.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30341,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which blood vessel carries deoxygenated blood under high pressure away from the heart?",
+      "options": [
+        "Pulmonary vein",
+        "Renal vein",
+        "Pulmonary artery",
+        "Vena cava"
+      ],
+      "answerIndex": 2,
+      "answerText": "Pulmonary artery",
+      "originalExplanation": "Arteries carry blood away from the heart while veins return blood toward the heart, so direction of flow identifies the vessel type.\nThe pulmonary artery carries deoxygenated blood from the right ventricle to the lungs for gas exchange.\nArteries are generally under higher pressure than veins, so an artery that carries blood away from the heart fits the phrase “under high pressure.”\nThe pulmonary vein is incorrect because it carries oxygenated blood from the lungs to the left atrium, not deoxygenated blood away from the heart.\nThe renal vein and the vena cava are veins that return deoxygenated blood to the heart at lower pressure, so they do not match the description.\nTherefore the pulmonary artery is the correct option: it uniquely combines being an artery (away from the heart) with carrying deoxygenated blood to the lungs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30342,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "In a freshwater pond ecosystem, unicellular green algae act as:",
+      "options": [
+        "Primary consumers",
+        "Primary producers",
+        "Secondary consumers",
+        "Decomposers"
+      ],
+      "answerIndex": 1,
+      "answerText": "Primary producers",
+      "originalExplanation": "Unicellular green algae in a freshwater pond contain chlorophyll and perform photosynthesis to produce organic matter from sunlight, carbon dioxide and water.\nBecause they synthesize their own food and supply energy-rich organic molecules to other organisms, they are classified as primary producers (autotrophs).\nPrimary consumers are organisms that eat producers, such as zooplankton or small herbivorous invertebrates that feed on algae, so they are not correct here.\nSecondary consumers are predators that eat primary consumers (for example small fish that eat zooplankton), which differs from algae's role.\nDecomposers like bacteria and fungi break down dead organic matter and recycle nutrients, a role not performed by living photosynthetic algae.\nThus the correct option is Primary producers because unicellular green algae generate biomass and oxygen at the base of the pond food web.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30343,
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "question": "The structure that prevents food from entering the trachea during swallowing in mammals is the:",
+      "options": [
+        "Glottis",
+        "Epiglottis",
+        "Larynx",
+        "Pharynx"
+      ],
+      "answerIndex": 1,
+      "answerText": "Epiglottis",
+      "originalExplanation": "This item tests the anatomy controlling airway protection during swallowing in mammals.\nThe epiglottis is a leaf‑shaped flap of elastic cartilage that folds over the glottis to block food and drink from entering the trachea when swallowing.\nThe glottis is the opening between the vocal cords, so it is the aperture that the epiglottis covers but not the structure that actively prevents food entry.\nThe larynx houses the vocal cords and supports the glottis and epiglottis, but its functions include voice production and airway maintenance rather than the specific flap action described.\nThe pharynx is a shared passage for air and food above the larynx and oesophagus and does not itself close off the airway during swallowing.\nTherefore epiglottis is correct because it actively closes over the airway during swallowing to direct food into the oesophagus rather than the trachea.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30344,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Nitrogenous waste excreted by freshwater bony fish is predominantly in the form of:",
+      "options": [
+        "Uric acid",
+        "Urea",
+        "Ammonia",
+        "Creatinine"
+      ],
+      "answerIndex": 2,
+      "answerText": "Ammonia",
+      "originalExplanation": "Nitrogenous wastes are excreted mainly as ammonia, urea, or uric acid, corresponding to ammonotelic, ureotelic and uricotelic strategies.\nFreshwater bony fish are ammonotelic and release ammonia directly into the surrounding water, chiefly across the gills and in dilute urine because water is abundant.\nAmmonia is the correct answer because it is highly soluble, diffuses readily into water and requires less metabolic energy to form than urea or uric acid.\nUrea is characteristic of ureotelic animals (many mammals and some amphibians) that convert toxic ammonia to less toxic urea to conserve water and tolerate terrestrial life.\nUric acid is excreted as a semi-solid paste by uricotelic animals (birds, many reptiles and insects) to minimize water loss, and its synthesis is more energetically costly than producing ammonia.\nCreatinine is a muscle-metabolism waste commonly measured in urine but is not the principal form of nitrogenous waste in freshwater bony fish.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30345,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "In angiosperms, the male gametophyte is represented by the:",
+      "options": [
+        "Ovule",
+        "Pollen grain",
+        "Antheridium",
+        "Embryo sac"
+      ],
+      "answerIndex": 1,
+      "answerText": "Pollen grain",
+      "originalExplanation": "In angiosperms the male gametophyte is the pollen grain, a haploid structure that carries the male genetic material.\nPollen grains develop from microspores in the anther's microsporangia and are usually reduced to a few cells after mitotic divisions.\nOn pollination a pollen grain germinates to form a pollen tube and releases sperm cells that fertilize the egg and central cell (double fertilization).\nAn ovule is a sporophytic structure on the ovary that contains the embryo sac and nucellus, so it is not the male gametophyte.\nAntheridium is a multicellular male gametangium of bryophytes and some lower plants; angiosperms do not produce antheridia.\nThe embryo sac is the female gametophyte within the ovule (containing the egg cell and synergids), therefore it is the female, not the male, gametophyte.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30346,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "An enzyme that functions optimally in a highly acidic environment inside the human stomach is:",
+      "options": [
+        "Salivary amylase",
+        "Pepsin",
+        "Trypsin",
+        "Pancreatic lipase"
+      ],
+      "answerIndex": 1,
+      "answerText": "Pepsin",
+      "originalExplanation": "Enzymes have specific optimal pH ranges that match the environment where they act, and the human stomach is highly acidic due to hydrochloric acid from parietal cells.\nPepsin is the stomach enzyme that digests proteins and is secreted as inactive pepsinogen by chief cells and activated by stomach acid.\nPepsin's optimal pH is around 1.5–2, which explains why it functions effectively in the acidic stomach lumen.\nSalivary amylase acts on starch in the mouth at near-neutral pH and is quickly inactivated by the stomach's low pH, so it cannot be the correct choice.\nTrypsin and pancreatic lipase are pancreatic enzymes that work in the small intestine where the pH is neutral to alkaline after bicarbonate neutralization, making them unsuitable for acidic stomach conditions.\nTherefore the correct answer is Pepsin because it is uniquely adapted for protein digestion at the stomach's very low pH.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30347,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The movement of a plant stem bending toward a unilateral light source is known as:",
+      "options": [
+        "Negative phototropism",
+        "Positive phototropism",
+        "Positive hydrotropism",
+        "Thigmotropism"
+      ],
+      "answerIndex": 1,
+      "answerText": "Positive phototropism",
+      "originalExplanation": "Phototropism is a directional growth response of plant organs to a light stimulus, with shoots and coleoptiles commonly growing toward light. Positive phototropism specifically describes bending of a stem or shoot toward a unilateral light source. The bending occurs because the plant hormone auxin becomes redistributed to the shaded side, stimulating greater cell elongation there and causing the stem to curve toward the light. Negative phototropism, the opposite, is growth away from light and is typical of some roots or subterranean organs, so it is not the correct choice for a stem bending toward light. Hydrotropism is growth or bending in response to a moisture gradient (not light), so “positive hydrotropism” does not explain a light-directed stem bend. Thigmotropism is a response to touch or contact (for example in tendrils), so it is also not applicable to bending toward a light source.\nconfidence\nhigh\nneeds_review\n]} PMID: None}OopschemaInvalid} This seems off. The JSON must follow the specified schema exactly. I mistakenly output incorrectly. Need to craft valid JSON: keys lines (array of 6 strings), confidence\netc. Ensure no extra text. Let's reconstruct. The developer required exactly six sentences as six separate lines. The JSON property",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30348,
+      "subject": "Biology",
+      "topic": "Endocrine Regulation",
+      "question": "Which human endocrine gland produces calcitonin and regulates basal metabolic rate?",
+      "options": [
+        "Adrenal gland",
+        "Thyroid gland",
+        "Pancreas",
+        "Pituitary gland"
+      ],
+      "answerIndex": 1,
+      "answerText": "Thyroid gland",
+      "originalExplanation": "The question asks which endocrine gland makes calcitonin and controls the basal metabolic rate (BMR).\nThe correct answer is the thyroid gland, which secretes calcitonin and the thyroid hormones triiodothyronine (T3) and thyroxine (T4).\nCalcitonin is produced by parafollicular (C) cells of the thyroid and lowers blood calcium by inhibiting osteoclast activity.\nT3 and T4 raise BMR by increasing cellular oxygen consumption and stimulating metabolic processes throughout the body.\nThe adrenal glands produce cortisol, aldosterone and catecholamines involved in stress response and salt balance, not calcitonin.\nThe pancreas secretes insulin and glucagon to regulate blood glucose, and the pituitary releases trophic hormones such as TSH but does not produce calcitonin.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30349,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "The structural feature of a tapeworm that enables it to anchor securely to the host's intestinal wall is the:",
+      "options": [
+        "Proglottid",
+        "Rostellum with hooks and suckers",
+        "Flame cell",
+        "Cuticle"
+      ],
+      "answerIndex": 1,
+      "answerText": "Rostellum with hooks and suckers",
+      "originalExplanation": "A tapeworm anchors to the host gut using the scolex, which bears a rostellum equipped with hooks and suckers.\nThe rostellum's hooks pierce the intestinal mucosa while the suckers grip the wall, providing secure mechanical attachment against peristalsis.\nA proglottid is a body segment that contains reproductive organs and eggs and does not serve to attach the worm to the host.\nFlame cells are excretory/osmoregulatory cells in platyhelminths and have no role in physical anchoring to the intestinal wall.\nThe term 'cuticle' describes an outer covering in some invertebrates, but tapeworms possess a specialized tegument for protection and nutrient absorption rather than a structure used for attachment.\nTherefore the rostellum with hooks and suckers is the correct answer because it is the specialized anchoring apparatus on the scolex of a tapeworm.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30350,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The process of converting atmospheric nitrogen into nitrates by free-living soil bacteria like Azotobacter is:",
+      "options": [
+        "Denitrification",
+        "Biological nitrogen fixation",
+        "Nitrification",
+        "Ammonification"
+      ],
+      "answerIndex": 1,
+      "answerText": "Biological nitrogen fixation",
+      "originalExplanation": "The question asks for the process by which free‑living soil bacteria like Azotobacter convert atmospheric nitrogen into compounds plants can use.\nAzotobacter performs biological nitrogen fixation, using the nitrogenase enzyme to reduce atmospheric N2 to ammonia (NH3) or ammonium (NH4+).\nThe ammonia produced by fixation becomes available for assimilation by plants or can enter further steps of the soil nitrogen cycle.\nNitrification is a different process in which ammonia is oxidized to nitrite (NO2−) and then to nitrate (NO3−) by bacteria such as Nitrosomonas and Nitrobacter.\nDenitrification is the reduction of nitrates to gaseous forms (N2 or N2O) by anaerobic bacteria, which returns nitrogen to the atmosphere rather than making it available to plants.\nAmmonification refers to the release of ammonia from the breakdown of organic nitrogen during decomposition, not the direct conversion of atmospheric N2 performed by Azotobacter.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30351,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "In human genetics, a male child inherits his X chromosome from:",
+      "options": [
+        "His father only",
+        "His mother only",
+        "Both parents equally",
+        "Either parent randomly"
+      ],
+      "answerIndex": 1,
+      "answerText": "His mother only",
+      "originalExplanation": "Human chromosomal sex is determined by sex chromosomes: females are XX and males are XY.\nDuring gamete formation the mother produces eggs that each carry an X chromosome, while the father produces sperm carrying either an X or a Y.\nA male child is XY, so his single X chromosome must come from his mother and his Y chromosome from his father.\nTherefore the option \"His mother only\" is correct because only the mother can contribute the X in a male offspring.\n\"His father only\" is incorrect because the father supplies a Y chromosome to produce a son, not an X.\n\"Both parents equally\" and \"Either parent randomly\" are incorrect for a male child because the X chromosome in a male cannot come from the father or from both parents.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30352,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The non-protein organic component required for an enzyme to function effectively is a:",
+      "options": [
+        "Coenzyme",
+        "Substrate",
+        "Apoenzyme",
+        "Inhibitor"
+      ],
+      "answerIndex": 0,
+      "answerText": "Coenzyme",
+      "originalExplanation": "Enzymes often require non-protein partners called cofactors to be fully active; when this partner is organic it is called a coenzyme.\nA coenzyme binds temporarily or permanently to the apoenzyme to form the active holoenzyme and often participates in the chemical reaction by carrying electrons or functional groups.\nMany coenzymes are derived from vitamins (for example NAD+ from niacin and FAD from riboflavin), which explains why they are organic and non-protein.\nAn apoenzyme is the protein portion of an enzyme and is inactive without its cofactor or coenzyme, so 'apoenzyme' is not the non-protein component.\nA substrate is the specific molecule acted on by an enzyme, and an inhibitor is a molecule that decreases enzyme activity; neither are non-protein organic prosthetic partners required for function.\nTherefore the correct choice is 'Coenzyme' because it fits the definition of a non-protein organic component necessary for enzyme function.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30353,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "What structural unit of the skeletal system protects the spinal cord in vertebrates?",
+      "options": [
+        "Skull",
+        "Ribcage",
+        "Vertebral column",
+        "Pelvic girdle"
+      ],
+      "answerIndex": 2,
+      "answerText": "Vertebral column",
+      "originalExplanation": "The vertebral column (spine) is the series of articulated vertebrae that encloses and protects the spinal cord in vertebrates.\nEach vertebra has a central vertebral foramen and the aligned foramina of adjacent vertebrae form the continuous vertebral canal that houses the spinal cord.\nBecause the bony vertebral arches surround and shield the cord, the vertebral column is the correct structural unit for spinal cord protection.\nThe skull is distinct: it encases and protects the brain, not the spinal cord, so it is not the right answer here.\nThe ribcage protects thoracic organs such as the heart and lungs, and the pelvic girdle supports pelvic organs and limb attachment; neither forms the canal around the spinal cord.\nIntervertebral discs and articulations provide cushioning and flexibility while the vertebral arches and processes provide the primary bony protection for the spinal cord.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30354,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "An example of an animal exhibiting radial symmetry is a:",
+      "options": [
+        "Earthworm",
+        "Hydra",
+        "Cockroach",
+        "Toad"
+      ],
+      "answerIndex": 1,
+      "answerText": "Hydra",
+      "originalExplanation": "Radial symmetry means body parts arranged around a central axis so similar structures repeat in a circle.\nHydra, a cnidarian polyp, exhibits radial symmetry because its mouth and tentacles are arranged around a central oral–aboral axis.\nEarthworm is an annelid with bilateral symmetry, showing distinct left and right halves and a head–tail orientation.\nCockroach is an arthropod with bilateral symmetry and paired appendages, not radial arrangement.\nToad, an amphibian vertebrate, also has bilateral symmetry with a clear anterior–posterior axis.\nThus Hydra is correct because it is the only listed animal with radial symmetry while the others are bilaterally symmetrical.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30355,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The function of the semicircular canals in the inner ear of mammals is:",
+      "options": [
+        "Transmitting sound vibrations",
+        "Equalizing air pressure",
+        "Maintaining balance and posture",
+        "Amplifying acoustic signals"
+      ],
+      "answerIndex": 2,
+      "answerText": "Maintaining balance and posture",
+      "originalExplanation": "The semicircular canals are part of the vestibular apparatus in the inner ear and detect angular acceleration (rotational movements) of the head.\nEach canal is filled with endolymph and contains hair cells in an ampulla; when the head rotates the fluid lags and bends the cupula, producing nerve impulses carried by the vestibular nerve.\nThese impulses inform the brain about head rotation so it can coordinate posture, balance and stabilise gaze (vestibulo‑ocular reflex).\nTransmitting sound vibrations is primarily the role of the middle ear ossicles and the cochlea, not the semicircular canals.\nEqualizing air pressure across the eardrum is the function of the Eustachian (auditory) tube, which connects the middle ear to the pharynx.\nAmplifying acoustic signals is achieved mainly by the ossicular chain and cochlear mechanics; the semicircular canals do not process or amplify sound.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30356,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "What type of selection occurs when environmental conditions favor intermediate phenotypes over extreme variations?",
+      "options": [
+        "Directional selection",
+        "Disruptive selection",
+        "Stabilizing selection",
+        "Artificial selection"
+      ],
+      "answerIndex": 2,
+      "answerText": "Stabilizing selection",
+      "originalExplanation": "Stabilizing selection is a form of natural selection that favors intermediate phenotypes and reduces the frequency of extreme variants in a population.\nIt fits the stem because environmental conditions that disadvantage both extremes while favoring the middle cause intermediates to have higher relative fitness and become more common.\nStabilizing selection therefore tends to decrease phenotypic variation and maintain an average trait value, a classic example being selection against very low or very high human birth weights.\nDirectional selection differs by consistently favoring one extreme, shifting the population mean toward that extreme over time.\nDisruptive selection contrasts by favoring both extremes and potentially promoting divergent subpopulations, while artificial selection is intentional, human-driven selection for chosen traits.\nGiven these distinctions, stabilizing selection is the correct choice because it specifically describes natural selection that preserves intermediate forms at the expense of extremes.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30357,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The respiratory pigment found dissolved in the blood plasma of earthworms is:",
+      "options": [
+        "Hemoglobin",
+        "Hemocyanin",
+        "Chlorocruorin",
+        "Hemerythrin"
+      ],
+      "answerIndex": 0,
+      "answerText": "Hemoglobin",
+      "originalExplanation": "Respiratory pigments carry oxygen in the blood, and in common oligochaete earthworms the pigment is hemoglobin dissolved directly in the blood plasma rather than packaged in cells.\nEarthworm hemoglobin is an iron‑containing heme pigment that binds oxygen reversibly and makes the blood appear red when oxygenated.\nHemocyanin is a copper‑based pigment (blue when oxygenated) found in many arthropods and molluscs, so it is not the pigment of typical earthworms.\nChlorocruorin is a greenish heme pigment present in some polychaete annelids but is not the principal respiratory pigment of terrestrial earthworms.\nHemerythrin (a non‑heme iron pigment that can appear pinkish) occurs in some marine invertebrates such as brachiopods and sipunculans, not in common earthworms.\nThus Hemoglobin is correct because oligochaete earthworms use extracellular, iron‑based hemoglobin dissolved in plasma as their oxygen carrier.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30358,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Which tissue in dicotyledonous roots and stems is responsible for secondary growth and thickening?",
+      "options": [
+        "Apical meristem",
+        "Vascular cambium",
+        "Parenchyma",
+        "Endodermis"
+      ],
+      "answerIndex": 1,
+      "answerText": "Vascular cambium",
+      "originalExplanation": "The question asks which tissue produces secondary growth (increased girth) in dicot roots and stems.\nVascular cambium is a lateral meristem located between primary xylem and phloem that divides to form secondary xylem inward and secondary phloem outward, causing thickening.\nAccumulation of secondary xylem on the inner side builds woody tissue and annual rings in dicots, which explains why vascular cambium is correct.\nApical meristem is incorrect because apical meristems at shoot and root tips produce primary growth (lengthening), not radial thickening.\nParenchyma is a general ground tissue used for storage, photosynthesis and packing cells and does not produce the organized secondary vascular tissues responsible for thickening.\nEndodermis is the innermost cortex layer with a Casparian strip that controls water and solute entry into the stele and is not a meristem for secondary growth.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30359,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The association between nitrogen-fixing Rhizobium bacteria and the root nodules of leguminous plants is:",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Saprophytism"
+      ],
+      "answerIndex": 1,
+      "answerText": "Mutualism",
+      "originalExplanation": "The Rhizobium–legume association is mutualistic because both partners gain net benefits from the interaction.\nRhizobium bacteria fix atmospheric nitrogen into ammonium using nitrogenase, supplying the legume with usable nitrogen for amino acids and proteins.\nIn return the plant supplies the bacteria with carbohydrates and a protected nodule habitat where they can grow.\nLegume nodules contain leghemoglobin to maintain a low-oxygen (microaerobic) environment necessary for oxygen-sensitive nitrogenase activity.\nThis differs from parasitism (one benefits at the host's expense), commensalism (one benefits while the other is unaffected) and saprophytism (organisms feed on dead organic matter).\nBecause both organisms receive clear, complementary benefits the correct classification of the association is mutualism.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "batchNumber": 7,
+  "batchSize": 20,
+  "availableCandidates": 615,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30259,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Respiration in adult frogs occurs mainly through:",
+      "options": [
+        "Gills only",
+        "Lungs and moist skin",
+        "Spiracles",
+        "Tracheae"
+      ],
+      "answerIndex": 1,
+      "answerText": "Lungs and moist skin",
+      "originalExplanation": "Adult frogs respire mainly through their lungs and by cutaneous (skin) respiration.\nTheir lungs are simple sac-like organs ventilated by buccal pumping that allow gas exchange with the blood.\nThe skin is thin, richly supplied with blood vessels and kept moist by mucous glands so oxygen and carbon dioxide diffuse directly across it.\nGills occur in the aquatic tadpole stage and are lost during metamorphosis to the adult frog.\nSpiracles and tracheae are parts of the insect (and some fish) respiratory systems and are not used by amphibians for breathing.\nTherefore 'Lungs and moist skin' is correct, while 'Gills only', 'Spiracles' and 'Tracheae' do not describe adult frog respiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30260,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The free-swimming, aquatic larval stage of a frog is called a:",
+      "options": [
+        "Nymph",
+        "Tadpole",
+        "Larva",
+        "Pupa"
+      ],
+      "answerIndex": 1,
+      "answerText": "Tadpole",
+      "originalExplanation": "A tadpole is the free-swimming aquatic larval stage of a frog, characterized by a tail and gills for underwater respiration.\nDuring metamorphosis a tadpole develops limbs, replaces gills with lungs, and gradually resorbs its tail to become an adult frog.\nThe option 'Tadpole' is correct because it names this specific amphibian larval form rather than a generic term.\nThe option 'Larva' is a general term that could apply to many immature animal stages but is less precise than 'tadpole' for frogs.\nA 'Nymph' refers to an immature form of certain insects that undergo incomplete metamorphosis and usually resembles the adult, while a 'Pupa' is a non‑feeding, transformative stage in insects with complete metamorphosis.\nTherefore 'Tadpole' is the most accurate choice for the free‑swimming aquatic stage of a frog.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30261,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "Fertilization in frogs takes place externally in water and is classified as:",
+      "options": [
+        "Internal fertilization",
+        "External fertilization",
+        "Vegetative propagation",
+        "Parthenogenesis"
+      ],
+      "answerIndex": 1,
+      "answerText": "External fertilization",
+      "originalExplanation": "Fertilization in frogs normally occurs externally in water, where eggs and sperm meet outside the bodies of the parents.\nDuring amplexus the male clasps the female and releases sperm over the eggs as she lays them, ensuring external fertilization.\nTherefore the correct classification is 'External fertilization' because gamete union takes place outside the reproductive tracts.\nInternal fertilization is incorrect because it involves sperm entering the female reproductive tract and fertilizing eggs inside the body, a mode typical of many mammals, reptiles and birds.\nVegetative propagation is an asexual plant reproduction method that does not involve gametes and so cannot describe frog reproduction.\nParthenogenesis — development of an embryo from an unfertilised egg — occurs in a few animal groups but is not the normal reproductive mode in frogs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30262,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The process by which green plants manufacture organic food from carbon dioxide and water using light energy absorbed by chlorophyll is:",
+      "options": [
+        "Chemosynthesis",
+        "Photosynthesis",
+        "Transpiration",
+        "Respiration"
+      ],
+      "answerIndex": 1,
+      "answerText": "Photosynthesis",
+      "originalExplanation": "Photosynthesis is the process by which green plants use light energy absorbed by chlorophyll in chloroplasts to convert carbon dioxide and water into organic food (mainly glucose) and release oxygen.\nThe overall balanced equation 6CO2 + 6H2O → C6H12O6 + 6O2 shows carbon dioxide and water as reactants and glucose and oxygen as products of the light-driven process.\nPhotosynthesis is the correct option because the stem specifies manufacture of organic food from CO2 and water using light energy, which uniquely describes this process.\nChemosynthesis is different: it produces organic compounds using energy from chemical reactions (not light) and is typical of some bacteria rather than green, chlorophyll-containing plants.\nTranspiration refers to the loss of water vapour from leaves and stems and does not involve synthesis of organic food.\nRespiration involves the breakdown of organic food to release energy (often using oxygen) and is essentially the opposite metabolic process to photosynthesis.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30263,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "Which of the following organisms exhibits autotrophic nutrition?",
+      "options": [
+        "Rhizopus",
+        "Chlamydomonas",
+        "Amoeba",
+        "Tapeworm"
+      ],
+      "answerIndex": 1,
+      "answerText": "Chlamydomonas",
+      "originalExplanation": "Autotrophic nutrition is when an organism makes organic food from inorganic raw materials (carbon dioxide and water) using an external energy source, usually light.\nChlamydomonas is a unicellular green alga that contains chloroplasts with chlorophyll and performs photosynthesis, enabling it to synthesize its own organic food.\nPhotosynthesis in Chlamydomonas converts light energy into chemical energy by fixing CO2 into sugars, which is the basis for classifying it as autotrophic.\nRhizopus is a fungus that obtains nutrients saprophytically by secreting enzymes to digest dead organic matter and absorbing the products, so it is heterotrophic.\nAmoeba is a protozoan heterotroph that takes in food by engulfing particles (phagocytosis) with pseudopodia rather than producing its own food.\nTapeworms are parasitic flatworms that lack a digestive system and absorb pre-digested nutrients from their host through their body surface, so they are heterotrophic.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30264,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "In the human stomach, hydrochloric acid performs which vital role in protein digestion?",
+      "options": [
+        "Emulsifying dietary fats",
+        "Converting inactive pepsinogen into active pepsin",
+        "Neutralizing acidic chyme",
+        "Digesting starch into maltose"
+      ],
+      "answerIndex": 1,
+      "answerText": "Converting inactive pepsinogen into active pepsin",
+      "originalExplanation": "Hydrochloric acid in the stomach creates a strongly acidic environment (pH ≈1–2) that denatures ingested proteins and supports proteolytic activity.\nAt this low pH HCl converts the inactive zymogen pepsinogen into the active protease pepsin by promoting conformational change and cleavage (autocatalytic activation).\nPepsin then hydrolyzes peptide bonds, breaking proteins into smaller polypeptides and peptides that can be further digested in the small intestine.\nEmulsification of dietary fats is carried out by bile salts from the liver and gallbladder, not by gastric HCl, so option A is incorrect.\nNeutralization of acidic chyme is achieved in the duodenum by pancreatic bicarbonate secretion, so HCl does not perform neutralization as suggested in option C.\nStarch digestion to maltose is the role of salivary and pancreatic amylases, so HCl does not digest carbohydrates as implied by option D.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30265,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which component of human blood plays a primary role in immune defense by ingesting foreign pathogens?",
+      "options": [
+        "Erythrocytes",
+        "Phagocytic leucocytes",
+        "Thrombocytes",
+        "Blood plasma"
+      ],
+      "answerIndex": 1,
+      "answerText": "Phagocytic leucocytes",
+      "originalExplanation": "Phagocytic leucocytes (e.g. neutrophils and macrophages) protect the body by ingesting and destroying invading pathogens through phagocytosis.\nDuring phagocytosis a leucocyte surrounds a microbe to form a phagosome which fuses with lysosomes whose enzymes digest the pathogen.\nThus 'Phagocytic leucocytes' is correct because they actively engulf and break down foreign organisms, unlike cells with other primary roles.\nErythrocytes transport oxygen and carbon dioxide via haemoglobin and do not ingest pathogens.\nThrombocytes (platelets) are involved in blood clotting, while blood plasma is the liquid medium that carries dissolved proteins, nutrients and antibodies but does not perform phagocytosis.\nOther leucocytes such as lymphocytes mediate specific immunity by producing antibodies or killing infected cells, not by engulfing microbes like phagocytes.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30266,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The main organ responsible for osmoregulation and excretion of urea in mammals is the:",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Skin",
+        "Lung"
+      ],
+      "answerIndex": 1,
+      "answerText": "Kidney",
+      "originalExplanation": "The kidney is the main organ for osmoregulation and for removing nitrogenous wastes such as urea in mammals.\nEach kidney contains many nephrons where blood is filtered at the glomerulus and useful solutes and water are reabsorbed or secreted to form urine.\nUrea is carried in the blood from the liver to the kidneys and is concentrated and excreted in urine by tubular reabsorption and secretion processes.\nThe kidneys also regulate water and salt balance via mechanisms controlled by hormones like antidiuretic hormone and the renin–angiotensin–aldosterone system.\nThe liver produces urea through deamination and the urea cycle but does not perform the primary excretory role of removing urea from the body.\nThe skin can excrete small amounts of salts and urea in sweat and the lungs excrete CO2 and help acid–base balance, but neither is the main organ for urea excretion or osmoregulation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30267,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In flowering plants, pollination by insects is referred to as:",
+      "options": [
+        "Anemophily",
+        "Entomophily",
+        "Hydrophily",
+        "Ornithophily"
+      ],
+      "answerIndex": 1,
+      "answerText": "Entomophily",
+      "originalExplanation": "The question asks for the term describing pollination carried out by insects.\nEntomophily is the correct term because the prefix 'entomo-' means insect and it denotes pollen transfer mediated by insects.\nInsect-pollinated flowers typically have bright colours, scents, nectar rewards and pollen that adheres to insect bodies.\nAnemophily is wind pollination, characterized by inconspicuous flowers that release large amounts of lightweight, non-sticky pollen.\nHydrophily denotes pollination by water in aquatic plants, while ornithophily denotes pollination by birds and is associated with tubular, nectar-rich flowers.\nTherefore entomophily specifically names insect-mediated pollination and is the appropriate choice among the options.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30268,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The transfer of pollen grains from the anther to the stigma of a different flower on the same plant is called:",
+      "options": [
+        "Self-pollination",
+        "Geitonogamy",
+        "Cross-pollination",
+        "Hybridization"
+      ],
+      "answerIndex": 1,
+      "answerText": "Geitonogamy",
+      "originalExplanation": "Geitonogamy is the transfer of pollen from the anther of one flower to the stigma of another flower on the same individual plant.\nBecause the donor and recipient flowers belong to the same genotype, geitonogamy is genetically a form of self‑fertilization even if an external agent (insect, wind) moves the pollen.\nAutogamy (often called self‑pollination) refers specifically to pollen transfer within the same flower, so it differs from geitonogamy which is between separate flowers on the same plant.\nCross‑pollination means pollen transfer between flowers of different plants and therefore increases genetic variation relative to geitonogamy.\nHybridization denotes mating between different species producing hybrids and is not the correct description of pollen transfer within one plant.\nTherefore the most precise answer is geitonogamy; the option 'self‑pollination' is broader and less specific, while cross‑pollination and hybridization describe pollen transfer between plants or species respectively.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30269,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The male gamete in flowering plants is contained within the:",
+      "options": [
+        "Ovule",
+        "Pollen grain",
+        "Embryo sac",
+        "Receptacle"
+      ],
+      "answerIndex": 1,
+      "answerText": "Pollen grain",
+      "originalExplanation": "Male gametes (sperm cells) in angiosperms are the haploid cells that fertilize the egg and central cell and are produced within the pollen grain.\nPollen grains develop in the anthers and, at maturity, the generative cell within a pollen grain divides to form two sperm cells that remain inside the pollen grain.\nAfter pollination a pollen tube grows from the pollen grain and carries these sperm cells to the embryo sac inside the ovule to achieve double fertilization.\nThe embryo sac is the female gametophyte located within the ovule and contains the egg cell and central cell, not the male gametes.\nThe ovule encloses the embryo sac and later becomes the seed, while the receptacle is the flower base that supports floral parts; neither contains the male gametes.\nThus the correct option is Pollen grain because it physically contains the male gametes prior to pollen-tube formation and delivery.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30270,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "Which enzyme in the human digestive system breaks down fats into fatty acids and glycerol?",
+      "options": [
+        "Amylase",
+        "Lipase",
+        "Trypsin",
+        "Rennet"
+      ],
+      "answerIndex": 1,
+      "answerText": "Lipase",
+      "originalExplanation": "Lipase is the digestive enzyme that hydrolyses dietary fats (triglycerides) into fatty acids and glycerol.\nIn humans lipase is secreted mainly by the pancreas and acts in the small intestine, with bile salts emulsifying fats to increase lipase efficiency.\nThe catalytic action involves breaking ester bonds in triglycerides, producing glycerol and free fatty acids for absorption.\nAmylase, in contrast, is an enzyme that digests starch into maltose and glucose, not fats.\nTrypsin is a protease produced by the pancreas that cleaves proteins into smaller peptides and amino acids.\nRennet is not a human digestive enzyme but a milk‑coagulating preparation (contains chymosin) used in cheese‑making to act on casein.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30271,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The structural adaptation in birds that aids in crushing tough seeds and grains is the presence of a:",
+      "options": [
+        "Crop",
+        "Proventriculus",
+        "Gizzard",
+        "Cloaca"
+      ],
+      "answerIndex": 2,
+      "answerText": "Gizzard",
+      "originalExplanation": "Avian digestive adaptations include specialized regions that store, chemically digest, or mechanically process food.\nThe gizzard (ventriculus) is a thick‑walled, muscular chamber that grinds and crushes hard food, often with the aid of ingested grit or stones.\nBecause of its powerful muscles and abrasive grit, the gizzard performs the mechanical breakdown required for tough seeds and grains, making it the correct answer.\nThe crop is an expanded oesophageal pouch for temporary storage and moistening of food, not for strong mechanical grinding.\nThe proventriculus is the glandular stomach that secretes digestive enzymes and acids for chemical digestion, not the primary site of grinding.\nThe cloaca is a common exit chamber for digestive, urinary and reproductive tracts and plays no role in crushing food.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30272,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Plants that grow in saline habitats such as salt marshes are classified as:",
+      "options": [
+        "Hydrophytes",
+        "Mesophytes",
+        "Halophytes",
+        "Xerophytes"
+      ],
+      "answerIndex": 2,
+      "answerText": "Halophytes",
+      "originalExplanation": "Halophytes are plants adapted to grow and reproduce in saline environments such as salt marshes and mangrove swamps.\nThey tolerate or remove excess salt by adaptations like salt-excreting glands, succulence, selective ion uptake and compartmentalization of salts in vacuoles.\nHydrophytes (option A) are adapted to living in water or permanently flooded habitats and are not specialized for saline soils.\nMesophytes (option B) occupy moderate, well-drained environments and lack special mechanisms for salt tolerance.\nXerophytes (option D) are adapted to arid conditions with features for water conservation rather than salt management.\nHence plants that grow in saline habitats are correctly classified as Halophytes (option C).",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30273,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "An example of a plant exhibiting xerophytic adaptations, such as reduced needle-like leaves and a thick cuticle, is:",
+      "options": [
+        "Water lily",
+        "Cactus",
+        "Hydrilla",
+        "Fern"
+      ],
+      "answerIndex": 1,
+      "answerText": "Cactus",
+      "originalExplanation": "Xerophytic adaptations are structural and physiological features—such as reduced leaf area, thick cuticle, sunken stomata, and water storage tissues—that reduce water loss and enable survival in arid environments.\nCacti exhibit classic xerophytic traits: leaves are modified into reduced spines (needle-like) to lower transpiration, stems are succulent for water storage, and a thick waxy cuticle minimizes evaporation.\nWater lilies are obligate aquatic plants with broad, thin leaves and large air spaces (aerenchyma) for buoyancy, adaptations that increase gas exchange and water contact rather than conserve water.\nHydrilla is a submerged aquatic plant with thin, delicate leaves and no thick cuticle, so it lacks xerophytic features and instead is adapted to life underwater.\nFerns are generally mesophytic with large fronds and thin cuticles; while some ferns in dry habitats show reduced leaves or hairs, they do not typically have the suite of xerophytic modifications seen in cacti.\nTherefore the cactus is the correct choice because its reduced needle-like leaves and thick cuticle are textbook xerophytic adaptations for water conservation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30274,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The movement of dissolved organic solutes from source leaves to sink tissues through the phloem is termed:",
+      "options": [
+        "Transpiration",
+        "Translocation",
+        "Guttation",
+        "Imbibition"
+      ],
+      "answerIndex": 1,
+      "answerText": "Translocation",
+      "originalExplanation": "Translocation is the transport of dissolved organic solutes, mainly sucrose, from source tissues (usually mature leaves) to sink tissues through the phloem.\nThis process involves phloem loading at sources, mass flow under a pressure gradient (pressure-flow hypothesis), and phloem unloading at sinks.\nTranslocation is correct because it specifically denotes long-distance movement of organic solutes in the phloem rather than movement of water or other processes.\nTranspiration refers to evaporation of water from leaf surfaces and the upward pull of xylem sap, so it does not describe phloem transport of solutes.\nGuttation is the exudation of droplets of xylem sap from leaf margins via hydathodes, occurring at night or high humidity, and does not move dissolved organic solutes through the phloem.\nImbibition is the uptake of water by dry colloidal materials (e.g., seeds or wood) causing swelling and is unrelated to phloem-mediated solute transport.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30275,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Guttation in plants occurs through specialized pores at the leaf margins called:",
+      "options": [
+        "Stomata",
+        "Lenticels",
+        "Hydathodes",
+        "Cuticle"
+      ],
+      "answerIndex": 2,
+      "answerText": "Hydathodes",
+      "originalExplanation": "Guttation is the exudation of liquid water from leaf edges or tips, occurring when root pressure forces sap out of the plant, typically at night or in high humidity.\nHydathodes are specialized pores at leaf margins or vein endings that connect to the vascular system and allow this liquid to be released, so Hydathodes is the correct option.\nStomata are epidermal openings mainly for gas exchange and transpiration and do not mediate guttation because they are regulated by guard cells and usually close at night.\nLenticels are porous tissues in stems and bark that permit gas exchange in woody parts and are not involved in leaf guttation.\nThe cuticle is a waxy protective layer that reduces water loss across the leaf surface and therefore cannot be the structure through which guttation occurs.\nHydathodes are often associated with veins and may form water-soaked tips or nectar-like droplets, distinguishing their role from the other structures listed.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30276,
+      "subject": "Biology",
+      "topic": "Support and Movement",
+      "question": "The division of the skeleton into an axial skeleton and an appendicular skeleton is a feature of:",
+      "options": [
+        "Vertebrates",
+        "Arthropods",
+        "Annelids",
+        "Molluscs"
+      ],
+      "answerIndex": 0,
+      "answerText": "Vertebrates",
+      "originalExplanation": "The axial and appendicular division describes an internal bony skeleton split into central structures (axial: skull, vertebral column, ribs, sternum) and limb-related structures (appendicular: pectoral and pelvic girdles plus limbs).\nVertebrates possess an endoskeleton with a vertebral column forming the axial skeleton and paired girdles and limbs forming the appendicular skeleton, so this division is characteristic of them.\nFunctionally, the axial skeleton supports and protects central organs while the appendicular skeleton provides attachment for muscles that effect locomotion and manipulation.\nArthropods differ because they have a chitinous exoskeleton and body tagmata (head, thorax, abdomen) rather than an internal axial/appendicular bone arrangement.\nAnnelids lack a bony skeleton and rely on segmentation and a hydrostatic skeleton for movement, while molluscs may have an external shell or reduced internal supports but not a vertebrate-style axial and appendicular partition.\nTherefore the correct option is Vertebrates, since only vertebrate animals among the choices show this internal skeletal division.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30277,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which bone forms part of the axial skeleton in humans?",
+      "options": [
+        "Humerus",
+        "Femur",
+        "Vertebral column",
+        "Scapula"
+      ],
+      "answerIndex": 2,
+      "answerText": "Vertebral column",
+      "originalExplanation": "The axial skeleton consists of the bones of the skull, vertebral column, sternum and ribs that form the central supporting axis of the body.\nThe vertebral column is a chain of vertebrae that supports the trunk, transmits weight to the pelvis and protects the spinal cord along the body's midline.\nFor these structural and protective roles the vertebral column is classified as part of the axial skeleton.\nThe humerus and femur are long bones of the upper and lower limbs respectively and therefore belong to the appendicular skeleton.\nThe scapula is a flat bone of the pectoral (shoulder) girdle and is also part of the appendicular skeleton rather than the axial.\nThus the correct option is Vertebral column; the other choices are real bones but are components of the appendicular skeleton.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30278,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "The joint between the atlas and axis vertebrae allowing head rotation is a:",
+      "options": [
+        "Hinge joint",
+        "Pivot joint",
+        "Ball-and-socket joint",
+        "Gliding joint"
+      ],
+      "answerIndex": 1,
+      "answerText": "Pivot joint",
+      "originalExplanation": "The atlas–axis articulation involves the odontoid process (dens) of the axis projecting into the ring of the atlas.\nThis ring-and-peg arrangement permits rotation of the skull around the vertebral column’s longitudinal axis, which is the hallmark of a pivot joint.\nHence the correct option is Pivot joint because it allows primarily rotational movement while limiting other movements.\nA hinge joint allows only flexion and extension (e.g., elbow and knee) and cannot produce the axial rotation seen at C1–C2.\nA ball-and-socket joint allows multi-axial movement including rotation (e.g., shoulder and hip) but has a rounded head in a socket, unlike the ring-and-peg structure of the atlas and axis.\nGliding (plane) joints permit sliding between flat surfaces (e.g., carpals) and do not provide the rotational capacity characteristic of the atlas–axis joint.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}
