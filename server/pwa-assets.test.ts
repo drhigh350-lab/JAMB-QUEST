@@ -19,9 +19,9 @@ describe("JAMB Quest PWA assets", () => {
     expect(manifest.display).toBe("standalone");
     expect(manifest.start_url).toBe("/");
     expect(manifest.icons).toEqual(expect.arrayContaining([
-      expect.objectContaining({ sizes: "192x192", type: "image/png" }),
-      expect.objectContaining({ sizes: "512x512", type: "image/png" }),
-      expect.objectContaining({ purpose: "maskable" }),
+      expect.objectContaining({ sizes: "192x192", type: "image/png", src: expect.stringContaining("jamb-quest-official-icon-192") }),
+      expect.objectContaining({ sizes: "512x512", type: "image/png", src: expect.stringContaining("jamb-quest-official-icon-512") }),
+      expect.objectContaining({ purpose: "maskable", src: expect.stringContaining("jamb-quest-official-icon-maskable") }),
     ]));
   });
 
