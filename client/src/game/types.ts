@@ -36,6 +36,7 @@ export interface RoundConfig {
   count: number;
   timing?: "study" | "timed";
   topic?: string;
+  topics?: string[];
   questionIds?: string[];
   recoveryOrigin?: "saved-question" | "missed-questions";
 }

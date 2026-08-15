@@ -51,7 +51,7 @@ export function selectQuestions(
   mode: QuizMode,
   count: number,
   wrongIds: string[],
-  filters?: { topic?: string; questionIds?: string[] },
+  filters?: { topic?: string; topics?: string[]; questionIds?: string[] },
 ): BankQuestion[] {
   const savedQuestionIds = new Set(filters?.questionIds ?? []);
   if (savedQuestionIds.size) {
@@ -68,12 +68,16 @@ export function selectQuestions(
     });
   }
   const subjectQuestions = questions.filter((question) => question.subject === subject);
+  const requestedTopics = new Set(filters?.topics ?? []);
+  const hasTopicFilter = Boolean(filters?.topic || requestedTopics.size);
   const source = filters?.topic
       ? subjectQuestions.filter((question) => question.topic === filters.topic || (filters.topic === "The Lekki Headmaster" && question.topic.startsWith("The Lekki Headmaster · Chapter")))
+      : requestedTopics.size
+        ? subjectQuestions.filter((question) => requestedTopics.has(question.topic))
       : mode === "review"
         ? subjectQuestions.filter((question) => wrongIds.includes(question.id))
         : subjectQuestions;
-  if (filters?.topic || mode === "review") return shuffle(source).slice(0, Math.min(count, source.length));
+  if (hasTopicFilter || mode === "review") return shuffle(source).slice(0, Math.min(count, source.length));
   return shuffle(subjectQuestions).slice(0, Math.min(count, subjectQuestions.length));
 }
 

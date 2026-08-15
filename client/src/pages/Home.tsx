@@ -178,7 +178,13 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const startFullMock = () => onStart({ subject: "Full JAMB Mock", mode: "cbt", count: 180 });
   const isStudySubject = (subject: string): subject is Subject => subjects.some((item) => item.name === subject);
   const startTopicDrill = (topic: { subject?: string | null; topic: string }) => { if (topic.subject && isStudySubject(topic.subject)) onStart({ subject: topic.subject, mode: "sprint", count: 20, timing: "study", topic: topic.topic }); };
-  const startSelectedTopicDrill = () => { if (selectedTopic) onStart({ subject: selectedSubject, mode: "sprint", count: 20, timing: "study", topic: selectedTopic }); };
+  const startSelectedTopicDrill = () => {
+    if (selectedTopic) {
+      onStart({ subject: selectedSubject, mode: "sprint", count: 20, timing: "study", topic: selectedTopic });
+      return;
+    }
+    if (selectedTopicGroup && selectedGroupTopics.length) onStart({ subject: selectedSubject, mode: "sprint", count: 20, timing: "study", topics: selectedGroupTopics });
+  };
   const startLekkiRandom = () => onStart({ subject: "Use of English", mode: "sprint", count: 20, timing: "study", topic: "The Lekki Headmaster" });
   const startLekkiChapter = () => { if (selectedLekkiChapter) onStart({ subject: "Use of English", mode: "sprint", count: 20, timing: "study", topic: selectedLekkiChapter }); };
   const openBookmark = (bookmark: { questionId: string; subject: string; topic: string }) => { if (isStudySubject(bookmark.subject)) onStart({ subject: bookmark.subject, mode: "sprint", count: 1, timing: "study", questionIds: [bookmark.questionId], recoveryOrigin: "saved-question" }); };
@@ -223,7 +229,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
           <CompactPanel eyebrow="03 / TOPIC" title="Study by broad area" note="Choose a larger area first; exact drills appear only when useful" tone="maize">
             <div className="compact-topic-groups" role="list" aria-label={`${selected.name} study areas`}>{topicGroups.map(([group, topics]) => <button role="listitem" key={group} className={selectedTopicGroup === group ? "active" : ""} onClick={() => { setSelectedTopicGroup(group); setSelectedTopic(""); }}><b>{group}</b><small>{topics.length} focused topics</small><ArrowRight size={13} /></button>)}</div>
             {selectedTopicGroup && <label className="compact-topic-select"><span>Exact drill in {selectedTopicGroup}</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose an exact topic only if you need it</option>{selectedGroupTopics.map((topic) => <option key={topic} value={topic}>{topic}</option>)}</select></label>}
-            <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopic || loading || !!loadError}>Start topic drill <ArrowRight size={16} /></button>
+            <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopicGroup || !selectedGroupTopics.length || loading || !!loadError}>Start topic drill <ArrowRight size={16} /></button>
           </CompactPanel>
         </section>
       </>}

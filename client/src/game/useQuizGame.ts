@@ -130,9 +130,9 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const startRound = useCallback(
     (config: RoundConfig) => {
       if (!playableQuestions.length) return;
-      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds, { topic: config.topic, questionIds: config.questionIds });
+      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds, { topic: config.topic, topics: config.topics, questionIds: config.questionIds });
       if (!picked.length) {
-        setLoadError(config.questionIds?.length ? config.recoveryOrigin === "missed-questions" ? "None of the missed questions from that attempt are currently available in the active question bank." : "That saved question is no longer available in the active question bank." : config.topic ? `No playable questions are currently available for ${config.topic}.` : "No playable questions are available for this round.");
+        setLoadError(config.questionIds?.length ? config.recoveryOrigin === "missed-questions" ? "None of the missed questions from that attempt are currently available in the active question bank." : "That saved question is no longer available in the active question bank." : config.topic ? `No playable questions are currently available for ${config.topic}.` : config.topics?.length ? "No playable questions are currently available in that study area." : "No playable questions are available for this round.");
         return;
       }
       const startingSeconds = config.mode === "cbt" ? Math.max(CBT_MINIMUM_SECONDS, config.count * 75) : DEFAULT_SECONDS;

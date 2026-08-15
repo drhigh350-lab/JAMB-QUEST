@@ -23,6 +23,15 @@ describe("learner-facing topic normalization", () => {
     expect(selected.every((question) => question.subject === "Chemistry" && question.topic === "Gas Laws and Diffusion")).toBe(true);
   });
 
+  it("creates a 20-question broad-area drill across only its selected topics", () => {
+    const mechanics = Array.from({ length: 12 }, (_, index) => ({ id: `mechanics-${index}`, subject: "Physics" as const, topic: "Mechanics", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Mechanics question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
+    const energy = Array.from({ length: 12 }, (_, index) => ({ ...mechanics[index], id: `energy-${index}`, topic: "Energy", question: `Energy question ${index}` }));
+    const distractor = { ...mechanics[0], id: "waves-other", topic: "Waves and Sound" };
+    const selected = selectQuestions([...mechanics, ...energy, distractor], "Physics", "sprint", 20, [], { topics: ["Mechanics", "Energy"] });
+    expect(selected).toHaveLength(20);
+    expect(selected.every((question) => question.subject === "Physics" && ["Mechanics", "Energy"].includes(question.topic))).toBe(true);
+  });
+
   it("launches a mixed 20-question Lekki drill across chapter-labelled novel topics only", () => {
     const chapterOne = Array.from({ length: 12 }, (_, index) => ({ id: `lekki-one-${index}`, subject: "Use of English" as const, topic: "The Lekki Headmaster · Chapter 1: Dusk", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Chapter one question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
     const chapterTwo = Array.from({ length: 12 }, (_, index) => ({ ...chapterOne[index], id: `lekki-two-${index}`, topic: "The Lekki Headmaster · Chapter 2: The Enticement", question: `Chapter two question ${index}` }));
