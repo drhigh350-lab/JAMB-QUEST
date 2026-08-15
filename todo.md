@@ -253,7 +253,7 @@
 - [x] Resolve or hold any legacy records that remain unmapped or exceed the explanation cap before the next batch intake
 
 - [x] Inspect and parse the newly supplied Chemistry past-question DOCX in bounded batches without altering supplied question or answer wording
-- [ ] Add uniform medium explanations of four to five readable lines to the Chemistry batch
+- [x] Add uniform medium explanations of four to five readable lines to all release-eligible Chemistry candidates; hold unmapped or duplicate records for review
 - [ ] Map every Chemistry record to an official JAMB Chemistry syllabus topic
 - [x] Deduplicate and structurally audit the Chemistry batch before release
 - [ ] Release only quality-approved Chemistry records and document held records with reasons

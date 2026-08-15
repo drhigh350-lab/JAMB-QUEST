@@ -1,0 +1,291 @@
+[
+  {
+    "externalId": "chem-docx-048",
+    "subject": "Chemistry",
+    "topic": "Chemical equilibria",
+    "difficulty": "medium",
+    "question": "For the equilibrium PCl5(g) <=> PCl3(g) + Cl2(g), a decrease in pressure will",
+    "options": [
+      "decelerate the reaction",
+      "increase the yield of PCl3",
+      "increase the yield of PCl5",
+      "stop the reaction"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le Chatelier's principle: a decrease in pressure shifts an equilibrium toward the side with more gas moles.\nFor PCl5(g) ⇌ PCl3(g) + Cl2(g) there is 1 mole of gas on the left and 2 moles on the right.\nLowering pressure therefore shifts the equilibrium to the right, producing more PCl3 and Cl2.\nHence the yield of PCl3 increases (Option B).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-049",
+    "subject": "Chemistry",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "question": "Which of the following compounds forms a precipitate when treated with aqueous NaOH solution?",
+    "options": [
+      "AlCl3",
+      "NH4Cl",
+      "Na2CO3",
+      "CH3COONa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: OH− precipitates cations that form insoluble hydroxides.\nAl3+ + 3OH− → Al(OH)3(s), which is insoluble, so AlCl3 gives a precipitate.\nNH4+ is converted to NH3 (soluble) by OH−, and Na+ salts (Na2CO3, CH3COONa) stay soluble.\nHence only AlCl3 (option A) produces a precipitate with aqueous NaOH.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-050",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The electronic configuration of an element with atomic number 13 (13X) in sub-shells is",
+    "options": [
+      "1s2 2s2 2p6 3s2 3p1",
+      "1s2 2s2 2p4 3s2 3p3",
+      "1s2 2s2 2p6 3s1 3p2",
+      "1s2 2s2 2p5 3s2 3p2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: electrons fill subshells by increasing energy (Aufbau) with capacities 1s2, 2s2, 2p6, 3s2, 3p6.\n13 electrons → fill 1s2 (2), 2s2 (4), 2p6 (10); 3 electrons remain.\nPlace remaining: 3s2 (12), 3p1 (13) giving 1s2 2s2 2p6 3s2 3p1.\nThis configuration matches option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-053",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "What volume of oxygen gas at S.T.P. is required for complete combustion of 45 cm3 of methane gas (CH4)?",
+    "options": [
+      "135.0 cm3",
+      "150.0 cm3",
+      "45.0 cm3",
+      "90.0 cm3"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: at the same T and P gas volumes are proportional to mole ratios from the balanced equation.\nBalanced equation: CH4 + 2O2 → CO2 + 2H2O.\nThus 1 volume CH4 requires 2 volumes O2, so 45 cm3 CH4 × 2 = 90 cm3 O2.\nRequired volume = 90.0 cm3, which corresponds to option D.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-054",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "The element used in the steel industry to oxidize carbon, sulfur, and phosphorus impurities from pig iron is",
+    "options": [
+      "oxygen",
+      "chlorine",
+      "nitrogen",
+      "hydrogen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: impurities in pig iron are removed by oxidation, converting them to volatile gases or oxides.\nOxygen is a strong oxidizing agent that converts carbon to CO/CO2, sulfur to SO2 and phosphorus to P2O5.\nIn the steel industry oxygen is blown through molten pig iron (basic oxygen process) to oxidize and remove these impurities.\nTherefore the correct choice is A: oxygen.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-055",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "When glucose is heated with concentrated sulfuric acid (H2SO4), it is dehydrated to leave a solid black residue of",
+    "options": [
+      "carbon",
+      "carbon (IV) oxide",
+      "ethane",
+      "ethanol"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: concentrated H2SO4 acts as a strong dehydrating agent and removes water from sugars.\nKey reasoning: glucose C6H12O6 is dehydrated to give elemental carbon plus water (e.g. C6H12O6 → 6C + 6H2O), producing a charred black solid.\nThis black residue is elemental carbon (char), not CO2, ethane, or ethanol.\nTherefore the correct choice is A (carbon).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-057",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which organic compound is represented by the molecular formula C2H6O?",
+    "options": [
+      "Propanal",
+      "Ethanol",
+      "Methanoic acid",
+      "Glucose"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: match the given molecular formula to known organic functional groups and molecular formulas.\nEthanol is C2H5OH, which simplifies to C2H6O, so it fits the formula.\nPropanal is C3H6O, methanoic acid is HCOOH (CH2O2), and glucose is C6H12O6, so they do not match C2H6O.\nTherefore the correct option is B: Ethanol.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-059",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "What is the pH of a 0.001 mol/dm3 solution of sodium hydroxide (NaOH)?",
+    "options": [
+      "14",
+      "13",
+      "12",
+      "11"
+    ],
+    "answerIndex": 3,
+    "explanation": "Use pOH = -log[OH-] and pH + pOH = 14.\nNaOH is a strong base so [OH-] = 0.001 mol/dm3 = 1.0×10^-3 M.\npOH = -log(1.0×10^-3) = 3.\npH = 14 − 3 = 11, so option D.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-061",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "For the endothermic gaseous reaction N2O4(g) <=> 2NO2(g), the yield of product (NO2) is favored by",
+    "options": [
+      "constant volume",
+      "an increase in pressure",
+      "a decrease in pressure",
+      "lowering temperature"
+    ],
+    "answerIndex": 2,
+    "explanation": "Le Chatelier's principle: a change in pressure shifts a gaseous equilibrium to oppose the change.\nFor N2O4(g) ⇌ 2NO2(g) the number of gas moles increases from 1 to 2 (Δn = +1), so products have more moles.\nLowering the pressure favors the side with more gas molecules, shifting equilibrium to the right and increasing NO2 yield.\nTherefore the yield of NO2 is favored by a decrease in pressure (option C).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-062",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "Chlorine gas turns damp starch-iodide paper",
+    "options": [
+      "pink",
+      "colorless",
+      "red",
+      "dark blue"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: chlorine is a strong oxidizing agent and oxidizes iodide ions to iodine.\nKey reaction: Cl2 + 2 I^- → 2 Cl^- + I2.\nIodine produced reacts with starch to give the characteristic dark blue starch–iodine complex on the damp paper.\nTherefore the correct answer is D: dark blue.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-063",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "Chlorine consists of two isotopes, mass 35 and 37. If its relative atomic mass is 35.5, calculate the percentage abundance of the isotope with mass number 37.",
+    "options": [
+      "20%",
+      "25%",
+      "60%",
+      "75%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The relative atomic mass is the weighted average: 35*(1−x)+37*x=35.5 where x is the fraction of 37Cl.\nExpand: 35 + 2x = 35.5.\nSolve: 2x = 0.5 → x = 0.25.\nThus the percentage abundance of 37Cl is 25%, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-064",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The principal constituent of natural gas is",
+    "options": [
+      "methane",
+      "ethane",
+      "propane",
+      "butane"
+    ],
+    "answerIndex": 0,
+    "explanation": "Natural gas is a mixture of light alkanes and the principal constituent is the simplest alkane produced by decomposition of organic matter.\nMethane (CH4) is the lightest alkane, formed in greatest abundance under gas-forming conditions and remains gaseous at reservoir conditions.\nThese factors make methane the dominant component of natural gas, often comprising the majority of its volume.\nTherefore the correct choice is A: methane.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-065",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "One mole of a hydrocarbon contains 36 g of carbon and has a vapor density of 20. What is its structural formula?",
+    "options": [
+      "CH3C≡CH",
+      "CH3CH=CH2",
+      "CH3CH2C≡CH",
+      "CH3CH2CH3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Vapor density = molar mass/2, so M = 2×20 = 40 g mol⁻¹.\nCarbon mass 36 g → 36/12 = 3 C atoms; remaining mass 4 g → 4 H atoms, giving formula C3H4.\nC3H4 requires a triple bond (propyne) to satisfy valency, which matches CH3C≡CH.\nTherefore the correct option is A. CH3C≡CH.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-066",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "In the electrolysis of aqueous CuSO4 solution using platinum electrodes, the reaction occurring at the anode is",
+    "options": [
+      "4H+ + 4e- -> 2H2",
+      "4OH- - 4e- -> 2H2O + O2",
+      "2OH- - 2e- -> H2O2",
+      "Cu -> Cu2+ + 2e-"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oxidation occurs at the anode and with inert platinum the sulfate ion is not oxidized, so water/hydroxide is oxidized instead.\nHydroxide produced from water at the anode is more easily oxidized than SO4^2-, leading to O2 evolution.\nBalanced anode half‑reaction: 4OH- - 4e- -> 2H2O + O2.\nThis equation corresponds to option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-067",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The s-block elements of the Periodic Table are made up of",
+    "options": [
+      "Groups 1, 2, and 3",
+      "Groups 1 and 2",
+      "Group 3 only",
+      "Groups 3 to 7"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: s-block elements are those whose valence electrons occupy an s orbital.\nKey reasoning: Group 1 elements have valence configuration ns^1 and Group 2 have ns^2, so both fill the s subshell.\nGroups beyond 2 have valence electrons in p or d orbitals, so they are not part of the s-block.\nTherefore the s-block consists of Groups 1 and 2, which corresponds to option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-068",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The oxidation state of oxygen in tetraoxosulphate (VI) acid (H2SO4) is",
+    "options": [
+      "-4",
+      "-2",
+      "+4",
+      "-8"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the rule that the sum of oxidation states equals the molecule's charge; sulfur is +6 in tetraoxosulphate(VI).\nFor H2SO4: 2(+1) + (+6) + 4(x) = 0.\nSo 2 + 6 + 4x = 0 → 8 + 4x = 0 → x = -2.\nTherefore the oxidation state of oxygen is -2, which is option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-069",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "In the industrial electrolysis of brine, the anode material used is",
+    "options": [
+      "platinum",
+      "copper",
+      "zinc",
+      "carbon / titanium"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: the anode in brine electrolysis must be inert and corrosion-resistant so it does not oxidize or contaminate products while chloride is discharged.\nAt the anode Cl− is oxidized to Cl2, creating a strongly oxidizing environment that would dissolve reactive metals like Cu or Zn.\nAlthough Pt is chemically inert, it is impractical industrially; carbon (graphite) and titanium are inert and resist chlorine attack.\nTherefore the correct choice is D: carbon / titanium.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
