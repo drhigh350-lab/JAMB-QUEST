@@ -1,10 +1,10 @@
 {
-  "auditedAt": "2026-08-15T21:18:53.268Z",
-  "totalActiveApproved": 2577,
+  "auditedAt": "2026-08-15T22:44:46.020Z",
+  "totalActiveApproved": 2581,
   "topicStatus": [
     {
       "value": "mapped",
-      "count": 2235
+      "count": 2239
     },
     {
       "value": "unmapped",
@@ -14,7 +14,7 @@
   "explanationStatus": [
     {
       "value": "within-cap",
-      "count": 1392
+      "count": 1396
     },
     {
       "value": "over-five-lines",

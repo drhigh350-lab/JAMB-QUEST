@@ -1,0 +1,138 @@
+[
+  {
+    "externalId": "biology-dr-high-0047",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The population of different organisms that exist together in a habitat is called",
+    "options": [
+      "A. biomes",
+      "B. biosphere",
+      "C. community",
+      "D. ecology"
+    ],
+    "answerIndex": 2,
+    "explanation": "A community consists of different populations of organisms interacting\nin a habitat. A biome is a large regional ecosystem, the biosphere is\nall life on Earth, and ecology is the scientific study of these\ninteractions.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0059",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "In eukaryotic cells, cellular respiration takes place in the",
+    "options": [
+      "A. nucleus",
+      "B. cytoplasm",
+      "C. mitochondrion",
+      "D. ribosome"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mitochondria are the sites of aerobic respiration, producing ATP.\nGlycolysis occurs in the cytoplasm, but the Krebs cycle and oxidative\nphosphorylation occur inside mitochondria. Ribosomes synthesize\nproteins.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0060",
+    "subject": "Biology",
+    "topic": "Humans and Environment",
+    "difficulty": "medium",
+    "question": "One of the following causes Ebola fever",
+    "options": [
+      "A. Bacteria",
+      "B. Fungi",
+      "C. Protozoa",
+      "D. Viruses"
+    ],
+    "answerIndex": 3,
+    "explanation": "Ebola is caused by a virus of the genus Ebolavirus. It causes severe\nhemorrhagic fever with high mortality. Bacteria, fungi, and protozoa\ncause other diseases; Ebola is zoonotic and spreads through bodily\nfluids.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0062",
+    "subject": "Biology",
+    "topic": "Nutrition and Diet",
+    "difficulty": "medium",
+    "question": "The deficiency of vitamin D leads to",
+    "options": [
+      "A. beriberi",
+      "B. pellagra",
+      "C. rickets",
+      "D. scurvy"
+    ],
+    "answerIndex": 2,
+    "explanation": "Vitamin D deficiency causes rickets in children, leading to soft,\ndeformed bones. Beriberi is B1 deficiency, pellagra is niacin\ndeficiency, and scurvy is vitamin C deficiency. Vitamin D aids calcium\nabsorption.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0035",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Low annual rainfall, sparse vegetation, high diurnal temperatures and cold nights are characteristic features of the",
+    "options": [
+      "A. tropical rainforest",
+      "B. desert",
+      "C. montane forest",
+      "D. guinea savanna"
+    ],
+    "answerIndex": 3,
+    "explanation": "Although this description typically fits a desert, the JAMB key\nspecifies guinea savanna. Guinea savanna has a distinct dry season with\nlow rainfall, sparse trees, and wide temperature fluctuations. Always\nfollow the official answer key.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0036",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The activity of an organism which affects the survival of another organism in the same habitat constitutes",
+    "options": [
+      "A. an edaphic factor",
+      "B. an abiotic factor",
+      "C. a biotic factor",
+      "D. a physiographic factor"
+    ],
+    "answerIndex": 0,
+    "explanation": "Edaphic factors relate to soil, but the question describes an organism's\nactivity affecting another, which is a biotic interaction. However, the\nJAMB key lists A as correct. Always adhere to the official marking\nscheme.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0087",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "The part of cell that is responsible for the production of energy is",
+    "options": [
+      "A. cell membrane",
+      "B. cytoplasm",
+      "C. mitochondrion",
+      "D. nucleus"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mitochondria produce ATP through cellular respiration. The cell membrane\ncontrols entry/exit, cytoplasm contains organelles, and the nucleus\ncontains genetic material. Energy production is a key mitochondrial\nfunction.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0044",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "Thyroxine and adrenalin are examples of hormones which control",
+    "options": [
+      "A. blood grouping",
+      "B. tongue rolling",
+      "C. behavioural patterns",
+      "D. colour variation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Thyroxine regulates metabolism and growth, while adrenalin prepares the\nbody for 'fight or flight'. Both hormones influence behaviour, such as\nactivity levels and stress responses, though they have other functions\ntoo.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 002",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  }
+]

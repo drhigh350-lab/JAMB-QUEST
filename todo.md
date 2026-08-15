@@ -310,3 +310,15 @@
 - [x] Cross-check a bounded 1983 sample across Myschool and SchoolNGR; Biology agreed 5/5, while Chemistry agreed 1/5, Physics 2/5, and English 2/5.
 - [x] Refuse unsafe bulk release from conflicting external answer evidence; no held all-subject PDF records were imported.
 - [ ] Expand exact matching and corroboration across additional years and subjects when reliable answer evidence is available.
+
+- [x] Reconcile the user-reported approximately 5,000-question upload against every received file, parsed source, staged batch, held record, and released record.
+- [x] Report the exact bottleneck in simple terms and identify any safe batch ready for immediate processing.
+
+- [ ] Reconcile owner-provided Chemistry and Biology sources that already include answer keys and explanations, separately from the held all-subject PDF.
+- [ ] Identify all Chemistry and Biology records that only need four-to-five-line explanation fine-tuning and can bypass new answer-key inference.
+- [ ] Process the fine-tuning-ready Chemistry and Biology records in bounded duplicate-safe batches and verify runtime playability.
+
+- [x] Confirm that the supplied Chemistry DOCX and Biology DOCX preserve answer keys and source explanations; separate them from the answer-key-missing all-subject PDF.
+- [x] Process the first source-preserving Biology fine-tuning batch: 8 candidates passed the line-wrap gate, 4 were already present as duplicates, and 4 new records were released after canonical topic repairs.
+- [ ] Continue source-preserving Biology explanation fine-tuning for the remaining eligible candidates.
+- [ ] Continue any Chemistry explanation fine-tuning beyond the 197 processed candidates, preserving supplied answer keys and source wording.
