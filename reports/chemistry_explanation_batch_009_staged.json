@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-014",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "Cathode rays cause an object placed behind a perforated anode to cast a sharp shadow on a screen. This observation shows that cathode rays",
+    "options": [
+      "are positively charged",
+      "are negatively charged",
+      "have mass",
+      "travel in straight lines"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: A sharp shadow is produced only when the illuminating rays travel in straight lines from the source through apertures.\nIn the cathode ray setup the rays that pass the perforated anode reach the screen while the object blocks those straight paths, producing a clear outline.\nIf the rays were bent, scattered or widely diverging the shadow edges would be blurred rather than sharp.\nTherefore the observation shows cathode rays travel in straight lines, which is option D.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-015",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "Flow of electric current in electrolytes is due to the movement of",
+    "options": [
+      "electrons",
+      "holes and electrons",
+      "ions",
+      "neutral charges"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: in electrolytes, conduction occurs by migration of charged species (charged particles) under an applied electric field.\nKey reasoning: when a potential is applied, cations move toward the cathode and anions toward the anode, carrying charge through the medium.\nElectrons do not travel through the bulk of the electrolyte; electron transfer happens only at the electrodes while ions move through the solution.\nTherefore the flow of electric current in electrolytes is due to ions — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-016",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "A suitable reagent to distinguish between ethanoic acid and ethanol is",
+    "options": [
+      "bromine water",
+      "Fehling's solution",
+      "sodium hydrogen trioxocarbonate (IV)",
+      "ammoniacal silver trioxonitrate (V)"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: carboxylic acids react with carbonates/bicarbonates to produce carbon dioxide gas, whereas alcohols do not.\nReaction: CH3COOH + NaHCO3 → CH3COONa + CO2↑ + H2O, showing CO2 evolution with ethanoic acid.\nKey reasoning: ethanol has no acidic proton to liberate CO2 from bicarbonate, so no effervescence occurs.\nTherefore sodium hydrogen trioxocarbonate (IV) (option C) is the suitable reagent to distinguish them.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-018",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "An electronic configuration of 1s2 2s2 2p3 represents the atom of",
+    "options": [
+      "chlorine",
+      "nitrogen",
+      "calcium",
+      "neon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: for a neutral atom, the electron configuration's total electrons equals the atomic number.\n1s2 2s2 2p3 → 2+2+3 = 7 electrons.\nAtomic number 7 identifies nitrogen.\nTherefore the configuration represents nitrogen, option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-019",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following metals burns with a characteristic brick-red flame?",
+    "options": [
+      "Pb",
+      "Ca",
+      "Na",
+      "Mg"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flame tests rely on metal ions emitting characteristic colors when their electrons are excited by heat and then relax, producing visible emission.\nSodium gives an intense yellow flame, magnesium burns with a bright white flame, and lead shows no distinctive brick‑red emission.\nCalcium ions produce a brick‑red (orange‑red) flame in flame tests, which matches the question's description.\nTherefore the correct option is B (Ca).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-021",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "A non-polar liquid suitable for dissolving fats and oils is",
+    "options": [
+      "hydrochloric acid",
+      "calcium hydroxide solution",
+      "kerosene",
+      "water"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: like dissolves like — non‑polar solvents dissolve non‑polar solutes.\nFats and oils are non‑polar substances, so they dissolve in non‑polar solvents.\nHCl, calcium hydroxide solution and water are polar (aqueous) and do not dissolve fats, while kerosene is non‑polar.\nTherefore kerosene (option C) is the suitable non‑polar liquid for dissolving fats and oils.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-022",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Tartaric acid is used industrially to",
+    "options": [
+      "make baking powder",
+      "make fruit juice",
+      "remove rust",
+      "dry gases"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: an acid reacts with sodium bicarbonate in baking powder to release CO2 gas that leavens dough.\nTartaric acid supplies the H+ needed to react with NaHCO3 in this acid–base reaction.\nNaHCO3 + H+ → Na+ + CO2↑ + H2O (CO2 gas causes rising).\nTherefore tartaric acid is used industrially as the acidic component in baking powder (A).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-026",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Hydrogen gas can be displaced from a hot concentrated alkaline solution by",
+    "options": [
+      "Fe",
+      "Cu",
+      "Zn",
+      "Sn"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: a metal that is more reactive than hydrogen and amphoteric will dissolve in hot concentrated alkali, forming a soluble complex and releasing H2.\nZinc is amphoteric and reacts with NaOH: Zn + 2NaOH → Na2ZnO2 + H2, showing displacement of hydrogen.\nCopper is not reactive enough and does not displace H2; iron is not amphoteric under these conditions.\nTherefore zinc (option C) displaces hydrogen from a hot concentrated alkaline solution.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-027",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following types of alkanols undergo oxidation to produce alkanoic acids? I. Primary alkanols II. Secondary alkanols III. Tertiary alkanols",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "III only",
+      "I only"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: primary alkanols oxidize to aldehydes and further to alkanoic acids, secondary alkanols oxidize to ketones, and tertiary alkanols resist oxidation without C–C bond cleavage.\nKey reasoning: formation of a carboxyl group requires a hydrogen on the carbon bearing the OH, which only primary alkanols have.\nSecondary alkanols lack that hydrogen so give ketones and do not form acids under normal oxidation; tertiary alkanols are generally resistant.\nTherefore only primary alkanols produce alkanoic acids — option D (I only).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-029",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "A major source of oxides of nitrogen in the atmosphere is the combustion of",
+    "options": [
+      "coal",
+      "wood",
+      "fossil fuels in internal combustion engines",
+      "chlorofluorocarbons"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: At the high temperatures of combustion, atmospheric nitrogen reacts with oxygen to form oxides of nitrogen (NOx).\nKey reasoning: Internal-combustion engines burn fossil fuels under high temperature and pressure with abundant air, producing large amounts of NOx.\nCoal and wood also emit some NOx, while chlorofluorocarbons do not produce NOx.\nTherefore the major source among the options is fossil fuels in internal combustion engines — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-030",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following substances is commonly used as a nuclear fuel?",
+    "options": [
+      "Uranium",
+      "Palladium",
+      "Actinium",
+      "Thorium"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: nuclear fuels are elements with isotopes capable of sustaining a fission chain reaction (fissile isotopes).\nKey reasoning: uranium contains the fissile isotope U-235 and is the primary fuel loaded into most commercial reactors.\nComparison: palladium is not a reactor fuel, actinium is not used as a common reactor fuel, and thorium, though a possible candidate, is not commonly used today.\nTherefore the correct choice is A. Uranium.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-031",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The aqueous leachate of plant ash is useful in local soap making because it contains",
+    "options": [
+      "sodium chloride and potassium hydroxide",
+      "sodium hydroxide",
+      "potassium hydroxide",
+      "soluble carbonates and hydroxides of potassium"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: saponification requires an alkali (hydroxide or carbonate) to hydrolyse fats into soap.\nPlant ash leachate dissolves potassium-rich salts, producing soluble potassium carbonates and hydroxides when leached with water.\nThese dissolved K2CO3 and KOH provide the alkaline medium needed for local soap making.\nTherefore the correct option is D: soluble carbonates and hydroxides of potassium.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-033",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "In the reaction Cu2S(s) + O2(g) -> 2Cu(s) + SO2(g), the oxidation state of copper changes from",
+    "options": [
+      "+1 to 0",
+      "0 to +2",
+      "+2 to +1",
+      "0 to +1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Use oxidation-state rules: sulfur in sulfides is −2 and elemental copper is 0.\nIn Cu2S, 2×(Ox. state of Cu) + (−2) = 0 → 2Cu = +2 → Cu = +1.\nIn the products Cu(s) is elemental copper, so its oxidation state is 0.\nThus copper changes from +1 to 0, which matches option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-036",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The calorific (energy) value of fuel like petrol can be determined using a",
+    "options": [
+      "Bomb calorimeter",
+      "Catalytic cracker",
+      "Fractionating column",
+      "Thermometer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: calorific value is the heat released by complete combustion of a known mass of fuel, measured with a calorimeter of known heat capacity.\nA bomb calorimeter burns the fuel in oxygen in a sealed vessel and measures the temperature rise of the surrounding water/calorimeter to compute energy per gram.\nThis direct measurement of combustion heat makes the bomb calorimeter the correct method to determine petrol's energy value (Option A).\nCatalytic crackers and fractionating columns are refinery units, and a thermometer alone cannot measure the total heat released by combustion.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-038",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen. If its molar mass is 180 g/mol, find its molecular formula. [H = 1, C = 12, O = 16]",
+    "options": [
+      "CH2O",
+      "C3H6O3",
+      "C6H12O6",
+      "C6H12O3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Use percent composition to find the empirical formula: assume 100 g → C 40.0 g, H 6.7 g, O 53.3 g.\nMoles: C 40/12 = 3.333, H 6.7/1 = 6.700, O 53.3/16 = 3.331; divide by smallest (≈3.331) → C:1.00 H:2.01 O:1.00 ≈ CH2O.\nEmpirical molar mass = 12 + 2(1) + 16 = 30 g·mol−1.\nMolecular mass 180/30 = 6 → molecular formula (CH2O)6 = C6H12O6, so option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-039",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "The oxidation state of chromium in potassium heptaoxodichromate (VI), K2Cr2O7, is",
+    "options": [
+      "+7",
+      "+6",
+      "+5",
+      "+4"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the rule that the sum of oxidation states in a neutral compound equals zero.\nK is +1, O is −2, so 2(+1)+2(Cr)+7(−2)=0.\n2+2x−14=0 → 2x−12=0 → x=+6.\nTherefore the oxidation state of Cr is +6, corresponding to option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-040",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which group of elements belongs to the third period of the Periodic Table?",
+    "options": [
+      "Li, Be, Al",
+      "Na, P, O, Cl",
+      "B, C, N, O",
+      "Na, Mg, S, Ar"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: elements in the same period have the same number of electron shells equal to the period number.\nThird-period elements have atomic numbers 11–18: Na(11), Mg(12), Al(13), Si(14), P(15), S(16), Cl(17), Ar(18).\nOption D lists Na, Mg, S, Ar, which are all within atomic numbers 11–18 and therefore in period 3.\nTherefore D is the correct choice.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-043",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Detergents manufactured with straight hydrocarbon chains are preferred because they are",
+    "options": [
+      "soluble",
+      "biodegradable",
+      "cheaper",
+      "foamy"
+    ],
+    "answerIndex": 1,
+    "explanation": "Molecular structure controls biodegradability; straight hydrocarbon chains are more accessible to microbial enzymes than branched chains.\nEnzymes can oxidize and cleave linear chains stepwise, whereas branching sterically hinders enzymatic attack.\nTherefore detergents with straight chains are decomposed more readily in the environment.\nThis directly explains why option B (biodegradable) is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-044",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following air pollutants directly leads to the formation of acid rain?",
+    "options": [
+      "Oxides of lead",
+      "Particulate matter",
+      "Oxides of sulfur and nitrogen",
+      "Gaseous hydrocarbons"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: acid rain results when acidic oxides in air react with water to form strong acids.\nKey reactions: sulfur oxides (SO2, SO3) form sulfuric acid (H2SO4) and nitrogen oxides (NO, NO2) form nitric acid (HNO3) after oxidation and dissolution.\nOther pollutants like lead oxides, particulate matter, and hydrocarbons do not directly produce these soluble acids.\nThus the correct answer is C: oxides of sulfur and nitrogen.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-046",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "A characteristic feature of a chemical change compared to a physical change is that",
+    "options": [
+      "oxygen is consumed",
+      "heat is supplied",
+      "the process is reversible",
+      "a new substance is formed"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: a chemical change alters chemical composition to produce substances with new chemical properties.\nKey reasoning: this involves breaking and forming chemical bonds, whereas physical changes only alter state, shape, or arrangement without creating new substances.\nConnection to correct option: therefore the distinguishing feature is that a new substance is formed (option D).\nWhy not the others: oxygen consumption, heat flow, or reversibility are not universal criteria for chemical change.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
