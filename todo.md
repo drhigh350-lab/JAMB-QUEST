@@ -188,3 +188,5 @@
 - [x] Record and apply the final JAMB Quest positioning: a serious preparation weapon where Practice → Understand → Diagnose → Improve → Repeat guides every core product decision.
 - [x] Refine the full 180-question UTME mock navigator into direct subject-oriented palettes with local numbering, per-subject answered progress, and accessible answered/unanswered/flagged states.
 - [x] Repair or withhold every playable question whose explanation text has been embedded in an answer option, and add a regression gate for this malformed data shape.
+- [x] Simplify the About page so JAMB Quest presents one unified question bank without learner-facing source packages or file labels.
+- [x] Diagnose and repair the daily browser-reminder delivery path, including subscription, preference, schedule, and device-feedback verification.

@@ -27,7 +27,7 @@ function App() {
   const dashboardQuery = trpc.learner.dashboard.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const sourceQuery = trpc.questionSources.list.useQuery();
   const authorisedQuestionsQuery = trpc.questions.authorisedPlayable.useQuery(undefined, { retry: false });
-  const [pushStatus, setPushStatus] = useState<"idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed">("idle");
+  const [pushStatus, setPushStatus] = useState<"idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed" | "test-sent" | "test-failed">("idle");
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [installStatus, setInstallStatus] = useState<"idle" | "installing" | "installed" | "dismissed">("idle");
   const [isOnline, setIsOnline] = useState(() => typeof navigator === "undefined" || navigator.onLine);
@@ -42,6 +42,7 @@ function App() {
   const updateReminder = trpc.learner.updateReminder.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const enablePush = trpc.learner.enablePush.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const disablePush = trpc.learner.disablePush.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
+  const testPush = trpc.learner.sendTestPush.useMutation();
   const toggleBookmark = trpc.learner.toggleBookmark.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const remoteProgress: StoredProgress | undefined = dashboardQuery.data ? {
     totalAnswered: dashboardQuery.data.progress.totalAnswered,
@@ -91,6 +92,15 @@ function App() {
       onError: () => setPushStatus("failed"),
     });
   }, [disablePush, updateReminder]);
+  const sendTestPush = useCallback(() => {
+    testPush.mutate(undefined, {
+      onSuccess: (result) => {
+        void utils.learner.dashboard.invalidate();
+        setPushStatus(result.delivered ? "test-sent" : "test-failed");
+      },
+      onError: () => setPushStatus("test-failed"),
+    });
+  }, [testPush, utils]);
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
     const legacyUpgradeFixture = new URLSearchParams(window.location.search).get("swUpgradeFixture") === "legacy";
@@ -148,7 +158,7 @@ function App() {
   }, [installPrompt]);
   return (
     <ErrorBoundary>
-      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && !authorisedQuestionsQuery.isLoading} questionSources={sourceQuery.data ?? []} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} examHistory={dashboardQuery.data?.recentRounds ?? []} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic }], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} pushWorking={enablePush.isPending || disablePush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && !authorisedQuestionsQuery.isLoading} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} examHistory={dashboardQuery.data?.recentRounds ?? []} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.isCbt ? game.saveAndNextCbt : game.nextQuestion} onQuit={game.quitRound} flaggedIds={game.flaggedIds} onNavigate={game.navigateCbt} onToggleFlag={game.toggleFlag} onFinishCbt={game.finishCbt} isPaused={game.isPaused} onTogglePause={game.togglePause} bookmarkedQuestionIds={dashboardQuery.data?.revision.bookmarks.map((bookmark) => bookmark.questionId) ?? []} onToggleBookmark={() => isAuthenticated ? toggleBookmark.mutate({ questionId: game.currentQuestion!.id, subject: game.currentQuestion!.subject, topic: game.currentQuestion!.topic }) : startLogin()} />
       )}

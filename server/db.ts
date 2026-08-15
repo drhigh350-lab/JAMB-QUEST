@@ -582,6 +582,20 @@ export async function sendLearnerPush(userId: number, title: string, body: strin
   return results.filter((result): result is PromiseFulfilledResult<{ id: number; delivered: boolean }> => result.status === "fulfilled").map((result) => result.value);
 }
 
+export function didDeliverPush(results: Array<{ delivered: boolean }>) {
+  return results.some((result) => result.delivered);
+}
+
+export async function sendLearnerTestPush(userId: number) {
+  const results = await sendLearnerPush(
+    userId,
+    "JAMB Quest: reminder test",
+    "Your daily comeback reminder is connected on this device. Keep building your score, one focused set at a time.",
+    "/?tab=profile",
+  );
+  return { delivered: didDeliverPush(results), activeSubscriptions: results.length };
+}
+
 export type DailyReminderDecision = "send" | "already_sent" | "minimum_completed";
 
 export function getDailyReminderDecision(input: { lastSentDate: string | null; dateKey: string; completedMinimum: boolean }): DailyReminderDecision {

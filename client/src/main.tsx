@@ -12,6 +12,7 @@ import ProgressAnalyticsFixture from "./e2e/ProgressAnalyticsFixture";
 import ReadyQuestionCountFixture from "./e2e/ReadyQuestionCountFixture";
 import RealGameCbtFixture from "./e2e/RealGameCbtFixture";
 import RecoveryEmptyStateFixture from "./e2e/RecoveryEmptyStateFixture";
+import ReminderFixture from "./e2e/ReminderFixture";
 import QuizFlowFixture from "./e2e/QuizFlowFixture";
 import SubmittedRichQuestionFixture from "./e2e/SubmittedRichQuestionFixture";
 import TopicPracticeFixture from "./e2e/TopicPracticeFixture";
@@ -94,11 +95,12 @@ const isSubmittedRichQuestionFixture = new URLSearchParams(window.location.searc
 const isCalculatorFixture = new URLSearchParams(window.location.search).get("e2eCalculatorFixture") === "1";
 const isCbtResumeFixture = new URLSearchParams(window.location.search).get("e2eCbtResumeFixture") === "1";
 const isTopicPracticeFixture = new URLSearchParams(window.location.search).get("e2eTopicPracticeFixture") === "1";
+const isReminderFixture = new URLSearchParams(window.location.search).get("e2eReminderFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : <App />}
+      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : isReminderFixture ? <ReminderFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

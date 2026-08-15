@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { disablePushSubscriptions, getLearnerDashboard, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { disablePushSubscriptions, getLearnerDashboard, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -40,6 +40,7 @@ export const appRouter = router({
       keys: z.object({ p256dh: z.string().min(8), auth: z.string().min(8) }),
     })).mutation(({ ctx, input }) => upsertPushSubscription(ctx.user.id, ctx.user.name ?? null, JSON.stringify(input))),
     disablePush: protectedProcedure.mutation(({ ctx }) => disablePushSubscriptions(ctx.user.id, ctx.user.name ?? null)),
+    sendTestPush: protectedProcedure.mutation(({ ctx }) => sendLearnerTestPush(ctx.user.id)),
     toggleBookmark: protectedProcedure.input(z.object({
       questionId: z.string().min(1).max(128),
       subject: subjectSchema,
