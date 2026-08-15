@@ -1,0 +1,328 @@
+{
+  "batchNumber": 5,
+  "batchSize": 20,
+  "availableCandidates": 655,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30176,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The liquid portion of human blood remaining after blood cells and clotting proteins have been removed is:",
+      "options": [
+        "Plasma",
+        "Lymph",
+        "Serum",
+        "Interstitial fluid"
+      ],
+      "answerIndex": 2,
+      "answerText": "Serum",
+      "originalExplanation": "The question distinguishes plasma and serum — serum is the liquid fraction of blood after clotting has removed fibrinogen and other clotting proteins.\nPlasma is the liquid part of whole blood that still contains dissolved proteins including clotting factors such as fibrinogen.\nSerum is obtained by allowing blood to clot and then centrifuging; the clot traps cells and clotting proteins, leaving the clear fluid (serum).\nThus 'Serum' is correct because the clotting proteins are consumed or trapped in the clot and are absent from the remaining liquid.\nLymph is the fluid transported in lymphatic vessels and interstitial fluid bathes tissue cells, but neither is the centrifuged blood fluid produced after clotting.\nIf blood is collected into tubes containing anticoagulant and centrifuged the supernatant is plasma (not serum), which helps distinguish the two in the laboratory.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30177,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The organelle present in plant cells but absent in higher animal cells is the:",
+      "options": [
+        "Mitochondrion",
+        "Plastid",
+        "Ribosome",
+        "Endoplasmic reticulum"
+      ],
+      "answerIndex": 1,
+      "answerText": "Plastid",
+      "originalExplanation": "The question distinguishes organelles that are unique to plant cells from those shared with animal cells.\nPlastids are organelles found in plant cells (including chloroplasts, chromoplasts and leucoplasts) and perform photosynthesis, pigment synthesis and storage functions, so they are absent from higher animal cells.\nMitochondria are present in both plant and animal cells and produce ATP by cellular respiration, so option A is incorrect.\nRibosomes occur in all living cells and synthesize proteins, so option C is incorrect.\nThe endoplasmic reticulum, both rough and smooth, is found in plant and animal cells and handles protein folding and lipid synthesis, so option D is incorrect.\nTherefore the correct answer is plastid, which is the organelle unique to plant cells among the options given.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30178,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which excretory structures are responsible for removing metabolic wastes in insects like the cockroach?",
+      "options": [
+        "Flame cells",
+        "Nephridia",
+        "Malpighian tubules",
+        "Contractile vacuoles"
+      ],
+      "answerIndex": 2,
+      "answerText": "Malpighian tubules",
+      "originalExplanation": "Malpighian tubules are slender, blind-ended tubes in insects that remove nitrogenous wastes and assist in water and ion balance.\nThey open into the gut at the midgut–hindgut junction so wastes are deposited into the alimentary canal and eliminated mainly as uric acid or dry pellets.\nFlame cells (protonephridia) are excretory structures of flatworms and some platyhelminths, not insects.\nNephridia (metanephridia) occur in annelids like earthworms and operate by a different tubular filtration and excretory mechanism.\nContractile vacuoles are organelles in many freshwater protozoa and some simple invertebrates for expelling excess water, not for insect excretion.\nHence Malpighian tubules is correct because they are the insect-specific organs responsible for removing metabolic wastes and conserving water.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30179,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "An example of a continuous variation in human populations is:",
+      "options": [
+        "Blood groups",
+        "Fingerprint pattern",
+        "Height",
+        "Ability to roll tongue"
+      ],
+      "answerIndex": 2,
+      "answerText": "Height",
+      "originalExplanation": "Continuous variation describes traits that show a smooth range of values with no discrete classes, usually due to many genes and environmental effects.\nHuman height is a classic continuous trait because multiple genes (polygenic inheritance) plus nutrition and environment produce a near-continuous distribution of values.\nTherefore 'Height' is correct: individuals differ by small increments rather than by distinct categories.\nBlood groups (A, B, AB, O) are discontinuous since they fall into clearly distinguishable genetic classes determined by alleles at one locus.\nFingerprint patterns are usually categorized (arch, loop, whorl) and tongue-rolling is typically presented as a two-phenotype Mendelian trait, so both are discontinuous examples.\nThus, among the options given, only height fits the definition of continuous variation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30180,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "In the carbon cycle, carbon is removed from the atmosphere primarily by the process of:",
+      "options": [
+        "Respiration",
+        "Combustion",
+        "Decomposition",
+        "Photosynthesis"
+      ],
+      "answerIndex": 3,
+      "answerText": "Photosynthesis",
+      "originalExplanation": "The carbon cycle describes how carbon moves between the atmosphere, living organisms, oceans and the Earth's crust.\nPhotosynthesis is the primary removal process because plants, algae and cyanobacteria fix atmospheric CO2 into organic molecules using light energy.\nCO2 is converted into carbohydrates and stored in plant biomass or transferred to consumers, making photosynthesis the main short-term atmospheric carbon sink.\nRespiration is the opposite process in which organisms oxidize organic carbon and release CO2 back to the atmosphere, so it is a source rather than a sink.\nCombustion of biomass and fossil fuels releases stored carbon as CO2, also adding carbon to the atmosphere rather than removing it.\nDecomposition breaks down dead organic matter and returns carbon to the atmosphere (or soils and sediments) as CO2 or methane, so it does not serve as the primary removal process.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30181,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The structural adaptation of Amoeba for ingestion of food particles is the formation of:",
+      "options": [
+        "Cilia",
+        "Flagella",
+        "Pseudopodia",
+        "Contractile vacuoles"
+      ],
+      "answerIndex": 2,
+      "answerText": "Pseudopodia",
+      "originalExplanation": "Amoeba, a unicellular protozoan, engulfs food by extending portions of its cytoplasm called pseudopodia.\nPseudopodia form by cytoplasmic streaming and actin-mediated extension and surround particles to form a food vacuole (phagocytosis).\nCilia are hair-like structures used for locomotion and for creating feeding currents in ciliates (e.g., Paramecium) but are not used by Amoeba to ingest food.\nFlagella are whip-like organelles primarily for movement in some protozoa (e.g., Euglena) and do not form feeding structures in Amoeba.\nContractile vacuoles function in osmoregulation to expel excess water and are not involved in engulfing or digesting food.\nTherefore pseudopodia is the correct adaptation for ingestion in Amoeba, clearly distinguishing its feeding role from the locomotory or osmoregulatory roles of the other options.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30182,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which of the following mammalian vertebrae possesses transverse foramina for the passage of vertebral arteries?",
+      "options": [
+        "Thoracic vertebrae",
+        "Lumbar vertebrae",
+        "Cervical vertebrae",
+        "Sacral vertebrae"
+      ],
+      "answerIndex": 2,
+      "answerText": "Cervical vertebrae",
+      "originalExplanation": "Vertebral anatomy distinguishes regions by special features such as the presence or absence of transverse foramina in the transverse processes.\nCervical vertebrae are the ones with transverse foramina, which allow passage of the vertebral arteries (and accompanying veins and sympathetic plexus) up toward the skull.\nThe vertebral artery typically ascends through the transverse foramina of C6 to C1 before entering the cranial cavity via the foramen magnum.\nThoracic vertebrae instead have costal facets for rib articulation and long downward-pointing spinous processes, and they lack transverse foramina.\nLumbar vertebrae are large and adapted for weight bearing with robust transverse processes but do not have transverse foramina for arteries.\nThe sacrum is formed by fused sacral vertebrae with dorsal and ventral sacral foramina for sacral nerves, not transverse foramina for vertebral arteries.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30183,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "A disease transmitted by the bite of an infected tsetse fly is:",
+      "options": [
+        "Malaria",
+        "African Trypanosomiasis",
+        "Filariasis",
+        "Yellow Fever"
+      ],
+      "answerIndex": 1,
+      "answerText": "African Trypanosomiasis",
+      "originalExplanation": "This item assesses knowledge of vector-borne diseases and the specific insect vectors that transmit them.\nAfrican trypanosomiasis (sleeping sickness) is caused by Trypanosoma brucei and is transmitted to humans by the bite of an infected tsetse fly (genus Glossina).\nMalaria is incorrect because it is caused by Plasmodium species and is transmitted by female Anopheles mosquitoes, not tsetse flies.\nFilariasis is usually due to Wuchereria bancrofti or Brugia spp. and is transmitted by various mosquitoes (e.g., Culex, Anopheles), not by tsetse flies.\nYellow fever is a viral infection spread primarily by Aedes aegypti mosquitoes and therefore cannot be attributed to tsetse fly bites.\nKnowing that Glossina (tsetse) transmits trypanosomes while Anopheles and Aedes transmit malaria and arboviruses respectively allows clear differentiation of the correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30184,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The movement of water through the cell walls and intercellular spaces of plant root tissues without crossing cell membranes is called the:",
+      "options": [
+        "Symplast pathway",
+        "Apoplast pathway",
+        "Vacuolar pathway",
+        "Transcellular pathway"
+      ],
+      "answerIndex": 1,
+      "answerText": "Apoplast pathway",
+      "originalExplanation": "The apoplast pathway is the movement of water through the porous cell walls and intercellular spaces of root tissues without entering cell cytoplasm.\nBecause the question specifies movement without crossing cell membranes, the apoplast pathway is correct since it bypasses the plasma membrane entirely.\nIn contrast, the symplast pathway conducts water through the cytoplasm of cells connected by plasmodesmata and requires entry across the plasma membrane at least once.\nThe vacuolar pathway involves water moving through cell vacuoles and cytoplasm, requiring repeated crossing of tonoplasts and plasma membranes.\nThe transcellular route likewise entails water crossing cell membranes and passing through cell interiors rather than moving solely through cell walls or spaces.\nThe casparian strip in the endodermis blocks the apoplast at the stele, forcing water to enter the symplast before it can reach the xylem.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30185,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which part of the mammalian eye regulates the amount of light entering through the pupil?",
+      "options": [
+        "Cornea",
+        "Lens",
+        "Retina",
+        "Iris"
+      ],
+      "answerIndex": 3,
+      "answerText": "Iris",
+      "originalExplanation": "The question asks which eye structure actively adjusts how much light enters through the pupil by changing pupil diameter.\nThe iris is a pigmented muscular diaphragm surrounding the pupil and is correct because its muscles control pupil size to regulate light intake.\nTwo groups of smooth muscle in the iris—the sphincter pupillae (parasympathetic) and the dilator pupillae (sympathetic)—cause constriction and dilation respectively.\nThe cornea is not the correct answer because it is a transparent, protective structure that does most of the eye's light refraction, not pupil regulation.\nThe lens is also not correct: it changes shape to focus light on the retina (accommodation) rather than controlling light amount.\nThe retina is the light-sensitive layer with photoreceptors that detect and convert light into nerve impulses, so it receives light rather than regulating its entry.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30186,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "The mode of nutrition in Spirogyra is:",
+      "options": [
+        "Parasitic",
+        "Holozoic",
+        "Autotrophic",
+        "Saprophytic"
+      ],
+      "answerIndex": 2,
+      "answerText": "Autotrophic",
+      "originalExplanation": "Mode of nutrition describes how an organism obtains and processes substances for energy and growth.\nSpirogyra is a filamentous green alga in freshwater that contains chlorophyll arranged in characteristic spiral chloroplasts.\nIt uses light energy to convert carbon dioxide and water into organic compounds by photosynthesis, so its nutrition is autotrophic.\nParasitic nutrition, which involves deriving nutrients from a living host, does not describe free‑living Spirogyra.\nHolozoic nutrition entails ingestion and internal digestion of solid food as seen in animals, a mode absent in Spirogyra.\nSaprophytic organisms absorb soluble products from dead organic matter, which is different from Spirogyra's photosynthetic autotrophy.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30187,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "During the light-dependent stage of photosynthesis, light energy is absorbed by chlorophyll to split water molecules into hydrogen and oxygen. This process is called:",
+      "options": [
+        "Hydrolysis",
+        "Photolysis",
+        "Carbon fixation",
+        "Phosphorylation"
+      ],
+      "answerIndex": 1,
+      "answerText": "Photolysis",
+      "originalExplanation": "Photolysis is the light-driven splitting of water into protons (H+), electrons and molecular oxygen during the light-dependent reactions of photosynthesis.\nChlorophyll absorbs photons and loses excited electrons which are replaced by electrons released from photolysis; the resulting electrons and protons help form ATP and NADPH.\nHydrolysis refers generally to bond cleavage by reaction with water and does not specifically mean the light-driven splitting of water in photosynthesis.\nCarbon fixation is the Calvin (light-independent) cycle process of incorporating CO2 into organic molecules, so it does not describe water splitting.\nPhosphorylation (in this context photophosphorylation) is the light-dependent synthesis of ATP using a proton gradient and is not the act of splitting water itself.\nTherefore photolysis is the correct term because it uniquely names the direct use of light energy to split water, supplying electrons, protons and releasing O2.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30188,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following disorders is caused by a dominant gene mutation in humans?",
+      "options": [
+        "Albinism",
+        "Sickle cell anaemia",
+        "Huntington's disease",
+        "Haemophilia"
+      ],
+      "answerIndex": 2,
+      "answerText": "Huntington's disease",
+      "originalExplanation": "A dominant gene mutation produces a trait or disorder when only one copy of the mutant allele is sufficient to cause disease in a diploid individual.\nHuntington's disease is autosomal dominant: a single mutant HTT allele (CAG trinucleotide repeat expansion) causes progressive neurodegeneration, so one affected parent can transmit the disorder.\nThis makes Huntington's disease the correct choice because affected heterozygotes express the disorder without needing two mutant alleles.\nAlbinism is typically autosomal recessive, requiring two mutant alleles that disrupt melanin synthesis, so carriers are usually unaffected.\nSickle cell anaemia is also autosomal recessive (a point mutation in the β‑globin gene), while haemophilia is generally X‑linked recessive and affects males more severely; these inheritance patterns differ from autosomal dominance.\nBecause Huntington's pattern is autosomal dominant, it is distinguished from the listed recessive and X‑linked disorders and is therefore the correct answer.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30189,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "The type of fruit formed from a single carpel that splits open along both sutures at maturity is a:",
+      "options": [
+        "Capsule",
+        "Legume",
+        "Berry",
+        "Achene"
+      ],
+      "answerIndex": 1,
+      "answerText": "Legume",
+      "originalExplanation": "A legume is a dry, dehiscent fruit that develops from a single carpel and characteristically splits open along both dorsal and ventral sutures at maturity.\nThe two sutures open to release the seeds, which is the key feature distinguishing legumes from other fruit types.\nA capsule generally develops from two or more fused carpels (a syncarpous ovary) and dehisces in various ways, so it is not a single‑carpel fruit like a legume.\nA berry is a fleshy, indehiscent fruit with a soft pericarp and does not split open to release seeds, so it cannot be a legume.\nAn achene is a small, dry, indehiscent one‑seeded fruit that does not split along sutures to discharge seeds and is therefore not the correct choice.\nExamples such as pea and bean pods are typical legumes: they develop from one carpel and open along both sutures to release the seeds.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30190,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In a vascular plant, the tissue responsible for the upward transport of water and mineral salts is the:",
+      "options": [
+        "Phloem",
+        "Cambium",
+        "Xylem",
+        "Cortex"
+      ],
+      "answerIndex": 2,
+      "answerText": "Xylem",
+      "originalExplanation": "Xylem is the vascular tissue that conducts water and dissolved mineral salts from roots to aerial parts of the plant.\nIts conducting elements (vessels and tracheids) are lignified and form continuous tubes suited for upward water movement under transpiration pull and the cohesion–tension mechanism.\nPhloem is incorrect because it transports organic solutes (assimilates) such as sugars and can move materials bidirectionally, not primarily water and minerals.\nCambium is a lateral meristem that produces secondary xylem and phloem by cell division, but it does not function as the main conducting tissue for water.\nCortex is ground tissue located between the epidermis and vascular bundles used mainly for storage, support and radial transport, not bulk vertical water conduction.\nTherefore xylem is the correct choice as the tissue responsible for upward transport of water and mineral salts in vascular plants.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30191,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The organelle responsible for cellular respiration and energy production in eukaryotic cells is the:",
+      "options": [
+        "Ribosome",
+        "Endoplasmic reticulum",
+        "Mitochondrion",
+        "Nucleolus"
+      ],
+      "answerIndex": 2,
+      "answerText": "Mitochondrion",
+      "originalExplanation": "The organelle responsible for cellular respiration and the bulk of ATP production in eukaryotic cells is the mitochondrion.\nMitochondria have a double membrane with inner folds (cristae) and a matrix that contain enzymes for the Krebs cycle and the electron transport chain, enabling oxidative phosphorylation.\nThey also contain their own DNA and ribosomes to synthesise proteins required for respiratory functions.\nRibosomes are sites of protein synthesis and do not perform ATP-generating respiration, so 'Ribosome' is incorrect.\nThe endoplasmic reticulum (rough and smooth) is involved in protein and lipid synthesis and detoxification rather than being the main site of aerobic respiration.\nThe nucleolus is involved in rRNA synthesis and ribosome assembly, not cellular respiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30192,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Which of the following factors will decrease the rate of transpiration in plants?",
+      "options": [
+        "High light intensity",
+        "Low humidity",
+        "High temperature",
+        "High humidity"
+      ],
+      "answerIndex": 3,
+      "answerText": "High humidity",
+      "originalExplanation": "Transpiration is the loss of water vapour from plant surfaces, mainly through stomata, driven by the vapour pressure gradient between moist internal leaf air spaces and the external atmosphere.\nHigh humidity reduces the external vapour pressure deficit so the diffusion gradient out of the leaf is smaller and the rate of transpiration falls, which is why \"High humidity\" is correct.\nLow humidity increases the vapour pressure gradient and therefore raises transpiration, so it is the opposite of the correct option.\nHigh light intensity generally increases transpiration indirectly by causing stomata to open for photosynthesis and by warming the leaf surface, so it does not decrease transpiration.\nHigh temperature raises the saturation vapour pressure of water and typically increases evaporation and diffusion from the leaf, so it also does not decrease transpiration.\nThus, environmental factors that reduce the vapour pressure difference (such as high humidity) or that close stomata (e.g., water stress, ABA) are the ones that decrease transpiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30193,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "Which type of placentation is characterized by ovules attached along the single ventral suture of a single carpel, as seen in legumes?",
+      "options": [
+        "Axile",
+        "Marginal",
+        "Parietal",
+        "Free central"
+      ],
+      "answerIndex": 1,
+      "answerText": "Marginal",
+      "originalExplanation": "Placentation describes where ovules attach inside the ovary, and marginal placentation means the ovules are borne along the single ventral suture of one carpel.\nLegumes (Fabaceae) typically have a unicarpellary ovary with ovules attached along that ventral margin, which is why marginal is the correct choice.\nMarginal placentation is essentially attachment to the carpel margin, so the ovules form a single row along the seam where the carpel edges meet.\nAxile placentation differs because ovules are attached to a central column or axis inside a syncarpous (multi‑carpellary) ovary, producing distinct locules rather than a single marginal row.\nParietal placentation has ovules on the inner wall of a fused (syncarpous) ovary and may appear along margins of fused carpels, but it involves the ovary wall of multiple carpels rather than a single ventral suture.\nFree‑central placentation shows ovules on a central column with no septa (no true locules), so it is distinct from the marginal condition seen in legumes.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30194,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The structural unit of the kidney where filtration occurs is the:",
+      "options": [
+        "Ureter",
+        "Nephron",
+        "Bladder",
+        "Urethra"
+      ],
+      "answerIndex": 1,
+      "answerText": "Nephron",
+      "originalExplanation": "The concept assessed is the site of blood filtration in the urinary system, which is the nephron—the structural and functional unit of the kidney.\nEach nephron contains a renal corpuscle (glomerulus plus Bowman's capsule) where blood plasma is first filtered into the nephron tubule.\nBlood enters the glomerulus via an afferent arteriole and hydrostatic pressure forces water and small solutes across capillary walls into Bowman's capsule as glomerular filtrate.\nThe rest of the nephron (proximal tubule, loop of Henle, distal tubule and collecting duct) then modifies that filtrate by reabsorption and secretion to produce urine.\nThe ureter, bladder and urethra belong to the urinary tract for transport, storage and excretion of urine and do not perform blood filtration.\nEach kidney contains about one million nephrons, so the nephron's structure explains why it is the correct answer and why the other options are not sites of filtration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30195,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "The theory of \"use and disuse\" was propounded by:",
+      "options": [
+        "Charles Darwin",
+        "Jean-Baptiste Lamarck",
+        "Gregor Mendel",
+        "Alfred Wallace"
+      ],
+      "answerIndex": 1,
+      "answerText": "Jean-Baptiste Lamarck",
+      "originalExplanation": "The 'use and disuse' theory states that organs or structures become more developed with frequent use and diminish or disappear with disuse, and that such changes are passed to offspring.\nJean‑Baptiste Lamarck (1744–1829) propounded this idea as a mechanism for evolutionary change in the early 19th century.\nLamarck argued that acquired characteristics produced by use or disuse are inherited, a mechanism that modern genetics largely rejects because heritable change is due to genetic variation rather than acquired traits.\nCharles Darwin is not the correct answer because he explained evolution primarily by natural selection acting on variation, not by inheritance of acquired characteristics.\nGregor Mendel is incorrect because his work established particulate inheritance (genes) from discrete factors, contradicting Lamarck's idea of acquired trait transmission.\nAlfred Wallace independently developed the idea of evolution by natural selection like Darwin but did not advocate the use-and-disuse mechanism.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

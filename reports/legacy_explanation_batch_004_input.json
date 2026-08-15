@@ -1,0 +1,328 @@
+{
+  "batchNumber": 4,
+  "batchSize": 20,
+  "availableCandidates": 675,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30134,
+      "subject": "Biology",
+      "topic": "Living Organisms and Organization",
+      "question": "The function of lenticels in woody stems is mainly to:",
+      "options": [
+        "Absorb water from the atmosphere",
+        "Remove excess water from the plant",
+        "Allow gaseous exchange",
+        "Absorb light"
+      ],
+      "answerIndex": 2,
+      "answerText": "Allow gaseous exchange",
+      "originalExplanation": "Lenticels are small, spongy, raised areas in the periderm of woody stems that form gaps in the cork layer.\nThey provide a pathway for gases (oxygen, carbon dioxide and water vapour) to move between internal stem tissues and the atmosphere.\n\"Allow gaseous exchange\" is correct because the impermeable cork would otherwise prevent respiration of living cells in the cortex and secondary phloem.\nLenticels do not primarily absorb water from the atmosphere; water uptake is mainly performed by roots and, to a lesser extent, by specialised leaf or stem surfaces.\nThey also do not remove excess water (a function associated with transpiration and guttation) nor absorb light (a function of chlorophyll-containing tissues such as leaves).\nIn short, lenticels act as gas-exchange pores in barked stems, analogous in function to stomata on herbaceous organs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30135,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "Which enzyme in the mammalian pancreatic juice breaks down emulsified fats into fatty acids and glycerol?",
+      "options": [
+        "Amylase",
+        "Trypsin",
+        "Lipase",
+        "Renin"
+      ],
+      "answerIndex": 2,
+      "answerText": "Lipase",
+      "originalExplanation": "The question concerns digestion of dietary fats in the small intestine by pancreatic secretions.\nPancreatic lipase, secreted by acinar cells, hydrolyses triglycerides in emulsified fat droplets to yield free fatty acids and monoglycerides (and some glycerol).\nBile salts first emulsify fats to increase surface area for lipase action, and colipase helps pancreatic lipase bind to lipid droplets for efficient hydrolysis.\nAmylase digests starch to maltose and other sugars, so it cannot account for fat breakdown.\nTrypsin is a protease that cleaves peptide bonds in proteins, not lipids, so it is not involved in fat digestion.\nRenin (rennin) is a stomach enzyme that curdles milk proteins in infants and does not digest fats, hence lipase is the correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30136,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The ecological phenomenon where two different species live together and both benefit from the relationship is known as:",
+      "options": [
+        "Commensalism",
+        "Mutualism",
+        "Parasitism",
+        "Amensalism"
+      ],
+      "answerIndex": 1,
+      "answerText": "Mutualism",
+      "originalExplanation": "Mutualism is a type of interspecific interaction in which two different species live together and both gain benefits from the association.\nThe correct option is Mutualism because the stem specifies that both species benefit, which matches the definition of mutualism exactly.\nA common example is bees and flowering plants, where bees obtain nectar or pollen and plants receive pollination services.\nCommensalism is different because one species benefits while the other is neither helped nor harmed, for example barnacles on a whale.\nParasitism contrasts with mutualism by benefiting one organism at the expense of the other, as with a tapeworm in a host's intestine.\nAmensalism involves one species being harmed or inhibited while the other is unaffected, such as antibiotics produced by some fungi that inhibit bacteria.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30137,
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "question": "People suffering from myopia:",
+      "options": [
+        "Can see faraway objects clearly",
+        "Cannot see any object clearly",
+        "Are colour blind",
+        "Can see nearby objects clearly"
+      ],
+      "answerIndex": 3,
+      "answerText": "Can see nearby objects clearly",
+      "originalExplanation": "Myopia (short-sightedness) means a person can see nearby objects clearly but has difficulty focusing on distant objects.\nIt is commonly caused by an eye that is too long axially or by excessive refractive power of the cornea/lens, so parallel rays from far objects focus in front of the retina.\nBecause the image is formed before the retinal plane, distant objects appear blurred while near objects remain in focus.\nThe option \"Can see faraway objects clearly\" is incorrect for myopia since distant images are not focused on the retina.\n\"Are colour blind\" is unrelated because colour blindness involves cone photoreceptor defects affecting colour discrimination, and \"Cannot see any object clearly\" is wrong because near vision is typically preserved in myopia.\nMyopia is corrected with diverging (concave) lenses that shift the focal point onto the retina or by refractive surgery to alter corneal power.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30138,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In a flowering plant, double fertilization results in the formation of a zygote and a triploid:",
+      "options": [
+        "Seed coat",
+        "Endosperm",
+        "Fruit wall",
+        "Embryo sac"
+      ],
+      "answerIndex": 1,
+      "answerText": "Endosperm",
+      "originalExplanation": "Double fertilization in flowering plants involves two sperm cells: one fuses with the egg to form the diploid zygote and the other fuses with two polar nuclei to form a triploid nucleus.\nThe triploid nucleus produced by that second fusion develops into the endosperm, a nutritive tissue that supplies food to the growing embryo.\nThus Endosperm is correct because it is the specific triploid product of the second fertilization event (sperm + two polar nuclei).\nSeed coat is incorrect since it develops from the ovule integuments (maternal tissue) and is not formed by fertilization.\nFruit wall (pericarp) is also maternal, forming from the ovary wall after fertilization, while the embryo sac is the female gametophyte where fertilization occurs, not a fertilization product.\nTherefore only the endosperm is triploid as a direct result of double fertilization, distinguishing it from the maternal or structural alternatives.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30140,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which human blood group is known as the universal donor because its red blood cells lack both A and B antigens?",
+      "options": [
+        "Group A",
+        "Group B",
+        "Group AB",
+        "Group O"
+      ],
+      "answerIndex": 3,
+      "answerText": "Group O",
+      "originalExplanation": "Blood group classification depends on the presence or absence of A and B antigens on red blood cells.\nGroup O red blood cells lack both A and B antigens, so they do not present those antigens to a recipient's immune system.\nThat absence of A and B antigens is why Group O is called the universal donor for red cell transfusions.\nGroup AB individuals have both A and B antigens and are universal recipients for red cells because they do not have anti-A or anti-B antibodies.\nGroups A and B express their respective antigens and will be agglutinated by recipients with the opposite antibodies, so neither is a universal donor.\nRemember that Group O plasma contains anti-A and anti-B antibodies, so O is not universal for plasma or whole-blood transfusions.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30141,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The oxygen released during photosynthesis is derived mainly from:",
+      "options": [
+        "Chlorophyll",
+        "Sunlight",
+        "Carbon dioxide",
+        "Water"
+      ],
+      "answerIndex": 3,
+      "answerText": "Water",
+      "originalExplanation": "Photosynthetic oxygen is produced during the light-dependent reactions when water molecules are split (photolysis) in the thylakoid membranes of chloroplasts.\nPhotolysis of water at Photosystem II yields electrons, protons and molecular oxygen (O2), with O2 released to the environment.\nTherefore water is the main source of the oxygen gas released during photosynthesis, so 'Water' is the correct option.\nChlorophyll is the pigment that absorbs light energy to drive the reactions but it does not supply oxygen atoms.\nSunlight supplies the energy to split water but is not itself a source of oxygen atoms.\nCarbon dioxide provides carbon (and oxygen atoms) for carbohydrate synthesis, but isotopic labelling experiments show the O2 evolved comes from H2O rather than from CO2.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30142,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The role of decomposers in an ecosystem is to:",
+      "options": [
+        "Produce food using sunlight",
+        "Consume primary producers",
+        "Break down dead organic matter and recycle nutrients",
+        "Store energy for higher trophic levels"
+      ],
+      "answerIndex": 2,
+      "answerText": "Break down dead organic matter and recycle nutrients",
+      "originalExplanation": "Decomposers are organisms such as bacteria and fungi that chemically break down dead plants, animals and waste.\nBy breaking down complex organic matter they mineralize nutrients, converting them into simpler inorganic forms like nitrate and phosphate that plants can absorb.\nThis recycling of nutrients maintains soil fertility and keeps essential elements moving through the ecosystem rather than letting them remain locked in dead biomass.\nOption \"Break down dead organic matter and recycle nutrients\" is correct because it describes decomposition and nutrient cycling, the central ecological role of decomposers.\nThe other options are incorrect: producers use sunlight to make food by photosynthesis, consumers eat other organisms (including primary producers), and \"store energy for higher trophic levels\" better describes living biomass or detritus transfer, not decomposition.\nTherefore decomposers do not produce food or act primarily as consumers or energy reservoirs, but complete energy flow and nutrient cycling by breaking down dead matter.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30143,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The number of bones in the middle ear is:",
+      "options": [
+        "6 bones",
+        "3 bones",
+        "5 bones",
+        "8 bones"
+      ],
+      "answerIndex": 1,
+      "answerText": "3 bones",
+      "originalExplanation": "The middle ear contains three tiny ossicles that transmit and amplify sound vibrations from the tympanic membrane to the inner ear.\nThese three bones are named the malleus (hammer), incus (anvil) and stapes (stirrup).\nThe correct option '3 bones' refers to the number in one middle ear; anatomically each ear has its own set of three ossicles.\nOption '6 bones' would be the total for both ears combined and is a common source of confusion but not the standard per‑ear answer.\nOptions '5 bones' and '8 bones' have no standard anatomical basis for the middle ear and are therefore incorrect.\nFunctionally, the malleus contacts the tympanic membrane, the incus links malleus and stapes, and the stapes contacts the oval window to transmit vibrations into the cochlea.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30144,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Nitrogen gas is returned to the atmosphere from nitrates in the soil by the action of:",
+      "options": [
+        "Nitrosomonas",
+        "Nitrobacter",
+        "Denitrifying bacteria",
+        "Rhizobium"
+      ],
+      "answerIndex": 2,
+      "answerText": "Denitrifying bacteria",
+      "originalExplanation": "Denitrifying bacteria carry out denitrification, reducing soil nitrate (NO3-) to gaseous forms (N2 or N2O) released to the atmosphere.\nThis process occurs under anaerobic or low-oxygen conditions where microbes use nitrate as a terminal electron acceptor in respiration.\nNitrosomonas is not correct because it oxidizes ammonia (NH3) to nitrite (NO2-) as the first step of nitrification.\nNitrobacter is not correct because it oxidizes nitrite (NO2-) to nitrate (NO3-), thus increasing soil nitrate rather than removing it.\nRhizobium is not correct because it fixes atmospheric N2 to ammonia in legume root nodules, adding usable nitrogen to soil rather than returning it to the atmosphere.\nTherefore denitrifying bacteria best explain the conversion of soil nitrates back into gaseous nitrogen released to the atmosphere.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30145,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Learning how to ride a bicycle or drive a car is the function of what part of the brain?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Pons"
+      ],
+      "answerIndex": 1,
+      "answerText": "Cerebellum",
+      "originalExplanation": "The question concerns motor learning: acquiring and smooth execution of coordinated movements such as cycling or driving.\nThe cerebellum is correct because it integrates sensory input with motor commands to coordinate balance, posture and the fine timing of learned skilled movements.\nThe cerebrum (motor cortex) initiates voluntary actions and supports conscious planning and learning, but it does not primarily fine-tune automatic coordination of practiced skills.\nThe medulla oblongata controls involuntary vital functions like heart rate, breathing and reflexes, so it is not responsible for skilled motor coordination.\nThe pons mainly relays signals between the cerebrum and cerebellum and helps regulate breathing and sleep, rather than storing or refining learned motor sequences.\nTherefore procedural motor skills are consolidated through cerebellar circuits (with contributions from basal ganglia), making the cerebellum the best choice among the options provided.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30146,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Elasticity and flexibility in plants is aided by:",
+      "options": [
+        "Sclerenchyma",
+        "Parenchyma",
+        "Collenchyma",
+        "Xylem"
+      ],
+      "answerIndex": 2,
+      "answerText": "Collenchyma",
+      "originalExplanation": "Elasticity and flexibility in plants mean the capacity of support tissues to bend and stretch without breaking while allowing growth, which is provided mainly by collenchyma.\nCollenchyma cells are living, elongated, with unevenly thickened primary walls rich in pectin and cellulose, giving pliability and tensile strength to young stems and petioles.\nTheir living protoplasts and non‑lignified walls allow cells to remain extensible during organ elongation, so collenchyma supports without restricting growth.\nSclerenchyma, by contrast, consists of dead cells with thick lignified secondary walls (fibres and sclereids) and provides rigid, not elastic, mechanical support.\nParenchyma has thin primary walls and functions in storage, photosynthesis and wound repair; it may contribute turgor‑based support but lacks the specialised wall thickening that confers elasticity.\nXylem contains lignified tracheary elements and fibres for water conduction and strong, rigid support in woody tissues, so it does not provide the flexible support characteristic of collenchyma.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30147,
+      "subject": "Biology",
+      "topic": "Transport",
+      "question": "The hepatic portal vein is unique because it:",
+      "options": [
+        "Carries deoxygenated blood",
+        "Begins and ends with capillaries",
+        "Is the largest vein in mammals",
+        "Carries digested food"
+      ],
+      "answerIndex": 1,
+      "answerText": "Begins and ends with capillaries",
+      "originalExplanation": "A hepatic portal vein is part of a portal system that connects one capillary bed directly to another without first passing through the heart. It begins in the capillaries of the gut (where absorption occurs) and ends in the capillary-like sinusoids of the liver. This arrangement is why the correct option is \"begins and ends with capillaries\": it delivers absorbed substances from intestinal capillaries to liver capillaries for processing. \"Carries deoxygenated blood\" is not unique because most systemic veins carry low-oxygen blood and the liver also receives oxygenated blood from the hepatic artery. \"Is the largest vein in mammals\" is incorrect because the largest systemic vein is the inferior vena cava, not the hepatic portal vein. \"Carries digested food\" is misleading: the portal vein carries blood containing dissolved, absorbed nutrients, not solid food particles, to the liver for metabolism.\nconfidence\nhigh\nneeds_review\n]} திரிழ்<class 'str'>Unexpected token ']' in JSON at position 256. Correction needed. I'll produce valid JSON. Wait assistant made an error: output must match schema exactly. I must output a JSON object with keys lines (array of strings), confidence (one of high/medium/low), needs_review boolean. I must provide exactly six sentences as six separate lines. Not include extra tokens. Let's craft final JSON correctly. Ensure array of six strings. Provide confidence\nconfidence",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30148,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following is not a function of the blood?",
+      "options": [
+        "Maintenance of body temperature",
+        "Formation of clot",
+        "Distribution of bile",
+        "Transportation of excretory materials"
+      ],
+      "answerIndex": 2,
+      "answerText": "Distribution of bile",
+      "originalExplanation": "Blood performs transport of gases, nutrients and wastes, immune defence, clotting and regulation of body temperature.\nMaintenance of body temperature is a blood function because circulating blood redistributes heat from metabolically active tissues and aids heat loss at the skin.\nFormation of clot is a blood function since platelets, fibrin and plasma clotting factors act to stop bleeding and initiate tissue repair.\nTransportation of excretory materials is a blood function because metabolic wastes like urea and carbon dioxide are carried in the blood to the kidneys and lungs for elimination.\nBile is produced by hepatocytes and delivered to the small intestine via bile ducts and the gall bladder, so distribution of bile is not a function performed by blood.\nAlthough bilirubin (a haemoglobin breakdown product) is transported in the blood to the liver for processing, that is distinct from circulating or distributing bile itself, so 'distribution of bile' is correctly identified as not a blood function.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30149,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "An example of a plant that shows nastic movement in response to touch is:",
+      "options": [
+        "Sunflower",
+        "Mimosa",
+        "Tomato",
+        "Maize"
+      ],
+      "answerIndex": 1,
+      "answerText": "Mimosa",
+      "originalExplanation": "Nastic movements are non-directional plant responses to stimuli, occurring regardless of the stimulus direction.\nMimosa (Mimosa pudica) exhibits rapid thigmonasty or seismonasty, folding its leaflets when touched.\nThe folding results from a rapid loss of turgor pressure in specialized motor cells (pulvini) at the leaflet bases.\nMimosa is therefore correct because the movement is a fast, touch-induced nastic response rather than a directional growth change.\nSunflower movements are mainly heliotropic (directional tracking of the sun) and growth-related, not rapid touch-induced folding.\nTomato and maize show growth and tropic responses but do not display the rapid touch-induced nastic folding characteristic of Mimosa.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30150,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "During anaerobic respiration in skeletal muscles, pyruvic acid is:",
+      "options": [
+        "Reduced to lactic acid",
+        "Oxidized to ethanol",
+        "Oxidized to lactic acid",
+        "Reduced to water"
+      ],
+      "answerIndex": 0,
+      "answerText": "Reduced to lactic acid",
+      "originalExplanation": "Anaerobic respiration in skeletal muscle allows glycolysis to continue under low oxygen by converting pyruvate into another compound so NAD+ is regenerated.\nPyruvic acid is reduced to lactic acid (lactate) by lactate dehydrogenase, with NADH donating electrons to reform NAD+ so ATP can still be produced by glycolysis.\n'Oxidized to ethanol' is incorrect because ethanol fermentation occurs in yeast and some microbes via decarboxylation to acetaldehyde then reduction to ethanol, not in animal muscle.\n'Oxidized to lactic acid' is wrong on chemical grounds: lactic acid formation from pyruvate is a reduction (gain of hydrogen/electrons), not an oxidation.\n'Reduced to water' is incorrect because water is produced in aerobic respiration at the electron transport chain where oxygen is the terminal electron acceptor, not by reduction of pyruvate.\nTherefore the correct choice is 'reduced to lactic acid'; lactate is produced transiently and can be converted back to pyruvate (and ultimately glucose) when oxygen returns via the Cori cycle.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30151,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "In humans, fertilization usually occurs in the:",
+      "options": [
+        "Ovary",
+        "Uterus",
+        "Fallopian tube",
+        "Cervix"
+      ],
+      "answerIndex": 2,
+      "answerText": "Fallopian tube",
+      "originalExplanation": "Fertilization in humans usually occurs in the fallopian tube, specifically in the ampullary region where the ovum and capacitated sperm meet.\nThe fallopian tube provides the appropriate environment and timing after ovulation for sperm capacitation and penetration of the zona pellucida.\nThe ovary is the site of oocyte production and ovulation but not the usual site of fertilization; fimbriae sweep the released egg into the tube.\nThe uterus is primarily the site of implantation and fetal development after the zygote has divided and descended from the tube.\nThe cervix is the lower uterine opening that sperm traverse on their way to the tube and does not host fertilization.\nAlthough ectopic pregnancies can occur when fertilization or implantation happens outside the tube (e.g., tubal, ovarian, abdominal), the common and normal site remains the fallopian tube.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30152,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The end product of the digestion of carbohydrate is:",
+      "options": [
+        "Glucose",
+        "Sucrose",
+        "Amino acid",
+        "Glycerol"
+      ],
+      "answerIndex": 0,
+      "answerText": "Glucose",
+      "originalExplanation": "Carbohydrate digestion breaks complex polysaccharides and disaccharides into monosaccharides that can be absorbed by the intestine.\nGlucose is the primary monosaccharide produced from digestion of starch and glycogen and is the main sugar absorbed into the blood.\nStarch is first broken down by amylase to maltose and other oligosaccharides and then to glucose by disaccharidases; thus glucose is the end-product.\nSucrose is a disaccharide (glucose + fructose) that must be hydrolysed by sucrase into monosaccharides, so it is not the final product of digestion.\nAmino acids are the end-products of protein digestion, while glycerol is released from fat (triglyceride) hydrolysis, so neither is produced by carbohydrate digestion.\nTherefore, among the options given, glucose is the correct end-product of carbohydrate digestion in the alimentary canal.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30153,
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "question": "The ability to taste Phenylthiocarbamide PTC is an example of:",
+      "options": [
+        "Acquired trait",
+        "Sex-linked inheritance",
+        "Mendelian inheritance",
+        "Discontinuous variation"
+      ],
+      "answerIndex": 3,
+      "answerText": "Discontinuous variation",
+      "originalExplanation": "Discontinuous variation describes traits that fall into distinct categories with no intermediates, and PTC tasting is a classic example.\nIndividuals are either tasters or non‑tasters of phenylthiocarbamide, showing two clear phenotypes rather than a continuous range.\nThis binary pattern is caused by variation at a single gene locus with alleles producing a dominant taster phenotype and a recessive non‑taster phenotype.\nBecause the trait produces distinct classes it is classified as discontinuous variation rather than continuous variation.\nAlthough PTC tasting follows simple Mendelian (single‑gene) inheritance, the option 'Mendelian inheritance' names the inheritance mechanism while the best description of the observed pattern is discontinuous variation.\nThe trait is not an acquired characteristic and is not sex‑linked, since it is inherited genetically and not determined by the sex chromosomes or environmental induction.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30154,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The cell wall of a prokaryotic cell is made up of:",
+      "options": [
+        "Carbohydrate",
+        "Protein",
+        "Peptidoglycan",
+        "Cellulose"
+      ],
+      "answerIndex": 2,
+      "answerText": "Peptidoglycan",
+      "originalExplanation": "Prokaryotic (bacterial) cell walls are primarily composed of peptidoglycan, a mesh-like polymer unique to bacteria.\nPeptidoglycan is built from alternating sugar residues (N-acetylglucosamine and N-acetylmuramic acid) cross-linked by short peptide chains.\nThus 'Peptidoglycan' is correct because it is the structural polymer that gives bacterial cell walls their rigidity and shape.\nAlthough peptidoglycan contains carbohydrate components, the single word 'Carbohydrate' is incomplete because peptide cross-links are essential to its structure.\n'Protein' is incorrect because the wall is not a protein polymer, even though peptides form the cross-bridges between glycan chains.\n'Cellulose' is the main plant cell wall polymer and is not found in bacterial walls; note that some archaea have non-peptidoglycan walls, but true bacteria have peptidoglycan.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

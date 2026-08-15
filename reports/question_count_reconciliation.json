@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-15T19:51:10.841Z",
+  "generatedAt": "2026-08-15T20:23:25.932Z",
   "modelBankExpected": 1000,
   "authorisedStoredAllSources": 3161,
   "authorisedActiveStored": 2926,
   "authorisedActiveApproved": 2557,
-  "authorisedQualityGatedPlayable": 1572,
+  "authorisedQualityGatedPlayable": 1657,
   "expectedCombinedIfAllApproved": 3557,
-  "expectedCombinedQualityGated": 2572,
+  "expectedCombinedQualityGated": 2657,
   "bySource": [
     {
       "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",

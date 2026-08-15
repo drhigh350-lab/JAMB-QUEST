@@ -1,0 +1,168 @@
+{
+  "batchNumber": 4,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30134,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Allow gaseous exchange\nLenticels are small, spongy openings in the woody periderm that form gaps in the otherwise impermeable cork.\nThese gaps let oxygen, carbon dioxide and water vapour move between internal stem tissues and the air.\nWithout lenticels the cork would block gas flow and prevent respiration of living cells in the cortex and secondary phloem.",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30135,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Pancreatic lipase is the pancreatic juice enzyme that hydrolyses triglycerides in the small intestine.\nIt acts on emulsified fat droplets to break triglycerides into free fatty acids and glycerol (and monoglycerides).\nBile salts emulsify fats to increase surface area and colipase helps lipase bind to lipid droplets for efficient hydrolysis.\nLipase",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30136,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mutualism\nIt is an interspecific interaction where both species live together and each gains benefits from the association.\nThe question specifies that both species benefit, so this description matches it exactly.\nFinal answer: Mutualism",
+      "lineCount": 4,
+      "wordCount": 34,
+      "status": "ready"
+    },
+    {
+      "id": 30137,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Can see nearby objects clearly\nIn myopia the eye focuses parallel rays from distant objects in front of the retina because the eyeball is too long or the cornea/lens has too much refractive power.\nAs a result, images of distant objects form before the retinal plane and appear blurred.\nNear objects are focused on or near the retina and so remain clear.",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30138,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "In double fertilization one sperm cell fuses with two polar nuclei to make a triploid nucleus.\nThat triploid nucleus develops into the endosperm, the tissue that supplies food to the embryo.\nBecause it is formed directly by fusion of a sperm with two polar nuclei, the endosperm is triploid.\nCorrect answer: Endosperm",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30140,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Blood groups are determined by the presence or absence of A and B antigens on red blood cells.\nGroup O red blood cells lack both A and B antigens.\nBecause they present neither antigen, they do not trigger anti‑A or anti‑B antibody reactions in red cell transfusions, which is why they are used as universal red cell donors.\nGroup O",
+      "lineCount": 4,
+      "wordCount": 60,
+      "status": "ready"
+    },
+    {
+      "id": 30141,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "In the light-dependent reactions, water is split (photolysis) in the thylakoid membranes of chloroplasts.\nPhotolysis at Photosystem II yields electrons, protons and molecular oxygen (O2).\nThe O2 produced is released to the environment and is the oxygen gas evolved by photosynthesis.\nAnswer: Water",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30142,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Break down dead organic matter and recycle nutrients\nDecomposers such as bacteria and fungi chemically dismantle dead plants, animals and waste into simpler compounds.\nThis process mineralizes organic material into inorganic nutrients like nitrate and phosphate that plants can absorb.\nReturning these nutrients to the soil maintains fertility and keeps essential elements cycling through the ecosystem.",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30143,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The middle ear contains three tiny bones called ossicles that transmit sound vibrations.\nThey are the malleus, incus and stapes, arranged in a chain.\nThis chain connects the eardrum to the inner ear and amplifies vibrations for hearing.\n3 bones",
+      "lineCount": 4,
+      "wordCount": 40,
+      "status": "ready"
+    },
+    {
+      "id": 30144,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Denitrifying bacteria convert nitrate (NO3−) in soil into gaseous forms such as N2 or N2O.\nThey carry out this reduction during anaerobic or low-oxygen respiration, using nitrate as a terminal electron acceptor.\nThe resulting nitrogen gases are released to the atmosphere, thus returning fixed nitrogen to gaseous form.\nCorrect answer: Denitrifying bacteria",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30145,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cerebellum\nIt integrates sensory input with motor commands to coordinate balance, posture and the precise timing of skilled movements.\nWith practice, cerebellar circuits refine and automatize complex motor sequences so actions like cycling or driving become smooth and automatic.\nThis role in motor learning and fine coordination is why Cerebellum is the correct choice.",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    },
+    {
+      "id": 30146,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Collenchyma cells have unevenly thickened, non-lignified primary walls rich in pectin and cellulose, which makes them pliable.\nTheir cells are living and elongated, retaining protoplasts that allow the walls to stay extensible during organ growth.\nThis combination gives tensile strength plus flexibility, so young stems and petioles can bend and stretch without breaking.\nCorrect answer: Collenchyma",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30147,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Begins and ends with capillaries\nThe hepatic portal vein is part of a portal system connecting the capillary bed of the gut directly to the liver capillary-like sinusoids.\nAbsorbed substances leave intestinal capillaries and travel in the portal vein straight into liver capillaries for processing.\nThat direct capillary-to-capillary connection is what makes the hepatic portal vein unique.",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30148,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Bile is produced by liver hepatocytes and delivered to the small intestine through bile ducts and the gallbladder, not by the bloodstream.\nThe biliary system therefore carries bile directly to the gut rather than relying on blood for distribution.\nBlood may transport bilirubin (a breakdown product of haemoglobin) to the liver for processing, but that is distinct from carrying or distributing bile itself.\nCorrect answer: Distribution of bile",
+      "lineCount": 4,
+      "wordCount": 68,
+      "status": "ready"
+    },
+    {
+      "id": 30149,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mimosa exhibits a nastic movement called thigmonasty (or seismonasty), where its leaflets fold rapidly when touched.\nThis folding is a non-directional response, occurring irrespective of the direction of the stimulus, which fits the definition of nastic movement.\nThe rapid closure results from a sudden loss of turgor pressure in specialized motor tissues called pulvini at the bases of the leaflets.\nCorrect answer: Mimosa",
+      "lineCount": 4,
+      "wordCount": 63,
+      "status": "ready"
+    },
+    {
+      "id": 30150,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Reduced to lactic acid\nIn muscle cells under low oxygen, pyruvate accepts electrons from NADH and is converted to lactic acid (lactate).\nThis reaction, catalyzed by lactate dehydrogenase, oxidizes NADH back to NAD+, which is needed for glycolysis to continue.\nThus reducing pyruvate to lactic acid allows ATP production by glycolysis to keep going during anaerobic conditions.",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30151,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Fertilization in humans typically occurs in the ampullary region of the fallopian tube.\nThe fallopian tube provides the proper environment and timing after ovulation for sperm capacitation.\nThere, capacitated sperm can penetrate the zona pellucida so the sperm and ovum meet and form a zygote.\nCorrect answer: Fallopian tube",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30152,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Carbohydrate digestion breaks polysaccharides and disaccharides into monosaccharides that the intestine can absorb.\nAmylase enzymes convert starch and glycogen into oligosaccharides and disaccharides, and intestinal disaccharidases hydrolyse these to simple sugars.\nThe main monosaccharide produced and taken up into the blood from carbohydrate digestion is glucose.\nAnswer: Glucose",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30153,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Discontinuous variation\nIndividuals are either tasters or non-tasters of PTC, forming two distinct categories with no intermediates.\nThis clear binary pattern arises from variation at a single gene locus, with alleles producing the taster or non-taster phenotype.\nBecause the trait produces distinct classes instead of a continuous range, it is classified as discontinuous variation.",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    },
+    {
+      "id": 30154,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Peptidoglycan\nIt is a mesh-like polymer that forms the main structural component of bacterial cell walls.\nIts backbone is made of alternating sugar residues (N-acetylglucosamine and N-acetylmuramic acid) linked together.\nShort peptide chains cross-link those glycan strands, giving the wall rigidity and shape.",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    }
+  ]
+}

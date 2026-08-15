@@ -1,0 +1,168 @@
+{
+  "batchNumber": 5,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30176,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Serum is the clear liquid that remains after blood has clotted.\nDuring clotting, fibrinogen and other clotting proteins are converted into the clot or trapped within it, so they are removed from the fluid.\nAfter clotting, centrifugation separates the clot and cells from this fluid, leaving the protein‑depleted liquid.\nAnswer: Serum",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30177,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Plastid\nPlastids are membrane-bound organelles in plant cells, including chloroplasts, chromoplasts and leucoplasts.\nThey perform plant-specific roles such as photosynthesis, pigment synthesis and storage.\nThese structures and functions are absent from higher animal cells, so plastid is the organelle unique to plants.",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30178,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: Malpighian tubules\nThey are slender, blind-ended tubes in insects that remove nitrogenous wastes and help regulate water and ions.\nThey open into the gut at the midgut–hindgut junction so wastes are deposited into the alimentary canal for elimination.\nThis anatomy and function make Malpighian tubules the insect structures responsible for metabolic waste removal.",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready"
+    },
+    {
+      "id": 30179,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Height is a continuous trait because people show a smooth range of values rather than distinct categories.\nMany genes (polygenic inheritance) each contribute small effects to height, producing intermediate phenotypes.\nEnvironmental factors (e.g. nutrition and health) further shift individuals' stature, blurring discrete classes into a continuum.\nAnswer: Height",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30180,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Photosynthesis removes CO2 from the atmosphere by fixing it into organic molecules.\nPlants, algae and cyanobacteria use light energy to convert atmospheric CO2 into carbohydrates.\nThat carbon is stored in plant biomass or transferred to consumers, making photosynthesis the main short-term atmospheric carbon sink.\nCorrect answer: Photosynthesis",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30181,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Amoeba ingests food by extending parts of its cytoplasm called pseudopodia.\nPseudopodia form by cytoplasmic streaming and actin-mediated extension of the cell surface.\nThey surround and enclose food particles to form a food vacuole where digestion occurs (phagocytosis).\nPseudopodia",
+      "lineCount": 4,
+      "wordCount": 39,
+      "status": "ready"
+    },
+    {
+      "id": 30182,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cervical vertebrae have characteristic transverse foramina located in their transverse processes.\nThose foramina form a protected channel through which the vertebral arteries ascend toward the skull.\nIn most people the vertebral artery passes through the transverse foramina from C6 up to C1 before entering the cranial cavity via the foramen magnum.\nCorrect answer: Cervical vertebrae",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30183,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "African Trypanosomiasis\nIt is caused by the protozoan Trypanosoma brucei which infects humans.\nTransmission occurs when an infected tsetse fly (Glossina) bites a person and introduces the parasite into the bloodstream.\nBecause the disease is specifically spread by tsetse fly bites, African Trypanosomiasis is the correct answer.",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30184,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Apoplast pathway\nIt moves water through porous cell walls and the spaces between cells (the apoplast) rather than through cell interiors.\nBecause water stays in the cell wall matrix and extracellular spaces, it does not cross plasma membranes or enter the cytoplasm.\nThis direct flow through cell walls explains why the apoplast pathway matches the question's condition of movement without crossing cell membranes.",
+      "lineCount": 4,
+      "wordCount": 63,
+      "status": "ready"
+    },
+    {
+      "id": 30185,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The iris is a pigmented muscular diaphragm surrounding the pupil.\nIts muscles change pupil diameter to regulate the amount of light entering the eye.\nSphincter pupillae (constricts) and dilator pupillae (dilates) adjust pupil size under different light levels.\nAnswer: Iris",
+      "lineCount": 4,
+      "wordCount": 40,
+      "status": "ready"
+    },
+    {
+      "id": 30186,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Spirogyra is a filamentous green alga with chlorophyll arranged in spiral chloroplasts.\nThose chloroplasts capture light and perform photosynthesis inside each cell.\nPhotosynthesis converts carbon dioxide and water into organic compounds used for growth and energy.\nCorrect answer: Autotrophic",
+      "lineCount": 4,
+      "wordCount": 39,
+      "status": "ready"
+    },
+    {
+      "id": 30187,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Photolysis is the light-driven splitting of water into protons (H+), electrons and molecular oxygen during the light-dependent reactions of photosynthesis.\nWhen chlorophyll absorbs photons it becomes excited and loses electrons; those lost electrons are replaced by electrons released from the photolysis of water.\nThe electrons and protons produced by photolysis enter the electron transport chain and are used to generate ATP and reduce NADP+ to NADPH.\nAnswer: Photolysis",
+      "lineCount": 4,
+      "wordCount": 68,
+      "status": "ready"
+    },
+    {
+      "id": 30188,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Huntington's disease\nIt is autosomal dominant, so a single copy of the mutant allele is sufficient to cause the disorder.\nThe mutation is an expanded CAG repeat in the HTT gene that leads to progressive neurodegeneration when present in one allele.\nBecause heterozygotes show symptoms with only one mutant allele, Huntington's disease is the correct choice.",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30189,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "A legume is a dry, dehiscent fruit that develops from a single carpel.\nAt maturity it characteristically splits open along both dorsal and ventral sutures.\nThose two sutures open to release the seeds, which is the defining feature of a legume.\nCorrect answer: Legume",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30190,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Xylem is the vascular tissue that conducts water and dissolved mineral salts from the roots to the aerial parts of the plant.\nIts conducting elements, vessels and tracheids, are lignified and connect end-to-end to form continuous tubes.\nThese tubes allow upward movement of water driven by transpiration pull and the cohesion-tension mechanism.\nXylem",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30191,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mitochondrion\nIt is the organelle where most cellular respiration occurs and where the bulk of ATP is produced.\nIts double membrane and inner folds (cristae) contain the enzymes for the Krebs cycle and the electron transport chain, enabling oxidative phosphorylation.\nMitochondria also have their own DNA and ribosomes to make proteins required for those respiratory functions.",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30192,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Transpiration is the loss of water vapor from leaf surfaces through stomata driven by the vapor pressure difference between moist internal air and the outside air.\nHigh humidity raises the moisture level outside the leaf, so the external vapor pressure becomes closer to the internal vapor pressure.\nThis smaller vapor pressure gradient reduces diffusion of water vapor out of the leaf, so less water is lost.\nHigh humidity",
+      "lineCount": 4,
+      "wordCount": 68,
+      "status": "ready"
+    },
+    {
+      "id": 30193,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Marginal placentation means the ovules are attached along the single ventral suture of one carpel.\nLegumes have a unicarpellary ovary, so their ovules are borne on that ventral margin.\nBecause of this attachment the ovules line up in a single row along the seam where the carpel edges meet.\nMarginal",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30194,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Nephron is the structural and functional unit of the kidney.\nFiltration occurs in the renal corpuscle — the glomerulus plus Bowman's capsule — where blood plasma is first filtered into the nephron tubule.\nBlood reaches the glomerulus via an afferent arteriole and hydrostatic pressure drives water and small solutes across capillary walls into Bowman's capsule as filtrate.\nBecause this blood filtration occurs within the renal corpuscle of each nephron, Nephron is the correct answer.",
+      "lineCount": 4,
+      "wordCount": 74,
+      "status": "ready"
+    },
+    {
+      "id": 30195,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Jean-Baptiste Lamarck propounded the \"use and disuse\" theory.\nHe proposed that organs become more developed with frequent use and diminish or disappear with disuse.\nHe taught that such acquired changes are passed to offspring, which he presented as a mechanism for evolutionary change.\nJean-Baptiste Lamarck",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    }
+  ]
+}
