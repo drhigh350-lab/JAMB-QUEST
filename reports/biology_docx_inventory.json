@@ -1,0 +1,252 @@
+{
+  "source": "/home/ubuntu/upload/JAMBBIOLOGYPASTQUESTION(DR.HIGH).docx",
+  "xmlParts": [
+    "word/document.xml",
+    "word/fontTable.xml",
+    "word/numbering.xml",
+    "word/settings.xml",
+    "word/styles.xml",
+    "word/theme/theme1.xml"
+  ],
+  "paragraphCount": 2765,
+  "questionStartCount": 115,
+  "uniqueQuestionNumbers": 70,
+  "minQuestionNumber": 1,
+  "maxQuestionNumber": 70,
+  "questionNumbersOverTwenty": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "withFourOrMoreNearbyOptions": 11,
+  "withAnswerSignals": 115,
+  "sampleQuestions": [
+    {
+      "sourceParagraph": 3,
+      "part": "word/document.xml",
+      "number": 1,
+      "text": "QUESTION 1",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 5,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 8,
+      "part": "word/document.xml",
+      "number": 2,
+      "text": "QUESTION 2",
+      "nearbyOptions": 6,
+      "nearbyAnswerSignals": 5,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 16,
+      "part": "word/document.xml",
+      "number": 3,
+      "text": "QUESTION 3",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 24,
+      "part": "word/document.xml",
+      "number": 4,
+      "text": "QUESTION 4",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 29,
+      "part": "word/document.xml",
+      "number": 5,
+      "text": "QUESTION 5",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 34,
+      "part": "word/document.xml",
+      "number": 6,
+      "text": "QUESTION 6",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 39,
+      "part": "word/document.xml",
+      "number": 7,
+      "text": "QUESTION 7",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 44,
+      "part": "word/document.xml",
+      "number": 8,
+      "text": "QUESTION 8",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 49,
+      "part": "word/document.xml",
+      "number": 9,
+      "text": "QUESTION 9",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 5,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 57,
+      "part": "word/document.xml",
+      "number": 10,
+      "text": "QUESTION 10",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 62,
+      "part": "word/document.xml",
+      "number": 11,
+      "text": "QUESTION 11",
+      "nearbyOptions": 5,
+      "nearbyAnswerSignals": 6,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 70,
+      "part": "word/document.xml",
+      "number": 12,
+      "text": "QUESTION 12",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 75,
+      "part": "word/document.xml",
+      "number": 13,
+      "text": "QUESTION 13",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 80,
+      "part": "word/document.xml",
+      "number": 14,
+      "text": "QUESTION 14",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 85,
+      "part": "word/document.xml",
+      "number": 15,
+      "text": "QUESTION 15",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 90,
+      "part": "word/document.xml",
+      "number": 16,
+      "text": "QUESTION 16",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 95,
+      "part": "word/document.xml",
+      "number": 17,
+      "text": "QUESTION 17",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 100,
+      "part": "word/document.xml",
+      "number": 18,
+      "text": "QUESTION 18",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 105,
+      "part": "word/document.xml",
+      "number": 19,
+      "text": "QUESTION 19",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    },
+    {
+      "sourceParagraph": 110,
+      "part": "word/document.xml",
+      "number": 20,
+      "text": "QUESTION 20",
+      "nearbyOptions": 2,
+      "nearbyAnswerSignals": 8,
+      "nearbyAnswerLines": []
+    }
+  ]
+}

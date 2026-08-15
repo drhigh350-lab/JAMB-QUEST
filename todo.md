@@ -268,3 +268,28 @@
 - [x] Recount and parse every question format in the supplied Chemistry DOCX before stating its total; inventory confirms 1,341 source-labelled questions across the 1–1,020 sequence and separate 1–321 bracketed set
 - [ ] Restore legacy questions toward the former 3,118 level only after they pass syllabus, answer, duplicate, and concise-explanation review
 - [ ] Identify only genuinely diagram-dependent Chemistry questions and add restrained black-and-white learning visuals where useful
+
+- [ ] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
+- [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates
+- [ ] Add black-and-white visuals only to approved questions where a diagram is required for solving or understanding the concept
+
+- [ ] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
+- [ ] Correct any Chemistry row whose runtime topic, explanation line count, option structure, or approval status fails the release gate
+- [ ] Inspect and parse the newly supplied Biology DOCX across every question, option, answer-key, and explanation format
+- [ ] Deduplicate and structurally audit the Biology DOCX before staging any records
+- [ ] Map Biology records to official JAMB syllabus parent topics and hold ambiguous records
+- [ ] Normalize Biology explanations to a uniform four-to-five-line teaching format without changing answer keys
+- [ ] Process the Biology DOCX in bounded authorised batches and verify runtime playability after each release
+
+- [x] Generate and revalidate Biology DOCX explanation batch 1: 20 release candidates with uniform four-line explanations and official syllabus topics.
+- [x] Stage and import Biology DOCX explanation batch 1 through the duplicate-safe authorised ledger; 20 records released and approved, with no duplicates or structural holds.
+- [x] Repair three broad Biology batch-1 labels from Human Physiology to the official Transport syllabus area before import.
+- [x] Preserve a deterministic Biology revalidator fallback after a transient structured-model response failure; no unvalidated records were released.
+- [ ] Continue Biology DOCX explanation batches after batch 1.
+- [ ] Continue legacy explanation restoration from batch 10 onward.
+- [ ] Identify and add black-and-white diagrams only for questions whose wording requires a visual.
+- [ ] Resolve the all-subject PDF answer-key gap before importing its held questions.
+
+- [x] Restore legacy explanation batch 10: 20 approved records updated with validated four-line answer-safe explanations and unchanged question/answer content.
+- [x] Audit 21 staged and legacy reports for diagram candidates; 48 wording-level candidates were identified for selective review, with no indiscriminate visuals added.
+- [x] Re-run the active syllabus/explanation audit after Biology batch 1 and legacy batch 10; current authorised playable audit reports 1,763 authorised playable records and keeps unmapped, over-cap, and needs-review rows held.

@@ -1,0 +1,168 @@
+{
+  "batchNumber": 10,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30380,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Wilting is the drooping of leaves and stems caused by loss of turgidity in plant cells.\nIt is produced when water loss through transpiration exceeds water uptake by the roots, so cells lose their internal pressure (turgor).\nThat loss of turgor in whole organs makes tissues limp and droop; if water is restored quickly the condition can reverse, but prolonged imbalance causes permanent damage.\nAnswer: Wilting",
+      "lineCount": 4,
+      "wordCount": 66,
+      "status": "ready"
+    },
+    {
+      "id": 30381,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mollusca are soft-bodied and usually unsegmented, matching the question’s description.\nMany molluscs have an external shell made mainly of calcium carbonate that protects their soft body.\nThe mantle is the organ that secretes this CaCO3 shell, fitting the “enclosed in a calcium carbonate shell” part.\nAnswer: Mollusca",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30382,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Solar radiation\nGreen plants capture solar radiation with chlorophyll and use it in photosynthesis to build organic molecules.\nThose organic molecules store chemical energy that fuels herbivores and then higher trophic levels.\nBecause sunlight is the external energy input driving primary productivity, solar radiation is the ultimate source powering terrestrial food webs.",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30383,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Height shows a continuous range of values in people, with many intermediate statures rather than a few discrete categories.\nThis occurs because height is polygenic, with many genes each contributing small effects that add together.\nEnvironmental factors such as nutrition and health further modify height, producing an approximately bell-shaped distribution in a population.\nCorrect answer: Height",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30384,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Discontinuous variation means traits that fall into distinct categories with no intermediate forms.\nThe ABO blood group assigns people to discrete types A, B, AB or O rather than a continuous range.\nThese separate blood types come from different alleles at a single gene locus (A and B are co‑dominant, O is recessive), producing distinct phenotypes.\nFinal answer: Blood group",
+      "lineCount": 4,
+      "wordCount": 60,
+      "status": "ready"
+    },
+    {
+      "id": 30385,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Thylakoid membrane, grana\nThe light-dependent reactions occur on the thylakoid membranes where photosystems I and II absorb light.\nThose membranes contain the electron transport chain and ATP synthase that produce ATP and NADPH and release O2.\nGrana are stacked thylakoids that increase membrane surface area to hold many pigment-protein complexes, improving light capture and electron transport efficiency.",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30386,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mitochondria contain their own circular DNA (a mitochondrial genome) inside the organelle.\nThey replicate that DNA and divide by binary fission, so they can reproduce independently of the nucleus.\nThis semi-autonomy allows them to synthesise some of their own proteins and maintain their energy-producing functions.\nMitochondrion",
+      "lineCount": 4,
+      "wordCount": 46,
+      "status": "ready"
+    },
+    {
+      "id": 30387,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Absence of a digestive system and direct absorption of digested food\nTaenia solium lacks a mouth and gut, so it cannot digest food internally.\nIts tegument is syncytial and covered with microtriches, which greatly increase surface area for absorbing nutrients.\nThis direct absorption of host-digested nutrients is the key structural adaptation for its parasitic lifestyle.",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30388,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Aortic semilunar valve\nIt is located at the junction between the left ventricle and the aorta where blood leaves the heart.\nWhen the left ventricle relaxes (diastole) the valve cusps close to stop retrograde flow from the high-pressure aorta into the ventricle.\nBecause it forms a one-way seal at that junction to prevent backflow into the left ventricle, it is the correct valve.",
+      "lineCount": 4,
+      "wordCount": 63,
+      "status": "ready"
+    },
+    {
+      "id": 30389,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Aldosterone is a mineralocorticoid hormone produced by the adrenal cortex that controls sodium and potassium balance in blood plasma.\nIt acts mainly on the kidney's distal tubules and collecting ducts to increase sodium reabsorption and promote potassium excretion.\nThese renal effects directly change plasma Na+ and K+ concentrations, maintaining electrolyte balance.\nAnswer: Aldosterone",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30390,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "ADH increases the permeability of the collecting duct to water.\nIt does so by inserting aquaporin channels into the membranes of principal cells in the collecting duct.\nWater then moves by osmosis into the medullary interstitium and peritubular capillaries, enabling ADH-stimulated water reabsorption.\nCollecting duct",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30391,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Pancreatic lipase hydrolyses emulsified triglycerides in the small intestine.\nIt cleaves the ester bonds of triglycerides to produce free fatty acids and glycerol (in practice often monoglycerides plus fatty acids).\nBile salt emulsification increases the surface area of fat droplets so pancreatic lipase can access and efficiently break down the fats.\nFinal answer: Pancreatic lipase",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30392,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mosquito\nFemale mosquitoes have a needle-like proboscis made of stylets (modified mandibles and maxillae) enclosed in a labium sheath.\nThese piercing–sucking mouthparts are specialized to penetrate tissue and draw up blood or plant fluids.\nBecause of this structural modification for piercing and sucking, mosquito is the correct choice.",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30393,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Climax community\nThis is the final, relatively stable and self-sustaining assemblage of species reached through succession.\nOnce established, species composition stays largely unchanged over time unless disrupted by a major disturbance.\nBecause it is the stable end-point of succession, it matches the question's description.",
+      "lineCount": 4,
+      "wordCount": 46,
+      "status": "ready"
+    },
+    {
+      "id": 30394,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Negative geotropism\nIt means shoots grow upward, away from the direction of gravity.\nThis upward curvature happens because auxin is redistributed in the shoot, causing differential cell elongation on opposite sides.\nFinal answer: Negative geotropism",
+      "lineCount": 4,
+      "wordCount": 35,
+      "status": "ready"
+    },
+    {
+      "id": 30395,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The diaphragm is a dome-shaped sheet of muscle that moves upward when it relaxes.\nThis upward bulging reduces thoracic cavity volume and increases intrapulmonary pressure.\nThe higher pressure forces air out of the lungs, producing exhalation.\nCorrect answer: Dome-shaped",
+      "lineCount": 4,
+      "wordCount": 39,
+      "status": "ready"
+    },
+    {
+      "id": 30396,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Male and female organs maturing at different times\nThis temporal separation (dichogamy) means anthers shed pollen at a different time from when the stigma is receptive.\nBecause male and female parts are not mature together, a flower’s own pollen is unlikely to fertilize its ovules.\nThis reduced self-fertilization raises the chance that pollen from other flowers will succeed, so cross-pollination is favored.",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30397,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "In a test cross Tt × tt, the heterozygote Tt produces equal T and t gametes.\nThe homozygous recessive parent tt produces only t gametes.\nHalf the zygotes are Tt (expressing the dominant trait) and half are tt (expressing the recessive trait).\nTherefore the phenotypic ratio is 1:1.",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30398,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Phloem sieve tubes\nThese living conduits carry sucrose and other organic solutes from photosynthetic leaves to storage tissues over long distances.\nCompanion cells actively load sucrose into sieve elements, increasing osmotic concentration and drawing water in.\nThe resulting pressure-driven mass flow (pressure-flow mechanism) moves the sucrose-rich sap toward sinks for storage.",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30399,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Carbon dioxide\nIt is the largest long-lived human-caused greenhouse gas whose atmospheric concentration has risen sharply from fossil fuel use and land-use change.\nCO2 molecules absorb and re-radiate outgoing infrared radiation, increasing the heat retained in the atmosphere and producing an enhanced greenhouse effect.\nBecause CO2 is long-lived and directly controlled by emissions, its rise is the primary human-driven cause of recent global warming.",
+      "lineCount": 4,
+      "wordCount": 64,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "batchNumber": 10,
+  "batchSize": 20,
+  "availableCandidates": 555,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30380,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The structural loss of a plant's turgidity causing drooping leaves due to excessive transpiration over absorption is:",
+      "options": [
+        "Guttation",
+        "Wilting",
+        "Plasmolysis",
+        "Etiolation"
+      ],
+      "answerIndex": 1,
+      "answerText": "Wilting",
+      "originalExplanation": "Wilting is the drooping of leaves and stems caused by loss of turgidity when water loss through transpiration exceeds water uptake by the roots.\nWilting is the correct answer because it denotes a whole-organ or whole-plant loss of turgor that produces limp, drooping tissues rather than secretion or pigment change.\nWilting can be reversible if water is quickly available, but prolonged imbalance between loss and uptake leads to permanent wilting and tissue death.\nPlasmolysis is different: it is a cellular response to a hypertonic external solution where the protoplast pulls away from the cell wall, usually observed in laboratory settings rather than as field wilting.\nGuttation is the secretion of water droplets from leaf margins driven by root pressure (typically at night) and is not caused by turgor loss from excessive transpiration.\nEtiolation describes pale, elongated growth due to low light conditions and does not involve water deficit or transpiration-driven drooping.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30381,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which animal phylum consists of soft-bodied, unsegmented animals usually enclosed in a calcium carbonate shell?",
+      "options": [
+        "Annelida",
+        "Mollusca",
+        "Arthropoda",
+        "Echinodermata"
+      ],
+      "answerIndex": 1,
+      "answerText": "Mollusca",
+      "originalExplanation": "Mollusca are soft-bodied, usually unsegmented animals commonly protected by an external shell composed mainly of calcium carbonate.\nThe molluscan body plan includes a muscular foot, visceral mass and mantle, and the mantle secretes the CaCO3 shell in many species.\nTypical classes such as Gastropoda (snails), Bivalvia (clams, oysters) and Cephalopoda (squid, octopus) show the common pattern of soft body often associated with a shell.\nAnnelida are segmented worms with repeated body segments and setae, not a single soft body enclosed in a calcium carbonate shell.\nArthropoda have jointed appendages and a chitinous exoskeleton, so they are not soft-bodied animals enclosed by a CaCO3 shell.\nEchinodermata possess an internal calcareous skeleton of ossicles and radial symmetry (e.g. starfish, sea urchins) rather than an external calcium carbonate shell enclosing an unsegmented body.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30382,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The ultimate source of energy driving all terrestrial food webs and ecosystems is:",
+      "options": [
+        "Chemical energy in soil",
+        "Solar radiation",
+        "Geothermal energy",
+        "Atmospheric gases"
+      ],
+      "answerIndex": 1,
+      "answerText": "Solar radiation",
+      "originalExplanation": "Terrestrial food webs are driven by primary production, where green plants convert solar radiation into chemical energy by photosynthesis.\nSolar radiation is the ultimate energy source because it provides the light energy captured by chlorophyll to form organic molecules that fuel all higher trophic levels.\nChemical energy in soil represents stored nutrients and decomposer activity but originates ultimately from plant-derived organic matter and is not a primary external energy input.\nGeothermal energy can power some specialized ecosystems (e.g., geothermal vents) but contributes negligibly to the energy budget of most terrestrial ecosystems compared with sunlight.\nAtmospheric gases like CO2 and O2 supply raw materials for photosynthesis and respiration but do not themselves provide usable energy to organisms.\nTherefore Solar radiation is the correct choice as the main input driving primary productivity and hence all terrestrial food webs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30383,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following is an example of continuous variation in humans?",
+      "options": [
+        "Blood group",
+        "Height",
+        "Tongue rolling",
+        "Sex"
+      ],
+      "answerIndex": 1,
+      "answerText": "Height",
+      "originalExplanation": "Continuous variation describes traits that show a continuous range of values with many intermediates and are usually polygenic and environmentally influenced.\nHeight is a classic example because people exhibit a spectrum of statures rather than a few discrete categories.\nHeight is influenced by many genes (polygenic inheritance) and environmental factors such as nutrition and health, producing an approximately bell-shaped distribution in populations.\nBlood group (ABO) is discontinuous because individuals fall into distinct categories (A, B, AB, O) determined by specific alleles at a single locus.\nTongue rolling and sex are also discontinuous traits typically expressed as discrete phenotypes (roller/non-roller; male/female).\nThus height fits the definition of continuous variation, whereas the other options represent discrete or categorical variation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30384,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following human traits is an example of discontinuous variation?",
+      "options": [
+        "Height",
+        "Body mass",
+        "Blood group",
+        "Skin color"
+      ],
+      "answerIndex": 2,
+      "answerText": "Blood group",
+      "originalExplanation": "Discontinuous variation refers to traits that fall into distinct, separate categories with no intermediate forms.\nThe human ABO blood group is discontinuous because people are classified into discrete types A, B, AB or O rather than a continuum.\nABO blood type is controlled by different alleles at a single gene locus (with co‑dominant A and B alleles), producing clearly separate phenotypes.\nHeight is a classic continuous trait produced by many genes (polygenic inheritance) plus environmental effects, giving a continuous range of values.\nBody mass also shows continuous variation because it depends on multiple genes and factors such as diet and lifestyle, so individuals span a spectrum of weights.\nSkin colour is polygenic and varies gradually across populations, so it is continuous rather than forming discrete classes like blood groups.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30385,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The light-dependent reaction of photosynthesis takes place specifically in the:",
+      "options": [
+        "Stroma of the chloroplast",
+        "Thylakoid membrane, grana",
+        "Matrix of the mitochondrion",
+        "Inner membrane of the chloroplast"
+      ],
+      "answerIndex": 1,
+      "answerText": "Thylakoid membrane, grana",
+      "originalExplanation": "Light-dependent reactions are the photochemical steps that require light and produce ATP, NADPH and O2.\nThese reactions occur on the thylakoid membranes, especially in the stacked regions called grana, where photosystems I and II, the electron transport chain and ATP synthase are located.\nGrana increase membrane surface area to accommodate pigment-protein complexes and enhance light capture and electron transport efficiency.\nBy contrast, the stroma of the chloroplast is the site of the light-independent (Calvin) reactions that use ATP and NADPH to fix CO2 into sugars.\nThe matrix of the mitochondrion hosts respiratory pathways (e.g., the Krebs cycle) and is unrelated to chloroplast light reactions.\nThe inner membrane of the chloroplast usually refers to the envelope membrane and does not contain the photosystems, so it is not the site of light-dependent reactions.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30386,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Which of the following organelles contains its own DNA and can replicate independently within a eukaryotic cell?",
+      "options": [
+        "Ribosome",
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Endoplasmic reticulum"
+      ],
+      "answerIndex": 2,
+      "answerText": "Mitochondrion",
+      "originalExplanation": "The question asks which organelle carries its own genetic material and can divide independently within a eukaryotic cell.\nMitochondria contain their own circular DNA and divide by binary fission, so they are semi-autonomous and can replicate separately from the nucleus.\nThis semi-autonomy is consistent with the endosymbiotic origin of mitochondria and allows them to synthesise some of their proteins internally.\nRibosomes do not contain DNA; they are ribonucleoprotein complexes (rRNA + protein) that assemble in the nucleolus or cytoplasm and do not self-replicate.\nThe Golgi apparatus and endoplasmic reticulum are membrane-bound components of the endomembrane system and do not possess DNA or independent replication mechanisms.\nThus Mitochondrion is correct because it uniquely has its own genome and divides independently among the options given.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30387,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "A major structural adaptation of tapeworms Taenia solium to a parasitic lifestyle is the:",
+      "options": [
+        "Presence of a well-developed alimentary canal",
+        "Absence of a digestive system and direct absorption of digested food",
+        "Presence of eyespots for photoreception",
+        "Ciliated outer epidermis for locomotion"
+      ],
+      "answerIndex": 1,
+      "answerText": "Absence of a digestive system and direct absorption of digested food",
+      "originalExplanation": "Tapeworms (Taenia solium) have lost a digestive tract and absorb nutrients across a specialized tegument, which is a major structural adaptation to parasitism.\nTheir outer surface is syncytial and bears microtriches that greatly increase surface area for direct absorption of host-digested food.\nBecause they rely on host digestion, tapeworms have highly developed reproductive systems and segmented proglottids rather than a well-developed alimentary canal.\nThe option stating 'presence of a well-developed alimentary canal' is incorrect because tapeworms have no mouth or gut and obtain nutrients through their body wall.\nTapeworms lack eyespots and do not use photoreception like some free-living flatworms, and their tegument is non-ciliated, so 'presence of eyespots' and 'ciliated outer epidermis' are both wrong.\nThe scolex with suckers and hooks secures the parasite to the host gut, but the absence of a digestive system and direct absorption through the tegument is the primary feeding adaptation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30388,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The valve that prevents the backflow of blood from the aorta into the left ventricle is the:",
+      "options": [
+        "Tricuspid valve",
+        "Bicuspid, mitral valve",
+        "Aortic semilunar valve",
+        "Pulmonary semilunar valve"
+      ],
+      "answerIndex": 2,
+      "answerText": "Aortic semilunar valve",
+      "originalExplanation": "Heart valves ensure one-way blood flow and are classified into atrioventricular valves (tricuspid and bicuspid/mitral) and semilunar valves (aortic and pulmonary).\nThe aortic semilunar valve is located at the junction of the left ventricle and the aorta and prevents blood from flowing back into the left ventricle.\nWhen the left ventricle relaxes (diastole) the cusps of the aortic valve close to stop retrograde flow from the high-pressure aorta.\nThe tricuspid valve is on the right side between the right atrium and right ventricle and prevents backflow into the right atrium, not from the aorta.\nThe bicuspid (mitral) valve lies between the left atrium and left ventricle and prevents blood returning to the atrium during ventricular contraction, so it does not stop aortic backflow.\nThe pulmonary semilunar valve sits between the right ventricle and pulmonary trunk and prevents pulmonary arterial blood from re-entering the right ventricle, so the aortic semilunar is the correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30389,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which hormone regulates sodium and potassium concentration balance in human blood plasma?",
+      "options": [
+        "Cortisol",
+        "Aldosterone",
+        "Insulin",
+        "Parathormone"
+      ],
+      "answerIndex": 1,
+      "answerText": "Aldosterone",
+      "originalExplanation": "Aldosterone is a mineralocorticoid hormone produced by the adrenal cortex that controls sodium and potassium balance in blood plasma.\nIt acts mainly on the distal tubules and collecting ducts of the kidney to increase sodium reabsorption and promote potassium excretion, thereby affecting plasma concentrations.\nAldosterone secretion is stimulated by the renin–angiotensin system and by high plasma potassium, linking blood pressure and electrolyte balance.\nCortisol is a glucocorticoid involved in stress response and metabolism and has only minor mineralocorticoid effects compared with aldosterone, so it is not the primary regulator of sodium–potassium balance.\nInsulin regulates blood glucose and promotes cellular uptake of potassium, but it does not control renal sodium reabsorption as aldosterone does.\nParathormone (PTH) mainly regulates calcium and phosphate metabolism and does not directly govern sodium and potassium concentrations in plasma.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30390,
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "question": "The primary site of water reabsorption in the human nephron under the influence of ADH is the:",
+      "options": [
+        "Bowman's capsule",
+        "Proximal convoluted tubule",
+        "Collecting duct",
+        "Malpighian body"
+      ],
+      "answerIndex": 2,
+      "answerText": "Collecting duct",
+      "originalExplanation": "Antidiuretic hormone (ADH) increases the permeability of kidney tubules to water, promoting water reabsorption.\nThe collecting duct is the primary nephron segment whose permeability to water is hormonally regulated by ADH, making it the main site of ADH-stimulated water reabsorption.\nADH causes insertion of aquaporin water channels into the membranes of principal cells in the collecting duct, allowing water to move by osmosis into the medullary interstitium and peritubular capillaries.\nThe proximal convoluted tubule reabsorbs about 65–70% of filtered water passively along with solutes but does so constitutively and is not the main target of ADH control.\nBowman's capsule and the Malpighian body (glomerulus plus Bowman's capsule) perform ultrafiltration to form glomerular filtrate and do not mediate ADH-dependent water reabsorption.\nTherefore the collecting duct is the correct option because it is the nephron segment whose water permeability—and thus final urine concentration—is regulated by ADH, unlike the other listed structures.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30391,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "Which enzyme in pancreatic juice breaks down emulsified fats into fatty acids and glycerol?",
+      "options": [
+        "Trypsin",
+        "Pancreatic lipase",
+        "Pancreatic amylase",
+        "Chymotrypsin"
+      ],
+      "answerIndex": 1,
+      "answerText": "Pancreatic lipase",
+      "originalExplanation": "The question identifies digestive enzymes in pancreatic juice and asks which one acts on fats.\nPancreatic lipase is the enzyme that hydrolyses emulsified triglycerides in the small intestine to yield free fatty acids and glycerol (in practice often monoglycerides plus fatty acids).\nEmulsification by bile salts from the liver/gallbladder breaks large fat droplets into smaller ones, increasing surface area so pancreatic lipase can access and hydrolyse the fats.\nTrypsin and chymotrypsin are proteases that digest proteins into peptides and amino acids, so they do not act on fats.\nPancreatic amylase hydrolyses starch into maltose and other sugars and likewise does not digest lipids.\nBecause only pancreatic lipase chemically cleaves triglycerides to fatty acids and glycerol, it is the correct option; bile salts and colipase assist its action but are not the catalytic enzyme.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30392,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "An insect whose mouthparts are structurally modified for piercing and sucking plant sap or blood is the:",
+      "options": [
+        "Housefly",
+        "Butterfly",
+        "Mosquito",
+        "Grasshopper"
+      ],
+      "answerIndex": 2,
+      "answerText": "Mosquito",
+      "originalExplanation": "Insects have different mouthpart types (chewing, siphoning, sponging, piercing‑sucking) adapted to their feeding habits; piercing‑sucking mouthparts are specialized to penetrate tissue and suck fluids.\nMosquito is correct because female mosquitoes possess a proboscis made of needle‑like stylets (modified mandibles and maxillae with a labium sheath) that pierce skin and suck blood or plant fluids.\nMale mosquitoes lack blood‑feeding behavior and mainly take nectar, so only the female’s mouthparts are adapted for piercing and sucking to support egg production.\nHousefly is incorrect because it has sponging/lapping mouthparts (a labellum) for soaking up liquids and cannot pierce skin to suck blood.\nButterfly is incorrect because it has a long coiled siphoning proboscis for sucking nectar, not for piercing, while grasshopper is incorrect because it has mandibulate (chewing) mouthparts for biting plant tissue.\nOther insects such as aphids or some Hemiptera also have piercing‑sucking mouthparts, but among the given options the mosquito is the structurally and functionally correct choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30393,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "In ecological succession, the stable, self-sustaining community that undergoes no further major composition changes is the:",
+      "options": [
+        "Pioneer community",
+        "Seral stage",
+        "Climax community",
+        "Biome"
+      ],
+      "answerIndex": 2,
+      "answerText": "Climax community",
+      "originalExplanation": "Ecological succession is the orderly replacement of species in a community over time that typically progresses toward a relatively stable end-point.\nA climax community is the final, relatively stable and self-sustaining assemblage of species that remains largely unchanged until disrupted by disturbance.\nPioneer community refers to the first colonizers (for example lichens, mosses, and hardy plants) that initiate soil formation on bare or disturbed substrate.\nA seral stage is any intermediate stage in succession between the pioneer community and the climax, with species composition changing through time.\nA biome is a broad regional ecosystem defined by climate and dominant vegetation (e.g. rainforest, savanna) and is not the same as the successional endpoint at a particular site.\nBecause the climax community denotes the stable, self-perpetuating final stage of succession, it correctly answers the question.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30394,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The movement of plant shoots away from gravity is termed:",
+      "options": [
+        "Positive hydrotropism",
+        "Negative geotropism",
+        "Positive phototropism",
+        "Thigmotropism"
+      ],
+      "answerIndex": 1,
+      "answerText": "Negative geotropism",
+      "originalExplanation": "Geotropism (gravitropism) is the growth response of plant organs to gravity, with roots showing positive geotropism and shoots showing negative geotropism.\nThe phrase \"movement of plant shoots away from gravity\" precisely describes negative geotropism because shoots grow upward opposite the direction of gravitational pull.\nThis upward bending is produced by redistribution of auxin hormones that causes differential cell elongation on opposite sides of the shoot.\nPositive hydrotropism is growth toward moisture and therefore does not describe a gravity-directed shoot response.\nPositive phototropism is growth toward light and, although shoots often show both phototropic and geotropic responses, it differs from growth specifically directed away from gravity.\nThigmotropism is a response to touch (e.g., tendrils coiling) and is unrelated to shoots growing away from gravity.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30395,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "During mammalian exhalation, the diaphragm muscle relaxes and becomes:",
+      "options": [
+        "Flattened",
+        "Dome-shaped",
+        "Contracted downward",
+        "Shifted laterally"
+      ],
+      "answerIndex": 1,
+      "answerText": "Dome-shaped",
+      "originalExplanation": "The diaphragm is a dome-shaped sheet of muscle that, when it relaxes, moves upward into the thoracic cavity and resumes its dome curvature.\nDuring relaxation this upward bulging reduces thoracic cavity volume and thereby increases intrapulmonary pressure, driving air out of the lungs (exhalation).\nWhen the diaphragm contracts it flattens and moves downward, increasing thoracic volume and causing inhalation, so 'flattened' and 'contracted downward' describe the inhalation state, not exhalation.\n'Shifted laterally' is not a correct description of diaphragmatic relaxation because the diaphragm's main movement is vertical; lateral expansion of the thorax is produced mainly by the ribs and intercostal muscles.\nThus the correct option 'Dome-shaped' accurately describes the relaxed, upward-bulging diaphragm during passive exhalation.\nThis mechanical interplay between diaphragm shape and thoracic volume explains why diaphragm relaxation leads to air leaving the lungs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30396,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Cross-pollination in flowering plants is favored by dichogamy, which specifically refers to:",
+      "options": [
+        "Male and female organs maturing at different times",
+        "Flowers remaining closed throughout their lifespan",
+        "Stigma and anthers being placed at incompatible levels",
+        "Pollen grains being self-sterile on the same stigma"
+      ],
+      "answerIndex": 0,
+      "answerText": "Male and female organs maturing at different times",
+      "originalExplanation": "Dichogamy is the temporal separation of male and female reproductive maturity in a flower, where either stamens mature before the pistil (protandry) or the pistil matures before the stamens (protogyny).\nBy ensuring anthers release pollen at a different time from when the stigma is receptive, dichogamy reduces the chance of self-fertilization and therefore promotes cross-pollination.\nThe correct option — 'Male and female organs maturing at different times' — precisely defines dichogamy.\n'Flowers remaining closed throughout their lifespan' refers to cleistogamy, which leads to self-pollination rather than favoring cross-pollination.\n'Stigma and anthers being placed at incompatible levels' describes herkogamy, a spatial separation mechanism distinct from the temporal separation of dichogamy.\n'Pollen grains being self-sterile on the same stigma' is self-incompatibility, a genetic/physiological barrier to selfing and not the timing mechanism denoted by dichogamy.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30397,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "What phenotypic ratio is expected in a test cross involving a heterozygous individual Tt and a homozygous recessive individual tt?",
+      "options": [
+        "3:1",
+        "1:1",
+        "1:2:1",
+        "9:3:3:1"
+      ],
+      "answerIndex": 1,
+      "answerText": "1:1",
+      "originalExplanation": "A test cross checks whether an organism showing the dominant phenotype is homozygous or heterozygous by crossing it with a homozygous recessive (tt).\nA heterozygote Tt produces equal numbers of T and t gametes, while tt produces only t gametes.\nFusion of these gametes yields half the offspring Tt and half tt by genotype.\nBecause T is dominant, phenotypes will appear as one dominant : one recessive, i.e. a 1:1 phenotypic ratio.\nThe 3:1 and 1:2:1 ratios arise from Tt × Tt self-crosses (phenotypic 3:1, genotypic 1:2:1), so they do not apply here.\nThe 9:3:3:1 ratio is a dihybrid cross result for two independent genes, so it is irrelevant to a single-gene Tt × tt test cross.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30398,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In plant stems, the transport of organic food materials, sucrose, from leaves to storage tissues occurs through:",
+      "options": [
+        "Xylem vessels",
+        "Phloem sieve tubes",
+        "Cambium cells",
+        "Parenchyma cells"
+      ],
+      "answerIndex": 1,
+      "answerText": "Phloem sieve tubes",
+      "originalExplanation": "The question concerns translocation of organic solutes in plants from source (leaves) to sink (storage tissues).\nPhloem sieve tubes are the specialized conduits for long‑distance transport of sucrose and other organic molecules.\nSieve tube elements, aided by companion cells, enable loading and unloading of sucrose and facilitate bulk flow driven by osmotic pressure differences (pressure‑flow hypothesis).\nXylem vessels conduct water and dissolved mineral ions upward but do not perform bulk transport of sucrose, so xylem is incorrect.\nCambium is a lateral meristem that produces secondary xylem and phloem (growth), and parenchyma cells mainly function in storage and metabolism rather than long‑distance translocation.\nTherefore the correct answer is phloem sieve tubes because they carry sucrose from photosynthetic sources to storage sinks via active loading and mass flow.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30399,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The primary atmospheric gas responsible for global warming and the enhanced greenhouse effect is:",
+      "options": [
+        "Sulfur dioxide",
+        "Carbon dioxide",
+        "Methane",
+        "Nitrous oxide"
+      ],
+      "answerIndex": 1,
+      "answerText": "Carbon dioxide",
+      "originalExplanation": "The concept is the greenhouse effect and which atmospheric gases drive recent global warming.\nCarbon dioxide (CO2) is correct because it is the largest long-lived anthropogenic greenhouse gas whose concentration has risen sharply due to fossil fuel use and land-use change.\nCO2 molecules absorb and re-radiate outgoing infrared radiation, causing a net retention of heat and an enhanced greenhouse effect when concentrations increase.\nMethane and nitrous oxide are stronger greenhouse gases per molecule but are much less abundant, so their total contribution to recent warming is smaller than CO2's.\nSulfur dioxide tends to form sulfate aerosols that reflect sunlight and cool the atmosphere and it is short-lived, so it does not drive long-term warming.\nAlthough water vapour is the most abundant greenhouse gas and amplifies warming, its concentration is governed by temperature feedbacks, making CO2 the primary human-caused driver of the enhanced greenhouse effect.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

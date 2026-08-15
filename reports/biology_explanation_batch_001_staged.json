@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "biology-dr-high-0002",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "Which of the following characterizes a mature plant cell?",
+    "options": [
+      "A. the cytoplasm fills up the entire cell space",
+      "B. the nucleus is pushed to the centre of the cell",
+      "C. the cell wall is made up of cellulose",
+      "D. the nucleus is small and irregular in shape"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: features of a mature plant cell — a rigid cell wall, a large central vacuole, cytoplasm distribution, and nucleus position.\nC is correct because mature plant cells have a rigid cell wall made of cellulose that provides structural support.\nReject B (nucleus central): in mature plant cells the large central vacuole pushes the nucleus toward the cell periphery rather than placing it in the centre.\nExam takeaway: pick the option stating a cellulose cell wall and eliminate choices that say the cytoplasm fills the whole cell or that the nucleus is centrally located.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0003",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a function of the nucleus of a cell?",
+    "options": [
+      "A. it controls the life processes of the cell",
+      "B. it translates genetic information for the manufacture of proteins",
+      "C. it stores and carries hereditary information",
+      "D. it is reservoir of energy for the cell"
+    ],
+    "answerIndex": 3,
+    "explanation": "Concept: the nucleus is the cell's control center that stores hereditary information and directs protein synthesis.\nWhy D is correct: the nucleus does not act as an energy reservoir—energy production and storage are functions of organelles like mitochondria, which produce ATP.\nReject the closest misconception: option B's phrase 'translates genetic information' is misleading because the nucleus directs and supplies genetic templates but does not itself carry out the translation into proteins, which happens outside the nucleus.\nExam takeaway: choose D — the nucleus controls life processes and stores DNA; any claim that the nucleus is the cell's energy reservoir is incorrect because mitochondria handle cellular energy (ATP).",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0007",
+    "subject": "Biology",
+    "topic": "Genetics and Evolution",
+    "difficulty": "medium",
+    "question": "Which of the animals represents the oldest creatures in terms of evolutionary history?",
+    "options": [
+      "A. III",
+      "B. II",
+      "C. I",
+      "D. IV"
+    ],
+    "answerIndex": 3,
+    "explanation": "Concept: this question tests evolutionary order of major vertebrate groups in the fossil record.\nWhy D (IV) is correct: fish are the earliest vertebrates, arising about 500 million years ago, so IV is the oldest group.\nRejecting alternatives: amphibians, reptiles and birds evolved later (in that order), so none of them are older than fish.\nExam takeaway: when asked which animal group is the oldest, choose fish (IV) — answer D — because they appear first in the fossil record.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0008",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "Which of the following groups of cells is devoid of true nuclei?",
+    "options": [
+      "A. algae",
+      "B. monera",
+      "C. fungi",
+      "D. viruses"
+    ],
+    "answerIndex": 3,
+    "explanation": "Concept: this question tests which organisms lack a true (membrane‑bound) nucleus—distinguishing acellular, prokaryotic, and eukaryotic organization.\nAnswer D: viruses is correct because viruses are acellular particles made of genetic material and a protein coat and therefore have no true nucleus.\nRejecting the closest alternative: monera (B) are prokaryotic cells with a nucleoid region but still cellular, so they lack a membrane‑bound nucleus but are not acellular like viruses.\nExam takeaway: when asked ‘devoid of true nuclei’ choose viruses (acellular); remember prokaryotes have a nucleoid and algae/fungi are eukaryotes with true nuclei.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0012",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
+    "options": [
+      "A. III and IV respectively",
+      "B. II and I respectively",
+      "C. I and II respectively",
+      "D. I and III respectively"
+    ],
+    "answerIndex": 0,
+    "explanation": "Concept: the question tests transport direction in vascular tissues—xylem moves water/minerals upward and phloem moves food downward/outward as shown by arrows III and IV.\nWhy A is correct: arrow III indicates upward xylem flow (water and minerals) and arrow IV indicates downward/outward phloem flow (food), so III and IV match the tissues.\nReject the nearest alternative: any option that replaces IV with I (for example D) is incorrect because I does not show the downward/outward food transport depicted by arrow IV.\nExam takeaway: choose A (III and IV) whenever the diagram shows upward movement in xylem and downward/outward movement in phloem.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0013",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "During photosynthesis, the arrow labelled II represents the",
+    "options": [
+      "A. escape of mineral salts",
+      "B. absorption of energy from the sun",
+      "C. release of carbon (IV) oxide",
+      "D. release of oxygen as a by‑product"
+    ],
+    "answerIndex": 3,
+    "explanation": "Concept: Arrow II indicates a gas being released from the leaf during photosynthesis.\nWhy D is correct: Option D (release of oxygen as a by‑product) matches because oxygen is produced by photolysis—the splitting of water—and exits the leaf where Arrow II points.\nReject the closest alternative: Not C — carbon(IV) oxide is taken into the leaf for the light‑independent stage rather than being released; A and B are also wrong because mineral salts don’t exit as that gas and sunlight is absorbed into the leaf, not shown as an outward gas arrow.\nExam takeaway: When an arrow points out of a leaf in a photosynthesis diagram, choose oxygen release (D) and remember oxygen comes from water splitting during the light stage.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0015",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "The mode of nutrition of sun dew and bladder wort can be described as",
+    "options": [
+      "A. autotrophic",
+      "B. saprophytic",
+      "C. holozoic",
+      "D. chemostythetic"
+    ],
+    "answerIndex": 2,
+    "explanation": "Holozoic nutrition means ingesting and digesting solid food, which is the concept tested here.\nSundew and bladderwort trap and digest insects, so their feeding is correctly described as holozoic.\nDo not confuse this with autotrophy: although these plants photosynthesise, their insect‑eating habit is still classified as holozoic, not just autotrophic.\nExam takeaway: the correct answer is C (holozoic) — carnivorous plants are holozoic feeders even though they are also photosynthetic.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0017",
+    "subject": "Biology",
+    "topic": "Blood and Circulation",
+    "difficulty": "medium",
+    "question": "The primary structure responsible for pumping blood for circulation through the mammalian circulatory systems is the",
+    "options": [
+      "A. veins",
+      "B. right auricle",
+      "C. arteries",
+      "D. left ventricle"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: this question targets the vessels that carry and distribute pumped blood in the circulatory system, with arteries (C) as the keyed structure.\nWhy C is correct: arteries carry blood away from the heart under high pressure and are thick‑walled and muscular so they receive and distribute the pumped blood.\nReject the closest alternative: although the left ventricle is the heart's main pumping chamber, the keyed answer emphasizes arteries as the structures that conduct the pumped blood through circulation.\nExam takeaway: read the stem carefully — arteries = high‑pressure vessels carrying blood away from the heart (veins return blood); match the wording to the intended structure.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0018",
+    "subject": "Biology",
+    "topic": "Blood and Circulation",
+    "difficulty": "medium",
+    "question": "Circulation of blood to all parts of the body except the lungs is through",
+    "options": [
+      "A. the pulmonary artery",
+      "B. systemic circulation",
+      "C. the lymphatic system",
+      "D. pulmonary circulation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Concept: systemic circulation — the circuit that delivers blood to all body tissues except the lungs.\nWhy B is correct: systemic circulation carries oxygenated blood from the left ventricle to body tissues and returns deoxygenated blood to the right atrium.\nWhy not the close alternative: pulmonary circulation (and the pulmonary artery) serves only the lungs, so it does not supply the rest of the body.\nExam takeaway: when asked for circulation to all parts of the body except the lungs, choose systemic circulation (option B).",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0020",
+    "subject": "Biology",
+    "topic": "Support and Movement",
+    "difficulty": "medium",
+    "question": "The sheet of muscle that separates the thoracic and the abdominal cavities is the",
+    "options": [
+      "A. diaphragm",
+      "B. intercostal muscle",
+      "C. pleural membrane",
+      "D. pericardium"
+    ],
+    "answerIndex": 0,
+    "explanation": "The concept tested is the diaphragm, the dome‑shaped sheet of muscle separating the thoracic and abdominal cavities.\nOption A is correct because the diaphragm forms that muscular partition and contracts and relaxes to aid breathing.\nReject the closest distractor: intercostal muscles (B) are located between the ribs and are not the sheet that separates the two cavities.\nExam takeaway: whenever a question asks for the muscle separating thoracic and abdominal cavities, select the diaphragm and remember its role in breathing.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0021",
+    "subject": "Biology",
+    "topic": "Classification and Diversity",
+    "difficulty": "medium",
+    "question": "The oily substance that lubricates the mammalian hair to keep it flexible and water repellent is secreted by the",
+    "options": [
+      "A. sweet glands",
+      "B. sebaceous glands",
+      "C. fatty cells",
+      "D. granular layer"
+    ],
+    "answerIndex": 1,
+    "explanation": "Concept: sebaceous glands (Answer B) are the skin glands that produce sebum, the oily substance linked to hair lubrication.\nWhy B is correct: sebum from sebaceous glands lubricates hair, keeping it flexible, waterproof and preventing drying.\nRejecting the common alternative: sweat glands (A) produce watery sweat for cooling, not oily sebum, while the granular layer (D) is a skin layer, not a secretory gland.\nExam takeaway: choose B — sebaceous glands secrete sebum to make hair flexible and water-repellent, whereas sweat glands serve cooling, not lubrication.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0022",
+    "subject": "Biology",
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "The outer layer of the kidney where the Bowman's capsules are found is the",
+    "options": [
+      "A. cortex",
+      "B. pelvis",
+      "C. medulla",
+      "D. pyramid"
+    ],
+    "answerIndex": 0,
+    "explanation": "Concept: the kidney cortex is the outer region of the kidney containing Bowman's capsules and glomeruli.\nThis makes option A (cortex) correct because Bowman's capsules, where ultrafiltration begins, are located in the cortex.\nDo not confuse the cortex with the medulla (option C); the medulla contains loops of Henle and collecting ducts, not Bowman's capsules.\nExam takeaway: for anatomy questions remember cortex = Bowman's capsules/glomeruli (ultrafiltration), medulla = loops of Henle and collecting ducts, pelvis = central cavity.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0024",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "In the male reproductive system of a mammal, sperm is stored in the",
+    "options": [
+      "A. van deferens",
+      "B. urethra",
+      "C. epididymis",
+      "D. seminiferous tubules"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: sperm production, maturation, transport and storage occur in different male structures — maturation and storage occur in the epididymis.\nAnswer C is correct because sperm cells mature and are stored in the coiled epididymis on the testis.\nDo not choose A (vas deferens): the vas deferens only transports sperm from the epididymis and does not store or mature them.\nExam takeaway: when asked where sperm mature and are stored pick C epididymis; seminiferous tubules produce sperm and the urethra carries urine and semen.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0027",
+    "subject": "Biology",
+    "topic": "Excretion and Osmoregulation",
+    "difficulty": "medium",
+    "question": "I. Stomata → Spirogyra    II. Alveoli → Earthworm    III. Malpighian tubule → Mammal    IV. Contractile vacuole → Protozoa Which of the above structures is correctly matched with the organisms in which it is found?",
+    "options": [
+      "A. III",
+      "B. II",
+      "C. I",
+      "D. IV"
+    ],
+    "answerIndex": 3,
+    "explanation": "Concept: this item tests recognition of excretory/osmoregulatory structures and which organism groups possess them.\nWhy D (IV) is correct: contractile vacuoles occur in protozoa (e.g., Paramecium) and pump out excess water to maintain osmotic balance.\nReject the closest misconception (III): Malpighian tubules are found in insects, not mammals, so pairing them with mammals is wrong.\nExam takeaway: memorize key pairings — stomata with land plants, alveoli with mammals, Malpighian tubules with insects, and contractile vacuoles with protozoa.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0028",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "A food chain always begins with a",
+    "options": [
+      "A. consumer",
+      "B. decomposer",
+      "C. producer",
+      "D. primary consumer"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: A food chain always begins with a producer—organisms like green plants or algae.\nWhy C is correct: producers capture solar energy and convert it into chemical energy, so they provide the energy that supports all consumers.\nRejecting the closest alternative: it is not a consumer or primary consumer (option D), because primary consumers feed on producers and therefore come later in the chain.\nExam takeaway: on ecology questions choose 'producer' (option C) since producers are the energy source that starts every food chain.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0029",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "Mycorrhizae promote plant growth by",
+    "options": [
+      "A. absorbing inorganic ions from the soil",
+      "B. protecting it from infection",
+      "C. helping it to utilize atmospheric nitrogen",
+      "D. serving as a growth regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mycorrhizae are symbiotic fungi that form close associations with plant roots.\nThey increase the root’s effective surface area and absorb inorganic ions from the soil (especially phosphorus), so option A is correct.\nNot C: mycorrhizae do not enable plants to utilize atmospheric nitrogen — that is not their primary function.\nExam takeaway: for questions on mycorrhizae pick the option about enhanced mineral/water uptake (A), not nitrogen fixation or hormone action.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0030",
+    "subject": "Biology",
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "The barrier between maternal and foetal blood is the",
+    "options": [
+      "A. placenta",
+      "B. liver",
+      "C. umbilical chord",
+      "D. uterine wall"
+    ],
+    "answerIndex": 0,
+    "explanation": "Concept: The barrier between maternal and foetal blood is the placenta (option A).\nWhy A is correct: The placenta allows exchange of nutrients and gases while preventing direct mixing of maternal and foetal blood and also secretes hormones that help protect the foetus.\nReject the closest alternative: Umbilical cord (C) is incorrect because it does not carry out the barrier and exchange functions described for the placenta.\nExam takeaway: When asked which structure separates maternal and foetal blood or enables exchange without mixing, choose the placenta (A).",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0031",
+    "subject": "Biology",
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "The blood component that has the greatest affinity for oxygen is the",
+    "options": [
+      "A. lymphocytes",
+      "B. leucocytes",
+      "C. erythrocytes",
+      "D. thrombocytes"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: The question asks which blood component has the greatest affinity for oxygen — Option C, erythrocytes (red blood cells).\nWhy C is correct: erythrocytes contain haemoglobin, an iron-containing protein that binds oxygen with high affinity, so they are the primary O2 carriers.\nReject the closest alternative/misconception: leucocytes are immune cells and thrombocytes are platelets; neither leucocytes nor thrombocytes transport oxygen.\nExam takeaway: for oxygen-affinity or oxygen-transport questions pick erythrocytes (C) because haemoglobin in red blood cells binds and carries O2, unlike other blood components.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0032",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Which of the following organisms is mainly found in the marine habitat?",
+    "options": [
+      "A. Achatina",
+      "B. Tilapia",
+      "C. Dog fish",
+      "D. Tortoise"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept: this question tests habitat preference — identifying which organism is chiefly marine.\nCorrect answer (C): dogfish is a cartilaginous fish (a shark) that inhabits marine (saltwater) environments.\nClosest distractor rejected: Tilapia are primarily freshwater fish, so B is not mainly marine.\nExam takeaway: pick species known as marine (e.g., sharks/dogfish) and rule out freshwater or terrestrial options on habitat questions.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0034",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "I. Adoption of appropriate nocturnal habits    II. Burrowing    III. Adjusting their internal body temperature    IV. Possession of many sweat pores Which of the above are ways in which desert animals adapt to extreme heat of the environment?",
+    "options": [
+      "A. I and IV only",
+      "B. II and III only",
+      "C. I and II only",
+      "D. I, II and III only"
+    ],
+    "answerIndex": 2,
+    "explanation": "Concept tested: adaptations of desert animals to extreme heat focus mainly on behavioural strategies like activity timing and sheltering.\nWhy option C is correct: I and II are true because many desert animals are nocturnal and burrow to avoid daytime heat and conserve water.\nReject the closest misconception: III and IV are wrong — desert animals generally do not adjust internal body temperature (many are poikilothermic) and do not have many sweat pores because that would raise water loss.\nExam takeaway: For desert-heat adaptations, pick behavioural responses (nocturnality and burrowing) rather than physiological traits like many sweat pores or active internal temperature adjustment.",
+    "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording and answer key preserved, explanation formatted for uniform learner clarity."
+  }
+]

@@ -1,0 +1,1358 @@
+{
+  "generatedAt": "2026-08-15T21:03:14.592Z",
+  "inputCount": 115,
+  "releaseCandidateCount": 87,
+  "heldCount": 28,
+  "topicCounts": {
+    "null": 26,
+    "Plant Biology": 12,
+    "Cell Biology and Metabolism": 6,
+    "Genetics and Evolution": 3,
+    "Nutrition and Digestion": 7,
+    "Blood and Circulation": 2,
+    "Support and Movement": 3,
+    "Classification and Diversity": 4,
+    "Human Physiology": 18,
+    "Reproduction": 6,
+    "Excretion and Osmoregulation": 2,
+    "Ecology": 14,
+    "Coordination and Control": 1,
+    "Living Organisms and Organization": 2,
+    "Health and Disease": 4,
+    "Respiration and Gas Exchange": 1,
+    "Humans and Environment": 1,
+    "Nutrition and Diet": 1,
+    "Behaviour and Social Organization": 2
+  },
+  "reasonCounts": {
+    "unmapped-topic": 26,
+    "answer-text-mismatch": 1,
+    "option-count": 4
+  },
+  "details": [
+    {
+      "sourceId": "biology-dr-high-0001",
+      "sourceNumber": 1,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0002",
+      "sourceNumber": 2,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0003",
+      "sourceNumber": 3,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0004",
+      "sourceNumber": 4,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0005",
+      "sourceNumber": 5,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0006",
+      "sourceNumber": 6,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic",
+        "answer-text-mismatch"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0007",
+      "sourceNumber": 7,
+      "topic": "Genetics and Evolution",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0008",
+      "sourceNumber": 8,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0009",
+      "sourceNumber": 9,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0010",
+      "sourceNumber": 10,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 1,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic",
+        "option-count:1"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0011",
+      "sourceNumber": 11,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0012",
+      "sourceNumber": 12,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0013",
+      "sourceNumber": 13,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0014",
+      "sourceNumber": 14,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 3,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic",
+        "option-count:3"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0015",
+      "sourceNumber": 15,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0016",
+      "sourceNumber": 16,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0017",
+      "sourceNumber": 17,
+      "topic": "Blood and Circulation",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0018",
+      "sourceNumber": 18,
+      "topic": "Blood and Circulation",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0019",
+      "sourceNumber": 19,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0020",
+      "sourceNumber": 20,
+      "topic": "Support and Movement",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0021",
+      "sourceNumber": 21,
+      "topic": "Classification and Diversity",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0022",
+      "sourceNumber": 22,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0023",
+      "sourceNumber": 23,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0024",
+      "sourceNumber": 24,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0025",
+      "sourceNumber": 25,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0026",
+      "sourceNumber": 26,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0027",
+      "sourceNumber": 27,
+      "topic": "Excretion and Osmoregulation",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0028",
+      "sourceNumber": 28,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0029",
+      "sourceNumber": 29,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0030",
+      "sourceNumber": 30,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0031",
+      "sourceNumber": 31,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0032",
+      "sourceNumber": 32,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0033",
+      "sourceNumber": 33,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0034",
+      "sourceNumber": 34,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0035",
+      "sourceNumber": 35,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0036",
+      "sourceNumber": 36,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0037",
+      "sourceNumber": 37,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0038",
+      "sourceNumber": 38,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0039",
+      "sourceNumber": 39,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0040",
+      "sourceNumber": 40,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0041",
+      "sourceNumber": 41,
+      "topic": "Coordination and Control",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0042",
+      "sourceNumber": 42,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0043",
+      "sourceNumber": 43,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0044",
+      "sourceNumber": 44,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0045",
+      "sourceNumber": 45,
+      "topic": "Genetics and Evolution",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0046",
+      "sourceNumber": 1,
+      "topic": "Living Organisms and Organization",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0047",
+      "sourceNumber": 2,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0048",
+      "sourceNumber": 3,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0049",
+      "sourceNumber": 4,
+      "topic": "Excretion and Osmoregulation",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0050",
+      "sourceNumber": 5,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0051",
+      "sourceNumber": 6,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0052",
+      "sourceNumber": 7,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0053",
+      "sourceNumber": 8,
+      "topic": "Support and Movement",
+      "explanationLines": 1,
+      "optionCount": 3,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "option-count:3"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0054",
+      "sourceNumber": 9,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0055",
+      "sourceNumber": 10,
+      "topic": "Health and Disease",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0056",
+      "sourceNumber": 11,
+      "topic": "Health and Disease",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0057",
+      "sourceNumber": 12,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0058",
+      "sourceNumber": 13,
+      "topic": "Respiration and Gas Exchange",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0059",
+      "sourceNumber": 14,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0060",
+      "sourceNumber": 15,
+      "topic": "Humans and Environment",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0061",
+      "sourceNumber": 16,
+      "topic": "Genetics and Evolution",
+      "explanationLines": 1,
+      "optionCount": 3,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "option-count:3"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0062",
+      "sourceNumber": 17,
+      "topic": "Nutrition and Diet",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0063",
+      "sourceNumber": 18,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0064",
+      "sourceNumber": 19,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0065",
+      "sourceNumber": 20,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0066",
+      "sourceNumber": 21,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0067",
+      "sourceNumber": 22,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0068",
+      "sourceNumber": 23,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0069",
+      "sourceNumber": 24,
+      "topic": "Classification and Diversity",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0070",
+      "sourceNumber": 25,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0071",
+      "sourceNumber": 26,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0072",
+      "sourceNumber": 27,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0073",
+      "sourceNumber": 28,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0074",
+      "sourceNumber": 29,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0075",
+      "sourceNumber": 30,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0076",
+      "sourceNumber": 31,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0077",
+      "sourceNumber": 32,
+      "topic": "Classification and Diversity",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0078",
+      "sourceNumber": 33,
+      "topic": "Health and Disease",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0079",
+      "sourceNumber": 34,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0080",
+      "sourceNumber": 35,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0081",
+      "sourceNumber": 36,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0082",
+      "sourceNumber": 37,
+      "topic": "Living Organisms and Organization",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0083",
+      "sourceNumber": 38,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0084",
+      "sourceNumber": 39,
+      "topic": "Behaviour and Social Organization",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0085",
+      "sourceNumber": 40,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0086",
+      "sourceNumber": 41,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0087",
+      "sourceNumber": 42,
+      "topic": "Cell Biology and Metabolism",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0088",
+      "sourceNumber": 43,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0089",
+      "sourceNumber": 44,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0090",
+      "sourceNumber": 45,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0091",
+      "sourceNumber": 46,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0092",
+      "sourceNumber": 47,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0093",
+      "sourceNumber": 48,
+      "topic": "Behaviour and Social Organization",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0094",
+      "sourceNumber": 49,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0095",
+      "sourceNumber": 50,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0096",
+      "sourceNumber": 51,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0097",
+      "sourceNumber": 52,
+      "topic": "Classification and Diversity",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0098",
+      "sourceNumber": 53,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0099",
+      "sourceNumber": 54,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0100",
+      "sourceNumber": 55,
+      "topic": "Ecology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0101",
+      "sourceNumber": 56,
+      "topic": "Plant Biology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0102",
+      "sourceNumber": 57,
+      "topic": "Health and Disease",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0103",
+      "sourceNumber": 58,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0104",
+      "sourceNumber": 59,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0105",
+      "sourceNumber": 60,
+      "topic": "Support and Movement",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0106",
+      "sourceNumber": 61,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0107",
+      "sourceNumber": 62,
+      "topic": "Reproduction",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0108",
+      "sourceNumber": 63,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0109",
+      "sourceNumber": 64,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "D",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0110",
+      "sourceNumber": 65,
+      "topic": "Human Physiology",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0111",
+      "sourceNumber": 66,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "B",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0112",
+      "sourceNumber": 67,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    },
+    {
+      "sourceId": "biology-dr-high-0113",
+      "sourceNumber": 68,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0114",
+      "sourceNumber": 69,
+      "topic": null,
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "A",
+      "duplicateOf": null,
+      "reasons": [
+        "unmapped-topic"
+      ],
+      "releaseCandidate": false
+    },
+    {
+      "sourceId": "biology-dr-high-0115",
+      "sourceNumber": 70,
+      "topic": "Nutrition and Digestion",
+      "explanationLines": 1,
+      "optionCount": 4,
+      "answerLetter": "C",
+      "duplicateOf": null,
+      "reasons": [],
+      "releaseCandidate": true
+    }
+  ]
+}

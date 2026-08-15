@@ -1,10 +1,10 @@
 {
-  "totalActiveAuthorisedRows": 2926,
-  "playableRows": 1375,
+  "totalActiveAuthorisedRows": 2946,
+  "playableRows": 1763,
   "outcomes": {
-    "explanation exceeds five lines": 643,
-    "playable": 1375,
-    "status:needs_review": 566,
+    "explanation exceeds five lines": 472,
+    "playable": 1763,
+    "status:needs_review": 369,
     "unmapped syllabus topic": 342
   },
   "sources": {
@@ -15,8 +15,8 @@
       "status:needs_review": 166
     },
     "Owner-provided Biology non-diagram collection — pending provenance review": {
-      "explanation exceeds five lines": 390,
-      "playable": 3,
+      "explanation exceeds five lines": 220,
+      "playable": 173,
       "unmapped syllabus topic": 65
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry": {
@@ -96,39 +96,41 @@
       "playable": 150
     },
     "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe": {
-      "explanation exceeds five lines": 1,
-      "playable": 162,
+      "playable": 163,
       "unmapped syllabus topic": 79
     },
     "Owner Chemistry DOCX · Uniform explanation batch 001": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 002": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 003": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 004": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 005": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 006": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 007": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 008": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 009": {
-      "status:needs_review": 20
+      "playable": 20
     },
     "Owner Chemistry DOCX · Uniform explanation batch 010": {
-      "status:needs_review": 17
+      "playable": 17
+    },
+    "Owner Biology DOCX · Uniform explanation batch 001": {
+      "playable": 20
     }
   }
 }

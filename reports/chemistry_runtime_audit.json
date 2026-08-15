@@ -1,0 +1,1783 @@
+{
+  "generatedAt": "2026-08-15T21:00:19.022Z",
+  "sourcePattern": "Owner Chemistry DOCX%",
+  "storedActiveCount": 197,
+  "runtimePlayableCount": 197,
+  "heldCount": 0,
+  "holdReasonCounts": {},
+  "details": [
+    {
+      "id": 480001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Chemical equilibria",
+      "reasons": [],
+      "mappedTopic": "Chemical equilibria",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 480020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 510020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 540020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Chemical equilibria",
+      "reasons": [],
+      "mappedTopic": "Chemical equilibria",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Chemical equilibria",
+      "reasons": [],
+      "mappedTopic": "Chemical equilibria",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570021,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570022,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570023,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570024,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570025,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570026,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570027,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Energy changes",
+      "reasons": [],
+      "mappedTopic": "Energy changes",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570028,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570029,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570030,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570031,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570032,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570033,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Rates of reaction",
+      "reasons": [],
+      "mappedTopic": "Rates of reaction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570034,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570035,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570036,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570037,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570038,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570039,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 570040,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Chemical equilibria",
+      "reasons": [],
+      "mappedTopic": "Chemical equilibria",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Solubility",
+      "reasons": [],
+      "mappedTopic": "Solubility",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 600020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Energy changes",
+      "reasons": [],
+      "mappedTopic": "Energy changes",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 630020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 007",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 5,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Solubility",
+      "reasons": [],
+      "mappedTopic": "Solubility",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Separation of mixtures",
+      "reasons": [],
+      "mappedTopic": "Separation of mixtures",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 660020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Chemical combination",
+      "reasons": [],
+      "mappedTopic": "Chemical combination",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Oxidation and reduction",
+      "reasons": [],
+      "mappedTopic": "Oxidation and reduction",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690018,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690019,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 690020,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 009",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Chemical equilibria",
+      "reasons": [],
+      "mappedTopic": "Chemical equilibria",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720002,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Solubility",
+      "reasons": [],
+      "mappedTopic": "Solubility",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720003,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720004,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720005,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720006,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720007,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720008,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720009,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Metals and their compounds",
+      "reasons": [],
+      "mappedTopic": "Metals and their compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720010,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720011,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Chemistry and industry",
+      "reasons": [],
+      "mappedTopic": "Chemistry and industry",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720012,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Organic compounds",
+      "reasons": [],
+      "mappedTopic": "Organic compounds",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720013,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Kinetic theory of matter and gases",
+      "reasons": [],
+      "mappedTopic": "Kinetic theory of matter and gases",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720014,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720015,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Atomic structure and bonding",
+      "reasons": [],
+      "mappedTopic": "Atomic structure and bonding",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720016,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Acids, bases and salts",
+      "reasons": [],
+      "mappedTopic": "Acids, bases and salts",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    },
+    {
+      "id": 720017,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 010",
+      "topic": "Electrolysis",
+      "reasons": [],
+      "mappedTopic": "Electrolysis",
+      "explanationLines": 4,
+      "runtimePlayable": true
+    }
+  ]
+}

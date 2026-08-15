@@ -1,0 +1,329 @@
+{
+  "batch": 1,
+  "sourceCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "position": 1,
+      "sourceId": "biology-dr-high-0002",
+      "sourceNumber": 2,
+      "topic": "Plant Biology",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: features of a mature plant cell — a rigid cell wall, a large central vacuole, cytoplasm distribution, and nucleus position.",
+        "C is correct because mature plant cells have a rigid cell wall made of cellulose that provides structural support.",
+        "Reject B (nucleus central): in mature plant cells the large central vacuole pushes the nucleus toward the cell periphery rather than placing it in the centre.",
+        "Exam takeaway: pick the option stating a cellulose cell wall and eliminate choices that say the cytoplasm fills the whole cell or that the nucleus is centrally located."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 2,
+      "sourceId": "biology-dr-high-0003",
+      "sourceNumber": 3,
+      "topic": "Cell Biology and Metabolism",
+      "answerLetter": "D",
+      "lines": [
+        "Concept: the nucleus is the cell's control center that stores hereditary information and directs protein synthesis.",
+        "Why D is correct: the nucleus does not act as an energy reservoir—energy production and storage are functions of organelles like mitochondria, which produce ATP.",
+        "Reject the closest misconception: option B's phrase 'translates genetic information' is misleading because the nucleus directs and supplies genetic templates but does not itself carry out the translation into proteins, which happens outside the nucleus.",
+        "Exam takeaway: choose D — the nucleus controls life processes and stores DNA; any claim that the nucleus is the cell's energy reservoir is incorrect because mitochondria handle cellular energy (ATP)."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 3,
+      "sourceId": "biology-dr-high-0007",
+      "sourceNumber": 7,
+      "topic": "Genetics and Evolution",
+      "answerLetter": "D",
+      "lines": [
+        "Concept: this question tests evolutionary order of major vertebrate groups in the fossil record.",
+        "Why D (IV) is correct: fish are the earliest vertebrates, arising about 500 million years ago, so IV is the oldest group.",
+        "Rejecting alternatives: amphibians, reptiles and birds evolved later (in that order), so none of them are older than fish.",
+        "Exam takeaway: when asked which animal group is the oldest, choose fish (IV) — answer D — because they appear first in the fossil record."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 4,
+      "sourceId": "biology-dr-high-0008",
+      "sourceNumber": 8,
+      "topic": "Cell Biology and Metabolism",
+      "answerLetter": "D",
+      "lines": [
+        "Concept: this question tests which organisms lack a true (membrane‑bound) nucleus—distinguishing acellular, prokaryotic, and eukaryotic organization.",
+        "Answer D: viruses is correct because viruses are acellular particles made of genetic material and a protein coat and therefore have no true nucleus.",
+        "Rejecting the closest alternative: monera (B) are prokaryotic cells with a nucleoid region but still cellular, so they lack a membrane‑bound nucleus but are not acellular like viruses.",
+        "Exam takeaway: when asked ‘devoid of true nuclei’ choose viruses (acellular); remember prokaryotes have a nucleoid and algae/fungi are eukaryotes with true nuclei."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 5,
+      "sourceId": "biology-dr-high-0012",
+      "sourceNumber": 12,
+      "topic": "Plant Biology",
+      "answerLetter": "A",
+      "lines": [
+        "Concept: the question tests transport direction in vascular tissues—xylem moves water/minerals upward and phloem moves food downward/outward as shown by arrows III and IV.",
+        "Why A is correct: arrow III indicates upward xylem flow (water and minerals) and arrow IV indicates downward/outward phloem flow (food), so III and IV match the tissues.",
+        "Reject the nearest alternative: any option that replaces IV with I (for example D) is incorrect because I does not show the downward/outward food transport depicted by arrow IV.",
+        "Exam takeaway: choose A (III and IV) whenever the diagram shows upward movement in xylem and downward/outward movement in phloem."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 6,
+      "sourceId": "biology-dr-high-0013",
+      "sourceNumber": 13,
+      "topic": "Plant Biology",
+      "answerLetter": "D",
+      "lines": [
+        "Concept: Arrow II indicates a gas being released from the leaf during photosynthesis.",
+        "Why D is correct: Option D (release of oxygen as a by‑product) matches because oxygen is produced by photolysis—the splitting of water—and exits the leaf where Arrow II points.",
+        "Reject the closest alternative: Not C — carbon(IV) oxide is taken into the leaf for the light‑independent stage rather than being released; A and B are also wrong because mineral salts don’t exit as that gas and sunlight is absorbed into the leaf, not shown as an outward gas arrow.",
+        "Exam takeaway: When an arrow points out of a leaf in a photosynthesis diagram, choose oxygen release (D) and remember oxygen comes from water splitting during the light stage."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 7,
+      "sourceId": "biology-dr-high-0015",
+      "sourceNumber": 15,
+      "topic": "Nutrition and Digestion",
+      "answerLetter": "C",
+      "lines": [
+        "Holozoic nutrition means ingesting and digesting solid food, which is the concept tested here.",
+        "Sundew and bladderwort trap and digest insects, so their feeding is correctly described as holozoic.",
+        "Do not confuse this with autotrophy: although these plants photosynthesise, their insect‑eating habit is still classified as holozoic, not just autotrophic.",
+        "Exam takeaway: the correct answer is C (holozoic) — carnivorous plants are holozoic feeders even though they are also photosynthetic."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 8,
+      "sourceId": "biology-dr-high-0017",
+      "sourceNumber": 17,
+      "topic": "Blood and Circulation",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: this question targets the vessels that carry and distribute pumped blood in the circulatory system, with arteries (C) as the keyed structure.",
+        "Why C is correct: arteries carry blood away from the heart under high pressure and are thick‑walled and muscular so they receive and distribute the pumped blood.",
+        "Reject the closest alternative: although the left ventricle is the heart's main pumping chamber, the keyed answer emphasizes arteries as the structures that conduct the pumped blood through circulation.",
+        "Exam takeaway: read the stem carefully — arteries = high‑pressure vessels carrying blood away from the heart (veins return blood); match the wording to the intended structure."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 9,
+      "sourceId": "biology-dr-high-0018",
+      "sourceNumber": 18,
+      "topic": "Blood and Circulation",
+      "answerLetter": "B",
+      "lines": [
+        "Concept: systemic circulation — the circuit that delivers blood to all body tissues except the lungs.",
+        "Why B is correct: systemic circulation carries oxygenated blood from the left ventricle to body tissues and returns deoxygenated blood to the right atrium.",
+        "Why not the close alternative: pulmonary circulation (and the pulmonary artery) serves only the lungs, so it does not supply the rest of the body.",
+        "Exam takeaway: when asked for circulation to all parts of the body except the lungs, choose systemic circulation (option B)."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 10,
+      "sourceId": "biology-dr-high-0020",
+      "sourceNumber": 20,
+      "topic": "Support and Movement",
+      "answerLetter": "A",
+      "lines": [
+        "The concept tested is the diaphragm, the dome‑shaped sheet of muscle separating the thoracic and abdominal cavities.",
+        "Option A is correct because the diaphragm forms that muscular partition and contracts and relaxes to aid breathing.",
+        "Reject the closest distractor: intercostal muscles (B) are located between the ribs and are not the sheet that separates the two cavities.",
+        "Exam takeaway: whenever a question asks for the muscle separating thoracic and abdominal cavities, select the diaphragm and remember its role in breathing."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 11,
+      "sourceId": "biology-dr-high-0021",
+      "sourceNumber": 21,
+      "topic": "Classification and Diversity",
+      "answerLetter": "B",
+      "lines": [
+        "Concept: sebaceous glands (Answer B) are the skin glands that produce sebum, the oily substance linked to hair lubrication.",
+        "Why B is correct: sebum from sebaceous glands lubricates hair, keeping it flexible, waterproof and preventing drying.",
+        "Rejecting the common alternative: sweat glands (A) produce watery sweat for cooling, not oily sebum, while the granular layer (D) is a skin layer, not a secretory gland.",
+        "Exam takeaway: choose B — sebaceous glands secrete sebum to make hair flexible and water-repellent, whereas sweat glands serve cooling, not lubrication."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 12,
+      "sourceId": "biology-dr-high-0022",
+      "sourceNumber": 22,
+      "topic": "Human Physiology",
+      "answerLetter": "A",
+      "lines": [
+        "Concept: the kidney cortex is the outer region of the kidney containing Bowman's capsules and glomeruli.",
+        "This makes option A (cortex) correct because Bowman's capsules, where ultrafiltration begins, are located in the cortex.",
+        "Do not confuse the cortex with the medulla (option C); the medulla contains loops of Henle and collecting ducts, not Bowman's capsules.",
+        "Exam takeaway: for anatomy questions remember cortex = Bowman's capsules/glomeruli (ultrafiltration), medulla = loops of Henle and collecting ducts, pelvis = central cavity."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 13,
+      "sourceId": "biology-dr-high-0024",
+      "sourceNumber": 24,
+      "topic": "Reproduction",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: sperm production, maturation, transport and storage occur in different male structures — maturation and storage occur in the epididymis.",
+        "Answer C is correct because sperm cells mature and are stored in the coiled epididymis on the testis.",
+        "Do not choose A (vas deferens): the vas deferens only transports sperm from the epididymis and does not store or mature them.",
+        "Exam takeaway: when asked where sperm mature and are stored pick C epididymis; seminiferous tubules produce sperm and the urethra carries urine and semen."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 14,
+      "sourceId": "biology-dr-high-0027",
+      "sourceNumber": 27,
+      "topic": "Excretion and Osmoregulation",
+      "answerLetter": "D",
+      "lines": [
+        "Concept: this item tests recognition of excretory/osmoregulatory structures and which organism groups possess them.",
+        "Why D (IV) is correct: contractile vacuoles occur in protozoa (e.g., Paramecium) and pump out excess water to maintain osmotic balance.",
+        "Reject the closest misconception (III): Malpighian tubules are found in insects, not mammals, so pairing them with mammals is wrong.",
+        "Exam takeaway: memorize key pairings — stomata with land plants, alveoli with mammals, Malpighian tubules with insects, and contractile vacuoles with protozoa."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 15,
+      "sourceId": "biology-dr-high-0028",
+      "sourceNumber": 28,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: A food chain always begins with a producer—organisms like green plants or algae.",
+        "Why C is correct: producers capture solar energy and convert it into chemical energy, so they provide the energy that supports all consumers.",
+        "Rejecting the closest alternative: it is not a consumer or primary consumer (option D), because primary consumers feed on producers and therefore come later in the chain.",
+        "Exam takeaway: on ecology questions choose 'producer' (option C) since producers are the energy source that starts every food chain."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 16,
+      "sourceId": "biology-dr-high-0029",
+      "sourceNumber": 29,
+      "topic": "Plant Biology",
+      "answerLetter": "A",
+      "lines": [
+        "Mycorrhizae are symbiotic fungi that form close associations with plant roots.",
+        "They increase the root’s effective surface area and absorb inorganic ions from the soil (especially phosphorus), so option A is correct.",
+        "Not C: mycorrhizae do not enable plants to utilize atmospheric nitrogen — that is not their primary function.",
+        "Exam takeaway: for questions on mycorrhizae pick the option about enhanced mineral/water uptake (A), not nitrogen fixation or hormone action."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 17,
+      "sourceId": "biology-dr-high-0030",
+      "sourceNumber": 30,
+      "topic": "Human Physiology",
+      "answerLetter": "A",
+      "lines": [
+        "Concept: The barrier between maternal and foetal blood is the placenta (option A).",
+        "Why A is correct: The placenta allows exchange of nutrients and gases while preventing direct mixing of maternal and foetal blood and also secretes hormones that help protect the foetus.",
+        "Reject the closest alternative: Umbilical cord (C) is incorrect because it does not carry out the barrier and exchange functions described for the placenta.",
+        "Exam takeaway: When asked which structure separates maternal and foetal blood or enables exchange without mixing, choose the placenta (A)."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 18,
+      "sourceId": "biology-dr-high-0031",
+      "sourceNumber": 31,
+      "topic": "Human Physiology",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: The question asks which blood component has the greatest affinity for oxygen — Option C, erythrocytes (red blood cells).",
+        "Why C is correct: erythrocytes contain haemoglobin, an iron-containing protein that binds oxygen with high affinity, so they are the primary O2 carriers.",
+        "Reject the closest alternative/misconception: leucocytes are immune cells and thrombocytes are platelets; neither leucocytes nor thrombocytes transport oxygen.",
+        "Exam takeaway: for oxygen-affinity or oxygen-transport questions pick erythrocytes (C) because haemoglobin in red blood cells binds and carries O2, unlike other blood components."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 19,
+      "sourceId": "biology-dr-high-0032",
+      "sourceNumber": 32,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [
+        "Concept: this question tests habitat preference — identifying which organism is chiefly marine.",
+        "Correct answer (C): dogfish is a cartilaginous fish (a shark) that inhabits marine (saltwater) environments.",
+        "Closest distractor rejected: Tilapia are primarily freshwater fish, so B is not mainly marine.",
+        "Exam takeaway: pick species known as marine (e.g., sharks/dogfish) and rule out freshwater or terrestrial options on habitat questions."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    },
+    {
+      "position": 20,
+      "sourceId": "biology-dr-high-0034",
+      "sourceNumber": 34,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [
+        "Concept tested: adaptations of desert animals to extreme heat focus mainly on behavioural strategies like activity timing and sheltering.",
+        "Why option C is correct: I and II are true because many desert animals are nocturnal and burrow to avoid daytime heat and conserve water.",
+        "Reject the closest misconception: III and IV are wrong — desert animals generally do not adjust internal body temperature (many are poikilothermic) and do not have many sweat pores because that would raise water loss.",
+        "Exam takeaway: For desert-heat adaptations, pick behavioural responses (nocturnality and burrowing) rather than physiological traits like many sweat pores or active internal temperature adjustment."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
+    }
+  ],
+  "revalidated": true
+}
