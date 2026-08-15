@@ -258,8 +258,8 @@
 - [x] Deduplicate and structurally audit the Chemistry batch before release
 - [ ] Release only quality-approved Chemistry records and document held records with reasons
 
-- [ ] Reconcile the reported 2,275 versus 3,118 question counts across stored, approved, playable, and UI display paths without changing question data
-- [ ] Explain or correct any intentional quality-gate exclusions in the learner-facing count
+- [x] Reconcile the reported 2,275 versus 3,118 question counts across stored, approved, playable, and UI display paths without changing question data
+- [x] Explain or correct any intentional quality-gate exclusions in the learner-facing count
 
 - [x] Diagnose why the 650 stored Lekki Headmaster questions are not visible or launchable from the current Practice interface
 - [x] Restore the Lekki Headmaster Practice entry without weakening source or quality gates
