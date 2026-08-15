@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-138",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The general molecular formula for the homologous series of alkanes is",
+    "options": [
+      "CnH2n+2",
+      "CnH2n",
+      "CnH2n-2",
+      "CnH2n-6"
+    ],
+    "answerIndex": 0,
+    "explanation": "Alkanes are saturated hydrocarbons with only single C–C and C–H bonds, and each carbon forms four bonds so the hydrogen count follows a fixed pattern.\nIn a chain each internal carbon is bonded to two hydrogens on average and the two terminal carbons add one extra hydrogen each, giving H = 2n + 2.\nExample check: methane n=1 → CH4, ethane n=2 → C2H6, both satisfy H = 2n + 2.\nThus the general formula is CnH2n+2, corresponding to option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-139",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "The main impurity removed during the purification of bauxite in the Bayer process is",
+    "options": [
+      "Silica",
+      "Iron (III) oxide",
+      "Calcium carbonate",
+      "Copper (II) oxide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: the Bayer process uses hot concentrated NaOH to dissolve Al2O3 selectively while leaving insoluble impurities behind.\nKey reasoning: Al2O3 forms soluble aluminate ions (e.g. Al2O3 + 2OH− + 3H2O → 2Al(OH)4−) but Fe2O3 does not dissolve in the caustic solution.\nThe insoluble iron(III) oxide collects as red mud and is removed by filtration/settling during purification.\nTherefore the main impurity removed is iron(III) oxide, corresponding to option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-140",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "What volume does 0.5 moles of carbon (IV) oxide gas occupy at STP? [Molar volume of gas at STP = 22.4 dm3]",
+    "options": [
+      "5.6 dm3",
+      "11.2 dm3",
+      "22.4 dm3",
+      "44.8 dm3"
+    ],
+    "answerIndex": 1,
+    "explanation": "At STP one mole of any gas occupies 22.4 dm3 (molar volume).\nFor 0.5 mol of carbon (IV) oxide, use V = n × molar volume.\nV = 0.5 × 22.4 = 11.2 dm3.\nTherefore the correct option is B: 11.2 dm3.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-142",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Atoms of the same element with the same atomic number but different mass numbers are called",
+    "options": [
+      "Allotropes",
+      "Isomers",
+      "Isotopes",
+      "Isobars"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: The atomic number (Z) identifies an element by its number of protons, while mass number (A) equals protons plus neutrons.\nIf atoms have the same Z but different A, they have the same proton count but different neutron counts.\nVariants of the same element with identical chemical behavior but different masses are called isotopes.\nTherefore the correct choice is C. Isotopes.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-143",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which functional group test confirms the presence of unsaturation in an organic liquid?",
+    "options": [
+      "Action of blue litmus paper",
+      "Addition of bromine water",
+      "Addition of sodium hydrogen trioxocarbonate (IV)",
+      "Action of Fehling's solution"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: unsaturated C=C or C≡C bonds undergo addition reactions with bromine, removing its colour.\nKey reasoning: adding bromine water to an unsaturated liquid gives decolourization as bromine adds across the multiple bond.\nOther listed tests (litmus, NaHCO3, Fehling's) indicate acidity/basicity, carboxylic acids, or aldehydes and do not detect unsaturation.\nTherefore the correct test is B: Addition of bromine water.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-145",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following oxides dissolves in water to form an acidic solution?",
+    "options": [
+      "Na2O",
+      "CaO",
+      "SO3",
+      "MgO"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: Non‑metal oxides are acidic and react with H2O to give acids, whereas metal oxides are basic.\nSO3 + H2O → H2SO4, so SO3 dissolves in water to form sulfuric acid (an acidic solution).\nNa2O, CaO and MgO are basic oxides that produce hydroxides in water (e.g. Na2O + H2O → 2NaOH).\nTherefore the correct option that gives an acidic solution in water is C: SO3.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-146",
+    "subject": "Chemistry",
+    "topic": "Energy changes",
+    "difficulty": "medium",
+    "question": "Which allotrope of phosphorus is spontaneously flammable in air at room temperature?",
+    "options": [
+      "Red phosphorus",
+      "White phosphorus",
+      "Black phosphorus",
+      "Violet phosphorus"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: the allotrope with the least stable molecular structure oxidizes spontaneously in air at room temperature.\nWhite phosphorus is made of strained P4 tetrahedra with relatively weak P–P bonds, so it is far more reactive than red, black, or violet forms.\nBecause of this high reactivity it oxidizes and ignites on contact with air at room temperature without external ignition.\nHence the correct answer is B. White phosphorus.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-147",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The standard enthalpy of neutralization for a reaction between a strong acid and a strong base is approximately",
+    "options": [
+      "-13.7 kJ/mol",
+      "-57.3 kJ/mol",
+      "-100.0 kJ/mol",
+      "+57.3 kJ/mol"
+    ],
+    "answerIndex": 1,
+    "explanation": "Neutralization of a strong acid by a strong base is governed by H+ + OH- → H2O, whose standard enthalpy change is nearly constant.\nThe standard enthalpy for H+ + OH- → H2O is about −57.3 kJ per mole of water formed.\nThis constancy arises because both reactants are fully dissociated and the heat effect is essentially the formation of water.\nTherefore the correct option is B. −57.3 kJ/mol.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-148",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "If doubling the concentration of a reactant quadruples the rate of reaction, the order of reaction with respect to that reactant is",
+    "options": [
+      "zero",
+      "first",
+      "second",
+      "third"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rate law: rate ∝ [A]^n where n is the order with respect to A.\nDoubling [A] changes the rate by a factor 2^n.\nGiven doubling quadruples the rate, 2^n = 4, so n = 2.\nTherefore the order is second (Option C).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-150",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "Which halogen is a dark-red liquid at room temperature and pressure?",
+    "options": [
+      "Fluorine",
+      "Chlorine",
+      "Bromine",
+      "Iodine"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: among halogens, larger atoms have stronger London dispersion forces, raising boiling points and changing physical state at room temperature.\nF2 and Cl2 are gases at room temperature due to weak dispersion forces and low boiling points.\nBr2 has stronger dispersion forces so it is a dark-red liquid at room temperature, while I2 is a solid.\nCorrect answer: C (Bromine).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-152",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Gas evolution is observed when dilute hydrochloric acid is added to calcium trioxocarbonate (IV). The gas evolved turns lime water",
+    "options": [
+      "milky",
+      "blue",
+      "yellow",
+      "red"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: acids react with carbonates to produce carbon dioxide gas, a salt and water.\nReaction: CaCO3 + 2HCl → CaCl2 + CO2↑ + H2O, so CO2 is evolved when dilute HCl is added to calcium trioxocarbonate(IV).\nKey observation: CO2 turns lime water (Ca(OH)2) milky because insoluble CaCO3 precipitates.\nTherefore the gas makes lime water milky, matching option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-153",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "What is the oxidation number of manganese in potassium tetraoxomanganate (VII), KMnO4?",
+    "options": [
+      "+2",
+      "+4",
+      "+6",
+      "+7"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: the sum of oxidation numbers in a neutral compound is zero.\nIn KMnO4, K = +1, each O = −2, and Mn = x.\nEquation: +1 + x + 4(−2) = 0 -> +1 + x − 8 = 0 -> x = +7.\nTherefore the oxidation number of Mn is +7, so option D is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-155",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "A catalyst alters the rate of a chemical reaction by",
+    "options": [
+      "increasing the enthalpy change of the reaction",
+      "lowering the activation energy barrier",
+      "increasing the kinetic energy of reactant particles",
+      "shifting the equilibrium position to favor products"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: a catalyst provides an alternative reaction pathway with a lower activation energy (Ea), increasing the reaction rate.\nKey reasoning: lowering Ea raises the fraction of reactant molecules that can overcome the barrier at a given temperature (Arrhenius), so more collisions produce products.\nCatalysts do not change the overall enthalpy change (ΔH), do not increase the kinetic energy (temperature) of particles, and do not shift the equilibrium position.\nHence option B is correct: lowering the activation energy barrier.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-157",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "What is the complete combustion product of alkanes in excess oxygen?",
+    "options": [
+      "Carbon (II) oxide and water",
+      "Carbon (IV) oxide and water",
+      "Carbon soot and hydrogen",
+      "Carbon (IV) oxide and hydrogen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: complete combustion of a hydrocarbon in excess O2 produces carbon dioxide (carbon (IV) oxide) and water.\nGeneral equation: CnH2n+2 + (3n+1)/2 O2 → n CO2 + (n+1) H2O.\nAll carbon atoms are oxidized to CO2 (carbon (IV) oxide) and hydrogen to H2O when oxygen is in excess.\nTherefore the correct option is B: carbon (IV) oxide and water.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-158",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Electropositivity of alkali metals (Group 1) down the group",
+    "options": [
+      "decreases",
+      "increases",
+      "remains constant",
+      "first increases then decreases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Electropositivity is the tendency to lose electrons and increases when ionization energy decreases.\nDown Group 1 atomic radius and inner shielding increase, reducing effective nuclear attraction on the valence electron.\nThis reduced attraction lowers ionization energy so atoms more readily lose their valence electron.\nTherefore electropositivity increases down the group, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-159",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The organic acid present in household vinegar is",
+    "options": [
+      "Methanoic acid",
+      "Ethanoic acid",
+      "Propanoic acid",
+      "Citric acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: household vinegar is a dilute solution of a simple carboxylic acid used for food and cleaning.\nKey reasoning: methanoic (formic) acid is from ants, propanoic acid is not the main component of vinegar, and citric acid is characteristic of citrus fruits.\nChemical identification: the common name acetic acid corresponds to ethanoic acid, formula CH3COOH.\nTherefore the correct option is B (Ethanoic acid).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-160",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "What is the pH of a solution with a hydrogen ion concentration [H+] of 1 × 10^-5 mol/dm3?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "answerIndex": 1,
+    "explanation": "pH is defined by pH = -log10[H+].\nSubstitute the concentration: pH = -log10(1×10^-5).\nlog10(1×10^-5) = log10 1 + log10 10^-5 = 0 + (−5) = −5, so pH = −(−5) = 5.\nTherefore the pH is 5, which is option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-162",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "Which type of chemical bonding exists between sodium and chlorine atoms in sodium chloride?",
+    "options": [
+      "Polar covalent bond",
+      "Non-polar covalent bond",
+      "Electrovalent (ionic) bond",
+      "Metallic bond"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ionic bonding occurs when a metal transfers electrons to a nonmetal, producing oppositely charged ions held by electrostatic attraction.\nSodium is a metal that loses one electron to form Na+; chlorine is a nonmetal that gains one to form Cl−.\nThe Na+ and Cl− ions attract each other to give an electrovalent (ionic) bond.\nTherefore the correct answer is C: Electrovalent (ionic) bond.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-163",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which nuclear radiation carries zero electrical charge and zero mass?",
+    "options": [
+      "Alpha particle",
+      "Beta particle",
+      "Gamma ray",
+      "Positron"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: nuclear emissions are either particles with mass and charge or photons without rest mass or charge.\nAlpha particles are helium nuclei (massive, charge +2); beta particles are electrons (charge −1); positrons have charge +1.\nGamma rays are high-energy photons (electromagnetic radiation) and thus carry no rest mass and no electric charge.\nTherefore the correct option is C: Gamma ray.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-164",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which functional group identifies an aldehyde?",
+    "options": [
+      "-OH",
+      "-CHO",
+      "-COOH",
+      "-CO-"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: an aldehyde contains a carbonyl (C=O) bonded to at least one hydrogen and is written as -CHO.\nKey reasoning: -OH is an alcohol, -COOH is a carboxylic acid, and -CO- denotes a ketone carbonyl between two carbons (no hydrogen).\nThe defining feature of an aldehyde is the carbonyl group directly attached to a hydrogen, which is -CHO.\nTherefore option B (-CHO) is the correct identification of an aldehyde.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
