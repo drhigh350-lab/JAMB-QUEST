@@ -1,0 +1,20 @@
+{
+  "auditedAt": "2026-08-15T11:00:10.275Z",
+  "modelBankUrl": "http://127.0.0.1:3000/manus-storage/jamb_high_yield_practice_bank_1000_natural_explanations_817e6822.json",
+  "totalQuestions": 1000,
+  "structuralAnswerIntegrityViolations": 0,
+  "flagged": [],
+  "verifiedScope": [
+    "non-empty question text",
+    "exactly four non-empty distinct options",
+    "no answer/explanation spillover in options",
+    "A-D answer index",
+    "answer text matches indexed option"
+  ],
+  "notVerifiedByThisDeterministicAudit": [
+    "factual correctness of each keyed answer",
+    "ambiguity of question wording",
+    "syllabus validity beyond stored metadata"
+  ],
+  "result": "pass"
+}

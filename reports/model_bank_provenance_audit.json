@@ -1,0 +1,48 @@
+{
+  "auditedAt": "2026-08-15T11:00:08.915Z",
+  "originalAsset": "http://127.0.0.1:3000/manus-storage/jamb_high_yield_practice_bank_1000_biology_batches_1_5_759ba726.json",
+  "activeAsset": "http://127.0.0.1:3000/manus-storage/jamb_high_yield_practice_bank_1000_natural_explanations_817e6822.json",
+  "originalMetadata": {
+    "title": "JAMB-Aligned High-Yield Practice Bank",
+    "created_date": "2026-08-13",
+    "question_count": 1000,
+    "format_version": "1.0",
+    "question_type": "multiple_choice",
+    "answer_index_convention": "zero-based: 0=A, 1=B, 2=C, 3=D",
+    "rights_notice": "Original JAMB-aligned practice items; not official JAMB past questions and not copied from past papers.",
+    "source_references": [
+      "https://ibass.jamb.gov.ng/e-syllabus",
+      "https://myschool.ng/classroom/jamb-syllabus/english-language",
+      "https://myschool.ng/classroom/jamb-syllabus/biology",
+      "https://myschool.ng/classroom/jamb-syllabus/chemistry",
+      "https://myschool.ng/classroom/jamb-syllabus/physics"
+    ]
+  },
+  "records": {
+    "total": 1000,
+    "sourceValues": [
+      "Original JAMB-aligned practice item; not an official past question."
+    ],
+    "labelRepaired": 8,
+    "labelRepairedIds": [
+      "BIO-066",
+      "BIO-069",
+      "BIO-073",
+      "BIO-084",
+      "BIO-106",
+      "BIO-108",
+      "BIO-120",
+      "BIO-122"
+    ],
+    "unmodifiedExplanationRecords": 992,
+    "withheldFromActiveAsset": 0,
+    "nonExplanationChanges": []
+  },
+  "classification": {
+    "sourceSet": "Original JAMB-aligned model practice bank",
+    "officialPastQuestionStatus": "not official and not copied from past papers, according to source metadata",
+    "historicAiWritingStatus": "unproven: neither asset metadata nor per-question source fields identify an AI writer or generation run",
+    "learnerContentTreatment": "Eight records received label-only explanation repair; the other 992 explanations were retained unchanged.",
+    "remainingEvidenceNeeded": "A separate answer-correctness review and an owner-approved depth/provenance decision for 838 short explanations remain open."
+  }
+}
