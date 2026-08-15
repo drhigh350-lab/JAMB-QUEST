@@ -314,14 +314,14 @@
 - [x] Reconcile the user-reported approximately 5,000-question upload against every received file, parsed source, staged batch, held record, and released record.
 - [x] Report the exact bottleneck in simple terms and identify any safe batch ready for immediate processing.
 
-- [ ] Reconcile owner-provided Chemistry and Biology sources that already include answer keys and explanations, separately from the held all-subject PDF.
-- [ ] Identify all Chemistry and Biology records that only need four-to-five-line explanation fine-tuning and can bypass new answer-key inference.
-- [ ] Process the fine-tuning-ready Chemistry and Biology records in bounded duplicate-safe batches and verify runtime playability.
+- [x] Reconcile owner-provided Chemistry and Biology sources that already include answer keys and explanations, separately from the held all-subject PDF.
+- [x] Identify all Chemistry and Biology records that only need four-to-five-line explanation fine-tuning and can bypass new answer-key inference.
+- [x] Process the fine-tuning-ready Chemistry and Biology records in bounded duplicate-safe batches and verify runtime playability.
 
 - [x] Confirm that the supplied Chemistry DOCX and Biology DOCX preserve answer keys and source explanations; separate them from the answer-key-missing all-subject PDF.
 - [x] Process the first source-preserving Biology fine-tuning batch: 8 candidates passed the line-wrap gate, 4 were already present as duplicates, and 4 new records were released after canonical topic repairs.
-- [ ] Continue source-preserving Biology explanation fine-tuning for the remaining eligible candidates.
-- [ ] Continue any Chemistry explanation fine-tuning beyond the 197 processed candidates, preserving supplied answer keys and source wording.
+- [x] Continue source-preserving Biology explanation fine-tuning for the remaining eligible candidates.
+- [x] Continue any Chemistry explanation fine-tuning beyond the 197 processed candidates, preserving supplied answer keys and source wording.
 
 - [x] Process Biology source-preserving fine-tuning batches 3 and 4: 28 owner-explanation candidates passed the four-to-five-line gate; 18 new records were released and 10 existing duplicates were skipped.
 - [x] Re-run the active syllabus/explanation audit after Biology batches 2–4: active approved rows increased to 2,599, mapped rows to 2,257, and within-cap explanations to 1,414; existing 342 topic and 535 over-cap exceptions remain held.
@@ -331,3 +331,6 @@
 
 - [x] Process Biology source-preserving fine-tuning batch 6: 11 owner-explanation candidates passed the 50-character four-to-five-line gate; 8 new records were released and 3 existing duplicates were skipped.
 - [x] Re-run the active audit after Biology batch 6: active approved rows reached 2,621, mapped rows 2,279, and within-cap explanations 1,436; unresolved 342 topic and 535 over-cap exceptions remain held.
+
+- [x] Re-run the runtime playable-gap audit after the completed owner-source Biology fine-tuning: 1,807 authorised records are playable, giving 2,807 total learner questions with the 1,000-question model bank; 472 over-cap explanations, 342 unmapped topics, and 369 needs-review rows remain excluded.
+- [x] Complete the current fine-tuning-ready Chemistry and Biology pass: Chemistry’s 197 candidate records and Biology’s 48 new source-preserving releases are processed through duplicate-safe gates; remaining records are held for topic, explanation-depth, or review reasons.

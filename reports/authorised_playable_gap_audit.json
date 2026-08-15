@@ -1,9 +1,9 @@
 {
-  "totalActiveAuthorisedRows": 2950,
-  "playableRows": 1767,
+  "totalActiveAuthorisedRows": 2990,
+  "playableRows": 1807,
   "outcomes": {
     "explanation exceeds five lines": 472,
-    "playable": 1767,
+    "playable": 1807,
     "status:needs_review": 369,
     "unmapped syllabus topic": 342
   },
@@ -134,6 +134,18 @@
     },
     "Owner Biology DOCX · Uniform explanation batch 002": {
       "playable": 4
+    },
+    "Owner Biology DOCX · Uniform explanation batch 003": {
+      "playable": 12
+    },
+    "Owner Biology DOCX · Uniform explanation batch 004": {
+      "playable": 6
+    },
+    "Owner Biology DOCX · Uniform explanation batch 005": {
+      "playable": 14
+    },
+    "Owner Biology DOCX · Uniform explanation batch 006": {
+      "playable": 8
     }
   }
 }
