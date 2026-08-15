@@ -5,16 +5,18 @@ import { describe, expect, it, vi } from "vitest";
 import { QuestionCard } from "../client/src/components/QuestionCard";
 import type { BankQuestion } from "../client/src/game/types";
 
-type LekkiRecord = { externalId: string; subject: "Use of English"; topic: "The Lekki Headmaster"; question: string; options: string[]; answerIndex: number; explanation?: string };
-const payload = JSON.parse(readFileSync("/home/ubuntu/jamb-import-staging/lekki-headmaster-120-keyed-staging.json", "utf8")) as { questions: LekkiRecord[] };
+type LekkiRecord = { externalId: string; subject: "Use of English"; topic: string; question: string; options: string[]; answerIndex: number; explanation?: string };
+const payload = JSON.parse(readFileSync("/home/ubuntu/jamb-import-staging/lekki_owner_chapters_aug15/lekki_owner_chapter_questions.json", "utf8")) as { questions: LekkiRecord[] };
 
-describe("owner-confirmed Lekki Headmaster direct batch", () => {
-  it("contains 109 structurally playable keyed novel questions without requiring explanations", () => {
-    expect(payload.questions).toHaveLength(109);
-    expect(payload.questions.some((record) => record.question.includes("morning assembly at Stardom"))).toBe(true);
+describe("owner chapter-by-chapter Lekki Headmaster direct batch", () => {
+  it("contains 650 structurally playable keyed novel questions across all 13 chapters without requiring explanations", () => {
+    expect(payload.questions).toHaveLength(650);
+    expect(payload.questions.some((record) => record.question.includes("morning assembly begin at Stardom"))).toBe(true);
+    expect(payload.questions.some((record) => record.externalId === "LEKKI-CH13-050")).toBe(true);
+    expect(new Set(payload.questions.map((record) => record.topic)).size).toBe(13);
     for (const record of payload.questions) {
       expect(record.subject).toBe("Use of English");
-      expect(record.topic).toBe("The Lekki Headmaster");
+      expect(record.topic).toMatch(/^The Lekki Headmaster · Chapter \d+:/);
       expect(record.question.trim().length).toBeGreaterThan(7);
       expect(record.options).toHaveLength(4);
       expect(record.answerIndex).toBeGreaterThanOrEqual(0);
@@ -40,9 +42,9 @@ describe("owner-confirmed Lekki Headmaster direct batch", () => {
       source: "internal",
     };
     const html = renderToStaticMarkup(React.createElement(QuestionCard, { question, index: 0, total: 20, selectedIndex: source.answerIndex, answered: true, answer: { selectedIndex: source.answerIndex, correct: true, timedOut: false }, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
-    expect(html).toContain("morning assembly at Stardom");
+    expect(html).toContain("morning assembly begin at Stardom");
     expect(html).toContain("The Lekki Headmaster");
     expect(html).not.toContain("Verification pending");
-    expect(html).not.toContain("Owner-confirmed curated question batch");
+    expect(html).not.toContain("Owner chapter-by-chapter batch");
   });
 });

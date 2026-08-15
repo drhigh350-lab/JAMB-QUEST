@@ -69,7 +69,7 @@ export function selectQuestions(
   }
   const subjectQuestions = questions.filter((question) => question.subject === subject);
   const source = filters?.topic
-      ? subjectQuestions.filter((question) => question.topic === filters.topic)
+      ? subjectQuestions.filter((question) => question.topic === filters.topic || (filters.topic === "The Lekki Headmaster" && question.topic.startsWith("The Lekki Headmaster · Chapter")))
       : mode === "review"
         ? subjectQuestions.filter((question) => wrongIds.includes(question.id))
         : subjectQuestions;

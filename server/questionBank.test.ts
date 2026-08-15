@@ -22,4 +22,13 @@ describe("learner-facing topic normalization", () => {
     expect(selected).toHaveLength(20);
     expect(selected.every((question) => question.subject === "Chemistry" && question.topic === "Gas Laws and Diffusion")).toBe(true);
   });
+
+  it("launches a mixed 20-question Lekki drill across chapter-labelled novel topics only", () => {
+    const chapterOne = Array.from({ length: 12 }, (_, index) => ({ id: `lekki-one-${index}`, subject: "Use of English" as const, topic: "The Lekki Headmaster · Chapter 1: Dusk", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Chapter one question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
+    const chapterTwo = Array.from({ length: 12 }, (_, index) => ({ ...chapterOne[index], id: `lekki-two-${index}`, topic: "The Lekki Headmaster · Chapter 2: The Enticement", question: `Chapter two question ${index}` }));
+    const distractor = { ...chapterOne[0], id: "english-other", topic: "African Prose" };
+    const selected = selectQuestions([...chapterOne, ...chapterTwo, distractor], "Use of English", "sprint", 20, [], { topic: "The Lekki Headmaster" });
+    expect(selected).toHaveLength(20);
+    expect(selected.every((question) => question.subject === "Use of English" && question.topic.startsWith("The Lekki Headmaster · Chapter"))).toBe(true);
+  });
 });

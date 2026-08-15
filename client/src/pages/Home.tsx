@@ -77,7 +77,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const [profileOpen, setProfileOpen] = useState(() => typeof window !== "undefined" && new URLSearchParams(window.location.search).get("profile") === "open");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject).map((item) => item.topic).sort((left, right) => left.localeCompare(right));
-  const hasLekkiPractice = availableTopics.some((item) => item.subject === "Use of English" && item.topic === "The Lekki Headmaster");
+  const hasLekkiPractice = availableTopics.some((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster"));
   const selectedState = comeback ?? guestComeback();
   const dailyMission = selectDailyMission({ weakTopics, fallbackSubject: selectedSubject, wrongIds: progress.wrongIds, recoveryPending: selectedState.recoveryPending });
   const roundAnalytics = summariseRoundAnalytics(examHistory);
