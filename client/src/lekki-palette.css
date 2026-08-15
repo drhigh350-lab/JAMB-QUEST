@@ -1,0 +1,172 @@
+.compact-subject.subject-lekki {
+  color: var(--ink);
+  background: linear-gradient(135deg, #f4a72c, #ffd26e);
+  border-color: var(--maize);
+}
+
+.compact-subject.subject-lekki.active {
+  color: var(--chalk);
+  background: var(--ink);
+  border-color: var(--ink);
+  box-shadow: inset 0 -3px 0 var(--maize);
+}
+
+.compact-lekki-desk {
+  display: grid;
+  gap: 11px;
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 4px solid var(--maize);
+  background: linear-gradient(135deg, rgba(244, 167, 44, .14), rgba(18, 40, 63, .04));
+}
+
+.compact-lekki-heading {
+  display: grid;
+  gap: 3px;
+}
+
+.compact-lekki-heading span {
+  color: var(--ink);
+  font: 800 10px "Space Grotesk", sans-serif;
+  letter-spacing: .1em;
+}
+
+.compact-lekki-heading small {
+  color: rgba(18, 40, 63, .64);
+  font-size: 10px;
+}
+
+.compact-lekki-actions {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr auto;
+  gap: 8px;
+  align-items: end;
+}
+
+.compact-lekki-actions .button {
+  min-height: 42px;
+  justify-content: center;
+  padding-inline: 10px;
+  font-size: 10px;
+}
+
+.compact-topic-groups {
+  display: grid;
+  gap: 6px;
+}
+
+.compact-topic-groups button {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 2px 8px;
+  width: 100%;
+  padding: 10px;
+  color: var(--ink);
+  text-align: left;
+  background: rgba(255, 252, 245, .62);
+  border: 1px solid rgba(18, 40, 63, .14);
+  cursor: pointer;
+  transition: transform 160ms var(--ease-out, ease-out), background 160ms var(--ease-out, ease-out), border-color 160ms var(--ease-out, ease-out);
+}
+
+.compact-topic-groups button b {
+  font: 800 10px "Space Grotesk", sans-serif;
+}
+
+.compact-topic-groups button small {
+  color: rgba(18, 40, 63, .62);
+  font-size: 9px;
+}
+
+.compact-topic-groups button svg {
+  grid-row: 1 / span 2;
+  grid-column: 2;
+  align-self: center;
+}
+
+.compact-topic-groups button:hover,
+.compact-topic-groups button.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--chalk);
+  transform: translateX(2px);
+}
+
+.compact-topic-groups button.active small,
+.compact-topic-groups button:hover small {
+  color: rgba(255, 252, 245, .72);
+}
+
+.compact-topic-select > span:not(.sr-only) {
+  display: block;
+  margin-bottom: 5px;
+  color: rgba(18, 40, 63, .64);
+  font: 700 9px "Space Grotesk", sans-serif;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 680px) {
+  .compact-lekki-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .compact-lekki-actions .button {
+    width: 100%;
+  }
+}
+
+.live-writing {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 38rem;
+  margin-top: 12px;
+  color: rgba(18, 40, 63, .72);
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.live-writing i {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 99px;
+  background: var(--leaf);
+  box-shadow: 0 0 0 0 rgba(42, 129, 94, .42);
+}
+
+.live-writing b {
+  color: var(--ink);
+  font: 800 9px "Space Grotesk", sans-serif;
+  letter-spacing: .08em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .live-writing i {
+    animation: desk-signal 2.4s cubic-bezier(.23, 1, .32, 1) infinite;
+  }
+
+  .compact-subject.subject-lekki.active svg {
+    animation: lekki-book-glint 1.2s cubic-bezier(.23, 1, .32, 1) both;
+  }
+}
+
+@keyframes desk-signal {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(42, 129, 94, .42); }
+  50% { box-shadow: 0 0 0 7px rgba(42, 129, 94, 0); }
+}
+
+@keyframes lekki-book-glint {
+  0% { transform: rotate(-8deg) scale(.94); opacity: .55; }
+  60% { transform: rotate(3deg) scale(1.08); opacity: 1; }
+  100% { transform: rotate(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compact-topic-groups button {
+    transition: none;
+  }
+}

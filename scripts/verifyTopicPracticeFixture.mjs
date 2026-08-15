@@ -10,6 +10,7 @@ try {
   const panel = page.locator(".compact-panel-maize");
   await panel.waitFor({ state: "visible", timeout: 30_000 });
   await panel.evaluate((element) => { element.open = true; });
+  await panel.locator(".compact-topic-groups button").first().click();
   const select = panel.locator("select");
   await page.waitForFunction(() => document.querySelectorAll(".compact-panel-maize select option").length > 1, undefined, { timeout: 30_000 });
   const topic = await select.locator("option").nth(1).textContent();

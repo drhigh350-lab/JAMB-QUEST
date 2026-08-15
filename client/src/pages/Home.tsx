@@ -1,6 +1,6 @@
 /* JAMB Quest: compact study desk. The daily action remains visible; supporting tools live in focused, tappable groups. */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { startLogin } from "@/const";
 import { ArrowRight, Atom, Award, BellOff, BellRing, BookmarkCheck, BookOpen, CalendarCheck2, CheckCircle2, CircleHelp, CircleUserRound, Clock3, Download, Flame, FlaskConical, Leaf, ListChecks, LogIn, Medal, RotateCcw, Send, ShieldCheck, Sparkles, Target, Trophy, Wifi, WifiOff, Zap } from "lucide-react";
 import { ProfilePanel } from "@/components/ProfilePanel";
@@ -8,6 +8,7 @@ import { DailyMissionPanel } from "@/components/DailyMissionPanel";
 import { ProgressSignals } from "@/components/ProgressSignals";
 import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics } from "@/game/dailyMission";
 import type { RoundConfig, RoundSubject, StoredProgress, Subject } from "@/game/types";
+import "../lekki-palette.css";
 
 const subjects: Array<{ name: Subject; short: string; note: string; icon: typeof BookOpen; tint: string }> = [
   { name: "Use of English", short: "ENG", note: "Lexis, structure & oral forms", icon: BookOpen, tint: "subject-english" },
@@ -25,6 +26,7 @@ const badgeDefinitions = [
 ];
 
 type AppTab = "practice" | "progress" | "profile" | "about";
+type StudyPalette = Subject | "Lekki";
 type ComebackState = {
   dailyMinimum: number; currentStreak: number; longestStreak: number; comebackXp: number; level: number; recoveryPending: boolean; consistencyScore: number;
   today: { dateKey: string; questionsAnswered: number; correctCount: number; completedMinimum: boolean; xpEarned: number };
@@ -53,6 +55,33 @@ function guestComeback() {
   return { dailyMinimum: 10, currentStreak: 0, longestStreak: 0, comebackXp: 0, level: 1, recoveryPending: false, consistencyScore: 0, today: { dateKey: "today", questionsAnswered: 0, correctCount: 0, completedMinimum: false, xpEarned: 0 }, activity: [], badges: [] } satisfies ComebackState;
 }
 
+function broadTopicGroup(subject: Subject, topic: string) {
+  const value = topic.toLocaleLowerCase();
+  if (subject === "Biology") {
+    if (/cell|nutrition|respiration|circulation|excretion|nervous|hormone|reproduction|health|disease/.test(value)) return "Life processes & health";
+    if (/ecology|environment|cycle|population|adaptation|conservation/.test(value)) return "Ecology & survival";
+    if (/genetic|evolution|inheritance|variation|chromosome/.test(value)) return "Genetics & continuity";
+    if (/classification|microorganism|bacter|fung|protist|plant|animal/.test(value)) return "Diversity & classification";
+    return "Living systems";
+  }
+  if (subject === "Chemistry") {
+    if (/atomic|periodic|bond|structure|element/.test(value)) return "Atoms, bonding & periodicity";
+    if (/mole|gas|equation|reaction|acid|base|salt|electrolysis|redox/.test(value)) return "Reactions & calculations";
+    if (/organic|hydrocarbon|polymer|petroleum/.test(value)) return "Organic & industrial chemistry";
+    return "Matter, energy & practical chemistry";
+  }
+  if (subject === "Physics") {
+    if (/motion|force|mechanic|equilibrium|projectile|work|energy|machine/.test(value)) return "Mechanics & energy";
+    if (/wave|sound|light|optic|lens/.test(value)) return "Waves, sound & optics";
+    if (/electric|magnet|circuit|current|resistance/.test(value)) return "Electricity & magnetism";
+    return "Heat, matter & modern physics";
+  }
+  if (/comprehension|prose|poetry|drama|literature|passage/.test(value)) return "Reading & literature";
+  if (/oral|phonetic|stress|intonation|vowel|consonant/.test(value)) return "Oral English";
+  if (/grammar|structure|lexis|register|idiom|meaning|word/.test(value)) return "Language use & expression";
+  return "English skills";
+}
+
 function CompactPanel({ eyebrow, title, note, defaultOpen = false, children, tone = "paper" }: { eyebrow: string; title: string; note: string; defaultOpen?: boolean; children: React.ReactNode; tone?: "paper" | "ink" | "maize" }) {
   return <details className={`compact-panel compact-panel-${tone}`} open={defaultOpen}>
     <summary>
@@ -70,14 +99,25 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
   });
   const [selectedSubject, setSelectedSubject] = useState<Subject>("Biology");
+  const [selectedPalette, setSelectedPalette] = useState<StudyPalette>("Biology");
   const [mode, setMode] = useState<"sprint" | "cbt" | "review">("sprint");
   const [count, setCount] = useState(10);
   const [selectedTopic, setSelectedTopic] = useState("");
+  const [selectedTopicGroup, setSelectedTopicGroup] = useState("");
+  const [selectedLekkiChapter, setSelectedLekkiChapter] = useState("");
   const [examReadiness, setExamReadiness] = useState({ device: false, focus: false, plan: false });
   const [profileOpen, setProfileOpen] = useState(() => typeof window !== "undefined" && new URLSearchParams(window.location.search).get("profile") === "open");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
-  const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject).map((item) => item.topic).sort((left, right) => left.localeCompare(right));
+  const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic).sort((left, right) => left.localeCompare(right));
   const hasLekkiPractice = availableTopics.some((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster"));
+  const isLekkiPalette = selectedPalette === "Lekki";
+  const topicGroups = Object.entries(selectableTopics.reduce<Record<string, string[]>>((groups, topic) => {
+    const group = broadTopicGroup(selectedSubject, topic);
+    groups[group] = [...(groups[group] ?? []), topic];
+    return groups;
+  }, {})).sort(([left], [right]) => left.localeCompare(right));
+  const selectedGroupTopics = topicGroups.find(([group]) => group === selectedTopicGroup)?.[1] ?? [];
+  const lekkiChapters = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster · Chapter")).map((item) => item.topic).sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
   const selectedState = comeback ?? guestComeback();
   const dailyMission = selectDailyMission({ weakTopics, fallbackSubject: selectedSubject, wrongIds: progress.wrongIds, recoveryPending: selectedState.recoveryPending });
   const roundAnalytics = summariseRoundAnalytics(examHistory);
@@ -85,6 +125,17 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const progressNextAction = selectProgressNextAction({ accuracy: overallAccuracy, averageSecondsPerQuestion: roundAnalytics.averageSecondsPerQuestion, fallback: dailyMission.note });
   const dailyPercent = Math.min(100, Math.round((selectedState.today.questionsAnswered / selectedState.dailyMinimum) * 100));
   const targetLabel = auth.isAuthenticated ? `${auth.targetScore}` : "your goal";
+  const liveMessages = [
+    selectedState.today.completedMinimum ? "Today’s minimum is complete. Protect the streak with one more deliberate round." : `${selectedState.dailyMinimum - Math.min(selectedState.dailyMinimum, selectedState.today.questionsAnswered)} marks remain in today’s system.`,
+    weakTopics[0] ? `Live focus: ${weakTopics[0].topic} is ready for a repair drill.` : "Live focus: finish your diagnostic to reveal the first weak topic.",
+    `Study desk ready: ${questionCount.toLocaleString()} questions are available now.`,
+  ];
+  const [liveMessageIndex, setLiveMessageIndex] = useState(0);
+  useEffect(() => {
+    const timer = window.setInterval(() => setLiveMessageIndex((current) => (current + 1) % liveMessages.length), 4200);
+    return () => window.clearInterval(timer);
+  }, [liveMessages.length]);
+  const liveMessage = liveMessages[liveMessageIndex % liveMessages.length];
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
     { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
@@ -97,6 +148,8 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const isStudySubject = (subject: string): subject is Subject => subjects.some((item) => item.name === subject);
   const startTopicDrill = (topic: { subject?: string | null; topic: string }) => { if (topic.subject && isStudySubject(topic.subject)) onStart({ subject: topic.subject, mode: "sprint", count: 20, timing: "study", topic: topic.topic }); };
   const startSelectedTopicDrill = () => { if (selectedTopic) onStart({ subject: selectedSubject, mode: "sprint", count: 20, timing: "study", topic: selectedTopic }); };
+  const startLekkiRandom = () => onStart({ subject: "Use of English", mode: "sprint", count: 20, timing: "study", topic: "The Lekki Headmaster" });
+  const startLekkiChapter = () => { if (selectedLekkiChapter) onStart({ subject: "Use of English", mode: "sprint", count: 20, timing: "study", topic: selectedLekkiChapter }); };
   const openBookmark = (bookmark: { questionId: string; subject: string; topic: string }) => { if (isStudySubject(bookmark.subject)) onStart({ subject: bookmark.subject, mode: "sprint", count: 1, timing: "study", questionIds: [bookmark.questionId], recoveryOrigin: "saved-question" }); };
   const openMissedQuestions = (questionIds: string[], subject: string) => { if (questionIds.length) { const roundSubject: RoundSubject = subject === "Full JAMB Mock" || isStudySubject(subject) ? subject : "Full JAMB Mock"; onStart({ subject: roundSubject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); } };
   const revisionSteps = [
@@ -117,7 +170,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     {loadError && <div className="load-error page-shell"><span>{loadError}</span><button className="text-button" onClick={onRetryLoad}>Try again <ArrowRight size={14} /></button></div>}
 
     <section className="tab-hero page-shell compact-hero">
-      <div><span className="eyebrow">{activeTab === "practice" ? "COMEBACK FROM SETBACK" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward <em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "One mission first. Everything else stays ready inside a focused study desk." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you one focused question bank for practice, correction, and targeted improvement."}</p></div>
+      <div><span className="eyebrow">{activeTab === "practice" ? "COMEBACK FROM SETBACK" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward <em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "One mission first. Everything else stays ready inside a focused study desk." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you one focused question bank for practice, correction, and targeted improvement."}</p>{activeTab === "practice" && <span className="live-writing" role="status" aria-live="polite"><i aria-hidden="true" /><b>LIVE DESK</b> {liveMessage}</span>}</div>
       <div className="tab-hero-stats"><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day system</span></div><div><strong>{progress.roundsPlayed}</strong><span>rounds</span></div></div>
     </section>
 
@@ -131,18 +184,14 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
             {auth.isAuthenticated && <div className="compact-minimum"><span>Daily minimum</span>{[5, 10, 20].map((value) => <button key={value} className={selectedState.dailyMinimum === value ? "active" : ""} onClick={() => onUpdateDailyMinimum(value)}>{value}</button>)}</div>}
           </CompactPanel>
 
-          <CompactPanel eyebrow="02 / PRACTICE" title="Start a focused round" note={`${selected.short} selected · ${mode === "cbt" ? "timed CBT" : mode === "review" ? "recovery" : "untimed study"}`} defaultOpen tone="paper">
-            <div className="compact-subject-grid">{subjects.map((subject) => { const Icon = subject.icon; const active = subject.name === selectedSubject; return <button key={subject.name} className={`compact-subject ${subject.tint} ${active ? "active" : ""}`} onClick={() => { setSelectedSubject(subject.name); setSelectedTopic(""); }}><Icon size={17} /><span><b>{subject.short}</b><small>{subject.name}</small></span></button>; })}</div>
-            <div className="compact-mode-tabs"><button className={mode === "sprint" ? "active" : ""} onClick={() => setMode("sprint")}><Zap size={15} /> Study</button><button className={mode === "cbt" ? "active" : ""} onClick={() => setMode("cbt")}><Clock3 size={15} /> CBT</button><button className={`${mode === "review" ? "active" : ""} ${!canReview ? "disabled" : ""}`} onClick={() => canReview && setMode("review")}><ListChecks size={15} /> Review</button></div>
-            <div className="compact-count-row"><span>Question count</span><div>{(mode === "cbt" ? [20, 40, 80] : [10, 20, 40]).map((value) => <button key={value} className={count === value ? "active" : ""} onClick={() => setCount(value)}>{value}</button>)}</div></div>
-            {resumableCbt && <div className="compact-resume"><span>CBT saved at question {resumableCbt.currentIndex + 1}</span><button className="text-button" onClick={onResumeCbt}>Resume <ArrowRight size={13} /></button><button className="text-button" onClick={onDiscardResumableCbt}>Discard</button></div>}
-            {mode === "cbt" && <div className="compact-full-mock"><span>180-question full UTME mock</span><div className="compact-checks">{([{ key: "device", label: "Charged" }, { key: "focus", label: "Quiet time" }, { key: "plan", label: "Review misses" }] as const).map((item) => <label key={item.key}><input type="checkbox" checked={examReadiness[item.key]} onChange={() => setExamReadiness((current) => ({ ...current, [item.key]: !current[item.key] }))} /> {item.label}</label>)}</div><button className="button button-outline" onClick={startFullMock} disabled={loading || !!loadError || !fullMockReady}><Trophy size={15} /> {fullMockReady ? "Start full mock" : "Complete checks"}</button></div>}
-            <button className="button button-dark compact-start" onClick={start} disabled={loading || !!loadError || (mode === "review" && !canReview)}>{mode === "review" ? "Open recovery set" : mode === "sprint" ? `Start ${selected.short} study` : `Start ${selected.short} CBT`} <ArrowRight size={17} /></button>
+          <CompactPanel eyebrow="02 / PRACTICE" title="Start a focused round" note={isLekkiPalette ? "Lekki novel · choose a chapter or random 20" : `${selected.short} selected · ${mode === "cbt" ? "timed CBT" : mode === "review" ? "recovery" : "untimed study"}`} defaultOpen tone="paper">
+            <div className="compact-subject-grid">{subjects.map((subject) => { const Icon = subject.icon; const active = selectedPalette === subject.name; return <button key={subject.name} className={`compact-subject ${subject.tint} ${active ? "active" : ""}`} onClick={() => { setSelectedPalette(subject.name); setSelectedSubject(subject.name); setSelectedTopic(""); setSelectedTopicGroup(""); }}><Icon size={17} /><span><b>{subject.short}</b><small>{subject.name}</small></span></button>; })}{hasLekkiPractice && <button data-testid="lekki-palette" className={`compact-subject subject-lekki ${isLekkiPalette ? "active" : ""}`} onClick={() => { setSelectedPalette("Lekki"); setMode("sprint"); setSelectedTopic(""); setSelectedTopicGroup(""); }}><BookOpen size={17} /><span><b>LEK</b><small>Lekki novel</small></span></button>}</div>
+            {isLekkiPalette ? <div className="compact-lekki-desk"><div className="compact-lekki-heading"><span>THE LEKKI HEADMASTER</span><small>650 keyed questions across 13 chapters</small></div><div className="compact-lekki-actions"><button data-testid="lekki-random-start" className="button button-dark" onClick={startLekkiRandom} disabled={loading || !!loadError}><Sparkles size={15} /> Random 20 <ArrowRight size={15} /></button><label className="compact-topic-select"><span>Chapter selection</span><select value={selectedLekkiChapter} onChange={(event) => setSelectedLekkiChapter(event.target.value)}><option value="">Choose a chapter</option>{lekkiChapters.map((topic) => <option key={topic} value={topic}>{topic.replace("The Lekki Headmaster · ", "")}</option>)}</select></label><button data-testid="lekki-chapter-start" className="button button-outline" onClick={startLekkiChapter} disabled={!selectedLekkiChapter || loading || !!loadError}>Start chapter <ArrowRight size={15} /></button></div></div> : <><div className="compact-mode-tabs"><button className={mode === "sprint" ? "active" : ""} onClick={() => setMode("sprint")}><Zap size={15} /> Study</button><button className={mode === "cbt" ? "active" : ""} onClick={() => setMode("cbt")}><Clock3 size={15} /> CBT</button><button className={`${mode === "review" ? "active" : ""} ${!canReview ? "disabled" : ""}`} onClick={() => canReview && setMode("review")}><ListChecks size={15} /> Review</button></div><div className="compact-count-row"><span>Question count</span><div>{(mode === "cbt" ? [20, 40, 80] : [10, 20, 40]).map((value) => <button key={value} className={count === value ? "active" : ""} onClick={() => setCount(value)}>{value}</button>)}</div></div>{resumableCbt && <div className="compact-resume"><span>CBT saved at question {resumableCbt.currentIndex + 1}</span><button className="text-button" onClick={onResumeCbt}>Resume <ArrowRight size={13} /></button><button className="text-button" onClick={onDiscardResumableCbt}>Discard</button></div>}{mode === "cbt" && <div className="compact-full-mock"><span>180-question full UTME mock</span><div className="compact-checks">{([{ key: "device", label: "Charged" }, { key: "focus", label: "Quiet time" }, { key: "plan", label: "Review misses" }] as const).map((item) => <label key={item.key}><input type="checkbox" checked={examReadiness[item.key]} onChange={() => setExamReadiness((current) => ({ ...current, [item.key]: !current[item.key] }))} /> {item.label}</label>)}</div><button className="button button-outline" onClick={startFullMock} disabled={loading || !!loadError || !fullMockReady}><Trophy size={15} /> {fullMockReady ? "Start full mock" : "Complete checks"}</button></div>}<button className="button button-dark compact-start" onClick={start} disabled={loading || !!loadError || (mode === "review" && !canReview)}>{mode === "review" ? "Open recovery set" : mode === "sprint" ? `Start ${selected.short} study` : `Start ${selected.short} CBT`} <ArrowRight size={17} /></button></>}
           </CompactPanel>
 
-          <CompactPanel eyebrow="03 / TOPIC" title={hasLekkiPractice ? "Topics + Lekki novel" : "Practise one verified topic"} note={hasLekkiPractice ? "Find the novel set or open an exact 20-question drill" : "Open an exact untimed 20-question drill"} tone="maize">
-            {hasLekkiPractice && <button className="compact-novel-launch" onClick={() => onStart({ subject: "Use of English", mode: "sprint", count: 20, timing: "study", topic: "The Lekki Headmaster" })}><BookOpen size={16} /><span><b>The Lekki Headmaster</b><small>Start a 20-question novel focus</small></span><ArrowRight size={16} /></button>}
-            <label className="compact-topic-select"><span className="sr-only">Choose a {selected.name} topic</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose a {selected.name} topic</option>{selectableTopics.map((topic) => <option key={topic} value={topic}>{topic}</option>)}</select></label>
+          <CompactPanel eyebrow="03 / TOPIC" title="Study by broad area" note="Choose a larger area first; exact drills appear only when useful" tone="maize">
+            <div className="compact-topic-groups" role="list" aria-label={`${selected.name} study areas`}>{topicGroups.map(([group, topics]) => <button role="listitem" key={group} className={selectedTopicGroup === group ? "active" : ""} onClick={() => { setSelectedTopicGroup(group); setSelectedTopic(""); }}><b>{group}</b><small>{topics.length} focused topics</small><ArrowRight size={13} /></button>)}</div>
+            {selectedTopicGroup && <label className="compact-topic-select"><span>Exact drill in {selectedTopicGroup}</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose an exact topic only if you need it</option>{selectedGroupTopics.map((topic) => <option key={topic} value={topic}>{topic}</option>)}</select></label>}
             <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopic || loading || !!loadError}>Start topic drill <ArrowRight size={16} /></button>
           </CompactPanel>
         </section>
