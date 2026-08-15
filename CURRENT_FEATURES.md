@@ -9,7 +9,7 @@ JAMB Quest is currently focused on one job: **serious JAMB preparation and reali
 | Area | Current capability |
 |---|---|
 | **Installable app** | The app is an installable PWA and works from the website or as an app shortcut. It includes offline caching for the core experience. |
-| **Question bank** | **2,368 playable questions** across Use of English, Biology, Chemistry, and Physics, including the newly supplied trusted Biology, Chemistry, and Physics questions 1–100. Automatic safeguards still block structurally malformed records from learner cards. |
+| **Question bank** | **2,468 playable questions** across Use of English, Biology, Chemistry, and Physics, including the newly supplied trusted 1–100 question batches for all four subjects. Automatic safeguards still block structurally malformed records from learner cards. |
 | **Question experience** | Clean question cards show the subject/topic where it is verified, answer choices, immediate Study-mode correction, and readable explanations. Owner-provided provenance is not shown to learners. |
 | **Study mode and topic practice** | Untimed practice with immediate correction and explanation. Learners can choose 10, 20, or 40 questions by subject, or select a verified syllabus-grounded topic to open an exact 20-question Study drill. |
 | **Single-subject CBT** | Timed CBT practice for any of the four subjects, with 20-, 40-, or 80-question choices. |

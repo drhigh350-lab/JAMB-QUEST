@@ -134,6 +134,11 @@ for (const rawLine of text.split(/\r?\n/)) {
     collectingBullets = false;
     continue;
   }
+  if (inline.length && current.options.length + inline.length <= 4) {
+    current.options.push(...inline.map(clean));
+    collectingBullets = current.options.length < 4;
+    continue;
+  }
   const option = optionMatch(line);
   if (option && (collectingBullets || current.options.length < 4)) {
     current.options.push(clean(option[2]));
