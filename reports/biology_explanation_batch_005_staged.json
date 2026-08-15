@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "biology-dr-high-0049",
+    "subject": "Biology",
+    "topic": "Excretion and Osmoregulation",
+    "difficulty": "medium",
+    "question": "Which organ removes the largest amount of excess water from the body?",
+    "options": [
+      "A. Liver",
+      "B. Lung",
+      "C. Kidney",
+      "D. Skin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The kidneys remove the most water through urine production.\nLungs lose water vapour, skin loses water as sweat, and the\nliver does not excrete water. The kidneys also regulate\nelectrolyte balance.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0054",
+    "subject": "Biology",
+    "topic": "Evolution and classification",
+    "difficulty": "medium",
+    "question": "The earliest form of life in animal kingdom is the class",
+    "options": [
+      "A. amphibia",
+      "B. aves",
+      "C. pisces",
+      "D. reptilia"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pisces (fish) are the most primitive vertebrates, evolving\nfirst. Amphibians, reptiles, and birds evolved later from\nfish ancestors. Fish are adapted for aquatic life with gills\nand fins.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0065",
+    "subject": "Biology",
+    "topic": "Coordination and control",
+    "difficulty": "medium",
+    "question": "Which of the following hormonal glands is located on top of the kidney?",
+    "options": [
+      "A. Adrenal",
+      "B. Pituitary",
+      "C. Thyroid",
+      "D. Pancreas"
+    ],
+    "answerIndex": 0,
+    "explanation": "The adrenal glands sit atop each kidney. The pituitary is at\nthe base of the brain, thyroid is in the neck, and pancreas\nis near the stomach. Adrenals secrete adrenaline and\ncortisol.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0066",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "One of these is present in both plant and animal cell?",
+    "options": [
+      "A. Cell membrane",
+      "B. Cell wall",
+      "C. Chloroplast",
+      "D. Large cell vacuole"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both plant and animal cells have a cell membrane. Cell\nwalls, chloroplasts, and large vacuoles are found only in\nplant cells. The cell membrane controls what enters and\nleaves the cell.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0067",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "When the solute concentration of the cell and its surrounding medium are the same, the solution is said to be",
+    "options": [
+      "A. hypertonic",
+      "B. hypotonic",
+      "C. isotonic",
+      "D. none of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "An isotonic solution has equal solute concentrations inside\nand outside the cell, causing no net water movement.\nHypertonic has higher solute outside, hypotonic has lower\nsolute outside.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0072",
+    "subject": "Biology",
+    "topic": "Cell Biology and Metabolism",
+    "difficulty": "medium",
+    "question": "Which of the following reagent is used for testing the presence of protein in food?",
+    "options": [
+      "A. Benedict solution",
+      "B. Fehling's Solution",
+      "C. Millon's reagent",
+      "D. Sudan III"
+    ],
+    "answerIndex": 2,
+    "explanation": "Millon's reagent tests for proteins, producing a red\nprecipitate. Benedict's and Fehling's test for reducing\nsugars, and Sudan III tests for lipids. Biuret reagent is\nanother protein test.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0075",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The following disturbs the balance in an ecosystem except",
+    "options": [
+      "A. afforestation",
+      "B. deforestation",
+      "C. migration",
+      "D. pollution"
+    ],
+    "answerIndex": 0,
+    "explanation": "Afforestation (planting trees) helps maintain ecological\nbalance. Deforestation, migration, and pollution disrupt\necosystems. Afforestation reduces erosion and supports\nbiodiversity.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0077",
+    "subject": "Biology",
+    "topic": "Classification and Diversity",
+    "difficulty": "medium",
+    "question": "The following animals is an invertebrate except",
+    "options": [
+      "A. flat worms",
+      "B. round worms",
+      "C. chordate",
+      "D. protozoan"
+    ],
+    "answerIndex": 2,
+    "explanation": "Chordates have a notochord and are vertebrates (or related).\nFlatworms, roundworms, and protozoa are invertebrates.\nChordates include fish, amphibians, reptiles, birds, and\nmammals.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0079",
+    "subject": "Biology",
+    "topic": "Coordination and control",
+    "difficulty": "medium",
+    "question": "The gland that releases hormones into the blood are part of the",
+    "options": [
+      "A. digestive system",
+      "B. endocrine system",
+      "C. circulatory system",
+      "D. respiratory system"
+    ],
+    "answerIndex": 1,
+    "explanation": "Endocrine glands secrete hormones directly into the\nbloodstream. The digestive system breaks down food, the\ncirculatory system transports, and the respiratory system\nexchanges gases.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0080",
+    "subject": "Biology",
+    "topic": "Coordination and control",
+    "difficulty": "medium",
+    "question": "One of the following is called emergency hormone in man.",
+    "options": [
+      "A. Adrenalin",
+      "B. Prolactin",
+      "C. Testosterone",
+      "D. Thyroxine"
+    ],
+    "answerIndex": 0,
+    "explanation": "Adrenalin (epinephrine) is the \"fight or flight\" hormone\nreleased during stress. Prolactin stimulates milk\nproduction, testosterone is a male sex hormone, and\nthyroxine regulates metabolism.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0081",
+    "subject": "Biology",
+    "topic": "Coordination and control",
+    "difficulty": "medium",
+    "question": "Which of these responses is not voluntarily controlled by the brain?",
+    "options": [
+      "A. Dancing",
+      "B. Eating",
+      "C. Sneezing",
+      "D. Writing"
+    ],
+    "answerIndex": 2,
+    "explanation": "Sneezing is an involuntary reflex, controlled by the\nbrainstem and spinal cord. Dancing, eating, and writing are\nvoluntary actions. Reflexes are rapid, automatic responses\nto stimuli.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0082",
+    "subject": "Biology",
+    "topic": "Living Organisms and Organization",
+    "difficulty": "medium",
+    "question": "The scientific study of life is",
+    "options": [
+      "A. Botany",
+      "B. Biology",
+      "C. Zoology",
+      "D. Ecology"
+    ],
+    "answerIndex": 1,
+    "explanation": "Biology is the broad study of life. Botany focuses on\nplants, zoology on animals, and ecology on\norganism‑environment interactions. Biology encompasses all\nliving things.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0085",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "The translucency spot in food test shows the presence of",
+    "options": [
+      "A. fats",
+      "B. starch",
+      "C. water",
+      "D. protein"
+    ],
+    "answerIndex": 0,
+    "explanation": "A translucent or greasy spot on paper indicates lipids\n(fats). Starch is tested with iodine, water leaves a wet\npatch, and proteins are detected with biuret or Millon's\nreagent.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0086",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "The following are examples of oviparous animals except",
+    "options": [
+      "A. crocodile",
+      "B. dove",
+      "C. lizard",
+      "D. rat"
+    ],
+    "answerIndex": 3,
+    "explanation": "Rats are viviparous (give live birth). Crocodiles, doves,\nand lizards are oviparous (lay eggs). Oviparity is common in\nreptiles, birds, and some fish; mammals are mostly\nviviparous.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0043",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "Which of the following is a true feature of plantation II?",
+    "options": [
+      "A. it has the highest number of trees of about 2m high",
+      "B. it has highest number of trees",
+      "C. it has the highest number of tall trees",
+      "D. the height of all its trees range between 2m and 6m"
+    ],
+    "answerIndex": 0,
+    "explanation": "Plantation II has a peak at the 2m height class, meaning the\nhighest number of trees are around that height. Other\nstatements about total number or range are not supported by\nthe diagram.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0045",
+    "subject": "Biology",
+    "topic": "Genetics and Evolution",
+    "difficulty": "medium",
+    "question": "A pair of genes that control a trait is referred to as",
+    "options": [
+      "A. an allele",
+      "B. recessive",
+      "C. dominant",
+      "D. a hybrid"
+    ],
+    "answerIndex": 0,
+    "explanation": "Alleles are alternative forms of a gene that occupy the same\nlocus on homologous chromosomes. Dominant and recessive are\ntypes of alleles, and a hybrid is an individual with\ndifferent alleles.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0099",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Another name for a fertilized egg is a",
+    "options": [
+      "A. placenta",
+      "B. zygote",
+      "C. foetus",
+      "D. ovum"
+    ],
+    "answerIndex": 1,
+    "explanation": "A fertilized egg is called a zygote. The placenta is the\nexchange organ, a foetus is a developing embryo after 8\nweeks, and an ovum is the female gamete. The zygote divides\nto form an embryo.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0103",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "Which of the following is the end product of the digestion of oil?",
+    "options": [
+      "A. glucose",
+      "B. glycerol",
+      "C. amino acid",
+      "D. glycogen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oils (fats) are digested into fatty acids and glycerol.\nGlucose is from carbohydrates, amino acids from proteins,\nand glycogen is a stored carbohydrate. Lipase hydrolyzes\nfats.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0106",
+    "subject": "Biology",
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "De‑oxygenated blood is transported to the lungs through the",
+    "options": [
+      "A. renal vein",
+      "B. hepatic portal vein",
+      "C. pulmonary artery",
+      "D. pulmonary vein"
+    ],
+    "answerIndex": 2,
+    "explanation": "The pulmonary artery carries deoxygenated blood from the\nheart to the lungs. The pulmonary vein carries oxygenated\nblood back. The renal vein and hepatic portal vein serve\nother organs.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0115",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "The enzyme that breaks down starch in the mouth is",
+    "options": [
+      "A. pepsin",
+      "B. trypsin",
+      "C. amylase",
+      "D. lipase"
+    ],
+    "answerIndex": 2,
+    "explanation": "Salivary amylase breaks down starch into maltose. Pepsin\nacts on proteins in the stomach, trypsin on proteins in the\nsmall intestine, and lipase on fats. Amylase is specific to\nstarch.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 005",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  }
+]

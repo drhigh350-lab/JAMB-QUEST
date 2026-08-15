@@ -325,3 +325,6 @@
 
 - [x] Process Biology source-preserving fine-tuning batches 3 and 4: 28 owner-explanation candidates passed the four-to-five-line gate; 18 new records were released and 10 existing duplicates were skipped.
 - [x] Re-run the active syllabus/explanation audit after Biology batches 2–4: active approved rows increased to 2,599, mapped rows to 2,257, and within-cap explanations to 1,414; existing 342 topic and 535 over-cap exceptions remain held.
+
+- [x] Process Biology source-preserving fine-tuning batch 5: 20 owner-explanation candidates passed the 60-character four-to-five-line gate; 14 new records were released and 6 existing duplicates were skipped.
+- [x] Re-run the active audit after Biology batch 5: active approved rows reached 2,613, mapped rows 2,271, and within-cap explanations 1,428; unresolved 342 topic and 535 over-cap exceptions remain held.
