@@ -1,0 +1,51 @@
+{
+  "processedCandidateRecords": 197,
+  "batches": 1,
+  "duplicateExternalIds": {
+    "chem-docx-006": 2,
+    "chem-docx-007": 2,
+    "chem-docx-009": 2,
+    "chem-docx-010": 2,
+    "chem-docx-015": 2,
+    "chem-docx-018": 2,
+    "chem-docx-022": 2,
+    "chem-docx-030": 2,
+    "chem-docx-031": 2,
+    "chem-docx-033": 2,
+    "chem-docx-036": 2,
+    "chem-docx-038": 2,
+    "chem-docx-039": 2,
+    "chem-docx-043": 2,
+    "chem-docx-048": 2,
+    "chem-docx-050": 2,
+    "chem-docx-059": 2,
+    "chem-docx-064": 2,
+    "chem-docx-065": 2,
+    "chem-docx-066": 2,
+    "chem-docx-067": 2,
+    "chem-docx-069": 2,
+    "chem-docx-019": 2
+  },
+  "explanationLineCounts": {
+    "4": 196,
+    "5": 1
+  },
+  "topicCounts": {
+    "Acids, bases and salts": 41,
+    "Atomic structure and bonding": 32,
+    "Chemical combination": 11,
+    "Chemical equilibria": 5,
+    "Chemistry and industry": 10,
+    "Electrolysis": 10,
+    "Energy changes": 2,
+    "Kinetic theory of matter and gases": 7,
+    "Metals and their compounds": 13,
+    "Organic compounds": 41,
+    "Oxidation and reduction": 10,
+    "Rates of reaction": 6,
+    "Separation of mixtures": 6,
+    "Solubility": 3
+  },
+  "violationCount": 0,
+  "violations": []
+}

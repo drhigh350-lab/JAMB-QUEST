@@ -1,0 +1,168 @@
+{
+  "batchNumber": 1,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 450056,
+      "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe",
+      "explanation": "The human ear perceives loudness logarithmically.\nPerception depends on ratios of sound intensity, so a multiplicative increase in physical intensity produces a roughly constant perceptual step.\nThe decibel formula dB = 10 log₁₀(I/I₀) turns multiplicative intensity changes into additive dB steps that align with this perception.\nThus a logarithmic scale is used so numeric changes in dB correspond to how our ears actually judge loudness.",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    },
+    {
+      "id": 30001,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cells are the smallest structures that perform all life processes such as metabolism, growth, and reproduction.\nCell theory states organisms are composed of one or more cells and that cells arise from pre-existing cells, making them the fundamental units of life.\nEach cell contains genetic material and carries out the biochemical reactions necessary to maintain and reproduce living systems, so it functions as a complete living unit.\nAnswer: Cell",
+      "lineCount": 4,
+      "wordCount": 69,
+      "status": "ready"
+    },
+    {
+      "id": 30002,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "An onion bulb is a modified underground structure made of fleshy scales, a basal plate and a bud.\nThese parts consist of different tissue types organized together to store food and support vegetative growth.\nBecause multiple tissues are arranged to perform specific functions as a unit, the bulb fits the definition of an organ.\nCorrect answer: Organ",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30003,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Hydra's body is made of many cells organized into two true tissue layers (ectoderm and endoderm) separated by a gelatinous mesoglea.\nThese tissue layers contain specialized cells that work together to perform functions, which matches the definition of the tissue level of organization.\nBecause it has tissues but lacks distinct organs and organ systems, Hydra's highest organizational level is tissues rather than organs.\nTissue level",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    },
+    {
+      "id": 30004,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cellular level of organization means the organism is a single cell that carries out all life processes.\nEuglena is a unicellular eukaryotic protist whose single cell performs nutrition, respiration, excretion, reproduction and movement.\nIts cell contains chloroplasts for photosynthesis and a flagellum for locomotion, showing how one cell conducts multiple functions.\nAnswer: Euglena",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30005,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Mitochondrion\nIts inner membrane is folded into cristae that house the electron transport chain and ATP synthase, enabling oxidative phosphorylation.\nThe mitochondrial matrix contains the Krebs (citric acid) cycle enzymes that produce NADH and FADH2 to supply electrons to the chain.\nTogether these processes convert energy from oxidized organic molecules into most of the cell's ATP during aerobic respiration.",
+      "lineCount": 4,
+      "wordCount": 59,
+      "status": "ready"
+    },
+    {
+      "id": 30006,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Tonoplast\nIt is the membrane that directly surrounds the vacuole in plant cells.\nThe tonoplast contains transport proteins and proton pumps that regulate ions, water and small solutes between vacuole and cytoplasm.\nThis control of vacuolar contents maintains turgor and cellular balance, so \"tonoplast\" specifically denotes the vacuole membrane.",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30007,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Organism → Organ system → Organ → Tissue → Cell\nAn organism is the complete living individual made up of interacting organ systems.\nEach organ system contains multiple organs that work together for key body functions.\nOrgans are built from tissues, and tissues are composed of cells, so complexity decreases toward the cell.",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30008,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Monera\nMembers of Monera, such as bacteria and cyanobacteria, are prokaryotic organisms.\nProkaryotic cells lack a true nucleus and membrane-bound organelles.\nBecause Monera's members show this cell organization, Monera is the prokaryotic kingdom.",
+      "lineCount": 4,
+      "wordCount": 33,
+      "status": "ready"
+    },
+    {
+      "id": 30009,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Kingdom Monera comprises prokaryotic organisms that lack a true nucleus and membrane-bound organelles.\nBacteria are prokaryotes, so their cells do not have a nucleus or internal membrane-bound organelles.\nThey are usually unicellular, have cell walls (commonly containing peptidoglycan) and reproduce asexually by binary fission, fitting Monera criteria.\nAnswer: Bacteria",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready"
+    },
+    {
+      "id": 30010,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Spirogyra — Thallophyta\nSpirogyra is a filamentous green alga with a simple, undifferentiated thallus.\nIt has chloroplasts and lacks true vascular tissue or differentiated roots, stems, and leaves.\nThese features place it among the thallophytes (Thallophyta), so Spirogyra — Thallophyta is correct.",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30012,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Monocotyledon — Maize (Zea mays) has a single cotyledon in its seed, which is the key diagnostic feature of monocots.\nIts leaves exhibit parallel venation, a typical monocot leaf pattern.\nMaize develops a fibrous (adventitious) root system and its flowers often have parts in multiples of three, matching monocot characteristics.\nScattered vascular bundles in the stem and these seed/whole-plant features confirm Monocotyledon.",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30013,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Rhizopus is a eukaryotic organism that grows as multicellular filamentous hyphae forming a mycelium, which places it among fungi.\nIts cell walls contain chitin and it feeds by extracellular digestion and absorption, classic fungal characteristics.\nAs a zygomycete it reproduces by producing sporangiospores asexually and forming resistant zygospores sexually, a fungal mode of reproduction.\nFungi",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    },
+    {
+      "id": 30014,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Hydra has radial symmetry and is diploblastic, having only two germ layers.\nIt has a single gastrovascular cavity and specialized stinging cells called cnidocytes (nematocysts).\nThese diagnostic features - polyp body form, nematocysts and lack of a true coelom - place it in Coelenterata (Cnidaria).\nCoelenterata",
+      "lineCount": 4,
+      "wordCount": 46,
+      "status": "ready"
+    },
+    {
+      "id": 30016,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Housefly\nIt has a chitinous exoskeleton, which is a key arthropod characteristic.\nIts body is segmented into three regions (head, thorax, abdomen) and it bears antennae.\nIt has jointed appendages—three pairs of legs—confirming it fits the phylum Arthropoda.",
+      "lineCount": 4,
+      "wordCount": 38,
+      "status": "ready"
+    },
+    {
+      "id": 30017,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Species\nIn the standard taxonomic hierarchy it is the most specific category, identifying a distinct kind of organism.\nUnder the biological species concept, species are populations that can interbreed and produce fertile offspring.\nTherefore Species is the lowest (most specific) taxonomic rank among the listed options.",
+      "lineCount": 4,
+      "wordCount": 46,
+      "status": "ready"
+    },
+    {
+      "id": 30018,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Vertebrata is correct because it is not a phylum.\nIt is a subphylum within the phylum Chordata and includes animals with backbones.\nA phylum is a higher taxonomic rank grouping organisms by fundamental body plans.\nSince Vertebrata is a subphylum, it does not represent the phylum rank and so is the correct choice.",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready"
+    },
+    {
+      "id": 30019,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Xylem strengthens the stem because its conducting cells and fibres have thick, lignified cell walls.\nThese lignified walls are rigid and help the tissue resist bending and compression.\nVessels, tracheids and xylem fibres together form a strong internal framework that supports the plant.\nCorrect answer: Strengthen the stem",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30020,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The presence of epidermal scales together with a backbone indicates a reptile.\nLizards, as reptiles, typically have true teeth and paired external nares (nostrils).\nTherefore the specific combination of scales, teeth and nares with a vertebral column matches a lizard's anatomy.\nCorrect answer: Lizard",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30021,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Grass → Grasshopper → Toad → Snake → Hawk\nGrass is the producer that captures energy (via photosynthesis) and is eaten by the herbivorous grasshopper.\nThe grasshopper is the primary consumer eaten by the toad (secondary consumer), and the toad is eaten by the snake (tertiary consumer).\nThe hawk is the top predator, so energy moves upward through these trophic levels, making this sequence correct.",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    }
+  ]
+}

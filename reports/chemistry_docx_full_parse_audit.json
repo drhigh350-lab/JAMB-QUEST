@@ -1,0 +1,591 @@
+{
+  "paragraphCount": 11708,
+  "headerCount": 1346,
+  "candidateBlockCount": 1346,
+  "validRecordCount": 1264,
+  "formatCounts": {
+    "numbered": 943,
+    "bracketed": 321
+  },
+  "numberedQuestionRange": {
+    "min": 1,
+    "max": 1020,
+    "distinct": 941
+  },
+  "invalidBlocks": [
+    {
+      "sourceNumber": 16,
+      "sourceFormat": "numbered",
+      "question": "In which of the following processes is iron being oxidized?",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 1,
+      "sourceFormat": "numbered",
+      "question": "Fe + H₂SO₄ → H₂ + FeSO₄",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 2,
+      "sourceFormat": "numbered",
+      "question": "FeSO₄ + H₂S → FeS + H₂SO₄",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 3,
+      "sourceFormat": "numbered",
+      "question": "2FeCl₂ + Cl₂ → 2FeCl₃",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 27,
+      "sourceFormat": "numbered",
+      "question": "In the reactions: (1) H₂(g) + ½O₂(g) → H₂O(l); ΔH = -286 kJ, (11) C(s) + O₂(g) → CO₂(g); ΔH = -406 kJ, the equations imply that (Question incomplete in the PDF)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 47,
+      "sourceFormat": "numbered",
+      "question": "The equilibrium reaction between copper (I) chloride and chloride at 25°C and 1 atmosphere is represented by the equation: 2CuCl₂ + Cl₂ ⇌ 2CuCl₂, ΔH = -166 kJ. Which of the following statement is TRUE for the reaction, pressure remaining constant?",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 92,
+      "sourceFormat": "numbered",
+      "question": "Which of the following structure formulae is NOT isomeric with others? Options show different structures (not provided in text)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 127,
+      "sourceFormat": "numbered",
+      "question": "A man suspected of being drunk is made to pass his breath into acidified potassium dichromate solution. If (Question incomplete in the PDF)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 130,
+      "sourceFormat": "numbered",
+      "question": "The product formed on hydrolysis of (image) is (Image not readable in text)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 140,
+      "sourceFormat": "numbered",
+      "question": "A colourless organic compound X was burnt in excess air to give two colourless and odourless gases, Y and Z, as products. X does not decolorize bromine vapour; Y turns lime milky while Z gives a blue colour with copper (II) tetraoxosulphate (VI).",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 159,
+      "sourceFormat": "numbered",
+      "question": "Which of the following groups of physical properties increases from left to right of the periodic table?",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 161,
+      "sourceFormat": "numbered",
+      "question": "In the solubility curve above, water at 98°C is saturated with KCl impurity in the crystals formed when the solution is cooled to 30°C? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 193,
+      "sourceFormat": "numbered",
+      "question": "Which of the structural formula for pent-2-enoic acid? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 206,
+      "sourceFormat": "numbered",
+      "question": "An isotope has an atomic number of 17 and a mass number of 36. Which of the following gives the correct number of neutrons and protons in an atom of the isotope? | | Neutrons | Protons | |---|---|---| | A. | 53 | 17 | | B. | 17 | 36 | | C. | 19 | 17 | | D. | 36 | 17 |",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 215,
+      "sourceFormat": "numbered",
+      "question": "Which is the correct set of results for tests conducted respectively on fresh lime juice and ethanol? | | Fresh lime juice | Ethanol | |---|---|---| | A. Add crystals of NaHCO₃ | Gas evolved | No gas evolved | | B. Test with methyl orange | Turns colourless | No change | | C. Taste | Bitter | Sour | | D. Add a piece of sodium | No gas evolved | H₂ evolved |",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 248,
+      "sourceFormat": "numbered",
+      "question": "The structure of benzoic acid is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 254,
+      "sourceFormat": "numbered",
+      "question": "Which of the gas laws does the above graph illustrate? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 272,
+      "sourceFormat": "numbered",
+      "question": "The mass of a substance M liberated at an electrode during electrolysis is proportional to the quantity of electricity Q passing through the electrolyte. This is represented graphically by (Graph not readable in text)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 299,
+      "sourceFormat": "numbered",
+      "question": "It can be deduced from the vapour pressure curves above that (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 304,
+      "sourceFormat": "numbered",
+      "question": "Which of the curves in the above graph illustrates the behavior of an ideal gas? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 309,
+      "sourceFormat": "numbered",
+      "question": "In the above set up, substances X and Y are respectively (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 313,
+      "sourceFormat": "numbered",
+      "question": "If the graph above shows 1 dm³ of a saturated solution of HCl is cooled from 80°C, the mass of crystals deposited will be [K=39, Cl=35.5] (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 324,
+      "sourceFormat": "numbered",
+      "question": "The above graph shows a typical heating curve from the solid phase through the liquid phase to the gaseous phase of a substance. What part of the curve shows solid and liquid in equilibrium? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 328,
+      "sourceFormat": "numbered",
+      "question": "The above diagram gives the potential energy profile of the catalyzed and uncatalyzed reactions of X(g) + Y(g) → XY(g). Deduce the respective activation energies in kJ of the catalyzed and uncatalyzed reverse reactions XY(g) → X(g) + Y(g). (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 337,
+      "sourceFormat": "numbered",
+      "question": "Which of the following compounds is an isomer of the compound (image)? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 340,
+      "sourceFormat": "numbered",
+      "question": "Changes in the physical states of chemical substances are shown in the scheme below. The letters X, Y and Z respectively represent (Diagram not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 347,
+      "sourceFormat": "numbered",
+      "question": "Which of the four atoms P, Q, R and S in the above data can be described by the following properties: relative atomic mass is greater than 30 but less than 40; it has an odd atomic number and forms a unipositive ion in solution? (Table not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 367,
+      "sourceFormat": "numbered",
+      "question": "In the reaction 2HI(g) → H₂(g) + I₂(g), ΔH = 10 kJ, the concentration of iodine in the equilibrium mixture can be increased by (Question incomplete)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 380,
+      "sourceFormat": "numbered",
+      "question": "The structure of cis-2-butene is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 381,
+      "sourceFormat": "numbered",
+      "question": "What is the IUPAC name for the hydrocarbon (image)? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 382,
+      "sourceFormat": "numbered",
+      "question": "CH₃=CH → P. Compound P in the above reaction is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 384,
+      "sourceFormat": "numbered",
+      "question": "The above reaction is an example of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 388,
+      "sourceFormat": "numbered",
+      "question": "Which of the following compounds represents the polymerization product of ethyne? (Image not readable) Correct Answer: Polyacetylene",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 403,
+      "sourceFormat": "numbered",
+      "question": "The electrons of two atoms Y and Z are arranged in shells as shown above. The bond formed between the atoms of Y and Z is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 409,
+      "sourceFormat": "numbered",
+      "question": "Which of the following substances could be satisfactorily used as X in the above figure? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 469,
+      "sourceFormat": "numbered",
+      "question": "In the experiment above, Z can be (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 480,
+      "sourceFormat": "numbered",
+      "question": "The IUPAC name for the hydrocarbon (image) is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 495,
+      "sourceFormat": "numbered",
+      "question": "Which of the curves above represents the behavior of 1 mole of an ideal gas? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 507,
+      "sourceFormat": "numbered",
+      "question": "For which salt in the graph above does the solubility increase most rapidly with rise in temperature? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 517,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, curve X represents the energy profile for a homogeneous gaseous reaction. Which of the following conditions would produce curve Y for the same reaction? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 527,
+      "sourceFormat": "numbered",
+      "question": "The two functional groups in the above compound are (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 535,
+      "sourceFormat": "numbered",
+      "question": "The function of the copper(II) tetraoxosulphate(VI) in dilute H₂SO₄ in the figure above is to (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 549,
+      "sourceFormat": "numbered",
+      "question": "The diagram above represents an atom of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 551,
+      "sourceFormat": "numbered",
+      "question": "Which of the following atoms represents deuterium? | | No of protons | No of neutrons | No of electrons | |---|---|---|---| | A. | 1 | 0 | 0 | | B. | 1 | 0 | 1 | | C. | 1 | 1 | 1 | | D. | 1 | 2 | 1 |",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 552,
+      "sourceFormat": "numbered",
+      "question": "The set-up above would be useful for determining the amount of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 563,
+      "sourceFormat": "numbered",
+      "question": "The ΔH for the reaction represented by the energy profile above is (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 566,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, the activation energy is represented by (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 569,
+      "sourceFormat": "numbered",
+      "question": "From the reaction 2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g), which of the following curves represents the consumption of calcium trioxocarbonate(IV) as dilute HCl is added? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 570,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, R is a mixture of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 578,
+      "sourceFormat": "numbered",
+      "question": "The IUPAC name of the compound (image) is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 583,
+      "sourceFormat": "numbered",
+      "question": "Use the diagram below to answer questions 47 and 48. The reaction taking place in flask G is known as (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 595,
+      "sourceFormat": "numbered",
+      "question": "Use the section of the periodic table below to answer questions 9 and 10. Which of the letters indicate an alkali metal and a noble gas respectively? (Table not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 596,
+      "sourceFormat": "numbered",
+      "question": "Which letter represents a non-metal that is a solid at room temperature? (Table not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 608,
+      "sourceFormat": "numbered",
+      "question": "The graph above shows the pH changes for the titration of a (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 617,
+      "sourceFormat": "numbered",
+      "question": "The arrangement above can be used for the collection of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 618,
+      "sourceFormat": "numbered",
+      "question": "The activation energy of the uncatalyzed reaction is (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 648,
+      "sourceFormat": "numbered",
+      "question": "The section PQ indicates that X is (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 649,
+      "sourceFormat": "numbered",
+      "question": "The section OP suggests that X is in the (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 660,
+      "sourceFormat": "numbered",
+      "question": "2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). In the equation above, the oxidizing agent in (I) and the reducing agent in (II) respectively are (Question mentions I and II but only one equation shown)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 669,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, the gas Y could be (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 677,
+      "sourceFormat": "numbered",
+      "question": "The IUPAC nomenclature of the organic compound with the structural formula (image) is (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 680,
+      "sourceFormat": "numbered",
+      "question": "How many more isomers of the compound above can be obtained? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 685,
+      "sourceFormat": "numbered",
+      "question": "The compound above contains (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 686,
+      "sourceFormat": "numbered",
+      "question": "The compound above is the product of the oxidation of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 695,
+      "sourceFormat": "numbered",
+      "question": "The diagram above represents an atom that can combine with chlorine to form (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 715,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, the activation energy for the backward reaction is (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 721,
+      "sourceFormat": "numbered",
+      "question": "In the experiment above, X could be a solution of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 728,
+      "sourceFormat": "numbered",
+      "question": "The above equation represents the manufacture of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 741,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, the mixture of the two solids P and Q can be separated by (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 748,
+      "sourceFormat": "numbered",
+      "question": "The element that is likely to participate in covalent rather than ionic bonding is (Table not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 749,
+      "sourceFormat": "numbered",
+      "question": "The least reactive element is (Table not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 756,
+      "sourceFormat": "numbered",
+      "question": "From the diagram above, the mass of crystals deposited when 1 dm³ of a saturated solution of NaCl is cooled from 80°C to 60°C is [Na=23, Cl=35.5] (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 772,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, Y is a mixture of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 785,
+      "sourceFormat": "numbered",
+      "question": "Which of the compounds above would react to take up two molecules of bromine during bromination? (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 806,
+      "sourceFormat": "numbered",
+      "question": "The diagram above is the solubility curve of solute X. Find the amount of X deposited when 500 cm³ of solution of X is cooled from 60°C to 20°C. (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 815,
+      "sourceFormat": "numbered",
+      "question": "The graph that describes a zero order reaction is (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 837,
+      "sourceFormat": "numbered",
+      "question": "Use the graph below to answer questions 3 and 4. How long does it take all the solid to melt? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 840,
+      "sourceFormat": "numbered",
+      "question": "The diagram above represents the formation of (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 851,
+      "sourceFormat": "numbered",
+      "question": "At what temperature does solubility of L equal 0.25 mole? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 852,
+      "sourceFormat": "numbered",
+      "question": "If 1 dm³ of a saturated solution of L at 60°C is cooled to 25°C, what amount in mole will separate? (Graph not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 944,
+      "sourceFormat": "numbered",
+      "question": "In the diagram above, the experiment demonstrates that during electrolysis, (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    },
+    {
+      "sourceNumber": 1006,
+      "sourceFormat": "numbered",
+      "question": "In the experiment above, X is a mixture of nitrogen, carbon(IV) oxide and (Image not readable)",
+      "validOptions": false,
+      "validAnswer": false
+    }
+  ]
+}

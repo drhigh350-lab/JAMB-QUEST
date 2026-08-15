@@ -264,3 +264,7 @@
 - [x] Diagnose why the 650 stored Lekki Headmaster questions are not visible or launchable from the current Practice interface
 - [x] Restore the Lekki Headmaster Practice entry without weakening source or quality gates
 - [x] Add regression coverage for Lekki visibility and launch
+
+- [x] Recount and parse every question format in the supplied Chemistry DOCX before stating its total; inventory confirms 1,341 source-labelled questions across the 1–1,020 sequence and separate 1–321 bracketed set
+- [ ] Restore legacy questions toward the former 3,118 level only after they pass syllabus, answer, duplicate, and concise-explanation review
+- [ ] Identify only genuinely diagram-dependent Chemistry questions and add restrained black-and-white learning visuals where useful

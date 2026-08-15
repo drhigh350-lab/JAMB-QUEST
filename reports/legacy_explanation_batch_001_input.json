@@ -1,0 +1,328 @@
+{
+  "batchNumber": 1,
+  "batchSize": 20,
+  "availableCandidates": 735,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 450056,
+      "subject": "Physics",
+      "topic": "Waves — Sound Intensity and Loudness",
+      "question": "Sound intensity level (in decibels) is a logarithmic scale because:",
+      "options": [
+        "Intensity varies linearly with frequency",
+        "The human ear perceives loudness logarithmically",
+        "Sound waves are logarithmic",
+        "It simplifies calculations"
+      ],
+      "answerIndex": 1,
+      "answerText": "The human ear perceives loudness logarithmically",
+      "originalExplanation": "The decibel scale (dB = 10 log₁₀(I/I₀)) is logarithmic because human perception of loudness follows Weber-Fechner law — a doubling of perceived loudness corresponds to roughly a 10 dB increase, not a doubling of intensity. Logarithmic scales compress large intensity ranges (1 W/m² to 10⁻¹² W/m²) into manageable 0-120 dB range. This psychophysical basis for the dB scale (matching human perception, not physics) is important for understanding sound and hearing in JAMB Physics.\n\n---\n\n*[Q61-100 to be completed with additional verified Physics questions...]*\n\nDue to token budget limitations, I'll complete the most critical remaining topics in condensed form, then present the full Physics file.\n\n**Q61-70: [Mechanics — friction types, pulley systems, levers, torque balance] / [Electricity — circuit analysis, power dissipation, EMF and terminal voltage] / [Optics — lens aberrations, color, intensity]**\n\n**Q71-80: [Magnetism — Earth's magnetic field, magnetic field patterns, Hall effect] / [Waves — Doppler effect, beats, resonance in pipes] / [Thermodynamics — isothermal vs adiabatic processes, heat pumps]**\n\n**Q81-90: [Modern Physics — photoelectric work function, de Broglie wavelength, quantum numbers] / [Atomic Physics — electron orbits, energy transitions, X-rays]**\n\n**Q91-100: [Nuclear — fission/fusion, decay series, detection methods] / [Applied Physics — power generation, energy conservation, practical applications]**\n\nLet me create the complete Physics file with all 100 questions at full verified quality:\n<function_calls>\n<invoke name=\"bash_tool\">\n<parameter name=\"command\">wc -l /home/claude/jamb_extract/physics_100.md",
+      "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe"
+    },
+    {
+      "id": 30001,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "The basic structural and functional unit of life is the:",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Cell",
+        "Organelle"
+      ],
+      "answerIndex": 2,
+      "answerText": "Cell",
+      "originalExplanation": "The cell is the basic structural and functional unit of life, meaning all living organisms are composed of one or more cells.\nCell theory states that cells arise from pre-existing cells, carry out metabolic processes, and contain hereditary material, which explains why the cell is fundamental.\nAn organelle (e.g., mitochondrion or chloroplast) is a specialized structure within a cell and cannot function independently as a complete living unit.\nA tissue is a group of similar cells working together to perform a specific function, so tissues are built from cells rather than replacing them as the basic unit.\nAn organ is made of different tissues organized to carry out complex functions, and thus represents a higher level of biological organization composed of cells.\nBecause cells are the smallest entities that exhibit all characteristics of life, 'Cell' is correct while organelle, tissue and organ are higher-level structures derived from cells.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30002,
+      "subject": "Biology",
+      "topic": "Plant Growth and Reproduction",
+      "question": "An onion bulb is best classified as a(n):",
+      "options": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organ system"
+      ],
+      "answerIndex": 2,
+      "answerText": "Organ",
+      "originalExplanation": "The levels of organization in biology include cell, tissue, organ, and organ system, with an organ made of different tissues performing specific functions.\nAn onion bulb is a modified underground structure composed of fleshy scales (modified leaves), a basal plate (short stem) and a bud, so it contains multiple tissue types.\nBecause these tissues are organised to store food and support vegetative reproduction and growth, the bulb is classified as an organ.\nIt is not a single cell, which is the basic unit of life, nor a tissue, which is a group of similar cells carrying out a single function.\nIt is also not an organ system, which comprises several distinct organs working together across the whole plant.\nTherefore 'Organ' is the correct choice, distinguishing it from the plausible but incorrect options 'Cell', 'Tissue', and 'Organ system'.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30003,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Hydra represents which level of biological organization?",
+      "options": [
+        "Cellular level",
+        "Tissue level",
+        "Organ level",
+        "Organ system level"
+      ],
+      "answerIndex": 1,
+      "answerText": "Tissue level",
+      "originalExplanation": "Levels of biological organization range from cells through tissues and organs to organ systems in multicellular organisms.\nHydra is a multicellular cnidarian whose body consists of two true tissue layers (ectoderm and endoderm) separated by a gelatinous mesoglea.\nBecause its cells are organized into these specialized tissue layers rather than discrete organs, Hydra represents the tissue level of organization.\nIt is not at the cellular level, since Hydra is multicellular with differentiated cells working together, unlike unicellular organisms such as Amoeba.\nHydra lacks true organs and organ systems (it has a gastrovascular cavity and tissue-level functions but no independent organs like a heart or lungs), so organ and organ-system levels are incorrect.\nCnidarians such as Hydra and jellyfish are standard examples of organisms at the tissue level, which supports the given correct option.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30004,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Which of the following organisms possesses a cellular level of organization?",
+      "options": [
+        "Hydra",
+        "Euglena",
+        "Earthworm",
+        "Human being"
+      ],
+      "answerIndex": 1,
+      "answerText": "Euglena",
+      "originalExplanation": "Cellular level of organization refers to organisms composed of a single cell that performs all life functions (nutrition, respiration, excretion, reproduction and movement).\nEuglena is the correct choice because it is a unicellular eukaryotic protist whose single cell carries out photosynthesis, locomotion and other life processes.\nEuglena has organelles such as chloroplasts for photosynthesis and a flagellum for movement, illustrating how one cell conducts multiple functions.\nHydra is multicellular and diploblastic, exhibiting a tissue level of organization rather than a cellular (single-cell) level.\nEarthworm and human beings are multicellular with distinct organs and organ systems (organ-system level), so they do not represent cellular-level organization.\nTherefore, only Euglena fits the definition of cellular level organization among the given options.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30005,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Which cell organelle is primarily responsible for the production of ATP during aerobic respiration?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Lysosome",
+        "Mitochondrion"
+      ],
+      "answerIndex": 3,
+      "answerText": "Mitochondrion",
+      "originalExplanation": "Aerobic respiration is the multi-step process in which organic molecules are oxidized to release energy that is converted into ATP, and this conversion chiefly takes place in the mitochondrion.\nMitochondria have an inner membrane folded into cristae that houses the electron transport chain and ATP synthase, enabling oxidative phosphorylation and chemiosmotic ATP production.\nThe mitochondrial matrix contains enzymes of the Krebs (citric acid) cycle that generate reduced coenzymes (NADH, FADH2) which supply electrons to the electron transport chain for ATP synthesis.\nThe nucleus contains genetic material and regulates cell activities but does not carry out oxidative phosphorylation or produce the bulk of cellular ATP.\nRibosomes assemble amino acids into proteins and consume ATP/GTP during translation but are not the organelle where aerobic ATP production occurs.\nLysosomes contain hydrolytic enzymes for intracellular digestion and recycling and therefore are not involved in producing ATP during aerobic respiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30006,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The membrane enclosing the vacuole in a plant cell is called the:",
+      "options": [
+        "Plasma membrane",
+        "Nuclear membrane",
+        "Tonoplast",
+        "Cell wall"
+      ],
+      "answerIndex": 2,
+      "answerText": "Tonoplast",
+      "originalExplanation": "The membrane enclosing the vacuole in a plant cell is called the tonoplast.\nThe tonoplast surrounds the central vacuole and regulates passage of ions, water and small molecules between vacuole and cytoplasm.\nIt helps maintain turgor pressure by controlling vacuolar osmotic composition via transport proteins and proton pumps.\nThe plasma membrane (cell membrane) is the phospholipid bilayer that surrounds the whole cell, not the vacuole.\nThe nuclear membrane surrounds the nucleus, and the cell wall is a rigid cellulose layer outside the plasma membrane, neither of which encloses the vacuole.\nTherefore Tonoplast is the correct choice because it specifically denotes the vacuolar membrane.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30007,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following correctly arranges the levels of biological organization from the most complex to the simplest?",
+      "options": [
+        "Organism → Organ system → Organ → Tissue → Cell",
+        "Organ system → Organism → Organ → Tissue → Cell",
+        "Organism → Organ → Organ system → Tissue → Cell",
+        "Organ → Organism → Organ system → Tissue → Cell"
+      ],
+      "answerIndex": 0,
+      "answerText": "Organism → Organ system → Organ → Tissue → Cell",
+      "originalExplanation": "The levels of biological organization arrange structural units from the most complex whole to the simplest functional unit.\nThe correct sequence is Organism → Organ system → Organ → Tissue → Cell because an organism is made up of interacting organ systems.\nEach organ system consists of multiple organs, each organ is built from tissues, and each tissue is composed of cells, so complexity decreases toward the cell.\nOption B (Organ system → Organism → Organ → Tissue → Cell) is wrong because it places an organ system above the organism when the organism contains organ systems.\nOption C (Organism → Organ → Organ system → Tissue → Cell) is incorrect because it ranks a single organ above the organ system that integrates several organs.\nOption D (Organ → Organism → Organ system → Tissue → Cell) is incorrect since an organ is a component of an organism, not more complex than the organism.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30008,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following kingdoms is composed of prokaryotic organisms?",
+      "options": [
+        "Monera",
+        "Fungi",
+        "Plantae",
+        "Protista"
+      ],
+      "answerIndex": 0,
+      "answerText": "Monera",
+      "originalExplanation": "The question assesses classification by cell type: prokaryotes lack a true nucleus and membrane-bound organelles, whereas eukaryotes have them.\nThe kingdom Monera is composed of prokaryotic organisms such as bacteria and cyanobacteria, which are unicellular and lack a nuclear membrane.\nTherefore Monera is the correct option because its members exhibit prokaryotic cell organization.\nFungi are eukaryotic heterotrophs with membrane-bound organelles and chitin in their cell walls, so they are not prokaryotes.\nPlantae are multicellular eukaryotes with cellulose cell walls and chloroplasts, and Protista consists mostly of unicellular or simple multicellular eukaryotes; both are eukaryotic groups.\nThe decisive features are presence versus absence of a true nucleus and organelles, which places Monera as the prokaryotic kingdom in standard senior-secondary classification.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30009,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following organisms belongs to the kingdom Monera?",
+      "options": [
+        "Rhizopus",
+        "Bacteria",
+        "Euglena",
+        "Amoeba"
+      ],
+      "answerIndex": 1,
+      "answerText": "Bacteria",
+      "originalExplanation": "Kingdom Monera consists of prokaryotic organisms: unicellular cells lacking a true nucleus and membrane-bound organelles.\nBacteria are prokaryotes with cell walls usually containing peptidoglycan and they reproduce asexually by binary fission, matching Monera criteria.\nHence Bacteria is the correct choice because it is prokaryotic, unlike the other options which are eukaryotic.\nRhizopus is a multicellular fungus with chitin in its cell walls and eukaryotic cells, so it belongs to the kingdom Fungi.\nEuglena and Amoeba are eukaryotic protists: Euglena often has chloroplasts and a flagellum, while Amoeba moves by pseudopodia, distinguishing them from bacteria.\nThese standard distinctions between prokaryotes (Monera) and eukaryotic groups (Fungi, Protista) make Bacteria the unambiguous answer.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30010,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following organism division pairs is correctly matched?",
+      "options": [
+        "Euglena — Monera",
+        "Moss — Pteridophyta",
+        "Rhizopus — Protista",
+        "Spirogyra — Thallophyta"
+      ],
+      "answerIndex": 3,
+      "answerText": "Spirogyra — Thallophyta",
+      "originalExplanation": "The concept is basic taxonomic matching: placing organisms into divisions by body plan, cell type and major features (e.g. thallus, vascular tissue, cell wall composition).\nSpirogyra is a filamentous green alga with a simple non‑vascular thallus and spiral chloroplasts, so it is classically placed in Thallophyta (the thallophytes).\nEuglena is a eukaryotic, flagellate protist with a pellicle and chloroplasts, not a prokaryotic bacterium of Monera, so Euglena—Monera is incorrect.\nMosses have a dominant leafy gametophyte and lack true vascular tissue, placing them in Bryophyta rather than in Pteridophyta, which are vascular ferns and their allies.\nRhizopus is a filamentous fungus with chitinous cell walls and sporangia (traditionally Zygomycota or simply Fungi), so Rhizopus—Protista is wrong.\nUnder standard senior‑secondary classification schemes Spirogyra—Thallophyta is correctly matched, while the other options pair organisms with inappropriate divisions.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30012,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Maize belongs to which of the following groups?",
+      "options": [
+        "Bryophyte",
+        "Gymnosperm",
+        "Monocotyledon",
+        "Dicotyledon"
+      ],
+      "answerIndex": 2,
+      "answerText": "Monocotyledon",
+      "originalExplanation": "Maize (Zea mays) is a monocotyledon, meaning it is an angiosperm whose seeds contain a single cotyledon.\nThe single cotyledon in maize is the primary morphological feature that places it in the monocot group rather than among dicots.\nOther characteristic monocot features shown by maize include parallel leaf venation, a fibrous (adventitious) root system and floral parts commonly in multiples of three with scattered vascular bundles.\nDicotyledons differ by having two cotyledons, netted (reticulate) leaf venation, a typical taproot system and vascular bundles usually arranged in a ring.\nBryophytes are non-vascular, seedless plants (mosses, liverworts) and cannot include maize, while gymnosperms are seed plants with naked seeds (cones) and no true flowers, so both are incorrect here.\nHence Monocotyledon is correct because maize’s seed and whole-plant morphology match the diagnostic characters of monocots.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30013,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Rhizopus is a member of which kingdom?",
+      "options": [
+        "Protista",
+        "Plantae",
+        "Monera",
+        "Fungi"
+      ],
+      "answerIndex": 3,
+      "answerText": "Fungi",
+      "originalExplanation": "Rhizopus is placed in the kingdom Fungi because it is a eukaryotic organism that forms multicellular filamentous hyphae and a mycelium.\nFungi have chitin in their cell walls and obtain nutrients by extracellular digestion and absorption, traits exhibited by Rhizopus.\nRhizopus is a zygomycete that reproduces asexually by sporangiospores in sporangia and forms resistant zygospores in sexual reproduction, which are fungal characteristics.\nRhizopus is not in Plantae because it lacks chlorophyll and cannot photosynthesize; plants are autotrophic and have cellulose cell walls.\nIt is not in Monera (bacteria) because Monera are prokaryotic and lack membrane-bound nuclei, whereas Rhizopus cells are eukaryotic.\nIt is not placed in Protista because Protists are mostly unicellular or simple multicellular forms and generally do not form true mycelial hyphae with chitinous walls as seen in Rhizopus.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30014,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Hydra belongs to which of the following groups of invertebrates?",
+      "options": [
+        "Coelenterata",
+        "Annelida",
+        "Arthropoda",
+        "Nematoda"
+      ],
+      "answerIndex": 0,
+      "answerText": "Coelenterata",
+      "originalExplanation": "Hydra is a simple freshwater animal with radial symmetry, two germ layers (diploblastic), a single gastrovascular cavity and stinging cells called cnidocytes (nematocysts).\nThese diagnostic features place Hydra in Coelenterata (more modernly called Cnidaria), a group characterised by cnidocytes and polyp/medusa body forms.\nCoelenterata/Cnidaria is the correct option because Hydra is a polyp with nematocysts and lacks a true coelom, segmentation or a complete through-gut.\nAnnelida (segmented worms) are bilaterally symmetrical and metameric with a true coelom and setae or parapodia, which Hydra does not have.\nArthropoda possess jointed appendages, an external chitinous exoskeleton and clear body segmentation with bilateral symmetry, none of which occur in Hydra.\nNematoda (roundworms) are bilaterally symmetrical, elongated with a pseudocoelom and a complete digestive tract, features that distinguish them from the diploblastic, radially symmetrical Hydra.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30016,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following organisms belongs to the phylum Arthropoda?",
+      "options": [
+        "Earthworm",
+        "Hydra",
+        "Taenia",
+        "Housefly"
+      ],
+      "answerIndex": 3,
+      "answerText": "Housefly",
+      "originalExplanation": "Arthropoda is a phylum of animals characterised by a chitinous exoskeleton, segmented bodies and jointed appendages.\nThe housefly is an insect with a hard exoskeleton, three distinct body regions, six jointed legs and antennae, so it fits Arthropoda.\nEarthworm belongs to Annelida: it is segmented but lacks a chitinous exoskeleton and jointed limbs.\nHydra is a cnidarian with radial symmetry and cnidocytes (stinging cells), not the bilateral, jointed anatomy of arthropods.\nTaenia is a platyhelminth (tapeworm), dorsoventrally flattened and parasitic, without jointed appendages or an external exoskeleton.\nTherefore Housefly is correct because it exhibits the diagnostic arthropod features absent in the other options.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30017,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following is the lowest category in the taxonomic hierarchy?",
+      "options": [
+        "Kingdom",
+        "Class",
+        "Genus",
+        "Species"
+      ],
+      "answerIndex": 3,
+      "answerText": "Species",
+      "originalExplanation": "Taxonomic hierarchy arranges organisms from broadest to most specific, commonly given as Kingdom, Phylum, Class, Order, Family, Genus, Species.\nSpecies is the most specific category and under the biological species concept refers to populations that can interbreed and produce fertile offspring.\nGenus ranks above species and groups one or more closely related species, so a genus is less specific than a species.\nClass is a higher-rank category that groups related orders, and Kingdom is even broader, grouping major forms of life such as animals or plants, so both are much higher than species.\nAlthough taxonomists sometimes use ranks below species (e.g., subspecies, varieties) to show population differences, those were not among the listed options.\nTherefore Species is the correct choice among the given options because it is the lowest (most specific) taxonomic category in the standard hierarchy.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30018,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following is not a phylum in the animal kingdom?",
+      "options": [
+        "Annelida",
+        "Arthropoda",
+        "Chordata",
+        "Vertebrata"
+      ],
+      "answerIndex": 3,
+      "answerText": "Vertebrata",
+      "originalExplanation": "The question asks which name is not a phylum in the animal kingdom.\nA phylum is a major taxonomic rank grouping organisms by fundamental body plans and structures.\nAnnelida (segmented worms), Arthropoda (insects, crustaceans, arachnids) and Chordata (animals with a notochord) are recognized phyla.\nVertebrata is not a phylum but a subphylum within the phylum Chordata, comprising animals with backbones.\nCommon confusion arises because vertebrates are prominent and often treated as a major group, but taxonomically they sit under Chordata alongside tunicates and cephalochordates.\nTherefore the correct choice is Vertebrata, as it does not represent a phylum-level rank in standard classification.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30019,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "One of the functions of the xylem is to:",
+      "options": [
+        "Strengthen the stem",
+        "Manufacture food",
+        "Reduce water loss",
+        "Conduct manufactured food"
+      ],
+      "answerIndex": 0,
+      "answerText": "Strengthen the stem",
+      "originalExplanation": "Xylem tissue mainly conducts water and dissolved mineral salts from the roots to the aerial parts of the plant and also confers mechanical support.\nThe correct option, 'Strengthen the stem', is true because xylem elements (vessels, tracheids and xylem fibres) have thick, lignified cell walls that provide rigidity to stems.\nXylem vessels and tracheids form continuous hollow tubes specialised for efficient upward movement of water by cohesion-tension and root pressure mechanisms.\nXylem does not manufacture food; photosynthesis occurs in chloroplast-containing cells of leaves and green stems.\nReducing water loss is achieved mainly by adaptations such as a waxy cuticle, stomatal control and leaf hairs, not by the xylem.\nConducting manufactured food is the role of phloem (sieve tubes and companion cells), so the option 'Conduct manufactured food' is incorrect for xylem.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30020,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "An animal possesses scales, teeth, nares, and a backbone. The animal is most likely a:",
+      "options": [
+        "Toad",
+        "Bird",
+        "Lizard",
+        "Rat"
+      ],
+      "answerIndex": 2,
+      "answerText": "Lizard",
+      "originalExplanation": "The question uses external morphological characters (scales, teeth, nares) together with a backbone to assign the animal to a vertebrate class.\nPresence of epidermal scales plus a backbone points to a reptile, and most reptiles (including lizards) have true teeth and paired external nares.\nLizards specifically have keratinized scales, well-developed teeth for seizing prey, and external nostrils, so they match all items listed.\nA toad is an amphibian with moist, glandular skin rather than scales, so it does not fit the description.\nBirds are covered with feathers and possess beaks instead of true teeth, so the 'scales and teeth' combination excludes them.\nRats are mammals characterized by fur (not scales) and mammalian features like mammary glands and external ears, so they are not the scaled animal described.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30021,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "Which of the following represents the correct sequence in a food chain?",
+      "options": [
+        "Grass → Snake → Toad → Grasshopper → Hawk",
+        "Grass → Grasshopper → Toad → Snake → Hawk",
+        "Grass → Grasshopper → Snake → Toad → Hawk",
+        "Grass → Snake → Grasshopper → Toad → Hawk"
+      ],
+      "answerIndex": 1,
+      "answerText": "Grass → Grasshopper → Toad → Snake → Hawk",
+      "originalExplanation": "A food chain is a linear sequence showing the flow of energy and nutrients as one organism is eaten by another, starting with a producer.\nIn the sequence given, grass is the producer and the grasshopper is the primary consumer (herbivore) that feeds directly on the grass.\nThe toad acts as a secondary consumer by feeding on the grasshopper, placing it above the primary consumer.\nThe snake is a higher-level (tertiary) consumer that commonly preys on toads, and the hawk is the top predator in this chain.\nTherefore 'Grass → Grasshopper → Toad → Snake → Hawk' is correct because each organism feeds on the one immediately before it and energy flows upward with loss at each transfer.\nOptions that place the snake before the toad or show consumers eating organisms they do not normally consume are incorrect because they conflict with known predator–prey relationships and standard trophic level order.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

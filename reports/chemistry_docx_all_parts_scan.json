@@ -1,0 +1,21 @@
+{
+  "partsWithQuestionSignals": [
+    {
+      "part": "word/document.xml",
+      "counts": {
+        "bracketedQuestion": 321,
+        "plainNumbered": 71,
+        "answerKey": 392,
+        "optionA": 385
+      },
+      "characters": 539875,
+      "sample": "# JAMB CHEMISTRY PAST QUESTIONS -DR.HIGH\n\n**1. X is crystalline salt of sodium. Solution of X in water turns litmus red produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilute hydrochloric acid. X is**\n\n**A. Na₂CO₃**\n**B. NaHCO₃**\n**C. NaHSO₄**\n**D. Na₂SO₃**\n**E. Na₂SO₄**\n\n**Correct Answer: C. NaHSO₄**\n\n*Explanation:* NaHSO₄ is an acid salt that turns litmus red. It reacts with sodium carbonate to produce CO₂ gas (turns lime water milky). With BaCl₂, it gives a white precipitate of BaSO₄ which is insoluble in dilute HCl.\n\n---\n\n**2. The alkanol obtained from the production of soap is**\n\n**A. ethanol**\n**B. glycerol**\n**C. methanol**\n**D. propanol**\n**E. glycol**\n\n**Correct Answer: B. glycerol**\n\n*Explanation:* Soap is produced by saponification of fats and oils with NaOH. The reaction produces soap (sodium salt of fatty acids) and glycerol (propane-1,2,3-triol) as a byproduct.\n\n---\n\n**3. The flame used by welders in cutting metals is**\n\n**A. butane gas flame**\n**B. acetylene flame**\n**C. kerosene flame**\n**D. oxy-acetylene flame**\n**E. oxygen flame**\n\n**Correct Answer: D. oxy-"
+    }
+  ],
+  "totals": {
+    "bracketedQuestion": 321,
+    "plainNumbered": 71,
+    "answerKey": 392,
+    "optionA": 385
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "batchNumber": 3,
+  "batchSize": 20,
+  "availableCandidates": 695,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30092,
+      "subject": "Biology",
+      "topic": "Blood and Circulation",
+      "question": "Fibrinogen and prothrombin play important roles in:",
+      "options": [
+        "Deamination of proteins",
+        "Blood clotting",
+        "Detoxification of substances",
+        "Storage of vitamins"
+      ],
+      "answerIndex": 1,
+      "answerText": "Blood clotting",
+      "originalExplanation": "Fibrinogen and prothrombin are plasma proteins produced largely by the liver that function in hemostasis.\nProthrombin is an inactive zymogen that is converted to the active enzyme thrombin during the coagulation cascade.\nThrombin converts soluble fibrinogen into insoluble fibrin strands that form the meshwork of a blood clot.\nTherefore the correct answer is blood clotting, because these proteins are essential components of the cascade that stops bleeding.\nThey are not primarily involved in deamination, which is the removal of amino groups from amino acids during amino acid catabolism.\nStorage of vitamins is a function of tissues like adipose and the liver, and detoxification uses enzymatic pathways such as cytochrome P450 rather than coagulation proteins.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30093,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "The pathogen that causes smallpox belongs to which group?",
+      "options": [
+        "Picornavirus",
+        "Paramyxovirus",
+        "Herpesvirus",
+        "Poxvirus"
+      ],
+      "answerIndex": 3,
+      "answerText": "Poxvirus",
+      "originalExplanation": "Smallpox is caused by the variola virus, which belongs to the Poxviridae (poxvirus) family.\nPoxviruses are large, double-stranded DNA viruses that replicate in the host cell cytoplasm and characteristically produce skin pustules.\nTherefore the correct option is Poxvirus because variola is the prototypic poxvirus responsible for smallpox.\nPicornaviruses are small, single-stranded positive-sense RNA viruses (e.g., poliovirus, rhinovirus) and do not cause smallpox.\nParamyxoviruses are enveloped negative-sense RNA viruses that cause measles and mumps, not smallpox.\nHerpesviruses are large DNA viruses too, but they replicate in the nucleus and establish latency (e.g., herpes simplex, varicella), differing biologically from poxviruses.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30094,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following is another name for red blood cells?",
+      "options": [
+        "Leucocytes",
+        "Plasma cells",
+        "Thrombocytes",
+        "Erythrocytes"
+      ],
+      "answerIndex": 3,
+      "answerText": "Erythrocytes",
+      "originalExplanation": "Erythrocytes are the standard biological name for red blood cells.\nIn mammals erythrocytes are biconcave, enucleate cells that contain haemoglobin to transport oxygen and carbon dioxide.\nLeucocytes (white blood cells) are immune cells that fight infection and are not red blood cells.\nPlasma cells are antibody-secreting, differentiated B-lymphocytes and thus a type of white blood cell, not erythrocytes.\nThrombocytes, often called platelets in mammals, are cell fragments involved in blood clotting rather than oxygen transport.\nTherefore, of the options given, only erythrocytes correctly refers to red blood cells.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30095,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The main site for the absorption of digested food in the mammalian alimentary canal is the:",
+      "options": [
+        "Stomach",
+        "Duodenum",
+        "Ileum",
+        "Large intestine"
+      ],
+      "answerIndex": 2,
+      "answerText": "Ileum",
+      "originalExplanation": "Most nutrient absorption occurs in the small intestine because its mucosa is highly folded to provide a large surface area.\nThe ileum, the distal part of the small intestine, bears numerous villi and microvilli with capillaries and lacteals for uptake of amino acids, monosaccharides and fatty acids (as chylomicrons).\nThe duodenum is principally the site of chemical digestion where bile and pancreatic enzymes act and it absorbs some ions and minerals (e.g. iron) but not the bulk of digested nutrients.\nThe stomach mainly secretes acid and pepsin for protein digestion and absorbs very little (only some drugs, alcohol and a small amount of water).\nThe large intestine mainly reabsorbs water, electrolytes and some vitamins produced by bacteria, so it is not the primary site of nutrient absorption.\nBecause of its specialized villous mucosa and extensive blood and lymph supply, the ileum is therefore the correct answer.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30096,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Deficiency of protein in children causes which of the following diseases?",
+      "options": [
+        "Marasmus",
+        "Rickets",
+        "Scurvy",
+        "Kwashiorkor"
+      ],
+      "answerIndex": 3,
+      "answerText": "Kwashiorkor",
+      "originalExplanation": "Kwashiorkor is a form of severe protein malnutrition in children characterized by hypoalbuminaemia and bilateral pitting oedema.\nProtein deficiency lowers plasma oncotic pressure, causing fluid to leak into tissues and producing the oedema and “pot-belly” typical of kwashiorkor.\nMarasmus, a plausible distractor, is due chiefly to overall calorie (energy) deficiency and produces severe wasting without the oedema seen in kwashiorkor.\nRickets and scurvy are caused by deficiencies of vitamin D and vitamin C respectively, giving bone deformities or bleeding and poor wound healing, not the oedematous syndrome of protein deficiency.\nKwashiorkor commonly follows weaning onto carbohydrate-rich but protein-poor diets and may include fatty liver, skin lesions and hair changes in addition to oedema.\nBecause the question specifies protein deficiency and the characteristic signs match, kwashiorkor is the correct option while marasmus is the nearest alternative relating to general energy-protein malnutrition.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30097,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "A plant which grows on another plant without apparent harm to the host plant is called:",
+      "options": [
+        "An epiphyte",
+        "A saprophyte",
+        "A parasite",
+        "A predator"
+      ],
+      "answerIndex": 0,
+      "answerText": "An epiphyte",
+      "originalExplanation": "An epiphyte is a plant that grows on another plant for physical support without deriving nutrients from the host.\nEpiphytes obtain water and nutrients from rain, atmospheric moisture, dust and accumulated debris on the supporting plant (common examples include many orchids and ferns).\nBecause they do not penetrate or draw food from the host's tissues, epiphytes generally cause no apparent harm and are not parasitic.\nA saprophyte feeds on dead organic matter (decomposers) and so does not fit the description of a living plant growing harmlessly on another living plant.\nA parasite lives on or in a living host and takes nutrients directly from it, often harming the host (for example mistletoe), so 'parasite' is incorrect here.\nA predator captures and kills prey to obtain nutrients; although a few plants are carnivorous, 'predator' does not describe a plant simply growing on another plant.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30098,
+      "subject": "Biology",
+      "topic": "Living Organisms and Organization",
+      "question": "A tissue is composed of a group of:",
+      "options": [
+        "Similar cells",
+        "Tissues",
+        "Systems",
+        "Related organs"
+      ],
+      "answerIndex": 0,
+      "answerText": "Similar cells",
+      "originalExplanation": "A tissue is a group of similar cells that work together to perform a particular function.\nThe correct option 'Similar cells' is right because tissues arise when identical or similar cells specialise and cooperate for a common task.\nThe option 'Tissues' is incorrect because it would be circular—tissues are made of cells, not of other tissues.\nThe options 'Systems' and 'Related organs' are higher organisational levels: systems are collections of organs, and related organs combine to form systems.\nBiological organisation proceeds from cells to tissues to organs to organ systems and then to the whole organism, so tissues occupy the second level.\nCommon animal tissue types include epithelial, connective, muscular and nervous tissues, while plants have meristematic and permanent tissues.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30099,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following is an example of a vertebrate?",
+      "options": [
+        "Earthworm",
+        "Snail",
+        "Goat",
+        "Cockroach"
+      ],
+      "answerIndex": 2,
+      "answerText": "Goat",
+      "originalExplanation": "Vertebrates are chordate animals that possess a vertebral column (backbone) and an internal bony or cartilaginous skeleton.\nA goat is a mammal and therefore has hair, mammary glands, endothermy and a well-developed vertebral column, so it is a vertebrate.\nEarthworms are annelids with segmented bodies but lack a backbone, so they are invertebrates.\nSnails are molluscs with a muscular foot and usually a shell but no vertebral column, making them invertebrates.\nCockroaches are insects (arthropods) with an external exoskeleton and jointed appendages, not a backbone, so they are invertebrates.\nBecause the goat alone among the options has a vertebral column, it is the correct example of a vertebrate.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30100,
+      "subject": "Biology",
+      "topic": "Endocrine Regulation",
+      "question": "Which of the following glands secretes insulin?",
+      "options": [
+        "Thyroid gland",
+        "Pituitary gland",
+        "Adrenal gland",
+        "Pancreas"
+      ],
+      "answerIndex": 3,
+      "answerText": "Pancreas",
+      "originalExplanation": "The question concerns endocrine glands and insulin, a peptide hormone that lowers blood glucose.\nInsulin is produced by the beta (β) cells of the islets of Langerhans in the pancreas.\nIts main effects are to increase cellular glucose uptake and promote glycogen synthesis, thereby reducing blood glucose concentration.\nThe thyroid gland does not produce insulin; it secretes thyroid hormones (T3, T4) and calcitonin which regulate metabolism and calcium levels.\nThe pituitary secretes tropic and regulatory hormones (e.g., GH, TSH, ACTH) and the adrenal glands secrete steroids and catecholamines (e.g., cortisol, aldosterone, adrenaline), so neither makes insulin.\nBecause insulin is made specifically by pancreatic islet β-cells (the endocrine pancreas), the correct answer is Pancreas; the other glands are endocrine but secrete different hormones.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30101,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Water moves from the soil into root hair cells primarily through the process of:",
+      "options": [
+        "Active transport",
+        "Osmosis",
+        "Diffusion",
+        "Imbibition"
+      ],
+      "answerIndex": 1,
+      "answerText": "Osmosis",
+      "originalExplanation": "Water moves into root hair cells primarily by osmosis, the passage of water across a selectively permeable membrane from higher to lower water potential.\nThe cytoplasm of root hair cells contains solutes that lower their water potential relative to the surrounding soil solution, creating the gradient that drives osmosis.\nActive transport requires metabolic energy to move ions or molecules but does not itself move bulk water into the cells, so it is not the main mechanism for water entry.\nDiffusion describes the spread of solute particles down a concentration gradient and does not capture the solvent flow through membranes that defines osmosis.\nImbibition is the adsorption of water by dry colloidal materials (e.g., seeds or wood) and is not the continuous uptake mechanism used by living root hairs.\nBecause of their large surface area and semi-permeable membranes, root hairs take up soil water passively by osmosis, making option B correct.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30102,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "Which of the following diseases is caused by a virus?",
+      "options": [
+        "Tuberculosis",
+        "Malaria",
+        "Cholera",
+        "Measles"
+      ],
+      "answerIndex": 3,
+      "answerText": "Measles",
+      "originalExplanation": "Viruses are non-cellular, obligate intracellular agents, while bacteria and protozoa are cellular organisms with different structures and life cycles.\nMeasles is caused by the measles virus (a Morbillivirus), making it the viral disease among the options.\nTuberculosis is caused by the bacterium Mycobacterium tuberculosis, so it is a bacterial—not viral—disease.\nMalaria is caused by protozoan parasites of the genus Plasmodium transmitted by Anopheles mosquitoes, not by a virus.\nCholera is due to the bacterium Vibrio cholerae, which produces toxin-mediated watery diarrhoea, so it is also bacterial.\nTherefore measles is correct because its causative agent is a virus, whereas the other listed diseases are caused by bacteria or protozoa.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30103,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The waste product excreted by the mammalian lungs during exhalation is:",
+      "options": [
+        "Urea",
+        "Carbon dioxide",
+        "Uric acid",
+        "Ammonia"
+      ],
+      "answerIndex": 1,
+      "answerText": "Carbon dioxide",
+      "originalExplanation": "The mammalian lungs remove gaseous metabolic waste, and the primary gas excreted during exhalation is carbon dioxide.\nCarbon dioxide is generated by cellular respiration in tissues and is carried in blood to the lungs as dissolved CO2, bicarbonate ions and carbaminohaemoglobin.\nAt the alveoli CO2 diffuses from pulmonary capillaries into the air in the lungs and is expelled when we exhale.\nUrea is a nitrogenous waste produced in the liver (via the urea cycle) and is principally eliminated by the kidneys in urine, not by the lungs.\nUric acid and ammonia are also nitrogenous wastes: uric acid is excreted mainly by birds and some reptiles, while ammonia is typically excreted by aquatic animals or converted to urea in mammals.\nThus carbon dioxide is the correct choice because it is the respiratory waste gas removed from the blood and expelled by the lungs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30104,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The cilia in Paramecium are used for:",
+      "options": [
+        "Locomotion",
+        "Protection",
+        "Regulating food intake",
+        "Respiration"
+      ],
+      "answerIndex": 0,
+      "answerText": "Locomotion",
+      "originalExplanation": "Cilia are numerous short hair-like projections on the Paramecium pellicle that beat in coordinated, metachronal waves.\nThe primary role of these ciliary beats is to propel the cell through water, producing locomotion and allowing the organism to change direction.\nCoordinated beating also creates water currents around the cell, which is the mechanical basis for movement and steering.\nSome cilia line the oral groove and help sweep food particles into the gullet, so 'regulating food intake' is a secondary, supportive function rather than the main role tested here.\nCilia do not act as protective armor, nor are they involved in gas exchange; respiration in Paramecium occurs across the cell membrane by diffusion.\nFor these reasons the best single answer is 'Locomotion', while 'Regulating food intake' is a plausible distractor and 'Protection' and 'Respiration' are incorrect.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30105,
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "question": "The structure that prevents food from entering the trachea during swallowing is the:",
+      "options": [
+        "Larynx",
+        "Epiglottis",
+        "Pharynx",
+        "Esophagus"
+      ],
+      "answerIndex": 1,
+      "answerText": "Epiglottis",
+      "originalExplanation": "The question concerns the anatomical mechanism that prevents food entering the airway during swallowing.\nThe epiglottis is a flap of elastic cartilage that folds down to cover the glottis and block the tracheal opening when the larynx is elevated during swallowing.\nThe larynx (voice box) contributes by elevating to assist epiglottis closure but is not the structure that directly seals the airway.\nThe pharynx is a common passage for both air and food but does not itself close off the trachea.\nThe esophagus is the muscular tube that carries swallowed food to the stomach and lies posterior to the trachea, so it does not prevent food entry into the airway.\nTherefore Epiglottis is correct because it directly closes the tracheal entrance during swallowing, preventing aspiration.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30106,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "Euglena may be classified as a plant because it:",
+      "options": [
+        "Has a gullet",
+        "Lives in a pond",
+        "Possesses a flagellum",
+        "Has chloroplasts"
+      ],
+      "answerIndex": 3,
+      "answerText": "Has chloroplasts",
+      "originalExplanation": "Classification uses structural and functional traits; possession of chloroplasts indicates the ability to photosynthesise, a plant characteristic.\nEuglena contains chloroplasts and can produce its own food by photosynthesis, which is why 'Has chloroplasts' supports treating it as plant-like.\nPossessing a flagellum is not a plant character—flagella provide motility and occur in many protists and some animal cells, so that option points to animal-like features.\nHaving a gullet (oral groove) is characteristic of some protozoans such as Paramecium and is not a basis for calling an organism a plant.\nLiving in a pond describes habitat and is not a diagnostic taxonomic trait, so 'Lives in a pond' cannot justify plant classification.\nBecause Euglena shows both plant-like (chloroplasts) and animal-like (motility, lack of a rigid cellulose cell wall, ability to ingest food) traits, modern classification places it among the Protista rather than firmly in the plant kingdom.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30107,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The term used to describe an organism's physical appearance resulting from the interaction of its genotype with the environment is:",
+      "options": [
+        "Allele",
+        "Phenotype",
+        "Karyotype",
+        "Pedigree"
+      ],
+      "answerIndex": 1,
+      "answerText": "Phenotype",
+      "originalExplanation": "Phenotype is the observable physical and biochemical characteristics of an organism produced by the interaction of its genotype with the environment.\nGenotype is the organism's genetic makeup (the specific alleles it carries), whereas phenotype is the expressed traits such as height, eye colour or enzyme activity.\nEnvironmental factors like nutrition, temperature or light can alter gene expression so individuals with the same genotype may show different phenotypes.\nThus 'Phenotype' is the correct option because it specifically denotes the organism's appearance and traits resulting from genotype–environment interaction.\nAn 'Allele' is a variant form of a gene and contributes to the genotype, not a term for the overall appearance.\nA 'Karyotype' is a display of an organism's chromosomes and a 'Pedigree' is a family chart showing inheritance patterns, so neither describes an individual's observable traits.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30108,
+      "subject": "Biology",
+      "topic": "Blood and Circulation",
+      "question": "Which of the following is another name for platelets?",
+      "options": [
+        "Leucocytes",
+        "Erythrocytes",
+        "Plasma cells",
+        "Thrombocytes"
+      ],
+      "answerIndex": 3,
+      "answerText": "Thrombocytes",
+      "originalExplanation": "Platelets are tiny, anucleate cell fragments in blood that initiate clotting and are correctly called thrombocytes.\nThe correct option 'Thrombocytes' is the standard synonym used in biology and medical texts for platelets.\nLeucocytes are white blood cells involved in immune defence, not clot formation, so they are not platelets.\nErythrocytes are red blood cells that transport oxygen using haemoglobin and are distinct from platelets.\nPlasma cells are antibody-secreting B‑lymphocyte derivatives and must not be confused with plasma (the liquid portion of blood) or with platelets.\nPlatelets are produced from megakaryocytes in the bone marrow and lack nuclei, which distinguishes them from true cells such as erythrocytes and leucocytes.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30109,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The functional units responsible for filtering blood in the mammalian kidney are the:",
+      "options": [
+        "Neurons",
+        "Nephrons",
+        "Alveoli",
+        "Villi"
+      ],
+      "answerIndex": 1,
+      "answerText": "Nephrons",
+      "originalExplanation": "Nephrons are microscopic structural and functional units of the mammalian kidney that filter blood to form urine.\nEach nephron contains a glomerulus (a tuft of capillaries) enclosed by Bowman's capsule where ultrafiltration of blood plasma occurs.\nAfter filtration, tubular segments of the nephron modify the filtrate by selective reabsorption and secretion to maintain water, salt and pH balance.\nNeurons are nerve cells involved in conducting impulses, not in renal filtration, so they are incorrect.\nAlveoli are air sacs in the lungs for gas exchange and villi are intestinal projections for nutrient absorption; neither performs blood filtration.\nTherefore, among the options only nephrons perform the kidney's filtering role, making 'Nephrons' the correct answer.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30110,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following hormones is responsible for male secondary sexual characteristics?",
+      "options": [
+        "Oestrogen",
+        "Progesterone",
+        "Insulin",
+        "Testosterone"
+      ],
+      "answerIndex": 3,
+      "answerText": "Testosterone",
+      "originalExplanation": "The question addresses which hormone causes male secondary sexual characteristics such as facial hair growth and voice deepening.\nTestosterone, produced mainly by the Leydig cells of the testes (and in small amounts by the adrenal cortex), is the primary male sex hormone.\nIt stimulates growth of facial and body hair, enlargement of the larynx and vocal cords, increased muscle mass and the male pattern of fat distribution.\nOestrogen is primarily a female sex hormone produced by the ovaries and promotes female secondary sexual characteristics like breast development and pelvic widening, so it is not the correct choice.\nProgesterone is chiefly involved in preparing and maintaining the uterus for pregnancy and does not induce male secondary sexual features.\nInsulin is a pancreatic hormone that regulates blood glucose and has no role in developing secondary sexual characteristics.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30111,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The population of different organisms that exist together in a habitat is called:",
+      "options": [
+        "Biomes",
+        "Biosphere",
+        "Community",
+        "Ecology"
+      ],
+      "answerIndex": 2,
+      "answerText": "Community",
+      "originalExplanation": "A community is the assemblage of different populations of organisms living and interacting in a common habitat.\nThe correct option is Community because it specifically denotes multiple species (populations) coexisting and interacting in one place.\nA population refers to individuals of the same species in an area, so it is narrower than a community.\nA biome is a large geographic region with characteristic climate and communities (e.g., tropical rainforest), not the local mix of species in one habitat.\nThe biosphere is the global sum of all ecosystems on Earth and is far broader than the local community concept.\nEcology is the scientific study of interactions among organisms and between organisms and their environment, not a group of organisms itself.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

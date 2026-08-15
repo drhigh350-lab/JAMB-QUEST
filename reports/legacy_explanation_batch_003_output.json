@@ -1,0 +1,168 @@
+{
+  "batchNumber": 3,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30092,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Fibrinogen and prothrombin are plasma proteins produced mainly by the liver that function in hemostasis.\nProthrombin is an inactive precursor that is converted to the active enzyme thrombin during the coagulation cascade.\nThrombin converts soluble fibrinogen into insoluble fibrin strands which form the meshwork that stabilizes a blood clot.\nBlood clotting",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30093,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The smallpox agent, variola virus, belongs to the Poxviridae family.\nPoxviruses are large, double-stranded DNA viruses that replicate in the host cell cytoplasm.\nThey produce characteristic skin pustules, which are the defining feature of smallpox disease.\nAnswer: Poxvirus",
+      "lineCount": 4,
+      "wordCount": 38,
+      "status": "ready"
+    },
+    {
+      "id": 30094,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Erythrocytes are the standard biological name for red blood cells.\nThey contain haemoglobin, a pigment-protein that binds oxygen and carries it through the bloodstream.\nThis oxygen-carrying role is the defining function of red blood cells.\nCorrect answer: Erythrocytes",
+      "lineCount": 4,
+      "wordCount": 38,
+      "status": "ready"
+    },
+    {
+      "id": 30095,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The ileum is the main absorptive region of the small intestine because its mucosa is highly specialised for absorption.\nIts lining bears numerous villi and microvilli, greatly increasing surface area for uptake of digested nutrients.\nEach villus contains blood capillaries and lacteals that carry amino acids, monosaccharides and fatty acids into the blood and lymph.\nIleum",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready"
+    },
+    {
+      "id": 30096,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Kwashiorkor is severe protein malnutrition in children marked by low blood albumin (hypoalbuminaemia).\nLow plasma albumin lowers the blood’s oncotic (colloid osmotic) pressure.\nReduced oncotic pressure allows fluid to leak from blood vessels into tissues, producing pitting oedema and the characteristic \"pot-belly\".\nKwashiorkor",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30097,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "An epiphyte is a plant that grows on another plant for physical support without deriving nutrients from the host.\nIt obtains water and nutrients from rain, atmospheric moisture, dust and accumulated debris on the supporting plant.\nBecause it does not penetrate or take food from the host's tissues, it generally causes no apparent harm and is not parasitic.\nCorrect answer: An epiphyte",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready"
+    },
+    {
+      "id": 30098,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Similar cells\nA tissue is formed when cells with the same structure and function group together.\nThese alike cells specialise and coordinate their activities to carry out a specific function efficiently.\nTherefore \"Similar cells\" is correct because tissues arise from the cooperation of such similar, specialised cells.",
+      "lineCount": 4,
+      "wordCount": 47,
+      "status": "ready"
+    },
+    {
+      "id": 30099,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Vertebrates are chordates that possess a vertebral column (backbone) and an internal skeleton.\nA goat is a mammal and has a well-developed vertebral column, so it meets the defining feature of vertebrates.\nAs a mammal it also has hair and mammary glands, traits consistent with vertebrate classification.\nCorrect answer: Goat",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30100,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Pancreas\nInsulin is produced by the beta cells of the islets of Langerhans in the pancreas.\nIt increases glucose uptake into cells and stimulates glycogen formation in liver and muscle.\nThese effects lower blood glucose, so the pancreas is the gland that secretes insulin.",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30101,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Osmosis\nOsmosis is the movement of water across a selectively permeable membrane from higher to lower water potential.\nRoot hair cytoplasm contains dissolved solutes that lower its water potential relative to the soil, creating the gradient for water entry.\nTheir thin cell walls and large surface area let water enter passively by this osmotic flow, so osmosis is the primary uptake mechanism.",
+      "lineCount": 4,
+      "wordCount": 64,
+      "status": "ready"
+    },
+    {
+      "id": 30102,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Measles\nIt is caused by the measles virus, which belongs to the Morbillivirus genus.\nViruses are non-cellular, obligate intracellular agents that must infect host cells to reproduce.\nBecause measles is caused by such a virus, it is therefore a viral disease.",
+      "lineCount": 4,
+      "wordCount": 41,
+      "status": "ready"
+    },
+    {
+      "id": 30103,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Carbon dioxide\nIt is produced by cellular respiration in tissues and carried in the blood to the lungs.\nIn blood CO2 is transported as dissolved gas, as bicarbonate ions, and bound to haemoglobin (carbaminohaemoglobin).\nAt the alveoli CO2 diffuses from pulmonary capillaries into the air and is expelled during exhalation.",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready"
+    },
+    {
+      "id": 30104,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Cilia are numerous short hair-like projections on the Paramecium pellicle.\nThey beat in coordinated metachronal waves, creating water currents around the cell.\nThese currents push against the water and propel the cell, enabling movement and directional changes.\nCorrect answer: Locomotion",
+      "lineCount": 4,
+      "wordCount": 40,
+      "status": "ready"
+    },
+    {
+      "id": 30105,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Epiglottis\nIt is a flap of elastic cartilage positioned above the tracheal opening.\nDuring swallowing the larynx is raised and the epiglottis folds down to cover the glottis.\nBy sealing the tracheal entrance it directly prevents food from entering the airway.",
+      "lineCount": 4,
+      "wordCount": 41,
+      "status": "ready"
+    },
+    {
+      "id": 30106,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Has chloroplasts\nEuglena contains chloroplasts that harvest light energy.\nThose chloroplasts carry out photosynthesis, enabling Euglena to make organic food from light, CO2 and water.\nBecause photosynthetic ability is a key plant characteristic, possession of chloroplasts supports treating Euglena as plant-like.",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30107,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Phenotype is the observable physical and biochemical characteristics of an organism.\nThese traits arise when the organism's genotype is expressed and modified by environmental influences such as nutrition or temperature.\nBecause the visible appearance and measurable traits reflect this genotype–environment interaction, the term refers directly to those outcomes.\nCorrect answer: Phenotype",
+      "lineCount": 4,
+      "wordCount": 51,
+      "status": "ready"
+    },
+    {
+      "id": 30108,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Platelets are tiny, anucleate cell fragments in blood that initiate the clotting process.\nBecause they trigger blood clot formation, the standard synonym used in biology and medicine is thrombocytes.\nThey are produced from megakaryocytes in the bone marrow and lack nuclei, which makes them fragments rather than full cells.\nCorrect answer: Thrombocytes",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30109,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Nephrons are the microscopic structural and functional units of the mammalian kidney that filter blood to form urine.\nEach nephron contains a glomerulus enclosed by Bowman's capsule where ultrafiltration of blood plasma occurs.\nAfter filtration, the nephron's tubular segments modify the filtrate by selective reabsorption and secretion to maintain water, salt, and pH balance.\nCorrect answer: Nephrons",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30110,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Testosterone\nIt is produced mainly by Leydig cells of the testes (and in small amounts by the adrenal cortex).\nTestosterone stimulates growth of facial and body hair and enlargement of the larynx and vocal cords, causing a deeper voice.\nIt also increases muscle mass and produces the male pattern of fat distribution, which are male secondary sexual characteristics.",
+      "lineCount": 4,
+      "wordCount": 60,
+      "status": "ready"
+    },
+    {
+      "id": 30111,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "A community is the assemblage of different populations of organisms living and interacting in a common habitat.\nIt refers to multiple species (separate populations) present together rather than individuals of a single species.\nThe key idea is the coexistence and interactions of these populations within the same habitat, which matches the question.\nCorrect answer: Community",
+      "lineCount": 4,
+      "wordCount": 55,
+      "status": "ready"
+    }
+  ]
+}

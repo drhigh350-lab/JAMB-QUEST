@@ -1,0 +1,643 @@
+{
+  "totalHeld": 124,
+  "reasonCounts": {
+    "duplicate against stored Chemistry bank": 2,
+    "duplicate within supplied document": 1,
+    "no official Chemistry syllabus mapping": 122
+  },
+  "unmappedRecords": [
+    {
+      "externalId": "chem-docx-001",
+      "sourceNumber": 1,
+      "question": "Which chemistry paper type is given to you?"
+    },
+    {
+      "externalId": "chem-docx-003",
+      "sourceNumber": 3,
+      "question": "Calculate the percentage by mass of nitrogen in calcium trioxonitrate (V) [Ca = 40, N = 14, O = 16]"
+    },
+    {
+      "externalId": "chem-docx-004",
+      "sourceNumber": 4,
+      "question": "The droplets of water observed around a bottle of milk taken out of the refrigerator is due to the fact that the"
+    },
+    {
+      "externalId": "chem-docx-005",
+      "sourceNumber": 5,
+      "question": "The volume of a given gas is V cm³ at P mm Hg. What is the new volume of the gas if the pressure is reduced to half at constant temperature?"
+    },
+    {
+      "externalId": "chem-docx-011",
+      "sourceNumber": 11,
+      "question": "²₁D + ³₁T → ⁴₂He + ¹₀n + energy The reaction above illustrates"
+    },
+    {
+      "externalId": "chem-docx-013",
+      "sourceNumber": 13,
+      "question": "Permanent hardness of water can be removed by"
+    },
+    {
+      "externalId": "chem-docx-014",
+      "sourceNumber": 14,
+      "question": "Substances employed as drying agents are usually"
+    },
+    {
+      "externalId": "chem-docx-016",
+      "sourceNumber": 16,
+      "question": "Coffee stains can best be removed by"
+    },
+    {
+      "externalId": "chem-docx-017",
+      "sourceNumber": 17,
+      "question": "Carbon (II) oxide is considered dangerous if inhaled mainly because it"
+    },
+    {
+      "externalId": "chem-docx-019",
+      "sourceNumber": 19,
+      "question": "Calculate the volume of 0.5 mol dm⁻³ H2SO4 that is neutralized by 25 cm³ of 0.1 mol dm⁻³ NaOH"
+    },
+    {
+      "externalId": "chem-docx-021",
+      "sourceNumber": 21,
+      "question": "Which of the following salts is slightly soluble in water?"
+    },
+    {
+      "externalId": "chem-docx-023",
+      "sourceNumber": 23,
+      "question": "The IUPAC nomenclature of the compound LiAlH4 is"
+    },
+    {
+      "externalId": "chem-docx-026",
+      "sourceNumber": 26,
+      "question": "In which of the following is the entropy change positive?"
+    },
+    {
+      "externalId": "chem-docx-027",
+      "sourceNumber": 27,
+      "question": "If a reaction is exothermic and there is a great disorder, it means that"
+    },
+    {
+      "externalId": "chem-docx-029",
+      "sourceNumber": 29,
+      "question": "The graph above demonstrates the effect of"
+    },
+    {
+      "externalId": "chem-docx-032",
+      "sourceNumber": 32,
+      "question": "In the diagram above, the gas produced is"
+    },
+    {
+      "externalId": "chem-docx-034",
+      "sourceNumber": 34,
+      "question": "In the diagram below, the purpose of the asbestos is to"
+    },
+    {
+      "externalId": "chem-docx-040",
+      "sourceNumber": 40,
+      "question": "The IUPAC nomenclature of the compound above is"
+    },
+    {
+      "externalId": "chem-docx-044",
+      "sourceNumber": 44,
+      "question": "Which of the following is used to hasten the ripening of fruit?"
+    },
+    {
+      "externalId": "chem-docx-046",
+      "sourceNumber": 46,
+      "question": "The correct order of increasing boiling points of the following compounds \\text{C}_3\\text{H}_7\\text{OH}, \\text{C}_7\\text{H}_{16} and \\text{C}_4\\text{H}_{10} is"
+    },
+    {
+      "externalId": "chem-docx-049",
+      "sourceNumber": 49,
+      "question": "Two hydrocarbons X and Y were treated with bromine water. X decolorized the solution and Y did not. Which class of compound does Y belong?"
+    },
+    {
+      "externalId": "chem-docx-051",
+      "sourceNumber": 51,
+      "question": "In which of the following are water molecules in the most disorderly arrangement?"
+    },
+    {
+      "externalId": "chem-docx-052",
+      "sourceNumber": 52,
+      "question": "Alloys are best prepared by"
+    },
+    {
+      "externalId": "chem-docx-053",
+      "sourceNumber": 53,
+      "question": "In cold countries where the temperature falls below 0°C, salt is often sprinkled on icy roads in order to"
+    },
+    {
+      "externalId": "chem-docx-054",
+      "sourceNumber": 54,
+      "question": "Nitrogen obtained from the liquefaction of air has a higher density than nitrogen obtained from nitrogen compounds because the former contains"
+    },
+    {
+      "externalId": "chem-docx-055",
+      "sourceNumber": 55,
+      "question": "The method that can be used to convert hard water to soft water by removing both temporary and permanent hardness is"
+    },
+    {
+      "externalId": "chem-docx-057",
+      "sourceNumber": 57,
+      "question": "Which of the following compounds can be represented by the general molecular formula \\text{C}_n\\text{H}_{2n+2}\\text{O}?"
+    },
+    {
+      "externalId": "chem-docx-061",
+      "sourceNumber": 61,
+      "question": "What volume of 0.5\\text{ mol/dm}^3 \\text{HCl} is required to neutralize 25\\text{ cm}^3 of 0.2\\text{ mol/dm}^3 \\text{NaOH}?"
+    },
+    {
+      "externalId": "chem-docx-062",
+      "sourceNumber": 62,
+      "question": "Which of the following processes is endothermic?"
+    },
+    {
+      "externalId": "chem-docx-063",
+      "sourceNumber": 63,
+      "question": "The phenomenon whereby a salt absorbs moisture from the atmosphere to form a solution is called"
+    },
+    {
+      "externalId": "chem-docx-070",
+      "sourceNumber": 70,
+      "question": "Which gas is primarily responsible for global warming (greenhouse effect)?"
+    },
+    {
+      "externalId": "chem-docx-071",
+      "sourceNumber": 71,
+      "question": "The main raw materials used in the Solvay process for manufacturing sodium trioxocarbonate (IV) are"
+    },
+    {
+      "externalId": "chem-docx-074",
+      "sourceNumber": 74,
+      "question": "The molecular shape of a methane (\\text{CH}_4) molecule is"
+    },
+    {
+      "externalId": "chem-docx-075",
+      "sourceNumber": 75,
+      "question": "Which particle is emitted when an atom of ^{238}_{92}\\text{U} decays to ^{234}_{90}\\text{Th}?"
+    },
+    {
+      "externalId": "chem-docx-078",
+      "sourceNumber": 78,
+      "question": "The property of carbon that enables it to form long chains and ring structures is"
+    },
+    {
+      "externalId": "chem-docx-079",
+      "sourceNumber": 79,
+      "question": "Which of the following elements is purified commercially by zone refining?"
+    },
+    {
+      "externalId": "chem-docx-084",
+      "sourceNumber": 84,
+      "question": "Which of the following compounds is an alkyne?"
+    },
+    {
+      "externalId": "chem-docx-085",
+      "sourceNumber": 85,
+      "question": "When temporary hard water is boiled, the insoluble precipitate formed is"
+    },
+    {
+      "externalId": "chem-docx-094",
+      "sourceNumber": 94,
+      "question": "What mass of sodium hydroxide (\\text{NaOH}) is required to prepare 250\\text{ cm}^3 of a 0.1\\text{ mol/dm}^3 solution? [\\text{Na} = 23, \\text{O} = 16, \\text{H} = 1]"
+    },
+    {
+      "externalId": "chem-docx-095",
+      "sourceNumber": 95,
+      "question": "Which gas is collected by downward displacement of air because it is denser than air and soluble in water?"
+    },
+    {
+      "externalId": "chem-docx-096",
+      "sourceNumber": 96,
+      "question": "In an electrochemical cell, oxidation always takes place at the"
+    },
+    {
+      "externalId": "chem-docx-099",
+      "sourceNumber": 99,
+      "question": "Which of the following laws states that equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules?"
+    },
+    {
+      "externalId": "chem-docx-103",
+      "sourceNumber": 103,
+      "question": "Which of the following drying agents is most suitable for drying ammonia gas?"
+    },
+    {
+      "externalId": "chem-docx-104",
+      "sourceNumber": 104,
+      "question": "Which allotrope of sulfur is stable above 96°C?"
+    },
+    {
+      "externalId": "chem-docx-105",
+      "sourceNumber": 105,
+      "question": "Temporary hardness of water can be removed by"
+    },
+    {
+      "externalId": "chem-docx-114",
+      "sourceNumber": 114,
+      "question": "At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. This statement represents"
+    },
+    {
+      "externalId": "chem-docx-118",
+      "sourceNumber": 118,
+      "question": "A reaction in which heat is absorbed from the surroundings is characterized by"
+    },
+    {
+      "externalId": "chem-docx-120",
+      "sourceNumber": 120,
+      "question": "What is the IUPAC name of the compound CH3-CH(OH)-CH3?"
+    },
+    {
+      "externalId": "chem-docx-123",
+      "sourceNumber": 123,
+      "question": "Vegetable oils are converted into solid margarine through the process of"
+    },
+    {
+      "externalId": "chem-docx-124",
+      "sourceNumber": 124,
+      "question": "Which atmospheric pollutant gas reacts with hemoglobin in blood to reduce oxygen transport capacity?"
+    },
+    {
+      "externalId": "chem-docx-125",
+      "sourceNumber": 125,
+      "question": "How many orbitals exist in the d-subshell of an atom?"
+    },
+    {
+      "externalId": "chem-docx-126",
+      "sourceNumber": 126,
+      "question": "Structural isomers are compounds that have the same"
+    },
+    {
+      "externalId": "chem-docx-130",
+      "sourceNumber": 130,
+      "question": "Nylon-6,6 is classified as a"
+    },
+    {
+      "externalId": "chem-docx-136",
+      "sourceNumber": 136,
+      "question": "When ammonium trioxonitrate (V) is heated, the gas evolved is"
+    },
+    {
+      "externalId": "chem-docx-137",
+      "sourceNumber": 137,
+      "question": "Which of the following metals will displace copper from aqueous copper (II) tetraoxosulphate (VI) solution?"
+    },
+    {
+      "externalId": "chem-docx-141",
+      "sourceNumber": 141,
+      "question": "Soap forms scum with hard water because hard water contains"
+    },
+    {
+      "externalId": "chem-docx-144",
+      "sourceNumber": 144,
+      "question": "The scattering of a beam of light by colloidal particles is known as the"
+    },
+    {
+      "externalId": "chem-docx-149",
+      "sourceNumber": 149,
+      "question": "The two main crystalline allotropes of sulfur are"
+    },
+    {
+      "externalId": "chem-docx-151",
+      "sourceNumber": 151,
+      "question": "Which alloy is composed primarily of copper and zinc?"
+    },
+    {
+      "externalId": "chem-docx-154",
+      "sourceNumber": 154,
+      "question": "The hybridization of carbon orbitals in ethyne (C2H2) is"
+    },
+    {
+      "externalId": "chem-docx-156",
+      "sourceNumber": 156,
+      "question": "Which of the following compounds is deliquescent?"
+    },
+    {
+      "externalId": "chem-docx-161",
+      "sourceNumber": 161,
+      "question": "The conversion of starch to maltose during enzyme action is catalyzed by"
+    },
+    {
+      "externalId": "chem-docx-165",
+      "sourceNumber": 165,
+      "question": "Which gas possesses a characteristic rotten-egg odor?"
+    },
+    {
+      "externalId": "chem-docx-167",
+      "sourceNumber": 167,
+      "question": "Characteristic addition reactions are typical of"
+    },
+    {
+      "externalId": "chem-docx-169",
+      "sourceNumber": 169,
+      "question": "Which separation method is used to separate plant pigments or inks?"
+    },
+    {
+      "externalId": "chem-docx-170",
+      "sourceNumber": 170,
+      "question": "The chemical composition of rust is"
+    },
+    {
+      "externalId": "chem-docx-171",
+      "sourceNumber": 171,
+      "question": "An apparatus used specifically for measuring heat changes during chemical processes is a"
+    },
+    {
+      "externalId": "chem-docx-173",
+      "sourceNumber": 173,
+      "question": "Which element has the lowest boiling point among halogens?"
+    },
+    {
+      "externalId": "chem-docx-176",
+      "sourceNumber": 176,
+      "question": "What are the SI units of concentration in volumetric analysis?"
+    },
+    {
+      "externalId": "chem-docx-179",
+      "sourceNumber": 179,
+      "question": "What is standard temperature in Kelvin (K)?"
+    },
+    {
+      "externalId": "chem-docx-180",
+      "sourceNumber": 180,
+      "question": "Which of the following substances sublimes upon heating?"
+    },
+    {
+      "externalId": "chem-docx-183",
+      "sourceNumber": 183,
+      "question": "Starch, cellulose, and proteins are examples of"
+    },
+    {
+      "externalId": "chem-docx-184",
+      "sourceNumber": 184,
+      "question": "Substances containing the same molecular and structural formulas but differing in spatial 3D arrangement of atoms exhibit"
+    },
+    {
+      "externalId": "chem-docx-189",
+      "sourceNumber": 189,
+      "question": "Heavy water is chemically known as"
+    },
+    {
+      "externalId": "chem-docx-191",
+      "sourceNumber": 191,
+      "question": "Gas collection by upward displacement of air is suitable for gases that are"
+    },
+    {
+      "externalId": "chem-docx-197",
+      "sourceNumber": 197,
+      "question": "In the test for trioxocarbonate (IV) ions (CO32-), addition of dilute HCl yields a gas that turns lime water"
+    },
+    {
+      "externalId": "chem-docx-202",
+      "sourceNumber": 202,
+      "question": "The process by which a solid changes directly into a gas without passing through the liquid state is"
+    },
+    {
+      "externalId": "chem-docx-203",
+      "sourceNumber": 203,
+      "question": "Which of the following is a neutral oxide?"
+    },
+    {
+      "externalId": "chem-docx-205",
+      "sourceNumber": 205,
+      "question": "What volume of 0.1 mol/dm3 NaOH is required to neutralize 20 cm3 of 0.1 mol/dm3 H2SO4?"
+    },
+    {
+      "externalId": "chem-docx-209",
+      "sourceNumber": 209,
+      "question": "The chemical formula of copper (II) tetraoxosulphate (VI) pentahydrate is"
+    },
+    {
+      "externalId": "chem-docx-210",
+      "sourceNumber": 210,
+      "question": "What is the concentration in g/dm3 of a 0.5 mol/dm3 solution of sodium chloride (NaCl)? [Na = 23, Cl = 35.5]"
+    },
+    {
+      "externalId": "chem-docx-214",
+      "sourceNumber": 214,
+      "question": "When sodium metal reacts with cold water, the products formed are"
+    },
+    {
+      "externalId": "chem-docx-215",
+      "sourceNumber": 215,
+      "question": "The Law of Definite Proportions states that"
+    },
+    {
+      "externalId": "chem-docx-217",
+      "sourceNumber": 217,
+      "question": "Which of the following is classified as a primary cell?"
+    },
+    {
+      "externalId": "chem-docx-220",
+      "sourceNumber": 220,
+      "question": "The minimum energy required for colliding reactant particles to form an activated complex and lead to product formation is called"
+    },
+    {
+      "externalId": "chem-docx-222",
+      "sourceNumber": 222,
+      "question": "Pure water boils at 100°C at 1 atm. Adding sodium chloride to pure water will"
+    },
+    {
+      "externalId": "chem-docx-225",
+      "sourceNumber": 225,
+      "question": "The term \"isomerism\" refers to chemical compounds having"
+    },
+    {
+      "externalId": "chem-docx-226",
+      "sourceNumber": 226,
+      "question": "Chlorination of water during municipal treatment is carried out to"
+    },
+    {
+      "externalId": "chem-docx-228",
+      "sourceNumber": 228,
+      "question": "Which gas can be collected over water because it is virtually insoluble in water?"
+    },
+    {
+      "externalId": "chem-docx-229",
+      "sourceNumber": 229,
+      "question": "Saturated hydrocarbons (alkan) undergo primarily"
+    },
+    {
+      "externalId": "chem-docx-230",
+      "sourceNumber": 230,
+      "question": "The molecular geometry of a water (H2O) molecule is"
+    },
+    {
+      "externalId": "chem-docx-241",
+      "sourceNumber": 241,
+      "question": "A substance that increases the rate of a chemical reaction without undergoing permanent chemical change itself is a"
+    },
+    {
+      "externalId": "chem-docx-243",
+      "sourceNumber": 243,
+      "question": "The transition of liquid water into water vapor at temperatures below its boiling point is called"
+    },
+    {
+      "externalId": "chem-docx-244",
+      "sourceNumber": 244,
+      "question": "What is the molecular formula of propane?"
+    },
+    {
+      "externalId": "chem-docx-245",
+      "sourceNumber": 245,
+      "question": "What mass of calcium oxide (CaO) is obtained by complete thermal decomposition of 20 g of calcium carbonate (CaCO3)? [Ca = 40, C = 12, O = 16]"
+    },
+    {
+      "externalId": "chem-docx-247",
+      "sourceNumber": 247,
+      "question": "Synthetic detergents are preferred over traditional soaps in hard water regions because"
+    },
+    {
+      "externalId": "chem-docx-001",
+      "sourceNumber": 1,
+      "question": "The filter in a cigarette reduces the nicotine content by"
+    },
+    {
+      "externalId": "chem-docx-002",
+      "sourceNumber": 2,
+      "question": "Which of these processes requires crystallization most?"
+    },
+    {
+      "externalId": "chem-docx-008",
+      "sourceNumber": 8,
+      "question": "When a small quantity of solid ammonium chloride (NH4Cl) is heated gently in a test tube, the solid gradually disappears, producing two gases. Later, a white deposit forms on the cooler upper part of the tube. The ammonium chloride has undergone"
+    },
+    {
+      "externalId": "chem-docx-012",
+      "sourceNumber": 12,
+      "question": "The weakest attractive force that can be observed between two molecules is"
+    },
+    {
+      "externalId": "chem-docx-013",
+      "sourceNumber": 13,
+      "question": "An element used in the manufacturing of safety matches is"
+    },
+    {
+      "externalId": "chem-docx-017",
+      "sourceNumber": 17,
+      "question": "In the experimental discovery of canal rays (protons), the device used was a"
+    },
+    {
+      "externalId": "chem-docx-020",
+      "sourceNumber": 20,
+      "question": "In the production of soap, concentrated sodium chloride solution (brine) is added to"
+    },
+    {
+      "externalId": "chem-docx-023",
+      "sourceNumber": 23,
+      "question": "The mathematical relation P1V1 = P2V2 supports"
+    },
+    {
+      "externalId": "chem-docx-024",
+      "sourceNumber": 24,
+      "question": "A fixed mass of gas has a volume of 92 cm3 at 3°C. What will be its volume at 18°C if pressure remains constant?"
+    },
+    {
+      "externalId": "chem-docx-025",
+      "sourceNumber": 25,
+      "question": "Which of the following ion quantities requires the largest quantity of electricity for discharge at an electrode?"
+    },
+    {
+      "externalId": "chem-docx-028",
+      "sourceNumber": 28,
+      "question": "Rare (noble) gases are chemically unreactive because they"
+    },
+    {
+      "externalId": "chem-docx-032",
+      "sourceNumber": 32,
+      "question": "All of the following are electromagnetic waves EXCEPT"
+    },
+    {
+      "externalId": "chem-docx-034",
+      "sourceNumber": 34,
+      "question": "The number of structural isomers formed by hexane (C6H14) is"
+    },
+    {
+      "externalId": "chem-docx-035",
+      "sourceNumber": 35,
+      "question": "Matter is composed of basic structural particles EXCEPT"
+    },
+    {
+      "externalId": "chem-docx-037",
+      "sourceNumber": 37,
+      "question": "What volume of 0.5 mol/dm3 H2SO4 will exactly neutralize 20 cm3 of 0.1 mol/dm3 NaOH solution?"
+    },
+    {
+      "externalId": "chem-docx-041",
+      "sourceNumber": 41,
+      "question": "When sugar dissolves in water, the reaction is accompanied by a"
+    },
+    {
+      "externalId": "chem-docx-042",
+      "sourceNumber": 42,
+      "question": "For the reaction NH3(g) + HCl(g) -> NH4Cl(s), the entropy change of the system is"
+    },
+    {
+      "externalId": "chem-docx-045",
+      "sourceNumber": 45,
+      "question": "Furring of kettles is caused by the deposition of insoluble"
+    },
+    {
+      "externalId": "chem-docx-047",
+      "sourceNumber": 47,
+      "question": "According to kinetic theory, an increase in temperature causes the average kinetic energy of gas particles to"
+    },
+    {
+      "externalId": "chem-docx-051",
+      "sourceNumber": 51,
+      "question": "Alloys are best prepared by"
+    },
+    {
+      "externalId": "chem-docx-052",
+      "sourceNumber": 52,
+      "question": "In cold regions where temperatures fall below 273 K (0°C), common salt is spread on icy roads to"
+    },
+    {
+      "externalId": "chem-docx-056",
+      "sourceNumber": 56,
+      "question": "Rare gases are chemically inert because they"
+    },
+    {
+      "externalId": "chem-docx-058",
+      "sourceNumber": 58,
+      "question": "When two bulbs containing different gases at equal pressure and temperature are connected mouth-to-mouth, the total entropy of the system will"
+    },
+    {
+      "externalId": "chem-docx-060",
+      "sourceNumber": 60,
+      "question": "According to kinetic theory, an increase in absolute temperature causes the average kinetic energy of gas particles to"
+    },
+    {
+      "externalId": "chem-docx-070",
+      "sourceNumber": 70,
+      "question": "Calculate the relative molecular mass of limestone, CaCO3. [Ca = 40, C = 12, O = 16]"
+    },
+    {
+      "externalId": "chem-docx-071",
+      "sourceNumber": 71,
+      "question": "When steam is passed over red-hot carbon (coke), the gaseous products formed are"
+    }
+  ],
+  "duplicateRecords": [
+    {
+      "externalId": "chem-docx-068",
+      "sourceNumber": 68,
+      "question": "Which of the following oxides is amphoteric?",
+      "duplicateWithin": null,
+      "duplicateStored": true
+    },
+    {
+      "externalId": "chem-docx-111",
+      "sourceNumber": 111,
+      "question": "Which indicator is most suitable for titrating a strong acid against a weak base?",
+      "duplicateWithin": null,
+      "duplicateStored": true
+    },
+    {
+      "externalId": "chem-docx-051",
+      "sourceNumber": 51,
+      "question": "Alloys are best prepared by",
+      "duplicateWithin": "chem-docx-052",
+      "duplicateStored": false
+    }
+  ]
+}

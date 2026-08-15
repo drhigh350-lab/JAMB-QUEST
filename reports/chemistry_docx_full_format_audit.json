@@ -1,0 +1,291 @@
+{
+  "sourceFile": "/home/ubuntu/upload/#JAMBCHEMISTRYPASTQUESTIONS-DR.docx",
+  "paragraphCount": 11708,
+  "patternCounts": {
+    "bracketed_question_headers": 321,
+    "plain_numbered_questions": 71,
+    "markdown_bold_numbered_questions": 954,
+    "question_word_numbered": 0,
+    "answer_key_lines": 392,
+    "option_a_lines": 385,
+    "option_b_lines": 385
+  },
+  "likelyQuestionStartCount": 1346,
+  "formatBreakdown": {
+    "markdown_bold_numbered_questions": 954,
+    "plain_numbered_questions": 71,
+    "bracketed_question_headers": 321
+  },
+  "formatSamples": {
+    "markdown_bold_numbered_questions": [
+      {
+        "paragraphIndex": 1,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**1. X is crystalline salt of sodium. Solution of X in water turns litmus red produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilute hydrochloric acid. X is**"
+      },
+      {
+        "paragraphIndex": 10,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**2. The alkanol obtained from the production of soap is**"
+      },
+      {
+        "paragraphIndex": 19,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**3. The flame used by welders in cutting metals is**"
+      },
+      {
+        "paragraphIndex": 28,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**4. Consecutive members of an alkane homologous series differ by**"
+      },
+      {
+        "paragraphIndex": 37,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**5. If an element has the electronic configuration 1s²2s²2p⁶3s²3p² it is**"
+      },
+      {
+        "paragraphIndex": 46,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**6. Some copper (II) sulphate pentahydrate (CuSO₄·5H₂O) was heated at 120°C with the following results: Wt of crucible = 10.00g, Wt of crucible + CuSO₄·5H₂O = 14.98g, Wt of crucible + residue = 13.54g. How many molecules of water of crystallization were lost? [H=1, Cu=63.5, O=16, S=32]**"
+      },
+      {
+        "paragraphIndex": 55,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**7. The three-dimensional shape of methane is**"
+      },
+      {
+        "paragraphIndex": 64,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**8. An unknown organic compound X has a relative molecular mass of 180. It contains C, H, and O in the atomic ratio 1:2:1. The compound has a sweet taste and melts on heating. In the presence of yeast and in the absence of air, X is converted to compound Y and a colourless gas. Compound Y reacts with sodium metal to produce a gas Z which gives a 'pop' sound with a glowing splint. Y also reacts with ethanoic acid to give a sweet smelling compound W. Compound W is**"
+      },
+      {
+        "paragraphIndex": 73,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**9. The molecular formula of X is**"
+      },
+      {
+        "paragraphIndex": 82,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**10. The reaction of X with yeast forms the basis of the**"
+      },
+      {
+        "paragraphIndex": 91,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**11. A mixture of common salt, ammonium chloride and barium sulphate can best be separated by**"
+      },
+      {
+        "paragraphIndex": 100,
+        "format": "markdown_bold_numbered_questions",
+        "text": "**12. Which of the following relationships between the pressure P, the volume V and the temperature T, represents an ideal gas behavior?**"
+      }
+    ],
+    "plain_numbered_questions": [
+      {
+        "paragraphIndex": 2897,
+        "format": "plain_numbered_questions",
+        "text": "350. Chlorine, consisting of two isotopes of mass numbers 35 and 37, has an atomic mass of 35.5. The relative abundance of the isotope of mass number 37 is"
+      },
+      {
+        "paragraphIndex": 2905,
+        "format": "plain_numbered_questions",
+        "text": "351. 10.0 dm³ of air containing H₂S as an impurity was passed through a solution of Pb(NO₃)₂ until all the H₂S had reacted. The precipitate of PbS was found to weigh 5.02 g. According to the equation: Pb(NO₃)₂ + H₂S → PbS + 2HNO₃, the percentage by volume of hydrogen sulphide in the air is [Pb=207, S=23, GMV at STP=22.4 dm³]"
+      },
+      {
+        "paragraphIndex": 2913,
+        "format": "plain_numbered_questions",
+        "text": "352. A blue solid T which weighed 5.0 g was placed on a table. After 8 hours, the resulting pink solid was found to weigh 5.5 g. It can be inferred that substance T"
+      },
+      {
+        "paragraphIndex": 2921,
+        "format": "plain_numbered_questions",
+        "text": "353. The effluent of an industrial plant used in the electrolysis of concentrated brine, with a flowing mercury cathode may contain impurities like"
+      },
+      {
+        "paragraphIndex": 2929,
+        "format": "plain_numbered_questions",
+        "text": "354. The solubility in moles per dm³ of 20 g of CuSO₄ dissolved in 100 g of water at 180°C is [Cu=63.5, S=32, O=16]"
+      },
+      {
+        "paragraphIndex": 2937,
+        "format": "plain_numbered_questions",
+        "text": "355. Smoke consists of"
+      },
+      {
+        "paragraphIndex": 2945,
+        "format": "plain_numbered_questions",
+        "text": "356. Na₂C₂O₄ + CaCl₂ → CaC₂O₄ + 2NaCl. Given a solution of 1.9 g of sodium oxalate in 50 g of water at room temperature, calculate the minimum volume of 0.1 M calcium chloride required to produce maximum calcium oxalate using the above equation."
+      },
+      {
+        "paragraphIndex": 2953,
+        "format": "plain_numbered_questions",
+        "text": "357. 2.0 g of a monobasic acid was made up to 250 cm³ with distilled water. 25.00 cm³ of this solution required 20.00 cm³ of 0.1 M NaOH solution for complete neutralization. The molar mass of the acid is"
+      },
+      {
+        "paragraphIndex": 2961,
+        "format": "plain_numbered_questions",
+        "text": "358. What is the concentration of H⁺ ions in moles per dm³ of a solution of pH 4.398?"
+      },
+      {
+        "paragraphIndex": 2969,
+        "format": "plain_numbered_questions",
+        "text": "359. What volume of 11.0 M hydrochloric acid must be diluted to obtain 1 dm³ of 0.05 M acid?"
+      },
+      {
+        "paragraphIndex": 2977,
+        "format": "plain_numbered_questions",
+        "text": "360. If 10.8 g of silver is deposited in a silver coulometer connected in series with a copper coulometer, the volume of oxygen liberated is [Ag=108, Cu=64, GMV at STP=22.40 dm³]"
+      },
+      {
+        "paragraphIndex": 2985,
+        "format": "plain_numbered_questions",
+        "text": "361. 0.1 Faraday of electricity deposited 2.95 g of nickel during electrolysis in an aqueous solution. Calculate the number of moles of nickel that will be deposited by 0.4 Faraday [Ni=58.7]"
+      }
+    ],
+    "bracketed_question_headers": [
+      {
+        "paragraphIndex": 8119,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 1]"
+      },
+      {
+        "paragraphIndex": 8132,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 2]"
+      },
+      {
+        "paragraphIndex": 8145,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 3]"
+      },
+      {
+        "paragraphIndex": 8158,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 4]"
+      },
+      {
+        "paragraphIndex": 8171,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 5]"
+      },
+      {
+        "paragraphIndex": 8184,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 6]"
+      },
+      {
+        "paragraphIndex": 8197,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 7]"
+      },
+      {
+        "paragraphIndex": 8210,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 8]"
+      },
+      {
+        "paragraphIndex": 8223,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 9]"
+      },
+      {
+        "paragraphIndex": 8236,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 10]"
+      },
+      {
+        "paragraphIndex": 8249,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 11]"
+      },
+      {
+        "paragraphIndex": 8263,
+        "format": "bracketed_question_headers",
+        "text": "[QUESTION 12]"
+      }
+    ]
+  },
+  "firstParagraphs": [
+    "# JAMB CHEMISTRY PAST QUESTIONS -DR.HIGH",
+    "**1. X is crystalline salt of sodium. Solution of X in water turns litmus red produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilute hydrochloric acid. X is**",
+    "**A. Na₂CO₃**",
+    "**B. NaHCO₃**",
+    "**C. NaHSO₄**",
+    "**D. Na₂SO₃**",
+    "**E. Na₂SO₄**",
+    "**Correct Answer: C. NaHSO₄**",
+    "*Explanation:* NaHSO₄ is an acid salt that turns litmus red. It reacts with sodium carbonate to produce CO₂ gas (turns lime water milky). With BaCl₂, it gives a white precipitate of BaSO₄ which is insoluble in dilute HCl.",
+    "---",
+    "**2. The alkanol obtained from the production of soap is**",
+    "**A. ethanol**",
+    "**B. glycerol**",
+    "**C. methanol**",
+    "**D. propanol**",
+    "**E. glycol**",
+    "**Correct Answer: B. glycerol**",
+    "*Explanation:* Soap is produced by saponification of fats and oils with NaOH. The reaction produces soap (sodium salt of fatty acids) and glycerol (propane-1,2,3-triol) as a byproduct.",
+    "---",
+    "**3. The flame used by welders in cutting metals is**",
+    "**A. butane gas flame**",
+    "**B. acetylene flame**",
+    "**C. kerosene flame**",
+    "**D. oxy-acetylene flame**",
+    "**E. oxygen flame**",
+    "**Correct Answer: D. oxy-acetylene flame**",
+    "*Explanation:* Oxy-acetylene flame produces extremely high temperatures (about 3000°C) needed for welding and cutting metals. It is produced by burning acetylene in oxygen.",
+    "---",
+    "**4. Consecutive members of an alkane homologous series differ by**",
+    "**A. CH**",
+    "**B. CH₂**",
+    "**C. CH₃**",
+    "**D. CH₄**",
+    "**E. CₙH₂ₙ₊₂**",
+    "**Correct Answer: B. CH₂**",
+    "*Explanation:* In the alkane homologous series, each successive member differs by a CH₂ group. For example, methane (CH₄), ethane (C₂H₆), propane (C₃H₈) differ by CH₂.",
+    "---",
+    "**5. If an element has the electronic configuration 1s²2s²2p⁶3s²3p² it is**",
+    "**A. a metal**",
+    "**B. an alkaline earth metal**"
+  ],
+  "lastParagraphs": [
+    "[QUESTION 68]",
+    "The oxidation state of oxygen in tetraoxosulphate (VI) acid (H2SO4) is[span_55](start_span)[span_55](end_span)",
+    "A. -4",
+    "B. -2",
+    "C. +4",
+    "D. -8",
+    "Answer Key: B",
+    "Explanation:",
+    "- Oxygen consistently exhibits an oxidation number of -2 in normal acids and oxides[span_56](start_span)[span_56](end_span).",
+    "--------------------------------------------------------------------------------",
+    "[QUESTION 69]",
+    "In the industrial electrolysis of brine, the anode material used is[span_57](start_span)[span_57](end_span)",
+    "A. platinum",
+    "B. copper",
+    "C. zinc",
+    "D. carbon / titanium",
+    "Answer Key: D",
+    "Explanation:",
+    "- Carbon (graphite) or titanium is used as the unreactive anode to resist chemical attack by liberated chlorine gas during brine electrolysis[span_58](start_span)[span_58](end_span).",
+    "--------------------------------------------------------------------------------",
+    "[QUESTION 70]",
+    "Calculate the relative molecular mass of limestone, CaCO3. [Ca = 40, C = 12, O = 16][span_59](start_span)[span_59](end_span)",
+    "A. 56",
+    "B. 100",
+    "C. 76",
+    "D. 90",
+    "Answer Key: B",
+    "Explanation:",
+    "- Molar mass = 40 + 12 + 3(16) = 40 + 12 + 48 = 100 g/mol[span_60](start_span)[span_60](end_span).",
+    "--------------------------------------------------------------------------------",
+    "[QUESTION 71]",
+    "When steam is passed over red-hot carbon (coke), the gaseous products formed are[span_61](start_span)[span_61](end_span)",
+    "A. hydrogen and trioxocarbonate (IV) acid",
+    "B. hydrogen, oxygen and carbon (IV) oxide",
+    "C. hydrogen and carbon (II) oxide",
+    "D. hydrogen and carbon (IV) oxide",
+    "Answer Key: C",
+    "Explanation:",
+    "- Reaction: C(s) + H2O(g) -> CO(g) + H2(g). The mixture of carbon (II) oxide and hydrogen is commercially known as water gas[span_62](start_span)[span_62](end_span).",
+    "================================================================================"
+  ]
+}

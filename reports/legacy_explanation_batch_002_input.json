@@ -1,0 +1,328 @@
+{
+  "batchNumber": 2,
+  "batchSize": 20,
+  "availableCandidates": 715,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30046,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The overall equation for photosynthesis is:",
+      "options": [
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy",
+        "6CO₂ + O₂ → C₆H₁₂O₆ + 6H₂O",
+        "C₆H₁₂O₆ + 6H₂O → 6CO₂ + 6O₂"
+      ],
+      "answerIndex": 0,
+      "answerText": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+      "originalExplanation": "Photosynthesis is the light-driven process in chloroplasts where plants use carbon dioxide and water to produce glucose and release oxygen.\nThe balanced overall equation 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (option A) shows the stoichiometric conversion of six CO₂ and six H₂O molecules into one glucose and six O₂ molecules.\nLight energy captured by chlorophyll drives the reduction of CO₂ and the oxidation (splitting) of H₂O, and the O₂ produced originates mainly from the water molecules.\nOption B (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy) is the equation for aerobic respiration, the reverse process that releases energy rather than requiring light.\nOption C is incorrect and unbalanced (it lists 6CO₂ + O₂ → C₆H₁₂O₆ + 6H₂O), giving wrong stoichiometry and misplacing water and oxygen.\nOption D also misrepresents the chemistry by reversing photosynthesis and adding water on the glucose side, so it does not describe photosynthesis.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30047,
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "question": "Which organ removes the largest amount of excess water from the body?",
+      "options": [
+        "Liver",
+        "Lung",
+        "Kidney",
+        "Skin"
+      ],
+      "answerIndex": 2,
+      "answerText": "Kidney",
+      "originalExplanation": "The question concerns body water balance and the main routes by which excess water is removed from the body.\nThe kidneys remove the largest amount of excess water by filtering blood and producing urine as the principal route of water excretion.\nEach kidney contains nephrons that filter plasma and then adjust water reabsorption in segments such as the proximal tubule, loop of Henle and collecting duct, with hormones like ADH controlling urine concentration.\nThe skin and lungs also lose water—skin by sweating and insensible evaporation, lungs by water vapour in exhaled air—but under normal conditions these routes account for less total water loss than urine.\nThe liver does not serve as a major excretory organ for excess water; its roles are mainly metabolic and detoxificatory and it only indirectly contributes to waste formation (e.g., urea synthesis).\nTherefore Kidney is correct because urine formation by the renal system is the primary mechanism for removing large amounts of excess water, distinguishing it from the skin, lungs and liver.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30049,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "Which of the following diseases is not sexually transmitted?",
+      "options": [
+        "Gonorrhoea",
+        "Herpes",
+        "Influenza",
+        "Syphilis"
+      ],
+      "answerIndex": 2,
+      "answerText": "Influenza",
+      "originalExplanation": "Sexually transmitted infections (STIs) are infections predominantly spread by sexual contact involving genital secretions or mucous membranes.\nInfluenza is a respiratory viral infection transmitted mainly by airborne droplets and contact with contaminated surfaces, not by sexual intercourse.\nGonorrhoea is caused by the bacterium Neisseria gonorrhoeae and is classically transmitted through sexual contact, affecting the genitourinary tract.\nSyphilis, caused by the bacterium Treponema pallidum, is likewise transmitted mainly via sexual contact and produces characteristic primary and secondary stages if untreated.\nGenital herpes is caused by herpes simplex virus (commonly HSV‑2, and sometimes HSV‑1) and is transmitted through sexual contact, producing recurrent painful lesions.\nBecause influenza spreads by respiratory routes rather than sexual contact, it is the correct choice as the disease that is not sexually transmitted, while the other three are established STIs.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30050,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The process of nitrogen fixation by free-living bacteria in the soil converts atmospheric nitrogen directly into:",
+      "options": [
+        "Nitrates",
+        "Nitrites",
+        "Ammonium compounds",
+        "Amino acids"
+      ],
+      "answerIndex": 2,
+      "answerText": "Ammonium compounds",
+      "originalExplanation": "Free-living nitrogen-fixing bacteria convert atmospheric N2 into ammonia, which in soil exists largely as ammonium ions (NH4+).\nThis biological reduction of N2 is carried out by the enzyme nitrogenase and requires ATP and reducing power.\nThe correct option is ammonium compounds because the immediate, direct product of microbial fixation is ammonia/ammonium rather than oxidized nitrogen forms.\nNitrates are not the direct product of fixation; they are produced later by nitrifying bacteria that oxidize ammonium to nitrite and then to nitrate.\nNitrites are an intermediate in nitrification (from ammonium to nitrate) and are therefore not the direct fixation product.\nAmino acids are organic nitrogen compounds synthesized by plants and microbes after assimilating ammonium, so they are a secondary product, not the direct product of fixation.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30051,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "Which of the following is an example of a member of the phylum Mollusca?",
+      "options": [
+        "Earthworm",
+        "Snail",
+        "Starfish",
+        "Cockroach"
+      ],
+      "answerIndex": 1,
+      "answerText": "Snail",
+      "originalExplanation": "The phylum Mollusca comprises soft-bodied animals usually with a muscular foot, a mantle, and often a calcareous shell.\nSnail is a mollusc because it has a soft body, a distinct muscular foot for locomotion, a mantle that secretes its shell, and typically a radula for feeding.\nEarthworm is not a mollusc but an annelid, characterized by a segmented body and setae (bristles) on each segment.\nStarfish belong to the phylum Echinodermata and possess pentaradial symmetry and a water vascular system, features absent in molluscs.\nCockroach is an arthropod (insect) with a chitinous exoskeleton, jointed appendages, and three distinct body regions, unlike molluscs.\nTherefore, of the choices given, Snail is the correct example of a member of Mollusca.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30052,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "The longest bone in the human body is the:",
+      "options": [
+        "Humerus",
+        "Femur",
+        "Scapula",
+        "Tibia"
+      ],
+      "answerIndex": 1,
+      "answerText": "Femur",
+      "originalExplanation": "The question addresses skeletal anatomy: identification of the longest bone in the human body.\nThe femur, or thigh bone, runs from the hip (acetabulum) to the knee and is the single longest and strongest bone in the skeleton.\nIts length and robust structure support body weight and enable locomotion, which explains why it is longer than other limb bones.\nThe humerus is the long bone of the upper arm but is shorter than the femur and connects the shoulder to the elbow.\nThe tibia is the larger weight-bearing bone of the lower leg (shin) but does not reach the length of the femur.\nThe scapula is a flat shoulder blade rather than a long tubular bone, so it cannot be the longest bone.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30053,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "One of the structures used for excretion in an earthworm is the:",
+      "options": [
+        "Contractile vacuole",
+        "Flame cell",
+        "Malpighian tubule",
+        "Nephridium"
+      ],
+      "answerIndex": 3,
+      "answerText": "Nephridium",
+      "originalExplanation": "The question concerns excretory organs in different animal groups and the correct organ for earthworms is the nephridium.\nNephridia (metanephridia) occur segmentally in annelids and consist of a ciliated nephrostome, tubular glandular region and a nephridiopore that removes wastes and helps osmoregulation.\nEarthworms use nephridia to filter coelomic fluid and excrete nitrogenous wastes, which is why 'Nephridium' is the correct option.\nA contractile vacuole is a unicellular or protozoan organelle for expelling excess water in freshwater protists, not a structure in earthworms.\nFlame cells (protonephridia) occur in flatworms (Platyhelminthes) and function differently from annelid nephridia, so 'Flame cell' is not correct for earthworms.\nMalpighian tubules are excretory structures in many arthropods (e.g., insects) that empty into the gut and are thus distinct from the tubular nephridia of earthworms.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30054,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "The bright coloration of the petals of hibiscus flowers is an adaptation for:",
+      "options": [
+        "Photosynthesis",
+        "Attracting pollinators",
+        "Repelling predators",
+        "Water retention"
+      ],
+      "answerIndex": 1,
+      "answerText": "Attracting pollinators",
+      "originalExplanation": "The question concerns floral adaptation: bright petal colours are morphological traits that influence pollinator behaviour.\nHibiscus petals contain pigments such as anthocyanins and carotenoids that produce conspicuous colours to attract insects, birds and other pollinators to the flower.\nAttracting pollinators promotes transfer of pollen between flowers, increasing opportunities for cross-pollination and reproductive success.\nPhotosynthesis is unlikely because petals have few chloroplasts and leaves, not petals, are the primary photosynthetic organs.\nRepelling predators is less plausible since bright floral colours typically serve as attractants; defensive traits are usually structural, chemical, or cryptic rather than showy colouration.\nWater retention is incorrect because petals are thin, short-lived structures not adapted for storing water, so bright coloration is best explained by pollinator attraction.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30055,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which of the following structures is not a skeletal material?",
+      "options": [
+        "Chitin",
+        "Cartilage",
+        "Bone",
+        "Muscle"
+      ],
+      "answerIndex": 3,
+      "answerText": "Muscle",
+      "originalExplanation": "Skeletal materials are substances that form or support an organism's skeleton or exoskeleton.\nMuscle is contractile tissue specialized for producing force and movement, not for forming structural skeletal elements.\nBone is a mineralized connective tissue that provides rigid support in vertebrate skeletons.\nCartilage is a flexible connective tissue that forms parts of the vertebrate skeleton (e.g., joints, trachea, fetal skeleton) and functions as skeletal material.\nChitin is a structural polysaccharide that forms the hard exoskeleton of arthropods and therefore qualifies as a skeletal material.\nBecause muscle functions to move and exert force rather than to form supporting skeletal structures, 'Muscle' is the correct answer.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30056,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "The deficiency of vitamin D leads to:",
+      "options": [
+        "Beriberi",
+        "Pellagra",
+        "Rickets",
+        "Scurvy"
+      ],
+      "answerIndex": 2,
+      "answerText": "Rickets",
+      "originalExplanation": "Vitamin D promotes intestinal absorption of calcium and phosphate necessary for bone mineralization.\nIn children, deficiency of vitamin D impairs mineralization of the growing bone matrix, producing rickets characterized by bowed legs, delayed growth and skeletal deformities.\nIn adults, similar deficiency causes osteomalacia with bone pain and increased fracture risk, not beriberi, pellagra, or scurvy.\nBeriberi results from thiamine (vitamin B1) deficiency causing peripheral neuropathy and cardiac failure, so it is not caused by vitamin D lack.\nPellagra stems from niacin (vitamin B3) deficiency causing dermatitis, diarrhea and dementia, while scurvy is due to vitamin C deficiency leading to bleeding gums and poor wound healing.\nTherefore the correct option is Rickets because it specifically names the childhood bone disease produced by vitamin D deficiency.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30058,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "question": "Which of the following is not part of the mammalian male reproductive system?",
+      "options": [
+        "Epididymis",
+        "Vas deferens",
+        "Testis",
+        "Vulva"
+      ],
+      "answerIndex": 3,
+      "answerText": "Vulva",
+      "originalExplanation": "The item requires identification of which anatomical structures belong to the male versus the female reproductive system.\nThe vulva is the external female genitalia (including the labia, clitoris and the vaginal opening) and therefore is not a part of the male reproductive tract.\nThe testis (testes) are the male gonads responsible for producing sperm and secreting testosterone, making them central male reproductive organs.\nThe epididymis is a coiled duct on the surface of each testis where sperm mature and are temporarily stored before ejaculation.\nThe vas deferens (ductus deferens) is the muscular tube that conveys mature sperm from the epididymis toward the urethra during ejaculation.\nBecause epididymis, vas deferens and testis are components of the male reproductive system, vulva is correctly identified as not part of the mammalian male reproductive system.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30059,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "An evolutionary advantage of self-fertilization in plants is that it:",
+      "options": [
+        "Increases genetic diversity rapidly",
+        "Ensures species survival when pollinators are scarce",
+        "Eliminates harmful recessive genes completely",
+        "Results in high hybrid vigor"
+      ],
+      "answerIndex": 1,
+      "answerText": "Ensures species survival when pollinators are scarce",
+      "originalExplanation": "Self-fertilization (autogamy) is when a plant's own pollen fertilizes its ovules, allowing a single individual to produce viable seeds without another plant's pollen.\nAn important evolutionary advantage is reproductive assurance: selfing ensures seed set and short-term survival when pollinators or potential mates are scarce or absent.\nThis reproductive assurance helps isolated or newly colonizing plants persist and reproduce in pollinator-poor environments.\nSelf-fertilization does not increase genetic diversity; it reduces heterozygosity and produces more genetically uniform offspring over successive generations.\nSelfing cannot completely eliminate harmful recessive alleles: while inbreeding can expose recessives to selection and sometimes purge them, many deleterious alleles may persist in populations.\nBecause selfing reduces outcrossing and heterozygosity, it lowers rather than increases hybrid vigor (heterosis), so the alternatives about increased diversity or high vigor are incorrect.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30060,
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "question": "The deficiency of vitamin B₁ leads to:",
+      "options": [
+        "Beriberi",
+        "Pellagra",
+        "Rickets",
+        "Scurvy"
+      ],
+      "answerIndex": 0,
+      "answerText": "Beriberi",
+      "originalExplanation": "Vitamin B1 (thiamine) is a water-soluble vitamin that functions as a coenzyme (thiamine pyrophosphate) in carbohydrate metabolism and oxidative decarboxylation reactions.\nThiamine deficiency impairs ATP production in nerve and heart tissues, producing beriberi, which may present as peripheral neuropathy and muscle wasting (dry beriberi) or as cardiomyopathy with edema (wet beriberi).\nPellagra is caused by niacin (vitamin B3) deficiency and presents with dermatitis, diarrhea and dementia, a clinical picture distinct from beriberi.\nRickets results from vitamin D deficiency and causes defective bone mineralization in children, producing bowed legs and bone pain rather than the neuropathic or cardiac signs of thiamine deficiency.\nScurvy is due to vitamin C deficiency and is characterized by bleeding gums, petechiae and poor wound healing, which are not features of beriberi.\nBecause thiamine deficiency directly causes the neurological and cardiac manifestations described, the correct option is beriberi.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30061,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following serves as the brain box in man?",
+      "options": [
+        "Skeleton",
+        "Skull",
+        "Head",
+        "Spinal column"
+      ],
+      "answerIndex": 1,
+      "answerText": "Skull",
+      "originalExplanation": "The term 'brain box' colloquially refers to the bony case that protects the brain, namely the skull (cranium).\nThe skull is made of cranial bones fused together to enclose and cushion the brain against mechanical injury.\nThe spinal column protects the spinal cord and supports the head but does not enclose the brain, so it cannot be called the brain box.\nThe skeleton denotes the entire internal framework of bones and is too general to be equated with the brain box.\nThe head is a body region containing the skull plus face and sensory organs, whereas 'brain box' specifically names the protective cranial vault.\nTherefore the correct option is Skull because it uniquely forms the protective enclosure for the brain.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30063,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "question": "Which of the following bones is correctly matched with the part of the human skeleton to which it belongs?",
+      "options": [
+        "Scapula — Axial skeleton",
+        "Sternum — Appendicular skeleton",
+        "Femur — Appendicular skeleton",
+        "Vertebra — Appendicular skeleton"
+      ],
+      "answerIndex": 2,
+      "answerText": "Femur — Appendicular skeleton",
+      "originalExplanation": "The human skeleton is divided into the axial skeleton (skull, vertebral column, ribs and sternum) and the appendicular skeleton (limbs and limb girdles such as the scapula and pelvis).\nThe femur is the single large bone of the thigh and is therefore part of the appendicular skeleton.\nThe scapula is part of the pectoral (shoulder) girdle and so is also appendicular, not axial.\nThe sternum is the flat midline bone of the chest that, together with the ribs and vertebrae, forms the axial skeleton.\nVertebrae are the series of bones forming the vertebral column (spine), which is a central component of the axial skeleton.\nHence 'Femur — Appendicular skeleton' is correct while the alternatives incorrectly assign scapula, sternum or vertebra to the opposite divisions.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30065,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "The earliest form of life among the vertebrate groups is the:",
+      "options": [
+        "Aves",
+        "Amphibian",
+        "Pisces",
+        "Reptilia"
+      ],
+      "answerIndex": 2,
+      "answerText": "Pisces",
+      "originalExplanation": "The question asks which vertebrate group appeared first in the fossil record among the choices given.\nPisces (fish) is correct because the earliest vertebrates were fish-like animals recorded long before amphibians, reptiles or birds.\nEarly fishes included jawless forms (agnathans, often called ostracoderms) and later jawed fishes, which appear in the Paleozoic fossil record well before terrestrial vertebrates.\nAmphibians evolved from lobe-finned fishes during the Devonian, so they are derived from fish and appeared after fishes.\nReptiles are a later amniote group that evolved from amphibian-like ancestors in the Carboniferous, and Aves (birds) are even later, descending from theropod reptiles in the Mesozoic.\nTherefore, among the options given, Pisces is the earliest group because fishes are the ancestral vertebrates from which the others ultimately arose.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30066,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Which of the following reagents is used to test for the presence of protein in food?",
+      "options": [
+        "Benedict’s solution",
+        "Fehling’s solution",
+        "Millon’s reagent",
+        "Sudan III"
+      ],
+      "answerIndex": 2,
+      "answerText": "Millon’s reagent",
+      "originalExplanation": "The question concerns chemical tests used to identify major macromolecules in food, here asking which reagent indicates the presence of protein.\nMillon’s reagent is correct because it reacts with the phenolic (tyrosine) residues in proteins to give a red coloration or red precipitate on warming.\nThe visible red colour arises from reaction of the reagent with the aromatic phenolic group of tyrosine in protein molecules.\nBenedict’s and Fehling’s solutions are tests for reducing sugars and give a brick‑red copper(I) oxide precipitate when positive, so they do not indicate protein.\nSudan III is a lipid stain that produces orange‑red droplets with fats and oils and does not react with proteins.\nNote that Biuret reagent (not listed) is the common general test for peptide bonds and detects most proteins broadly, while Millon’s reagent is specifically responsive to tyrosine-containing proteins.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30067,
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "question": "Osmoregulation in unicellular freshwater organisms like Amoeba is carried out by the:",
+      "options": [
+        "Food vacuole",
+        "Contractile vacuole",
+        "Pseudopodium",
+        "Plasma membrane"
+      ],
+      "answerIndex": 1,
+      "answerText": "Contractile vacuole",
+      "originalExplanation": "Osmoregulation in freshwater unicellular organisms is the control of internal water and solute levels against a hypotonic external environment.\nThe contractile vacuole collects excess cytoplasmic water and periodically expels it to the outside, thereby maintaining osmotic balance.\nBecause it actively pumps out water to prevent swelling and lysis, the contractile vacuole is the correct organelle for osmoregulation in Amoeba.\nA food vacuole functions in digestion of ingested particles and not in bulk removal of excess water.\nA pseudopodium is a cytoplasmic projection used for locomotion and phagocytosis, not for water expulsion.\nThe plasma membrane is semi-permeable and allows passive water movement but cannot actively eliminate large water volumes rapidly, so it is not the primary osmoregulatory structure.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30068,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "In a mammalian heart, the valve located between the right atrium and right ventricle is the:",
+      "options": [
+        "Bicuspid valve",
+        "Tricuspid valve",
+        "Semilunar valve",
+        "Mitral valve"
+      ],
+      "answerIndex": 1,
+      "answerText": "Tricuspid valve",
+      "originalExplanation": "The question concerns the heart valves that control one-way blood flow between atria and ventricles in mammals.\nThe tricuspid valve lies between the right atrium and right ventricle, has three cusps, and prevents backflow during ventricular contraction.\nThe bicuspid valve (also called the mitral valve) is between the left atrium and left ventricle, so it is not the right-sided valve.\nMitral valve is simply another name for the bicuspid valve and thus cannot be the valve between the right atrium and right ventricle.\nSemilunar valves (pulmonary and aortic) sit at the ventricular outflow tracts and guard the exits of the ventricles, not the atrioventricular openings.\nTherefore the tricuspid valve is correct because it uniquely matches the anatomical position and function described.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30069,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The instrument used to determine the relative humidity of an atmosphere in ecological studies is a:",
+      "options": [
+        "Barometer",
+        "Anemometer",
+        "Hygrometer",
+        "Hydrometer"
+      ],
+      "answerIndex": 2,
+      "answerText": "Hygrometer",
+      "originalExplanation": "Relative humidity is the amount of water vapour in air expressed as a percentage of the maximum the air can hold at that temperature.\nA hygrometer is the instrument used to measure atmospheric moisture and thus gives readings of relative humidity.\nHygrometers operate by sensing moisture-induced changes (e.g. in hair length, electrical capacitance, or by wet- and dry‑bulb psychrometry) so they directly quantify humidity for ecological studies.\nA barometer measures atmospheric pressure, not moisture content, so it cannot give relative humidity values.\nAn anemometer measures wind speed and direction, which are important in ecology but do not itself measure humidity.\nA hydrometer measures the density or specific gravity of liquids and is therefore unrelated to measuring atmospheric humidity.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

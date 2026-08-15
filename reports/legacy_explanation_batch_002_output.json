@@ -1,0 +1,168 @@
+{
+  "batchNumber": 2,
+  "inputCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
+  "records": [
+    {
+      "id": 30046,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Answer: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂\nThis balanced equation shows six molecules of carbon dioxide and six of water are converted into one glucose molecule and six molecules of oxygen during photosynthesis.\nLight energy captured by chlorophyll in chloroplasts drives the reduction of CO₂ to form carbohydrate and the oxidation (splitting) of H₂O, which supplies the O₂ released.\nTherefore the equation correctly represents both the stoichiometry of reactants/products and the source of released oxygen in photosynthesis.",
+      "lineCount": 4,
+      "wordCount": 78,
+      "status": "ready"
+    },
+    {
+      "id": 30047,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The kidneys remove the largest amount of excess water by filtering blood and producing urine, which is the principal route of water excretion.\nEach kidney contains many nephrons that filter plasma and then adjust water reabsorption in the proximal tubule, loop of Henle and collecting duct.\nHormonal control, especially antidiuretic hormone (ADH), alters water reabsorption so the kidneys can increase urine volume when excess water must be removed.\nCorrect answer: Kidney",
+      "lineCount": 4,
+      "wordCount": 71,
+      "status": "ready"
+    },
+    {
+      "id": 30049,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Influenza is a respiratory viral infection caused by influenza viruses that primarily affect the respiratory tract.\nIt spreads mainly through respiratory droplets and by touching contaminated surfaces, not through sexual contact.\nBecause its transmission route is respiratory rather than sexual, influenza is not classified as a sexually transmitted infection.\nCorrect answer: Influenza",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30050,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Free-living nitrogen-fixing bacteria enzymatically reduce atmospheric N2 to ammonia (NH3).\nIn soil, this ammonia is rapidly protonated to ammonium ions (NH4+), i.e. ammonium compounds.\nThe biological reduction is carried out by the enzyme nitrogenase and requires ATP and reducing power.\nAnswer: Ammonium compounds",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30051,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Snail\nIt has a soft body and a distinct muscular foot used for locomotion, which is a main feature of molluscs.\nThe mantle in snails secretes a calcareous shell and they often have a radula for feeding, both characteristic of Mollusca.\nCorrect answer: Snail",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30052,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The femur is the single longest and strongest bone in the human skeleton.\nIt runs from the hip (acetabulum) to the knee, spanning the entire thigh.\nIts greater length and robust structure are specialized to bear body weight and enable powerful locomotion.\nCorrect answer: Femur",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready"
+    },
+    {
+      "id": 30053,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Earthworms have segmental excretory organs called nephridia (metanephridia).\nEach nephridium contains a ciliated nephrostome, a tubular glandular region, and a nephridiopore to remove wastes and help osmoregulation.\nNephridia filter coelomic fluid and actively excrete nitrogenous wastes while regulating water balance.\nAnswer: Nephridium",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30054,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Hibiscus petals contain pigments such as anthocyanins and carotenoids that produce bright, conspicuous colours.\nThese colours make the flowers more visible to insects, birds and other pollinators and help guide them to the floral rewards.\nAttracted pollinators pick up and transfer pollen as they visit flowers, increasing opportunities for cross-pollination and reproductive success.\nCorrect answer: Attracting pollinators",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready"
+    },
+    {
+      "id": 30055,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Muscle is contractile tissue specialized for producing force and movement.\nSkeletal materials are substances that form or support an organism’s structural framework.\nBecause muscle’s role is to move and exert force rather than to form rigid or flexible supporting elements, it does not function as skeletal material.\nMuscle",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready"
+    },
+    {
+      "id": 30056,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Vitamin D promotes intestinal absorption of calcium and phosphate, which are essential for bone mineralization.\nWhen children lack vitamin D, mineralization of the growing bone matrix is impaired,\nleading to rickets, which causes bowed legs, delayed growth and skeletal deformities.\nRickets",
+      "lineCount": 4,
+      "wordCount": 41,
+      "status": "ready"
+    },
+    {
+      "id": 30058,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The vulva is the external female genitalia.\nIt includes structures such as the labia, clitoris and the vaginal opening.\nBecause these are female external structures, the vulva is not part of the male reproductive tract.\nCorrect answer: Vulva",
+      "lineCount": 4,
+      "wordCount": 38,
+      "status": "ready"
+    },
+    {
+      "id": 30059,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Ensures species survival when pollinators are scarce\nSelf-fertilization lets a plant use its own pollen to fertilize its ovules, so it can produce seeds without another plant.\nThis reproductive assurance allows isolated or newly established individuals to reproduce even when pollinators or mates are absent.\nBy guaranteeing seed set under pollinator-poor conditions, selfing increases short-term persistence of the lineage.",
+      "lineCount": 4,
+      "wordCount": 59,
+      "status": "ready"
+    },
+    {
+      "id": 30060,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Thiamine (vitamin B1) is converted to thiamine pyrophosphate, a coenzyme required for key steps in carbohydrate oxidation and energy production.\nThiamine deficiency impairs oxidative decarboxylation reactions, reducing ATP synthesis in high‑demand tissues like nerves and the heart.\nEnergy failure in these tissues produces peripheral neuropathy and muscle wasting (dry beriberi) or cardiomyopathy with edema (wet beriberi), matching the clinical features of beriberi.\nCorrect answer: Beriberi",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready"
+    },
+    {
+      "id": 30061,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The skull is the bony case that surrounds and protects the brain.\nIt is formed by cranial bones fused together into a rigid cranial vault.\nThis enclosed space cushions and shields delicate brain tissue from mechanical injury.\nSkull",
+      "lineCount": 4,
+      "wordCount": 38,
+      "status": "ready"
+    },
+    {
+      "id": 30063,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Femur — Appendicular skeleton\nThe appendicular skeleton is made up of the limbs and the girdles that attach them to the trunk.\nThe femur is the single large bone of the thigh that runs from the hip to the knee.\nBecause it is a major bone of the lower limb, the femur is correctly classified as part of the appendicular skeleton.",
+      "lineCount": 4,
+      "wordCount": 61,
+      "status": "ready"
+    },
+    {
+      "id": 30065,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Pisces is correct because the earliest vertebrates preserved in the fossil record were fish-like animals.\nEarly fishes, including jawless agnathans and later jawed fishes, appear in Paleozoic strata as the first vertebrate body plans.\nThese fish-like forms are the ancestral vertebrates that show the initial stages of vertebrate evolution.\nCorrect answer: Pisces",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready"
+    },
+    {
+      "id": 30066,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Correct answer: Millon’s reagent\nIt reacts specifically with the phenolic (tyrosine) residues in proteins.\nOn warming this reaction produces a characteristic red colour or red precipitate.\nThus a red colour with Millon’s reagent indicates the presence of protein (tyrosine-containing) in the food sample.",
+      "lineCount": 4,
+      "wordCount": 43,
+      "status": "ready"
+    },
+    {
+      "id": 30067,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "In freshwater Amoeba, the contractile vacuole collects excess water that enters the cell by osmosis.\nIt periodically contracts to expel this water to the outside, reducing internal volume.\nBy removing excess cytoplasmic water, it prevents the cell from swelling and bursting.\nAnswer: Contractile vacuole",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready"
+    },
+    {
+      "id": 30068,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "The tricuspid valve is situated between the right atrium and right ventricle.\nIt has three cusps (leaflets) that form a secure, one-way opening.\nDuring right ventricular contraction the cusps close to prevent blood flowing back into the atrium.\nCorrect answer: Tricuspid valve",
+      "lineCount": 4,
+      "wordCount": 42,
+      "status": "ready"
+    },
+    {
+      "id": 30069,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "Relative humidity is the amount of water vapour in air expressed as a percentage of the maximum the air can hold at that temperature.\nA hygrometer is the instrument used to measure atmospheric moisture and thus gives readings of relative humidity.\nHygrometers operate by sensing moisture-induced changes (e.g., in hair length, electrical capacitance, or by wet- and dry‑bulb psychrometry), so they directly quantify humidity for ecological studies.\nCorrect answer: Hygrometer",
+      "lineCount": 4,
+      "wordCount": 70,
+      "status": "ready"
+    }
+  ]
+}

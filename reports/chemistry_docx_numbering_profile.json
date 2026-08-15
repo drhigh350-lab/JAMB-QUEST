@@ -1,0 +1,5703 @@
+{
+  "markdownNumberedLineCount": 954,
+  "distinctNumbers": 949,
+  "maxNumber": 1000,
+  "numberFrequency": {
+    "1": 3,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "48": 1,
+    "49": 1,
+    "50": 1,
+    "51": 1,
+    "52": 1,
+    "53": 1,
+    "54": 1,
+    "55": 1,
+    "56": 1,
+    "57": 1,
+    "58": 1,
+    "59": 1,
+    "60": 1,
+    "61": 1,
+    "62": 1,
+    "63": 1,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 1,
+    "68": 1,
+    "69": 1,
+    "70": 1,
+    "71": 1,
+    "72": 1,
+    "73": 1,
+    "74": 1,
+    "75": 1,
+    "76": 1,
+    "77": 1,
+    "78": 1,
+    "79": 1,
+    "80": 1,
+    "81": 1,
+    "82": 1,
+    "83": 1,
+    "84": 1,
+    "85": 1,
+    "86": 1,
+    "87": 1,
+    "88": 1,
+    "89": 1,
+    "90": 1,
+    "91": 1,
+    "92": 1,
+    "93": 1,
+    "94": 1,
+    "95": 1,
+    "96": 1,
+    "97": 1,
+    "98": 1,
+    "99": 1,
+    "100": 1,
+    "101": 1,
+    "102": 1,
+    "103": 1,
+    "104": 1,
+    "105": 1,
+    "106": 1,
+    "107": 1,
+    "108": 1,
+    "109": 1,
+    "110": 1,
+    "111": 1,
+    "112": 1,
+    "113": 1,
+    "114": 1,
+    "115": 1,
+    "116": 1,
+    "117": 1,
+    "118": 1,
+    "119": 1,
+    "120": 1,
+    "121": 1,
+    "122": 1,
+    "123": 1,
+    "124": 1,
+    "125": 1,
+    "126": 1,
+    "127": 1,
+    "128": 1,
+    "129": 1,
+    "130": 1,
+    "131": 1,
+    "132": 1,
+    "133": 1,
+    "134": 1,
+    "135": 1,
+    "136": 1,
+    "137": 1,
+    "138": 1,
+    "139": 1,
+    "140": 1,
+    "141": 1,
+    "142": 1,
+    "143": 1,
+    "144": 1,
+    "145": 1,
+    "146": 1,
+    "147": 1,
+    "148": 1,
+    "149": 1,
+    "150": 1,
+    "151": 1,
+    "152": 1,
+    "153": 1,
+    "154": 1,
+    "155": 1,
+    "156": 1,
+    "157": 1,
+    "158": 1,
+    "159": 1,
+    "160": 1,
+    "161": 1,
+    "162": 1,
+    "163": 1,
+    "164": 1,
+    "165": 1,
+    "166": 1,
+    "167": 1,
+    "168": 1,
+    "169": 1,
+    "170": 1,
+    "171": 1,
+    "172": 1,
+    "173": 1,
+    "174": 1,
+    "175": 1,
+    "176": 1,
+    "177": 1,
+    "178": 1,
+    "179": 1,
+    "180": 1,
+    "181": 1,
+    "182": 1,
+    "183": 1,
+    "184": 1,
+    "185": 1,
+    "186": 1,
+    "187": 1,
+    "188": 1,
+    "189": 1,
+    "190": 1,
+    "191": 1,
+    "192": 1,
+    "193": 1,
+    "194": 1,
+    "195": 1,
+    "196": 1,
+    "197": 1,
+    "198": 1,
+    "199": 1,
+    "200": 1,
+    "201": 1,
+    "202": 1,
+    "203": 1,
+    "204": 1,
+    "205": 1,
+    "206": 1,
+    "207": 1,
+    "208": 1,
+    "209": 1,
+    "210": 1,
+    "211": 1,
+    "212": 1,
+    "213": 1,
+    "214": 1,
+    "215": 1,
+    "216": 1,
+    "217": 1,
+    "218": 1,
+    "219": 1,
+    "220": 1,
+    "221": 1,
+    "222": 1,
+    "223": 1,
+    "224": 1,
+    "225": 1,
+    "226": 1,
+    "227": 1,
+    "228": 1,
+    "229": 1,
+    "230": 1,
+    "231": 1,
+    "232": 1,
+    "233": 1,
+    "234": 1,
+    "235": 1,
+    "236": 1,
+    "237": 1,
+    "238": 1,
+    "239": 1,
+    "240": 1,
+    "241": 1,
+    "242": 1,
+    "243": 1,
+    "244": 1,
+    "245": 1,
+    "246": 1,
+    "247": 1,
+    "248": 1,
+    "249": 1,
+    "250": 1,
+    "251": 1,
+    "252": 1,
+    "253": 1,
+    "254": 1,
+    "255": 1,
+    "256": 1,
+    "257": 1,
+    "258": 1,
+    "259": 1,
+    "260": 1,
+    "261": 1,
+    "262": 1,
+    "263": 1,
+    "264": 1,
+    "265": 1,
+    "266": 1,
+    "267": 1,
+    "268": 1,
+    "269": 1,
+    "270": 1,
+    "271": 1,
+    "272": 1,
+    "273": 1,
+    "274": 1,
+    "275": 1,
+    "276": 1,
+    "277": 1,
+    "278": 1,
+    "279": 1,
+    "280": 1,
+    "281": 1,
+    "282": 1,
+    "283": 1,
+    "284": 1,
+    "285": 1,
+    "286": 1,
+    "287": 1,
+    "288": 1,
+    "289": 1,
+    "290": 1,
+    "291": 1,
+    "292": 1,
+    "293": 1,
+    "294": 1,
+    "295": 1,
+    "296": 1,
+    "297": 1,
+    "298": 1,
+    "299": 1,
+    "300": 1,
+    "301": 1,
+    "302": 1,
+    "303": 1,
+    "304": 1,
+    "305": 1,
+    "306": 1,
+    "307": 1,
+    "308": 1,
+    "309": 1,
+    "310": 1,
+    "311": 1,
+    "312": 1,
+    "313": 1,
+    "314": 1,
+    "315": 1,
+    "316": 1,
+    "317": 1,
+    "318": 1,
+    "319": 1,
+    "320": 1,
+    "321": 1,
+    "322": 1,
+    "323": 1,
+    "324": 1,
+    "325": 1,
+    "326": 1,
+    "327": 1,
+    "328": 1,
+    "329": 1,
+    "330": 1,
+    "331": 1,
+    "332": 1,
+    "333": 1,
+    "334": 1,
+    "335": 1,
+    "336": 1,
+    "337": 1,
+    "338": 1,
+    "339": 1,
+    "340": 1,
+    "341": 1,
+    "342": 1,
+    "343": 1,
+    "344": 1,
+    "345": 1,
+    "346": 1,
+    "347": 1,
+    "348": 1,
+    "349": 1,
+    "401": 1,
+    "402": 1,
+    "403": 1,
+    "404": 1,
+    "405": 1,
+    "406": 1,
+    "407": 1,
+    "408": 1,
+    "409": 1,
+    "410": 1,
+    "411": 1,
+    "412": 1,
+    "413": 1,
+    "414": 1,
+    "415": 1,
+    "416": 1,
+    "417": 1,
+    "418": 1,
+    "419": 1,
+    "420": 1,
+    "421": 1,
+    "422": 1,
+    "423": 1,
+    "424": 1,
+    "425": 1,
+    "426": 1,
+    "427": 1,
+    "428": 1,
+    "429": 1,
+    "430": 1,
+    "431": 1,
+    "432": 1,
+    "433": 1,
+    "434": 1,
+    "435": 1,
+    "436": 1,
+    "437": 1,
+    "438": 1,
+    "439": 1,
+    "440": 1,
+    "441": 1,
+    "442": 1,
+    "443": 1,
+    "444": 1,
+    "445": 1,
+    "446": 1,
+    "447": 1,
+    "448": 1,
+    "449": 1,
+    "450": 1,
+    "451": 1,
+    "452": 1,
+    "453": 1,
+    "454": 1,
+    "455": 1,
+    "456": 1,
+    "457": 1,
+    "458": 1,
+    "459": 1,
+    "460": 1,
+    "461": 1,
+    "462": 1,
+    "463": 1,
+    "464": 1,
+    "465": 1,
+    "466": 1,
+    "467": 1,
+    "468": 1,
+    "469": 1,
+    "470": 1,
+    "471": 1,
+    "472": 1,
+    "473": 1,
+    "474": 1,
+    "475": 1,
+    "476": 1,
+    "477": 1,
+    "478": 1,
+    "479": 1,
+    "480": 1,
+    "481": 1,
+    "482": 1,
+    "483": 1,
+    "484": 1,
+    "485": 1,
+    "486": 1,
+    "487": 1,
+    "488": 1,
+    "489": 1,
+    "490": 1,
+    "491": 1,
+    "492": 1,
+    "493": 1,
+    "494": 1,
+    "495": 1,
+    "496": 1,
+    "497": 1,
+    "498": 1,
+    "499": 1,
+    "500": 1,
+    "501": 1,
+    "502": 1,
+    "503": 1,
+    "504": 1,
+    "505": 1,
+    "506": 1,
+    "507": 1,
+    "508": 1,
+    "509": 1,
+    "510": 1,
+    "511": 1,
+    "512": 1,
+    "513": 1,
+    "514": 1,
+    "515": 1,
+    "516": 1,
+    "517": 1,
+    "518": 1,
+    "519": 1,
+    "520": 1,
+    "521": 1,
+    "522": 1,
+    "523": 1,
+    "524": 1,
+    "525": 1,
+    "526": 1,
+    "527": 1,
+    "528": 1,
+    "529": 1,
+    "530": 1,
+    "531": 1,
+    "532": 1,
+    "533": 1,
+    "534": 1,
+    "535": 1,
+    "536": 1,
+    "537": 1,
+    "538": 1,
+    "539": 1,
+    "540": 1,
+    "541": 1,
+    "542": 1,
+    "543": 1,
+    "544": 1,
+    "545": 1,
+    "546": 1,
+    "547": 1,
+    "548": 1,
+    "549": 1,
+    "550": 1,
+    "551": 1,
+    "552": 1,
+    "553": 1,
+    "554": 1,
+    "555": 1,
+    "556": 1,
+    "557": 1,
+    "558": 1,
+    "559": 1,
+    "560": 1,
+    "561": 1,
+    "562": 1,
+    "563": 1,
+    "564": 1,
+    "565": 1,
+    "566": 1,
+    "567": 1,
+    "568": 1,
+    "569": 1,
+    "570": 1,
+    "571": 1,
+    "572": 1,
+    "573": 1,
+    "574": 1,
+    "575": 1,
+    "576": 1,
+    "577": 1,
+    "578": 1,
+    "579": 1,
+    "580": 1,
+    "581": 1,
+    "582": 1,
+    "583": 1,
+    "584": 1,
+    "585": 1,
+    "586": 1,
+    "587": 1,
+    "588": 1,
+    "589": 1,
+    "590": 1,
+    "591": 1,
+    "592": 1,
+    "593": 1,
+    "594": 1,
+    "595": 1,
+    "596": 1,
+    "597": 1,
+    "598": 1,
+    "599": 1,
+    "600": 1,
+    "601": 1,
+    "602": 1,
+    "603": 1,
+    "604": 1,
+    "605": 1,
+    "606": 1,
+    "607": 1,
+    "608": 1,
+    "609": 1,
+    "610": 1,
+    "611": 1,
+    "612": 1,
+    "613": 1,
+    "614": 1,
+    "615": 1,
+    "616": 1,
+    "617": 1,
+    "618": 1,
+    "619": 1,
+    "620": 1,
+    "621": 1,
+    "622": 1,
+    "623": 1,
+    "624": 1,
+    "625": 1,
+    "626": 1,
+    "627": 1,
+    "628": 1,
+    "629": 1,
+    "630": 1,
+    "631": 1,
+    "632": 1,
+    "633": 1,
+    "634": 1,
+    "635": 1,
+    "636": 1,
+    "637": 1,
+    "638": 1,
+    "639": 1,
+    "640": 1,
+    "641": 1,
+    "642": 1,
+    "643": 1,
+    "644": 1,
+    "645": 1,
+    "646": 1,
+    "647": 1,
+    "648": 1,
+    "649": 1,
+    "650": 1,
+    "651": 1,
+    "652": 1,
+    "653": 1,
+    "654": 1,
+    "655": 1,
+    "656": 1,
+    "657": 1,
+    "658": 1,
+    "659": 1,
+    "660": 1,
+    "661": 1,
+    "662": 1,
+    "663": 1,
+    "664": 1,
+    "665": 1,
+    "666": 1,
+    "667": 1,
+    "668": 1,
+    "669": 1,
+    "670": 1,
+    "671": 1,
+    "672": 1,
+    "673": 1,
+    "674": 1,
+    "675": 1,
+    "676": 1,
+    "677": 1,
+    "678": 1,
+    "679": 1,
+    "680": 1,
+    "681": 1,
+    "682": 1,
+    "683": 1,
+    "684": 1,
+    "685": 1,
+    "686": 1,
+    "687": 1,
+    "688": 1,
+    "689": 1,
+    "690": 1,
+    "691": 1,
+    "692": 1,
+    "693": 1,
+    "694": 1,
+    "695": 1,
+    "696": 1,
+    "697": 1,
+    "698": 1,
+    "699": 1,
+    "700": 1,
+    "701": 1,
+    "702": 1,
+    "703": 1,
+    "704": 1,
+    "705": 1,
+    "706": 1,
+    "707": 1,
+    "708": 1,
+    "709": 1,
+    "710": 1,
+    "711": 1,
+    "712": 1,
+    "713": 1,
+    "714": 1,
+    "715": 1,
+    "716": 1,
+    "717": 1,
+    "718": 1,
+    "719": 1,
+    "720": 1,
+    "721": 1,
+    "722": 1,
+    "723": 1,
+    "724": 1,
+    "725": 1,
+    "726": 1,
+    "727": 1,
+    "728": 1,
+    "729": 1,
+    "730": 1,
+    "731": 1,
+    "732": 1,
+    "733": 1,
+    "734": 1,
+    "735": 1,
+    "736": 1,
+    "737": 1,
+    "738": 1,
+    "739": 1,
+    "740": 1,
+    "741": 1,
+    "742": 1,
+    "743": 1,
+    "744": 1,
+    "745": 1,
+    "746": 1,
+    "747": 1,
+    "748": 1,
+    "749": 1,
+    "750": 1,
+    "751": 1,
+    "752": 1,
+    "753": 1,
+    "754": 1,
+    "755": 1,
+    "756": 1,
+    "757": 1,
+    "758": 1,
+    "759": 1,
+    "760": 1,
+    "761": 1,
+    "762": 1,
+    "763": 1,
+    "764": 1,
+    "765": 1,
+    "766": 1,
+    "767": 1,
+    "768": 1,
+    "769": 1,
+    "770": 1,
+    "771": 1,
+    "772": 1,
+    "773": 1,
+    "774": 1,
+    "775": 1,
+    "776": 1,
+    "777": 1,
+    "778": 1,
+    "779": 1,
+    "780": 1,
+    "781": 1,
+    "782": 1,
+    "783": 1,
+    "784": 1,
+    "785": 1,
+    "786": 1,
+    "787": 1,
+    "788": 1,
+    "789": 1,
+    "790": 1,
+    "791": 1,
+    "792": 1,
+    "793": 1,
+    "794": 1,
+    "795": 1,
+    "796": 1,
+    "797": 1,
+    "798": 1,
+    "799": 1,
+    "800": 1,
+    "801": 1,
+    "802": 1,
+    "803": 1,
+    "804": 1,
+    "805": 1,
+    "806": 1,
+    "807": 1,
+    "808": 1,
+    "809": 1,
+    "810": 1,
+    "811": 1,
+    "812": 1,
+    "813": 1,
+    "814": 1,
+    "815": 1,
+    "816": 1,
+    "817": 1,
+    "818": 1,
+    "819": 1,
+    "820": 1,
+    "821": 1,
+    "822": 1,
+    "823": 1,
+    "824": 1,
+    "825": 1,
+    "826": 1,
+    "827": 1,
+    "828": 1,
+    "829": 1,
+    "830": 1,
+    "831": 1,
+    "832": 1,
+    "833": 1,
+    "834": 1,
+    "835": 1,
+    "836": 1,
+    "837": 1,
+    "838": 1,
+    "839": 1,
+    "840": 1,
+    "841": 1,
+    "842": 1,
+    "843": 1,
+    "844": 1,
+    "845": 1,
+    "846": 1,
+    "847": 1,
+    "848": 1,
+    "849": 1,
+    "850": 1,
+    "851": 1,
+    "852": 1,
+    "853": 1,
+    "854": 1,
+    "855": 1,
+    "856": 1,
+    "857": 1,
+    "858": 1,
+    "859": 1,
+    "860": 1,
+    "861": 1,
+    "862": 1,
+    "863": 1,
+    "864": 1,
+    "865": 1,
+    "866": 1,
+    "867": 1,
+    "868": 1,
+    "869": 1,
+    "870": 1,
+    "871": 1,
+    "872": 1,
+    "873": 1,
+    "874": 1,
+    "875": 1,
+    "876": 1,
+    "877": 1,
+    "878": 1,
+    "879": 1,
+    "880": 1,
+    "881": 1,
+    "882": 1,
+    "883": 1,
+    "884": 1,
+    "885": 1,
+    "886": 1,
+    "887": 1,
+    "888": 1,
+    "889": 1,
+    "890": 1,
+    "891": 1,
+    "892": 1,
+    "893": 1,
+    "894": 1,
+    "895": 1,
+    "896": 1,
+    "897": 1,
+    "898": 1,
+    "899": 1,
+    "900": 1,
+    "901": 1,
+    "902": 1,
+    "903": 1,
+    "904": 1,
+    "905": 1,
+    "906": 1,
+    "907": 1,
+    "908": 1,
+    "909": 1,
+    "910": 1,
+    "911": 1,
+    "912": 1,
+    "913": 1,
+    "914": 1,
+    "915": 1,
+    "916": 1,
+    "917": 1,
+    "918": 1,
+    "919": 1,
+    "920": 1,
+    "921": 1,
+    "922": 1,
+    "923": 1,
+    "924": 1,
+    "925": 1,
+    "926": 1,
+    "927": 1,
+    "928": 1,
+    "929": 1,
+    "930": 1,
+    "931": 1,
+    "932": 1,
+    "933": 1,
+    "934": 1,
+    "935": 1,
+    "936": 1,
+    "937": 1,
+    "938": 1,
+    "939": 1,
+    "940": 1,
+    "941": 1,
+    "942": 1,
+    "943": 1,
+    "944": 1,
+    "945": 1,
+    "946": 1,
+    "947": 1,
+    "948": 1,
+    "949": 1,
+    "950": 1,
+    "951": 1,
+    "952": 1,
+    "953": 1,
+    "954": 1,
+    "955": 1,
+    "956": 1,
+    "957": 1,
+    "958": 1,
+    "959": 1,
+    "960": 1,
+    "961": 1,
+    "962": 1,
+    "963": 1,
+    "964": 1,
+    "965": 1,
+    "966": 1,
+    "967": 1,
+    "968": 1,
+    "969": 1,
+    "970": 1,
+    "971": 1,
+    "972": 1,
+    "973": 1,
+    "974": 1,
+    "975": 1,
+    "976": 1,
+    "977": 1,
+    "978": 1,
+    "979": 1,
+    "980": 1,
+    "981": 1,
+    "982": 1,
+    "983": 1,
+    "984": 1,
+    "985": 1,
+    "986": 1,
+    "987": 1,
+    "988": 1,
+    "989": 1,
+    "990": 1,
+    "991": 1,
+    "992": 1,
+    "993": 1,
+    "994": 1,
+    "995": 1,
+    "996": 1,
+    "997": 1,
+    "998": 1,
+    "999": 1,
+    "1000": 1
+  },
+  "firstOccurrenceByNumber": [
+    {
+      "paragraphIndex": 1,
+      "number": 1,
+      "text": "**1. X is crystalline salt of sodium. Solution of X in water turns litmus red produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilut"
+    },
+    {
+      "paragraphIndex": 10,
+      "number": 2,
+      "text": "**2. The alkanol obtained from the production of soap is**"
+    },
+    {
+      "paragraphIndex": 19,
+      "number": 3,
+      "text": "**3. The flame used by welders in cutting metals is**"
+    },
+    {
+      "paragraphIndex": 28,
+      "number": 4,
+      "text": "**4. Consecutive members of an alkane homologous series differ by**"
+    },
+    {
+      "paragraphIndex": 37,
+      "number": 5,
+      "text": "**5. If an element has the electronic configuration 1s²2s²2p⁶3s²3p² it is**"
+    },
+    {
+      "paragraphIndex": 46,
+      "number": 6,
+      "text": "**6. Some copper (II) sulphate pentahydrate (CuSO₄·5H₂O) was heated at 120°C with the following results: Wt of crucible = 10.00g, Wt of crucible + CuSO₄·5H₂O = 14.98g, Wt of crucible + residue = 13.54g. How many molecules of water of crysta"
+    },
+    {
+      "paragraphIndex": 55,
+      "number": 7,
+      "text": "**7. The three-dimensional shape of methane is**"
+    },
+    {
+      "paragraphIndex": 64,
+      "number": 8,
+      "text": "**8. An unknown organic compound X has a relative molecular mass of 180. It contains C, H, and O in the atomic ratio 1:2:1. The compound has a sweet taste and melts on heating. In the presence of yeast and in the absence of air, X is conver"
+    },
+    {
+      "paragraphIndex": 73,
+      "number": 9,
+      "text": "**9. The molecular formula of X is**"
+    },
+    {
+      "paragraphIndex": 82,
+      "number": 10,
+      "text": "**10. The reaction of X with yeast forms the basis of the**"
+    },
+    {
+      "paragraphIndex": 91,
+      "number": 11,
+      "text": "**11. A mixture of common salt, ammonium chloride and barium sulphate can best be separated by**"
+    },
+    {
+      "paragraphIndex": 100,
+      "number": 12,
+      "text": "**12. Which of the following relationships between the pressure P, the volume V and the temperature T, represents an ideal gas behavior?**"
+    },
+    {
+      "paragraphIndex": 109,
+      "number": 13,
+      "text": "**13. In the above experiment (fig1) the litmus paper will initially**"
+    },
+    {
+      "paragraphIndex": 118,
+      "number": 14,
+      "text": "**14. The colour imparted to a flame by calcium ion is**"
+    },
+    {
+      "paragraphIndex": 127,
+      "number": 15,
+      "text": "**15. In the reaction M + N ⇌ P, ΔH = +Q kJ. Which of the following would increase the concentration of the product?**"
+    },
+    {
+      "paragraphIndex": 135,
+      "number": 16,
+      "text": "**16. In which of the following processes is iron being oxidized?**"
+    },
+    {
+      "paragraphIndex": 148,
+      "number": 17,
+      "text": "**17. In the above experiment (fig.2), a current was passed for 10 minutes and 0.63g of copper was found to be deposited on the cathode of CuSO₄ cells. The weight of AgNO₃ cell during the same period would be [Cu = 63, Ag = 108]**"
+    },
+    {
+      "paragraphIndex": 157,
+      "number": 18,
+      "text": "**18. In the reaction Fe + Cu²⁺ → Fe²⁺ + Cu, iron displaces copper ions to form copper. This is due to the fact that**"
+    },
+    {
+      "paragraphIndex": 166,
+      "number": 19,
+      "text": "**19. The correct name of the compound with the structural formula C₂H₅-C(CH₃)=CH₂ is**"
+    },
+    {
+      "paragraphIndex": 175,
+      "number": 20,
+      "text": "**20. How many isomeric forms are there for the molecular formula C₃H₆Br₂?**"
+    },
+    {
+      "paragraphIndex": 184,
+      "number": 21,
+      "text": "**21. A piece of burning sulphur will continue to burn in a gas jar of oxygen to give misty fumes which readily dissolve in water. The resulting liquid is**"
+    },
+    {
+      "paragraphIndex": 193,
+      "number": 22,
+      "text": "**22. Sodium decahydrate (Na₂SO₄·10H₂O) on exposure to air loses all its water of crystallization. The process of loss is known as**"
+    },
+    {
+      "paragraphIndex": 202,
+      "number": 23,
+      "text": "**23. Which of the following happens during the electrolysis of molten sodium chloride?**"
+    },
+    {
+      "paragraphIndex": 211,
+      "number": 24,
+      "text": "**24. Crude petroleum pollutant usually seen on some Nigerian creeks and waterways can be dispersed or removed by**"
+    },
+    {
+      "paragraphIndex": 220,
+      "number": 25,
+      "text": "**25. An element is electronegative if**"
+    },
+    {
+      "paragraphIndex": 229,
+      "number": 26,
+      "text": "**26. Solution X, Y, and Z have pH values 3.0, 5.0 and 9.0 respectively. Which of the following statements is correct?**"
+    },
+    {
+      "paragraphIndex": 238,
+      "number": 27,
+      "text": "**27. In the reactions: (1) H₂(g) + ½O₂(g) → H₂O(l); ΔH = -286 kJ, (11) C(s) + O₂(g) → CO₂(g); ΔH = -406 kJ, the equations imply that**"
+    },
+    {
+      "paragraphIndex": 241,
+      "number": 28,
+      "text": "**28. Which of these metals, Mg, Fe, Pb, and Cu will dissolve in dilute HCl?**"
+    },
+    {
+      "paragraphIndex": 250,
+      "number": 29,
+      "text": "**29. Stainless steel is an alloy of**"
+    },
+    {
+      "paragraphIndex": 259,
+      "number": 30,
+      "text": "**30. What volume of 0.50 M H₂SO₄ will exactly neutralize 20 cm³ of 0.1 M NaOH solution?**"
+    },
+    {
+      "paragraphIndex": 268,
+      "number": 31,
+      "text": "**31. Which of the following pair of gases will NOT react further with oxygen at a temperature between 30°C and 400°C?**"
+    },
+    {
+      "paragraphIndex": 277,
+      "number": 32,
+      "text": "**32. Some metals are extracted from their ores after some preliminary treatments by electrolysis (L), some by thermal reaction (T), and some by a combination of both processes (TL). Which set-up in the following for the extraction of iron,"
+    },
+    {
+      "paragraphIndex": 286,
+      "number": 33,
+      "text": "**33. In the preparation of some pure crystals of Cu(NO₃)₂ starting with CuO, a student gave the following statements as steps he employed. Which of these shows a flaw in his report?**"
+    },
+    {
+      "paragraphIndex": 295,
+      "number": 34,
+      "text": "**34. Which of the following separation processes is most likely to yield high quality ethanol (>95%) from palm wine?**"
+    },
+    {
+      "paragraphIndex": 304,
+      "number": 35,
+      "text": "**35. Increasing the pressure of a gas**"
+    },
+    {
+      "paragraphIndex": 313,
+      "number": 36,
+      "text": "**36. 2.5 g of a hydrated barium salt gave on heating, 2.13 g of the anhydrous salt. Given that the relative molecular mass of the anhydrous salt is 208, the number of molecules of water of crystallization of the barium salt is**"
+    },
+    {
+      "paragraphIndex": 322,
+      "number": 37,
+      "text": "**37. 3.06 g of a sample of potassium trioxochlorate (V) (KClO₃) was required to make a saturated solution with 10 cm³ of water at 25°C. The solubility of the salt at 25°C is [K=39, Cl=35.5, O=16]**"
+    },
+    {
+      "paragraphIndex": 331,
+      "number": 38,
+      "text": "**38. The cracking process is very important in the petroleum industry because it**"
+    },
+    {
+      "paragraphIndex": 340,
+      "number": 39,
+      "text": "**39. A gas that can behave as a reducing agent towards chlorine and as an oxidizing agent towards hydrogen sulphide is**"
+    },
+    {
+      "paragraphIndex": 349,
+      "number": 40,
+      "text": "**40. Which of the following solutions will give a white precipitate with barium chloride solution and a green flame test?**"
+    },
+    {
+      "paragraphIndex": 358,
+      "number": 41,
+      "text": "**41. The mass of an atom is determined by**"
+    },
+    {
+      "paragraphIndex": 367,
+      "number": 42,
+      "text": "**42. Which of the following is a neutralization reaction?**"
+    },
+    {
+      "paragraphIndex": 376,
+      "number": 43,
+      "text": "**43. A jet plane carrying 3,000 kg of ethane burns off all the gas forming water and carbon dioxide. If all the carbon dioxide is expelled and the water formed is condensed and kept on board the plane, then the gain in weight is**"
+    },
+    {
+      "paragraphIndex": 385,
+      "number": 44,
+      "text": "**44. Liquid X reacts with sodium trioxocarbonate (IV) (Na₂CO₃) to give a gas which turns calcium chloride solution milky. X is**"
+    },
+    {
+      "paragraphIndex": 394,
+      "number": 45,
+      "text": "**45. Which of the following statements is FALSE?**"
+    },
+    {
+      "paragraphIndex": 403,
+      "number": 46,
+      "text": "**46. When sodium dioxonitrate (III) (NaNO₂) dissolves is**"
+    },
+    {
+      "paragraphIndex": 412,
+      "number": 47,
+      "text": "**47. The equilibrium reaction between copper (I) chloride and chloride at 25°C and 1 atmosphere is represented by the equation: 2CuCl₂ + Cl₂ ⇌ 2CuCl₂, ΔH = -166 kJ. Which of the following statement is TRUE for the reaction, pressure remain"
+    },
+    {
+      "paragraphIndex": 416,
+      "number": 48,
+      "text": "**48. Zn + H₂SO₄ → ZnSO₄ + H₂. The rate of the above reaction will be greatly increased if**"
+    },
+    {
+      "paragraphIndex": 425,
+      "number": 49,
+      "text": "**49. Zn + H₂SO₄ → ZnSO₄ + H₂. In the above reaction, how much zinc will be left undissolved if 2.00 g of zinc is treated with 10 cm³ of 1.0 M H₂SO₄? [Zn = 65, S = 32, O = 16, H = 1]**"
+    },
+    {
+      "paragraphIndex": 434,
+      "number": 50,
+      "text": "**50. 30 cm³ of 0.1 M Al(NO₃)₃ solution is reacted with 100 cm³ of 0.15 M NaOH solution. Which is in excess and by how much?**"
+    },
+    {
+      "paragraphIndex": 443,
+      "number": 51,
+      "text": "**51. Sodium chloride may be obtained from brine by**"
+    },
+    {
+      "paragraphIndex": 452,
+      "number": 52,
+      "text": "**52. 20 cm³ of hydrogen gas are sparked with 20 cm³ of oxygen gas in an eudiometer at 373 K (100°C) and 1 atmosphere. The resulting mixture is cooled to 298 K (25°C) and passed over calcium chloride. The volume of the residual gas is**"
+    },
+    {
+      "paragraphIndex": 461,
+      "number": 53,
+      "text": "**53. For the reaction NH₄NO₂ → N₂ + 2H₂O, calculate the volume of nitrogen that would be produced at S.T.P from 3.20 g of the trioxonitrate (III) salt. (Relative atomic masses: N = 14, O = 16, H = 1)**"
+    },
+    {
+      "paragraphIndex": 470,
+      "number": 54,
+      "text": "**54. Manganese (IV) oxide reacts with concentrated hydrochloric acid according to the equation MnO₂ + xHCl → MnCl₂ + Cl₂ + yH₂O. x and y are**"
+    },
+    {
+      "paragraphIndex": 479,
+      "number": 55,
+      "text": "**55. A molar solution of caustic soda is prepared by dissolving**"
+    },
+    {
+      "paragraphIndex": 488,
+      "number": 56,
+      "text": "**56. Which among the elements: 1. Carbon, 2. Oxygen, 3. Copper, 4. Bromine, 5. Zinc will NOT react with either water or steam?**"
+    },
+    {
+      "paragraphIndex": 497,
+      "number": 57,
+      "text": "**57. Which of the curves shown in fig 1 represents the relationship between the volume (v) and pressure (p) of an ideal gas at constant temperature?**"
+    },
+    {
+      "paragraphIndex": 506,
+      "number": 58,
+      "text": "**58. Naphthalene when heated melts at 354 K (81°C). At this temperature, the molecules of naphthalene**"
+    },
+    {
+      "paragraphIndex": 515,
+      "number": 59,
+      "text": "**59. The ratio of the number of molecules in 2g of hydrogen to that in 16 g of oxygen is**"
+    },
+    {
+      "paragraphIndex": 524,
+      "number": 60,
+      "text": "**60. Which combination of the following statements is correct? 1. Lowering the activation energy, 2. Conducting the reaction in a gaseous state, 3. Increasing the temperature, 4. Removing the products as soon as they are formed, 5. Powderi"
+    },
+    {
+      "paragraphIndex": 533,
+      "number": 61,
+      "text": "**61. The balanced equation for the reaction of tetraoxosulphate (VI) acid with aluminium hydroxide to give water and aluminium tetraoxosulphate (VI) is**"
+    },
+    {
+      "paragraphIndex": 542,
+      "number": 62,
+      "text": "**62. The solubility curves of four substances are shown in Fig.2. Which of the four substances would crystallize from a saturated solution cooled from 353 K (80°C) to 323 K (50°C)?**"
+    },
+    {
+      "paragraphIndex": 551,
+      "number": 63,
+      "text": "**63. Which of the following mixtures would result in a solution of pH greater than 7?**"
+    },
+    {
+      "paragraphIndex": 560,
+      "number": 64,
+      "text": "**64. In which of the following reactions does hydrogen peroxide act as a reducing agent?**"
+    },
+    {
+      "paragraphIndex": 569,
+      "number": 65,
+      "text": "**65. For the reaction 2Fe³⁺ + 2e⁻ → 2Fe²⁺ + I₂, which of the following statements is TRUE?**"
+    },
+    {
+      "paragraphIndex": 578,
+      "number": 66,
+      "text": "**66. The diagram above (Fig.3) shows the energy profile for the reaction A + B → C + D. From this diagram, it's clear that the reaction is**"
+    },
+    {
+      "paragraphIndex": 587,
+      "number": 67,
+      "text": "**67. In dilute solution, the heat of the following NaOH + HCl → NaCl + H₂O and 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O is**"
+    },
+    {
+      "paragraphIndex": 596,
+      "number": 68,
+      "text": "**68. For the reactions: (I) Melon oil + NaOH → Soap + Glycerol, (II) 3Fe + 4H₂O → Fe₃O₄ + 4H₂, (III) N₂O₄ ⇌ 2NO₂. Which of the following statements is true?**"
+    },
+    {
+      "paragraphIndex": 605,
+      "number": 69,
+      "text": "**69. Which of the following methods may be used to prepare trioxonitrate (V) acid (nitric acid) in the laboratory?**"
+    },
+    {
+      "paragraphIndex": 614,
+      "number": 70,
+      "text": "**70. Lime-water, which is used in the laboratory for the detection of carbon (IV) oxide, is an aqueous solution of:**"
+    },
+    {
+      "paragraphIndex": 623,
+      "number": 71,
+      "text": "**71. An element that can exist in two or more different structure forms which possess the same chemical properties is said to exhibit**"
+    },
+    {
+      "paragraphIndex": 632,
+      "number": 72,
+      "text": "**72. Sulphur...**"
+    },
+    {
+      "paragraphIndex": 641,
+      "number": 73,
+      "text": "**73. Which of the following statements is NOT true of carbon monoxide?**"
+    },
+    {
+      "paragraphIndex": 650,
+      "number": 74,
+      "text": "**74. From the reactions: ZnO + Na₂O → Na₂ZnO₂ and ZnO + CO₂ → ZnCO₃, it may be concluded that zinc oxide is**"
+    },
+    {
+      "paragraphIndex": 659,
+      "number": 75,
+      "text": "**75. An example of a neutral oxide is**"
+    },
+    {
+      "paragraphIndex": 668,
+      "number": 76,
+      "text": "**76. 3Cl₂ + 2NH₃ → N₂ + 6HCl. In the above reaction, ammonia acts as**"
+    },
+    {
+      "paragraphIndex": 677,
+      "number": 77,
+      "text": "**77. In the Haber process for the manufacture of ammonia, finely divided iron is used as**"
+    },
+    {
+      "paragraphIndex": 686,
+      "number": 78,
+      "text": "**78. An organic compound with a vapour density 56.5 has the following percentage composition: C = 53.1%, N = 12.4%, O = 28.3%, H = 6.2%. The molecular formula of the compound is**"
+    },
+    {
+      "paragraphIndex": 695,
+      "number": 79,
+      "text": "**79. The hybridization of the carbon atom in ethylene is**"
+    },
+    {
+      "paragraphIndex": 704,
+      "number": 80,
+      "text": "**80. When the kerosene fraction from petrol is heated at high temperature, a lower boiling liquid is obtained. This process is known as**"
+    },
+    {
+      "paragraphIndex": 713,
+      "number": 81,
+      "text": "**81. The compound CH₃COOH is**"
+    },
+    {
+      "paragraphIndex": 722,
+      "number": 82,
+      "text": "**82. Alkaline hydrolysis of naturally occurring fats and oils yields**"
+    },
+    {
+      "paragraphIndex": 731,
+      "number": 83,
+      "text": "**83. Which of the following represents a carboxylic acid?**"
+    },
+    {
+      "paragraphIndex": 740,
+      "number": 84,
+      "text": "**84. Which of the following statements is INCORRECT?**"
+    },
+    {
+      "paragraphIndex": 749,
+      "number": 85,
+      "text": "**85. Which of the following statements is NOT correct about all four of the acids: HBr, HNO₃, H₂CO₃, and H₂SO₄? They**"
+    },
+    {
+      "paragraphIndex": 758,
+      "number": 86,
+      "text": "**86. If the cost of electricity required to deposit 1 g of magnesium is N5.00. How much would it cost to deposit 10 g of aluminium? (Relative atomic masses: Al = 27, Mg = 24)**"
+    },
+    {
+      "paragraphIndex": 767,
+      "number": 87,
+      "text": "**87. In an experiment, copper tetraoxosulphate (VI) solution was electrolysed using copper electrodes. The mass of copper deposited at the cathode by the passage of 16000 coulombs of electricity is (Relative atomic masses: Cu = 63.5)**"
+    },
+    {
+      "paragraphIndex": 776,
+      "number": 88,
+      "text": "**88. R¹⁹, U²⁴, S²⁰, T¹⁹. Which of the following statements is NOT true of the elements R, U, S, T, Y?**"
+    },
+    {
+      "paragraphIndex": 785,
+      "number": 89,
+      "text": "**89. Nitrogen can best be obtained from a mixture of oxygen and nitrogen by passing the mixture over**"
+    },
+    {
+      "paragraphIndex": 794,
+      "number": 90,
+      "text": "**90. Water is said to be hard if it**"
+    },
+    {
+      "paragraphIndex": 803,
+      "number": 91,
+      "text": "**91. Sodium hydroxide (NaOH) pellets are**"
+    },
+    {
+      "paragraphIndex": 812,
+      "number": 92,
+      "text": "**92. Which of the following structure formulae is NOT isomeric with others?**"
+    },
+    {
+      "paragraphIndex": 817,
+      "number": 93,
+      "text": "**93. A piece of sea shell, when dropped into a dilute solution of hydrochloric acid produces a colourless odorless gas, which turns clear limewater milky. The shell contains**"
+    },
+    {
+      "paragraphIndex": 826,
+      "number": 94,
+      "text": "**94. Alkanes**"
+    },
+    {
+      "paragraphIndex": 835,
+      "number": 95,
+      "text": "**95. If an excess of a liquid hydrocarbon is poured into a jar of chlorine, and the sealed jar is then exposed for several hours to bright sunlight, all the chlorine gas is consumed. The hydrocarbon is said to have undergone**"
+    },
+    {
+      "paragraphIndex": 844,
+      "number": 96,
+      "text": "**96. The function of conc. H₂SO₄ in the esterification of ethanoic acid with ethanol is to**"
+    },
+    {
+      "paragraphIndex": 853,
+      "number": 97,
+      "text": "**97. An aqueous solution of a metal salt M gives a white precipitate with NaOH, which dissolves in excess NaOH. With aqueous ammonia, the solution of M also gives a white precipitate which dissolves in excess ammonia. Therefore, the cation"
+    },
+    {
+      "paragraphIndex": 862,
+      "number": 98,
+      "text": "**98. The IUPAC name for the compound (CH₃)₂CH-CH₂-CH₃ is**"
+    },
+    {
+      "paragraphIndex": 871,
+      "number": 99,
+      "text": "**99. At S.T.P, how many litres of hydrogen can be obtained from the reaction of 500 cm³ of 0.5 M H₂SO₄ with excess zinc metal? (Gram molecular volume of H₂ = 22.4 dm³)**"
+    },
+    {
+      "paragraphIndex": 880,
+      "number": 100,
+      "text": "**100. Figure shows part of the periodic Table. Which of the elements belongs to the p-block?**"
+    },
+    {
+      "paragraphIndex": 890,
+      "number": 101,
+      "text": "**101. Which of the following conducts electricity?**"
+    },
+    {
+      "paragraphIndex": 899,
+      "number": 102,
+      "text": "**102. An organic compound contains 72% carbon, 12% hydrogen and 16% oxygen by mass. The empirical formula of the compound is**"
+    },
+    {
+      "paragraphIndex": 908,
+      "number": 103,
+      "text": "**103. 0.499 g of CuSO₄·xH₂O when heated to constant weight gave a residue of 0.346 g. The value of x is [Cu=63.5, S=32.0, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 917,
+      "number": 104,
+      "text": "**104. In an experiment, which of the following observations would suggest that a solid sample is a mixture? The**"
+    },
+    {
+      "paragraphIndex": 926,
+      "number": 105,
+      "text": "**105. Hydrogen diffuses through a porous plug**"
+    },
+    {
+      "paragraphIndex": 935,
+      "number": 106,
+      "text": "**106. Given the molecular mass of iron is 56 and that of oxygen is 16, how many moles of Iron (III) oxide will be contained in 1 kg of the compound?**"
+    },
+    {
+      "paragraphIndex": 944,
+      "number": 107,
+      "text": "**107. 3.0 g of a mixture of potassium carbonate and potassium chloride were dissolved in a 250 cm³ standard flask. 25 cm³ of this solution required 40.00 cm³ of 0.1 M HCl for neutralization. What is the percentage by weight of K₂CO₃ in the"
+    },
+    {
+      "paragraphIndex": 953,
+      "number": 108,
+      "text": "**108. Figure 2 below represents the solubility curves of two salts, X and Y, in water. At room temperature (300 K)**"
+    },
+    {
+      "paragraphIndex": 962,
+      "number": 109,
+      "text": "**109. If 80 g each of X and Y are taken up in 100 g of water at 353 K, we shall have**"
+    },
+    {
+      "paragraphIndex": 971,
+      "number": 110,
+      "text": "**110. If the molar mass of X is 36 g, the number of moles of X dissolved at 343 K is**"
+    },
+    {
+      "paragraphIndex": 980,
+      "number": 111,
+      "text": "**111. Some properties of chemical substances are mentioned below: (i) sour taste (ii) slippery to touch (iii) yields alkaline gas with ammonium salts (iv) has pH less than 7 (v) turns phenolphthalein pink. Which of the above are NOT typica"
+    },
+    {
+      "paragraphIndex": 989,
+      "number": 112,
+      "text": "**112. A certain volume of a gas at 298 K is heated such that its volume and pressure are now four times the original values. What is the new temperature?**"
+    },
+    {
+      "paragraphIndex": 998,
+      "number": 113,
+      "text": "**113. Hydrogen is not liberated when trioxonitrate (V) acid reacts with zinc because**"
+    },
+    {
+      "paragraphIndex": 1007,
+      "number": 114,
+      "text": "**114. The boiling points of water, ethanol, toluene and butan-2-ol are 373.0 K, 351.3 K, 383.6 K and 372.5 K respectively. Which liquid has the highest vapour pressure at 323.0 K?**"
+    },
+    {
+      "paragraphIndex": 1016,
+      "number": 115,
+      "text": "**115. In what respect will two dry samples of nitrogen gas differ from each other if sample 1 is prepared by completely removing CO₂ and O₂ from air and sample 2 is prepared by passing purified nitrogen (I) oxide over heated copper? Sample"
+    },
+    {
+      "paragraphIndex": 1025,
+      "number": 116,
+      "text": "**116. Copper sulphate solution is electrolyzed using platinum electrodes. A current of 0.193 amperes is passed for 2 hrs. How many grams of copper are deposited? (Cu=63.5, F=96500 coulombs)**"
+    },
+    {
+      "paragraphIndex": 1034,
+      "number": 117,
+      "text": "**117. X + Y ⇌ Z is an equilibrium reaction. The addition of a catalyst**"
+    },
+    {
+      "paragraphIndex": 1043,
+      "number": 118,
+      "text": "**118. What is the formula of sodium gallate if gallium (Ga) shows an oxidation number of +3?**"
+    },
+    {
+      "paragraphIndex": 1052,
+      "number": 119,
+      "text": "**119. If the ONLY pollutants found in the atmosphere over a city are oxides of nitrogen, suspended lead compounds, carbon monoxide and high level of methane, the probable source(s) of the pollution must be**"
+    },
+    {
+      "paragraphIndex": 1061,
+      "number": 120,
+      "text": "**120. A correct electrochemical series can be obtained from K, Na, Ca, Al, Mg, Zn, Fe, Pb, H, Cu, Hg, Ag, Au by interchanging**"
+    },
+    {
+      "paragraphIndex": 1071,
+      "number": 121,
+      "text": "**121. A certain industrial process is represented by the chemical equation 2A(g) + B(g) → C(g) + 3D(g), ΔH = +X kJ/mol. Which of the following conditions will favour the yield of the product?**"
+    },
+    {
+      "paragraphIndex": 1080,
+      "number": 122,
+      "text": "**122. 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O, which of the substances serves as an oxidizing agent?**"
+    },
+    {
+      "paragraphIndex": 1089,
+      "number": 123,
+      "text": "**123. In the reaction H₂O(g) + C(s) → H₂(g) + CO(g), ΔH = -243600 kJ, which of the following has no effect on the equilibrium position?**"
+    },
+    {
+      "paragraphIndex": 1098,
+      "number": 124,
+      "text": "**124. Which of the following metals will displace iron from a solution of iron(II) tetraoxosulphate(VI)?**"
+    },
+    {
+      "paragraphIndex": 1107,
+      "number": 125,
+      "text": "**125. Complete hydrogenation of ethyne yields**"
+    },
+    {
+      "paragraphIndex": 1116,
+      "number": 126,
+      "text": "**126. Which of the following is used in the manufacture of bleaching powder?**"
+    },
+    {
+      "paragraphIndex": 1125,
+      "number": 127,
+      "text": "**127. A man suspected of being drunk is made to pass his breath into acidified potassium dichromate solution. If**"
+    },
+    {
+      "paragraphIndex": 1128,
+      "number": 128,
+      "text": "**128. When pollen grains are suspended in water and viewed through a microscope, they appear to be in a state of constant but erratic motion. This is due to**"
+    },
+    {
+      "paragraphIndex": 1137,
+      "number": 129,
+      "text": "**129. The energy change (ΔH) for the reaction CO(g) + ½O₂(g) → CO₂(g) is [ΔHf(CO) = -110.4 kJ/mol, ΔHf(CO₂) = -393 kJ/mol]**"
+    },
+    {
+      "paragraphIndex": 1146,
+      "number": 130,
+      "text": "**130. The product formed on hydrolysis of (image) is**"
+    },
+    {
+      "paragraphIndex": 1149,
+      "number": 131,
+      "text": "**131. The neutralization reaction between NaOH solution and nitrogen (IV) oxide (NO₂) produces water and**"
+    },
+    {
+      "paragraphIndex": 1158,
+      "number": 132,
+      "text": "**132. The compound with the formula CH₃COCH₂CH₃ is**"
+    },
+    {
+      "paragraphIndex": 1167,
+      "number": 133,
+      "text": "**133. Tetraoxosulphate (VI) ions are finally tested using**"
+    },
+    {
+      "paragraphIndex": 1176,
+      "number": 134,
+      "text": "**134. The IUPAC name for the compound CH₃-CH(CH₃)-CH=CH-CH₃ is**"
+    },
+    {
+      "paragraphIndex": 1185,
+      "number": 135,
+      "text": "**135. Mixing of aqueous solution of barium hydroxide and sodium tetraoxocarbonate(IV) yields a white precipitate of**"
+    },
+    {
+      "paragraphIndex": 1194,
+      "number": 136,
+      "text": "**136. An organic compound decolorized acidified KMnO₄ solution but failed to react with ammoniacal silver nitrate solution. The organic compound is likely to be**"
+    },
+    {
+      "paragraphIndex": 1203,
+      "number": 137,
+      "text": "**137. Solid sodium hydroxide on exposure to air absorbs a gas and ultimately gives another alkaline substance with the molecular formula**"
+    },
+    {
+      "paragraphIndex": 1212,
+      "number": 138,
+      "text": "**138. Which of the following is the functional group of carboxylic acids?**"
+    },
+    {
+      "paragraphIndex": 1221,
+      "number": 139,
+      "text": "**139. Which of the following substances is the most abundant in the universe?**"
+    },
+    {
+      "paragraphIndex": 1230,
+      "number": 140,
+      "text": "**140. A colourless organic compound X was burnt in excess air to give two colourless and odourless gases, Y and Z, as products. X does not decolorize bromine vapour; Y turns lime milky while Z gives a blue colour with copper (II) tetraoxos"
+    },
+    {
+      "paragraphIndex": 1231,
+      "number": 141,
+      "text": "**141. Compound X is**"
+    },
+    {
+      "paragraphIndex": 1240,
+      "number": 142,
+      "text": "**142. Y and Z are respectively**"
+    },
+    {
+      "paragraphIndex": 1249,
+      "number": 143,
+      "text": "**143. Which of the following compounds is NOT the correct product formed when the parent metal is heated in air?**"
+    },
+    {
+      "paragraphIndex": 1258,
+      "number": 144,
+      "text": "**144. The atomic number of an element whose cation, X²⁺ has the ground state electronic configuration 1s²2s²2p⁶3s²3p⁶ is**"
+    },
+    {
+      "paragraphIndex": 1267,
+      "number": 145,
+      "text": "**145. When marble is heated to 1473 K, another white solid is obtained which reacts vigorously with water to give an alkaline solution. The solution contains**"
+    },
+    {
+      "paragraphIndex": 1276,
+      "number": 146,
+      "text": "**146. Addition of dilute hydrochloric acid to an aqueous solution of a crystalline salt yielded a yellow precipitate and a gas which turned dichromate paper green. The crystalline salt was probably**"
+    },
+    {
+      "paragraphIndex": 1285,
+      "number": 147,
+      "text": "**147. The process involved in the conversion of an oil into margarine is known as**"
+    },
+    {
+      "paragraphIndex": 1294,
+      "number": 148,
+      "text": "**148. An aqueous solution of an inorganic salt gave white precipitate (i) soluble in excess aqueous NaOH, (ii) insoluble in excess aqueous NH₃, (iii) with dilute HCl. The cation present in the inorganic salt is**"
+    },
+    {
+      "paragraphIndex": 1303,
+      "number": 149,
+      "text": "**149. Which of the following roles does sodium chloride play in soap preparation? It**"
+    },
+    {
+      "paragraphIndex": 1312,
+      "number": 150,
+      "text": "**150. The function of sulphur during the vulcanization of rubber is to**"
+    },
+    {
+      "paragraphIndex": 1321,
+      "number": 151,
+      "text": "**151. The movement of liquid molecules from the surface of the liquid to the gaseous phase above it is known as**"
+    },
+    {
+      "paragraphIndex": 1329,
+      "number": 152,
+      "text": "**152. What mass of a divalent metal M (atomic mass = 40) would react with excess hydrochloric acid to liberate 22 cm³ of dry hydrogen gas measured at S.T.P? (G.M.V = 22.4 dm³)**"
+    },
+    {
+      "paragraphIndex": 1337,
+      "number": 153,
+      "text": "**153. 10 cm³ of hydrogen fluoride gas reacts with 5 cm³ of dinitrogen difluoride gas (N₂F₂) to form 10 cm³ of a single gas. Which of the following is the most likely equation for the reaction?**"
+    },
+    {
+      "paragraphIndex": 1345,
+      "number": 154,
+      "text": "**154. The number of atoms of chlorine present in 5.85 g of NaCl is [Na=23, Cl=35.5, Avogadro's Number = 6.02 × 10²³]**"
+    },
+    {
+      "paragraphIndex": 1353,
+      "number": 155,
+      "text": "**155. How much of magnesium is required to react with 250 cm³ of 0.5 M HCl? [Mg=24]**"
+    },
+    {
+      "paragraphIndex": 1361,
+      "number": 156,
+      "text": "**156. 200 cm³ of oxygen diffuse through a porous plug in 50 seconds. How long will 80 cm³ of methane (CH₄) take to diffuse through the same porous plug under the same conditions? [C=12, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 1369,
+      "number": 157,
+      "text": "**157. The relationship between the velocity (u) of gas molecules and their relative molecular mass (M) is shown by the equation**"
+    },
+    {
+      "paragraphIndex": 1377,
+      "number": 158,
+      "text": "**158. An element with atomic number twelve is likely to be**"
+    },
+    {
+      "paragraphIndex": 1385,
+      "number": 159,
+      "text": "**159. Which of the following groups of physical properties increases from left to right of the periodic table?**"
+    },
+    {
+      "paragraphIndex": 1394,
+      "number": 160,
+      "text": "**160. When 50 cm³ of a saturated solution of sugar (molar mass 342.0 g) at 40°C was evaporated to dryness, 34.2 g dry solid was obtained. The solubility of sugar at 40°C is**"
+    },
+    {
+      "paragraphIndex": 1402,
+      "number": 161,
+      "text": "**161. In the solubility curve above, water at 98°C is saturated with KCl impurity in the crystals formed when the solution is cooled to 30°C?**"
+    },
+    {
+      "paragraphIndex": 1407,
+      "number": 162,
+      "text": "**162. Which of the following is an acid salt?**"
+    },
+    {
+      "paragraphIndex": 1415,
+      "number": 163,
+      "text": "**163. Which of the following solutions will conduct the least amount of electricity?**"
+    },
+    {
+      "paragraphIndex": 1423,
+      "number": 164,
+      "text": "**164. In the electrolysis of aqueous solution of K₂SO₄ in the above cell, which species migrate to the anode?**"
+    },
+    {
+      "paragraphIndex": 1431,
+      "number": 165,
+      "text": "**165. How many coulombs of electricity are passed through a solution in which 6.5 amperes are allowed to run for 1.0 hour?**"
+    },
+    {
+      "paragraphIndex": 1439,
+      "number": 166,
+      "text": "**166. Which of these represents a redox reaction?**"
+    },
+    {
+      "paragraphIndex": 1447,
+      "number": 167,
+      "text": "**167. How many electrons are transferred in reducing one atom of Mn in the reaction MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂?**"
+    },
+    {
+      "paragraphIndex": 1455,
+      "number": 168,
+      "text": "**168. 20 cm³ of 0.1 mol NH₄OH solution when neutralized with 20.05 cm³ of 0.1 mol HCl liberated 102 Joules of heat. Calculate the heat of neutralization of NH₄OH.**"
+    },
+    {
+      "paragraphIndex": 1463,
+      "number": 169,
+      "text": "**169. What is the consequence of increasing pressure on the equilibrium reaction ZnO(s) + H₂(g) ⇌ Zn(s) + H₂O(g)?**"
+    },
+    {
+      "paragraphIndex": 1472,
+      "number": 170,
+      "text": "**170. The approximate volume of air containing 10 cm³ of oxygen is**"
+    },
+    {
+      "paragraphIndex": 1480,
+      "number": 171,
+      "text": "**171. The reaction Mg + H₂O → MgO + H₂ takes place only in the presence of**"
+    },
+    {
+      "paragraphIndex": 1488,
+      "number": 172,
+      "text": "**172. When steam is passed through red hot carbon, which of the following are produced?**"
+    },
+    {
+      "paragraphIndex": 1496,
+      "number": 173,
+      "text": "**173. Which of the following contains an efflorescent, a deliquescent and a hygroscopic substance respectively?**"
+    },
+    {
+      "paragraphIndex": 1504,
+      "number": 174,
+      "text": "**174. The tabulated results below were obtained by titrating 10.0 cm³ of water with soap. The titration was repeated with the same sample of water after boiling.**"
+    },
+    {
+      "paragraphIndex": 1517,
+      "number": 175,
+      "text": "**175. The exhaust fumes from a garage that uses petrol of high sulphur content are bound to contain**"
+    },
+    {
+      "paragraphIndex": 1525,
+      "number": 176,
+      "text": "**176. Oxygen-demanding wastes are considered to be a water pollutant because they**"
+    },
+    {
+      "paragraphIndex": 1533,
+      "number": 177,
+      "text": "**177. Which of the following will react further with oxygen to form a higher oxide?**"
+    },
+    {
+      "paragraphIndex": 1541,
+      "number": 178,
+      "text": "**178. In the course of an experiment, two gases X and Y were produced. X turned wet lead ethanoate paper black and Y bleached moist litmus paper. What are the elements in each of the gases X and Y respectively?**"
+    },
+    {
+      "paragraphIndex": 1549,
+      "number": 179,
+      "text": "**179. Which of the following sulphides is insoluble in dilute HCl?**"
+    },
+    {
+      "paragraphIndex": 1557,
+      "number": 180,
+      "text": "**180. When chlorine is passed into water and subsequently exposed to sunlight, the gas evolved is**"
+    },
+    {
+      "paragraphIndex": 1565,
+      "number": 181,
+      "text": "**181. Which of the following metals does NOT form a stable trioxocarbonate(IV)?**"
+    },
+    {
+      "paragraphIndex": 1573,
+      "number": 182,
+      "text": "**182. Which of the following metals with NaOH to give salt and water only. When Z is treated with dilute HCl, a gas is evolved which gives a yellow suspension on passing into concentrated H₂SO₄. Substance Z is**"
+    },
+    {
+      "paragraphIndex": 1581,
+      "number": 183,
+      "text": "**183. Ammonia gas is normally dried with**"
+    },
+    {
+      "paragraphIndex": 1589,
+      "number": 184,
+      "text": "**184. What are the values of x, y and z respectively in the equation xCu + yHNO₃ → xCu(NO₃)₂ + 4H₂O + zNO?**"
+    },
+    {
+      "paragraphIndex": 1597,
+      "number": 185,
+      "text": "**185. The iron (III) oxide impurity in bauxite can be removed by**"
+    },
+    {
+      "paragraphIndex": 1605,
+      "number": 186,
+      "text": "**186. A white solid suspected to be lead trioxonitrate (V), zinc trioxocarbonate(IV) or calcium trioxocarbonate(IV) was heated strongly. Its residue, which was yellow when hot and white when cold, is**"
+    },
+    {
+      "paragraphIndex": 1613,
+      "number": 187,
+      "text": "**187. Which of the following compounds would give lilac flame coloration and a white precipitate with acidified barium chloride solution?**"
+    },
+    {
+      "paragraphIndex": 1621,
+      "number": 188,
+      "text": "**188. How will a metal X, which reacts explosively with air and with dilute acids, be best extracted from its ores?**"
+    },
+    {
+      "paragraphIndex": 1629,
+      "number": 189,
+      "text": "**189. Which of the following is NOT correct for the named organic compound in each case?**"
+    },
+    {
+      "paragraphIndex": 1637,
+      "number": 190,
+      "text": "**190. Which of the following is used as an 'anti-knock' in automobile engines?**"
+    },
+    {
+      "paragraphIndex": 1645,
+      "number": 191,
+      "text": "**191. What reaction takes place when palm-oil is added to potash and foams are observed?**"
+    },
+    {
+      "paragraphIndex": 1653,
+      "number": 192,
+      "text": "**192. How many isomers can be formed from organic compounds with the formula C₃H₈O?**"
+    },
+    {
+      "paragraphIndex": 1661,
+      "number": 193,
+      "text": "**193. Which of the structural formula for pent-2-enoic acid?**"
+    },
+    {
+      "paragraphIndex": 1666,
+      "number": 194,
+      "text": "**194. When ethanol is heated with excess concentrated sulphuric acid, the ethanol is**"
+    },
+    {
+      "paragraphIndex": 1674,
+      "number": 195,
+      "text": "**195. Which of the following compounds is NOT formed by the action of chlorine on methane?**"
+    },
+    {
+      "paragraphIndex": 1682,
+      "number": 196,
+      "text": "**196. The general formula of an alkyl halide (where X represents the halide) is**"
+    },
+    {
+      "paragraphIndex": 1690,
+      "number": 197,
+      "text": "**197. Which of the following are made by the process of polymerization?**"
+    },
+    {
+      "paragraphIndex": 1698,
+      "number": 198,
+      "text": "**198. Starch can be converted to ethyl alcohol by**"
+    },
+    {
+      "paragraphIndex": 1706,
+      "number": 199,
+      "text": "**199. A brand of ink containing cobalt (II), copper (II) and iron can best be separated into its various components by**"
+    },
+    {
+      "paragraphIndex": 1714,
+      "number": 200,
+      "text": "**200. Which of the following substances is a mixture?**"
+    },
+    {
+      "paragraphIndex": 1722,
+      "number": 201,
+      "text": "**201. The number of molecules of carbon(IV) oxide produced when 10.0 g CaCO₃ is treated with 0.2 dm³ of 1 M HCl in the equation CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ is**"
+    },
+    {
+      "paragraphIndex": 1730,
+      "number": 202,
+      "text": "**202. In the reaction CaC₂(s) + 2H₂O(l) → Ca(OH)₂(s) + C₂H₂(g), what is the mass of solid acetylene gas at S.T.P? [C=12, Ca=40, G.M.V=22400 cm³]**"
+    },
+    {
+      "paragraphIndex": 1738,
+      "number": 203,
+      "text": "**203. If the quantity of oxygen occupying a 2.76 liter container at a pressure of 0.825 atmosphere and 300 K is reduced by one-half, what is the pressure exerted by the remaining gas?**"
+    },
+    {
+      "paragraphIndex": 1746,
+      "number": 204,
+      "text": "**204. Which of the following substances has the lowest vapour density? [O=16, Cl=35.5, H=1, C=12]**"
+    },
+    {
+      "paragraphIndex": 1754,
+      "number": 205,
+      "text": "**205. If d represents the density of a gas and K is a constant, the rate of gaseous diffusion is related to the equation**"
+    },
+    {
+      "paragraphIndex": 1762,
+      "number": 206,
+      "text": "**206. An isotope has an atomic number of 17 and a mass number of 36. Which of the following gives the correct number of neutrons and protons in an atom of the isotope?**"
+    },
+    {
+      "paragraphIndex": 1772,
+      "number": 207,
+      "text": "**207. The atomic numbers of two elements X and Y are 12 and 9 respectively. The bond in the compound formed between the atoms of these two elements is**"
+    },
+    {
+      "paragraphIndex": 1780,
+      "number": 208,
+      "text": "**208. An element Z contained 90% of ¹⁶Z and 10% of ¹⁸Z. Its relative atomic mass is**"
+    },
+    {
+      "paragraphIndex": 1788,
+      "number": 209,
+      "text": "**209. The greater the difference in electronegativity between bonded atoms, the**"
+    },
+    {
+      "paragraphIndex": 1796,
+      "number": 210,
+      "text": "**210. A stream of air was successively passed through three tubes X, Y, and Z containing a concentrated aqueous solution of KOH, red hot copper powder and fused calcium chloride respectively. What was the composition of gas emanating from "
+    },
+    {
+      "paragraphIndex": 1804,
+      "number": 211,
+      "text": "**211. In the purification of town water supply, alum is used principally to**"
+    },
+    {
+      "paragraphIndex": 1812,
+      "number": 212,
+      "text": "**212. Which of the following water samples will have the highest titer value when titrated for the Ca²⁺ ions using soap solution?**"
+    },
+    {
+      "paragraphIndex": 1820,
+      "number": 213,
+      "text": "**213. Oil spillage in ponds and creeks can be cleaned up by**"
+    },
+    {
+      "paragraphIndex": 1828,
+      "number": 214,
+      "text": "**214. The solubility of Na₃AsO₄·(H₂O)₁₂ is 38.9 g per 100 g H₂O. What is the percentage of Na₃AsO₄ in the saturated solution? [As=75, Na=23, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 1836,
+      "number": 215,
+      "text": "**215. Which is the correct set of results for tests conducted respectively on fresh lime juice and ethanol?**"
+    },
+    {
+      "paragraphIndex": 1846,
+      "number": 216,
+      "text": "**216. In which of the following are the aqueous solutions of each of the substances correctly arranged in order of decreasing acidity?**"
+    },
+    {
+      "paragraphIndex": 1854,
+      "number": 217,
+      "text": "**217. The basicity of tetraoxophosphate (V) acid is**"
+    },
+    {
+      "paragraphIndex": 1862,
+      "number": 218,
+      "text": "**218. If 24.83 cm³ of 0.15 M NaOH is titrated to its end point with 39.45 cm³ of HCl, what is the molarity of the HCl?**"
+    },
+    {
+      "paragraphIndex": 1871,
+      "number": 219,
+      "text": "**219. A quantity of electricity liberates 3.6 g of silver from its salt. What mass of aluminium will be liberated from its salt by the same quantity of electricity? [Al=27, Ag=108]**"
+    },
+    {
+      "paragraphIndex": 1879,
+      "number": 220,
+      "text": "**220. Which of the following statements is CORRECT if 1 Faraday of electricity is passed through 1 M CuSO₄ solution for 1 minute?**"
+    },
+    {
+      "paragraphIndex": 1887,
+      "number": 221,
+      "text": "**221. What mass of magnesium would be obtained by passing a current of 2 amperes for 2 hrs 30 mins through molten magnesium chloride? [1 faraday = 96500 C, Mg=24]**"
+    },
+    {
+      "paragraphIndex": 1895,
+      "number": 222,
+      "text": "**222. In the reaction 3CuO + 2NH₃ → 3Cu + 3H₂O + N₂, how many electrons are transferred for each mole of copper produced?**"
+    },
+    {
+      "paragraphIndex": 1903,
+      "number": 223,
+      "text": "**223. Z is a solid substance, which liberates carbon(IV) oxide on treatment with concentrated H₂SO₄ or KMnO₄. The solid substance Z is**"
+    },
+    {
+      "paragraphIndex": 1911,
+      "number": 224,
+      "text": "**224. 5 g of ammonium trioxonitrate (V) on dissolution in water cooled its surrounding water and container by 1.6 kJ. What is the heat of solution of NH₄NO₃? [N=14, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 1919,
+      "number": 225,
+      "text": "**225. Tetraoxosulphate(VI) acid is prepared using the chemical reaction SO₃(g) + H₂O(l) → H₂SO₄(l). Given the heats of formation for SO₃(g), H₂O(l) and H₂SO₄(l) as -395 kJ/mol, -286 kJ/mol and -811 kJ/mol respectively, the enthalpy change "
+    },
+    {
+      "paragraphIndex": 1927,
+      "number": 226,
+      "text": "**226. The times taken for iodine to be liberated in the reaction between sodium thiosulphate and hydrochloric acid at various temperatures are as follows:**"
+    },
+    {
+      "paragraphIndex": 1939,
+      "number": 227,
+      "text": "**227. The reaction between sulphur(IV) oxide and oxygen is represented by the equilibrium reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH = -196 kJ. What factor would influence increased production of SO₃(g)?**"
+    },
+    {
+      "paragraphIndex": 1947,
+      "number": 228,
+      "text": "**228. Which of the following equations correctly represents the action of hot concentrated alkaline solution on chlorine?**"
+    },
+    {
+      "paragraphIndex": 1955,
+      "number": 229,
+      "text": "**229. Magnesium ribbon was allowed to burn inside a given gas P leaving a white solid residue Q. Addition of water to Q liberated a gas which produced dense white fumes with a drop of hydrochloric acid. The gas P was**"
+    },
+    {
+      "paragraphIndex": 1963,
+      "number": 230,
+      "text": "**230. The best treatment for a student who accidentally poured concentrated tetraoxosulphate(VI) acid on his skin in the laboratory is to wash the skin with**"
+    },
+    {
+      "paragraphIndex": 1971,
+      "number": 231,
+      "text": "**231. In which of the following pairs of elements is allotropy exhibited by each element?**"
+    },
+    {
+      "paragraphIndex": 1979,
+      "number": 232,
+      "text": "**232. Which of the following gases can best be used for demonstrating the fountain experiment? (i) Nitrogen (ii) Ammonia (iii) Nitrogen(I)oxide (iv) Hydrogen chloride**"
+    },
+    {
+      "paragraphIndex": 1987,
+      "number": 233,
+      "text": "**233. When calcium hydroxide is heated with ammonium tetraoxosulphate(VI), the gas given off may be collected by**"
+    },
+    {
+      "paragraphIndex": 1995,
+      "number": 234,
+      "text": "**234. Which of the following elements will form oxide which will dissolve both dilute HNO₃ and NaOH solution to form salts?**"
+    },
+    {
+      "paragraphIndex": 2003,
+      "number": 235,
+      "text": "**235. Stainless steel is an alloy of**"
+    },
+    {
+      "paragraphIndex": 2011,
+      "number": 236,
+      "text": "**236. Alloys are best prepared by**"
+    },
+    {
+      "paragraphIndex": 2019,
+      "number": 237,
+      "text": "**237. Corrosion is exhibited by**"
+    },
+    {
+      "paragraphIndex": 2027,
+      "number": 238,
+      "text": "**238. Inspite of the electronic configuration 1s²2s²2p², carbon is tetravalent because**"
+    },
+    {
+      "paragraphIndex": 2035,
+      "number": 239,
+      "text": "**239. Which of the following compounds will give a precipitate with an aqueous ammoniacal solution of copper(I) chloride?**"
+    },
+    {
+      "paragraphIndex": 2043,
+      "number": 240,
+      "text": "**240. The efficiency of petrol as a fuel in high compression internal combustion engines improves with an increase in the amount of**"
+    },
+    {
+      "paragraphIndex": 2051,
+      "number": 241,
+      "text": "**241. A palm wine seller stopped a bottle of his palm wine in his stall and after a few hours the bottle exploded. The reaction that occurred is**"
+    },
+    {
+      "paragraphIndex": 2059,
+      "number": 242,
+      "text": "**242. Ethanol reacts with aqueous sodium mono-oxoidate(I) to give a bright yellow solid with a characteristic smell. The product is**"
+    },
+    {
+      "paragraphIndex": 2067,
+      "number": 243,
+      "text": "**243. The most volatile fraction obtained from fractional distillation of crude petroleum contains**"
+    },
+    {
+      "paragraphIndex": 2075,
+      "number": 244,
+      "text": "**244. Local black soap is made by boiling palm oil with liquid extract of ash. The function of the ash is to provide the**"
+    },
+    {
+      "paragraphIndex": 2083,
+      "number": 245,
+      "text": "**245. Synthetic rubber is made by polymerization of**"
+    },
+    {
+      "paragraphIndex": 2091,
+      "number": 246,
+      "text": "**246. Complete oxidation of propan-1-ol gives**"
+    },
+    {
+      "paragraphIndex": 2099,
+      "number": 247,
+      "text": "**247. When water drops are added to calcium carbide in a container and the gas produced is passed through a jet and lighted, the flame is called**"
+    },
+    {
+      "paragraphIndex": 2107,
+      "number": 248,
+      "text": "**248. The structure of benzoic acid is**"
+    },
+    {
+      "paragraphIndex": 2112,
+      "number": 249,
+      "text": "**249. In the experiment above, ammonium chloride crystals deposit on the walls of the tube as a result of**"
+    },
+    {
+      "paragraphIndex": 2120,
+      "number": 250,
+      "text": "**250. The formula of the compound formed in a reaction between a trivalent metal M and a tetravalent non-metal X is**"
+    },
+    {
+      "paragraphIndex": 2128,
+      "number": 251,
+      "text": "**251. 2.5 g of a sample of an oxide of copper on reduction gave 2.0 g of copper. Another oxide of copper on reduction also gave 2.0 g of copper. These results are in accordance with the law of**"
+    },
+    {
+      "paragraphIndex": 2136,
+      "number": 252,
+      "text": "**252. One mole of propane is mixed with five moles of oxygen. The mixture is ignited and the propane burns completely. What is the volume of the products at STP? [G.M.V = 22.4 dm³/mol]**"
+    },
+    {
+      "paragraphIndex": 2144,
+      "number": 253,
+      "text": "**253. 0.9 dm³ of a gas at STP was subjected by means of a movable piston to two times the original pressure with the temperature being now kept at 364 K. What is the volume of the gas in dm³ at this pressure?**"
+    },
+    {
+      "paragraphIndex": 2152,
+      "number": 254,
+      "text": "**254. Which of the gas laws does the above graph illustrate?**"
+    },
+    {
+      "paragraphIndex": 2157,
+      "number": 255,
+      "text": "**255. An increase in temperature causes an increase in the pressure of a gas in a fixed volume due to an increase in the**"
+    },
+    {
+      "paragraphIndex": 2165,
+      "number": 256,
+      "text": "**256. The forces holding naphthalene crystals together can be overcome when naphthalene is heated to a temperature of 354 K resulting in the crystals melting. These forces are known as**"
+    },
+    {
+      "paragraphIndex": 2173,
+      "number": 257,
+      "text": "**257. A metallic ion X²⁺ with an inert gas structure contains 18 electrons. How many protons are there in this ion?**"
+    },
+    {
+      "paragraphIndex": 2181,
+      "number": 258,
+      "text": "**258. Which of the following physical properties decreases across the periodic table?**"
+    },
+    {
+      "paragraphIndex": 2189,
+      "number": 259,
+      "text": "**259. What are the possible oxidation numbers for an element if its atomic number is 17?**"
+    },
+    {
+      "paragraphIndex": 2197,
+      "number": 260,
+      "text": "**260. The energy change accompanying the addition of an electron to a gaseous atom is called**"
+    },
+    {
+      "paragraphIndex": 2205,
+      "number": 261,
+      "text": "**261. The molar ratio of oxygen to nitrogen in dissolved air is 2:1 whereas the ratio is 4:1 in atmospheric air because**"
+    },
+    {
+      "paragraphIndex": 2213,
+      "number": 262,
+      "text": "**262. An eruption polluted an environment with a gas suspected to be H₂S, a poisonous gas. A rescue team should spray the environment with**"
+    },
+    {
+      "paragraphIndex": 2221,
+      "number": 263,
+      "text": "**263. 1.34 g of hydrated sodium tetraoxosulphate(VI) was heated to give an anhydrous salt weighing 0.71 g. The formula of the hydrated salt. [Na=23, S=32, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 2229,
+      "number": 264,
+      "text": "**264. The ion that may be assumed to have negligible concentration in a sample of water that lathers readily with soap is**"
+    },
+    {
+      "paragraphIndex": 2237,
+      "number": 265,
+      "text": "**265. A substance S is isomorphous with another substance R. When a tiny crystal of R is added to a saturated solution of S,**"
+    },
+    {
+      "paragraphIndex": 2245,
+      "number": 266,
+      "text": "**266. Which of the following dilute solutions has the lowest pH value?**"
+    },
+    {
+      "paragraphIndex": 2254,
+      "number": 267,
+      "text": "**267. Which of the following in aqueous solution neutralizes litmus?**"
+    },
+    {
+      "paragraphIndex": 2262,
+      "number": 268,
+      "text": "**268. What volume of a 0.1 M H₃PO₄ will be required to neutralize 45.0 cm³ of a 0.2 M NaOH?**"
+    },
+    {
+      "paragraphIndex": 2270,
+      "number": 269,
+      "text": "**269. Which of the following substances is a basic salt?**"
+    },
+    {
+      "paragraphIndex": 2278,
+      "number": 270,
+      "text": "**270. Which of the following acts both as a reducing and an oxidizing agent?**"
+    },
+    {
+      "paragraphIndex": 2286,
+      "number": 271,
+      "text": "**271. Which of the following reactions takes place in the cathode compartment during the electrolysis of copper(II) chloride solution?**"
+    },
+    {
+      "paragraphIndex": 2294,
+      "number": 272,
+      "text": "**272. The mass of a substance M liberated at an electrode during electrolysis is proportional to the quantity of electricity Q passing through the electrolyte. This is represented graphically by**"
+    },
+    {
+      "paragraphIndex": 2299,
+      "number": 273,
+      "text": "**273. A mixture of starch solution and potassium iodide was placed in a test tube. On adding dilute tetraoxosulphate(VI) acid and then K₂Cr₂O₇ solutions, a blue-black colour was produced. In this reaction, the**"
+    },
+    {
+      "paragraphIndex": 2307,
+      "number": 274,
+      "text": "**274. Which of the following statements is TRUE?**"
+    },
+    {
+      "paragraphIndex": 2315,
+      "number": 275,
+      "text": "**275. Which of the following will produce the greatest increase in the rate of the chemical reaction represented by the equation Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + SO₂(g) + S(s)?**"
+    },
+    {
+      "paragraphIndex": 2323,
+      "number": 276,
+      "text": "**276. Which property of a reversible reaction is affected by a catalyst?**"
+    },
+    {
+      "paragraphIndex": 2331,
+      "number": 277,
+      "text": "**277. Which of the following is used in fire extinguishers?**"
+    },
+    {
+      "paragraphIndex": 2339,
+      "number": 278,
+      "text": "**278. When H₂S gas is passed into a solution of iron(III) chloride, the colour changes from yellow to green. This is because**"
+    },
+    {
+      "paragraphIndex": 2347,
+      "number": 279,
+      "text": "**279. Carbon(II) oxide may be collected as shown above because it**"
+    },
+    {
+      "paragraphIndex": 2355,
+      "number": 280,
+      "text": "**280. In the reaction C₁₂H₂₂O₁₁(s) → 6C(s) + 5H₂O, concentrated H₂SO₄ is acting as**"
+    },
+    {
+      "paragraphIndex": 2363,
+      "number": 281,
+      "text": "**281. Suitable reagents for the laboratory preparation of nitrogen are**"
+    },
+    {
+      "paragraphIndex": 2371,
+      "number": 282,
+      "text": "**282. The thermal decomposition of copper(II) trioxonitrate(V) yields copper(II) oxide, oxygen and**"
+    },
+    {
+      "paragraphIndex": 2379,
+      "number": 283,
+      "text": "**283. Chlorine is produced commercially by**"
+    },
+    {
+      "paragraphIndex": 2387,
+      "number": 284,
+      "text": "**284. Which of the following is used in the manufacture of glass?**"
+    },
+    {
+      "paragraphIndex": 2395,
+      "number": 285,
+      "text": "**285. Aluminium is extracted commercially from its ore by**"
+    },
+    {
+      "paragraphIndex": 2403,
+      "number": 286,
+      "text": "**286. Given the reactions (i) Fe(s) + (NO₃)₂(aq) → Fe(NO₃)₂(aq) + X(s), (ii) H₂(g) + XO(s) → X(s) + H₂O(g). X is likely to be**"
+    },
+    {
+      "paragraphIndex": 2411,
+      "number": 287,
+      "text": "**287. Crude copper can be purified by the electrolysis of CuSO₄(aq) if**"
+    },
+    {
+      "paragraphIndex": 2419,
+      "number": 288,
+      "text": "**288. The IUPAC name for CH₃CH₂CH₂CH₂CH₂(CH₃) is**"
+    },
+    {
+      "paragraphIndex": 2427,
+      "number": 289,
+      "text": "**289. Alkanoates are formed by the reaction of alkanoic acids with**"
+    },
+    {
+      "paragraphIndex": 2435,
+      "number": 290,
+      "text": "**290. The acidic hydrogen in the compound HC≡C-CH=CH-CH₃ is the hydrogen attached to carbon number**"
+    },
+    {
+      "paragraphIndex": 2443,
+      "number": 291,
+      "text": "**291. The four classes of hydrocarbons are**"
+    },
+    {
+      "paragraphIndex": 2451,
+      "number": 292,
+      "text": "**292. Alkanes CH₃CH₂CH₂CH₂CH₂(CH₃) + alkanes + hydrogen. The above reaction is known as**"
+    },
+    {
+      "paragraphIndex": 2459,
+      "number": 293,
+      "text": "**293. In the reaction 2(C₆H₁₀O₅)n + nH₂O → nC₁₂H₂₂O₁₁, diastase is functioning as**"
+    },
+    {
+      "paragraphIndex": 2467,
+      "number": 294,
+      "text": "**294. Which of the following compounds has the highest boiling point?**"
+    },
+    {
+      "paragraphIndex": 2475,
+      "number": 295,
+      "text": "**295. Detergents have the general formula**"
+    },
+    {
+      "paragraphIndex": 2483,
+      "number": 296,
+      "text": "**296. What process would coal undergo to give coal gas, coal tar, ammoniacal liquor and coke?**"
+    },
+    {
+      "paragraphIndex": 2491,
+      "number": 297,
+      "text": "**297. Which of the following would support the conclusion that a solid sample is a mixture?**"
+    },
+    {
+      "paragraphIndex": 2499,
+      "number": 298,
+      "text": "**298. The molar ratio of carbon to hydrogen of a volatile liquid compound is 1:2. 0.12 g of the liquid on evaporation at STP gave 32 cm³ of vapour. The molecular formula of the liquid is [G.M.V = 22.4 dm³, C=12, H=1]**"
+    },
+    {
+      "paragraphIndex": 2507,
+      "number": 299,
+      "text": "**299. It can be deduced from the vapour pressure curves above that**"
+    },
+    {
+      "paragraphIndex": 2512,
+      "number": 300,
+      "text": "**300. 20.00 cm³ of a solution containing 0.53 g of anhydrous Na₂CO₃ in 100 cm³ requires 25.00 cm³ of H₂SO₄ for complete neutralization. The concentration of the acid solution in moles per dm³ is [H=1, C=12, O=16, Na=23, S=32]**"
+    },
+    {
+      "paragraphIndex": 2520,
+      "number": 301,
+      "text": "**301. The minimum volume of oxygen required for the complete combustion of a mixture of 10 cm³ of CO and 15 cm³ of H₂ is**"
+    },
+    {
+      "paragraphIndex": 2528,
+      "number": 302,
+      "text": "**302. What is the partial pressure of hydrogen gas collected over water at standard atmospheric pressure and 25°C if the saturation vapour pressure of water is 23 mm Hg at that temperature?**"
+    },
+    {
+      "paragraphIndex": 2536,
+      "number": 303,
+      "text": "**303. The atomic radii of Li, Na and K are 1.33 Å, 1.54 Å and 1.96 Å respectively. Which of the following explains this gradation in atomic radius?**"
+    },
+    {
+      "paragraphIndex": 2544,
+      "number": 304,
+      "text": "**304. Which of the curves in the above graph illustrates the behavior of an ideal gas?**"
+    },
+    {
+      "paragraphIndex": 2549,
+      "number": 305,
+      "text": "**305. Elements X and Y have electronic configurations 1s²2s²2p⁴ and 1s²2s²2p⁶3s²3p¹ respectively. When they combine, the formula of the compound formed is**"
+    },
+    {
+      "paragraphIndex": 2557,
+      "number": 306,
+      "text": "**306. The atomic number of cesium is 55 and its atomic mass is 133. The nucleus of cesium atom therefore contains**"
+    },
+    {
+      "paragraphIndex": 2565,
+      "number": 307,
+      "text": "**307. Four elements P, Q, R and S have atomic numbers of 4, 10, 12, and 14 respectively. Which of these elements is a noble gas?**"
+    },
+    {
+      "paragraphIndex": 2573,
+      "number": 308,
+      "text": "**308. How many valence electrons are contained in the element represented by ³¹₁₅P?**"
+    },
+    {
+      "paragraphIndex": 2581,
+      "number": 309,
+      "text": "**309. In the above set up, substances X and Y are respectively**"
+    },
+    {
+      "paragraphIndex": 2586,
+      "number": 310,
+      "text": "**310. The gaseous pollutant sulphur(IV) oxide is most likely to be detected in fairly reasonable quantities in the area around a plant for the**"
+    },
+    {
+      "paragraphIndex": 2594,
+      "number": 311,
+      "text": "**311. Calcium hydroxide is added in the treatment of town water supply to**"
+    },
+    {
+      "paragraphIndex": 2602,
+      "number": 312,
+      "text": "**312. A hydrated salt of formula MSO₄·xH₂O contains 45.3% by mass of water of crystallization. Calculate the value of x. [M=56, S=32, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 2610,
+      "number": 313,
+      "text": "**313. If the graph above shows 1 dm³ of a saturated solution of HCl is cooled from 80°C, the mass of crystals deposited will be [K=39, Cl=35.5]**"
+    },
+    {
+      "paragraphIndex": 2615,
+      "number": 314,
+      "text": "**314. Using 50 cm³ of 1 M potassium hydroxide and 100 cm³ of 1 M tetraoxosulphate(VI) acid, calculate the respective volumes in cm³ of base and acid that would be required to produce the maximum amount of potassium tetraoxosulphate(VI)**"
+    },
+    {
+      "paragraphIndex": 2623,
+      "number": 315,
+      "text": "**315. A solution of calcium bromide contains 20 g/dm³. What is the molarity of the solution with respect to calcium bromide and bromide ions? [Ca=40, Br=80]**"
+    },
+    {
+      "paragraphIndex": 2631,
+      "number": 316,
+      "text": "**316. The substance ZnO dissolves in sodium hydroxide solution and mineral acid solution to give soluble products in each case. ZnO is therefore referred to as**"
+    },
+    {
+      "paragraphIndex": 2639,
+      "number": 317,
+      "text": "**317. An acid and its conjugate base**"
+    },
+    {
+      "paragraphIndex": 2647,
+      "number": 318,
+      "text": "**318. The same current is passed for the same time through solutions of AgNO₃ and CuSO₄ connected in series. How much silver will be deposited if 1.0 g of copper is produced? [Cu=63.5, Ag=108]**"
+    },
+    {
+      "paragraphIndex": 2655,
+      "number": 319,
+      "text": "**319. What is discharged at the cathode during the electrolysis of copper(II) tetraoxosulphate(VI) solution?**"
+    },
+    {
+      "paragraphIndex": 2663,
+      "number": 320,
+      "text": "**320. An element Z forms an anion whose formula is [Z(CN)₆]²⁻. If it has an oxidation number of +2, what is the value of y?**"
+    },
+    {
+      "paragraphIndex": 2671,
+      "number": 321,
+      "text": "**321. Which of the reactions is NOT an example of a redox reaction?**"
+    },
+    {
+      "paragraphIndex": 2683,
+      "number": 322,
+      "text": "**322. The combustion of ethene, C₂H₄, is given by the equation C₂H₄ → 2CO₂ + 2H₂O, ΔH = -1428 kJ. If the molar heats of formation of water and carbon(IV) oxide are -286 kJ and -396 kJ respectively, calculate the molar heat of formation of "
+    },
+    {
+      "paragraphIndex": 2691,
+      "number": 323,
+      "text": "**323. CO(g) + H₂O → CO₂(g) + H₂(g), ΔH = -41000 J. Which of the following factors favour the formation of hydrogen in the above reaction? I. high pressure, II. low pressure, III. high temperature, IV. use of excess steam**"
+    },
+    {
+      "paragraphIndex": 2699,
+      "number": 324,
+      "text": "**324. The above graph shows a typical heating curve from the solid phase through the liquid phase to the gaseous phase of a substance. What part of the curve shows solid and liquid in equilibrium?**"
+    },
+    {
+      "paragraphIndex": 2704,
+      "number": 325,
+      "text": "**325. Which of the following represents the balanced equation for the reaction of copper with concentrated trioxonitrate(V) acid?**"
+    },
+    {
+      "paragraphIndex": 2712,
+      "number": 326,
+      "text": "**326. The catalyst used in the contact process for the manufacture of tetraoxosulphate(VI) acid is**"
+    },
+    {
+      "paragraphIndex": 2720,
+      "number": 327,
+      "text": "**327. Some products of destructive distillation of coal are**"
+    },
+    {
+      "paragraphIndex": 2728,
+      "number": 328,
+      "text": "**328. The above diagram gives the potential energy profile of the catalyzed and uncatalyzed reactions of X(g) + Y(g) → XY(g). Deduce the respective activation energies in kJ of the catalyzed and uncatalyzed reverse reactions XY(g) → X(g) +"
+    },
+    {
+      "paragraphIndex": 2733,
+      "number": 329,
+      "text": "**329. Gunpowder is made from charcoal, sulphur and potassium trioxonitrate(V). The salt in the mixture performs the function of**"
+    },
+    {
+      "paragraphIndex": 2741,
+      "number": 330,
+      "text": "**330. Which of the following reactions is (are) feasible?**"
+    },
+    {
+      "paragraphIndex": 2753,
+      "number": 331,
+      "text": "**331. Bleaching powder, CaOCl₂·H₂O, deteriorates on exposure to air because**"
+    },
+    {
+      "paragraphIndex": 2761,
+      "number": 332,
+      "text": "**332. The product of the thermal decomposition of ammonium trioxonitrate(V) are**"
+    },
+    {
+      "paragraphIndex": 2769,
+      "number": 333,
+      "text": "**333. The scale of a chemical balance is made of iron plate and coated with copper electrolytically because**"
+    },
+    {
+      "paragraphIndex": 2777,
+      "number": 334,
+      "text": "**334. A metal is extracted from its ore by the electrolysis of its molten chloride and it displaces lead from lead(II) trioxonitrate(V) solution. The metal is**"
+    },
+    {
+      "paragraphIndex": 2785,
+      "number": 335,
+      "text": "**335. Mortar is NOT used for under-water construction because**"
+    },
+    {
+      "paragraphIndex": 2793,
+      "number": 336,
+      "text": "**336. Which of the following is NOT involved in the extraction of metals from their ores?**"
+    },
+    {
+      "paragraphIndex": 2801,
+      "number": 337,
+      "text": "**337. Which of the following compounds is an isomer of the compound (image)?**"
+    },
+    {
+      "paragraphIndex": 2806,
+      "number": 338,
+      "text": "**338. Three liquids X, Y and Z containing only hydrogen and carbon were burnt on a spoon. X and Y burnt with sooty flames while Z did not. Y is able to discharge the colour of bromine water whereas X and Z cannot. Which of the liquids woul"
+    },
+    {
+      "paragraphIndex": 2814,
+      "number": 339,
+      "text": "**339. Which of the following is a physical change?**"
+    },
+    {
+      "paragraphIndex": 2822,
+      "number": 340,
+      "text": "**340. Changes in the physical states of chemical substances are shown in the scheme below. The letters X, Y and Z respectively represent**"
+    },
+    {
+      "paragraphIndex": 2827,
+      "number": 341,
+      "text": "**341. In the reaction SnO₂ + 2C → Sn + 2CO, the mass of coke containing 80% carbon required to reduce 0.032 kg of pure tin oxide is [Sn=119, O=16, C=12]**"
+    },
+    {
+      "paragraphIndex": 2835,
+      "number": 342,
+      "text": "**342. The Avogadro's number of 24 g of magnesium is the same as that of**"
+    },
+    {
+      "paragraphIndex": 2843,
+      "number": 343,
+      "text": "**343. If a gas occupies a container of volume 146 cm³ at 18°C and 0.971 atm, its volume in cm³ at STP is**"
+    },
+    {
+      "paragraphIndex": 2851,
+      "number": 344,
+      "text": "**344. The volume occupied by 1.58 g of a gas at STP is 500 cm³. What is the relative molecular mass of the gas?**"
+    },
+    {
+      "paragraphIndex": 2859,
+      "number": 345,
+      "text": "**345. Equal volumes of CO, SO₂, NO and H₂S were released into a room at the same point and time. Which of the following gives the order of the room? [S=32, C=12, O=16, N=14, H=1]**"
+    },
+    {
+      "paragraphIndex": 2867,
+      "number": 346,
+      "text": "**346. A basic postulate of the kinetic theory of gases is that the molecules of a gas move in straight lines between collisions. This implies that**"
+    },
+    {
+      "paragraphIndex": 2875,
+      "number": 347,
+      "text": "**347. Which of the four atoms P, Q, R and S in the above data can be described by the following properties: relative atomic mass is greater than 30 but less than 40; it has an odd atomic number and forms a unipositive ion in solution?**"
+    },
+    {
+      "paragraphIndex": 2880,
+      "number": 348,
+      "text": "**348. Which of the following terms indicates the number of bonds that can be formed by an atom?**"
+    },
+    {
+      "paragraphIndex": 2888,
+      "number": 349,
+      "text": "**349. X(g) → X(g) + e⁻. The type of energy involved in the above transformation is**"
+    },
+    {
+      "paragraphIndex": 3288,
+      "number": 401,
+      "text": "**401. Which of the following is arranged in order of increasing electronegativity?**"
+    },
+    {
+      "paragraphIndex": 3296,
+      "number": 402,
+      "text": "**402. A quantity of air was passed through a weighed amount of alkaline pyrogallol. An increase in the weight of the pyrogallol would result from the absorption of**"
+    },
+    {
+      "paragraphIndex": 3304,
+      "number": 403,
+      "text": "**403. The electrons of two atoms Y and Z are arranged in shells as shown above. The bond formed between the atoms of Y and Z is**"
+    },
+    {
+      "paragraphIndex": 3309,
+      "number": 404,
+      "text": "**404. Which of the following ions is a pollutant in drinking water even in trace amount?**"
+    },
+    {
+      "paragraphIndex": 3317,
+      "number": 405,
+      "text": "**405. The solubility of copper(II) tetraoxosulphate(VI) is 75 g in 100 g of water at 100°C and 25 g in 100 g of water at 30°C. What mass of the salt would crystallize if 50 g of copper(II) tetraoxosulphate(VI) solution saturated at 100°C w"
+    },
+    {
+      "paragraphIndex": 3325,
+      "number": 406,
+      "text": "**406. A sample of temporary hard water can be prepared in the laboratory by**"
+    },
+    {
+      "paragraphIndex": 3333,
+      "number": 407,
+      "text": "**407. A property of a colloidal dispersion which a solution does not have is**"
+    },
+    {
+      "paragraphIndex": 3341,
+      "number": 408,
+      "text": "**408. 50 cm³ of sulphur(IV) oxide, 800 cm³ of ammonia, 450 cm³ of hydrogen chloride, 1.0 cm³ of water at 15°C. Which of the following is suitable for demonstrating the fountain experiment?**"
+    },
+    {
+      "paragraphIndex": 3349,
+      "number": 409,
+      "text": "**409. Which of the following substances could be satisfactorily used as X in the above figure?**"
+    },
+    {
+      "paragraphIndex": 3354,
+      "number": 410,
+      "text": "**410. What volume of CO₂ at STP would be obtained by reacting 10 cm³ of 0.1 M solution of anhydrous sodium trioxocarbonate(IV) with excess acid? [GMV at STP = 22.4 dm³]**"
+    },
+    {
+      "paragraphIndex": 3362,
+      "number": 411,
+      "text": "**411. If a current of 1.5 A is passed for 4.00 hours through a molten tin salt and 13.3 g of tin is deposited, what is the oxidation state of the metal in the salt? [Sn=118.7, F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 3370,
+      "number": 412,
+      "text": "**412. Which of the following aqueous solutions, Na₂CO₃, Na₂SO₄, FeCl₃, NH₄Cl and CH₃COONa, have pH greater than 7?**"
+    },
+    {
+      "paragraphIndex": 3378,
+      "number": 413,
+      "text": "**413. MnO₄⁻ + 8H⁺ + ne⁻ → Mn²⁺ + 4H₂O. Which is the value of n in the reaction above?**"
+    },
+    {
+      "paragraphIndex": 3386,
+      "number": 414,
+      "text": "**414. 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). The above reaction is**"
+    },
+    {
+      "paragraphIndex": 3394,
+      "number": 415,
+      "text": "**415. Manganese(IV) oxide is known to hasten the decomposition of hydrogen peroxide. Its main action is to**"
+    },
+    {
+      "paragraphIndex": 3402,
+      "number": 416,
+      "text": "**416. 1.1 g of CaCl₂ dissolved in 50 cm³ of water caused a rise in temperature of 34°C. The heat reaction, ΔH for CaCl₂ in kJ per mole is [Ca=40, Cl=35.5, specific heat of water is 4.18 J/g·K]**"
+    },
+    {
+      "paragraphIndex": 3410,
+      "number": 417,
+      "text": "**417. NO + CO → ½N₂ + CO₂, ΔH = -89.3 kJ. What conditions would favour maximum conversion of nitrogen(II) oxide and carbon(II) oxide in the reaction above?**"
+    },
+    {
+      "paragraphIndex": 3418,
+      "number": 418,
+      "text": "**418. Which of the following equilibria is unaffected by a pressure change?**"
+    },
+    {
+      "paragraphIndex": 3426,
+      "number": 419,
+      "text": "**419. Initial concentration of NO in moles, Initial Rate (moles/sec): 0.001 → 3.0 × 10⁻⁵, 0.002 → 1.2 × 10⁻⁴. The data in the table above shows the rate of reaction of nitrogen(II) oxide with chlorine at 25°C. It can be concluded that doub"
+    },
+    {
+      "paragraphIndex": 3434,
+      "number": 420,
+      "text": "**420. Which of the following gases will rekindle a brightly glowing splint?**"
+    },
+    {
+      "paragraphIndex": 3442,
+      "number": 421,
+      "text": "**421. Which of the following salts can be melted without decomposition?**"
+    },
+    {
+      "paragraphIndex": 3450,
+      "number": 422,
+      "text": "**422. Oxygen gas can be prepared by heating**"
+    },
+    {
+      "paragraphIndex": 3458,
+      "number": 423,
+      "text": "**423. The appropriate test paper to use in the above experiment is moist**"
+    },
+    {
+      "paragraphIndex": 3467,
+      "number": 424,
+      "text": "**424. Addition of aqueous ammonia to a solution of Zn²⁺ gives a white precipitate which dissolves in an excess of ammonia because**"
+    },
+    {
+      "paragraphIndex": 3475,
+      "number": 425,
+      "text": "**425. Which of the following, in clear solution, forms a white precipitate when carbon(IV) oxide is bubbled into it for a short time?**"
+    },
+    {
+      "paragraphIndex": 3483,
+      "number": 426,
+      "text": "**426. Copper(II) tetraoxosulphate(VI) is widely used as a**"
+    },
+    {
+      "paragraphIndex": 3491,
+      "number": 427,
+      "text": "**427. Which of the following metals can be prepared in samples by the thermal decomposition of their trioxonitrate(V) salt?**"
+    },
+    {
+      "paragraphIndex": 3499,
+      "number": 428,
+      "text": "**428. Which of the following compounds can exist as geometric isomers?**"
+    },
+    {
+      "paragraphIndex": 3508,
+      "number": 429,
+      "text": "**429. How many structural isomers can be written for the alkyl bromide C₅H₁₁Br?**"
+    },
+    {
+      "paragraphIndex": 3516,
+      "number": 430,
+      "text": "**430. The final products of the reaction between methane and chlorine in the presence of ultraviolet light are hydrogen chloride and**"
+    },
+    {
+      "paragraphIndex": 3524,
+      "number": 431,
+      "text": "**431. How many grams of bromine will be required to completely react with 10 g of propyne? [C=12, H=1, Br=80]**"
+    },
+    {
+      "paragraphIndex": 3532,
+      "number": 432,
+      "text": "**432. Ethene when passed into concentrated H₂SO₄ is rapidly absorbed. The product is diluted with water and then warmed to produce**"
+    },
+    {
+      "paragraphIndex": 3540,
+      "number": 433,
+      "text": "**433. One of the advantages of detergents over soap is that detergents**"
+    },
+    {
+      "paragraphIndex": 3548,
+      "number": 434,
+      "text": "**434. CH₃CH₂CHBrCH₃ + alc. KOH → CH₃CH=CHCH₃ + CH₃CH₂CH=CH₂. The above reaction is an example of**"
+    },
+    {
+      "paragraphIndex": 3556,
+      "number": 435,
+      "text": "**435. A certain liquid has a high boiling point. It is viscous, non-toxic, miscible with water, and hygroscopic. This liquid is most likely to be**"
+    },
+    {
+      "paragraphIndex": 3564,
+      "number": 436,
+      "text": "**436. The compound CH₃CH(CH₃)CH₂OH is known as**"
+    },
+    {
+      "paragraphIndex": 3572,
+      "number": 437,
+      "text": "**437. Which of the following statements is TRUE of the complete hydrolysis of a glyceride by sodium hydroxide?**"
+    },
+    {
+      "paragraphIndex": 3580,
+      "number": 438,
+      "text": "**438. Which of the following are the products of the reaction between CH₃COOH and Cl₂ in sunlight?**"
+    },
+    {
+      "paragraphIndex": 3588,
+      "number": 439,
+      "text": "**439. Which of the following substances is not a homogeneous mixture?**"
+    },
+    {
+      "paragraphIndex": 3596,
+      "number": 440,
+      "text": "**440. There is a large temperature interval between the melting point and the boiling point of a metal because**"
+    },
+    {
+      "paragraphIndex": 3604,
+      "number": 441,
+      "text": "**441. How many moles of H⁺ are there in 1 dm³ of 0.5 M solution of H₂SO₄?**"
+    },
+    {
+      "paragraphIndex": 3612,
+      "number": 442,
+      "text": "**442. wH₂SO₄ + xAl(OH)₃ → yH₂O + zAl₂(SO₄)₃. The respective values of w, x, y and z in the equation above are**"
+    },
+    {
+      "paragraphIndex": 3620,
+      "number": 443,
+      "text": "**443. A given mass of gas occupies 2 dm³ at 300 K. At what temperature will its volume be doubled keeping the pressure constant?**"
+    },
+    {
+      "paragraphIndex": 3628,
+      "number": 444,
+      "text": "**444. If 100 cm³ of oxygen passes through a porous plug in 50 seconds, the time taken for the same volume of hydrogen to pass through the same porous plug is [O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 3636,
+      "number": 445,
+      "text": "**445. Which of the following is a measure of the average kinetic energy of the molecules of a substance?**"
+    },
+    {
+      "paragraphIndex": 3644,
+      "number": 446,
+      "text": "**446. An increase in temperature causes an increase in the pressure of a gas in a fixed volume due to an increase in the**"
+    },
+    {
+      "paragraphIndex": 3652,
+      "number": 447,
+      "text": "**447. The nucleus of the isotope tritium contains**"
+    },
+    {
+      "paragraphIndex": 3660,
+      "number": 448,
+      "text": "**448. How many lone pairs of electrons are there on the central atom of the H₂O molecule?**"
+    },
+    {
+      "paragraphIndex": 3668,
+      "number": 449,
+      "text": "**449. ¹⁴N + X → ¹⁷O + ¹H. In the above reaction, X is a**"
+    },
+    {
+      "paragraphIndex": 3676,
+      "number": 450,
+      "text": "**450. Four elements P, Q, R and S have 1, 2, 3 and 7 electrons in their outermost shells respectively. The element which is unlikely to be a metal is**"
+    },
+    {
+      "paragraphIndex": 3684,
+      "number": 451,
+      "text": "**451. The pollutants that are likely to be present in an industrial environment are**"
+    },
+    {
+      "paragraphIndex": 3692,
+      "number": 452,
+      "text": "**452. Which of the following gases dissolves in water vapour to produce acid rain during rainfall?**"
+    },
+    {
+      "paragraphIndex": 3700,
+      "number": 453,
+      "text": "**453. Water for town supply is chlorinated to make it free from**"
+    },
+    {
+      "paragraphIndex": 3708,
+      "number": 454,
+      "text": "**454. On which of the following is the solubility of a gaseous substance dependent? I. Nature of solvent, II. Nature of solute, III. Temperature, IV. Pressure**"
+    },
+    {
+      "paragraphIndex": 3716,
+      "number": 455,
+      "text": "**455. An emulsion paint consists of**"
+    },
+    {
+      "paragraphIndex": 3724,
+      "number": 456,
+      "text": "**456. A sample of orange juice is found to have a pH of 3.80. What is the concentration of the hydroxide ion in the juice?**"
+    },
+    {
+      "paragraphIndex": 3732,
+      "number": 457,
+      "text": "**457. Arrange HCl, CH₃COOH, C₂H₅OH in order of increasing conductivity**"
+    },
+    {
+      "paragraphIndex": 3740,
+      "number": 458,
+      "text": "**458. Which of these is an acid salt?**"
+    },
+    {
+      "paragraphIndex": 3748,
+      "number": 459,
+      "text": "**459. How many grams of H₂SO₄ are necessary for the preparation of 0.175 dm³ of 6.00 M H₂SO₄? [S=32.06, O=16.00, H=1.00]**"
+    },
+    {
+      "paragraphIndex": 3756,
+      "number": 460,
+      "text": "**460. Copper(II) tetraoxosulphate(IV) solution is electrolyzed using carbon electrodes. Which of the following are produced at the anode and cathode respectively?**"
+    },
+    {
+      "paragraphIndex": 3764,
+      "number": 461,
+      "text": "**461. Calculate the mass, in kilograms, of magnesium produced by the electrolysis of magnesium(II) chloride in a cell operating for 24 hours at 500 amperes. [Faraday = 96,500 C/mol, Mg=24]**"
+    },
+    {
+      "paragraphIndex": 3772,
+      "number": 462,
+      "text": "**462. MnO₂ + 2Cl⁻ + 4H⁺ → Mn²⁺ + Cl₂ + 2H₂O. The changes in oxidation numbers when manganese, chlorine and hydrogen ions react according to the above equation are respectively**"
+    },
+    {
+      "paragraphIndex": 3780,
+      "number": 463,
+      "text": "**463. S₂O₃²⁻ + I₂ → S₄O₆²⁻ + 2I⁻. In the reaction above, the oxidizing agent is**"
+    },
+    {
+      "paragraphIndex": 3788,
+      "number": 464,
+      "text": "**464. In which of the following is the entropy change positive?**"
+    },
+    {
+      "paragraphIndex": 3796,
+      "number": 465,
+      "text": "**465. In what way is equilibrium constant for the forward reaction related to that of the reverse reaction?**"
+    },
+    {
+      "paragraphIndex": 3804,
+      "number": 466,
+      "text": "**466. Which of the following equilibria shows little or no net reaction when the volume of the system is decreased?**"
+    },
+    {
+      "paragraphIndex": 3812,
+      "number": 467,
+      "text": "**467. For a general equation of the nature xP + yQ → mR + nS, the expression for the equilibrium constant is**"
+    },
+    {
+      "paragraphIndex": 3820,
+      "number": 468,
+      "text": "**468. Which of these statements is TRUE about carbon(IV) oxide?**"
+    },
+    {
+      "paragraphIndex": 3828,
+      "number": 469,
+      "text": "**469. In the experiment above, Z can be**"
+    },
+    {
+      "paragraphIndex": 3833,
+      "number": 470,
+      "text": "**470. Which of the following combination of gases is used for metal welding? I. Oxygen and ethyne, II. Hydrogen and ethyne, III. Hydrogen and oxygen, IV. Ethyne, hydrogen and oxygen**"
+    },
+    {
+      "paragraphIndex": 3841,
+      "number": 471,
+      "text": "**471. Which of the following oxides of nitrogen is unstable in air?**"
+    },
+    {
+      "paragraphIndex": 3849,
+      "number": 472,
+      "text": "**472. The gas formed when ammonium trioxonitrate(V) is heated with sodium hydroxide is**"
+    },
+    {
+      "paragraphIndex": 3857,
+      "number": 473,
+      "text": "**473. Safety matches contain sulphur and**"
+    },
+    {
+      "paragraphIndex": 3865,
+      "number": 474,
+      "text": "**474. Addition of an aqueous solution of barium chloride to the aqueous solution of a salt gives a white precipitate.**"
+    },
+    {
+      "paragraphIndex": 3873,
+      "number": 475,
+      "text": "**475. Sodium hydroxide solution can be conveniently stored in a container made of**"
+    },
+    {
+      "paragraphIndex": 3881,
+      "number": 476,
+      "text": "**476. Which of the following is NOT used as raw material in the Solvay process?**"
+    },
+    {
+      "paragraphIndex": 3889,
+      "number": 477,
+      "text": "**477. Duralumin consists of aluminium, copper,**"
+    },
+    {
+      "paragraphIndex": 3897,
+      "number": 478,
+      "text": "**478. CaO + H₂O → Ca(OH)₂, ΔH = -65 kJ. The process represented by the above equation is known as**"
+    },
+    {
+      "paragraphIndex": 3905,
+      "number": 479,
+      "text": "**479. The carbon atoms in ethane are**"
+    },
+    {
+      "paragraphIndex": 3913,
+      "number": 480,
+      "text": "**480. The IUPAC name for the hydrocarbon (image) is**"
+    },
+    {
+      "paragraphIndex": 3918,
+      "number": 481,
+      "text": "**481. Which of the following compounds is a secondary alcohol?**"
+    },
+    {
+      "paragraphIndex": 3926,
+      "number": 482,
+      "text": "**482. Which of the following compounds reacts with sodium metal as well as silver and copper salts?**"
+    },
+    {
+      "paragraphIndex": 3934,
+      "number": 483,
+      "text": "**483. Which of the following are isomers?**"
+    },
+    {
+      "paragraphIndex": 3942,
+      "number": 484,
+      "text": "**484. The functional group present in an organic acid is**"
+    },
+    {
+      "paragraphIndex": 3950,
+      "number": 485,
+      "text": "**485. The characteristic reaction of carbonyl compounds is**"
+    },
+    {
+      "paragraphIndex": 3958,
+      "number": 486,
+      "text": "**486. An organic compound containing 40.1% carbon and 6.667% hydrogen has an empirical formula of**"
+    },
+    {
+      "paragraphIndex": 3966,
+      "number": 487,
+      "text": "**487. Alkanals can be differentiated from alkanones by reaction with**"
+    },
+    {
+      "paragraphIndex": 3974,
+      "number": 488,
+      "text": "**488. An example of a polysaccharide is**"
+    },
+    {
+      "paragraphIndex": 3982,
+      "number": 489,
+      "text": "**489. The dissolution of common salt in water is a physical change because**"
+    },
+    {
+      "paragraphIndex": 3990,
+      "number": 490,
+      "text": "**490. Which of the following substances is a mixture?**"
+    },
+    {
+      "paragraphIndex": 3998,
+      "number": 491,
+      "text": "**491. How many moles of oxygen molecules would be produced from the decomposition of 2.5 moles of potassium trioxochlorate(V)?**"
+    },
+    {
+      "paragraphIndex": 4006,
+      "number": 492,
+      "text": "**492. A balanced chemical equation obeys the law of**"
+    },
+    {
+      "paragraphIndex": 4014,
+      "number": 493,
+      "text": "**493. At 25°C and 1 atm, a gas occupies a volume of 1.50 dm³. What volume will it occupy at 100°C at 1 atm?**"
+    },
+    {
+      "paragraphIndex": 4022,
+      "number": 494,
+      "text": "**494. A gaseous mixture of 80.0 g of oxygen and 56.0 g of nitrogen has a total pressure of 1.8 atm. The partial pressure of oxygen in the mixture is [O=16, N=14]**"
+    },
+    {
+      "paragraphIndex": 4030,
+      "number": 495,
+      "text": "**495. Which of the curves above represents the behavior of 1 mole of an ideal gas?**"
+    },
+    {
+      "paragraphIndex": 4035,
+      "number": 496,
+      "text": "**496. For iodine crystals to sublime on heating, the molecules must acquire energy that is**"
+    },
+    {
+      "paragraphIndex": 4043,
+      "number": 497,
+      "text": "**497. An element E has the electronic configuration 1s²2s²2p⁶3s²3p³. The reaction of E with a halogen X can give**"
+    },
+    {
+      "paragraphIndex": 4051,
+      "number": 498,
+      "text": "**498. Two atoms represented as ²³⁵₉₂U and ²³⁸₉₂U are**"
+    },
+    {
+      "paragraphIndex": 4059,
+      "number": 499,
+      "text": "**499. As the difference in electronegativity between bonded atoms increases, polarity of the bond**"
+    },
+    {
+      "paragraphIndex": 4067,
+      "number": 500,
+      "text": "**500. Which group of elements forms hydrides that are pyramidal in structure?**"
+    },
+    {
+      "paragraphIndex": 4075,
+      "number": 501,
+      "text": "**501. Water has a rather high boiling point despite its low molecular mass because of the presence of**"
+    },
+    {
+      "paragraphIndex": 4083,
+      "number": 502,
+      "text": "**502. Argon is used in gas-filled electric lamps because it helps to**"
+    },
+    {
+      "paragraphIndex": 4091,
+      "number": 503,
+      "text": "**503. The air around a petroleum refinery is most likely to contain**"
+    },
+    {
+      "paragraphIndex": 4099,
+      "number": 504,
+      "text": "**504. Water can be identified by the use of**"
+    },
+    {
+      "paragraphIndex": 4107,
+      "number": 505,
+      "text": "**505. The phenomenon whereby sodium trioxocarbonate(IV) decahydrate loses some of its water of crystallization on exposure to the atmosphere is known as**"
+    },
+    {
+      "paragraphIndex": 4115,
+      "number": 506,
+      "text": "**506. A student prepares 0.5 M solutions of hydrochloric and ethanoic acids and then measured their pH. The result would show that the**"
+    },
+    {
+      "paragraphIndex": 4123,
+      "number": 507,
+      "text": "**507. For which salt in the graph above does the solubility increase most rapidly with rise in temperature?**"
+    },
+    {
+      "paragraphIndex": 4128,
+      "number": 508,
+      "text": "**508. NH₃ + H₂O → NH₄⁺ + OH⁻. It may be deduced from the reaction above that**"
+    },
+    {
+      "paragraphIndex": 4136,
+      "number": 509,
+      "text": "**509. 4.0 g of sodium hydroxide in 250 cm³ of solution contains**"
+    },
+    {
+      "paragraphIndex": 4144,
+      "number": 510,
+      "text": "**510. During the electrolysis of a salt of metal M, a current of 0.05 A flows for 32 minutes 10 seconds and deposits 0.325 g of M. What is the charge of the metal ion? [M=65, F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 4152,
+      "number": 511,
+      "text": "**511. Which of the following reactions occurs at the anode during the electrolysis of a very dilute aqueous solution of sodium chloride?**"
+    },
+    {
+      "paragraphIndex": 4160,
+      "number": 512,
+      "text": "**512. Half-cell reaction E°: Cu²⁺(aq) + 2e⁻ → Cu(s), Fe²⁺(aq) + 2e⁻ → Fe(s), Ba²⁺(aq) + 2e⁻ → Ba(s), Zn²⁺(aq) + 2e⁻ → Zn(s). From the data above, it can be deduced that the most powerful reducing agent of the four metals is**"
+    },
+    {
+      "paragraphIndex": 4168,
+      "number": 513,
+      "text": "**513. The oxidation states of chlorine in HOCl, HClO₃ and HClO₄ are respectively**"
+    },
+    {
+      "paragraphIndex": 4176,
+      "number": 514,
+      "text": "**514. A reaction takes place spontaneously if**"
+    },
+    {
+      "paragraphIndex": 4184,
+      "number": 515,
+      "text": "**515. The standard enthalpies of formation of CO₂(g), H₂O(g) and CO(g) in kJ/mol are -394, -242 and -110 respectively. What is the standard enthalpy change for the reaction CO(g) + H₂O(g) → CO₂(g) + H₂(g)?**"
+    },
+    {
+      "paragraphIndex": 4192,
+      "number": 516,
+      "text": "**516. 10 g of a solid is in equilibrium with its own vapour. When 1 g of a small amount of solid is added, the vapour pressure**"
+    },
+    {
+      "paragraphIndex": 4200,
+      "number": 517,
+      "text": "**517. In the diagram above, curve X represents the energy profile for a homogeneous gaseous reaction. Which of the following conditions would produce curve Y for the same reaction?**"
+    },
+    {
+      "paragraphIndex": 4205,
+      "number": 518,
+      "text": "**518. NaCl(s) + H₂SO₄(l) → HCl(g) + NaHSO₄(s). In the reaction above, H₂SO₄ behaves as**"
+    },
+    {
+      "paragraphIndex": 4213,
+      "number": 519,
+      "text": "**519. Which of these salts will produce its metal, oxygen and nitrogen(IV) oxide on heating?**"
+    },
+    {
+      "paragraphIndex": 4221,
+      "number": 520,
+      "text": "**520. An experiment produces a gaseous mixture of carbon(IV) oxide and carbon(II) oxide. In order to obtain pure carbon(II) oxide, the gas mixture should be**"
+    },
+    {
+      "paragraphIndex": 4229,
+      "number": 521,
+      "text": "**521. Which of the following is a property of ionic chlorides?**"
+    },
+    {
+      "paragraphIndex": 4237,
+      "number": 522,
+      "text": "**522. When dilute aqueous solutions of lead(II) nitrate and potassium bromide are mixed, a precipitate is observed. The products of this reaction are**"
+    },
+    {
+      "paragraphIndex": 4245,
+      "number": 523,
+      "text": "**523. Bronze is an alloy of**"
+    },
+    {
+      "paragraphIndex": 4253,
+      "number": 524,
+      "text": "**524. Copper metal will react with concentrated trioxonitrate(V) acid to give**"
+    },
+    {
+      "paragraphIndex": 4261,
+      "number": 525,
+      "text": "**525. The active reducing agent in the blast furnace for the extraction of iron is**"
+    },
+    {
+      "paragraphIndex": 4269,
+      "number": 526,
+      "text": "**526. Al₂O₃(s) + 3H₂SO₄(aq) → Al₂(SO₄)₃(aq) + 3H₂O(l). Al₂O₃(s) + 2NaOH(aq) + 3H₂O(l) → 2NaAl(OH)₄(aq). We can conclude from the equations above that Al₂O₃(s) is**"
+    },
+    {
+      "paragraphIndex": 4277,
+      "number": 527,
+      "text": "**527. The two functional groups in the above compound are**"
+    },
+    {
+      "paragraphIndex": 4282,
+      "number": 528,
+      "text": "**528. The fraction of crude oil used as jet fuel is**"
+    },
+    {
+      "paragraphIndex": 4290,
+      "number": 529,
+      "text": "**529. The IUPAC nomenclature for the compound CH₃CH(CH₃)CH₂CH₂CH(CH₃)CH₃ is**"
+    },
+    {
+      "paragraphIndex": 4298,
+      "number": 530,
+      "text": "**530. It is not desirable to use lead tetraethyl as an anti-knock agent because**"
+    },
+    {
+      "paragraphIndex": 4306,
+      "number": 531,
+      "text": "**531. The carbon atoms in ethyne are**"
+    },
+    {
+      "paragraphIndex": 4314,
+      "number": 532,
+      "text": "**532. Catalytic hydrogenation of benzene produces**"
+    },
+    {
+      "paragraphIndex": 4322,
+      "number": 533,
+      "text": "**533. The compounds CH₃COOC₂H₅ and CH₃CH₂CH₂COOH are**"
+    },
+    {
+      "paragraphIndex": 4330,
+      "number": 534,
+      "text": "**534. Palm wine turns sour with time because**"
+    },
+    {
+      "paragraphIndex": 4338,
+      "number": 535,
+      "text": "**535. The function of the copper(II) tetraoxosulphate(VI) in dilute H₂SO₄ in the figure above is to**"
+    },
+    {
+      "paragraphIndex": 4343,
+      "number": 536,
+      "text": "**536. Which of the following represents saponification?**"
+    },
+    {
+      "paragraphIndex": 4351,
+      "number": 537,
+      "text": "**537. The confirmatory test for alkanoic acids in organic qualitative analysis is the**"
+    },
+    {
+      "paragraphIndex": 4359,
+      "number": 538,
+      "text": "**538. A mixture of sand, ammonium chloride and sodium chloride is best separated by**"
+    },
+    {
+      "paragraphIndex": 4367,
+      "number": 539,
+      "text": "**539. A pure solid usually melts**"
+    },
+    {
+      "paragraphIndex": 4375,
+      "number": 540,
+      "text": "**540. At the same temperature and pressure, 50 cm³ of nitrogen gas contains the same number of molecules as**"
+    },
+    {
+      "paragraphIndex": 4383,
+      "number": 541,
+      "text": "**541. 8 g CH₄ occupies 11.2 dm³ at STP. What volume would 22 g of CH₃CH₂CH₃ occupy under the same condition? [C=12, H=1]**"
+    },
+    {
+      "paragraphIndex": 4391,
+      "number": 542,
+      "text": "**542. To what temperature must a gas at 273 K be heated in order to double both its volume and pressure?**"
+    },
+    {
+      "paragraphIndex": 4399,
+      "number": 543,
+      "text": "**543. For a gas, the relative molecular mass is equal to 2Y. What is Y?**"
+    },
+    {
+      "paragraphIndex": 4407,
+      "number": 544,
+      "text": "**544. The densities of two gases X and Y are 0.5 g/dm³ and 2.0 g/dm³ respectively. What is the rate of diffusion of X relative to Y?**"
+    },
+    {
+      "paragraphIndex": 4415,
+      "number": 545,
+      "text": "**545. An increase in temperature causes an increase in the pressure of a gas because**"
+    },
+    {
+      "paragraphIndex": 4423,
+      "number": 546,
+      "text": "**546. The shape of ammonia molecule is**"
+    },
+    {
+      "paragraphIndex": 4431,
+      "number": 547,
+      "text": "**547. The number of electrons in the valence shell of an element of atomic number 14 is**"
+    },
+    {
+      "paragraphIndex": 4439,
+      "number": 548,
+      "text": "**548. Which of the following physical properties decreases down a group in the periodic table?**"
+    },
+    {
+      "paragraphIndex": 4447,
+      "number": 549,
+      "text": "**549. The diagram above represents an atom of**"
+    },
+    {
+      "paragraphIndex": 4452,
+      "number": 550,
+      "text": "**550. Elements X, Y and Z belong to groups I, V and VII respectively. Which of the following is TRUE about the bond types of XZ and YZ?**"
+    },
+    {
+      "paragraphIndex": 4460,
+      "number": 551,
+      "text": "**551. Which of the following atoms represents deuterium?**"
+    },
+    {
+      "paragraphIndex": 4470,
+      "number": 552,
+      "text": "**552. The set-up above would be useful for determining the amount of**"
+    },
+    {
+      "paragraphIndex": 4475,
+      "number": 553,
+      "text": "**553. A solid that absorbs water from the atmosphere and forms an aqueous solution is**"
+    },
+    {
+      "paragraphIndex": 4483,
+      "number": 554,
+      "text": "**554. A major effect of oil pollution in coastal water is the**"
+    },
+    {
+      "paragraphIndex": 4491,
+      "number": 555,
+      "text": "**555. Sodium chloride has no solubility product value because of its**"
+    },
+    {
+      "paragraphIndex": 4499,
+      "number": 556,
+      "text": "**556. The solubility in moles per dm³ of 20.2 g of potassium trioxonitrate(V) dissolved in 100 g of water at room temperature is [K=39, O=16, N=14]**"
+    },
+    {
+      "paragraphIndex": 4507,
+      "number": 557,
+      "text": "**557. A few drops of concentrated HCl are added to about 10 cm³ of a solution of pH 3.4. The pH of the resulting mixture is**"
+    },
+    {
+      "paragraphIndex": 4515,
+      "number": 558,
+      "text": "**558. Which of the following compounds is a base?**"
+    },
+    {
+      "paragraphIndex": 4523,
+      "number": 559,
+      "text": "**559. 20 cm³ of a 2.0 M solution of ethanoic acid was added to excess of 0.05 M sodium hydroxide. The mass of the salt produced is [Na=23, C=12, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 4531,
+      "number": 560,
+      "text": "**560. What volume of oxygen measured at STP would be liberated on electrolysis by 9650 coulombs of electricity? [Molar Volume of gas = 22.4 dm³, F = 96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 4539,
+      "number": 561,
+      "text": "**561. Crude copper could be purified by the electrolysis of concentrated copper(II) chloride if the crude copper is**"
+    },
+    {
+      "paragraphIndex": 4547,
+      "number": 562,
+      "text": "**562. H⁻(s) + H₂O(l) → H₂(g) + OH⁻(aq). From the equation above, it can be inferred that the**"
+    },
+    {
+      "paragraphIndex": 4555,
+      "number": 563,
+      "text": "**563. The ΔH for the reaction represented by the energy profile above is**"
+    },
+    {
+      "paragraphIndex": 4560,
+      "number": 564,
+      "text": "**564. An anhydride is an oxide of a non-metal**"
+    },
+    {
+      "paragraphIndex": 4568,
+      "number": 565,
+      "text": "**565. MnO₄⁻(aq) + 8H⁺(aq) + Fe²⁺(aq) → Mn²⁺(aq) + 5Fe³⁺ + 4H₂O(l). The oxidation number of manganese in the above reaction changes from**"
+    },
+    {
+      "paragraphIndex": 4576,
+      "number": 566,
+      "text": "**566. In the diagram above, the activation energy is represented by**"
+    },
+    {
+      "paragraphIndex": 4581,
+      "number": 567,
+      "text": "**567. Which of the following is TRUE of Le Chatelier's principle for an exothermic reaction?**"
+    },
+    {
+      "paragraphIndex": 4589,
+      "number": 568,
+      "text": "**568. Which of the following are produced when ammonium trioxonitrate(V) crystals are cautiously heated in a hard glass round bottomed flask?**"
+    },
+    {
+      "paragraphIndex": 4597,
+      "number": 569,
+      "text": "**569. From the reaction 2HCl(aq) + CaCO₃(s) → CaCl₂(aq) + H₂O(l) + CO₂(g), which of the following curves represents the consumption of calcium trioxocarbonate(IV) as dilute HCl is added?**"
+    },
+    {
+      "paragraphIndex": 4602,
+      "number": 570,
+      "text": "**570. In the diagram above, R is a mixture of**"
+    },
+    {
+      "paragraphIndex": 4607,
+      "number": 571,
+      "text": "**571. Which of these metals CANNOT replace hydrogen from alkaline solutions?**"
+    },
+    {
+      "paragraphIndex": 4615,
+      "number": 572,
+      "text": "**572. Clothes should be properly rinsed with water after bleaching because**"
+    },
+    {
+      "paragraphIndex": 4623,
+      "number": 573,
+      "text": "**573. Which of these solutions will give a white precipitate with a solution of barium chloride acidified with hydrochloric acid?**"
+    },
+    {
+      "paragraphIndex": 4631,
+      "number": 574,
+      "text": "**574. SO₃ is NOT directly dissolved in water in the preparation of H₂SO₄ by the contact process because**"
+    },
+    {
+      "paragraphIndex": 4639,
+      "number": 575,
+      "text": "**575. In an electrolytic set-up to protect iron from corrosion, the iron is**"
+    },
+    {
+      "paragraphIndex": 4647,
+      "number": 576,
+      "text": "**576. Which of the following is NOT true of metals?**"
+    },
+    {
+      "paragraphIndex": 4655,
+      "number": 577,
+      "text": "**577. Which of the following is the correct order of decreasing activity of the metals Fe, Ca, Al and Na?**"
+    },
+    {
+      "paragraphIndex": 4663,
+      "number": 578,
+      "text": "**578. The IUPAC name of the compound (image) is**"
+    },
+    {
+      "paragraphIndex": 4668,
+      "number": 579,
+      "text": "**579. When sodium is added to ethanol, the products are**"
+    },
+    {
+      "paragraphIndex": 4676,
+      "number": 580,
+      "text": "**580. The general formula of alkanones is**"
+    },
+    {
+      "paragraphIndex": 4684,
+      "number": 581,
+      "text": "**581. When sodium ethanoate is treated with a few drops of concentrated tetraoxosulphate(VI) acid, one of the products is**"
+    },
+    {
+      "paragraphIndex": 4692,
+      "number": 582,
+      "text": "**582. One mole of a hydrocarbon contains 48 g of carbon. If its vapour density is 28, the hydrocarbon is**"
+    },
+    {
+      "paragraphIndex": 4700,
+      "number": 583,
+      "text": "**583. Use the diagram below to answer questions 47 and 48. The reaction taking place in flask G is known as**"
+    },
+    {
+      "paragraphIndex": 4705,
+      "number": 584,
+      "text": "**584. The caustic soda solution in the conical flask serves to**"
+    },
+    {
+      "paragraphIndex": 4713,
+      "number": 585,
+      "text": "**585. Which of the following orbitals of carbon are mixed with hydrogen in methane?**"
+    },
+    {
+      "paragraphIndex": 4721,
+      "number": 586,
+      "text": "**586. Which of the following reagents will confirm the presence of unsaturation in a compound?**"
+    },
+    {
+      "paragraphIndex": 4729,
+      "number": 587,
+      "text": "**587. Chromatography is used to separate components of mixtures which differ in their rates of**"
+    },
+    {
+      "paragraphIndex": 4737,
+      "number": 588,
+      "text": "**588. Which of the following is an example of a chemical change?**"
+    },
+    {
+      "paragraphIndex": 4745,
+      "number": 589,
+      "text": "**589. The number of hydrogen ions in 4.9 g of tetraoxosulphate(VI) acid is [S=32, O=16, H=1, Nₐ = 6.02 × 10²³]**"
+    },
+    {
+      "paragraphIndex": 4753,
+      "number": 590,
+      "text": "**590. What volume of oxygen will remain after reacting 8 cm³ of hydrogen with 20 cm³ of oxygen?**"
+    },
+    {
+      "paragraphIndex": 4761,
+      "number": 591,
+      "text": "**591. A gas sample with initial volume of 3.25 dm³ is heated and allowed to expand to 9.75 dm³ at constant pressure. What is the ratio of the final absolute temperature to the initial absolute temperature?**"
+    },
+    {
+      "paragraphIndex": 4769,
+      "number": 592,
+      "text": "**592. Two cylinders A and B each contains 30 cm³ of oxygen and nitrogen respectively at the same temperature and pressure. If there are 5.0 moles of nitrogen, then the mass of oxygen is [O=16]**"
+    },
+    {
+      "paragraphIndex": 4777,
+      "number": 593,
+      "text": "**593. A liquid begins to boil when**"
+    },
+    {
+      "paragraphIndex": 4785,
+      "number": 594,
+      "text": "**594. A particle that contains 8 protons, 9 neutrons and 7 electrons could be written as**"
+    },
+    {
+      "paragraphIndex": 4793,
+      "number": 595,
+      "text": "**595. Use the section of the periodic table below to answer questions 9 and 10. Which of the letters indicate an alkali metal and a noble gas respectively?**"
+    },
+    {
+      "paragraphIndex": 4798,
+      "number": 596,
+      "text": "**596. Which letter represents a non-metal that is a solid at room temperature?**"
+    },
+    {
+      "paragraphIndex": 4803,
+      "number": 597,
+      "text": "**597. In the oil drop experiment, Millikan determined the**"
+    },
+    {
+      "paragraphIndex": 4811,
+      "number": 598,
+      "text": "**598. The stability of ionic solids is generally due to the**"
+    },
+    {
+      "paragraphIndex": 4819,
+      "number": 599,
+      "text": "**599. Which of the following statements is FALSE about isotopes of the same element?**"
+    },
+    {
+      "paragraphIndex": 4827,
+      "number": 600,
+      "text": "**600. Helium is often used in observation balloons because it is**"
+    },
+    {
+      "paragraphIndex": 4835,
+      "number": 601,
+      "text": "**601. When plastic and packaging materials made from chloromethane are burnt in the open, the mixture of gases released into the atmosphere is most likely to contain**"
+    },
+    {
+      "paragraphIndex": 4843,
+      "number": 602,
+      "text": "**602. Deliquescent substances are also**"
+    },
+    {
+      "paragraphIndex": 4851,
+      "number": 603,
+      "text": "**603. The difference between colloids and suspensions is brought out clearly by the fact that while colloids**"
+    },
+    {
+      "paragraphIndex": 4859,
+      "number": 604,
+      "text": "**604. In general, an increase in temperature increases the solubility of a solute in water because**"
+    },
+    {
+      "paragraphIndex": 4867,
+      "number": 605,
+      "text": "**605. Neutralization involves a reaction between H₃O⁺ and**"
+    },
+    {
+      "paragraphIndex": 4875,
+      "number": 606,
+      "text": "**606. Which of the following solutions will have a pH < 7?**"
+    },
+    {
+      "paragraphIndex": 4883,
+      "number": 607,
+      "text": "**607. What is the pH of a 2.50 × 10⁻⁵ M solution of sodium hydroxide?**"
+    },
+    {
+      "paragraphIndex": 4891,
+      "number": 608,
+      "text": "**608. The graph above shows the pH changes for the titration of a**"
+    },
+    {
+      "paragraphIndex": 4896,
+      "number": 609,
+      "text": "**609. In the process of silver-plating a metal M, the metal M is the**"
+    },
+    {
+      "paragraphIndex": 4904,
+      "number": 610,
+      "text": "**610. How many moles of copper would be deposited by passing 3F of electricity through a solution of copper(II) tetraoxosulphate(VI)? [F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 4912,
+      "number": 611,
+      "text": "**611. 2Cl⁻(aq) → Cl₂(g) + 2e⁻(aq). The above half-cell reaction occurring at the anode during the electrolysis of dilute ZnCl₂ solution is**"
+    },
+    {
+      "paragraphIndex": 4920,
+      "number": 612,
+      "text": "**612. Which of the following is a redox reaction?**"
+    },
+    {
+      "paragraphIndex": 4928,
+      "number": 613,
+      "text": "**613. Cr₂O₇²⁻ + 14H⁺(aq) + 6I⁻(aq) → 2Cr³⁺(aq) + 3I₂(g) + 7H₂O. The change in the oxidation number of oxygen in the equation above is**"
+    },
+    {
+      "paragraphIndex": 4936,
+      "number": 614,
+      "text": "**614. If an equilibrium reaction has ΔH < 0, the reaction will proceed favourably in the forward reaction at**"
+    },
+    {
+      "paragraphIndex": 4944,
+      "number": 615,
+      "text": "**615. Which of the following processes leads to an increase in entropy?**"
+    },
+    {
+      "paragraphIndex": 4952,
+      "number": 616,
+      "text": "**616. Which of the following equilibria is shifted to the right as a result of an increase in pressure?**"
+    },
+    {
+      "paragraphIndex": 4960,
+      "number": 617,
+      "text": "**617. The arrangement above can be used for the collection of**"
+    },
+    {
+      "paragraphIndex": 4965,
+      "number": 618,
+      "text": "**618. The activation energy of the uncatalyzed reaction is**"
+    },
+    {
+      "paragraphIndex": 4970,
+      "number": 619,
+      "text": "**619. It can be deduced that the rate of the reaction**"
+    },
+    {
+      "paragraphIndex": 4979,
+      "number": 620,
+      "text": "**620. In the industrial production of hydrogen from natural gas, carbon(IV) oxide produced along with the hydrogen is removed by**"
+    },
+    {
+      "paragraphIndex": 4987,
+      "number": 621,
+      "text": "**621. Sulphur exists in six forms in the solid state. This property is known as**"
+    },
+    {
+      "paragraphIndex": 4995,
+      "number": 622,
+      "text": "**622. A gas that will turn orange potassium heptaoxodichromate(VI) solution to clear green is**"
+    },
+    {
+      "paragraphIndex": 5003,
+      "number": 623,
+      "text": "**623. Which of the following ions will give a white precipitate with aqueous NaOH and soluble in excess of the base?**"
+    },
+    {
+      "paragraphIndex": 5011,
+      "number": 624,
+      "text": "**624. In the extraction of iron in the blast furnace, limestone is used to**"
+    },
+    {
+      "paragraphIndex": 5019,
+      "number": 625,
+      "text": "**625. Which of the following compounds will impart a brick-red colour to a non-luminous Bunsen flame?**"
+    },
+    {
+      "paragraphIndex": 5027,
+      "number": 626,
+      "text": "**626. Group IA metals are not found free in nature because they**"
+    },
+    {
+      "paragraphIndex": 5035,
+      "number": 627,
+      "text": "**627. CH₃COOH + CH₃CH₂OH → X + Y. X and Y in the reaction above are respectively**"
+    },
+    {
+      "paragraphIndex": 5043,
+      "number": 628,
+      "text": "**628. CHCl₃ + Cl₂ → HCl + CCl₄. The reaction above is an example of**"
+    },
+    {
+      "paragraphIndex": 5051,
+      "number": 629,
+      "text": "**629. The IUPAC nomenclature for the compound CH₃-CH(CH₃)-CH=CH-CH₃ is**"
+    },
+    {
+      "paragraphIndex": 5059,
+      "number": 630,
+      "text": "**630. Which of the following pairs has compounds that are isomers?**"
+    },
+    {
+      "paragraphIndex": 5067,
+      "number": 631,
+      "text": "**631. 35 cm³ of hydrogen was sparked with 12 cm³ of oxygen at 110°C and 760 mm Hg to produce steam. What percentage of the total volume of gas left after the reaction is hydrogen?**"
+    },
+    {
+      "paragraphIndex": 5075,
+      "number": 632,
+      "text": "**632. Aromatic and aliphatic hydrocarbons can be distinguished from each other by the**"
+    },
+    {
+      "paragraphIndex": 5083,
+      "number": 633,
+      "text": "**633. The role of sodium chloride in the preparation of soap is to**"
+    },
+    {
+      "paragraphIndex": 5091,
+      "number": 634,
+      "text": "**634. The functional group represented in the compound CH₃CH₂CHO is**"
+    },
+    {
+      "paragraphIndex": 5099,
+      "number": 635,
+      "text": "**635. C₃H₄ + 4O₂ → 3CO₂ + 2H₂O. The hydrocarbon C₃H₄ in the reaction above is**"
+    },
+    {
+      "paragraphIndex": 5107,
+      "number": 636,
+      "text": "**636. An example of a secondary amine is**"
+    },
+    {
+      "paragraphIndex": 5115,
+      "number": 637,
+      "text": "**637. The relatively high boiling points of alkanols are due to**"
+    },
+    {
+      "paragraphIndex": 5123,
+      "number": 638,
+      "text": "**638. 2.85 g of an oxide of copper gave 2.52 g of copper on reduction and 1.90 g of another oxide gave 1.52 g of copper on reduction. The data above illustrates the law of**"
+    },
+    {
+      "paragraphIndex": 5131,
+      "number": 639,
+      "text": "**639. In the periodic table, what is the property that decreases along the period and increases down the group?**"
+    },
+    {
+      "paragraphIndex": 5139,
+      "number": 640,
+      "text": "**640. Two elements P and Q with atomic numbers 11 and 8 respectively combine chemically. The values of x and y in the formula PₓQᵧ are**"
+    },
+    {
+      "paragraphIndex": 5147,
+      "number": 641,
+      "text": "**641. Oxygen is a mixture of two isotopes ¹⁶₈O and ¹⁸₈O with relative abundance of 90% and 10% respectively. The relative atomic mass of oxygen is**"
+    },
+    {
+      "paragraphIndex": 5155,
+      "number": 642,
+      "text": "**642. 200 cm³ of air was passed over heated copper in a syringe several times to produce copper(II) oxide. When cooled, the final volume of air recorded was 158 cm³. Estimate the percentage of oxygen in the air.**"
+    },
+    {
+      "paragraphIndex": 5163,
+      "number": 643,
+      "text": "**643. Which of the following gases is the most dangerous pollutant?**"
+    },
+    {
+      "paragraphIndex": 5171,
+      "number": 644,
+      "text": "**644. A major process involved in the softening of hard water is the**"
+    },
+    {
+      "paragraphIndex": 5179,
+      "number": 645,
+      "text": "**645. On recrystallization, 20 g of magnesium tetraoxosulphate(VI) forms 41 g of magnesium tetraoxosulphate(VI) crystals, MgSO₄·yH₂O. The value of y is [Mg=24, S=32, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 5187,
+      "number": 646,
+      "text": "**646. A saturated solution of AgCl was found to have a concentration of 1.30 × 10⁻⁵ mol/dm³. The solubility product of AgCl is**"
+    },
+    {
+      "paragraphIndex": 5195,
+      "number": 647,
+      "text": "**647. The hydroxide ion concentration [OH⁻] in a solution of sodium hydroxide of pH 10.0 is**"
+    },
+    {
+      "paragraphIndex": 5203,
+      "number": 648,
+      "text": "**648. The section PQ indicates that X is**"
+    },
+    {
+      "paragraphIndex": 5208,
+      "number": 649,
+      "text": "**649. The section OP suggests that X is in the**"
+    },
+    {
+      "paragraphIndex": 5213,
+      "number": 650,
+      "text": "**650. An element X forms a volatile hydride XH₃ with a vapour density of 17.0. The relative molecular mass of X is**"
+    },
+    {
+      "paragraphIndex": 5221,
+      "number": 651,
+      "text": "**651. A mixture of 0.20 mole of Ar, 0.20 mole of N₂ and 0.30 mole of He exerts a total pressure of 2.1 atm. The partial pressure of He in the mixture is**"
+    },
+    {
+      "paragraphIndex": 5229,
+      "number": 652,
+      "text": "**652. If 30 cm³ of oxygen diffuses through a porous plug in 7 s, how long will it take 60 cm³ of chlorine to diffuse through the same plug? [O=16, Cl=35.5]**"
+    },
+    {
+      "paragraphIndex": 5237,
+      "number": 653,
+      "text": "**653. The electron configurations of two elements with similar chemical properties are represented by**"
+    },
+    {
+      "paragraphIndex": 5245,
+      "number": 654,
+      "text": "**654. The temperature of a body decreases when drops of liquid placed on it evaporates because**"
+    },
+    {
+      "paragraphIndex": 5253,
+      "number": 655,
+      "text": "**655. Which of the aqueous solutions with the pH values below will liberate hydrogen when it reacts with magnesium metal?**"
+    },
+    {
+      "paragraphIndex": 5261,
+      "number": 656,
+      "text": "**656. Given that 15.00 cm³ of H₂SO₄ was required to completely neutralize 25.00 cm³ of 0.125 mol/dm³ NaOH, calculate the molar concentration of the acid solution.**"
+    },
+    {
+      "paragraphIndex": 5269,
+      "number": 657,
+      "text": "**657. When platinum electrodes are used during the electrolysis of copper(II) tetraoxosulphate(VI) solution, the solution gets progressively**"
+    },
+    {
+      "paragraphIndex": 5277,
+      "number": 658,
+      "text": "**658. How many faradays of electricity are required to deposit 0.20 mol of nickel, if 0.10 faraday of electricity deposited 2.98 g of nickel during electrolysis of its aqueous solution? [Ni=58.7]**"
+    },
+    {
+      "paragraphIndex": 5285,
+      "number": 659,
+      "text": "**659. What is the oxidation number of Z in K₃ZCl₆?**"
+    },
+    {
+      "paragraphIndex": 5293,
+      "number": 660,
+      "text": "**660. 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). In the equation above, the oxidizing agent in (I) and the reducing agent in (II) respectively are**"
+    },
+    {
+      "paragraphIndex": 5298,
+      "number": 661,
+      "text": "**661. 2SO₂(g) + O₂(g) → 2SO₃(g). In the reaction above, the standard heats of formation of SO₂(g) and SO₃(g) are -297 kJ/mol and -396 kJ/mol respectively. The heat change of the reaction is**"
+    },
+    {
+      "paragraphIndex": 5306,
+      "number": 662,
+      "text": "**662. ½N₂(g) + ½O₂(g) → NO(g), ΔH = +89 kJ/mol. If the entropy change for the reaction above at 25°C is 11.8 J, calculate the change in free energy ΔG for the reaction at 25°C.**"
+    },
+    {
+      "paragraphIndex": 5314,
+      "number": 663,
+      "text": "**663. If the rate law obtained for a given reaction is rate = k[X]ⁿ[Y]ᵐ, what is the overall order of the reaction?**"
+    },
+    {
+      "paragraphIndex": 5322,
+      "number": 664,
+      "text": "**664. One method of driving the position of equilibrium of an endothermic reaction forward is to**"
+    },
+    {
+      "paragraphIndex": 5330,
+      "number": 665,
+      "text": "**665. Oxidation of concentrated hydrochloric acid with manganese(IV) oxide liberates a gas used in the**"
+    },
+    {
+      "paragraphIndex": 5338,
+      "number": 666,
+      "text": "**666. mE + nF → pG + qH. In the equation above, the equilibrium constant is given by**"
+    },
+    {
+      "paragraphIndex": 5346,
+      "number": 667,
+      "text": "**667. A compound that will NOT produce oxygen on heating is**"
+    },
+    {
+      "paragraphIndex": 5354,
+      "number": 668,
+      "text": "**668. Coal gas is made up of carbon(II) oxide, hydrogen and**"
+    },
+    {
+      "paragraphIndex": 5362,
+      "number": 669,
+      "text": "**669. In the diagram above, the gas Y could be**"
+    },
+    {
+      "paragraphIndex": 5367,
+      "number": 670,
+      "text": "**670. 2X(aq) + MnO₂(s) + 4H⁺(aq) → X₂(g) + Mn²⁺(aq) + 2H₂O(l). The reaction above can be used for the laboratory preparation of**"
+    },
+    {
+      "paragraphIndex": 5375,
+      "number": 671,
+      "text": "**671. The reaction that occurs during the laboratory test for the presence of tetraoxosulphate(VI) ion is**"
+    },
+    {
+      "paragraphIndex": 5383,
+      "number": 672,
+      "text": "**672. The removal of rust from iron by treatment with tetraoxosulphate(VI) acid is based on the**"
+    },
+    {
+      "paragraphIndex": 5391,
+      "number": 673,
+      "text": "**673. Which of the following additives could improve the quality of steel?**"
+    },
+    {
+      "paragraphIndex": 5399,
+      "number": 674,
+      "text": "**674. Sodium hydroxide is prepared commercially from sodium chloride solution by**"
+    },
+    {
+      "paragraphIndex": 5407,
+      "number": 675,
+      "text": "**675. A sample of a substance containing only C and H burns in excess O₂ to yield 4.4 g of CO₂ and 2.7 g of H₂O. The empirical formula of the substance is [C=12, O=16, H=1]**"
+    },
+    {
+      "paragraphIndex": 5415,
+      "number": 676,
+      "text": "**676. An undesirable paraffin in the petroleum industry which is particularly prone to knocking is**"
+    },
+    {
+      "paragraphIndex": 5423,
+      "number": 677,
+      "text": "**677. The IUPAC nomenclature of the organic compound with the structural formula (image) is**"
+    },
+    {
+      "paragraphIndex": 5428,
+      "number": 678,
+      "text": "**678. The reaction of an alkanol with an alkanoic acid in the presence of concentrated H₂SO₄ will produce an**"
+    },
+    {
+      "paragraphIndex": 5436,
+      "number": 679,
+      "text": "**679. The final product of the reaction of ethyne with hydrogen iodide is**"
+    },
+    {
+      "paragraphIndex": 5444,
+      "number": 680,
+      "text": "**680. How many more isomers of the compound above can be obtained?**"
+    },
+    {
+      "paragraphIndex": 5449,
+      "number": 681,
+      "text": "**681. Synthetic detergents are preferred to soap for laundry using hard water because**"
+    },
+    {
+      "paragraphIndex": 5457,
+      "number": 682,
+      "text": "**682. The synthetic rubber obtained by the polymerization of chlorobutadiene in the presence of sodium is called**"
+    },
+    {
+      "paragraphIndex": 5465,
+      "number": 683,
+      "text": "**683. 25 cm³ of 0.02 M KOH neutralized 0.03 g of a monobasic organic acid having the general formula CₙH₂ₙ₊₁COOH. The molecular formula of the acid is [C=12, H=1, O=16]**"
+    },
+    {
+      "paragraphIndex": 5473,
+      "number": 684,
+      "text": "**684. When Fehling's solution is added to two isomeric carbonyl compounds X and Y with the molecular formula C₄H₁₀O, compound X gives a red precipitate while Y does not react. It can be inferred that X is**"
+    },
+    {
+      "paragraphIndex": 5481,
+      "number": 685,
+      "text": "**685. The compound above contains**"
+    },
+    {
+      "paragraphIndex": 5486,
+      "number": 686,
+      "text": "**686. The compound above is the product of the oxidation of**"
+    },
+    {
+      "paragraphIndex": 5491,
+      "number": 687,
+      "text": "**687. The addition of water to calcium oxide leads to**"
+    },
+    {
+      "paragraphIndex": 5499,
+      "number": 688,
+      "text": "**688. A mixture of iron and sulphur can be separated by dissolving the mixture in**"
+    },
+    {
+      "paragraphIndex": 5507,
+      "number": 689,
+      "text": "**689. 8.0 g of an element X reacted with an excess of copper(II) tetraoxosulphate(VI) solution to deposit 21.3 g of copper. The correct equation for the reaction is [Cu=64]**"
+    },
+    {
+      "paragraphIndex": 5515,
+      "number": 690,
+      "text": "**690. C₃H₈(g) + 5O₂(g) → 4H₂O(g) + 3CO₂(g). From the equation above, the volume of oxygen at STP required to burn 50 cm³ of propane is**"
+    },
+    {
+      "paragraphIndex": 5523,
+      "number": 691,
+      "text": "**691. 30 cm³ of hydrogen was collected over water at 27°C and 780 mm Hg. If the vapour pressure of water at the temperature of the experiment was 10 mm Hg, calculate the volume of the gas at 760 mm Hg and 7°C.**"
+    },
+    {
+      "paragraphIndex": 5531,
+      "number": 692,
+      "text": "**692. A given amount of gas occupies 10.0 dm³ at 4 atm and 273°C. The number of moles of the gas present is [Molar volume of gas at STP = 22.4 dm³]**"
+    },
+    {
+      "paragraphIndex": 5539,
+      "number": 693,
+      "text": "**693. If sulphur dioxide and methane are released simultaneously at the opposite ends of a narrow tube, the rates of diffusion R_SO₂ and R_CH₄ will be in the ratio [S=32, O=16, C=12, H=1]**"
+    },
+    {
+      "paragraphIndex": 5547,
+      "number": 694,
+      "text": "**694. A solid begins to melt when**"
+    },
+    {
+      "paragraphIndex": 5555,
+      "number": 695,
+      "text": "**695. The diagram above represents an atom that can combine with chlorine to form**"
+    },
+    {
+      "paragraphIndex": 5560,
+      "number": 696,
+      "text": "**696. Which of the following electron configurations indicates an atom with the highest ionization energy?**"
+    },
+    {
+      "paragraphIndex": 5568,
+      "number": 697,
+      "text": "**697. The lines observed in the simple hydrogen spectrum are due to emission of**"
+    },
+    {
+      "paragraphIndex": 5576,
+      "number": 698,
+      "text": "**698. If an element X of atomic number Z and mass number Y is irradiated by an intense concentration of neutrons, the relevant nuclear equation is**"
+    },
+    {
+      "paragraphIndex": 5584,
+      "number": 699,
+      "text": "**699. The property used in obtaining oxygen and nitrogen industrially from air is the**"
+    },
+    {
+      "paragraphIndex": 5592,
+      "number": 700,
+      "text": "**700. Excess phosphorus was burnt in a gas jar and the residual gas passed successively over concentrated KOH solution and concentrated H₂SO₄ before being collected in a flask. The gases collected are**"
+    },
+    {
+      "paragraphIndex": 5600,
+      "number": 701,
+      "text": "**701. Potassium tetraoxomanganate(VII) is often added to impure water to**"
+    },
+    {
+      "paragraphIndex": 5608,
+      "number": 702,
+      "text": "**702. The soil around a battery manufacturing factory is likely to contain a high concentration of**"
+    },
+    {
+      "paragraphIndex": 5616,
+      "number": 703,
+      "text": "**703. 90.0 g of MgCl₂ was placed in 50.0 cm³ of water to give a saturated solution at 298 K. If the solubility of the salt is 8.0 mol/dm³ at the same temperature, what is the mass of the salt left undissolved at the given temperature? [Mg="
+    },
+    {
+      "paragraphIndex": 5624,
+      "number": 704,
+      "text": "**704. Soap lather is an example of a colloid in which a**"
+    },
+    {
+      "paragraphIndex": 5632,
+      "number": 705,
+      "text": "**705. The pH of a solution obtained by mixing 100 cm³ of a 0.1 M HCl solution with 100 cm³ of a 0.2 M NaOH solution is**"
+    },
+    {
+      "paragraphIndex": 5640,
+      "number": 706,
+      "text": "**706. In the conductance of aqueous potassium tetraoxosulphate(VI) solution, the current carriers are the**"
+    },
+    {
+      "paragraphIndex": 5648,
+      "number": 707,
+      "text": "**707. What volume of 0.1 mol/dm³ solution of tetraoxosulphate(VI) acid would be needed to dissolve 2.86 g of sodium trioxocarbonate(IV) decahydrate crystals? [H=1, C=12, O=16, S=32, Na=23]**"
+    },
+    {
+      "paragraphIndex": 5656,
+      "number": 708,
+      "text": "**708. 1.2 F of electricity are passed through electrolytic cells containing Na⁺, Cu²⁺ and Al³⁺ in series. How many moles of each metal would be formed at the cathode of each cell?**"
+    },
+    {
+      "paragraphIndex": 5664,
+      "number": 709,
+      "text": "**709. What mass of gold is deposited during the electrolysis of gold(III) tetraoxosulphate(VI) when a current of 15 A is passed for 193 seconds? [Au=197, F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 5672,
+      "number": 710,
+      "text": "**710. Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s). From the reaction above, it can be inferred that**"
+    },
+    {
+      "paragraphIndex": 5680,
+      "number": 711,
+      "text": "**711. 2FeCl₂(s) + Cl₂(g) → 2FeCl₃(s). The reducing agent in the reaction above is**"
+    },
+    {
+      "paragraphIndex": 5688,
+      "number": 712,
+      "text": "**712. The reaction that is accompanied by a decrease in entropy when carried out at constant temperature is**"
+    },
+    {
+      "paragraphIndex": 5696,
+      "number": 713,
+      "text": "**713. 32 g of anhydrous copper(II) tetraoxosulphate(VI) dissolved in 1 dm³ of water generated 13.0 kJ of heat. The heat of solution is [Cu=64, S=32, O=16]**"
+    },
+    {
+      "paragraphIndex": 5704,
+      "number": 714,
+      "text": "**714. In the electrochemical series above, the strongest reducing agent is**"
+    },
+    {
+      "paragraphIndex": 5713,
+      "number": 715,
+      "text": "**715. In the diagram above, the activation energy for the backward reaction is**"
+    },
+    {
+      "paragraphIndex": 5718,
+      "number": 716,
+      "text": "**716. 2X(g) + Y(g) → Z(g). In the equation above, the rate of formation of Z is found to be independent of the concentration of Y and to quadruple when the concentration of X is doubled. The rate equation for the reaction is**"
+    },
+    {
+      "paragraphIndex": 5726,
+      "number": 717,
+      "text": "**717. 2Cl₂(g) + 2H₂O(g) → 4HCl(g) + O₂(g), ΔH = +115 kJ/mol. In the above equilibrium reaction, a decrease in temperature will**"
+    },
+    {
+      "paragraphIndex": 5734,
+      "number": 718,
+      "text": "**718. 3CuO(s) + 2NH₃(g) → 3Cu(s) + 3H₂O(l) + N₂(g). The reactions represented by the equations above demonstrate the**"
+    },
+    {
+      "paragraphIndex": 5742,
+      "number": 719,
+      "text": "**719. A gas that turns a filter paper previously soaked in lead ethanoate solution black is**"
+    },
+    {
+      "paragraphIndex": 5750,
+      "number": 720,
+      "text": "**720. A solution containing chloride gives a white precipitate with silver trioxonitrate(V) solution. The precipitate will be insoluble in dilute**"
+    },
+    {
+      "paragraphIndex": 5758,
+      "number": 721,
+      "text": "**721. In the experiment above, X could be a solution of**"
+    },
+    {
+      "paragraphIndex": 5763,
+      "number": 722,
+      "text": "**722. The oxide that remains unchanged when heated in hydrogen is**"
+    },
+    {
+      "paragraphIndex": 5771,
+      "number": 723,
+      "text": "**723. Which of the following is observed when a solution of Iron(III) chloride is mixed with a solution of sodium hydroxide?**"
+    },
+    {
+      "paragraphIndex": 5780,
+      "number": 724,
+      "text": "**724. A common characteristic of metals in the same group is that both**"
+    },
+    {
+      "paragraphIndex": 5789,
+      "number": 725,
+      "text": "**725. Alloys are often used in preference to pure metals because**"
+    },
+    {
+      "paragraphIndex": 5797,
+      "number": 726,
+      "text": "**726. The IUPAC nomenclature for the compound CH₃CH(OH)CH(CH₃)₂ is**"
+    },
+    {
+      "paragraphIndex": 5805,
+      "number": 727,
+      "text": "**727. Dehydration of CH₃CH₂CH₂CH₂OH gives**"
+    },
+    {
+      "paragraphIndex": 5813,
+      "number": 728,
+      "text": "**728. The above equation represents the manufacture of**"
+    },
+    {
+      "paragraphIndex": 5818,
+      "number": 729,
+      "text": "**729. One mole of a hydrocarbon contains 6 g of hydrogen. If the molecular weight is 54, the hydrocarbon is an**"
+    },
+    {
+      "paragraphIndex": 5826,
+      "number": 730,
+      "text": "**730. The products obtained when a pure hydrocarbon is burnt in excess oxygen are**"
+    },
+    {
+      "paragraphIndex": 5834,
+      "number": 731,
+      "text": "**731. How many structural isomers can be drawn for the noncyclic alkanol with molecular formula C₄H₁₀O?**"
+    },
+    {
+      "paragraphIndex": 5842,
+      "number": 732,
+      "text": "**732. On cracking medicinal paraffin, a gas is evolved which gives a pop sound with a lighted splinter and an oily liquid which decolorizes bromine solution is also obtained. The products of the cracking are**"
+    },
+    {
+      "paragraphIndex": 5850,
+      "number": 733,
+      "text": "**733. An example of an aromatic compound is**"
+    },
+    {
+      "paragraphIndex": 5858,
+      "number": 734,
+      "text": "**734. Terylene is synthesized from ethane-1,2-diol and benzene-1,4-dicarboxylic acid by**"
+    },
+    {
+      "paragraphIndex": 5866,
+      "number": 735,
+      "text": "**735. Which of the following is true concerning the properties of benzene and hexane?**"
+    },
+    {
+      "paragraphIndex": 5874,
+      "number": 736,
+      "text": "**736. 200 cm³ each of 0.1 M solution of lead(II) trioxonitrate(V) and hydrochloric acid were mixed. Assuming that lead(II) chloride is completely insoluble, calculate the mass of lead(II) chloride that will be precipitated. [Pb=207, Cl=35."
+    },
+    {
+      "paragraphIndex": 5882,
+      "number": 737,
+      "text": "**737. 56.00 cm³ of a gas at STP weighed 0.11 g. What is the vapour density of the gas? [Molar volume of gas at STP = 22.4 dm³]**"
+    },
+    {
+      "paragraphIndex": 5890,
+      "number": 738,
+      "text": "**738. Which of the following gases will diffuse fastest when passed through a porous plug? [H=1, C=12, N=14, O=16]**"
+    },
+    {
+      "paragraphIndex": 5898,
+      "number": 739,
+      "text": "**739. Which of the following will have its mass increased when heated in air?**"
+    },
+    {
+      "paragraphIndex": 5906,
+      "number": 740,
+      "text": "**740. What is the temperature of a given mass of a gas initially at 0°C and 9 atm, if the pressure is reduced to 3 atm at constant volume?**"
+    },
+    {
+      "paragraphIndex": 5914,
+      "number": 741,
+      "text": "**741. In the diagram above, the mixture of the two solids P and Q can be separated by**"
+    },
+    {
+      "paragraphIndex": 5919,
+      "number": 742,
+      "text": "**742. Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g). From the equation above, the mass of magnesium required to react with 250 cm³ of 5 M HCl is [Mg=24]**"
+    },
+    {
+      "paragraphIndex": 5927,
+      "number": 743,
+      "text": "**743. A gaseous metallic chloride MClₓ consists of 20.22% of M by mass. The formula of the chloride is [M=27, Cl=35.5]**"
+    },
+    {
+      "paragraphIndex": 5935,
+      "number": 744,
+      "text": "**744. In which of the following are water molecules in the most disorderly arrangement?**"
+    },
+    {
+      "paragraphIndex": 5943,
+      "number": 745,
+      "text": "**745. In order to remove one electron from 3s-orbital of gaseous sodium atom, about 496 kJ/mol of energy is required. This energy is referred to as**"
+    },
+    {
+      "paragraphIndex": 5951,
+      "number": 746,
+      "text": "**746. Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen containing compounds because the former contains**"
+    },
+    {
+      "paragraphIndex": 5959,
+      "number": 747,
+      "text": "**747. The method that can be used to convert hard water to soft water is**"
+    },
+    {
+      "paragraphIndex": 5967,
+      "number": 748,
+      "text": "**748. The element that is likely to participate in covalent rather than ionic bonding is**"
+    },
+    {
+      "paragraphIndex": 5972,
+      "number": 749,
+      "text": "**749. The least reactive element is**"
+    },
+    {
+      "paragraphIndex": 5977,
+      "number": 750,
+      "text": "**750. 1s²2s²2p⁶3s²3p⁶3d⁷4s². An element with the electron configuration above is a**"
+    },
+    {
+      "paragraphIndex": 5985,
+      "number": 751,
+      "text": "**751. Given that electronegativity increases across a period and decreases down a group in the periodic table, in which of the following compounds will the molecules be held together by the strongest hydrogen bond?**"
+    },
+    {
+      "paragraphIndex": 5993,
+      "number": 752,
+      "text": "**752. 0.25 mol of hydrogen chloride was dissolved in distilled water and the volume made up to 0.50 dm³. If 15.00 cm³ of the solution requires 12.50 cm³ of aqueous sodium trioxocarbonate(IV) for neutralization, calculate the concentration "
+    },
+    {
+      "paragraphIndex": 6001,
+      "number": 753,
+      "text": "**753. The correct order of increasing oxidation number of the transition metal ions for the compounds K₂Cr₂O₇, V₂O₅ and KMnO₄ is**"
+    },
+    {
+      "paragraphIndex": 6009,
+      "number": 754,
+      "text": "**754. The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is**"
+    },
+    {
+      "paragraphIndex": 6017,
+      "number": 755,
+      "text": "**755. What is observed when aqueous solution of tetraoxosulphate(VI) acid, potassium trioxonitrate(V) and potassium iodide are mixed together?**"
+    },
+    {
+      "paragraphIndex": 6025,
+      "number": 756,
+      "text": "**756. From the diagram above, the mass of crystals deposited when 1 dm³ of a saturated solution of NaCl is cooled from 80°C to 60°C is [Na=23, Cl=35.5]**"
+    },
+    {
+      "paragraphIndex": 6030,
+      "number": 757,
+      "text": "**757. The solution with the lowest pH value is**"
+    },
+    {
+      "paragraphIndex": 6038,
+      "number": 758,
+      "text": "**758. The solubility product of Cu(IO₃)₂ is 1.08 × 10⁻⁷. Assuming that neither ions react appreciably with water to form H⁺ and OH⁻, what is the solubility of this salt?**"
+    },
+    {
+      "paragraphIndex": 6046,
+      "number": 759,
+      "text": "**759. The entropy and enthalpy of a system are a measure of**"
+    },
+    {
+      "paragraphIndex": 6054,
+      "number": 760,
+      "text": "**760. 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). In the chemical reaction above, the substance that will increase the rate of production of sulphur(VI) oxide is**"
+    },
+    {
+      "paragraphIndex": 6062,
+      "number": 761,
+      "text": "**761. N₂O₄(g) ⇌ 2NO₂(g). Increases in total pressure of the equilibrium reaction above will**"
+    },
+    {
+      "paragraphIndex": 6070,
+      "number": 762,
+      "text": "**762. What quantity of electricity will liberate 0.125 mole of oxygen molecules during the electrolysis of dilute sodium chloride solution? [F = 96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 6078,
+      "number": 763,
+      "text": "**763. X + Y → Z. The rate equation for the chemical reaction above is Δ[X]/Δt = [X]²[Y]. The overall order of the reaction is**"
+    },
+    {
+      "paragraphIndex": 6086,
+      "number": 764,
+      "text": "**764. When a current I was passed through an electrolyte solution for 40 minutes, a mass X g of a univalent metal was deposited at the cathode. What mass of the metal will be deposited when a current 2I is passed through the solution for 1"
+    },
+    {
+      "paragraphIndex": 6094,
+      "number": 765,
+      "text": "**765. RS(aq) + HF(aq) ⇌ RF(s) + HS(aq), ΔH = -65.7 kJ/mol. From the equation above, it can be deduced that**"
+    },
+    {
+      "paragraphIndex": 6102,
+      "number": 766,
+      "text": "**766. Which of the following statements is true of the electrochemical series?**"
+    },
+    {
+      "paragraphIndex": 6110,
+      "number": 767,
+      "text": "**767. The gas that will form a white precipitate with acidified silver trioxonitrate(V) is**"
+    },
+    {
+      "paragraphIndex": 6118,
+      "number": 768,
+      "text": "**768. Chlorine, bromine and iodine resemble one another in that they**"
+    },
+    {
+      "paragraphIndex": 6126,
+      "number": 769,
+      "text": "**769. The salt that reacts with dilute hydrochloric acid to produce a pungent smelling gas which decolorizes acidified purple potassium tetraoxomanganate(VII) solution is**"
+    },
+    {
+      "paragraphIndex": 6134,
+      "number": 770,
+      "text": "**770. A pair of compounds that can be used to generate a gas which has physiological effect on human beings is**"
+    },
+    {
+      "paragraphIndex": 6142,
+      "number": 771,
+      "text": "**771. Hydrogen is used in oxy-hydrogen flames for melting metals because it**"
+    },
+    {
+      "paragraphIndex": 6150,
+      "number": 772,
+      "text": "**772. In the diagram above, Y is a mixture of**"
+    },
+    {
+      "paragraphIndex": 6155,
+      "number": 773,
+      "text": "**773. What properties of duralumin make it more useful than its constituent metals?**"
+    },
+    {
+      "paragraphIndex": 6163,
+      "number": 774,
+      "text": "**774. The pair of metals in the reactivity series that are usually extracted by the electrolysis of their ores is**"
+    },
+    {
+      "paragraphIndex": 6171,
+      "number": 775,
+      "text": "**775. A metal that can be extracted from cassiterite is**"
+    },
+    {
+      "paragraphIndex": 6179,
+      "number": 776,
+      "text": "**776. Which of the following metals is passive to concentrated trioxonitrate(V) acid?**"
+    },
+    {
+      "paragraphIndex": 6187,
+      "number": 777,
+      "text": "**777. The hydrocarbon that burns in air with a sooty flame is**"
+    },
+    {
+      "paragraphIndex": 6195,
+      "number": 778,
+      "text": "**778. 2-methylprop-1-ene is an isomer of**"
+    },
+    {
+      "paragraphIndex": 6203,
+      "number": 779,
+      "text": "**779. Which of the following is a solvent for perfumes?**"
+    },
+    {
+      "paragraphIndex": 6211,
+      "number": 780,
+      "text": "**780. When excess ethanol is heated to 145°C in the presence of concentrated H₂SO₄, the product is**"
+    },
+    {
+      "paragraphIndex": 6219,
+      "number": 781,
+      "text": "**781. How many grammes of bromine will saturate 5.2 g of but-1-ene-3-ene? [C=12, H=1, Br=80]**"
+    },
+    {
+      "paragraphIndex": 6227,
+      "number": 782,
+      "text": "**782. Polyvinyl chloride is used to produce**"
+    },
+    {
+      "paragraphIndex": 6235,
+      "number": 783,
+      "text": "**783. An organic compound that does not undergo a reaction with both hydrogen cyanide and hydroxylamine can be an**"
+    },
+    {
+      "paragraphIndex": 6243,
+      "number": 784,
+      "text": "**784. When two end alkyl groups of ethyl ethanoate are interchanged, the compound formed is known as**"
+    },
+    {
+      "paragraphIndex": 6251,
+      "number": 785,
+      "text": "**785. Which of the compounds above would react to take up two molecules of bromine during bromination?**"
+    },
+    {
+      "paragraphIndex": 6256,
+      "number": 786,
+      "text": "**786. A mixture of iodine and sulphur crystals can be separated by treatment with**"
+    },
+    {
+      "paragraphIndex": 6264,
+      "number": 787,
+      "text": "**787. Sieving is a technique used to separate mixtures containing solid particles of**"
+    },
+    {
+      "paragraphIndex": 6272,
+      "number": 788,
+      "text": "**788. Which of the compounds is composed of Al, Si, O and H?**"
+    },
+    {
+      "paragraphIndex": 6280,
+      "number": 789,
+      "text": "**789. 50 cm³ of carbon(II) oxide was exploded with 150 cm³ of air containing 20% oxygen by volume. Which of the reactants was in excess?**"
+    },
+    {
+      "paragraphIndex": 6288,
+      "number": 790,
+      "text": "**790. How many moles of HCl will be required to react with potassium heptaoxodichromate(VI) to produce 3 moles of chlorine?**"
+    },
+    {
+      "paragraphIndex": 6296,
+      "number": 791,
+      "text": "**791. The ratio of the initial to the final pressure of a given mass of gas is 1:1.5. Calculate the final volume of the gas if the initial volume was 300 cm³ at the same temperature.**"
+    },
+    {
+      "paragraphIndex": 6304,
+      "number": 792,
+      "text": "**792. The partial pressure of oxygen in a sample of air is 452 mm Hg and the total pressure is 780 mm Hg. What is the mole fraction of oxygen?**"
+    },
+    {
+      "paragraphIndex": 6312,
+      "number": 793,
+      "text": "**793. The fundamental difference between the three states of matter is the**"
+    },
+    {
+      "paragraphIndex": 6320,
+      "number": 794,
+      "text": "**794. Which of the following statements is correct about the periodic table?**"
+    },
+    {
+      "paragraphIndex": 6328,
+      "number": 795,
+      "text": "**795. The electron configuration of ₂₂²X²⁺ ion is**"
+    },
+    {
+      "paragraphIndex": 6336,
+      "number": 796,
+      "text": "**796. Which of the following types of bonding does not involve the formation of new substance?**"
+    },
+    {
+      "paragraphIndex": 6344,
+      "number": 797,
+      "text": "**797. The knowledge of half-life can be used to**"
+    },
+    {
+      "paragraphIndex": 6352,
+      "number": 798,
+      "text": "**798. The shape of CO₂, H₂O and CH₄ respectively are**"
+    },
+    {
+      "paragraphIndex": 6360,
+      "number": 799,
+      "text": "**799. The distance between the nuclei of chlorine atoms in a chlorine molecule is 0.914 nm. The atomic radius of chlorine atom is**"
+    },
+    {
+      "paragraphIndex": 6368,
+      "number": 800,
+      "text": "**800. The noble gas, argon, is used for**"
+    },
+    {
+      "paragraphIndex": 6376,
+      "number": 801,
+      "text": "**801. A side effect of soft water is that**"
+    },
+    {
+      "paragraphIndex": 6384,
+      "number": 802,
+      "text": "**802. Water molecules can be ligands especially when they are bonded to**"
+    },
+    {
+      "paragraphIndex": 6392,
+      "number": 803,
+      "text": "**803. The air pollutant unknown in nature is**"
+    },
+    {
+      "paragraphIndex": 6400,
+      "number": 804,
+      "text": "**804. 10 dm³ of distilled water used to wash 2.0 g of a precipitate of AgCl. If the solubility product of AgCl is 2.0 × 10⁻¹⁰ mol²/dm⁶, what quantity of silver was lost in the process?**"
+    },
+    {
+      "paragraphIndex": 6408,
+      "number": 805,
+      "text": "**805. Hydration of ions in solution is associated with**"
+    },
+    {
+      "paragraphIndex": 6416,
+      "number": 806,
+      "text": "**806. The diagram above is the solubility curve of solute X. Find the amount of X deposited when 500 cm³ of solution of X is cooled from 60°C to 20°C.**"
+    },
+    {
+      "paragraphIndex": 6421,
+      "number": 807,
+      "text": "**807. HCl(aq) + H₂O(l) ⇌ H₃O⁺(aq) + Cl⁻(aq). In the reaction above, Cl⁻(aq) is the**"
+    },
+    {
+      "paragraphIndex": 6429,
+      "number": 808,
+      "text": "**808. In which order are the following salts sensitive to light?**"
+    },
+    {
+      "paragraphIndex": 6437,
+      "number": 809,
+      "text": "**809. The pOH of a solution of 0.25 mol/dm³ of hydrochloric acid is**"
+    },
+    {
+      "paragraphIndex": 6445,
+      "number": 810,
+      "text": "**810. MnO₄⁻(aq) + 8H⁺(aq) + Y → Mn²⁺(aq) + 4H₂O(l). Y in the equation above represents**"
+    },
+    {
+      "paragraphIndex": 6453,
+      "number": 811,
+      "text": "**811. ½Zn²⁺(aq) + e⁻ → ½Zn(s). In the reaction above, calculate the quantity of electricity required to discharge zinc [F = 96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 6461,
+      "number": 812,
+      "text": "**812. Given that M is the mass of substance deposited in an electrolysis and Q the quantity of electricity consumed, then Faraday's first law can be written as**"
+    },
+    {
+      "paragraphIndex": 6469,
+      "number": 813,
+      "text": "**813. 0.46 g of ethanol when burned raised the temperature of 50 g water by 14.3 K. Calculate the heat of combustion of ethanol. [C=12, O=16, H=1], Specific heat capacity of water = 4.2 J/g·K**"
+    },
+    {
+      "paragraphIndex": 6477,
+      "number": 814,
+      "text": "**814. Powdered marble reacts with hydrochloric acid solution faster than the granular form because the powdered form has**"
+    },
+    {
+      "paragraphIndex": 6485,
+      "number": 815,
+      "text": "**815. The graph that describes a zero order reaction is**"
+    },
+    {
+      "paragraphIndex": 6490,
+      "number": 816,
+      "text": "**816. For a reaction in equilibrium, the species involved in the equilibrium constant expression are**"
+    },
+    {
+      "paragraphIndex": 6498,
+      "number": 817,
+      "text": "**817. A phenomenon where an element exists in different forms in the same physical state is known as**"
+    },
+    {
+      "paragraphIndex": 6506,
+      "number": 818,
+      "text": "**818. The substance often used for vulcanization of rubber is**"
+    },
+    {
+      "paragraphIndex": 6514,
+      "number": 819,
+      "text": "**819. A gas that is not associated with global warming is**"
+    },
+    {
+      "paragraphIndex": 6522,
+      "number": 820,
+      "text": "**820. The refreshing and characteristic taste of soda water and other soft drinks is as a result of the presence in them of**"
+    },
+    {
+      "paragraphIndex": 6530,
+      "number": 821,
+      "text": "**821. A form of carbon used for absorbing poisonous gases and purification of noble gases is**"
+    },
+    {
+      "paragraphIndex": 6538,
+      "number": 822,
+      "text": "**822. Synthesis gas is a mixture of**"
+    },
+    {
+      "paragraphIndex": 6546,
+      "number": 823,
+      "text": "**823. Potassium vapour burns with a**"
+    },
+    {
+      "paragraphIndex": 6554,
+      "number": 824,
+      "text": "**824. A common characteristic of copper and silver in their usage as coinage metals is that they**"
+    },
+    {
+      "paragraphIndex": 6562,
+      "number": 825,
+      "text": "**825. Haematinite is an ore of**"
+    },
+    {
+      "paragraphIndex": 6570,
+      "number": 826,
+      "text": "**826. The least easily oxidized of the metals below is**"
+    },
+    {
+      "paragraphIndex": 6578,
+      "number": 827,
+      "text": "**827. The repeating unit in natural rubber is**"
+    },
+    {
+      "paragraphIndex": 6586,
+      "number": 828,
+      "text": "**828. Unsaturated organic compounds are identified by decolorization of**"
+    },
+    {
+      "paragraphIndex": 6594,
+      "number": 829,
+      "text": "**829. The conditions necessary for the extraction of a water molecule from two molecules of ethanol are**"
+    },
+    {
+      "paragraphIndex": 6602,
+      "number": 830,
+      "text": "**830. The chlorinated alkane often used industrially to remove grease is**"
+    },
+    {
+      "paragraphIndex": 6610,
+      "number": 831,
+      "text": "**831. The reaction of carbide with water gives**"
+    },
+    {
+      "paragraphIndex": 6618,
+      "number": 832,
+      "text": "**832. The compound CH₃-CH₂-CH₂-CH₂-OH is an**"
+    },
+    {
+      "paragraphIndex": 6626,
+      "number": 833,
+      "text": "**833. Alkanones are generally obtained by the oxidation of**"
+    },
+    {
+      "paragraphIndex": 6634,
+      "number": 834,
+      "text": "**834. Sucrose is made up of**"
+    },
+    {
+      "paragraphIndex": 6642,
+      "number": 835,
+      "text": "**835. 25 cm³ of a gas X contains Z molecules at 15°C and 75 mm Hg. How many molecules will 25 cm³ of another gas Y contain at the same temperature and pressure?**"
+    },
+    {
+      "paragraphIndex": 6650,
+      "number": 836,
+      "text": "**836. What mass of water is produced when 8.0 g of hydrogen reacts with excess oxygen? [H=1, O=16]**"
+    },
+    {
+      "paragraphIndex": 6658,
+      "number": 837,
+      "text": "**837. Use the graph below to answer questions 3 and 4. How long does it take all the solid to melt?**"
+    },
+    {
+      "paragraphIndex": 6663,
+      "number": 838,
+      "text": "**838. If the gas is cooled, at what temperature will it start to condense?**"
+    },
+    {
+      "paragraphIndex": 6672,
+      "number": 839,
+      "text": "**839. Four elements W, X, Y and Z have atomic numbers 2, 6, 16 and 20 respectively. Which of these elements is a metal?**"
+    },
+    {
+      "paragraphIndex": 6680,
+      "number": 840,
+      "text": "**840. The diagram above represents the formation of**"
+    },
+    {
+      "paragraphIndex": 6685,
+      "number": 841,
+      "text": "**841. An element X with relative atomic mass 16.2 contains two isotopes ¹⁶X with relative abundance of 90% and ᵐX with relative abundance of 10%. The value of m is**"
+    },
+    {
+      "paragraphIndex": 6693,
+      "number": 842,
+      "text": "**842. Cancers growth are cured by exposure to**"
+    },
+    {
+      "paragraphIndex": 6701,
+      "number": 843,
+      "text": "**843. Which of the following statements is correct about the average kinetic energy of the molecules of a gas?**"
+    },
+    {
+      "paragraphIndex": 6709,
+      "number": 844,
+      "text": "**844. Millikan's contribution to the development of atomic theory is the determination of**"
+    },
+    {
+      "paragraphIndex": 6717,
+      "number": 845,
+      "text": "**845. A particle that contains 9 protons, 10 neutrons and 10 electrons is**"
+    },
+    {
+      "paragraphIndex": 6725,
+      "number": 846,
+      "text": "**846. An oxide XO₂ has a vapour density of 32. What is the atomic mass of X? [O=16]**"
+    },
+    {
+      "paragraphIndex": 6733,
+      "number": 847,
+      "text": "**847. The chemical used for coagulation in water purification is**"
+    },
+    {
+      "paragraphIndex": 6741,
+      "number": 848,
+      "text": "**848. Environmental pollution is worsened by the release from automobile exhausts of**"
+    },
+    {
+      "paragraphIndex": 6749,
+      "number": 849,
+      "text": "**849. Phosphorus is stored under water to prevent it from**"
+    },
+    {
+      "paragraphIndex": 6757,
+      "number": 850,
+      "text": "**850. Pure solvents are obtained by**"
+    },
+    {
+      "paragraphIndex": 6765,
+      "number": 851,
+      "text": "**851. At what temperature does solubility of L equal 0.25 mole?**"
+    },
+    {
+      "paragraphIndex": 6770,
+      "number": 852,
+      "text": "**852. If 1 dm³ of a saturated solution of L at 60°C is cooled to 25°C, what amount in mole will separate?**"
+    },
+    {
+      "paragraphIndex": 6775,
+      "number": 853,
+      "text": "**853. Deliquescent substances are used for**"
+    },
+    {
+      "paragraphIndex": 6783,
+      "number": 854,
+      "text": "**854. What is the decrease in volume of air when pyrogallol is shaken with 30.00 cm³ of air?**"
+    },
+    {
+      "paragraphIndex": 6791,
+      "number": 855,
+      "text": "**855. The pollution from petroleum spillage in rivers and lakes can best be dispersed by**"
+    },
+    {
+      "paragraphIndex": 6799,
+      "number": 856,
+      "text": "**856. 3Cu(s) + 8HNO₃(aq) → 3Cu(NO₃)₂(aq) + 4H₂O(l) + 2NO(g). In the equation above, copper is**"
+    },
+    {
+      "paragraphIndex": 6807,
+      "number": 857,
+      "text": "**857. NH₃(g) + HCl(g) → NH₄Cl(s). The entropy change in the system above is**"
+    },
+    {
+      "paragraphIndex": 6815,
+      "number": 858,
+      "text": "**858. What current in amperes will deposit 2.7 g of aluminium in 2 hours? [Al=27, F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 6823,
+      "number": 859,
+      "text": "**859. 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). The equilibrium constant for the reaction above is increased by**"
+    },
+    {
+      "paragraphIndex": 6831,
+      "number": 860,
+      "text": "**860. As the concentration of an electrolyte reduces, the conductivity**"
+    },
+    {
+      "paragraphIndex": 6839,
+      "number": 861,
+      "text": "**861. C(s) + 2S(g) → CS₂(l), ΔH = +89 kJ/mol. The chemical equation above implies that**"
+    },
+    {
+      "paragraphIndex": 6847,
+      "number": 862,
+      "text": "**862. Which of the following best explains the increase in the rate of a chemical reaction as the temperature rises?**"
+    },
+    {
+      "paragraphIndex": 6855,
+      "number": 863,
+      "text": "**863. In which of the following reactions has the oxidation number of nitrogen increased?**"
+    },
+    {
+      "paragraphIndex": 6863,
+      "number": 864,
+      "text": "**864. P(g) + Q(g) ⇌ 3R(s) + S(g). Which of the following will increase the yield of R?**"
+    },
+    {
+      "paragraphIndex": 6872,
+      "number": 865,
+      "text": "**865. Ethanoic acid is**"
+    },
+    {
+      "paragraphIndex": 6880,
+      "number": 866,
+      "text": "**866. A metal M displaces zinc from zinc chloride solution. This shows that**"
+    },
+    {
+      "paragraphIndex": 6888,
+      "number": 867,
+      "text": "**867. In which of the following reactions does reduction take place?**"
+    },
+    {
+      "paragraphIndex": 6896,
+      "number": 868,
+      "text": "**868. When ΔH is negative, a reaction is said to be**"
+    },
+    {
+      "paragraphIndex": 6904,
+      "number": 869,
+      "text": "**869. Protein in acid solution undergoes**"
+    },
+    {
+      "paragraphIndex": 6912,
+      "number": 870,
+      "text": "**870. Fermentation is the**"
+    },
+    {
+      "paragraphIndex": 6920,
+      "number": 871,
+      "text": "**871. Catalytic hydrogenation of benzene produces**"
+    },
+    {
+      "paragraphIndex": 6928,
+      "number": 872,
+      "text": "**872. A characteristic reaction of the compounds with the general formula CₙH₂ₙ₊₂ is**"
+    },
+    {
+      "paragraphIndex": 6936,
+      "number": 873,
+      "text": "**873. When chlorine is passed into water and the resulting solution exposed to sunlight, the products formed are**"
+    },
+    {
+      "paragraphIndex": 6944,
+      "number": 874,
+      "text": "**874. The pair of organic compounds that are isomers is**"
+    },
+    {
+      "paragraphIndex": 6952,
+      "number": 875,
+      "text": "**875. C₁₂H₂₂O₁₁(s) + H₂SO₄(aq) → 12C(s) + 11H₂O(l) + H₂SO₄(aq). In the reaction above, tetraoxosulphate(VI) acid functions as**"
+    },
+    {
+      "paragraphIndex": 6960,
+      "number": 876,
+      "text": "**876. During the vulcanization of rubber, sulphur is added to**"
+    },
+    {
+      "paragraphIndex": 6968,
+      "number": 877,
+      "text": "**877. When sodium reacts with water, the resulting solution is**"
+    },
+    {
+      "paragraphIndex": 6976,
+      "number": 878,
+      "text": "**878. The general formula for the alkanals is**"
+    },
+    {
+      "paragraphIndex": 6984,
+      "number": 879,
+      "text": "**879. Which of the following metals burns with a brick-red flame?**"
+    },
+    {
+      "paragraphIndex": 6992,
+      "number": 880,
+      "text": "**880. The gas that can best be collected by downward displacement of air is**"
+    },
+    {
+      "paragraphIndex": 7000,
+      "number": 881,
+      "text": "**881. A trihydric alkanol is**"
+    },
+    {
+      "paragraphIndex": 7008,
+      "number": 882,
+      "text": "**882. The main impurity in iron ore during the extraction of iron is**"
+    },
+    {
+      "paragraphIndex": 7016,
+      "number": 883,
+      "text": "**883. A burning candle produces water and**"
+    },
+    {
+      "paragraphIndex": 7024,
+      "number": 884,
+      "text": "**884. The formula [C₆H₇O₂(OH)₃]ₙ is the**"
+    },
+    {
+      "paragraphIndex": 7032,
+      "number": 885,
+      "text": "**885. Which of the following gases contains the least number of atoms at STP?**"
+    },
+    {
+      "paragraphIndex": 7040,
+      "number": 886,
+      "text": "**886. The chromatographic separation of ink is based on the ability of the components to**"
+    },
+    {
+      "paragraphIndex": 7048,
+      "number": 887,
+      "text": "**887. A compound contains 31.91% potassium, 28.93% chlorine and the rest oxygen. What is the chemical formula of the compound? [K=39, Cl=35.5, O=16]**"
+    },
+    {
+      "paragraphIndex": 7056,
+      "number": 888,
+      "text": "**888. A little quantity of trichloromethane (b.p. 60°C) was added to a large quantity of ethanol (b.p. 78°C). The most probable boiling point of the resultant mixture is from**"
+    },
+    {
+      "paragraphIndex": 7064,
+      "number": 889,
+      "text": "**889. The boiling of fat and aqueous caustic soda is referred to as**"
+    },
+    {
+      "paragraphIndex": 7072,
+      "number": 890,
+      "text": "**890. Ordinary glass is manufactured from silica, CaCO₃ and**"
+    },
+    {
+      "paragraphIndex": 7080,
+      "number": 891,
+      "text": "**891. The major product of the dehydration of the compound CH₃-C(OH)(CH₃)-CH₂-CH₃ is**"
+    },
+    {
+      "paragraphIndex": 7088,
+      "number": 892,
+      "text": "**892. The number of isomers formed by C₆H₁₄ is**"
+    },
+    {
+      "paragraphIndex": 7096,
+      "number": 893,
+      "text": "**893. Which of these pairs are synthetic and natural macromolecules respectively?**"
+    },
+    {
+      "paragraphIndex": 7104,
+      "number": 894,
+      "text": "**894. An example of an element that can catenate is**"
+    },
+    {
+      "paragraphIndex": 7112,
+      "number": 895,
+      "text": "**895. Ethanol can easily be produced by**"
+    },
+    {
+      "paragraphIndex": 7120,
+      "number": 896,
+      "text": "**896. Hydrogen is readily released when dilute hydrochloric acid reacts with**"
+    },
+    {
+      "paragraphIndex": 7128,
+      "number": 897,
+      "text": "**897. Which of the following statements is true of a proton?**"
+    },
+    {
+      "paragraphIndex": 7136,
+      "number": 898,
+      "text": "**898. ¹⁴₆C → X + β⁻. X in the equation above represents**"
+    },
+    {
+      "paragraphIndex": 7144,
+      "number": 899,
+      "text": "**899. A gas X diffuses twice as fast as gas Y under the same condition. If the relative molecular mass of X is 28, calculate the relative molecular mass of Y.**"
+    },
+    {
+      "paragraphIndex": 7152,
+      "number": 900,
+      "text": "**900. Which of the following chlorides would exhibit the least ionic character?**"
+    },
+    {
+      "paragraphIndex": 7160,
+      "number": 901,
+      "text": "**901. A fixed mass of gas has a volume of 92 cm³ at 3°C. What will be its volume at 18°C if the pressure remains constant?**"
+    },
+    {
+      "paragraphIndex": 7168,
+      "number": 902,
+      "text": "**902. The processes which return carbon(IV) oxide to the atmosphere include**"
+    },
+    {
+      "paragraphIndex": 7176,
+      "number": 903,
+      "text": "**903. The postulate of Dalton's atomic theory which still holds is that**"
+    },
+    {
+      "paragraphIndex": 7184,
+      "number": 904,
+      "text": "**904. If 0.75 mole of cyclopropane and 0.66 mole of oxygen are mixed in a vessel with a total pressure of 0.7 atmosphere, what is the partial pressure of oxygen in the mixture?**"
+    },
+    {
+      "paragraphIndex": 7192,
+      "number": 905,
+      "text": "**905. When H₂S is passed into a solution of iron(III) chloride, the solution turns**"
+    },
+    {
+      "paragraphIndex": 7200,
+      "number": 906,
+      "text": "**906. Which of the following equations shows that a reaction is in equilibrium?**"
+    },
+    {
+      "paragraphIndex": 7208,
+      "number": 907,
+      "text": "**907. Cu₂S(s) + O₂(g) → 2Cu(s) + SO₂(g). What is the change in the oxidation number of copper in the reaction above?**"
+    },
+    {
+      "paragraphIndex": 7216,
+      "number": 908,
+      "text": "**908. In the reaction E + F ⇌ G + H, the backward reaction is favoured if the concentration of**"
+    },
+    {
+      "paragraphIndex": 7224,
+      "number": 909,
+      "text": "**909. The products of the electrolysis of dilute sodium hydroxide using platinum electrodes are**"
+    },
+    {
+      "paragraphIndex": 7232,
+      "number": 910,
+      "text": "**910. PCl₅(g) ⇌ PCl₃(g) + Cl₂(g). In the reaction above, a decrease in pressure will**"
+    },
+    {
+      "paragraphIndex": 7240,
+      "number": 911,
+      "text": "**911. The Arrhenius equation expresses the relationship between the speed of a reaction and its**"
+    },
+    {
+      "paragraphIndex": 7248,
+      "number": 912,
+      "text": "**912. What amount of mercury would be liberated if the same quantity of electricity that liberated 0.65 g of zinc is supplied? [Zn=65, Hg=201]**"
+    },
+    {
+      "paragraphIndex": 7256,
+      "number": 913,
+      "text": "**913. When dissolved in water, NaOH flakes show**"
+    },
+    {
+      "paragraphIndex": 7264,
+      "number": 914,
+      "text": "**914. Steam changes the colour of anhydrous cobalt(II) chloride from**"
+    },
+    {
+      "paragraphIndex": 7272,
+      "number": 915,
+      "text": "**915. Which of the following solutions containing only hydroxyl ions will liberate hydrogen gas when reacted with magnesium metal?**"
+    },
+    {
+      "paragraphIndex": 7280,
+      "number": 916,
+      "text": "**916. The solubility of a salt of molar mass 101 g at 20°C is 0.34 mol/dm³. If 3.40 g of the salt is dissolved completely in 250 cm³ of water in a beaker, the resulting solution is**"
+    },
+    {
+      "paragraphIndex": 7288,
+      "number": 917,
+      "text": "**917. 25 cm³ of a 0.2 mol/dm³ solution of Na₂CO₃ requires 20 cm³ of a solution of HCl for neutralization. The concentration of the HCl solution is**"
+    },
+    {
+      "paragraphIndex": 7296,
+      "number": 918,
+      "text": "**918. When a salt loses its water of crystallization to the atmosphere on exposure, the process is said to be**"
+    },
+    {
+      "paragraphIndex": 7304,
+      "number": 919,
+      "text": "**919. Three drops of 1.0 mol/dm³ solution of NaOH are added to 20 cm³ of a solution of pH 8.4. The pH of the resulting solution will be**"
+    },
+    {
+      "paragraphIndex": 7312,
+      "number": 920,
+      "text": "**920. Tetraoxosulphate(VI) acid burns the skin by**"
+    },
+    {
+      "paragraphIndex": 7320,
+      "number": 921,
+      "text": "**921. The substance least considered as a source of environmental pollution is**"
+    },
+    {
+      "paragraphIndex": 7328,
+      "number": 922,
+      "text": "**922. The property which makes alcohol soluble in water is the**"
+    },
+    {
+      "paragraphIndex": 7336,
+      "number": 923,
+      "text": "**923. The furring of kettles is caused by the presence in water of**"
+    },
+    {
+      "paragraphIndex": 7344,
+      "number": 924,
+      "text": "**924. Which of the following is a physical change?**"
+    },
+    {
+      "paragraphIndex": 7352,
+      "number": 925,
+      "text": "**925. What volume of oxygen is produced from the decomposition of 2 moles of potassium trioxochlorate(V)?**"
+    },
+    {
+      "paragraphIndex": 7360,
+      "number": 926,
+      "text": "**926. The filter in a cigarette reduces the nicotine content by**"
+    },
+    {
+      "paragraphIndex": 7368,
+      "number": 927,
+      "text": "**927. Cu + pHNO₃ → 3Cu(NO₃)₂ + 4H₂O + xNO. In the equation above, the values of p and x respectively are**"
+    },
+    {
+      "paragraphIndex": 7376,
+      "number": 928,
+      "text": "**928. Neutral atoms of neon with atomic number 10 have the same number of electrons as**"
+    },
+    {
+      "paragraphIndex": 7384,
+      "number": 929,
+      "text": "**929. The noble gases owe their inactivity to**"
+    },
+    {
+      "paragraphIndex": 7392,
+      "number": 930,
+      "text": "**930. According to the kinetic theory, an increase in temperature causes the kinetic energy of particles to**"
+    },
+    {
+      "paragraphIndex": 7400,
+      "number": 931,
+      "text": "**931. From the electron configurations: I. H = 1s¹, II. N = 1s²2s²2p³, III. O = 1s²2s²2p⁴, IV. Zn = 1s²2s²2p⁶3s²3p⁶4s²3d¹⁰. Which of the following pairs is likely to be paramagnetic?**"
+    },
+    {
+      "paragraphIndex": 7408,
+      "number": 932,
+      "text": "**932. A gas exerts pressure on its container because**"
+    },
+    {
+      "paragraphIndex": 7416,
+      "number": 933,
+      "text": "**933. When cathode rays are deflected onto the electrode of an electrometer, the instrument becomes**"
+    },
+    {
+      "paragraphIndex": 7424,
+      "number": 934,
+      "text": "**934. The weakest attractive forces that can be observed between two molecules is**"
+    },
+    {
+      "paragraphIndex": 7432,
+      "number": 935,
+      "text": "**935. A consequence of global warming is**"
+    },
+    {
+      "paragraphIndex": 7440,
+      "number": 936,
+      "text": "**936. Which of the following ions is acidic?**"
+    },
+    {
+      "paragraphIndex": 7448,
+      "number": 937,
+      "text": "**937. The structural component that makes detergent dissolve more quickly in water than soap is**"
+    },
+    {
+      "paragraphIndex": 7456,
+      "number": 938,
+      "text": "**938. A liquid that will dissolve fat is**"
+    },
+    {
+      "paragraphIndex": 7464,
+      "number": 939,
+      "text": "**939. What mass of K₂CrO₄ is required to prepare 250 cm³ of 0.02 M solution? [K₂CrO₄ = 194.2 g/mol]**"
+    },
+    {
+      "paragraphIndex": 7472,
+      "number": 940,
+      "text": "**940. Farmlands affected by crude-oil spillage can be decontaminated by**"
+    },
+    {
+      "paragraphIndex": 7480,
+      "number": 941,
+      "text": "**941. When 10 g of sodium hydroxide is dissolved in 100 cm³ of water, the solution formed is approximately [Na=23, H=1, O=16]**"
+    },
+    {
+      "paragraphIndex": 7488,
+      "number": 942,
+      "text": "**942. A change in the temperature of a saturated solution disturbs the equilibrium between the**"
+    },
+    {
+      "paragraphIndex": 7496,
+      "number": 943,
+      "text": "**943. If an equilibrium reaction has ΔH > 0, the reaction will proceed favourably in the forward direction at**"
+    },
+    {
+      "paragraphIndex": 7504,
+      "number": 944,
+      "text": "**944. In the diagram above, the experiment demonstrates that during electrolysis,**"
+    },
+    {
+      "paragraphIndex": 7509,
+      "number": 945,
+      "text": "**945. Which of the following will change when a catalyst is added to a chemical reaction?**"
+    },
+    {
+      "paragraphIndex": 7517,
+      "number": 946,
+      "text": "**946. If Y is an oxidizing agent that reacts with a reducing agent Z, which of the following is correct?**"
+    },
+    {
+      "paragraphIndex": 7525,
+      "number": 947,
+      "text": "**947. When at equilibrium, which of the reactions below will shift to the right if the pressure is increased and the temperature is kept constant?**"
+    },
+    {
+      "paragraphIndex": 7533,
+      "number": 948,
+      "text": "**948. In the electrolysis of a concentrated solution of sodium chloride using inert electrodes, which of the following ions are discharged at the cathode and anode respectively?**"
+    },
+    {
+      "paragraphIndex": 7541,
+      "number": 949,
+      "text": "**949. CO(g) + H₂O(g) → CO₂(g) + H₂(g). From the reaction above, calculate the standard heat change if the standard enthalpies of formation of CO₂(g), H₂O(g) and CO(g) in kJ/mol are -394, -242 and -110 respectively.**"
+    },
+    {
+      "paragraphIndex": 7549,
+      "number": 950,
+      "text": "**950. When sugar is dissolved in tea, the reaction is always accompanied by**"
+    },
+    {
+      "paragraphIndex": 7557,
+      "number": 951,
+      "text": "**951. Which of the following is an electrolyte?**"
+    },
+    {
+      "paragraphIndex": 7565,
+      "number": 952,
+      "text": "**952. Chlorine gas is prepared in the laboratory by**"
+    },
+    {
+      "paragraphIndex": 7573,
+      "number": 953,
+      "text": "**953. Metals of the transition series have special properties which are different from those of groups I and II elements because they have partially filled**"
+    },
+    {
+      "paragraphIndex": 7581,
+      "number": 954,
+      "text": "**954. Hydrogen can be displaced from a hot alkaline solution by**"
+    },
+    {
+      "paragraphIndex": 7589,
+      "number": 955,
+      "text": "**955. Which of the following statements is true of sulphur(IV) oxide?**"
+    },
+    {
+      "paragraphIndex": 7597,
+      "number": 956,
+      "text": "**956. The salt that will form a precipitate soluble in excess ammonia solution is**"
+    },
+    {
+      "paragraphIndex": 7605,
+      "number": 957,
+      "text": "**957. The metal that liberates hydrogen from cold water in bubbles only is**"
+    },
+    {
+      "paragraphIndex": 7613,
+      "number": 958,
+      "text": "**958. Chlorine gas turns a damp starch-iodine paper**"
+    },
+    {
+      "paragraphIndex": 7621,
+      "number": 959,
+      "text": "**959. The modern process of manufacturing steel from iron is by**"
+    },
+    {
+      "paragraphIndex": 7629,
+      "number": 960,
+      "text": "**960. Which of the following compounds will react with sodium metal to produce hydrogen gas?**"
+    },
+    {
+      "paragraphIndex": 7637,
+      "number": 961,
+      "text": "**961. Carbohydrates are compounds containing carbon, hydrogen and oxygen in the ratio**"
+    },
+    {
+      "paragraphIndex": 7645,
+      "number": 962,
+      "text": "**962. How many isomers does pentane have?**"
+    },
+    {
+      "paragraphIndex": 7653,
+      "number": 963,
+      "text": "**963. The leachate of a certain plant ash is used in local soap making because it contains**"
+    },
+    {
+      "paragraphIndex": 7661,
+      "number": 964,
+      "text": "**964. The formula for ethyl butanoate is**"
+    },
+    {
+      "paragraphIndex": 7669,
+      "number": 965,
+      "text": "**965. The type of reaction that is peculiar to benzene is**"
+    },
+    {
+      "paragraphIndex": 7677,
+      "number": 966,
+      "text": "**966. Ethanol reacts with excess acidified K₂Cr₂O₇ to give**"
+    },
+    {
+      "paragraphIndex": 7685,
+      "number": 967,
+      "text": "**967. A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen. If the molar mass of the compound is 180, find the molecular formula. [H=1, C=12, O=16]**"
+    },
+    {
+      "paragraphIndex": 7693,
+      "number": 968,
+      "text": "**968. The process by which atoms are rearranged into different molecular structures in the petroleum refining process is referred to as**"
+    },
+    {
+      "paragraphIndex": 7701,
+      "number": 969,
+      "text": "**969. Which of the following is found in cotton?**"
+    },
+    {
+      "paragraphIndex": 7709,
+      "number": 970,
+      "text": "**970. The principal constituent of natural gas is**"
+    },
+    {
+      "paragraphIndex": 7717,
+      "number": 971,
+      "text": "**971. In the electrolysis of brine, the anode is**"
+    },
+    {
+      "paragraphIndex": 7725,
+      "number": 972,
+      "text": "**972. N₂O₄(g) → 2NO₂(g). In the endothermic reaction above, more product formation will be favoured by**"
+    },
+    {
+      "paragraphIndex": 7733,
+      "number": 973,
+      "text": "**973. The oxidation state of chlorine in HClO₄ is**"
+    },
+    {
+      "paragraphIndex": 7741,
+      "number": 974,
+      "text": "**974. Which of the following hydrogen halides has the highest entropy value?**"
+    },
+    {
+      "paragraphIndex": 7749,
+      "number": 975,
+      "text": "**975. The mass of silver deposited when a current of 10 A is passed through a solution of silver salt for 4830 s is [Ag=108, F=96500 C/mol]**"
+    },
+    {
+      "paragraphIndex": 7757,
+      "number": 976,
+      "text": "**976. Which of the following acts as both a reducing and an oxidizing agent?**"
+    },
+    {
+      "paragraphIndex": 7765,
+      "number": 977,
+      "text": "**977. Which of the following shows little or no net reaction when the volume of the system is decreased?**"
+    },
+    {
+      "paragraphIndex": 7773,
+      "number": 978,
+      "text": "**978. Given that ΔH[CO] is -110.4 kJ/mol and ΔH[CO₂] is -393 kJ/mol, the energy change for the reaction 2CO + O₂ → 2CO₂ is**"
+    },
+    {
+      "paragraphIndex": 7781,
+      "number": 979,
+      "text": "**979. In the reaction Zn + CuSO₄ → ZnSO₄ + Cu, Zinc has been**"
+    },
+    {
+      "paragraphIndex": 7789,
+      "number": 980,
+      "text": "**980. What volume of gas is evolved at STP if 2 g of calcium trioxocarbonate(IV) is added to a solution of hydrochloric acid? [Ca=40, C=12, O=16, Cl=35.5, H=1, Molar volume = 22.4 dm³]**"
+    },
+    {
+      "paragraphIndex": 7797,
+      "number": 981,
+      "text": "**981. A chemical reaction is always associated with**"
+    },
+    {
+      "paragraphIndex": 7805,
+      "number": 982,
+      "text": "**982. When a solid substance disappears completely as a gas on heating, the substance is said to have undergone**"
+    },
+    {
+      "paragraphIndex": 7813,
+      "number": 983,
+      "text": "**983. If a solution contains 4.9 g of tetraoxosulphate(VI) acid, calculate the amount of copper(II) oxide that will react with it. [Cu=64, O=16, S=32, H=1]**"
+    },
+    {
+      "paragraphIndex": 7821,
+      "number": 984,
+      "text": "**984. Vulcanization involves the removal of**"
+    },
+    {
+      "paragraphIndex": 7829,
+      "number": 985,
+      "text": "**985. The alkyl group can be represented by the general formula**"
+    },
+    {
+      "paragraphIndex": 7837,
+      "number": 986,
+      "text": "**986. C₂H₅OH → Y. In the reaction above, Y represents**"
+    },
+    {
+      "paragraphIndex": 7845,
+      "number": 987,
+      "text": "**987. In the production of soap, concentrated sodium chloride is added to**"
+    },
+    {
+      "paragraphIndex": 7853,
+      "number": 988,
+      "text": "**988. Oxyacetylene flame is used for iron-welding because it**"
+    },
+    {
+      "paragraphIndex": 7861,
+      "number": 989,
+      "text": "**989. Which of these reagents can confirm the presence of a triple bond?**"
+    },
+    {
+      "paragraphIndex": 7869,
+      "number": 990,
+      "text": "**990. The IUPAC nomenclature of the compound CH₃-CH(CH₃)-CH₂-CH₂-CH₃ is**"
+    },
+    {
+      "paragraphIndex": 7877,
+      "number": 991,
+      "text": "**991. An isomer of C₅H₁₂ is**"
+    },
+    {
+      "paragraphIndex": 7885,
+      "number": 992,
+      "text": "**992. Alkanol + Alkanoic acid → Ester + Water. The reverse reaction of the equation above is known as**"
+    },
+    {
+      "paragraphIndex": 7893,
+      "number": 993,
+      "text": "**993. CH₃COOH(g) → CH₄(g) + CO₂(g). The reaction above is**"
+    },
+    {
+      "paragraphIndex": 7901,
+      "number": 994,
+      "text": "**994. A characteristic of the alkane family is**"
+    },
+    {
+      "paragraphIndex": 7909,
+      "number": 995,
+      "text": "**995. Pollution of underground water by metal ions is very likely in a soil that has high**"
+    },
+    {
+      "paragraphIndex": 7917,
+      "number": 996,
+      "text": "**996. The solubility in mol/dm³ of 20 g of CuSO₄ dissolved in 100 g of water at 180°C is [Cu=64, S=32, O=16]**"
+    },
+    {
+      "paragraphIndex": 7925,
+      "number": 997,
+      "text": "**997. Which of these compounds is a normal salt?**"
+    },
+    {
+      "paragraphIndex": 7933,
+      "number": 998,
+      "text": "**998. A carcinogenic substance is**"
+    },
+    {
+      "paragraphIndex": 7941,
+      "number": 999,
+      "text": "**999. What volume of 0.5 mol/dm³ H₂SO₄ will exactly neutralize 20 cm³ of 0.1 mol/dm³ NaOH solution?**"
+    },
+    {
+      "paragraphIndex": 7949,
+      "number": 1000,
+      "text": "**1000. Calcium tetraoxosulphate(VI) dissolves in water only sparingly to form a**"
+    }
+  ]
+}
