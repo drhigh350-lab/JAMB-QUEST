@@ -22,7 +22,7 @@ JAMB Quest is currently focused on one job: **serious JAMB preparation and reali
 | **Progress analytics** | Accuracy, average speed, pace-aware next guidance, round/exam log, subject performance, weak topics, and previous-versus-latest CBT comparison. |
 | **Target score** | After a completed 180-question mock only, Progress shows the estimated UTME score out of 400, target gap, and subject contribution accuracy from that same mock. Short practice rounds never create a misleading score projection. |
 | **Topic safety** | All **780** formerly placeholder-labelled active records have been resolved to syllabus-grounded topics using the owner-supplied Biology and Chemistry syllabus maps. Topic recommendations and topic practice use only the resulting verified labels. |
-| **Daily reminder** | A daily reminder schedule is configured for 7pm UTC, with notification infrastructure in the PWA. |
+| **Daily reminder** | An opt-in daily reminder runs at 7pm UTC. Learners can enable it on a device, send an immediate test from Profile, and a real Android delivery has been confirmed. |
 
 ## Current app structure
 
@@ -45,6 +45,6 @@ These are deliberately **not** being added yet, so JAMB Quest stays a focused pr
 - Topic + difficulty filters and question search, until all topic metadata is trustworthy and the question source is indexable
 - Full error classification, until the validated question and analytics model can support it properly
 
-## What the syllabus will unlock next
+## What trusted metadata will unlock next
 
-The trusted syllabus/source will allow the remaining **83** withheld topic labels to be mapped safely. That will make topic-level guidance more complete and is the right foundation before enabling topic + difficulty practice and search.
+Every active placeholder topic has already been resolved through the owner-supplied syllabus maps. Additional dependable metadata—such as difficulty, year, and a suitable index source—must be established before topic-plus-difficulty practice or question search is introduced.
