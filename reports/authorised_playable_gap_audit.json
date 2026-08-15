@@ -1,9 +1,9 @@
 {
-  "totalActiveAuthorisedRows": 2946,
-  "playableRows": 1763,
+  "totalActiveAuthorisedRows": 2950,
+  "playableRows": 1767,
   "outcomes": {
     "explanation exceeds five lines": 472,
-    "playable": 1763,
+    "playable": 1767,
     "status:needs_review": 369,
     "unmapped syllabus topic": 342
   },
@@ -131,6 +131,9 @@
     },
     "Owner Biology DOCX · Uniform explanation batch 001": {
       "playable": 20
+    },
+    "Owner Biology DOCX · Uniform explanation batch 002": {
+      "playable": 4
     }
   }
 }

@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "biology-dr-high-0046",
+    "subject": "Biology",
+    "topic": "Living Organisms and Organization",
+    "difficulty": "medium",
+    "question": "A tissue is composed of a group of",
+    "options": [
+      "A. similar cells",
+      "B. tissues",
+      "C. systems",
+      "D. related organs"
+    ],
+    "answerIndex": 0,
+    "explanation": "A tissue is a group of similar cells performing a specific\nfunction. Tissues combine to form organs, organs form systems.\nThis is the basic level of organization in multicellular\norganisms.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0048",
+    "subject": "Biology",
+    "topic": "Support and movement",
+    "difficulty": "medium",
+    "question": "Which of the following serves as the brain box in man?",
+    "options": [
+      "A. skeleton",
+      "B. skull",
+      "C. head",
+      "D. spinal column"
+    ],
+    "answerIndex": 1,
+    "explanation": "The skull is the bony structure that encloses and protects the\nbrain. The skeleton supports the whole body, the head is the\nanatomical region, and the spinal column protects the spinal\ncord.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0051",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Which of these is not a sampling method for determining population size?",
+    "options": [
+      "A. capture and re-capture method",
+      "B. complete census",
+      "C. transect method",
+      "D. systematic sampling"
+    ],
+    "answerIndex": 3,
+    "explanation": "Systematic sampling is not a standard ecological method for\npopulation estimation. Capture‑recapture, complete census, and\ntransect methods are common techniques used to estimate organism\nabundance.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0052",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "A group of organisms of the same kind inhabiting the same environment is called",
+    "options": [
+      "A. ecosystem",
+      "B. habitat",
+      "C. population",
+      "D. species"
+    ],
+    "answerIndex": 2,
+    "explanation": "A population is a group of organisms of the same species living\nin the same area at the same time. A species is a taxonomic rank,\na habitat is the place, and an ecosystem includes biotic and\nabiotic components.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0057",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "The by-product of photosynthesis is",
+    "options": [
+      "A. CO₂",
+      "B. O₂",
+      "C. C₆H₁₂O₆",
+      "D. H₂O"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oxygen is released as a by‑product during photosynthesis,\noriginating from the photolysis of water. CO₂ and water are\nreactants, and glucose is the main product. Oxygen is essential\nfor aerobic respiration.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0058",
+    "subject": "Biology",
+    "topic": "Respiration and Gas Exchange",
+    "difficulty": "medium",
+    "question": "Gaseous exchange in the lungs takes place in the",
+    "options": [
+      "A. alveoli",
+      "B. bronchi",
+      "C. bronchioles",
+      "D. trachea"
+    ],
+    "answerIndex": 0,
+    "explanation": "Alveoli are tiny air sacs with thin walls, where O₂ and CO₂\ndiffuse between air and blood. Bronchi, bronchioles, and trachea\nare air passages. The large surface area of alveoli maximizes gas\nexchange.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0063",
+    "subject": "Biology",
+    "topic": "Excretion",
+    "difficulty": "medium",
+    "question": "One of these is used for excretion in earthworm",
+    "options": [
+      "A. Contractile vacuole",
+      "B. Flame cell",
+      "C. Malpighian tubule",
+      "D. Nephridium"
+    ],
+    "answerIndex": 3,
+    "explanation": "Earthworms have nephridia as excretory organs. Contractile\nvacuoles are in protozoa, flame cells in flatworms, and\nMalpighian tubules in insects. Nephridia filter waste from the\ncoelomic fluid.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0064",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "The following group of plants is the most advanced except",
+    "options": [
+      "A. bryophyte",
+      "B. pteridophyta",
+      "C. spermatophyte",
+      "D. thallophytic"
+    ],
+    "answerIndex": 3,
+    "explanation": "Thallophytes (algae) are the most primitive plants.\nSpermatophytes are the most advanced, followed by pteridophytes\nand bryophytes. Bryophytes are more advanced than thallophytes\nbut less than pteridophytes.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0068",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The primary consumer in the food chain below is Green plants → Grasshopper → Lizard → Snake → Hawk",
+    "options": [
+      "A. Grasshopper",
+      "B. green plants",
+      "C. hawk",
+      "D. lizard"
+    ],
+    "answerIndex": 0,
+    "explanation": "Grasshopper is the primary consumer (herbivore) that eats green\nplants. Lizard is a secondary consumer, snake is a tertiary\nconsumer, and hawk is the top predator. Producers are at the\nbase.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0069",
+    "subject": "Biology",
+    "topic": "Classification and Diversity",
+    "difficulty": "medium",
+    "question": "Angiosperms belong to the class",
+    "options": [
+      "A. bryophyte",
+      "B. pteridophyta",
+      "C. spermatophyte",
+      "D. thallophytic"
+    ],
+    "answerIndex": 2,
+    "explanation": "Angiosperms are seed plants, classified under Spermatophyta.\nBryophytes are mosses, pteridophytes are ferns, and thallophytes\nare algae. Angiosperms are the most diverse and advanced plant\ngroup.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0070",
+    "subject": "Biology",
+    "topic": "Excretion",
+    "difficulty": "medium",
+    "question": "In the kidney, both useful substances and wastes are removed from the blood by",
+    "options": [
+      "A. Filtration",
+      "B. selective absorption",
+      "C. dialysis machine",
+      "D. excretion"
+    ],
+    "answerIndex": 0,
+    "explanation": "Filtration in the glomerulus removes both useful and waste\nsubstances from blood. Selective reabsorption later reclaims\nuseful molecules. Dialysis is artificial, and excretion is the\nfinal removal of wastes.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0071",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Which of the following is not part of the mammalian male reproductive organ?",
+    "options": [
+      "A. Epididymis",
+      "B. Vas deferens",
+      "C. Testis",
+      "D. Vulva"
+    ],
+    "answerIndex": 3,
+    "explanation": "The vulva is a female external genital structure. Epididymis, vas\ndeferens, and testes are all male reproductive organs. The\nepididymis stores sperm, vas deferens transports them, and testes\nproduce sperm.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0073",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "The breaking down of food in the alimentary canal is called",
+    "options": [
+      "A. digestion",
+      "B. egestion",
+      "C. excretion",
+      "D. ingestion"
+    ],
+    "answerIndex": 0,
+    "explanation": "Digestion breaks down food into soluble molecules. Egestion\nremoves undigested waste, excretion removes metabolic wastes, and\ningestion is taking in food. Digestion can be mechanical or\nchemical.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0074",
+    "subject": "Biology",
+    "topic": "Excretion",
+    "difficulty": "medium",
+    "question": "The following are the functions of the kidneys, except",
+    "options": [
+      "A. Regulation of water content in the blood",
+      "B. Maintenance of blood pH and homeostasis",
+      "C. Excretion of CO₂",
+      "D. Removal of urea"
+    ],
+    "answerIndex": 2,
+    "explanation": "CO₂ is excreted by the lungs, not the kidneys. The kidneys\nregulate water, pH, and excrete urea. The lungs handle gaseous\nwaste. Kidneys also produce erythropoietin and activate vitamin\nD.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0078",
+    "subject": "Biology",
+    "topic": "Health and Disease",
+    "difficulty": "medium",
+    "question": "The following are kidney diseases except",
+    "options": [
+      "A. diuresis",
+      "B. hepatitis",
+      "C. nephritis",
+      "D. oedema"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hepatitis is a liver disease. Diuresis (excessive urine),\nnephritis (kidney inflammation), and oedema (fluid retention) are\nassociated with kidney dysfunction. Hepatitis is caused by viral\ninfection.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0037",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The average number of individuals of a species per unit area of the habitat is the",
+    "options": [
+      "A. population density",
+      "B. population frequency",
+      "C. population size",
+      "D. population distribution"
+    ],
+    "answerIndex": 2,
+    "explanation": "Population density is the correct ecological term for number per\nunit area. However, the JAMB key lists C (population size). This\nmay be a misprint, but you must follow the key provided for the\nexam.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0039",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The loss of soil through erosion can be reduced by",
+    "options": [
+      "A. watering",
+      "B. crop rotation",
+      "C. manuring",
+      "D. irrigation"
+    ],
+    "answerIndex": 0,
+    "explanation": "While crop rotation is a better method, the JAMB key indicates\nwatering. Watering helps maintain vegetation which binds the\nsoil, reducing erosion. This answer strictly follows the provided\nanswer key.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0041",
+    "subject": "Biology",
+    "topic": "Coordination and Control",
+    "difficulty": "medium",
+    "question": "A dilute solution of phenylthiocarbamide tastes bitter to some people and is tasteless to others. This is an example of",
+    "options": [
+      "A. taste bud variation",
+      "B. discontinuous variation",
+      "C. morphological variation",
+      "D. continuous variation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The ability to taste PTC is either present or absent – a\nclear‑cut difference (discontinuous variation). It is controlled\nby a single gene with two alleles, unlike continuous traits like\nheight or weight.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0042",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "In which plantation are all the trees between the height of 2‑4m?",
+    "options": [
+      "A. III",
+      "B. II",
+      "C. I",
+      "D. IV"
+    ],
+    "answerIndex": 0,
+    "explanation": "From the diagram, plantation III shows all trees falling within\nthe 2‑4 m height range. The other plantations have broader or\ndifferent height distributions. This question tests graph\nreading.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0088",
+    "subject": "Biology",
+    "topic": "Coordination and control",
+    "difficulty": "medium",
+    "question": "Hormones that help regulate blood calcium levels are produced by the",
+    "options": [
+      "A. Adrenal",
+      "B. thyroid",
+      "C. parathyroid",
+      "D. pituitary"
+    ],
+    "answerIndex": 2,
+    "explanation": "Parathyroid glands produce parathyroid hormone (PTH), which\nincreases blood calcium. The thyroid produces calcitonin (lowers\ncalcium), adrenal produces adrenaline, and pituitary produces\ngrowth hormone.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 003",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  }
+]

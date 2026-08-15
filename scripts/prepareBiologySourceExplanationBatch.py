@@ -6,6 +6,7 @@ from pathlib import Path
 
 batch_number = int(sys.argv[1]) if len(sys.argv) > 1 else 2
 batch_size = int(sys.argv[2]) if len(sys.argv) > 2 else 20
+wrap_width = int(sys.argv[3]) if len(sys.argv) > 3 else 65
 parsed = {item['sourceId']: item for item in json.loads(Path('reports/biology_docx_parsed.json').read_text())['records']}
 audit = {item['sourceId']: item for item in json.loads(Path('reports/biology_quality_audit.json').read_text())['details']}
 used = set()
@@ -21,7 +22,7 @@ for item in sorted(parsed.values(), key=lambda x: x['sourceNumber']):
     explanation = re.sub(r'\s+', ' ', (item.get('explanation') or '').strip())
     if not explanation:
         continue
-    lines = textwrap.wrap(explanation, width=72, break_long_words=False, break_on_hyphens=False)
+    lines = textwrap.wrap(explanation, width=wrap_width, break_long_words=False, break_on_hyphens=False)
     if not (4 <= len(lines) <= 5):
         continue
     candidates.append({

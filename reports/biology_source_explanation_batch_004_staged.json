@@ -1,0 +1,138 @@
+[
+  {
+    "externalId": "biology-dr-high-0091",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "An association between bacteria and root nodules of legume is called",
+    "options": [
+      "A. Commensalism",
+      "B. mutualism",
+      "C. parasitism",
+      "D. saprophytism"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rhizobium bacteria fix nitrogen for the plant, and the plant\nsupplies nutrients to the bacteria. This is mutualism (+/+).\nCommensalism is +/0, parasitism is +/−, and saprophytism feeds on\ndead matter.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0093",
+    "subject": "Biology",
+    "topic": "Behaviour and Social Organization",
+    "difficulty": "medium",
+    "question": "Behaviour conditioning was described by",
+    "options": [
+      "A. Felix Dujartin",
+      "B. Gregor Mendel",
+      "C. Ivan Pavlov",
+      "D. Mathias Schleiden"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pavlov described classical conditioning through dog experiments.\nMendel studied genetics, Schleiden studied cells, and Dujartin\nstudied protozoa. Pavlov's work laid the foundation for\nbehaviourism.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0096",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "The basic functional unit of the kidney is the",
+    "options": [
+      "A. nephron",
+      "B. Bowman's capsule",
+      "C. glomerulus",
+      "D. loop of Henle"
+    ],
+    "answerIndex": 0,
+    "explanation": "The nephron is the functional unit of the kidney. Bowman's\ncapsule, glomerulus, and loop of Henle are parts of the nephron.\nEach kidney contains millions of nephrons that filter blood and\nform urine.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0097",
+    "subject": "Biology",
+    "topic": "Classification and Diversity",
+    "difficulty": "medium",
+    "question": "Snails belong to the phylum",
+    "options": [
+      "A. Annelida",
+      "B. Mollusca",
+      "C. Echinodermata",
+      "D. Nematoda"
+    ],
+    "answerIndex": 1,
+    "explanation": "Snails are mollusks, with a soft body and often a shell. Annelida\nare segmented worms, Echinodermata are spiny‑skinned animals, and\nNematoda are roundworms. Mollusks include snails, clams, and\noctopuses.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0100",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Plants that survive in marine habitats are called",
+    "options": [
+      "A. halophytes",
+      "B. hydrophytes",
+      "C. mesophytes",
+      "D. xerophytes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Halophytes are plants adapted to saline (saltwater) habitats.\nHydrophytes live in fresh water, mesophytes in moderate\nconditions, and xerophytes in dry environments. Mangroves are\nexamples of halophytes.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0101",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "The study of plants is called",
+    "options": [
+      "A. Zoology",
+      "B. Entomology",
+      "C. Parasitology",
+      "D. Botany"
+    ],
+    "answerIndex": 3,
+    "explanation": "Botany is the scientific study of plants. Zoology studies\nanimals, entomology studies insects, and parasitology studies\nparasites. Botany includes plant anatomy, physiology, and\ntaxonomy.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0111",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "The removal of remnant particles of digestion from the body is called",
+    "options": [
+      "A. assimilation",
+      "B. egestion",
+      "C. elimination",
+      "D. excretion"
+    ],
+    "answerIndex": 1,
+    "explanation": "Egestion is the removal of undigested food (feces). Assimilation\nis nutrient incorporation, excretion is metabolic waste removal,\nand elimination is a general term. Egestion occurs through the\nanus.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0112",
+    "subject": "Biology",
+    "topic": "Nutrition and Digestion",
+    "difficulty": "medium",
+    "question": "Enzyme ptyalin acts on starch in the",
+    "options": [
+      "A. oesophagus",
+      "B. large intestine",
+      "C. mouth",
+      "D. stomach"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ptyalin (salivary amylase) begins starch digestion in the mouth.\nThe oesophagus transports food, the large intestine absorbs\nwater, and the stomach digests proteins. Ptyalin works at neutral\npH.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 004",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  }
+]
