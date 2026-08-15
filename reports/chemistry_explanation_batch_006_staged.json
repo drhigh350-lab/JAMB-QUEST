@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-166",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "The combined gas law equation is represented as",
+    "options": [
+      "P1V1 = P2V2",
+      "V1/T1 = V2/T2",
+      "(P1V1)/T1 = (P2V2)/T2",
+      "PV = nRT"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: for a fixed amount of gas the combined gas law states that pressure times volume divided by temperature is constant.\nCombining Boyle's law (P ∝ 1/V at constant T) and Charles's law (V ∝ T at constant P) gives P1V1/T1 = P2V2/T2.\nThis relation assumes the amount of gas (n) is constant and temperature is measured in kelvins.\nThus the correct option is C: (P1V1)/T1 = (P2V2)/T2.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-168",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "Controlled oxidation of a primary alkanol yields an",
+    "options": [
+      "Alkanone",
+      "Alkanal",
+      "Alkanoate",
+      "Ether"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: oxidation of alcohols converts a primary alkanol to an aldehyde under mild/controlled oxidation.\nKey step: R–CH2OH —[mild oxidant]→ R–CHO (loss of two H atoms from the carbon bearing the OH).\nStrong or prolonged oxidation would further oxidize R–CHO to a carboxylic acid (or its salts), so controlled conditions stop at the aldehyde.\nTherefore the product is an alkanal, which matches option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-172",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which non-metal oxide is the acid anhydride of tetraoxosulphate (VI) acid (H2SO4)?",
+    "options": [
+      "SO2",
+      "SO3",
+      "CO2",
+      "NO2"
+    ],
+    "answerIndex": 1,
+    "explanation": "An acid anhydride is a non-metal oxide that reacts with water to form the corresponding acid.\nSO3 + H2O → H2SO4 shows sulfur trioxide hydrates to give tetraoxosulphate(VI) acid.\nSO2 yields H2SO3, CO2 yields H2CO3 and NO2 does not produce H2SO4, so A, C and D are incorrect.\nTherefore the correct option is B: SO3.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-174",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Organic compounds containing the functional group -COO- are classified as",
+    "options": [
+      "Alkanols",
+      "Alkanals",
+      "Alkanoates (Esters)",
+      "Alkanoic acids"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: the -COO- group defines an ester (alkanoate) functional group.\nEsters have the general connectivity R–C(=O)–O–R', unlike alkanols (-OH), alkanals (-CHO) or alkanoic acids (-COOH).\nThus the presence of -COO- matches the alkanoate (ester) class and not A, B or D.\nCorrect answer: C. Alkanoates (Esters).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-175",
+    "subject": "Chemistry",
+    "topic": "Chemical equilibria",
+    "difficulty": "medium",
+    "question": "Le Chatelier's Principle states that when a system in dynamic equilibrium is subjected to a change in conditions, the system will",
+    "options": [
+      "stop reacting",
+      "shift to oppose or neutralize the effect of the change",
+      "double its reaction rate",
+      "increase product concentration indefinitely"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le Chatelier's Principle: a system at dynamic equilibrium responds to a disturbance by shifting its position to counteract that disturbance.\nFor example, adding more reactant causes the equilibrium to shift toward products so the added reactant is consumed.\nSimilarly, changes in pressure or temperature shift the equilibrium in the direction that reduces the effect of the change.\nTherefore the system will shift to oppose or neutralize the effect of the change — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-177",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The industrial process of breaking heavy long-chain hydrocarbon molecules into lighter, more useful short-chain alkanes and alkenes is known as",
+    "options": [
+      "Reforming",
+      "Cracking",
+      "Polymerization",
+      "Polymerization"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: industrial cleavage of C–C bonds in heavy long‑chain hydrocarbons to form shorter alkanes and alkenes is achieved by thermal or catalytic cracking.\nKey reasoning: cracking breaks large molecules into smaller fragments (short alkanes/alkenes), whereas reforming only rearranges structures and polymerization joins monomers into longer chains.\nThe process described is therefore the breaking of long chains to give lighter, more useful fractions.\nCorrect option: B (Cracking).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-178",
+    "subject": "Chemistry",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "question": "Fehling's solution gives a brick-red precipitate when heated with an",
+    "options": [
+      "Alkanone",
+      "Alkanal",
+      "Alkanol",
+      "Alkanoic acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fehling's reagent oxidizes aldehydes to carboxylates while Cu2+ is reduced to insoluble Cu2O, giving a brick-red precipitate.\nAn alkanal contains the –CHO group that is readily oxidized under these conditions to a carboxylate.\nAlkanones (ketones) resist oxidation in mild Fehling's test, alkanols do not give the test unless first oxidized, and alkanoic acids are already oxidized.\nHence the positive brick-red result identifies an alkanal — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-181",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "What is the maximum number of electrons that can occupy the second main electron shell (n = 2)?",
+    "options": [
+      "2",
+      "8",
+      "18",
+      "32"
+    ],
+    "answerIndex": 1,
+    "explanation": "The maximum number of electrons in a main shell is given by 2n^2.\nFor n = 2 plug into the formula: 2 × (2^2).\n2 × 4 = 8 electrons.\nTherefore the second shell holds 8 electrons, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-182",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas is evolved when amphoteric metals like zinc react with hot concentrated sodium hydroxide solution?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon monoxide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Amphoteric metals react with hot concentrated alkali to form soluble metalate complexes and release hydrogen gas.\nKey reaction: Zn + 2NaOH + 2H2O → Na2[Zn(OH)4] + H2↑.\nReasoning: Zinc reduces water in strongly alkaline solution, so H2 is liberated.\nThus the gas evolved is hydrogen, corresponding to option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-185",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which subatomic particle has no electrical charge and resides inside the nucleus?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Positron"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: atoms have protons (+) and neutrons (0) in the nucleus and electrons (−) outside it.\nA particle with no electrical charge must be the neutral particle located in the nucleus.\nFrom the options: proton is positive, electron is negative, positron is positive; neutron is neutral.\nTherefore the correct choice is C. Neutron.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-186",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The reaction between fats/oils and hot concentrated alkali produces glycerol and",
+    "options": [
+      "Soap",
+      "Ester",
+      "Detergent",
+      "Alkanol"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: saponification — hot concentrated alkali hydrolyses the ester bonds in triglyceride fats/oils.\nThis produces glycerol and three fatty‑acid anions which combine with Na+ or K+ to give fatty‑acid salts.\nFatty‑acid salts are soaps (not esters, detergents, or alkanols).\nTherefore the correct answer is A: Soap.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-187",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "A solution with a pH value of 7 at 25°C is",
+    "options": [
+      "strongly acidic",
+      "weakly acidic",
+      "neutral",
+      "strongly basic"
+    ],
+    "answerIndex": 2,
+    "explanation": "pH is defined as pH = -log10[H+]; at 25°C pure water has [H+] = 1.0×10^−7 M.\nSo pH = -log10(1.0×10^−7) = 7.\npH 7 means [H+] = [OH−], so the solution is neither acidic nor basic.\nCorrect answer: C. neutral.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-188",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which concentrated acid is commonly used as a laboratory drying and dehydrating agent?",
+    "options": [
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Tetraoxosulphate (VI) acid",
+      "Ethanoic acid"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: A drying/dehydrating agent must be highly hygroscopic and able to remove water from other substances.\nReasoning: Concentrated tetraoxosulphate(VI) acid (H2SO4) is extremely hygroscopic and strongly dehydrating, readily absorbing water and removing hydroxyl groups.\nComparison: Hydrochloric acid is volatile, nitric acid is mainly an oxidizer, and ethanoic acid is a weak, less hygroscopic acid.\nConclusion: Therefore the correct choice is C, tetraoxosulphate(VI) acid (concentrated sulfuric acid).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-190",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Polyethene is synthesized from ethene monomers through",
+    "options": [
+      "condensation polymerization",
+      "addition polymerization",
+      "substitution reaction",
+      "esterification"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Alkenes polymerize by adding across C=C bonds to form long chains without elimination of small molecules.\nKey reasoning: Ethene (CH2=CH2) opens its double bond and links repeatedly to give repeating –CH2–CH2– units.\nMechanism: This is a chain‑growth addition process (free‑radical or ionic initiation), not condensation, substitution, or esterification.\nConclusion: Polyethene is formed by addition polymerization, so the correct option is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-192",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The formula relating mass number (A), atomic number (Z), and neutron number (N) is",
+    "options": [
+      "A = Z + N",
+      "Z = A + N",
+      "N = Z - A",
+      "A = Z - N"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mass number A is the total number of nucleons in the nucleus (protons + neutrons).\nAtomic number Z equals the number of protons, and N denotes the number of neutrons.\nBy definition A = number of protons + number of neutrons, so A = Z + N.\nTherefore the correct option is A: A = Z + N.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-193",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "The solubility of most gases in liquid solvents as temperature increases generally",
+    "options": [
+      "increases",
+      "decreases",
+      "remains unchanged",
+      "fluctuates randomly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: dissolution of most gases in liquids is exothermic, so Le Chatelier’s principle applies.\nWhen temperature increases, added heat shifts the equilibrium toward the gas phase (gas is driven out) and raises molecular kinetic energy.\nBoth effects make gas molecules less likely to stay dissolved, lowering their concentration in the solvent.\nTherefore the solubility of most gases generally decreases as temperature increases — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-194",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "The mathematical relationship between empirical formula and molecular formula is",
+    "options": [
+      "Empirical Formula = (Molecular Formula)n",
+      "Molecular Formula = n × (Empirical Formula)",
+      "Empirical Formula = Molecular Formula + n",
+      "Molecular Formula = Empirical Formula / n"
+    ],
+    "answerIndex": 1,
+    "explanation": "The governing principle: the empirical formula is the simplest whole-number ratio of atoms, while the molecular formula gives the actual number of atoms in a molecule.\nTherefore the molecular formula must be an integer multiple (n) of the empirical formula.\nMathematically: Molecular formula = n × Empirical formula, with n = Mr(molecular)/Mr(empirical).\nThis statement is exactly option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-195",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas is liberated when concentrated trioxonitrate (V) acid reacts with copper turnings?",
+    "options": [
+      "Nitrogen (II) oxide (NO)",
+      "Nitrogen (IV) oxide (NO2)",
+      "Dinitrogen (I) oxide (N2O)",
+      "Ammonia (NH3)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Concentrated nitric acid is a strong oxidizing acid that oxidizes copper to copper(II) nitrate while itself being reduced to nitrogen dioxide.\nBalanced reaction: Cu + 4HNO3(conc) → Cu(NO3)2 + 2NO2 + 2H2O.\nThe brown gas evolved in this reaction is nitrogen(IV) oxide, NO2, which is characteristic of concentrated HNO3 with less reactive metals.\nTherefore the correct option is B: Nitrogen (IV) oxide (NO2).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-196",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "Which technique separates a mixture of soluble solids based on differences in solubility at different temperatures?",
+    "options": [
+      "Simple crystallization",
+      "Fractional crystallization",
+      "Evaporation to dryness",
+      "Decantation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: components have different solubilities that change with temperature, so cooling causes selective crystallization.\nKey reasoning: dissolve the mixture in a hot solvent then slowly cool; the less soluble substance crystallizes first while others remain dissolved.\nThis lets you separate soluble solids by harvesting crystals formed at different temperatures.\nCorrect technique: fractional crystallization (Option B).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-198",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which element is present in all organic compounds?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon",
+      "Hydrogen"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: Organic compounds are defined as chemical compounds that contain carbon atoms.\nKey reasoning: While hydrogen, oxygen, and nitrogen commonly occur in organic molecules, none of them is required in every case, but carbon is essential.\nConclusion: Any substance classified as organic must include carbon in its structure.\nCorrect option: C. Carbon.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 006",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
