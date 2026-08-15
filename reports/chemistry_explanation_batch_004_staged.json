@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-107",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "A radioactive isotope has a half-life of 10 days. If the initial mass is 80 g, what mass remains after 30 days?",
+    "options": [
+      "40 g",
+      "20 g",
+      "10 g",
+      "5 g"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: a radioactive sample halves in mass every half-life, so after n half-lives m = m0(1/2)^n.\nNumber of half-lives n = 30/10 = 3.\nCompute m = 80*(1/2)^3 = 80/8 = 10 g.\nHence the remaining mass is 10 g, so option C is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-108",
+    "subject": "Chemistry",
+    "topic": "Chemical equilibria",
+    "difficulty": "medium",
+    "question": "For the reversible reaction: N2(g) + 3H2(g) ⇌ 2NH3(g) ΔH = -92 kJ, an increase in total pressure will",
+    "options": [
+      "favor the reverse reaction",
+      "favor the forward reaction",
+      "have no effect on the equilibrium position",
+      "decrease the yield of ammonia"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le Chatelier’s principle: increasing pressure shifts the equilibrium toward the side with fewer gas molecules.\nCount gas moles: left side has 1 N2 + 3 H2 = 4 moles, right side has 2 NH3 = 2 moles.\nBecause the product side has fewer gas moles, raising the pressure favors the forward reaction (toward NH3).\nTherefore the correct choice is B: favor the forward reaction.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-109",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which of the following periodic properties generally decreases across a period from left to right?",
+    "options": [
+      "Atomic radius",
+      "Ionization energy",
+      "Electronegativity",
+      "Electron affinity"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: across a period nuclear charge (Z) increases while added electrons enter the same principal shell, so effective nuclear charge (Zeff) on valence electrons rises.\nKey reasoning: Increased Zeff pulls the electron cloud closer to the nucleus, reducing the atomic radius while shielding stays roughly constant.\nContrast: Ionization energy, electronegativity and electron affinity generally increase with Zeff, so they do not decrease across a period.\nConclusion: Therefore the property that generally decreases left to right is atomic radius — Option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-110",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "A green flame test color indicates the presence of which cation?",
+    "options": [
+      "Na+",
+      "K+",
+      "Ca2+",
+      "Cu2+"
+    ],
+    "answerIndex": 3,
+    "explanation": "Flame tests work because metal cations emit characteristic colors when heated as electrons drop between energy levels.\nSodium gives intense yellow, potassium lilac, calcium brick-red/orange, while copper(II) compounds produce green/blue-green flames.\nObservation of a green flame therefore points to a copper cation.\nCorrect option: D (Cu2+).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-112",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "What is the oxidation number of sulfur in H2SO4?",
+    "options": [
+      "+2",
+      "+4",
+      "+6",
+      "-2"
+    ],
+    "answerIndex": 2,
+    "explanation": "Use the oxidation-number rule: the sum of oxidation numbers equals the overall charge; H is +1 and O is -2.\nLet sulfur = x, then 2(+1) + x + 4(−2) = 0.\nSo 2 + x − 8 = 0 → x − 6 = 0, hence x = +6.\nTherefore the oxidation number of sulfur is +6, which is option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-113",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "The empirical formula of an organic compound containing 40% Carbon, 6.7% Hydrogen, and 53.3% Oxygen by mass is [C = 12, H = 1, O = 16]",
+    "options": [
+      "CH2O",
+      "C2H4O2",
+      "CHO2",
+      "CH3O"
+    ],
+    "answerIndex": 0,
+    "explanation": "Use percent composition: assume 100 g sample and convert masses to moles.\nMoles: C = 40/12 ≈ 3.33, H = 6.7/1 = 6.7, O = 53.3/16 ≈ 3.33.\nDivide by smallest (≈3.33) to get ratios C:1, H:2, O:1, so empirical formula = CH2O.\nThis matches option A: CH2O.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-115",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which fraction of crude oil is collected at the top of a fractionating column?",
+    "options": [
+      "Bitumen",
+      "Lubricating oil",
+      "Petroleum gas",
+      "Kerosene"
+    ],
+    "answerIndex": 2,
+    "explanation": "In fractional distillation of crude oil, components with lower boiling points vaporize and are collected at the top of the column.\nPetroleum gas is made of the smallest hydrocarbons (e.g. methane, ethane, propane) and thus has the lowest boiling point among the fractions.\nBecause these light gases remain gaseous they rise to the top rather than condense on lower trays.\nTherefore the fraction collected at the top is petroleum gas — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-116",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The catalytic dehydration of ethanol with excess concentrated H2SO4 at 170°C yields",
+    "options": [
+      "ethoxyethane",
+      "ethene",
+      "ethanal",
+      "ethanoic acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: concentrated H2SO4 at high temperature promotes acid-catalysed dehydration (elimination) of alcohols to alkenes.\nEthanol is protonated, water departs and a proton is removed to form a C=C double bond (ethene) via an E1-type pathway.\nTherefore the major product under these conditions is ethene (option B).\nEther formation (ethoxyethane) occurs under milder conditions, while ethanal and ethanoic acid are oxidation products, not dehydration products.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-117",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "If 20 g of a salt dissolves completely in 50 g of water at 25°C to form a saturated solution, the solubility of the salt in g/100g water is",
+    "options": [
+      "10 g",
+      "20 g",
+      "40 g",
+      "80 g"
+    ],
+    "answerIndex": 2,
+    "explanation": "Solubility is defined as grams of solute dissolved per 100 g of solvent.\nGiven 20 g of salt dissolves in 50 g water, scale to 100 g: (20 g / 50 g) × 100 g water.\n(20/50) × 100 = 40 g per 100 g water.\nTherefore the correct option is C: 40 g.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-119",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "In terms of electron transfer, oxidation is defined as the",
+    "options": [
+      "gain of electrons",
+      "loss of electrons",
+      "gain of protons",
+      "loss of neutrons"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oxidation and reduction are defined by electron transfer: oxidation involves electrons leaving an atom or ion.\nOxidation = loss of electrons; reduction = gain of electrons.\nLosing electrons increases an atom's positive charge (higher oxidation state), matching the definition.\nTherefore the correct option is B: loss of electrons.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-121",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Noble gases are chemically unreactive primarily because",
+    "options": [
+      "they are monatomic gases",
+      "they have high electronegativity values",
+      "they possess stable completely filled valence electron shells",
+      "they have zero atomic mass"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: chemical reactivity is governed by valence electron configuration; atoms are most stable when their outer shells are completely filled (duet/octet rule).\nNoble gases have filled valence shells (e.g., He 1s2, Ne 2s2 2p6) and thus have little tendency to gain, lose, or share electrons.\nThis electronic stability is therefore the primary reason they are chemically unreactive.\nHence the correct answer is C: they possess stable completely filled valence electron shells.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-122",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following actions increases the rate of a chemical reaction between solid zinc and hydrochloric acid?",
+    "options": [
+      "Using zinc lumps instead of zinc powder",
+      "Lowering the temperature of the acid",
+      "Increasing the concentration of hydrochloric acid",
+      "Diluting the acid with water"
+    ],
+    "answerIndex": 2,
+    "explanation": "Reaction rate increases when reactant particles collide more frequently and effectively.\nIncreasing hydrochloric acid concentration places more acid particles in each unit of volume.\nThis produces more collisions with the zinc surface per second and speeds hydrogen production.\nTherefore, increasing the acid concentration is correct: option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-127",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas is produced when sodium trioxocarbonate (IV) reacts with dilute hydrochloric acid?",
+    "options": [
+      "Hydrogen",
+      "Chlorine",
+      "Carbon (IV) oxide",
+      "Oxygen"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: an acid reacts with a carbonate to form a salt, water and carbon(IV) oxide gas.\nFor sodium trioxocarbonate(IV) (Na2CO3): Na2CO3 + 2HCl → 2NaCl + H2O + CO2.\nThe CO2 formed is the gas evolved when dilute HCl reacts with the carbonate.\nThus the gas produced is carbon (IV) oxide, option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-128",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "Transition elements exhibit variable oxidation states due to the participation of electrons in their",
+    "options": [
+      "outermost s-orbitals only",
+      "3d and 4s orbitals",
+      "2p orbitals",
+      "innermost 1s orbitals"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: oxidation states reflect which valence electrons (s and d) can be lost or shared in bonding.\nIn transition metals the (n−1)d and ns orbitals (for first-row transitions, 3d and 4s) are close in energy so both participate in bonding and redox processes.\nBecause electrons from both 3d and 4s can be removed to different extents, transition metals show several stable oxidation numbers.\nThus the correct option is B: 3d and 4s orbitals.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-129",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "According to Faraday's First Law of Electrolysis, the mass (m) of a substance liberated at an electrode is directly proportional to the",
+    "options": [
+      "voltage applied",
+      "quantity of electricity (Q) passed",
+      "resistance of the electrolyte",
+      "temperature of the solution"
+    ],
+    "answerIndex": 1,
+    "explanation": "Faraday's First Law: the mass m liberated at an electrode is directly proportional to the quantity of electricity Q passed.\nQuantitatively, m = (M·Q)/(z·F), where M is molar mass, z is electrons per ion and F is the Faraday constant.\nThis equation shows m varies linearly with Q and does not include voltage, resistance or temperature.\nHence option B, quantity of electricity (Q) passed, is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-131",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "A solution has a pOH of 4 at 25°C. What is its pH?",
+    "options": [
+      "4",
+      "7",
+      "10",
+      "14"
+    ],
+    "answerIndex": 2,
+    "explanation": "At 25°C the relationship pH + pOH = 14 holds for aqueous solutions.\nGiven pOH = 4, use pH = 14 − pOH.\npH = 14 − 4 = 10.\nTherefore the solution's pH is 10, which corresponds to option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-132",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "In the industrial extraction of sulfur by the Frasch process, superheated water is pumped underground to",
+    "options": [
+      "dissolve the sulfur",
+      "oxidize the sulfur to SO2",
+      "melt the sulfur deposits",
+      "react with sulfur to form H2S"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: the Frasch process supplies heat with superheated water/steam to change solid sulfur into a pumpable liquid.\nKey fact: elemental sulfur melts at about 115°C, so injecting water/steam above that temperature liquefies the deposit underground.\nThis is a physical melting to recover sulfur, not dissolution, oxidation to SO2, or conversion to H2S.\nHence the correct option is C — melt the sulfur deposits.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-133",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "Which separation technique is best suited for separating a mixture of two miscible liquids with distinct boiling points?",
+    "options": [
+      "Fractional crystallization",
+      "Fractional distillation",
+      "Filtration",
+      "Paper chromatography"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: miscible liquids are separated by differences in volatility (boiling points) via vaporization and condensation.\nFractional distillation employs a fractionating column to give repeated vaporization–condensation steps, increasing separation efficiency.\nThose repeated equilibrium stages let two miscible liquids with distinct boiling points be collected as different fractions.\nTherefore the best technique is B: fractional distillation.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-134",
+    "subject": "Chemistry",
+    "topic": "Chemical equilibria",
+    "difficulty": "medium",
+    "question": "A dynamic chemical equilibrium is achieved when the",
+    "options": [
+      "concentration of reactants equals concentration of products",
+      "rate of forward reaction equals rate of reverse reaction",
+      "reaction stops completely",
+      "activation energy becomes zero"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: a dynamic chemical equilibrium is reached when the rate of the forward reaction equals the rate of the reverse reaction, so macroscopic concentrations stay constant.\nBecause the two rates are equal there is no net change in concentrations even though molecules keep reacting.\nThis directly matches option B.\nOptions A, C and D are incorrect: A is false because concentrations need not be equal, C is false because the reactions continue, and D is false because activation energy is not zero.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-135",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which haloalkane is widely used as a refrigerant but causes depletion of the atmospheric ozone layer?",
+    "options": [
+      "Trichloromethane",
+      "Chlorofluorocarbons (CFCs)",
+      "Tetrachloromethane",
+      "Iodoform"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Chlorine-containing haloalkanes can release Cl· in the stratosphere, catalysing ozone (O3) destruction.\nKey reasoning: CFCs are very stable in the lower atmosphere, reach the stratosphere, and UV photolysis cleaves C–Cl bonds to produce Cl· that destroys O3.\nConnection to options: While chloroform, carbon tetrachloride and iodoform are haloalkanes, CFCs were the widely used refrigerants directly linked to the ozone hole.\nCorrect answer: B. Chlorofluorocarbons (CFCs).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 004",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]
