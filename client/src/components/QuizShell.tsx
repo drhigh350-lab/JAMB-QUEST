@@ -66,9 +66,9 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
       const target = event.target as HTMLElement | null;
       if (target?.closest("input, textarea, [contenteditable='true']")) return;
       const key = event.key.toUpperCase();
-      if (["A", "B", "C", "D", "P", "N", "S", "R", "Y"].includes(key)) event.preventDefault();
-      const optionIndex = ["A", "B", "C", "D"].indexOf(key);
-      if (optionIndex >= 0 && !isPaused) onSelect(optionIndex);
+      if (["A", "B", "C", "D", "E", "P", "N", "S", "R", "Y"].includes(key)) event.preventDefault();
+      const optionIndex = ["A", "B", "C", "D", "E"].indexOf(key);
+      if (optionIndex >= 0 && optionIndex < currentQuestion.options.length && !isPaused) onSelect(optionIndex);
       if (key === "P") navigatePrevious();
       if (key === "N") navigateNext();
       if (key === "S") setSubmitConfirmOpen(true);
@@ -85,7 +85,7 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
         <div className="quiz-header-title"><span className="eyebrow">{cbtMode ? "JAMB CBT MOCK" : config.mode === "review" ? "REVIEW MISSES" : "STUDY MODE / UNTIMED"}</span><strong>{config.subject}</strong></div>
         <div className="quiz-header-controls"><JambCalculator />{timedRound ? <div className={`timer-block ${timerState} ${isPaused ? "timer-paused" : ""}`}><TimerReset size={17} /><span>{String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}</span></div> : <span className="study-mode-status">Untimed study</span>}</div>
       </header>
-      <div className="quiz-progress-row"><div className="progress-track"><span style={{ width: `${((cbtMode ? answeredCount : currentIndex + (answered ? 1 : 0)) / questions.length) * 100}%` }} /></div><span>{cbtMode ? `${answeredCount} answered` : `${currentIndex + 1} / ${questions.length}`}</span>{streak > 1 && <span className="streak-badge"><Flame size={15} /> {streak} streak</span>}{cbtMode ? <><button className="pause-hint pause-control" onClick={onTogglePause}><Pause size={13} /> {isPaused ? "Resume exam" : "Pause exam"}</button><span className="keyboard-hint" title="A–D answer · P previous · N next · S submit · R return · Y confirm">Keys: A–D · P/N · S/R/Y</span></> : <span className="pause-hint">Untimed study</span>}</div>
+      <div className="quiz-progress-row"><div className="progress-track"><span style={{ width: `${((cbtMode ? answeredCount : currentIndex + (answered ? 1 : 0)) / questions.length) * 100}%` }} /></div><span>{cbtMode ? `${answeredCount} answered` : `${currentIndex + 1} / ${questions.length}`}</span>{streak > 1 && <span className="streak-badge"><Flame size={15} /> {streak} streak</span>}{cbtMode ? <><button className="pause-hint pause-control" onClick={onTogglePause}><Pause size={13} /> {isPaused ? "Resume exam" : "Pause exam"}</button><span className="keyboard-hint" title="A–E answer · P previous · N next · S submit · R return · Y confirm">Keys: A–E · P/N · S/R/Y</span></> : <span className="pause-hint">Untimed study</span>}</div>
       <div className="quiz-workspace">
         <QuestionCard question={currentQuestion} index={localQuestionIndex} total={localQuestionTotal} subjectLabel={fullMockCbt ? currentQuestion.subject : undefined} selectedIndex={selectedIndex} answered={answered} answer={currentAnswer} onSelect={onSelect} onSubmit={onSubmit} onNext={fullMockCbt ? navigateNext : onNext} cbtMode={cbtMode} onSaveAndNext={fullMockCbt ? navigateNext : onNext} isBookmarked={bookmarkedQuestionIds.includes(currentQuestion.id)} onToggleBookmark={onToggleBookmark} />
         <div className="cbt-ledger-stack"><QuestionLedger questions={questions} currentIndex={currentIndex} answers={answers} cbtMode={cbtMode} fullMock={fullMockCbt} flaggedIds={flaggedIds} onNavigate={onNavigate} />

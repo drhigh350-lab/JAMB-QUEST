@@ -10,8 +10,8 @@ export const authorisedQuestionSchema = z.object({
   topic: z.string().trim().min(1).max(160),
   difficulty: z.enum(["easy", "medium", "hard"]).default("medium"),
   question: z.string().trim().min(8).max(8_000),
-  options: z.array(z.string().trim().min(1).max(1_000)).length(4),
-  answerIndex: z.number().int().min(0).max(3),
+  options: z.array(z.string().trim().min(1).max(1_000)).min(4).max(5),
+  answerIndex: z.number().int().min(0),
   explanation: z.string().trim().max(4_000).optional(),
 });
 
@@ -33,6 +33,13 @@ export const authorisedImportSchema = z.object({
       });
     }
     seen.add(key);
+    if (question.answerIndex >= question.options.length) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["questions", index, "answerIndex"],
+        message: "The answer index must point to one of the supplied four or five options.",
+      });
+    }
   });
 });
 

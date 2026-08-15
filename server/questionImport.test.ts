@@ -24,10 +24,21 @@ describe("authorisedImportSchema", () => {
     expect(authorisedImportSchema.parse(validImport).questions).toHaveLength(1);
   });
 
+  it("accepts a five-option question when the answer index points to option E", () => {
+    const fiveOption = structuredClone(validImport);
+    fiveOption.questions[0].options.push("Commensalism");
+    fiveOption.questions[0].answerIndex = 4;
+    expect(authorisedImportSchema.parse(fiveOption).questions[0].options).toHaveLength(5);
+  });
+
   it("rejects duplicate external IDs and invalid answer bounds", () => {
     const duplicate = structuredClone(validImport);
     duplicate.questions.push({ ...duplicate.questions[0] });
     expect(authorisedImportSchema.safeParse(duplicate).success).toBe(false);
     expect(authorisedImportSchema.safeParse({ ...validImport, questions: [{ ...validImport.questions[0], answerIndex: 4 }] }).success).toBe(false);
+    const invalidFiveOption = structuredClone(validImport);
+    invalidFiveOption.questions[0].options.push("Commensalism");
+    invalidFiveOption.questions[0].answerIndex = 5;
+    expect(authorisedImportSchema.safeParse(invalidFiveOption).success).toBe(false);
   });
 });

@@ -681,8 +681,8 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
   try {
     const options = JSON.parse(row.optionsJson);
-    if (!Array.isArray(options) || options.length !== 4 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
-    if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex > 3) return null;
+    if (!Array.isArray(options) || options.length < 4 || options.length > 5 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
+    if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex >= options.length) return null;
     return {
       id: `authorised-${row.id}`,
       subject: row.subject as "Use of English" | "Biology" | "Chemistry" | "Physics",

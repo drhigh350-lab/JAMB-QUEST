@@ -36,11 +36,12 @@ function isBankQuestion(value: unknown): value is BankQuestion {
     SUBJECTS.includes(question.subject as Subject) &&
     typeof question.question === "string" &&
     Array.isArray(question.options) &&
-    question.options.length === 4 &&
+    question.options.length >= 4 &&
+    question.options.length <= 5 &&
     question.options.every((option) => typeof option === "string") &&
     typeof question.answer_index === "number" &&
     question.answer_index >= 0 &&
-    question.answer_index <= 3 &&
+    question.answer_index < question.options.length &&
     typeof question.explanation === "string"
   );
 }

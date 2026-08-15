@@ -1,0 +1,22 @@
+{
+  "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe",
+  "auditSummary": {
+    "storedAuthorisedCompared": 2722,
+    "modelBankCompared": 1000,
+    "structuralHolds": 7,
+    "exactDuplicates": 6,
+    "nearDuplicates": 3,
+    "batchDuplicates": 0,
+    "safeUniqueCandidates": 242
+  },
+  "withheld": {
+    "structuralHolds": 7,
+    "exactDuplicates": 6,
+    "nearDuplicates": 3,
+    "batchDuplicates": 0
+  },
+  "released": 242,
+  "imported": 242,
+  "skippedExistingSource": false,
+  "sourceId": 8280001
+}

@@ -23,7 +23,7 @@ interface QuestionCardProps {
 }
 
 export function QuestionCard({ question, index, total, subjectLabel, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext, isBookmarked = false, onToggleBookmark }: QuestionCardProps) {
-  const letters = ["A", "B", "C", "D"];
+  const letters = ["A", "B", "C", "D", "E"];
   const explanationLines = questionExplanationLines(question);
   const topic = normalisedTopic(question.topic);
   return (

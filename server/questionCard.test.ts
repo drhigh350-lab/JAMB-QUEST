@@ -21,4 +21,12 @@ describe("uniform Biology question card", () => {
     expect((html.match(/class=\"explanation-block\"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(1);
     expect(html).toContain("lignified conduits");
   });
+
+  it("renders a fifth E option and can mark it correct", () => {
+    const fiveOptionQuestion: BankQuestion = { ...biologyPilot, id: "BIO-FIVE-OPTION", options: [...biologyPilot.options, "A fifth legitimate choice"], answer_index: 4, answer_text: "A fifth legitimate choice" };
+    const html = renderToStaticMarkup(React.createElement(QuestionCard, { question: fiveOptionQuestion, index: 0, total: 10, selectedIndex: 4, answered: true, answer: { selectedIndex: 4, correct: true, timedOut: false }, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
+    expect(html).toContain('class="option-letter">E</span>');
+    expect(html).toContain("A fifth legitimate choice");
+    expect(html).toContain("option-correct");
+  });
 });
