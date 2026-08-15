@@ -57,6 +57,7 @@ const inferTopic = (question, subjectName) => {
 
 let subject = subjectFrom(text.split("\n").slice(0, 8).join(" ")) ?? subjectFrom(sourceFile) ?? null;
 let current = null;
+let pendingTopic = null;
 let collectingBullets = false;
 const parsed = [];
 
@@ -92,9 +93,12 @@ for (const rawLine of text.split(/\r?\n/)) {
   if (headingSubject && (!current || /^#{1,6}\s/.test(line) || /^\s*subject\s*:/i.test(line))) subject = headingSubject;
   const numberedHeading = line.match(/^##\s*Q?\s*(\d+)\s*$/i);
   const numberedBold = line.match(/^\*{2}\s*(\d+)\.\s*(.+?)\s*\*{2}\s*$/);
-  if (numberedHeading || numberedBold) {
+  const numberedPlain = line.match(/^(\d+)\.\s+(.+)$/);
+  if (numberedHeading || numberedBold || numberedPlain) {
     flush();
-    current = { number: Number((numberedHeading ?? numberedBold).at(1)), questionText: numberedBold?.at(2) ?? "", options: [], subject, answerText: "", explanationParts: [], topic: null, collectingExplanation: false };
+    const questionMatch = numberedBold ?? numberedPlain;
+    current = { number: Number((numberedHeading ?? questionMatch).at(1)), questionText: questionMatch?.at(2) ?? "", options: [], subject, answerText: "", explanationParts: [], topic: pendingTopic, collectingExplanation: false };
+    pendingTopic = null;
     collectingBullets = false;
     continue;
   }
@@ -102,7 +106,8 @@ for (const rawLine of text.split(/\r?\n/)) {
 
   const suppliedTopic = topicMatch(line);
   if (suppliedTopic) {
-    current.topic = suppliedTopic[1];
+    if (!current.questionText || (!current.options.length && !current.answerText && !current.explanationParts.length)) current.topic = suppliedTopic[1];
+    else pendingTopic = suppliedTopic[1];
     continue;
   }
   if (/^\s*\*{0,2}explanation\s*:/i.test(line)) {
@@ -159,7 +164,7 @@ for (const record of parsed) {
 }
 const rejectedCount = Math.max(0, parsed.length - unique.length);
 const richExplanationCount = unique.filter((record) => (record.explanation ?? "").split(/\n|(?<=[.!?])\s+/).map((line) => line.trim()).filter(Boolean).length >= 5).length;
-const outputBase = sourceFile.replace(/\.md$/i, "");
+const outputBase = sourceFile.replace(/\.[a-z0-9]+$/i, "");
 const outputPath = join("/home/ubuntu/jamb-import-staging", `${outputBase}.validated.json`);
 const reportPath = join("/home/ubuntu/jamb-import-staging", `${outputBase}.validation-report.json`);
 const report = { sourceFile, parsedCount: parsed.length, acceptedCount: unique.length, duplicateCount, rejectedCount, richExplanationCount, subjects: Object.fromEntries([...new Set(unique.map((record) => record.subject))].map((name) => [name, unique.filter((record) => record.subject === name).length])) };

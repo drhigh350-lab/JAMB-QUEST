@@ -5,7 +5,7 @@ import { describe, expect, it, vi } from "vitest";
 import { QuestionCard } from "../client/src/components/QuestionCard";
 import type { BankQuestion } from "../client/src/game/types";
 
-const submitted = JSON.parse(readFileSync("/home/ubuntu/jamb-import-staging/submitted_rich_questions.ready.json", "utf8")) as Array<{ externalId: string; subject: "Chemistry"; topic: string; question: string; options: string[]; answerIndex: number; explanation: string }>;
+const submitted = JSON.parse(readFileSync("/home/ubuntu/jamb-import-staging/chem_part1.validated.json", "utf8")) as Array<{ externalId: string; subject: "Chemistry"; topic: string; question: string; options: string[]; answerIndex: number; explanation: string }>;
 const sourceQuestion = submitted.find((record) => record.externalId === "chem-part1-md-Chemistry-1");
 if (!sourceQuestion) throw new Error("Submitted rich Chemistry sample is required for this test");
 
