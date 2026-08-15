@@ -41,14 +41,14 @@
 - [x] Add a CBT submit-confirmation step before entering final answer review, with browser-flow coverage.
 - [x] Add a dedicated weak-topic recovery panel derived from persisted answer-review data and verify the Progress analytics view in the browser.
 - [x] Add browser coverage for the real useQuizGame CBT pause/resume flow, proving its actual countdown freezes and resumes without losing saved answers or navigator state.
-- [ ] Add a revision planner, saved-question bookmarks, and focused topic drills based on missed-question patterns.
+- [x] Add a revision planner, saved-question bookmarks, and focused topic drills based on missed-question patterns.
 - [x] Add an exam-result comparison view that turns logged attempts into actionable next-step recommendations.
-- [ ] Persist authenticated saved-question bookmarks and make each saved record returnable from Progress.
+- [x] Persist authenticated saved-question bookmarks and make each saved record returnable from Progress.
 - [x] Add focused topic drills from weak-topic recovery while preserving normal sprint, recovery, and full-mock selection rules.
 - [x] Add a latest-versus-previous CBT comparison with an evidence-based next study action.
 - [x] Add an explicit revision-planner panel that converts weak topics, saved questions, and recent CBT comparison into an ordered next-study plan.
 - [x] Handle unavailable bookmark and topic-drill records safely without falling back to unrelated subject questions.
-- [ ] Add an authenticated browser/DB-backed flow that saves a question, confirms it appears in Progress, and reopens that exact question.
+- [x] Add an authenticated browser/DB-backed flow that saves a question, confirms it appears in Progress, and reopens that exact question.
 - [x] Prepare the rich-question intake workflow to preserve the user's supplied explanation style when the next batch arrives.
 - [x] Preserve multiline rich explanations and supplied topic headings through Markdown parsing without changing their instructional wording.
 - [x] Inspect and stage the newly supplied Lekki Headmaster and JAMB Idioms PDFs with verification-pending provenance; do not add unvalidated items to gameplay.
@@ -195,3 +195,4 @@
 - [x] Import the trusted owner-provided Physics questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Import the trusted owner-provided Biology questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Import the trusted owner-provided Use of English questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
+- [ ] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence.
