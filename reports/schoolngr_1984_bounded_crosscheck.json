@@ -1,0 +1,122 @@
+{
+  "biology": {
+    "index": "https://www.schoolngr.com/classroom/jamb/biology?examyear=1984",
+    "records": [
+      {
+        "url": "https://www.schoolngr.com/classroom/biology/7088",
+        "answer": "A",
+        "title": "The mouth parts of the housefly are adapted for - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/biology/7095",
+        "answer": "A",
+        "title": "The male toad differs from the female by having - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/biology/7099",
+        "answer": "C",
+        "title": "Mosses, liverworts and ferns can be grouped together because they - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/biology/7103",
+        "answer": "E",
+        "title": "Spirogyra and mucor can be grouped together as Thallophyta because - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/biology/7107",
+        "answer": "E",
+        "title": "Which of the following invertebrates does NOT possess antennae? - SchoolNGR"
+      }
+    ]
+  },
+  "chemistry": {
+    "index": "https://www.schoolngr.com/classroom/jamb/chemistry?examyear=1984",
+    "records": [
+      {
+        "url": "https://www.schoolngr.com/classroom/chemistry/11737",
+        "answer": "D",
+        "title": "Sodium chloride may be obtained from brine by - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/chemistry/11741",
+        "answer": "D",
+        "title": "Sodium chloride may be obtained from brine by - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/chemistry/11744",
+        "answer": "D",
+        "title": "20 cm 3 of hydrogen gas are sparked with 20cm 3 of oxygen gas in an endimoeter at 373k (100 oC) and 1 atmosphere. The resulting mixture is cooled to 298 K (25 oC) and passed over calcium chloride. The volume of the residual gas is - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/chemistry/11747",
+        "answer": "D",
+        "title": "For the reaction NH4NO2 \\(\\to\\) N2 + 2H2O, calculate the volume of nitrogen that would be produced at S. T. P from 3.2 g of the dioxonitrate(iii)salt. (Relative atomic masses: N = 14, O = 16, H = 1) - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/chemistry/11751",
+        "answer": "B",
+        "title": "A molar solution of caustic soda is prepared by dissolving - SchoolNGR"
+      }
+    ]
+  },
+  "physics": {
+    "index": "https://www.schoolngr.com/classroom/jamb/physics?examyear=1984",
+    "records": [
+      {
+        "url": "https://www.schoolngr.com/classroom/physics/15012",
+        "answer": "C",
+        "title": "The distance travelled by a particle starting from rest is plotted against the square of the time elapsed from the commencement of motion. The resulting graph is linear, the slope of this graph is a measure of - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/physics/15016",
+        "answer": "C",
+        "title": "The distance travelled by a particle starting from rest is plotted against the square of the time elapsed from the commencement of motion. The resulting graph is linear, the slope of this graph is a measure of - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/physics/15019",
+        "answer": "D",
+        "title": "For which of the underlisted quantities is the derived unit ML2T2 correct? i. momentum of a force ii. work iii. acceleration - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/physics/15023",
+        "answer": "B",
+        "title": "What volume of alcohol with a density of 8.4 x 102kgm-3 will have the same mass as 4.2m3of petrol whose density is 7.2 x 102kgm-3? - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/physics/15027",
+        "answer": "A",
+        "title": "For correcting long sight defects in the human eye we require a - SchoolNGR"
+      }
+    ]
+  },
+  "english-language": {
+    "index": "https://www.schoolngr.com/classroom/jamb/english-language?examyear=1984",
+    "records": [
+      {
+        "url": "https://www.schoolngr.com/classroom/english-language/4338",
+        "answer": "B",
+        "title": "In the question below choose the option nearest in meaning to the underlined:\nThe meeting was cancelled because of the convocation - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/english-language/4341",
+        "answer": "B",
+        "title": "In the question below choose the option nearest in meaning to the underlined:\nThe meeting was cancelled because of the convocation - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/english-language/4344",
+        "answer": "E",
+        "title": "In the question below choose the option nearest in meaning to the underlined:\nOur town is so small that we are always meeting our schoolmates accidentally - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/english-language/4347",
+        "answer": "A",
+        "title": "In the question below choose the option nearest in meaning to the underlined:\nCan you give a good explanation for your behaviour? - SchoolNGR"
+      },
+      {
+        "url": "https://www.schoolngr.com/classroom/english-language/4350",
+        "answer": "B",
+        "title": "In the question below choose the option nearest in meaning to the underlined:be careful!. We are approaching the crossroads - SchoolNGR"
+      }
+    ]
+  }
+}

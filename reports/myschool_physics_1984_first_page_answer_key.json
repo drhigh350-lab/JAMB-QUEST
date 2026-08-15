@@ -1,0 +1,32 @@
+{
+  "source": "https://myschool.ng/classroom/physics?exam_type=jamb&exam_year=1984",
+  "subject": "physics",
+  "year": "1984",
+  "records": [
+    {
+      "url": "https://myschool.ng/classroom/physics/28664?exam_type=jamb&exam_year=1984",
+      "answer": "D",
+      "question": "The distance travelled by a particle starting from rest is plotted against the square of the time elapsed from the commencement of motion. The resulting graph is linear, the slope of this graph is a measure of a initial displacement b initial velocity c acceleration d half the acceleration e half the initial velocity"
+    },
+    {
+      "url": "https://myschool.ng/classroom/physics/28666?exam_type=jamb&exam_year=1984",
+      "answer": "D",
+      "question": "For which of the underlisted quantities is the derived unit \\(ML^2T^{-2}\\) correct? i. moment of a force ii. work iii. acceleration a i only b ii only c iii only d i and ii e ii and iii"
+    },
+    {
+      "url": "https://myschool.ng/classroom/physics/28671?exam_type=jamb&exam_year=1984",
+      "answer": "B",
+      "question": "What volume of alcohol with a density of 8.4 x 10 2 kgm -3 will have the same mass as 4.2m 3 of petrol whose density is 7.2 x 10 2 kgm -3 ? a 14m 3 b 3.6m 3 c 4.9m 3 d 5.0m 3 e 5.8m 3"
+    },
+    {
+      "url": "https://myschool.ng/classroom/physics/28674?exam_type=jamb&exam_year=1984",
+      "answer": "A",
+      "question": "For correcting long sight defects in the human eye we require  a a converging lens b diverging lens c microscope d periscope e plain glass sheet"
+    },
+    {
+      "url": "https://myschool.ng/classroom/physics/28675?exam_type=jamb&exam_year=1984",
+      "answer": "E",
+      "question": "For a concave mirror to form a teal diminished image, the object must be placed a behind the mirror b between the mirror and its focus c between the focus and the centre of curvature d at the centre of curvature e at a distance greater than the radius of curvature"
+    }
+  ]
+}

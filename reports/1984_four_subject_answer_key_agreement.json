@@ -1,0 +1,186 @@
+{
+  "biology": {
+    "records": [
+      {
+        "myschool": "A",
+        "schoolngr": "A",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/biology/2562?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/biology/7088",
+        "question": "The mouth parts of the housefly are adapted for a Lapping and sponging b Sucking and chewing c Piercing and sucking d Chewing and lapping e Biting and chewing"
+      },
+      {
+        "myschool": "A",
+        "schoolngr": "A",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/biology/2563?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/biology/7095",
+        "question": "The male toad differs from the female by having a Vocal sacs b Shorter hind limbs c Longer fore limbs d Bulging eyes e Nictating membranes"
+      },
+      {
+        "myschool": "C",
+        "schoolngr": "C",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/biology/2564?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/biology/7099",
+        "question": "Mosses, liverworts and ferns can be grouped together because they a Are all aquatic plants b All grow in deserts c Are seedless plants d Have undifferentiated plant bodies e All produce colourless flowers"
+      },
+      {
+        "myschool": "E",
+        "schoolngr": "E",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/biology/2567?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/biology/7103",
+        "question": "Spirogyra and mucor can be grouped together as Thallophyta because a They are unicellular organisms b Their spores could be dispersed by wind c They are capable of living independent lives d They reproduce sexually only e Their bodies are made up of thallus and filaments alternatively"
+      },
+      {
+        "myschool": "E",
+        "schoolngr": "E",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/biology/2568?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/biology/7107",
+        "question": "Which of the following invertebrates does NOT possess antennae? a Centipede b Crustacean c Millipede d Insect e Spider"
+      }
+    ],
+    "agreements": 5,
+    "disagreements": 0
+  },
+  "chemistry": {
+    "records": [
+      {
+        "myschool": "D",
+        "schoolngr": "D",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/chemistry/27607?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/chemistry/11737",
+        "question": "Sodium chloride may be obtained from brine by a titration b decantation c distillation d evaporation e sublimation"
+      },
+      {
+        "myschool": "D",
+        "schoolngr": "D",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/chemistry/27609?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/chemistry/11741",
+        "question": "20 cm\\(^3\\) of hydrogen gas are sparked with 20cm\\(^3\\) of oxygen gas in an endimoeter at 373k (100\\(^0\\)C) and 1 atmosphere. The resulting mixture is cooled to 298 K (25 oC) and passed over calcium chloride. The volume of the residual gas is a 40 cm 3 b 20 cm 3 c 30 cm 3 d 10cm 3 e 5cm 3"
+      },
+      {
+        "myschool": "D",
+        "schoolngr": "D",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/chemistry/27610?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/chemistry/11744",
+        "question": "For the reaction NH4NO2 \\(\\to\\) N2 + 2H2O, calculate the volume of nitrogen that would be produced at S. T. P from 3.2 g of the dioxonitrate(iii)salt. (Relative atomic masses: N = 14, O = 16, H = 1) a 2.24 dm 3 b 2.24 cm 3 c 1. 12 3 d 1. 12dm 3 e 4. 48 dm 3"
+      },
+      {
+        "myschool": "B",
+        "schoolngr": "D",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/chemistry/27611?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/chemistry/11747",
+        "question": "A molar solution of caustic soda is prepared by dissolving a 40 g NaOH in 100 g of water b 40 g NaOH in 1000 g of water c 20 g NaOH in 500 of solution d 20 g NaOH in 1000 g of solution e 2o g NaOH in 80 g of solution"
+      },
+      {
+        "myschool": "B",
+        "schoolngr": "B",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/chemistry/27612?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/chemistry/11751",
+        "question": "Which among the elements 1. Carbon 2. Oxygen 3. Copper 4. Bromine 5. Zinc, will NOT react with either water or steam? a 1 and 2 b 2 and 3 c 3 and 4 d 1, 2, and 3 e 2, 3, and 5"
+      }
+    ],
+    "agreements": 4,
+    "disagreements": 1
+  },
+  "physics": {
+    "records": [
+      {
+        "myschool": "D",
+        "schoolngr": "C",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/physics/28664?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/physics/15012",
+        "question": "The distance travelled by a particle starting from rest is plotted against the square of the time elapsed from the commencement of motion. The resulting graph is linear, the slope of this graph is a measure of a initial displacement b initial velocity c acceleration d half the acceleration e half the initial velocity"
+      },
+      {
+        "myschool": "D",
+        "schoolngr": "C",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/physics/28666?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/physics/15016",
+        "question": "For which of the underlisted quantities is the derived unit \\(ML^2T^{-2}\\) correct? i. moment of a force ii. work iii. acceleration a i only b ii only c iii only d i and ii e ii and iii"
+      },
+      {
+        "myschool": "B",
+        "schoolngr": "D",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/physics/28671?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/physics/15019",
+        "question": "What volume of alcohol with a density of 8.4 x 10 2 kgm -3 will have the same mass as 4.2m 3 of petrol whose density is 7.2 x 10 2 kgm -3 ? a 14m 3 b 3.6m 3 c 4.9m 3 d 5.0m 3 e 5.8m 3"
+      },
+      {
+        "myschool": "A",
+        "schoolngr": "B",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/physics/28674?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/physics/15023",
+        "question": "For correcting long sight defects in the human eye we require  a a converging lens b diverging lens c microscope d periscope e plain glass sheet"
+      },
+      {
+        "myschool": "E",
+        "schoolngr": "A",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/physics/28675?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/physics/15027",
+        "question": "For a concave mirror to form a teal diminished image, the object must be placed a behind the mirror b between the mirror and its focus c between the focus and the centre of curvature d at the centre of curvature e at a distance greater than the radius of curvature"
+      }
+    ],
+    "agreements": 0,
+    "disagreements": 5
+  },
+  "english-language": {
+    "records": [
+      {
+        "myschool": "B",
+        "schoolngr": "B",
+        "agreement": true,
+        "myschoolUrl": "https://myschool.ng/classroom/english-language/3918?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/english-language/4338",
+        "question": "In the question below choose the option nearest in meaning to the underlined : The meeting was cancelled because of the convocation a brought up b called off c broke off d dropped out e phased out"
+      },
+      {
+        "myschool": "E",
+        "schoolngr": "B",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/english-language/3919?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/english-language/4341",
+        "question": "In the question below choose the option nearest in meaning to the underlined : Our town is so small that we are always meeting our schoolmates accidentally a coming across b falling into c knocking up d running up e running into"
+      },
+      {
+        "myschool": "A",
+        "schoolngr": "E",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/english-language/3920?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/english-language/4344",
+        "question": "In the question below choose the option nearest in meaning to the underlined : Can you give a good explanation for your behaviour? a account for b call for c clear up d make up e give up"
+      },
+      {
+        "myschool": "B",
+        "schoolngr": "A",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/english-language/3921?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/english-language/4347",
+        "question": "In the question below choose the option nearest in meaning to the underlined : be careful! . We are approaching the crossroads a look up b watch out c look out d hold up e look in"
+      },
+      {
+        "myschool": "D",
+        "schoolngr": "B",
+        "agreement": false,
+        "myschoolUrl": "https://myschool.ng/classroom/english-language/3922?exam_type=jamb&exam_year=1984",
+        "schoolngrUrl": "https://www.schoolngr.com/classroom/english-language/4350",
+        "question": "In the question below choose the option nearest in meaning to the underlined : Thousands of students are candidates for the examination but only very few pass a come into b call for c go into d enter for e turn up for"
+      }
+    ],
+    "agreements": 1,
+    "disagreements": 4
+  }
+}

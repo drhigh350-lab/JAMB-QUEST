@@ -1,0 +1,32 @@
+{
+  "source": "https://myschool.ng/classroom/chemistry?exam_type=jamb&exam_year=1984",
+  "subject": "chemistry",
+  "year": "1984",
+  "records": [
+    {
+      "url": "https://myschool.ng/classroom/chemistry/27607?exam_type=jamb&exam_year=1984",
+      "answer": "D",
+      "question": "Sodium chloride may be obtained from brine by a titration b decantation c distillation d evaporation e sublimation"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/27609?exam_type=jamb&exam_year=1984",
+      "answer": "D",
+      "question": "20 cm\\(^3\\) of hydrogen gas are sparked with 20cm\\(^3\\) of oxygen gas in an endimoeter at 373k (100\\(^0\\)C) and 1 atmosphere. The resulting mixture is cooled to 298 K (25 oC) and passed over calcium chloride. The volume of the residual gas is a 40 cm 3 b 20 cm 3 c 30 cm 3 d 10cm 3 e 5cm 3"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/27610?exam_type=jamb&exam_year=1984",
+      "answer": "D",
+      "question": "For the reaction NH4NO2 \\(\\to\\) N2 + 2H2O, calculate the volume of nitrogen that would be produced at S. T. P from 3.2 g of the dioxonitrate(iii)salt. (Relative atomic masses: N = 14, O = 16, H = 1) a 2.24 dm 3 b 2.24 cm 3 c 1. 12 3 d 1. 12dm 3 e 4. 48 dm 3"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/27611?exam_type=jamb&exam_year=1984",
+      "answer": "B",
+      "question": "A molar solution of caustic soda is prepared by dissolving a 40 g NaOH in 100 g of water b 40 g NaOH in 1000 g of water c 20 g NaOH in 500 of solution d 20 g NaOH in 1000 g of solution e 2o g NaOH in 80 g of solution"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/27612?exam_type=jamb&exam_year=1984",
+      "answer": "B",
+      "question": "Which among the elements 1. Carbon 2. Oxygen 3. Copper 4. Bromine 5. Zinc, will NOT react with either water or steam? a 1 and 2 b 2 and 3 c 3 and 4 d 1, 2, and 3 e 2, 3, and 5"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sourcePdfText": "/tmp/jamb_all_subjects.txt",
+  "records": [
+    {
+      "url": "https://myschool.ng/classroom/biology/2376?exam_type=jamb&exam_year=1983",
+      "answer": "B",
+      "question": "Root hairs are developed from the a root apex b epidermis of root c vascular bundles d endodermis e pericycle",
+      "matchedPdfCandidates": [
+        {
+          "section": "Biology 1983",
+          "stem": "Root hairs are developed from the"
+        }
+      ],
+      "matchStatus": "exact-stem-candidate"
+    },
+    {
+      "url": "https://myschool.ng/classroom/biology/2377?exam_type=jamb&exam_year=1983",
+      "answer": "D",
+      "question": "In a dicot leaf, guard cells differ from other epidermal cells because they a have no definite shape b lack nuclei c are smaller d contain chloroplast e lack vacuole",
+      "matchedPdfCandidates": [
+        {
+          "section": "Biology 1983",
+          "stem": "In"
+        }
+      ],
+      "matchStatus": "exact-stem-candidate"
+    },
+    {
+      "url": "https://myschool.ng/classroom/biology/2378?exam_type=jamb&exam_year=1983",
+      "answer": "E",
+      "question": "Which of the following structure is NOT found in the female agama lizard? a Pre-anal pads b Eardrum c Gular fold d Nasal scale e Nuchal crest",
+      "matchedPdfCandidates": [],
+      "matchStatus": "not-found"
+    },
+    {
+      "url": "https://myschool.ng/classroom/biology/2379?exam_type=jamb&exam_year=1983",
+      "answer": "C",
+      "question": "Herbs differ from shrubs because they a do not produce fruit b are useful to herbalist c do not become woody d are only annual e are only perennials",
+      "matchedPdfCandidates": [
+        {
+          "section": "Biology 1983",
+          "stem": "Herbs differ from shrubs because they"
+        }
+      ],
+      "matchStatus": "exact-stem-candidate"
+    },
+    {
+      "url": "https://myschool.ng/classroom/biology/2381?exam_type=jamb&exam_year=1983",
+      "answer": "B",
+      "question": "If an organic compound has its hydrogen: oxygen ratio as 2:1, it is likely to be a a protein b a cabohydrate c a fat d a fatty acid  and glycerol e an amino acid",
+      "matchedPdfCandidates": [],
+      "matchStatus": "not-found"
+    }
+  ]
+}

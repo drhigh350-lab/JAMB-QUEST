@@ -299,3 +299,14 @@
 - [x] Stage and attempt legacy explanation batch 11; retain all 20 records held after model-response failures; no records applied.
 - [ ] Retry held Biology batch 2 when structured model output is available.
 - [ ] Retry held legacy batch 11 when structured model output is available.
+
+- [x] Inventory the held all-subject PDF by subject, question range, and answer-key availability before any release decision.
+- [x] Research multiple independent answer-key sources for the held all-subject PDF and save source URLs and confidence evidence.
+- [x] Release only records whose answer keys are independently cross-checked; keep uncertain records held.
+- [ ] Verify the evidence-backed import with duplicate, syllabus, explanation, and runtime-playability audits.
+
+- [x] Inventory the held all-subject PDF: 843 pages and approximately 3,095 in-scope question starts across English, Biology, Chemistry, and Physics, with no embedded usable answer key.
+- [x] Research public answer-key candidates and preserve source URLs and evidence notes in reports/all_subject_answer_key_research_notes.md.
+- [x] Cross-check a bounded 1983 sample across Myschool and SchoolNGR; Biology agreed 5/5, while Chemistry agreed 1/5, Physics 2/5, and English 2/5.
+- [x] Refuse unsafe bulk release from conflicting external answer evidence; no held all-subject PDF records were imported.
+- [ ] Expand exact matching and corroboration across additional years and subjects when reliable answer evidence is available.

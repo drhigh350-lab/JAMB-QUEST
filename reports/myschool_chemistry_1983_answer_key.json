@@ -1,0 +1,32 @@
+{
+  "source": "https://myschool.ng/classroom/chemistry?exam_type=jamb&exam_year=1983",
+  "subject": "chemistry",
+  "year": "1983",
+  "records": [
+    {
+      "url": "https://myschool.ng/classroom/chemistry/30779?exam_type=jamb&exam_year=1983",
+      "answer": "C",
+      "question": "X is a crystalline salt of sodium solution of X in water turns litmus red and produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives hydrochloric acid. X is a Na 2 CO 3 b NaHCO 3 c NaHSO 4 d Na 2 SO 4"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/30781?exam_type=jamb&exam_year=1983",
+      "answer": "B",
+      "question": "The alkanol obtained from the production of soap is a ethanol b glycerol c methanol d propanol e glycol"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/30782?exam_type=jamb&exam_year=1983",
+      "answer": "D",
+      "question": "The flame used by welders in cutting metals is a butane gas flame b acetylene flame c kerosene flame d oxy-acetylene flame e oxygen flame"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/30784?exam_type=jamb&exam_year=1983",
+      "answer": "B",
+      "question": "Consecutive members of an alkane homologous serires differ by a CH b CH 2 c CH 3 d C n H n e C n H"
+    },
+    {
+      "url": "https://myschool.ng/classroom/chemistry/30787?exam_type=jamb&exam_year=1983",
+      "answer": "D",
+      "question": "If an element has the electronic configuration 1s 2 2s 2 2p 3 3s 2 3p 4 , it is a a metal b an alkaline earth metal c an s-block element d a p-Block element e a transition element"
+    }
+  ]
+}
