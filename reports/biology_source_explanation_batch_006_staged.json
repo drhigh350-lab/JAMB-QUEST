@@ -1,0 +1,189 @@
+[
+  {
+    "externalId": "biology-dr-high-0055",
+    "subject": "Biology",
+    "topic": "Health and Disease",
+    "difficulty": "medium",
+    "question": "Which of the following disease is not sexually transmitted?",
+    "options": [
+      "A. Gonorrhea",
+      "B. Herpes",
+      "C. Influenza",
+      "D. Syphilis"
+    ],
+    "answerIndex": 2,
+    "explanation": "Influenza (flu) is a respiratory disease, not an\nSTI. Gonorrhea, herpes, and syphilis are all\nsexually transmitted infections. Influenza spreads\nthrough coughs and sneezes.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0056",
+    "subject": "Biology",
+    "topic": "Health and Disease",
+    "difficulty": "medium",
+    "question": "One of the following diseases is caused by fungi",
+    "options": [
+      "A. cassava mosaic",
+      "B. coffee leaf rust",
+      "C. leaf blight of cassava rosette",
+      "D. disease of groundnut"
+    ],
+    "answerIndex": 1,
+    "explanation": "Coffee leaf rust is a fungal disease caused by\nHemileia vastatrix. Cassava mosaic is viral, and\nthe other options are bacterial or viral. Fungi\nare important plant pathogens.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0076",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "The following animals are viviparous except",
+    "options": [
+      "A. Cow",
+      "B. Dog",
+      "C. Goat",
+      "D. Pigeon"
+    ],
+    "answerIndex": 3,
+    "explanation": "Pigeons are oviparous (lay eggs). Cows, dogs, and\ngoats are viviparous (give live birth). Viviparity\nis common in mammals, while birds, reptiles, and\nmost fish are oviparous.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0083",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "The artery supplying the liver with blood is called",
+    "options": [
+      "A. hepatic",
+      "B. mesenteric",
+      "C. renal",
+      "D. subclavian"
+    ],
+    "answerIndex": 0,
+    "explanation": "The hepatic artery supplies oxygenated blood to\nthe liver. The mesenteric artery supplies the\nintestines, renal supplies the kidneys, and\nsubclavian supplies the arms.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0084",
+    "subject": "Biology",
+    "topic": "Behaviour and Social Organization",
+    "difficulty": "medium",
+    "question": "One of the following exist as colony",
+    "options": [
+      "A. euglena",
+      "B. paramecium",
+      "C. spirogyra",
+      "D. volvox"
+    ],
+    "answerIndex": 3,
+    "explanation": "Volvox is a colonial green alga. Euglena and\nParamecium are unicellular, and Spirogyra is a\nfilamentous alga. Volvox forms spherical colonies\nwith specialized cells.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0090",
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a waste product of plants?",
+    "options": [
+      "A. Auxins",
+      "B. Carbon dioxide",
+      "C. Tannins",
+      "D. Oxygen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Auxins are plant growth hormones, not waste\nproducts. CO₂, tannins, and oxygen can be\nmetabolic wastes. Auxins regulate cell elongation,\nroot growth, and fruit development.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0098",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Which of the following is not a pest of crops?",
+    "options": [
+      "A. Bird",
+      "B. Rodent",
+      "C. Bed bug",
+      "D. Grasshopper"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bed bugs are household pests that feed on blood,\nnot crops. Birds, rodents, and grasshoppers damage\nagricultural produce. Bed bugs are not\nagricultural pests.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0102",
+    "subject": "Biology",
+    "topic": "Health and Disease",
+    "difficulty": "medium",
+    "question": "The following are examples of air borne diseases, except",
+    "options": [
+      "A. Chicken pox",
+      "B. Cholera",
+      "C. common cold",
+      "D. Whooping cough"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cholera is water‑borne, spread through\ncontaminated water. Chicken pox, common cold, and\nwhooping cough are airborne diseases spread by\nrespiratory droplets.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0105",
+    "subject": "Biology",
+    "topic": "Support and Movement",
+    "difficulty": "medium",
+    "question": "Which of these is not the part of the eye?",
+    "options": [
+      "A. Cochlea",
+      "B. Conjunctiva",
+      "C. Cornea",
+      "D. Iris"
+    ],
+    "answerIndex": 0,
+    "explanation": "The cochlea is part of the inner ear, not the eye.\nThe conjunctiva, cornea, and iris are all eye\nstructures. The cochlea contains hair cells for\nhearing.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0107",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "The following are examples of a true fruit, except",
+    "options": [
+      "A. mango",
+      "B. oil palm",
+      "C. orange",
+      "D. pineapple"
+    ],
+    "answerIndex": 3,
+    "explanation": "Pineapple is a multiple fruit (false fruit).\nMango, oil palm, and orange are true fruits\ndeveloping from a single ovary. False fruits\ndevelop from other floral parts.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  },
+  {
+    "externalId": "biology-dr-high-0110",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "White blood cells are also known as",
+    "options": [
+      "A. erythrocytes",
+      "B. leucocytes",
+      "C. thrombocytes",
+      "D. phagocytes"
+    ],
+    "answerIndex": 1,
+    "explanation": "White blood cells are leucocytes. Erythrocytes are\nred blood cells, thrombocytes are platelets, and\nphagocytes are a type of white blood cell.\nLeucocytes are essential for immunity.",
+    "sourceLabel": "Owner Biology DOCX · Supplied explanation reflow batch 006",
+    "permissionNote": "Owner-provided Biology past-question DOCX supplied for JAMB Quest processing; supplied wording, answer key, and explanation content preserved, with line wrapping only for learner clarity."
+  }
+]
