@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-038",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Stainless steel is used for making",
+    "options": [
+      "magnets",
+      "tools",
+      "coins and medals",
+      "moving parts of clocks"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: coins and medals need a metal that is hard, corrosion-resistant and retains its appearance.\nStainless steel contains chromium which forms a passive oxide layer, giving excellent resistance to rust and tarnish.\nIt is also tough and wear-resistant, so it withstands handling and circulation without significant deformation or loss of finish.\nTherefore stainless steel is suitable for coins and medals (Option C).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-039",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The residual solids from the fractional distillation of petroleum are used as",
+    "options": [
+      "coatings of pipes",
+      "raw materials for the cracking process",
+      "fuel for driving tractors",
+      "fuel for jet engines"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: fractional distillation separates petroleum by boiling point, leaving high‑boiling, heavy hydrocarbon residues.\nKey reasoning: these residues are viscous, tar‑like and chemically stable, forming waterproof, protective layers when applied.\nApplication: such bitumen/asphalt‑type residues are therefore used to coat and protect pipes.\nSince jet and tractor fuels require lighter, volatile fractions, the heavy residue best matches option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-041",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following is used as fuel in miners' lamp?",
+    "options": [
+      "Ethanal",
+      "Ethyne",
+      "Ethene",
+      "Ethane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: a miner's lamp needs a fuel that burns with a hot, very luminous flame to provide bright light underground.\nEthyne (acetylene) burns with a hot, luminous flame (bright incandescence from soot particles) and is conveniently generated from calcium carbide and water for lamp use.\nEthane, ethene and ethanal do not give as bright or practical a lamp flame under the same conditions.\nTherefore the correct choice is B. Ethyne.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-042",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following organic compounds is very soluble in water?",
+    "options": [
+      "\\text{CH}_3\\text{COOH}",
+      "\\text{C}_2\\text{H}_2",
+      "\\text{C}_2\\text{H}_4",
+      "\\text{CH}_3\\text{COOC}_2\\text{H}_5"
+    ],
+    "answerIndex": 0,
+    "explanation": "Solubility depends on polarity and the ability to hydrogen-bond or ionize in water.\nCH3COOH is polar, can hydrogen-bond and partially ionizes to CH3COO- and H+, which greatly increases its solubility.\nC2H2 and C2H4 are nonpolar hydrocarbons, and CH3COOC2H5 (ethyl acetate) is less polar and cannot donate hydrogen bonds effectively, so they are much less soluble.\nTherefore CH3COOH (option A) is very soluble in water.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-043",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "Benzene reacts with hydrogen in the presence of nickel catalyst at 180⁰C to give",
+    "options": [
+      "xylene",
+      "toluene",
+      "cyclopentane",
+      "cyclohexane"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: catalytic hydrogenation of an aromatic ring converts it to a saturated cycloalkane using H2 and a metal catalyst at elevated temperature.\nBenzene hydrogenates as C6H6 + 3H2 → C6H12 (cyclohexane) in the presence of Ni at 180°C.\nXylene and toluene are methyl-substituted benzenes (C7+), and cyclopentane has five carbons, so they are not products of benzene hydrogenation.\nTherefore the product is cyclohexane, option D.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-045",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "The final products of the reaction between methane and chlorine in the presence of ultraviolet light are hydrogen chloride and",
+    "options": [
+      "trichloromethane",
+      "dichloromethane",
+      "tetrachloromethane",
+      "chloromethane"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: under ultraviolet light chlorine reacts with methane by free-radical substitution, replacing H atoms stepwise.\nKey reasoning: each substitution replaces one H with Cl and releases HCl, so successive substitutions give mono-, di-, tri- then tetra-chlorinated methane.\nSequence: CH4 → CH3Cl → CH2Cl2 → CHCl3 → CCl4, with HCl formed at each step.\nThus the final fully substituted product is tetrachloromethane (CCl4), corresponding to option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-047",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "One of the major uses of alkane is",
+    "options": [
+      "as domestic and industrial fuel",
+      "in the hydrogenation of oils",
+      "in the textile industries",
+      "in the production of plastics"
+    ],
+    "answerIndex": 0,
+    "explanation": "Alkanes are saturated hydrocarbons that combust to release large amounts of heat.\nBecause they burn cleanly and occur as gases and liquids suitable for burning, they serve well as energy carriers for heating and cooking.\nHydrogenation, textile uses or plastics production involve unsaturated compounds or different feedstocks, so they are not the main alkane use.\nTherefore the major use is as domestic and industrial fuel (A).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-048",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The haloalkanes used in dry-cleaning industries are",
+    "options": [
+      "trichloromethane and tetrachloromethane",
+      "chloroethene and dichloroethene",
+      "trichloroethene and tetrachloroethene",
+      "chloroethane and dichloroethane"
+    ],
+    "answerIndex": 0,
+    "explanation": "Principle: dry-cleaning uses nonpolar, chlorinated solvents that dissolve oils/grease and are effectively non‑flammable.\nTrichloromethane (CHCl3) and tetrachloromethane (CCl4) are volatile, nonpolar chlorinated solvents with strong solvency for organic stains.\nChloroethene/dichloroethene are unsaturated and reactive gases or volatile monomers, while chloroethane/dichloroethane are smaller and more flammable, so they are unsuitable.\nTherefore the correct choice is A: trichloromethane and tetrachloromethane.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-050",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "The compound that is used as an anaesthetic is",
+    "options": [
+      "\\text{CCl}_4",
+      "\\text{CHCl}_3",
+      "\\text{CH}_2\\text{Cl}_2",
+      "\\text{CH}_3\\text{Cl}"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: inhalational anaesthetics are volatile, lipophilic halogenated hydrocarbons that depress the central nervous system.\nKey reasoning: CHCl3 (chloroform) is a volatile halogenated hydrocarbon historically used as an anaesthetic.\nComparison: CCl4 is too toxic for anaesthesia, while CH2Cl2 and CH3Cl are primarily solvents or a gas and are not used clinically as inhalational anaesthetics.\nTherefore the correct option is B (CHCl3).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-056",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "An element with the electronic configuration 1s^2 2s^2 2p^6 3s^2 3p^6 3d^7 4s^2 is classified as a",
+    "options": [
+      "non-metal",
+      "alkali metal",
+      "transition element",
+      "group II element"
+    ],
+    "answerIndex": 2,
+    "explanation": "Transition elements are d-block elements characterized by a partially filled d subshell in the atom or its common ions.\nThe configuration 1s2 2s2 2p6 3s2 3p6 3d7 4s2 clearly shows a 3d7 subshell (not full).\nBecause the 3d subshell is partially filled, the element qualifies as a transition element.\nTherefore the correct option is C (transition element).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-058",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "The catalyst used in the Contact Process for the industrial manufacture of tetraoxosulphate (VI) acid is",
+    "options": [
+      "Vanadium (V) oxide",
+      "Iron filings",
+      "Platinum black",
+      "Nickel powder"
+    ],
+    "answerIndex": 0,
+    "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy and increases reaction rate without being consumed.\nIn the Contact Process the slow step is the oxidation of SO2 to SO3, so a solid heterogeneous catalyst is used to speed this oxidation.\nIndustrially, vanadium(V) oxide (V2O5) is the employed catalyst for this oxidation step.\nTherefore option A (Vanadium (V) oxide) is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-059",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following gases will bleach moist litmus paper?",
+    "options": [
+      "\\text{CO}_2",
+      "\\text{SO}_2",
+      "\\text{Cl}_2",
+      "\\text{NH}_3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bleaching occurs when a gas forms an oxidizing species in moisture that oxidizes the litmus dye.\nChlorine reacts with water: Cl2 + H2O ⇌ HCl + HClO.\nHypochlorous acid (HClO) is a strong oxidizer that destroys the chromophore in litmus, causing bleaching.\nCO2, SO2 and NH3 do not form this oxidizing species, so chlorine (option C) is the correct answer.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-060",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "The oxidation state of chromium in potassium dichromate (VI), \\text{K}_2\\text{Cr}_2\\text{O}_7, is",
+    "options": [
+      "+7",
+      "+6",
+      "+5",
+      "+3"
+    ],
+    "answerIndex": 1,
+    "explanation": "Sum of oxidation numbers in a neutral compound = 0; K is +1 and O is -2.\nTotal from K and O: 2(+1)+7(−2)=+2−14=−12.\nTherefore 2Cr must be +12, so each Cr = +12/2 = +6.\nOxidation state of chromium = +6, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-064",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "According to Graham's law of diffusion, the rate of diffusion of a gas is inversely proportional to the",
+    "options": [
+      "square root of its density",
+      "square of its density",
+      "absolute temperature",
+      "pressure of the gas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Graham's law states the rate of diffusion of a gas is inversely proportional to the square root of its molar mass.\nFor gases at the same temperature and pressure the density ρ is proportional to molar mass M (ρ ∝ M).\nSubstituting M with ρ gives rate ∝ 1/√ρ.\nTherefore the rate is inversely proportional to the square root of its density, so option A is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-065",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which of the following elements has the highest electronegativity?",
+    "options": [
+      "Fluorine",
+      "Chlorine",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Electronegativity increases across a period (left to right) and decreases down a group (top to bottom).\nFluorine (F), oxygen (O), and nitrogen (N) are in period 2, while chlorine (Cl) is in period 3, so Cl is less electronegative.\nWithin period 2 electronegativity rises from N to O to F, making F the highest among the listed elements.\nTherefore the correct answer is A. Fluorine.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-066",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "The empirical formula of a hydrocarbon containing 85.7% carbon and 14.3% hydrogen by mass is [C = 12, H = 1]",
+    "options": [
+      "\\text{CH}_2",
+      "\\text{CH}_3",
+      "\\text{CH}_4",
+      "\\text{C}_2\\text{H}_5"
+    ],
+    "answerIndex": 0,
+    "explanation": "Use percent composition: assume 100 g sample so C = 85.7 g and H = 14.3 g.\nMoles: n(C)=85.7/12≈7.14 mol, n(H)=14.3/1=14.3 mol.\nDivide by smallest: C:H = 7.14:14.3 → 1:2 (whole-number ratio).\nEmpirical formula = CH2, so correct option is A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-067",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "In the electrolysis of aqueous copper (II) tetraoxosulphate (VI) using platinum electrodes, the product formed at the anode is",
+    "options": [
+      "copper metal",
+      "hydrogen gas",
+      "oxygen gas",
+      "sulfur dioxide gas"
+    ],
+    "answerIndex": 2,
+    "explanation": "In electrolysis with inert platinum anodes oxidation occurs at the anode and the species with the easier oxidation is oxidized.\nSulfate ion (SO4^2−) is very stable and is not oxidized under these conditions, so water is preferentially oxidized.\nAnodic half-reaction: 2H2O -> O2(g) + 4H+ + 4e-.\nTherefore oxygen gas is formed at the anode, so option C is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-069",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "What is the concentration of hydrogen ions [\\text{H}^+] in a solution whose \\text{pH} is 3?",
+    "options": [
+      "1 \\times 10^{-3}\\text{ mol/dm}^3",
+      "1 \\times 10^{-11}\\text{ mol/dm}^3",
+      "3\\text{ mol/dm}^3",
+      "1 \\times 10^{3}\\text{ mol/dm}^3"
+    ],
+    "answerIndex": 0,
+    "explanation": "pH is defined by pH = -log[H+].\nRearrange to obtain [H+] = 10^{-pH}.\nFor pH = 3, [H+] = 10^{-3} = 1 × 10^{-3} mol/dm^3.\nTherefore the correct choice is A: 1 × 10^{-3} mol/dm^3.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-072",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following organic functional groups characterizes alkanols?",
+    "options": [
+      "-\\text{COOH}",
+      "-\\text{CHO}",
+      "-\\text{OH}",
+      "-\\text{COO}-"
+    ],
+    "answerIndex": 2,
+    "explanation": "Alkanols (alcohols) are organic compounds characterized by a hydroxyl (−OH) group attached to a saturated carbon chain.\nThe key reasoning: −OH is the hydroxyl functional group, while −COOH is carboxyl, −CHO is aldehyde, and −COO− denotes an ester linkage.\nThus the functional group that defines alkanols is −OH.\nCorrect option: C (−OH).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-073",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Saponification is the alkaline hydrolysis of fats and oils using",
+    "options": [
+      "dilute mineral acid",
+      "concentrated tetraoxosulphate (VI) acid",
+      "concentrated alkali like \\text{NaOH}",
+      "water under high pressure"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: saponification is the alkaline hydrolysis of ester bonds in triglycerides to give glycerol and carboxylate salts (soaps).\nA strong base (e.g., concentrated NaOH) provides OH− that attacks the ester, cleaving it to form glycerol and sodium salts of fatty acids.\nAcid hydrolysis yields free fatty acids rather than soap salts, so dilute or concentrated mineral acids do not produce saponification.\nTherefore the correct option is C: concentrated alkali like NaOH.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]

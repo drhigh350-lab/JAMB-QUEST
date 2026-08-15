@@ -25,6 +25,21 @@ describe("owner-provided playable question mapping", () => {
     });
   });
 
+  it("preserves a validated Lekki chapter label for the novel palette", () => {
+    const question = toPlayableAuthorisedQuestion({
+      id: 17,
+      subject: "Use of English",
+      topic: "The Lekki Headmaster · Chapter 1: Dusk",
+      difficulty: "medium",
+      questionText: "Who is present in chapter one?",
+      optionsJson: JSON.stringify(["A", "B", "C", "D"]),
+      answerIndex: 0,
+      explanation: null,
+      sourceLabel: "The Lekki Headmaster · Owner chapter batch",
+    });
+    expect(question?.topic).toBe("The Lekki Headmaster · Chapter 1: Dusk");
+  });
+
   it("holds unmapped topics and over-cap explanations out of the quiz feed", () => {
     const base = {
       id: 14,

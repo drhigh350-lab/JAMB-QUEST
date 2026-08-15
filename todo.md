@@ -251,3 +251,16 @@
 - [x] Run and repair the full Vitest suite after the new syllabus and explanation gates
 - [x] Audit the existing 3,360-question playable bank for syllabus-topic coverage and explanation-cap compliance
 - [x] Resolve or hold any legacy records that remain unmapped or exceed the explanation cap before the next batch intake
+
+- [x] Inspect and parse the newly supplied Chemistry past-question DOCX in bounded batches without altering supplied question or answer wording
+- [ ] Add uniform medium explanations of four to five readable lines to the Chemistry batch
+- [ ] Map every Chemistry record to an official JAMB Chemistry syllabus topic
+- [x] Deduplicate and structurally audit the Chemistry batch before release
+- [ ] Release only quality-approved Chemistry records and document held records with reasons
+
+- [ ] Reconcile the reported 2,275 versus 3,118 question counts across stored, approved, playable, and UI display paths without changing question data
+- [ ] Explain or correct any intentional quality-gate exclusions in the learner-facing count
+
+- [x] Diagnose why the 650 stored Lekki Headmaster questions are not visible or launchable from the current Practice interface
+- [x] Restore the Lekki Headmaster Practice entry without weakening source or quality gates
+- [x] Add regression coverage for Lekki visibility and launch

@@ -690,10 +690,11 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
     const explanationLines = explanation.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
     const readingTextWithoutExplanation = row.subject === "Use of English" && mappedTopic === "Approved reading text" && explanationLines.length === 0;
     if (!readingTextWithoutExplanation && explanationLines.length > 5) return null;
+    const learnerTopic = row.subject === "Use of English" && mappedTopic === "Approved reading text" && row.topic.startsWith("The Lekki Headmaster") ? row.topic : mappedTopic;
     return {
       id: `authorised-${row.id}`,
       subject: row.subject as "Use of English" | "Biology" | "Chemistry" | "Physics",
-      topic: mappedTopic,
+      topic: learnerTopic,
       subtopic: "Owner-provided source",
       difficulty: row.difficulty,
       question_type: "multiple_choice" as const,

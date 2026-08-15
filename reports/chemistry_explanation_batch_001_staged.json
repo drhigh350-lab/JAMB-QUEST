@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-002",
+    "subject": "Chemistry",
+    "topic": "Separation of mixtures",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a mixture?",
+    "options": [
+      "Common salt",
+      "Blood",
+      "Sand",
+      "Washing soda"
+    ],
+    "answerIndex": 1,
+    "explanation": "A mixture contains two or more substances physically combined that retain their individual properties and can be separated by physical methods.\nBlood contains liquid plasma (water, salts, proteins) plus suspended cells (red and white blood cells, platelets).\nThese parts are not chemically bonded and can be separated (e.g., by centrifugation), so blood is heterogeneous.\nHence option B (blood) is the correct example of a mixture.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-006",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Moving from left to right across a period, the general rise in the first ionization energy can be attributed to the",
+    "options": [
+      "decrease in nuclear charge",
+      "increase in nuclear charge",
+      "decrease in screening effect",
+      "increase in screening effect"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: first ionization energy rises when the effective attraction between nucleus and valence electron increases.\nAcross a period the proton number (nuclear charge) increases while shielding by inner electrons stays nearly constant because electrons are added to the same shell.\nThe stronger nuclear attraction pulls valence electrons closer, so more energy is needed to remove one.\nThis effect matches option B: increase in nuclear charge.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-007",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "How many unpaired electron(s) are there in the nitrogen sub-levels?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "none"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hund's rule: electrons occupy degenerate orbitals singly with parallel spins to maximize unpaired electrons.\nNitrogen (Z=7) has configuration 1s2 2s2 2p3, so the 2p sublevel contains three electrons.\nThe 2p sublevel has three degenerate p orbitals, each singly occupied, giving three unpaired electrons.\nHence the number of unpaired electrons is 3, corresponding to option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-008",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The stability of the noble gases is due to the fact that they",
+    "options": [
+      "have no electron in their outermost shells",
+      "have duplet or octet electron configurations",
+      "belong to group zero of the periodic table",
+      "are volatile in nature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Atoms are most stable when their outermost shell is full (the duplet rule for He and the octet rule for most other elements).\nNoble gases possess complete valence shells: He has a duplet (2 electrons) while Ne, Ar, etc. have octets (8 electrons).\nA full valence shell greatly reduces the tendency to gain or lose electrons, making these gases chemically inert.\nTherefore the stability of noble gases is explained by their duplet or octet electron configurations, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-009",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The maximum number of electrons in the L shell of an atom is",
+    "options": [
+      "2",
+      "8",
+      "18",
+      "32"
+    ],
+    "answerIndex": 1,
+    "explanation": "Maximum electrons in a shell = 2n^2, where n is the principal quantum number.\nFor the L shell, n = 2.\nMaximum electrons = 2 × (2^2) = 2 × 4 = 8.\nTherefore the correct option is B (8).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-010",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Elements in the same period in the periodic table have the same",
+    "options": [
+      "number of shells",
+      "atomic number",
+      "chemical properties",
+      "physical properties"
+    ],
+    "answerIndex": 0,
+    "explanation": "Principle: Elements in the same period occupy the same principal energy level (same number of electron shells).\nKey reasoning: Moving across a period electrons are added to the same shell while atomic number increases, so shell count stays constant.\nChemical and physical properties change across a period because valence electron number and bonding vary, so those options are incorrect.\nThus the correct answer is A: number of shells.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-012",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "A noble gas with a high power of fog penetration used in aerodrome beacons is",
+    "options": [
+      "krypton",
+      "argon",
+      "helium",
+      "neon"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: beacons use noble gases whose electric discharge produces intense, relatively longer‑wavelength emission that penetrates fog better.\nHeavier noble gases yield stronger, higher‑intensity discharges and emissions that improve visibility in mist.\nKrypton is heavier than helium, neon and argon, so it provides greater fog‑penetrating power.\nCorrect answer: A. krypton",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-015",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "Calculate the solubility in mol dm⁻³ of 40g of CuSO4 dissolved in 100g of water at 120⁰C. [Cu = 64, S = 32, O = 16]",
+    "options": [
+      "4.00",
+      "2.50",
+      "0.40",
+      "0.25"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use molarity: mol dm⁻³ = moles of solute ÷ volume in dm³, approximating solution volume ≈ volume of 100 g water.\nMoles CuSO4 = 40 g ÷ (64+32+4×16) g mol⁻¹ = 40 ÷ 160 = 0.25 mol.\nVolume ≈ 100 g water = 100 cm³ = 0.100 dm³.\nMolarity = 0.25 ÷ 0.100 = 2.50 mol dm⁻³, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-018",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The acid that is used to remove rust is",
+    "options": [
+      "boric",
+      "hydrochloric",
+      "trioxonitrate (V)",
+      "tetraoxosulphate (VI)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: Acids dissolve rust (hydrated iron(III) oxide) by converting it into soluble iron salts.\nReasoning: A suitable strong acid reacts with rust to form soluble iron salts that can be washed away.\nHydrochloric acid (HCl) is widely used for rust removal because it converts rust into soluble iron chlorides.\nTherefore the correct answer is B: hydrochloric.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-020",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The colour of methyl orange in alkaline medium is",
+    "options": [
+      "yellow",
+      "pink",
+      "orange",
+      "red"
+    ],
+    "answerIndex": 0,
+    "explanation": "Indicator principle: methyl orange is red in acidic solution and yellow in alkaline solution.\nIn alkaline medium it is in the deprotonated form which gives the yellow colour.\nTherefore, when placed in an alkaline solution methyl orange appears yellow.\nCorrect answer: A. yellow.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-022",
+    "subject": "Chemistry",
+    "topic": "Oxidation and reduction",
+    "difficulty": "medium",
+    "question": "6AgNO3(aq) + PH3(g) + 3H2O(l) → 6Ag(s) + H3PO3(g) + 6HNO3(aq) In the above reaction, the reducing agent is",
+    "options": [
+      "HNO3(aq)",
+      "H2O(l)",
+      "PH3(g)",
+      "AgNO3(aq)"
+    ],
+    "answerIndex": 2,
+    "explanation": "Reducing agent is the species that is oxidised (loses electrons).\nP in PH3: x + 3(+1) = 0 → x = −3.\nP in H3PO3: x + 3(+1) + 3(−2) = 0 → x = +3, so P goes from −3 to +3 (oxidised), hence PH3 is oxidised.\nTherefore the reducing agent is PH3(g), option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-024",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Iron can be protected from corrosion by coating the surface with",
+    "options": [
+      "gold",
+      "silver",
+      "copper",
+      "zinc"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: a more reactive metal coated on iron acts as a sacrificial anode and corrodes preferentially, protecting the iron.\nZinc has a more negative standard reduction potential than iron, so zinc oxidizes (Zn → Zn2+ + 2e−) before iron does.\nThis sacrificial corrosion (galvanizing) prevents iron from rusting while the zinc layer remains.\nTherefore coating iron with zinc (option D) protects it, whereas gold, silver or copper are less reactive and do not provide sacrificial protection.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-025",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "What quantity of aluminium is deposited when a current of 10A is passed through a solution of an aluminium salt for 1930s? [Al = 27, F = 96500 C mol⁻¹]",
+    "options": [
+      "0.2 g",
+      "1.8 g",
+      "5.4 g",
+      "14.2 g"
+    ],
+    "answerIndex": 1,
+    "explanation": "Apply Faraday's law: Q = It and m = (Q/F)·(M/z) with z = 3 for Al3+ + 3e− → Al.\nQ = 10 A × 1930 s = 19300 C, so moles of electrons = Q/F = 19300/96500 = 0.20 mol.\nMoles Al = 0.20/3 = 0.06667 mol; mass = 0.06667 × 27 = 1.8 g.\nTherefore the deposited aluminium is 1.8 g, option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-028",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "In the preparation of oxygen by heating \\text{KClO}_3 in the presence of \\text{MnO}_2, only moderate heat is needed because the catalyst acts by",
+    "options": [
+      "lowering the pressure of the reaction",
+      "increasing the surface area of the reactant",
+      "increase the rate of the reaction",
+      "lowering the energy barrier of the reaction"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: a catalyst provides an alternative reaction pathway with a lower activation energy (energy barrier) without being consumed.\nIn MnO2-catalysed decomposition of KClO3 to KCl + O2, the lowered activation energy means only moderate heat is needed to reach the transition state.\nA catalyst’s effect of increasing the reaction rate is a consequence, not the direct mechanism; it does not primarily act by changing pressure or surface area.\nThus the correct mechanism is lowering the energy barrier of the reaction (option D).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-030",
+    "subject": "Chemistry",
+    "topic": "Chemical equilibria",
+    "difficulty": "medium",
+    "question": "2\\text{H}_2(g) + \\text{O}_2(g) \\rightleftharpoons 2\\text{H}_2\\text{O}(g)\\ \\Delta H = \\text{-ve}. What happens to the equilibrium constant of the reaction above if the temperature is increased?",
+    "options": [
+      "it is unaffected",
+      "it becomes zero",
+      "it decreases",
+      "it increases"
+    ],
+    "answerIndex": 2,
+    "explanation": "Governing principle: the van ’t Hoff relation shows d(ln K)/dT = ΔH/(R T^2).\nFor this reaction ΔH is negative (exothermic).\nThus d(ln K)/dT < 0, so ln K and therefore K decrease as temperature increases.\nTherefore the correct option is C — it decreases.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-031",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "To a solution of an unknown compound, a little dilute tetraoxosulphate (VI) acid was added with some freshly prepared iron (II) tetraoxosulphate (VI) solution. The brown ring observed after the addition of a stream of concentrated tetraoxosulphate (VI) acid confirmed the presence of",
+    "options": [
+      "\\text{CO}_3^{2-}",
+      "\\text{Cl}^-",
+      "\\text{SO}_4^{2-}",
+      "\\text{NO}_3^-"
+    ],
+    "answerIndex": 3,
+    "explanation": "Principle: the brown ring test identifies nitrate ions—conc H2SO4 converts NO3- to NO which forms a brown nitrosyl complex with Fe2+.\nThe described reagents (dilute H2SO4, freshly prepared FeSO4, then a stream of conc H2SO4) are the standard brown ring test procedure.\nNO generated by reduction of NO3- binds to Fe2+ to give the characteristic brown [Fe(H2O)5NO]^{2+} ring at the acid/aqueous interface.\nTherefore the brown ring confirms the presence of NO3- (option D).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-033",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following is used in rocket fuels?",
+    "options": [
+      "\\text{HNO}_3",
+      "\\text{CH}_3\\text{COOH}",
+      "\\text{H}_2\\text{SO}_4",
+      "\\text{HCl}"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: rocket propellants require strong oxidizers to supply oxygen for rapid combustion of fuel.\nNitric acid (HNO3) is a powerful oxidizing liquid and has been used as an oxidizer in liquid rocket propellants.\nCH3COOH is a weak organic acid, H2SO4 is mainly a dehydrating acid, and HCl is non‑oxidizing, so they are unsuitable.\nTherefore the correct choice is A: HNO3.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-035",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "A constituent common to bronze and solder is",
+    "options": [
+      "lead",
+      "silver",
+      "copper",
+      "tin"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: alloys are mixtures of metals and common components identify overlap between different alloys.\nBronze is an alloy of copper and tin; traditional solder is an alloy of tin and lead.\nThe metal present in both bronze (Cu + Sn) and classic solder (Sn + Pb) is tin (Sn).\nTherefore the correct option is D. tin.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-036",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "When iron is exposed to moist air, it gradually rusts. This is due to the formation of",
+    "options": [
+      "hydrate iron (III) oxide",
+      "anhydrous iron (III) oxide",
+      "anhydrous iron (II) oxide",
+      "hydrate iron (II) oxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "Governing principle: rusting is an electrochemical oxidation of iron in the presence of oxygen and water, producing iron oxides/hydroxides.\nKey reasoning: The well-known product of this process is Fe2O3·nH2O (rust), a hydrated form of iron(III) oxide formed from Fe → Fe3+ with O2 and H2O.\nContrast: Anhydrous Fe2O3 or FeO (iron(II) oxide) lack the water of hydration or the Fe3+ state typical of rust.\nConclusion: This identifies option A (hydrate iron(III) oxide) as the correct answer.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-037",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "A compound gives an orange-red colour to non-luminous flame. This compound is likely to contain",
+    "options": [
+      "\\text{Na}^+",
+      "\\text{Ca}^{2+}",
+      "\\text{Fe}^{3+}",
+      "\\text{Fe}^{2+}"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: flame tests reveal characteristic emission colours of metal cations in a non-luminous flame.\nAn orange-red flame is characteristic of Ca2+; Na+ gives a strong yellow, while Fe2+/Fe3+ do not produce an orange-red emission.\nThe observation therefore matches calcium's emission and excludes sodium or iron as the source of an orange-red flame.\nHence the compound is likely to contain Ca2+, so option B is correct.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]

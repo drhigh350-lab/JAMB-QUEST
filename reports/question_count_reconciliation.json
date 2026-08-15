@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-08-15T19:19:38.070Z",
+  "modelBankExpected": 1000,
+  "authorisedStoredAllSources": 3004,
+  "authorisedActiveStored": 2769,
+  "authorisedActiveApproved": 2360,
+  "authorisedQualityGatedPlayable": 1375,
+  "expectedCombinedIfAllApproved": 3360,
+  "expectedCombinedQualityGated": 2375,
+  "bySource": [
+    {
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+      "stored": 186,
+      "approved": 0
+    },
+    {
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "stored": 166,
+      "approved": 0
+    },
+    {
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "stored": 458,
+      "approved": 458
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "stored": 78,
+      "approved": 78
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "stored": 47,
+      "approved": 47
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "stored": 89,
+      "approved": 86
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "stored": 83,
+      "approved": 74
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "stored": 42,
+      "approved": 37
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "stored": 49,
+      "approved": 49
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "stored": 44,
+      "approved": 44
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "stored": 48,
+      "approved": 48
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "stored": 50,
+      "approved": 50
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "stored": 48,
+      "approved": 48
+    },
+    {
+      "sourceLabel": "Owner-provided Markdown · bio_part2.md · Biology",
+      "stored": 49,
+      "approved": 49
+    },
+    {
+      "sourceLabel": "JAMB Quest Chemistry Bank · Trusted owner batch · August 2026",
+      "stored": 50,
+      "approved": 50
+    },
+    {
+      "sourceLabel": "JAMB Quest Chemistry Bank · Trusted owner batch · August 2026 · Questions 51–100",
+      "stored": 50,
+      "approved": 50
+    },
+    {
+      "sourceLabel": "JAMB Quest Physics Bank · Trusted owner batch · August 2026 · Questions 1–100",
+      "stored": 100,
+      "approved": 100
+    },
+    {
+      "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+      "stored": 100,
+      "approved": 100
+    },
+    {
+      "sourceLabel": "JAMB Quest Use of English Bank · Trusted owner batch · August 2026 · Questions 1–100",
+      "stored": 100,
+      "approved": 100
+    },
+    {
+      "sourceLabel": "The Lekki Headmaster · Owner chapter-by-chapter batch · August 2026 · Chapters 1–10",
+      "stored": 500,
+      "approved": 500
+    },
+    {
+      "sourceLabel": "The Lekki Headmaster · Owner chapter-by-chapter batch · August 2026 · Chapters 11–13",
+      "stored": 150,
+      "approved": 150
+    },
+    {
+      "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe",
+      "stored": 242,
+      "approved": 242
+    },
+    {
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 001",
+      "stored": 20,
+      "approved": 0
+    },
+    {
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 002",
+      "stored": 20,
+      "approved": 0
+    }
+  ]
+}
