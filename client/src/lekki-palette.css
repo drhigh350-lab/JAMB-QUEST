@@ -196,6 +196,36 @@
   .hero-typewriter > i {
     animation: typing-cursor 650ms steps(1, end) infinite;
   }
+
+  .tab-cinematic-entry {
+    animation: tab-cinematic-rise 440ms cubic-bezier(.23, 1, .32, 1) both;
+  }
+
+  .tab-cinematic-content {
+    animation-delay: 50ms;
+  }
+
+  .tab-hero.tab-cinematic-entry {
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+  }
+
+  .tab-hero.tab-cinematic-entry > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .tab-hero.tab-cinematic-entry::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background: linear-gradient(112deg, transparent 38%, rgba(244, 167, 44, .22) 49%, transparent 62%);
+    transform: translateX(-115%);
+    animation: tab-cinematic-sweep 620ms cubic-bezier(.23, 1, .32, 1) 65ms both;
+  }
 }
 
 @keyframes desk-signal {
@@ -212,6 +242,17 @@
 @keyframes typing-cursor {
   0%, 46% { opacity: 1; }
   47%, 100% { opacity: 0; }
+}
+
+@keyframes tab-cinematic-rise {
+  from { opacity: 0; transform: translateY(18px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes tab-cinematic-sweep {
+  from { opacity: 0; transform: translateX(-115%); }
+  35% { opacity: 1; }
+  to { opacity: 0; transform: translateX(115%); }
 }
 
 @media (prefers-reduced-motion: reduce) {

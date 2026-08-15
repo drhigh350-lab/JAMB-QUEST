@@ -1,9 +1,11 @@
 import { chromium } from "@playwright/test";
 
-const baseUrl = "https://3000-iobewn6v6k0sqroneio5d-c3a4c244.us4.manus.computer";
+const baseUrl = process.env.JAMB_QUEST_URL ?? "http://127.0.0.1:3000";
 const browser = await chromium.launch({ headless: true, executablePath: "/usr/bin/chromium" });
-const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
-await page.goto(baseUrl, { waitUntil: "domcontentloaded", timeout: 30_000 });
+const context = await browser.newContext({ viewport: { width: 1280, height: 720 }, serviceWorkers: "block" });
+const page = await context.newPage();
+await page.route("**/sw.js*", (route) => route.abort());
+await page.goto(`${baseUrl.replace(/\/$/, "")}/?e2eTabClicks=1`, { waitUntil: "domcontentloaded", timeout: 30_000 });
 await page.getByRole("heading", { name: /build toward/i }).waitFor();
 
 const cases = [
@@ -18,9 +20,11 @@ for (const [tab, expectedHeading] of cases) {
   const target = tab === "Practice" || tab === "Progress" ? buttons.first() : buttons.last();
   if (tab !== "Practice") await target.evaluate((element) => element.click());
   await page.getByRole("heading", { name: new RegExp(expectedHeading, "i") }).waitFor();
+  await page.getByTestId(`tab-cinematic-${tab.toLowerCase()}`).waitFor();
   const selected = await buttons.last().getAttribute("aria-current");
   if (selected !== "page") throw new Error(`${tab} did not expose an active tab state.`);
 }
 
+await context.close();
 await browser.close();
 console.log("tab-controls-verified");

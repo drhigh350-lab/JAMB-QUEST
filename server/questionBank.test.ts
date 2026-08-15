@@ -32,6 +32,13 @@ describe("learner-facing topic normalization", () => {
     expect(selected.every((question) => question.subject === "Physics" && ["Mechanics", "Energy"].includes(question.topic))).toBe(true);
   });
 
+  it("respects a learner-selected 50-question exact-topic practice length", () => {
+    const chapter = Array.from({ length: 60 }, (_, index) => ({ id: `chapter-${index}`, subject: "Use of English" as const, topic: "The Lekki Headmaster · Chapter 1: Dusk", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Chapter question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
+    const selected = selectQuestions(chapter, "Use of English", "sprint", 50, [], { topic: "The Lekki Headmaster · Chapter 1: Dusk" });
+    expect(selected).toHaveLength(50);
+    expect(selected.every((question) => question.topic === "The Lekki Headmaster · Chapter 1: Dusk")).toBe(true);
+  });
+
   it("launches a mixed 20-question Lekki drill across chapter-labelled novel topics only", () => {
     const chapterOne = Array.from({ length: 12 }, (_, index) => ({ id: `lekki-one-${index}`, subject: "Use of English" as const, topic: "The Lekki Headmaster · Chapter 1: Dusk", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Chapter one question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
     const chapterTwo = Array.from({ length: 12 }, (_, index) => ({ ...chapterOne[index], id: `lekki-two-${index}`, topic: "The Lekki Headmaster · Chapter 2: The Enticement", question: `Chapter two question ${index}` }));
