@@ -144,6 +144,30 @@
   letter-spacing: .08em;
 }
 
+.hero-typewriter {
+  display: inline-flex;
+  align-items: center;
+  min-height: 16px;
+  max-width: 42rem;
+  margin-top: 12px;
+  color: var(--ink);
+  font: 700 10px "Space Grotesk", sans-serif;
+  line-height: 1.4;
+}
+
+.hero-typewriter > b {
+  margin-right: 6px;
+  color: var(--maize);
+  font-size: 15px;
+}
+
+.hero-typewriter > i {
+  width: 7px;
+  height: 13px;
+  margin-left: 3px;
+  background: var(--ink);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .live-writing i {
     animation: desk-signal 2.4s cubic-bezier(.23, 1, .32, 1) infinite;
@@ -151,6 +175,26 @@
 
   .compact-subject.subject-lekki.active svg {
     animation: lekki-book-glint 1.2s cubic-bezier(.23, 1, .32, 1) both;
+  }
+
+  .compact-home .entrance-item {
+    opacity: 0;
+    transform: translateY(13px);
+    transition: opacity 360ms cubic-bezier(.23, 1, .32, 1), transform 360ms cubic-bezier(.23, 1, .32, 1);
+  }
+
+  .compact-home.entrance-ready .entrance-item {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .compact-home.entrance-ready .entrance-nav { transition-delay: 20ms; }
+  .compact-home.entrance-ready .entrance-hero { transition-delay: 90ms; }
+  .compact-home.entrance-ready .entrance-mission { transition-delay: 170ms; }
+  .compact-home.entrance-ready .entrance-tools { transition-delay: 250ms; }
+
+  .hero-typewriter > i {
+    animation: typing-cursor 650ms steps(1, end) infinite;
   }
 }
 
@@ -163,6 +207,11 @@
   0% { transform: rotate(-8deg) scale(.94); opacity: .55; }
   60% { transform: rotate(3deg) scale(1.08); opacity: 1; }
   100% { transform: rotate(0) scale(1); }
+}
+
+@keyframes typing-cursor {
+  0%, 46% { opacity: 1; }
+  47%, 100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

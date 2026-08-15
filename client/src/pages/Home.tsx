@@ -105,6 +105,9 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const [selectedTopic, setSelectedTopic] = useState("");
   const [selectedTopicGroup, setSelectedTopicGroup] = useState("");
   const [selectedLekkiChapter, setSelectedLekkiChapter] = useState("");
+  const [entranceReady, setEntranceReady] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [typedEntrance, setTypedEntrance] = useState("");
   const [examReadiness, setExamReadiness] = useState({ device: false, focus: false, plan: false });
   const [profileOpen, setProfileOpen] = useState(() => typeof window !== "undefined" && new URLSearchParams(window.location.search).get("profile") === "open");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
@@ -136,6 +139,32 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     return () => window.clearInterval(timer);
   }, [liveMessages.length]);
   const liveMessage = liveMessages[liveMessageIndex % liveMessages.length];
+  const entranceLine = activeTab === "practice" ? `System online. ${questionCount.toLocaleString()} questions ready. Your next move is waiting.` : activeTab === "progress" ? "Your evidence is ready. Turn the next miss into a focused repair." : activeTab === "profile" ? "Your personal system is ready to keep every useful mark." : "Focused preparation. Clear weaknesses. Better next moves.";
+  useEffect(() => {
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const updateMotion = () => setPrefersReducedMotion(motion.matches);
+    updateMotion();
+    motion.addEventListener("change", updateMotion);
+    const frame = window.requestAnimationFrame(() => setEntranceReady(true));
+    return () => {
+      motion.removeEventListener("change", updateMotion);
+      window.cancelAnimationFrame(frame);
+    };
+  }, []);
+  useEffect(() => {
+    if (prefersReducedMotion) {
+      setTypedEntrance(entranceLine);
+      return;
+    }
+    setTypedEntrance("");
+    let index = 0;
+    const timer = window.setInterval(() => {
+      index += 1;
+      setTypedEntrance(entranceLine.slice(0, index));
+      if (index >= entranceLine.length) window.clearInterval(timer);
+    }, 18);
+    return () => window.clearInterval(timer);
+  }, [entranceLine, prefersReducedMotion]);
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
     { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
@@ -158,8 +187,8 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     comparison?.latest ? { key: "cbt", label: "Confirm with another CBT", note: "After the recovery action, use a timed CBT paper to measure the change under exam conditions.", action: () => onStart({ subject: "Full JAMB Mock", mode: "cbt", count: 180 }) } : { key: "baseline", label: "Create your CBT baseline", note: "Complete the readiness check and take a timed mock so your study plan can use real evidence.", action: () => setActiveTab("practice") },
   ].filter((step): step is { key: string; label: string; note: string; action: () => void } => step !== null);
 
-  return <main className="home-page tabbed-home compact-home">
-    <header className="site-header page-shell">
+  return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
+    <header className="site-header page-shell entrance-item entrance-nav">
       <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span><strong>JAMB</strong><span>QUEST</span><small>COME BACK</small></span></button>
       <nav className="header-nav" aria-label="Primary navigation">
         {tabItems.slice(0, 2).map(({ id, label }) => <button key={id} className={`header-tab ${activeTab === id ? "active" : ""}`} onClick={() => setActiveTab(id)}>{label}</button>)}
@@ -169,15 +198,15 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     </header>
     {loadError && <div className="load-error page-shell"><span>{loadError}</span><button className="text-button" onClick={onRetryLoad}>Try again <ArrowRight size={14} /></button></div>}
 
-    <section className="tab-hero page-shell compact-hero">
-      <div><span className="eyebrow">{activeTab === "practice" ? "COMEBACK FROM SETBACK" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward <em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "One mission first. Everything else stays ready inside a focused study desk." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you one focused question bank for practice, correction, and targeted improvement."}</p>{activeTab === "practice" && <span className="live-writing" role="status" aria-live="polite"><i aria-hidden="true" /><b>LIVE DESK</b> {liveMessage}</span>}</div>
+    <section className="tab-hero page-shell compact-hero entrance-item entrance-hero">
+      <div><span className="eyebrow">{activeTab === "practice" ? "COMEBACK FROM SETBACK" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward <em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "One mission first. Everything else stays ready inside a focused study desk." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you one focused question bank for practice, correction, and targeted improvement."}</p><span className="hero-typewriter" role="status" aria-live="polite"><b>›</b> {typedEntrance}<i aria-hidden="true" /></span>{activeTab === "practice" && <span className="live-writing" role="status" aria-live="polite"><i aria-hidden="true" /><b>LIVE DESK</b> {liveMessage}</span>}</div>
       <div className="tab-hero-stats"><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day system</span></div><div><strong>{progress.roundsPlayed}</strong><span>rounds</span></div></div>
     </section>
 
     <div className="tab-content page-shell">
       {activeTab === "practice" && <>
-        <DailyMissionPanel label={dailyMission.label} note={dailyMission.note} config={dailyMission.config} onStart={onStart} />
-        <section className="compact-action-grid tab-section" aria-label="Practice tools">
+        <div className="entrance-item entrance-mission"><DailyMissionPanel label={dailyMission.label} note={dailyMission.note} config={dailyMission.config} onStart={onStart} /></div>
+        <section className="compact-action-grid tab-section entrance-item entrance-tools" aria-label="Practice tools">
           <CompactPanel eyebrow="01 / TODAY" title="Keep the system alive" note={`${selectedState.today.questionsAnswered} of ${selectedState.dailyMinimum} marks today`} defaultOpen tone="ink">
             <div className="compact-system-status"><div><strong>{selectedState.today.questionsAnswered}<small> / {selectedState.dailyMinimum}</small></strong><span><CheckCircle2 size={14} /> {selectedState.today.completedMinimum ? "minimum complete" : `${selectedState.dailyMinimum - Math.min(selectedState.dailyMinimum, selectedState.today.questionsAnswered)} marks to go`}</span></div><div className="compact-system-metrics"><span><b>{selectedState.level}</b> level</span><span><b>{selectedState.comebackXp}</b> XP</span><span><b>{selectedState.currentStreak}</b> streak</span></div></div>
             <div className="system-meter"><i style={{ width: `${dailyPercent}%` }} /></div>
