@@ -23,13 +23,38 @@ The learner changed and saved a profile target, completed a Study round, refresh
 | Real signed-in profile, round sync, reload persistence, logout fallback, and source labels | **Closed** | Live profile save, Study-round completion, reload, and logout confirmation; persisted profile and round timestamps verified in the database. |
 | Broad comeback/provenance/notification/responsive verification | **Closed** | Existing browser coverage plus live reminder delivery and account-flow confirmation. |
 
+## Item 3 — Completed: active explanation-style audit
+
+The active approved imported bank was audited with the same deterministic natural-explanation gate used by the regression suite. It reviewed **1,468** learner-facing approved explanations for label-led templates, prohibited template phrases, duplicated sentences, and repeated sentence stems. **Zero records were flagged.** No owner-supplied explanation was changed or withheld because no active explanation failed the accepted compact teaching-paragraph standard.
+
+| Checklist entries | Status | Evidence |
+|---|---|---|
+| Replace formulaic generated explanation language | **Closed** | Active-bank style audit found zero formulaic/template-like approved explanations. |
+| Regenerate previously AI-written explanations against the authentic-style contract | **Open: style remediation completed; provenance and answer-safety evidence remain** | The approved imported bank has 0 style violations, the repaired active model bank has 0 style violations, and the explicit submitted-rich manifest has 39 active conforming records plus 3 unreleased records. The historical model-bank generation scope and answer-safety evidence still need direct documentation. |
+
 ## Remaining work classification
 
 | Priority | Legacy checklist entries | Classification | Next honest action |
 |---|---|---|---|
 | **Next core verification** | Sign-in-aware UI, profile persistence, and broad source-label checks | **Completed** | Closed as Item 2 using live learner confirmation and persisted profile/round evidence. |
 | **Next reminder evidence** | Recurring callback and no-duplicate reminder proof | **Live operational verification** | Capture one scheduled eligible reminder and a second no-duplicate decision from the deployed scheduler when the timing permits; do not manufacture reminder history. |
-| **Explanation quality** | Formulaic AI-written explanation cleanup and regeneration | **Content-quality follow-up** | Audit only existing generated explanations against the current style gate; retain or hold records rather than inventing replacements. |
+| **Explanation provenance and depth** | Historical model-bank source scope, answer-safety review, and 838 short active model explanations | **Source-limited evidence and enrichment backlog** | Preserve current wording; document source/release basis and answer safety before any expansion, then deepen only against a trusted source or an explicit owner-approved enrichment brief. |
+
+### Legacy generated-explanation provenance result
+
+The only explicitly traceable legacy AI-conditioned batch is the preserved `submitted_rich_questions.short-enrichment.style-conditioned.output.json` manifest. Its **42** records were reconciled directly against the database: **39** were found as approved, active, style-conforming learner-facing explanations, while **3** have no released database record and therefore remain outside gameplay. Owner-supplied sources without this generation manifest are not described as AI-written by inference.
+
+| Explicit legacy generated set | Regenerated and active | Not released / withheld | Style violations |
+|---|---:|---:|---:|
+| Submitted rich short-enrichment manifest | 39 | 3 | 0 |
+
+The explicit-manifest evidence and active model-bank audit complete the learner-facing **template-style** review. The broader historical provenance, answer-safety, and explanation-depth review remains open; none of those gaps is represented as a resolved template-style issue.
+
+### Active model-bank audit
+
+The active 1,000-question model bank was inspected directly. Eight explanations contained the prohibited label-led template pattern. They were repaired by removing only the labels—not by changing questions, answers, or explanation substance—and the application now uses the repaired asset. The deterministic audit in `reports/model_explanation_style_audit.json` reports **1,000 total questions**, **0 template-style violations**, and **838 explanations under 25 words**.
+
+The 838 short model explanations are not automatically rewritten or removed because the present model-bank asset does not distinguish authored wording from generated wording at record level. They remain a controlled explanation-depth and provenance backlog; no supplied explanation has been silently changed. A separate answer-safety audit is also still required before the wider historical regeneration item can close.
 | **Question-bank source review** | Remaining eligible authentic-question enrichment | **Source-dependent** | Continue only when a clean, answer-safe owner batch is supplied. Existing trusted owner batches are already directly imported. |
 | **Lekki Headmaster** | Validate keys and explanations | **Source-dependent and paused** | Await a cleaner source with reliable answer-key alignment and question-specific explanations. |
 | **Future rich Markdown batch** | Next generated/enriched explanation batch | **Awaiting source** | Use the submitted rich source only when the owner supplies it. |
@@ -41,7 +66,7 @@ The learner changed and saved a profile target, completed a Study round, refresh
 
 1. **Complete a current signed-in profile/sign-out regression** and close the broad historical auth/profile entries.
 2. **Record real reminder no-duplicate evidence** from the deployed schedule without fabricating a send history.
-3. **Audit current generated explanation prose** and hold only records that fail the accepted compact-paragraph standard.
+3. **Complete active explanation-style remediation** — **completed**: active imported and model-bank audits now report zero template-style violations. Keep historical model-bank provenance, answer safety, and short explanatory depth as separate controlled backlogs.
 4. Leave source-dependent and deliberately deferred work visible but inactive until the required source or explicit prioritisation arrives.
 
 > **Guardrail:** “Unchecked” does not automatically mean “build now.” It may mean a real user action, a dependable source file, a time-based production observation, or an intentionally deferred scope decision is still required.

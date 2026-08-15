@@ -61,11 +61,15 @@
 - [x] Upgrade the 42 short-explanation submitted records using the user’s rich explanatory style, then re-run the same quality and ambiguity gate.
 - [x] Update the bulk enrichment prompt to apply a style contract derived from the submitted rich explanations, then regenerate only the 42 short submitted records.
 - [x] Add a regression verifier that confirms regenerated short-record explanations meet the submitted rich-explanation style contract before gameplay approval.
-- [ ] Replace formulaic generated explanation language with the user’s compact, natural teaching-paragraph style.
+- [x] Replace formulaic generated explanation language with the user’s compact, natural teaching-paragraph style.
 - [x] Convert already released label-led generated explanations into compact neutral paragraphs while leaving authentic source prose untouched.
 - [x] Preserve every user-supplied authentic explanation verbatim in learner-facing cards rather than rewrapping it into generated templates.
 - [x] Preserve authentic paragraph boundaries and whitespace without text collapsing, with a multi-paragraph learner-card regression test.
-- [ ] Regenerate previously AI-written explanations against the authentic-style contract and keep only answer-safe, style-conforming versions.
+- [ ] Regenerate previously AI-written explanations against the authentic-style contract and keep only answer-safe, style-conforming versions. Style conformance is evidenced for 1,468 imported and 1,000 model explanations, but source-by-source provenance and answer-safety evidence remain to be completed for the historical model bank.
+- [x] Remove the eight active model-bank template-labelled explanations and record the 838 short model explanations as a separate, source-limited enrichment backlog. The repaired active model asset now has zero template-style violations; short explanatory depth remains a separately tracked quality backlog, not a silent rewrite.
+- [ ] Identify each historically AI-written model-bank explanation set and document whether each record was label-repaired, regenerated, or withheld from gameplay.
+- [ ] Add an answer-safety audit for active model-bank explanations, separate from the completed template-style audit.
+- [ ] Keep the 838 short active model explanations in an explanation-depth and provenance backlog until their release basis is documented or an owner-approved enrichment brief is supplied.
 - [x] Add a style regression check that rejects label-led, repetitive, or template-like generated explanations before release.
 - [x] Detect repeated sentence stems or duplicated clauses in generated explanations and prove the release verifier rejects a repetitive fixture.
 - [x] Add a simple JAMB-style calculator with standard arithmetic, clear, backspace, and keyboard support.
@@ -196,3 +200,5 @@
 - [x] Import the trusted owner-provided Biology questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Import the trusted owner-provided Use of English questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [ ] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence.
+- [x] Identify the explicitly traceable submitted-rich AI-conditioned explanation set and document its regenerated-versus-withheld status.
+- [ ] Identify every remaining historically AI-written explanation set by source and prove each was regenerated to the authentic-style contract or withheld from gameplay.

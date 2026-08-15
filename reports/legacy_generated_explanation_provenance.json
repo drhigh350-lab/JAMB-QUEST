@@ -1,0 +1,433 @@
+{
+  "auditedAt": "2026-08-15T10:45:28.406Z",
+  "purpose": "Classifies the explicitly traceable style-conditioned legacy generated explanation manifest. Owner-supplied sources without a generation manifest are not labelled as AI-written by inference.",
+  "manifestPath": "/home/ubuntu/jamb-import-staging/submitted_rich_questions.short-enrichment.style-conditioned.output.json",
+  "manifestRecordCount": 42,
+  "matchedDatabaseRecordCount": 39,
+  "summary": {
+    "regenerated_and_active": 39,
+    "not_released": 3
+  },
+  "records": [
+    {
+      "externalId": "chem-part1-md-Chemistry-18",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-21",
+      "subject": "Chemistry",
+      "manifestNeedsReview": true,
+      "styleReferenceUsed": true,
+      "status": "not_released",
+      "sourceLabel": null,
+      "storedExplanationStatus": null,
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-22",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-32",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-34",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-36",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-40",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-41",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-42",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-45",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-46",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part1-md-Chemistry-48",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-60",
+      "subject": "Chemistry",
+      "manifestNeedsReview": true,
+      "styleReferenceUsed": true,
+      "status": "not_released",
+      "sourceLabel": null,
+      "storedExplanationStatus": null,
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-61",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-62",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-69",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-71",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-79",
+      "subject": "Chemistry",
+      "manifestNeedsReview": true,
+      "styleReferenceUsed": true,
+      "status": "not_released",
+      "sourceLabel": null,
+      "storedExplanationStatus": null,
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-83",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-86",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-87",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "chem-part2-md-Chemistry-89",
+      "subject": "Chemistry",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-4",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-7",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-27",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-28",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-43",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-45",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-47",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part1-md-Physics-48",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part2-md-Physics-70",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part2-md-Physics-72",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part2-md-Physics-85",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "phys-part2-md-Physics-88",
+      "subject": "Physics",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part1-md-Biology-8",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part1-md-Biology-16",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part1-md-Biology-25",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part1-md-Biology-27",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part1-md-Biology-40",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part2-md-Biology-54",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part2.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part2-md-Biology-57",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part2.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    },
+    {
+      "externalId": "bio-part2-md-Biology-97",
+      "subject": "Biology",
+      "manifestNeedsReview": false,
+      "styleReferenceUsed": true,
+      "status": "regenerated_and_active",
+      "sourceLabel": "Owner-provided Markdown · bio_part2.md · Biology",
+      "storedExplanationStatus": "approved",
+      "styleReasons": []
+    }
+  ]
+}

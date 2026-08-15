@@ -1,0 +1,10 @@
+{
+  "auditedAt": "2026-08-15T10:54:36.812Z",
+  "modelBankUrl": "http://127.0.0.1:3000/manus-storage/jamb_high_yield_practice_bank_1000_natural_explanations_817e6822.json",
+  "totalQuestions": 1000,
+  "templateStyleFlagged": 0,
+  "flagged": [],
+  "shortExplanationThresholdWords": 25,
+  "shortExplanationCount": 838,
+  "result": "pass"
+}

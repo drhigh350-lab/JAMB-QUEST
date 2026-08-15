@@ -11,4 +11,9 @@ describe("natural explanation style gate", () => {
     const authentic = "Aqua regia contains three volumes of concentrated hydrochloric acid and one volume of nitric acid. Nitric acid oxidises the metal while chloride ions stabilise it in solution, so the mixture can dissolve gold even though either acid alone cannot.";
     expect(naturalExplanationReasons(authentic)).toEqual([]);
   });
+
+  it("accepts model-bank wording after label-only repair", () => {
+    const repaired = "The iodine test is used to detect starch because iodine forms a characteristic blue-black complex with starch molecules. Iodine fits into the helical amylose fraction of starch, producing the intense blue-black colour that identifies starch.";
+    expect(naturalExplanationReasons(repaired)).toEqual([]);
+  });
 });
