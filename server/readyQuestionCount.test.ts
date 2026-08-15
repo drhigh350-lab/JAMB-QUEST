@@ -27,13 +27,14 @@ describe("ready question count", () => {
     const html = renderToStaticMarkup(React.createElement(Home, { ...baseProps, questionCount: 1975, questionCountReady: true }));
     expect(html).toContain('data-testid="ready-question-count"');
     expect(html).toContain('data-ready="true"');
-    expect(html).toContain("1,975 JAMB questions");
+    expect(html).toContain("JAMB Quest ready");
+    expect(html).toContain("1,975 practice questions");
   });
 
   it("marks the count as unsettled while the authorised-question query is still loading", () => {
     const html = renderToStaticMarkup(React.createElement(Home, { ...baseProps, questionCount: 1000, questionCountReady: false }));
     expect(html).toContain('data-ready="false"');
-    expect(html).toContain("Loading JAMB questions");
+    expect(html).toContain("Preparing JAMB Quest");
     expect(html).not.toContain("1,000");
   });
 });

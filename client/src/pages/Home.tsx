@@ -123,7 +123,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const lekkiChapters = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster · Chapter")).map((item) => item.topic).sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
   const selectedState = comeback ?? guestComeback();
   const visibleQuestionCount = questionCountReady ? questionCount : null;
-  const visibleQuestionLabel = visibleQuestionCount === null ? "Loading JAMB questions" : `${visibleQuestionCount.toLocaleString()} playable JAMB questions`;
+  const visibleQuestionLabel = visibleQuestionCount === null ? "Preparing your JAMB Quest system" : `${visibleQuestionCount.toLocaleString()} practice questions`;
   const dailyMission = selectDailyMission({ weakTopics, fallbackSubject: selectedSubject, wrongIds: progress.wrongIds, recoveryPending: selectedState.recoveryPending });
   const roundAnalytics = summariseRoundAnalytics(examHistory);
   const overallAccuracy = progress.totalAnswered ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
@@ -133,7 +133,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const liveMessages = [
     selectedState.today.completedMinimum ? "Today’s minimum is complete. Protect the streak with one more deliberate round." : `${selectedState.dailyMinimum - Math.min(selectedState.dailyMinimum, selectedState.today.questionsAnswered)} marks remain in today’s system.`,
     weakTopics[0] ? `Live focus: ${weakTopics[0].topic} is ready for a repair drill.` : "Live focus: finish your diagnostic to reveal the first weak topic.",
-    visibleQuestionCount === null ? "Loading the full JAMB question bank now." : `Question bank ready: ${visibleQuestionCount.toLocaleString()} playable JAMB questions are available now.`,
+    visibleQuestionCount === null ? "Preparing your JAMB Quest system now." : `${visibleQuestionCount.toLocaleString()} practice questions are ready to support today’s system.`,
   ];
   const [liveMessageIndex, setLiveMessageIndex] = useState(0);
   useEffect(() => {
@@ -141,7 +141,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
     return () => window.clearInterval(timer);
   }, [liveMessages.length]);
   const liveMessage = liveMessages[liveMessageIndex % liveMessages.length];
-  const entranceLine = activeTab === "practice" ? visibleQuestionCount === null ? "Loading the full JAMB question bank." : `${visibleQuestionCount.toLocaleString()} playable JAMB questions. Choose a subject and begin.` : activeTab === "progress" ? "Your evidence is ready. Turn the next miss into a focused repair." : activeTab === "profile" ? "Your study profile keeps useful marks and preferences together." : "Focused preparation. Clear weaknesses. Better next moves.";
+  const entranceLine = activeTab === "practice" ? `Build toward ${targetLabel} with a system.` : activeTab === "progress" ? "Your evidence is ready. Turn the next miss into a focused repair." : activeTab === "profile" ? "Your study profile keeps useful marks and preferences together." : "Focused preparation. Clear weaknesses. Better next moves.";
   useEffect(() => {
     const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const updateMotion = () => setPrefersReducedMotion(motion.matches);
@@ -197,18 +197,18 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <header className="site-header page-shell entrance-item entrance-nav">
-      <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span><strong>JAMB</strong><span>QUEST</span><small>QUESTION BANK</small></span></button>
+      <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span><strong>JAMB</strong><span>QUEST</span><small>YOUR STUDY SYSTEM</small></span></button>
       <nav className="header-nav" aria-label="Primary navigation">
         {tabItems.slice(0, 2).map(({ id, label }) => <button key={id} className={`header-tab ${activeTab === id ? "active" : ""}`} onClick={() => setActiveTab(id)}>{label}</button>)}
-        <span className={`header-status ${pwa.isOnline ? "" : "offline"}`} data-testid="ready-question-count" data-ready={questionCountReady ? "true" : "false"}><i /> {!questionCountReady || loading ? "Loading JAMB questions" : pwa.isOnline ? `${questionCount.toLocaleString()} JAMB questions` : "Offline questions ready"}</span>
+        <span className={`header-status ${pwa.isOnline ? "" : "offline"}`} data-testid="ready-question-count" data-ready={questionCountReady ? "true" : "false"}><i /> {!questionCountReady || loading ? "Preparing JAMB Quest" : pwa.isOnline ? "JAMB Quest ready" : "Offline study ready"}</span>
         {auth.isAuthenticated ? <button className="profile-trigger" onClick={() => setActiveTab("profile")}><span>{auth.profileName.slice(0, 1).toUpperCase()}</span><b>{auth.profileName}</b></button> : <button className="sign-in-trigger" onClick={startLogin} disabled={auth.loading}><LogIn size={14} /> {auth.loading ? "Checking profile" : "Save my marks"}</button>}
       </nav>
     </header>
     {loadError && <div className="load-error page-shell"><span>{loadError}</span><button className="text-button" onClick={onRetryLoad}>Try again <ArrowRight size={14} /></button></div>}
 
     <section className="tab-hero page-shell compact-hero entrance-item entrance-hero">
-      <div><span className="eyebrow">{activeTab === "practice" ? "JAMB QUESTION BANK" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>JAMB<br /><em>QUESTIONS.</em></> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? visibleQuestionCount === null ? "Loading the full JAMB question bank before showing the total." : `Choose a subject, a Lekki chapter, or today’s mission. ${visibleQuestionLabel} are ready now.` : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you one focused question bank for practice, correction, and targeted improvement."}</p><span className="hero-typewriter" role="status" aria-live="polite"><b>›</b> {typedEntrance}<i aria-hidden="true" /></span>{activeTab === "practice" && <span className="live-writing" role="status" aria-live="polite"><i aria-hidden="true" /><b>LIVE BANK</b> {liveMessage}</span>}</div>
-      <div className="tab-hero-stats">{activeTab === "practice" ? <><div><strong>{visibleQuestionCount?.toLocaleString() ?? "—"}</strong><span>JAMB questions</span></div><div><strong>4</strong><span>core subjects</span></div><div><strong>13</strong><span>Lekki chapters</span></div></> : <><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day system</span></div><div><strong>{progress.roundsPlayed}</strong><span>rounds</span></div></>}</div>
+      <div><span className="eyebrow">{activeTab === "practice" ? "YOUR JAMB QUEST SYSTEM" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward<br /><em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? visibleQuestionCount === null ? "Preparing your study system before showing the practice total." : `Your goal is built through daily action: choose a subject, a Lekki chapter, or today’s mission. ${visibleQuestionLabel} are ready when you are.` : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you focused practice, correction, and targeted improvement."}</p><span className="hero-typewriter" role="status" aria-live="polite"><b>›</b> {typedEntrance}<i aria-hidden="true" /></span>{activeTab === "practice" && <span className="live-writing" role="status" aria-live="polite"><i aria-hidden="true" /><b>LIVE DESK</b> {liveMessage}</span>}</div>
+      <div className="tab-hero-stats">{activeTab === "practice" ? <><div><strong>{auth.isAuthenticated ? auth.targetScore : "—"}</strong><span>your goal</span></div><div><strong>4</strong><span>core subjects</span></div><div><strong>13</strong><span>Lekki chapters</span></div></> : <><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day system</span></div><div><strong>{progress.roundsPlayed}</strong><span>rounds</span></div></>}</div>
     </section>
 
     <div className="tab-content page-shell">
@@ -270,7 +270,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
         <section className="about-board about-mini tab-section"><div><span className="eyebrow">YOUR QUESTION BANK</span><h2>{questionCount.toLocaleString()} questions, ready when you are.</h2><p>JAMB Quest keeps your preparation simple: no package hunting, no confusing sets—just focused practice and evidence-led improvement.</p></div><button className="button button-dark" onClick={() => setActiveTab("practice")}>Go to practice <ArrowRight size={16} /></button></section>
       </>}
     </div>
-    <footer className="site-footer page-shell"><div className="footer-brand"><span className="brand-symbol brand-symbol-small" aria-hidden="true"><i /><i /><i /><i /></span><span>JAMB Quest / Question Bank</span></div><span>Practice. Review. Improve.</span></footer>
+    <footer className="site-footer page-shell"><div className="footer-brand"><span className="brand-symbol brand-symbol-small" aria-hidden="true"><i /><i /><i /><i /></span><span>JAMB Quest / Your study system</span></div><span>Build toward your goal with a system.</span></footer>
     <nav className="app-tabbar" aria-label="Study sections">{tabItems.map(({ id, label, icon: Icon }) => <button key={id} className={activeTab === id ? "active" : ""} onClick={() => setActiveTab(id)} aria-current={activeTab === id ? "page" : undefined}><Icon size={19} /><span>{label}</span></button>)}</nav>
     {auth.isAuthenticated && <ProfilePanel open={profileOpen} displayName={auth.profileName} targetScore={auth.targetScore} totalAnswered={progress.totalAnswered} accuracy={overallAccuracy} onClose={() => setProfileOpen(false)} onSave={auth.onSaveProfile} onLogout={auth.onLogout} saving={auth.savingProfile} />}
   </main>;

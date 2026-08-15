@@ -12,9 +12,12 @@ try {
   const count = page.locator('[data-testid="ready-question-count"]');
   await count.waitFor({ state: "visible", timeout: 30_000 });
   await page.waitForFunction(() => document.querySelector('[data-testid="ready-question-count"]')?.getAttribute("data-ready") === "true", undefined, { timeout: 30_000 });
-  const text = (await count.innerText()).trim().toLowerCase();
-  if (text !== `${expected.toLocaleString()} jamb questions`) throw new Error(`Expected real settled count ${expected.toLocaleString()}, received "${text}".`);
-  console.log(JSON.stringify({ verified: true, expected, text, settled: true, source: "real Home flow public authorised-question query" }, null, 2));
+  const status = (await count.innerText()).trim().toLowerCase();
+  const pageText = (await page.locator("main").innerText()).toLowerCase();
+  const expectedPracticeText = `${expected.toLocaleString()} practice questions`;
+  if (status !== "jamb quest ready") throw new Error(`Expected the settled JAMB Quest status, received "${status}".`);
+  if (!pageText.includes(expectedPracticeText)) throw new Error(`Expected supporting practice total ${expected.toLocaleString()}, but it was not rendered in the Home launch copy.`);
+  console.log(JSON.stringify({ verified: true, expected, status, supportingCount: expectedPracticeText, settled: true, source: "real Home flow public authorised-question query" }, null, 2));
 } finally {
   await browser.close();
 }
