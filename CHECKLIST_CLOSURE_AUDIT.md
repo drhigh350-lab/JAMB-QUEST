@@ -12,11 +12,22 @@ The learner confirmed that a saved Study question appeared in **Progress → Sav
 | Persist authenticated saved questions in Progress | **Closed** | A live signed-in learner saved and reopened an exact question from Progress. |
 | Browser/DB-backed exact saved-question flow | **Closed** | User flow confirmation plus database evidence of persisted bookmarks. |
 
+## Item 2 — Completed: signed-in profile and learner-account flow
+
+The learner changed and saved a profile target, completed a Study round, refreshed the app, and confirmed the saved target and updated round count persisted. The learner then signed out and confirmed the header returned to the signed-out **“Save my marks”** state. Database evidence recorded a profile update at **2026-08-15 10:34:05** and a completed round at **2026-08-15 10:26:45**, without disclosing profile values or identity.
+
+| Checklist entries | Status | Evidence |
+|---|---|---|
+| Sign-in-aware UI, signed-out fallback, profile persistence, quiz flow, and source-label behavior | **Closed** | Live user account flow, deterministic learner-card coverage, and the unified topic-only learner-facing question format. |
+| Historical upgrade checkpoint and future-upload notes | **Closed** | The project now has repeatable trusted-source intake scripts, source-safe validation, and current checkpoint documentation. |
+| Real signed-in profile, round sync, reload persistence, logout fallback, and source labels | **Closed** | Live profile save, Study-round completion, reload, and logout confirmation; persisted profile and round timestamps verified in the database. |
+| Broad comeback/provenance/notification/responsive verification | **Closed** | Existing browser coverage plus live reminder delivery and account-flow confirmation. |
+
 ## Remaining work classification
 
 | Priority | Legacy checklist entries | Classification | Next honest action |
 |---|---|---|---|
-| **Next core verification** | Sign-in-aware UI, profile persistence, and broad source-label checks | **Partly superseded verification** | Run a concise signed-in profile and signed-out fallback regression, then close the older broad entries with current evidence. |
+| **Next core verification** | Sign-in-aware UI, profile persistence, and broad source-label checks | **Completed** | Closed as Item 2 using live learner confirmation and persisted profile/round evidence. |
 | **Next reminder evidence** | Recurring callback and no-duplicate reminder proof | **Live operational verification** | Capture one scheduled eligible reminder and a second no-duplicate decision from the deployed scheduler when the timing permits; do not manufacture reminder history. |
 | **Explanation quality** | Formulaic AI-written explanation cleanup and regeneration | **Content-quality follow-up** | Audit only existing generated explanations against the current style gate; retain or hold records rather than inventing replacements. |
 | **Question-bank source review** | Remaining eligible authentic-question enrichment | **Source-dependent** | Continue only when a clean, answer-safe owner batch is supplied. Existing trusted owner batches are already directly imported. |
