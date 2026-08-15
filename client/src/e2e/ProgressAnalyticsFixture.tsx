@@ -30,7 +30,7 @@ export default function ProgressAnalyticsFixture() {
     canReview
     onRetryLoad={() => undefined}
     onStart={(config) => setLaunchedConfig(JSON.stringify(config))}
-    auth={{ loading: false, isAuthenticated: true, profileName: "Fixture Learner", targetScore: 380, onLogout: () => undefined, onSaveProfile: () => undefined, savingProfile: false }}
+    auth={{ loading: false, isAuthenticated: true, profileName: "Fixture Learner", targetScore: 345, onLogout: () => undefined, onSaveProfile: () => undefined, savingProfile: false }}
     questionCount={1975}
     questionCountReady
     questionSources={[]}

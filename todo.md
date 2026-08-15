@@ -181,7 +181,7 @@
 - [x] Generate and quality-check Biology explanation batch 5 with the same structured six-sentence contract while the richer Markdown source is pending.
 - [x] Integrate only the approved Biology batch 5 records and verify the combined asset and real QuestionCard path.
 - [x] Search the authorised Drive corpus for The Lekki Headmaster materials and stage any matching files with explicit novel provenance and verification-pending status.
-- [ ] Validate any Lekki Headmaster question keys and explanations before adding them to gameplay; do not represent staged material as verified official content until checked.
+- [x] Validate any Lekki Headmaster question keys and explanations before adding them to gameplay; do not represent staged material as verified official content until checked. Superseded by the owner-confirmed direct-release instruction: 109 supplied keyed questions were structurally validated and released without inventing explanations; no official-status claim is made.
 - [x] Preserve the uniform learner-facing format while keeping novel provenance in the internal source ledger.
 
 - [x] Add a Lekki Headmaster staging/import path that writes its verification-pending source metadata into the same internal source ledger used by other authorised question batches without exposing source-set labels in gameplay.
@@ -202,3 +202,10 @@
 - [ ] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence.
 - [x] Identify the explicitly traceable submitted-rich AI-conditioned explanation set and document its regenerated-versus-withheld status.
 - [ ] Identify every remaining historically AI-written explanation set by source and prove each was regenerated to the authentic-style contract or withheld from gameplay.
+- [x] Compact the Practice and Progress interfaces into a small number of grouped, tappable panels so the app does not require long continuous scrolling to reach core actions. Mobile and desktop visual review plus topic and Progress interaction fixtures passed.
+- [x] Replace permanent 380 hero messaging with the learner’s own saved target score while preserving the comeback theme. The hero now builds toward the signed-in learner’s target, while guests see “your goal”; the fixed-score reminder copy was removed.
+- [x] Release the owner-confirmed curated Lekki Headmaster questions directly, preserving their answer keys and allowing concise or absent explanations; 109 keyed four-option records were released with zero structural holds or duplicates.
+- [x] Use the supplied novel only as optional future source support; do not delay the direct curated-question release for full-novel OCR. The owner-confirmed keyed batch is the release basis.
+- [x] Verify the direct novel-question import and learner cards with characters, dialogue, settings, chronology, and locations represented when present in the owner-curated source. Database verification confirmed 109 active, approved records; learner-card and structural regressions pass.
+- [x] Complete and verify the compact grouped-card home interface on mobile and desktop, including the learner-target-led hero copy.
+- [x] Add a visible compact Lekki Headmaster launch action so the released novel questions are easy to find from Practice.

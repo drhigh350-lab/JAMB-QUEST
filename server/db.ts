@@ -631,7 +631,7 @@ export async function sendDailyComebackReminders() {
     const results = await sendLearnerPush(
       preference.userId,
       recovery ? "JAMB Quest: your comeback is ready" : "JAMB Quest: run today’s system",
-      recovery ? "One small recovery review is enough to restart the rhythm. You are still building 380." : `Your ${system?.dailyMinimum ?? 10}-question system is waiting. Small systems build big scores.`,
+      recovery ? "One small recovery review is enough to restart the rhythm. You are still building toward your goal." : `Your ${system?.dailyMinimum ?? 10}-question system is waiting. Small systems build big scores.`,
       "/",
     );
     if (results.some((result) => result.delivered)) {

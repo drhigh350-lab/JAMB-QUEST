@@ -19,7 +19,7 @@ for (let attempt = 0; attempt < 3 && !serviceWorkerReady; attempt += 1) {
 if (!serviceWorkerReady) throw new Error("Service worker did not become ready after update navigation retries");
 await context.setOffline(true);
 await page.reload({ waitUntil: "domcontentloaded" });
-await page.getByRole("heading", { name: /smash 380/i }).waitFor();
+await page.getByRole("heading", { name: /build toward/i }).waitFor();
 await page.getByRole("button", { name: "Practice", exact: true }).last().waitFor({ state: "visible" });
 await page.getByRole("button", { name: "About", exact: true }).last().waitFor({ state: "visible" });
 

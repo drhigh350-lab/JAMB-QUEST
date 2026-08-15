@@ -62,13 +62,19 @@ The 838 short model explanations are not automatically rewritten or removed beca
 
 `reports/model_bank_answer_integrity_audit.json` separately confirms zero structural answer-integrity violations across all 1,000 active model records. The audit verifies non-empty question text; exactly four non-empty, distinct options; no embedded answer or explanation spillover in options; a valid A–D key; and exact agreement between answer text and the keyed option. It deliberately does **not** claim factual correctness, absence of every ambiguity, or syllabus validity beyond metadata. Those content-level claims require trusted-source or expert review and remain outside this deterministic closure.
 
+### Owner-confirmed Lekki Headmaster direct release
+
+The owner confirmed that the previously supplied curated Lekki Headmaster question source is the intended release basis and that a long explanation is not required for each item. The direct importer accepted **109** keyed, four-option questions from `lekki-headmaster-120-keyed-staging.json`; it found **zero** duplicate questions and **zero** structural holds. Database verification confirms that all 109 records in the new active source are approved and playable. The 17 malformed or missing-key records excluded by the earlier parser remain outside this release.
+
+The learner-facing Practice desk now includes a compact **Topics + Lekki novel** panel, with a visible one-tap The Lekki Headmaster 20-question study launch. This provides a direct path to the released source without turning the home screen into a longer feed.
+
 ## Item 4 — In progress: real reminder no-duplicate evidence
 
 The deployed project-level Heartbeat job is present and enabled: `daily-comeback-reminder` (task UID `aLjy5X6DvvsNmXBwD69jdf`) posts to `/api/scheduled/daily-comeback` on the six-field UTC schedule `0 0 19 * * *`. It has two successful automatic callback records, on 2026-08-13 and 2026-08-14, with HTTP 200 responses and no retries. Both correctly reported `totalEnabled: 0`, `sent: 0`, and `skipped: 0`; therefore they prove operational scheduling and safe empty-device handling, but do **not** constitute an eligible reminder or duplicate-prevention result.
 
 The next scheduled execution is 2026-08-15 17:31 UTC. The outstanding verification remains intentionally open until the live schedule encounters an opted-in, incomplete learner and records a real send, followed by a later eligible check that records the no-duplicate decision. No manual trigger or fabricated history will be substituted for that evidence.
 | **Question-bank source review** | Remaining eligible authentic-question enrichment | **Source-dependent** | Continue only when a clean, answer-safe owner batch is supplied. Existing trusted owner batches are already directly imported. |
-| **Lekki Headmaster** | Validate keys and explanations | **Source-dependent and paused** | Await a cleaner source with reliable answer-key alignment and question-specific explanations. |
+| **Lekki Headmaster** | Owner-confirmed 109-question keyed direct batch | **Released** | Directly released with answer keys and no required long explanations; 17 missing-key or malformed records remain withheld. |
 | **Future rich Markdown batch** | Next generated/enriched explanation batch | **Awaiting source** | Use the submitted rich source only when the owner supplies it. |
 | **Topic-plus-difficulty search** | Search and enhanced filtering | **Intentionally deferred** | Do not build until metadata is reliable and the owner explicitly reprioritises it. |
 | **Flashcards, formula vault, AI explanation levels, diagrams, error classification** | Broader learning modules | **Intentionally deferred** | Keep outside the focused JAMB Quest MVP unless explicitly reprioritised. |

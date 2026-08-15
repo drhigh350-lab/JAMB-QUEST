@@ -7,14 +7,15 @@ try {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   await page.route("**/sw.js*", (route) => route.abort());
   await page.goto(`${baseUrl}/?e2eTopicPracticeFixture=1`, { waitUntil: "commit", timeout: 30_000 });
-  const panel = page.locator(".topic-practice-section");
+  const panel = page.locator(".compact-panel-maize");
   await panel.waitFor({ state: "visible", timeout: 30_000 });
+  await panel.evaluate((element) => { element.open = true; });
   const select = panel.locator("select");
-  await page.waitForFunction(() => document.querySelectorAll(".topic-practice-section select option").length > 1, undefined, { timeout: 30_000 });
+  await page.waitForFunction(() => document.querySelectorAll(".compact-panel-maize select option").length > 1, undefined, { timeout: 30_000 });
   const topic = await select.locator("option").nth(1).textContent();
   if (!topic?.trim()) throw new Error("The Biology topic selector did not expose a verified topic.");
   await select.selectOption({ label: topic.trim() });
-  await panel.getByRole("button", { name: /Start 20-question topic drill/i }).click();
+  await panel.getByRole("button", { name: /Start topic drill/i }).click();
   const launchedConfig = await page.getByTestId("fixture-launched-config").textContent({ timeout: 10_000 });
   const result = JSON.parse(launchedConfig || "{}");
   if (result.subject !== "Biology") throw new Error(`Expected a Biology drill, received ${result.subject ?? "no subject"}.`);
