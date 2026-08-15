@@ -191,3 +191,4 @@
 - [x] Simplify the About page so JAMB Quest presents one unified question bank without learner-facing source packages or file labels.
 - [x] Diagnose and repair the daily browser-reminder delivery path, including subscription, preference, schedule, and device-feedback verification.
 - [x] Parse, validate, and safely release the newly supplied Chemistry questions, preserving their authentic explanations while holding any answer-uncertain or structurally malformed records.
+- [x] Import the trusted owner-provided Chemistry questions 51–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
