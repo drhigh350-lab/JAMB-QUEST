@@ -1,0 +1,342 @@
+[
+  {
+    "externalId": "chem-docx-076",
+    "subject": "Chemistry",
+    "topic": "Chemistry and industry",
+    "difficulty": "medium",
+    "question": "What is the number of unpaired electrons in a neutral chlorine atom (Z = 17)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use electron configuration and Hund's rule: electrons fill orbitals to maximize unpaired spins.\nCl (Z=17): 1s2 2s2 2p6 3s2 3p5, so the 3p subshell has five electrons in three orbitals.\nFilling gives two orbitals paired and one singly occupied, so there is one unpaired electron.\nTherefore the number of unpaired electrons is 1 — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-077",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which of the following compounds exhibits functional group isomerism with ethanoic acid (\\text{CH}_3\\text{COOH})?",
+    "options": [
+      "Methanoic acid",
+      "Methyl methanoate",
+      "Propanone",
+      "Ethanol"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: Functional-group isomerism occurs when compounds share the same molecular formula but contain different functional groups.\nEthanoic acid CH3COOH has molecular formula C2H4O2.\nMethyl methanoate (HCOOCH3) also has formula C2H4O2 but is an ester, not a carboxylic acid, so it is a functional-group isomer.\nTherefore the correct option is B: methyl methanoate.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-080",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "A solution with a \\text{pH} greater than 7 turns red litmus paper",
+    "options": [
+      "blue",
+      "yellow",
+      "colorless",
+      "orange"
+    ],
+    "answerIndex": 0,
+    "explanation": "Principle: A solution with pH > 7 is basic (alkaline) and bases turn red litmus blue.\nKey reasoning: Basic solutions contain excess OH- ions that change red litmus paper to blue.\nApplication: Given the solution has pH > 7, it is alkaline so red litmus will turn blue.\nConclusion: Correct answer A — blue.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-081",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The functional group present in alkenes is",
+    "options": [
+      "\\text{C}\\equiv\\text{C}",
+      "\\text{C}=\\text{C}",
+      "\\text{C}-\\text{C}",
+      "-\\text{OH}"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: Alkenes are unsaturated hydrocarbons defined by a carbon–carbon double bond (C=C).\nReasoning: The presence of a C=C double bond gives alkenes their characteristic reactivity and formula CnH2n, unlike alkynes (C≡C), alkanes (C–C) or alcohols (-OH).\nKey match: Option B explicitly shows C=C, which is the alkene functional group.\nConclusion: Therefore the correct answer is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-082",
+    "subject": "Chemistry",
+    "topic": "Metals and their compounds",
+    "difficulty": "medium",
+    "question": "Which metal is extracted commercially from bauxite ore?",
+    "options": [
+      "Iron",
+      "Aluminium",
+      "Copper",
+      "Zinc"
+    ],
+    "answerIndex": 1,
+    "explanation": "A metal is commercially obtained from its characteristic ore, so identifying the ore identifies the metal.\nBauxite is the principal ore of aluminium and is rich in aluminium oxides/hydroxides (alumina-bearing minerals).\nAluminium is produced commercially by extracting alumina from bauxite and reducing it by electrolysis (Hall-Héroult process).\nTherefore the metal extracted from bauxite is aluminium — option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-083",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "The standard condition for temperature and pressure (STP) defines temperature and pressure as",
+    "options": [
+      "25^\\circ\\text{C} and 1\\text{ atm}",
+      "0^\\circ\\text{C} and 1\\text{ atm}",
+      "100^\\circ\\text{C} and 760\\text{ mmHg}",
+      "273\\text{ K} and 10\\text{ atm}"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: STP (standard temperature and pressure) is defined as 0°C (273.15 K) and 1 atm.\n1 atm equals 760 mmHg, and standard gas calculations (e.g., molar volume 22.4 L) use 0°C and 1 atm.\nOptions A and C give incorrect temperatures and D gives the wrong pressure, so they are eliminated.\nTherefore option B (0°C and 1 atm) matches the STP definition.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-086",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which bond type involves equal sharing of electron pairs between two non-metal atoms?",
+    "options": [
+      "Non-polar covalent bond",
+      "Polar covalent bond",
+      "Ionic bond",
+      "Metallic bond"
+    ],
+    "answerIndex": 0,
+    "explanation": "Principle: Chemical bonds form by sharing or transfer of electrons; equal sharing occurs when two atoms have identical or very similar electronegativities.\nWhen two non-metal atoms share an electron pair equally, no permanent dipole is formed and the bond is non-polar covalent.\nBy contrast, polar covalent bonds have unequal sharing, ionic bonds result from full transfer of electrons, and metallic bonds involve delocalized electrons among metal atoms.\nTherefore the correct choice is A: Non-polar covalent bond.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-087",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The principal gas responsible for acid rain is",
+    "options": [
+      "Carbon monoxide",
+      "Sulfur dioxide",
+      "Methane",
+      "Argon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: Acid rain results when acidic oxides in the atmosphere form acids by reacting with water.\nKey reactions: SO2 is oxidized to SO3 (2SO2 + O2 → 2SO3) and then SO3 + H2O → H2SO4 (sulfuric acid).\nReasoning: Large SO2 emissions from burning fossil fuels and industry produce sulfuric acid in the atmosphere, making it the main gaseous source of acid rain.\nTherefore the correct option is B. Sulfur dioxide.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-088",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "The atomic number of an element is defined as the number of",
+    "options": [
+      "neutrons in the nucleus",
+      "protons in the nucleus",
+      "nucleons in the nucleus",
+      "electrons in the outermost shell"
+    ],
+    "answerIndex": 1,
+    "explanation": "The atomic number Z is defined as the count of protons in an atom's nucleus.\nProtons set the positive nuclear charge and uniquely identify each element.\nNeutrons or nucleons relate to mass number, and outer electrons determine valency, not Z.\nTherefore the correct option is B: protons in the nucleus.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-089",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "Which gas is produced when dilute hydrochloric acid reacts with zinc metal?",
+    "options": [
+      "Oxygen",
+      "Chlorine",
+      "Hydrogen",
+      "Carbon dioxide"
+    ],
+    "answerIndex": 2,
+    "explanation": "Principle: A dilute acid reacts with an active metal to displace hydrogen, giving a salt and hydrogen gas.\nFor zinc + hydrochloric acid: Zn + 2HCl → ZnCl2 + H2, so H+ ions are reduced to H2 gas.\nThus the gaseous product is hydrogen.\nCorrect answer: C. Hydrogen.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-090",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "Which of the following organic compounds decolorizes bromine water?",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Propene"
+    ],
+    "answerIndex": 3,
+    "explanation": "Bromine water is decolorized by unsaturated compounds (alkenes/alkynes) via electrophilic addition to C=C; saturated alkanes do not react under normal conditions.\nMethane, ethane and propane are saturated alkanes with no C=C and so do not decolorize bromine water.\nPropene contains a carbon–carbon double bond which adds bromine to give a dibromoalkane, removing the brown color.\nTherefore the correct option is D: Propene.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-091",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The process of separating petroleum into its various fractions based on differences in boiling points is",
+    "options": [
+      "simple distillation",
+      "fractional distillation",
+      "steam distillation",
+      "vacuum distillation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: mixtures are separated by differences in boiling points; a fractionating column provides many vaporization–condensation stages needed for close‑boiling components.\nKey reasoning: crude oil is a complex mix of hydrocarbons with overlapping boiling ranges, so repeated equilibration is required to isolate distinct fractions.\nOther methods: simple distillation lacks multiple stages, steam distillation suits volatile immiscible compounds, and vacuum distillation is for very high‑boiling residues.\nTherefore the correct choice is fractional distillation — Option B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-092",
+    "subject": "Chemistry",
+    "topic": "Rates of reaction",
+    "difficulty": "medium",
+    "question": "The catalyst used in the Haber process for the industrial synthesis of ammonia is",
+    "options": [
+      "finely divided iron",
+      "platinum wire",
+      "nickel powder",
+      "copper turnings"
+    ],
+    "answerIndex": 0,
+    "explanation": "Catalysts increase reaction rate by providing an alternative pathway with lower activation energy without being consumed.\nHeterogeneous catalysts act at surfaces, so a finely divided form gives high surface area for adsorption of reactant molecules.\nIn the Haber process N2 and H2 are adsorbed and activated on an iron surface allowing bond breaking and recombination to form NH3.\nThus the industrial catalyst is finely divided iron — option A.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-093",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "Which of the following elements belongs to Group 17 (Halogens) of the periodic table?",
+    "options": [
+      "Calcium",
+      "Chlorine",
+      "Sodium",
+      "Argon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Group 17 elements (halogens) are nonmetals with seven valence electrons.\nChlorine (Z = 17) has electron configuration [Ne] 3s2 3p5, giving it seven valence electrons.\nCalcium is group 2, Sodium group 1, and Argon is group 18 (a noble gas), so none of them are halogens.\nTherefore the correct answer is B: Chlorine, which belongs to Group 17.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-097",
+    "subject": "Chemistry",
+    "topic": "Kinetic theory of matter and gases",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a physical change?",
+    "options": [
+      "Burning of magnesium ribbon",
+      "Rusting of an iron nail",
+      "Magnetization of an iron rod",
+      "Fermentation of glucose"
+    ],
+    "answerIndex": 2,
+    "explanation": "A physical change alters form or physical properties without producing a new chemical substance.\nMagnetization aligns domains in the iron rod but does not change iron into another compound.\nBurning, rusting, and fermentation form new substances, so they are chemical changes.\nTherefore, magnetization of an iron rod is the physical change: option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-098",
+    "subject": "Chemistry",
+    "topic": "Organic compounds",
+    "difficulty": "medium",
+    "question": "The functional group of an ester is represented as",
+    "options": [
+      "-\\text{COOH}",
+      "-\\text{COO}-",
+      "-\\text{OH}",
+      "-\\text{CHO}"
+    ],
+    "answerIndex": 1,
+    "explanation": "Principle: An ester contains a carbonyl (C=O) bonded to an oxygen that is further bonded to a carbon, commonly written as -COO- (or -COOR).\nKey reasoning: Esters form when the H of a carboxylic acid’s -OH is replaced by an alkyl from an alcohol, producing the -COO- linkage.\nConnection: Option B explicitly shows the -COO- group required for an ester.\nTherefore the correct answer is B.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-100",
+    "subject": "Chemistry",
+    "topic": "Atomic structure and bonding",
+    "difficulty": "medium",
+    "question": "In the Periodic Table, elements in the same vertical column (group) have the same number of",
+    "options": [
+      "electron shells",
+      "protons",
+      "neutrons",
+      "valence electrons"
+    ],
+    "answerIndex": 3,
+    "explanation": "Governing principle: elements in the same vertical column (group) have the same number of electrons in their outer shell (valence electrons).\nKey reasoning: atoms in a group share the same outer-shell electron configuration, which controls reactivity and bonding.\nProtons and neutrons vary with atomic number and mass down a group, and total electron shells increase, so those are not constant.\nTherefore the shared feature is valence electrons, so the correct option is D.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-101",
+    "subject": "Chemistry",
+    "topic": "Acids, bases and salts",
+    "difficulty": "medium",
+    "question": "The reaction between an alkanoic acid and an alkanol in the presence of concentrated H2SO4 is known as",
+    "options": [
+      "saponification",
+      "esterification",
+      "hydrolysis",
+      "neutralization"
+    ],
+    "answerIndex": 1,
+    "explanation": "Governing principle: An alkanoic acid reacts with an alkanol in the presence of concentrated H2SO4 to give an ester and water — an acid‑catalysed condensation.\nKey reasoning: H2SO4 protonates the carbonyl, the alcohol attacks the activated carbon, and dehydration (loss of H2O) yields the ester.\nThis reaction is the textbook definition of esterification.\nCorrect option: B (esterification).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-102",
+    "subject": "Chemistry",
+    "topic": "Chemical combination",
+    "difficulty": "medium",
+    "question": "What mass of aluminium is contained in 2.5 moles of pure aluminium metal? [Al = 27]",
+    "options": [
+      "10.8 g",
+      "54.0 g",
+      "67.5 g",
+      "135.0 g"
+    ],
+    "answerIndex": 2,
+    "explanation": "Use the relation: mass = moles × molar mass.\nMass = 2.5 mol × 27 g/mol.\nMass = 67.5 g.\nTherefore the correct option is C (67.5 g).",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  },
+  {
+    "externalId": "chem-docx-106",
+    "subject": "Chemistry",
+    "topic": "Electrolysis",
+    "difficulty": "medium",
+    "question": "During the electrolysis of concentrated sodium chloride solution (brine) using carbon electrodes, the main gas evolved at the anode is",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Chlorine",
+      "Carbon dioxide"
+    ],
+    "answerIndex": 2,
+    "explanation": "At the anode oxidation occurs and the species that is more easily discharged is oxidized.\nIn concentrated NaCl (brine) Cl– ions are preferentially oxidized at carbon anodes because oxygen evolution requires a higher practical overpotential.\nAnode half‑reaction: 2Cl– → Cl2(g) + 2e–, producing chlorine gas.\nTherefore the main gas evolved at the anode is chlorine — option C.",
+    "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 003",
+    "permissionNote": "Owner-provided Chemistry past-question DOCX supplied for JAMB Quest processing; wording and answer key preserved, explanation edited for uniform learner clarity."
+  }
+]

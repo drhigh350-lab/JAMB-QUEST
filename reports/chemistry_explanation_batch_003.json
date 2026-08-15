@@ -417,11 +417,11 @@
       "duplicateStored": false,
       "structuralReason": null,
       "status": "candidate",
-      "explanation": "Governing principle: a physical change alters form, arrangement, or physical properties without forming new chemical substances. Key reasoning: magnetization simply aligns magnetic domains in the iron rod and does not change its chemical composition, and is often reversible. Contrast: burning magnesium, rusting, and fermentation produce new chemical compounds (MgO, iron oxides, and fermentation products) so they are chemical changes. Therefore the magnetization of an iron rod is a physical change, so option C is correct.",
-      "explanationLineCount": 1,
-      "explanationWordCount": 75,
-      "explanationStatus": "hold",
-      "explanationHoldReason": "outside four-to-five-line or medium-length contract"
+      "explanation": "A physical change alters form or physical properties without producing a new chemical substance.\nMagnetization aligns domains in the iron rod but does not change iron into another compound.\nBurning, rusting, and fermentation form new substances, so they are chemical changes.\nTherefore, magnetization of an iron rod is the physical change: option C.",
+      "explanationLineCount": 4,
+      "explanationWordCount": 53,
+      "explanationStatus": "candidate",
+      "explanationHoldReason": null
     },
     {
       "externalId": "chem-docx-098",
