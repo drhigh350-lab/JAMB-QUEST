@@ -250,4 +250,4 @@
 - [x] Update explanation audit reporting for the five-line cap and substantive minimum
 - [x] Run and repair the full Vitest suite after the new syllabus and explanation gates
 - [x] Audit the existing 3,360-question playable bank for syllabus-topic coverage and explanation-cap compliance
-- [ ] Resolve or hold any legacy records that remain unmapped or exceed the explanation cap before the next batch intake
+- [x] Resolve or hold any legacy records that remain unmapped or exceed the explanation cap before the next batch intake

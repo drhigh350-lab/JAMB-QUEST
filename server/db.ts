@@ -684,10 +684,16 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
     const options = JSON.parse(row.optionsJson);
     if (!Array.isArray(options) || options.length < 4 || options.length > 5 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
     if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex >= options.length) return null;
+    const mappedTopic = resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic);
+    if (!mappedTopic) return null;
+    const explanation = row.explanation ?? "";
+    const explanationLines = explanation.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+    const readingTextWithoutExplanation = row.subject === "Use of English" && mappedTopic === "Approved reading text" && explanationLines.length === 0;
+    if (!readingTextWithoutExplanation && explanationLines.length > 5) return null;
     return {
       id: `authorised-${row.id}`,
       subject: row.subject as "Use of English" | "Biology" | "Chemistry" | "Physics",
-      topic: resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic) ?? row.topic,
+      topic: mappedTopic,
       subtopic: "Owner-provided source",
       difficulty: row.difficulty,
       question_type: "multiple_choice" as const,

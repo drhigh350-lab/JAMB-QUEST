@@ -25,6 +25,23 @@ describe("owner-provided playable question mapping", () => {
     });
   });
 
+  it("holds unmapped topics and over-cap explanations out of the quiz feed", () => {
+    const base = {
+      id: 14,
+      subject: "Physics" as const,
+      topic: "Unverified category",
+      difficulty: "medium" as const,
+      questionText: "Which quantity is measured in newtons?",
+      optionsJson: JSON.stringify(["Force", "Energy", "Power", "Pressure"]),
+      answerIndex: 0,
+      explanation: "A newton is the SI unit of force.",
+      sourceLabel: "Owner-provided source",
+    };
+    expect(toPlayableAuthorisedQuestion(base)).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 15, topic: "Motion", explanation: "One.\nTwo.\nThree.\nFour.\nFive.\nSix." })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 16, subject: "Use of English", topic: "Lekki Headmaster - Chapter 1", explanation: null })).not.toBeNull();
+  });
+
   it("rejects malformed options before the record can enter the quiz feed", () => {
     expect(toPlayableAuthorisedQuestion({
       id: 13,
