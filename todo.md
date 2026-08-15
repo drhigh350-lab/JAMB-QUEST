@@ -240,3 +240,14 @@
 - [x] Extend JAMB Quest to safely support legitimate four- and five-option question cards, answer keys, imports, and CBT keyboard selection without breaking existing four-option rounds. Validation, mapping, learner cards, and CBT keyboard A–E are covered by unit, mobile browser, build, topic, and Lekki regressions.
 - [x] Use the official four-part slanted JAMB Quest mark as the browser, PWA, and installed-app icon set. The browser favicon, Apple touch icon, and any/maskable 192px and 512px manifest assets now use the approved mark.
 - [x] Add a fast system-led opening sequence in which the official mark resolves into “Build your system. Win JAMB.” before the standard app opens, with skip and reduced-motion support. Phone review and browser verification confirm the official mark, message, skip handoff, and motion fallback.
+- [x] Cap new learner-facing explanations at 4–5 readable lines while preserving the answer reason and key teaching point; hold records that cannot stay accurate and concise.
+- [x] Map every learner-facing Biology, Chemistry, Physics, and Use-of-English topic tag to the supplied syllabus maps before release, with unmapped records held for review.
+- [x] Audit the existing playable bank against the concise-explanation and syllabus-topic gates without silently rewriting owner-supplied content.
+
+- [x] Create normalized Biology, Chemistry, Physics, and Use-of-English syllabus parent map from the supplied PDFs
+- [x] Add syllabus-backed topic resolution for authorised imports and learner-facing playable rows
+- [x] Enforce a maximum of five non-empty explanation lines in authorised import validation
+- [x] Update explanation audit reporting for the five-line cap and substantive minimum
+- [x] Run and repair the full Vitest suite after the new syllabus and explanation gates
+- [x] Audit the existing 3,360-question playable bank for syllabus-topic coverage and explanation-cap compliance
+- [ ] Resolve or hold any legacy records that remain unmapped or exceed the explanation cap before the next batch intake

@@ -1,6 +1,7 @@
 /* Field Notes Arcade: authorised question imports are validated before they can enter a distinct source ledger. */
 
 import { z } from "zod";
+import { resolveSyllabusTopic, type SyllabusSubject } from "@shared/syllabusTopicMap";
 
 const subjectSchema = z.enum(["Use of English", "Biology", "Chemistry", "Physics"]);
 
@@ -14,6 +15,10 @@ export const authorisedQuestionSchema = z.object({
   answerIndex: z.number().int().min(0),
   explanation: z.string().trim().max(4_000).optional(),
 });
+
+function explanationLineCount(explanation: string) {
+  return explanation.split(/\r?\n/).map((line) => line.trim()).filter(Boolean).length;
+}
 
 export const authorisedImportSchema = z.object({
   sourceLabel: z.string().trim().min(3).max(120),
@@ -33,6 +38,20 @@ export const authorisedImportSchema = z.object({
       });
     }
     seen.add(key);
+    if (resolveSyllabusTopic(question.subject as SyllabusSubject, question.topic) === null) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["questions", index, "topic"],
+        message: "Topic must map to an official JAMB syllabus area for the supplied subject.",
+      });
+    }
+    if (question.explanation && explanationLineCount(question.explanation) > 5) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["questions", index, "explanation"],
+        message: "Explanation must be no more than five non-empty lines.",
+      });
+    }
     if (question.answerIndex >= question.options.length) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,

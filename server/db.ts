@@ -25,6 +25,7 @@ import {
 import { ENV } from "./_core/env";
 import type { AuthorisedQuestionImport } from "./questionImport";
 import { inferTopicFromQuestion, inferVerifiedTopic } from "../shared/topicInference";
+import { resolveSyllabusTopic, type SyllabusSubject } from "../shared/syllabusTopicMap";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 let _pool: Pool | null = null;
@@ -686,7 +687,7 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
     return {
       id: `authorised-${row.id}`,
       subject: row.subject as "Use of English" | "Biology" | "Chemistry" | "Physics",
-      topic: row.topic,
+      topic: resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic) ?? row.topic,
       subtopic: "Owner-provided source",
       difficulty: row.difficulty,
       question_type: "multiple_choice" as const,
@@ -750,7 +751,7 @@ export async function importAuthorisedQuestionSet(userId: number, input: Authori
     sourceId,
     externalId: question.externalId,
     subject: question.subject,
-    topic: question.topic,
+    topic: resolveSyllabusTopic(question.subject as SyllabusSubject, question.topic) ?? question.topic,
     difficulty: question.difficulty,
     questionText: question.question,
     optionsJson: JSON.stringify(question.options),

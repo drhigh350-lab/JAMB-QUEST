@@ -2,6 +2,7 @@
 
 import { describe, expect, it } from "vitest";
 import { authorisedImportSchema } from "./questionImport";
+import { resolveSyllabusTopic } from "../shared/syllabusTopicMap";
 
 const validImport = {
   sourceLabel: "Owner-authorised practice set",
@@ -29,6 +30,22 @@ describe("authorisedImportSchema", () => {
     fiveOption.questions[0].options.push("Commensalism");
     fiveOption.questions[0].answerIndex = 4;
     expect(authorisedImportSchema.parse(fiveOption).questions[0].options).toHaveLength(5);
+  });
+
+  it("normalizes common labels to official syllabus areas", () => {
+    expect(resolveSyllabusTopic("Physics", "Mechanics")).toBe("Motion");
+    expect(resolveSyllabusTopic("Biology", "Genetics")).toBe("Heredity");
+    expect(resolveSyllabusTopic("Use of English", "Lekki Headmaster - Chapter 4")).toBe("Approved reading text");
+  });
+
+  it("rejects unmapped topics and explanations over five non-empty lines", () => {
+    const unmapped = structuredClone(validImport);
+    unmapped.questions[0].topic = "Unverified random category";
+    expect(authorisedImportSchema.safeParse(unmapped).success).toBe(false);
+
+    const tooLong = structuredClone(validImport);
+    tooLong.questions[0].explanation = "One.\nTwo.\nThree.\nFour.\nFive.\nSix.";
+    expect(authorisedImportSchema.safeParse(tooLong).success).toBe(false);
   });
 
   it("rejects duplicate external IDs and invalid answer bounds", () => {
