@@ -1,0 +1,188 @@
+{
+  "batchNumber": 11,
+  "inputCount": 20,
+  "readyCount": 0,
+  "holdCount": 20,
+  "records": [
+    {
+      "id": 30423,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30424,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30425,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30426,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30427,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30428,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30429,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30430,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30431,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30432,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30433,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30434,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30435,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30436,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30437,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30438,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30439,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30440,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30441,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    },
+    {
+      "id": 30442,
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "explanation": "",
+      "lineCount": 0,
+      "wordCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+    }
+  ]
+}

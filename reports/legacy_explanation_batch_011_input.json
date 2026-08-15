@@ -1,0 +1,328 @@
+{
+  "batchNumber": 11,
+  "batchSize": 20,
+  "availableCandidates": 535,
+  "stagedCount": 20,
+  "records": [
+    {
+      "id": 30423,
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "question": "What mode of nutrition is exhibited by Euglena, which acts as an autotroph in sunlight and a heterotroph in darkness?",
+      "options": [
+        "Parasitic",
+        "Holozoic",
+        "Mixotrophic",
+        "Saprophytic"
+      ],
+      "answerIndex": 2,
+      "answerText": "Mixotrophic",
+      "originalExplanation": "The concept tested is modes of nutrition: autotrophy, heterotrophy and mixotrophy, where an organism can obtain carbon by photosynthesis or by taking up/ingesting organic matter.\nEuglena has chloroplasts with chlorophyll and performs photosynthesis in sunlight, so it behaves as an autotroph under light conditions.\nIn darkness Euglena obtains organic nutrients from its surroundings (a heterotrophic mode), allowing it to survive without photosynthesis.\nAn organism that can switch between autotrophy and heterotrophy is termed mixotrophic, which directly describes Euglena's dual nutrition and makes 'Mixotrophic' correct.\nParasitic nutrition requires a living host for nutrients, holozoic nutrition involves ingesting solid food particles, and saprophytic nutrition involves extracellular digestion of dead matter—none match Euglena's light-dependent switching.\nThus the best option is Mixotrophic because it specifically denotes the ability to perform photosynthesis in light and take up organic nutrients in darkness.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30424,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "question": "The conversion of ammonium compounds into nitrites by soil bacteria like Nitrosomonas is called:",
+      "options": [
+        "Nitrification",
+        "Denitrification",
+        "Nitrogen fixation",
+        "Decay"
+      ],
+      "answerIndex": 0,
+      "answerText": "Nitrification",
+      "originalExplanation": "Nitrification is the aerobic oxidation of ammonium (NH4+) first to nitrite (NO2-) and then to nitrate (NO3-) by nitrifying bacteria.\nNitrosomonas specifically oxidizes ammonium to nitrite, so the correct answer 'Nitrification' names this conversion.\nThe nitrification process normally occurs in two steps, the second being Nitrobacter converting nitrite to nitrate.\nDenitrification is the opposite process under anaerobic conditions, reducing nitrate to nitrogen gas (N2), so it is not correct here.\nNitrogen fixation converts atmospheric N2 into ammonia or ammonium and is therefore a different part of the nitrogen cycle.\nDecay (ammonification) is the breakdown of organic nitrogen into ammonium, not the oxidative conversion of ammonium into nitrite.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30425,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "question": "In plant growth, the swelling of seeds due to the absorption of water prior to germination is known as:",
+      "options": [
+        "Plasmolysis",
+        "Imbibition",
+        "Turgidity",
+        "Diffusion"
+      ],
+      "answerIndex": 1,
+      "answerText": "Imbibition",
+      "originalExplanation": "The term describes the rapid uptake of water by dry seeds and other colloidal materials, causing them to swell prior to germination.\nImbibition is the correct answer: it is the absorption of water by hydrophilic colloids in seeds (starch, proteins) leading to swelling and the start of germination.\nPlasmolysis is the loss of water from cells in a hypertonic medium, causing shrinkage and membrane separation from the wall, so it is the opposite of swelling.\nTurgidity denotes cells being full of water and pressing against the cell wall, a general hydrated state but not the specific colloidal swelling termed imbibition.\nDiffusion is passive movement down a concentration gradient and, while water molecules move during imbibition, diffusion alone does not explain the adhesive and capillary forces responsible for the rapid swelling.\nThus imbibition best describes seed swelling before germination because it emphasises water uptake by dry colloids and the mechanical expansion that triggers metabolic activity.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30426,
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "question": "The condition resulting from a lack of iron in human diet which impairs hemoglobin synthesis is:",
+      "options": [
+        "Goitre",
+        "Anaemia",
+        "Kwashiorkor",
+        "Scurvy"
+      ],
+      "answerIndex": 1,
+      "answerText": "Anaemia",
+      "originalExplanation": "Iron deficiency leads to reduced synthesis of haemoglobin, causing anaemia, typically the microcytic hypochromic type seen in severe iron lack.\nIron is an essential component of the haem (heme) group in haemoglobin and is required for binding and transporting oxygen in red blood cells.\nWhen dietary iron is insufficient, haemoglobin production falls, fewer or smaller erythrocytes are produced, and symptoms such as pallor, fatigue and shortness of breath develop.\nThe correct option, Anaemia, names the condition resulting from inadequate iron impairing haemoglobin synthesis and oxygen transport capacity.\nGoitre is associated with iodine deficiency and thyroid enlargement, not with haemoglobin or iron metabolism, so it is not the correct choice.\nKwashiorkor results from severe protein deficiency (oedema, fatty liver) and scurvy from vitamin C deficiency (bleeding gums, poor wound healing); neither directly causes impaired haemoglobin synthesis due to iron lack.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30427,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which structural unit in mammalian lungs serves as the primary site for gaseous exchange?",
+      "options": [
+        "Bronchus",
+        "Bronchiole",
+        "Alveolus",
+        "Trachea"
+      ],
+      "answerIndex": 2,
+      "answerText": "Alveolus",
+      "originalExplanation": "Gaseous exchange in mammalian lungs occurs at a microscopic structural unit where air and blood meet for diffusion.\nAn alveolus is a tiny sac lined by a single layer of squamous epithelial cells, coated with surfactant and closely surrounded by a dense capillary network.\nLarge collective surface area, a very thin respiratory membrane, a moist surface and rich blood supply allow rapid diffusion of O2 into blood and CO2 out, so alveoli are the primary exchange sites.\nThe trachea and bronchi are larger, cartilaginous, ciliated airways that mainly conduct, warm and filter air and are too thick‑walled for efficient gas diffusion.\nBronchioles are smaller conducting airways; some respiratory bronchioles bear a few alveoli, but the majority of exchange occurs in the alveolar sacs and individual alveoli.\nHence Alveolus is correct because it is the specialised thin‑walled, capillary‑rich sac adapted for gas diffusion, unlike the other primarily conducting structures.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30428,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Evolutionary anatomical structures that have similar basic origins and structures but perform different functions, such as forelimbs of humans and whales, are:",
+      "options": [
+        "Analogous structures",
+        "Homologous structures",
+        "Vestigial structures",
+        "Convergent structures"
+      ],
+      "answerIndex": 1,
+      "answerText": "Homologous structures",
+      "originalExplanation": "Homologous structures are anatomical parts that share a common evolutionary origin and similar internal structure but may have different functions, as in the forelimbs of humans and whales derived from a tetrapod limb pattern.\nThe correct option is Homologous structures because human and whale forelimbs exhibit the same fundamental bone arrangement (humerus, radius, ulna, carpals) indicating common ancestry despite functional differences.\nAnalogous structures perform similar functions but arise from different developmental origins and do not share the same underlying anatomy (for example, insect wings vs bird wings).\nVestigial structures are reduced or nonfunctional remnants of organs that were functional in ancestors (e.g., human appendix) and so do not describe fully functional but differently used limbs.\nThe term 'convergent structures' is not standardly used; convergent evolution describes the independent evolution of similar features in unrelated lineages, producing analogous rather than homologous structures.\nTherefore homologous structures best fits the stem: same basic origin and structure with divergent function, distinguishing it from analogous or vestigial cases.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30429,
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "question": "The process of maintaining a constant internal environment despite fluctuating external conditions in living organisms is:",
+      "options": [
+        "Osmoregulation",
+        "Homeostasis",
+        "Thermoregulation",
+        "Metabolism"
+      ],
+      "answerIndex": 1,
+      "answerText": "Homeostasis",
+      "originalExplanation": "Homeostasis is the biological process by which organisms maintain internal variables within narrow limits despite external fluctuations.\nIt uses feedback systems (receptors, control centres and effectors) to regulate factors such as body temperature, blood pH, blood glucose and osmotic balance.\nHomeostasis is correct because it denotes the overall maintenance of a stable internal environment rather than control of a single parameter.\nOsmoregulation is related but narrower, referring specifically to the regulation of water and solute concentrations in body fluids.\nThermoregulation is also specific, describing the mechanisms (sweating, shivering, vasodilation, vasoconstriction) that keep body temperature stable.\nMetabolism is the sum of biochemical reactions that produce energy and materials for the body and supports homeostasis, but it is not the term for maintaining internal constancy.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30430,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "According to Lamarck’s theory, evolution occurs mainly through:",
+      "options": [
+        "Natural selection and survival of the fittest",
+        "Use and disuse of organs and inheritance of acquired traits",
+        "Gene mutations and chromosomal changes",
+        "Competition among organisms"
+      ],
+      "answerIndex": 1,
+      "answerText": "Use and disuse of organs and inheritance of acquired traits",
+      "originalExplanation": "Lamarck proposed that evolution happens mainly by the use and disuse of organs and the inheritance of traits acquired during an organism's lifetime.\nHe held that organs used frequently become stronger and better developed while unused organs weaken and may disappear over generations.\nHe further claimed that modifications acquired to meet environmental needs could be transmitted to offspring, which is why the correct option names use and disuse plus inheritance of acquired traits.\nThis differs from Darwinian natural selection, which operates by differential survival of heritable variation rather than by direct transmission of acquired characteristics.\nModern genetics shows that heritable change arises from gene mutations and chromosomal variation, so Lamarck’s mechanism is not accepted as the principal explanation for evolution today.\nCompetition among organisms can influence selection pressure under Darwinian theory but is not the mechanism Lamarck described, making the other options less appropriate for this question.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30431,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following pairs consists of homologous structures?",
+      "options": [
+        "Bird wing and butterfly wing",
+        "Whale flipper and horse forelimb",
+        "Octopus eye and human eye",
+        "Bat wing and dragonfly wing"
+      ],
+      "answerIndex": 1,
+      "answerText": "Whale flipper and horse forelimb",
+      "originalExplanation": "Homologous structures are body parts in different organisms that share a common ancestral origin and a similar basic structural plan despite different functions.\nThe whale flipper and the horse forelimb are homologous because both are vertebrate forelimbs with the same basic bone series (humerus, radius, ulna, carpals, metacarpals, phalanges) modified for swimming and running respectively.\nA bird wing and a butterfly wing are not homologous: a bird wing is a modified vertebrate forelimb while a butterfly wing is an outgrowth of the insect exoskeleton, so their similarity is analogous (functional) not structural origin.\nThe octopus eye and the human eye are analogous examples of convergent evolution—both form complex image-bearing organs but evolved independently from different embryological tissues.\nThe bat wing and dragonfly wing are also analogous because the bat wing is a modified mammalian forelimb whereas the dragonfly wing develops from the insect thoracic cuticle, so their similarity is due to function (flight) not common ancestry.\nThus the correct homologous pair is whale flipper and horse forelimb because they share the same basic limb structure inherited from a common vertebrate ancestor.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30432,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "The presence of analogous structures is evidence of:",
+      "options": [
+        "Divergent evolution",
+        "Convergent evolution",
+        "Adaptive radiation",
+        "Common ancestry"
+      ],
+      "answerIndex": 1,
+      "answerText": "Convergent evolution",
+      "originalExplanation": "Analogous structures are similar features in unrelated organisms that arise independently to perform similar functions.\nConvergent evolution is the independent evolution of similar traits in different lineages due to comparable environmental pressures.\nTherefore the presence of analogous structures signals convergent evolution because unrelated taxa evolve similar solutions to similar problems.\nDivergent evolution, by contrast, yields homologous structures that share a common origin but may have different functions.\nAdaptive radiation refers to rapid diversification from a common ancestor into multiple niches and typically results in homologous traits among related species.\nCommon ancestry implies shared inherited features rather than independently arisen analogies, so convergent evolution is the best choice.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30433,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following serves as evidence for evolution?",
+      "options": [
+        "Fossils",
+        "Respiration",
+        "Excretion",
+        "Digestion"
+      ],
+      "answerIndex": 0,
+      "answerText": "Fossils",
+      "originalExplanation": "Evidence for evolution refers to observable records that show organisms have changed over time.\nFossils are preserved remains or traces of past organisms in sedimentary rocks and so provide direct physical records of former life.\nThe sequence of fossil forms in rock layers shows succession and transitional forms that link ancestral and descendant groups.\nDating methods such as stratigraphy and radiometric dating assign ages to fossils, allowing reconstruction of evolutionary timelines.\nRespiration, excretion and digestion are physiological processes of living organisms and do not themselves document historical change or ancestral relationships.\nTherefore, among the options given, fossils are the correct choice as evidence for evolution.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30434,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "question": "The formation of new species from an existing population is called:",
+      "options": [
+        "Speciation",
+        "Mutation",
+        "Fertilisation",
+        "Regeneration"
+      ],
+      "answerIndex": 0,
+      "answerText": "Speciation",
+      "originalExplanation": "Speciation is the evolutionary process by which one existing population splits into two or more reproductively isolated populations that form distinct species.\nReproductive isolation—geographical separation, ecological differences, temporal breeding differences, or behavioural changes—prevents gene flow and allows genetic divergence.\nOver many generations, processes such as mutation, natural selection and genetic drift produce accumulated differences that make interbreeding impossible or produce infertile offspring, completing speciation.\nTherefore 'Speciation' is the correct answer because it names the process of new species formation rather than a single genetic event or repair process.\nA mutation is a change in DNA sequence that can create variation within a population but does not by itself constitute the formation of a new species.\nFertilisation is the fusion of gametes to form a zygote and regeneration is the regrowth of tissues or organs; neither describes population-level divergence into new species.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30435,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following is a major source of genetic variation?",
+      "options": [
+        "Mutation",
+        "Respiration",
+        "Excretion",
+        "Transpiration"
+      ],
+      "answerIndex": 0,
+      "answerText": "Mutation",
+      "originalExplanation": "The item asks which process produces genetic differences between individuals (genetic variation).\nA mutation is a change in the DNA sequence that can create new alleles and therefore alter inherited traits.\nMutations — including point mutations, insertions/deletions and chromosomal changes — introduce heritable differences and so are a major source of genetic variation.\nRespiration, excretion and transpiration are physiological processes (energy release, waste removal, water movement) and do not create new genetic information.\nSexual mechanisms such as independent assortment and crossing‑over during meiosis also generate variation by reshuffling alleles, but these were not among the options.\nThus 'Mutation' is correct because it directly alters genes to produce new heritable variants, whereas the other choices do not.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30436,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following is a vestigial organ in humans?",
+      "options": [
+        "Heart",
+        "Appendix",
+        "Kidney",
+        "Liver"
+      ],
+      "answerIndex": 1,
+      "answerText": "Appendix",
+      "originalExplanation": "A vestigial organ is a body structure that has lost most or all of its original function during the course of evolution.\nThe human vermiform appendix is considered vestigial because it is a reduced remnant of a larger cecum found in herbivorous ancestors and is no longer required for cellulose digestion.\nThe appendix does contain lymphoid tissue and may have minor immune or microbiome-related roles, but these functions are not essential for survival.\nThe heart is a vital muscular organ that continuously pumps blood and therefore cannot be classified as vestigial.\nLikewise, the kidneys and liver perform essential excretory, osmoregulatory and metabolic functions and are not vestigial.\nHence Appendix is the correct answer, while Heart, Kidney and Liver are functional organs rather than vestigial remnants.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30437,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "The gradual change in inherited characteristics of organisms over generations is known as:",
+      "options": [
+        "Evolution",
+        "Respiration",
+        "Excretion",
+        "Nutrition"
+      ],
+      "answerIndex": 0,
+      "answerText": "Evolution",
+      "originalExplanation": "Evolution is the gradual change in the heritable characteristics of populations over successive generations.\nThese changes result from genetic variation (mutation, recombination, gene flow) and are shaped by processes such as natural selection and genetic drift.\nEvolution applies to populations across generations rather than to individual organisms during their lifetime.\nThe option 'Evolution' is correct because it naming the process of inherited change over generations, matching the stem exactly.\nRespiration is a metabolic process by which organisms release energy from food and does not describe inherited change.\nExcretion (removal of metabolic wastes) and nutrition (uptake and assimilation of food) are physiological life processes, not processes that produce heritable change in a population.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30438,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following is an example of divergent evolution?",
+      "options": [
+        "Wings of birds and butterflies",
+        "Forelimbs of humans and bats",
+        "Eyes of humans and octopuses",
+        "Wings of birds and insects"
+      ],
+      "answerIndex": 1,
+      "answerText": "Forelimbs of humans and bats",
+      "originalExplanation": "Divergent evolution occurs when organisms with a common ancestor develop different structures or functions from the same original feature.\nHuman and bat forelimbs are homologous: both share the same basic bone pattern (humerus, radius, ulna, carpals, metacarpals, phalanges) but have been modified for different uses.\nThis shared anatomy with different adaptations—manipulation in humans and flight in bats—reflects divergent evolution driven by different selective pressures.\nBy contrast, wings of birds and insects arise from different developmental origins and are analogous, representing convergent evolution rather than divergence from a common limb.\nSimilarly, eyes of humans and octopuses, though superficially similar in function and complexity, evolved independently and are not homologous structures.\nThus the forelimbs of humans and bats are the best example of divergent evolution among the given options.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30439,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which of the following best explains natural selection?",
+      "options": [
+        "Organisms acquire traits because they need them",
+        "Organisms with favourable inherited traits are more likely to survive and reproduce",
+        "All organisms have identical chances of survival",
+        "Acquired characteristics are always inherited by offspring"
+      ],
+      "answerIndex": 1,
+      "answerText": "Organisms with favourable inherited traits are more likely to survive and reproduce",
+      "originalExplanation": "Natural selection is the process whereby heritable variation in a population leads to differential survival and reproduction under environmental pressures.\nThe correct option is right because individuals that inherit traits that increase fitness leave more offspring, so those traits become more common in subsequent generations.\nOption A (organisms acquire traits because they need them) reflects Lamarckian inheritance, which is not supported by standard genetics because need alone does not change hereditary material.\nOption C (all organisms have identical chances of survival) is false because genetic and environmental differences produce unequal survival and reproductive success.\nOption D (acquired characteristics are always inherited by offspring) is incorrect for most traits because acquired changes to body structures are not encoded in gamete DNA and hence are not passed to offspring.\nOverall, natural selection requires heritable variation, differential reproduction and time, leading to adaptation as favourable inherited traits increase in frequency.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30440,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "question": "Which scientist proposed the theory of evolution by natural selection?",
+      "options": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Jean-Baptiste Lamarck",
+        "Louis Pasteur"
+      ],
+      "answerIndex": 1,
+      "answerText": "Charles Darwin",
+      "originalExplanation": "The question asks who proposed evolution by natural selection, the mechanism where heritable traits that improve survival and reproduction become more common in populations over time.\nCharles Darwin is credited with this theory following his observations on the HMS Beagle and the publication of On the Origin of Species (1859).\nDarwin's mechanism emphasizes variation, differential survival and reproduction, and the heritability of advantageous traits.\nJean-Baptiste Lamarck offered an alternative idea of evolution by inheritance of acquired characteristics, which is a different and largely unsupported mechanism today.\nGregor Mendel discovered the particulate laws of inheritance that explain how traits are transmitted genetically, complementing but not proposing natural selection.\nLouis Pasteur is noted for germ theory and disproving spontaneous generation and did not propose a theory of evolution by natural selection.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30441,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "question": "Which of the following is NOT a liver disease?",
+      "options": [
+        "Hepatitis",
+        "Cirrhosis",
+        "Jaundice",
+        "Nephritis"
+      ],
+      "answerIndex": 3,
+      "answerText": "Nephritis",
+      "originalExplanation": "Hepatitis is inflammation of the liver caused by viruses, toxins or autoimmune reactions, so it is a liver disease.\nCirrhosis is chronic scarring and loss of liver function from long-term damage, therefore a liver disease.\nJaundice is a clinical sign caused by elevated bilirubin often due to liver dysfunction or bile duct obstruction, so it indicates liver disease but is not itself a primary disease.\nNephritis is inflammation of the kidneys (renal tissue) and does not involve the liver, making it the correct non‑liver condition among the options.\nStudents may confuse jaundice with a disease because it commonly accompanies hepatitis and cirrhosis, but nephritis affects a different organ system.\nTherefore Nephritis is not a liver disease, while hepatitis and cirrhosis are; jaundice is best described as a symptom of hepatic or biliary pathology rather than a distinct liver disease.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    },
+    {
+      "id": 30442,
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "question": "Which of the following is NOT a skin disease?",
+      "options": [
+        "Eczema",
+        "Ringworm",
+        "Psoriasis",
+        "Hepatitis"
+      ],
+      "answerIndex": 3,
+      "answerText": "Hepatitis",
+      "originalExplanation": "The question distinguishes diseases that primarily affect the skin from those that affect other organs.\nEczema is an inflammatory skin condition (dermatitis) characterised by itchy, reddened patches and is therefore a skin disease.\nRingworm (tinea) is a superficial fungal infection of the skin or scalp that produces circular scaly lesions, so it is a skin disease.\nPsoriasis is a chronic immune-mediated skin disorder marked by well-defined, scaly plaques, making it a skin disease.\nHepatitis is inflammation of the liver caused by viruses, toxins, or autoimmune processes, and is a liver disease rather than a primary skin condition—so it is the correct 'NOT a skin disease' option.\nBecause hepatitis affects the liver, any skin colour changes from jaundice are secondary to liver dysfunction and do not make hepatitis a dermatological disease.",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review"
+    }
+  ]
+}

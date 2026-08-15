@@ -293,3 +293,9 @@
 - [x] Restore legacy explanation batch 10: 20 approved records updated with validated four-line answer-safe explanations and unchanged question/answer content.
 - [x] Audit 21 staged and legacy reports for diagram candidates; 48 wording-level candidates were identified for selective review, with no indiscriminate visuals added.
 - [x] Re-run the active syllabus/explanation audit after Biology batch 1 and legacy batch 10; current authorised playable audit reports 1,763 authorised playable records and keeps unmapped, over-cap, and needs-review rows held.
+
+- [x] Harden Biology and legacy explanation generators so empty or error model responses become explicit holds instead of aborting or releasing unsafe content.
+- [x] Attempt Biology explanation batch 2 and retain all 20 records held after empty structured responses; no records imported.
+- [x] Stage and attempt legacy explanation batch 11; retain all 20 records held after model-response failures; no records applied.
+- [ ] Retry held Biology batch 2 when structured model output is available.
+- [ ] Retry held legacy batch 11 when structured model output is available.

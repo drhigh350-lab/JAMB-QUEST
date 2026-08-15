@@ -1,0 +1,228 @@
+{
+  "batch": 2,
+  "sourceCount": 20,
+  "readyCount": 0,
+  "holdCount": 20,
+  "records": [
+    {
+      "position": 1,
+      "sourceId": "biology-dr-high-0035",
+      "sourceNumber": 35,
+      "topic": "Ecology",
+      "answerLetter": "D",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 2,
+      "sourceId": "biology-dr-high-0036",
+      "sourceNumber": 36,
+      "topic": "Ecology",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 3,
+      "sourceId": "biology-dr-high-0037",
+      "sourceNumber": 37,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 4,
+      "sourceId": "biology-dr-high-0039",
+      "sourceNumber": 39,
+      "topic": "Ecology",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 5,
+      "sourceId": "biology-dr-high-0041",
+      "sourceNumber": 41,
+      "topic": "Coordination and Control",
+      "answerLetter": "B",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 6,
+      "sourceId": "biology-dr-high-0042",
+      "sourceNumber": 42,
+      "topic": "Plant Biology",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 7,
+      "sourceId": "biology-dr-high-0043",
+      "sourceNumber": 43,
+      "topic": "Plant Biology",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 8,
+      "sourceId": "biology-dr-high-0044",
+      "sourceNumber": 44,
+      "topic": "Human Physiology",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 9,
+      "sourceId": "biology-dr-high-0045",
+      "sourceNumber": 45,
+      "topic": "Genetics and Evolution",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 10,
+      "sourceId": "biology-dr-high-0046",
+      "sourceNumber": 1,
+      "topic": "Living Organisms and Organization",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 11,
+      "sourceId": "biology-dr-high-0047",
+      "sourceNumber": 2,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 12,
+      "sourceId": "biology-dr-high-0048",
+      "sourceNumber": 3,
+      "topic": "Human Physiology",
+      "answerLetter": "B",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 13,
+      "sourceId": "biology-dr-high-0049",
+      "sourceNumber": 4,
+      "topic": "Excretion and Osmoregulation",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 14,
+      "sourceId": "biology-dr-high-0051",
+      "sourceNumber": 6,
+      "topic": "Ecology",
+      "answerLetter": "D",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 15,
+      "sourceId": "biology-dr-high-0052",
+      "sourceNumber": 7,
+      "topic": "Ecology",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 16,
+      "sourceId": "biology-dr-high-0054",
+      "sourceNumber": 9,
+      "topic": "Human Physiology",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 17,
+      "sourceId": "biology-dr-high-0055",
+      "sourceNumber": 10,
+      "topic": "Health and Disease",
+      "answerLetter": "C",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 18,
+      "sourceId": "biology-dr-high-0056",
+      "sourceNumber": 11,
+      "topic": "Health and Disease",
+      "answerLetter": "B",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 19,
+      "sourceId": "biology-dr-high-0057",
+      "sourceNumber": 12,
+      "topic": "Plant Biology",
+      "answerLetter": "B",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    },
+    {
+      "position": 20,
+      "sourceId": "biology-dr-high-0058",
+      "sourceNumber": 13,
+      "topic": "Respiration and Gas Exchange",
+      "answerLetter": "A",
+      "lines": [],
+      "lineCount": 0,
+      "status": "hold",
+      "holdReason": "model-response-failure: empty structured response"
+    }
+  ]
+}
