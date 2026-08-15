@@ -199,7 +199,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <header className="site-header page-shell entrance-item entrance-nav">
-      <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span><strong>JAMB</strong><span>QUEST</span><small>YOUR STUDY SYSTEM</small></span></button>
+      <button className="brand-lockup brand-button" onClick={() => setActiveTab("practice")} aria-label="Open JAMB Quest practice"><span className="brand-symbol" aria-hidden="true"><i /><i /><i /><i /></span><span className="brand-copy"><strong>JAMB Quest</strong><small>Your study system</small></span></button>
       <nav className="header-nav" aria-label="Primary navigation">
         {tabItems.slice(0, 2).map(({ id, label }) => <button key={id} className={`header-tab ${activeTab === id ? "active" : ""}`} onClick={() => setActiveTab(id)}>{label}</button>)}
         <span className={`header-status ${pwa.isOnline ? "" : "offline"}`} data-testid="ready-question-count" data-ready={questionCountReady ? "true" : "false"}><i /> {!questionCountReady || loading ? "Preparing JAMB Quest" : pwa.isOnline ? "JAMB Quest ready" : "Offline study ready"}</span>

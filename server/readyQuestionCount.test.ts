@@ -37,4 +37,11 @@ describe("ready question count", () => {
     expect(html).toContain("Preparing JAMB Quest");
     expect(html).not.toContain("1,000");
   });
+
+  it("uses the official four-part slanted JAMB Quest mark in the top-left header", () => {
+    const html = renderToStaticMarkup(React.createElement(Home, { ...baseProps, questionCount: 3118, questionCountReady: true }));
+    expect(html).toContain('class="brand-symbol"');
+    expect(html).toContain('<i></i><i></i><i></i><i></i>');
+    expect(html).toContain('Your study system');
+  });
 });
