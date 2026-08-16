@@ -1,0 +1,19 @@
+{
+  "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+  "staged": 86,
+  "imported": 86,
+  "skippedExistingSource": false,
+  "sourceId": 11580001,
+  "bySubject": {
+    "Use of English": 24,
+    "Biology": 49,
+    "Chemistry": 13,
+    "Physics": 0
+  },
+  "heldOutsideImport": [
+    {
+      "externalId": "supplied-keyed-2004-biology-016",
+      "reason": "no safe official syllabus mapping"
+    }
+  ]
+}

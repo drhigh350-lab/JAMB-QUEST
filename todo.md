@@ -399,3 +399,5 @@
 - [x] Replace the static opening quote treatment with a live keyboard-style Atomic Habits quote-of-the-day animation, preserving Skip Intro and reduced-motion access.
 
 - [x] Reorganize syllabus navigation and weakness analytics into larger official parent sections with expandable detailed topics while preserving exact topic IDs for drills and quality gates. Every official topic is covered exactly once by the grouped map; detailed drill payloads remain unchanged.
+
+- [x] Validate the newly supplied English 2004, Biology 2004, and Chemistry 2021 question-answer pairs, match exact held-PDF records, and import only cards that pass answer, syllabus, duplicate, and structural gates. 125 records were joined, 38 full-bank duplicates were skipped, 86 were imported as approved, and one unmappable Biology record remains held; see reports/supplied_answer_key_pair_intake_summary.md.

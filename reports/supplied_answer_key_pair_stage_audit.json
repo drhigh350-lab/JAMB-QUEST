@@ -1,0 +1,210 @@
+{
+  "parsedRecords": 125,
+  "releaseReady": 86,
+  "duplicates": [
+    {
+      "externalId": "supplied-keyed-2004-english-020",
+      "bank": "same supplied intake",
+      "matchingId": "earlier record"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-001",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0481"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-002",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0482"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-004",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0484"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-005",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0485"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-006",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0486"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-007",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0487"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-009",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0489"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-010",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0490"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-011",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0491"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-012",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0492"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-013",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0493"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-014",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0494"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-016",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0496"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-017",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0497"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-018",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0498"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-021",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0501"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-022",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0502"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-023",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0503"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-024",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0504"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-025",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0505"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-027",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0507"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-028",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0508"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-030",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0510"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-031",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0511"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-032",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0512"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-033",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0513"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-034",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0514"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-035",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0515"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-039",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0519"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-042",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0522"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-044",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0524"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-045",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0525"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-046",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0526"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-047",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0527"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-048",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0528"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-049",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0529"
+    },
+    {
+      "externalId": "supplied-keyed-2021-chemistry-050",
+      "bank": "authorised",
+      "matchingId": "csv-aug16-chemistry_0530"
+    }
+  ],
+  "holds": [
+    {
+      "externalId": "supplied-keyed-2004-biology-016",
+      "subject": "Biology",
+      "sourceQuestionNumber": 16,
+      "reason": "no safe official syllabus mapping"
+    }
+  ],
+  "bySubject": {
+    "Use of English": 24,
+    "Biology": 49,
+    "Chemistry": 13,
+    "Physics": 0
+  }
+}
