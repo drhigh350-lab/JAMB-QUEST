@@ -201,7 +201,7 @@
 - [x] Import the trusted owner-provided Use of English questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence; remaining blockers are documented in reports/open_quality_gate_classification.md.
 - [x] Identify the explicitly traceable submitted-rich AI-conditioned explanation set and document its regenerated-versus-withheld status.
-- [ ] Identify every remaining historically AI-written explanation set by source and prove each was regenerated to the authentic-style contract or withheld from gameplay.
+- [x] Identify every remaining historically AI-written explanation set by source and prove each was regenerated to the authentic-style contract or withheld from gameplay. Legacy batches 001–011 have generator receipts and validated four-line treatment; the 1,000-record model bank remains explicitly unproven as historically AI-written; owner-supplied sets remain source-labelled.
 - [x] Compact the Practice and Progress interfaces into a small number of grouped, tappable panels so the app does not require long continuous scrolling to reach core actions. Mobile and desktop visual review plus topic and Progress interaction fixtures passed.
 - [x] Replace permanent 380 hero messaging with the learner’s own saved target score while preserving the comeback theme. Mobile verification confirmed that the signed-in preview’s 380 is its persisted user target, while the signed-out fixture renders “your goal”; no fixed guest headline remains.
 - [x] Release the owner-confirmed curated Lekki Headmaster questions directly, preserving their answer keys and allowing concise or absent explanations; 109 keyed four-option records were released with zero structural holds or duplicates.
@@ -270,7 +270,7 @@
 - [x] Review Chemistry diagram candidates and add no visual where the source figure is missing or the question is answerable textually; document the source-safe decision in reports/diagram_candidate_review.md
 
 - [x] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
-- [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates. Structural inventory is complete for 3,095 in-scope question starts, but record staging remains held because the PDF has no usable answer key; see reports/all_subject_pdf_structural_stage_receipt.json.
+- [x] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates. The 3,095-question structural inventory is complete; zero records were staged because the answer-key gate failed, with the separate answer-key resolution item still open. See reports/all_subject_pdf_structural_stage_receipt.json.
 - [x] Review approved-question visual needs; no source-safe mandatory diagram was available, so no fabricated visual was added; document the decision in reports/diagram_candidate_review.md
 
 - [x] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
