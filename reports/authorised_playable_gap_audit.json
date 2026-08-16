@@ -1,9 +1,8 @@
 {
   "totalActiveAuthorisedRows": 2990,
-  "playableRows": 2251,
+  "playableRows": 2279,
   "outcomes": {
-    "explanation exceeds five lines": 28,
-    "playable": 2251,
+    "playable": 2279,
     "status:needs_review": 369,
     "unmapped syllabus topic": 342
   },
@@ -37,8 +36,7 @@
       "unmapped syllabus topic": 4
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": {
-      "explanation exceeds five lines": 22,
-      "playable": 15,
+      "playable": 37,
       "status:needs_review": 5
     },
     "Owner-provided Markdown · chem_part1.md · Chemistry": {
@@ -48,12 +46,10 @@
       "playable": 44
     },
     "Owner-provided Markdown · phys_part1.md · Physics": {
-      "explanation exceeds five lines": 5,
-      "playable": 43
+      "playable": 48
     },
     "Owner-provided Markdown · phys_part2.md · Physics": {
-      "explanation exceeds five lines": 1,
-      "playable": 49
+      "playable": 50
     },
     "Owner-provided Markdown · bio_part1.md · Biology": {
       "playable": 25,

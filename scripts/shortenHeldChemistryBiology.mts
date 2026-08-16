@@ -4,7 +4,7 @@ import { questionItems, questionSources } from "../drizzle/schema";
 import { resolveSyllabusTopic } from "../shared/syllabusTopicMap";
 import { getDb } from "../server/db";
 
-const subject = (process.argv[2] ?? "Chemistry") as "Biology" | "Chemistry";
+const subject = (process.argv[2] ?? "Chemistry") as "Biology" | "Chemistry" | "Physics";
 const batch = Number(process.argv[3] ?? 1);
 const batchSize = Number(process.argv[4] ?? 20);
 const offset = process.argv[5] !== undefined ? Number(process.argv[5]) : (batch - 1) * batchSize;

@@ -1,0 +1,228 @@
+{
+  "subject": "Physics",
+  "batch": 1,
+  "batchSize": 20,
+  "eligibleTotal": 28,
+  "selected": [
+    {
+      "id": 90224,
+      "externalId": "TechMed-Complete-Question-Bank-md-1",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is relative velocity along one dimension: when two objects move in the same direction the relative speed equals the difference of their speeds.\nThus v_rel = 130 km/h − 100 km/h = 30 km/h, directed forward relative to the slower car.\nOption '130' is the faster car's speed in the ground frame, not its velocity as seen from the slower car.\nOption '230' would be the relative speed if the cars moved in opposite directions (the sum of their speeds), so it's not applicable here.\nOption '200' has no basis in the standard relative-velocity calculation and is therefore incorrect.\nTherefore the correct answer is 30 km/h (forward relative to the slower car), illustrating that relative velocities are frame-dependent and subtract for same-direction motion.",
+      "after": "The concept is relative velocity along one dimension: when two objects move in the same direction the relative speed equals the difference of their speeds.\nThus v_rel = 130 km/h − 100 km/h = 30 km/h, directed forward relative to the slower car.\nOption '130' is the faster car's speed in the ground frame, not its velocity as seen from the slower car.\nTherefore the correct answer is 30 km/h (forward relative to the slower car), illustrating that relative velocities are frame-dependent and subtract for same-direction motion."
+    },
+    {
+      "id": 90225,
+      "externalId": "TechMed-Complete-Question-Bank-md-3",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Acceleration is the rate of change of velocity and for uniform acceleration a = (v − u)/t.\nWith u = 25 m/s, v = 45 m/s and t = 10 s, compute a = (45 − 25)/10 = 20/10.\nTherefore a = 2 m/s², which matches the option '2 m/s²' and uses the correct SI unit for acceleration.\nOption '20' is just the change in velocity (v − u) without dividing by time, a common arithmetic slip.\nOption '25' equals the initial speed and confuses velocity with acceleration, while '5' would arise only from a wrong division or wrong time value.\nThis calculation assumes constant (uniform) acceleration over the 10 s interval; under variable acceleration the formula gives the average acceleration.",
+      "after": "Acceleration is the rate of change of velocity and for uniform acceleration a = (v − u)/t.\nWith u = 25 m/s, v = 45 m/s and t = 10 s, compute a = (45 − 25)/10 = 20/10.\nTherefore a = 2 m/s², which matches the option '2 m/s²' and uses the correct SI unit for acceleration.\nThis calculation assumes constant (uniform) acceleration over the 10 s interval; under variable acceleration the formula gives the average acceleration."
+    },
+    {
+      "id": 90229,
+      "externalId": "TechMed-Complete-Question-Bank-md-11",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Thermal radiation (blackbody emission) is the electromagnetic radiation produced by the thermal motion of charges in a hot object.\nAt ordinary temperatures the blackbody spectrum peaks in the infrared region (Wien's displacement law), so most heat is carried away as infrared radiation.\nTherefore 'Infrared rays' is correct because it specifies the part of the electromagnetic spectrum that contains the bulk of thermal energy from common hot bodies.\nVisible light ('Light energy') can be significant only for very hot objects whose emission peak shifts into the visible, but cooler objects still emit mainly infrared.\n'Solar energy' is a source description (the Sun's mix of UV, visible and IR), not the specific spectral region emitted by all hot objects.\nGamma rays arise from nuclear or high-energy particle processes and are not produced by ordinary thermal motion, so they are not responsible for everyday heat radiation.",
+      "after": "Thermal radiation (blackbody emission) is the electromagnetic radiation produced by the thermal motion of charges in a hot object.\nAt ordinary temperatures the blackbody spectrum peaks in the infrared region (Wien's displacement law), so most heat is carried away as infrared radiation.\nTherefore 'Infrared rays' is correct because it specifies the part of the electromagnetic spectrum that contains the bulk of thermal energy from common hot bodies.\nGamma rays arise from nuclear or high-energy particle processes and are not produced by ordinary thermal motion, so they are not responsible for everyday heat radiation."
+    },
+    {
+      "id": 90230,
+      "externalId": "TechMed-Complete-Question-Bank-md-13",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is condensation: when air becomes saturated and water vapour changes to liquid on cooler surfaces, forming dew.\nDew forms on grass in the early morning because the ground and blades radiate heat away at night and cool below the air's dew point, causing vapour to condense as liquid droplets.\nMist and fog are suspensions of tiny liquid droplets throughout the air that reduce visibility, with fog being the denser form; they are not liquid collected on surfaces.\nVapour is the invisible gaseous form of water and does not appear as visible droplets on surfaces, so 'vapour' is not the correct description.\nCalm, clear nights favour dew formation because radiative cooling of surfaces is greatest; wind or cloud cover tends to prevent the surface cooling needed for dew.\nTherefore the small droplets on grass are dew—liquid water condensed on the surface—distinct from fog or mist which are suspended in the air.",
+      "after": "The concept is condensation: when air becomes saturated and water vapour changes to liquid on cooler surfaces, forming dew.\nDew forms on grass in the early morning because the ground and blades radiate heat away at night and cool below the air's dew point, causing vapour to condense as liquid droplets.\nMist and fog are suspensions of tiny liquid droplets throughout the air that reduce visibility, with fog being the denser form; they are not liquid collected on surfaces.\nTherefore the small droplets on grass are dew—liquid water condensed on the surface—distinct from fog or mist which are suspended in the air."
+    },
+    {
+      "id": 90232,
+      "externalId": "TechMed-Complete-Question-Bank-md-16",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Thermal radiation is electromagnetic energy emitted by a body because of its temperature; an ideal emitter is a blackbody.\nFor a surface the Stefan–Boltzmann law gives emitted power per unit area as P/A = εσT^4, so temperature (T) and emissivity (ε) set the emitted intensity.\nTotal radiated power equals that intensity times the surface area, so larger area gives proportionally more radiation.\nEmissivity (the 'nature of surface') ranges 0–1: a dull black surface (ε≈1) radiates far more than a shiny metal (low ε).\nDensity does not enter radiation laws and therefore has no direct effect on the rate or intensity of thermal radiation, although it does affect conduction and heat capacity.\nThus 'Density' is the correct choice while Temperature, Surface area and Nature of surface all do influence thermal radiation.",
+      "after": "Thermal radiation is electromagnetic energy emitted by a body because of its temperature; an ideal emitter is a blackbody.\nFor a surface the Stefan–Boltzmann law gives emitted power per unit area as P/A = εσT^4, so temperature (T) and emissivity (ε) set the emitted intensity.\nTotal radiated power equals that intensity times the surface area, so larger area gives proportionally more radiation.\nThus 'Density' is the correct choice while Temperature, Surface area and Nature of surface all do influence thermal radiation."
+    },
+    {
+      "id": 90233,
+      "externalId": "TechMed-Complete-Question-Bank-md-19",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Reverberation is the persistence of sound in an environment due to many successive reflections that cause the sound to decay slowly rather than stop abruptly.\nThunder generates loud pressure waves that reflect off the ground, hills, buildings and other surfaces so that many delayed reflections reach the listener and blend into a prolonged rumble — this is reverberation.\nAn echo is a single distinct reflected sound heard separately, whereas reverberation involves many overlapping reflections that produce a continuous-sounding decay.\nSuperposition is the general principle that waves add together and does occur here, but it is not the specific term for the prolonged rumbling caused by multiple reflections.\nRefraction (bending of sound by temperature layers) and diffraction (spreading around obstacles) can affect how thunder is heard but do not by themselves produce the long-lasting rumble characteristic of reverberation.\nBecause the question asks for the phenomenon that names a sound heard over a long time due to multiple reflections, reverberation is the correct choice.",
+      "after": "Reverberation is the persistence of sound in an environment due to many successive reflections that cause the sound to decay slowly rather than stop abruptly.\nThunder generates loud pressure waves that reflect off the ground, hills, buildings and other surfaces so that many delayed reflections reach the listener and blend into a prolonged rumble — this is reverberation.\nAn echo is a single distinct reflected sound heard separately, whereas reverberation involves many overlapping reflections that produce a continuous-sounding decay.\nBecause the question asks for the phenomenon that names a sound heard over a long time due to multiple reflections, reverberation is the correct choice."
+    },
+    {
+      "id": 90236,
+      "externalId": "TechMed-Complete-Question-Bank-md-23",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Short-sightedness (myopia) means parallel rays from distant objects are focused in front of the retina because the eye has too much converging power or is too long.\nCorrection requires reducing the eye's overall convergence so that the focal point shifts back onto the retina, which is achieved by a diverging (concave) lens.\nA concave lens has a negative focal length and spreads incoming rays slightly before they enter the eye, thus moving the image from in front of the retina onto the retina.\nA convex (converging) lens would increase convergence and so is used for hypermetropia (farsightedness), not myopia.\nMirrors (concave or convex) are not used for spectacle correction because they reflect rather than refract light and cannot be worn as corrective lenses to adjust the eye's focal power.\nTherefore the correct choice is concave lens; the convex lens would worsen myopia and both mirror options are unsuitable for spectacle correction.",
+      "after": "Short-sightedness (myopia) means parallel rays from distant objects are focused in front of the retina because the eye has too much converging power or is too long.\nCorrection requires reducing the eye's overall convergence so that the focal point shifts back onto the retina, which is achieved by a diverging (concave) lens.\nA concave lens has a negative focal length and spreads incoming rays slightly before they enter the eye, thus moving the image from in front of the retina onto the retina.\nTherefore the correct choice is concave lens; the convex lens would worsen myopia and both mirror options are unsuitable for spectacle correction."
+    },
+    {
+      "id": 90238,
+      "externalId": "TechMed-Complete-Question-Bank-md-32",
+      "subject": "Physics",
+      "topic": "Electricity and Electronics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An intrinsic (pure) semiconductor is an elemental material whose conduction comes from thermally generated electron–hole pairs so electron and hole concentrations are equal.\nSilicon is a group‑IV elemental semiconductor with a band gap ≈1.12 eV at room temperature, so pure silicon behaves as an intrinsic semiconductor.\nDoping silicon with group‑V (donor) or group‑III (acceptor) impurities produces n‑type or p‑type extrinsic semiconductors by adding free electrons or holes.\nPhosphorus is a group‑V dopant used to make n‑type silicon and is therefore an impurity, not a pure semiconductor material itself.\nA transistor is a semiconductor device built from doped semiconductor layers, not a single pure material, so it cannot be classed as an intrinsic semiconductor.\nCarbon’s common allotropes do not match the intrinsic semiconductor role: diamond is an insulator and graphite is a conductor/semimetal, so ‘Carbon’ is not the correct pure semiconductor.",
+      "after": "An intrinsic (pure) semiconductor is an elemental material whose conduction comes from thermally generated electron–hole pairs so electron and hole concentrations are equal.\nSilicon is a group‑IV elemental semiconductor with a band gap ≈1.12 eV at room temperature, so pure silicon behaves as an intrinsic semiconductor.\nDoping silicon with group‑V (donor) or group‑III (acceptor) impurities produces n‑type or p‑type extrinsic semiconductors by adding free electrons or holes.\nCarbon’s common allotropes do not match the intrinsic semiconductor role: diamond is an insulator and graphite is a conductor/semimetal, so ‘Carbon’ is not the correct pure semiconductor."
+    },
+    {
+      "id": 90242,
+      "externalId": "TechMed-Complete-Question-Bank-md-39",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is lubrication: using a persistent film to separate contacting surfaces so the frictional force opposing relative motion is reduced.\nGrease is a thickened oil that adheres to surfaces and forms a stable lubricating film (boundary/hydrodynamic layer) that prevents metal‑to‑metal contact and so lowers friction and wear.\nPetrol is a light, volatile hydrocarbon that evaporates rapidly and has low viscosity, so it cannot maintain a lasting lubricating film and is a poor long‑term lubricant.\nKerosene, though less volatile than petrol, still has low viscosity compared with grease, tends to run off under load, and therefore provides only temporary lubrication.\nWater has very low viscosity, does not form an oil film, and can promote corrosion of metal parts, so it is an ineffective lubricant for most mechanical contacts.\nHence grease is the effective choice for reducing friction in bearings and moving parts because it stays in place, supplies a viscous film, and resists displacement under pressure.",
+      "after": "The concept tested is lubrication: using a persistent film to separate contacting surfaces so the frictional force opposing relative motion is reduced.\nGrease is a thickened oil that adheres to surfaces and forms a stable lubricating film (boundary/hydrodynamic layer) that prevents metal‑to‑metal contact and so lowers friction and wear.\nPetrol is a light, volatile hydrocarbon that evaporates rapidly and has low viscosity, so it cannot maintain a lasting lubricating film and is a poor long‑term lubricant.\nHence grease is the effective choice for reducing friction in bearings and moving parts because it stays in place, supplies a viscous film, and resists displacement under pressure."
+    },
+    {
+      "id": 90243,
+      "externalId": "TechMed-Complete-Question-Bank-md-42",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A black body is defined as an ideal object that absorbs all incident electromagnetic radiation at every wavelength and in every direction, so its absorptivity = 1.\nBy Planck's law a black body also emits the maximum possible spectral radiance at each wavelength for a given temperature, and by the Stefan–Boltzmann law its total power per unit area is σT^4.\nBecause it both absorbs perfectly and emits the maximum radiation, the correct answer is 'Black body' as the perfect emitter/absorber.\nA white body reflects most incident radiation and therefore cannot be a perfect absorber or the corresponding ideal emitter.\nA conductor describes electrical/thermal properties of a material and real metals often have wavelength-dependent emissivity much less than unity, so 'Conductor' is not correct.\n'Red body' is not a standard term for an ideal emitter—objects appearing red only emit or reflect more strongly in the red region—an illustrative near-ideal black body is a cavity with a small hole which absorbs incoming radiation almost completely.",
+      "after": "A black body is defined as an ideal object that absorbs all incident electromagnetic radiation at every wavelength and in every direction, so its absorptivity = 1.\nBy Planck's law a black body also emits the maximum possible spectral radiance at each wavelength for a given temperature, and by the Stefan–Boltzmann law its total power per unit area is σT^4.\nBecause it both absorbs perfectly and emits the maximum radiation, the correct answer is 'Black body' as the perfect emitter/absorber.\n'Red body' is not a standard term for an ideal emitter—objects appearing red only emit or reflect more strongly in the red region—an illustrative near-ideal black body is a cavity with a small hole which absorbs incoming radiation almost completely."
+    },
+    {
+      "id": 90245,
+      "externalId": "TechMed-Complete-Question-Bank-md-45",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is the difference between mechanical and electromagnetic waves: mechanical waves require a material medium to transmit particle motion, while electromagnetic waves do not.\nSound waves are mechanical longitudinal waves in which molecules oscillate parallel to the direction of travel, so energy transfer depends on collisions between particles and therefore needs a medium.\nX-rays, visible light and radio waves are all electromagnetic waves that propagate as oscillating electric and magnetic fields and can travel through a vacuum without a material medium.\nIn fluids (gases and liquids) sound appears as successive compressions and rarefactions and in solids it can have longitudinal and transverse modes, but in every case particle interactions in the medium are essential.\nA classic demonstration is that a ringing bell becomes inaudible when placed in a vacuum bell jar because removing the air removes the medium for sound propagation.\nThus only 'Sound waves' is correct; the others are incorrect because they are electromagnetic and do not require a medium.",
+      "after": "The concept tested is the difference between mechanical and electromagnetic waves: mechanical waves require a material medium to transmit particle motion, while electromagnetic waves do not.\nSound waves are mechanical longitudinal waves in which molecules oscillate parallel to the direction of travel, so energy transfer depends on collisions between particles and therefore needs a medium.\nX-rays, visible light and radio waves are all electromagnetic waves that propagate as oscillating electric and magnetic fields and can travel through a vacuum without a material medium.\nThus only 'Sound waves' is correct; the others are incorrect because they are electromagnetic and do not require a medium."
+    },
+    {
+      "id": 90246,
+      "externalId": "TechMed-Complete-Question-Bank-md-47",
+      "subject": "Physics",
+      "topic": "Electricity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Accommodation is the eye's ability to change the lens curvature using the ciliary muscle so that near and distant objects are brought into focus.\nPresbyopia is the age‑related loss of lens elasticity and therefore of accommodation, producing difficulty in focusing on nearby objects.\nPhysically the crystalline lens hardens and the near point recedes, so even with active effort the eye cannot increase its optical power enough for close work.\nThis is why the correct answer is Presbyopia: it names the specific defect of reduced accommodation, not merely blurred near vision from other causes.\nBy contrast, long‑sightedness (hypermetropia) is usually due to a short eyeball or weak refractive power and may occur at any age, short‑sightedness (myopia) causes poor distance vision, and astigmatism results from unequal curvature of cornea or lens causing blurred images at all distances.\nPresbyopia is commonly corrected with convex (plus) reading glasses, bifocals or multifocal lenses which supply the extra converging power the stiff lens can no longer provide.",
+      "after": "Accommodation is the eye's ability to change the lens curvature using the ciliary muscle so that near and distant objects are brought into focus.\nPresbyopia is the age‑related loss of lens elasticity and therefore of accommodation, producing difficulty in focusing on nearby objects.\nPhysically the crystalline lens hardens and the near point recedes, so even with active effort the eye cannot increase its optical power enough for close work.\nPresbyopia is commonly corrected with convex (plus) reading glasses, bifocals or multifocal lenses which supply the extra converging power the stiff lens can no longer provide."
+    },
+    {
+      "id": 90251,
+      "externalId": "TechMed-Complete-Question-Bank-md-58",
+      "subject": "Physics",
+      "topic": "Electricity and Electronics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Covalent bonding: atoms share electrons to form directional bonds, commonly producing network solids in metalloids and nonmetals.\nSilicon and germanium are both Group 14 elements with four valence electrons and similar electronegativities, so they attain stable octets by sharing electrons rather than by electron transfer.\nIn the solid state Si and Ge form diamond‑like tetrahedral lattices where each atom is covalently bonded to four neighbours, giving the characteristic semiconductor structure.\nMetallic bonding, which involves a sea of delocalised electrons and non‑directional attractions, describes metals with high conductivity and does not fit Si–Ge bonding.\nElectrovalent (ionic) bonding requires large electronegativity differences and ion formation, which does not occur between the chemically similar metalloids silicon and germanium.\nHence the Si–Ge bond is covalent, making “Covalent” the correct option because the atoms share electrons in a network structure.",
+      "after": "Covalent bonding: atoms share electrons to form directional bonds, commonly producing network solids in metalloids and nonmetals.\nSilicon and germanium are both Group 14 elements with four valence electrons and similar electronegativities, so they attain stable octets by sharing electrons rather than by electron transfer.\nIn the solid state Si and Ge form diamond‑like tetrahedral lattices where each atom is covalently bonded to four neighbours, giving the characteristic semiconductor structure.\nHence the Si–Ge bond is covalent, making “Covalent” the correct option because the atoms share electrons in a network structure."
+    },
+    {
+      "id": 90252,
+      "externalId": "TechMed-Complete-Question-Bank-md-59",
+      "subject": "Physics",
+      "topic": "Electricity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is the temperature coefficient of resistance: metals typically have a positive coefficient, so their resistance increases with temperature.\nIn metals heating raises lattice vibrations (phonons) which scatter conduction electrons, reducing their mean free path and increasing resistivity.\nElectrolytes and water are ionic conductors whose resistance usually decreases with temperature because increased ionization and ionic mobility raise conductivity.\nSemiconductors show the opposite behaviour: higher temperature excites more charge carriers (electrons and holes), so conductivity increases and resistance falls.\nTherefore the correct option is Metals, since their carrier density is roughly constant while scattering increases with temperature, producing a net rise in resistance.\nExceptions occur only in special conditions (for example superconductivity at very low temperatures or material phase changes), but under ordinary laboratory and everyday temperatures metals show increasing resistance.",
+      "after": "The concept is the temperature coefficient of resistance: metals typically have a positive coefficient, so their resistance increases with temperature.\nIn metals heating raises lattice vibrations (phonons) which scatter conduction electrons, reducing their mean free path and increasing resistivity.\nElectrolytes and water are ionic conductors whose resistance usually decreases with temperature because increased ionization and ionic mobility raise conductivity.\nExceptions occur only in special conditions (for example superconductivity at very low temperatures or material phase changes), but under ordinary laboratory and everyday temperatures metals show increasing resistance."
+    },
+    {
+      "id": 90253,
+      "externalId": "TechMed-Complete-Question-Bank-md-60",
+      "subject": "Physics",
+      "topic": "Electricity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Doping is the deliberate introduction of controlled impurity atoms into intrinsic germanium to change its electrical conductivity.\nDonor impurities such as phosphorus (five valence electrons) produce n-type germanium by supplying extra electrons, while acceptors like boron (three valence electrons) produce p-type material by creating holes.\nThese impurity atoms introduce energy levels near the conduction or valence band, greatly increasing the number of free charge carriers and thus the semiconductor's conductivity.\n'Doping' is therefore the correct term because it names the targeted process used in semiconductor manufacture to alter electrical properties.\nDiffusion is a common technique (thermal diffusion or ion implantation) used to move dopant atoms into the crystal but denotes the transport method rather than the conceptual process of changing conductivity.\nSaturation is unrelated to impurity control, and 'bonding' refers to chemical bonding in general, not the controlled addition of impurities that defines doping.",
+      "after": "Doping is the deliberate introduction of controlled impurity atoms into intrinsic germanium to change its electrical conductivity.\nDonor impurities such as phosphorus (five valence electrons) produce n-type germanium by supplying extra electrons, while acceptors like boron (three valence electrons) produce p-type material by creating holes.\nThese impurity atoms introduce energy levels near the conduction or valence band, greatly increasing the number of free charge carriers and thus the semiconductor's conductivity.\nSaturation is unrelated to impurity control, and 'bonding' refers to chemical bonding in general, not the controlled addition of impurities that defines doping."
+    },
+    {
+      "id": 90254,
+      "externalId": "TechMed-Complete-Question-Bank-md-71",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Conduction is the transfer of heat through direct molecular collisions and vibrations in the medium, especially important in solids.\nIn conduction energy flows from hotter to colder regions as neighbouring molecules exchange kinetic energy and through lattice vibrations (phonons).\nIn metals conduction is greatly aided by mobile free electrons that transport thermal energy efficiently, and the rate is given by Fourier's law q = -kA dT/dx.\nConvection is different because it carries heat by bulk motion of a fluid (liquid or gas), not primarily by microscopic vibrations.\nRadiation is transfer of heat by electromagnetic waves and can occur across a vacuum without any medium, so molecular vibration is irrelevant there.\nDiffusion refers to mass transport of particles down concentration gradients and is not the mechanism for vibration-driven heat transfer, making conduction the correct answer.",
+      "after": "Conduction is the transfer of heat through direct molecular collisions and vibrations in the medium, especially important in solids.\nIn conduction energy flows from hotter to colder regions as neighbouring molecules exchange kinetic energy and through lattice vibrations (phonons).\nIn metals conduction is greatly aided by mobile free electrons that transport thermal energy efficiently, and the rate is given by Fourier's law q = -kA dT/dx.\nDiffusion refers to mass transport of particles down concentration gradients and is not the mechanism for vibration-driven heat transfer, making conduction the correct answer."
+    },
+    {
+      "id": 90259,
+      "externalId": "TechMed-Complete-Question-Bank-md-89",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Coefficient of friction µ is defined as the ratio of the frictional force F to the normal reaction N, µ = F/N.\nFor perfectly smooth surfaces the frictional (tangential) force is zero because there are no surface asperities to produce resistance, so µ = 0/N = 0.\nThis idealisation means both static and kinetic friction vanish, so no tangential resisting force opposes impending or actual motion between the surfaces.\nNumeric options like 1 or 1/2 are empirical values for real, rough contacts and are not applicable to the ideal smooth case; µ can also exceed 1 for very rough or adhesive contacts, so 'one' is not a universal value.\nAn infinite coefficient is unphysical because it would imply an unbounded frictional force for any finite normal load, which contradicts solid contact mechanics.\nIn practice all surfaces possess microscopic roughness so measured coefficients are small but nonzero, making µ = 0 a theoretical idealisation used to simplify problems.",
+      "after": "Coefficient of friction µ is defined as the ratio of the frictional force F to the normal reaction N, µ = F/N.\nFor perfectly smooth surfaces the frictional (tangential) force is zero because there are no surface asperities to produce resistance, so µ = 0/N = 0.\nThis idealisation means both static and kinetic friction vanish, so no tangential resisting force opposes impending or actual motion between the surfaces.\nIn practice all surfaces possess microscopic roughness so measured coefficients are small but nonzero, making µ = 0 a theoretical idealisation used to simplify problems."
+    },
+    {
+      "id": 90260,
+      "externalId": "TechMed-Complete-Question-Bank-md-90",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Total internal reflection (TIR) occurs when light travels from an optically denser medium to a rarer one and the angle of incidence exceeds the critical angle θc given by sinθc = n2/n1 (n1>n2).\nFor water → glass the light goes from a medium of lower refractive index (water, n≈1.33) into a higher one (glass, n≈1.50), so it is from rarer to denser and there is no critical angle for TIR.\nBecause n1<n2 for water→glass, no incident angle will produce total internal reflection, which is why this option is correct as the case where TIR will not occur.\nIn contrast, water → air is denser→rarer (1.33→1.00) so TIR is possible for incidence angles greater than θc ≈ arcsin(1.00/1.33) ≈ 48.8°.\nGlass → air (1.50→1.00) also allows TIR above θc ≈ arcsin(1.00/1.50) ≈ 41.8°, and glass → water (1.50→1.33) permits TIR above θc ≈ arcsin(1.33/1.50) ≈ 62.6°.\nTherefore Water into glass is the only listed path that cannot produce total internal reflection, distinguishing it from the other three options.",
+      "after": "Total internal reflection (TIR) occurs when light travels from an optically denser medium to a rarer one and the angle of incidence exceeds the critical angle θc given by sinθc = n2/n1 (n1>n2).\nFor water → glass the light goes from a medium of lower refractive index (water, n≈1.33) into a higher one (glass, n≈1.50), so it is from rarer to denser and there is no critical angle for TIR.\nBecause n1<n2 for water→glass, no incident angle will produce total internal reflection, which is why this option is correct as the case where TIR will not occur.\nTherefore Water into glass is the only listed path that cannot produce total internal reflection, distinguishing it from the other three options."
+    },
+    {
+      "id": 90261,
+      "externalId": "TechMed-Complete-Question-Bank-md-91",
+      "subject": "Physics",
+      "topic": "Electricity and Electronics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ohm's law states that for an ohmic conductor the potential difference V across it is proportional to the current I (V = IR), so the resistance is constant for fixed conditions.\nMetals obey Ohm's law because conduction by free electrons gives a linear V–I relationship and a nearly constant resistance provided the temperature and physical state are steady.\nThe qualification 'constant temperature' is important: a metal's resistivity changes with temperature, so heating the conductor can cause departures from ideal linearity.\nElectrolytes conduct by ion migration and involve electrode reactions, concentration changes and polarisation effects, which produce non‑linear, concentration‑dependent V–I behaviour (non‑ohmic).\nA diode is a semiconductor p–n junction with an exponential I–V characteristic and a forward threshold voltage, so it clearly does not follow Ohm's law.\nGlass is an insulating material with negligible current until breakdown or leakage paths occur, and therefore does not show a simple linear V–I relation and is not ohmic.",
+      "after": "Ohm's law states that for an ohmic conductor the potential difference V across it is proportional to the current I (V = IR), so the resistance is constant for fixed conditions.\nMetals obey Ohm's law because conduction by free electrons gives a linear V–I relationship and a nearly constant resistance provided the temperature and physical state are steady.\nThe qualification 'constant temperature' is important: a metal's resistivity changes with temperature, so heating the conductor can cause departures from ideal linearity.\nGlass is an insulating material with negligible current until breakdown or leakage paths occur, and therefore does not show a simple linear V–I relation and is not ohmic."
+    },
+    {
+      "id": 90262,
+      "externalId": "TechMed-Complete-Question-Bank-md-92",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The photoelectric effect demonstrates that light consists of discrete quanta (photons) because electrons are emitted from a metal only when incident light quanta have sufficient energy to overcome the work function.\nEinstein's E = hf explanation predicts a threshold frequency and shows the maximum kinetic energy of emitted electrons depends on light frequency, not intensity, which is a signature of particle-like energy transfer.\nRaising light intensity increases the number of emitted electrons (more photons) but not their individual energies, a result incompatible with a purely classical wave energy interpretation.\nThe measured speed of light is a kinematic property consistent with both wave and photon models, so 'speed of light' by itself does not demonstrate light's particle nature.\nColours from dispersion or absorption reflect wavelength-dependent interactions and are explained by wave optics (and electronic energy levels), so colour phenomena do not prove a particle model on their own.\nDiffraction and interference are characteristic wave behaviors that oppose a purely particle picture, so diffraction is not evidence of the particle nature of light.",
+      "after": "The photoelectric effect demonstrates that light consists of discrete quanta (photons) because electrons are emitted from a metal only when incident light quanta have sufficient energy to overcome the work function.\nEinstein's E = hf explanation predicts a threshold frequency and shows the maximum kinetic energy of emitted electrons depends on light frequency, not intensity, which is a signature of particle-like energy transfer.\nRaising light intensity increases the number of emitted electrons (more photons) but not their individual energies, a result incompatible with a purely classical wave energy interpretation.\nDiffraction and interference are characteristic wave behaviors that oppose a purely particle picture, so diffraction is not evidence of the particle nature of light."
+    }
+  ]
+}

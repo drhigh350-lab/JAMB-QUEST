@@ -365,3 +365,7 @@
 - [x] Identify every safe owner-provided batch that can be imported without user intervention.
 - [x] Import all safe batches and shorten eligible explanations under five lines while preserving answer keys and source wording.
 - [x] Reconcile and report all remaining holds with explicit reasons after the complete safe-import pass.
+
+- [x] Extend the source-preserving shortening path to all four core subjects and classify remaining runtime over-cap records.
+- [x] Process all 28 safe Physics over-cap explanations in two guarded batches; no all-subject over-cap candidates remain.
+- [x] Final runtime audit after the complete all-subject safe-import pass: 2,279 authorised records are playable, giving 3,279 total learner-facing questions including the 1,000 model bank; remaining holds are 369 needs-review and 342 unmapped-topic records.

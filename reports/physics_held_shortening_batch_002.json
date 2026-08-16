@@ -1,0 +1,96 @@
+{
+  "subject": "Physics",
+  "batch": 2,
+  "batchSize": 20,
+  "eligibleTotal": 8,
+  "selected": [
+    {
+      "id": 90263,
+      "externalId": "TechMed-Complete-Question-Bank-md-93",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The exact concept is a vector quantity, which requires both magnitude and direction for full specification.\nDisplacement is a vector: it gives the straight-line change in position with a specified direction (for example, 5 m east).\nDistance is a scalar that measures total path length travelled and does not include direction, so it cannot serve where direction is required.\nTemperature and mass are scalar quantities (measured in °C/K and kg respectively) and are described only by magnitude, not direction.\nA key distinction is that displacement can be zero when start and end points coincide even if a non‑zero distance was travelled, showing the role of direction in displacement.\nTherefore displacement is correct because it alone among the options requires both magnitude and direction, unlike distance, temperature, or mass.",
+      "after": "The exact concept is a vector quantity, which requires both magnitude and direction for full specification.\nDisplacement is a vector: it gives the straight-line change in position with a specified direction (for example, 5 m east).\nDistance is a scalar that measures total path length travelled and does not include direction, so it cannot serve where direction is required.\nTherefore displacement is correct because it alone among the options requires both magnitude and direction, unlike distance, temperature, or mass."
+    },
+    {
+      "id": 90265,
+      "externalId": "TechMed-Complete-Question-Bank-md-97",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Dew point is the temperature at which air becomes saturated with its present water vapour content and condensation (dew) begins.\nFor a fixed absolute amount of vapour, cooling air to the dew point reduces its vapour capacity until relative humidity reaches 100%, causing liquid to form.\nWhen air temperature equals the dew point the air is saturated and further cooling produces dew or fog, so dew point directly ties temperature to saturation for the current moisture content.\nThe phrase 'saturation point' denotes the state of being saturated (maximum vapour for a given temperature) but does not specify the temperature that causes saturation for the existing vapour amount, which is what dew point does.\n'Boiling point' is the temperature at which a liquid vapour pressure equals external pressure (100°C for water at 1 atm) and 'ice point' is 0°C; neither refers to air becoming saturated with water vapour.\nThus the correct choice is Dew point because it names the temperature at which the water vapour present just suffices to saturate the air and condensation starts.",
+      "after": "Dew point is the temperature at which air becomes saturated with its present water vapour content and condensation (dew) begins.\nFor a fixed absolute amount of vapour, cooling air to the dew point reduces its vapour capacity until relative humidity reaches 100%, causing liquid to form.\nWhen air temperature equals the dew point the air is saturated and further cooling produces dew or fog, so dew point directly ties temperature to saturation for the current moisture content.\nThus the correct choice is Dew point because it names the temperature at which the water vapour present just suffices to saturate the air and condensation starts."
+    },
+    {
+      "id": 180019,
+      "externalId": "phys-part1-md-Physics-4",
+      "subject": "Physics",
+      "topic": "Electricity",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A fuse provides overcurrent protection by containing a thin metal link that melts when current exceeds a rated value, thereby opening the circuit.\nWhen excessive current flows from a fault or short circuit the fuse element heats and melts faster than other components, isolating and protecting wiring and appliances from overheating or fire.\nIt does not increase voltage — voltage is set by sources or transformers, not by a passive safety device like a fuse.\nIt does not decrease resistance — although an intact fuse introduces a very small series resistance, its design purpose is to interrupt excessive current rather than regulate circuit resistance.\nIt does not filter AC — frequency-selective filtering requires capacitors, inductors, or active circuitry, while a fuse has no useful frequency-dependent behaviour.\nFuses are specified by current rating and breaking capacity and must be replaced with the correct type and rating, because using a higher-rated fuse or bypassing it defeats the intended overcurrent protection.",
+      "after": "A fuse provides overcurrent protection by containing a thin metal link that melts when current exceeds a rated value, thereby opening the circuit.\nWhen excessive current flows from a fault or short circuit the fuse element heats and melts faster than other components, isolating and protecting wiring and appliances from overheating or fire.\nIt does not increase voltage — voltage is set by sources or transformers, not by a passive safety device like a fuse.\nFuses are specified by current rating and breaking capacity and must be replaced with the correct type and rating, because using a higher-rated fuse or bypassing it defeats the intended overcurrent protection."
+    },
+    {
+      "id": 180020,
+      "externalId": "phys-part1-md-Physics-7",
+      "subject": "Physics",
+      "topic": "General Physics",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Average speed is defined as total distance travelled divided by total time taken: v_avg = d/t.\nApplying this to the question gives v_avg = 200 km ÷ 4 h = 50 km/h.\nTherefore the correct option is 50 km/h because it equals the straightforward distance-over-time calculation.\n100 km/h is incorrect — that value would mean covering 200 km in 2 h, which halves the given time and doubles the true speed.\n25 km/h is incorrect — it corresponds to covering 200 km in 8 h, a likely error if the time were mistakenly doubled.\n75 km/h is also wrong and would result from an arithmetic mistake or an incorrect averaging of different speeds, not from d/t with the given data.",
+      "after": "Average speed is defined as total distance travelled divided by total time taken: v_avg = d/t.\nApplying this to the question gives v_avg = 200 km ÷ 4 h = 50 km/h.\nTherefore the correct option is 50 km/h because it equals the straightforward distance-over-time calculation.\n75 km/h is also wrong and would result from an arithmetic mistake or an incorrect averaging of different speeds, not from d/t with the given data."
+    },
+    {
+      "id": 180023,
+      "externalId": "phys-part1-md-Physics-43",
+      "subject": "Physics",
+      "topic": "General Physics",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Use the Fahrenheit–to–Celsius conversion formula: °C = (°F − 32) × 5/9.\nSubstitute 102°F: (102 − 32) = 70, so °C = 70 × 5/9 = 350/9 °C.\n350/9 = 38.888… which rounds to 38.9°C, matching the correct option.\n35.0°C is wrong because 35.0°C converts back to 95°F, well below 102°F.\n40.0°C equals 104°F and 42.0°C equals about 107.6°F, both overestimates compared with 102°F.\nThe exact value 350/9 °C rounded to one decimal place is 38.9°C, so option '38.9°C' is the correct choice.",
+      "after": "Use the Fahrenheit–to–Celsius conversion formula: °C = (°F − 32) × 5/9.\nSubstitute 102°F: (102 − 32) = 70, so °C = 70 × 5/9 = 350/9 °C.\n350/9 = 38.888… which rounds to 38.9°C, matching the correct option.\nThe exact value 350/9 °C rounded to one decimal place is 38.9°C, so option '38.9°C' is the correct choice."
+    },
+    {
+      "id": 180024,
+      "externalId": "phys-part1-md-Physics-45",
+      "subject": "Physics",
+      "topic": "Electricity",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Photovoltaic (PV) solar generation relies on the photovoltaic effect, where semiconductor junctions convert photons directly into electric current without moving parts.\nBecause PV cells produce electrical energy directly, no mechanical shaft, turbine or generator is required, so 'Solar (photovoltaic)' is the correct choice.\nNuclear power uses heat from fission to make high-pressure steam that spins steam turbines coupled to electrical generators.\nWind power converts kinetic energy of air into rotational motion of blades and a rotor shaft that drives a generator — a turbine-based system.\nHydroelectric plants convert gravitational potential energy of water into rotational energy via water turbines (Francis, Kaplan, Pelton) that drive generators.\nBe careful: concentrated solar thermal (CSP) systems use mirrors to produce steam and do use turbines, so the question's use of 'photovoltaic' specifically distinguishes it from turbine-using solar technologies.",
+      "after": "Photovoltaic (PV) solar generation relies on the photovoltaic effect, where semiconductor junctions convert photons directly into electric current without moving parts.\nBecause PV cells produce electrical energy directly, no mechanical shaft, turbine or generator is required, so 'Solar (photovoltaic)' is the correct choice.\nNuclear power uses heat from fission to make high-pressure steam that spins steam turbines coupled to electrical generators.\nBe careful: concentrated solar thermal (CSP) systems use mirrors to produce steam and do use turbines, so the question's use of 'photovoltaic' specifically distinguishes it from turbine-using solar technologies."
+    },
+    {
+      "id": 180027,
+      "externalId": "phys-part2-md-Physics-72",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · phys_part2.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is longitudinal versus transverse waves: longitudinal waves have particle oscillations parallel to the direction of propagation (compressions and rarefactions).\nMechanical waves such as sound in air, ultrasound (high‑frequency sound), and seismic P‑waves propagate by particle compression and rarefaction and are therefore longitudinal.\nLight is an electromagnetic wave whose electric and magnetic fields oscillate perpendicular to the direction of travel and it does not require a material medium.\nBecause light is transverse it can be polarised, whereas longitudinal mechanical waves like sound and P‑waves cannot be polarised in the same manner.\nA common distractor is the seismic S‑wave, which is transverse; distinguishing P‑waves (longitudinal) from S‑waves (transverse) helps avoid confusion.\nHence 'Light wave' is NOT a longitudinal wave and is the correct answer.",
+      "after": "The concept is longitudinal versus transverse waves: longitudinal waves have particle oscillations parallel to the direction of propagation (compressions and rarefactions).\nMechanical waves such as sound in air, ultrasound (high‑frequency sound), and seismic P‑waves propagate by particle compression and rarefaction and are therefore longitudinal.\nLight is an electromagnetic wave whose electric and magnetic fields oscillate perpendicular to the direction of travel and it does not require a material medium.\nHence 'Light wave' is NOT a longitudinal wave and is the correct answer."
+    },
+    {
+      "id": 210002,
+      "externalId": "phys-part1-md-Physics-47",
+      "subject": "Physics",
+      "topic": "Waves, Optics and Modern Physics",
+      "sourceLabel": "Owner-provided Markdown · phys_part1.md · Physics",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Wavenumber is defined as the reciprocal of the wavelength: wavenumber = 1/λ, with units of inverse length (e.g. cm⁻¹).\nSubstituting λ = 3 cm gives wavenumber = 1/3 cm⁻¹ = 0.333… cm⁻¹, normally reported as 0.33 cm⁻¹.\nTherefore option B (0.33 cm⁻¹) is the correct numerical value for the given wavelength.\nOption A (3 cm⁻¹) would imply a wavelength of 1/3 cm, so it is the reciprocal error.\nOptions C and D (6 and 9 cm⁻¹) result from multiplying or squaring the wavelength rather than taking its reciprocal, so they are incorrect.\nWavenumber should not be confused with frequency (Hz); they are related by f = v/λ where v is wave speed, so frequency has s⁻¹ units while wavenumber has cm⁻¹.",
+      "after": "Wavenumber is defined as the reciprocal of the wavelength: wavenumber = 1/λ, with units of inverse length (e.g. cm⁻¹).\nSubstituting λ = 3 cm gives wavenumber = 1/3 cm⁻¹ = 0.333… cm⁻¹, normally reported as 0.33 cm⁻¹.\nTherefore option B (0.33 cm⁻¹) is the correct numerical value for the given wavelength.\nWavenumber should not be confused with frequency (Hz); they are related by f = v/λ where v is wave speed, so frequency has s⁻¹ units while wavenumber has cm⁻¹."
+    }
+  ]
+}
