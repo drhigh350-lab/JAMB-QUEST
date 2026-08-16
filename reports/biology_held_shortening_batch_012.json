@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 12,
+  "batchSize": 20,
+  "eligibleTotal": 95,
+  "selected": [
+    {
+      "id": 90002,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-2",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A sex-linked trait is caused by a gene located on a sex chromosome (usually the X chromosome) and therefore shows different inheritance patterns in males and females.\nHaemophilia is correct because it is typically due to mutations in X-linked clotting factor genes (factor VIII in haemophilia A or factor IX in haemophilia B), producing an X‑linked recessive pattern with affected males and carrier females.\nAlbinism is usually an autosomal recessive condition affecting melanin synthesis and is not linked to the sex chromosomes.\nRiver blindness (onchocerciasis) is an infectious disease caused by the parasite Onchocerca volvulus transmitted by blackflies, so it is not a genetic sex-linked trait.\nDwarfism, for example achondroplasia, is commonly due to an autosomal dominant mutation in the FGFR3 gene and is not sex-linked.\nThus haemophilia is the example of a sex-linked trait among the options because of its X-chromosome location and male predominance in expression.",
+      "after": "A sex-linked trait is caused by a gene located on a sex chromosome (usually the X chromosome) and therefore shows different inheritance patterns in males and females.\nHaemophilia is correct because it is typically due to mutations in X-linked clotting factor genes (factor VIII in haemophilia A or factor IX in haemophilia B), producing an X‑linked recessive pattern with affected males and carrier females.\nAlbinism is usually an autosomal recessive condition affecting melanin synthesis and is not linked to the sex chromosomes.\nThus haemophilia is the example of a sex-linked trait among the options because of its X-chromosome location and male predominance in expression."
+    },
+    {
+      "id": 90004,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-4",
+      "subject": "Biology",
+      "topic": "Transport",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks you to identify the largest artery in the body, which requires knowledge of major blood vessels and their roles in circulation.\nArteries carry blood away from the heart, and the aorta is the principal artery that arises from the left ventricle to supply the systemic circulation.\nThe aorta is the largest artery because it has the greatest diameter and wall thickness (about 2.5 cm in a typical adult) and gives rise to all major systemic branches.\nThe pulmonary artery, while large and carrying blood from the right ventricle to the lungs, is part of the pulmonary circuit and is not as large as the aorta.\nThe renal and carotid arteries are important branches supplying the kidneys and head respectively, but they are much smaller in both diameter and length than the aorta.\nHence the correct option is Aorta, since it is anatomically and functionally the largest artery in the body.",
+      "after": "The question asks you to identify the largest artery in the body, which requires knowledge of major blood vessels and their roles in circulation.\nArteries carry blood away from the heart, and the aorta is the principal artery that arises from the left ventricle to supply the systemic circulation.\nThe aorta is the largest artery because it has the greatest diameter and wall thickness (about 2.5 cm in a typical adult) and gives rise to all major systemic branches.\nHence the correct option is Aorta, since it is anatomically and functionally the largest artery in the body."
+    },
+    {
+      "id": 90007,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-8",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question distinguishes bryophyte growth forms, namely thalloid (flattened, ribbon-like) versus leafy types.\nMarchantia is a thallose liverwort whose dominant gametophyte is a flattened, ribbon-like thallus, so it fits the description.\nMosses are also bryophytes but are typically leafy with a stem-like axis and many small leaves rather than a broad ribbon-like thallus.\nFern is a vascular pteridophyte with true roots, stems and fronds, so it is not a bryophyte and does not have a ribbon-like thallus.\nSpirogyra is a filamentous green alga composed of long chains of cylindrical cells and is not a land bryophyte, so it cannot be the correct choice.\nTherefore Marchantia is correct because it is a thalloid bryophyte with a ribbon-like, dorsiventral gametophyte lacking vascular tissue and bearing rhizoids and reproductive structures on the thallus.",
+      "after": "The question distinguishes bryophyte growth forms, namely thalloid (flattened, ribbon-like) versus leafy types.\nMarchantia is a thallose liverwort whose dominant gametophyte is a flattened, ribbon-like thallus, so it fits the description.\nMosses are also bryophytes but are typically leafy with a stem-like axis and many small leaves rather than a broad ribbon-like thallus.\nTherefore Marchantia is correct because it is a thalloid bryophyte with a ribbon-like, dorsiventral gametophyte lacking vascular tissue and bearing rhizoids and reproductive structures on the thallus."
+    },
+    {
+      "id": 90008,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-9",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is classification of animals into major phyla based on body plan and key diagnostic features.\nSnails are soft-bodied animals that typically have a single coiled shell, a muscular foot for movement, a mantle, and a radula, which are characteristic features of the phylum Mollusca (class Gastropoda).\nArthropoda is incorrect because arthropods possess a hard chitinous exoskeleton, jointed limbs and distinct body segmentation (e.g., insects, crustaceans), unlike snails.\nAnnelida is wrong since annelids are segmented worms with repeated body segments and often setae or parapodia, and they lack a calcareous shell and radula.\nNematoda (roundworms) are unsegmented, cylindrical worms with a cuticle and a pseudocoelom, traits that do not match the morphology of snails.\nTherefore the correct choice is Mollusca, with snails placed in the class Gastropoda within that phylum.",
+      "after": "The concept is classification of animals into major phyla based on body plan and key diagnostic features.\nSnails are soft-bodied animals that typically have a single coiled shell, a muscular foot for movement, a mantle, and a radula, which are characteristic features of the phylum Mollusca (class Gastropoda).\nArthropoda is incorrect because arthropods possess a hard chitinous exoskeleton, jointed limbs and distinct body segmentation (e.g., insects, crustaceans), unlike snails.\nTherefore the correct choice is Mollusca, with snails placed in the class Gastropoda within that phylum."
+    },
+    {
+      "id": 90009,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-10",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Non-vascular plants (bryophytes) lack xylem and phloem and do not have true roots, stems or leaves.\nThey are generally small, occupy moist habitats, and have a dominant gametophyte generation in their life cycle.\nMarchantia is a liverwort and therefore a bryophyte, so it lacks vascular tissue and is the correct option.\nDryopteris is a fern (a pteridophyte) with vascular bundles, so it is a vascular, seedless plant rather than non-vascular.\nRice and maize are angiosperms (flowering plants) with true roots, stems, leaves and well-developed xylem and phloem.\nOnly Marchantia among the four has rhizoids instead of true roots and lacks vascular tissue, distinguishing it as the non-vascular plant.",
+      "after": "Non-vascular plants (bryophytes) lack xylem and phloem and do not have true roots, stems or leaves.\nThey are generally small, occupy moist habitats, and have a dominant gametophyte generation in their life cycle.\nMarchantia is a liverwort and therefore a bryophyte, so it lacks vascular tissue and is the correct option.\nOnly Marchantia among the four has rhizoids instead of true roots and lacks vascular tissue, distinguishing it as the non-vascular plant."
+    },
+    {
+      "id": 90010,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-11",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns ABO transfusion compatibility: red blood cells carry A and/or B surface antigens while the plasma contains antibodies against the absent antigens.\nAB is correct because AB individuals have both A and B antigens on their red cells and therefore lack anti‑A and anti‑B antibodies in their plasma, so they can accept A, B, AB or O red cells.\nType A individuals have A antigens but anti‑B antibodies, so they cannot safely receive B or AB red cells without reaction.\nType B individuals have B antigens and anti‑A antibodies, so they cannot receive A or AB red cells safely.\nType O individuals have neither A nor B antigens but possess both anti‑A and anti‑B antibodies, so they can only receive O red cells and are instead regarded as universal donors for red cells.\nNote that Rh (positive/negative) compatibility also matters in clinical transfusions, but the ABO system alone makes AB the universal recipient for red cell transfusions.",
+      "after": "The question concerns ABO transfusion compatibility: red blood cells carry A and/or B surface antigens while the plasma contains antibodies against the absent antigens.\nAB is correct because AB individuals have both A and B antigens on their red cells and therefore lack anti‑A and anti‑B antibodies in their plasma, so they can accept A, B, AB or O red cells.\nType A individuals have A antigens but anti‑B antibodies, so they cannot safely receive B or AB red cells without reaction.\nNote that Rh (positive/negative) compatibility also matters in clinical transfusions, but the ABO system alone makes AB the universal recipient for red cell transfusions."
+    },
+    {
+      "id": 90011,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-12",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "In basic genetics/probability problems each child's sex is treated as an independent event with probability 1/2 for a boy and 1/2 for a girl.\nBecause of this independence, the previous three boys do not affect the fourth child's chance of being a girl.\nTherefore the probability the fourth child is a girl is 1/2, which matches the correct option.\nOption 1/4 is incorrect because 1/4 = 1/2 × 1/2 gives the probability of two specific independent girls, not the single next child.\nOption 3/4 is incorrect because it represents a compound or complementary probability (for example 1 − 1/4) that is not relevant to a single independent birth.\nOption 1 is wrong because it asserts certainty; under the standard equal-probability assumption the single-next-child probability is 1/2, not 1.",
+      "after": "In basic genetics/probability problems each child's sex is treated as an independent event with probability 1/2 for a boy and 1/2 for a girl.\nBecause of this independence, the previous three boys do not affect the fourth child's chance of being a girl.\nTherefore the probability the fourth child is a girl is 1/2, which matches the correct option.\nOption 1 is wrong because it asserts certainty; under the standard equal-probability assumption the single-next-child probability is 1/2, not 1."
+    },
+    {
+      "id": 90012,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-13",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This is a simple Mendelian cross of two heterozygotes (AS × AS) where each parent contributes either the A or S allele to offspring.\nA Punnett square yields the genotypes: AA, AS, AS, SS, showing all three genotypes are possible.\nTherefore the correct answer is AA, AS, SS because gamete combinations produce one AA, two AS and one SS in the F1.\nThe option 'AA only' is incorrect because each parent can contribute the S allele; 'AS only' is incorrect because homozygotes AA and SS can also occur; 'SS only' is incorrect because the A allele can be passed to produce AA or AS.\nIn terms of phenotype, AA individuals are normal, AS are carriers (often with milder clinical features under stress) and SS have sickle-cell disease.\nThe expected genotype probabilities from AS × AS are 25% AA, 50% AS and 25% SS, matching the 1:2:1 Mendelian ratio.",
+      "after": "This is a simple Mendelian cross of two heterozygotes (AS × AS) where each parent contributes either the A or S allele to offspring.\nA Punnett square yields the genotypes: AA, AS, AS, SS, showing all three genotypes are possible.\nTherefore the correct answer is AA, AS, SS because gamete combinations produce one AA, two AS and one SS in the F1.\nThe expected genotype probabilities from AS × AS are 25% AA, 50% AS and 25% SS, matching the 1:2:1 Mendelian ratio."
+    },
+    {
+      "id": 90013,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-14",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fungal diseases (mycoses) are infections caused by fungi that commonly affect the skin, nails and mucous membranes.\nRingworm (tinea) is caused by dermatophyte fungi such as Trichophyton and Microsporum and produces circular, scaly skin lesions.\nBecause ringworm is caused by fungi it is the correct option among the choices.\nMalaria is caused by Plasmodium protozoa transmitted by Anopheles mosquitoes, not by fungi.\nCholera is caused by the bacterium Vibrio cholerae and presents with severe watery diarrhea, so it is not a fungal disease.\nTuberculosis is caused by the bacterium Mycobacterium tuberculosis and primarily affects the lungs, therefore it is not fungal.",
+      "after": "Fungal diseases (mycoses) are infections caused by fungi that commonly affect the skin, nails and mucous membranes.\nRingworm (tinea) is caused by dermatophyte fungi such as Trichophyton and Microsporum and produces circular, scaly skin lesions.\nBecause ringworm is caused by fungi it is the correct option among the choices.\nTuberculosis is caused by the bacterium Mycobacterium tuberculosis and primarily affects the lungs, therefore it is not fungal."
+    },
+    {
+      "id": 90014,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-15",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The theory of acquired traits was postulated by Jean-Baptiste Lamarck, who argued that organisms can pass on characteristics gained during their lifetime to their offspring.\nLamarck's ideas centered on use and disuse of organs and the inheritance of acquired characteristics as mechanisms driving evolutionary change.\nMendel is not the author of this theory; he established particulate inheritance and laws of segregation and independent assortment from pea‑plant experiments.\nDarwin proposed natural selection as the main mechanism of evolution, relying on heritable variation and differential reproductive success rather than acquired traits being inherited.\nPasteur is unrelated to evolutionary mechanisms in this context; he is best known for germ theory and experiments that refuted spontaneous generation.\nThus Lamarck is the correct choice, while Mendel, Darwin and Pasteur represent alternative, well‑established biological concepts that contrast with Lamarckism.",
+      "after": "The theory of acquired traits was postulated by Jean-Baptiste Lamarck, who argued that organisms can pass on characteristics gained during their lifetime to their offspring.\nLamarck's ideas centered on use and disuse of organs and the inheritance of acquired characteristics as mechanisms driving evolutionary change.\nMendel is not the author of this theory; he established particulate inheritance and laws of segregation and independent assortment from pea‑plant experiments.\nThus Lamarck is the correct choice, while Mendel, Darwin and Pasteur represent alternative, well‑established biological concepts that contrast with Lamarckism."
+    },
+    {
+      "id": 90015,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-16",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Secondary growth is the increase in girth of plant organs due to activity of lateral meristems such as the vascular cambium and cork cambium.\nIn older dicot roots the vascular cambium forms a continuous ring between primary xylem and primary phloem and produces secondary xylem inward and secondary phloem outward.\nTherefore the correct answer is cambium because it is the lateral meristem responsible for producing the new vascular tissues that cause thickening.\nThe cortex and epidermis are primary tissues derived from ground and dermal meristems respectively and do not generate secondary vascular tissues; the cortex is often compressed or sloughed off during thickening.\nPhloem is one of the tissues produced by the cambium, so while present during secondary growth it is not the meristematic site where secondary growth originates.\nAdditionally cork cambium (phellogen) later produces periderm to replace the epidermis, but the principal site of radial secondary thickening remains the vascular cambium.",
+      "after": "Secondary growth is the increase in girth of plant organs due to activity of lateral meristems such as the vascular cambium and cork cambium.\nIn older dicot roots the vascular cambium forms a continuous ring between primary xylem and primary phloem and produces secondary xylem inward and secondary phloem outward.\nTherefore the correct answer is cambium because it is the lateral meristem responsible for producing the new vascular tissues that cause thickening.\nAdditionally cork cambium (phellogen) later produces periderm to replace the epidermis, but the principal site of radial secondary thickening remains the vascular cambium."
+    },
+    {
+      "id": 90016,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-17",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Secondary succession is the sequential re-establishment of plant and animal communities in an area where a disturbance removed vegetation but left the soil intact.\nGrowth after bush burning is secondary succession because the existing soil, seeds and rootstock permit rapid recolonization by grasses, herbs and woody plants.\nIn secondary succession the pioneer species are often fast-growing grasses and shrubs rather than lichens and mosses that colonize bare rock.\nColonization of bare rock, formation of a new island and areas directly created by volcanic eruption are examples of primary succession because they begin on substrate without developed soil.\nPrimary succession starts with organisms that break down rock and build soil (a much slower process) before typical plant communities can establish.\nTherefore “Growth after bush burning” is the correct choice while the other options describe primary succession rather than secondary succession.",
+      "after": "Secondary succession is the sequential re-establishment of plant and animal communities in an area where a disturbance removed vegetation but left the soil intact.\nGrowth after bush burning is secondary succession because the existing soil, seeds and rootstock permit rapid recolonization by grasses, herbs and woody plants.\nIn secondary succession the pioneer species are often fast-growing grasses and shrubs rather than lichens and mosses that colonize bare rock.\nTherefore “Growth after bush burning” is the correct choice while the other options describe primary succession rather than secondary succession."
+    },
+    {
+      "id": 90017,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-18",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An apex predator is an organism at the top of a food chain that has no natural predators and helps regulate lower trophic levels.\nSharks are carnivorous fishes that commonly occupy this top trophic position in many marine and some freshwater ecosystems, feeding on fish, marine mammals and invertebrates.\nZooplankton are small drifting consumers that feed on phytoplankton and form a low trophic level, making them prey rather than apex predators.\nSmall fish are typically mid‑level consumers or prey for larger predators and therefore cannot be apex predators in a healthy ecosystem.\nAlgae are primary producers that convert light into chemical energy and are at the base of aquatic food chains, not predators.\nWhile specific apex predators can vary by habitat (for example orcas or large crocodilians in some systems), among the provided options the shark is the correct choice.",
+      "after": "An apex predator is an organism at the top of a food chain that has no natural predators and helps regulate lower trophic levels.\nSharks are carnivorous fishes that commonly occupy this top trophic position in many marine and some freshwater ecosystems, feeding on fish, marine mammals and invertebrates.\nZooplankton are small drifting consumers that feed on phytoplankton and form a low trophic level, making them prey rather than apex predators.\nWhile specific apex predators can vary by habitat (for example orcas or large crocodilians in some systems), among the provided options the shark is the correct choice."
+    },
+    {
+      "id": 90018,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-19",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Cholera is an acute diarrhoeal disease caused by Vibrio cholerae and is transmitted primarily by ingestion of contaminated water or food.\nHouseflies (Musca domestica) act as mechanical vectors by picking up Vibrio cholerae on their legs and mouthparts and contaminating food and water, so 'Housefly' is correct.\nMosquitoes are biological vectors for diseases such as malaria, yellow fever and dengue and do not transmit cholera, so 'Mosquito' is incorrect.\nCockroaches can mechanically carry faecal bacteria and contaminate food, making them a plausible alternative, but they are not the principal vector historically implicated in cholera outbreaks.\nTsetse flies transmit trypanosomes that cause sleeping sickness and have no role in cholera transmission, so 'Tsetse fly' is incorrect.\nThus, among the options given, the housefly is the most relevant vector for cholera due to its behaviour and frequent contact with human food and faecal matter.",
+      "after": "Cholera is an acute diarrhoeal disease caused by Vibrio cholerae and is transmitted primarily by ingestion of contaminated water or food.\nHouseflies (Musca domestica) act as mechanical vectors by picking up Vibrio cholerae on their legs and mouthparts and contaminating food and water, so 'Housefly' is correct.\nMosquitoes are biological vectors for diseases such as malaria, yellow fever and dengue and do not transmit cholera, so 'Mosquito' is incorrect.\nThus, among the options given, the housefly is the most relevant vector for cholera due to its behaviour and frequent contact with human food and faecal matter."
+    },
+    {
+      "id": 90019,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-20",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The intertidal zone is the shoreline area lying between the highest and lowest tide marks and is periodically submerged and exposed by tides.\nTides are regular rises and falls of sea level caused mainly by the gravitational forces of the Moon and Sun, so the intertidal zone is the part of a water body directly affected by these changes.\nThe littoral zone is sometimes used broadly to mean the shore or shallow nearshore area where light penetrates to the bottom, and in freshwater contexts it need not emphasise tidal exposure.\nThe benthic zone denotes the bottom substrate of a water body (the seafloor or lakebed) and may remain submerged continuously rather than being cyclically exposed by tides.\nThe abyssal zone is the deep ocean floor far below the continental shelf and sunlight, and it does not experience tidal exposure in the way the shoreline does.\nTherefore the correct option is Intertidal zone because it is uniquely defined by periodic exposure and submergence with the tidal cycle, distinguishing it from littoral, benthic and abyssal zones.",
+      "after": "The intertidal zone is the shoreline area lying between the highest and lowest tide marks and is periodically submerged and exposed by tides.\nTides are regular rises and falls of sea level caused mainly by the gravitational forces of the Moon and Sun, so the intertidal zone is the part of a water body directly affected by these changes.\nThe littoral zone is sometimes used broadly to mean the shore or shallow nearshore area where light penetrates to the bottom, and in freshwater contexts it need not emphasise tidal exposure.\nTherefore the correct option is Intertidal zone because it is uniquely defined by periodic exposure and submergence with the tidal cycle, distinguishing it from littoral, benthic and abyssal zones."
+    },
+    {
+      "id": 90020,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-21",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Desert plant structural adaptations primarily reduce water loss and/or store water to survive arid conditions.\nA thick cuticle is a waxy, waterproof layer on the epidermis that decreases transpiration, making it an effective desert adaptation.\nBroad leaves increase surface area and light capture but also elevate water loss, so they are unsuitable as a desert structural adaptation.\nSoft stems are characteristic of non-succulent plants; desert species instead often have thick, fleshy (succulent) stems for water storage rather than soft stems.\nLarge stomata would permit greater gas exchange but greatly increase water loss; desert plants tend to have few, small, or sunken stomata to conserve water.\nTherefore, among the options provided, thick cuticle best fits the structural adaptation of desert plants.",
+      "after": "Desert plant structural adaptations primarily reduce water loss and/or store water to survive arid conditions.\nA thick cuticle is a waxy, waterproof layer on the epidermis that decreases transpiration, making it an effective desert adaptation.\nBroad leaves increase surface area and light capture but also elevate water loss, so they are unsuitable as a desert structural adaptation.\nTherefore, among the options provided, thick cuticle best fits the structural adaptation of desert plants."
+    },
+    {
+      "id": 90021,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-22",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Blood group compatibility depends on antigens on red cells and antibodies in plasma: a recipient must not have plasma antibodies that react with donor red cell antigens.\nType AB individuals have both A and B antigens on their red cells but normally lack anti-A and anti-B antibodies in their plasma, so they do not attack transfused A, B or AB red cells.\nBecause AB plasma lacks anti-A and anti-B, AB people can receive red cells from A, B, AB and O, making AB the universal red-cell recipient.\nBy contrast, group O red cells lack A and B antigens and are therefore the universal red-cell donor for ABO compatibility.\nGroups A and B carry antibodies (anti-B in A, anti-A in B) so each will haemolyse incompatible donor red cells that carry the corresponding antigen.\nNote that the Rh (D) antigen is an additional compatibility factor: an Rh‑negative person should not normally receive Rh‑positive blood to avoid sensitisation.",
+      "after": "Blood group compatibility depends on antigens on red cells and antibodies in plasma: a recipient must not have plasma antibodies that react with donor red cell antigens.\nType AB individuals have both A and B antigens on their red cells but normally lack anti-A and anti-B antibodies in their plasma, so they do not attack transfused A, B or AB red cells.\nBecause AB plasma lacks anti-A and anti-B, AB people can receive red cells from A, B, AB and O, making AB the universal red-cell recipient.\nNote that the Rh (D) antigen is an additional compatibility factor: an Rh‑negative person should not normally receive Rh‑positive blood to avoid sensitisation."
+    },
+    {
+      "id": 90023,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-24",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sahel savanna is the dry grassland belt that forms the transition between the Sahara Desert and the Sudan savanna in the extreme north of Nigeria.\nIt is characterised by short grasses, scattered shrubs and trees, and low annual rainfall (roughly 250–500 mm), making it drier than the Sudan and Guinea savannas.\nBorno State lies in Nigeria's far northeast and falls within this ecological Sahel zone, so Borno is the correct option.\nKaduna is further south in the northern middle belt and is mainly in the Sudan or northern Guinea savanna rather than the Sahel.\nKwara is in the North Central guinea/derived savanna region and Lagos is coastal with rainforest and mangrove vegetation, so neither matches the Sahel profile.\nTherefore, among the options given, only Borno occupies the Sahel savanna region of Nigeria.",
+      "after": "Sahel savanna is the dry grassland belt that forms the transition between the Sahara Desert and the Sudan savanna in the extreme north of Nigeria.\nIt is characterised by short grasses, scattered shrubs and trees, and low annual rainfall (roughly 250–500 mm), making it drier than the Sudan and Guinea savannas.\nBorno State lies in Nigeria's far northeast and falls within this ecological Sahel zone, so Borno is the correct option.\nTherefore, among the options given, only Borno occupies the Sahel savanna region of Nigeria."
+    },
+    {
+      "id": 90024,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-25",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Brackish water has an intermediate salinity between freshwater and seawater rather than being very low or very high in salt content.\nQuantitatively brackish water is commonly defined as about 0.5–30 parts per thousand (ppt) of dissolved salts, whereas freshwater is <0.5 ppt and typical seawater is about 35 ppt.\nThe option “Moderate” is correct because it describes this middle-range salinity characteristic of brackish environments like estuaries and mangrove swamps.\n“Low” would better describe freshwater with negligible dissolved salts, not brackish water with measurable salinity above freshwater levels.\n“High” or “Very high” fit saline or hypersaline waters such as seawater (~35 ppt) or salt lakes, which have much greater salt concentrations than brackish water.\nEcologically, the moderate salinity of brackish water creates distinct habitats where organisms tolerant of fluctuating, intermediate salinity levels dominate.",
+      "after": "Brackish water has an intermediate salinity between freshwater and seawater rather than being very low or very high in salt content.\nQuantitatively brackish water is commonly defined as about 0.5–30 parts per thousand (ppt) of dissolved salts, whereas freshwater is <0.5 ppt and typical seawater is about 35 ppt.\nThe option “Moderate” is correct because it describes this middle-range salinity characteristic of brackish environments like estuaries and mangrove swamps.\nEcologically, the moderate salinity of brackish water creates distinct habitats where organisms tolerant of fluctuating, intermediate salinity levels dominate."
+    },
+    {
+      "id": 90025,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-26",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Secondary succession is the sequential change in species composition that follows a disturbance of an existing community where the soil and seed bank remain.\nDeforestation removes vegetation but usually leaves soil, roots or seed sources so pioneer species recolonise and the community undergoes secondary succession.\nAfforestation is deliberate planting of trees to restore or create vegetation and is not the disturbance that initiates secondary succession.\nVolcanic eruptions typically produce new bare rock with little or no soil, so recovery there is classed as primary rather than secondary succession.\nGlaciation similarly strips away soil and exposes bare substrate, initiating primary succession as soil develops slowly over time.\nTherefore, deforestation is the best choice among the options because the presence of pre-existing soil enables ecological recovery via secondary succession.",
+      "after": "Secondary succession is the sequential change in species composition that follows a disturbance of an existing community where the soil and seed bank remain.\nDeforestation removes vegetation but usually leaves soil, roots or seed sources so pioneer species recolonise and the community undergoes secondary succession.\nAfforestation is deliberate planting of trees to restore or create vegetation and is not the disturbance that initiates secondary succession.\nTherefore, deforestation is the best choice among the options because the presence of pre-existing soil enables ecological recovery via secondary succession."
+    }
+  ]
+}

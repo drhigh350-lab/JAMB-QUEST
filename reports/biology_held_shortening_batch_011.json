@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 11,
+  "batchSize": 20,
+  "eligibleTotal": 115,
+  "selected": [
+    {
+      "id": 30455,
+      "externalId": "BIO-OWNER-M10-Q29",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Adaptive radiation occurs when a single ancestral species rapidly diversifies into multiple species that occupy different ecological niches.\nDarwin’s finches on the Galapagos evolved varied beak shapes and feeding behaviours from a common ancestor to exploit different food sources, a textbook example of adaptive radiation leading to speciation.\nThese ecological and morphological differences reduced interbreeding and produced reproductive isolation, so distinct finch species emerged.\nConvergent evolution is different: it produces similar traits in unrelated lineages facing similar environments, unlike the finches which share a recent common ancestor.\nThe inheritance of acquired characteristics (Lamarckism) implies traits gained during an organism's life are passed on, a mechanism not supported by the finches' evolutionary pattern.\nSympatric speciation means speciation without geographic separation, but the finches' divergence across islands and ecological niches makes 'adaptive radiation leading to speciation' the most accurate choice.",
+      "after": "Adaptive radiation occurs when a single ancestral species rapidly diversifies into multiple species that occupy different ecological niches.\nDarwin’s finches on the Galapagos evolved varied beak shapes and feeding behaviours from a common ancestor to exploit different food sources, a textbook example of adaptive radiation leading to speciation.\nThese ecological and morphological differences reduced interbreeding and produced reproductive isolation, so distinct finch species emerged.\nSympatric speciation means speciation without geographic separation, but the finches' divergence across islands and ecological niches makes 'adaptive radiation leading to speciation' the most accurate choice."
+    },
+    {
+      "id": 30456,
+      "externalId": "BIO-OWNER-M10-Q30",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Active transport in plants moves mineral ions from the soil into root cells against their concentration gradients using metabolic energy (ATP) and membrane carrier proteins.\nEnergy from ATP is used to change the conformation of carrier proteins or drive proton pumps that translocate ions into root hair and cortex cells.\nThis option is correct because many mineral salts are at higher concentration inside root cells than in the surrounding soil, so uptake requires energy to go against the gradient.\nSimple diffusion cannot account for this uptake because it only moves substances down a concentration gradient and does not require energy.\nFacilitated diffusion also uses carriers or channels but still moves substances down their concentration gradients without ATP, while osmosis refers specifically to passive water movement across a partially permeable membrane, not ion transport.\nActive transport therefore enables selective uptake of essential ions (e.g., nitrate, phosphate) even when their soil concentrations are low, maintaining plant nutrition.",
+      "after": "Active transport in plants moves mineral ions from the soil into root cells against their concentration gradients using metabolic energy (ATP) and membrane carrier proteins.\nEnergy from ATP is used to change the conformation of carrier proteins or drive proton pumps that translocate ions into root hair and cortex cells.\nThis option is correct because many mineral salts are at higher concentration inside root cells than in the surrounding soil, so uptake requires energy to go against the gradient.\nActive transport therefore enables selective uptake of essential ions (e.g., nitrate, phosphate) even when their soil concentrations are low, maintaining plant nutrition."
+    },
+    {
+      "id": 30457,
+      "externalId": "BIO-OWNER-M10-Q31",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Epigeal germination is a pattern in which the cotyledons are carried above the soil surface during seedling emergence.\nMechanistically this happens because the hypocotyl elongates, often forming a protective hook, and lifts the cotyledons and seed coat upward as the seedling emerges.\nThus the correct option — elongation of the hypocotyl pushing cotyledons above ground — precisely describes epigeal germination.\nCotyledons remaining below the soil surface describes hypogeal germination, so option 1 is incorrect.\nSeeds germinating while still attached to the parent plant is vivipary and not epigeal, while rapid epicotyl growth would raise the plumule but not typically lift the cotyledons (so option 4 is also incorrect).\nTypical examples of epigeal germination are common beans (Phaseolus) and many other dicot seedlings whose cotyledons become photosynthetic above ground.",
+      "after": "Epigeal germination is a pattern in which the cotyledons are carried above the soil surface during seedling emergence.\nMechanistically this happens because the hypocotyl elongates, often forming a protective hook, and lifts the cotyledons and seed coat upward as the seedling emerges.\nThus the correct option — elongation of the hypocotyl pushing cotyledons above ground — precisely describes epigeal germination.\nTypical examples of epigeal germination are common beans (Phaseolus) and many other dicot seedlings whose cotyledons become photosynthetic above ground."
+    },
+    {
+      "id": 30458,
+      "externalId": "BIO-OWNER-M10-Q32",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ammonification is the decomposition of organic nitrogen in dead plants and animals into ammonium (NH4+) by saprophytic microorganisms.\nDecomposers such as fungi and heterotrophic bacteria enzymatically break down proteins, nucleic acids and other nitrogen-containing compounds to release ammonium ions.\nThis process is also called mineralization and increases soil ammonium available for plant uptake or further microbial transformation.\nNitrification is different: nitrifying bacteria oxidize ammonium to nitrite (NO2−) and then to nitrate (NO3−), so it does not produce ammonium from organic matter.\nDenitrification is the reduction of nitrate to gaseous forms (N2, N2O) under anaerobic conditions and returns nitrogen to the atmosphere rather than forming ammonium.\nNitrogen fixation converts atmospheric N2 into ammonia or organic nitrogen by certain bacteria or lightning, so it begins from atmospheric N2, not from decomposing organic matter.",
+      "after": "Ammonification is the decomposition of organic nitrogen in dead plants and animals into ammonium (NH4+) by saprophytic microorganisms.\nDecomposers such as fungi and heterotrophic bacteria enzymatically break down proteins, nucleic acids and other nitrogen-containing compounds to release ammonium ions.\nThis process is also called mineralization and increases soil ammonium available for plant uptake or further microbial transformation.\nNitrogen fixation converts atmospheric N2 into ammonia or organic nitrogen by certain bacteria or lightning, so it begins from atmospheric N2, not from decomposing organic matter."
+    },
+    {
+      "id": 30459,
+      "externalId": "BIO-OWNER-M10-Q33",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The item concerns types of synovial joints, each of which permits characteristic movements between bones.\nThe atlas (C1) and axis (C2) form the atlanto‑axial joint in which the odontoid process (dens) of the axis acts as a peg around which the atlas and skull rotate.\nA pivot joint is defined by rotation around a single longitudinal axis, which produces the left–right turning of the head.\nA hinge joint (e.g. elbow, knee) allows flexion and extension in one plane and does not permit axial rotation, so it is not applicable here.\nBall‑and‑socket joints (shoulder, hip) allow multi‑axial movement including rotation but have a different ball‑and‑socket structure unlike the peg‑and‑ring arrangement of the atlas‑axis; saddle joints (thumb) are biaxial and do not provide the same axial rotation.\nTherefore the atlanto‑axial articulation is correctly classified as a pivot joint.",
+      "after": "The item concerns types of synovial joints, each of which permits characteristic movements between bones.\nThe atlas (C1) and axis (C2) form the atlanto‑axial joint in which the odontoid process (dens) of the axis acts as a peg around which the atlas and skull rotate.\nA pivot joint is defined by rotation around a single longitudinal axis, which produces the left–right turning of the head.\nTherefore the atlanto‑axial articulation is correctly classified as a pivot joint."
+    },
+    {
+      "id": 30460,
+      "externalId": "BIO-OWNER-M10-Q34",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The ABO blood group system classifies red blood cells by the presence or absence of surface carbohydrate antigens called A and B.\nPhenotype O means the red cells lack both A and B antigens, so the correct choice is “Neither Antigen A nor Antigen B.”\nGroup O individuals typically have both anti-A and anti-B antibodies in their plasma, distinguishing them from other groups.\n“Antigen A only” corresponds to group A, whose red cells carry A antigen and whose plasma usually contains anti-B antibodies.\n“Antigen B only” corresponds to group B (B antigen on red cells and anti-A in plasma), while “Both Antigen A and B” corresponds to group AB, which has neither anti-A nor anti-B antibodies.\nThese antigen–antibody patterns are the basis for matching donor and recipient blood to prevent hemolytic transfusion reactions.",
+      "after": "The ABO blood group system classifies red blood cells by the presence or absence of surface carbohydrate antigens called A and B.\nPhenotype O means the red cells lack both A and B antigens, so the correct choice is “Neither Antigen A nor Antigen B.”\nGroup O individuals typically have both anti-A and anti-B antibodies in their plasma, distinguishing them from other groups.\nThese antigen–antibody patterns are the basis for matching donor and recipient blood to prevent hemolytic transfusion reactions."
+    },
+    {
+      "id": 30461,
+      "externalId": "BIO-OWNER-M10-Q35",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The mitochondrial electron transport chain in aerobic respiration transfers electrons through complexes until they are finally accepted by oxygen and reduced to water.\nOxygen is the correct answer because it accepts low-energy electrons at Complex IV (cytochrome c oxidase) and combines with protons to form H2O, keeping electron flow and ATP production going.\nNAD+ is an oxidized electron carrier that accepts electrons to become NADH earlier in metabolism, but it is not the terminal acceptor in the ETC.\nPyruvate is the end product of glycolysis and can act as an electron acceptor during anaerobic fermentation, but it does not accept electrons in the mitochondrial electron transport chain.\nWater is a product of the terminal reduction of oxygen (so it is produced when oxygen acts as the acceptor), therefore water is the reduced product rather than the terminal acceptor itself.\nThus only oxygen can serve as the ultimate terminal electron acceptor in aerobic mitochondrial respiration because it is the molecule that directly receives electrons at the end of the chain.",
+      "after": "The mitochondrial electron transport chain in aerobic respiration transfers electrons through complexes until they are finally accepted by oxygen and reduced to water.\nOxygen is the correct answer because it accepts low-energy electrons at Complex IV (cytochrome c oxidase) and combines with protons to form H2O, keeping electron flow and ATP production going.\nNAD+ is an oxidized electron carrier that accepts electrons to become NADH earlier in metabolism, but it is not the terminal acceptor in the ETC.\nThus only oxygen can serve as the ultimate terminal electron acceptor in aerobic mitochondrial respiration because it is the molecule that directly receives electrons at the end of the chain."
+    },
+    {
+      "id": 30462,
+      "externalId": "BIO-OWNER-M10-Q36",
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Osmoregulation in unicellular organisms refers to maintaining osmotic pressure and body fluid balance against net water influx from the environment.\nIn Amoeba this role is carried out by the contractile vacuole, a membrane-bound organelle that collects excess water from the cytoplasm.\nThe contractile vacuole periodically contracts and expels the collected water to the outside, preventing cell swelling and lysis in freshwater habitats.\nA food vacuole serves for digestion and temporary storage of ingested particles and does not function to remove excess water.\nThe nucleus controls genetic information and metabolic regulation but does not participate in active water expulsion or direct osmotic balancing.\nThe plasma membrane is selectively permeable and allows passive water movement by osmosis, but it cannot actively pump out large volumes of water as the contractile vacuole does.",
+      "after": "Osmoregulation in unicellular organisms refers to maintaining osmotic pressure and body fluid balance against net water influx from the environment.\nIn Amoeba this role is carried out by the contractile vacuole, a membrane-bound organelle that collects excess water from the cytoplasm.\nThe contractile vacuole periodically contracts and expels the collected water to the outside, preventing cell swelling and lysis in freshwater habitats.\nThe plasma membrane is selectively permeable and allows passive water movement by osmosis, but it cannot actively pump out large volumes of water as the contractile vacuole does."
+    },
+    {
+      "id": 30464,
+      "externalId": "BIO-OWNER-M10-Q38",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An accessory or false fruit is one in which the fleshy part develops mainly from tissues other than the ovary, such as the receptacle or flower stalk.\nIn the cashew the swollen flower stalk (the cashew apple) is the juicy edible portion, so the correct answer is False accessory fruit.\nThe true fruit of the cashew is the hard nut (a drupe) that develops from the ovary, so the cashew apple itself is not a true fruit.\nAggregate fruits form from many carpels of a single flower (e.g. raspberry) and are therefore not applicable to cashew, which has a single ovary producing the nut.\nComposite or multiple fruits develop from an inflorescence of many flowers fused together (e.g. pineapple), which is different from the single-flower origin of the cashew apple and nut.\nBecause the edible part comes from the swollen flower stalk while the nut is the ovary-derived fruit, False accessory fruit is the correct classification.",
+      "after": "An accessory or false fruit is one in which the fleshy part develops mainly from tissues other than the ovary, such as the receptacle or flower stalk.\nIn the cashew the swollen flower stalk (the cashew apple) is the juicy edible portion, so the correct answer is False accessory fruit.\nThe true fruit of the cashew is the hard nut (a drupe) that develops from the ovary, so the cashew apple itself is not a true fruit.\nBecause the edible part comes from the swollen flower stalk while the nut is the ovary-derived fruit, False accessory fruit is the correct classification."
+    },
+    {
+      "id": 30466,
+      "externalId": "BIO-OWNER-M10-Q40",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns lung volumes and capacities and asks for the capacity representing the largest expiratory output after a maximal inspiration.\nVital capacity (VC) is defined as the maximum volume of air that can be expelled from the lungs after a maximum inhalation.\nPhysiologically VC equals tidal volume plus inspiratory reserve volume plus expiratory reserve volume (VC = TV + IRV + ERV).\nTidal volume is the small volume exchanged during a normal quiet breath and is therefore much less than VC.\nResidual volume is the air remaining in the lungs after maximal exhalation and cannot be measured as part of VC because it is not exhalable.\nInspiratory reserve volume is the extra air that can be inhaled after a normal inspiration and contributes to VC but by itself does not represent the total expiratory capacity.",
+      "after": "The question concerns lung volumes and capacities and asks for the capacity representing the largest expiratory output after a maximal inspiration.\nVital capacity (VC) is defined as the maximum volume of air that can be expelled from the lungs after a maximum inhalation.\nPhysiologically VC equals tidal volume plus inspiratory reserve volume plus expiratory reserve volume (VC = TV + IRV + ERV).\nInspiratory reserve volume is the extra air that can be inhaled after a normal inspiration and contributes to VC but by itself does not represent the total expiratory capacity."
+    },
+    {
+      "id": 30467,
+      "externalId": "BIO-OWNER-M10-Q41",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Crossing-over is the exchange of chromosome segments between non-sister chromatids and is a major source of genetic variation in sexually produced offspring.\nDuring Prophase I of meiosis homologous chromosomes pair (synapsis) and form chiasmata where recombination between non-sister chromatids occurs, producing new allele combinations.\nBecause physical recombination takes place during Prophase I, the option 'Prophase I of meiosis' is correct.\nMetaphase II of meiosis arranges sister chromatids for separation but does not involve crossing-over, although it follows recombination events that happened earlier.\nProphase and anaphase of mitosis do not involve pairing of homologous chromosomes or exchange of chromatids, so they do not generate crossing-over-based variation.\nIndependent assortment of homologous chromosomes at Metaphase I also increases variation, but this process is distinct from recombination by crossing-over in Prophase I.",
+      "after": "Crossing-over is the exchange of chromosome segments between non-sister chromatids and is a major source of genetic variation in sexually produced offspring.\nDuring Prophase I of meiosis homologous chromosomes pair (synapsis) and form chiasmata where recombination between non-sister chromatids occurs, producing new allele combinations.\nBecause physical recombination takes place during Prophase I, the option 'Prophase I of meiosis' is correct.\nIndependent assortment of homologous chromosomes at Metaphase I also increases variation, but this process is distinct from recombination by crossing-over in Prophase I."
+    },
+    {
+      "id": 30468,
+      "externalId": "BIO-OWNER-M10-Q42",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ecological succession is the orderly replacement of one biological community by another over time after a disturbance.\nSecondary succession occurs on sites where a pre-existing community has been removed but soil and propagules (seeds, roots, spores) remain, so recovery begins more quickly.\nPrimary succession occurs on newly exposed substrates lacking soil (e.g., lava, bare rock or glacial deposits) and is slower because soil must first form.\nClimax succession denotes the final, relatively stable community characteristic of the local climate and is the end-point, not the initial process after disturbance.\nAutogenic succession is driven by changes brought about by the organisms themselves (for example plants improving soil), and can be a component of primary or secondary succession.\nBecause the question specifies a site where a community was destroyed but soil remains after fire or cultivation, the correct option is Secondary succession.",
+      "after": "Ecological succession is the orderly replacement of one biological community by another over time after a disturbance.\nSecondary succession occurs on sites where a pre-existing community has been removed but soil and propagules (seeds, roots, spores) remain, so recovery begins more quickly.\nPrimary succession occurs on newly exposed substrates lacking soil (e.g., lava, bare rock or glacial deposits) and is slower because soil must first form.\nBecause the question specifies a site where a community was destroyed but soil remains after fire or cultivation, the correct option is Secondary succession."
+    },
+    {
+      "id": 30469,
+      "externalId": "BIO-OWNER-M10-Q43",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sex-linked traits such as red–green colour blindness are typically X-linked, meaning the responsible genes lie on the X chromosome rather than on autosomes or mitochondrial DNA.\nThe red and green photopigment (opsin) genes are located on the X chromosome's X-specific (non-homologous) region, so mutations there produce the condition.\nBecause males have only one X chromosome, a single recessive mutation on that non-homologous X region will express colour blindness, while females require mutations on both X chromosomes or are carriers.\nThe 'Y chromosome only' option is incorrect because the Y carries few male-specific genes and does not contain the opsin genes responsible for red–green vision.\nAutosomal chromosomes are the non-sex chromosomes and would produce roughly equal affected rates in males and females, unlike the X-linked pattern seen here.\nMitochondrial DNA is maternally inherited and encodes components for cellular respiration, not the X-linked opsin proteins, so it cannot explain red–green colour blindness.",
+      "after": "Sex-linked traits such as red–green colour blindness are typically X-linked, meaning the responsible genes lie on the X chromosome rather than on autosomes or mitochondrial DNA.\nThe red and green photopigment (opsin) genes are located on the X chromosome's X-specific (non-homologous) region, so mutations there produce the condition.\nBecause males have only one X chromosome, a single recessive mutation on that non-homologous X region will express colour blindness, while females require mutations on both X chromosomes or are carriers.\nMitochondrial DNA is maternally inherited and encodes components for cellular respiration, not the X-linked opsin proteins, so it cannot explain red–green colour blindness."
+    },
+    {
+      "id": 30470,
+      "externalId": "BIO-OWNER-M10-Q44",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Stomatal opening and closing are controlled by changes in the turgor pressure of guard cells.\nGuard cells take up K+ (and other solutes) and water by osmosis, become turgid and bow apart to open the pore.\nWhen guard cells lose K+ and water they become flaccid and the pore closes, reversing the process.\nEpidermal cells form the protective outer layer and generally do not change turgor to operate stomatal aperture.\nMesophyll cells and other parenchyma affect internal CO2 and water status but do not directly produce the mechanical change in guard-cell shape.\nBecause the mechanical movement that opens the stomatal pore depends on guard-cell turgor and wall geometry, \"Guard cells\" is the correct option.",
+      "after": "Stomatal opening and closing are controlled by changes in the turgor pressure of guard cells.\nGuard cells take up K+ (and other solutes) and water by osmosis, become turgid and bow apart to open the pore.\nWhen guard cells lose K+ and water they become flaccid and the pore closes, reversing the process.\nBecause the mechanical movement that opens the stomatal pore depends on guard-cell turgor and wall geometry, \"Guard cells\" is the correct option."
+    },
+    {
+      "id": 30471,
+      "externalId": "BIO-OWNER-M10-Q45",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Chemoautotrophs are organisms that synthesize organic compounds from inorganic carbon (typically CO2) using energy obtained by oxidizing inorganic molecules.\nThey obtain chemical energy from reactions such as oxidation of hydrogen sulfide, ammonia or ferrous iron and use that energy to drive carbon fixation pathways.\nThis differs from photoautotrophs, which use light energy to fix CO2 rather than chemical (redox) energy.\nHeterotrophs cannot fix CO2 and must obtain ready-made organic compounds by consuming other organisms or organic material.\nSaprotrophs are a subset of heterotrophs that externally digest and absorb nutrients from dead organic matter, not by oxidizing inorganic substrates for energy.\nHence the correct answer is Chemoautotroph, because it alone combines autotrophic carbon fixation with energy derived from inorganic oxidation reactions.",
+      "after": "Chemoautotrophs are organisms that synthesize organic compounds from inorganic carbon (typically CO2) using energy obtained by oxidizing inorganic molecules.\nThey obtain chemical energy from reactions such as oxidation of hydrogen sulfide, ammonia or ferrous iron and use that energy to drive carbon fixation pathways.\nThis differs from photoautotrophs, which use light energy to fix CO2 rather than chemical (redox) energy.\nHence the correct answer is Chemoautotroph, because it alone combines autotrophic carbon fixation with energy derived from inorganic oxidation reactions."
+    },
+    {
+      "id": 30472,
+      "externalId": "BIO-OWNER-M10-Q46",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Nekton are aquatic organisms that can swim actively and move independently of water currents.\nThey have sustained locomotion allowing them to control their position and often to swim against currents.\nExamples of nekton include most fish, cephalopods (squid), marine mammals and some larger crustaceans.\nPlankton are organisms that drift with the water and lack strong, sustained swimming ability to oppose currents.\nBenthos live on or in the bottom substrate of aquatic systems, while neuston inhabit the surface film or just below the surface.\nTherefore 'Nekton' is the correct option because it specifically denotes organisms capable of active, independent swimming unlike plankton, benthos or neuston.",
+      "after": "Nekton are aquatic organisms that can swim actively and move independently of water currents.\nThey have sustained locomotion allowing them to control their position and often to swim against currents.\nExamples of nekton include most fish, cephalopods (squid), marine mammals and some larger crustaceans.\nTherefore 'Nekton' is the correct option because it specifically denotes organisms capable of active, independent swimming unlike plankton, benthos or neuston."
+    },
+    {
+      "id": 30473,
+      "externalId": "BIO-OWNER-M10-Q47",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Goitre is enlargement of the thyroid gland most commonly caused by dietary deficiency of the trace element iodine.\nIodine is required for synthesis of thyroid hormones (T3 and T4); inadequate iodine lowers these hormones in the blood.\nReduced T3/T4 leads to increased pituitary secretion of thyroid‑stimulating hormone (TSH), and chronic TSH stimulation causes thyroid hypertrophy and hyperplasia resulting in goitre.\nIron deficiency (option A) does not cause goitre but typically produces anaemia with pallor, fatigue and exertional breathlessness.\nCalcium deficiency (option C) affects bone strength and neuromuscular function (e.g., tetany, bone demineralisation) rather than producing thyroid enlargement.\nFluorine/fluoride (option D) is mainly involved in dental health (prevents caries) and excess causes fluorosis; iodine deficiency is prevented by use of iodised salt and consumption of iodine‑rich foods like seafood.",
+      "after": "Goitre is enlargement of the thyroid gland most commonly caused by dietary deficiency of the trace element iodine.\nIodine is required for synthesis of thyroid hormones (T3 and T4); inadequate iodine lowers these hormones in the blood.\nReduced T3/T4 leads to increased pituitary secretion of thyroid‑stimulating hormone (TSH), and chronic TSH stimulation causes thyroid hypertrophy and hyperplasia resulting in goitre.\nFluorine/fluoride (option D) is mainly involved in dental health (prevents caries) and excess causes fluorosis; iodine deficiency is prevented by use of iodised salt and consumption of iodine‑rich foods like seafood."
+    },
+    {
+      "id": 30474,
+      "externalId": "BIO-OWNER-M10-Q48",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Tropism is a directional growth response of a plant toward or away from an external stimulus, and thigmotropism refers specifically to growth in response to touch.\nThigmotropism is seen when climbing plants and tendrils coil around a support after making contact, enabling the plant to anchor and climb.\nThe bending involves differential cell growth on opposite sides of the organ, often mediated by plant hormones (e.g., auxins) that affect cell elongation.\nPhototropism is incorrect because it describes growth toward or away from light, such as stems bending toward a light source.\nGeotropism (also called gravitropism) is the response to gravity, with roots growing downward and shoots upward, so it does not involve touch.\nHydrotropism is root growth toward moisture and is unrelated to tactile stimulation, so it is not the correct option.",
+      "after": "Tropism is a directional growth response of a plant toward or away from an external stimulus, and thigmotropism refers specifically to growth in response to touch.\nThigmotropism is seen when climbing plants and tendrils coil around a support after making contact, enabling the plant to anchor and climb.\nThe bending involves differential cell growth on opposite sides of the organ, often mediated by plant hormones (e.g., auxins) that affect cell elongation.\nHydrotropism is root growth toward moisture and is unrelated to tactile stimulation, so it is not the correct option."
+    },
+    {
+      "id": 30475,
+      "externalId": "BIO-OWNER-M10-Q49",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question describes saprotrophic nutrition, where an organism secretes extracellular enzymes onto dead organic matter and absorbs the soluble products.\nMushrooms are fungi that exhibit saprotrophic nutrition: their mycelium secretes enzymes that break down complex molecules externally and then absorbs the soluble nutrients.\nHyphae increase surface area for enzyme secretion and absorption, allowing efficient breakdown of cellulose, lignin and other organic polymers in dead material.\nAmoeba feeds by phagocytosis, engulfing food particles into food vacuoles where digestion occurs intracellularly rather than secreting enzymes onto substrates.\nChlamydomonas is a photosynthetic unicellular alga that synthesizes its own food by photosynthesis and does not obtain nutrients by external digestion of dead matter.\nGrasshoppers ingest plant material and digest it internally in a gut with enzymes, so they are holozoic feeders not saprotrophs.",
+      "after": "The question describes saprotrophic nutrition, where an organism secretes extracellular enzymes onto dead organic matter and absorbs the soluble products.\nMushrooms are fungi that exhibit saprotrophic nutrition: their mycelium secretes enzymes that break down complex molecules externally and then absorbs the soluble nutrients.\nHyphae increase surface area for enzyme secretion and absorption, allowing efficient breakdown of cellulose, lignin and other organic polymers in dead material.\nGrasshoppers ingest plant material and digest it internally in a gut with enzymes, so they are holozoic feeders not saprotrophs."
+    },
+    {
+      "id": 30476,
+      "externalId": "BIO-OWNER-M10-Q50",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Atmospheric humidity is the amount of water vapour present in the air, often expressed as relative or absolute humidity.\nA hygrometer is the instrument designed to measure atmospheric humidity directly and can be a hair hygrometer, a wet-and-dry bulb (psychrometer) or an electronic humidity sensor.\nThe correct option is Hygrometer because it provides a direct quantitative reading of moisture content in the air.\nA barometer measures atmospheric pressure, not humidity, so it cannot be used to determine moisture content.\nA rain gauge measures the depth or volume of precipitation collected and an anemometer measures wind speed; neither device measures atmospheric humidity.\nTherefore, among the listed instruments a hygrometer is the appropriate choice for measuring atmospheric humidity.",
+      "after": "Atmospheric humidity is the amount of water vapour present in the air, often expressed as relative or absolute humidity.\nA hygrometer is the instrument designed to measure atmospheric humidity directly and can be a hair hygrometer, a wet-and-dry bulb (psychrometer) or an electronic humidity sensor.\nThe correct option is Hygrometer because it provides a direct quantitative reading of moisture content in the air.\nTherefore, among the listed instruments a hygrometer is the appropriate choice for measuring atmospheric humidity."
+    }
+  ]
+}

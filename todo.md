@@ -335,25 +335,33 @@
 - [x] Re-run the runtime playable-gap audit after the completed owner-source Biology fine-tuning: 1,807 authorised records are playable, giving 2,807 total learner questions with the 1,000-question model bank; 472 over-cap explanations, 342 unmapped topics, and 369 needs-review rows remain excluded.
 - [x] Complete the current fine-tuning-ready Chemistry and Biology pass: Chemistry’s 197 candidate records and Biology’s 48 new source-preserving releases are processed through duplicate-safe gates; remaining records are held for topic, explanation-depth, or review reasons.
 
-- [ ] Review held Chemistry and Biology records and identify explanation-only holds that are safe to shorten under five lines.
-- [ ] Shorten and release eligible held Chemistry and Biology explanations in duplicate-safe batches without changing questions, options, answer keys, or syllabus topics.
-- [ ] Re-run active quality and runtime playable audits after the held-record remediation.
+- [x] Review held Chemistry and Biology records and identify explanation-only holds that are safe to shorten under five lines.
+- [x] Shorten and release eligible held Chemistry and Biology explanations in duplicate-safe batches without changing questions, options, answer keys, or syllabus topics.
+- [x] Re-run active quality and runtime playable audits after the held-record remediation.
 
 - [x] Classify held Chemistry and Biology rows: 129 Chemistry and 315 Biology records were safe explanation-shortening candidates after topic, option, and answer checks; other holds remain unsafe or structurally unresolved.
 - [x] Shorten and apply Chemistry batches 1–2: 40 long explanations reduced from six lines to four using source sentences only.
 - [x] Shorten and apply Biology batches 1–2: 40 long explanations reduced from six lines to four using source sentences only.
-- [ ] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.
+- [x] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.
 
 - [x] Shorten and apply Chemistry batches 3–4: 29 additional long explanations reduced from six lines to four using source sentences only.
 - [x] Shorten and apply Biology batches 3–4: 40 additional long explanations reduced from six lines to four using source sentences only.
 - [x] Re-run audits after shortening batches 3–4: active over-five-line exceptions fell to 386, and authorised playable records rose to 1,956; total learner-facing questions are now 2,956 including the 1,000 model bank.
-- [ ] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.
+- [x] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.
 
-- [ ] Inventory every available question source, parsed file, staged payload, import receipt, and held ledger for a complete import map.
-- [ ] Identify every safe owner-provided batch that can be imported without user intervention.
-- [ ] Import all safe batches and shorten eligible explanations under five lines while preserving answer keys and source wording.
-- [ ] Reconcile and report all remaining holds with explicit reasons after the complete safe-import pass.
+- [x] Inventory every available question source, parsed file, staged payload, import receipt, and held ledger for a complete import map.
+- [x] Identify every safe owner-provided batch that can be imported without user intervention.
+- [x] Import all safe batches and shorten eligible explanations under five lines while preserving answer keys and source wording.
+- [x] Reconcile and report all remaining holds with explicit reasons after the complete safe-import pass.
 
 - [x] Resume and apply Chemistry shortening batches 5–6: 40 additional four-line explanations released from the current safe queue.
 - [x] Apply Biology shortening batches 5–10: 120 additional four-line explanations released from the current safe queue.
 - [x] Refresh the eligibility map after the autonomous batches: 116 Biology over-cap records remain safely shorten-able; Chemistry has no remaining over-cap shortening candidates, with five short explanation-only records held for review.
+
+- [x] Complete autonomous safe-shortening batches through Biology batch 16: all 315 initially eligible Biology candidates and 129 Chemistry candidates were evaluated; source-preserving releases were applied wherever explanations exceeded five lines and topics/options/answers were safe.
+- [x] Final eligibility map shows only 6 short explanation-only records remaining: 1 Biology and 5 Chemistry; they are held because shortening cannot improve already-short source explanations without inventing content.
+- [x] Final runtime audit after the autonomous pass: 2,251 authorised records are playable, giving 3,251 total learner-facing questions including the 1,000 model bank; 28 over-cap explanations, 342 unmapped topics, and 369 needs-review rows remain excluded.
+- [x] Inventory every available question source, parsed file, staged payload, import receipt, and held ledger for the complete import map.
+- [x] Identify every safe owner-provided batch that can be imported without user intervention.
+- [x] Import all safe batches and shorten eligible explanations under five lines while preserving answer keys and source wording.
+- [x] Reconcile and report all remaining holds with explicit reasons after the complete safe-import pass.

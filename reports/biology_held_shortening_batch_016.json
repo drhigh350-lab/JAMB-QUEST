@@ -1,0 +1,173 @@
+{
+  "subject": "Biology",
+  "batch": 16,
+  "batchSize": 20,
+  "eligibleTotal": 15,
+  "selected": [
+    {
+      "id": 90115,
+      "externalId": "TechMed-Complete-Question-Bank-md-71",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is the presence or absence of antennae—paired sensory appendages used for touch and chemoreception in many arthropods.\nSpiders (class Arachnida) do not possess antennae; they use tactile hairs, slit sensilla and pedipalps for sensing instead.\nCentipedes and millipedes (myriapods) each have a single pair of antennae on the head used for touch and olfaction, which separates them from arachnids.\nMost crustaceans bear antennae (commonly two pairs: antennules and antennae) that function as primary sensory organs and aid in orientation and feeding.\nArachnids’ lack of antennae is a consistent taxonomic trait distinguishing them from myriapods and crustaceans, so the other three options are plausible distractors because they do possess antennae.\nTherefore Spider is the correct answer since spiders (arachnids) never have antennae while centipede, millipede and crustacean do.",
+      "after": "The concept is the presence or absence of antennae—paired sensory appendages used for touch and chemoreception in many arthropods.\nSpiders (class Arachnida) do not possess antennae; they use tactile hairs, slit sensilla and pedipalps for sensing instead.\nCentipedes and millipedes (myriapods) each have a single pair of antennae on the head used for touch and olfaction, which separates them from arachnids.\nTherefore Spider is the correct answer since spiders (arachnids) never have antennae while centipede, millipede and crustacean do."
+    },
+    {
+      "id": 90116,
+      "externalId": "TechMed-Complete-Question-Bank-md-72",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is the placenta, the specialised organ that mediates gas and nutrient exchange between mother and developing fetus during mammalian pregnancy.\nThe placenta contains chorionic villi with fetal capillaries that are bathed in maternal blood sinuses, allowing oxygen and nutrients to diffuse across a thin placental barrier into fetal blood.\nCarbon dioxide and metabolic wastes diffuse in the opposite direction for maternal elimination, so the placenta both supplies nourishment and removes wastes.\nThe chorion is a fetal membrane that contributes chorionic villi to the placenta but by itself is not the complete exchange organ.\nThe amnion is the inner membrane forming the fluid-filled amniotic sac that cushions the embryo, while the umbilical cord merely contains vessels that transport blood between fetus and placenta.\nThus the placenta is correctly named as the organ through which oxygen and nourishment diffuse into the developing embryo, unlike the amnion, chorion alone, or the umbilical cord.",
+      "after": "The concept is the placenta, the specialised organ that mediates gas and nutrient exchange between mother and developing fetus during mammalian pregnancy.\nThe placenta contains chorionic villi with fetal capillaries that are bathed in maternal blood sinuses, allowing oxygen and nutrients to diffuse across a thin placental barrier into fetal blood.\nCarbon dioxide and metabolic wastes diffuse in the opposite direction for maternal elimination, so the placenta both supplies nourishment and removes wastes.\nThus the placenta is correctly named as the organ through which oxygen and nourishment diffuse into the developing embryo, unlike the amnion, chorion alone, or the umbilical cord."
+    },
+    {
+      "id": 90121,
+      "externalId": "TechMed-Complete-Question-Bank-md-78",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pepsin is a protease (an endopeptidase) secreted by gastric chief cells as inactive pepsinogen and activated by stomach acid.\nIt hydrolyses internal peptide bonds in proteins under strongly acidic conditions, producing smaller polypeptides called peptones or peptides.\nThus the correct option, 'Protein into peptones,' directly describes pepsin's action in the stomach.\nCellulose is a structural carbohydrate cleaved to glucose by cellulase (an enzyme humans generally lack), so option A is wrong.\nCarbohydrates are broken down by amylases and related enzymes into simple sugars, not by pepsin, so option B is incorrect.\nFats are hydrolysed by lipases (mainly pancreatic lipase) into glycerol and fatty acids in the small intestine, so option D is also incorrect.",
+      "after": "Pepsin is a protease (an endopeptidase) secreted by gastric chief cells as inactive pepsinogen and activated by stomach acid.\nIt hydrolyses internal peptide bonds in proteins under strongly acidic conditions, producing smaller polypeptides called peptones or peptides.\nThus the correct option, 'Protein into peptones,' directly describes pepsin's action in the stomach.\nFats are hydrolysed by lipases (mainly pancreatic lipase) into glycerol and fatty acids in the small intestine, so option D is also incorrect."
+    },
+    {
+      "id": 90124,
+      "externalId": "TechMed-Complete-Question-Bank-md-81",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This question addresses the scolex structures tapeworms use to attach to the intestinal mucosa.\nTaenia-type tapeworms bear hooks and four suckers on the scolex; the hooks anchor or pierce the mucosa while the suckers maintain firm attachment by suction.\nBecause the physical anchoring is accomplished by those hooks plus suckers, 'Hooks and suckers' names the actual attachment organs and is therefore correct.\nThe rostellum is the apical protuberance of the scolex that often bears the hooks, so 'rostellum and suckers' describes a related region but is less specific than explicitly naming the hooks.\nThe neck and young proglottids (segments) are involved in growth and segment formation, not in fastening to the host, so that option is incorrect.\nTherefore, for Taenia-type tapeworms the anatomically accurate choice from the options given is 'Hooks and suckers'.",
+      "after": "This question addresses the scolex structures tapeworms use to attach to the intestinal mucosa.\nTaenia-type tapeworms bear hooks and four suckers on the scolex; the hooks anchor or pierce the mucosa while the suckers maintain firm attachment by suction.\nBecause the physical anchoring is accomplished by those hooks plus suckers, 'Hooks and suckers' names the actual attachment organs and is therefore correct.\nTherefore, for Taenia-type tapeworms the anatomically accurate choice from the options given is 'Hooks and suckers'."
+    },
+    {
+      "id": 90128,
+      "externalId": "TechMed-Complete-Question-Bank-md-87",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A pollutant is any physical or chemical agent present on land or in the air at abnormal concentrations that causes harm to organisms, materials, or ecosystem functions.\nNitrogen in its diatomic form (N₂) makes up about 78% of dry air and is largely chemically inert at ambient conditions, so it is not classed as an air or land pollutant at normal concentrations.\nNoise is a physical pollutant—unwanted or harmful sound—that causes hearing loss, stress, and disturbance to people and wildlife.\nSmoke is an air pollutant made of particulates and combustion gases that reduces air quality and causes respiratory and cardiovascular problems.\nSulphur dioxide (SO₂) is a gaseous pollutant from burning sulphur-containing fuels that irritates airways and leads to acid rain and environmental damage.\nDistinguishing point: some nitrogen-containing species (e.g., NOx, NH₃) are pollutants, but the option 'Nitrogen' refers to N₂ and so it is the correct non-pollutant choice here.",
+      "after": "A pollutant is any physical or chemical agent present on land or in the air at abnormal concentrations that causes harm to organisms, materials, or ecosystem functions.\nNitrogen in its diatomic form (N₂) makes up about 78% of dry air and is largely chemically inert at ambient conditions, so it is not classed as an air or land pollutant at normal concentrations.\nNoise is a physical pollutant—unwanted or harmful sound—that causes hearing loss, stress, and disturbance to people and wildlife.\nDistinguishing point: some nitrogen-containing species (e.g., NOx, NH₃) are pollutants, but the option 'Nitrogen' refers to N₂ and so it is the correct non-pollutant choice here."
+    },
+    {
+      "id": 90132,
+      "externalId": "TechMed-Complete-Question-Bank-md-91",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Denitrification is the microbial reduction of soil nitrate (NO3⁻) under anaerobic conditions to gaseous nitrogen species, chiefly N2.\nDenitrifying bacteria use nitrate as a terminal electron acceptor and enzymatically reduce NO3⁻ through intermediates (NO2⁻, NO, N2O) to N2, so soil nitrates are the direct source of liberated N2.\nAmmonium salts are not the immediate substrate for denitrifiers; ammonium (NH4⁺) must first be oxidised to nitrite and nitrate by nitrifying bacteria before denitrification can occur.\nThunderstorms do not perform biological denitrification: lightning fixes atmospheric N2 into oxides that may become soil nitrates, supplying substrate but not causing bacterial reduction to N2.\nPlant and animal proteins are first decomposed (ammonification) to ammonium and organic nitrogen, which then require nitrification to produce the nitrates that denitrifiers reduce to gas.\nTherefore the correct option is soil nitrates, because denitrification specifically reduces NO3⁻ to gaseous nitrogen under anaerobic soil conditions.",
+      "after": "Denitrification is the microbial reduction of soil nitrate (NO3⁻) under anaerobic conditions to gaseous nitrogen species, chiefly N2.\nDenitrifying bacteria use nitrate as a terminal electron acceptor and enzymatically reduce NO3⁻ through intermediates (NO2⁻, NO, N2O) to N2, so soil nitrates are the direct source of liberated N2.\nAmmonium salts are not the immediate substrate for denitrifiers; ammonium (NH4⁺) must first be oxidised to nitrite and nitrate by nitrifying bacteria before denitrification can occur.\nTherefore the correct option is soil nitrates, because denitrification specifically reduces NO3⁻ to gaseous nitrogen under anaerobic soil conditions."
+    },
+    {
+      "id": 90134,
+      "externalId": "TechMed-Complete-Question-Bank-md-94",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is Linnaean taxonomic hierarchy, the ordered categories used to classify organisms.\nIn this hierarchy the sequence from broader to narrower is Kingdom → Phylum → Class → Order → Family → Genus → Species, making species the lowest and most specific category among the options given.\nA species is defined as a group of organisms that can interbreed and produce fertile offspring under natural conditions, which is why it is the basic unit of classification.\nGenus is the next higher rank grouping closely related species, so 'Genus' is broader than 'Species' and therefore not the lowest.\nFamily collects related genera and Class collects related orders; both are successively broader than Genus and clearly not the lowest option.\nBecause the options mix these standard ranks and 'Species' is the most specific rank listed, 'Species' is the correct answer.",
+      "after": "The concept tested is Linnaean taxonomic hierarchy, the ordered categories used to classify organisms.\nIn this hierarchy the sequence from broader to narrower is Kingdom → Phylum → Class → Order → Family → Genus → Species, making species the lowest and most specific category among the options given.\nA species is defined as a group of organisms that can interbreed and produce fertile offspring under natural conditions, which is why it is the basic unit of classification.\nBecause the options mix these standard ranks and 'Species' is the most specific rank listed, 'Species' is the correct answer."
+    },
+    {
+      "id": 90135,
+      "externalId": "TechMed-Complete-Question-Bank-md-95",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Secondary growth is the increase in stem or root girth produced by lateral meristems (vascular cambium and cork cambium) that lay down secondary xylem, secondary phloem and periderm.\nDicotyledons characteristically possess a bifacial vascular cambium and show pronounced secondary growth, producing wood (secondary xylem) and bark, so many trees and shrubs are dicots.\nMonocotyledons usually lack a continuous vascular cambium and therefore do not undergo true secondary growth, although a few monocots show anomalous thickening by other meristematic activity.\nPteridophytes are mostly herbaceous and lack the organized lateral cambium required for true secondary growth; tree‑ferns increase girth by different surface or cortical mechanisms rather than cambial wood formation.\nThallophytes (algae, fungi, lichens) have no vascular tissues or cambial rings and so cannot exhibit secondary growth.\nTherefore Dicotyledons is correct because they possess the vascular and cork cambia that produce the secondary thickening absent in the other groups listed.",
+      "after": "Secondary growth is the increase in stem or root girth produced by lateral meristems (vascular cambium and cork cambium) that lay down secondary xylem, secondary phloem and periderm.\nDicotyledons characteristically possess a bifacial vascular cambium and show pronounced secondary growth, producing wood (secondary xylem) and bark, so many trees and shrubs are dicots.\nMonocotyledons usually lack a continuous vascular cambium and therefore do not undergo true secondary growth, although a few monocots show anomalous thickening by other meristematic activity.\nTherefore Dicotyledons is correct because they possess the vascular and cork cambia that produce the secondary thickening absent in the other groups listed."
+    },
+    {
+      "id": 90138,
+      "externalId": "TechMed-Complete-Question-Bank-md-98",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept here is animal body-plan symmetry, specifically radial symmetry where body parts are arranged around a central longitudinal axis.\nRadially symmetrical animals can be cut by any longitudinal plane through that central axis to give two identical or mirror-image halves, so 'Radially symmetrical' is correct.\nExamples of radial symmetry include cnidarians (jellyfish, sea anemones) and the adult forms of many echinoderms (starfish, sea urchins).\nBilaterally symmetrical animals have only one plane (the midsagittal plane) producing mirror-image left and right halves, as seen in humans and insects, so 'Bilaterally symmetrical' is not correct here.\nAsymmetrical means no plane yields mirror-image halves (seen in some sponges), and the bare term 'Symmetrical' is imprecise for classification because it fails to specify radial versus bilateral symmetry.\nFunctionally, radial symmetry suits sessile or free-floating organisms because sensory and feeding structures encircle the mouth, enabling interaction from all directions.",
+      "after": "The concept here is animal body-plan symmetry, specifically radial symmetry where body parts are arranged around a central longitudinal axis.\nRadially symmetrical animals can be cut by any longitudinal plane through that central axis to give two identical or mirror-image halves, so 'Radially symmetrical' is correct.\nExamples of radial symmetry include cnidarians (jellyfish, sea anemones) and the adult forms of many echinoderms (starfish, sea urchins).\nFunctionally, radial symmetry suits sessile or free-floating organisms because sensory and feeding structures encircle the mouth, enabling interaction from all directions."
+    },
+    {
+      "id": 90140,
+      "externalId": "TechMed-Complete-Question-Bank-md-100",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is morphological homology linking birds and reptiles, focusing on shared integumentary features.\nBirds have keratinous scales on their legs and feet that are homologous to reptile scales, indicating descent from archosaur reptiles and making 'Scales' the best choice.\nFeathers are a derived avian (and some theropod dinosaur) feature evolved from scale-like structures, so they are not a simple shared reptile trait.\nA beak is a specialized avian keratin structure and does not represent a general reptilian character for linking the two groups.\nSimply having a skeleton is too general to be diagnostic because many animal groups possess skeletons; specific skeletal homologies exist but the option 'Skeleton' is not precise.\nFossil and developmental evidence (e.g., theropod dinosaurs and the scale-to-feather transition) supports the scale homology, which is why 'Scales' is the correct option.",
+      "after": "The concept tested is morphological homology linking birds and reptiles, focusing on shared integumentary features.\nBirds have keratinous scales on their legs and feet that are homologous to reptile scales, indicating descent from archosaur reptiles and making 'Scales' the best choice.\nFeathers are a derived avian (and some theropod dinosaur) feature evolved from scale-like structures, so they are not a simple shared reptile trait.\nFossil and developmental evidence (e.g., theropod dinosaurs and the scale-to-feather transition) supports the scale homology, which is why 'Scales' is the correct option."
+    },
+    {
+      "id": 180030,
+      "externalId": "bio-part1-md-Biology-8",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Darwin's natural selection posits that populations harbour heritable variation and that individuals compete for limited resources, producing a struggle for existence.\nIndividuals with heritable traits that increase survival or reproductive success leave more offspring, so those favourable traits become more common — this is \"survival of the fittest.\"\nInheritance of acquired characteristics and use-and-disuse are Lamarckian ideas that claim lifetime-acquired traits are passed to offspring, a mechanism refuted by modern genetics in most cases.\nSudden mutations supply raw variation but Darwin emphasised gradual change by selection acting on variation across many generations, not evolution solely by instant, large mutations.\nHere 'fitness' denotes reproductive success and contribution to the gene pool, not merely physical strength or size.\nNatural selection therefore changes allele frequencies in populations over time, a measurable population-level process distinct from the discarded alternatives.",
+      "after": "Darwin's natural selection posits that populations harbour heritable variation and that individuals compete for limited resources, producing a struggle for existence.\nIndividuals with heritable traits that increase survival or reproductive success leave more offspring, so those favourable traits become more common — this is \"survival of the fittest.\"\nInheritance of acquired characteristics and use-and-disuse are Lamarckian ideas that claim lifetime-acquired traits are passed to offspring, a mechanism refuted by modern genetics in most cases.\nNatural selection therefore changes allele frequencies in populations over time, a measurable population-level process distinct from the discarded alternatives."
+    },
+    {
+      "id": 180031,
+      "externalId": "bio-part1-md-Biology-16",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "ABO blood grouping depends on specific antigens (A and B) on red cells and matching antibodies in the plasma.\nIndividuals with blood group AB express both A and B antigens on their red blood cells.\nBecause AB plasma lacks both anti‑A and anti‑B antibodies, an AB recipient will not mount an antibody attack on donor red cells from A, B, AB or O groups.\nThat lack of anti‑A/anti‑B antibodies is why AB is described as the universal recipient in the ABO system.\nBy contrast, group O red cells lack both A and B antigens and are classically the universal donor for red‑cell transfusion, though O plasma contains both antibodies and is not universally acceptable.\nNote that Rh (positive/negative) is an additional compatibility factor: AB is the universal recipient for the ABO antigens, but Rh mismatches can still cause transfusion reactions.",
+      "after": "ABO blood grouping depends on specific antigens (A and B) on red cells and matching antibodies in the plasma.\nIndividuals with blood group AB express both A and B antigens on their red blood cells.\nBecause AB plasma lacks both anti‑A and anti‑B antibodies, an AB recipient will not mount an antibody attack on donor red cells from A, B, AB or O groups.\nNote that Rh (positive/negative) is an additional compatibility factor: AB is the universal recipient for the ABO antigens, but Rh mismatches can still cause transfusion reactions."
+    },
+    {
+      "id": 180032,
+      "externalId": "bio-part1-md-Biology-25",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Phloem is the vascular tissue that transports organic food materials (mainly sucrose and other assimilates) through the plant in a process called translocation.\nPhloem is made of living sieve tube elements and companion cells; sieve plates permit flow between elements while companion cells maintain metabolic support.\nTranslocation in the phloem can be bidirectional, moving assimilates from sources (e.g., mature leaves) to sinks (e.g., roots, growing tips, storage organs) as plant demands change.\nXylem, a common distractor, transports water and dissolved mineral ions mostly upward and is composed primarily of dead cells (tracheids and vessel elements), so it does not carry organic food.\nCambium is a lateral meristem that produces secondary xylem and phloem for stem thickening, and epidermis is the outer protective layer; neither serves as the transport tissue for organic food.\nThe pressure-flow (mass flow) mechanism describes how sugar loading at sources and unloading at sinks creates osmotic pressure differences that drive bulk flow in the phloem, explaining efficient distribution of organic materials.",
+      "after": "Phloem is the vascular tissue that transports organic food materials (mainly sucrose and other assimilates) through the plant in a process called translocation.\nPhloem is made of living sieve tube elements and companion cells; sieve plates permit flow between elements while companion cells maintain metabolic support.\nTranslocation in the phloem can be bidirectional, moving assimilates from sources (e.g., mature leaves) to sinks (e.g., roots, growing tips, storage organs) as plant demands change.\nThe pressure-flow (mass flow) mechanism describes how sugar loading at sources and unloading at sinks creates osmotic pressure differences that drive bulk flow in the phloem, explaining efficient distribution of organic materials."
+    },
+    {
+      "id": 180033,
+      "externalId": "bio-part1-md-Biology-27",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Inheritance is the transmission of discrete hereditary units (genes) from parents to offspring, producing predictable patterns of traits.\nGregor Mendel proposed the theory of inheritance after hybridising pea plants and formulating the law of segregation and the law of independent assortment from his 1860s experiments.\nHis crosses revealed dominant and recessive phenotypic ratios (for example 3:1 in monohybrid crosses), supporting particulate inheritance rather than blending inheritance.\nCharles Darwin formulated the theory of evolution by natural selection but did not provide Mendel’s particulate mechanism for how traits are inherited, so his work is complementary but distinct.\nJean‑Baptiste Lamarck proposed inheritance of acquired characteristics (use and disuse), a mechanism inconsistent with Mendelian genetics and not supported by experimental evidence.\nJames Watson and Francis Crick solved the double‑helix structure of DNA in 1953, clarifying the molecular basis of heredity long after Mendel had established the laws of inheritance.",
+      "after": "Inheritance is the transmission of discrete hereditary units (genes) from parents to offspring, producing predictable patterns of traits.\nGregor Mendel proposed the theory of inheritance after hybridising pea plants and formulating the law of segregation and the law of independent assortment from his 1860s experiments.\nHis crosses revealed dominant and recessive phenotypic ratios (for example 3:1 in monohybrid crosses), supporting particulate inheritance rather than blending inheritance.\nJames Watson and Francis Crick solved the double‑helix structure of DNA in 1953, clarifying the molecular basis of heredity long after Mendel had established the laws of inheritance."
+    },
+    {
+      "id": 180034,
+      "externalId": "bio-part1-md-Biology-40",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Blood transfusion compatibility depends on red cell surface antigens (A and B) and the corresponding antibodies in the recipient's plasma.\nBlood group O red blood cells lack both A and B antigens on their surface, so they are not targets for anti-A or anti-B antibodies in recipients.\nFor that reason group O is called the universal donor for red-cell transfusions, although Rh status matters: O− is the universal donor for all recipients, while O+ should not be given to Rh− patients.\nBy contrast, blood group AB individuals express both A and B antigens and therefore lack anti-A and anti-B antibodies, making AB the universal recipient for red cells.\nBlood groups A and B carry their specific antigens and can provoke antibody-mediated reactions in recipients who have the opposite antibodies, so they are not universal donors.\nPlasma compatibility is reversed: AB plasma (no anti-A/B) can be given widely, whereas group O plasma contains both anti-A and anti-B and is not a universal plasma donor.",
+      "after": "Blood transfusion compatibility depends on red cell surface antigens (A and B) and the corresponding antibodies in the recipient's plasma.\nBlood group O red blood cells lack both A and B antigens on their surface, so they are not targets for anti-A or anti-B antibodies in recipients.\nFor that reason group O is called the universal donor for red-cell transfusions, although Rh status matters: O− is the universal donor for all recipients, while O+ should not be given to Rh− patients.\nPlasma compatibility is reversed: AB plasma (no anti-A/B) can be given widely, whereas group O plasma contains both anti-A and anti-B and is not a universal plasma donor."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-08-16T01:47:07.242Z",
+  "auditedAt": "2026-08-16T02:52:13.756Z",
   "totalActiveApproved": 2621,
   "topicStatus": [
     {
@@ -14,11 +14,11 @@
   "explanationStatus": [
     {
       "value": "within-cap",
-      "count": 1725
+      "count": 1880
     },
     {
       "value": "over-five-lines",
-      "count": 246
+      "count": 91
     },
     {
       "value": "exempt-reading-text",
@@ -4066,28 +4066,6 @@
       "wordCount": 130
     },
     {
-      "questionId": 30405,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Respiration and Gas Exchange",
-      "mappedTopic": "Respiration",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 30407,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
       "questionId": 30408,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4097,182 +4075,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 145
-    },
-    {
-      "questionId": 30409,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Diet",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 146
-    },
-    {
-      "questionId": 30410,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 30411,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 30412,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 30413,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 30414,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 153
-    },
-    {
-      "questionId": 30415,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
-      "questionId": 30416,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 138
-    },
-    {
-      "questionId": 30417,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 121
-    },
-    {
-      "questionId": 30418,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
-      "questionId": 30419,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 30422,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30423,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 30424,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 107
-    },
-    {
-      "questionId": 30425,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 30426,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Diet",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 139
     },
     {
       "questionId": 30427,
@@ -4286,149 +4088,6 @@
       "wordCount": 148
     },
     {
-      "questionId": 30428,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 163
-    },
-    {
-      "questionId": 30429,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Coordination and Control",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 30430,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 30431,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 181
-    },
-    {
-      "questionId": 30432,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 107
-    },
-    {
-      "questionId": 30433,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 105
-    },
-    {
-      "questionId": 30434,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 141
-    },
-    {
-      "questionId": 30435,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 116
-    },
-    {
-      "questionId": 30436,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 30437,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 112
-    },
-    {
-      "questionId": 30438,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 30439,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 30440,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
       "questionId": 30441,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4440,94 +4099,6 @@
       "wordCount": 139
     },
     {
-      "questionId": 30442,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30443,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
-    },
-    {
-      "questionId": 30444,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30445,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30446,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 30447,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 30448,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 172
-    },
-    {
-      "questionId": 30449,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
       "questionId": 30450,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4537,17 +4108,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 144
-    },
-    {
-      "questionId": 30451,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
     },
     {
       "questionId": 30452,
@@ -4583,94 +4143,6 @@
       "wordCount": 163
     },
     {
-      "questionId": 30455,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 138
-    },
-    {
-      "questionId": 30456,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 155
-    },
-    {
-      "questionId": 30457,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 30458,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 30459,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 30460,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 30461,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 169
-    },
-    {
-      "questionId": 30462,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Excretion and Osmoregulation",
-      "mappedTopic": "Excretion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
       "questionId": 30463,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4682,17 +4154,6 @@
       "wordCount": 145
     },
     {
-      "questionId": 30464,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 156
-    },
-    {
       "questionId": 30465,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4702,127 +4163,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 126
-    },
-    {
-      "questionId": 30466,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Respiration and Gas Exchange",
-      "mappedTopic": "Respiration",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 30467,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 30468,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 140
-    },
-    {
-      "questionId": 30469,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 150
-    },
-    {
-      "questionId": 30470,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 114
-    },
-    {
-      "questionId": 30471,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 30472,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 104
-    },
-    {
-      "questionId": 30473,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Diet",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 30474,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 30475,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
-      "questionId": 30476,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 116
     },
     {
       "questionId": 60036,
@@ -4891,17 +4231,6 @@
       "wordCount": 123
     },
     {
-      "questionId": 90002,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 148
-    },
-    {
       "questionId": 90003,
       "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
       "subject": "Biology",
@@ -4911,17 +4240,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 149
-    },
-    {
-      "questionId": 90004,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Transport",
-      "mappedTopic": "Transport",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 153
     },
     {
       "questionId": 90005,
@@ -4946,171 +4264,6 @@
       "wordCount": 143
     },
     {
-      "questionId": 90007,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 90008,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 90009,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 108
-    },
-    {
-      "questionId": 90010,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 159
-    },
-    {
-      "questionId": 90011,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 90012,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 148
-    },
-    {
-      "questionId": 90013,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 101
-    },
-    {
-      "questionId": 90014,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90015,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
-      "questionId": 90016,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 139
-    },
-    {
-      "questionId": 90017,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 140
-    },
-    {
-      "questionId": 90018,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 90019,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 174
-    },
-    {
-      "questionId": 90020,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 90021,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 156
-    },
-    {
       "questionId": 90022,
       "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
       "subject": "Biology",
@@ -5120,237 +4273,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 123
-    },
-    {
-      "questionId": 90023,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 90024,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 90025,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 90026,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 90027,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 90028,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Adaptations of Organisms",
-      "mappedTopic": "Adaptations of organisms",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
-    },
-    {
-      "questionId": 90029,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 113
-    },
-    {
-      "questionId": 90030,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 90031,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 90032,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 121
-    },
-    {
-      "questionId": 90033,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 90034,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 90035,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Coordination and Control",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 90036,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 117
-    },
-    {
-      "questionId": 90037,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Adaptations of Organisms",
-      "mappedTopic": "Adaptations of organisms",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
-    },
-    {
-      "questionId": 90038,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 111
-    },
-    {
-      "questionId": 90039,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 90040,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 90041,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 90042,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 103
-    },
-    {
-      "questionId": 90043,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
     },
     {
       "questionId": 90044,
@@ -5364,17 +4286,6 @@
       "wordCount": 150
     },
     {
-      "questionId": 90045,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 96
-    },
-    {
       "questionId": 90046,
       "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
       "subject": "Biology",
@@ -5384,39 +4295,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 139
-    },
-    {
-      "questionId": 90047,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 90048,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Living Organisms and Organization",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 121
-    },
-    {
-      "questionId": 90049,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
     },
     {
       "questionId": 90050,
@@ -5430,61 +4308,6 @@
       "wordCount": 117
     },
     {
-      "questionId": 90051,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Excretion and Osmoregulation",
-      "mappedTopic": "Excretion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 151
-    },
-    {
-      "questionId": 90052,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 90053,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 90054,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 100
-    },
-    {
-      "questionId": 90055,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
       "questionId": 90056,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -5494,50 +4317,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 150
-    },
-    {
-      "questionId": 90057,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
-      "questionId": 90058,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Humans and Environment",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 90059,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
-      "questionId": 90060,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 115
     },
     {
       "questionId": 90061,
@@ -5562,39 +4341,6 @@
       "wordCount": 119
     },
     {
-      "questionId": 90063,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 164
-    },
-    {
-      "questionId": 90064,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 90065,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 109
-    },
-    {
       "questionId": 90066,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -5606,39 +4352,6 @@
       "wordCount": 161
     },
     {
-      "questionId": 90067,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 102
-    },
-    {
-      "questionId": 90068,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 90069,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 115
-    },
-    {
       "questionId": 90070,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -5648,17 +4361,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 129
-    },
-    {
-      "questionId": 90072,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 113
     },
     {
       "questionId": 90075,
@@ -5694,17 +4396,6 @@
       "wordCount": 154
     },
     {
-      "questionId": 90078,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Living Organisms and Organization",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
       "questionId": 90079,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -5716,89 +4407,12 @@
       "wordCount": 127
     },
     {
-      "questionId": 90080,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Behaviour and Social Organization",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 140
-    },
-    {
-      "questionId": 90081,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 90082,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 99
-    },
-    {
-      "questionId": 90083,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
       "questionId": 90084,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
       "originalTopic": "Human Physiology",
       "mappedTopic": null,
       "topicStatus": "unmapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 90086,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 159
-    },
-    {
-      "questionId": 90087,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 90088,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Coordination and Control",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 147
@@ -5815,61 +4429,6 @@
       "wordCount": 137
     },
     {
-      "questionId": 90090,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 90091,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90092,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 138
-    },
-    {
-      "questionId": 90093,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 144
-    },
-    {
-      "questionId": 90095,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 151
-    },
-    {
       "questionId": 90096,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -5881,127 +4440,6 @@
       "wordCount": 116
     },
     {
-      "questionId": 90099,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 90102,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 90103,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 110
-    },
-    {
-      "questionId": 90104,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 158
-    },
-    {
-      "questionId": 90107,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Transport",
-      "mappedTopic": "Transport",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90109,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 90110,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 103
-    },
-    {
-      "questionId": 90111,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Excretion and Osmoregulation",
-      "mappedTopic": "Excretion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 90113,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 138
-    },
-    {
-      "questionId": 90115,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
-      "questionId": 90116,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
       "questionId": 90120,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
       "subject": "Biology",
@@ -6011,94 +4449,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 139
-    },
-    {
-      "questionId": 90121,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 114
-    },
-    {
-      "questionId": 90124,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90128,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 149
-    },
-    {
-      "questionId": 90132,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 90134,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 140
-    },
-    {
-      "questionId": 90135,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 148
-    },
-    {
-      "questionId": 90138,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 144
-    },
-    {
-      "questionId": 90140,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 135
     },
     {
       "questionId": 90200,
@@ -6418,61 +4768,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 124
-    },
-    {
-      "questionId": 180030,
-      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 135
-    },
-    {
-      "questionId": 180031,
-      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 140
-    },
-    {
-      "questionId": 180032,
-      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 164
-    },
-    {
-      "questionId": 180033,
-      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 180034,
-      "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 163
     },
     {
       "questionId": 180036,

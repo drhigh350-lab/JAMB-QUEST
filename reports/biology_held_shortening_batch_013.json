@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 13,
+  "batchSize": 20,
+  "eligibleTotal": 75,
+  "selected": [
+    {
+      "id": 90026,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-27",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "In this context a 'body opening' refers to distinct external openings for ingestion and egestion (mouth and anus) as found in multicellular animals.\nHydra, a cnidarian, has only one external opening — the mouth — which is the correct option.\nThe mouth opens into a gastrovascular cavity that functions in both digestion and egestion, so waste and food pass through the same opening.\nAmoeba is unicellular and has no permanent mouth or anus; it takes in food by phagocytosis across the cell membrane rather than through a fixed opening.\nParamecium possesses a cytostome (oral groove) for taking in food and a cytoproct (anal pore) for ejecting waste, so it effectively has more than one functional opening.\nEuglena lacks a permanent mouth or anus and exchanges materials across its pellicle while relying partly on photosynthesis, so it is not described as having a single body opening.",
+      "after": "In this context a 'body opening' refers to distinct external openings for ingestion and egestion (mouth and anus) as found in multicellular animals.\nHydra, a cnidarian, has only one external opening — the mouth — which is the correct option.\nThe mouth opens into a gastrovascular cavity that functions in both digestion and egestion, so waste and food pass through the same opening.\nEuglena lacks a permanent mouth or anus and exchanges materials across its pellicle while relying partly on photosynthesis, so it is not described as having a single body opening."
+    },
+    {
+      "id": 90027,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-28",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ecology is the branch of biology that studies organisms and their interactions with each other and with the abiotic components of their environment.\nIt includes levels of organization from individuals and populations to communities and ecosystems, focusing on energy flow, nutrient cycling and species interactions.\nThe correct option \"Ecology\" fits because it explicitly concerns the relationships between organisms and environmental factors.\nAnatomy is incorrect because it deals with the structure and physical organization of organisms rather than their environmental relationships.\nPhysiology is concerned with the functions and processes within organisms (e.g., respiration, circulation) rather than interactions with external ecological factors.\nGenetics studies heredity and variation in organisms and explains traits at molecular and population levels, but does not primarily address organism–environment interactions as ecology does.",
+      "after": "Ecology is the branch of biology that studies organisms and their interactions with each other and with the abiotic components of their environment.\nIt includes levels of organization from individuals and populations to communities and ecosystems, focusing on energy flow, nutrient cycling and species interactions.\nThe correct option \"Ecology\" fits because it explicitly concerns the relationships between organisms and environmental factors.\nGenetics studies heredity and variation in organisms and explains traits at molecular and population levels, but does not primarily address organism–environment interactions as ecology does."
+    },
+    {
+      "id": 90028,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-29",
+      "subject": "Biology",
+      "topic": "Adaptations of Organisms",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Bird beak shape is an adaptive feature indicative of feeding habit and diet.\nA flat, wide beak is characteristic of dabbling waterfowl (e.g., ducks) and often bears lamellae or fine ridges that help trap food.\nSieving is correct because such beaks function as filters to strain plankton, algae and small invertebrates from water or mud.\nTearing is associated with hooked, strong beaks of raptorial birds (eagles, hawks) used to rip flesh, not flat wide beaks.\nPecking describes probing or picking at surfaces with pointed or chisel-like beaks (woodpeckers, insectivores), which differs from a broad sieve-like bill.\nCracking refers to strong conical bills of granivores (finches) used to crush seeds, so it does not match a flat, wide beak.",
+      "after": "Bird beak shape is an adaptive feature indicative of feeding habit and diet.\nA flat, wide beak is characteristic of dabbling waterfowl (e.g., ducks) and often bears lamellae or fine ridges that help trap food.\nSieving is correct because such beaks function as filters to strain plankton, algae and small invertebrates from water or mud.\nCracking refers to strong conical bills of granivores (finches) used to crush seeds, so it does not match a flat, wide beak."
+    },
+    {
+      "id": 90029,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-30",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Milk (deciduous) dentition consists of 20 teeth: 8 incisors, 4 canines and 8 molars, and therefore lacks premolars.\nPremolars are components of the permanent dentition and develop to replace the primary molars, so they are absent in the milk set.\nIncisors (central and lateral) are present in milk dentition and function mainly for cutting food.\nCanines are present in milk teeth and function for tearing, so 'canine' is not the absent tooth.\nPrimary molars exist in the milk dentition but are not true premolars; they are later shed and replaced by permanent premolars.\nTherefore the correct option is 'Premolar' because premolars appear only in the permanent dentition and are absent from milk teeth.",
+      "after": "Milk (deciduous) dentition consists of 20 teeth: 8 incisors, 4 canines and 8 molars, and therefore lacks premolars.\nPremolars are components of the permanent dentition and develop to replace the primary molars, so they are absent in the milk set.\nIncisors (central and lateral) are present in milk dentition and function mainly for cutting food.\nTherefore the correct option is 'Premolar' because premolars appear only in the permanent dentition and are absent from milk teeth."
+    },
+    {
+      "id": 90030,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-31",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept here is classification of infectious diseases by their causative agents (bacteria, viruses, fungi, etc.).\nRingworm is caused by dermatophyte fungi (for example Trichophyton and Microsporum), so it is the fungal disease among the options.\nRingworm (dermatophytosis) produces itchy, scaly, ring-shaped skin lesions and is transmitted by direct contact with infected people, animals or contaminated fomites.\nTuberculosis is bacterial, caused by Mycobacterium tuberculosis, and typically affects the lungs with chronic cough, weight loss and night sweats, not a fungal skin lesion.\nCholera is bacterial (Vibrio cholerae) causing profuse watery diarrhoea and dehydration, while measles is viral (a paramyxovirus) causing fever, cough, Koplik spots and a widespread rash.\nBecause ringworm is a superficial fungal infection it is treated with antifungal agents and its name is misleading — no worm is involved.",
+      "after": "The concept here is classification of infectious diseases by their causative agents (bacteria, viruses, fungi, etc.).\nRingworm is caused by dermatophyte fungi (for example Trichophyton and Microsporum), so it is the fungal disease among the options.\nRingworm (dermatophytosis) produces itchy, scaly, ring-shaped skin lesions and is transmitted by direct contact with infected people, animals or contaminated fomites.\nBecause ringworm is a superficial fungal infection it is treated with antifungal agents and its name is misleading — no worm is involved."
+    },
+    {
+      "id": 90031,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-32",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Darwinian evolution is change in the characteristics of populations over generations driven by natural selection, where individuals with favourable heritable traits leave more offspring.\nThe correct option 'Natural selection' describes the differential survival and reproduction of heritable variants that shifts allele frequencies and produces adaptation.\n'Use and disuse' is Lamarck's idea that acquired characteristics from use or disuse are inherited, which is not the mechanism Darwin proposed.\nMutation provides the source of new heritable variation but is not the selective process that increases the frequency of advantageous traits.\nVariation is the raw material on which natural selection acts—necessary for evolution but not itself the mechanism causing differential reproductive success.\nThus Darwin's theory is best summarised as natural selection acting on heritable variation to produce adaptive evolutionary change.",
+      "after": "Darwinian evolution is change in the characteristics of populations over generations driven by natural selection, where individuals with favourable heritable traits leave more offspring.\nThe correct option 'Natural selection' describes the differential survival and reproduction of heritable variants that shifts allele frequencies and produces adaptation.\n'Use and disuse' is Lamarck's idea that acquired characteristics from use or disuse are inherited, which is not the mechanism Darwin proposed.\nThus Darwin's theory is best summarised as natural selection acting on heritable variation to produce adaptive evolutionary change."
+    },
+    {
+      "id": 90032,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-33",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Bryophytes are non-vascular plants that lack true vascular tissues (xylem and phloem) and so cannot conduct water and solutes over long distances.\nMoss is a typical bryophyte and therefore lacks vascular tissues, relying on diffusion and capillarity for internal transport.\nMosses are usually small, found in moist habitats, and have a dominant gametophyte generation, which are characteristic bryophyte features.\nFerns are pteridophytes and possess vascular tissues (xylem and phloem), with true roots, stems and leaves, so they are not bryophytes.\nPine is a gymnosperm and maize is an angiosperm; both are seed plants with well-developed vascular systems and so are not bryophytes.\nBecause mosses lack vascular tissue while ferns, pines and maize all have vascular systems, Moss is the correct choice.",
+      "after": "Bryophytes are non-vascular plants that lack true vascular tissues (xylem and phloem) and so cannot conduct water and solutes over long distances.\nMoss is a typical bryophyte and therefore lacks vascular tissues, relying on diffusion and capillarity for internal transport.\nMosses are usually small, found in moist habitats, and have a dominant gametophyte generation, which are characteristic bryophyte features.\nBecause mosses lack vascular tissue while ferns, pines and maize all have vascular systems, Moss is the correct choice."
+    },
+    {
+      "id": 90033,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-34",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Photosynthesis is the process by which green plants use chlorophyll to convert light energy, carbon dioxide and water into glucose (food) and oxygen.\nLeaves perform photosynthesis because they contain chloroplasts with chlorophyll, a broad surface area to capture light and stomata for gas exchange, all adaptations that enable food manufacture.\nThe correct option 'To manufacture food' is therefore right: photosynthesis produces carbohydrates that supply energy and building materials for growth and metabolism.\nLeaves do release oxygen as a by-product of photosynthesis, but releasing oxygen is not the primary function—it is a consequence of making food.\nLeaves lose water by transpiration and roots are the primary organs for mineral uptake, so 'To release water' and 'To absorb minerals' are not correct primary reasons.\nLeaves do not primarily absorb oxygen; they exchange gases through stomata and mainly take in carbon dioxide which is fixed into organic food during photosynthesis.",
+      "after": "Photosynthesis is the process by which green plants use chlorophyll to convert light energy, carbon dioxide and water into glucose (food) and oxygen.\nLeaves perform photosynthesis because they contain chloroplasts with chlorophyll, a broad surface area to capture light and stomata for gas exchange, all adaptations that enable food manufacture.\nThe correct option 'To manufacture food' is therefore right: photosynthesis produces carbohydrates that supply energy and building materials for growth and metabolism.\nLeaves do not primarily absorb oxygen; they exchange gases through stomata and mainly take in carbon dioxide which is fixed into organic food during photosynthesis."
+    },
+    {
+      "id": 90034,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-35",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pepsin is a proteolytic enzyme that digests proteins and is produced in the stomach.\nIt is secreted as the inactive zymogen pepsinogen by the chief (zymogenic) cells of the gastric glands and activated to pepsin by hydrochloric acid from parietal cells.\nPepsin works optimally at the acidic pH of the stomach and begins the breakdown of proteins into peptides.\nThe pancreas secretes protein-digesting enzymes such as trypsin and chymotrypsin but not pepsin; these are released into the small intestine as zymogens.\nThe liver produces bile for fat emulsification and does not secrete digestive proteases, while intestinal cells produce brush-border peptidases for final peptide digestion.\nTherefore the correct answer is Stomach because pepsin originates from gastric chief cells and is active in the stomach's acidic environment.",
+      "after": "Pepsin is a proteolytic enzyme that digests proteins and is produced in the stomach.\nIt is secreted as the inactive zymogen pepsinogen by the chief (zymogenic) cells of the gastric glands and activated to pepsin by hydrochloric acid from parietal cells.\nPepsin works optimally at the acidic pH of the stomach and begins the breakdown of proteins into peptides.\nTherefore the correct answer is Stomach because pepsin originates from gastric chief cells and is active in the stomach's acidic environment."
+    },
+    {
+      "id": 90035,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-36",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The lateral line is a mechanoreceptive sensory system in aquatic vertebrates such as tadpoles that detects water movements and vibrations.\nIt is made up of neuromast organs containing hair cells that respond to pressure changes and disturbances in the surrounding water.\nTherefore the correct option \"Detecting vibrations\" is right because the lateral line converts mechanical disturbances in water into nerve impulses.\nIt is not used for respiration, which in tadpoles is accomplished by gills and later supplemented by cutaneous exchange or lungs.\nThe lateral line is distinct from the vestibular balance organs (inner ear and semicircular canals), so \"Balance\" is incorrect even though both systems sense movement.\nAlthough the lateral line can help locate prey and thus indirectly assist feeding, \"Feeding\" is not its primary function.",
+      "after": "The lateral line is a mechanoreceptive sensory system in aquatic vertebrates such as tadpoles that detects water movements and vibrations.\nIt is made up of neuromast organs containing hair cells that respond to pressure changes and disturbances in the surrounding water.\nTherefore the correct option \"Detecting vibrations\" is right because the lateral line converts mechanical disturbances in water into nerve impulses.\nAlthough the lateral line can help locate prey and thus indirectly assist feeding, \"Feeding\" is not its primary function."
+    },
+    {
+      "id": 90036,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-37",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The plant tissue that transports food (mainly sucrose) from leaves to growing and storage organs is the phloem.\nPhloem is composed of living sieve-tube elements and companion cells which facilitate the translocation of organic solutes.\nFlow in the phloem can be bidirectional depending on source and sink relationships and is commonly explained by the pressure-flow (mass-flow) mechanism at senior-secondary level.\nXylem, in contrast, conducts water and dissolved minerals (mainly upward) and consists largely of dead vessels and tracheids.\nCambium is a lateral meristem that produces new xylem and phloem tissues, while the cortex is ground tissue used mainly for storage and support.\nHence, from the given options, phloem is the correct vessel for transporting food in plants.",
+      "after": "The plant tissue that transports food (mainly sucrose) from leaves to growing and storage organs is the phloem.\nPhloem is composed of living sieve-tube elements and companion cells which facilitate the translocation of organic solutes.\nFlow in the phloem can be bidirectional depending on source and sink relationships and is commonly explained by the pressure-flow (mass-flow) mechanism at senior-secondary level.\nHence, from the given options, phloem is the correct vessel for transporting food in plants."
+    },
+    {
+      "id": 90037,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-38",
+      "subject": "Biology",
+      "topic": "Adaptations of Organisms",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Beak shape reflects feeding adaptation; a flat, grooved (lamellate) beak is specialized for filter feeding.\nThe grooves or lamellae act as sieves that trap small invertebrates, plankton and plant particles when the bird strains water or mud, as in ducks and flamingos.\nTearing flesh is performed by birds of prey with strong, hooked beaks that slice and tear meat, not by flat grooved bills.\nCracking seeds requires a short, stout, conical beak that exerts force to break seed coats, typical of finches.\nPicking insects needs a slender, pointed or probing beak to pick or probe into crevices, unlike a broad grooved bill.\nTherefore the flat grooved beak is used for sieving food, making 'Sieving food' the correct option.",
+      "after": "Beak shape reflects feeding adaptation; a flat, grooved (lamellate) beak is specialized for filter feeding.\nThe grooves or lamellae act as sieves that trap small invertebrates, plankton and plant particles when the bird strains water or mud, as in ducks and flamingos.\nTearing flesh is performed by birds of prey with strong, hooked beaks that slice and tear meat, not by flat grooved bills.\nTherefore the flat grooved beak is used for sieving food, making 'Sieving food' the correct option."
+    },
+    {
+      "id": 90038,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-39",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Human ova are haploid gametes produced by females during meiosis and therefore carry only one sex chromosome.\nBecause females have a diploid XX karyotype, each ovum receives a single X chromosome after meiotic division.\nThe ovum cannot carry a Y chromosome because females lack a Y chromosome in their somatic cells.\nAn ovum cannot carry two X chromosomes because gametes must be haploid (n = 23), not diploid (2n = 46).\nOnly sperm may carry either an X or a Y chromosome, and fertilization with an X- or Y-bearing sperm determines the zygote's sex.\nTherefore the correct option is 'One X chromosome'; the other options are incorrect for the reasons stated.",
+      "after": "Human ova are haploid gametes produced by females during meiosis and therefore carry only one sex chromosome.\nBecause females have a diploid XX karyotype, each ovum receives a single X chromosome after meiotic division.\nThe ovum cannot carry a Y chromosome because females lack a Y chromosome in their somatic cells.\nTherefore the correct option is 'One X chromosome'; the other options are incorrect for the reasons stated."
+    },
+    {
+      "id": 90039,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-40",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question refers to the classical theory of inheritance formulated by Gregor Mendel from his pea‑plant experiments.\nMendel proposed particulate inheritance and formulated the laws of segregation and independent assortment to explain predictable ratios of traits in crosses.\nMendel is correct because his controlled crosses produced reproducible numerical ratios (e.g., 3:1 in monohybrid F2) that led to the concept of discrete hereditary units (genes/alleles).\nCharles Darwin proposed evolution by natural selection, which explains change in populations over time but did not establish the particulate laws of inheritance Mendel did.\nJean‑Baptiste Lamarck proposed inheritance of acquired characteristics (use and disuse), a mechanism largely unsupported as a general rule for genetic inheritance.\nJames Watson (with Crick) elucidated DNA's double‑helix structure and the molecular basis of heredity but did not originate the classical Mendelian theory of inheritance.",
+      "after": "The question refers to the classical theory of inheritance formulated by Gregor Mendel from his pea‑plant experiments.\nMendel proposed particulate inheritance and formulated the laws of segregation and independent assortment to explain predictable ratios of traits in crosses.\nMendel is correct because his controlled crosses produced reproducible numerical ratios (e.g., 3:1 in monohybrid F2) that led to the concept of discrete hereditary units (genes/alleles).\nJames Watson (with Crick) elucidated DNA's double‑helix structure and the molecular basis of heredity but did not originate the classical Mendelian theory of inheritance."
+    },
+    {
+      "id": 90040,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-41",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "DNA is a double helix whose two outer strands consist of repeating sugar (deoxyribose) and phosphate groups called the sugar–phosphate backbone.\nThe nitrogenous bases (adenine, thymine, cytosine, guanine) project inward from this backbone and pair by hydrogen bonds to hold the two strands together.\nTherefore 'sugars and phosphates' is correct because they form the continuous covalent backbone on the outside of each DNA strand.\nProteins and amino acids are components of polypeptides and enzymes, not constituents of the DNA backbone, so 'proteins' and 'amino acids' are incorrect.\nLipids are hydrophobic molecules that make up cell membranes and are unrelated to the structural composition of DNA, so 'lipids' is incorrect.\nThe sugar–phosphate backbone is essential for DNA stability and for recognition by replication and repair enzymes while the bases encode genetic information.",
+      "after": "DNA is a double helix whose two outer strands consist of repeating sugar (deoxyribose) and phosphate groups called the sugar–phosphate backbone.\nThe nitrogenous bases (adenine, thymine, cytosine, guanine) project inward from this backbone and pair by hydrogen bonds to hold the two strands together.\nTherefore 'sugars and phosphates' is correct because they form the continuous covalent backbone on the outside of each DNA strand.\nThe sugar–phosphate backbone is essential for DNA stability and for recognition by replication and repair enzymes while the bases encode genetic information."
+    },
+    {
+      "id": 90041,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-42",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The phrase 'twisted ladder' refers to the double‑helix shape of DNA, which coils like a spiral staircase.\nIn this analogy the two sugar‑phosphate backbones form the ladder's sides and paired nitrogenous bases (A‑T and G‑C) form the rungs held by hydrogen bonds.\nDNA is the correct answer because it is characteristically double‑stranded and helically twisted, matching the 'twisted ladder' description.\nRNA is usually single‑stranded and folds into varied secondary structures rather than forming a stable double‑stranded ladder, though some viral RNAs can be double‑stranded.\nProteins are polymers of amino acids that adopt alpha‑helices, beta‑pleated sheets and complex tertiary structures, not a ladder‑like double helix.\nEnzymes are functional proteins (or catalytic RNAs) defined by active sites and specific folding to catalyse reactions, not by a twisted‑ladder morphology.",
+      "after": "The phrase 'twisted ladder' refers to the double‑helix shape of DNA, which coils like a spiral staircase.\nIn this analogy the two sugar‑phosphate backbones form the ladder's sides and paired nitrogenous bases (A‑T and G‑C) form the rungs held by hydrogen bonds.\nDNA is the correct answer because it is characteristically double‑stranded and helically twisted, matching the 'twisted ladder' description.\nEnzymes are functional proteins (or catalytic RNAs) defined by active sites and specific folding to catalyse reactions, not by a twisted‑ladder morphology."
+    },
+    {
+      "id": 90042,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-43",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Prokaryotic cells lack a true membrane-bound nucleus; their genetic material is located in a region called the nucleoid.\nTherefore 'No nucleus' is correct because prokaryotes do not enclose their DNA within a nuclear membrane.\nProkaryotes also lack membrane-bound organelles such as mitochondria and chloroplasts, so 'Membrane-bound organelles' is incorrect.\n'True nucleus' is incorrect because that term describes eukaryotic cells, which have a nuclear envelope surrounding their DNA.\nMost prokaryotic cells are small (typically about 1–10 µm), so 'Large size' is not a general feature of prokaryotes.\nOther typical prokaryote features include circular DNA, often a cell wall, plasmids, and reproduction by binary fission.",
+      "after": "Prokaryotic cells lack a true membrane-bound nucleus; their genetic material is located in a region called the nucleoid.\nTherefore 'No nucleus' is correct because prokaryotes do not enclose their DNA within a nuclear membrane.\nProkaryotes also lack membrane-bound organelles such as mitochondria and chloroplasts, so 'Membrane-bound organelles' is incorrect.\nOther typical prokaryote features include circular DNA, often a cell wall, plasmids, and reproduction by binary fission."
+    },
+    {
+      "id": 90043,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-44",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Epigeal germination occurs when the cotyledons are pushed above the soil surface during seedling emergence, usually by elongation of the hypocotyl.\nBean (a dicot such as Phaseolus) exhibits epigeal germination because its hypocotyl elongates and lifts the cotyledons above ground, where they often become photosynthetic.\nIn contrast, hypogeal germination keeps cotyledons below ground and raises the shoot by epicotyl growth or protective structures in monocots.\nMaize is a monocot with a scutellum and coleoptile; its single cotyledon (scutellum) remains subterranean, so maize displays hypogeal/monocot-type germination rather than epigeal.\nRice and wheat are also monocots whose seedlings emerge protected by a coleoptile while the cotyledon remains below ground, so they are not examples of epigeal germination.\nTherefore Bean is the correct choice among the options because it shows cotyledons borne above the soil, unlike Maize, Rice and Wheat.",
+      "after": "Epigeal germination occurs when the cotyledons are pushed above the soil surface during seedling emergence, usually by elongation of the hypocotyl.\nBean (a dicot such as Phaseolus) exhibits epigeal germination because its hypocotyl elongates and lifts the cotyledons above ground, where they often become photosynthetic.\nIn contrast, hypogeal germination keeps cotyledons below ground and raises the shoot by epicotyl growth or protective structures in monocots.\nTherefore Bean is the correct choice among the options because it shows cotyledons borne above the soil, unlike Maize, Rice and Wheat."
+    },
+    {
+      "id": 90045,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-46",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Photosynthesis occurs in chloroplasts, specialized plastids that contain the green pigment chlorophyll.\nChlorophyll embedded in the thylakoid membranes absorbs light energy for the light-dependent reactions.\nThe thylakoid (grana) membranes generate ATP and NADPH while the stroma hosts the Calvin cycle that fixes CO2 into sugars.\nMitochondria perform aerobic respiration (oxidative phosphorylation) to release energy from food, not light-driven photosynthesis.\nThe nucleus stores genetic information and ribosomes synthesize proteins, so neither directly conducts photosynthesis.\nTherefore chloroplast is correct because it contains the pigments and internal membrane structures required to capture light and convert CO2 into organic compounds.",
+      "after": "Photosynthesis occurs in chloroplasts, specialized plastids that contain the green pigment chlorophyll.\nChlorophyll embedded in the thylakoid membranes absorbs light energy for the light-dependent reactions.\nThe thylakoid (grana) membranes generate ATP and NADPH while the stroma hosts the Calvin cycle that fixes CO2 into sugars.\nTherefore chloroplast is correct because it contains the pigments and internal membrane structures required to capture light and convert CO2 into organic compounds."
+    },
+    {
+      "id": 90047,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-48",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The cross involves simple Mendelian inheritance of two alleles A (normal) and S (sickle) with each parent heterozygous (AS).\nA Punnett square for AS × AS lists gametes A and S from each parent and yields four genotype boxes: AA, AS, SA and SS.\nBecause AS and SA are the same heterozygote, the distinct genotypes produced are AA, AS and SS with frequencies 1/4, 1/2 and 1/4 respectively.\nThus the correct answer is AA, AS, SS since offspring can be homozygous normal, heterozygous carrier, or homozygous sickle.\nOptions stating only AA, only AS or only SS are wrong because two heterozygous parents can produce both homozygous and heterozygous offspring by Mendel's laws.\nThis pattern follows the law of segregation: each parent contributes either the A or the S allele to offspring, producing the 1:2:1 genotypic ratio.",
+      "after": "The cross involves simple Mendelian inheritance of two alleles A (normal) and S (sickle) with each parent heterozygous (AS).\nA Punnett square for AS × AS lists gametes A and S from each parent and yields four genotype boxes: AA, AS, SA and SS.\nBecause AS and SA are the same heterozygote, the distinct genotypes produced are AA, AS and SS with frequencies 1/4, 1/2 and 1/4 respectively.\nThis pattern follows the law of segregation: each parent contributes either the A or the S allele to offspring, producing the 1:2:1 genotypic ratio."
+    }
+  ]
+}

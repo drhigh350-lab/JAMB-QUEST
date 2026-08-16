@@ -1,9 +1,9 @@
 {
   "totalActiveAuthorisedRows": 2990,
-  "playableRows": 1956,
+  "playableRows": 2251,
   "outcomes": {
-    "explanation exceeds five lines": 323,
-    "playable": 1956,
+    "explanation exceeds five lines": 28,
+    "playable": 2251,
     "status:needs_review": 369,
     "unmapped syllabus topic": 342
   },
@@ -15,28 +15,24 @@
       "status:needs_review": 166
     },
     "Owner-provided Biology non-diagram collection — pending provenance review": {
-      "explanation exceeds five lines": 140,
-      "playable": 253,
+      "playable": 393,
       "unmapped syllabus topic": 65
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry": {
-      "explanation exceeds five lines": 33,
-      "playable": 40,
+      "playable": 73,
       "unmapped syllabus topic": 5
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology": {
-      "explanation exceeds five lines": 40,
+      "playable": 40,
       "unmapped syllabus topic": 7
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology": {
-      "explanation exceeds five lines": 50,
-      "playable": 20,
+      "playable": 70,
       "status:needs_review": 3,
       "unmapped syllabus topic": 16
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": {
-      "explanation exceeds five lines": 23,
-      "playable": 47,
+      "playable": 70,
       "status:needs_review": 9,
       "unmapped syllabus topic": 4
     },
@@ -46,8 +42,7 @@
       "status:needs_review": 5
     },
     "Owner-provided Markdown · chem_part1.md · Chemistry": {
-      "explanation exceeds five lines": 4,
-      "playable": 45
+      "playable": 49
     },
     "Owner-provided Markdown · chem_part2.md · Chemistry": {
       "playable": 44
@@ -61,8 +56,7 @@
       "playable": 49
     },
     "Owner-provided Markdown · bio_part1.md · Biology": {
-      "explanation exceeds five lines": 5,
-      "playable": 20,
+      "playable": 25,
       "unmapped syllabus topic": 23
     },
     "Owner-provided Markdown · bio_part2.md · Biology": {

@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 14,
+  "batchSize": 20,
+  "eligibleTotal": 55,
+  "selected": [
+    {
+      "id": 90048,
+      "externalId": "TechMed-Complete-Question-Bank-md-1",
+      "subject": "Biology",
+      "topic": "Living Organisms and Organization",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A tissue is a group of similar cells that work together to perform a specific function.\nIn animals the main tissue types are epithelial, connective, muscle and nervous, while plants have meristematic and permanent tissues.\nCells in a tissue share similar structure and function and cooperate physically and physiologically to carry out tasks such as protection, transport or movement.\nThe option 'Similar cells' is correct because it names the immediate structural unit—tissues are made of like cells rather than collections of different tissues or organs.\nDifferent tissues join to form organs, and related organs make up organ systems, so 'Different tissues', 'Related organs' and 'Organ systems' describe higher organisational levels, not a single tissue.\nTherefore the accurate choice is 'Similar cells'.",
+      "after": "A tissue is a group of similar cells that work together to perform a specific function.\nIn animals the main tissue types are epithelial, connective, muscle and nervous, while plants have meristematic and permanent tissues.\nCells in a tissue share similar structure and function and cooperate physically and physiologically to carry out tasks such as protection, transport or movement.\nTherefore the accurate choice is 'Similar cells'."
+    },
+    {
+      "id": 90049,
+      "externalId": "TechMed-Complete-Question-Bank-md-2",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A community is the assemblage of different populations of organisms living and interacting in the same habitat.\nThe correct option is Community because the phrase 'different organisms that exist together in a habitat' refers to several species co‑occurring and interacting, not a single species population.\nA biome denotes a large geographic region with similar climate and characteristic life forms (e.g. tropical rainforest) and is therefore broader than a community.\nThe biosphere is the global sum of all ecosystems and communities on Earth, making it the largest ecological level, not confined to one habitat.\nEcology is the scientific study of interactions among organisms and between organisms and their environment, not a grouping of organisms itself.\nFor example, a pond community includes interacting populations of algae, insects, fish and bacteria that together occupy that habitat.",
+      "after": "A community is the assemblage of different populations of organisms living and interacting in the same habitat.\nThe correct option is Community because the phrase 'different organisms that exist together in a habitat' refers to several species co‑occurring and interacting, not a single species population.\nA biome denotes a large geographic region with similar climate and characteristic life forms (e.g. tropical rainforest) and is therefore broader than a community.\nFor example, a pond community includes interacting populations of algae, insects, fish and bacteria that together occupy that habitat."
+    },
+    {
+      "id": 90051,
+      "externalId": "TechMed-Complete-Question-Bank-md-4",
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Osmoregulation and excretion involve removing excess water and wastes from the body, and the kidneys are the primary organs for this function.\nEach kidney contains many nephrons where blood is ultrafiltered; selective reabsorption and secretion produce urine, which carries away excess water and dissolved wastes.\nAntidiuretic hormone (ADH) and aldosterone adjust water reabsorption in the collecting ducts, so the kidneys can increase or decrease urine volume to maintain water balance.\nThe skin removes water by sweating, which can be considerable during heat or exercise but typically contributes less total water loss than renal urine output under normal conditions.\nThe lungs expel water vapour with every exhalation, and the liver mainly metabolises substances rather than directly excreting large water volumes, so both are minor routes for bulk water removal.\nBecause the kidneys actively filter blood and control urine volume, they remove the largest amount of excess water, making 'Kidney' the correct option.",
+      "after": "Osmoregulation and excretion involve removing excess water and wastes from the body, and the kidneys are the primary organs for this function.\nEach kidney contains many nephrons where blood is ultrafiltered; selective reabsorption and secretion produce urine, which carries away excess water and dissolved wastes.\nAntidiuretic hormone (ADH) and aldosterone adjust water reabsorption in the collecting ducts, so the kidneys can increase or decrease urine volume to maintain water balance.\nBecause the kidneys actively filter blood and control urine volume, they remove the largest amount of excess water, making 'Kidney' the correct option."
+    },
+    {
+      "id": 90052,
+      "externalId": "TechMed-Complete-Question-Bank-md-5",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A population is a group of organisms of the same species living in the same place at the same time.\nThe phrase “same kind” refers to members of a single species that can potentially interbreed and share a common gene pool within that area.\nPopulation is correct because it combines taxonomic identity (same species) with spatial co-occurrence, matching the stem’s wording.\nA habitat is the physical place or environmental conditions where organisms live (e.g., forest, river) and does not denote a group of organisms.\nAn ecosystem is broader, comprising multiple populations plus abiotic factors and their interactions, so it is not limited to one kind of organism.\nThus, when the emphasis is on co-occurring individuals of one species the appropriate term is population, not species, habitat, or ecosystem.",
+      "after": "A population is a group of organisms of the same species living in the same place at the same time.\nThe phrase “same kind” refers to members of a single species that can potentially interbreed and share a common gene pool within that area.\nPopulation is correct because it combines taxonomic identity (same species) with spatial co-occurrence, matching the stem’s wording.\nThus, when the emphasis is on co-occurring individuals of one species the appropriate term is population, not species, habitat, or ecosystem."
+    },
+    {
+      "id": 90053,
+      "externalId": "TechMed-Complete-Question-Bank-md-6",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Distinguishing STIs from other infections: STIs are primarily spread by sexual contact, while respiratory infections spread by droplets or aerosols.\nInfluenza is caused by influenza viruses and is transmitted mainly by respiratory droplets, aerosols and contaminated surfaces, not by sexual intercourse.\nGonorrhea is caused by the bacterium Neisseria gonorrhoeae and is transmitted primarily through sexual contact involving mucous membranes of the genitourinary tract.\nHerpes is caused by herpes simplex viruses; genital herpes is usually sexually transmitted (HSV-2 most commonly), though HSV-1 can also be passed to the genital area via oral–genital contact.\nSyphilis is caused by the spirochete Treponema pallidum and is transmitted through direct sexual contact with infectious sores (chancres).\nTherefore influenza is the correct choice as the disease listed that is not sexually transmitted, while gonorrhea, herpes and syphilis are classically STIs.",
+      "after": "Distinguishing STIs from other infections: STIs are primarily spread by sexual contact, while respiratory infections spread by droplets or aerosols.\nInfluenza is caused by influenza viruses and is transmitted mainly by respiratory droplets, aerosols and contaminated surfaces, not by sexual intercourse.\nGonorrhea is caused by the bacterium Neisseria gonorrhoeae and is transmitted primarily through sexual contact involving mucous membranes of the genitourinary tract.\nTherefore influenza is the correct choice as the disease listed that is not sexually transmitted, while gonorrhea, herpes and syphilis are classically STIs."
+    },
+    {
+      "id": 90054,
+      "externalId": "TechMed-Complete-Question-Bank-md-7",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The item requires identification of which named plant disease is caused by a fungus.\nCoffee leaf rust is caused by the fungus Hemileia vastatrix, so it is the correct choice.\nCassava mosaic disease is viral, caused by geminiviruses (the cassava mosaic virus complex).\nRosette disease of groundnut is viral, involving the groundnut rosette virus complex and associated agents transmitted by aphids.\nLeaf blight of cassava commonly refers to cassava bacterial blight caused by Xanthomonas bacteria, not a fungus.\nThus coffee leaf rust is the fungal disease among the options while the others are viral or bacterial, distinguishing the plausible alternatives.",
+      "after": "The item requires identification of which named plant disease is caused by a fungus.\nCoffee leaf rust is caused by the fungus Hemileia vastatrix, so it is the correct choice.\nCassava mosaic disease is viral, caused by geminiviruses (the cassava mosaic virus complex).\nThus coffee leaf rust is the fungal disease among the options while the others are viral or bacterial, distinguishing the plausible alternatives."
+    },
+    {
+      "id": 90055,
+      "externalId": "TechMed-Complete-Question-Bank-md-8",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Photosynthesis in green plants converts carbon dioxide and water into glucose and oxygen; a common balanced equation is 6CO2 + 6H2O → C6H12O6 + 6O2.\nThe oxygen (O2) released comes from the splitting of water during the light-dependent stage and is expelled into the atmosphere, making O2 the by-product.\nGlucose (C6H12O6) is the primary organic product used for respiration and growth, not the by-product.\nCarbon dioxide (CO2) is a reactant absorbed from the air and therefore cannot be the by-product.\nWater (H2O) is a reactant in the overall reaction and while water may be formed in other cellular reactions, it is not the characteristic by-product of photosynthesis.\nHence the correct answer is O2 (option B), while A (CO2), C (C6H12O6) and D (H2O) are incorrect given their roles in photosynthesis.",
+      "after": "Photosynthesis in green plants converts carbon dioxide and water into glucose and oxygen; a common balanced equation is 6CO2 + 6H2O → C6H12O6 + 6O2.\nThe oxygen (O2) released comes from the splitting of water during the light-dependent stage and is expelled into the atmosphere, making O2 the by-product.\nGlucose (C6H12O6) is the primary organic product used for respiration and growth, not the by-product.\nHence the correct answer is O2 (option B), while A (CO2), C (C6H12O6) and D (H2O) are incorrect given their roles in photosynthesis."
+    },
+    {
+      "id": 90057,
+      "externalId": "TechMed-Complete-Question-Bank-md-10",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Cellular respiration is the enzymatic breakdown of organic molecules to release energy and synthesise ATP for cellular use.\nIn eukaryotes, the major ATP-yielding stages—pyruvate oxidation, the Krebs (citric acid) cycle and oxidative phosphorylation—take place in the mitochondrion (matrix and inner membrane).\nGlycolysis, the initial step that converts glucose to pyruvate, occurs in the cytoplasm but produces much less ATP than the mitochondrial stages.\nThe nucleus stores genetic information and controls gene expression and synthesis of proteins, but it does not perform cellular respiration.\nCentrioles are involved in organising the mitotic spindle during cell division and have no role in energy generation.\nBecause the mitochondrion houses the Krebs cycle and electron transport chain where most ATP is produced, 'Mitochondrion' is the correct option.",
+      "after": "Cellular respiration is the enzymatic breakdown of organic molecules to release energy and synthesise ATP for cellular use.\nIn eukaryotes, the major ATP-yielding stages—pyruvate oxidation, the Krebs (citric acid) cycle and oxidative phosphorylation—take place in the mitochondrion (matrix and inner membrane).\nGlycolysis, the initial step that converts glucose to pyruvate, occurs in the cytoplasm but produces much less ATP than the mitochondrial stages.\nBecause the mitochondrion houses the Krebs cycle and electron transport chain where most ATP is produced, 'Mitochondrion' is the correct option."
+    },
+    {
+      "id": 90058,
+      "externalId": "TechMed-Complete-Question-Bank-md-11",
+      "subject": "Biology",
+      "topic": "Humans and Environment",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question tests knowledge of causative agents of infectious diseases, specifically identifying the type of pathogen that causes Ebola fever.\nEbola fever is caused by the Ebola virus, a member of the Filoviridae family of single‑stranded RNA viruses.\nViruses are acellular particles that must invade host cells to replicate, which distinguishes them from cellular pathogens.\nBacteria are unicellular prokaryotes (for example, those causing tuberculosis or cholera) and do not cause Ebola, though they cause other febrile diseases.\nFungi and protozoa are eukaryotic organisms—fungi cause conditions like ringworm and protozoa cause diseases like malaria—so they are not responsible for Ebola.\nBecause Ebola is viral, prevention focuses on interrupting viral transmission (e.g., avoiding contact with infected bodily fluids) and supportive/antiviral care rather than antibacterial or antifungal treatment.",
+      "after": "The question tests knowledge of causative agents of infectious diseases, specifically identifying the type of pathogen that causes Ebola fever.\nEbola fever is caused by the Ebola virus, a member of the Filoviridae family of single‑stranded RNA viruses.\nViruses are acellular particles that must invade host cells to replicate, which distinguishes them from cellular pathogens.\nBecause Ebola is viral, prevention focuses on interrupting viral transmission (e.g., avoiding contact with infected bodily fluids) and supportive/antiviral care rather than antibacterial or antifungal treatment."
+    },
+    {
+      "id": 90059,
+      "externalId": "TechMed-Complete-Question-Bank-md-12",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Charles Darwin proposed the theory of natural selection to explain how species change over time.\nNatural selection is often summarized as \"survival of the fittest\", meaning individuals with heritable traits best suited to their environment leave more offspring.\nDarwin is the correct option because he described the mechanism—variation, differential survival and reproduction, and inheritance—that drives adaptation and speciation.\nJean-Baptiste Lamarck is a plausible alternative but he argued for inheritance of acquired characteristics rather than selection of pre-existing variation.\nRobert Hooke is known for early cell observations and Carl Linnaeus for developing the binomial classification system, so neither advanced natural selection.\nTherefore Darwin, not Hooke, Lamarck, or Linnaeus, is credited with the theory commonly expressed as \"survival of the fittest\".",
+      "after": "Charles Darwin proposed the theory of natural selection to explain how species change over time.\nNatural selection is often summarized as \"survival of the fittest\", meaning individuals with heritable traits best suited to their environment leave more offspring.\nDarwin is the correct option because he described the mechanism—variation, differential survival and reproduction, and inheritance—that drives adaptation and speciation.\nTherefore Darwin, not Hooke, Lamarck, or Linnaeus, is credited with the theory commonly expressed as \"survival of the fittest\"."
+    },
+    {
+      "id": 90060,
+      "externalId": "TechMed-Complete-Question-Bank-md-13",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vitamin D promotes intestinal absorption of calcium and phosphate, which are essential for normal mineralization of growing bone.\nIn children, deficiency of vitamin D causes rickets, characterized by soft, weak bones and skeletal deformities such as bowed legs.\nIn adults the analogous condition is osteomalacia, with bone pain and increased fracture risk due to poor mineralization.\nTherefore Rickets is the correct option because inadequate vitamin D prevents proper calcium deposition in developing bones.\nBeriberi is caused by thiamine (vitamin B1) deficiency and affects the nervous and cardiovascular systems, not bone mineralization.\nPellagra (niacin deficiency) causes dermatitis, diarrhea and dementia, while scurvy (vitamin C deficiency) causes impaired collagen synthesis with bleeding gums and poor wound healing.",
+      "after": "Vitamin D promotes intestinal absorption of calcium and phosphate, which are essential for normal mineralization of growing bone.\nIn children, deficiency of vitamin D causes rickets, characterized by soft, weak bones and skeletal deformities such as bowed legs.\nIn adults the analogous condition is osteomalacia, with bone pain and increased fracture risk due to poor mineralization.\nPellagra (niacin deficiency) causes dermatitis, diarrhea and dementia, while scurvy (vitamin C deficiency) causes impaired collagen synthesis with bleeding gums and poor wound healing."
+    },
+    {
+      "id": 90063,
+      "externalId": "TechMed-Complete-Question-Bank-md-16",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks which cellular structure is shared by both plant and animal eukaryotic cells, focusing on common organelles and boundary structures.\nThe cell membrane (plasma membrane) is a phospholipid bilayer with embedded proteins that surrounds every cell and regulates passage of substances, so it is present in both plant and animal cells.\nThe cell wall is a rigid outer layer found in plants (composed mainly of cellulose) and some other kingdoms but is absent from animal cells, so it is not shared.\nChloroplasts are organelles containing chlorophyll that carry out photosynthesis and are found in plant cells and some protists, but not in animal cells.\nA large central vacuole is a prominent feature of mature plant cells for storage and turgor maintenance; animal cells may have small vacuoles but not a single large central one.\nTherefore 'Cell membrane' is correct because it is the universal boundary present in both plant and animal cells, while the other options are characteristic of plant cells only.",
+      "after": "The question asks which cellular structure is shared by both plant and animal eukaryotic cells, focusing on common organelles and boundary structures.\nThe cell membrane (plasma membrane) is a phospholipid bilayer with embedded proteins that surrounds every cell and regulates passage of substances, so it is present in both plant and animal cells.\nThe cell wall is a rigid outer layer found in plants (composed mainly of cellulose) and some other kingdoms but is absent from animal cells, so it is not shared.\nTherefore 'Cell membrane' is correct because it is the universal boundary present in both plant and animal cells, while the other options are characteristic of plant cells only."
+    },
+    {
+      "id": 90064,
+      "externalId": "TechMed-Complete-Question-Bank-md-17",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question describes equal solute concentrations inside and outside a cell, which defines an isotonic solution.\nIn an isotonic medium there is no net movement of water across the semi-permeable plasma membrane because osmotic flows in both directions balance.\nHypertonic solutions have higher solute concentration outside the cell, so water leaves the cell causing shrinkage or crenation in animal cells and plasmolysis in plant cells.\nHypotonic solutions have lower solute concentration outside, so water enters the cell causing swelling and possible lysis in animal cells and turgid pressure in plant cells.\nAcidic refers to pH and not to osmotic pressure or tonicity, so 'acidic' is not a correct descriptor for equal solute concentrations.\nTherefore the correct answer is isotonic because it specifically denotes equal solute concentrations and no net osmotic water movement.",
+      "after": "The question describes equal solute concentrations inside and outside a cell, which defines an isotonic solution.\nIn an isotonic medium there is no net movement of water across the semi-permeable plasma membrane because osmotic flows in both directions balance.\nHypertonic solutions have higher solute concentration outside the cell, so water leaves the cell causing shrinkage or crenation in animal cells and plasmolysis in plant cells.\nTherefore the correct answer is isotonic because it specifically denotes equal solute concentrations and no net osmotic water movement."
+    },
+    {
+      "id": 90065,
+      "externalId": "TechMed-Complete-Question-Bank-md-18",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Angiosperms are flowering plants that produce seeds enclosed within an ovary that matures into a fruit.\nSeed-producing plants are classified as Spermatophyta, so angiosperms are placed in this class.\nBryophyta (mosses and liverworts) are non-vascular and do not produce seeds, reproducing instead by spores and a dominant gametophyte stage.\nPteridophyta (ferns and their relatives) are vascular but seedless plants that also reproduce by spores rather than seeds.\nThallophyta is an older grouping for simple thalloid organisms such as many algae that lack true vascular tissues and seeds.\nTherefore Spermatophyta is correct because it specifically denotes seed-bearing plants, which includes angiosperms with enclosed seeds, unlike the other seedless groups listed.",
+      "after": "Angiosperms are flowering plants that produce seeds enclosed within an ovary that matures into a fruit.\nSeed-producing plants are classified as Spermatophyta, so angiosperms are placed in this class.\nBryophyta (mosses and liverworts) are non-vascular and do not produce seeds, reproducing instead by spores and a dominant gametophyte stage.\nTherefore Spermatophyta is correct because it specifically denotes seed-bearing plants, which includes angiosperms with enclosed seeds, unlike the other seedless groups listed."
+    },
+    {
+      "id": 90067,
+      "externalId": "TechMed-Complete-Question-Bank-md-20",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question contrasts male internal and external reproductive structures in mammals.\nThe vulva is the collective name for the external female genitalia and so is not part of the male reproductive system.\nThe testis are the primary male reproductive organs that produce sperm and testosterone.\nThe epididymis is a duct along the testis where sperm mature and are stored.\nThe vas deferens is the muscular duct that transports mature sperm from the epididymis toward the urethra for ejaculation.\nThus vulva is the correct answer because it is a female structure, while the testis, epididymis and vas deferens are established male reproductive components.",
+      "after": "The question contrasts male internal and external reproductive structures in mammals.\nThe vulva is the collective name for the external female genitalia and so is not part of the male reproductive system.\nThe testis are the primary male reproductive organs that produce sperm and testosterone.\nThus vulva is the correct answer because it is a female structure, while the testis, epididymis and vas deferens are established male reproductive components."
+    },
+    {
+      "id": 90068,
+      "externalId": "TechMed-Complete-Question-Bank-md-21",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The reagent named in the stem detects proteins by reacting with the phenolic (tyrosine) residues present in many proteins.\nMillon's reagent gives a characteristic red coloration with proteins containing tyrosine, so it is the correct answer here.\nBenedict's solution is used to test for reducing sugars; it yields a brick-red precipitate on heating with reducing sugars and does not indicate protein.\nFehling's solution serves the same role as Benedict's reagent in detecting reducing sugars by forming a red cuprous oxide precipitate, not proteins.\nSudan III is a lipid stain that selectively colors fats and oils red and therefore tests for lipids rather than proteins.\nNote that Biuret reagent is a common general test for peptide bonds in proteins, but among the options provided Millon's reagent specifically detects proteins via the tyrosine reaction.",
+      "after": "The reagent named in the stem detects proteins by reacting with the phenolic (tyrosine) residues present in many proteins.\nMillon's reagent gives a characteristic red coloration with proteins containing tyrosine, so it is the correct answer here.\nBenedict's solution is used to test for reducing sugars; it yields a brick-red precipitate on heating with reducing sugars and does not indicate protein.\nNote that Biuret reagent is a common general test for peptide bonds in proteins, but among the options provided Millon's reagent specifically detects proteins via the tyrosine reaction."
+    },
+    {
+      "id": 90069,
+      "externalId": "TechMed-Complete-Question-Bank-md-22",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Digestion is the mechanical and chemical breakdown of food in the alimentary canal into smaller molecules that can be absorbed.\nTherefore the correct answer is Digestion because it names the process that breaks down food within the gut.\nIngestion is only the taking in of food at the mouth and precedes digestion.\nEgestion is the removal of undigested material (faeces) from the alimentary canal and not the breakdown step.\nExcretion is the elimination of metabolic wastes (for example urea and carbon dioxide) by organs like the kidneys and lungs, distinct from digestion.\nMechanical actions (chewing, churning) and chemical agents (salivary enzymes, stomach acid, intestinal enzymes) in the mouth, stomach and small intestine together accomplish digestion.",
+      "after": "Digestion is the mechanical and chemical breakdown of food in the alimentary canal into smaller molecules that can be absorbed.\nTherefore the correct answer is Digestion because it names the process that breaks down food within the gut.\nIngestion is only the taking in of food at the mouth and precedes digestion.\nMechanical actions (chewing, churning) and chemical agents (salivary enzymes, stomach acid, intestinal enzymes) in the mouth, stomach and small intestine together accomplish digestion."
+    },
+    {
+      "id": 90072,
+      "externalId": "TechMed-Complete-Question-Bank-md-25",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Viviparous animals bear live young that develop inside the mother's body and receive nourishment from her tissues during gestation.\nCows, goats and dogs are all mammals and therefore generally give birth to live offspring.\nPigeons are birds and reproduce by laying hard‑shelled eggs, which makes them oviparous rather than viviparous.\nThe presence of a placenta in most placental mammals supports internal development and live birth, distinguishing them from egg‑laying vertebrates.\nBecause pigeon is the only option that lays eggs, it is the correct choice for the exception in this list.\nNote that there are biological exceptions elsewhere (e.g., oviparous monotremes or ovoviviparous species), but none of those exceptions apply to the animals given.",
+      "after": "Viviparous animals bear live young that develop inside the mother's body and receive nourishment from her tissues during gestation.\nCows, goats and dogs are all mammals and therefore generally give birth to live offspring.\nPigeons are birds and reproduce by laying hard‑shelled eggs, which makes them oviparous rather than viviparous.\nNote that there are biological exceptions elsewhere (e.g., oviparous monotremes or ovoviviparous species), but none of those exceptions apply to the animals given."
+    },
+    {
+      "id": 90078,
+      "externalId": "TechMed-Complete-Question-Bank-md-31",
+      "subject": "Biology",
+      "topic": "Living Organisms and Organization",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Biology is the branch of science that studies living organisms, including their structure, function, growth, origin, evolution and distribution.\nTherefore 'Biology' is the correct choice because it is the broad scientific study of life as a whole.\nBotany specifically focuses on plants, so it is a correct subfield but not the general study of all life.\nZoology is the study of animals and thus is another specialized branch within biology, not the overarching discipline.\nEcology examines relationships between organisms and their environment, making it a field within biology concerned with interactions rather than the definition of life itself.\nHence, among the options, Biology is the most inclusive term covering botany, zoology and ecology and so correctly answers the stem.",
+      "after": "Biology is the branch of science that studies living organisms, including their structure, function, growth, origin, evolution and distribution.\nTherefore 'Biology' is the correct choice because it is the broad scientific study of life as a whole.\nBotany specifically focuses on plants, so it is a correct subfield but not the general study of all life.\nHence, among the options, Biology is the most inclusive term covering botany, zoology and ecology and so correctly answers the stem."
+    },
+    {
+      "id": 90080,
+      "externalId": "TechMed-Complete-Question-Bank-md-33",
+      "subject": "Biology",
+      "topic": "Behaviour and Social Organization",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question distinguishes modes of organization: unicellular, filamentous and colonial forms of algae and protozoa.\nA colony is a group of many similar cells living together and often embedded in a gelatinous matrix while retaining some independence.\nVolvox is a spherical colonial green alga made of hundreds to thousands of flagellate cells arranged on a hollow gelatinous sphere, which is why it is the correct option.\nEuglena and Paramecium are unicellular protists: Euglena is a single flagellate euglenoid and Paramecium is a single-celled ciliate, so each exists as an individual cell.\nSpirogyra is not colonial but filamentous, consisting of long unbranched chains of cylindrical cells joined end to end and showing conjugation for sexual reproduction.\nVolvox colonies can show simple division of labour with some cells specialized for reproduction, which further distinguishes true colonies from mere filaments or solitary cells.",
+      "after": "The question distinguishes modes of organization: unicellular, filamentous and colonial forms of algae and protozoa.\nA colony is a group of many similar cells living together and often embedded in a gelatinous matrix while retaining some independence.\nVolvox is a spherical colonial green alga made of hundreds to thousands of flagellate cells arranged on a hollow gelatinous sphere, which is why it is the correct option.\nVolvox colonies can show simple division of labour with some cells specialized for reproduction, which further distinguishes true colonies from mere filaments or solitary cells."
+    }
+  ]
+}
