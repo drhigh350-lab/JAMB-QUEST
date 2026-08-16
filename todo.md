@@ -254,9 +254,9 @@
 
 - [x] Inspect and parse the newly supplied Chemistry past-question DOCX in bounded batches without altering supplied question or answer wording
 - [x] Add uniform medium explanations of four to five readable lines to all release-eligible Chemistry candidates; hold unmapped or duplicate records for review
-- [ ] Map every Chemistry record to an official JAMB Chemistry syllabus topic
+- [x] Map every Chemistry record to an official JAMB Chemistry syllabus topic; deterministic coverage audit confirms all 1,157 active authorised Chemistry rows resolve to the official map.
 - [x] Deduplicate and structurally audit the Chemistry batch before release
-- [ ] Release only quality-approved Chemistry records and document held records with reasons
+- [x] Release only quality-approved Chemistry records and document held records with reasons; the subject-specific audit confirms all 1,157 active authorised Chemistry rows are approved and playable, with no Chemistry hold remaining.
 
 - [x] Reconcile the reported 2,275 versus 3,118 question counts across stored, approved, playable, and UI display paths without changing question data
 - [x] Explain or correct any intentional quality-gate exclusions in the learner-facing count
