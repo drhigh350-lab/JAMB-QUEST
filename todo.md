@@ -369,3 +369,12 @@
 - [x] Extend the source-preserving shortening path to all four core subjects and classify remaining runtime over-cap records.
 - [x] Process all 28 safe Physics over-cap explanations in two guarded batches; no all-subject over-cap candidates remain.
 - [x] Final runtime audit after the complete all-subject safe-import pass: 2,279 authorised records are playable, giving 3,279 total learner-facing questions including the 1,000 model bank; remaining holds are 369 needs-review and 342 unmapped-topic records.
+
+- [x] Inventory all 342 authorised records currently held only for missing official syllabus-topic mapping.
+- [x] Map all 342 approved unmapped records to official JAMB syllabus areas using their supplied question content and authoritative subject maps: 281 high-confidence and 61 medium-confidence classifications, with no unresolved mapping hold.
+- [x] Revalidate mapped records against topic, answer, option, duplicate, and explanation gates before release; 279 became playable while 63 remain held only for over-five-line explanations.
+- [x] Report the revised learner-facing total and every residual non-mappable hold after the mapping pass: all 342 approved unmapped records now have official topics; the live audit reports 2,651 authorised playable records and 3,651 learner-facing questions including the 1,000 model bank. Remaining runtime holds are 369 needs-review records and 63 over-five-line explanations; none remains held for missing topic mapping.
+
+- [x] Parse the user-designated trusted Physics and Use of English Markdown batches while preserving their supplied answer keys and explanations: 100 complete Physics questions and 58 complete Use of English questions were structurally usable; a 40-item English outline and one answer-indeterminate English card remain outside gameplay.
+- [x] Map the trusted Physics and Use of English topic labels to official JAMB syllabus areas and repair only structural duplicate or option/answer-index issues needed for reliable gameplay; no answer key or explanation was externally audited or replaced.
+- [x] Import the trusted Markdown records directly with user-authorised provenance and verify the updated playable total: all 100 Physics items already existed as exact authorised duplicates, while 57 non-duplicate Use of English items were imported. Eight source cards with duplicate answer options remain technically held.

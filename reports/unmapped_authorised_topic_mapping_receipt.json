@@ -1,0 +1,2752 @@
+{
+  "inputMappings": 342,
+  "applied": [
+    {
+      "id": 30023,
+      "externalId": "BIO-OWNER-M1-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "medium"
+    },
+    {
+      "id": 30040,
+      "externalId": "BIO-OWNER-M1-Q45",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30053,
+      "externalId": "BIO-OWNER-M2-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30061,
+      "externalId": "BIO-OWNER-M2-Q18",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high"
+    },
+    {
+      "id": 30065,
+      "externalId": "BIO-OWNER-M2-Q22",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "medium"
+    },
+    {
+      "id": 30068,
+      "externalId": "BIO-OWNER-M2-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 30070,
+      "externalId": "BIO-OWNER-M2-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30074,
+      "externalId": "BIO-OWNER-M2-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30075,
+      "externalId": "BIO-OWNER-M2-Q32",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 30077,
+      "externalId": "BIO-OWNER-M2-Q34",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "high"
+    },
+    {
+      "id": 30085,
+      "externalId": "BIO-OWNER-M2-Q42",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30094,
+      "externalId": "BIO-OWNER-M3-Q1",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30103,
+      "externalId": "BIO-OWNER-M3-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 30107,
+      "externalId": "BIO-OWNER-M3-Q14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Variation",
+      "confidence": "high"
+    },
+    {
+      "id": 30109,
+      "externalId": "BIO-OWNER-M3-Q16",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30110,
+      "externalId": "BIO-OWNER-M3-Q17",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 30126,
+      "externalId": "BIO-OWNER-M3-Q35",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30143,
+      "externalId": "BIO-OWNER-M4-Q2",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high"
+    },
+    {
+      "id": 30145,
+      "externalId": "BIO-OWNER-M4-Q4",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30148,
+      "externalId": "BIO-OWNER-M4-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30166,
+      "externalId": "BIO-OWNER-M4-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 30176,
+      "externalId": "BIO-OWNER-M4-Q37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30178,
+      "externalId": "BIO-OWNER-M4-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30194,
+      "externalId": "BIO-OWNER-M5-Q5",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30203,
+      "externalId": "BIO-OWNER-M5-Q14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "medium"
+    },
+    {
+      "id": 30204,
+      "externalId": "BIO-OWNER-M5-Q15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30216,
+      "externalId": "BIO-OWNER-M5-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "medium"
+    },
+    {
+      "id": 30224,
+      "externalId": "BIO-OWNER-M5-Q36",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30238,
+      "externalId": "BIO-OWNER-M5-Q50",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30248,
+      "externalId": "BIO-OWNER-M6-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium"
+    },
+    {
+      "id": 30250,
+      "externalId": "BIO-OWNER-M6-Q12",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 30251,
+      "externalId": "BIO-OWNER-M6-Q13",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30265,
+      "externalId": "BIO-OWNER-M6-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30266,
+      "externalId": "BIO-OWNER-M6-Q29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30289,
+      "externalId": "BIO-OWNER-M7-Q4",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30292,
+      "externalId": "BIO-OWNER-M7-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30295,
+      "externalId": "BIO-OWNER-M7-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30305,
+      "externalId": "BIO-OWNER-M7-Q20",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30310,
+      "externalId": "BIO-OWNER-M7-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30315,
+      "externalId": "BIO-OWNER-M7-Q30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "medium"
+    },
+    {
+      "id": 30316,
+      "externalId": "BIO-OWNER-M7-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30318,
+      "externalId": "BIO-OWNER-M7-Q33",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high"
+    },
+    {
+      "id": 30320,
+      "externalId": "BIO-OWNER-M7-Q35",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 30323,
+      "externalId": "BIO-OWNER-M7-Q38",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30332,
+      "externalId": "BIO-OWNER-M7-Q47",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30333,
+      "externalId": "BIO-OWNER-M7-Q48",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30341,
+      "externalId": "BIO-OWNER-M8-Q6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30344,
+      "externalId": "BIO-OWNER-M8-Q9",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30355,
+      "externalId": "BIO-OWNER-M8-Q23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30357,
+      "externalId": "BIO-OWNER-M8-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 30363,
+      "externalId": "BIO-OWNER-M8-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 30371,
+      "externalId": "BIO-OWNER-M8-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30373,
+      "externalId": "BIO-OWNER-M8-Q41",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 30388,
+      "externalId": "BIO-OWNER-M9-Q6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30389,
+      "externalId": "BIO-OWNER-M9-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30392,
+      "externalId": "BIO-OWNER-M9-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "high"
+    },
+    {
+      "id": 30408,
+      "externalId": "BIO-OWNER-M9-Q29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30427,
+      "externalId": "BIO-OWNER-M9-Q48",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 30441,
+      "externalId": "BIO-OWNER-M10-Q15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "medium"
+    },
+    {
+      "id": 30450,
+      "externalId": "BIO-OWNER-M10-Q24",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30452,
+      "externalId": "BIO-OWNER-M10-Q26",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high"
+    },
+    {
+      "id": 30453,
+      "externalId": "BIO-OWNER-M10-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 30454,
+      "externalId": "BIO-OWNER-M10-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 30463,
+      "externalId": "BIO-OWNER-M10-Q37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 30465,
+      "externalId": "BIO-OWNER-M10-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 60036,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-36",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high"
+    },
+    {
+      "id": 60037,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-37",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "medium"
+    },
+    {
+      "id": 60076,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-76",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high"
+    },
+    {
+      "id": 60085,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-85",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 60091,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-91",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "medium"
+    },
+    {
+      "id": 90001,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-1",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90003,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-3",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 90005,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90006,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90022,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium"
+    },
+    {
+      "id": 90044,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-45",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90046,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-47",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 90050,
+      "externalId": "TechMed-Complete-Question-Bank-md-3",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "medium"
+    },
+    {
+      "id": 90056,
+      "externalId": "TechMed-Complete-Question-Bank-md-9",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 90061,
+      "externalId": "TechMed-Complete-Question-Bank-md-14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90062,
+      "externalId": "TechMed-Complete-Question-Bank-md-15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90066,
+      "externalId": "TechMed-Complete-Question-Bank-md-19",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90070,
+      "externalId": "TechMed-Complete-Question-Bank-md-23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90075,
+      "externalId": "TechMed-Complete-Question-Bank-md-28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90076,
+      "externalId": "TechMed-Complete-Question-Bank-md-29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90077,
+      "externalId": "TechMed-Complete-Question-Bank-md-30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90079,
+      "externalId": "TechMed-Complete-Question-Bank-md-32",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 90084,
+      "externalId": "TechMed-Complete-Question-Bank-md-37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90089,
+      "externalId": "TechMed-Complete-Question-Bank-md-42",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 90096,
+      "externalId": "TechMed-Complete-Question-Bank-md-49",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90108,
+      "externalId": "TechMed-Complete-Question-Bank-md-63",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 90114,
+      "externalId": "TechMed-Complete-Question-Bank-md-70",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 90120,
+      "externalId": "TechMed-Complete-Question-Bank-md-77",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 90155,
+      "externalId": "TechMed-Complete-Question-Bank-md-21",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high"
+    },
+    {
+      "id": 90167,
+      "externalId": "TechMed-Complete-Question-Bank-md-42",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium"
+    },
+    {
+      "id": 90200,
+      "externalId": "TechMed-Complete-Question-Bank-md-75",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high"
+    },
+    {
+      "id": 90206,
+      "externalId": "TechMed-Complete-Question-Bank-md-81",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium"
+    },
+    {
+      "id": 150162,
+      "externalId": "bio-part1-md-Biology-3",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "high"
+    },
+    {
+      "id": 150166,
+      "externalId": "bio-part1-md-Biology-7",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Heredity",
+      "confidence": "high"
+    },
+    {
+      "id": 150167,
+      "externalId": "bio-part1-md-Biology-9",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high"
+    },
+    {
+      "id": 150172,
+      "externalId": "bio-part1-md-Biology-15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 150173,
+      "externalId": "bio-part1-md-Biology-17",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium"
+    },
+    {
+      "id": 150174,
+      "externalId": "bio-part1-md-Biology-18",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 150176,
+      "externalId": "bio-part1-md-Biology-20",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 150177,
+      "externalId": "bio-part1-md-Biology-21",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high"
+    },
+    {
+      "id": 150179,
+      "externalId": "bio-part1-md-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 150180,
+      "externalId": "bio-part1-md-Biology-24",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150181,
+      "externalId": "bio-part1-md-Biology-26",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 150182,
+      "externalId": "bio-part1-md-Biology-28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 150184,
+      "externalId": "bio-part1-md-Biology-30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 150186,
+      "externalId": "bio-part1-md-Biology-32",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150187,
+      "externalId": "bio-part1-md-Biology-33",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Heredity",
+      "confidence": "high"
+    },
+    {
+      "id": 150188,
+      "externalId": "bio-part1-md-Biology-34",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high"
+    },
+    {
+      "id": 150189,
+      "externalId": "bio-part1-md-Biology-35",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 150190,
+      "externalId": "bio-part1-md-Biology-36",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 150191,
+      "externalId": "bio-part1-md-Biology-37",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Soil",
+      "confidence": "medium"
+    },
+    {
+      "id": 150192,
+      "externalId": "bio-part1-md-Biology-38",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "high"
+    },
+    {
+      "id": 150194,
+      "externalId": "bio-part1-md-Biology-41",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 150195,
+      "externalId": "bio-part1-md-Biology-42",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 150201,
+      "externalId": "bio-part1-md-Biology-48",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high"
+    },
+    {
+      "id": 150205,
+      "externalId": "bio-part2-md-Biology-52",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 150207,
+      "externalId": "bio-part2-md-Biology-55",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 150209,
+      "externalId": "bio-part2-md-Biology-58",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high"
+    },
+    {
+      "id": 150212,
+      "externalId": "bio-part2-md-Biology-61",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150218,
+      "externalId": "bio-part2-md-Biology-67",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150220,
+      "externalId": "bio-part2-md-Biology-69",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150221,
+      "externalId": "bio-part2-md-Biology-70",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150222,
+      "externalId": "bio-part2-md-Biology-71",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Soil",
+      "confidence": "high"
+    },
+    {
+      "id": 150228,
+      "externalId": "bio-part2-md-Biology-77",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 150231,
+      "externalId": "bio-part2-md-Biology-80",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 150232,
+      "externalId": "bio-part2-md-Biology-81",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high"
+    },
+    {
+      "id": 150233,
+      "externalId": "bio-part2-md-Biology-82",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high"
+    },
+    {
+      "id": 150234,
+      "externalId": "bio-part2-md-Biology-83",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 150235,
+      "externalId": "bio-part2-md-Biology-84",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Population ecology",
+      "confidence": "high"
+    },
+    {
+      "id": 150238,
+      "externalId": "bio-part2-md-Biology-88",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150239,
+      "externalId": "bio-part2-md-Biology-89",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "medium"
+    },
+    {
+      "id": 150240,
+      "externalId": "bio-part2-md-Biology-90",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high"
+    },
+    {
+      "id": 150242,
+      "externalId": "bio-part2-md-Biology-92",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 150243,
+      "externalId": "bio-part2-md-Biology-93",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Growth",
+      "confidence": "high"
+    },
+    {
+      "id": 150244,
+      "externalId": "bio-part2-md-Biology-94",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Biotechnology",
+      "confidence": "medium"
+    },
+    {
+      "id": 150245,
+      "externalId": "bio-part2-md-Biology-95",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 150246,
+      "externalId": "bio-part2-md-Biology-96",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high"
+    },
+    {
+      "id": 180036,
+      "externalId": "bio-part2-md-Biology-57",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 180037,
+      "externalId": "bio-part2-md-Biology-97",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 240002,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-2",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Table Trends",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high"
+    },
+    {
+      "id": 240013,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-13",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon & Its Compounds",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 240014,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-14",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness",
+      "suggestedTopic": "Solubility",
+      "confidence": "high"
+    },
+    {
+      "id": 240018,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-18",
+      "subject": "Chemistry",
+      "currentTopic": "Isomerism",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 240020,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-20",
+      "subject": "Chemistry",
+      "currentTopic": "Polymers",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 240022,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-22",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high"
+    },
+    {
+      "id": 240027,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-27",
+      "subject": "Chemistry",
+      "currentTopic": "Graham's Law of Diffusion",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high"
+    },
+    {
+      "id": 240031,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-31",
+      "subject": "Chemistry",
+      "currentTopic": "Electronic Configuration Anomaly",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high"
+    },
+    {
+      "id": 240032,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-32",
+      "subject": "Chemistry",
+      "currentTopic": "Hybridization",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high"
+    },
+    {
+      "id": 240034,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-34",
+      "subject": "Chemistry",
+      "currentTopic": "Faraday's Laws",
+      "suggestedTopic": "Electrolysis",
+      "confidence": "high"
+    },
+    {
+      "id": 240036,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-36",
+      "subject": "Chemistry",
+      "currentTopic": "Radioactivity",
+      "suggestedTopic": "Nuclear chemistry",
+      "confidence": "high"
+    },
+    {
+      "id": 240038,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-38",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness Removal",
+      "suggestedTopic": "Solubility",
+      "confidence": "high"
+    },
+    {
+      "id": 240043,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-43",
+      "subject": "Chemistry",
+      "currentTopic": "Fats and Oils (Saponification)",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 240045,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-45",
+      "subject": "Chemistry",
+      "currentTopic": "Colligative Properties",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium"
+    },
+    {
+      "id": 240048,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-48",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon Allotropes",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 270002,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-52",
+      "subject": "Chemistry",
+      "currentTopic": "Dalton's Law of Partial Pressures",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high"
+    },
+    {
+      "id": 270003,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-53",
+      "subject": "Chemistry",
+      "currentTopic": "Alkanols (Alcohols)",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "medium"
+    },
+    {
+      "id": 270006,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-56",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Table Group Trends",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 270010,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-60",
+      "subject": "Chemistry",
+      "currentTopic": "Radioactivity Decay Equations",
+      "suggestedTopic": "Nuclear chemistry",
+      "confidence": "high"
+    },
+    {
+      "id": 270011,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-61",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon Monoxide Toxicity",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high"
+    },
+    {
+      "id": 270012,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-62",
+      "subject": "Chemistry",
+      "currentTopic": "Industrial Extraction of Zinc",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "medium"
+    },
+    {
+      "id": 270014,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-64",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry & Enthalpy",
+      "suggestedTopic": "Energy changes",
+      "confidence": "medium"
+    },
+    {
+      "id": 270015,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-65",
+      "subject": "Chemistry",
+      "currentTopic": "Standard Electrode Potential",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high"
+    },
+    {
+      "id": 270018,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-68",
+      "subject": "Chemistry",
+      "currentTopic": "Empirical Formula Calculations",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "medium"
+    },
+    {
+      "id": 270021,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-71",
+      "subject": "Chemistry",
+      "currentTopic": "Nitrogen & Industrial Synthesis",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "high"
+    },
+    {
+      "id": 270022,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-72",
+      "subject": "Chemistry",
+      "currentTopic": "Polymers & Materials",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium"
+    },
+    {
+      "id": 270023,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-73",
+      "subject": "Chemistry",
+      "currentTopic": "Detergents & Soap Chemistry",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium"
+    },
+    {
+      "id": 270028,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-78",
+      "subject": "Chemistry",
+      "currentTopic": "Air & Atmospheric Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium"
+    },
+    {
+      "id": 270042,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-92",
+      "subject": "Chemistry",
+      "currentTopic": "Solution Chemistry (Deliquescence)",
+      "suggestedTopic": "Solubility",
+      "confidence": "high"
+    },
+    {
+      "id": 270047,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-97",
+      "subject": "Chemistry",
+      "currentTopic": "Water Purification",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high"
+    },
+    {
+      "id": 300003,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-3",
+      "subject": "Physics",
+      "currentTopic": "Vectors & Scalars",
+      "suggestedTopic": "Equilibrium of forces",
+      "confidence": "high"
+    },
+    {
+      "id": 300006,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-6",
+      "subject": "Physics",
+      "currentTopic": "Universal Gravitation",
+      "suggestedTopic": "Gravitational field",
+      "confidence": "high"
+    },
+    {
+      "id": 300023,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-23",
+      "subject": "Physics",
+      "currentTopic": "Atomic Physics & Quantum Theory",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300024,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-24",
+      "subject": "Physics",
+      "currentTopic": "Photoelectric Effect",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300025,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-25",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics & Radioactivity",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300027,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-27",
+      "subject": "Physics",
+      "currentTopic": "Impulse & Momentum",
+      "suggestedTopic": "Motion",
+      "confidence": "high"
+    },
+    {
+      "id": 300030,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-30",
+      "subject": "Physics",
+      "currentTopic": "Friction",
+      "suggestedTopic": "Equilibrium of forces",
+      "confidence": "high"
+    },
+    {
+      "id": 300039,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-39",
+      "subject": "Physics",
+      "currentTopic": "Resonance in Strings",
+      "suggestedTopic": "Waves",
+      "confidence": "high"
+    },
+    {
+      "id": 300040,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-40",
+      "subject": "Physics",
+      "currentTopic": "Electric Field Strength",
+      "suggestedTopic": "Electrostatics",
+      "confidence": "high"
+    },
+    {
+      "id": 300042,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-42",
+      "subject": "Physics",
+      "currentTopic": "Resistivity & Resistance",
+      "suggestedTopic": "Conduction of electricity",
+      "confidence": "high"
+    },
+    {
+      "id": 300045,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-45",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Physics",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high"
+    },
+    {
+      "id": 300046,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-46",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Decay Rate)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300053,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-53",
+      "subject": "Physics",
+      "currentTopic": "Pascal's Principle & Hydraulics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high"
+    },
+    {
+      "id": 300058,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-58",
+      "subject": "Physics",
+      "currentTopic": "Spherical Mirrors (Convex Mirror)",
+      "suggestedTopic": "Reflection",
+      "confidence": "high"
+    },
+    {
+      "id": 300060,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-60",
+      "subject": "Physics",
+      "currentTopic": "Lenses & Lens Formula",
+      "suggestedTopic": "Refraction",
+      "confidence": "high"
+    },
+    {
+      "id": 300063,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-63",
+      "subject": "Physics",
+      "currentTopic": "Resistors in Combination",
+      "suggestedTopic": "Current electricity",
+      "confidence": "high"
+    },
+    {
+      "id": 300064,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-64",
+      "subject": "Physics",
+      "currentTopic": "Potentiometer",
+      "suggestedTopic": "Electric cells",
+      "confidence": "medium"
+    },
+    {
+      "id": 300066,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-66",
+      "subject": "Physics",
+      "currentTopic": "Faraday's and Lenz's Laws",
+      "suggestedTopic": "Electromagnetic induction",
+      "confidence": "high"
+    },
+    {
+      "id": 300070,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-70",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Properties of Radiation)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300071,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-71",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Reactions (Fusion vs Fission)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300072,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-72",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Diodes & Rectification",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high"
+    },
+    {
+      "id": 300073,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-73",
+      "subject": "Physics",
+      "currentTopic": "Transistors",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high"
+    },
+    {
+      "id": 300074,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-74",
+      "subject": "Physics",
+      "currentTopic": "Line Spectra",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300094,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-94",
+      "subject": "Physics",
+      "currentTopic": "Atomic Structure (Rutherford Alpha Scattering)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300095,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-95",
+      "subject": "Physics",
+      "currentTopic": "Photoelectric Effect (Einstein's Equation)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300096,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-96",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Alpha Decay)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300097,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-97",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics (Mass Defect)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 300098,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-98",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Physics (Zener Diode)",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high"
+    },
+    {
+      "id": 330002,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-2",
+      "subject": "Biology",
+      "currentTopic": "Levels of Organization",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 330005,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-5",
+      "subject": "Biology",
+      "currentTopic": "Diffusion and Osmosis",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 330006,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-6",
+      "subject": "Biology",
+      "currentTopic": "Enzymes and Biochemical Reactions",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 330008,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-8",
+      "subject": "Biology",
+      "currentTopic": "Excretory Systems",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 330011,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-11",
+      "subject": "Biology",
+      "currentTopic": "Nervous System and Reflex Arc",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330016,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-16",
+      "subject": "Biology",
+      "currentTopic": "Blood Groups & Rhesus Factor",
+      "suggestedTopic": "Transport",
+      "confidence": "medium"
+    },
+    {
+      "id": 330018,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-18",
+      "subject": "Biology",
+      "currentTopic": "Ecological Factors & Measurement",
+      "suggestedTopic": "Factors affecting distribution",
+      "confidence": "medium"
+    },
+    {
+      "id": 330019,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-19",
+      "subject": "Biology",
+      "currentTopic": "Nitrogen Cycle",
+      "suggestedTopic": "Soil",
+      "confidence": "high"
+    },
+    {
+      "id": 330023,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "Microorganisms and Diseases",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high"
+    },
+    {
+      "id": 330024,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-24",
+      "subject": "Biology",
+      "currentTopic": "Conservation of Natural Resources",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high"
+    },
+    {
+      "id": 330031,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-31",
+      "subject": "Biology",
+      "currentTopic": "Homeostasis & Skin",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330032,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-32",
+      "subject": "Biology",
+      "currentTopic": "Excretory Organs (Insects)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 330034,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-34",
+      "subject": "Biology",
+      "currentTopic": "Sense Organs (Human Eye - Accommodation)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330044,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-44",
+      "subject": "Biology",
+      "currentTopic": "Pest Control & Microorganisms",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "medium"
+    },
+    {
+      "id": 330046,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-46",
+      "subject": "Biology",
+      "currentTopic": "Symbiotic Relationships",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high"
+    },
+    {
+      "id": 330047,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-47",
+      "subject": "Biology",
+      "currentTopic": "Carbon Cycle",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 330049,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-49",
+      "subject": "Biology",
+      "currentTopic": "Germination of Seeds",
+      "suggestedTopic": "Growth",
+      "confidence": "medium"
+    },
+    {
+      "id": 330052,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-52",
+      "subject": "Biology",
+      "currentTopic": "Circulatory System (Double Circulation)",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 330054,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-54",
+      "subject": "Biology",
+      "currentTopic": "Central Nervous System (Brain Functions)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330056,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-56",
+      "subject": "Biology",
+      "currentTopic": "Skeletal System (Bone Mineralization)",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high"
+    },
+    {
+      "id": 330057,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-57",
+      "subject": "Biology",
+      "currentTopic": "Microorganisms (Viruses)",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 330059,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-59",
+      "subject": "Biology",
+      "currentTopic": "Food Tests (Biuret Test)",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 330060,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-60",
+      "subject": "Biology",
+      "currentTopic": "Digestive Enzymes (Pancreatic Juice Activation)",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 330066,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-66",
+      "subject": "Biology",
+      "currentTopic": "Ecosystem Dynamics (Pyramid of Energy)",
+      "suggestedTopic": "Population ecology",
+      "confidence": "medium"
+    },
+    {
+      "id": 330070,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-70",
+      "subject": "Biology",
+      "currentTopic": "Bacteriology (Bacterial Shapes)",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high"
+    },
+    {
+      "id": 330071,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-71",
+      "subject": "Biology",
+      "currentTopic": "Vector-Borne Diseases (Trypanosomiasis)",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "medium"
+    },
+    {
+      "id": 330074,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-74",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology (Skin Function)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 330081,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-81",
+      "subject": "Biology",
+      "currentTopic": "Respiratory Systems (Gaseous Exchange in Fish)",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 330082,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-82",
+      "subject": "Biology",
+      "currentTopic": "Parasitology (Malaria Cycle)",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high"
+    },
+    {
+      "id": 330084,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-84",
+      "subject": "Biology",
+      "currentTopic": "Excretory Systems (Nephron Function)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high"
+    },
+    {
+      "id": 330086,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-86",
+      "subject": "Biology",
+      "currentTopic": "Nervous System (Reflex Arc)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330088,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-88",
+      "subject": "Biology",
+      "currentTopic": "Reproductive Physiology (Menstrual Cycle)",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 330089,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-89",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics & Properties",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 330093,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-93",
+      "subject": "Biology",
+      "currentTopic": "Ecological Interactions (Parasitism)",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high"
+    },
+    {
+      "id": 330096,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-96",
+      "subject": "Biology",
+      "currentTopic": "Pest Management & Agriculture",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "medium"
+    },
+    {
+      "id": 330097,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-97",
+      "subject": "Biology",
+      "currentTopic": "Water Balance in Animals (Kidney Regulation)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 330098,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-98",
+      "subject": "Biology",
+      "currentTopic": "Food Chains & Webs",
+      "suggestedTopic": "Population ecology",
+      "confidence": "medium"
+    },
+    {
+      "id": 360001,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-1",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Sentence meaning",
+      "confidence": "high"
+    },
+    {
+      "id": 360004,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-4",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Compound Subjects)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360009,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-9",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (Third Conditional)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360013,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-13",
+      "subject": "Use of English",
+      "currentTopic": "Modal Verbs",
+      "suggestedTopic": "Word classes",
+      "confidence": "high"
+    },
+    {
+      "id": 360016,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-16",
+      "subject": "Use of English",
+      "currentTopic": "Inversion Structure",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high"
+    },
+    {
+      "id": 360018,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-18",
+      "subject": "Use of English",
+      "currentTopic": "Reported Speech",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360019,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-19",
+      "subject": "Use of English",
+      "currentTopic": "Vocabulary & Meaning",
+      "suggestedTopic": "Sentence meaning",
+      "confidence": "medium"
+    },
+    {
+      "id": 360020,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-20",
+      "subject": "Use of English",
+      "currentTopic": "Lexis (Nearest in Meaning)",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high"
+    },
+    {
+      "id": 360026,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-26",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high"
+    },
+    {
+      "id": 360030,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-30",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Plural in Form, Singular in Sense)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360032,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-32",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Habitual Past)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "medium"
+    },
+    {
+      "id": 360036,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-36",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Negative Adverbials)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high"
+    },
+    {
+      "id": 360038,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-38",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (Second Conditional)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium"
+    },
+    {
+      "id": 360051,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-51",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high"
+    },
+    {
+      "id": 360055,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-55",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Proximity Rule)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360056,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-56",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Measurement Units)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360059,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-59",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Obligation)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium"
+    },
+    {
+      "id": 360062,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-62",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (First Conditional)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360063,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-63",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Restrictive Adverbs)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high"
+    },
+    {
+      "id": 360076,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-76",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high"
+    },
+    {
+      "id": 360080,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-80",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Rule of 'Many a')",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high"
+    },
+    {
+      "id": 360082,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-82",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Hardly ... when)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high"
+    },
+    {
+      "id": 360086,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-86",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Unnecessary Past Action)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "medium"
+    },
+    {
+      "id": 360087,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-87",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Negative Adverbs)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high"
+    },
+    {
+      "id": 450005,
+      "externalId": "owner-aug15-physics-physics-100-md-5",
+      "subject": "Physics",
+      "currentTopic": "Momentum — Conservation",
+      "suggestedTopic": "Motion",
+      "confidence": "high"
+    },
+    {
+      "id": 450009,
+      "externalId": "owner-aug15-physics-physics-100-md-9",
+      "subject": "Physics",
+      "currentTopic": "Buoyancy — Archimedes' Principle",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high"
+    },
+    {
+      "id": 450015,
+      "externalId": "owner-aug15-physics-physics-100-md-17",
+      "subject": "Physics",
+      "currentTopic": "Electric Field — Intensity",
+      "suggestedTopic": "Electrostatics",
+      "confidence": "high"
+    },
+    {
+      "id": 450017,
+      "externalId": "owner-aug15-physics-physics-100-md-19",
+      "subject": "Physics",
+      "currentTopic": "Circuits — Series and Parallel Resistance",
+      "suggestedTopic": "Current electricity",
+      "confidence": "high"
+    },
+    {
+      "id": 450028,
+      "externalId": "owner-aug15-physics-physics-100-md-31",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics — Radioactive Decay",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 450029,
+      "externalId": "owner-aug15-physics-physics-100-md-32",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics — Beta Decay",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 450038,
+      "externalId": "owner-aug15-physics-physics-100-md-41",
+      "subject": "Physics",
+      "currentTopic": "Transformer — Ideal Transformer Equation",
+      "suggestedTopic": "Electromagnetic induction",
+      "confidence": "high"
+    },
+    {
+      "id": 450041,
+      "externalId": "owner-aug15-physics-physics-100-md-45",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity — Half-Life",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high"
+    },
+    {
+      "id": 450042,
+      "externalId": "owner-aug15-physics-physics-100-md-46",
+      "subject": "Physics",
+      "currentTopic": "Optics — Lens Combination",
+      "suggestedTopic": "Optical instruments",
+      "confidence": "medium"
+    },
+    {
+      "id": 450043,
+      "externalId": "owner-aug15-physics-physics-100-md-47",
+      "subject": "Physics",
+      "currentTopic": "Dynamics — Friction and Acceleration",
+      "suggestedTopic": "Motion",
+      "confidence": "high"
+    },
+    {
+      "id": 450047,
+      "externalId": "owner-aug15-physics-physics-100-md-51",
+      "subject": "Physics",
+      "currentTopic": "Fluids — Continuity Equation",
+      "suggestedTopic": "Pressure",
+      "confidence": "medium"
+    },
+    {
+      "id": 450048,
+      "externalId": "owner-aug15-physics-physics-100-md-52",
+      "subject": "Physics",
+      "currentTopic": "Fluids — Bernoulli's Principle",
+      "suggestedTopic": "Pressure",
+      "confidence": "high"
+    },
+    {
+      "id": 450052,
+      "externalId": "owner-aug15-physics-physics-100-md-56",
+      "subject": "Physics",
+      "currentTopic": "Optics — Lens Maker's Equation",
+      "suggestedTopic": "Refraction",
+      "confidence": "medium"
+    },
+    {
+      "id": 450059,
+      "externalId": "owner-aug15-biology-biology-100-md-3",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Light-Dependent Reactions",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450060,
+      "externalId": "owner-aug15-biology-biology-100-md-4",
+      "subject": "Biology",
+      "currentTopic": "Osmosis — Water Potential",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450061,
+      "externalId": "owner-aug15-biology-biology-100-md-5",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics — Substrate Concentration",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 450064,
+      "externalId": "owner-aug15-biology-biology-100-md-8",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Dark Reactions/Calvin Cycle",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450071,
+      "externalId": "owner-aug15-biology-biology-100-md-15",
+      "subject": "Biology",
+      "currentTopic": "Locomotion — Joint Types",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high"
+    },
+    {
+      "id": 450072,
+      "externalId": "owner-aug15-biology-biology-100-md-16",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Reflex Arc",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450075,
+      "externalId": "owner-aug15-biology-biology-100-md-19",
+      "subject": "Biology",
+      "currentTopic": "Development — Fertilization and Cleavage",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high"
+    },
+    {
+      "id": 450081,
+      "externalId": "owner-aug15-biology-biology-100-md-25",
+      "subject": "Biology",
+      "currentTopic": "Gas Exchange — Respiratory Surfaces",
+      "suggestedTopic": "Respiration",
+      "confidence": "high"
+    },
+    {
+      "id": 450082,
+      "externalId": "owner-aug15-biology-biology-100-md-26",
+      "subject": "Biology",
+      "currentTopic": "Owner-supplied pending topic map",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 450083,
+      "externalId": "owner-aug15-biology-biology-100-md-27",
+      "subject": "Biology",
+      "currentTopic": "Osmosis — Solute Potential",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 450084,
+      "externalId": "owner-aug15-biology-biology-100-md-28",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — C3 Pathway",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 450089,
+      "externalId": "owner-aug15-biology-biology-100-md-33",
+      "subject": "Biology",
+      "currentTopic": "Botany — Leaf Structure",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450090,
+      "externalId": "owner-aug15-biology-biology-100-md-34",
+      "subject": "Biology",
+      "currentTopic": "Circulation — Blood Pressure",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 450092,
+      "externalId": "owner-aug15-biology-biology-100-md-36",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Light Spectrum",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high"
+    },
+    {
+      "id": 450093,
+      "externalId": "owner-aug15-biology-biology-100-md-37",
+      "subject": "Biology",
+      "currentTopic": "Immunology — Antibodies",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 450098,
+      "externalId": "owner-aug15-biology-biology-100-md-42",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Stomata Function",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450101,
+      "externalId": "owner-aug15-biology-biology-100-md-45",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Synapse Structure",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450104,
+      "externalId": "owner-aug15-biology-biology-100-md-48",
+      "subject": "Biology",
+      "currentTopic": "Metabolism — Anabolism vs Catabolism",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 450106,
+      "externalId": "owner-aug15-biology-biology-100-md-50",
+      "subject": "Biology",
+      "currentTopic": "Immunology — Immune Response",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 450110,
+      "externalId": "owner-aug15-biology-biology-100-md-54",
+      "subject": "Biology",
+      "currentTopic": "Biogeography — Species Distribution",
+      "suggestedTopic": "Theories of evolution",
+      "confidence": "medium"
+    },
+    {
+      "id": 450111,
+      "externalId": "owner-aug15-biology-biology-100-md-55",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics — Substrate Enzyme Interaction",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high"
+    },
+    {
+      "id": 450114,
+      "externalId": "owner-aug15-biology-biology-100-md-58",
+      "subject": "Biology",
+      "currentTopic": "Molecular Biology — Protein Synthesis",
+      "suggestedTopic": "Heredity",
+      "confidence": "medium"
+    },
+    {
+      "id": 450120,
+      "externalId": "owner-aug15-biology-biology-100-md-64",
+      "subject": "Biology",
+      "currentTopic": "Inheritance — Pedigree Analysis",
+      "suggestedTopic": "Heredity",
+      "confidence": "high"
+    },
+    {
+      "id": 450122,
+      "externalId": "owner-aug15-biology-biology-100-md-66",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Types of Neurons",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450123,
+      "externalId": "owner-aug15-biology-biology-100-md-67",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Accessory Pigments",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 450125,
+      "externalId": "owner-aug15-biology-biology-100-md-69",
+      "subject": "Biology",
+      "currentTopic": "Homeostasis — Thermoregulation",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium"
+    },
+    {
+      "id": 450129,
+      "externalId": "owner-aug15-biology-biology-100-md-74",
+      "subject": "Biology",
+      "currentTopic": "Animal Behaviour — Dominance Hierarchies",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium"
+    },
+    {
+      "id": 450130,
+      "externalId": "owner-aug15-biology-biology-100-md-75",
+      "subject": "Biology",
+      "currentTopic": "Molecular Biology — DNA Replication",
+      "suggestedTopic": "Heredity",
+      "confidence": "high"
+    },
+    {
+      "id": 450133,
+      "externalId": "owner-aug15-biology-biology-100-md-78",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Synaptic Plasticity",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450137,
+      "externalId": "owner-aug15-biology-biology-100-md-82",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Photosystem Locations",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium"
+    },
+    {
+      "id": 450138,
+      "externalId": "owner-aug15-biology-biology-100-md-83",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Reflex Arc Path",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450139,
+      "externalId": "owner-aug15-biology-biology-100-md-84",
+      "subject": "Biology",
+      "currentTopic": "Hormones — Homeostatic Regulation",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450143,
+      "externalId": "owner-aug15-biology-biology-100-md-88",
+      "subject": "Biology",
+      "currentTopic": "Blood Composition — Hemoglobin Function",
+      "suggestedTopic": "Transport",
+      "confidence": "high"
+    },
+    {
+      "id": 450144,
+      "externalId": "owner-aug15-biology-biology-100-md-89",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Equation",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium"
+    },
+    {
+      "id": 450148,
+      "externalId": "owner-aug15-biology-biology-100-md-93",
+      "subject": "Biology",
+      "currentTopic": "Ecosystem Productivity",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "medium"
+    },
+    {
+      "id": 450150,
+      "externalId": "owner-aug15-biology-biology-100-md-95",
+      "subject": "Biology",
+      "currentTopic": "Neurology — Action Potential",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450153,
+      "externalId": "owner-aug15-biology-biology-100-md-98",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Chlorophyll Structure",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high"
+    },
+    {
+      "id": 450154,
+      "externalId": "owner-aug15-biology-biology-100-md-99",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Myelin and Action Potential Conduction",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high"
+    },
+    {
+      "id": 450157,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-6",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high"
+    },
+    {
+      "id": 450163,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-17",
+      "subject": "Chemistry",
+      "currentTopic": "Electrochemical Series — Displacement Reactions",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high"
+    },
+    {
+      "id": 450168,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-24",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Trends — Electronegativity",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high"
+    },
+    {
+      "id": 450172,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-28",
+      "subject": "Chemistry",
+      "currentTopic": "Alloys",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 450173,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-29",
+      "subject": "Chemistry",
+      "currentTopic": "Titration Calculations",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high"
+    },
+    {
+      "id": 450175,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-31",
+      "subject": "Chemistry",
+      "currentTopic": "Purification/Recrystallization Techniques",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high"
+    },
+    {
+      "id": 450176,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-32",
+      "subject": "Chemistry",
+      "currentTopic": "Distillation — Ethanol Purification",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high"
+    },
+    {
+      "id": 450178,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-34",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "medium"
+    },
+    {
+      "id": 450192,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-48",
+      "subject": "Chemistry",
+      "currentTopic": "Water Testing — Hydrogen Identification",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium"
+    },
+    {
+      "id": 450196,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-52",
+      "subject": "Chemistry",
+      "currentTopic": "Electrical Conductivity — Allotropes of Carbon",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high"
+    },
+    {
+      "id": 450197,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-53",
+      "subject": "Chemistry",
+      "currentTopic": "Empirical Formula Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high"
+    },
+    {
+      "id": 450198,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-54",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high"
+    },
+    {
+      "id": 450199,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-55",
+      "subject": "Chemistry",
+      "currentTopic": "Diffusion — Graham's Law",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high"
+    },
+    {
+      "id": 450201,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-57",
+      "subject": "Chemistry",
+      "currentTopic": "Titration — Percentage Composition",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high"
+    },
+    {
+      "id": 450205,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-62",
+      "subject": "Chemistry",
+      "currentTopic": "Solution Concentration — Molarity of Ions",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "medium"
+    },
+    {
+      "id": 450206,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-63",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry — Heat of Solution",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high"
+    },
+    {
+      "id": 450207,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-64",
+      "subject": "Chemistry",
+      "currentTopic": "Group VII Trends — Halogen Displacement Reactions",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "medium"
+    },
+    {
+      "id": 450215,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-72",
+      "subject": "Chemistry",
+      "currentTopic": "Fire Safety — Extinguishing Agents",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium"
+    },
+    {
+      "id": 450219,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-76",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness — Types and Testing",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium"
+    },
+    {
+      "id": 450224,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-81",
+      "subject": "Chemistry",
+      "currentTopic": "Colligative Properties — Vapour Pressure and Boiling Point",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium"
+    },
+    {
+      "id": 450228,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-86",
+      "subject": "Chemistry",
+      "currentTopic": "Amphoteric Compounds — Zinc Chemistry",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 450229,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-87",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high"
+    },
+    {
+      "id": 450235,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-93",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry — Enthalpy of Formation",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high"
+    },
+    {
+      "id": 450237,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-95",
+      "subject": "Chemistry",
+      "currentTopic": "Contact Process — Catalyst Identification",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "high"
+    },
+    {
+      "id": 450238,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-96",
+      "subject": "Chemistry",
+      "currentTopic": "Gunpowder Chemistry — Oxidizing Agents",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high"
+    },
+    {
+      "id": 450239,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-97",
+      "subject": "Chemistry",
+      "currentTopic": "Ammonia Preparation — Drying Agents",
+      "suggestedTopic": "Solubility",
+      "confidence": "high"
+    },
+    {
+      "id": 450240,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-98",
+      "subject": "Chemistry",
+      "currentTopic": "Chlorine Chemistry — Disproportionation Reactions",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high"
+    },
+    {
+      "id": 450242,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-100",
+      "subject": "Chemistry",
+      "currentTopic": "Sugar Chemistry — Polysaccharides",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high"
+    }
+  ],
+  "skipped": [],
+  "bySubject": {
+    "Biology": 210,
+    "Chemistry": 67,
+    "Physics": 41,
+    "Use of English": 24
+  },
+  "byConfidence": {
+    "high": 281,
+    "medium": 61
+  }
+}

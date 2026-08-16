@@ -1,0 +1,3092 @@
+{
+  "generatedAt": "2026-08-16T08:30:23Z",
+  "model": "gpt-5-mini",
+  "inputApprovedUnmapped": 342,
+  "mapped": 342,
+  "held": 0,
+  "byConfidence": {
+    "high": 281,
+    "medium": 61,
+    "hold": 0
+  },
+  "records": [
+    {
+      "id": 30023,
+      "externalId": "BIO-OWNER-M1-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "medium",
+      "reason": "Question concerns hormone-mediated cell elongation and tropic growth responses"
+    },
+    {
+      "id": 30040,
+      "externalId": "BIO-OWNER-M1-Q45",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Asks which blood vessel carries nutrient-rich blood to the liver (circulatory transport)"
+    },
+    {
+      "id": 30053,
+      "externalId": "BIO-OWNER-M2-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Asks for an excretory structure in an earthworm (nephridia)"
+    },
+    {
+      "id": 30061,
+      "externalId": "BIO-OWNER-M2-Q18",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high",
+      "reason": "Refers to the skull (brain box), a skeletal protective/support structure"
+    },
+    {
+      "id": 30065,
+      "externalId": "BIO-OWNER-M2-Q22",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "medium",
+      "reason": "Compares earliest form among vertebrate groups (evolutionary classification)"
+    },
+    {
+      "id": 30068,
+      "externalId": "BIO-OWNER-M2-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Asks for the valve between right atrium and ventricle—an anatomical feature of mammals"
+    },
+    {
+      "id": 30070,
+      "externalId": "BIO-OWNER-M2-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Question concerns urea, a primary excretory product in mammals"
+    },
+    {
+      "id": 30074,
+      "externalId": "BIO-OWNER-M2-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Involves sensory transduction in the ear sending nerve impulses to the brain"
+    },
+    {
+      "id": 30075,
+      "externalId": "BIO-OWNER-M2-Q32",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Asks about the site of gaseous exchange in the lungs (alveoli)"
+    },
+    {
+      "id": 30077,
+      "externalId": "BIO-OWNER-M2-Q34",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "high",
+      "reason": "Pertains to phytohormone role in breaking dormancy and promoting germination"
+    },
+    {
+      "id": 30085,
+      "externalId": "BIO-OWNER-M2-Q42",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Concerns excretion of metabolic waste as uric acid to conserve water"
+    },
+    {
+      "id": 30094,
+      "externalId": "BIO-OWNER-M3-Q1",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Red blood cells (erythrocytes) are blood components involved in transport"
+    },
+    {
+      "id": 30103,
+      "externalId": "BIO-OWNER-M3-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "asks about gaseous waste excreted by the lungs (respiration)."
+    },
+    {
+      "id": 30107,
+      "externalId": "BIO-OWNER-M3-Q14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Variation",
+      "confidence": "high",
+      "reason": "definition of phenotype (appearance from genotype×environment) falls under variation."
+    },
+    {
+      "id": 30109,
+      "externalId": "BIO-OWNER-M3-Q16",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "nephrons are the kidney's blood‑filtering/excretory units."
+    },
+    {
+      "id": 30110,
+      "externalId": "BIO-OWNER-M3-Q17",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "male secondary sexual characteristics are produced by sex hormones relevant to reproduction."
+    },
+    {
+      "id": 30126,
+      "externalId": "BIO-OWNER-M3-Q35",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "coordination of movement and balance is a control/coordination brain function (cerebellum)."
+    },
+    {
+      "id": 30143,
+      "externalId": "BIO-OWNER-M4-Q2",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high",
+      "reason": "middle ear ossicles are bones, part of the skeletal (support) system."
+    },
+    {
+      "id": 30145,
+      "externalId": "BIO-OWNER-M4-Q4",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Motor learning and coordination are brain functions"
+    },
+    {
+      "id": 30148,
+      "externalId": "BIO-OWNER-M4-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood functions (transport, immunity, clotting) fit transport topic"
+    },
+    {
+      "id": 30166,
+      "externalId": "BIO-OWNER-M4-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "Hormone causing uterine contractions is part of childbirth/reproduction"
+    },
+    {
+      "id": 30176,
+      "externalId": "BIO-OWNER-M4-Q37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood plasma/serum composition is taught under transport"
+    },
+    {
+      "id": 30178,
+      "externalId": "BIO-OWNER-M4-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Insect excretory organs (Malpighian tubules) are excretion topic"
+    },
+    {
+      "id": 30194,
+      "externalId": "BIO-OWNER-M5-Q5",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "The nephron (filtration unit of kidney) is an excretion concept"
+    },
+    {
+      "id": 30203,
+      "externalId": "BIO-OWNER-M5-Q14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Growth",
+      "confidence": "medium",
+      "reason": "Plant hormones regulate cell elongation and growth processes"
+    },
+    {
+      "id": 30204,
+      "externalId": "BIO-OWNER-M5-Q15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood vessel carrying deoxygenated blood to lungs is a circulatory (transport) structure"
+    },
+    {
+      "id": 30216,
+      "externalId": "BIO-OWNER-M5-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "medium",
+      "reason": "The liver produces bile and contributes to digestive processes"
+    },
+    {
+      "id": 30224,
+      "externalId": "BIO-OWNER-M5-Q36",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Tannin is an excretory product of plants used industrially"
+    },
+    {
+      "id": 30238,
+      "externalId": "BIO-OWNER-M5-Q50",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Balance and posture are maintained by the vestibular apparatus (coordination system)"
+    },
+    {
+      "id": 30248,
+      "externalId": "BIO-OWNER-M6-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium",
+      "reason": "Tannins serve as defensive adaptations against herbivores and pathogens"
+    },
+    {
+      "id": 30250,
+      "externalId": "BIO-OWNER-M6-Q12",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "secretes cocoon as part of earthworm reproductive anatomy"
+    },
+    {
+      "id": 30251,
+      "externalId": "BIO-OWNER-M6-Q13",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "blood plasma protein is part of blood clotting in the circulatory system"
+    },
+    {
+      "id": 30265,
+      "externalId": "BIO-OWNER-M6-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "phagocytic blood cells provide immune defense within the blood/circulatory system"
+    },
+    {
+      "id": 30266,
+      "externalId": "BIO-OWNER-M6-Q29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "kidneys perform osmoregulation and urea excretion in mammals"
+    },
+    {
+      "id": 30289,
+      "externalId": "BIO-OWNER-M7-Q4",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "plant hormone (ABA) regulates seed dormancy as a control mechanism"
+    },
+    {
+      "id": 30292,
+      "externalId": "BIO-OWNER-M7-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "pulmonary veins carry oxygenated blood from lungs to the heart"
+    },
+    {
+      "id": 30295,
+      "externalId": "BIO-OWNER-M7-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Asks about the kidney's filtering unit (nephron), which is excretion physiology."
+    },
+    {
+      "id": 30305,
+      "externalId": "BIO-OWNER-M7-Q20",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Refers to insect excretory structures (Malpighian tubules), an excretion topic."
+    },
+    {
+      "id": 30310,
+      "externalId": "BIO-OWNER-M7-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Concerns a heart valve involved in blood transport (circulatory system)."
+    },
+    {
+      "id": 30315,
+      "externalId": "BIO-OWNER-M7-Q30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "Names organisms by their mode of existence in aquatic habitats (ecological habitat term)."
+    },
+    {
+      "id": 30316,
+      "externalId": "BIO-OWNER-M7-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Asks about a hormone regulating blood glucose, an endocrine (coordination) topic."
+    },
+    {
+      "id": 30318,
+      "externalId": "BIO-OWNER-M7-Q33",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Identifies an animal class by characteristic traits, a classification topic."
+    },
+    {
+      "id": 30320,
+      "externalId": "BIO-OWNER-M7-Q35",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Respiratory surface (skin) of earthworms is a respiration concept"
+    },
+    {
+      "id": 30323,
+      "externalId": "BIO-OWNER-M7-Q38",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood clotting involves blood components within the transport system"
+    },
+    {
+      "id": 30332,
+      "externalId": "BIO-OWNER-M7-Q47",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "RBC biconcave shape increases surface area for gas transport"
+    },
+    {
+      "id": 30333,
+      "externalId": "BIO-OWNER-M7-Q48",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Excretory product (uric acid) in birds and reptiles is an excretion topic"
+    },
+    {
+      "id": 30341,
+      "externalId": "BIO-OWNER-M8-Q6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Identifying blood vessels carrying deoxygenated blood concerns circulation/transport"
+    },
+    {
+      "id": 30344,
+      "externalId": "BIO-OWNER-M8-Q9",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Nitrogenous waste form in fish (ammonia) pertains to excretion"
+    },
+    {
+      "id": 30355,
+      "externalId": "BIO-OWNER-M8-Q23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "semicircular canals detect balance and head movement for coordination"
+    },
+    {
+      "id": 30357,
+      "externalId": "BIO-OWNER-M8-Q25",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "earthworms transport oxygen using dissolved respiratory pigment (haemoglobin) relevant to respiration"
+    },
+    {
+      "id": 30363,
+      "externalId": "BIO-OWNER-M8-Q31",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "the liver detoxifies substances and produces bile for digestion"
+    },
+    {
+      "id": 30371,
+      "externalId": "BIO-OWNER-M8-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "lymphatic return of tissue fluid into blood is part of circulatory transport"
+    },
+    {
+      "id": 30373,
+      "externalId": "BIO-OWNER-M8-Q41",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "oxytocin stimulates uterine contractions during labor, a reproductive process"
+    },
+    {
+      "id": 30388,
+      "externalId": "BIO-OWNER-M9-Q6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "the aortic (semilunar) valve prevents backflow in the circulatory system"
+    },
+    {
+      "id": 30389,
+      "externalId": "BIO-OWNER-M9-Q7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Hormonal regulation of blood electrolyte balance falls under endocrine coordination and control"
+    },
+    {
+      "id": 30392,
+      "externalId": "BIO-OWNER-M9-Q10",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Modification of insect mouthparts is a structural adaptation"
+    },
+    {
+      "id": 30408,
+      "externalId": "BIO-OWNER-M9-Q29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Eye defects (refractive errors) are part of sensory coordination and control"
+    },
+    {
+      "id": 30427,
+      "externalId": "BIO-OWNER-M9-Q48",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Alveoli as the primary site of gaseous exchange pertains to respiration"
+    },
+    {
+      "id": 30441,
+      "externalId": "BIO-OWNER-M10-Q15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "medium",
+      "reason": "Liver diseases relate to the digestive/metabolic functions of the liver"
+    },
+    {
+      "id": 30450,
+      "externalId": "BIO-OWNER-M10-Q24",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Flame cells/protonephridia in Planaria are excretory structures"
+    },
+    {
+      "id": 30452,
+      "externalId": "BIO-OWNER-M10-Q26",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high",
+      "reason": "Question concerns types of muscle tissue involved in movement/support functions"
+    },
+    {
+      "id": 30453,
+      "externalId": "BIO-OWNER-M10-Q27",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Asks why certain nitrogenous wastes are produced—an excretory adaptation"
+    },
+    {
+      "id": 30454,
+      "externalId": "BIO-OWNER-M10-Q28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Organ of Corti is a sensory structure involved in neural coordination/hearing"
+    },
+    {
+      "id": 30463,
+      "externalId": "BIO-OWNER-M10-Q37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood plasma components maintaining osmotic balance and buffering relate to transport functions"
+    },
+    {
+      "id": 30465,
+      "externalId": "BIO-OWNER-M10-Q39",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Hormonal regulation of blood calcium is part of endocrine coordination/control"
+    },
+    {
+      "id": 60036,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-36",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high",
+      "reason": "Oil pollution in coastal waters is an environmental pollution issue"
+    },
+    {
+      "id": 60037,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-37",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "medium",
+      "reason": "Hardness is due to metal ions (Ca2+, Mg2+) in water"
+    },
+    {
+      "id": 60076,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-76",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high",
+      "reason": "Oil spill effects are an environmental pollution topic"
+    },
+    {
+      "id": 60085,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-85",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high",
+      "reason": "Coagulants used are metal salts (e.g., alum, ferric salts)"
+    },
+    {
+      "id": 60091,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-91",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "medium",
+      "reason": "Town water treatment uses separation processes (coagulation, sedimentation, filtration)"
+    },
+    {
+      "id": 90001,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-1",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Lungs function in excreting CO2 and water vapor"
+    },
+    {
+      "id": 90003,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-3",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood vessels carrying blood to the heart (veins) relate to transport"
+    },
+    {
+      "id": 90005,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-6",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "asks about the excretory structure in protozoa"
+    },
+    {
+      "id": 90006,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-7",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "asks about the excretory system of insects"
+    },
+    {
+      "id": 90022,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium",
+      "reason": "asks about anatomical components of the middle ear"
+    },
+    {
+      "id": 90044,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-45",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "asks for the kidney's functional (excretory) unit"
+    },
+    {
+      "id": 90046,
+      "externalId": "JAMB-Mock-Questions-2026-md-Biology-47",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "asks about blood vessels involved in circulation away from the heart"
+    },
+    {
+      "id": 90050,
+      "externalId": "TechMed-Complete-Question-Bank-md-3",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Support and movement",
+      "confidence": "medium",
+      "reason": "refers to the skull ('brain box') as a skeletal protective structure"
+    },
+    {
+      "id": 90056,
+      "externalId": "TechMed-Complete-Question-Bank-md-9",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Gaseous exchange in lungs is part of respiration."
+    },
+    {
+      "id": 90061,
+      "externalId": "TechMed-Complete-Question-Bank-md-14",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Earthworm excretory structures (nephridia) pertain to excretion."
+    },
+    {
+      "id": 90062,
+      "externalId": "TechMed-Complete-Question-Bank-md-15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Adrenal (hormonal) glands are part of the endocrine/coordination system."
+    },
+    {
+      "id": 90066,
+      "externalId": "TechMed-Complete-Question-Bank-md-19",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Kidney removal of wastes and reabsorption is an excretory process."
+    },
+    {
+      "id": 90070,
+      "externalId": "TechMed-Complete-Question-Bank-md-23",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Listed kidney functions concern excretion."
+    },
+    {
+      "id": 90075,
+      "externalId": "TechMed-Complete-Question-Bank-md-28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Hormone-secreting glands form the endocrine/coordination system."
+    },
+    {
+      "id": 90076,
+      "externalId": "TechMed-Complete-Question-Bank-md-29",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "emergency hormone (adrenaline) is an endocrine control function"
+    },
+    {
+      "id": 90077,
+      "externalId": "TechMed-Complete-Question-Bank-md-30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "voluntary vs involuntary responses concern nervous system control"
+    },
+    {
+      "id": 90079,
+      "externalId": "TechMed-Complete-Question-Bank-md-32",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "arterial blood supply to the liver concerns the circulatory/transport system"
+    },
+    {
+      "id": 90084,
+      "externalId": "TechMed-Complete-Question-Bank-md-37",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "blood calcium regulated by endocrine glands (parathyroid/thyroid) under coordination"
+    },
+    {
+      "id": 90089,
+      "externalId": "TechMed-Complete-Question-Bank-md-42",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "nephron is the functional unit of the kidney in excretory system"
+    },
+    {
+      "id": 90096,
+      "externalId": "TechMed-Complete-Question-Bank-md-49",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "balance is maintained by the cerebellum, a nervous system control center"
+    },
+    {
+      "id": 90108,
+      "externalId": "TechMed-Complete-Question-Bank-md-63",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "ossicles function in hearing (sense organ) in coordination and control"
+    },
+    {
+      "id": 90114,
+      "externalId": "TechMed-Complete-Question-Bank-md-70",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "these plants reproduce by spores"
+    },
+    {
+      "id": 90120,
+      "externalId": "TechMed-Complete-Question-Bank-md-77",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "blood clotting is a circulatory (blood) system process"
+    },
+    {
+      "id": 90155,
+      "externalId": "TechMed-Complete-Question-Bank-md-21",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high",
+      "reason": "NaCl is recovered from brine by physical separation (evaporation/crystallization)"
+    },
+    {
+      "id": 90167,
+      "externalId": "TechMed-Complete-Question-Bank-md-42",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "permanent hardness is due to dissolved (soluble) Ca2+ and Mg2+ salts"
+    },
+    {
+      "id": 90200,
+      "externalId": "TechMed-Complete-Question-Bank-md-75",
+      "subject": "Chemistry",
+      "currentTopic": "Chemistry and the Environment",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high",
+      "reason": "greenhouse gases (e.g., CO2) cause atmospheric pollution and warming"
+    },
+    {
+      "id": 90206,
+      "externalId": "TechMed-Complete-Question-Bank-md-81",
+      "subject": "Chemistry",
+      "currentTopic": "Water and Its Treatment",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "temporary hardness is removed by precipitation/changes in solubility (e.g., boiling)"
+    },
+    {
+      "id": 150162,
+      "externalId": "bio-part1-md-Biology-3",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "beak shape is an adaptation for a particular feeding method (e.g., filter/scooping)"
+    },
+    {
+      "id": 150166,
+      "externalId": "bio-part1-md-Biology-7",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Heredity",
+      "confidence": "high",
+      "reason": "DNA's double helix is described as a twisted ladder and is central to heredity"
+    },
+    {
+      "id": 150167,
+      "externalId": "bio-part1-md-Biology-9",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "identifying bryophytes (non-vascular plants) is a classification question"
+    },
+    {
+      "id": 150172,
+      "externalId": "bio-part1-md-Biology-15",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "coronary arteries supplying oxygenated blood to the heart is part of circulation/transport"
+    },
+    {
+      "id": 150173,
+      "externalId": "bio-part1-md-Biology-17",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium",
+      "reason": "the middle ear components are part of mammalian anatomical structure"
+    },
+    {
+      "id": 150174,
+      "externalId": "bio-part1-md-Biology-18",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "asks what substance the lungs excrete (excretion function)"
+    },
+    {
+      "id": 150176,
+      "externalId": "bio-part1-md-Biology-20",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "concerns the artery carrying blood away from the heart (circulatory transport)"
+    },
+    {
+      "id": 150177,
+      "externalId": "bio-part1-md-Biology-21",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "illustrates homologous structures as evidence of common ancestry"
+    },
+    {
+      "id": 150179,
+      "externalId": "bio-part1-md-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "pepsin is a digestive enzyme secreted in the stomach"
+    },
+    {
+      "id": 150180,
+      "externalId": "bio-part1-md-Biology-24",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "lateral line is a sensory organ for detecting water vibrations (sensory coordination)"
+    },
+    {
+      "id": 150181,
+      "externalId": "bio-part1-md-Biology-26",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "concerns the chromosomal content of a female gamete (ovum)"
+    },
+    {
+      "id": 150182,
+      "externalId": "bio-part1-md-Biology-28",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Nephron is the kidney's excretory functional unit"
+    },
+    {
+      "id": 150184,
+      "externalId": "bio-part1-md-Biology-30",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Blood vessels carrying blood from the heart are part of circulation/transport"
+    },
+    {
+      "id": 150186,
+      "externalId": "bio-part1-md-Biology-32",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Cerebellum injury affects coordination and balance (nervous control)"
+    },
+    {
+      "id": 150187,
+      "externalId": "bio-part1-md-Biology-33",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Heredity",
+      "confidence": "high",
+      "reason": "Dihybrid phenotypic ratio is a Mendelian inheritance concept"
+    },
+    {
+      "id": 150188,
+      "externalId": "bio-part1-md-Biology-34",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Remora–shark relationship is a form of interspecific symbiosis (commensalism)"
+    },
+    {
+      "id": 150189,
+      "externalId": "bio-part1-md-Biology-35",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Vitamin K deficiency is a nutritional deficiency affecting blood clotting"
+    },
+    {
+      "id": 150190,
+      "externalId": "bio-part1-md-Biology-36",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Dental formula is part of mammalian anatomical structure"
+    },
+    {
+      "id": 150191,
+      "externalId": "bio-part1-md-Biology-37",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Soil",
+      "confidence": "medium",
+      "reason": "Nitrosomonas are soil nitrifying bacteria involved in the nitrogen cycle"
+    },
+    {
+      "id": 150192,
+      "externalId": "bio-part1-md-Biology-38",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "high",
+      "reason": "The intertidal zone (area affected by tides) is a coastal habitat"
+    },
+    {
+      "id": 150194,
+      "externalId": "bio-part1-md-Biology-41",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Insect tracheal system and spiracles are respiratory structures"
+    },
+    {
+      "id": 150195,
+      "externalId": "bio-part1-md-Biology-42",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Osmosis describes water movement across a semipermeable membrane (transport process)"
+    },
+    {
+      "id": 150201,
+      "externalId": "bio-part1-md-Biology-48",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Fossils provide direct evidence of past life and evolutionary change"
+    },
+    {
+      "id": 150205,
+      "externalId": "bio-part2-md-Biology-52",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Bile production by the liver is part of digestive processes"
+    },
+    {
+      "id": 150207,
+      "externalId": "bio-part2-md-Biology-55",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Excretory structures of flatworms (flame cells/protonephridia) concern excretion"
+    },
+    {
+      "id": 150209,
+      "externalId": "bio-part2-md-Biology-58",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Vestigial structures are cited as evidence of evolution"
+    },
+    {
+      "id": 150212,
+      "externalId": "bio-part2-md-Biology-61",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Autonomic regulation of heartbeat and breathing is neural coordination by the brainstem"
+    },
+    {
+      "id": 150218,
+      "externalId": "bio-part2-md-Biology-67",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Insulin secretion and blood glucose regulation are homeostatic coordination functions"
+    },
+    {
+      "id": 150220,
+      "externalId": "bio-part2-md-Biology-69",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Reflex actions are neural coordination responses"
+    },
+    {
+      "id": 150221,
+      "externalId": "bio-part2-md-Biology-70",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Hormonal response controlling fight-or-flight is part of coordination and control"
+    },
+    {
+      "id": 150222,
+      "externalId": "bio-part2-md-Biology-71",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Soil",
+      "confidence": "high",
+      "reason": "Decomposition of dead organic matter is a soil nutrient-cycling process"
+    },
+    {
+      "id": 150228,
+      "externalId": "bio-part2-md-Biology-77",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "Oviduct functions in transport and fertilization in reproduction"
+    },
+    {
+      "id": 150231,
+      "externalId": "bio-part2-md-Biology-80",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Removal of metabolic wastes (uric acid) is an excretory process"
+    },
+    {
+      "id": 150232,
+      "externalId": "bio-part2-md-Biology-81",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Tapeworm–human relationship is a parasitic symbiotic interaction"
+    },
+    {
+      "id": 150233,
+      "externalId": "bio-part2-md-Biology-82",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Homologous forelimb modification is evidence supporting evolution"
+    },
+    {
+      "id": 150234,
+      "externalId": "bio-part2-md-Biology-83",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "egg-laying is a mode of reproduction (oviparity/oviposition)."
+    },
+    {
+      "id": 150235,
+      "externalId": "bio-part2-md-Biology-84",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Population ecology",
+      "confidence": "high",
+      "reason": "food webs describe feeding relationships among populations in an ecosystem."
+    },
+    {
+      "id": 150238,
+      "externalId": "bio-part2-md-Biology-88",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "the endocrine gland controlling others (pituitary) is part of endocrine coordination."
+    },
+    {
+      "id": 150239,
+      "externalId": "bio-part2-md-Biology-89",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "medium",
+      "reason": "arthropod traits are used in classifying this animal phylum."
+    },
+    {
+      "id": 150240,
+      "externalId": "bio-part2-md-Biology-90",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high",
+      "reason": "eutrophication is caused by nutrient pollution from human activities."
+    },
+    {
+      "id": 150242,
+      "externalId": "bio-part2-md-Biology-92",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "balance is mediated by the vestibular apparatus (inner ear) within coordination systems."
+    },
+    {
+      "id": 150243,
+      "externalId": "bio-part2-md-Biology-93",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Growth",
+      "confidence": "high",
+      "reason": "Ecdysis allows insects to increase body size during growth"
+    },
+    {
+      "id": 150244,
+      "externalId": "bio-part2-md-Biology-94",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Biotechnology",
+      "confidence": "medium",
+      "reason": "Discovery relates to antibiotic produced by microorganisms and their application"
+    },
+    {
+      "id": 150245,
+      "externalId": "bio-part2-md-Biology-95",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Amylase initiates carbohydrate digestion in the digestive system"
+    },
+    {
+      "id": 150246,
+      "externalId": "bio-part2-md-Biology-96",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Global warming is an environmental issue from increased greenhouse gases"
+    },
+    {
+      "id": 180036,
+      "externalId": "bio-part2-md-Biology-57",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Kidney filtration (glomerulus/Bowman’s capsule) is an excretory process"
+    },
+    {
+      "id": 180037,
+      "externalId": "bio-part2-md-Biology-97",
+      "subject": "Biology",
+      "currentTopic": "General Biology",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Vaccine-induced immunity concerns the organism’s immune response"
+    },
+    {
+      "id": 240002,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-2",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Table Trends",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high",
+      "reason": "Electronegativity trend is a periodic atomic property relating to atomic structure"
+    },
+    {
+      "id": 240013,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-13",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon & Its Compounds",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high",
+      "reason": "Carbon allotropes and their electrical properties are treated under non-metals and their compounds"
+    },
+    {
+      "id": 240014,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-14",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "Temporary hardness is caused by soluble bicarbonates affecting solubility equilibria"
+    },
+    {
+      "id": 240018,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-18",
+      "subject": "Chemistry",
+      "currentTopic": "Isomerism",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high",
+      "reason": "Isomerism is a core concept of organic compounds"
+    },
+    {
+      "id": 240020,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-20",
+      "subject": "Chemistry",
+      "currentTopic": "Polymers",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high",
+      "reason": "Naturally occurring polymers (e.g., cellulose, proteins) are organic compounds"
+    },
+    {
+      "id": 240022,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-22",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high",
+      "reason": "Describing endothermic reactions (ΔH>0) falls under energy changes"
+    },
+    {
+      "id": 240027,
+      "externalId": "chemistry-past-questions-aug15-2026-txt-Chemistry-27",
+      "subject": "Chemistry",
+      "currentTopic": "Graham's Law of Diffusion",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high",
+      "reason": "Graham's law of diffusion concerns gas rates and molecular masses in kinetic theory"
+    },
+    {
+      "id": 240031,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-31",
+      "subject": "Chemistry",
+      "currentTopic": "Electronic Configuration Anomaly",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high",
+      "reason": "Anomalous electronic configurations relate to electron arrangement and subshell stability"
+    },
+    {
+      "id": 240032,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-32",
+      "subject": "Chemistry",
+      "currentTopic": "Hybridization",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high",
+      "reason": "Hybridization and molecular shape are topics in atomic bonding"
+    },
+    {
+      "id": 240034,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-34",
+      "subject": "Chemistry",
+      "currentTopic": "Faraday's Laws",
+      "suggestedTopic": "Electrolysis",
+      "confidence": "high",
+      "reason": "Faraday's laws and charge required to discharge ions are part of electrolysis"
+    },
+    {
+      "id": 240036,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-36",
+      "subject": "Chemistry",
+      "currentTopic": "Radioactivity",
+      "suggestedTopic": "Nuclear chemistry",
+      "confidence": "high",
+      "reason": "Half-life and radioactive decay are nuclear chemistry concepts"
+    },
+    {
+      "id": 240038,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-38",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness Removal",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "Removal of permanent hardness involves precipitation and solubility equilibria"
+    },
+    {
+      "id": 240043,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-43",
+      "subject": "Chemistry",
+      "currentTopic": "Fats and Oils (Saponification)",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high",
+      "reason": "Saponification is an organic reaction of fats (esters) to give soap and glycerol."
+    },
+    {
+      "id": 240045,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-45",
+      "subject": "Chemistry",
+      "currentTopic": "Colligative Properties",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "Boiling point elevation is a colligative effect of a dissolved solute in a solution."
+    },
+    {
+      "id": 240048,
+      "externalId": "chemistry-past-questions-aug15-part2-25-50-txt-Chemistry-48",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon Allotropes",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high",
+      "reason": "Graphite is a carbon (non‑metal) allotrope used as a lubricant."
+    },
+    {
+      "id": 270002,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-52",
+      "subject": "Chemistry",
+      "currentTopic": "Dalton's Law of Partial Pressures",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high",
+      "reason": "Partial pressures and mole fractions of gas mixtures fall under gas laws/kinetic theory."
+    },
+    {
+      "id": 270003,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-53",
+      "subject": "Chemistry",
+      "currentTopic": "Alkanols (Alcohols)",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "medium",
+      "reason": "Oxidation of a secondary alcohol to a ketone is an oxidation–reduction transformation."
+    },
+    {
+      "id": 270006,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-56",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Table Group Trends",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high",
+      "reason": "Reactivity of Group 1 metals with water concerns metallic reactivity trends."
+    },
+    {
+      "id": 270010,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-60",
+      "subject": "Chemistry",
+      "currentTopic": "Radioactivity Decay Equations",
+      "suggestedTopic": "Nuclear chemistry",
+      "confidence": "high",
+      "reason": "Question concerns beta decay of a radioactive nucleus."
+    },
+    {
+      "id": 270011,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-61",
+      "subject": "Chemistry",
+      "currentTopic": "Carbon Monoxide Toxicity",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high",
+      "reason": "Asks about CO as a hazardous pollutant affecting health."
+    },
+    {
+      "id": 270012,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-62",
+      "subject": "Chemistry",
+      "currentTopic": "Industrial Extraction of Zinc",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "medium",
+      "reason": "Concerns industrial extraction (roasting/reduction) of a metal ore (ZnS)."
+    },
+    {
+      "id": 270014,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-64",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry & Enthalpy",
+      "suggestedTopic": "Energy changes",
+      "confidence": "medium",
+      "reason": "Asks for enthalpy (thermochemistry) of neutralization."
+    },
+    {
+      "id": 270015,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-65",
+      "subject": "Chemistry",
+      "currentTopic": "Standard Electrode Potential",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high",
+      "reason": "Calculation of standard EMF involves redox half-reactions."
+    },
+    {
+      "id": 270018,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-68",
+      "subject": "Chemistry",
+      "currentTopic": "Empirical Formula Calculations",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "medium",
+      "reason": "Determines empirical formula of an organic (C–H) compound."
+    },
+    {
+      "id": 270021,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-71",
+      "subject": "Chemistry",
+      "currentTopic": "Nitrogen & Industrial Synthesis",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "high",
+      "reason": "Haber industrial synthesis is an industrial chemistry process using a catalyst"
+    },
+    {
+      "id": 270022,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-72",
+      "subject": "Chemistry",
+      "currentTopic": "Polymers & Materials",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium",
+      "reason": "Polymers and plastics classification is taught under industrial/engineering chemistry"
+    },
+    {
+      "id": 270023,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-73",
+      "subject": "Chemistry",
+      "currentTopic": "Detergents & Soap Chemistry",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium",
+      "reason": "Detergent formulation and advantages are part of industrial/household chemistry"
+    },
+    {
+      "id": 270028,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-78",
+      "subject": "Chemistry",
+      "currentTopic": "Air & Atmospheric Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium",
+      "reason": "Question concerns gases and atmospheric composition (gas behaviour)"
+    },
+    {
+      "id": 270042,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-92",
+      "subject": "Chemistry",
+      "currentTopic": "Solution Chemistry (Deliquescence)",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "Deliquescence is a solubility/hygroscopic property"
+    },
+    {
+      "id": 270047,
+      "externalId": "chemistry-past-questions-aug15-part4-76-100-txt-Chemistry-97",
+      "subject": "Chemistry",
+      "currentTopic": "Water Purification",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high",
+      "reason": "Alum is used as a coagulant to remove suspended solids (separation)"
+    },
+    {
+      "id": 300003,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-3",
+      "subject": "Physics",
+      "currentTopic": "Vectors & Scalars",
+      "suggestedTopic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Resultant of two perpendicular forces (vector addition of forces)."
+    },
+    {
+      "id": 300006,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-6",
+      "subject": "Physics",
+      "currentTopic": "Universal Gravitation",
+      "suggestedTopic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Inverse-square law for gravitational force with distance change."
+    },
+    {
+      "id": 300023,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-23",
+      "subject": "Physics",
+      "currentTopic": "Atomic Physics & Quantum Theory",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Photoelectric effect concept (threshold/minimum frequency)."
+    },
+    {
+      "id": 300024,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-24",
+      "subject": "Physics",
+      "currentTopic": "Photoelectric Effect",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Photon energy via Planck's relation (quantum photon energy)."
+    },
+    {
+      "id": 300025,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-25",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics & Radioactivity",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Radioactive decay half-life calculation (nuclear decay)."
+    },
+    {
+      "id": 300027,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-27",
+      "subject": "Physics",
+      "currentTopic": "Impulse & Momentum",
+      "suggestedTopic": "Motion",
+      "confidence": "high",
+      "reason": "Impulse/momentum and deceleration to find force (dynamics)."
+    },
+    {
+      "id": 300030,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-30",
+      "subject": "Physics",
+      "currentTopic": "Friction",
+      "suggestedTopic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Problem uses static friction threshold to initiate motion (force balance)."
+    },
+    {
+      "id": 300039,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-39",
+      "subject": "Physics",
+      "currentTopic": "Resonance in Strings",
+      "suggestedTopic": "Waves",
+      "confidence": "high",
+      "reason": "Fundamental frequency of a stretched string is a standing-wave/wave phenomenon."
+    },
+    {
+      "id": 300040,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-40",
+      "subject": "Physics",
+      "currentTopic": "Electric Field Strength",
+      "suggestedTopic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Electric field strength computed from electrostatic force on a charge (E = F/q)."
+    },
+    {
+      "id": 300042,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-42",
+      "subject": "Physics",
+      "currentTopic": "Resistivity & Resistance",
+      "suggestedTopic": "Conduction of electricity",
+      "confidence": "high",
+      "reason": "Change of wire resistance due to geometry relates to electrical conduction/resistivity."
+    },
+    {
+      "id": 300045,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-45",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Physics",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Doping silicon to produce n-type material is basic semiconductor/electronics topic."
+    },
+    {
+      "id": 300046,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-46",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Decay Rate)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Radioactive decay and half-life calculations are part of modern physics."
+    },
+    {
+      "id": 300053,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-53",
+      "subject": "Physics",
+      "currentTopic": "Pascal's Principle & Hydraulics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Hydraulic press uses Pascal's principle in fluids at rest"
+    },
+    {
+      "id": 300058,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-58",
+      "subject": "Physics",
+      "currentTopic": "Spherical Mirrors (Convex Mirror)",
+      "suggestedTopic": "Reflection",
+      "confidence": "high",
+      "reason": "Convex mirror image formation is a reflection/spherical mirror concept"
+    },
+    {
+      "id": 300060,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-60",
+      "subject": "Physics",
+      "currentTopic": "Lenses & Lens Formula",
+      "suggestedTopic": "Refraction",
+      "confidence": "high",
+      "reason": "Lens formula and image formation by a converging lens involve refraction"
+    },
+    {
+      "id": 300063,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-63",
+      "subject": "Physics",
+      "currentTopic": "Resistors in Combination",
+      "suggestedTopic": "Current electricity",
+      "confidence": "high",
+      "reason": "Equivalent resistance calculation for resistors in parallel is a current electricity topic"
+    },
+    {
+      "id": 300064,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-64",
+      "subject": "Physics",
+      "currentTopic": "Potentiometer",
+      "suggestedTopic": "Electric cells",
+      "confidence": "medium",
+      "reason": "Potentiometer is used to measure a cell's EMF (cell-related measurement)"
+    },
+    {
+      "id": 300066,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-66",
+      "subject": "Physics",
+      "currentTopic": "Faraday's and Lenz's Laws",
+      "suggestedTopic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Lenz's law is a principle in electromagnetic induction concerning conservation of energy"
+    },
+    {
+      "id": 300070,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-70",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Properties of Radiation)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Question concerns properties of nuclear radiation (alpha/beta/gamma)."
+    },
+    {
+      "id": 300071,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-71",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Reactions (Fusion vs Fission)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Asks about conditions for nuclear fusion (overcoming Coulomb repulsion) in nuclear physics context."
+    },
+    {
+      "id": 300072,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-72",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Diodes & Rectification",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "P–N junction rectification (forward-bias conduction) is a basic semiconductor electronics topic."
+    },
+    {
+      "id": 300073,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-73",
+      "subject": "Physics",
+      "currentTopic": "Transistors",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Biasing of base–emitter junction in BJT operation is an introductory electronics concept."
+    },
+    {
+      "id": 300074,
+      "externalId": "physics-past-questions-aug15-part3-51-75-txt-Physics-74",
+      "subject": "Physics",
+      "currentTopic": "Line Spectra",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Atomic emission line spectra demonstrate quantized atomic energy levels in modern physics."
+    },
+    {
+      "id": 300094,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-94",
+      "subject": "Physics",
+      "currentTopic": "Atomic Structure (Rutherford Alpha Scattering)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Rutherford scattering evidence for a small dense positive atomic nucleus fits modern physics."
+    },
+    {
+      "id": 300095,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-95",
+      "subject": "Physics",
+      "currentTopic": "Photoelectric Effect (Einstein's Equation)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Photoelectric effect is core modern physics content"
+    },
+    {
+      "id": 300096,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-96",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity (Alpha Decay)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Alpha decay/radioactivity is covered under modern physics"
+    },
+    {
+      "id": 300097,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-97",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics (Mass Defect)",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Mass–energy equivalence and mass defect are modern physics topics"
+    },
+    {
+      "id": 300098,
+      "externalId": "physics-past-questions-aug15-part4-76-100-txt-Physics-98",
+      "subject": "Physics",
+      "currentTopic": "Semiconductor Physics (Zener Diode)",
+      "suggestedTopic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Zener diode operation as a voltage regulator is an introductory electronics concept"
+    },
+    {
+      "id": 330002,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-2",
+      "subject": "Biology",
+      "currentTopic": "Levels of Organization",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Paramecium and Amoeba are single-celled organisms—level of organization"
+    },
+    {
+      "id": 330005,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-5",
+      "subject": "Biology",
+      "currentTopic": "Diffusion and Osmosis",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Osmosis of water in red blood cells is a transport process"
+    },
+    {
+      "id": 330006,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-6",
+      "subject": "Biology",
+      "currentTopic": "Enzymes and Biochemical Reactions",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Enzymes are cellular/biochemical catalysts within organismal organization."
+    },
+    {
+      "id": 330008,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-8",
+      "subject": "Biology",
+      "currentTopic": "Excretory Systems",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Question asks about the kidney's functional filtering unit (nephron) in excretion."
+    },
+    {
+      "id": 330011,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-11",
+      "subject": "Biology",
+      "currentTopic": "Nervous System and Reflex Arc",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Reflex arc and nerve impulse path are part of neural coordination and control."
+    },
+    {
+      "id": 330016,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-16",
+      "subject": "Biology",
+      "currentTopic": "Blood Groups & Rhesus Factor",
+      "suggestedTopic": "Transport",
+      "confidence": "medium",
+      "reason": "Blood group antigen absence pertains to blood/transport system compatibility."
+    },
+    {
+      "id": 330018,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-18",
+      "subject": "Biology",
+      "currentTopic": "Ecological Factors & Measurement",
+      "suggestedTopic": "Factors affecting distribution",
+      "confidence": "medium",
+      "reason": "Light intensity is an abiotic factor that affects species distribution."
+    },
+    {
+      "id": 330019,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-19",
+      "subject": "Biology",
+      "currentTopic": "Nitrogen Cycle",
+      "suggestedTopic": "Soil",
+      "confidence": "high",
+      "reason": "Nitrosomonas perform soil nitrification converting ammonia to nitrite."
+    },
+    {
+      "id": 330023,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-23",
+      "subject": "Biology",
+      "currentTopic": "Microorganisms and Diseases",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Identifies the genus of a protozoan pathogen (classification)."
+    },
+    {
+      "id": 330024,
+      "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-24",
+      "subject": "Biology",
+      "currentTopic": "Conservation of Natural Resources",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Describes human-caused environmental degradation from deforestation."
+    },
+    {
+      "id": 330031,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-31",
+      "subject": "Biology",
+      "currentTopic": "Homeostasis & Skin",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Describes thermoregulatory homeostatic responses (sweating and vasodilation)."
+    },
+    {
+      "id": 330032,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-32",
+      "subject": "Biology",
+      "currentTopic": "Excretory Organs (Insects)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Concerns insect excretory structures and nitrogenous waste form."
+    },
+    {
+      "id": 330034,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-34",
+      "subject": "Biology",
+      "currentTopic": "Sense Organs (Human Eye - Accommodation)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Describes ocular accommodation mediated by muscular/nervous control."
+    },
+    {
+      "id": 330044,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-44",
+      "subject": "Biology",
+      "currentTopic": "Pest Control & Microorganisms",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "medium",
+      "reason": "Refers to using predators/parasitoids/pathogens (interspecific interactions) to control pests."
+    },
+    {
+      "id": 330046,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-46",
+      "subject": "Biology",
+      "currentTopic": "Symbiotic Relationships",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Describes mutualistic relationship between Rhizobium and legume roots"
+    },
+    {
+      "id": 330047,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-47",
+      "subject": "Biology",
+      "currentTopic": "Carbon Cycle",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Asks for the biological process (photosynthesis) that removes atmospheric CO2"
+    },
+    {
+      "id": 330049,
+      "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-49",
+      "subject": "Biology",
+      "currentTopic": "Germination of Seeds",
+      "suggestedTopic": "Growth",
+      "confidence": "medium",
+      "reason": "Compares types of seed germination involving seedling growth patterns"
+    },
+    {
+      "id": 330052,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-52",
+      "subject": "Biology",
+      "currentTopic": "Circulatory System (Double Circulation)",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Concerns the circulatory pathway of blood (cardiovascular transport) between heart and lungs"
+    },
+    {
+      "id": 330054,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-54",
+      "subject": "Biology",
+      "currentTopic": "Central Nervous System (Brain Functions)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Addresses brain region (cerebellum) that controls coordination and balance"
+    },
+    {
+      "id": 330056,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-56",
+      "subject": "Biology",
+      "currentTopic": "Skeletal System (Bone Mineralization)",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high",
+      "reason": "Involves bone mineral compound responsible for skeletal hardness and strength"
+    },
+    {
+      "id": 330057,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-57",
+      "subject": "Biology",
+      "currentTopic": "Microorganisms (Viruses)",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Concerns whether viruses meet criteria of living organisms."
+    },
+    {
+      "id": 330059,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-59",
+      "subject": "Biology",
+      "currentTopic": "Food Tests (Biuret Test)",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Biuret test is a food test for protein within nutrition/digestion."
+    },
+    {
+      "id": 330060,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-60",
+      "subject": "Biology",
+      "currentTopic": "Digestive Enzymes (Pancreatic Juice Activation)",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Activation of pancreatic trypsinogen is part of digestive enzyme function."
+    },
+    {
+      "id": 330066,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-66",
+      "subject": "Biology",
+      "currentTopic": "Ecosystem Dynamics (Pyramid of Energy)",
+      "suggestedTopic": "Population ecology",
+      "confidence": "medium",
+      "reason": "Pyramid of energy describes energy flow among trophic levels in populations."
+    },
+    {
+      "id": 330070,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-70",
+      "subject": "Biology",
+      "currentTopic": "Bacteriology (Bacterial Shapes)",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Classifying spherical bacteria (cocci) is a taxonomic classification task."
+    },
+    {
+      "id": 330071,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-71",
+      "subject": "Biology",
+      "currentTopic": "Vector-Borne Diseases (Trypanosomiasis)",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "medium",
+      "reason": "Identifies disease vector transmitting a human disease (human–environment issue)."
+    },
+    {
+      "id": 330074,
+      "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-74",
+      "subject": "Biology",
+      "currentTopic": "Human Physiology (Skin Function)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Sweat glands remove wastes and aid thermoregulatory homeostasis"
+    },
+    {
+      "id": 330081,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-81",
+      "subject": "Biology",
+      "currentTopic": "Respiratory Systems (Gaseous Exchange in Fish)",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Countercurrent flow in gills is a gaseous exchange mechanism"
+    },
+    {
+      "id": 330082,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-82",
+      "subject": "Biology",
+      "currentTopic": "Parasitology (Malaria Cycle)",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Plasmodium transmission is an example of parasitism (a symbiotic interaction)"
+    },
+    {
+      "id": 330084,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-84",
+      "subject": "Biology",
+      "currentTopic": "Excretory Systems (Nephron Function)",
+      "suggestedTopic": "Excretion",
+      "confidence": "high",
+      "reason": "Ultrafiltration in the nephron is an excretory kidney process"
+    },
+    {
+      "id": 330086,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-86",
+      "subject": "Biology",
+      "currentTopic": "Nervous System (Reflex Arc)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "A reflex arc is a neural coordination pathway"
+    },
+    {
+      "id": 330088,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-88",
+      "subject": "Biology",
+      "currentTopic": "Reproductive Physiology (Menstrual Cycle)",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "Pituitary LH surge triggers ovulation in the reproductive cycle"
+    },
+    {
+      "id": 330089,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-89",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics & Properties",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Enzyme action as a cellular/organismic biochemical process fits organism organization"
+    },
+    {
+      "id": 330093,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-93",
+      "subject": "Biology",
+      "currentTopic": "Ecological Interactions (Parasitism)",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Tapeworms are parasitic organisms absorbing host nutrients (a symbiotic interaction)"
+    },
+    {
+      "id": 330096,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-96",
+      "subject": "Biology",
+      "currentTopic": "Pest Management & Agriculture",
+      "suggestedTopic": "Humans and environment",
+      "confidence": "medium",
+      "reason": "Weevil damage to stored grain is an agricultural/human environmental problem"
+    },
+    {
+      "id": 330097,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-97",
+      "subject": "Biology",
+      "currentTopic": "Water Balance in Animals (Kidney Regulation)",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "ADH release is hormonal coordination controlling body water balance"
+    },
+    {
+      "id": 330098,
+      "externalId": "biology-past-questions-aug15-part4-76-100-txt-Biology-98",
+      "subject": "Biology",
+      "currentTopic": "Food Chains & Webs",
+      "suggestedTopic": "Population ecology",
+      "confidence": "medium",
+      "reason": "Primary consumers in food webs relate to ecological population feeding roles"
+    },
+    {
+      "id": 360001,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-1",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Sentence meaning",
+      "confidence": "high",
+      "reason": "The item assesses understanding of the sentence's meaning"
+    },
+    {
+      "id": 360004,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-4",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Compound Subjects)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "compound subject requires verb agreement"
+    },
+    {
+      "id": 360009,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-9",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (Third Conditional)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "third conditional demands past perfect in if-clause"
+    },
+    {
+      "id": 360013,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-13",
+      "subject": "Use of English",
+      "currentTopic": "Modal Verbs",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "requires choosing a modal auxiliary (word class)"
+    },
+    {
+      "id": 360016,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-16",
+      "subject": "Use of English",
+      "currentTopic": "Inversion Structure",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "inversion after negative adverbial is a sentence pattern"
+    },
+    {
+      "id": 360018,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-18",
+      "subject": "Use of English",
+      "currentTopic": "Reported Speech",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "reported speech requires tense backshift"
+    },
+    {
+      "id": 360019,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-19",
+      "subject": "Use of English",
+      "currentTopic": "Vocabulary & Meaning",
+      "suggestedTopic": "Sentence meaning",
+      "confidence": "medium",
+      "reason": "tests meaning of vocabulary in context"
+    },
+    {
+      "id": 360020,
+      "externalId": "english-past-questions-aug15-part1-1-25-txt-Use-of-English-20",
+      "subject": "Use of English",
+      "currentTopic": "Lexis (Nearest in Meaning)",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Tests nearest-in-meaning vocabulary usage (lexis)."
+    },
+    {
+      "id": 360026,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-26",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high",
+      "reason": "Contains and tests an idiomatic expression."
+    },
+    {
+      "id": 360030,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-30",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Plural in Form, Singular in Sense)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Concerns subject–verb agreement for a singular-form noun."
+    },
+    {
+      "id": 360032,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-32",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Habitual Past)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "medium",
+      "reason": "Requires a habitual-past auxiliary/modal choice (agreement/aspect)."
+    },
+    {
+      "id": 360036,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-36",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Negative Adverbials)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Tests inversion structure with a negative adverbial."
+    },
+    {
+      "id": 360038,
+      "externalId": "english-past-questions-aug15-part2-26-50-txt-Use-of-English-38",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (Second Conditional)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "Tests second-conditional sentence structure (if-clause pattern)."
+    },
+    {
+      "id": 360051,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-51",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high",
+      "reason": "Sentence is an idiom (figurative usage)."
+    },
+    {
+      "id": 360055,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-55",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Proximity Rule)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Subject–verb agreement (proximity rule) issue."
+    },
+    {
+      "id": 360056,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-56",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Measurement Units)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with a measurement-unit subject."
+    },
+    {
+      "id": 360059,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-59",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Obligation)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "Use of a modal auxiliary expressing obligation in sentence structure."
+    },
+    {
+      "id": 360062,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-62",
+      "subject": "Use of English",
+      "currentTopic": "Conditionals (First Conditional)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "First conditional requires specific tense usage (present + future)."
+    },
+    {
+      "id": 360063,
+      "externalId": "english-past-questions-aug15-part3-51-75-txt-Use-of-English-63",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Restrictive Adverbs)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Syntactic inversion after a restrictive adverb."
+    },
+    {
+      "id": 360076,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-76",
+      "subject": "Use of English",
+      "currentTopic": "General study",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "high",
+      "reason": "uses an idiomatic/figurative expression"
+    },
+    {
+      "id": 360080,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-80",
+      "subject": "Use of English",
+      "currentTopic": "Concord (Rule of 'Many a')",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "tests subject-verb concord with 'Many a' construction"
+    },
+    {
+      "id": 360082,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-82",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Hardly ... when)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "tests inversion sentence structure after 'Hardly'"
+    },
+    {
+      "id": 360086,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-86",
+      "subject": "Use of English",
+      "currentTopic": "Modal Auxiliaries (Unnecessary Past Action)",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "medium",
+      "reason": "concerns modal auxiliary and aspect/tense usage for past action"
+    },
+    {
+      "id": 360087,
+      "externalId": "english-past-questions-aug15-part4-76-100-txt-Use-of-English-87",
+      "subject": "Use of English",
+      "currentTopic": "Inversion (Negative Adverbs)",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "tests inversion with a negative adverbial ('Little')"
+    },
+    {
+      "id": 450005,
+      "externalId": "owner-aug15-physics-physics-100-md-5",
+      "subject": "Physics",
+      "currentTopic": "Momentum — Conservation",
+      "suggestedTopic": "Motion",
+      "confidence": "high",
+      "reason": "addresses conservation of momentum in a collision (kinematics/dynamics)"
+    },
+    {
+      "id": 450009,
+      "externalId": "owner-aug15-physics-physics-100-md-9",
+      "subject": "Physics",
+      "currentTopic": "Buoyancy — Archimedes' Principle",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Archimedes' buoyancy principle concerns fluids at rest"
+    },
+    {
+      "id": 450015,
+      "externalId": "owner-aug15-physics-physics-100-md-17",
+      "subject": "Physics",
+      "currentTopic": "Electric Field — Intensity",
+      "suggestedTopic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Electric field of a point charge is a core electrostatics topic"
+    },
+    {
+      "id": 450017,
+      "externalId": "owner-aug15-physics-physics-100-md-19",
+      "subject": "Physics",
+      "currentTopic": "Circuits — Series and Parallel Resistance",
+      "suggestedTopic": "Current electricity",
+      "confidence": "high",
+      "reason": "Equivalent resistance in series/parallel circuits is part of current electricity"
+    },
+    {
+      "id": 450028,
+      "externalId": "owner-aug15-physics-physics-100-md-31",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics — Radioactive Decay",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Alpha decay is a nuclear/modern physics concept"
+    },
+    {
+      "id": 450029,
+      "externalId": "owner-aug15-physics-physics-100-md-32",
+      "subject": "Physics",
+      "currentTopic": "Nuclear Physics — Beta Decay",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Beta decay (n→p+e−) is a nuclear physics topic in modern physics"
+    },
+    {
+      "id": 450038,
+      "externalId": "owner-aug15-physics-physics-100-md-41",
+      "subject": "Physics",
+      "currentTopic": "Transformer — Ideal Transformer Equation",
+      "suggestedTopic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Transformer voltage-turns relation follows electromagnetic induction principles"
+    },
+    {
+      "id": 450041,
+      "externalId": "owner-aug15-physics-physics-100-md-45",
+      "subject": "Physics",
+      "currentTopic": "Radioactivity — Half-Life",
+      "suggestedTopic": "Modern physics",
+      "confidence": "high",
+      "reason": "Radioactive half-life and decay are topics in modern physics."
+    },
+    {
+      "id": 450042,
+      "externalId": "owner-aug15-physics-physics-100-md-46",
+      "subject": "Physics",
+      "currentTopic": "Optics — Lens Combination",
+      "suggestedTopic": "Optical instruments",
+      "confidence": "medium",
+      "reason": "Combining thin lenses is an optical instruments/lens optics concept."
+    },
+    {
+      "id": 450043,
+      "externalId": "owner-aug15-physics-physics-100-md-47",
+      "subject": "Physics",
+      "currentTopic": "Dynamics — Friction and Acceleration",
+      "suggestedTopic": "Motion",
+      "confidence": "high",
+      "reason": "Forces, friction and resulting acceleration are mechanics (motion) topics."
+    },
+    {
+      "id": 450047,
+      "externalId": "owner-aug15-physics-physics-100-md-51",
+      "subject": "Physics",
+      "currentTopic": "Fluids — Continuity Equation",
+      "suggestedTopic": "Pressure",
+      "confidence": "medium",
+      "reason": "Continuity in fluid flow is a fluids concept most closely tied to pressure topics here."
+    },
+    {
+      "id": 450048,
+      "externalId": "owner-aug15-physics-physics-100-md-52",
+      "subject": "Physics",
+      "currentTopic": "Fluids — Bernoulli's Principle",
+      "suggestedTopic": "Pressure",
+      "confidence": "high",
+      "reason": "Bernoulli’s principle relates fluid speed and pressure."
+    },
+    {
+      "id": 450052,
+      "externalId": "owner-aug15-physics-physics-100-md-56",
+      "subject": "Physics",
+      "currentTopic": "Optics — Lens Maker's Equation",
+      "suggestedTopic": "Refraction",
+      "confidence": "medium",
+      "reason": "Lens-maker’s equation depends on refractive index and surface curvature (refraction)."
+    },
+    {
+      "id": 450059,
+      "externalId": "owner-aug15-biology-biology-100-md-3",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Light-Dependent Reactions",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Asks which chloroplast structure (thylakoid/grana) carries out light reactions in plants"
+    },
+    {
+      "id": 450060,
+      "externalId": "owner-aug15-biology-biology-100-md-4",
+      "subject": "Biology",
+      "currentTopic": "Osmosis — Water Potential",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Describes plasmolysis, a plant cell structural response to hypertonic solution"
+    },
+    {
+      "id": 450061,
+      "externalId": "owner-aug15-biology-biology-100-md-5",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics — Substrate Concentration",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Refers to enzyme kinetics and saturation of active sites at the cellular/biochemical level"
+    },
+    {
+      "id": 450064,
+      "externalId": "owner-aug15-biology-biology-100-md-8",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Dark Reactions/Calvin Cycle",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Concerns the Calvin cycle product (G3P/glucose) in plant photosynthesis"
+    },
+    {
+      "id": 450071,
+      "externalId": "owner-aug15-biology-biology-100-md-15",
+      "subject": "Biology",
+      "currentTopic": "Locomotion — Joint Types",
+      "suggestedTopic": "Support and movement",
+      "confidence": "high",
+      "reason": "Identifies a pivot joint example within the human locomotor/skeletal system"
+    },
+    {
+      "id": 450072,
+      "externalId": "owner-aug15-biology-biology-100-md-16",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Reflex Arc",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Addresses the neural pathway (reflex arc) involved in coordination and control"
+    },
+    {
+      "id": 450075,
+      "externalId": "owner-aug15-biology-biology-100-md-19",
+      "subject": "Biology",
+      "currentTopic": "Development — Fertilization and Cleavage",
+      "suggestedTopic": "Reproduction",
+      "confidence": "high",
+      "reason": "Early embryonic cleavage is part of reproductive/embryonic development."
+    },
+    {
+      "id": 450081,
+      "externalId": "owner-aug15-biology-biology-100-md-25",
+      "subject": "Biology",
+      "currentTopic": "Gas Exchange — Respiratory Surfaces",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Fish gas exchange across gills is a respiratory process."
+    },
+    {
+      "id": 450082,
+      "externalId": "owner-aug15-biology-biology-100-md-26",
+      "subject": "Biology",
+      "currentTopic": "Owner-supplied pending topic map",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Feedback inhibition is a cellular metabolic regulation concept."
+    },
+    {
+      "id": 450083,
+      "externalId": "owner-aug15-biology-biology-100-md-27",
+      "subject": "Biology",
+      "currentTopic": "Osmosis — Solute Potential",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Osmotic (solute) potential and osmosis are topics in transport across membranes."
+    },
+    {
+      "id": 450084,
+      "externalId": "owner-aug15-biology-biology-100-md-28",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — C3 Pathway",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "The Calvin cycle and carbon fixation are taught under photosynthesis/nutrition."
+    },
+    {
+      "id": 450089,
+      "externalId": "owner-aug15-biology-biology-100-md-33",
+      "subject": "Biology",
+      "currentTopic": "Botany — Leaf Structure",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Leaf tissues (mesophyll) performing photosynthesis fall under plant structure."
+    },
+    {
+      "id": 450090,
+      "externalId": "owner-aug15-biology-biology-100-md-34",
+      "subject": "Biology",
+      "currentTopic": "Circulation — Blood Pressure",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Question concerns blood pressure and circulation"
+    },
+    {
+      "id": 450092,
+      "externalId": "owner-aug15-biology-biology-100-md-36",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Light Spectrum",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Photosynthesis is the process of plant nutrition/energy capture"
+    },
+    {
+      "id": 450093,
+      "externalId": "owner-aug15-biology-biology-100-md-37",
+      "subject": "Biology",
+      "currentTopic": "Immunology — Antibodies",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Antibody production is a cellular/organisational function of immune cells"
+    },
+    {
+      "id": 450098,
+      "externalId": "owner-aug15-biology-biology-100-md-42",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Stomata Function",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Stomata are plant structural features controlling gas exchange"
+    },
+    {
+      "id": 450101,
+      "externalId": "owner-aug15-biology-biology-100-md-45",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Synapse Structure",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Synapse is part of nervous system coordination"
+    },
+    {
+      "id": 450104,
+      "externalId": "owner-aug15-biology-biology-100-md-48",
+      "subject": "Biology",
+      "currentTopic": "Metabolism — Anabolism vs Catabolism",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Anabolism is a basic metabolic/cellular process"
+    },
+    {
+      "id": 450106,
+      "externalId": "owner-aug15-biology-biology-100-md-50",
+      "subject": "Biology",
+      "currentTopic": "Immunology — Immune Response",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Antibody production/immune response is a physiological process within organismal organization."
+    },
+    {
+      "id": 450110,
+      "externalId": "owner-aug15-biology-biology-100-md-54",
+      "subject": "Biology",
+      "currentTopic": "Biogeography — Species Distribution",
+      "suggestedTopic": "Theories of evolution",
+      "confidence": "medium",
+      "reason": "Biogeographic distribution of related species is explained by evolutionary processes/speciation theories."
+    },
+    {
+      "id": 450111,
+      "externalId": "owner-aug15-biology-biology-100-md-55",
+      "subject": "Biology",
+      "currentTopic": "Enzyme Kinetics — Substrate Enzyme Interaction",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Enzyme–substrate relationships are fundamental molecular/cellular organization topics."
+    },
+    {
+      "id": 450114,
+      "externalId": "owner-aug15-biology-biology-100-md-58",
+      "subject": "Biology",
+      "currentTopic": "Molecular Biology — Protein Synthesis",
+      "suggestedTopic": "Heredity",
+      "confidence": "medium",
+      "reason": "mRNA translation is part of gene expression covered under heredity/molecular genetics."
+    },
+    {
+      "id": 450120,
+      "externalId": "owner-aug15-biology-biology-100-md-64",
+      "subject": "Biology",
+      "currentTopic": "Inheritance — Pedigree Analysis",
+      "suggestedTopic": "Heredity",
+      "confidence": "high",
+      "reason": "Sex-specific inheritance patterns are a core heredity/genetics topic."
+    },
+    {
+      "id": 450122,
+      "externalId": "owner-aug15-biology-biology-100-md-66",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Types of Neurons",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Types of neurons and their roles are part of nervous system/coordination topics."
+    },
+    {
+      "id": 450123,
+      "externalId": "owner-aug15-biology-biology-100-md-67",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Accessory Pigments",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Photosynthetic pigments and their role in photosynthesis fit basic organism organization and function"
+    },
+    {
+      "id": 450125,
+      "externalId": "owner-aug15-biology-biology-100-md-69",
+      "subject": "Biology",
+      "currentTopic": "Homeostasis — Thermoregulation",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium",
+      "reason": "Thermoregulatory mechanisms conserving heat are adaptations in mammals"
+    },
+    {
+      "id": 450129,
+      "externalId": "owner-aug15-biology-biology-100-md-74",
+      "subject": "Biology",
+      "currentTopic": "Animal Behaviour — Dominance Hierarchies",
+      "suggestedTopic": "Adaptations of organisms",
+      "confidence": "medium",
+      "reason": "Dominance hierarchies are social/behavioral adaptations within species"
+    },
+    {
+      "id": 450130,
+      "externalId": "owner-aug15-biology-biology-100-md-75",
+      "subject": "Biology",
+      "currentTopic": "Molecular Biology — DNA Replication",
+      "suggestedTopic": "Heredity",
+      "confidence": "high",
+      "reason": "Semiconservative DNA replication is a fundamental concept in genetics/heredity"
+    },
+    {
+      "id": 450133,
+      "externalId": "owner-aug15-biology-biology-100-md-78",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Synaptic Plasticity",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Long-term potentiation is neural plasticity relating to nervous system control and coordination"
+    },
+    {
+      "id": 450137,
+      "externalId": "owner-aug15-biology-biology-100-md-82",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Photosystem Locations",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "medium",
+      "reason": "Photosystems' location pertains to chloroplast/thylakoid structure in plants"
+    },
+    {
+      "id": 450138,
+      "externalId": "owner-aug15-biology-biology-100-md-83",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Reflex Arc Path",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Reflex arcs are neural responses processed by the spinal cord under coordination and control."
+    },
+    {
+      "id": 450139,
+      "externalId": "owner-aug15-biology-biology-100-md-84",
+      "subject": "Biology",
+      "currentTopic": "Hormones — Homeostatic Regulation",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Blood glucose regulation is a hormonal homeostatic process in coordination and control."
+    },
+    {
+      "id": 450143,
+      "externalId": "owner-aug15-biology-biology-100-md-88",
+      "subject": "Biology",
+      "currentTopic": "Blood Composition — Hemoglobin Function",
+      "suggestedTopic": "Transport",
+      "confidence": "high",
+      "reason": "Hemoglobin's oxygen-binding is central to oxygen transport in blood."
+    },
+    {
+      "id": 450144,
+      "externalId": "owner-aug15-biology-biology-100-md-89",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Equation",
+      "suggestedTopic": "Living organisms and organization",
+      "confidence": "medium",
+      "reason": "Photosynthesis is a fundamental biological process of organisms."
+    },
+    {
+      "id": 450148,
+      "externalId": "owner-aug15-biology-biology-100-md-93",
+      "subject": "Biology",
+      "currentTopic": "Ecosystem Productivity",
+      "suggestedTopic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "Primary productivity is an ecosystem-level measure of energy/biomass in habitats."
+    },
+    {
+      "id": 450150,
+      "externalId": "owner-aug15-biology-biology-100-md-95",
+      "subject": "Biology",
+      "currentTopic": "Neurology — Action Potential",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Neuronal resting membrane potential is part of neural coordination and control."
+    },
+    {
+      "id": 450153,
+      "externalId": "owner-aug15-biology-biology-100-md-98",
+      "subject": "Biology",
+      "currentTopic": "Photosynthesis — Chlorophyll Structure",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Photosynthesis/chlorophyll relates to plant cell structure (chloroplasts)."
+    },
+    {
+      "id": 450154,
+      "externalId": "owner-aug15-biology-biology-100-md-99",
+      "subject": "Biology",
+      "currentTopic": "Nervous System — Myelin and Action Potential Conduction",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Myelin affects nerve impulse conduction, a nervous system control topic."
+    },
+    {
+      "id": 450157,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-6",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "Determining waters of crystallization involves stoichiometry and compound composition."
+    },
+    {
+      "id": 450163,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-17",
+      "subject": "Chemistry",
+      "currentTopic": "Electrochemical Series — Displacement Reactions",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high",
+      "reason": "Metal displacement is a redox process determined by relative reactivity."
+    },
+    {
+      "id": 450168,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-24",
+      "subject": "Chemistry",
+      "currentTopic": "Periodic Trends — Electronegativity",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high",
+      "reason": "Electronegativity is an atomic property describing attraction of bonding electrons."
+    },
+    {
+      "id": 450172,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-28",
+      "subject": "Chemistry",
+      "currentTopic": "Alloys",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high",
+      "reason": "Alloys like stainless steel concern metal composition and properties."
+    },
+    {
+      "id": 450173,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-29",
+      "subject": "Chemistry",
+      "currentTopic": "Titration Calculations",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high",
+      "reason": "Acid–base titration neutralization problem"
+    },
+    {
+      "id": 450175,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-31",
+      "subject": "Chemistry",
+      "currentTopic": "Purification/Recrystallization Techniques",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high",
+      "reason": "Recrystallization is a purification/separation technique"
+    },
+    {
+      "id": 450176,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-32",
+      "subject": "Chemistry",
+      "currentTopic": "Distillation — Ethanol Purification",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high",
+      "reason": "Distillation is a separation technique to purify ethanol"
+    },
+    {
+      "id": 450178,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-34",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "medium",
+      "reason": "Determining water of crystallization is a composition/stoichiometry task"
+    },
+    {
+      "id": 450192,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-48",
+      "subject": "Chemistry",
+      "currentTopic": "Water Testing — Hydrogen Identification",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "Water test uses hydration of anhydrous salts (hydration/solubility property)"
+    },
+    {
+      "id": 450196,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-52",
+      "subject": "Chemistry",
+      "currentTopic": "Electrical Conductivity — Allotropes of Carbon",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "high",
+      "reason": "Electrical conductivity of allotropes depends on bonding and electron delocalization"
+    },
+    {
+      "id": 450197,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-53",
+      "subject": "Chemistry",
+      "currentTopic": "Empirical Formula Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "Empirical formula from percent composition (stoichiometry)."
+    },
+    {
+      "id": 450198,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-54",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "Determination of water of crystallization (formula/stoichiometry)."
+    },
+    {
+      "id": 450199,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-55",
+      "subject": "Chemistry",
+      "currentTopic": "Diffusion — Graham's Law",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high",
+      "reason": "Diffusion/Graham's law pertains to gas kinetic behavior."
+    },
+    {
+      "id": 450201,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-57",
+      "subject": "Chemistry",
+      "currentTopic": "Titration — Percentage Composition",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high",
+      "reason": "Neutralization titration calculation involves acid–base chemistry."
+    },
+    {
+      "id": 450205,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-62",
+      "subject": "Chemistry",
+      "currentTopic": "Solution Concentration — Molarity of Ions",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "medium",
+      "reason": "Calculation of molarity of a salt and its ions (solution stoichiometry)."
+    },
+    {
+      "id": 450206,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-63",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry — Heat of Solution",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high",
+      "reason": "Heat of solution is a thermochemical (energy change) problem."
+    },
+    {
+      "id": 450207,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-64",
+      "subject": "Chemistry",
+      "currentTopic": "Group VII Trends — Halogen Displacement Reactions",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "medium",
+      "reason": "Halogen displacement reactions concern Group VII (non-metal) chemistry"
+    },
+    {
+      "id": 450215,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-72",
+      "subject": "Chemistry",
+      "currentTopic": "Fire Safety — Extinguishing Agents",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "medium",
+      "reason": "Use of chemical extinguishing agents is an applied/industrial chemistry topic"
+    },
+    {
+      "id": 450219,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-76",
+      "subject": "Chemistry",
+      "currentTopic": "Water Hardness — Types and Testing",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "Water hardness and soap titration relate to solubility/precipitation of metal ions"
+    },
+    {
+      "id": 450224,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-81",
+      "subject": "Chemistry",
+      "currentTopic": "Colligative Properties — Vapour Pressure and Boiling Point",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium",
+      "reason": "Vapour pressure and boiling point are explained by kinetic molecular behaviour"
+    },
+    {
+      "id": 450228,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-86",
+      "subject": "Chemistry",
+      "currentTopic": "Amphoteric Compounds — Zinc Chemistry",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high",
+      "reason": "Amphoteric behaviour (Zn/Al) is a property of metal compounds"
+    },
+    {
+      "id": 450229,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-87",
+      "subject": "Chemistry",
+      "currentTopic": "Water of Crystallization Calculation",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "Determining formula of a hydrate is a stoichiometry/compound composition problem"
+    },
+    {
+      "id": 450235,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-93",
+      "subject": "Chemistry",
+      "currentTopic": "Thermochemistry — Enthalpy of Formation",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high",
+      "reason": "Calculating enthalpy of formation from combustion enthalpy is thermochemistry (energy changes)."
+    },
+    {
+      "id": 450237,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-95",
+      "subject": "Chemistry",
+      "currentTopic": "Contact Process — Catalyst Identification",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "high",
+      "reason": "Identification of the Contact Process catalyst pertains to industrial manufacture of sulfuric acid."
+    },
+    {
+      "id": 450238,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-96",
+      "subject": "Chemistry",
+      "currentTopic": "Gunpowder Chemistry — Oxidizing Agents",
+      "suggestedTopic": "Oxidation and reduction",
+      "confidence": "high",
+      "reason": "KNO3 in gunpowder acts as an oxidizing agent (oxidation–reduction role)."
+    },
+    {
+      "id": 450239,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-97",
+      "subject": "Chemistry",
+      "currentTopic": "Ammonia Preparation — Drying Agents",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "The fountain experiment selection depends on a gas's solubility in water."
+    },
+    {
+      "id": 450240,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-98",
+      "subject": "Chemistry",
+      "currentTopic": "Chlorine Chemistry — Disproportionation Reactions",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "high",
+      "reason": "Disproportionation of chlorine in alkali is a reaction of a non‑metal and its compounds."
+    },
+    {
+      "id": 450242,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-100",
+      "subject": "Chemistry",
+      "currentTopic": "Sugar Chemistry — Polysaccharides",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high",
+      "reason": "Polysaccharides are organic biomolecules (organic compounds)."
+    }
+  ]
+}

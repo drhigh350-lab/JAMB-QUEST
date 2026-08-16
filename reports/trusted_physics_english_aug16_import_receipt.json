@@ -1,0 +1,422 @@
+{
+  "incoming": 158,
+  "released": 57,
+  "imported": 57,
+  "skippedExistingSources": [],
+  "skippedDuplicates": [
+    {
+      "externalId": "physics-100-1-md-001",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-002",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-003",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-004",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-005",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-006",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-007",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-008",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-009",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-010",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-011",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-012",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-013",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-014",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-015",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-016",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-017",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-018",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-019",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-020",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-021",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-022",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-023",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-024",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-025",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-026",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-027",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-028",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-029",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-030",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-031",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-032",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-033",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-034",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-035",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-036",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-037",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-038",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-039",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-040",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-041",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-042",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-043",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-044",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-045",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-046",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-047",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-048",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-049",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-050",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-051",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-052",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-053",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-054",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-055",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-056",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-057",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-058",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-059",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-060",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-061",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-062",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-063",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-065",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-066",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-067",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-068",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-069",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-070",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-071",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-074",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-075",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-076",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-077",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-078",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-079",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-080",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-081",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-082",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-084",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-085",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-086",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-087",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-088",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-089",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-090",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-093",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-094",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-096",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-097",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-098",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-099",
+      "reason": "exact duplicate already exists in active authorised bank"
+    },
+    {
+      "externalId": "physics-100-1-md-100",
+      "reason": "exact duplicate already exists in active authorised bank"
+    }
+  ],
+  "technicalHolds": [
+    {
+      "externalId": "physics-100-1-md-064",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-072",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-073",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-083",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-091",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-092",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "physics-100-1-md-095",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    },
+    {
+      "externalId": "english-100-md-002",
+      "reason": "duplicate answer options prevent unambiguous gameplay"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JAMB Quest Use of English Bank · Trusted owner Markdown · August 2026",
+      "released": 57,
+      "imported": 57,
+      "sourceId": 10170001
+    }
+  ]
+}

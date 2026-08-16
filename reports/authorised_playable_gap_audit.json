@@ -1,10 +1,10 @@
 {
-  "totalActiveAuthorisedRows": 2990,
-  "playableRows": 2279,
+  "totalActiveAuthorisedRows": 3083,
+  "playableRows": 2651,
   "outcomes": {
-    "playable": 2279,
-    "status:needs_review": 369,
-    "unmapped syllabus topic": 342
+    "explanation exceeds five lines": 63,
+    "playable": 2651,
+    "status:needs_review": 369
   },
   "sources": {
     "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf": {
@@ -14,26 +14,26 @@
       "status:needs_review": 166
     },
     "Owner-provided Biology non-diagram collection — pending provenance review": {
-      "playable": 393,
-      "unmapped syllabus topic": 65
+      "explanation exceeds five lines": 34,
+      "playable": 424
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry": {
-      "playable": 73,
-      "unmapped syllabus topic": 5
+      "explanation exceeds five lines": 5,
+      "playable": 73
     },
     "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology": {
-      "playable": 40,
-      "unmapped syllabus topic": 7
+      "explanation exceeds five lines": 7,
+      "playable": 40
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology": {
-      "playable": 70,
-      "status:needs_review": 3,
-      "unmapped syllabus topic": 16
+      "explanation exceeds five lines": 14,
+      "playable": 72,
+      "status:needs_review": 3
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": {
-      "playable": 70,
-      "status:needs_review": 9,
-      "unmapped syllabus topic": 4
+      "explanation exceeds five lines": 2,
+      "playable": 72,
+      "status:needs_review": 9
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": {
       "playable": 37,
@@ -52,32 +52,26 @@
       "playable": 50
     },
     "Owner-provided Markdown · bio_part1.md · Biology": {
-      "playable": 25,
-      "unmapped syllabus topic": 23
+      "playable": 48
     },
     "Owner-provided Markdown · bio_part2.md · Biology": {
-      "playable": 25,
-      "unmapped syllabus topic": 24
+      "explanation exceeds five lines": 1,
+      "playable": 48
     },
     "JAMB Quest Chemistry Bank · Trusted owner batch · August 2026": {
-      "playable": 35,
-      "unmapped syllabus topic": 15
+      "playable": 50
     },
     "JAMB Quest Chemistry Bank · Trusted owner batch · August 2026 · Questions 51–100": {
-      "playable": 35,
-      "unmapped syllabus topic": 15
+      "playable": 50
     },
     "JAMB Quest Physics Bank · Trusted owner batch · August 2026 · Questions 1–100": {
-      "playable": 72,
-      "unmapped syllabus topic": 28
+      "playable": 100
     },
     "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100": {
-      "playable": 63,
-      "unmapped syllabus topic": 37
+      "playable": 100
     },
     "JAMB Quest Use of English Bank · Trusted owner batch · August 2026 · Questions 1–100": {
-      "playable": 76,
-      "unmapped syllabus topic": 24
+      "playable": 100
     },
     "The Lekki Headmaster · Owner chapter-by-chapter batch · August 2026 · Chapters 1–10": {
       "playable": 500
@@ -86,8 +80,7 @@
       "playable": 150
     },
     "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe": {
-      "playable": 163,
-      "unmapped syllabus topic": 79
+      "playable": 242
     },
     "Owner Chemistry DOCX · Uniform explanation batch 001": {
       "playable": 20
@@ -136,6 +129,12 @@
     },
     "Owner Biology DOCX · Uniform explanation batch 006": {
       "playable": 8
+    },
+    "JAMB Quest Physics Bank · Trusted owner Markdown · August 2026": {
+      "playable": 36
+    },
+    "JAMB Quest Use of English Bank · Trusted owner Markdown · August 2026": {
+      "playable": 57
     }
   }
 }
