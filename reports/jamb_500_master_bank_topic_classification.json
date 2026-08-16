@@ -1,0 +1,623 @@
+{
+  "input": 88,
+  "mapped": 86,
+  "held": 2,
+  "records": [
+    {
+      "externalId": "jamb-500-master-english-001",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Question asks for the closest meaning of a single word ('reluctant') — maps to Synonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-003",
+      "subject": "Use of English",
+      "suggestedTopic": "Vowels",
+      "confidence": "high",
+      "reason": "Asks which word has a different vowel sound from 'seat' — maps to Vowels (vowel sound discrimination)."
+    },
+    {
+      "externalId": "jamb-500-master-english-006",
+      "subject": "Use of English",
+      "suggestedTopic": "Antonyms",
+      "confidence": "high",
+      "reason": "Asks for the opposite of 'scarce' — maps to Antonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-008",
+      "subject": "Use of English",
+      "suggestedTopic": "Rhymes and homophones",
+      "confidence": "high",
+      "reason": "Asks which pair are homophones — maps to Rhymes and homophones."
+    },
+    {
+      "externalId": "jamb-500-master-english-011",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for the meaning/description of 'meticulous' — maps to Synonyms (closest meaning)."
+    },
+    {
+      "externalId": "jamb-500-master-english-013",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "high",
+      "reason": "Asks which word begins with the same consonant sound as 'chair' — maps to Consonants (consonant sound identification)."
+    },
+    {
+      "externalId": "jamb-500-master-english-016",
+      "subject": "Use of English",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "medium",
+      "reason": "'Choose the correct expression' likely tests standard/idiomatic expression usage; mapping is probable but not certain from the brief stem."
+    },
+    {
+      "externalId": "jamb-500-master-english-018",
+      "subject": "Use of English",
+      "suggestedTopic": "Word stress",
+      "confidence": "high",
+      "reason": "Asks where the stress falls in 'PHOtograph' — maps to Word stress."
+    },
+    {
+      "externalId": "jamb-500-master-english-021",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Tests subject-verb agreement in a 'neither...nor' construction — maps to Number and agreement within the Tense/aspect/number/agreement category."
+    },
+    {
+      "externalId": "jamb-500-master-english-023",
+      "subject": "Use of English",
+      "suggestedTopic": null,
+      "confidence": "hold",
+      "reason": "Stem asks which word contains the /■/ sound but the phoneme symbol is unclear/garbled; precise mapping to Vowels or Consonants cannot be determined from the provided symbol."
+    },
+    {
+      "externalId": "jamb-500-master-english-026",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "A conditional sentence ('If she had studied, she ___ the test') — tests verb forms/conditional constructions within Tense/aspect/number/agreement."
+    },
+    {
+      "externalId": "jamb-500-master-english-028",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "high",
+      "reason": "Asks which word contains the /θ/ sound — maps to Consonants (consonant phoneme identification)."
+    },
+    {
+      "externalId": "jamb-500-master-english-031",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "'No sooner had he arrived ___ the rain started' tests the correct correlative conjunction/clausal pattern — maps to Clause and sentence patterns."
+    },
+    {
+      "externalId": "jamb-500-master-english-033",
+      "subject": "Use of English",
+      "suggestedTopic": "Rhymes and homophones",
+      "confidence": "high",
+      "reason": "Asks for pairs that differ in meaning but share pronunciation — maps to Rhymes and homophones (homophones/homonyms)."
+    },
+    {
+      "externalId": "jamb-500-master-english-036",
+      "subject": "Use of English",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "medium",
+      "reason": "'She is accustomed ___ early' tests verb+preposition collocation (idiomatic usage); fits idiomatic/ordinary usage category though could also be considered sentence patterning."
+    },
+    {
+      "externalId": "jamb-500-master-english-038",
+      "subject": "Use of English",
+      "suggestedTopic": null,
+      "confidence": "hold",
+      "reason": "Asks about falling intonation on a statement (intonation), but the provided official syllabus list does not include a specific 'intonation' category, so a precise mapping is not possible."
+    },
+    {
+      "externalId": "jamb-500-master-english-041",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "'The committee recommended that the rule ___ changed' tests verb form in a that-clause (subjunctive/structure) — maps best to Clause and sentence patterns."
+    },
+    {
+      "externalId": "jamb-500-master-english-043",
+      "subject": "Use of English",
+      "suggestedTopic": "Word stress",
+      "confidence": "high",
+      "reason": "Asks which word has stress on the second syllable — maps to Word stress."
+    },
+    {
+      "externalId": "jamb-500-master-english-046",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "'He speaks as though he ___ the answer' tests clause structure/subjunctive/tense usage in subordinate clause — best mapped to Clause and sentence patterns."
+    },
+    {
+      "externalId": "jamb-500-master-english-051",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for the closest meaning of 'candid' — maps to Synonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-053",
+      "subject": "Use of English",
+      "suggestedTopic": "Antonyms",
+      "confidence": "high",
+      "reason": "Asks for the opposite of 'hostile' — maps to Antonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-055",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for the closest meaning of 'diligent' — maps to Synonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-057",
+      "subject": "Use of English",
+      "suggestedTopic": "Antonyms",
+      "confidence": "high",
+      "reason": "Asks for the opposite of 'transparent' — maps to Antonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-059",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for the closest meaning of 'obsolete' — maps to Synonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-061",
+      "subject": "Use of English",
+      "suggestedTopic": "Antonyms",
+      "confidence": "high",
+      "reason": "Asks for the opposite of 'expand' — maps to Antonyms."
+    },
+    {
+      "externalId": "jamb-500-master-english-063",
+      "subject": "Use of English",
+      "suggestedTopic": "Mechanics",
+      "confidence": "high",
+      "reason": "Tests choice of preposition for ability ('good at') — a mechanics (preposition) item."
+    },
+    {
+      "externalId": "jamb-500-master-english-065",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "Tests verb-complement pattern (insist + preposition + gerund), i.e., verb complementation/sentence pattern."
+    },
+    {
+      "externalId": "jamb-500-master-english-067",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Subject-verb agreement with collective/uncountable subject ('news' + singular verb)."
+    },
+    {
+      "externalId": "jamb-500-master-english-069",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with 'A number of' (plural verb agreement)."
+    },
+    {
+      "externalId": "jamb-500-master-english-071",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with 'The number of' (singular verb agreement)."
+    },
+    {
+      "externalId": "jamb-500-master-english-072",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with distributive subject 'Each of...' requiring a singular verb."
+    },
+    {
+      "externalId": "jamb-500-master-english-073",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with 'One of...' (singular verb required)."
+    },
+    {
+      "externalId": "jamb-500-master-english-074",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Tests future perfect tense (By this time tomorrow ... will have + past participle)."
+    },
+    {
+      "externalId": "jamb-500-master-english-075",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Tests past-time relationship (choice between past continuous/past perfect) — a tense/aspect item."
+    },
+    {
+      "externalId": "jamb-500-master-english-076",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Tests present perfect with time expression ('since 2019') — tense/aspect item."
+    },
+    {
+      "externalId": "jamb-500-master-english-077",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Tests present perfect with duration expression ('for seven years') — tense/aspect item."
+    },
+    {
+      "externalId": "jamb-500-master-english-078",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Conditional sentence pattern (second conditional: 'If I were you, I would...')."
+    },
+    {
+      "externalId": "jamb-500-master-english-079",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "First-conditional structure (conditional clause + main clause modal/tense) — sentence pattern item."
+    },
+    {
+      "externalId": "jamb-500-master-english-080",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "medium",
+      "reason": "Comparative structure requiring the comparative connector ('than') — a sentence/comparison pattern."
+    },
+    {
+      "externalId": "jamb-500-master-english-081",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Reported question with tense backshift ('asked whether I had finished') — tense/aspect item."
+    },
+    {
+      "externalId": "jamb-500-master-english-082",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Reported speech/modal backshift ('he said he would come the next day') — tense/aspect item."
+    },
+    {
+      "externalId": "jamb-500-master-english-083",
+      "subject": "Use of English",
+      "suggestedTopic": "Ordinary, figurative and idiomatic usage",
+      "confidence": "medium",
+      "reason": "Preference expression ('prefer X to Y') — idiomatic/ordinary usage."
+    },
+    {
+      "externalId": "jamb-500-master-english-084",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Relative clause with possessive relative pronoun ('whose car') — clause pattern item."
+    },
+    {
+      "externalId": "jamb-500-master-english-085",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Relative clause using relative pronoun ('which/that I bought') — clause/sentence pattern."
+    },
+    {
+      "externalId": "jamb-500-master-english-086",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Relative pronoun as object ('whom/who we met') — clause/sentence pattern."
+    },
+    {
+      "externalId": "jamb-500-master-english-087",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Question-tag formation ('He hardly works, does he?') — sentence pattern (tag) item."
+    },
+    {
+      "externalId": "jamb-500-master-english-088",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Tag question with 'Let's' ('Let's go, shall we?') — sentence pattern item."
+    },
+    {
+      "externalId": "jamb-500-master-english-089",
+      "subject": "Use of English",
+      "suggestedTopic": "Clause and sentence patterns",
+      "confidence": "high",
+      "reason": "Imperative + question tag formation ('Open the door, will you?') — sentence pattern item."
+    },
+    {
+      "externalId": "jamb-500-master-english-090",
+      "subject": "Use of English",
+      "suggestedTopic": "Tense, aspect, number and agreement",
+      "confidence": "high",
+      "reason": "Agreement with 'Neither' requiring singular verb ('Neither answer is correct')."
+    },
+    {
+      "externalId": "jamb-500-master-english-091",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for closest meaning of a word ('arduous') — a synonyms/vocabulary item."
+    },
+    {
+      "externalId": "jamb-500-master-english-092",
+      "subject": "Use of English",
+      "suggestedTopic": "Synonyms",
+      "confidence": "high",
+      "reason": "Asks for the closest meaning of a single word ('prudent'), which maps to synonym/meaning testing."
+    },
+    {
+      "externalId": "jamb-500-master-english-094",
+      "subject": "Use of English",
+      "suggestedTopic": "Antonyms",
+      "confidence": "high",
+      "reason": "Asks for the opposite of a single word ('inferior'), which is an antonym question."
+    },
+    {
+      "externalId": "jamb-500-master-english-095",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Requires selecting the correct preposition to complete the sentence — testing knowledge of a word class (prepositions)."
+    },
+    {
+      "externalId": "jamb-500-master-english-096",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Requires choosing the appropriate preposition in context, testing word-class knowledge (prepositions)."
+    },
+    {
+      "externalId": "jamb-500-master-english-097",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Blank requires a preposition for correct sentence completion, so it tests knowledge of word classes (prepositions)."
+    },
+    {
+      "externalId": "jamb-500-master-english-098",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Sentence completion with a preposition (between/among) — tests word-class (preposition) use."
+    },
+    {
+      "externalId": "jamb-500-master-english-099",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Requires selecting the correct preposition to express the relationship (angry with/at), testing word-class knowledge."
+    },
+    {
+      "externalId": "jamb-500-master-english-100",
+      "subject": "Use of English",
+      "suggestedTopic": "Word classes",
+      "confidence": "high",
+      "reason": "Requires the appropriate preposition ('for') to complete the predicate adjective phrase, testing preposition use (word class)."
+    },
+    {
+      "externalId": "jamb-500-master-biology-018",
+      "subject": "Biology",
+      "suggestedTopic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Villi are intestinal structures that increase surface area for absorption of digested nutrients, a digestion/nutrition topic."
+    },
+    {
+      "externalId": "jamb-500-master-biology-027",
+      "subject": "Biology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "The epiglottis prevents food entering the trachea/airway, directly relating to the respiratory system."
+    },
+    {
+      "externalId": "jamb-500-master-biology-036",
+      "subject": "Biology",
+      "suggestedTopic": "Respiration",
+      "confidence": "high",
+      "reason": "Diaphragm movement during inspiration (downward/flattening) is part of breathing mechanics in respiration."
+    },
+    {
+      "externalId": "jamb-500-master-biology-054",
+      "subject": "Biology",
+      "suggestedTopic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Thyroxine is an endocrine hormone produced by the thyroid gland, covered under coordination and control (hormonal regulation)."
+    },
+    {
+      "externalId": "jamb-500-master-biology-072",
+      "subject": "Biology",
+      "suggestedTopic": "Variation",
+      "confidence": "high",
+      "reason": "Phenotype refers to the observable characteristics of an organism, a topic under biological variation."
+    },
+    {
+      "externalId": "jamb-500-master-biology-081",
+      "subject": "Biology",
+      "suggestedTopic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "The biological species concept (organisms that can interbreed to produce fertile offspring) is taught under evolution and classification."
+    },
+    {
+      "externalId": "jamb-500-master-biology-090",
+      "subject": "Biology",
+      "suggestedTopic": "Factors affecting distribution",
+      "confidence": "high",
+      "reason": "A limiting factor is an environmental condition that restricts population size or distribution, matching this topic."
+    },
+    {
+      "externalId": "jamb-500-master-biology-093",
+      "subject": "Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Mutualism (both organisms benefit) is a type of symbiotic interaction."
+    },
+    {
+      "externalId": "jamb-500-master-biology-094",
+      "subject": "Biology",
+      "suggestedTopic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Parasitism (one organism benefits while the other is harmed) is a form of symbiotic interaction."
+    },
+    {
+      "externalId": "jamb-500-master-biology-098",
+      "subject": "Biology",
+      "suggestedTopic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Stomata are plant structures controlled by guard cells; this fits plant structure."
+    },
+    {
+      "externalId": "jamb-500-master-biology-100",
+      "subject": "Biology",
+      "suggestedTopic": "Heredity",
+      "confidence": "high",
+      "reason": "Crossing over occurs during meiosis (prophase I) and is a mechanism of genetic recombination taught under heredity."
+    },
+    {
+      "externalId": "jamb-500-master-chemistry-040",
+      "subject": "Chemistry",
+      "suggestedTopic": "Rates of reaction",
+      "confidence": "high",
+      "reason": "Question asks for the definition of a catalyst — a concept taught under reaction rates and factors affecting rate of reaction."
+    },
+    {
+      "externalId": "jamb-500-master-chemistry-060",
+      "subject": "Chemistry",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high",
+      "reason": "Asks about the conjugate base of an acid (HCl) — a core concept in acids, bases and salts."
+    },
+    {
+      "externalId": "jamb-500-master-chemistry-080",
+      "subject": "Chemistry",
+      "suggestedTopic": "Acids, bases and salts",
+      "confidence": "high",
+      "reason": "Neutralization between an acid and a base and its products is a standard topic in acids, bases and salts."
+    },
+    {
+      "externalId": "jamb-500-master-chemistry-100",
+      "subject": "Chemistry",
+      "suggestedTopic": "Organic compounds",
+      "confidence": "high",
+      "reason": "The test for unsaturation (bromine water decolourisation) pertains to unsaturated organic compounds (alkenes/alkynes), which is covered under organic compounds."
+    },
+    {
+      "externalId": "jamb-500-master-physics-002",
+      "subject": "Physics",
+      "suggestedTopic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Definition of density (mass per unit volume) is a basic measurement/units concept."
+    },
+    {
+      "externalId": "jamb-500-master-physics-009",
+      "subject": "Physics",
+      "suggestedTopic": "Motion",
+      "confidence": "high",
+      "reason": "Distinction between displacement and distance is a kinematics (motion) concept."
+    },
+    {
+      "externalId": "jamb-500-master-physics-018",
+      "subject": "Physics",
+      "suggestedTopic": "Motion",
+      "confidence": "high",
+      "reason": "Slope of a distance–time graph relates to speed/velocity, a motion/kinematics topic."
+    },
+    {
+      "externalId": "jamb-500-master-physics-020",
+      "subject": "Physics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Floating related to comparative densities and buoyancy in fluids (liquids at rest)."
+    },
+    {
+      "externalId": "jamb-500-master-physics-029",
+      "subject": "Physics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Upthrust equals weight of displaced fluid (Archimedes' principle) is a fluids/liquids-at-rest topic."
+    },
+    {
+      "externalId": "jamb-500-master-physics-038",
+      "subject": "Physics",
+      "suggestedTopic": "Elasticity",
+      "confidence": "high",
+      "reason": "Hooke's law and its valid range concern elasticity of materials."
+    },
+    {
+      "externalId": "jamb-500-master-physics-047",
+      "subject": "Physics",
+      "suggestedTopic": "Elasticity",
+      "confidence": "high",
+      "reason": "Young's modulus is an elastic modulus (property of elasticity)."
+    },
+    {
+      "externalId": "jamb-500-master-physics-063",
+      "subject": "Physics",
+      "suggestedTopic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "Efficiency (useful output/input) is a concept in work, energy and power."
+    },
+    {
+      "externalId": "jamb-500-master-physics-065",
+      "subject": "Physics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Surface tension arises from molecular forces at a liquid surface and is treated in liquids/fluids topics."
+    },
+    {
+      "externalId": "jamb-500-master-physics-074",
+      "subject": "Physics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Variation of pressure with depth is a core concept in liquids at rest."
+    },
+    {
+      "externalId": "jamb-500-master-physics-083",
+      "subject": "Physics",
+      "suggestedTopic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Hydraulic press operation is based on Pascal's principle for fluids at rest."
+    },
+    {
+      "externalId": "jamb-500-master-physics-090",
+      "subject": "Physics",
+      "suggestedTopic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "A couple produces rotation/torque, relevant to moments and equilibrium of forces."
+    },
+    {
+      "externalId": "jamb-500-master-physics-091",
+      "subject": "Physics",
+      "suggestedTopic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Unit of frequency (hertz) is a fundamental measurement/units item."
+    },
+    {
+      "externalId": "jamb-500-master-physics-094",
+      "subject": "Physics",
+      "suggestedTopic": "Current electricity",
+      "confidence": "high",
+      "reason": "A device used to measure potential difference (voltmeter) is covered under current electricity."
+    },
+    {
+      "externalId": "jamb-500-master-physics-097",
+      "subject": "Physics",
+      "suggestedTopic": "Capacitors",
+      "confidence": "high",
+      "reason": "Unit of capacitance (farad) directly pertains to capacitors."
+    }
+  ]
+}

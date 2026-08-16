@@ -1,0 +1,56 @@
+{
+  "parsedKeyedRecords": 400,
+  "releaseReady": 393,
+  "duplicates": [
+    {
+      "externalId": "jamb-500-master-english-048",
+      "bank": "model",
+      "matchingId": "ENG-220"
+    },
+    {
+      "externalId": "jamb-500-master-english-093",
+      "bank": "same PDF",
+      "matchingId": "earlier record"
+    },
+    {
+      "externalId": "jamb-500-master-biology-005",
+      "bank": "authorised",
+      "matchingId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-79-84"
+    },
+    {
+      "externalId": "jamb-500-master-physics-040",
+      "bank": "authorised",
+      "matchingId": "owner-aug15-physics-physics-100-md-12"
+    }
+  ],
+  "holds": [
+    {
+      "externalId": "jamb-500-master-english-023",
+      "subject": "Use of English",
+      "sourceNumber": 23,
+      "reason": "no safe official syllabus mapping"
+    },
+    {
+      "externalId": "jamb-500-master-english-038",
+      "subject": "Use of English",
+      "sourceNumber": 38,
+      "reason": "no safe official syllabus mapping"
+    },
+    {
+      "externalId": "jamb-500-master-english-060",
+      "subject": "Use of English",
+      "sourceNumber": 60,
+      "reason": "duplicate option text"
+    }
+  ],
+  "classification": {
+    "mapped": 86,
+    "held": 2
+  },
+  "bySubject": {
+    "Use of English": 95,
+    "Biology": 99,
+    "Chemistry": 100,
+    "Physics": 99
+  }
+}

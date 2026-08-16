@@ -1,0 +1,35 @@
+{
+  "staged": 393,
+  "imported": 393,
+  "existing": 0,
+  "sources": [
+    {
+      "sourceLabel": "JAMB 500 Question Master Bank · Use of English · August 2026",
+      "staged": 95,
+      "imported": 95,
+      "status": "imported",
+      "sourceId": 10980001
+    },
+    {
+      "sourceLabel": "JAMB 500 Question Master Bank · Chemistry · August 2026",
+      "staged": 100,
+      "imported": 100,
+      "status": "imported",
+      "sourceId": 10980002
+    },
+    {
+      "sourceLabel": "JAMB 500 Question Master Bank · Biology · August 2026",
+      "staged": 99,
+      "imported": 99,
+      "status": "imported",
+      "sourceId": 10980003
+    },
+    {
+      "sourceLabel": "JAMB 500 Question Master Bank · Physics · August 2026",
+      "staged": 99,
+      "imported": 99,
+      "status": "imported",
+      "sourceId": 10980004
+    }
+  ]
+}
