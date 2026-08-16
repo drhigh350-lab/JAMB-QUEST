@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 7,
+  "batchSize": 20,
+  "eligibleTotal": 195,
+  "selected": [
+    {
+      "id": 30254,
+      "externalId": "BIO-OWNER-M6-Q16",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Semen is a mixture of sperm from the testes and seminal fluid produced by accessory glands (seminal vesicles, prostate and Cowper's glands).\nThe seminal vesicles contribute the largest volume (roughly 60–70%) of semen and secrete fructose-rich, alkaline fluid with prostaglandins and clotting proteins to nourish and aid sperm transport.\nThe prostate adds a thin, milky alkaline secretion containing enzymes (including PSA), citric acid and zinc that helps liquefy the semen and protect sperm in the female tract.\nCowper's (bulbourethral) glands supply a small mucus-like pre-ejaculate that lubricates and neutralises residual acidity in the urethra.\nThus the seminal vesicle is the correct choice because its secretion combines with prostate and Cowper's secretions to form the bulk of seminal fluid.\nBy contrast the epididymis stores and matures sperm, the testis produces sperm and testosterone, and the vas deferens is a transport duct—none are major secretory contributors to seminal fluid.",
+      "after": "Semen is a mixture of sperm from the testes and seminal fluid produced by accessory glands (seminal vesicles, prostate and Cowper's glands).\nThe seminal vesicles contribute the largest volume (roughly 60–70%) of semen and secrete fructose-rich, alkaline fluid with prostaglandins and clotting proteins to nourish and aid sperm transport.\nThe prostate adds a thin, milky alkaline secretion containing enzymes (including PSA), citric acid and zinc that helps liquefy the semen and protect sperm in the female tract.\nBy contrast the epididymis stores and matures sperm, the testis produces sperm and testosterone, and the vas deferens is a transport duct—none are major secretory contributors to seminal fluid."
+    },
+    {
+      "id": 30255,
+      "externalId": "BIO-OWNER-M6-Q18",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A gene is a defined stretch of DNA that acts as the basic physical and functional unit of heredity.\nEach gene contains the instructions to make a specific protein or functional RNA that contributes to an organism's traits.\nChromosomes are long DNA-protein structures that carry many genes along their length, so a chromosome is a carrier of many hereditary units rather than the single basic unit.\nThe nucleus is the cellular organelle that houses chromosomes in eukaryotic cells and is not itself a unit of heredity.\nAn allele is an alternative form of a gene at the same locus and therefore is a variant of the gene, not a more fundamental unit.\nHence Gene is correct because it is the discrete DNA unit encoding hereditary information, whereas Chromosome, Nucleus and Allele refer to a DNA structure, a cell compartment, and a gene variant respectively.",
+      "after": "A gene is a defined stretch of DNA that acts as the basic physical and functional unit of heredity.\nEach gene contains the instructions to make a specific protein or functional RNA that contributes to an organism's traits.\nChromosomes are long DNA-protein structures that carry many genes along their length, so a chromosome is a carrier of many hereditary units rather than the single basic unit.\nHence Gene is correct because it is the discrete DNA unit encoding hereditary information, whereas Chromosome, Nucleus and Allele refer to a DNA structure, a cell compartment, and a gene variant respectively."
+    },
+    {
+      "id": 30256,
+      "externalId": "BIO-OWNER-M6-Q19",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A homozygous genotype has two identical alleles at the same locus, for example AA.\nDuring meiosis the paired alleles segregate so each gamete receives a single allele from the pair.\nBecause AA carries only A alleles, all gametes produced from AA will carry the A allele only.\nA heterozygous genotype like Aa carries different alleles and therefore produces two types of gametes (A and a) after meiosis.\nThe option 'BB and Bb' is incorrect because it mixes a homozygous (BB) and a heterozygous (Bb) genotype, and 'Aa and BB' is incorrect because it also mixes heterozygous and homozygous genotypes.\nTherefore AA is the correct choice as the genotype that is homozygous and yields only one type of gamete.",
+      "after": "A homozygous genotype has two identical alleles at the same locus, for example AA.\nDuring meiosis the paired alleles segregate so each gamete receives a single allele from the pair.\nBecause AA carries only A alleles, all gametes produced from AA will carry the A allele only.\nTherefore AA is the correct choice as the genotype that is homozygous and yields only one type of gamete."
+    },
+    {
+      "id": 30257,
+      "externalId": "BIO-OWNER-M6-Q20",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pseudopodia are temporary extensions of the cell cytoplasm formed by amoeboid protozoans to change cell shape.\nThey enable movement by cytoplasmic streaming and extension of the cell membrane in the direction of motion.\nPseudopodia also surround and engulf food particles in phagocytosis, forming food vacuoles for digestion.\nTherefore \"Movement and feeding\" is correct because these structures directly perform both locomotion and ingestion.\nThe alternatives are incorrect: respiration occurs by diffusion across the cell membrane, not via pseudopodia.\nReproduction is by binary fission or other reproductive methods, and excretion is usually by diffusion or by contractile vacuoles rather than by pseudopodia.",
+      "after": "Pseudopodia are temporary extensions of the cell cytoplasm formed by amoeboid protozoans to change cell shape.\nThey enable movement by cytoplasmic streaming and extension of the cell membrane in the direction of motion.\nPseudopodia also surround and engulf food particles in phagocytosis, forming food vacuoles for digestion.\nReproduction is by binary fission or other reproductive methods, and excretion is usually by diffusion or by contractile vacuoles rather than by pseudopodia."
+    },
+    {
+      "id": 30258,
+      "externalId": "BIO-OWNER-M6-Q21",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns osmoregulation in Paramecium, which is the maintenance of water and solute balance in its freshwater habitat.\nThe correct organelle is the contractile vacuole, a specialized vacuole that collects excess cytoplasmic water and periodically expels it to prevent the cell from bursting.\nIn freshwater protists water enters by osmosis because the external medium is hypotonic, so the contractile vacuole actively cycles to remove the incoming water.\nA food vacuole is for ingestion and intracellular digestion of food particles and does not function in removing excess water.\nThe macronucleus controls metabolic and physiological processes while the micronucleus is involved in heredity and conjugation; neither nucleus pumps out water.\nThus, among the options given, only the contractile vacuole is specialized for collecting and expelling excess water to maintain osmotic balance.",
+      "after": "The question concerns osmoregulation in Paramecium, which is the maintenance of water and solute balance in its freshwater habitat.\nThe correct organelle is the contractile vacuole, a specialized vacuole that collects excess cytoplasmic water and periodically expels it to prevent the cell from bursting.\nIn freshwater protists water enters by osmosis because the external medium is hypotonic, so the contractile vacuole actively cycles to remove the incoming water.\nThus, among the options given, only the contractile vacuole is specialized for collecting and expelling excess water to maintain osmotic balance."
+    },
+    {
+      "id": 30279,
+      "externalId": "BIO-OWNER-M6-Q42",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A cross involving two contrasting pairs of traits (for example, seed shape and seed color) is called a dihybrid cross in Mendelian genetics.\nA typical dihybrid cross often refers to parents heterozygous for both traits (e.g., RrYy × RrYy) and, under independent assortment and simple dominance, yields a 9:3:3:1 phenotypic ratio in the F2.\nThe correct option is \"Dihybrid cross\" because it explicitly names a cross involving two distinct trait pairs rather than one.\nA monohybrid cross involves only a single pair of contrasting traits and typically gives a 3:1 F2 phenotypic ratio for dominant/recessive alleles.\nA backcross (crossing an F1 with a parent) and a testcross (crossing with a homozygous recessive) are used to reveal or recover parental genotypes, not to denote two-trait crosses.\nThe 9:3:3:1 expectation assumes independent assortment and no interaction between genes; linkage, epistasis or incomplete dominance would change the observed ratios.",
+      "after": "A cross involving two contrasting pairs of traits (for example, seed shape and seed color) is called a dihybrid cross in Mendelian genetics.\nA typical dihybrid cross often refers to parents heterozygous for both traits (e.g., RrYy × RrYy) and, under independent assortment and simple dominance, yields a 9:3:3:1 phenotypic ratio in the F2.\nThe correct option is \"Dihybrid cross\" because it explicitly names a cross involving two distinct trait pairs rather than one.\nThe 9:3:3:1 expectation assumes independent assortment and no interaction between genes; linkage, epistasis or incomplete dominance would change the observed ratios."
+    },
+    {
+      "id": 30280,
+      "externalId": "BIO-OWNER-M6-Q43",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A test cross is a genetic cross where an organism showing a dominant phenotype is mated with a homozygous recessive (aa) tester to reveal the unknown genotype.\nIf the dominant parent is homozygous (AA) all offspring show the dominant phenotype, while a heterozygous parent (Aa) yields a 1:1 ratio of dominant to recessive phenotypes, allowing inference of the parent's genotype.\nA monohybrid cross refers to a single-gene cross (one character) such as Aa × Aa and does not specifically denote a dominant-phenotype × homozygous recessive pairing.\nA reciprocal cross repeats the same mating with the sexes of the parents swapped to check for sex-linked inheritance and is not defined by crossing with a homozygous recessive tester.\nA dihybrid cross involves two independent gene pairs (e.g., AaBb × AaBb) and examines the segregation of two traits, so it is not applicable here.\nBecause the question describes a dominant-phenotype individual crossed with a homozygous recessive tester, the correct choice is Test cross.",
+      "after": "A test cross is a genetic cross where an organism showing a dominant phenotype is mated with a homozygous recessive (aa) tester to reveal the unknown genotype.\nIf the dominant parent is homozygous (AA) all offspring show the dominant phenotype, while a heterozygous parent (Aa) yields a 1:1 ratio of dominant to recessive phenotypes, allowing inference of the parent's genotype.\nA monohybrid cross refers to a single-gene cross (one character) such as Aa × Aa and does not specifically denote a dominant-phenotype × homozygous recessive pairing.\nBecause the question describes a dominant-phenotype individual crossed with a homozygous recessive tester, the correct choice is Test cross."
+    },
+    {
+      "id": 30281,
+      "externalId": "BIO-OWNER-M6-Q44",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Chromosomes are made of chromatin, which consists of long DNA molecules associated with proteins for compact packing.\nDNA is the hereditary nucleic acid that carries genetic information and is therefore the primary nucleic acid component of chromosomes.\nThe proteins bound to DNA are mainly histones, which organize DNA into nucleosomes and help condense it into visible chromosomes during cell division.\nRNA can be found near chromatin and plays roles in gene expression, but it is not the main structural component of chromosomes.\nGlucose is a sugar used for energy and lipids form membranes; neither serves as a structural constituent of chromosomal fibers.\nThus, among the options given, DNA correctly identifies the nucleic acid that, with proteins, composes chromosomes.",
+      "after": "Chromosomes are made of chromatin, which consists of long DNA molecules associated with proteins for compact packing.\nDNA is the hereditary nucleic acid that carries genetic information and is therefore the primary nucleic acid component of chromosomes.\nThe proteins bound to DNA are mainly histones, which organize DNA into nucleosomes and help condense it into visible chromosomes during cell division.\nThus, among the options given, DNA correctly identifies the nucleic acid that, with proteins, composes chromosomes."
+    },
+    {
+      "id": 30282,
+      "externalId": "BIO-OWNER-M6-Q45",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Human sex is determined by the combination of sex chromosomes contributed at fertilization.\nHuman females have two X chromosomes (XX) and produce ova that all carry an X chromosome.\nHuman males have one X and one Y chromosome (XY) and produce sperm that carry either an X or a Y chromosome.\nAn X-bearing sperm fertilizing an X-bearing ovum yields XX (female) while a Y-bearing sperm fertilizing the ovum yields XY (male), so the father's sperm determines the child's sex.\nThe mother is not the determining parent because her egg can only supply an X; the grandmother option is irrelevant to the immediate chromosomal determination at fertilization.\nThe environment does not determine human sex (unlike some reptiles where temperature can influence sex), therefore the correct option is Father.",
+      "after": "Human sex is determined by the combination of sex chromosomes contributed at fertilization.\nHuman females have two X chromosomes (XX) and produce ova that all carry an X chromosome.\nHuman males have one X and one Y chromosome (XY) and produce sperm that carry either an X or a Y chromosome.\nThe environment does not determine human sex (unlike some reptiles where temperature can influence sex), therefore the correct option is Father."
+    },
+    {
+      "id": 30283,
+      "externalId": "BIO-OWNER-M6-Q46",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Lamarck's hypothesis held that organisms acquire new features during their lifetimes (by use and disuse) and that these acquired characteristics are passed to their offspring.\nThe correct option, 'Inherited by offspring,' directly states Lamarck's idea of soft inheritance in which changes produced during an individual's life affect its progeny.\n'Eliminated by natural selection' is a Darwinian concept describing differential survival of heritable variants, not the direct transmission of traits acquired during a lifetime.\n'Lost due to genetic mutations' is misleading here because mutations are random changes in genes (especially germ cells), whereas Lamarck proposed purposeful change from use or environment rather than random genetic loss.\n'Independent of environmental influence' is incorrect for Lamarck, who explicitly argued that environmental pressures and changed habits bring about modifications in organs.\nModern genetics rejects classical Lamarckism for most traits (acquired somatic changes are not usually inherited), although epigenetic effects offer limited and often reversible exceptions.",
+      "after": "Lamarck's hypothesis held that organisms acquire new features during their lifetimes (by use and disuse) and that these acquired characteristics are passed to their offspring.\nThe correct option, 'Inherited by offspring,' directly states Lamarck's idea of soft inheritance in which changes produced during an individual's life affect its progeny.\n'Eliminated by natural selection' is a Darwinian concept describing differential survival of heritable variants, not the direct transmission of traits acquired during a lifetime.\nModern genetics rejects classical Lamarckism for most traits (acquired somatic changes are not usually inherited), although epigenetic effects offer limited and often reversible exceptions."
+    },
+    {
+      "id": 30284,
+      "externalId": "BIO-OWNER-M6-Q47",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Analogous structures are body parts in different organisms that perform similar functions but have different anatomical origins and evolutionary histories.\nThe wings of insects and birds are analogous because both enable flight but evolved independently— insect wings arise as outgrowths of the exoskeleton while bird wings are modified forelimbs of vertebrates.\nThis pattern, where unrelated lineages develop similar solutions to similar environmental pressures, is called convergent evolution.\nHomologous structures are different: they share the same anatomical origin from a common ancestor even if their functions differ, for example the forelimb bones of humans, whales and bats.\nVestigial structures are reduced or nonfunctional remnants of organs (e.g. the human appendix), and 'fossil structures' is not a standard category describing functional or evolutionary relationships.\nThus the correct option is Analogous structures because the question describes similarity of function with different anatomical origin (insect vs bird wings).",
+      "after": "Analogous structures are body parts in different organisms that perform similar functions but have different anatomical origins and evolutionary histories.\nThe wings of insects and birds are analogous because both enable flight but evolved independently— insect wings arise as outgrowths of the exoskeleton while bird wings are modified forelimbs of vertebrates.\nThis pattern, where unrelated lineages develop similar solutions to similar environmental pressures, is called convergent evolution.\nThus the correct option is Analogous structures because the question describes similarity of function with different anatomical origin (insect vs bird wings)."
+    },
+    {
+      "id": 30285,
+      "externalId": "BIO-OWNER-M6-Q48",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ecological pyramids represent the distribution of ecological variables (numbers, biomass, or energy) across trophic levels.\nThe pyramid of energy displays the rate of energy flow through each trophic level and always narrows toward higher levels because energy is lost as heat and in metabolic processes.\nBecause of thermodynamic constraints and inefficiencies in energy transfer (often ~10% passed to the next level), energy available to higher trophic levels cannot exceed that of lower ones, so the energy pyramid cannot be inverted.\nThe pyramid of numbers can be inverted when a few large producers (like a tree) support many small consumers (like insects).\nThe pyramid of biomass can be inverted in ecosystems such as some aquatic systems where rapid turnover of small primary producers results in lower standing biomass than their consumers.\n'Species' is not a standard ecological pyramid in most senior-secondary texts and does not represent trophic-level energy flow, so it is not comparable to the other pyramid types.",
+      "after": "Ecological pyramids represent the distribution of ecological variables (numbers, biomass, or energy) across trophic levels.\nThe pyramid of energy displays the rate of energy flow through each trophic level and always narrows toward higher levels because energy is lost as heat and in metabolic processes.\nBecause of thermodynamic constraints and inefficiencies in energy transfer (often ~10% passed to the next level), energy available to higher trophic levels cannot exceed that of lower ones, so the energy pyramid cannot be inverted.\n'Species' is not a standard ecological pyramid in most senior-secondary texts and does not represent trophic-level energy flow, so it is not comparable to the other pyramid types."
+    },
+    {
+      "id": 30286,
+      "externalId": "BIO-OWNER-M6-Q49",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pathogens are organisms or agents—such as bacteria, viruses, and fungi—that can cause disease in other organisms.\nBacteria, viruses, and fungi are collectively called pathogens because they invade hosts and produce disease directly or via toxins.\nVectors are organisms that transmit pathogens between hosts (for example, mosquitoes carry malaria) but are not necessarily disease-causing themselves.\nParasites usually refer to living organisms (e.g., protozoa, helminths, ectoparasites) that live on or in a host; some parasites are pathogens, but the term typically does not include non-living infectious agents like viruses.\nHosts are organisms that harbour pathogens and may or may not show disease symptoms; being a host is different from being the disease-causing agent.\nTherefore the correct answer is 'Pathogens' because it specifically denotes the disease-causing organisms listed in the question.",
+      "after": "Pathogens are organisms or agents—such as bacteria, viruses, and fungi—that can cause disease in other organisms.\nBacteria, viruses, and fungi are collectively called pathogens because they invade hosts and produce disease directly or via toxins.\nVectors are organisms that transmit pathogens between hosts (for example, mosquitoes carry malaria) but are not necessarily disease-causing themselves.\nTherefore the correct answer is 'Pathogens' because it specifically denotes the disease-causing organisms listed in the question."
+    },
+    {
+      "id": 30287,
+      "externalId": "BIO-OWNER-M6-Q50",
+      "subject": "Biology",
+      "topic": "Humans and Environment",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns the insect vector that biologically transmits Trypanosoma species that cause African sleeping sickness (trypanosomiasis).\nThe tsetse fly (genus Glossina) is the biological vector for Trypanosoma brucei; parasites develop in the fly and are transmitted to humans during blood meals via infected saliva.\nBlackfly (Simulium) is incorrect because it transmits Onchocerca volvulus, the filarial worm responsible for river blindness, not trypanosomes.\nAedes mosquitoes are vectors for arboviral diseases such as dengue, yellow fever and Zika, so they do not transmit Trypanosoma species.\nHousefly (Musca domestica) may mechanically carry bacteria and cause fecal-oral transmission of some pathogens but is not a biological vector for African trypanosomes.\nTherefore the correct option is Tsetse fly Glossina, since it is the established biological vector that completes development of Trypanosoma and transmits it by biting.",
+      "after": "The question concerns the insect vector that biologically transmits Trypanosoma species that cause African sleeping sickness (trypanosomiasis).\nThe tsetse fly (genus Glossina) is the biological vector for Trypanosoma brucei; parasites develop in the fly and are transmitted to humans during blood meals via infected saliva.\nBlackfly (Simulium) is incorrect because it transmits Onchocerca volvulus, the filarial worm responsible for river blindness, not trypanosomes.\nTherefore the correct option is Tsetse fly Glossina, since it is the established biological vector that completes development of Trypanosoma and transmits it by biting."
+    },
+    {
+      "id": 30288,
+      "externalId": "BIO-OWNER-M7-Q3",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The amnion is the membrane that encloses the amniotic cavity, which is filled with amniotic fluid that cushions and protects the embryo from mechanical shock.\nAmniotic fluid permits free movement, prevents adhesion between embryo and membranes, and buffers sudden external pressure changes.\nThe chorion is the outer fetal membrane that contributes to gas exchange and, in mammals, helps form the fetal part of the placenta rather than acting as a cushioning sac.\nThe allantois is primarily involved in early waste storage and contributes to the umbilical blood vessels and placenta vasculature, not in forming a fluid-filled protective cavity.\nThe yolk sac supplies early nutrition and is a site of initial blood formation in mammals, but it is not a large fluid-filled sac for mechanical protection.\nHence the correct choice is Amnion because it specifically produces the amniotic sac and fluid that absorb mechanical shocks to the developing embryo.",
+      "after": "The amnion is the membrane that encloses the amniotic cavity, which is filled with amniotic fluid that cushions and protects the embryo from mechanical shock.\nAmniotic fluid permits free movement, prevents adhesion between embryo and membranes, and buffers sudden external pressure changes.\nThe chorion is the outer fetal membrane that contributes to gas exchange and, in mammals, helps form the fetal part of the placenta rather than acting as a cushioning sac.\nHence the correct choice is Amnion because it specifically produces the amniotic sac and fluid that absorb mechanical shocks to the developing embryo."
+    },
+    {
+      "id": 30290,
+      "externalId": "BIO-OWNER-M7-Q5",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vegetative propagation by tubers involves modified underground stems that store food and bear adventitious buds (eyes) capable of producing new shoots.\nThe Irish potato (Solanum tuberosum) reproduces by true tubers—swollen underground stems with buds that sprout into new plants.\nEach 'eye' on a potato tuber is a node containing meristematic tissue that develops into stems and roots, explaining why tubers are used for propagation.\nOnion propagates mainly by bulbs, which are modified leaves and a short stem, so it is not an example of tuber propagation.\nGinger is a rhizome, an underground horizontal stem that differs from tubers in structure and mode of branching and propagation.\nCassava stores food in tuberous roots and is commonly propagated vegetatively by stem cuttings rather than by true underground stem tubers.",
+      "after": "Vegetative propagation by tubers involves modified underground stems that store food and bear adventitious buds (eyes) capable of producing new shoots.\nThe Irish potato (Solanum tuberosum) reproduces by true tubers—swollen underground stems with buds that sprout into new plants.\nEach 'eye' on a potato tuber is a node containing meristematic tissue that develops into stems and roots, explaining why tubers are used for propagation.\nCassava stores food in tuberous roots and is commonly propagated vegetatively by stem cuttings rather than by true underground stem tubers."
+    },
+    {
+      "id": 30291,
+      "externalId": "BIO-OWNER-M7-Q6",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Transpiration is the loss of water vapor from the aerial parts of plants, mainly through stomata and, to a lesser extent, lenticels.\nWater evaporates from the moist cell walls of mesophyll cells into intercellular spaces and then diffuses out through open stomata down a vapour-pressure gradient.\nThis continuous loss of water produces a transpiration pull that helps transport water and dissolved minerals from the roots up the xylem.\nGuttation is different: it is the secretion of liquid water from hydathodes at leaf margins driven by root pressure, not vapour loss through stomata.\nEvaporation is the general physical change from liquid to vapor, but the specific biological term for water loss from plants is transpiration.\nOsmosis describes the passive movement of water across a semi-permeable membrane and does not refer to the vapor loss through stomata or lenticels.",
+      "after": "Transpiration is the loss of water vapor from the aerial parts of plants, mainly through stomata and, to a lesser extent, lenticels.\nWater evaporates from the moist cell walls of mesophyll cells into intercellular spaces and then diffuses out through open stomata down a vapour-pressure gradient.\nThis continuous loss of water produces a transpiration pull that helps transport water and dissolved minerals from the roots up the xylem.\nOsmosis describes the passive movement of water across a semi-permeable membrane and does not refer to the vapor loss through stomata or lenticels."
+    },
+    {
+      "id": 30293,
+      "externalId": "BIO-OWNER-M7-Q8",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vitamin D promotes intestinal absorption of calcium and phosphate and is essential for normal bone mineralization in growing children.\nDeficiency of vitamin D impairs deposition of calcium and phosphate in the osteoid, producing defective mineralization called rickets with features such as bone deformities, delayed growth and widened epiphyses.\nHence the correct answer is Rickets.\nScurvy, caused by vitamin C deficiency, produces defective collagen synthesis with bleeding gums, poor wound healing and petechiae rather than classical rickets-type bone deformities.\nBeriberi results from thiamine (vitamin B1) deficiency and presents with peripheral neuropathy and cardiac manifestations, not defective bone mineralization.\nPellagra, due to niacin (vitamin B3) deficiency, causes dermatitis, diarrhea and dementia and does not cause rickets-like skeletal changes.",
+      "after": "Vitamin D promotes intestinal absorption of calcium and phosphate and is essential for normal bone mineralization in growing children.\nDeficiency of vitamin D impairs deposition of calcium and phosphate in the osteoid, producing defective mineralization called rickets with features such as bone deformities, delayed growth and widened epiphyses.\nHence the correct answer is Rickets.\nPellagra, due to niacin (vitamin B3) deficiency, causes dermatitis, diarrhea and dementia and does not cause rickets-like skeletal changes."
+    },
+    {
+      "id": 30294,
+      "externalId": "BIO-OWNER-M7-Q9",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Mutualism is a type of interspecific association in which both participating species gain benefits that improve their survival, growth or reproduction.\nThe correct answer is Mutualism because the defining feature is reciprocal benefit rather than one-sided gain or harm.\nAn example at senior-secondary level is the pollination mutualism where insect pollinators obtain nectar while plants achieve cross-pollination.\nCommensalism differs because one species benefits while the other is neither helped nor harmed (no reciprocal benefit).\nParasitism differs because the parasite benefits at the expense of the host, which is harmed but usually not immediately killed, unlike predation.\nPredation is an interaction where one organism kills and consumes another, so it cannot be described as both species benefiting, therefore mutualism is the only option matching two-benefit associations.",
+      "after": "Mutualism is a type of interspecific association in which both participating species gain benefits that improve their survival, growth or reproduction.\nThe correct answer is Mutualism because the defining feature is reciprocal benefit rather than one-sided gain or harm.\nAn example at senior-secondary level is the pollination mutualism where insect pollinators obtain nectar while plants achieve cross-pollination.\nPredation is an interaction where one organism kills and consumes another, so it cannot be described as both species benefiting, therefore mutualism is the only option matching two-benefit associations."
+    },
+    {
+      "id": 30296,
+      "externalId": "BIO-OWNER-M7-Q11",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Cellular respiration is the metabolic pathway that converts glucose and oxygen into ATP, the cell's usable energy currency.\nMitochondria are double‑membraned organelles whose inner membrane is folded into cristae where the electron transport chain and ATP synthase produce most ATP by oxidative phosphorylation.\nThe mitochondrial matrix contains the enzymes of the citric acid (Krebs) cycle that supply reduced electron carriers to the electron transport chain.\nRibosomes are the sites of protein synthesis (translation) and do not function in significant ATP production, so 'Ribosome' is incorrect.\nLysosomes contain hydrolytic enzymes for intracellular digestion and recycling, not for generating ATP, so 'Lysosome' is incorrect.\nThe endoplasmic reticulum (rough and smooth) is involved in protein folding, lipid synthesis and transport and calcium storage, but it is not the primary site of ATP generation, so 'Endoplasmic reticulum' is incorrect.",
+      "after": "Cellular respiration is the metabolic pathway that converts glucose and oxygen into ATP, the cell's usable energy currency.\nMitochondria are double‑membraned organelles whose inner membrane is folded into cristae where the electron transport chain and ATP synthase produce most ATP by oxidative phosphorylation.\nThe mitochondrial matrix contains the enzymes of the citric acid (Krebs) cycle that supply reduced electron carriers to the electron transport chain.\nThe endoplasmic reticulum (rough and smooth) is involved in protein folding, lipid synthesis and transport and calcium storage, but it is not the primary site of ATP generation, so 'Endoplasmic reticulum' is incorrect."
+    }
+  ]
+}

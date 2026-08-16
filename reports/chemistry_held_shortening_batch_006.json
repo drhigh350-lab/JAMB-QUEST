@@ -1,0 +1,228 @@
+{
+  "subject": "Chemistry",
+  "batch": 6,
+  "batchSize": 20,
+  "eligibleTotal": 20,
+  "selected": [
+    {
+      "id": 90198,
+      "externalId": "TechMed-Complete-Question-Bank-md-73",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Apply VSEPR theory: nitrogen in NH3 has three bonded hydrogen atoms and one lone pair, giving four regions of electron density around the central atom.\nThe electron-pair geometry is therefore tetrahedral, but the molecular shape (ignoring the lone pair) is trigonal pyramidal.\nThe lone pair occupies more space and repels the bonding pairs, compressing the H–N–H bond angle from the tetrahedral 109.5° to about 107°.\nThe central nitrogen is sp3 hybridised, consistent with four electron-density regions (three N–H bonds plus one lone pair).\nTrigonal planar (120°) would be found for three bonding pairs and no lone pair (e.g., BF3), tetrahedral (109.5°) requires four bonded atoms (e.g., CH4), and linear applies to two regions of electron density (e.g., CO2).\nThe presence of the lone pair and the asymmetrical trigonal pyramidal shape makes NH3 polar, giving it a net dipole moment toward the lone pair.",
+      "after": "Apply VSEPR theory: nitrogen in NH3 has three bonded hydrogen atoms and one lone pair, giving four regions of electron density around the central atom.\nThe electron-pair geometry is therefore tetrahedral, but the molecular shape (ignoring the lone pair) is trigonal pyramidal.\nThe lone pair occupies more space and repels the bonding pairs, compressing the H–N–H bond angle from the tetrahedral 109.5° to about 107°.\nThe presence of the lone pair and the asymmetrical trigonal pyramidal shape makes NH3 polar, giving it a net dipole moment toward the lone pair."
+    },
+    {
+      "id": 90199,
+      "externalId": "TechMed-Complete-Question-Bank-md-74",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is acid strength: strong acids ionize almost completely in water, while weak acids only partially dissociate and establish an equilibrium.\nCH3COOH (ethanoic/acetic acid) is a weak acid because it partially dissociates (CH3COOH ⇌ H+ + CH3COO−) with a pKa ≈ 4.76, so it produces far fewer free H+ ions at a given concentration than strong acids.\nHCl and HNO3 are strong monoprotic acids that essentially fully dissociate to H+ and Cl− or NO3−, so they are not weak acids.\nH2SO4 is classed as a strong acid because its first proton dissociates essentially completely (H2SO4 → H+ + HSO4−), although the second proton from HSO4− is only moderately dissociated.\nThe key distinction is degree of ionization: CH3COOH establishes a dynamic equilibrium with appreciable undissociated acid present, whereas the others (especially HCl and HNO3, and the first step of H2SO4) do not.\nTherefore CH3COOH is the correct choice among the options because it alone exhibits only partial ionization under typical aqueous conditions.",
+      "after": "The concept is acid strength: strong acids ionize almost completely in water, while weak acids only partially dissociate and establish an equilibrium.\nCH3COOH (ethanoic/acetic acid) is a weak acid because it partially dissociates (CH3COOH ⇌ H+ + CH3COO−) with a pKa ≈ 4.76, so it produces far fewer free H+ ions at a given concentration than strong acids.\nHCl and HNO3 are strong monoprotic acids that essentially fully dissociate to H+ and Cl− or NO3−, so they are not weak acids.\nTherefore CH3COOH is the correct choice among the options because it alone exhibits only partial ionization under typical aqueous conditions."
+    },
+    {
+      "id": 90201,
+      "externalId": "TechMed-Complete-Question-Bank-md-76",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Saponification is the alkaline hydrolysis of triglyceride esters in fats or oils to give glycerol and the salts of fatty acids (soap).\nHydroxide ions attack the ester linkages, cleaving them to form glyceroxide and carboxylate anions which pair with Na+ or K+ to yield sodium or potassium soaps.\nTherefore the correct answer 'Soap and Glycerol' names both the soap (fatty‑acid salt) and glycerol (propane‑1,2,3‑triol) produced.\n'Soap and Water' is incorrect because water is not a primary product of ester cleavage under alkaline conditions.\n'Fatty acid and Glycerol' describes acidic hydrolysis of esters, which gives free fatty acids rather than their salt forms, so it is not saponification.\n'Soap and Alcohol' confuses saponification with transesterification, where alcohols convert esters into other esters (e.g., biodiesel) and glycerol is produced, but not 'soap plus alcohol'.",
+      "after": "Saponification is the alkaline hydrolysis of triglyceride esters in fats or oils to give glycerol and the salts of fatty acids (soap).\nHydroxide ions attack the ester linkages, cleaving them to form glyceroxide and carboxylate anions which pair with Na+ or K+ to yield sodium or potassium soaps.\nTherefore the correct answer 'Soap and Glycerol' names both the soap (fatty‑acid salt) and glycerol (propane‑1,2,3‑triol) produced.\n'Soap and Alcohol' confuses saponification with transesterification, where alcohols convert esters into other esters (e.g., biodiesel) and glycerol is produced, but not 'soap plus alcohol'."
+    },
+    {
+      "id": 90202,
+      "externalId": "TechMed-Complete-Question-Bank-md-77",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Noble gases are the elements in Group 18 of the periodic table with complete valence electron shells and very low chemical reactivity.\nArgon is correct because it is a Group 18 element with electron configuration [Ne]3s2 3p6, a filled outer shell and a monatomic, chemically inert nature under normal conditions.\nChlorine is a reactive halogen (Group 17) that exists as Cl2 and seeks one electron to achieve a noble-gas configuration, so it is not a noble gas.\nNitrogen is a Group 15 diatomic gas (N2) with a strong triple bond; it is relatively inert under some conditions but does not have a full valence shell and thus is not a noble gas.\nOxygen is a Group 16 diatomic gas (O2) that readily forms bonds or gains two electrons to reach a full shell, so it is chemically reactive rather than noble.\nMonatomic, full-shell character (as in argon and other Group 18 elements) is the defining feature that distinguishes noble gases from diatomic, reactive non-metals like Cl2, N2 and O2.",
+      "after": "Noble gases are the elements in Group 18 of the periodic table with complete valence electron shells and very low chemical reactivity.\nArgon is correct because it is a Group 18 element with electron configuration [Ne]3s2 3p6, a filled outer shell and a monatomic, chemically inert nature under normal conditions.\nChlorine is a reactive halogen (Group 17) that exists as Cl2 and seeks one electron to achieve a noble-gas configuration, so it is not a noble gas.\nMonatomic, full-shell character (as in argon and other Group 18 elements) is the defining feature that distinguishes noble gases from diatomic, reactive non-metals like Cl2, N2 and O2."
+    },
+    {
+      "id": 90204,
+      "externalId": "TechMed-Complete-Question-Bank-md-79",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Indicator choice depends on the pH at the equivalence point; in a strong acid–weak base titration the equivalence point is acidic because the conjugate acid of the weak base hydrolyses to produce H+.\nMethyl orange, with a transition range of about 3.1–4.4, changes colour in the acidic region and therefore brackets the typical acidic equivalence pH, making it the appropriate indicator.\nPhenolphthalein changes around pH 8.2–10 and signals in the basic region, so it would miss an acidic endpoint and is unsuitable here.\nLitmus has a broader, less sharply defined transition (roughly pH 4.5–8.3) and can give an ambiguous endpoint when the equivalence pH is well below neutral.\nA universal indicator shows a continuous colour spectrum and gives an approximate pH value but lacks the single sharp colour change required for precise titration endpoints.\nAs a concrete example, titrating NH3 with HCl gives an equivalence pH near the acidic side (around pH 5), illustrating why methyl orange is the standard choice for strong acid–weak base titrations.",
+      "after": "Indicator choice depends on the pH at the equivalence point; in a strong acid–weak base titration the equivalence point is acidic because the conjugate acid of the weak base hydrolyses to produce H+.\nMethyl orange, with a transition range of about 3.1–4.4, changes colour in the acidic region and therefore brackets the typical acidic equivalence pH, making it the appropriate indicator.\nPhenolphthalein changes around pH 8.2–10 and signals in the basic region, so it would miss an acidic endpoint and is unsuitable here.\nAs a concrete example, titrating NH3 with HCl gives an equivalence pH near the acidic side (around pH 5), illustrating why methyl orange is the standard choice for strong acid–weak base titrations."
+    },
+    {
+      "id": 90207,
+      "externalId": "TechMed-Complete-Question-Bank-md-83",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Atomic number (Z) is the count of protons in an atom's nucleus and uniquely identifies the element.\nThe correct option is Protons because changing the number of protons changes one element into another.\nNeutrons are neutral particles whose varying number produces isotopes of the same element, so Neutrons is incorrect.\nNucleons refers to the total number of protons plus neutrons (mass number A), not the atomic number, so Nucleons is incorrect.\nIsotopes are atoms with the same atomic number but different neutron numbers, therefore 'Isotopes' cannot represent the atomic number.\nFor example, carbon-12 has Z = 6 (six protons and, in a neutral atom, six electrons) and mass number A = 12 (six protons + six neutrons), illustrating these distinctions.",
+      "after": "Atomic number (Z) is the count of protons in an atom's nucleus and uniquely identifies the element.\nThe correct option is Protons because changing the number of protons changes one element into another.\nNeutrons are neutral particles whose varying number produces isotopes of the same element, so Neutrons is incorrect.\nFor example, carbon-12 has Z = 6 (six protons and, in a neutral atom, six electrons) and mass number A = 12 (six protons + six neutrons), illustrating these distinctions."
+    },
+    {
+      "id": 90208,
+      "externalId": "TechMed-Complete-Question-Bank-md-84",
+      "subject": "Chemistry",
+      "topic": "Qualitative Analysis",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The key concept is hydration: anhydrous CuSO4 (white) forms the blue coordination compound CuSO4·5H2O when water molecules coordinate to Cu2+.\nAdding water supplies the five water ligands that convert the salt to its pentahydrate, so water turns the white powder blue.\nThis reversible colour change is why anhydrous copper(II) sulphate is used as a qualitative test for moisture.\nEthanol may dissolve some copper salts but does not provide the specific water ligands to form the blue pentahydrate, so it will not give the same colour change.\nBenzene is non‑polar and incapable of hydrating or coordinating to Cu2+, so it cannot turn the sample blue.\nThe option 'acid' is ambiguous: only aqueous acids (which contain water) could hydrate CuSO4, whereas concentrated or anhydrous acids are often dehydrating and would not produce the blue pentahydrate.",
+      "after": "The key concept is hydration: anhydrous CuSO4 (white) forms the blue coordination compound CuSO4·5H2O when water molecules coordinate to Cu2+.\nAdding water supplies the five water ligands that convert the salt to its pentahydrate, so water turns the white powder blue.\nThis reversible colour change is why anhydrous copper(II) sulphate is used as a qualitative test for moisture.\nThe option 'acid' is ambiguous: only aqueous acids (which contain water) could hydrate CuSO4, whereas concentrated or anhydrous acids are often dehydrating and would not produce the blue pentahydrate."
+    },
+    {
+      "id": 90209,
+      "externalId": "TechMed-Complete-Question-Bank-md-86",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An electrolyte is the ionic conductor in a cell that carries charge and participates in electrode reactions; in a lead–acid car battery the electrolyte is dilute H2SO4 (sulphuric acid).\nIn discharge the reactions at the electrodes convert Pb (anode) and PbO2 (cathode) to PbSO4, consuming SO4^2− and producing water, and these processes reverse on charging.\nH2SO4 is correct because it supplies abundant SO4^2− and H+ for good conductivity and for the reversible formation/dissolution of lead(II) sulfate (PbSO4).\nHCl would supply chloride ions that aggressively corrode lead and form non‑reversible chlorides, so it is unsuitable despite being a strong acid.\nHNO3 is both an oxidising acid that would attack and oxidise the lead plates and would produce nitrates and gases, while CH3COOH is a weak organic acid with low ionic strength and cannot support the necessary reversible sulphation chemistry.\nPractical lead–acid batteries use dilute rather than concentrated H2SO4 because concentration affects corrosion and reversibility, and the acid concentration itself varies with state of charge and is used as an indicator of battery state.",
+      "after": "An electrolyte is the ionic conductor in a cell that carries charge and participates in electrode reactions; in a lead–acid car battery the electrolyte is dilute H2SO4 (sulphuric acid).\nIn discharge the reactions at the electrodes convert Pb (anode) and PbO2 (cathode) to PbSO4, consuming SO4^2− and producing water, and these processes reverse on charging.\nH2SO4 is correct because it supplies abundant SO4^2− and H+ for good conductivity and for the reversible formation/dissolution of lead(II) sulfate (PbSO4).\nPractical lead–acid batteries use dilute rather than concentrated H2SO4 because concentration affects corrosion and reversibility, and the acid concentration itself varies with state of charge and is used as an indicator of battery state."
+    },
+    {
+      "id": 90211,
+      "externalId": "TechMed-Complete-Question-Bank-md-88",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The functional group of alkanols (alcohols) is the hydroxyl group, written –OH, attached to a saturated (sp3) carbon atom.\nAlkanols have the general formula R–OH (often written CnH2n+1OH), formed when one hydrogen of an alkane is replaced by a hydroxyl, which gives alcohol-specific properties.\nCOOH is the carboxyl group of carboxylic (alkanoic) acids and is acidic and reactive with carbonates, so it is not the alcohol functional group.\nCHO denotes an aldehyde (formyl) group found in alkanals, while CO- here refers to a carbonyl (C=O) linkage in ketones/acyls; both involve C=O not O–H.\nAlkanols can be distinguished chemically by reactions such as esterification, oxidation of primary/secondary alcohols, and reaction with sodium metal to evolve hydrogen, which differ from COOH, CHO and C=O behaviours.\nThus OH is the correct answer because the hydroxyl group defines alkanols and is distinct in bonding and reactivity from COOH, CHO and CO-.",
+      "after": "The functional group of alkanols (alcohols) is the hydroxyl group, written –OH, attached to a saturated (sp3) carbon atom.\nAlkanols have the general formula R–OH (often written CnH2n+1OH), formed when one hydrogen of an alkane is replaced by a hydroxyl, which gives alcohol-specific properties.\nCOOH is the carboxyl group of carboxylic (alkanoic) acids and is acidic and reactive with carbonates, so it is not the alcohol functional group.\nThus OH is the correct answer because the hydroxyl group defines alkanols and is distinct in bonding and reactivity from COOH, CHO and CO-."
+    },
+    {
+      "id": 90212,
+      "externalId": "TechMed-Complete-Question-Bank-md-89",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Haematite is the common iron ore with the chemical formula Fe2O3.\nIron is extracted from haematite by reduction in a blast furnace where coke burns to CO which reduces Fe2O3 to metallic iron (Fe2O3 + 3CO → 2Fe + 3CO2).\nTherefore the metal obtained from haematite is iron, so the correct option is Iron.\nAluminium is not extracted from haematite but from bauxite (mainly Al2O3·xH2O) by electrolytic reduction of molten alumina in cryolite.\nCopper is typically obtained from sulphide ores such as chalcopyrite (CuFeS2) or from oxide ores, and zinc is obtained from sphalerite (ZnS); none of these are haematite.\nCoke produced by destructive distillation of coal serves as the fuel and reducing agent in the blast furnace to smelt haematite to iron.",
+      "after": "Haematite is the common iron ore with the chemical formula Fe2O3.\nIron is extracted from haematite by reduction in a blast furnace where coke burns to CO which reduces Fe2O3 to metallic iron (Fe2O3 + 3CO → 2Fe + 3CO2).\nTherefore the metal obtained from haematite is iron, so the correct option is Iron.\nCoke produced by destructive distillation of coal serves as the fuel and reducing agent in the blast furnace to smelt haematite to iron."
+    },
+    {
+      "id": 90215,
+      "externalId": "TechMed-Complete-Question-Bank-md-92",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The exact concept is the Haber–Bosch process: the equilibrium reaction N2 + 3H2 ⇌ 2NH3 synthesises ammonia (NH3).\nIndustrially the reaction is carried out at high pressure, elevated temperature and over an iron catalyst to favour ammonia production.\nAmmonia is the direct chemical product of that equation, so the correct option is Ammonia.\nNitric acid is not produced by this reaction; it is made by oxidising ammonia (the Ostwald process) rather than directly from N2 and H2.\nFertilisers and many explosives are downstream products derived from ammonia (for example ammonium nitrate), so those options describe uses or derivatives, not the immediate product.\nBecause the reaction is reversible, Le Chatelier’s principle explains why pressure, temperature and catalysis are adjusted to maximise NH3 yield.",
+      "after": "The exact concept is the Haber–Bosch process: the equilibrium reaction N2 + 3H2 ⇌ 2NH3 synthesises ammonia (NH3).\nIndustrially the reaction is carried out at high pressure, elevated temperature and over an iron catalyst to favour ammonia production.\nAmmonia is the direct chemical product of that equation, so the correct option is Ammonia.\nBecause the reaction is reversible, Le Chatelier’s principle explains why pressure, temperature and catalysis are adjusted to maximise NH3 yield."
+    },
+    {
+      "id": 90216,
+      "externalId": "TechMed-Complete-Question-Bank-md-93",
+      "subject": "Chemistry",
+      "topic": "States of Matter and Intermolecular Forces",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Physical states of the halogens at room temperature are set by molecular size and London dispersion forces between their diatomic molecules.\nBromine (Br2) is a reddish-brown diatomic liquid at room temperature because its larger molecular mass and greater polarizability give it stronger dispersion forces and a boiling point (~58.8°C) above ambient temperature.\nFluorine (F2) and chlorine (Cl2) are gases at room temperature since their much smaller, less polarizable molecules have weaker dispersion forces and far lower boiling points.\nIodine (I2) is a crystalline solid at room temperature; although highly polarizable, its melting and boiling points are higher than ambient so it is not a liquid under standard conditions.\nAll four options are diatomic halogens, so the correct selection hinges on the trend of increasing intermolecular forces down the group which raises melting and boiling points.\nThus bromine is the only halogen listed that is liquid at ordinary room temperature, making it the correct answer.",
+      "after": "Physical states of the halogens at room temperature are set by molecular size and London dispersion forces between their diatomic molecules.\nBromine (Br2) is a reddish-brown diatomic liquid at room temperature because its larger molecular mass and greater polarizability give it stronger dispersion forces and a boiling point (~58.8°C) above ambient temperature.\nFluorine (F2) and chlorine (Cl2) are gases at room temperature since their much smaller, less polarizable molecules have weaker dispersion forces and far lower boiling points.\nThus bromine is the only halogen listed that is liquid at ordinary room temperature, making it the correct answer."
+    },
+    {
+      "id": 90217,
+      "externalId": "TechMed-Complete-Question-Bank-md-94",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Relative atomic mass (the unified atomic mass scale) compares an atom's mass to a chosen standard isotope.\nBy international definition 1 atomic mass unit (1 u) is exactly 1/12 of the mass of a carbon-12 atom, so relative atomic masses are based on the isotope carbon-12.\nCarbon-12 was chosen because it is a stable, abundant isotope that gives a precise and reproducible reference for mass measurements.\nHydrogen is not the standard even though it is the lightest element; its isotopic variations and experimental limitations make it unsuitable as the universal reference.\nOxygen was used historically by chemists as a reference, but the unified modern scale adopted carbon-12 to reconcile chemical and physical mass scales.\nCarbon-14 cannot serve as the basis because it is radioactive and not a stable, consistent mass reference, which is why carbon-12 is correct.",
+      "after": "Relative atomic mass (the unified atomic mass scale) compares an atom's mass to a chosen standard isotope.\nBy international definition 1 atomic mass unit (1 u) is exactly 1/12 of the mass of a carbon-12 atom, so relative atomic masses are based on the isotope carbon-12.\nCarbon-12 was chosen because it is a stable, abundant isotope that gives a precise and reproducible reference for mass measurements.\nCarbon-14 cannot serve as the basis because it is radioactive and not a stable, consistent mass reference, which is why carbon-12 is correct."
+    },
+    {
+      "id": 90219,
+      "externalId": "TechMed-Complete-Question-Bank-md-96",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Rusting is electrochemical corrosion of iron that yields hydrated iron(III) oxide (rust).\nWater acts as the electrolyte enabling iron to lose electrons and form Fe2+ ions, while dissolved oxygen accepts those electrons and is reduced.\nA representative overall equation is 4Fe + 3O2 + 6H2O → 4Fe(OH)3, which on dehydration gives Fe2O3·nH2O (rust).\nBecause both an oxidant (oxygen) and an aqueous medium (water) are needed, the correct option is 'Water and Oxygen'.\n'Water only' or 'Oxygen only' are incomplete: oxygen needs water to permit ionic movement, and water alone cannot oxidize iron without an oxidizing agent.\nCarbon dioxide may speed corrosion by forming carbonic acid but is not a basic requirement for rusting.",
+      "after": "Rusting is electrochemical corrosion of iron that yields hydrated iron(III) oxide (rust).\nWater acts as the electrolyte enabling iron to lose electrons and form Fe2+ ions, while dissolved oxygen accepts those electrons and is reduced.\nA representative overall equation is 4Fe + 3O2 + 6H2O → 4Fe(OH)3, which on dehydration gives Fe2O3·nH2O (rust).\nCarbon dioxide may speed corrosion by forming carbonic acid but is not a basic requirement for rusting."
+    },
+    {
+      "id": 90220,
+      "externalId": "TechMed-Complete-Question-Bank-md-97",
+      "subject": "Chemistry",
+      "topic": "Redox Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is 'reducing agent' meaning a species that donates electrons and is itself oxidised in a redox reaction.\nH2S is the reducing agent because it readily loses electrons and is oxidised, commonly to elemental sulfur (or further to sulfate under strong oxidising conditions).\nA representative half‑reaction is H2S → S + 2H+ + 2e−, which shows H2S supplies electrons to reduce other species.\nKMnO4 is an oxidising agent since Mn(VII) accepts electrons and is reduced (to MnO2 in neutral/alkaline media or to Mn2+ in strongly acidic media).\nK2Cr2O7 contains Cr(VI) which is reduced to Cr3+, and Cl2 gains electrons to form Cl−, so both are oxidisers rather than reducers.\nHence H2S is the correct reducing agent among the options, while KMnO4, K2Cr2O7 and Cl2 act as oxidising agents under standard conditions.",
+      "after": "The concept tested is 'reducing agent' meaning a species that donates electrons and is itself oxidised in a redox reaction.\nH2S is the reducing agent because it readily loses electrons and is oxidised, commonly to elemental sulfur (or further to sulfate under strong oxidising conditions).\nA representative half‑reaction is H2S → S + 2H+ + 2e−, which shows H2S supplies electrons to reduce other species.\nHence H2S is the correct reducing agent among the options, while KMnO4, K2Cr2O7 and Cl2 act as oxidising agents under standard conditions."
+    },
+    {
+      "id": 90221,
+      "externalId": "TechMed-Complete-Question-Bank-md-98",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Isotopy is the phenomenon in which atoms of the same element have different mass numbers because they contain different numbers of neutrons.\nIsotopy is the correct option because isotopes have the same atomic number (same proton count) but differ in neutron number and thus mass number.\nIsobars are a plausible distractor but they are atoms of different elements that share the same mass number, not atoms of the same element.\nIsomerism is unrelated here: it describes different compounds with the same molecular formula but different arrangements of atoms, not atomic mass differences.\nAllotropy also differs: it denotes different structural forms of an element in the same state (e.g., graphite and diamond for carbon), not variation in mass number.\nConcrete examples help: Carbon-12 and Carbon-14 illustrate isotopy (same element, different mass numbers), while Calcium-40 and Argon-40 are isobars.",
+      "after": "Isotopy is the phenomenon in which atoms of the same element have different mass numbers because they contain different numbers of neutrons.\nIsotopy is the correct option because isotopes have the same atomic number (same proton count) but differ in neutron number and thus mass number.\nIsobars are a plausible distractor but they are atoms of different elements that share the same mass number, not atoms of the same element.\nConcrete examples help: Carbon-12 and Carbon-14 illustrate isotopy (same element, different mass numbers), while Calcium-40 and Argon-40 are isobars."
+    },
+    {
+      "id": 180001,
+      "externalId": "chem-part1-md-Chemistry-18",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Stainless steel is an iron-based alloy whose corrosion resistance comes from the deliberate addition of chromium and often nickel.\nChromium (defined in standards as at least about 10.5% by mass) forms a thin, adherent chromium(III) oxide film on the surface that passivates the steel and self-repairs when scratched.\nNickel stabilises the austenitic crystal structure in common grades (for example 304 stainless ≈18% Cr, ≈8% Ni), improving toughness, ductility and resistance to certain corrosive environments.\nBecause corrosion protection and mechanical behaviour are provided by chromium plus nickel, the correct choice is Chromium and Nickel, which together define most commercial stainless steels.\nManganese is used in steels as a deoxidiser and to increase strength, and magnesium is not a standard stainless alloying addition, so 'Manganese and Magnesium' is not characteristic of stainless steel.\nCopper can be added to some special steels and lead is used only to improve machinability in some non-stainless steels, so neither copper nor lead are the defining alloying elements of stainless steel.",
+      "after": "Stainless steel is an iron-based alloy whose corrosion resistance comes from the deliberate addition of chromium and often nickel.\nChromium (defined in standards as at least about 10.5% by mass) forms a thin, adherent chromium(III) oxide film on the surface that passivates the steel and self-repairs when scratched.\nNickel stabilises the austenitic crystal structure in common grades (for example 304 stainless ≈18% Cr, ≈8% Ni), improving toughness, ductility and resistance to certain corrosive environments.\nCopper can be added to some special steels and lead is used only to improve machinability in some non-stainless steels, so neither copper nor lead are the defining alloying elements of stainless steel."
+    },
+    {
+      "id": 180003,
+      "externalId": "chem-part1-md-Chemistry-32",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The reaction is the thermal decomposition of potassium chlorate: 2KClO3 → 2KCl + 3O2, and the question asks which substance catalyses this decomposition to give O2 more readily.\nManganese(IV) oxide (MnO2) is the standard laboratory catalyst because it provides an alternative pathway with a lower activation energy so oxygen is evolved at a lower temperature.\nMnO2 remains chemically unchanged and increases the rate of decomposition without being consumed, which is why it is the correct option.\nPotassium permanganate (KMnO4) is a strong oxidiser that would itself decompose or oxidise substances on heating rather than acting as an inert catalyst for KClO3.\nMetallic nickel is not the conventional catalyst for potassium chlorate decomposition and is not used in the standard school preparation of oxygen from KClO3.\nConcentrated sulfuric acid does not catalyse this thermal decomposition and can react dangerously with chlorates, so H2SO4 is not an appropriate catalyst.",
+      "after": "The reaction is the thermal decomposition of potassium chlorate: 2KClO3 → 2KCl + 3O2, and the question asks which substance catalyses this decomposition to give O2 more readily.\nManganese(IV) oxide (MnO2) is the standard laboratory catalyst because it provides an alternative pathway with a lower activation energy so oxygen is evolved at a lower temperature.\nMnO2 remains chemically unchanged and increases the rate of decomposition without being consumed, which is why it is the correct option.\nConcentrated sulfuric acid does not catalyse this thermal decomposition and can react dangerously with chlorates, so H2SO4 is not an appropriate catalyst."
+    },
+    {
+      "id": 180005,
+      "externalId": "chem-part1-md-Chemistry-40",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The key concept is \"like dissolves like\": non‑polar solvents dissolve non‑polar substances such as grease and oils.\nCarbon tetrachloride (CCl4) is a non‑polar liquid solvent that effectively solubilises greases, which is why it is the textbook answer.\nCCl4 removes grease by physical solvation rather than chemical reaction, allowing oily residues to disperse into the solvent.\nChloroform (CHCl3) is also an organic solvent and can dissolve many non‑polar compounds, but CCl4 was the classic industrial dry‑cleaning and degreasing choice.\nMethane (CH4) and chloromethane (CH3Cl) are gases at room temperature and are not practical liquid solvents for removing grease.\nNote that CCl4 is toxic and contributes to ozone depletion, so safer alternatives are used in practice today.",
+      "after": "The key concept is \"like dissolves like\": non‑polar solvents dissolve non‑polar substances such as grease and oils.\nCarbon tetrachloride (CCl4) is a non‑polar liquid solvent that effectively solubilises greases, which is why it is the textbook answer.\nCCl4 removes grease by physical solvation rather than chemical reaction, allowing oily residues to disperse into the solvent.\nNote that CCl4 is toxic and contributes to ozone depletion, so safer alternatives are used in practice today."
+    },
+    {
+      "id": 180009,
+      "externalId": "chem-part1-md-Chemistry-46",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A Faraday (F) is the charge carried by one mole of electrons, approximately 96,500 coulombs per mole.\nThe number of Faradays for a charge Q is Q ÷ 96,500, so here F = 675 ÷ 96,500 ≈ 0.006994.\nIn scientific notation that equals 6.99 × 10⁻³ F, which is the correct option given.\nThe 0.07 F option is about ten times larger and could result from dividing by 9,650 instead of 96,500 (a misplaced decimal), so it is incorrect.\nOptions 1 F and 0.5 F correspond to 96,500 C and 48,250 C respectively, both far greater than 675 C and therefore not applicable.\nUse moles of electrons = Q ÷ F (here ≈6.99×10⁻³ mol e⁻) to relate the charge to amounts of substance via the half‑reaction stoichiometry.",
+      "after": "A Faraday (F) is the charge carried by one mole of electrons, approximately 96,500 coulombs per mole.\nThe number of Faradays for a charge Q is Q ÷ 96,500, so here F = 675 ÷ 96,500 ≈ 0.006994.\nIn scientific notation that equals 6.99 × 10⁻³ F, which is the correct option given.\nUse moles of electrons = Q ÷ F (here ≈6.99×10⁻³ mol e⁻) to relate the charge to amounts of substance via the half‑reaction stoichiometry."
+    }
+  ]
+}

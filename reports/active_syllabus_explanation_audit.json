@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-08-16T00:23:48.999Z",
+  "auditedAt": "2026-08-16T01:47:07.242Z",
   "totalActiveApproved": 2621,
   "topicStatus": [
     {
@@ -14,11 +14,11 @@
   "explanationStatus": [
     {
       "value": "within-cap",
-      "count": 1585
+      "count": 1725
     },
     {
       "value": "over-five-lines",
-      "count": 386
+      "count": 246
     },
     {
       "value": "exempt-reading-text",
@@ -3824,17 +3824,6 @@
       "wordCount": 137
     },
     {
-      "questionId": 30073,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 153
-    },
-    {
       "questionId": 30074,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -3857,17 +3846,6 @@
       "wordCount": 140
     },
     {
-      "questionId": 30076,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
       "questionId": 30077,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -3877,72 +3855,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 134
-    },
-    {
-      "questionId": 30078,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
-      "questionId": 30079,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
-    },
-    {
-      "questionId": 30080,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 112
-    },
-    {
-      "questionId": 30081,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 30082,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 30083,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
     },
     {
       "questionId": 30085,
@@ -3956,138 +3868,6 @@
       "wordCount": 134
     },
     {
-      "questionId": 30086,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 156
-    },
-    {
-      "questionId": 30087,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 30088,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
-      "questionId": 30090,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Respiration and Gas Exchange",
-      "mappedTopic": "Respiration",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 158
-    },
-    {
-      "questionId": 30091,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 111
-    },
-    {
-      "questionId": 30112,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 155
-    },
-    {
-      "questionId": 30113,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Endocrine Regulation",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 30115,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 100
-    },
-    {
-      "questionId": 30116,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 30117,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support and Movement",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 30119,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Respiration and Gas Exchange",
-      "mappedTopic": "Respiration",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 30120,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 114
-    },
-    {
       "questionId": 30126,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4099,28 +3879,6 @@
       "wordCount": 124
     },
     {
-      "questionId": 30164,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 146
-    },
-    {
-      "questionId": 30165,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
       "questionId": 30166,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4130,182 +3888,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 112
-    },
-    {
-      "questionId": 30167,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
-      "questionId": 30168,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
-    },
-    {
-      "questionId": 30169,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Behaviour and Social Organization",
-      "mappedTopic": "Coordination and control",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 30170,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 30171,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 161
-    },
-    {
-      "questionId": 30172,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 135
-    },
-    {
-      "questionId": 30173,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 153
-    },
-    {
-      "questionId": 30174,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 30175,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 106
-    },
-    {
-      "questionId": 30196,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 30197,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 30198,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 30199,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
-      "questionId": 30200,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 30201,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 134
-    },
-    {
-      "questionId": 30202,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
     },
     {
       "questionId": 30203,
@@ -4328,28 +3910,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 120
-    },
-    {
-      "questionId": 30205,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 135
-    },
-    {
-      "questionId": 30206,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 119
     },
     {
       "questionId": 30238,
@@ -4396,171 +3956,6 @@
       "wordCount": 123
     },
     {
-      "questionId": 30254,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 30255,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 144
-    },
-    {
-      "questionId": 30256,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
-    },
-    {
-      "questionId": 30257,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 100
-    },
-    {
-      "questionId": 30258,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30279,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 146
-    },
-    {
-      "questionId": 30280,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 160
-    },
-    {
-      "questionId": 30281,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 118
-    },
-    {
-      "questionId": 30282,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 30283,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 151
-    },
-    {
-      "questionId": 30284,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 144
-    },
-    {
-      "questionId": 30285,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 158
-    },
-    {
-      "questionId": 30286,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 128
-    },
-    {
-      "questionId": 30287,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Humans and Environment",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 30288,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 148
-    },
-    {
       "questionId": 30289,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4570,28 +3965,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 132
-    },
-    {
-      "questionId": 30290,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 30291,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
     },
     {
       "questionId": 30292,
@@ -4605,28 +3978,6 @@
       "wordCount": 141
     },
     {
-      "questionId": 30293,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 116
-    },
-    {
-      "questionId": 30294,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
       "questionId": 30295,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4636,17 +3987,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 131
-    },
-    {
-      "questionId": 30296,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 135
     },
     {
       "questionId": 30320,
@@ -4693,17 +4033,6 @@
       "wordCount": 142
     },
     {
-      "questionId": 30362,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
       "questionId": 30363,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4713,83 +4042,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 142
-    },
-    {
-      "questionId": 30364,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
-    },
-    {
-      "questionId": 30365,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
-    },
-    {
-      "questionId": 30366,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 160
-    },
-    {
-      "questionId": 30367,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Support, Movement and Sensory Systems",
-      "mappedTopic": "Support and movement",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
-      "questionId": 30368,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 30369,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Reproduction",
-      "mappedTopic": "Reproduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 30370,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 151
     },
     {
       "questionId": 30371,
@@ -4803,17 +4055,6 @@
       "wordCount": 158
     },
     {
-      "questionId": 30372,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
-    },
-    {
       "questionId": 30373,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
       "subject": "Biology",
@@ -4823,127 +4064,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 130
-    },
-    {
-      "questionId": 30374,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Classification and Diversity",
-      "mappedTopic": "Evolution and classification",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 111
-    },
-    {
-      "questionId": 30375,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Health and Disease",
-      "mappedTopic": "Humans and environment",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 30376,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Transport",
-      "mappedTopic": "Transport",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 30377,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 30378,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Digestion",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 30379,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Genetics and Evolution",
-      "mappedTopic": "Theories of evolution",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 149
-    },
-    {
-      "questionId": 30400,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Cell Biology and Metabolism",
-      "mappedTopic": "Living organisms and organization",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 115
-    },
-    {
-      "questionId": 30401,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Ecology",
-      "mappedTopic": "Natural habitats",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 110
-    },
-    {
-      "questionId": 30402,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Respiration and Gas Exchange",
-      "mappedTopic": "Respiration",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 149
-    },
-    {
-      "questionId": 30403,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Nutrition and Diet",
-      "mappedTopic": "Nutrition and digestion",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 30404,
-      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "subject": "Biology",
-      "originalTopic": "Plant Biology",
-      "mappedTopic": "Plant and mammal structure",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 139
     },
     {
       "questionId": 30405,
@@ -5705,61 +4825,6 @@
       "wordCount": 116
     },
     {
-      "questionId": 60029,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 148
-    },
-    {
-      "questionId": 60030,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Combustion and Fuels",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 111
-    },
-    {
-      "questionId": 60031,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry and Polymers",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 146
-    },
-    {
-      "questionId": 60033,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Combustion and Fuels",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 60035,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 139
-    },
-    {
       "questionId": 60036,
       "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
       "subject": "Chemistry",
@@ -5780,171 +4845,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 125
-    },
-    {
-      "questionId": 60038,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Separation Techniques",
-      "mappedTopic": "Separation of mixtures",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 110
-    },
-    {
-      "questionId": 60039,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "States of Matter and Intermolecular Forces",
-      "mappedTopic": "Kinetic theory of matter and gases",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 60040,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 158
-    },
-    {
-      "questionId": 60041,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 131
-    },
-    {
-      "questionId": 60045,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Gas Laws and Diffusion",
-      "mappedTopic": "Kinetic theory of matter and gases",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 126
-    },
-    {
-      "questionId": 60046,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 60047,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Mole Concept and Stoichiometry",
-      "mappedTopic": "Chemical combination",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 155
-    },
-    {
-      "questionId": 60049,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 60050,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Redox Chemistry",
-      "mappedTopic": "Oxidation and reduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 152
-    },
-    {
-      "questionId": 60052,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 146
-    },
-    {
-      "questionId": 60053,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 125
-    },
-    {
-      "questionId": 60055,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 130
-    },
-    {
-      "questionId": 60057,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
-      "questionId": 60058,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
-      "questionId": 60059,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
     },
     {
       "questionId": 60076,
@@ -5978,149 +4878,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 113
-    },
-    {
-      "questionId": 60094,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Qualitative Analysis",
-      "mappedTopic": "Solubility",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 60095,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 116
-    },
-    {
-      "questionId": 60096,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry and Polymers",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 121
-    },
-    {
-      "questionId": 60098,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "States of Matter and Intermolecular Forces",
-      "mappedTopic": "Kinetic theory of matter and gases",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 142
-    },
-    {
-      "questionId": 60099,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 60101,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Redox Chemistry",
-      "mappedTopic": "Oxidation and reduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 60102,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 117
-    },
-    {
-      "questionId": 60104,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
-      "questionId": 60105,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 60106,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Chemical Kinetics",
-      "mappedTopic": "Rates of reaction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 60107,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 60108,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Industrial Chemistry",
-      "mappedTopic": "Chemistry and industry",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 60109,
-      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Combustion and Fuels",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
     },
     {
       "questionId": 90001,
@@ -7344,105 +6101,6 @@
       "wordCount": 135
     },
     {
-      "questionId": 90147,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 136
-    },
-    {
-      "questionId": 90152,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Mole Concept and Stoichiometry",
-      "mappedTopic": "Chemical combination",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 129
-    },
-    {
-      "questionId": 90153,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Hydrocarbons and Petroleum",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 145
-    },
-    {
-      "questionId": 90154,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Industrial Chemistry",
-      "mappedTopic": "Chemistry and industry",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 144
-    },
-    {
-      "questionId": 90157,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Mole Concept and Stoichiometry",
-      "mappedTopic": "Chemical combination",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 192
-    },
-    {
-      "questionId": 90159,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
-    },
-    {
-      "questionId": 90164,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Redox Chemistry",
-      "mappedTopic": "Oxidation and reduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 111
-    },
-    {
-      "questionId": 90198,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 143
-    },
-    {
-      "questionId": 90199,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 162
-    },
-    {
       "questionId": 90200,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "subject": "Chemistry",
@@ -7454,39 +6112,6 @@
       "wordCount": 145
     },
     {
-      "questionId": 90201,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry and Polymers",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 132
-    },
-    {
-      "questionId": 90202,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 169
-    },
-    {
-      "questionId": 90204,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Acids, Bases and Salts",
-      "mappedTopic": "Acids, bases and salts",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 166
-    },
-    {
       "questionId": 90206,
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "subject": "Chemistry",
@@ -7496,127 +6121,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 120
-    },
-    {
-      "questionId": 90207,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 120
-    },
-    {
-      "questionId": 90208,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Qualitative Analysis",
-      "mappedTopic": "Solubility",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90209,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Electrochemistry",
-      "mappedTopic": "Electrolysis",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 172
-    },
-    {
-      "questionId": 90211,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Organic Chemistry",
-      "mappedTopic": "Organic compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 90212,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 123
-    },
-    {
-      "questionId": 90215,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Industrial Chemistry",
-      "mappedTopic": "Chemistry and industry",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 122
-    },
-    {
-      "questionId": 90216,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "States of Matter and Intermolecular Forces",
-      "mappedTopic": "Kinetic theory of matter and gases",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 154
-    },
-    {
-      "questionId": 90217,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
-    },
-    {
-      "questionId": 90219,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 113
-    },
-    {
-      "questionId": 90220,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Redox Chemistry",
-      "mappedTopic": "Oxidation and reduction",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 133
-    },
-    {
-      "questionId": 90221,
-      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Atomic Structure and Bonding",
-      "mappedTopic": "Atomic structure and bonding",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 137
     },
     {
       "questionId": 90224,
@@ -7859,50 +6363,6 @@
       "explanationStatus": "over-five-lines",
       "explicitLineCount": 6,
       "wordCount": 174
-    },
-    {
-      "questionId": 180001,
-      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Metals and Extraction",
-      "mappedTopic": "Metals and their compounds",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 164
-    },
-    {
-      "questionId": 180003,
-      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "General Chemistry",
-      "mappedTopic": "Chemical combination",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 147
-    },
-    {
-      "questionId": 180005,
-      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "General Chemistry",
-      "mappedTopic": "Chemical combination",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 115
-    },
-    {
-      "questionId": 180009,
-      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
-      "subject": "Chemistry",
-      "originalTopic": "Electrochemistry",
-      "mappedTopic": "Electrolysis",
-      "topicStatus": "mapped",
-      "explanationStatus": "over-five-lines",
-      "explicitLineCount": 6,
-      "wordCount": 127
     },
     {
       "questionId": 180019,

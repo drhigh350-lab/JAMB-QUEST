@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 5,
+  "batchSize": 20,
+  "eligibleTotal": 235,
+  "selected": [
+    {
+      "id": 30073,
+      "externalId": "BIO-OWNER-M2-Q30",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sex-linked recessive traits are caused by alleles on the X chromosome and are expressed when no dominant allele is present to mask them.\nMales are XY and therefore hemizygous for X-linked genes: having only one X means a single recessive allele on that X will be expressed.\nThe correct option is that the Y chromosome lacks corresponding alleles for those X-linked genes, so a male has no second X-linked allele to override a recessive one.\nOption A is wrong because males do not have two X chromosomes—females are XX, not males.\nOption B is wrong because the Y chromosome does not generally carry corresponding dominant alleles for most X-linked genes; it contains few homologous genes.\nOption D is not the explanation: although all eggs carry an X, females can be heterozygous and require two recessive alleles to show an X-linked recessive trait, so such traits appear less frequently in females than in males.",
+      "after": "Sex-linked recessive traits are caused by alleles on the X chromosome and are expressed when no dominant allele is present to mask them.\nMales are XY and therefore hemizygous for X-linked genes: having only one X means a single recessive allele on that X will be expressed.\nThe correct option is that the Y chromosome lacks corresponding alleles for those X-linked genes, so a male has no second X-linked allele to override a recessive one.\nOption D is not the explanation: although all eggs carry an X, females can be heterozygous and require two recessive alleles to show an X-linked recessive trait, so such traits appear less frequently in females than in males."
+    },
+    {
+      "id": 30076,
+      "externalId": "BIO-OWNER-M2-Q33",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Primary succession occurs on newly formed or exposed substrates where no soil or prior community exists, such as a volcanic island.\nPioneer species like lichens and mosses colonize bare rock, chemically and physically weather it, and contribute organic matter to form soil for later plants.\n'Primary succession' is correct because it specifically describes the sequential development of communities starting from lifeless substrates with no preexisting soil or vegetation.\nSecondary succession differs because it proceeds on sites where a community was previously present but was disturbed, and soil and some organisms typically remain (e.g., after fire or cultivation).\nClimax succession refers to the relatively stable, final community stage reached at the end of the successional sequence, not the initial establishment on bare ground.\n'Biotic succession' is not a standard alternative term distinguishing primary versus secondary succession; it simply implies changes in living communities without specifying the starting conditions.",
+      "after": "Primary succession occurs on newly formed or exposed substrates where no soil or prior community exists, such as a volcanic island.\nPioneer species like lichens and mosses colonize bare rock, chemically and physically weather it, and contribute organic matter to form soil for later plants.\n'Primary succession' is correct because it specifically describes the sequential development of communities starting from lifeless substrates with no preexisting soil or vegetation.\n'Biotic succession' is not a standard alternative term distinguishing primary versus secondary succession; it simply implies changes in living communities without specifying the starting conditions."
+    },
+    {
+      "id": 30078,
+      "externalId": "BIO-OWNER-M2-Q35",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Incomplete dominance occurs when the heterozygote shows an intermediate phenotype between the two homozygotes.\nA cross RR × rr yielding F1 Rr with pink flowers is a classic example of blending, which is characteristic of incomplete dominance.\nComplete dominance would give red flowers in the heterozygote because the dominant allele would completely mask the recessive allele.\nCodominance would display both parental traits simultaneously (for example distinct red and white patches), not a uniform pink blend.\nMultiple alleles involves more than two allelic forms in a population and is not required to explain a two-allele intermediate phenotype.\nThus the F1 genotype Rr producing pink flowers fits incomplete dominance, with RR = red and rr = white as the parental homozygotes.",
+      "after": "Incomplete dominance occurs when the heterozygote shows an intermediate phenotype between the two homozygotes.\nA cross RR × rr yielding F1 Rr with pink flowers is a classic example of blending, which is characteristic of incomplete dominance.\nComplete dominance would give red flowers in the heterozygote because the dominant allele would completely mask the recessive allele.\nThus the F1 genotype Rr producing pink flowers fits incomplete dominance, with RR = red and rr = white as the parental homozygotes."
+    },
+    {
+      "id": 30079,
+      "externalId": "BIO-OWNER-M2-Q36",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks which nitrogenous base occurs in RNA but not in DNA, and the correct choice is uracil.\nUracil is a pyrimidine base found in RNA where it pairs with adenine by forming two hydrogen bonds.\nDNA uses thymine in the adenine-pairing position instead of uracil; thymine is chemically distinct by having a methyl group at the 5‑carbon.\nAdenine and guanine are purine bases present in both DNA and RNA, so they are not unique to RNA.\nCytosine is another pyrimidine found in both nucleic acids, so the key difference is that RNA contains uracil while DNA contains thymine.\nThus uracil is correct because it is present in RNA but absent from DNA, which contains thymine instead.",
+      "after": "The question asks which nitrogenous base occurs in RNA but not in DNA, and the correct choice is uracil.\nUracil is a pyrimidine base found in RNA where it pairs with adenine by forming two hydrogen bonds.\nDNA uses thymine in the adenine-pairing position instead of uracil; thymine is chemically distinct by having a methyl group at the 5‑carbon.\nThus uracil is correct because it is present in RNA but absent from DNA, which contains thymine instead."
+    },
+    {
+      "id": 30080,
+      "externalId": "BIO-OWNER-M2-Q37",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question targets a hydrodynamic structural adaptation that reduces drag between a fish's body and the surrounding water.\nOverlapping scales covered with mucus create a smooth, lubricated outer surface so water flows more easily over the body, reducing friction.\nThe overlapping arrangement also minimizes turbulence by guiding water smoothly along the fish's flank.\nThe lateral line system is a sensory organ for detecting vibrations and pressure changes in the water, not a friction-reducing structure.\nThe operculum is a bony cover that protects the gills and aids ventilation but does not lower external drag.\nThe swim bladder regulates buoyancy to help maintain depth and has no role in reducing surface friction during swimming.",
+      "after": "The question targets a hydrodynamic structural adaptation that reduces drag between a fish's body and the surrounding water.\nOverlapping scales covered with mucus create a smooth, lubricated outer surface so water flows more easily over the body, reducing friction.\nThe overlapping arrangement also minimizes turbulence by guiding water smoothly along the fish's flank.\nThe swim bladder regulates buoyancy to help maintain depth and has no role in reducing surface friction during swimming."
+    },
+    {
+      "id": 30081,
+      "externalId": "BIO-OWNER-M2-Q38",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Biological control is the deliberate use of living organisms—predators, parasites, parasitoids or pathogens—to reduce pest populations to acceptable levels.\nIntroducing natural predators or parasites is correct because these agents specifically attack the pest, lower its reproductive success and can establish to provide ongoing, often self‑sustaining control without synthetic chemicals.\nExamples include ladybird beetles for aphids, parasitoid wasps for caterpillars and microbial agents such as Bacillus thuringiensis against certain insect larvae.\nSpraying synthetic chemical insecticides is chemical control rather than biological control; it provides rapid knockdown but can cause resistance, residues and harm to non‑target organisms.\nBurning infested farmlands is a physical or cultural method that may reduce pest load locally but destroys crops and beneficial species and is not a targeted biological control strategy.\nRotating crops is a cultural practice that breaks pest life cycles and reduces pest pressure over seasons but does not involve introducing natural enemies and so is not biological control.",
+      "after": "Biological control is the deliberate use of living organisms—predators, parasites, parasitoids or pathogens—to reduce pest populations to acceptable levels.\nIntroducing natural predators or parasites is correct because these agents specifically attack the pest, lower its reproductive success and can establish to provide ongoing, often self‑sustaining control without synthetic chemicals.\nExamples include ladybird beetles for aphids, parasitoid wasps for caterpillars and microbial agents such as Bacillus thuringiensis against certain insect larvae.\nRotating crops is a cultural practice that breaks pest life cycles and reduces pest pressure over seasons but does not involve introducing natural enemies and so is not biological control."
+    },
+    {
+      "id": 30082,
+      "externalId": "BIO-OWNER-M2-Q39",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Glycogenesis is the process of converting excess blood glucose into glycogen and occurs mainly in the liver under the influence of insulin.\nHepatocytes possess insulin receptors and enzymes like glycogen synthase that promote glucose uptake and polymerization into glycogen for storage.\nThe pancreas is the endocrine gland that secretes insulin but is not a major site of glycogen storage, so \"Pancreas\" is incorrect.\nSkeletal muscle is another important glycogen store for local use (not listed among the options), while the kidney and spleen are not primary glycogen-storage organs, making \"Kidney\" and \"Spleen\" incorrect.\nThe liver can later break down glycogen to release glucose under glucagon stimulation, explaining its central role in maintaining blood glucose homeostasis.\nThere is no ambiguity in the stem or options here, so confidence is high and needs_review is false.",
+      "after": "Glycogenesis is the process of converting excess blood glucose into glycogen and occurs mainly in the liver under the influence of insulin.\nHepatocytes possess insulin receptors and enzymes like glycogen synthase that promote glucose uptake and polymerization into glycogen for storage.\nThe pancreas is the endocrine gland that secretes insulin but is not a major site of glycogen storage, so \"Pancreas\" is incorrect.\nThere is no ambiguity in the stem or options here, so confidence is high and needs_review is false."
+    },
+    {
+      "id": 30083,
+      "externalId": "BIO-OWNER-M2-Q40",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The tundra (including alpine or montane tundra) is characterized by cold temperatures, low precipitation and vegetation dominated by dwarf woody plants, mosses and lichens.\nPermafrost or very shallow, poorly developed soils together with a short growing season restrict root depth and plant height, producing the characteristic low shrubs and cushion forms.\nHigh-altitude montane zones experience temperature drops with elevation that create tundra-like conditions, so the combined label 'Tundra / Montane' fits the described features.\nTropical rainforest is not correct because it has high rainfall, consistently warm temperatures and tall, closed-canopy trees rather than dwarf vegetation.\nSavanna is characterized by seasonal rainfall, extensive grasses and scattered trees, so it lacks the cold, low-precipitation conditions and dwarf woody flora of tundra.\nMangrove swamp is a coastal, saline, waterlogged habitat with specialized mangrove trees adapted to tides and salt, not a cold, low-rainfall dwarf-vegetation ecosystem.",
+      "after": "The tundra (including alpine or montane tundra) is characterized by cold temperatures, low precipitation and vegetation dominated by dwarf woody plants, mosses and lichens.\nPermafrost or very shallow, poorly developed soils together with a short growing season restrict root depth and plant height, producing the characteristic low shrubs and cushion forms.\nHigh-altitude montane zones experience temperature drops with elevation that create tundra-like conditions, so the combined label 'Tundra / Montane' fits the described features.\nMangrove swamp is a coastal, saline, waterlogged habitat with specialized mangrove trees adapted to tides and salt, not a cold, low-rainfall dwarf-vegetation ecosystem."
+    },
+    {
+      "id": 30086,
+      "externalId": "BIO-OWNER-M2-Q43",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Stomata are microscopic pores on the leaf epidermis whose primary role is to regulate gaseous exchange (CO2 in, O2 out) and control transpiration (water vapour loss).\nEach stoma is flanked by two guard cells that open or close the pore by changing turgor pressure in response to light, internal CO2 levels, humidity and the hormone abscisic acid.\nWhen open, stomata allow CO2 entry for photosynthesis and the exit of O2 and water vapour, so their behaviour directly links gas exchange with the plant's water balance.\nAbsorption of soil nutrients is a root function carried out by root hairs (and often helped by mycorrhizae), not by stomata.\nTransport of manufactured food is performed by the phloem through translocation from source to sink tissues, which is a vascular tissue function separate from stomatal activity.\nStorage of excess starch occurs in storage tissues (e.g. tubers, seeds, parenchyma cells) where amyloplasts accumulate starch; stomata do not serve as storage organs.",
+      "after": "Stomata are microscopic pores on the leaf epidermis whose primary role is to regulate gaseous exchange (CO2 in, O2 out) and control transpiration (water vapour loss).\nEach stoma is flanked by two guard cells that open or close the pore by changing turgor pressure in response to light, internal CO2 levels, humidity and the hormone abscisic acid.\nWhen open, stomata allow CO2 entry for photosynthesis and the exit of O2 and water vapour, so their behaviour directly links gas exchange with the plant's water balance.\nStorage of excess starch occurs in storage tissues (e.g. tubers, seeds, parenchyma cells) where amyloplasts accumulate starch; stomata do not serve as storage organs."
+    },
+    {
+      "id": 30087,
+      "externalId": "BIO-OWNER-M2-Q44",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns region-specific features of vertebrae in the mammalian axial skeleton, allowing identification of thoracic, cervical, and lumbar vertebrae.\nThoracic vertebrae characteristically bear costal facets on the centrum and transverse processes for articulation with ribs and have relatively long, posteriorly directed neural (spinous) spines, so the first option is correct.\nThese costal facets and elongated spines accommodate and stabilize rib attachment and form the thoracic cage with the ribs and sternum.\nTransverse foramina (option 2) occur in cervical vertebrae to transmit vertebral arteries and are not a thoracic feature.\nLarge, heavy centra with short, blunt spinous processes (option 3) describe lumbar vertebrae adapted for weight bearing, while the peg-like odontoid process (option 4) is the dens of the axis (C2) for head rotation.\nThus long neural spines combined with rib-contacting facets distinguish thoracic vertebrae from the cervical and lumbar specializations listed.",
+      "after": "The question concerns region-specific features of vertebrae in the mammalian axial skeleton, allowing identification of thoracic, cervical, and lumbar vertebrae.\nThoracic vertebrae characteristically bear costal facets on the centrum and transverse processes for articulation with ribs and have relatively long, posteriorly directed neural (spinous) spines, so the first option is correct.\nThese costal facets and elongated spines accommodate and stabilize rib attachment and form the thoracic cage with the ribs and sternum.\nThus long neural spines combined with rib-contacting facets distinguish thoracic vertebrae from the cervical and lumbar specializations listed."
+    },
+    {
+      "id": 30088,
+      "externalId": "BIO-OWNER-M2-Q45",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The stem describes malaria, a disease caused by Plasmodium protozoa transmitted to humans by the bite of infected female Anopheles mosquitoes.\nPlasmodium species (notably P. falciparum, P. vivax, P. malariae, P. ovale and P. knowlesi) invade liver cells and red blood cells producing fever, chills and anaemia.\nFemale Anopheles are the relevant vectors because only female mosquitoes take blood meals to develop eggs and can inject sporozoites from their salivary glands when they bite.\nTrypanosomiasis is caused by Trypanosoma species and is transmitted by the tsetse fly (Glossina), so it does not fit the Anopheles-borne protozoan description.\nFilariasis is due to filarial nematode worms (e.g. Wuchereria bancrofti) transmitted by various mosquitoes and causes lymphatic obstruction, while amoebic dysentery is caused by Entamoeba histolytica spread by the faecal–oral route, neither matching the Anopheles/Plasmodium pairing.\nTherefore the correct option is Malaria because it is the protozoan infection specifically transmitted by infected female Anopheles mosquitoes.",
+      "after": "The stem describes malaria, a disease caused by Plasmodium protozoa transmitted to humans by the bite of infected female Anopheles mosquitoes.\nPlasmodium species (notably P. falciparum, P. vivax, P. malariae, P. ovale and P. knowlesi) invade liver cells and red blood cells producing fever, chills and anaemia.\nFemale Anopheles are the relevant vectors because only female mosquitoes take blood meals to develop eggs and can inject sporozoites from their salivary glands when they bite.\nTherefore the correct option is Malaria because it is the protozoan infection specifically transmitted by infected female Anopheles mosquitoes."
+    },
+    {
+      "id": 30090,
+      "externalId": "BIO-OWNER-M2-Q47",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Amphibians such as adult toads can exchange gases across several surfaces, but when submerged they rely mainly on cutaneous respiration through their moist, vascularized skin.\nMoist skin is thin, kept wet, and rich in capillaries, allowing oxygen to diffuse directly into the blood and carbon dioxide to diffuse out while the toad is underwater.\nLungs are important for aerial breathing in adult toads but are ineffective for prolonged gas exchange when the animal is fully submerged because they require access to atmospheric air.\nThe buccal cavity can assist in moving air into the lungs and may contribute marginally to gas exchange at the surface, but it does not sustain underwater respiration.\nGills occur only in the larval (tadpole) stage, so adult toads do not use gills for respiration and gills is therefore an implausible choice for an adult submerged toad.\nHence 'moist skin' is the correct option because it specifically enables sustained underwater gas exchange in adult toads.",
+      "after": "Amphibians such as adult toads can exchange gases across several surfaces, but when submerged they rely mainly on cutaneous respiration through their moist, vascularized skin.\nMoist skin is thin, kept wet, and rich in capillaries, allowing oxygen to diffuse directly into the blood and carbon dioxide to diffuse out while the toad is underwater.\nLungs are important for aerial breathing in adult toads but are ineffective for prolonged gas exchange when the animal is fully submerged because they require access to atmospheric air.\nHence 'moist skin' is the correct option because it specifically enables sustained underwater gas exchange in adult toads."
+    },
+    {
+      "id": 30091,
+      "externalId": "BIO-OWNER-M2-Q48",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homodont dentition means an animal's teeth are all of similar shape and size, usually used for grasping or holding prey.\nMost lizards exhibit homodont dentition, with numerous conical or peg-like teeth that are morphologically similar along the jaw.\nThese uniform teeth are suited to seizing and holding food rather than chewing or cutting into specialized pieces.\nRats are heterodonts: they have specialized incisors that continuously grow and posterior cheek teeth (molars) for grinding.\nHumans are heterodont with four distinct tooth types — incisors, canines, premolars and molars — each adapted to different functions.\nPigeons lack true teeth entirely and have a beak (edentulous condition), so they do not show homodont dentition.",
+      "after": "Homodont dentition means an animal's teeth are all of similar shape and size, usually used for grasping or holding prey.\nMost lizards exhibit homodont dentition, with numerous conical or peg-like teeth that are morphologically similar along the jaw.\nThese uniform teeth are suited to seizing and holding food rather than chewing or cutting into specialized pieces.\nPigeons lack true teeth entirely and have a beak (edentulous condition), so they do not show homodont dentition."
+    },
+    {
+      "id": 30112,
+      "externalId": "BIO-OWNER-M3-Q19",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Flightless birds in class Aves are species that have lost the ability to fly because of structural adaptations such as reduced wings and a flattened or keel-less sternum.\nThe ostrich is the world's largest living bird; it has relatively small wings, a reduced keel on the sternum and extremely powerful legs for running rather than flying.\nThose anatomical features (small wings, reduced keel and strong legs) prevent the ostrich from generating the lift and muscle power required for sustained flight, so it is correctly identified as flightless.\nHawks and eagles are raptors with well-developed flight muscles, a pronounced keel, large wings and talons adapted for gliding and powered flight, so they are not flightless.\nPigeons are volant (flying) birds in the Columbidae family with strong pectoral muscles and wing morphology adapted for sustained flight and homing behaviour.\nTherefore, among the options given only the ostrich meets the criteria of a flightless bird in class Aves.",
+      "after": "Flightless birds in class Aves are species that have lost the ability to fly because of structural adaptations such as reduced wings and a flattened or keel-less sternum.\nThe ostrich is the world's largest living bird; it has relatively small wings, a reduced keel on the sternum and extremely powerful legs for running rather than flying.\nThose anatomical features (small wings, reduced keel and strong legs) prevent the ostrich from generating the lift and muscle power required for sustained flight, so it is correctly identified as flightless.\nTherefore, among the options given only the ostrich meets the criteria of a flightless bird in class Aves."
+    },
+    {
+      "id": 30113,
+      "externalId": "BIO-OWNER-M3-Q20",
+      "subject": "Biology",
+      "topic": "Endocrine Regulation",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The pituitary gland is called the \"master gland\" because it secretes tropic hormones that regulate the activity of many other endocrine glands.\nThe anterior pituitary releases hormones such as TSH, ACTH, LH, FSH, GH and prolactin which stimulate the thyroid, adrenal cortex, gonads and growth processes.\nThe posterior pituitary stores and releases ADH and oxytocin produced by the hypothalamus, linking neural control to endocrine output.\nThe thyroid gland produces thyroxine (and calcitonin) to regulate metabolism and is itself controlled by pituitary TSH, so it is not the master gland.\nThe adrenal glands secrete adrenaline and corticosteroids for stress responses and are primarily stimulated by ACTH from the pituitary.\nThe pancreas regulates blood glucose by secreting insulin and glucagon and functions as both an endocrine and exocrine organ rather than directing other glands.",
+      "after": "The pituitary gland is called the \"master gland\" because it secretes tropic hormones that regulate the activity of many other endocrine glands.\nThe anterior pituitary releases hormones such as TSH, ACTH, LH, FSH, GH and prolactin which stimulate the thyroid, adrenal cortex, gonads and growth processes.\nThe posterior pituitary stores and releases ADH and oxytocin produced by the hypothalamus, linking neural control to endocrine output.\nThe pancreas regulates blood glucose by secreting insulin and glucagon and functions as both an endocrine and exocrine organ rather than directing other glands."
+    },
+    {
+      "id": 30115,
+      "externalId": "BIO-OWNER-M3-Q24",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The item asks for a diagnostic feature that distinguishes mammals from other vertebrate groups.\nHair (fur) on the body is a defining characteristic of mammals, serving for insulation and sensory functions.\nFeathers are unique to birds and are not a mammalian trait.\nGills are respiratory organs of most fishes and some amphibian larvae; mammals respire with lungs.\nScales occur in reptiles and many fishes; although pangolins have keratin scales, they are still mammals because they also have hair and other mammalian features.\nThus the correct answer is 'Hair on the body' because it is the consistent, diagnostic feature of mammals.",
+      "after": "The item asks for a diagnostic feature that distinguishes mammals from other vertebrate groups.\nHair (fur) on the body is a defining characteristic of mammals, serving for insulation and sensory functions.\nFeathers are unique to birds and are not a mammalian trait.\nThus the correct answer is 'Hair on the body' because it is the consistent, diagnostic feature of mammals."
+    },
+    {
+      "id": 30116,
+      "externalId": "BIO-OWNER-M3-Q25",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ecdysis is the process by which an arthropod sheds its rigid chitinous exoskeleton so the body can increase in size.\nBecause the exoskeleton cannot expand, arthropods periodically moult and form a new larger cuticle under hormonal control (for example ecdysone) before shedding the old one.\nThe correct option 'Ecdysis' names this moulting process specifically and therefore fits the stem.\nMetamorphosis refers to major developmental transformations (such as caterpillar to butterfly) involving tissue reorganization and stage changes, not merely shedding an exoskeleton.\nEncystment is the formation of a protective cyst by certain protists or parasite stages to survive adverse conditions, and is unrelated to moulting.\nParthenogenesis is a form of asexual reproduction from an unfertilised egg and does not describe the physical act of shedding an exoskeleton.",
+      "after": "Ecdysis is the process by which an arthropod sheds its rigid chitinous exoskeleton so the body can increase in size.\nBecause the exoskeleton cannot expand, arthropods periodically moult and form a new larger cuticle under hormonal control (for example ecdysone) before shedding the old one.\nThe correct option 'Ecdysis' names this moulting process specifically and therefore fits the stem.\nParthenogenesis is a form of asexual reproduction from an unfertilised egg and does not describe the physical act of shedding an exoskeleton."
+    },
+    {
+      "id": 30117,
+      "externalId": "BIO-OWNER-M3-Q26",
+      "subject": "Biology",
+      "topic": "Support and Movement",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A skeleton is the structural framework of an animal; main types are hydrostatic, endoskeleton (bony), cartilaginous (a form of endoskeleton), and exoskeleton.\nCockroaches are arthropods and possess an exoskeleton: a rigid external covering made mainly of the polysaccharide chitin.\nThe exoskeleton provides protection, prevents desiccation, and serves as the external attachment site for muscles that move the limbs and body segments.\nHydrostatic skeletons, found in annelids and many soft-bodied invertebrates, rely on fluid pressure within body cavities and do not produce a hard external plate as seen in insects.\nEndoskeletons (bony) occur in vertebrates and cartilaginous skeletons (e.g., sharks and rays) are internal and composed mainly of cartilage, so neither describes an insect's external chitinous shell.\nCockroaches grow by moulting (ecdysis) because their rigid exoskeleton cannot expand, which confirms exoskeleton is the correct choice.",
+      "after": "A skeleton is the structural framework of an animal; main types are hydrostatic, endoskeleton (bony), cartilaginous (a form of endoskeleton), and exoskeleton.\nCockroaches are arthropods and possess an exoskeleton: a rigid external covering made mainly of the polysaccharide chitin.\nThe exoskeleton provides protection, prevents desiccation, and serves as the external attachment site for muscles that move the limbs and body segments.\nCockroaches grow by moulting (ecdysis) because their rigid exoskeleton cannot expand, which confirms exoskeleton is the correct choice."
+    },
+    {
+      "id": 30119,
+      "externalId": "BIO-OWNER-M3-Q28",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks which respiratory structures perform gaseous exchange in adult insects.\nThe correct answer, tracheae, are a system of internal air tubes that open to the outside via spiracles and branch into finer tracheoles to deliver oxygen directly to tissues.\nGas exchange in insects occurs mainly by diffusion through the tracheal system and not by transport in the blood because insects have an open circulatory system without haemoglobin-based oxygen transport.\nGills are respiratory organs of many aquatic animals and of some insect larvae, but are not the typical respiratory structures of most adult terrestrial insects.\nBook lungs occur in some arachnids such as spiders and scorpions, while moist skin is a respiratory surface characteristic of amphibians and some small invertebrates, so these options are incorrect for adult insects.\nTherefore tracheae is the most appropriate choice for adult insects in standard senior-secondary biology.",
+      "after": "The question asks which respiratory structures perform gaseous exchange in adult insects.\nThe correct answer, tracheae, are a system of internal air tubes that open to the outside via spiracles and branch into finer tracheoles to deliver oxygen directly to tissues.\nGas exchange in insects occurs mainly by diffusion through the tracheal system and not by transport in the blood because insects have an open circulatory system without haemoglobin-based oxygen transport.\nTherefore tracheae is the most appropriate choice for adult insects in standard senior-secondary biology."
+    },
+    {
+      "id": 30120,
+      "externalId": "BIO-OWNER-M3-Q29",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Producers in ecosystems are autotrophs that synthesize organic food from inorganic materials, usually by photosynthesis.\nPhytoplankton are microscopic photosynthetic organisms (e.g., diatoms, green algae, cyanobacteria) that live in water and produce organic matter and oxygen.\nBecause phytoplankton carry out photosynthesis, they form the base of aquatic food chains and are the correct example of an aquatic producer.\nZooplankton are heterotrophic, usually microscopic animals or protozoans that feed on phytoplankton and are consumers, not producers.\nTadpoles are juvenile amphibians that feed on algae, plants or detritus and are consumers, while benthic crabs are bottom-dwelling scavengers or predators that also consume organic matter.\nTherefore among the options, only phytoplankton are true primary producers in aquatic ecosystems.",
+      "after": "Producers in ecosystems are autotrophs that synthesize organic food from inorganic materials, usually by photosynthesis.\nPhytoplankton are microscopic photosynthetic organisms (e.g., diatoms, green algae, cyanobacteria) that live in water and produce organic matter and oxygen.\nBecause phytoplankton carry out photosynthesis, they form the base of aquatic food chains and are the correct example of an aquatic producer.\nTherefore among the options, only phytoplankton are true primary producers in aquatic ecosystems."
+    }
+  ]
+}

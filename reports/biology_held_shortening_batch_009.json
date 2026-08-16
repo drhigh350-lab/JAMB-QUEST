@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 9,
+  "batchSize": 20,
+  "eligibleTotal": 155,
+  "selected": [
+    {
+      "id": 30405,
+      "externalId": "BIO-OWNER-M9-Q26",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sessile organisms are fixed to a substrate and do not move freely, often attaching permanently or for long periods.\nAn aquatic organism attached to submerged rocks with no free movement is therefore described as sessile, which makes the given answer correct.\nBenthic describes organisms living on or in the bottom sediments and can include both sessile species (e.g., oysters) and mobile species (e.g., crabs).\nPelagic refers to organisms living in the open water column away from the bottom and typically includes free‑swimming animals such as fishes.\nPlanktonic organisms drift or have limited locomotion and are suspended in the water column rather than attached to substrates.\nTherefore sessile is the precise term for attached, non‑moving organisms, whereas benthic, pelagic and planktonic refer to different habitats or modes of life and do not necessarily imply attachment.",
+      "after": "Sessile organisms are fixed to a substrate and do not move freely, often attaching permanently or for long periods.\nAn aquatic organism attached to submerged rocks with no free movement is therefore described as sessile, which makes the given answer correct.\nBenthic describes organisms living on or in the bottom sediments and can include both sessile species (e.g., oysters) and mobile species (e.g., crabs).\nTherefore sessile is the precise term for attached, non‑moving organisms, whereas benthic, pelagic and planktonic refer to different habitats or modes of life and do not necessarily imply attachment."
+    },
+    {
+      "id": 30407,
+      "externalId": "BIO-OWNER-M9-Q28",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Apical meristem is a region of small, undifferentiated cells at the tips of roots and shoots that undergo frequent mitosis to supply new cells for elongation.\nActive cell division in the apical meristem produces primary tissues and drives lengthwise (primary) growth of roots and shoots.\nLateral meristems run along the sides of stems and roots and are responsible for lateral or girth increase, not tip elongation.\nThe vascular cambium is a specific lateral meristem that produces secondary xylem and phloem, contributing to thickness rather than tip growth.\nThe cork cambium (phellogen) is another lateral meristem that forms protective cork tissue during secondary growth, not new tip tissues.\nTherefore Apical meristem is the correct option because it alone supplies actively dividing cells at root and shoot tips for primary (length) growth.",
+      "after": "Apical meristem is a region of small, undifferentiated cells at the tips of roots and shoots that undergo frequent mitosis to supply new cells for elongation.\nActive cell division in the apical meristem produces primary tissues and drives lengthwise (primary) growth of roots and shoots.\nLateral meristems run along the sides of stems and roots and are responsible for lateral or girth increase, not tip elongation.\nTherefore Apical meristem is the correct option because it alone supplies actively dividing cells at root and shoot tips for primary (length) growth."
+    },
+    {
+      "id": 30409,
+      "externalId": "BIO-OWNER-M9-Q30",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Decomposers or saprotrophs are organisms that obtain energy by breaking down dead organic matter into simpler inorganic substances and returning nutrients to the soil.\nSaprotrophic organisms, chiefly bacteria and fungi, secrete extracellular enzymes that digest complex molecules like proteins, cellulose and lipids into absorbable forms.\nBecause they mineralize organic compounds into inorganic nutrients (for example nitrates and phosphates), decomposers directly perform the role described in the stem and so are the correct choice.\nPrimary consumers are herbivores that eat producers and transfer organic matter through the food chain but do not primarily convert complex detritus into inorganic nutrients.\nSecondary consumers are carnivores or omnivores that feed on primary consumers and similarly do not carry out the enzymatic breakdown and mineralization characteristic of decomposers.\nAutotrophs (producers) synthesize organic matter from inorganic substances via photosynthesis or chemosynthesis and therefore do not decompose complex organic waste into inorganic nutrients.",
+      "after": "Decomposers or saprotrophs are organisms that obtain energy by breaking down dead organic matter into simpler inorganic substances and returning nutrients to the soil.\nSaprotrophic organisms, chiefly bacteria and fungi, secrete extracellular enzymes that digest complex molecules like proteins, cellulose and lipids into absorbable forms.\nBecause they mineralize organic compounds into inorganic nutrients (for example nitrates and phosphates), decomposers directly perform the role described in the stem and so are the correct choice.\nAutotrophs (producers) synthesize organic matter from inorganic substances via photosynthesis or chemosynthesis and therefore do not decompose complex organic waste into inorganic nutrients."
+    },
+    {
+      "id": 30410,
+      "externalId": "BIO-OWNER-M9-Q31",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Plants modify different organs—leaves, stems and roots—for storage; in arid habitats many species develop succulent stems that store water.\nCacti have thick, fleshy (succulent) stems with water‑storing parenchyma, reduced leaves (spines) and green stems for photosynthesis, making the stem the main water reservoir.\nOnion is a bulb composed largely of fleshy modified leaves (scales) that store food, not a swollen stem adapted for desert water storage.\nYam is an underground storage tuber that accumulates starch to support regrowth and is adapted for food storage rather than primarily holding water for dry‑season survival.\nGinger is a rhizome, a horizontal underground stem that stores carbohydrates and enables asexual propagation, not chiefly a water‑storing succulent structure.\nTherefore the swollen stem of the cactus is the correct example of a plant organ modified specifically for water storage in dry environments.",
+      "after": "Plants modify different organs—leaves, stems and roots—for storage; in arid habitats many species develop succulent stems that store water.\nCacti have thick, fleshy (succulent) stems with water‑storing parenchyma, reduced leaves (spines) and green stems for photosynthesis, making the stem the main water reservoir.\nOnion is a bulb composed largely of fleshy modified leaves (scales) that store food, not a swollen stem adapted for desert water storage.\nTherefore the swollen stem of the cactus is the correct example of a plant organ modified specifically for water storage in dry environments."
+    },
+    {
+      "id": 30411,
+      "externalId": "BIO-OWNER-M9-Q32",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pepsin is a protease secreted as inactive pepsinogen and requires a strongly acidic environment to become active and cleave proteins into smaller peptide chains.\nHydrochloric acid (HCl) secreted by gastric parietal cells provides the low pH (around 1.5–2) in the stomach that denatures proteins and converts pepsinogen to active pepsin.\nThis acidic milieu optimizes pepsin's catalytic activity, allowing cleavage of peptide bonds but not complete digestion to free amino acids.\nLactic acid and acetic acid are weak organic acids produced in tissues or present in foods and do not create the strongly acidic gastric pH required for pepsin activation.\nSulfuric acid is a strong inorganic acid but is not produced or used physiologically in the body and would be dangerously corrosive if present.\nTherefore hydrochloric acid is correct because it is the physiological stomach acid responsible for denaturing proteins and activating pepsin.",
+      "after": "Pepsin is a protease secreted as inactive pepsinogen and requires a strongly acidic environment to become active and cleave proteins into smaller peptide chains.\nHydrochloric acid (HCl) secreted by gastric parietal cells provides the low pH (around 1.5–2) in the stomach that denatures proteins and converts pepsinogen to active pepsin.\nThis acidic milieu optimizes pepsin's catalytic activity, allowing cleavage of peptide bonds but not complete digestion to free amino acids.\nTherefore hydrochloric acid is correct because it is the physiological stomach acid responsible for denaturing proteins and activating pepsin."
+    },
+    {
+      "id": 30412,
+      "externalId": "BIO-OWNER-M9-Q33",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Phagocytosis is a form of endocytosis in which the cell membrane engulfs large solid particles to form an internal vesicle called a phagosome.\nDuring phagocytosis the cell extends pseudopodia around the particle, encloses it and later fuses the phagosome with lysosomes for digestion.\nThis process is commonly called \"cell eating\" and is characteristic of phagocytic cells such as macrophages and neutrophils.\nPinocytosis differs because it involves uptake of extracellular fluid and dissolved solutes in small vesicles (\"cell drinking\"), not large solids.\nExocytosis is the reverse process used to release materials from the cell, while osmosis is the passive movement of water across a semipermeable membrane; neither involves engulfing solids.\nTherefore Phagocytosis is the correct option because it specifically describes engulfment of solid particles by the cell membrane.",
+      "after": "Phagocytosis is a form of endocytosis in which the cell membrane engulfs large solid particles to form an internal vesicle called a phagosome.\nDuring phagocytosis the cell extends pseudopodia around the particle, encloses it and later fuses the phagosome with lysosomes for digestion.\nThis process is commonly called \"cell eating\" and is characteristic of phagocytic cells such as macrophages and neutrophils.\nTherefore Phagocytosis is the correct option because it specifically describes engulfment of solid particles by the cell membrane."
+    },
+    {
+      "id": 30413,
+      "externalId": "BIO-OWNER-M9-Q34",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Dominant alleles produce their characteristic phenotype even when only one copy is present (i.e., in heterozygotes).\nTherefore the correct choice is 'Dominant' because the trait is expressed in the presence of an alternative allele.\nA recessive allele, by contrast, only shows its phenotype when present in two copies (homozygous recessive).\nCodominance occurs when both alleles are expressed equally in the heterozygote (for example, AB blood type where A and B antigens are both present).\nSex-linked refers to the gene's location on a sex chromosome (X or Y) and does not by itself indicate whether an allele is dominant or recessive.\nIn Mendelian genetics dominance describes allele interaction at one locus and is distinct from incomplete dominance or epistasis, which produce different patterns of phenotype expression.",
+      "after": "Dominant alleles produce their characteristic phenotype even when only one copy is present (i.e., in heterozygotes).\nTherefore the correct choice is 'Dominant' because the trait is expressed in the presence of an alternative allele.\nA recessive allele, by contrast, only shows its phenotype when present in two copies (homozygous recessive).\nIn Mendelian genetics dominance describes allele interaction at one locus and is distinct from incomplete dominance or epistasis, which produce different patterns of phenotype expression."
+    },
+    {
+      "id": 30414,
+      "externalId": "BIO-OWNER-M9-Q35",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The placenta is a temporary organ that connects the fetus to the uterine wall and facilitates exchange between maternal and fetal blood supplies without direct mixing.\nIts main function is the transfer of oxygen and nutrients to the fetus and the removal of carbon dioxide and metabolic wastes into the maternal circulation.\nThe placenta also secretes pregnancy-supporting hormones (e.g., progesterone and estrogens, with early hCG from trophoblast) but these endocrine roles are secondary to its exchange function.\nProduction of blood cells is not a placental function; embryonic and fetal hematopoiesis occurs first in the yolk sac, then the fetal liver and later the bone marrow.\nAlthough the placenta provides some physical and immunological protection, it does not primarily regulate fetal temperature nor completely prevent transmission of pathogens.\nAmniotic fluid is produced mainly by fetal urine and lung secretions (with minor maternal contributions), so synthesis of amniotic fluid is not the placenta's main role.",
+      "after": "The placenta is a temporary organ that connects the fetus to the uterine wall and facilitates exchange between maternal and fetal blood supplies without direct mixing.\nIts main function is the transfer of oxygen and nutrients to the fetus and the removal of carbon dioxide and metabolic wastes into the maternal circulation.\nThe placenta also secretes pregnancy-supporting hormones (e.g., progesterone and estrogens, with early hCG from trophoblast) but these endocrine roles are secondary to its exchange function.\nAmniotic fluid is produced mainly by fetal urine and lung secretions (with minor maternal contributions), so synthesis of amniotic fluid is not the placenta's main role."
+    },
+    {
+      "id": 30415,
+      "externalId": "BIO-OWNER-M9-Q36",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An air-borne viral disease is one caused by a virus and transmitted between people by respiratory droplets or aerosols.\nMeasles is caused by the measles virus (a paramyxovirus) and spreads rapidly through the air, so it is an airborne viral disease.\nIts clinical features—fever, cough, coryza, conjunctivitis and a characteristic maculopapular rash—are typical of measles infection.\nTuberculosis is also spread by the air but is caused by the bacterium Mycobacterium tuberculosis, so it is airborne but not viral.\nTyphoid (Salmonella typhi) and cholera (Vibrio cholerae) are bacterial and transmitted mainly by contaminated food or water (fecal–oral route), not by airborne spread.\nTherefore, among the choices given only measles meets both criteria of being caused by a virus and transmitted through the air.",
+      "after": "An air-borne viral disease is one caused by a virus and transmitted between people by respiratory droplets or aerosols.\nMeasles is caused by the measles virus (a paramyxovirus) and spreads rapidly through the air, so it is an airborne viral disease.\nIts clinical features—fever, cough, coryza, conjunctivitis and a characteristic maculopapular rash—are typical of measles infection.\nTherefore, among the choices given only measles meets both criteria of being caused by a virus and transmitted through the air."
+    },
+    {
+      "id": 30416,
+      "externalId": "BIO-OWNER-M9-Q37",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question targets synovial joint types that allow movement in more than one plane including rotation.\nA ball-and-socket joint has a spherical head that fits into a cup-like socket, permitting multi-axial movements (flexion, extension, abduction, adduction) and rotation as at the shoulder and hip.\nA hinge joint allows movement mainly in one plane (flexion and extension) like the elbow and knee, so it cannot produce multi-directional rotation.\nA pivot joint permits rotation around a single axis (for example the atlas and axis in the neck) but not the wide range of movements of a ball-and-socket joint.\nA gliding (plane) joint allows sliding movements between flat bone surfaces (such as the carpals) and does not give substantial rotation or multi-directional mobility.\nThus Ball-and-socket joint is correct because it uniquely provides both multi-directional movement and rotation among the options listed.",
+      "after": "The question targets synovial joint types that allow movement in more than one plane including rotation.\nA ball-and-socket joint has a spherical head that fits into a cup-like socket, permitting multi-axial movements (flexion, extension, abduction, adduction) and rotation as at the shoulder and hip.\nA hinge joint allows movement mainly in one plane (flexion and extension) like the elbow and knee, so it cannot produce multi-directional rotation.\nThus Ball-and-socket joint is correct because it uniquely provides both multi-directional movement and rotation among the options listed."
+    },
+    {
+      "id": 30417,
+      "externalId": "BIO-OWNER-M9-Q38",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The organelle described is the lysosome, a membrane-bound vesicle rich in hydrolytic enzymes.\nLysosomal enzymes (acid hydrolases) function optimally at acidic pH and hydrolyse proteins, lipids, carbohydrates and nucleic acids from damaged organelles and cellular debris.\nLysosomes carry out autophagy (self-digestion) and digest material delivered by endocytosis or phagocytosis.\nPeroxisomes are often confused with lysosomes but contain oxidative enzymes (e.g., catalase) for detoxification and hydrogen peroxide breakdown rather than bulk hydrolytic digestion.\nVacuoles mainly serve storage and maintenance of cell turgor in plant cells (though plant lytic vacuoles can have digestive roles), whereas in animal cells lysosomes are the principal digestive organelles.\nCentrosomes organise microtubules for cell division and do not contain digestive enzymes, so they cannot break down cellular waste.",
+      "after": "The organelle described is the lysosome, a membrane-bound vesicle rich in hydrolytic enzymes.\nLysosomal enzymes (acid hydrolases) function optimally at acidic pH and hydrolyse proteins, lipids, carbohydrates and nucleic acids from damaged organelles and cellular debris.\nLysosomes carry out autophagy (self-digestion) and digest material delivered by endocytosis or phagocytosis.\nCentrosomes organise microtubules for cell division and do not contain digestive enzymes, so they cannot break down cellular waste."
+    },
+    {
+      "id": 30418,
+      "externalId": "BIO-OWNER-M9-Q39",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Identification of fruit type depends on pericarp character and seed number and arrangement.\nA berry is a simple fleshy fruit developed from a single ovary with an entirely fleshy pericarp and often many seeds.\nTomato and guava develop from a single ovary, have completely fleshy pericarps and contain multiple seeds, so they fit the botanical definition of a berry.\nA drupe has a fleshy exterior but a hardened stony endocarp enclosing a single seed (e.g. peach, mango), unlike tomato or guava.\nA legume is a dry dehiscent fruit that splits along sutures (e.g. beans) and an achene is a small dry indehiscent one-seeded fruit (e.g. sunflower), both unlike fleshy multi-seeded tomato or guava.\nTherefore the correct option is Berry.",
+      "after": "Identification of fruit type depends on pericarp character and seed number and arrangement.\nA berry is a simple fleshy fruit developed from a single ovary with an entirely fleshy pericarp and often many seeds.\nTomato and guava develop from a single ovary, have completely fleshy pericarps and contain multiple seeds, so they fit the botanical definition of a berry.\nTherefore the correct option is Berry."
+    },
+    {
+      "id": 30419,
+      "externalId": "BIO-OWNER-M9-Q40",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Denitrification is the biological reduction of soil nitrate (NO3−) to gaseous nitrogen (N2) carried out by anaerobic bacteria.\nDenitrifying bacteria use nitrate as an alternative electron acceptor when oxygen is absent, releasing N2 and sometimes N2O back to the atmosphere.\nNitrification is the aerobic two-step oxidation of ammonia to nitrite (NO2−) and then to nitrate (NO3−) by nitrifying bacteria, producing nitrates rather than removing them.\nNitrogen fixation converts atmospheric nitrogen gas (N2) into ammonia or ammonium (NH3/NH4+) by free-living or symbiotic bacteria, making nitrogen available to organisms.\nAmmonification (mineralization) is the breakdown of organic nitrogen from dead organisms and wastes into ammonia, which can later be nitrified.\nBecause the process described converts soil nitrate into free atmospheric nitrogen under anaerobic conditions, the correct option is denitrification.",
+      "after": "Denitrification is the biological reduction of soil nitrate (NO3−) to gaseous nitrogen (N2) carried out by anaerobic bacteria.\nDenitrifying bacteria use nitrate as an alternative electron acceptor when oxygen is absent, releasing N2 and sometimes N2O back to the atmosphere.\nNitrification is the aerobic two-step oxidation of ammonia to nitrite (NO2−) and then to nitrate (NO3−) by nitrifying bacteria, producing nitrates rather than removing them.\nBecause the process described converts soil nitrate into free atmospheric nitrogen under anaerobic conditions, the correct option is denitrification."
+    },
+    {
+      "id": 30422,
+      "externalId": "BIO-OWNER-M9-Q43",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question addresses methods for estimating population density of organisms in ecology, especially for sessile (non‑motile) organisms like plants.\nA quadrat (sometimes spelled 'quadrant' in less formal usage) is a square or rectangular frame placed on the ground to count individuals within a known area, enabling density and frequency calculations.\nSampling a series of quadrats and extrapolating counts to the larger area gives reliable estimates of plant population density and distribution.\nA Secchi disc is used to measure water transparency in lakes and oceans, so it does not count terrestrial plants.\nPitfall traps are designed to capture ground‑active, motile invertebrates and are unsuitable for estimating densities of stationary plants.\nA plankton net samples microscopic aquatic organisms by towing through water and cannot be used to estimate terrestrial plant population density.",
+      "after": "The question addresses methods for estimating population density of organisms in ecology, especially for sessile (non‑motile) organisms like plants.\nA quadrat (sometimes spelled 'quadrant' in less formal usage) is a square or rectangular frame placed on the ground to count individuals within a known area, enabling density and frequency calculations.\nSampling a series of quadrats and extrapolating counts to the larger area gives reliable estimates of plant population density and distribution.\nA plankton net samples microscopic aquatic organisms by towing through water and cannot be used to estimate terrestrial plant population density."
+    },
+    {
+      "id": 30423,
+      "externalId": "BIO-OWNER-M9-Q44",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is modes of nutrition: autotrophy, heterotrophy and mixotrophy, where an organism can obtain carbon by photosynthesis or by taking up/ingesting organic matter.\nEuglena has chloroplasts with chlorophyll and performs photosynthesis in sunlight, so it behaves as an autotroph under light conditions.\nIn darkness Euglena obtains organic nutrients from its surroundings (a heterotrophic mode), allowing it to survive without photosynthesis.\nAn organism that can switch between autotrophy and heterotrophy is termed mixotrophic, which directly describes Euglena's dual nutrition and makes 'Mixotrophic' correct.\nParasitic nutrition requires a living host for nutrients, holozoic nutrition involves ingesting solid food particles, and saprophytic nutrition involves extracellular digestion of dead matter—none match Euglena's light-dependent switching.\nThus the best option is Mixotrophic because it specifically denotes the ability to perform photosynthesis in light and take up organic nutrients in darkness.",
+      "after": "The concept tested is modes of nutrition: autotrophy, heterotrophy and mixotrophy, where an organism can obtain carbon by photosynthesis or by taking up/ingesting organic matter.\nEuglena has chloroplasts with chlorophyll and performs photosynthesis in sunlight, so it behaves as an autotroph under light conditions.\nIn darkness Euglena obtains organic nutrients from its surroundings (a heterotrophic mode), allowing it to survive without photosynthesis.\nThus the best option is Mixotrophic because it specifically denotes the ability to perform photosynthesis in light and take up organic nutrients in darkness."
+    },
+    {
+      "id": 30424,
+      "externalId": "BIO-OWNER-M9-Q45",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Nitrification is the aerobic oxidation of ammonium (NH4+) first to nitrite (NO2-) and then to nitrate (NO3-) by nitrifying bacteria.\nNitrosomonas specifically oxidizes ammonium to nitrite, so the correct answer 'Nitrification' names this conversion.\nThe nitrification process normally occurs in two steps, the second being Nitrobacter converting nitrite to nitrate.\nDenitrification is the opposite process under anaerobic conditions, reducing nitrate to nitrogen gas (N2), so it is not correct here.\nNitrogen fixation converts atmospheric N2 into ammonia or ammonium and is therefore a different part of the nitrogen cycle.\nDecay (ammonification) is the breakdown of organic nitrogen into ammonium, not the oxidative conversion of ammonium into nitrite.",
+      "after": "Nitrification is the aerobic oxidation of ammonium (NH4+) first to nitrite (NO2-) and then to nitrate (NO3-) by nitrifying bacteria.\nNitrosomonas specifically oxidizes ammonium to nitrite, so the correct answer 'Nitrification' names this conversion.\nThe nitrification process normally occurs in two steps, the second being Nitrobacter converting nitrite to nitrate.\nDecay (ammonification) is the breakdown of organic nitrogen into ammonium, not the oxidative conversion of ammonium into nitrite."
+    },
+    {
+      "id": 30425,
+      "externalId": "BIO-OWNER-M9-Q46",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The term describes the rapid uptake of water by dry seeds and other colloidal materials, causing them to swell prior to germination.\nImbibition is the correct answer: it is the absorption of water by hydrophilic colloids in seeds (starch, proteins) leading to swelling and the start of germination.\nPlasmolysis is the loss of water from cells in a hypertonic medium, causing shrinkage and membrane separation from the wall, so it is the opposite of swelling.\nTurgidity denotes cells being full of water and pressing against the cell wall, a general hydrated state but not the specific colloidal swelling termed imbibition.\nDiffusion is passive movement down a concentration gradient and, while water molecules move during imbibition, diffusion alone does not explain the adhesive and capillary forces responsible for the rapid swelling.\nThus imbibition best describes seed swelling before germination because it emphasises water uptake by dry colloids and the mechanical expansion that triggers metabolic activity.",
+      "after": "The term describes the rapid uptake of water by dry seeds and other colloidal materials, causing them to swell prior to germination.\nImbibition is the correct answer: it is the absorption of water by hydrophilic colloids in seeds (starch, proteins) leading to swelling and the start of germination.\nPlasmolysis is the loss of water from cells in a hypertonic medium, causing shrinkage and membrane separation from the wall, so it is the opposite of swelling.\nThus imbibition best describes seed swelling before germination because it emphasises water uptake by dry colloids and the mechanical expansion that triggers metabolic activity."
+    },
+    {
+      "id": 30426,
+      "externalId": "BIO-OWNER-M9-Q47",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Iron deficiency leads to reduced synthesis of haemoglobin, causing anaemia, typically the microcytic hypochromic type seen in severe iron lack.\nIron is an essential component of the haem (heme) group in haemoglobin and is required for binding and transporting oxygen in red blood cells.\nWhen dietary iron is insufficient, haemoglobin production falls, fewer or smaller erythrocytes are produced, and symptoms such as pallor, fatigue and shortness of breath develop.\nThe correct option, Anaemia, names the condition resulting from inadequate iron impairing haemoglobin synthesis and oxygen transport capacity.\nGoitre is associated with iodine deficiency and thyroid enlargement, not with haemoglobin or iron metabolism, so it is not the correct choice.\nKwashiorkor results from severe protein deficiency (oedema, fatty liver) and scurvy from vitamin C deficiency (bleeding gums, poor wound healing); neither directly causes impaired haemoglobin synthesis due to iron lack.",
+      "after": "Iron deficiency leads to reduced synthesis of haemoglobin, causing anaemia, typically the microcytic hypochromic type seen in severe iron lack.\nIron is an essential component of the haem (heme) group in haemoglobin and is required for binding and transporting oxygen in red blood cells.\nWhen dietary iron is insufficient, haemoglobin production falls, fewer or smaller erythrocytes are produced, and symptoms such as pallor, fatigue and shortness of breath develop.\nKwashiorkor results from severe protein deficiency (oedema, fatty liver) and scurvy from vitamin C deficiency (bleeding gums, poor wound healing); neither directly causes impaired haemoglobin synthesis due to iron lack."
+    },
+    {
+      "id": 30428,
+      "externalId": "BIO-OWNER-M9-Q49",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homologous structures are anatomical parts that share a common evolutionary origin and similar internal structure but may have different functions, as in the forelimbs of humans and whales derived from a tetrapod limb pattern.\nThe correct option is Homologous structures because human and whale forelimbs exhibit the same fundamental bone arrangement (humerus, radius, ulna, carpals) indicating common ancestry despite functional differences.\nAnalogous structures perform similar functions but arise from different developmental origins and do not share the same underlying anatomy (for example, insect wings vs bird wings).\nVestigial structures are reduced or nonfunctional remnants of organs that were functional in ancestors (e.g., human appendix) and so do not describe fully functional but differently used limbs.\nThe term 'convergent structures' is not standardly used; convergent evolution describes the independent evolution of similar features in unrelated lineages, producing analogous rather than homologous structures.\nTherefore homologous structures best fits the stem: same basic origin and structure with divergent function, distinguishing it from analogous or vestigial cases.",
+      "after": "Homologous structures are anatomical parts that share a common evolutionary origin and similar internal structure but may have different functions, as in the forelimbs of humans and whales derived from a tetrapod limb pattern.\nThe correct option is Homologous structures because human and whale forelimbs exhibit the same fundamental bone arrangement (humerus, radius, ulna, carpals) indicating common ancestry despite functional differences.\nAnalogous structures perform similar functions but arise from different developmental origins and do not share the same underlying anatomy (for example, insect wings vs bird wings).\nTherefore homologous structures best fits the stem: same basic origin and structure with divergent function, distinguishing it from analogous or vestigial cases."
+    },
+    {
+      "id": 30429,
+      "externalId": "BIO-OWNER-M9-Q50",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homeostasis is the biological process by which organisms maintain internal variables within narrow limits despite external fluctuations.\nIt uses feedback systems (receptors, control centres and effectors) to regulate factors such as body temperature, blood pH, blood glucose and osmotic balance.\nHomeostasis is correct because it denotes the overall maintenance of a stable internal environment rather than control of a single parameter.\nOsmoregulation is related but narrower, referring specifically to the regulation of water and solute concentrations in body fluids.\nThermoregulation is also specific, describing the mechanisms (sweating, shivering, vasodilation, vasoconstriction) that keep body temperature stable.\nMetabolism is the sum of biochemical reactions that produce energy and materials for the body and supports homeostasis, but it is not the term for maintaining internal constancy.",
+      "after": "Homeostasis is the biological process by which organisms maintain internal variables within narrow limits despite external fluctuations.\nIt uses feedback systems (receptors, control centres and effectors) to regulate factors such as body temperature, blood pH, blood glucose and osmotic balance.\nHomeostasis is correct because it denotes the overall maintenance of a stable internal environment rather than control of a single parameter.\nMetabolism is the sum of biochemical reactions that produce energy and materials for the body and supports homeostasis, but it is not the term for maintaining internal constancy."
+    }
+  ]
+}

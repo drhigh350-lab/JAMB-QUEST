@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 6,
+  "batchSize": 20,
+  "eligibleTotal": 215,
+  "selected": [
+    {
+      "id": 30164,
+      "externalId": "BIO-OWNER-M4-Q25",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Commensalism is a symbiotic relationship in which one organism benefits while the other is neither helped nor harmed.\nAn epiphytic fern on a tree branch gains light and physical support without taking nutrients from or injuring the tree, so the fern benefits and the tree is essentially unaffected.\nA tapeworm living in a human intestine takes nutrients and often causes harm to the host, so that interaction is parasitism, not commensalism.\nNitrogen-fixing bacteria in root nodules exchange fixed nitrogen for carbohydrates and protection from the plant, so that relationship is mutualism because both partners benefit.\nA lion hunting a zebra is a predator–prey interaction in which the prey is harmed or killed, and therefore it is not an example of commensalism.\nThus the epiphytic fern growing on a tree branch is the correct example of commensalism because only the fern gains while the tree remains unaffected.",
+      "after": "Commensalism is a symbiotic relationship in which one organism benefits while the other is neither helped nor harmed.\nAn epiphytic fern on a tree branch gains light and physical support without taking nutrients from or injuring the tree, so the fern benefits and the tree is essentially unaffected.\nA tapeworm living in a human intestine takes nutrients and often causes harm to the host, so that interaction is parasitism, not commensalism.\nThus the epiphytic fern growing on a tree branch is the correct example of commensalism because only the fern gains while the tree remains unaffected."
+    },
+    {
+      "id": 30165,
+      "externalId": "BIO-OWNER-M4-Q26",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ecological succession is the gradual change in species composition of an ecosystem over time, culminating in a relatively stable final stage called the climax community.\nA climax community is characterized by a stable species composition, balanced energy flow and relatively constant biomass under the prevailing climate and soil conditions.\nTherefore the correct answer is 'Climax community' because it denotes the final, relatively permanent stage of succession reached when changes in species composition slow or stop.\nA pioneer community consists of the first colonizers (e.g. lichens, mosses, grasses) that establish on bare or disturbed substrates and initiate soil formation and succession.\nA seral stage is any intermediate community in the sequence between pioneer and climax, making it transitional rather than the final stage.\nA biotic community (biological community) simply refers to all interacting organisms in an area and can be pioneer, seral or climax, so it does not specifically mean the final stage.",
+      "after": "Ecological succession is the gradual change in species composition of an ecosystem over time, culminating in a relatively stable final stage called the climax community.\nA climax community is characterized by a stable species composition, balanced energy flow and relatively constant biomass under the prevailing climate and soil conditions.\nTherefore the correct answer is 'Climax community' because it denotes the final, relatively permanent stage of succession reached when changes in species composition slow or stop.\nA biotic community (biological community) simply refers to all interacting organisms in an area and can be pioneer, seral or climax, so it does not specifically mean the final stage."
+    },
+    {
+      "id": 30167,
+      "externalId": "BIO-OWNER-M4-Q28",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A density-dependent factor is one whose effect on a population changes with population density, becoming stronger as density increases.\nDisease is density-dependent because transmission typically requires contact or proximity between hosts, so infection rates rise when individuals are more crowded.\nPathogens and parasites spread more efficiently in dense populations, increasing morbidity and mortality rates proportionally to host density.\nFlood, temperature and drought are density-independent abiotic factors that impact individuals regardless of population size or how closely they are packed.\nOther biological density-dependent factors include competition, predation and parasitism, which also vary in intensity with population density.\nThus disease is the correct answer since its impact scales with density, whereas the other listed factors operate largely independently of population density.",
+      "after": "A density-dependent factor is one whose effect on a population changes with population density, becoming stronger as density increases.\nDisease is density-dependent because transmission typically requires contact or proximity between hosts, so infection rates rise when individuals are more crowded.\nPathogens and parasites spread more efficiently in dense populations, increasing morbidity and mortality rates proportionally to host density.\nThus disease is the correct answer since its impact scales with density, whereas the other listed factors operate largely independently of population density."
+    },
+    {
+      "id": 30168,
+      "externalId": "BIO-OWNER-M4-Q29",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Trophic levels are stages in a food chain where energy is transferred from one organism to another.\nProducers occupy the first trophic level because they are autotrophs (e.g., green plants and algae) that synthesize organic food from inorganic materials by photosynthesis.\nAs first-level organisms, producers convert solar energy into chemical energy that becomes available to all higher trophic levels.\nPrimary consumers (herbivores) are the second trophic level because they feed directly on producers, not vice versa.\nSecondary consumers are carnivores or omnivores that eat primary consumers, while decomposers recycle nutrients by breaking down dead organisms rather than occupying the first trophic level.\nTherefore 'Producer' is correct; the other options describe organisms at higher trophic levels or different ecological roles.",
+      "after": "Trophic levels are stages in a food chain where energy is transferred from one organism to another.\nProducers occupy the first trophic level because they are autotrophs (e.g., green plants and algae) that synthesize organic food from inorganic materials by photosynthesis.\nAs first-level organisms, producers convert solar energy into chemical energy that becomes available to all higher trophic levels.\nTherefore 'Producer' is correct; the other options describe organisms at higher trophic levels or different ecological roles."
+    },
+    {
+      "id": 30169,
+      "externalId": "BIO-OWNER-M4-Q30",
+      "subject": "Biology",
+      "topic": "Behaviour and Social Organization",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Gregarious behaviour is the tendency of animals to live or move together in groups of the same species.\nThe correct option — moving together in groups of the same species — directly names this social grouping seen in flocks, schools and herds.\nSurviving adverse weather conditions describes adaptations such as hibernation, migration or seeking shelter, which are not synonymous with gregariousness.\nCommunicating information to one another is a distinct behaviour that often occurs within groups but is not the definition of being gregarious (e.g. signals, calls, pheromones).\nGiving warning signals when danger threatens (alarm calls) is a specific communicative act used by some social animals to warn group members, yet it does not by itself define group-living.\nTherefore the best description of gregarious behaviour is coordinated living or movement in groups of the same species for benefits like predator avoidance, improved foraging and mating opportunities.",
+      "after": "Gregarious behaviour is the tendency of animals to live or move together in groups of the same species.\nThe correct option — moving together in groups of the same species — directly names this social grouping seen in flocks, schools and herds.\nSurviving adverse weather conditions describes adaptations such as hibernation, migration or seeking shelter, which are not synonymous with gregariousness.\nTherefore the best description of gregarious behaviour is coordinated living or movement in groups of the same species for benefits like predator avoidance, improved foraging and mating opportunities."
+    },
+    {
+      "id": 30170,
+      "externalId": "BIO-OWNER-M4-Q31",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Dentition type refers to whether an animal's teeth are uniform or differentiated into distinct kinds with specialised functions.\nHeterodont dentition, the correct answer, means having different kinds of teeth (incisors, canines, premolars, molars) each adapted for biting, tearing and grinding.\nHumans have incisors for cutting, canines for tearing and premolars/molars for crushing and grinding, so human dentition is heterodont.\nHomodont dentition describes animals whose teeth are all similar in shape and function (common in many fishes and some reptiles) and therefore does not apply to humans.\nMonodont (literally a single tooth or single prominent tooth) and polyodont (many undifferentiated teeth) are not appropriate descriptions of human dental pattern and are incorrect choices here.\nBecause humans possess distinct, specialised tooth types for different roles in processing food, 'heterodont' best describes human dentition.",
+      "after": "Dentition type refers to whether an animal's teeth are uniform or differentiated into distinct kinds with specialised functions.\nHeterodont dentition, the correct answer, means having different kinds of teeth (incisors, canines, premolars, molars) each adapted for biting, tearing and grinding.\nHumans have incisors for cutting, canines for tearing and premolars/molars for crushing and grinding, so human dentition is heterodont.\nBecause humans possess distinct, specialised tooth types for different roles in processing food, 'heterodont' best describes human dentition."
+    },
+    {
+      "id": 30171,
+      "externalId": "BIO-OWNER-M4-Q32",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A dental formula is a shorthand showing the number of incisors, canines, premolars and molars in one half of the upper and lower jaws (written as upper/lower) in the order I C P M.\nThe adult human dental formula is 2.1.2.3 / 2.1.2.3, meaning each quadrant has 2 incisors, 1 canine, 2 premolars and 3 molars.\nThe total permanent teeth count is (2+1+2+3) × 4 = 32, so the given formula corresponds to the full adult dentition.\nOption 2 (2.1.3.2 / 2.1.3.2) is incorrect because it implies three premolars and only two molars per quadrant, but humans have two premolars and three molars.\nOption 3 (1.2.3.2 / 1.2.3.2) is wrong because it gives only one incisor per quadrant and misstates the standard I C P M sequence for humans.\nOption 4 (2.2.1.3 / 2.2.1.3) is incorrect because it indicates two canines and one premolar per quadrant, whereas humans have one canine and two premolars; the deciduous dentition has a different formula.",
+      "after": "A dental formula is a shorthand showing the number of incisors, canines, premolars and molars in one half of the upper and lower jaws (written as upper/lower) in the order I C P M.\nThe adult human dental formula is 2.1.2.3 / 2.1.2.3, meaning each quadrant has 2 incisors, 1 canine, 2 premolars and 3 molars.\nThe total permanent teeth count is (2+1+2+3) × 4 = 32, so the given formula corresponds to the full adult dentition.\nOption 4 (2.2.1.3 / 2.2.1.3) is incorrect because it indicates two canines and one premolar per quadrant, whereas humans have one canine and two premolars; the deciduous dentition has a different formula."
+    },
+    {
+      "id": 30172,
+      "externalId": "BIO-OWNER-M4-Q33",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Incisors are the front teeth with thin, sharp, chisel-shaped crowns and are primarily adapted for cutting and biting off pieces of food.\nThere are eight incisors in adult humans (four on the upper jaw and four on the lower jaw), positioned centrally to receive and slice food first.\nTheir single, relatively flat cutting edge and chisel shape make them efficient at shearing food rather than crushing or tearing.\nCanines are pointed and longer, specialised for tearing and holding rather than slicing, making them a plausible but incorrect alternative.\nPremolars (bicuspids) have broader occlusal surfaces for crushing and grinding, and molars have the largest grinding surface for comminuting food, so they are not primarily for cutting.\nTherefore Incisors is correct because their form and position suit the mechanical role of biting and slicing in human dentition.",
+      "after": "Incisors are the front teeth with thin, sharp, chisel-shaped crowns and are primarily adapted for cutting and biting off pieces of food.\nThere are eight incisors in adult humans (four on the upper jaw and four on the lower jaw), positioned centrally to receive and slice food first.\nTheir single, relatively flat cutting edge and chisel shape make them efficient at shearing food rather than crushing or tearing.\nTherefore Incisors is correct because their form and position suit the mechanical role of biting and slicing in human dentition."
+    },
+    {
+      "id": 30173,
+      "externalId": "BIO-OWNER-M4-Q34",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Tapeworms (cestodes) possess a scolex that commonly bears suckers and a rostellum armed with hooks, which are morphological adaptations for attachment to the host intestine.\nThe rostellum is a muscular, often retractile projection fitted with chitinous hooks that physically anchor the worm to the intestinal mucosa and resist peristalsis.\nProglottids are the chain of reproductive segments produced posterior to the scolex and serve mainly in reproduction and egg dispersal, not in attachment to the gut wall.\nFlame cells are components of the excretory/osmoregulatory system in some flatworms and have no role in securing the parasite to host tissues.\nThe cuticle or tegument is a protective, absorptive outer layer that facilitates nutrient uptake and immune evasion but does not provide the mechanical anchorage that hooks do.\nTherefore, 'rostellum and hooks' is correct because these specialized attachment structures physically secure the scolex to the host intestine, distinguishing them from the reproductive, excretory, or protective alternatives.",
+      "after": "Tapeworms (cestodes) possess a scolex that commonly bears suckers and a rostellum armed with hooks, which are morphological adaptations for attachment to the host intestine.\nThe rostellum is a muscular, often retractile projection fitted with chitinous hooks that physically anchor the worm to the intestinal mucosa and resist peristalsis.\nProglottids are the chain of reproductive segments produced posterior to the scolex and serve mainly in reproduction and egg dispersal, not in attachment to the gut wall.\nTherefore, 'rostellum and hooks' is correct because these specialized attachment structures physically secure the scolex to the host intestine, distinguishing them from the reproductive, excretory, or protective alternatives."
+    },
+    {
+      "id": 30174,
+      "externalId": "BIO-OWNER-M4-Q35",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Secondary growth in woody plants is the increase in girth produced by lateral meristems rather than apical meristems.\nThe vascular cambium is a cylindrical lateral meristem that produces secondary xylem (wood) inward and secondary phloem outward, thereby increasing stem and root thickness.\nApical meristems at shoot and root tips generate primary tissues and lengthen the plant but do not produce the concentric secondary tissues responsible for girth increase.\nThe epidermis is a protective outer layer and the endodermis is a selective barrier in roots; neither are meristematic tissues that drive secondary thickening.\nCork cambium (phellogen) is another lateral meristem that forms protective periderm or bark outward, but it does not produce the bulk of woody tissue—that role belongs to the vascular cambium.\nTherefore, 'Vascular cambium' is correct because it supplies the new secondary xylem and phloem that increase the girth of woody stems.",
+      "after": "Secondary growth in woody plants is the increase in girth produced by lateral meristems rather than apical meristems.\nThe vascular cambium is a cylindrical lateral meristem that produces secondary xylem (wood) inward and secondary phloem outward, thereby increasing stem and root thickness.\nApical meristems at shoot and root tips generate primary tissues and lengthen the plant but do not produce the concentric secondary tissues responsible for girth increase.\nTherefore, 'Vascular cambium' is correct because it supplies the new secondary xylem and phloem that increase the girth of woody stems."
+    },
+    {
+      "id": 30175,
+      "externalId": "BIO-OWNER-M4-Q36",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Soil water-holding capacity depends mainly on particle size, surface area and pore distribution (soil texture).\nClay has the smallest particles and highest surface area, so it holds the most water by adsorption and capillary forces.\nClay particles also carry charges and form colloidal aggregates that create many micropores which retain water against drainage.\nSilt has intermediate-sized particles and therefore intermediate water retention—more than sand but less than clay.\nSand and gravel have large particles and macropores, so water drains quickly and they have the lowest water-holding capacity.\nOrganic matter and soil structure can modify retention, but among the listed mineral fractions clay retains the most water.",
+      "after": "Soil water-holding capacity depends mainly on particle size, surface area and pore distribution (soil texture).\nClay has the smallest particles and highest surface area, so it holds the most water by adsorption and capillary forces.\nClay particles also carry charges and form colloidal aggregates that create many micropores which retain water against drainage.\nOrganic matter and soil structure can modify retention, but among the listed mineral fractions clay retains the most water."
+    },
+    {
+      "id": 30196,
+      "externalId": "BIO-OWNER-M5-Q7",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homologous structures are body parts that share a common evolutionary origin and similar internal anatomy but may serve different functions.\nThe whale flipper and the horse forelimb are homologous because both are modified tetrapod forelimbs with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals, phalanges).\nTheir similarity in embryonic development and skeletal pattern reflects common descent rather than independent origin.\nThe wing of a bird and the wing of a butterfly are analogous: bird wings are modified forelimbs with bones, while insect wings are outgrowths of the exoskeleton and have a different origin.\nThe eye of an insect (compound eye) and the eye of a mammal (camera-type eye) differ in structure and embryonic origin, so they are analogous rather than homologous.\nCactus spines are modified leaves and porcupine quills are modified hairs (skin structures), so their similar defensive function is convergent, not homologous.",
+      "after": "Homologous structures are body parts that share a common evolutionary origin and similar internal anatomy but may serve different functions.\nThe whale flipper and the horse forelimb are homologous because both are modified tetrapod forelimbs with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals, phalanges).\nTheir similarity in embryonic development and skeletal pattern reflects common descent rather than independent origin.\nCactus spines are modified leaves and porcupine quills are modified hairs (skin structures), so their similar defensive function is convergent, not homologous."
+    },
+    {
+      "id": 30197,
+      "externalId": "BIO-OWNER-M5-Q8",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Darwin proposed that natural selection — differential survival and reproduction of organisms with advantageous heritable traits — is the primary mechanism driving evolution.\nNatural selection acts on variation within populations, increasing the frequency of beneficial traits over generations because those individuals leave more offspring.\nMutation is the source of genetic variation but, by itself, does not direct which variants become common; selection sorts and amplifies useful mutations.\nGenetic drift causes random changes in allele frequencies, especially in small populations, but it does not explain the adaptive complexity that natural selection produces.\nArtificial selection shows how selection can change species traits, but it is human-directed rather than the natural environmental sorting Darwin emphasized.\nTherefore, among the given options, 'Natural selection' best matches Darwin's stated primary driving force in his theory of evolution.",
+      "after": "Darwin proposed that natural selection — differential survival and reproduction of organisms with advantageous heritable traits — is the primary mechanism driving evolution.\nNatural selection acts on variation within populations, increasing the frequency of beneficial traits over generations because those individuals leave more offspring.\nMutation is the source of genetic variation but, by itself, does not direct which variants become common; selection sorts and amplifies useful mutations.\nTherefore, among the given options, 'Natural selection' best matches Darwin's stated primary driving force in his theory of evolution."
+    },
+    {
+      "id": 30198,
+      "externalId": "BIO-OWNER-M5-Q9",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fossil records are most often preserved in sedimentary rocks because organisms are buried by sediments like mud, sand and silt that later compact and lithify.\nSedimentary environments typically involve relatively low temperatures and pressures that favor preservation of shells, bones and impressions rather than destroying them.\nIgneous and volcanic rocks form from molten magma or lava, so they generally destroy organic material rather than preserving fossils.\nMetamorphic rocks are subjected to high heat and pressure that can recrystallize or deform original textures and commonly obliterate fossil evidence.\nCommon fossil-bearing sedimentary types include shale, limestone and sandstone, which form in low-energy settings such as lakes, river deltas and shallow seas where rapid burial can occur.\nTherefore 'Sedimentary rock' is correct because it provides the burial and mineral conditions needed for fossilization, whereas igneous, volcanic and metamorphic processes tend to erase or alter fossils.",
+      "after": "Fossil records are most often preserved in sedimentary rocks because organisms are buried by sediments like mud, sand and silt that later compact and lithify.\nSedimentary environments typically involve relatively low temperatures and pressures that favor preservation of shells, bones and impressions rather than destroying them.\nIgneous and volcanic rocks form from molten magma or lava, so they generally destroy organic material rather than preserving fossils.\nTherefore 'Sedimentary rock' is correct because it provides the burial and mineral conditions needed for fossilization, whereas igneous, volcanic and metamorphic processes tend to erase or alter fossils."
+    },
+    {
+      "id": 30199,
+      "externalId": "BIO-OWNER-M5-Q10",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is identification of reducing sugars in food samples using specific chemical reagents.\nBenedict's reagent contains copper(II) ions in alkaline solution and, when heated with a reducing sugar like glucose, the Cu2+ is reduced to copper(I) oxide producing a brick‑red precipitate.\nIodine (iodine-potassium iodide) gives a blue-black colour with starch and therefore indicates polysaccharide presence, not free reducing sugars.\nThe Biuret test reacts with peptide bonds to give a violet colour and is used for proteins, so it will not detect simple sugars.\nSudan III is a lipid stain that colours oils and fats red and is unrelated to sugar detection.\nSome sugars (e.g., sucrose) are non-reducing and will not give a positive Benedict's test unless hydrolysed to reducing sugars, so a negative result may need further testing.",
+      "after": "The concept is identification of reducing sugars in food samples using specific chemical reagents.\nBenedict's reagent contains copper(II) ions in alkaline solution and, when heated with a reducing sugar like glucose, the Cu2+ is reduced to copper(I) oxide producing a brick‑red precipitate.\nIodine (iodine-potassium iodide) gives a blue-black colour with starch and therefore indicates polysaccharide presence, not free reducing sugars.\nSome sugars (e.g., sucrose) are non-reducing and will not give a positive Benedict's test unless hydrolysed to reducing sugars, so a negative result may need further testing."
+    },
+    {
+      "id": 30200,
+      "externalId": "BIO-OWNER-M5-Q11",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vestigial organs are reduced or nonfunctional anatomical structures that are remnants of features that were functional in ancestral species.\nTheir presence indicates inheritance from ancestors because these structures persist even after losing their original function in the current organism.\nTherefore the correct option is that the organism shares a common ancestor with others where the organ is functional, since vestigial traits are homologous remnants of ancestral characters (e.g., human appendix, pelvic bones in whales).\nThey do not imply the organism is 'highly evolved' because vestigiality reflects historical loss or reduction of function, not progressive improvement toward an ideal.\nVestigial organs are generally not currently essential for survival, and if they were essential natural selection would maintain or enhance their function rather than reduce it.\nThere is no reason to expect these structures to become larger in future generations; without positive selection pressure they are more likely to remain reduced or be lost over time.",
+      "after": "Vestigial organs are reduced or nonfunctional anatomical structures that are remnants of features that were functional in ancestral species.\nTheir presence indicates inheritance from ancestors because these structures persist even after losing their original function in the current organism.\nTherefore the correct option is that the organism shares a common ancestor with others where the organ is functional, since vestigial traits are homologous remnants of ancestral characters (e.g., human appendix, pelvic bones in whales).\nThere is no reason to expect these structures to become larger in future generations; without positive selection pressure they are more likely to remain reduced or be lost over time."
+    },
+    {
+      "id": 30201,
+      "externalId": "BIO-OWNER-M5-Q12",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Speciation is the evolutionary process by which populations diverge and become reproductively isolated, forming two or more distinct species.\nReproductive isolation—prezygotic or postzygotic barriers that prevent gene flow between populations—is the central feature that defines speciation.\nCommon mechanisms that produce speciation include geographic (allopatric) isolation, ecological or behavioral divergence (sympatric processes), and chromosomal changes such as polyploidy in plants.\nNatural selection can drive the divergence that leads to speciation, but 'selection' itself refers to differential survival and reproduction rather than the naming of new-species formation.\nSpecialization means adaptation to a particular niche or role and may promote divergence, but it is not the term for the process that yields new species.\nSegregation describes the separation of alleles during meiosis (Mendel's law) and is a genetic mechanism, not the process by which new species arise.",
+      "after": "Speciation is the evolutionary process by which populations diverge and become reproductively isolated, forming two or more distinct species.\nReproductive isolation—prezygotic or postzygotic barriers that prevent gene flow between populations—is the central feature that defines speciation.\nCommon mechanisms that produce speciation include geographic (allopatric) isolation, ecological or behavioral divergence (sympatric processes), and chromosomal changes such as polyploidy in plants.\nSegregation describes the separation of alleles during meiosis (Mendel's law) and is a genetic mechanism, not the process by which new species arise."
+    },
+    {
+      "id": 30202,
+      "externalId": "BIO-OWNER-M5-Q13",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks which organelle in the cell is responsible for synthesising proteins, and the correct answer is the ribosome.\nRibosomes are complexes of ribosomal RNA and proteins that translate messenger RNA into polypeptide chains by forming peptide bonds.\nRibosomes can be free in the cytosol to make cytosolic proteins or attached to the rough endoplasmic reticulum to synthesise proteins for secretion or membranes.\nMitochondria primarily produce ATP by cellular respiration and are not the main site of general protein synthesis, though mitochondria have their own ribosomes for some mitochondrial-encoded proteins.\nThe Golgi apparatus modifies, sorts and packages proteins received from the ER but does not carry out the actual synthesis of polypeptides.\nLysosomes contain hydrolytic enzymes for intracellular digestion and waste breakdown and are not involved in assembling proteins.",
+      "after": "The question asks which organelle in the cell is responsible for synthesising proteins, and the correct answer is the ribosome.\nRibosomes are complexes of ribosomal RNA and proteins that translate messenger RNA into polypeptide chains by forming peptide bonds.\nRibosomes can be free in the cytosol to make cytosolic proteins or attached to the rough endoplasmic reticulum to synthesise proteins for secretion or membranes.\nLysosomes contain hydrolytic enzymes for intracellular digestion and waste breakdown and are not involved in assembling proteins."
+    },
+    {
+      "id": 30205,
+      "externalId": "BIO-OWNER-M5-Q16",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Wind pollination involves transfer of pollen by air currents rather than animal vectors, so flowers show adaptations for airborne pollen capture and release.\nFeathery (branched) stigmas increase surface area and present sticky surfaces to intercept and hold small wind‑borne pollen grains, making 'feathery stigmas' the correct choice.\nBrightly colored petals are a visual attractant for insect or bird pollinators and are therefore not a feature of wind‑pollinated flowers.\nScented flowers produce volatile chemicals to lure animal pollinators, so scent indicates biotic rather than wind pollination.\nHeavy, sticky pollen grains are adapted to adhere to insect bodies and are typical of animal‑pollinated species, whereas wind‑pollinated plants produce abundant, small, dry, smooth pollen.\nOther common wind‑pollinated traits include reduced or absent petals and exerted stamens and stigmas that increase exposure to air currents for dispersal and capture.",
+      "after": "Wind pollination involves transfer of pollen by air currents rather than animal vectors, so flowers show adaptations for airborne pollen capture and release.\nFeathery (branched) stigmas increase surface area and present sticky surfaces to intercept and hold small wind‑borne pollen grains, making 'feathery stigmas' the correct choice.\nBrightly colored petals are a visual attractant for insect or bird pollinators and are therefore not a feature of wind‑pollinated flowers.\nOther common wind‑pollinated traits include reduced or absent petals and exerted stamens and stigmas that increase exposure to air currents for dispersal and capture."
+    },
+    {
+      "id": 30206,
+      "externalId": "BIO-OWNER-M5-Q17",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fossilization requires rapid coverage of remains so they are protected from physical and biological destruction.\nRapid burial in fine-grained sediments is ideal because small particles limit oxygen penetration and physical disturbance, preserving tissues long enough for mineral replacement.\nMineral-rich groundwater percolating through fine sediments promotes permineralization, replacing organic material with minerals and forming a fossil.\nHigh temperature combined with rapid bacterial decomposition speeds decay and usually destroys remains before mineralization can occur, so that option is incorrect.\nExposure to atmospheric oxygen and sunlight enhances microbial activity and weathering, which prevents rather than promotes preservation.\nFrequent disturbance by scavengers breaks up and disperses remains, exposing them to decay and reducing the chance of fossil formation compared with rapid, undisturbed burial.",
+      "after": "Fossilization requires rapid coverage of remains so they are protected from physical and biological destruction.\nRapid burial in fine-grained sediments is ideal because small particles limit oxygen penetration and physical disturbance, preserving tissues long enough for mineral replacement.\nMineral-rich groundwater percolating through fine sediments promotes permineralization, replacing organic material with minerals and forming a fossil.\nFrequent disturbance by scavengers breaks up and disperses remains, exposing them to decay and reducing the chance of fossil formation compared with rapid, undisturbed burial."
+    }
+  ]
+}

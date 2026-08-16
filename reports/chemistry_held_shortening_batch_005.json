@@ -1,0 +1,228 @@
+{
+  "subject": "Chemistry",
+  "batch": 5,
+  "batchSize": 20,
+  "eligibleTotal": 40,
+  "selected": [
+    {
+      "id": 60094,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-94",
+      "subject": "Chemistry",
+      "topic": "Qualitative Analysis",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The intense yellow colour produced by concentrated HNO3 is characteristic of electrophilic nitration of an activated aromatic ring, especially phenols.\nA phenolic −OH strongly activates the benzene ring and nitration produces nitrophenols, which are yellow to orange in colour and form rapidly with HNO3.\nAldehydes and ketones are not readily nitrated under these mild conditions and therefore do not give the quick yellow colour typical of phenols.\nAliphatic alcohols lack the activated aromatic system and generally show no immediate yellow colour on addition of concentrated nitric acid.\nThus the correct option is the phenol/aromatic ring choice because the phenolic OH promotes fast nitration to coloured nitro derivatives.\nNote: other strongly activated aromatics or amines can also yield coloured products with strong nitrating agents, but the classic spot-test yellow response is associated with phenols.",
+      "after": "The intense yellow colour produced by concentrated HNO3 is characteristic of electrophilic nitration of an activated aromatic ring, especially phenols.\nA phenolic −OH strongly activates the benzene ring and nitration produces nitrophenols, which are yellow to orange in colour and form rapidly with HNO3.\nAldehydes and ketones are not readily nitrated under these mild conditions and therefore do not give the quick yellow colour typical of phenols.\nNote: other strongly activated aromatics or amines can also yield coloured products with strong nitrating agents, but the classic spot-test yellow response is associated with phenols."
+    },
+    {
+      "id": 60095,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-95",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Alkyl alkanoates are esters with general formula RCOOR', formed by reaction of an alkanoic acid and an alcohol.\nTheir characteristic functional group is the –COO– linkage, comprising a carbonyl (C=O) bonded to an alkoxy oxygen.\nOption –COO– is correct because it represents this ester linkage where the carbonyl carbon is attached to an OR' group rather than an OH or H.\n–COOH is the carboxyl group of carboxylic acids (carbonyl bonded to OH), so it does not describe esters.\n–OH is the alcohol (hydroxyl) group without a carbonyl and therefore cannot represent an ester functional group.\n–CHO is the aldehyde group (carbonyl bonded to hydrogen), which differs from esters; esters are named with the suffix -oate.",
+      "after": "Alkyl alkanoates are esters with general formula RCOOR', formed by reaction of an alkanoic acid and an alcohol.\nTheir characteristic functional group is the –COO– linkage, comprising a carbonyl (C=O) bonded to an alkoxy oxygen.\nOption –COO– is correct because it represents this ester linkage where the carbonyl carbon is attached to an OR' group rather than an OH or H.\n–CHO is the aldehyde group (carbonyl bonded to hydrogen), which differs from esters; esters are named with the suffix -oate."
+    },
+    {
+      "id": 60096,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-96",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A monomer is a small molecule with a reactive double bond or functional group that can join repeatedly by addition or condensation to form a polymer.\nPolyvinyl chloride (PVC) is formed by addition polymerization of the monomer vinyl chloride, CH2=CHCl.\nThe chlorine atom on the vinyl unit gives PVC greater rigidity, chemical resistance and some flame-retardant character compared with simple hydrocarbon polymers.\nVinyl alcohol (CH2=CHOH) would produce polyvinyl alcohol (PVA), a different, more water-soluble polymer used for films and adhesives.\nEthylene (CH2=CH2) polymerizes to polyethylene (PE) and propylene (CH2=CHCH3) polymerizes to polypropylene (PP); neither contains the chlorine substituent that defines PVC.\nTherefore the correct monomer for polyvinyl chloride among the options is vinyl chloride; the other choices lead to different polymers.",
+      "after": "A monomer is a small molecule with a reactive double bond or functional group that can join repeatedly by addition or condensation to form a polymer.\nPolyvinyl chloride (PVC) is formed by addition polymerization of the monomer vinyl chloride, CH2=CHCl.\nThe chlorine atom on the vinyl unit gives PVC greater rigidity, chemical resistance and some flame-retardant character compared with simple hydrocarbon polymers.\nTherefore the correct monomer for polyvinyl chloride among the options is vinyl chloride; the other choices lead to different polymers."
+    },
+    {
+      "id": 60098,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-98",
+      "subject": "Chemistry",
+      "topic": "States of Matter and Intermolecular Forces",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Van der Waals forces (London dispersion and related weak dipole-induced interactions) are the principal intermolecular forces in neutral covalent molecules that lack strong hydrogen bonding or metallic/ionic bonding.\nAnhydrous AlCl3 is largely covalent and exists as molecular units (often as dimeric Al2Cl6), so its intermolecular attractions are mainly van der Waals in character.\nWater (H2O) has strong hydrogen bonding between O–H groups and lone pairs, so hydrogen bonding dominates over van der Waals forces.\nSulfuric acid (H2SO4) contains O–H groups and forms extensive hydrogen bonds in the liquid and concentrated states, making hydrogen bonding the dominant interaction.\nSodium (Na) is a metallic solid where metallic bonding (delocalised electrons and positive metal ions) is the principal bonding, not van der Waals.\nThus AlCl3 is the correct choice because its covalent molecular nature leads to van der Waals forces being the dominant intermolecular interactions.",
+      "after": "Van der Waals forces (London dispersion and related weak dipole-induced interactions) are the principal intermolecular forces in neutral covalent molecules that lack strong hydrogen bonding or metallic/ionic bonding.\nAnhydrous AlCl3 is largely covalent and exists as molecular units (often as dimeric Al2Cl6), so its intermolecular attractions are mainly van der Waals in character.\nWater (H2O) has strong hydrogen bonding between O–H groups and lone pairs, so hydrogen bonding dominates over van der Waals forces.\nThus AlCl3 is the correct choice because its covalent molecular nature leads to van der Waals forces being the dominant intermolecular interactions."
+    },
+    {
+      "id": 60099,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-99",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question compares speeds of different types of radioactive emissions relative to visible light.\nGamma rays are electromagnetic radiation and therefore travel at the speed of light in vacuum (≈3.0×10^8 m/s), the same order as visible light.\nAlpha radiation consists of helium nuclei (two protons and two neutrons) and, being massive and charged, moves much slower than light.\nBeta radiation is composed of electrons or positrons and although they can be very fast, in radioactive decay their speeds are still below the speed of light.\nNeutron radiation is made of neutral particles with mass and thus travels much slower than electromagnetic waves.\nHence the correct answer is Gamma, while alpha, beta and neutron radiations are particulate emissions with substantially lower velocities than light.",
+      "after": "The question compares speeds of different types of radioactive emissions relative to visible light.\nGamma rays are electromagnetic radiation and therefore travel at the speed of light in vacuum (≈3.0×10^8 m/s), the same order as visible light.\nAlpha radiation consists of helium nuclei (two protons and two neutrons) and, being massive and charged, moves much slower than light.\nHence the correct answer is Gamma, while alpha, beta and neutron radiations are particulate emissions with substantially lower velocities than light."
+    },
+    {
+      "id": 60101,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-101",
+      "subject": "Chemistry",
+      "topic": "Redox Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A reducing agent donates electrons to another species and is itself oxidized in the redox process.\nAcidified potassium permanganate (KMnO4) is a strong oxidizing agent that is purple and is reduced in acid to nearly colourless Mn2+.\nA substance that can act as a reducing agent will therefore decolourize acidified KMnO4 by reducing Mn(VII) to Mn(II), so 'Decolorize acidified KMnO₄' is the correct choice.\nFeSO4 (ferrous sulfate) is not typically decolourized by reduction and in many contexts contains Fe2+, a reducing species rather than an oxidizing indicator.\nLiberating CO2 from NaHCO3 requires acid (protonation), not a reducing agent, and producing Cl2 from chloride requires oxidation of Cl− (an oxidizing agent), so those options are incorrect.\nHence among the given options only decolourizing acidified KMnO₄ matches the expected behaviour of a reducing agent.",
+      "after": "A reducing agent donates electrons to another species and is itself oxidized in the redox process.\nAcidified potassium permanganate (KMnO4) is a strong oxidizing agent that is purple and is reduced in acid to nearly colourless Mn2+.\nA substance that can act as a reducing agent will therefore decolourize acidified KMnO4 by reducing Mn(VII) to Mn(II), so 'Decolorize acidified KMnO₄' is the correct choice.\nHence among the given options only decolourizing acidified KMnO₄ matches the expected behaviour of a reducing agent."
+    },
+    {
+      "id": 60102,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-102",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The ion notation gives electron count and charge: X2+ has 10 electrons, so the neutral atom had 12 electrons and thus 12 protons (Z = 12).\nMass number A equals protons + neutrons, so neutrons = 24 − 12 = 12.\nTherefore the composition is 12 protons and 12 neutrons, matching option \"12p, 12n\".\nOption \"10p, 14n\" would have Z = 10 and a 2+ ion would have 8 electrons, not the given 10, so it is incorrect.\nOption \"12p, 14n\" implies A = 26, contradicting the stated mass number 24.\nOption \"14p, 10n\" implies Z = 14 (Si), whose 2+ ion would have 12 electrons, so it does not match the given electron count of 10.",
+      "after": "The ion notation gives electron count and charge: X2+ has 10 electrons, so the neutral atom had 12 electrons and thus 12 protons (Z = 12).\nMass number A equals protons + neutrons, so neutrons = 24 − 12 = 12.\nTherefore the composition is 12 protons and 12 neutrons, matching option \"12p, 12n\".\nOption \"14p, 10n\" implies Z = 14 (Si), whose 2+ ion would have 12 electrons, so it does not match the given electron count of 10."
+    },
+    {
+      "id": 60104,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-104",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An amphoteric oxide is an oxide that reacts with both acids and bases to give salts (and often water or complex ions).\nAl2O3 is amphoteric because it reacts with acids to give aluminium salts and with strong bases to give aluminate species.\nWith an acid: Al2O3 + 6HCl → 2AlCl3 + 3H2O, showing reaction with acids.\nWith a base: Al2O3 + 2NaOH → 2NaAlO2 + H2O (or with excess water forming Na[Al(OH)4]), showing reaction with bases.\nNa2O and MgO are basic oxides (e.g. Na2O + H2O → 2NaOH; MgO + 2HCl → MgCl2 + H2O) and so do not behave amphoterically.\nSO2 is an acidic oxide that forms sulfurous acid in water (SO2 + H2O → H2SO3) and therefore is not amphoteric.",
+      "after": "An amphoteric oxide is an oxide that reacts with both acids and bases to give salts (and often water or complex ions).\nAl2O3 is amphoteric because it reacts with acids to give aluminium salts and with strong bases to give aluminate species.\nWith an acid: Al2O3 + 6HCl → 2AlCl3 + 3H2O, showing reaction with acids.\nSO2 is an acidic oxide that forms sulfurous acid in water (SO2 + H2O → H2SO3) and therefore is not amphoteric."
+    },
+    {
+      "id": 60105,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-105",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Neutralization is the reaction between an acid and a base that typically produces a salt and water.\nIn Arrhenius terms an acid supplies H+ (or H3O+) and a base supplies OH−, which combine: H+ + OH− → H2O.\nNeutralization reactions are often exothermic and the final pH depends on the relative strengths and concentrations of the acid and base.\nOxidation and reduction describe electron transfer and changes in oxidation states, not proton/hydroxide combination as in acid–base reactions.\nDisplacement reactions involve one element replacing another in a compound and therefore do not describe acid + base → salt + water.\nHence Neutralization is correct because it specifically names the acid–base reaction that yields a salt (and usually water) rather than electron-transfer or displacement processes.",
+      "after": "Neutralization is the reaction between an acid and a base that typically produces a salt and water.\nIn Arrhenius terms an acid supplies H+ (or H3O+) and a base supplies OH−, which combine: H+ + OH− → H2O.\nNeutralization reactions are often exothermic and the final pH depends on the relative strengths and concentrations of the acid and base.\nHence Neutralization is correct because it specifically names the acid–base reaction that yields a salt (and usually water) rather than electron-transfer or displacement processes."
+    },
+    {
+      "id": 60106,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-106",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An alcohol and a carboxylic acid react under acid catalysis in a condensation called Fischer esterification to give an ester (alkanoate) and water.\nMechanistically, the acid protonates the carbonyl, making it more electrophilic so the alcohol can attack, followed by proton transfers and loss of water to form the –COOR linkage.\nThe correct option, alkanoates (esters), is formed because the reaction creates the characteristic ester functional group R–C(=O)–O–R′ from R–COOH and R′–OH.\nAlkynes cannot be the product because they are C≡C hydrocarbons formed by different C–C bond-forming or elimination processes, not by esterification.\nAlkanals (aldehydes) and alkanones (ketones) arise from oxidation or other transformations of alcohols, not from direct condensation of an alcohol with a carboxylic acid.\nAn acid catalyst like H2SO4 both protonates intermediates and helps remove water; the equilibrium favors ester formation if water is removed or one reactant is used in excess.",
+      "after": "An alcohol and a carboxylic acid react under acid catalysis in a condensation called Fischer esterification to give an ester (alkanoate) and water.\nMechanistically, the acid protonates the carbonyl, making it more electrophilic so the alcohol can attack, followed by proton transfers and loss of water to form the –COOR linkage.\nThe correct option, alkanoates (esters), is formed because the reaction creates the characteristic ester functional group R–C(=O)–O–R′ from R–COOH and R′–OH.\nAn acid catalyst like H2SO4 both protonates intermediates and helps remove water; the equilibrium favors ester formation if water is removed or one reactant is used in excess."
+    },
+    {
+      "id": 60107,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-107",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Tartaric acid is a dicarboxylic organic acid commonly found in certain fruits, most notably grapes.\nGrapes contain relatively high concentrations of tartaric acid, which contributes to their sharp taste and is important in winemaking chemistry.\nLemon and orange are rich in citric acid rather than tartaric acid, so they are not primary sources of tartaric acid.\nBananas contain only small amounts of organic acids (mainly malic and some citric acid) and are not significant sources of tartaric acid.\nA well-known grape-derived salt is cream of tartar (potassium hydrogen tartrate), which precipitates during fermentation and indicates the presence of tartaric acid.\nTherefore, among the options given, grape is the correct answer because it is the common fruit that contains tartaric acid.",
+      "after": "Tartaric acid is a dicarboxylic organic acid commonly found in certain fruits, most notably grapes.\nGrapes contain relatively high concentrations of tartaric acid, which contributes to their sharp taste and is important in winemaking chemistry.\nLemon and orange are rich in citric acid rather than tartaric acid, so they are not primary sources of tartaric acid.\nTherefore, among the options given, grape is the correct answer because it is the common fruit that contains tartaric acid."
+    },
+    {
+      "id": 60108,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-108",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question hinges on noble-gas lighting: heavier noble gases produce very intense, broad‑spectrum discharges used where high visibility is required.\nXenon is correct because xenon flash and arc lamps emit extremely intense, white light pulses with high luminous output suited to aerodrome beacons and improved visibility in mist or fog.\nKrypton can be used in some high‑intensity lamps but generally gives lower luminous intensity than xenon and is less common for powerful beacon applications.\nArgon is widely used as an inert fill in ordinary bulbs to protect filaments but does not produce the intense, penetrating flashes needed for aerodrome beacons.\nNeon produces characteristic coloured glows at low pressure and is used for signage rather than the high‑intensity white light required for fog penetration in aerodrome lights.\nBecause fog penetration depends on very high luminous intensity and a broad emission spectrum (including near‑IR), xenon's discharge properties make it the preferred noble gas for aerodrome beacons.",
+      "after": "The question hinges on noble-gas lighting: heavier noble gases produce very intense, broad‑spectrum discharges used where high visibility is required.\nXenon is correct because xenon flash and arc lamps emit extremely intense, white light pulses with high luminous output suited to aerodrome beacons and improved visibility in mist or fog.\nKrypton can be used in some high‑intensity lamps but generally gives lower luminous intensity than xenon and is less common for powerful beacon applications.\nBecause fog penetration depends on very high luminous intensity and a broad emission spectrum (including near‑IR), xenon's discharge properties make it the preferred noble gas for aerodrome beacons."
+    },
+    {
+      "id": 60109,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-109",
+      "subject": "Chemistry",
+      "topic": "Combustion and Fuels",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Miners' lamps commonly used ethyne (acetylene) generated on-site by adding water to calcium carbide, producing a bright, portable gas flame.\nAcetylene burns with a very luminous flame because its combustion tends to produce hot incandescent carbon particles and a high flame temperature, giving strong visible light for illumination.\nEthene (ethylene) is an alkene used mainly as an industrial feedstock and plant hormone and burns with a less luminous, cleaner flame, so it is not preferred for miners' lamps.\nEthane, a saturated hydrocarbon gas, gives a relatively non-luminous blue flame and lacks the bright flame characteristics that made acetylene useful in portable lamps.\nEthanal (acetaldehyde) is a volatile, reactive and toxic aldehyde, not a practical or safe fuel for lighting purposes.\nTherefore the correct option is Ethyne (acetylene).",
+      "after": "Miners' lamps commonly used ethyne (acetylene) generated on-site by adding water to calcium carbide, producing a bright, portable gas flame.\nAcetylene burns with a very luminous flame because its combustion tends to produce hot incandescent carbon particles and a high flame temperature, giving strong visible light for illumination.\nEthene (ethylene) is an alkene used mainly as an industrial feedstock and plant hormone and burns with a less luminous, cleaner flame, so it is not preferred for miners' lamps.\nTherefore the correct option is Ethyne (acetylene)."
+    },
+    {
+      "id": 90147,
+      "externalId": "TechMed-Complete-Question-Bank-md-7",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "VSEPR theory (valence shell electron pair repulsion) explains molecular shape by arranging electron pairs to minimize repulsion; in CH4 there are four bonding pairs around carbon.\nFour bonding pairs adopt positions as far apart as possible, producing a tetrahedral arrangement with H–C–H angles of about 109.5°.\nFrom valence-bond theory carbon is sp3-hybridised in methane, giving four equivalent orbitals that form four equivalent C–H sigma bonds.\nBecause of this arrangement the correct option is Tetrahedral — the other choices do not match a central atom with four bonding regions.\nTrigonal (planar) describes three regions of electron density (e.g., BF3), Linear describes two (e.g., CO2), and Hexagonal is not a standard geometry for simple four-atom molecules.\nThus CH4 is tetrahedral with four equivalent C–H bonds and ~109.5° bond angles, which distinguishes it clearly from trigonal or linear geometries.",
+      "after": "VSEPR theory (valence shell electron pair repulsion) explains molecular shape by arranging electron pairs to minimize repulsion; in CH4 there are four bonding pairs around carbon.\nFour bonding pairs adopt positions as far apart as possible, producing a tetrahedral arrangement with H–C–H angles of about 109.5°.\nFrom valence-bond theory carbon is sp3-hybridised in methane, giving four equivalent orbitals that form four equivalent C–H sigma bonds.\nThus CH4 is tetrahedral with four equivalent C–H bonds and ~109.5° bond angles, which distinguishes it clearly from trigonal or linear geometries."
+    },
+    {
+      "id": 90152,
+      "externalId": "TechMed-Complete-Question-Bank-md-17",
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Stoichiometry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Efflorescence is the process by which a hydrated salt loses its water of crystallization on exposure to air.\nSodium sulphate decahydrate (Na2SO4·10H2O, Glauber's salt) effloresces because its bound water has a higher vapour pressure than the surrounding air and therefore escapes.\nThe loss of water converts the hydrate to anhydrous sodium sulphate and typically leaves a powdery or granular residue.\nHygroscopy differs because hygroscopic substances absorb moisture from the atmosphere and become damp or cake, rather than releasing their own water.\nDeliquescence is a stronger moisture uptake where a substance absorbs enough water to dissolve into a liquid solution (e.g. CaCl2 or NaOH), which is effectively the opposite behaviour to efflorescence.\nEffervescence denotes evolution of gas (bubbling) during a reaction and is unrelated to changes in water of crystallization.",
+      "after": "Efflorescence is the process by which a hydrated salt loses its water of crystallization on exposure to air.\nSodium sulphate decahydrate (Na2SO4·10H2O, Glauber's salt) effloresces because its bound water has a higher vapour pressure than the surrounding air and therefore escapes.\nThe loss of water converts the hydrate to anhydrous sodium sulphate and typically leaves a powdery or granular residue.\nEffervescence denotes evolution of gas (bubbling) during a reaction and is unrelated to changes in water of crystallization."
+    },
+    {
+      "id": 90153,
+      "externalId": "TechMed-Complete-Question-Bank-md-19",
+      "subject": "Chemistry",
+      "topic": "Hydrocarbons and Petroleum",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fractional distillation separates components of crude petroleum by exploiting their different boiling points.\nIn an oil refinery the crude is heated in a fractionating column so lighter hydrocarbons vaporise and are collected at higher levels while heavier fractions condense lower, yielding petrol, kerosene, diesel and bitumen.\nDecantation only separates immiscible liquids or solids from liquids by pouring off the top layer and cannot resolve the many miscible hydrocarbon fractions in crude oil.\nFiltration removes solid particles through a porous medium and is not suitable for separating liquid hydrocarbon mixtures that differ chiefly by boiling point.\nEvaporation removes a solvent to concentrate a solution but does not produce the distinct, useful fractions obtained by fractional distillation of crude oil.\nThe underlying principle is that boiling points increase with molecular size and intermolecular forces, so hydrocarbons condense at different heights in the column and are collected separately.",
+      "after": "Fractional distillation separates components of crude petroleum by exploiting their different boiling points.\nIn an oil refinery the crude is heated in a fractionating column so lighter hydrocarbons vaporise and are collected at higher levels while heavier fractions condense lower, yielding petrol, kerosene, diesel and bitumen.\nDecantation only separates immiscible liquids or solids from liquids by pouring off the top layer and cannot resolve the many miscible hydrocarbon fractions in crude oil.\nThe underlying principle is that boiling points increase with molecular size and intermolecular forces, so hydrocarbons condense at different heights in the column and are collected separately."
+    },
+    {
+      "id": 90154,
+      "externalId": "TechMed-Complete-Question-Bank-md-20",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Use Gay-Lussac's law: gases react in simple whole-number volume ratios equal to the equation's stoichiometric coefficients, here 2 volumes H2 react with 1 volume O2.\nStoichiometry shows 20 cm³ H2 requires 10 cm³ O2, so the reaction uses 20 cm³ H2 + 10 cm³ O2 → (water).\nFrom 20 cm³ initial O2, consumption of 10 cm³ leaves 10 cm³ unreacted oxygen as the residual gas.\nWhen the mixture is cooled the H2O formed condenses to liquid and passing over CaCl2 dries the gas, so the water is not counted in the gas volume.\nTherefore the final gas volume is 10 cm³; 40 cm³ would assume no reaction, 30 cm³ reflects an incorrect subtraction, and 20 cm³ ignores either the stoichiometry or the condensation step.\nHydrogen is the limiting reagent in this mixture, so only the excess oxygen (10 cm³) remains in the gas phase.",
+      "after": "Use Gay-Lussac's law: gases react in simple whole-number volume ratios equal to the equation's stoichiometric coefficients, here 2 volumes H2 react with 1 volume O2.\nStoichiometry shows 20 cm³ H2 requires 10 cm³ O2, so the reaction uses 20 cm³ H2 + 10 cm³ O2 → (water).\nFrom 20 cm³ initial O2, consumption of 10 cm³ leaves 10 cm³ unreacted oxygen as the residual gas.\nHydrogen is the limiting reagent in this mixture, so only the excess oxygen (10 cm³) remains in the gas phase."
+    },
+    {
+      "id": 90157,
+      "externalId": "TechMed-Complete-Question-Bank-md-23",
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Stoichiometry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Molarity (M) is defined as the number of moles of solute per one litre (1 dm³) of solution.\nThe molar mass of NaOH is about 40 g mol⁻¹, so 40 g of NaOH equals 1 mole.\nTherefore a 1 molar (1 M) solution of caustic soda is obtained by dissolving 40 g NaOH and diluting to a total volume of 1000 cm³ (1 dm³), which matches the correct option.\nDissolving 40 g NaOH in 100 g water is incorrect because molarity depends on the final solution volume and that small solvent mass yields a much smaller volume than 1 L, so the concentration would be far greater than 1 M.\nDissolving 40 g NaOH in 1000 g water is also not the standard way to specify 1 M, since mass of solvent does not equal the final solution volume and the added solute changes total volume.\n20 g NaOH is 0.5 mole, so it would produce 1 M only if the final solution volume were 0.5 L (500 cm³); the option gives 500 g (mass of solution) rather than 500 cm³ (volume), so it does not unambiguously describe a 1 M preparation.",
+      "after": "Molarity (M) is defined as the number of moles of solute per one litre (1 dm³) of solution.\nThe molar mass of NaOH is about 40 g mol⁻¹, so 40 g of NaOH equals 1 mole.\nTherefore a 1 molar (1 M) solution of caustic soda is obtained by dissolving 40 g NaOH and diluting to a total volume of 1000 cm³ (1 dm³), which matches the correct option.\n20 g NaOH is 0.5 mole, so it would produce 1 M only if the final solution volume were 0.5 L (500 cm³); the option gives 500 g (mass of solution) rather than 500 cm³ (volume), so it does not unambiguously describe a 1 M preparation."
+    },
+    {
+      "id": 90159,
+      "externalId": "TechMed-Complete-Question-Bank-md-26",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Lime-water is an aqueous saturated solution of calcium hydroxide, Ca(OH)2.\nBecause Ca(OH)2 is slightly soluble in water, lime-water contains dissolved OH− ions and is characteristically alkaline.\nBubbling CO2 through lime-water produces insoluble calcium carbonate, CaCO3, which turns the solution milky — a classical test for carbon dioxide and evidence that the solution contained Ca(OH)2.\nCalcium carbonate (CaCO3) is an insoluble solid and therefore cannot itself be the composition of lime-water; it precipitates from lime-water when CO2 is added.\nCalcium hydrogen carbonate, Ca(HCO3)2, is a soluble bicarbonate that can form only in CO2‑rich aqueous systems and is not the usual solute that defines lime-water.\nCalcium sulfate (CaSO4) is only sparingly soluble and does not produce the alkaline hydroxide solution characteristic of lime-water, so Ca(OH)2 is the correct choice.",
+      "after": "Lime-water is an aqueous saturated solution of calcium hydroxide, Ca(OH)2.\nBecause Ca(OH)2 is slightly soluble in water, lime-water contains dissolved OH− ions and is characteristically alkaline.\nBubbling CO2 through lime-water produces insoluble calcium carbonate, CaCO3, which turns the solution milky — a classical test for carbon dioxide and evidence that the solution contained Ca(OH)2.\nCalcium sulfate (CaSO4) is only sparingly soluble and does not produce the alkaline hydroxide solution characteristic of lime-water, so Ca(OH)2 is the correct choice."
+    },
+    {
+      "id": 90164,
+      "externalId": "TechMed-Complete-Question-Bank-md-39",
+      "subject": "Chemistry",
+      "topic": "Redox Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Oxidation state is a bookkeeping number assigned so the sum of all atom oxidation numbers equals the compound's overall charge.\nIn K2CO3 each potassium is +1 and each oxygen is typically −2 in oxides and oxyanions.\nUsing 2(+1) + C + 3(−2) = 0 gives C = +4.\nTherefore the oxidation state of carbon in K2CO3 is +4, matching the given correct option.\nOptions +1, +2 and +3 are incorrect because they would not satisfy charge balance for the neutral salt when combined with two K+ and three O2−.\nNote that in the carbonate ion the negative charge is delocalised by resonance but the formal oxidation number of carbon remains +4.",
+      "after": "Oxidation state is a bookkeeping number assigned so the sum of all atom oxidation numbers equals the compound's overall charge.\nIn K2CO3 each potassium is +1 and each oxygen is typically −2 in oxides and oxyanions.\nUsing 2(+1) + C + 3(−2) = 0 gives C = +4.\nNote that in the carbonate ion the negative charge is delocalised by resonance but the formal oxidation number of carbon remains +4."
+    }
+  ]
+}

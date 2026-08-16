@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 8,
+  "batchSize": 20,
+  "eligibleTotal": 175,
+  "selected": [
+    {
+      "id": 30362,
+      "externalId": "BIO-OWNER-M8-Q30",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is anemophily (wind pollination), in which floral traits favor dispersal of pollen by air currents.\nWind‑pollinated flowers typically have reduced or inconspicuous petals, lack nectar and scent, and present exposed stamens and stigmas.\nLight, smooth, non‑sticky pollen produced in very large quantities is ideal for wind dispersal because grains remain airborne, do not clump, and increase the chance some reach a stigma.\nSticky, heavy or sculptured pollen grains are adaptations for attachment to animals and are therefore characteristic of biotic (insect or animal) pollination, not wind pollination.\nLarge, brightly colored petals and sweet fragrances mainly serve to attract animal pollinators and so are inconsistent with anemophilous flowers.\nThus the correct option matches standard botanical evidence: abundant, light, smooth, non‑sticky pollen is the key wind‑pollination adaptation.",
+      "after": "The concept is anemophily (wind pollination), in which floral traits favor dispersal of pollen by air currents.\nWind‑pollinated flowers typically have reduced or inconspicuous petals, lack nectar and scent, and present exposed stamens and stigmas.\nLight, smooth, non‑sticky pollen produced in very large quantities is ideal for wind dispersal because grains remain airborne, do not clump, and increase the chance some reach a stigma.\nThus the correct option matches standard botanical evidence: abundant, light, smooth, non‑sticky pollen is the key wind‑pollination adaptation."
+    },
+    {
+      "id": 30364,
+      "externalId": "BIO-OWNER-M8-Q32",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Glycolysis is the anaerobic metabolic pathway that breaks one glucose molecule into two molecules of pyruvate in the cytoplasm.\nIt yields a net gain of two ATP and two NADH per glucose and does not require oxygen.\nTherefore the correct option is Glycolysis, because it specifically names the cytoplasmic breakdown of glucose to pyruvate.\nThe Krebs cycle (citric acid cycle) takes place in the mitochondrial matrix, oxidises acetyl-CoA to CO2, and is part of aerobic respiration rather than cytoplasmic glycolysis.\nThe electron transport system operates on the inner mitochondrial membrane using electrons from NADH and FADH2 and requires oxygen as the final electron acceptor.\nOxidative phosphorylation refers to ATP synthesis coupled to the electron transport chain and chemiosmosis in mitochondria, so it is distinct from glycolysis and depends on the prior production of reduced coenzymes and oxygen.",
+      "after": "Glycolysis is the anaerobic metabolic pathway that breaks one glucose molecule into two molecules of pyruvate in the cytoplasm.\nIt yields a net gain of two ATP and two NADH per glucose and does not require oxygen.\nTherefore the correct option is Glycolysis, because it specifically names the cytoplasmic breakdown of glucose to pyruvate.\nOxidative phosphorylation refers to ATP synthesis coupled to the electron transport chain and chemiosmosis in mitochondria, so it is distinct from glycolysis and depends on the prior production of reduced coenzymes and oxygen."
+    },
+    {
+      "id": 30365,
+      "externalId": "BIO-OWNER-M8-Q33",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is measurement of water transparency and turbidity in an aquatic habitat using field instruments.\nA Secchi disc is a circular plate, usually painted in alternating black and white quadrants, lowered into the water until it just disappears; the depth at disappearance is recorded as the Secchi depth.\nSecchi depth provides a quantitative estimate of water transparency: increased suspended particles or algal concentration raise turbidity and reduce Secchi depth.\nTherefore the Secchi disc is the correct instrument to determine water transparency and turbidity in aquatic habitats.\nAn anemometer measures wind speed, a barometer measures atmospheric pressure, and a hygrometer measures air humidity, so none of these alternatives are suitable for assessing water clarity.\nBecause Secchi depth is inversely related to turbidity, repeated Secchi measurements are a simple way to monitor changes in water clarity over time.",
+      "after": "The concept is measurement of water transparency and turbidity in an aquatic habitat using field instruments.\nA Secchi disc is a circular plate, usually painted in alternating black and white quadrants, lowered into the water until it just disappears; the depth at disappearance is recorded as the Secchi depth.\nSecchi depth provides a quantitative estimate of water transparency: increased suspended particles or algal concentration raise turbidity and reduce Secchi depth.\nBecause Secchi depth is inversely related to turbidity, repeated Secchi measurements are a simple way to monitor changes in water clarity over time."
+    },
+    {
+      "id": 30366,
+      "externalId": "BIO-OWNER-M8-Q34",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A mutation is a sudden, inheritable change in an organism's DNA sequence, which may be a single-base (point) change or a larger chromosomal alteration.\nThis option is correct because it names the actual change in nucleotide sequence that can be passed to offspring, occurring spontaneously or after exposure to mutagens.\nRecombination reshuffles existing alleles during meiosis by crossing-over and produces new allele combinations without changing the underlying DNA sequence itself.\nAdaptation refers to a heritable trait that increases an organism's fitness in a particular environment and arises over generations through selection acting on genetic variation, not an immediate DNA sequence change.\nTranslocation is a specific type of chromosomal mutation in which a chromosome segment moves to a new location or exchanges with another chromosome; it is therefore a particular form of mutation, not a synonym.\nBecause the stem asks for a sudden inheritable change in DNA sequence in general, the broad term 'mutation' is the most accurate and comprehensive choice.",
+      "after": "A mutation is a sudden, inheritable change in an organism's DNA sequence, which may be a single-base (point) change or a larger chromosomal alteration.\nThis option is correct because it names the actual change in nucleotide sequence that can be passed to offspring, occurring spontaneously or after exposure to mutagens.\nRecombination reshuffles existing alleles during meiosis by crossing-over and produces new allele combinations without changing the underlying DNA sequence itself.\nBecause the stem asks for a sudden inheritable change in DNA sequence in general, the broad term 'mutation' is the most accurate and comprehensive choice."
+    },
+    {
+      "id": 30367,
+      "externalId": "BIO-OWNER-M8-Q35",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The shoulder (glenohumeral) joint is formed by the scapula's glenoid cavity articulating with the proximal end of the humerus.\nThe distal humerus bears the trochlea and capitulum which articulate respectively with the ulna and the radius to form the elbow joint.\nTherefore the humerus is the single bone that connects the scapula at the shoulder and both the radius and ulna at the elbow.\nThe femur is the thigh bone that articulates with the pelvis at the hip and with the tibia and patella at the knee, so it cannot be the correct answer.\nThe tibia and fibula are bones of the lower leg: the tibia articulates with the femur and talus, and the fibula is lateral and does not form the knee joint.\nBecause the femur, tibia and fibula belong to the lower limb and do not articulate with the scapula or both forearm bones, the humerus is the correct choice.",
+      "after": "The shoulder (glenohumeral) joint is formed by the scapula's glenoid cavity articulating with the proximal end of the humerus.\nThe distal humerus bears the trochlea and capitulum which articulate respectively with the ulna and the radius to form the elbow joint.\nTherefore the humerus is the single bone that connects the scapula at the shoulder and both the radius and ulna at the elbow.\nBecause the femur, tibia and fibula belong to the lower limb and do not articulate with the scapula or both forearm bones, the humerus is the correct choice."
+    },
+    {
+      "id": 30368,
+      "externalId": "BIO-OWNER-M8-Q36",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is osmoregulation in unicellular freshwater protists where water enters by osmosis and must be removed to prevent swelling.\nAmoeba uses a contractile vacuole, a membrane-bound organelle that collects excess cytoplasmic water and periodically expels it by contracting.\nThis active expulsion distinguishes the contractile vacuole from a food vacuole, which is involved in storage and digestion of engulfed particles rather than water removal.\nA pseudopodium is a temporary extension of the cytoplasm used for movement and phagocytosis, not for regulated water excretion.\nThe cell membrane is semipermeable and permits osmotic flow but lacks a mechanism to pump out large volumes of water, so it cannot perform the contractile vacuole's osmoregulatory role.\nTherefore the correct option is contractile vacuole because it actively maintains osmotic balance in Amoeba by collecting and expelling excess water.",
+      "after": "The concept is osmoregulation in unicellular freshwater protists where water enters by osmosis and must be removed to prevent swelling.\nAmoeba uses a contractile vacuole, a membrane-bound organelle that collects excess cytoplasmic water and periodically expels it by contracting.\nThis active expulsion distinguishes the contractile vacuole from a food vacuole, which is involved in storage and digestion of engulfed particles rather than water removal.\nTherefore the correct option is contractile vacuole because it actively maintains osmotic balance in Amoeba by collecting and expelling excess water."
+    },
+    {
+      "id": 30369,
+      "externalId": "BIO-OWNER-M8-Q37",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Parthenocarpy is the development of fruit from an ovary without fertilization, usually producing seedless fruits.\nParthenocarpic fruit is correct because it is formed when a single ovary develops into a fruit without the fusion of male and female gametes.\nAggregate fruits form from many separate ovaries in one flower (e.g., raspberry) and so do not match the 'single ovary without fertilization' description.\nMultiple fruits develop from the ovaries of many flowers fused together (e.g., pineapple), so they are not single‑ovary products.\nSimple dry fruits do develop from a single ovary but are characterized by a dry pericarp at maturity and generally arise after normal fertilization rather than by parthenocarpy.\nSeedless bananas and some seedless citrus are typical examples of parthenocarpic fruits, illustrating fruit formation from a single ovary without fertilization.",
+      "after": "Parthenocarpy is the development of fruit from an ovary without fertilization, usually producing seedless fruits.\nParthenocarpic fruit is correct because it is formed when a single ovary develops into a fruit without the fusion of male and female gametes.\nAggregate fruits form from many separate ovaries in one flower (e.g., raspberry) and so do not match the 'single ovary without fertilization' description.\nSeedless bananas and some seedless citrus are typical examples of parthenocarpic fruits, illustrating fruit formation from a single ovary without fertilization."
+    },
+    {
+      "id": 30370,
+      "externalId": "BIO-OWNER-M8-Q38",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The Golgi apparatus is a stack of flattened membranous sacs (cisternae) that modifies, sorts and packages proteins and lipids received from the endoplasmic reticulum.\nIt receives transport vesicles from the rough and smooth endoplasmic reticulum at the cis face, chemically modifies molecules (for example by glycosylation), and dispatches them from the trans face in secretory or transport vesicles.\nBecause it modifies, packages and distributes cell products, the Golgi apparatus is the correct answer.\nThe nucleolus is incorrect because it is the nuclear site for ribosomal RNA synthesis and ribosome assembly, not for processing or packaging proteins and lipids.\nThe lysosome is a degradative organelle containing hydrolytic enzymes for digestion of macromolecules and worn organelles, so it does not package and distribute synthesized cell products.\nThe smooth endoplasmic reticulum synthesizes lipids and detoxifies substances but lacks the Golgi's dedicated cis-trans system for sorting and packaging, so it is not the best answer.",
+      "after": "The Golgi apparatus is a stack of flattened membranous sacs (cisternae) that modifies, sorts and packages proteins and lipids received from the endoplasmic reticulum.\nIt receives transport vesicles from the rough and smooth endoplasmic reticulum at the cis face, chemically modifies molecules (for example by glycosylation), and dispatches them from the trans face in secretory or transport vesicles.\nBecause it modifies, packages and distributes cell products, the Golgi apparatus is the correct answer.\nThe smooth endoplasmic reticulum synthesizes lipids and detoxifies substances but lacks the Golgi's dedicated cis-trans system for sorting and packaging, so it is not the best answer."
+    },
+    {
+      "id": 30372,
+      "externalId": "BIO-OWNER-M8-Q40",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The sternum (breastbone) bears a median keel (carina) in flying birds to anchor the large pectoral muscles needed for flight.\nFlightless birds such as the ostrich have a flattened sternum lacking a keel because they do not develop the powerful flight muscles attached to a carina.\nThe ostrich is a large, terrestrial, flightless bird that relies on powerful legs for running rather than wings for sustained flight.\nPigeon and eagle are volant (flying) birds with a pronounced keel on the sternum to support their strong flight musculature.\nDomestic fowl (chicken) also possess a keel and can perform short flights or wing-assisted movements, so they are not described as having a flat sternum without a keel.\nThus among the options given, ostrich is correct because it is a flightless bird characterized by a flat sternum lacking a keel.",
+      "after": "The sternum (breastbone) bears a median keel (carina) in flying birds to anchor the large pectoral muscles needed for flight.\nFlightless birds such as the ostrich have a flattened sternum lacking a keel because they do not develop the powerful flight muscles attached to a carina.\nThe ostrich is a large, terrestrial, flightless bird that relies on powerful legs for running rather than wings for sustained flight.\nThus among the options given, ostrich is correct because it is a flightless bird characterized by a flat sternum lacking a keel."
+    },
+    {
+      "id": 30374,
+      "externalId": "BIO-OWNER-M8-Q42",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Complete metamorphosis (holometaboly) comprises four stages: egg, larva, pupa and imago (adult).\nThe pupa is a non‑feeding, usually quiescent stage during which larval tissues are broken down and adult structures are formed.\nInternal restructuring in the pupa involves histolysis of larval organs and histogenesis from imaginal discs or equivalent cell clusters to produce adult features.\nThe larval stage is the main feeding and growth phase (e.g., caterpillars, grubs) and therefore is active rather than quiescent.\nThe egg is the embryonic stage before hatching, while the imago is the mature, typically mobile and reproductive adult stage.\nBecause only the pupa combines non‑feeding quiescence with extensive internal reorganization, “Pupa” is the correct choice.",
+      "after": "Complete metamorphosis (holometaboly) comprises four stages: egg, larva, pupa and imago (adult).\nThe pupa is a non‑feeding, usually quiescent stage during which larval tissues are broken down and adult structures are formed.\nInternal restructuring in the pupa involves histolysis of larval organs and histogenesis from imaginal discs or equivalent cell clusters to produce adult features.\nBecause only the pupa combines non‑feeding quiescence with extensive internal reorganization, “Pupa” is the correct choice."
+    },
+    {
+      "id": 30375,
+      "externalId": "BIO-OWNER-M8-Q43",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vector-borne diseases are infections transmitted to humans by other organisms (vectors) such as mosquitoes, ticks or flies.\nProtozoan parasites are single-celled eukaryotes like Plasmodium that live in hosts and often require vectors to complete parts of their life cycles.\nMalaria is caused by Plasmodium species (e.g., P. falciparum, P. vivax) and is transmitted to humans by infected female Anopheles mosquitoes, so it is a vector-borne protozoan disease.\nCholera is caused by the bacterium Vibrio cholerae and is transmitted primarily through contaminated water, not by animal vectors.\nTyphoid fever is caused by the bacterium Salmonella typhi and spreads via the faecal–oral route, while influenza is caused by influenza viruses transmitted by respiratory droplets; neither is a protozoan vector-borne disease.\nTherefore Malaria is the correct choice because it alone of the options is both transmitted by an insect vector and caused by a protozoan parasite.",
+      "after": "Vector-borne diseases are infections transmitted to humans by other organisms (vectors) such as mosquitoes, ticks or flies.\nProtozoan parasites are single-celled eukaryotes like Plasmodium that live in hosts and often require vectors to complete parts of their life cycles.\nMalaria is caused by Plasmodium species (e.g., P. falciparum, P. vivax) and is transmitted to humans by infected female Anopheles mosquitoes, so it is a vector-borne protozoan disease.\nTherefore Malaria is the correct choice because it alone of the options is both transmitted by an insect vector and caused by a protozoan parasite."
+    },
+    {
+      "id": 30376,
+      "externalId": "BIO-OWNER-M8-Q44",
+      "subject": "Biology",
+      "topic": "Transport",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Osmosis is the net diffusion of water molecules through a selectively permeable membrane from a region of higher water potential (lower solute concentration) to a region of lower water potential (higher solute concentration).\nIt is a passive physical process driven by differences in water potential and does not require metabolic energy.\nThe correct option is Osmosis because the stem specifically describes movement of water across a selectively permeable membrane down a water-potential gradient.\nFacilitated diffusion is also passive but involves movement of solute molecules or ions via specific channel or carrier proteins, not bulk water movement.\nActive transport requires cellular energy (ATP) to move substances against their concentration gradients, so it does not describe water moving down its potential gradient.\nPlasmolysis is the consequence in plant cells when excessive osmosis causes the protoplast to shrink away from the cell wall, so it is an effect of water loss rather than the water-movement process itself.",
+      "after": "Osmosis is the net diffusion of water molecules through a selectively permeable membrane from a region of higher water potential (lower solute concentration) to a region of lower water potential (higher solute concentration).\nIt is a passive physical process driven by differences in water potential and does not require metabolic energy.\nThe correct option is Osmosis because the stem specifically describes movement of water across a selectively permeable membrane down a water-potential gradient.\nPlasmolysis is the consequence in plant cells when excessive osmosis causes the protoplast to shrink away from the cell wall, so it is an effect of water loss rather than the water-movement process itself."
+    },
+    {
+      "id": 30377,
+      "externalId": "BIO-OWNER-M8-Q45",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pneumatophores are specialized vertical aerial roots produced by some mangrove species that project above waterlogged mud to facilitate gas exchange for submerged root systems.\nThey are an adaptation to the anaerobic, water-saturated soils of mangrove swamps where dissolved oxygen is too low for normal root respiration.\nCommon examples include Avicennia and Sonneratia species, whose pneumatophores bear numerous lenticels to admit oxygen into internal air spaces.\nArid deserts lack waterlogging and instead favour adaptations such as deep taproots, reduced leaves and succulence rather than aerial breathing roots.\nFreshwater lake plants more often develop aerenchyma, floating leaves or stems for buoyancy and internal gas transport rather than erect pneumatophores.\nAlpine meadows have cold, well-drained soils and low, compact growth forms, so pneumatophores are not a characteristic adaptation there.",
+      "after": "Pneumatophores are specialized vertical aerial roots produced by some mangrove species that project above waterlogged mud to facilitate gas exchange for submerged root systems.\nThey are an adaptation to the anaerobic, water-saturated soils of mangrove swamps where dissolved oxygen is too low for normal root respiration.\nCommon examples include Avicennia and Sonneratia species, whose pneumatophores bear numerous lenticels to admit oxygen into internal air spaces.\nAlpine meadows have cold, well-drained soils and low, compact growth forms, so pneumatophores are not a characteristic adaptation there."
+    },
+    {
+      "id": 30378,
+      "externalId": "BIO-OWNER-M8-Q46",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Emulsification is the physical breakdown of large fat globules into many tiny droplets, increasing surface area for enzymatic digestion.\nBile salts, produced by the liver and stored in the gallbladder, are amphipathic molecules that surround fat droplets and act like detergents to emulsify fats.\nThey are not enzymes but their detergent action creates small droplets that make fats accessible to lipase.\nPancreatic lipase is the enzyme that chemically hydrolyzes triglycerides into fatty acids and glycerol but cannot emulsify fats by itself.\nHydrochloric acid in the stomach denatures proteins and activates pepsin, while trypsin is a pancreatic protease; neither performs emulsification of fats.\nTherefore the correct answer is bile salts because only they provide the amphipathic, detergent action required for emulsification.",
+      "after": "Emulsification is the physical breakdown of large fat globules into many tiny droplets, increasing surface area for enzymatic digestion.\nBile salts, produced by the liver and stored in the gallbladder, are amphipathic molecules that surround fat droplets and act like detergents to emulsify fats.\nThey are not enzymes but their detergent action creates small droplets that make fats accessible to lipase.\nTherefore the correct answer is bile salts because only they provide the amphipathic, detergent action required for emulsification."
+    },
+    {
+      "id": 30379,
+      "externalId": "BIO-OWNER-M8-Q47",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A dihybrid cross between AaBb × AaBb involves two genes that assort independently, producing four gamete types (AB, Ab, aB, ab) in equal proportions.\nWith simple dominance at each locus there are four phenotype classes: both dominant traits, dominant A only, dominant B only, and both recessive.\nEach locus follows a 3:1 phenotypic ratio in a monohybrid cross, so multiplying probabilities gives 9/16 for both dominant, 3/16 for dominant A only, 3/16 for dominant B only, and 1/16 for both recessive.\nThese fractions translate to the 9:3:3:1 phenotypic ratio, which corresponds to the correct option.\nThe 3:1 ratio applies to a single-gene cross and 1:2:1 is the genotypic ratio for a monohybrid (or the phenotypic ratio under incomplete dominance), so neither describes the AaBb × AaBb dihybrid phenotype distribution.\nA 1:1:1:1 ratio arises in testcrosses (e.g., AaBb × aabb) or certain parental combinations, not from two heterozygotes crossed together.",
+      "after": "A dihybrid cross between AaBb × AaBb involves two genes that assort independently, producing four gamete types (AB, Ab, aB, ab) in equal proportions.\nWith simple dominance at each locus there are four phenotype classes: both dominant traits, dominant A only, dominant B only, and both recessive.\nEach locus follows a 3:1 phenotypic ratio in a monohybrid cross, so multiplying probabilities gives 9/16 for both dominant, 3/16 for dominant A only, 3/16 for dominant B only, and 1/16 for both recessive.\nA 1:1:1:1 ratio arises in testcrosses (e.g., AaBb × aabb) or certain parental combinations, not from two heterozygotes crossed together."
+    },
+    {
+      "id": 30400,
+      "externalId": "BIO-OWNER-M9-Q21",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "DNA and RNA are nucleic acids made of nucleotides, each containing a sugar, a phosphate group and a nitrogenous base.\nThe four common bases in DNA are adenine, thymine, cytosine and guanine, whereas in RNA thymine is replaced by uracil.\nUracil is therefore present in RNA but absent in DNA, so 'Uracil' is the correct option.\nIn RNA uracil pairs with adenine via two hydrogen bonds, analogous to adenine–thymine pairing in DNA.\nAdenine and cytosine occur in both DNA and RNA, so they cannot be the unique RNA base; thymine is the one absent from RNA.\nStructurally thymine is 5‑methyluracil (a methylated form of uracil), which accounts for the chemical difference between the two molecules.",
+      "after": "DNA and RNA are nucleic acids made of nucleotides, each containing a sugar, a phosphate group and a nitrogenous base.\nThe four common bases in DNA are adenine, thymine, cytosine and guanine, whereas in RNA thymine is replaced by uracil.\nUracil is therefore present in RNA but absent in DNA, so 'Uracil' is the correct option.\nStructurally thymine is 5‑methyluracil (a methylated form of uracil), which accounts for the chemical difference between the two molecules."
+    },
+    {
+      "id": 30401,
+      "externalId": "BIO-OWNER-M9-Q22",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Mutualism is a symbiotic relationship in which both species involved gain benefits from the association.\nIn the sea anemone–hermit crab association, the hermit crab receives protection because the anemone’s stinging cells deter predators.\nThe sea anemone gains food scraps and increased feeding opportunities by riding on the crab and capturing leftover prey.\nThis differs from commensalism, where one organism benefits while the other is neither helped nor harmed.\nIt also differs from parasitism, where one organism benefits at the expense of the other, and from amensalism, where one organism is harmed without benefit to the other.\nBecause both organisms clearly gain advantages, the correct classification of the interaction is mutualism.",
+      "after": "Mutualism is a symbiotic relationship in which both species involved gain benefits from the association.\nIn the sea anemone–hermit crab association, the hermit crab receives protection because the anemone’s stinging cells deter predators.\nThe sea anemone gains food scraps and increased feeding opportunities by riding on the crab and capturing leftover prey.\nBecause both organisms clearly gain advantages, the correct classification of the interaction is mutualism."
+    },
+    {
+      "id": 30402,
+      "externalId": "BIO-OWNER-M9-Q23",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Book lungs are internal respiratory organs composed of numerous thin, blood‑filled lamellae stacked like the pages of a book to provide a large surface area for gas exchange.\nTerrestrial arachnids such as scorpions and many spiders use book lungs that open to the outside through small slits or spiracles on the abdomen.\nTracheal tubes are branched air ducts that directly supply oxygen to tissues and are typical of insects rather than scorpions and most spiders.\nGills are filamentous or plate‑like structures adapted for extracting oxygen from water and therefore belong to aquatic animals, not terrestrial arachnids.\nA mantle cavity is a molluscan feature (e.g., in snails and bivalves) that houses respiratory structures and is unrelated to arachnid anatomy.\nHence the correct answer is Book lungs, because they are the specialised terrestrial respiratory structures found in scorpions and many spiders, while the other options describe organs of different animal groups.",
+      "after": "Book lungs are internal respiratory organs composed of numerous thin, blood‑filled lamellae stacked like the pages of a book to provide a large surface area for gas exchange.\nTerrestrial arachnids such as scorpions and many spiders use book lungs that open to the outside through small slits or spiracles on the abdomen.\nTracheal tubes are branched air ducts that directly supply oxygen to tissues and are typical of insects rather than scorpions and most spiders.\nHence the correct answer is Book lungs, because they are the specialised terrestrial respiratory structures found in scorpions and many spiders, while the other options describe organs of different animal groups."
+    },
+    {
+      "id": 30403,
+      "externalId": "BIO-OWNER-M9-Q24",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vitamin C (ascorbic acid) deficiency impairs collagen formation and leads to connective tissue weakness manifesting as bleeding gums, which is called scurvy.\nAscorbic acid is a necessary cofactor for prolyl and lysyl hydroxylase enzymes that hydroxylate proline and lysine residues in collagen, stabilizing the triple helix.\nWithout adequate hydroxylation collagen fibers are unstable, blood vessels and gums become friable, and wound healing is poor, explaining the clinical features of scurvy.\nScurvy is therefore the correct option because its pathogenesis directly involves vitamin C deficiency and defective collagen synthesis.\nBeriberi results from thiamine (vitamin B1) deficiency causing peripheral neuropathy and cardiac symptoms, not mucosal bleeding or collagen breakdown.\nPellagra (niacin deficiency) causes dermatitis, diarrhea and dementia, and rickets (vitamin D deficiency) causes defective bone mineralization; neither produces the collagen-related bleeding gums seen in scurvy.",
+      "after": "Vitamin C (ascorbic acid) deficiency impairs collagen formation and leads to connective tissue weakness manifesting as bleeding gums, which is called scurvy.\nAscorbic acid is a necessary cofactor for prolyl and lysyl hydroxylase enzymes that hydroxylate proline and lysine residues in collagen, stabilizing the triple helix.\nWithout adequate hydroxylation collagen fibers are unstable, blood vessels and gums become friable, and wound healing is poor, explaining the clinical features of scurvy.\nPellagra (niacin deficiency) causes dermatitis, diarrhea and dementia, and rickets (vitamin D deficiency) causes defective bone mineralization; neither produces the collagen-related bleeding gums seen in scurvy."
+    },
+    {
+      "id": 30404,
+      "externalId": "BIO-OWNER-M9-Q25",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Phototropism is the bending of plant shoots toward a light source produced by unequal growth on opposite sides of the stem or coleoptile.\nAuxins (mainly indole-3-acetic acid) accumulate more on the shaded side, stimulating greater cell elongation there and causing the shoot to bend toward the light.\nAuxin is synthesized in the shoot tip and redistributed by polar transport so that unilateral light causes an auxin gradient across the organ.\nCytokinins primarily promote cell division and delay senescence but do not generate the lateral auxin gradient that drives phototropic bending.\nGibberellins promote overall stem elongation and seed germination but act more uniformly and are not the main agents creating asymmetric growth for phototropism.\nEthylene controls fruit ripening, abscission and some stress responses and can inhibit elongation in some tissues, so it is not the primary hormone mediating phototropic curvature.",
+      "after": "Phototropism is the bending of plant shoots toward a light source produced by unequal growth on opposite sides of the stem or coleoptile.\nAuxins (mainly indole-3-acetic acid) accumulate more on the shaded side, stimulating greater cell elongation there and causing the shoot to bend toward the light.\nAuxin is synthesized in the shoot tip and redistributed by polar transport so that unilateral light causes an auxin gradient across the organ.\nEthylene controls fruit ripening, abscission and some stress responses and can inhibit elongation in some tissues, so it is not the primary hormone mediating phototropic curvature."
+    }
+  ]
+}
