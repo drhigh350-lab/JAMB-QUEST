@@ -59,7 +59,7 @@ export const appRouter = router({
         questionId: z.string().min(1).max(128),
         subject: subjectSchema,
         topic: z.string().min(1).max(160),
-        selectedIndex: z.number().int().min(0).max(3).nullable(),
+        selectedIndex: z.number().int().min(0).max(4).nullable(),
         correct: z.boolean(),
         timedOut: z.boolean(),
         flagged: z.boolean(),

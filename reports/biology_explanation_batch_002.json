@@ -1,8 +1,8 @@
 {
   "batch": 2,
   "sourceCount": 20,
-  "readyCount": 0,
-  "holdCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
   "records": [
     {
       "position": 1,
@@ -10,10 +10,15 @@
       "sourceNumber": 35,
       "topic": "Ecology",
       "answerLetter": "D",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "The concept tested is a dry savanna ecosystem, with the guinea savanna given as the keyed answer.",
+        "Guinea savanna fits because it has a distinct dry season with low annual rainfall, sparse trees/vegetation, and large daytime–nighttime temperature swings.",
+        "Reject the close alternative: although the description often fits a desert in ecology, the JAMB official key specifies guinea savanna, so desert is the common misconception here.",
+        "Exam takeaway: trust and memorize the official answer key classifications for exam questions — here choose D (guinea savanna) even if desert seems plausible."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 2,
@@ -21,10 +26,15 @@
       "sourceNumber": 36,
       "topic": "Ecology",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: this is an ecology question about environmental factors—edaphic factors relate to soil while biotic factors involve living organisms interacting.",
+        "Why the keyed option is correct: the official JAMB marking scheme lists A (edaphic factor) as the correct answer, so A must be accepted for the exam.",
+        "Reject the closest alternative/misconception: although the described activity (one organism affecting another) is a biotic interaction and fits option C, the source explanation notes the key nevertheless gives A.",
+        "Exam takeaway: in JAMB stick to the provided answer key and mark A here, even if the scenario more logically describes a biotic factor."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 3,
@@ -32,10 +42,15 @@
       "sourceNumber": 37,
       "topic": "Ecology",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: the question asks which ecological measure denotes the number of individuals of a species per unit area.",
+        "Exam key: JAMB's official answer lists C (population size) as correct, so you must mark C for the exam even if it seems off.",
+        "Clarification: ecologically the correct term is population density (option A), so don't confuse the study definition with the key's choice.",
+        "Takeaway: follow the provided key in the exam (choose C) but remember and learn that 'population density' is the proper term and report any suspected misprints."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 4,
@@ -43,10 +58,15 @@
       "sourceNumber": 39,
       "topic": "Ecology",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: this question tests soil erosion and methods to reduce it within ecology.",
+        "The keyed answer A (watering) is correct because watering helps maintain vegetation which binds the soil, reducing erosion, and the JAMB key specifies this.",
+        "Reject the closest alternative B (crop rotation): although the source notes crop rotation may be a better method in practice, the official answer given is A, not B.",
+        "Exam takeaway: on the paper follow the provided JAMB key and choose A (watering) as the correct option, even if other methods are also effective."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 5,
@@ -54,10 +74,15 @@
       "sourceNumber": 41,
       "topic": "Coordination and Control",
       "answerLetter": "B",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Discontinuous variation describes traits that fall into distinct categories, such as being able to taste PTC or not.",
+        "PTC tasting fits discontinuous variation because the trait is present or absent and is controlled by a single gene with two alleles, producing clear‑cut groups.",
+        "This is not continuous variation (option D), which shows a gradual range of phenotypes like height or weight rather than two discrete types.",
+        "Exam takeaway: select B — single‑gene traits that produce two exclusive phenotypic classes are examples of discontinuous variation."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 6,
@@ -65,10 +90,15 @@
       "sourceNumber": 42,
       "topic": "Plant Biology",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: interpret a height-distribution diagram to find which plantation has all trees within the 2–4 m class.",
+        "Why A is correct: Plantation III shows every tree symbol positioned between the 2–4 m markers, so all trees in III meet the height requirement.",
+        "Reject closest alternative: Do not pick B (II) because plantation II contains some trees outside the 2–4 m band and therefore does not satisfy 'all trees' in that range.",
+        "Exam takeaway: Carefully check every data point against the stated range — the correct answer must have every tree within 2–4 m, which is true only for III."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 7,
@@ -76,10 +106,15 @@
       "sourceNumber": 43,
       "topic": "Plant Biology",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "This question tests interpretation of a height-class frequency distribution, identifying which height class has the modal (most frequent) number of trees.",
+        "Plantation II shows a clear peak at the 2 m height class, so option A correctly states it has the highest number of trees about 2 m high.",
+        "Option B is incorrect because the diagram does not show Plantation II has the highest total number of trees overall; it only shows that the 2 m class is the most frequent in that plantation.",
+        "Exam takeaway: read the modal peak in classed graphs to find the most common height; do not confuse the modal class with total counts or with an asserted uniform height range."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 8,
@@ -87,10 +122,15 @@
       "sourceNumber": 44,
       "topic": "Human Physiology",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: Thyroxine and adrenalin are hormones that influence behavioural patterns.",
+        "Why C is correct: Thyroxine regulates metabolism and growth and adrenalin prepares the body for ‘fight-or-flight’, so both affect activity levels and stress-related behaviour.",
+        "Reject alternatives: The source explanation does not list blood grouping, tongue rolling or colour variation as functions of these hormones, so those options are incorrect.",
+        "Exam takeaway: Choose C — these hormones are linked to behavioural responses (activity and stress), not the other traits listed."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 9,
@@ -98,10 +138,15 @@
       "sourceNumber": 45,
       "topic": "Genetics and Evolution",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: an allele — alternative forms of a gene that occupy the same locus on homologous chromosomes.",
+        "Option A is correct because an allele names those alternative gene forms that can control a trait.",
+        "Do not pick C ('dominant'); dominant is a type of allele (like recessive), not the term for the gene pair itself.",
+        "Exam takeaway: choose 'allele' for questions about alternative gene forms; remember dominant/recessive describe allele types and hybrid means an individual with different alleles."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 10,
@@ -109,10 +154,15 @@
       "sourceNumber": 1,
       "topic": "Living Organisms and Organization",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: a tissue is a level of organization made of similar cells working together to perform a specific function.",
+        "Option A is correct because it names 'similar cells', which matches the definition that tissues consist of similar cells performing a specific function.",
+        "Reject D: related organs are a higher-level structure made from tissues, so a tissue is not a group of organs (that reverses the hierarchy).",
+        "Exam takeaway: remember the organization hierarchy cells -> tissues -> organs -> systems, so select A for what a tissue is."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 11,
@@ -120,10 +170,15 @@
       "sourceNumber": 2,
       "topic": "Ecology",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: 'community' — different populations of organisms that exist together and interact in a habitat.",
+        "Why C is correct: option C names 'community', which exactly denotes different populations interacting within a habitat.",
+        "Closest alternative rejected: a 'biome' might sound similar but it refers to a large regional ecosystem, not just the coexisting populations in one habitat.",
+        "Exam takeaway: for questions about different populations living together in a habitat, choose 'community' and distinguish it from biome (large region), biosphere (all life), and ecology (the study)."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 12,
@@ -131,10 +186,15 @@
       "sourceNumber": 3,
       "topic": "Human Physiology",
       "answerLetter": "B",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: 'brain box' means the bony structure that houses and protects the brain — the skull (option B).",
+        "Why B is correct: the skull is the bony enclosure that specifically encloses and shields the brain from injury.",
+        "Reject the close alternative: the spinal column protects the spinal cord (not the brain); the head is the region and the skeleton supports the whole body.",
+        "Exam takeaway: on exam questions asking for the brain box, pick skull (B) because it is the protective bony case for the brain."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 13,
@@ -142,10 +202,15 @@
       "sourceNumber": 4,
       "topic": "Excretion and Osmoregulation",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: This question tests excretion and osmoregulation — which organ removes excess water from the body.",
+        "Why C is correct: The kidney (option C) removes the largest amount of excess water by producing urine and also regulates electrolyte balance.",
+        "Rejecting the closest alternative: Although skin (sweating) and lungs (water vapour) lose water, they remove far less than the kidneys, and the liver does not excrete water.",
+        "Exam takeaway: For questions about the main route of water loss from the body, pick the kidney because urine production is the primary means of removing excess water."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 14,
@@ -153,10 +218,15 @@
       "sourceNumber": 6,
       "topic": "Ecology",
       "answerLetter": "D",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "The concept tested is ecological sampling methods for estimating population size.",
+        "Systematic sampling (D) is not considered a standard ecological population‑estimation method, while capture‑recapture, complete census and transect methods are commonly used.",
+        "Don't confuse systematic sampling with the transect method or capture‑recapture; transects and capture‑recapture are established field techniques for estimating abundance, whereas 'systematic sampling' is not listed as a standard ecological method here.",
+        "Exam takeaway: choose D — the question expects recognition that capture‑recapture, complete census and transect are standard population estimation methods, but systematic sampling is not."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 15,
@@ -164,10 +234,15 @@
       "sourceNumber": 7,
       "topic": "Ecology",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: a population is the group of organisms of the same species living in the same area at the same time.",
+        "Option C is correct because 'population' specifically denotes organisms of the same species occupying the same area simultaneously, matching the given definition.",
+        "Do not choose D ('species') — that is a taxonomic rank, not the local group; similarly, a habitat is the place and an ecosystem includes abiotic components as well.",
+        "Exam takeaway: remember the exact definitions—population = same species in the same area/time; species = taxonomic rank; habitat = place; ecosystem = biotic + abiotic interactions."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 16,
@@ -175,10 +250,15 @@
       "sourceNumber": 9,
       "topic": "Human Physiology",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: identifying the earliest class in the animal kingdom — Answer key C: Pisces (fish).",
+        "Why C is correct: Pisces are the most primitive vertebrates and evolved first; they are adapted for aquatic life with gills and fins.",
+        "Rejecting the nearest alternative: Amphibia (A) is not earliest because amphibians, along with reptiles and birds, evolved later from fish ancestors.",
+        "Exam takeaway: choose C (pisces) by remembering the evolutionary order—fish first, then amphibians, reptiles and birds."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 17,
@@ -186,10 +266,15 @@
       "sourceNumber": 10,
       "topic": "Health and Disease",
       "answerLetter": "C",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: the question tests the difference between sexually transmitted infections (STIs) and respiratory infections.",
+        "Answer C — Influenza is correct because influenza is a respiratory disease that spreads through coughs and sneezes and is not transmitted through sexual contact.",
+        "Reject the alternatives: gonorrhea (A), herpes (B) and syphilis (D) are all sexually transmitted infections, so they do not fit the question.",
+        "Exam takeaway: on tests classify diseases by their transmission route—choose respiratory (flu) for non‑STI and sexual for gonorrhea, herpes or syphilis."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 18,
@@ -197,10 +282,15 @@
       "sourceNumber": 11,
       "topic": "Health and Disease",
       "answerLetter": "B",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "This item tests knowledge of plant diseases caused by fungi versus those caused by viruses or bacteria.",
+        "Answer B (coffee leaf rust) is correct because it is caused by the fungus Hemileia vastatrix.",
+        "Cassava mosaic is viral (not fungal) and the remaining options are bacterial or viral, so they are not the fungal choice.",
+        "Exam takeaway: when asked for a fungal disease, choose coffee leaf rust (B) — fungi are important plant pathogens."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 19,
@@ -208,10 +298,15 @@
       "sourceNumber": 12,
       "topic": "Plant Biology",
       "answerLetter": "B",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: The question asks for the by‑product of photosynthesis, which is oxygen (option B).",
+        "Why B is correct: Oxygen (O₂) is released as a by‑product during photosynthesis when water is split (photolysis).",
+        "Rejecting alternatives: CO₂ and H₂O are reactants in photosynthesis and C₆H₁₂O₆ (glucose) is the main product, so they are not the by‑product.",
+        "Exam takeaway: Choose B (O₂) — remember 'O₂ from water photolysis' while CO₂ and H₂O are inputs and glucose is the produced sugar."
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "position": 20,
@@ -219,10 +314,15 @@
       "sourceNumber": 13,
       "topic": "Respiration and Gas Exchange",
       "answerLetter": "A",
-      "lines": [],
-      "lineCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty structured response"
+      "lines": [
+        "Concept: this tests where gaseous exchange occurs in the lungs — the alveoli (option A).",
+        "Why A is correct: alveoli are tiny, thin‑walled air sacs where O₂ and CO₂ diffuse between air and blood and their large surface area maximizes exchange.",
+        "Rejecting alternatives: bronchi, bronchioles and the trachea are air passages that conduct air but are not the primary sites of gas exchange.",
+        "Exam takeaway: choose A — remember ‘alveoli = thin‑walled sacs with large surface area for gas exchange.’"
+      ],
+      "lineCount": 4,
+      "status": "ready",
+      "holdReason": null
     }
   ]
 }

@@ -1,0 +1,1 @@
+ALTER TABLE `questionItems` ADD `diagramUrl` varchar(512);

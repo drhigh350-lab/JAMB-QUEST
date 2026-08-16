@@ -39,6 +39,7 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
         <span className="eyebrow">QUESTION</span>
         <h1 id="question-title">{question.question}</h1>
       </div>
+      {question.diagram_url && <figure className="question-diagram"><img src={question.diagram_url} alt="Black-and-white instructional diagram for this question" loading="lazy" /><figcaption>Use the diagram with the question stem before choosing an answer.</figcaption></figure>}
       <div className="option-list" role="radiogroup" aria-label="Answer options">
         {question.options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;

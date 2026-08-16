@@ -387,3 +387,10 @@
 - [x] Inventory the remaining 369 authorised needs-review records by structural, topic, answer, option, and explanation blocker: the deterministic pass found 369 initial holds, then reduced them to 25, and the notation-safe normalizer confirmed the final five choices were distinct rather than duplicates.
 - [x] Apply only deterministic or source-preserving repairs that clear every release gate; all 369 initial needs-review records were released through official-topic mapping, source-preserving explanation shortening, status-only approval, and notation-safe duplicate correction. No needs-review records remain.
 - [x] Revalidate the needs-review remediation pass and report every released record and residual protected hold: the live audit reports 3,473 authorised playable records and 4,473 learner-facing questions including the 1,000 model bank. No needs-review records remain; 352 other authorised records remain excluded for invalid option content.
+
+- [ ] Preserve valid five-option questions throughout duplicate detection, practice, CBT, answer review, and import gates; reject only genuinely repeated option content.
+- [ ] Audit diagram-dependent questions and create restrained black-and-white instructional diagrams only where the source wording and syllabus concept make a visual necessary.
+- [ ] Extract user-authorised Atomic Habits themes and compose a Monday–Wednesday relationship-time intro sequence plus seven rotating systems-focused intro stories with a functional Skip Intro control.
+- [ ] Upgrade the opt-in reminder schedule to three daily, deduplicated delivery windows and verify the deployed callback behavior.
+- [ ] Parse, duplicate-check, syllabus-map, and stage only technically complete questions from the three newly supplied JAMB PDFs; hold answer-uncertain or malformed items.
+- [ ] Verify the new diagrams, rotating intro, five-option experience, three reminder windows, and PDF intake outcomes before publication.

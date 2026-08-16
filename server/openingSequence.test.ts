@@ -11,6 +11,8 @@ describe("JAMB Quest opening sequence", () => {
     expect(component).toContain("Win JAMB.");
     expect(component).toContain("Skip intro");
     expect(component).toContain("quest-opening-mark");
+    expect(component).toContain("getAtomicIntroStory");
+    expect(component).toContain("atomic-intro-story");
     const styles = readFileSync(resolve(root, "index.css"), "utf8");
     expect(styles).toContain("prefers-reduced-motion");
   });

@@ -128,6 +128,7 @@ export const questionItems = mysqlTable("questionItems", {
   optionsJson: text("optionsJson").notNull(),
   answerIndex: int("answerIndex").notNull(),
   explanation: text("explanation"),
+  diagramUrl: varchar("diagramUrl", { length: 512 }),
   explanationStatus: mysqlEnum("explanationStatus", ["pending", "approved", "needs_review"]).notNull().default("needs_review"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
@@ -186,6 +187,9 @@ export const learnerReminderPreferences = mysqlTable("learnerReminderPreferences
   reminderTime: varchar("reminderTime", { length: 5 }).notNull().default("19:00"),
   scheduleCronTaskUid: varchar("scheduleCronTaskUid", { length: 65 }),
   lastSentDate: varchar("lastSentDate", { length: 10 }),
+  lastMorningSentDate: varchar("lastMorningSentDate", { length: 10 }),
+  lastAfternoonSentDate: varchar("lastAfternoonSentDate", { length: 10 }),
+  lastEveningSentDate: varchar("lastEveningSentDate", { length: 10 }),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });
 

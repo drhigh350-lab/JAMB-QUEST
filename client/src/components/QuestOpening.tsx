@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { getAtomicIntroStory } from "@/content/atomicIntroStories";
 
 export function QuestOpening({ onComplete, hold = false }: { onComplete: () => void; hold?: boolean }) {
   const [leaving, setLeaving] = useState(false);
+  const story = getAtomicIntroStory();
   const complete = () => {
     if (leaving) return;
     setLeaving(true);
@@ -11,7 +13,7 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
   useEffect(() => {
     if (hold) return;
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const timer = window.setTimeout(complete, reducedMotion ? 120 : 1650);
+    const timer = window.setTimeout(complete, reducedMotion ? 120 : 8500);
     return () => window.clearTimeout(timer);
   }, [hold]);
 
@@ -24,7 +26,12 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
     <div className="quest-opening-copy">
       <span className="eyebrow">JAMB QUEST</span>
       <strong>Build your system.<br /><em>Win JAMB.</em></strong>
-      <p>Practice. Understand. Improve. Repeat.</p>
+      <div className="quest-opening-story" data-e2e="atomic-intro-story">
+        <span>{story.label}</span>
+        <b>{story.kicker}</b>
+        <p>{story.story}</p>
+        <small>{story.action}</small>
+      </div>
     </div>
   </section>;
 }

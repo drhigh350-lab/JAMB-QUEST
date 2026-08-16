@@ -6,7 +6,7 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
-import { sendDailyComebackReminders } from "../db";
+import { sendDailyComebackReminders, type ReminderWindow } from "../db";
 import { createContext } from "./context";
 import { sdk } from "./sdk";
 import { serveStatic, setupVite } from "./vite";
@@ -38,21 +38,26 @@ async function startServer() {
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
   registerStorageProxy(app);
   registerOAuthRoutes(app);
-  app.post("/api/scheduled/daily-comeback", async (req, res) => {
+  const scheduledReminder = (window: ReminderWindow) => async (req: express.Request, res: express.Response) => {
     try {
       const user = await sdk.authenticateRequest(req);
       if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
-      const result = await sendDailyComebackReminders();
+      const result = await sendDailyComebackReminders(window);
       return res.json({ ok: true, ...result, taskUid: user.taskUid });
     } catch (error) {
       return res.status(500).json({
-        error: error instanceof Error ? error.message : "daily-comeback failed",
+        error: error instanceof Error ? error.message : `${window}-comeback failed`,
         stack: error instanceof Error ? error.stack : undefined,
-        context: { url: req.originalUrl },
+        context: { url: req.originalUrl, window },
         timestamp: new Date().toISOString(),
       });
     }
-  });
+  };
+  app.post("/api/scheduled/comeback-morning", scheduledReminder("morning"));
+  app.post("/api/scheduled/comeback-afternoon", scheduledReminder("afternoon"));
+  app.post("/api/scheduled/comeback-evening", scheduledReminder("evening"));
+  // Keep the former callback path valid during schedule migration; it maps to the evening window.
+  app.post("/api/scheduled/daily-comeback", scheduledReminder("evening"));
   // tRPC API
   app.use(
     "/api/trpc",

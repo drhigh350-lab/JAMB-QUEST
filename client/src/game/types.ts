@@ -17,6 +17,7 @@ export interface BankQuestion {
   answer_index: number;
   answer_text: string;
   explanation: string;
+  diagram_url?: string;
   tags: string[];
   source: string;
 }

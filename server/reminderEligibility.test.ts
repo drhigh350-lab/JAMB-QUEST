@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { didDeliverPush, getDailyReminderDecision } from "./db";
+import { didDeliverPush, getDailyReminderDecision, getWindowReminderDecision } from "./db";
 
 describe("daily comeback reminder eligibility", () => {
   const dateKey = "2026-08-13";
@@ -14,6 +14,11 @@ describe("daily comeback reminder eligibility", () => {
 
   it("allows an incomplete learner with no daily send record to receive one reminder", () => {
     expect(getDailyReminderDecision({ lastSentDate: "2026-08-12", dateKey, completedMinimum: false })).toBe("send");
+  });
+
+  it("deduplicates each scheduled window independently while keeping later windows eligible", () => {
+    expect(getWindowReminderDecision({ lastSentDate: dateKey, dateKey, completedMinimum: false })).toBe("already_sent");
+    expect(getWindowReminderDecision({ lastSentDate: null, dateKey, completedMinimum: false })).toBe("send");
   });
 
   it("reports delivery only when at least one enabled device accepts the push", () => {

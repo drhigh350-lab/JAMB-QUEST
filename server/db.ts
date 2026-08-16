@@ -598,6 +598,22 @@ export async function sendLearnerTestPush(userId: number) {
 }
 
 export type DailyReminderDecision = "send" | "already_sent" | "minimum_completed";
+export type ReminderWindow = "morning" | "afternoon" | "evening";
+
+const REMINDER_WINDOW_COPY: Record<ReminderWindow, { title: string; body: (dailyMinimum: number, recovery: boolean) => string }> = {
+  morning: {
+    title: "JAMB Quest: start with your system",
+    body: (dailyMinimum, recovery) => recovery ? "A short recovery review can reset your rhythm before the day gets noisy." : `Your ${dailyMinimum}-question system is ready. Start small before the day decides for you.`,
+  },
+  afternoon: {
+    title: "JAMB Quest: one deliberate round",
+    body: (dailyMinimum, recovery) => recovery ? "Your recovery is still waiting. One focused review is enough to restart." : `Your ${dailyMinimum}-question system still has room today. One deliberate round changes the evidence.`,
+  },
+  evening: {
+    title: "JAMB Quest: close the day with evidence",
+    body: (dailyMinimum, recovery) => recovery ? "End today by returning to one recovery review. The system is still yours." : `Your ${dailyMinimum}-question system is still open. Finish with a calm round and read the corrections.`,
+  },
+};
 
 export function getDailyReminderDecision(input: { lastSentDate: string | null; dateKey: string; completedMinimum: boolean }): DailyReminderDecision {
   if (input.lastSentDate === input.dateKey) return "already_sent";
@@ -605,7 +621,23 @@ export function getDailyReminderDecision(input: { lastSentDate: string | null; d
   return "send";
 }
 
-export async function sendDailyComebackReminders() {
+export function getWindowReminderDecision(input: { lastSentDate: string | null; dateKey: string; completedMinimum: boolean }): DailyReminderDecision {
+  return getDailyReminderDecision(input);
+}
+
+function lastSentDateForWindow(preference: { lastMorningSentDate: string | null; lastAfternoonSentDate: string | null; lastEveningSentDate: string | null }, window: ReminderWindow) {
+  if (window === "morning") return preference.lastMorningSentDate;
+  if (window === "afternoon") return preference.lastAfternoonSentDate;
+  return preference.lastEveningSentDate;
+}
+
+function sentDatePatch(window: ReminderWindow, dateKey: string) {
+  if (window === "morning") return { lastMorningSentDate: dateKey };
+  if (window === "afternoon") return { lastAfternoonSentDate: dateKey };
+  return { lastEveningSentDate: dateKey, lastSentDate: dateKey };
+}
+
+export async function sendDailyComebackReminders(window: ReminderWindow = "evening") {
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
   const preferences = await db.select().from(learnerReminderPreferences).where(eq(learnerReminderPreferences.enabled, 1));
@@ -617,7 +649,7 @@ export async function sendDailyComebackReminders() {
     const [system] = await db.select().from(learnerSystems).where(eq(learnerSystems.userId, preference.userId)).limit(1);
     const dateKey = localDateKey(profile?.timeZone ?? "Africa/Lagos");
     const [activity] = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.activityKey, `${preference.userId}:${dateKey}`)).limit(1);
-    const decision = getDailyReminderDecision({ lastSentDate: preference.lastSentDate, dateKey, completedMinimum: Boolean(activity?.completedMinimum) });
+    const decision = getWindowReminderDecision({ lastSentDate: lastSentDateForWindow(preference, window), dateKey, completedMinimum: Boolean(activity?.completedMinimum) });
     if (decision === "already_sent") {
       skipped += 1;
       continue;
@@ -629,21 +661,22 @@ export async function sendDailyComebackReminders() {
     }
 
     const recovery = Boolean(system?.recoveryPending);
+    const copy = REMINDER_WINDOW_COPY[window];
     const results = await sendLearnerPush(
       preference.userId,
-      recovery ? "JAMB Quest: your comeback is ready" : "JAMB Quest: run today’s system",
-      recovery ? "One small recovery review is enough to restart the rhythm. You are still building toward your goal." : `Your ${system?.dailyMinimum ?? 10}-question system is waiting. Small systems build big scores.`,
+      copy.title,
+      copy.body(system?.dailyMinimum ?? 10, recovery),
       "/",
     );
     if (results.some((result) => result.delivered)) {
-      await db.update(learnerReminderPreferences).set({ lastSentDate: dateKey }).where(eq(learnerReminderPreferences.id, preference.id));
+      await db.update(learnerReminderPreferences).set(sentDatePatch(window, dateKey)).where(eq(learnerReminderPreferences.id, preference.id));
       sent += 1;
     } else {
       skipped += 1;
     }
   }
 
-  return { sent, skipped, totalEnabled: preferences.length };
+  return { window, sent, skipped, totalEnabled: preferences.length };
 }
 
 export async function getQuestionSourceCatalogue() {
@@ -667,6 +700,7 @@ type AuthorisedPlayableRow = {
   optionsJson: string;
   answerIndex: number;
   explanation: string | null;
+  diagramUrl: string | null;
   explanationStatus: "pending" | "approved" | "needs_review";
   sourceLabel: string;
 };
@@ -703,6 +737,7 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
       answer_index: row.answerIndex,
       answer_text: options[row.answerIndex],
       explanation: row.explanation ?? "Answer mapped from the owner-provided source; verification-pending wording is labelled in the source ledger.",
+      diagram_url: row.diagramUrl ?? undefined,
       tags: ["owner-provided", "verification-pending"],
       source: row.sourceLabel,
     };
@@ -723,6 +758,7 @@ export async function getPlayableAuthorisedQuestions() {
     optionsJson: questionItems.optionsJson,
     answerIndex: questionItems.answerIndex,
     explanation: questionItems.explanation,
+    diagramUrl: questionItems.diagramUrl,
     explanationStatus: questionItems.explanationStatus,
     sourceLabel: questionSources.label,
   }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(and(eq(questionSources.isActive, 1), eq(questionItems.explanationStatus, "approved")));
