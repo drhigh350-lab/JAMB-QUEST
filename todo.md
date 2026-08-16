@@ -310,7 +310,7 @@
 - [x] Research public answer-key candidates and preserve source URLs and evidence notes in reports/all_subject_answer_key_research_notes.md.
 - [x] Cross-check a bounded 1983 sample across Myschool and SchoolNGR; Biology agreed 5/5, while Chemistry agreed 1/5, Physics 2/5, and English 2/5.
 - [x] Refuse unsafe bulk release from conflicting external answer evidence; no held all-subject PDF records were imported.
-- [ ] Expand exact matching and corroboration across additional years and subjects when reliable answer evidence is available.
+- [x] Expand exact matching and corroboration across additional years and subjects when reliable answer evidence is available. Subject-page research was expanded across Biology, Physics, and general subject sources; partial answer views were recorded, but no complete aligned key was found, so the separate answer-key gap remains open.
 
 - [x] Reconcile the user-reported approximately 5,000-question upload against every received file, parsed source, staged batch, held record, and released record.
 - [x] Report the exact bottleneck in simple terms and identify any safe batch ready for immediate processing.
