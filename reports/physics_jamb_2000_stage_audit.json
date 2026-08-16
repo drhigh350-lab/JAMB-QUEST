@@ -1,0 +1,14 @@
+{
+  "parsed": 37,
+  "releaseReady": 37,
+  "held": 0,
+  "byTopic": {
+    "Current electricity": 12,
+    "Waves": 9,
+    "Quantity of heat": 5,
+    "Motion": 8,
+    "Pressure": 3
+  },
+  "holdReasons": {},
+  "holds": []
+}

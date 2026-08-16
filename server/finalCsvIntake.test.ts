@@ -15,6 +15,6 @@ describe("final Kairo CSV intake", () => {
     expect(receipt.imported).toBe(585);
     expect(receipt.holds).toEqual([]);
     expect(receipt.chunks.map((chunk: { imported: number }) => chunk.imported)).toEqual([500, 85]);
-    expect(runtime.learnerFacingTotal).toBe(5537);
+    expect(runtime.learnerFacingTotal).toBe(5574);
   });
 });
