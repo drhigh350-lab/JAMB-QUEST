@@ -1,7 +1,85 @@
 {
   "subject": "Chemistry",
   "batch": 7,
-  "batchSize": 20,
-  "eligibleTotal": 0,
-  "selected": []
+  "batchSize": 100,
+  "eligibleTotal": 7,
+  "selected": [
+    {
+      "id": 60036,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-36",
+      "subject": "Chemistry",
+      "topic": "Environmental pollution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Crude oil and petroleum products are hydrophobic and spread as a thin surface film on coastal water.\nThat surface film physically blocks transfer of atmospheric oxygen into the water and reduces light penetration, lowering dissolved oxygen and photosynthesis.\nLow dissolved oxygen and reduced primary production suffocate fish, invertebrates and algae, so oil pollution 'smothers aquatic life' — the correct option.\nSome oil constituents (for example polycyclic aromatic hydrocarbons and light solvents) are chemically toxic and can poison organisms, causing mortality beyond physical smothering.\nThe other options are incorrect because oil does not increase dissolved oxygen or boost fish populations; it depletes oxygen and destroys breeding and feeding habitats.\nOil is largely hydrophobic and does not neutralize or significantly change water pH, so 'neutral pH' is not a major effect of oil pollution in coastal water.",
+      "after": "Crude oil and petroleum products are hydrophobic and spread as a thin surface film on coastal water.\nThat surface film physically blocks transfer of atmospheric oxygen into the water and reduces light penetration, lowering dissolved oxygen and photosynthesis.\nLow dissolved oxygen and reduced primary production suffocate fish, invertebrates and algae, so oil pollution 'smothers aquatic life' — the correct option.\nOil is largely hydrophobic and does not neutralize or significantly change water pH, so 'neutral pH' is not a major effect of oil pollution in coastal water."
+    },
+    {
+      "id": 60037,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-37",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Hard water contains significant concentrations of dissolved calcium and magnesium ions (Ca2+ and Mg2+).\nA major advantage is that these ions contribute to dietary intake and are essential for bone health and various metabolic functions.\nSoft water, by contrast, lacks appreciable Ca2+ and Mg2+ and therefore does not supply these minerals.\nThe options “forms more lather” and “easy to soap” describe soft water, because hardness ions react with soap to form insoluble scum and reduce lather.\nThe option “no scaling” is incorrect for hard water, since it commonly causes scale deposition of carbonate and sulfate salts in boilers, kettles and pipes.\nTherefore the correct choice is “Provides essential Ca2+ and Mg2+ ions,” noting this nutritional benefit is weighed against hard water’s domestic disadvantages like scaling.",
+      "after": "Hard water contains significant concentrations of dissolved calcium and magnesium ions (Ca2+ and Mg2+).\nA major advantage is that these ions contribute to dietary intake and are essential for bone health and various metabolic functions.\nSoft water, by contrast, lacks appreciable Ca2+ and Mg2+ and therefore does not supply these minerals.\nTherefore the correct choice is “Provides essential Ca2+ and Mg2+ ions,” noting this nutritional benefit is weighed against hard water’s domestic disadvantages like scaling."
+    },
+    {
+      "id": 60076,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-76",
+      "subject": "Chemistry",
+      "topic": "Environmental pollution",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Oil spills form a surface film on water that physically blocks the diffusion of atmospheric oxygen into the sea.\nMicrobial degradation of oil by bacteria consumes dissolved oxygen, further lowering oxygen levels and promoting hypoxia.\nLowered dissolved oxygen (hypoxia) causes suffocation of fish and other aerobic aquatic organisms and disrupts aquatic food chains.\nThe option 'Increases oxygen' is incorrect because surface films and enhanced microbial respiration reduce, rather than raise, dissolved oxygen.\n'Neutral effect' is wrong since oil alters physical and biological processes in water, and 'Converts water to acid' is incorrect because oil is hydrophobic and does not directly acidify water.\nTherefore 'Reduces oxygen in water' is correct, reflecting both the physical blockage of gas exchange at the surface and biological oxygen consumption during oil breakdown.",
+      "after": "Oil spills form a surface film on water that physically blocks the diffusion of atmospheric oxygen into the sea.\nMicrobial degradation of oil by bacteria consumes dissolved oxygen, further lowering oxygen levels and promoting hypoxia.\nLowered dissolved oxygen (hypoxia) causes suffocation of fish and other aerobic aquatic organisms and disrupts aquatic food chains.\nTherefore 'Reduces oxygen in water' is correct, reflecting both the physical blockage of gas exchange at the surface and biological oxygen consumption during oil breakdown."
+    },
+    {
+      "id": 60085,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-85",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Coagulation and flocculation are water‑treatment processes that remove colloidal organic matter by destabilising and aggregating very small particles so they can settle or be filtered.\nAluminum sulfate, Al2(SO4)3 (commonly called alum), hydrolyses in water to produce aluminium hydroxide flocs and neutralises the negative surface charge on colloids, promoting aggregation.\nBecause alum forms insoluble Al(OH)3 flocs that enmesh organic colloids and enhance settling, Al2(SO4)3 is the appropriate choice among the options.\nThe efficiency of alum depends on proper dosage and pH (it is most effective in the typical pH range for coagulation where Al(OH)3 precipitates).\nCalcium carbonate (CaCO3) is not used as a coagulant; it primarily affects water hardness and alkalinity and does not form the gelatinous flocs needed to remove colloidal organic matter.\nSodium chloride (NaCl) is an inert salt that does not coagulate colloids, and magnesium sulfate (MgSO4) is not a standard coagulating agent like alum, so neither is correct.",
+      "after": "Coagulation and flocculation are water‑treatment processes that remove colloidal organic matter by destabilising and aggregating very small particles so they can settle or be filtered.\nAluminum sulfate, Al2(SO4)3 (commonly called alum), hydrolyses in water to produce aluminium hydroxide flocs and neutralises the negative surface charge on colloids, promoting aggregation.\nBecause alum forms insoluble Al(OH)3 flocs that enmesh organic colloids and enhance settling, Al2(SO4)3 is the appropriate choice among the options.\nSodium chloride (NaCl) is an inert salt that does not coagulate colloids, and magnesium sulfate (MgSO4) is not a standard coagulating agent like alum, so neither is correct."
+    },
+    {
+      "id": 60091,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-91",
+      "subject": "Chemistry",
+      "topic": "Separation of mixtures",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The sequence describes the conventional municipal water-treatment train used to remove particles and pathogens from raw water.\nCoagulation (commonly with alum) destabilises colloidal particles and promotes their aggregation into larger flocs that can be removed.\nSedimentation follows so the heavier flocs settle out by gravity, reducing the load on subsequent processes.\nFiltration then removes remaining suspended solids and finer particles (and some microorganisms) that did not settle.\nChlorination is applied last to kill remaining pathogens and provide a residual disinfectant in the distribution network.\nThe other options are incorrect because coagulation must precede sedimentation to form flocs, and placing filtration before coagulation or before sedimentation would clog filters and greatly reduce treatment efficiency.",
+      "after": "The sequence describes the conventional municipal water-treatment train used to remove particles and pathogens from raw water.\nCoagulation (commonly with alum) destabilises colloidal particles and promotes their aggregation into larger flocs that can be removed.\nSedimentation follows so the heavier flocs settle out by gravity, reducing the load on subsequent processes.\nThe other options are incorrect because coagulation must precede sedimentation to form flocs, and placing filtration before coagulation or before sedimentation would clog filters and greatly reduce treatment efficiency."
+    },
+    {
+      "id": 90200,
+      "externalId": "TechMed-Complete-Question-Bank-md-75",
+      "subject": "Chemistry",
+      "topic": "Environmental pollution",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Greenhouse gases are atmospheric gases that absorb and re‑emit outgoing infrared radiation, warming the lower atmosphere; carbon dioxide (CO₂) is a major such gas.\nCO₂ absorbs terrestrial infrared strongly through its vibrational modes (notably the 15 µm bending vibration), which traps heat and contributes to the greenhouse effect.\nAmong the options given, CO₂ is the greenhouse gas because it both occurs in significant atmospheric concentrations and interacts with outgoing IR radiation.\nMolecular oxygen (O₂) and nitrogen (N₂) are homonuclear diatomic molecules with no permanent dipole and very weak IR activity, so they do not trap heat the way CO₂ does.\nHydrogen (H₂) is symmetric, light and present only in trace amounts in the atmosphere, so it does not contribute appreciably to the greenhouse effect.\nRising atmospheric CO₂ from fossil fuel combustion therefore increases the greenhouse effect and is a primary driver of modern global warming.",
+      "after": "Greenhouse gases are atmospheric gases that absorb and re‑emit outgoing infrared radiation, warming the lower atmosphere; carbon dioxide (CO₂) is a major such gas.\nCO₂ absorbs terrestrial infrared strongly through its vibrational modes (notably the 15 µm bending vibration), which traps heat and contributes to the greenhouse effect.\nAmong the options given, CO₂ is the greenhouse gas because it both occurs in significant atmospheric concentrations and interacts with outgoing IR radiation.\nRising atmospheric CO₂ from fossil fuel combustion therefore increases the greenhouse effect and is a primary driver of modern global warming."
+    },
+    {
+      "id": 90206,
+      "externalId": "TechMed-Complete-Question-Bank-md-81",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Temporary hardness is caused mainly by dissolved calcium and magnesium bicarbonates (Ca(HCO3)2 and Mg(HCO3)2) in water.\nBoiling decomposes these bicarbonates to insoluble carbonates, releasing CO2 and water; for example Ca(HCO3)2 → CaCO3(s) + CO2(g) + H2O(l).\nThe insoluble CaCO3 and related magnesium precipitates (MgCO3 or Mg(OH)2) fall out of solution so the dissolved hardness ions are removed.\nAdding alum is a coagulation/flocculation step for turbidity and suspended solids, not a method for removing dissolved bicarbonate hardness.\nChlorination disinfects and oxidizes organics and filtration removes suspended particles; neither converts dissolved bicarbonates into an insoluble form.\nPermanent hardness (from Ca/Mg sulfates or chlorides) is not removed by boiling and instead requires ion exchange or chemical softening (e.g., lime–soda or washing soda treatment).",
+      "after": "Temporary hardness is caused mainly by dissolved calcium and magnesium bicarbonates (Ca(HCO3)2 and Mg(HCO3)2) in water.\nBoiling decomposes these bicarbonates to insoluble carbonates, releasing CO2 and water; for example Ca(HCO3)2 → CaCO3(s) + CO2(g) + H2O(l).\nThe insoluble CaCO3 and related magnesium precipitates (MgCO3 or Mg(OH)2) fall out of solution so the dissolved hardness ions are removed.\nPermanent hardness (from Ca/Mg sulfates or chlorides) is not removed by boiling and instead requires ion exchange or chemical softening (e.g., lime–soda or washing soda treatment)."
+    }
+  ]
 }
