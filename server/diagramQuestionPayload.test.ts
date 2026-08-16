@@ -9,6 +9,10 @@ describe("instructional diagram question payload", () => {
     const db = readFileSync(resolve(import.meta.dirname, "db.ts"), "utf8");
     expect(types).toContain("diagram_url?: string");
     expect(card).toContain("question.diagram_url");
+    expect(card).toContain("question-diagram");
     expect(db).toContain("diagram_url: row.diagramUrl");
+    const styles = readFileSync(resolve(import.meta.dirname, "../client/src/index.css"), "utf8");
+    expect(styles).toContain(".question-diagram");
+    expect(styles).toContain(".question-diagram figcaption");
   });
 });

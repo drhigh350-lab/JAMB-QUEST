@@ -29,4 +29,13 @@ describe("uniform Biology question card", () => {
     expect(html).toContain("A fifth legitimate choice");
     expect(html).toContain("option-correct");
   });
+
+  it("renders an attached instructional diagram with learner-facing context instead of treating it as an answer option", () => {
+    const diagramQuestion: BankQuestion = { ...biologyPilot, id: "BIO-KIDNEY-CORTEX", diagram_url: "/manus-storage/kidney-cortex-bowmans-capsules-diagram_ca9777e7.png" };
+    const html = renderToStaticMarkup(React.createElement(QuestionCard, { question: diagramQuestion, index: 0, total: 10, selectedIndex: null, answered: false, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
+    expect(html).toContain("question-diagram");
+    expect(html).toContain("kidney-cortex-bowmans-capsules-diagram_ca9777e7.png");
+    expect(html).toContain("Black-and-white instructional diagram for this question");
+    expect(html).toContain("Use the diagram with the question stem before choosing an answer.");
+  });
 });

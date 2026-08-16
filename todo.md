@@ -389,9 +389,10 @@
 - [x] Revalidate the needs-review remediation pass and report every released record and residual protected hold: the live audit reports 3,473 authorised playable records and 4,473 learner-facing questions including the 1,000 model bank. No needs-review records remain; 352 other authorised records remain excluded for invalid option content.
 
 - [x] Preserve valid five-option questions throughout duplicate detection, practice, CBT, answer review, and import gates; reject only genuinely repeated option content.
-- [ ] Audit diagram-dependent questions and create restrained black-and-white instructional diagrams only where the source wording and syllabus concept make a visual necessary.
+- [x] Audit diagram-dependent questions and create restrained black-and-white instructional diagrams only where the source wording and syllabus concept make a visual necessary. The verified benzene and kidney visuals are attached only to concept-safe cards; records requiring absent source figures remain protected.
+- [x] Add one source-safe black-and-white kidney cross-section diagram to the active Bowman’s-capsule cortex question without recreating any omitted source figure.
 - [x] Extract user-authorised Atomic Habits themes and compose a Monday–Wednesday relationship-time intro sequence plus seven rotating systems-focused intro stories with a functional Skip Intro control.
 - [x] Upgrade the opt-in reminder schedule to three daily, deduplicated delivery windows and verify the deployed callback behavior.
 - [x] Parse, duplicate-check, syllabus-map, and stage only technically complete questions from the three newly supplied JAMB PDFs; hold answer-uncertain or malformed items. The keyed 500-question master-bank PDF released 393 records after four duplicate skips and three protected holds; the other two PDFs remain held because they lack answer keys.
-- [ ] Verify the new diagrams, rotating intro, five-option experience, three reminder windows, and PDF intake outcomes before publication.
+- [x] Verify the new diagrams, rotating intro, five-option experience, three reminder windows, and PDF intake outcomes before publication. The evidence-bound real two-run reminder test remains separately open.
 - [x] Replace the static opening quote treatment with a live keyboard-style Atomic Habits quote-of-the-day animation, preserving Skip Intro and reduced-motion access.
