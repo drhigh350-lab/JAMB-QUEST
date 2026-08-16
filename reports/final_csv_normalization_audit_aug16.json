@@ -1,0 +1,213 @@
+{
+  "inputRows": 3077,
+  "normalizedRows": 3044,
+  "holds": [
+    {
+      "line": 524,
+      "id": "biology_0523",
+      "subject": "Excretion & Osmoregulation",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 622,
+      "id": "biology_0621",
+      "subject": "Human Impact on the Environment",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 640,
+      "id": "biology_0639",
+      "subject": "Evolution & Evidence of Evolution",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2649,
+      "id": "mathematics_0001",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2650,
+      "id": "mathematics_0002",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2651,
+      "id": "mathematics_0003",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2652,
+      "id": "mathematics_0004",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2653,
+      "id": "mathematics_0005",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2654,
+      "id": "mathematics_0006",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2655,
+      "id": "mathematics_0007",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2656,
+      "id": "mathematics_0008",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2657,
+      "id": "mathematics_0009",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2658,
+      "id": "mathematics_0010",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2659,
+      "id": "mathematics_0011",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2660,
+      "id": "mathematics_0012",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2661,
+      "id": "mathematics_0013",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2662,
+      "id": "mathematics_0014",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2663,
+      "id": "mathematics_0015",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2664,
+      "id": "mathematics_0016",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2665,
+      "id": "mathematics_0017",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2666,
+      "id": "mathematics_0018",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2667,
+      "id": "mathematics_0019",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2668,
+      "id": "mathematics_0020",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2669,
+      "id": "mathematics_0021",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2670,
+      "id": "mathematics_0022",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2671,
+      "id": "mathematics_0023",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2672,
+      "id": "mathematics_0024",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2673,
+      "id": "mathematics_0025",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2674,
+      "id": "mathematics_0026",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2675,
+      "id": "mathematics_0027",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2676,
+      "id": "mathematics_0028",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2677,
+      "id": "mathematics_0029",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    },
+    {
+      "line": 2678,
+      "id": "mathematics_0030",
+      "subject": "Mathematics",
+      "reason": "outside four-subject JAMB Quest scope or structurally shifted row"
+    }
+  ],
+  "holdReasons": {
+    "outside four-subject JAMB Quest scope or structurally shifted row": 33
+  },
+  "bySubject": {
+    "Biology": 1320,
+    "Chemistry": 1324,
+    "Physics": 200,
+    "Use of English": 200
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "staged": 585,
+  "releaseAfterRecheck": 585,
+  "imported": 585,
+  "chunks": [
+    {
+      "label": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+      "sourceId": 12330001,
+      "imported": 500
+    },
+    {
+      "label": "Kairo · user-supplied final CSV · August 2026 · Batch 2 of 2",
+      "sourceId": 12330002,
+      "imported": 85
+    }
+  ],
+  "holds": []
+}
