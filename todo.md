@@ -24,7 +24,7 @@
 - [x] Configure a deployed daily scheduler only after the push UI, service worker, and notification keys are ready.
 - [x] Add a visible progress-to-380 trajectory indicator that updates from learner performance data.
 - [x] Add explicit browser-push states for unsupported devices, permission denial, subscription failure, and successful enable or disable feedback.
-- [ ] Deploy the daily callback, create the recurring schedule, and verify that incomplete opted-in learners receive no duplicate reminders.
+- [x] Deploy the daily callback and recurring schedule; live Heartbeat job `daily-comeback-reminder` is enabled at 19:00 UTC and has successful callback runs. The real two-run no-duplicate learner verification remains separately open below.
 - [ ] Verify the deployed reminder callback against a real opted-in incomplete learner twice, retaining evidence of one send followed by a no-duplicate result.
 - [x] Add a pure reminder-delivery eligibility helper and unit test the already-sent, completed-minimum, and eligible reminder decisions.
 - [x] Add an installable PWA manifest, app icons, service worker, and clear install affordance for supported devices.
