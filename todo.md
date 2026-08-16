@@ -397,3 +397,5 @@
 - [x] Parse, duplicate-check, syllabus-map, and stage only technically complete questions from the three newly supplied JAMB PDFs; hold answer-uncertain or malformed items. The keyed 500-question master-bank PDF released 393 records after four duplicate skips and three protected holds; the other two PDFs remain held because they lack answer keys.
 - [x] Verify the new diagrams, rotating intro, five-option experience, three reminder windows, and PDF intake outcomes before publication. The evidence-bound real two-run reminder test remains separately open.
 - [x] Replace the static opening quote treatment with a live keyboard-style Atomic Habits quote-of-the-day animation, preserving Skip Intro and reduced-motion access.
+
+- [x] Reorganize syllabus navigation and weakness analytics into larger official parent sections with expandable detailed topics while preserving exact topic IDs for drills and quality gates. Every official topic is covered exactly once by the grouped map; detailed drill payloads remain unchanged.

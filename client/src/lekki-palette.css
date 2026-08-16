@@ -55,6 +55,32 @@
   gap: 6px;
 }
 
+.syllabus-parent-group {
+  border: 1px solid rgba(18, 40, 63, .14);
+  background: rgba(255, 252, 245, .42);
+}
+
+.syllabus-parent-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 12px;
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+}
+
+.syllabus-parent-group > summary::-webkit-details-marker { display: none; }
+.syllabus-parent-group > summary span { display: grid; gap: 2px; }
+.syllabus-parent-group > summary b { font: 800 11px "Space Grotesk", sans-serif; }
+.syllabus-parent-group > summary small { color: rgba(18, 40, 63, .58); font-size: 9px; }
+.syllabus-parent-group > summary svg { transition: transform 160ms var(--ease-out, ease-out); }
+.syllabus-parent-group[open] > summary { background: rgba(243, 169, 29, .13); }
+.syllabus-parent-group[open] > summary svg { transform: rotate(90deg); }
+.syllabus-child-topics { display: grid; gap: 5px; padding: 0 6px 6px; }
+.syllabus-child-topics button { background: rgba(255, 252, 245, .78); }
+
 .compact-topic-groups button {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -108,6 +134,8 @@
 }
 
 @media (max-width: 680px) {
+  .syllabus-parent-group > summary { padding: 10px; }
+  .compact-topic-groups button { padding: 8px; }
   .compact-lekki-actions {
     grid-template-columns: 1fr;
   }
@@ -256,7 +284,5 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .compact-topic-groups button {
-    transition: none;
-  }
+  .syllabus-parent-group > summary svg { transition: none; }
 }

@@ -9,6 +9,7 @@ import { ProgressSignals } from "@/components/ProgressSignals";
 import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics } from "@/game/dailyMission";
 import type { RoundConfig, RoundSubject, StoredProgress, Subject } from "@/game/types";
 import { OFFICIAL_SYLLABUS_AREAS } from "@shared/syllabusTopicMap";
+import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
 import "../lekki-palette.css";
 
 const subjects: Array<{ name: Subject; short: string; note: string; icon: typeof BookOpen; tint: string }> = [
@@ -88,6 +89,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
   const officialTopics = OFFICIAL_SYLLABUS_AREAS[selectedSubject];
+  const syllabusParentGroups = getSyllabusParentGroups(selectedSubject);
   const topicQuestionCounts = selectableTopics.reduce<Record<string, number>>((counts, topic) => ({ ...counts, [topic]: (counts[topic] ?? 0) + 1 }), {});
   const hasLekkiPractice = availableTopics.some((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster"));
   const isLekkiPalette = selectedPalette === "Lekki";
@@ -197,8 +199,8 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
           </CompactPanel>
 
           <CompactPanel eyebrow="03 / TOPIC" title="Study by official JAMB syllabus area" note="Only official syllabus areas are shown; unavailable areas stay visible until their questions are loaded" tone="maize">
-            <div className="compact-topic-groups official-topic-grid" role="list" aria-label={`${selected.name} official JAMB syllabus areas`}>{officialTopics.map((topic) => { const countForTopic = topicQuestionCounts[topic] ?? 0; return <button role="listitem" key={topic} className={selectedTopic === topic ? "active" : ""} disabled={!countForTopic} onClick={() => setSelectedTopic(topic)}><b>{topic}</b><small>{countForTopic ? `${countForTopic} questions ready` : "not loaded yet"}</small><ArrowRight size={13} /></button>; })}</div>
-            <label className="compact-topic-select"><span>Selected official area</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose an official syllabus area</option>{officialTopics.map((topic) => <option key={topic} value={topic} disabled={!topicQuestionCounts[topic]}>{topic}{topicQuestionCounts[topic] ? ` (${topicQuestionCounts[topic]})` : " — not loaded yet"}</option>)}</select></label><div className="compact-count-row"><span>Drill size</span><div>{[10, 20, 40, 50].map((value) => <button data-testid={`topic-drill-count-${value}`} key={value} className={topicDrillCount === value ? "active" : ""} onClick={() => setTopicDrillCount(value)}>{value}</button>)}</div></div>
+            <div className="compact-topic-groups official-topic-grid" role="list" aria-label={`${selected.name} official JAMB syllabus parent sections`}>{syllabusParentGroups.map((group) => { const readyCount = group.topics.reduce((sum, topic) => sum + (topicQuestionCounts[topic] ?? 0), 0); return <details className="syllabus-parent-group" key={group.label} open={group.topics.some((topic) => selectedTopic === topic)}><summary><span><b>{group.label}</b><small>{readyCount ? `${readyCount} questions ready` : "not loaded yet"}</small></span><ArrowRight size={15} /></summary><div className="syllabus-child-topics">{group.topics.map((topic) => { const countForTopic = topicQuestionCounts[topic] ?? 0; return <button role="listitem" key={topic} className={selectedTopic === topic ? "active" : ""} disabled={!countForTopic} onClick={() => setSelectedTopic(topic)}><b>{topic}</b><small>{countForTopic ? `${countForTopic} questions ready` : "not loaded yet"}</small><ArrowRight size={13} /></button>; })}</div></details>; })}</div>
+            <label className="compact-topic-select"><span>Selected detailed area</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose a detailed official syllabus area</option>{syllabusParentGroups.flatMap((group) => group.topics).map((topic) => <option key={topic} value={topic} disabled={!topicQuestionCounts[topic]}>{topic}{topicQuestionCounts[topic] ? ` (${topicQuestionCounts[topic]})` : " — not loaded yet"}</option>)}</select></label><div className="compact-count-row"><span>Drill size</span><div>{[10, 20, 40, 50].map((value) => <button data-testid={`topic-drill-count-${value}`} key={value} className={topicDrillCount === value ? "active" : ""} onClick={() => setTopicDrillCount(value)}>{value}</button>)}</div></div>
             <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopic || !topicQuestionCounts[selectedTopic] || loading || !!loadError}>Start {topicDrillCount}-question drill <ArrowRight size={16} /></button>
           </CompactPanel>
         </section>
