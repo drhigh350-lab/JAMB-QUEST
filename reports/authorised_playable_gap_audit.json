@@ -1,8 +1,8 @@
 {
-  "totalActiveAuthorisedRows": 3083,
-  "playableRows": 2714,
+  "totalActiveAuthorisedRows": 3825,
+  "playableRows": 3456,
   "outcomes": {
-    "playable": 2714,
+    "playable": 3456,
     "status:needs_review": 369
   },
   "sources": {
@@ -128,6 +128,21 @@
     },
     "JAMB Quest Use of English Bank · Trusted owner Markdown · August 2026": {
       "playable": 57
+    },
+    "JAMB Quest CSV · UTME Revelation · Biology · August 2026": {
+      "playable": 16
+    },
+    "JAMB Quest CSV · TechMed JAMB Question Bank · Chemistry · August 2026": {
+      "playable": 191
+    },
+    "JAMB Quest CSV · jamb_past_question · Chemistry · August 2026": {
+      "playable": 328
+    },
+    "JAMB Quest CSV · UTME Physics Question Bank · Physics · August 2026": {
+      "playable": 30
+    },
+    "JAMB Quest CSV · UTME 2026 Use of English Question Bank · Use of English · August 2026": {
+      "playable": 177
     }
   }
 }

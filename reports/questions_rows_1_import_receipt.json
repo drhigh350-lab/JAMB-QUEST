@@ -1,0 +1,42 @@
+{
+  "staged": 742,
+  "imported": 742,
+  "existing": 0,
+  "sources": [
+    {
+      "sourceLabel": "JAMB Quest CSV · UTME Revelation · Biology · August 2026",
+      "staged": 16,
+      "imported": 16,
+      "status": "imported",
+      "sourceId": 10350001
+    },
+    {
+      "sourceLabel": "JAMB Quest CSV · TechMed JAMB Question Bank · Chemistry · August 2026",
+      "staged": 191,
+      "imported": 191,
+      "status": "imported",
+      "sourceId": 10350002
+    },
+    {
+      "sourceLabel": "JAMB Quest CSV · jamb_past_question · Chemistry · August 2026",
+      "staged": 328,
+      "imported": 328,
+      "status": "imported",
+      "sourceId": 10350003
+    },
+    {
+      "sourceLabel": "JAMB Quest CSV · UTME Physics Question Bank · Physics · August 2026",
+      "staged": 30,
+      "imported": 30,
+      "status": "imported",
+      "sourceId": 10350004
+    },
+    {
+      "sourceLabel": "JAMB Quest CSV · UTME 2026 Use of English Question Bank · Use of English · August 2026",
+      "staged": 177,
+      "imported": 177,
+      "status": "imported",
+      "sourceId": 10350005
+    }
+  ]
+}

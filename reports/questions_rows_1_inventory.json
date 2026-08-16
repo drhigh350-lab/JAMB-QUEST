@@ -1,0 +1,22 @@
+{
+  "source": "/home/ubuntu/upload/questions_rows(1).csv",
+  "parsed": 1190,
+  "parseHolds": [],
+  "bySubject": {
+    "Biology": 200,
+    "Chemistry": 560,
+    "Mathematics": 30,
+    "Physics": 200,
+    "Use of English": 200
+  },
+  "bySource": {
+    "TechMed JAMB Question Bank": 200,
+    "UTME 2026 Use of English Question Bank": 200,
+    "UTME Physics Question Bank": 200,
+    "UTME Revelation": 200,
+    "jamb_past_question": 360,
+    "techmed_authored": 30
+  },
+  "structuredAnswers": 1190,
+  "withExplanation": 1190
+}

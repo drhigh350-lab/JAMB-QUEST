@@ -1,0 +1,203 @@
+{
+  "input": 28,
+  "mapped": 28,
+  "held": 0,
+  "records": [
+    {
+      "externalId": "chemistry_0059",
+      "subject": "Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium",
+      "reason": "composition of air relates to gases and their properties"
+    },
+    {
+      "externalId": "chemistry_0060",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "water hardness due to dissolved salts (solubility of ions)"
+    },
+    {
+      "externalId": "chemistry_0061",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "precipitation from solution on boiling (dissolved bicarbonates)"
+    },
+    {
+      "externalId": "chemistry_0062",
+      "subject": "Chemistry",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "medium",
+      "reason": "hardness removal is a water purification/separation method"
+    },
+    {
+      "externalId": "chemistry_0064",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "deliquescence concerns uptake/dissolution of moisture"
+    },
+    {
+      "externalId": "chemistry_0065",
+      "subject": "Chemistry",
+      "suggestedTopic": "Chemistry and industry",
+      "confidence": "high",
+      "reason": "town water treatment is an industrial/technological process"
+    },
+    {
+      "externalId": "chemistry_0068",
+      "subject": "Chemistry",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "medium",
+      "reason": "dissolved oxygen is a water-quality (environmental) parameter"
+    },
+    {
+      "externalId": "chemistry_0247",
+      "subject": "Chemistry",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "identifying elemental composition of a compound falls under compounds/combination"
+    },
+    {
+      "externalId": "chemistry_0252",
+      "subject": "Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high",
+      "reason": "states of matter distinction is taught in kinetic theory"
+    },
+    {
+      "externalId": "chemistry_0270",
+      "subject": "Chemistry",
+      "suggestedTopic": "Atomic structure and bonding",
+      "confidence": "medium",
+      "reason": "allotropy arises from different bonding/structures of the same element"
+    },
+    {
+      "externalId": "chemistry_0288",
+      "subject": "Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "high",
+      "reason": "Avogadro's law relates to gas behaviour/kinetic theory"
+    },
+    {
+      "externalId": "chemistry_0301",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "deliquescent substances absorb moisture/relate to solubility behavior"
+    },
+    {
+      "externalId": "chemistry_0349",
+      "subject": "Chemistry",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "medium",
+      "reason": "catenation is a property typically illustrated by non-metals (e.g., carbon)"
+    },
+    {
+      "externalId": "chemistry_0382",
+      "subject": "Chemistry",
+      "suggestedTopic": "Separation of mixtures",
+      "confidence": "high",
+      "reason": "adsorption by a filter is a separation/purification process"
+    },
+    {
+      "externalId": "chemistry_0443",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "medium",
+      "reason": "freezing-point depression (colligative effect) involves solute in solvent behaviour"
+    },
+    {
+      "externalId": "chemistry_0463",
+      "subject": "Chemistry",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "medium",
+      "reason": "natural combined forms of carbon relate to its compounds and non-metal chemistry"
+    },
+    {
+      "externalId": "chemistry_0488",
+      "subject": "Chemistry",
+      "suggestedTopic": "Energy changes",
+      "confidence": "high",
+      "reason": "enthalpy change calculation is thermochemistry (energy changes)"
+    },
+    {
+      "externalId": "chemistry_0491",
+      "subject": "Chemistry",
+      "suggestedTopic": "Chemical combination",
+      "confidence": "high",
+      "reason": "defining features of chemical reactions fall under combination/reaction concepts"
+    },
+    {
+      "externalId": "chemistry_0508",
+      "subject": "Chemistry",
+      "suggestedTopic": "Environmental pollution",
+      "confidence": "high",
+      "reason": "carcinogens concern environmental/health chemistry and pollution"
+    },
+    {
+      "externalId": "chemistry_0511",
+      "subject": "Chemistry",
+      "suggestedTopic": "Metals and their compounds",
+      "confidence": "high",
+      "reason": "hardness is due to metal ions (Ca2+, Mg2+) and their compounds"
+    },
+    {
+      "externalId": "chemistry_0525",
+      "subject": "Chemistry",
+      "suggestedTopic": "Non-metals and their compounds",
+      "confidence": "medium",
+      "reason": "allotrope of carbon (activated carbon/charcoal) is a non-metal form used industrially"
+    },
+    {
+      "externalId": "chemistry_0558",
+      "subject": "Chemistry",
+      "suggestedTopic": "Kinetic theory of matter and gases",
+      "confidence": "medium",
+      "reason": "role of nitrogen in air pertains to inert gas behaviour in gaseous mixtures"
+    },
+    {
+      "externalId": "chemistry_0559",
+      "subject": "Chemistry",
+      "suggestedTopic": "Solubility",
+      "confidence": "high",
+      "reason": "drying agents are hygroscopic/deliquescent — a solubility/absorption property"
+    },
+    {
+      "externalId": "use_of_english_0146",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "medium",
+      "reason": "silent letters often involve unpronounced consonants in pronunciation items"
+    },
+    {
+      "externalId": "use_of_english_0147",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "high",
+      "reason": "question concerns pronunciation of the letter 'c' (a consonant)"
+    },
+    {
+      "externalId": "use_of_english_0148",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "high",
+      "reason": "initial consonant sound of 'G' in 'GENTLE' is a consonant-phonetics item"
+    },
+    {
+      "externalId": "use_of_english_0149",
+      "subject": "Use of English",
+      "suggestedTopic": "Consonants",
+      "confidence": "medium",
+      "reason": "'gh' as /f/ is a consonant digraph/pronunciation issue"
+    },
+    {
+      "externalId": "use_of_english_0150",
+      "subject": "Use of English",
+      "suggestedTopic": "Vowels",
+      "confidence": "high",
+      "reason": "question asks about words sharing the same vowel sound"
+    }
+  ]
+}
