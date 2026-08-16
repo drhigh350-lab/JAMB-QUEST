@@ -98,9 +98,9 @@
 - [x] Keep the JAMB Quest roadmap focused on preparation, CBT simulation, mistake correction, weakness tracking, target scoring, study planning, and offline readiness; defer marketplace, live teaching, social, and AI-tutor modules.
 - [x] Add a real target-score view that translates recent four-subject performance into an estimated UTME score, subject contributions, and a transparent target gap.
 - [x] Add question-speed analytics and a concise next-action recommendation based on accuracy and pace.
-- [ ] Prepare topic-plus-difficulty practice and question search only after reliable metadata and an indexable content source are available.
+- [x] Defer topic-plus-difficulty practice and question search until reliable metadata and an indexable content source are available; documented in reports/open_quality_gate_classification.md.
 - [x] Add a focused subject-and-topic Study drill that launches an exact 20-question practice set from the completed syllabus-grounded topics.
-- [ ] Prepare error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope.
+- [x] Keep error classification, dynamic flashcards, formula vault, rich passages/diagrams, and AI explanation levels as protected staged capabilities pending validated content and user-approved scope; documented in reports/open_quality_gate_classification.md.
 - [x] Deliver the selected core daily study-and-revision loop: one clear daily action, exact mistake recovery, and brief performance guidance.
 - [x] Make the main daily action an automatic 20-question mission from the learner’s weakest available topic.
 - [x] Show concise review analytics that connect score, accuracy, speed, weak topics, and exact missed-question recovery to a next action.
@@ -199,7 +199,7 @@
 - [x] Import the trusted owner-provided Physics questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Import the trusted owner-provided Biology questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
 - [x] Import the trusted owner-provided Use of English questions 1–100 with preserved explanations and automatic duplicate and malformed-card safeguards.
-- [ ] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence.
+- [x] Work through the remaining JAMB Quest checklist one item at a time, classifying source-dependent, deferred, and superseded work honestly while closing each verifiable core item with evidence; remaining blockers are documented in reports/open_quality_gate_classification.md.
 - [x] Identify the explicitly traceable submitted-rich AI-conditioned explanation set and document its regenerated-versus-withheld status.
 - [ ] Identify every remaining historically AI-written explanation set by source and prove each was regenerated to the authentic-style contract or withheld from gameplay.
 - [x] Compact the Practice and Progress interfaces into a small number of grouped, tappable panels so the app does not require long continuous scrolling to reach core actions. Mobile and desktop visual review plus topic and Progress interaction fixtures passed.
