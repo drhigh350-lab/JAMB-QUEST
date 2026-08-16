@@ -286,7 +286,7 @@
 - [x] Repair three broad Biology batch-1 labels from Human Physiology to the official Transport syllabus area before import.
 - [x] Preserve a deterministic Biology revalidator fallback after a transient structured-model response failure; no unvalidated records were released.
 - [x] Continue Biology DOCX explanation batches after batch 1.
-- [ ] Continue legacy explanation restoration from batch 10 onward.
+- [x] Continue legacy explanation restoration from batch 10 onward. Batch 11 was restored with 20 validated four-line explanations; batch 12 found zero remaining over-cap candidates, so no further records were changed.
 - [x] Review the 48 wording-level diagram candidates and keep missing-source or optional visuals out of gameplay; document the decision in reports/diagram_candidate_review.md
 - [ ] Resolve the all-subject PDF answer-key gap before importing its held questions.
 
