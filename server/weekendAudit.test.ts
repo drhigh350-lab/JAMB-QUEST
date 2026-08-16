@@ -9,6 +9,7 @@ describe("weekend learner-flow audit", () => {
     const db = readFileSync(resolve(root, "server/db.ts"), "utf8");
     expect(db).toContain("orderBy(desc(quizRounds.completedAt)).limit(12)");
     expect(db).not.toContain("const recentRounds = rounds.reverse().map");
+    expect(db).toContain("const latestFullMock = rounds.find");
   });
 
   it("keeps today’s goal as a real launchable session", () => {

@@ -261,7 +261,8 @@ export function summariseSubjectPerformance(answers: Array<{ subject?: string | 
 }
 
 export function selectFullMockSubjectPerformance(rounds: Array<{ subject: string; questionCount: number; answerReviewJson: string | null }>) {
-  const latestFullMock = [...rounds].reverse().find((round) => round.subject === "Full JAMB Mock" && round.questionCount === 180);
+  // Dashboard rounds are newest-first, so the first matching full mock is the latest one.
+  const latestFullMock = rounds.find((round) => round.subject === "Full JAMB Mock" && round.questionCount === 180);
   return latestFullMock ? summariseSubjectPerformance(parseAnswerReview(latestFullMock.answerReviewJson)) : [];
 }
 
