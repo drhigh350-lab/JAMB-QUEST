@@ -10,5 +10,8 @@ describe("question palette placement", () => {
     expect(shell.indexOf("<QuestionCard")).toBeLessThan(shell.indexOf("<QuestionLedger"));
     expect(shell).toContain("quiz-workspace question-palette-bottom");
     expect(stylesheet).toContain(".quiz-workspace.question-palette-bottom");
+    const mobileStyles = readFileSync(`${project}/client/src/field-notes-overrides.css`, "utf8");
+    expect(mobileStyles).not.toContain(".cbt-ledger-stack { order: -1; }");
+    expect(mobileStyles).toContain(".cbt-ledger-stack { order: initial; }");
   });
 });

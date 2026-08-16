@@ -1,6 +1,6 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { and, eq, inArray } from "drizzle-orm";
+import { and, desc, eq, inArray } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
@@ -324,7 +324,8 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const [pushSubscription] = await db.select().from(learnerPushSubscriptions).where(eq(learnerPushSubscriptions.userId, userId)).limit(1);
   const activities = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.userId, userId));
   const achievements = await db.select().from(learnerAchievements).where(eq(learnerAchievements.userId, userId));
-  const rounds = await db.select().from(quizRounds).where(eq(quizRounds.userId, userId)).orderBy(quizRounds.completedAt).limit(12);
+  // Anchor analytics to the newest rounds; limiting an ascending query froze weakness analysis on the oldest history after 12 rounds.
+  const rounds = await db.select().from(quizRounds).where(eq(quizRounds.userId, userId)).orderBy(desc(quizRounds.completedAt)).limit(12);
   const bookmarks = await db.select().from(learnerBookmarks).where(eq(learnerBookmarks.userId, userId));
   const timeZone = profile?.timeZone ?? "Africa/Lagos";
   const dateKey = localDateKey(timeZone);
@@ -344,7 +345,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const weakTopics = summariseWeakTopicsFromRounds(rounds, inferredTopicsByQuestionId);
   const subjectPerformance = summariseSubjectPerformance(answerReviews);
   const fullMockSubjectPerformance = selectFullMockSubjectPerformance(rounds);
-  const recentRounds = rounds.reverse().map((round) => {
+  const recentRounds = rounds.map((round) => {
     const review = parseAnswerReview(round.answerReviewJson);
     return {
       id: round.id,

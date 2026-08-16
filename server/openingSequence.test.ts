@@ -17,6 +17,9 @@ describe("JAMB Quest opening sequence", () => {
     expect(component).toContain("atomic-intro-typewriter");
     expect(component).toContain("quest-typing-caret");
     expect(component).toContain("typedQuote");
+    expect(component).toContain("quoteComplete");
+    expect(component).toContain("if (hold || !quoteComplete) return;");
+    expect(component).not.toContain("if (hold) return;");
     const styles = readFileSync(resolve(root, "index.css"), "utf8");
     expect(styles).toContain("prefers-reduced-motion");
     expect(styles).toContain("quest-typing-caret-blink");

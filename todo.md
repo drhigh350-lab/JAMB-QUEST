@@ -401,3 +401,12 @@
 - [x] Reorganize syllabus navigation and weakness analytics into larger official parent sections with expandable detailed topics while preserving exact topic IDs for drills and quality gates. Every official topic is covered exactly once by the grouped map; detailed drill payloads remain unchanged.
 
 - [x] Validate the newly supplied English 2004, Biology 2004, and Chemistry 2021 question-answer pairs, match exact held-PDF records, and import only cards that pass answer, syllabus, duplicate, and structural gates. 125 records were joined, 38 full-bank duplicates were skipped, 86 were imported as approved, and one unmappable Biology record remains held; see reports/supplied_answer_key_pair_intake_summary.md.
+
+- [x] Run a final weekend audit of today’s goal session, dynamic weakness analysis, question-palette placement, and core learner flows; fix safe regressions and preserve evidence-bound holds. See reports/monday_release_scrutiny.md.
+- [x] Ensure the today’s goal session is backed by live/persistent progress rather than static display data.
+- [x] Ensure weakness analysis can surface newly calculated weak topics and does not remain static after learner activity. The dashboard now analyzes the newest 12 rounds instead of freezing on the oldest window.
+- [x] Verify the question palette remains below the active question in study and CBT modes at desktop and mobile widths.
+- [x] Keep the question ledger visually below the active question at every breakpoint, including CBT mobile styling.
+- [x] Enable question-ledger navigation for untimed study rounds without bypassing answer-state safeguards.
+- [x] Prevent the opening sequence from auto-leaving before the live Atomic Habits quote finishes typing and has a readable hold.
+- [x] Verify grouped parent syllabus sections launch their selected exact topic drill in untimed study mode.

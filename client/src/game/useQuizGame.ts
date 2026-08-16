@@ -207,16 +207,19 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setSecondsLeft(DEFAULT_SECONDS);
   }, [answers, answered, currentIndex, recordFinalRound, roundConfig, roundQuestions.length, score]);
 
-  const navigateCbt = useCallback((index: number) => {
-    if (!isCbt || index < 0 || index >= roundQuestions.length) return;
+  const navigateQuestion = useCallback((index: number) => {
+    if (index < 0 || index >= roundQuestions.length) return;
+    const storedAnswer = answers[roundQuestions[index].id];
     setCurrentIndex(index);
-    setSelectedIndex(answers[roundQuestions[index].id]?.selectedIndex ?? null);
+    setSelectedIndex(storedAnswer?.selectedIndex ?? null);
+    // CBT answers remain editable until submission; study/review questions preserve their completed correction state.
+    setAnswered(isCbt ? false : Boolean(storedAnswer));
   }, [answers, isCbt, roundQuestions]);
 
   const saveAndNextCbt = useCallback(() => {
     if (!isCbt) return;
-    navigateCbt((currentIndex + 1) % roundQuestions.length);
-  }, [currentIndex, isCbt, navigateCbt, roundQuestions.length]);
+    navigateQuestion((currentIndex + 1) % roundQuestions.length);
+  }, [currentIndex, isCbt, navigateQuestion, roundQuestions.length]);
 
   const toggleFlag = useCallback(() => {
     if (!isCbt || !currentQuestion) return;
@@ -302,7 +305,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     selectAnswer,
     submitAnswer,
     nextQuestion,
-    navigateCbt,
+    navigateCbt: navigateQuestion,
+    navigateQuestion,
     saveAndNextCbt,
     toggleFlag,
     togglePause,

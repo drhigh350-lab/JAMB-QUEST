@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { getAtomicIntroStory } from "@/content/atomicIntroStories";
-import { getTypewriterDuration, getTypewriterStepDelay } from "@/lib/openingTypewriter";
+import { getTypewriterStepDelay } from "@/lib/openingTypewriter";
 
 export function QuestOpening({ onComplete, hold = false }: { onComplete: () => void; hold?: boolean }) {
   const [leaving, setLeaving] = useState(false);
@@ -8,6 +8,8 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
   const [reducedMotion, setReducedMotion] = useState(false);
   const story = getAtomicIntroStory();
   const dailyQuote = story.kicker;
+  const quoteLength = Array.from(dailyQuote).length;
+  const quoteComplete = typedLength >= quoteLength;
   const typedQuote = useMemo(() => Array.from(dailyQuote).slice(0, typedLength).join(""), [dailyQuote, typedLength]);
   const complete = () => {
     if (leaving) return;
@@ -16,18 +18,16 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
   };
 
   useEffect(() => {
-    if (hold) return;
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const applyMotionPreference = () => setReducedMotion(mediaQuery.matches);
     applyMotionPreference();
     mediaQuery.addEventListener?.("change", applyMotionPreference);
     return () => mediaQuery.removeEventListener?.("change", applyMotionPreference);
-  }, [hold]);
+  }, []);
 
   useEffect(() => {
-    if (hold) return;
     if (reducedMotion) {
-      setTypedLength(Array.from(dailyQuote).length);
+      setTypedLength(quoteLength);
       return;
     }
     const characters = Array.from(dailyQuote);
@@ -42,14 +42,14 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
     return () => {
       if (timer) window.clearTimeout(timer);
     };
-  }, [dailyQuote, hold, reducedMotion]);
+  }, [dailyQuote, quoteLength, reducedMotion]);
 
   useEffect(() => {
-    if (hold) return;
-    const duration = reducedMotion ? 120 : 1500 + getTypewriterDuration(dailyQuote) + 1750;
-    const timer = window.setTimeout(complete, duration);
+    // Never leave on a guessed duration: wait until every character is on screen, then leave enough time to read it.
+    if (hold || !quoteComplete) return;
+    const timer = window.setTimeout(complete, reducedMotion ? 900 : 1800);
     return () => window.clearTimeout(timer);
-  }, [dailyQuote, hold, reducedMotion]);
+  }, [hold, quoteComplete, reducedMotion]);
 
   return <section className={`quest-opening ${leaving ? "quest-opening-leaving" : ""}`} aria-label="JAMB Quest opening" data-e2e="quest-opening">
     <button className="quest-opening-skip" onClick={complete}>Skip intro</button>
@@ -62,10 +62,10 @@ export function QuestOpening({ onComplete, hold = false }: { onComplete: () => v
       <strong>Build your system.<br /><em>Win JAMB.</em></strong>
       <div className="quest-opening-story quest-opening-typewriter" data-e2e="atomic-intro-story">
         <span>{story.label} · QUOTE OF THE DAY</span>
-        <p className="quest-typing-line" data-e2e="atomic-intro-typewriter" data-typing={typedLength < Array.from(dailyQuote).length} aria-live="polite" aria-label={dailyQuote}>
+        <p className="quest-typing-line" data-e2e="atomic-intro-typewriter" data-typing={!quoteComplete} aria-live="polite" aria-label={dailyQuote}>
           <b aria-hidden="true">{typedQuote}</b><i className="quest-typing-caret" aria-hidden="true" />
         </p>
-        <small className={typedLength >= Array.from(dailyQuote).length ? "quest-opening-action-visible" : ""}>{story.action}</small>
+        <small className={quoteComplete ? "quest-opening-action-visible" : ""}>{story.action}</small>
       </div>
     </div>
   </section>;
