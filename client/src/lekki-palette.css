@@ -80,6 +80,7 @@
 .syllabus-parent-group[open] > summary svg { transform: rotate(90deg); }
 .syllabus-child-topics { display: grid; gap: 5px; padding: 0 6px 6px; }
 .syllabus-child-topics button { background: rgba(255, 252, 245, .78); }
+.parent-section-drill { width: calc(100% - 16px); margin: 0 8px 8px; min-height: 34px; display: flex; align-items: center; justify-content: center; gap: 6px; border: 1px dashed rgba(18, 40, 63, .28); background: rgba(255, 255, 255, .62); color: var(--ink); font: 800 10px/1 "Space Grotesk", sans-serif; letter-spacing: .02em; text-transform: uppercase; }.parent-section-drill:not(:disabled):hover { border-color: var(--maize); background: rgba(243, 169, 29, .14); }.parent-section-drill:disabled { opacity: .45; cursor: not-allowed; }
 
 .compact-topic-groups button {
   display: grid;
@@ -123,6 +124,10 @@
 .compact-topic-groups button:hover small {
   color: rgba(255, 252, 245, .72);
 }
+
+.compact-goal-setter { display: grid; gap: 8px; margin-top: 12px; padding-top: 11px; border-top: 1px dashed rgba(255, 255, 255, .22); }.compact-goal-setter > span { display: flex; align-items: center; gap: 6px; font: 800 10px/1 "Space Grotesk", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: rgba(255, 255, 255, .72); }.compact-goal-setter > span b { margin-left: auto; color: var(--maize); font-size: 12px; }.compact-goal-setter > div { display: flex; flex-wrap: wrap; gap: 5px; }.compact-goal-setter button { min-width: 36px; min-height: 28px; padding: 0 7px; border: 1px solid rgba(255, 255, 255, .25); background: rgba(255, 255, 255, .08); color: #fff; font: 800 10px/1 "Space Grotesk", sans-serif; }.compact-goal-setter button.active { border-color: var(--maize); background: var(--maize); color: var(--ink); }.compact-goal-setter .compact-goal-custom { width: auto; margin-left: auto; }.compact-final-day-link { display: flex; align-items: center; gap: 6px; width: 100%; padding: 9px 0 0; border-top: 1px dashed rgba(255, 255, 255, .22); color: rgba(255, 255, 255, .93); text-align: left; font: 800 10px/1.35 "Space Grotesk", sans-serif; }.compact-final-day-link svg:last-child { margin-left: auto; }.final-day-actions { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }.final-day-actions li { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 9px; align-items: center; padding: 10px 0; border-bottom: 1px dashed rgba(18, 40, 63, .16); }.final-day-actions li:last-child { border-bottom: 0; }.final-day-actions li > span { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; font: 800 10px/1 "Space Grotesk", sans-serif; }.final-day-actions b, .final-day-actions small { display: block; }.final-day-actions b { color: var(--ink); font: 800 12px/1.2 "Space Grotesk", sans-serif; }.final-day-actions small { margin-top: 3px; color: rgba(18, 40, 63, .66); font-size: 10px; line-height: 1.35; }.final-day-empty { display: grid; gap: 8px; }.final-day-empty b { color: var(--ink); font: 800 14px "Space Grotesk", sans-serif; }.final-day-empty small { color: rgba(18, 40, 63, .72); font-size: 11px; line-height: 1.45; }
+
+.final-day-mock { width: 100%; margin-top: 11px; justify-content: center; }
 
 .compact-topic-select > span:not(.sr-only) {
   display: block;

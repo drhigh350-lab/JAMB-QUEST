@@ -289,6 +289,10 @@
 - [x] Continue legacy explanation restoration from batch 10 onward. Batch 11 was restored with 20 validated four-line explanations; batch 12 found zero remaining over-cap candidates, so no further records were changed.
 - [x] Review the 48 wording-level diagram candidates and keep missing-source or optional visuals out of gameplay; document the decision in reports/diagram_candidate_review.md
 - [ ] Resolve the all-subject PDF answer-key gap before importing its held questions.
+- [ ] Push the learner-facing bank beyond 5,000 by exhausting every supplied or reliably aligned answer-key source, while retaining full-bank duplicate prevention and never guessing an answer.
+- [x] Make every broad official syllabus section directly launchable as an untimed drill, with exact nested topics remaining optional refinements. Parent launches now pass all member topics into one selected-size Study round.
+- [x] Add a visible target-score goal setter that persists the learner’s chosen JAMB score and updates the goal-led guidance. Signed-in learners can choose common targets or open the custom profile editor from Practice.
+- [x] Add a functional final-day JAMB review flow that launches exact saved, missed, and weak-topic recovery—not static advice. It surfaces the top three weak topics, recent saved questions, missed-question recovery, and a full-mock launch.
 
 - [x] Restore legacy explanation batch 10: 20 approved records updated with validated four-line answer-safe explanations and unchanged question/answer content.
 - [x] Audit 21 staged and legacy reports for diagram candidates; 48 wording-level candidates were identified for selective review, with no indiscriminate visuals added.

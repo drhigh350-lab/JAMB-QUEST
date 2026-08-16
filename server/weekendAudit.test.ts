@@ -14,8 +14,24 @@ describe("weekend learner-flow audit", () => {
 
   it("keeps today’s goal as a real launchable session", () => {
     const panel = readFileSync(resolve(root, "client/src/components/DailyMissionPanel.tsx"), "utf8");
+    const home = readFileSync(resolve(root, "client/src/pages/Home.tsx"), "utf8");
     expect(panel).toContain("Start today's mission");
     expect(panel).toContain("onStart(config)");
+    expect(home).toContain('data-testid="goal-setter"');
+    expect(home).toContain("auth.onSaveProfile(auth.profileName, value)");
+  });
+
+  it("makes parent syllabus sections and final-day recovery actions directly launchable", () => {
+    const home = readFileSync(resolve(root, "client/src/pages/Home.tsx"), "utf8");
+    expect(home).toContain("const startParentGroupDrill");
+    expect(home).toContain("startParentGroupDrill(group.topics)");
+    expect(home).toContain("Study all {group.label}");
+    expect(home).toContain("const finalDayActions");
+    expect(home).toContain("openMissedQuestions(wrongIds, \"Full JAMB Mock\")");
+    expect(home).toContain("weakTopics.slice(0, 3)");
+    expect(home).toContain("bookmarks.slice(0, 3)");
+    expect(home).toContain("Start full mock");
+    expect(home).toContain("Day before JAMB? Open your final-day review");
   });
 
   it("keeps the question palette after the active question", () => {
