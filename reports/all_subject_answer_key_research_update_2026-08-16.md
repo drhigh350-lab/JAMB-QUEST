@@ -1,11 +1,5 @@
 # All-Subject PDF Answer-Key Research Update
 
-The latest source review found public JAMB practice pages, but not a complete, subject-specific answer-key export that can be mapped deterministically to all 3,095 in-scope question starts in the held PDF.
+The older uploaded all-subject PDF was checked for embedded answer evidence. Its extractable text advertises that an answer key is sent separately by email or obtained through an external service; no complete answer table is embedded in the PDF itself. Promotional references to “questions and answers” or “solutions” are not answer evidence for the 3,095 inventoried records.
 
-| Source | What it provides | Release suitability |
-|---|---|---|
-| [Jambite free past questions](https://www.jambite.com/free-past-question/jamb) | General online practice coverage across several years and subjects, with solved-question claims. | Not a complete year-by-year answer-key table for the held PDF; insufficient for bulk import. |
-| [SchoolNGR JAMB classroom](https://www.schoolngr.com/classroom/jamb) | Subject landing pages and links to questions, topics, and syllabus pages. | Useful navigation context, but not a complete corroborating key for the held PDF. |
-| [Myschool question thread](https://myschool.ng/questions/view/academic-questions/183501) | A request for 1983–2004 answers and links back to the classroom area. | No answer table is supplied in the thread. |
-
-The release boundary is unchanged: no held all-subject records are imported until a reliable answer-key export or sufficiently complete, subject-by-subject corroboration is available. General page claims and snippets are not treated as answer evidence.
+The held all-subject import therefore remains blocked. Releasing cards from this PDF would require the separate answer-key file or a reliable subject-by-subject corroboration that can be aligned to the exact question numbering and wording.
