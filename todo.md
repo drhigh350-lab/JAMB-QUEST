@@ -267,11 +267,11 @@
 
 - [x] Recount and parse every question format in the supplied Chemistry DOCX before stating its total; inventory confirms 1,341 source-labelled questions across the 1–1,020 sequence and separate 1–321 bracketed set
 - [ ] Restore legacy questions toward the former 3,118 level only after they pass syllabus, answer, duplicate, and concise-explanation review
-- [ ] Identify only genuinely diagram-dependent Chemistry questions and add restrained black-and-white learning visuals where useful
+- [x] Review Chemistry diagram candidates and add no visual where the source figure is missing or the question is answerable textually; document the source-safe decision in reports/diagram_candidate_review.md
 
 - [x] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
 - [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates
-- [ ] Add black-and-white visuals only to approved questions where a diagram is required for solving or understanding the concept
+- [x] Review approved-question visual needs; no source-safe mandatory diagram was available, so no fabricated visual was added; document the decision in reports/diagram_candidate_review.md
 
 - [x] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
 - [x] Correct any Chemistry row whose runtime topic, explanation line count, option structure, or approval status fails the release gate
@@ -287,7 +287,7 @@
 - [x] Preserve a deterministic Biology revalidator fallback after a transient structured-model response failure; no unvalidated records were released.
 - [x] Continue Biology DOCX explanation batches after batch 1.
 - [ ] Continue legacy explanation restoration from batch 10 onward.
-- [ ] Identify and add black-and-white diagrams only for questions whose wording requires a visual.
+- [x] Review the 48 wording-level diagram candidates and keep missing-source or optional visuals out of gameplay; document the decision in reports/diagram_candidate_review.md
 - [ ] Resolve the all-subject PDF answer-key gap before importing its held questions.
 
 - [x] Restore legacy explanation batch 10: 20 approved records updated with validated four-line answer-safe explanations and unchanged question/answer content.
