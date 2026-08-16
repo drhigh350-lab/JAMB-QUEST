@@ -1,0 +1,108 @@
+{
+  "source": "/tmp/jamb_all_subjects.txt",
+  "inScopeSubjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Use of English"
+  ],
+  "totalQuestionStarts": 3095,
+  "subjects": {
+    "Biology": {
+      "questionStartCount": 682,
+      "optionLineCount": 1228,
+      "years": [
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "structuralStatus": "inventoried-only; answer-key hold"
+    },
+    "Chemistry": {
+      "questionStartCount": 533,
+      "optionLineCount": 1690,
+      "years": [
+        1987,
+        2017,
+        2018,
+        2021
+      ],
+      "structuralStatus": "inventoried-only; answer-key hold"
+    },
+    "Physics": {
+      "questionStartCount": 703,
+      "optionLineCount": 2059,
+      "years": [
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "structuralStatus": "inventoried-only; answer-key hold"
+    },
+    "Use of English": {
+      "questionStartCount": 1177,
+      "optionLineCount": 2323,
+      "years": [
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "structuralStatus": "inventoried-only; answer-key hold"
+    }
+  },
+  "stagingDecision": "No gameplay staging or import. Structural inventory is complete, but all records remain held until reliable answer keys are available and corroborated.",
+  "answerKeyEvidence": "The source PDF has no embedded usable answer key; external cross-checks conflict by subject and are insufficient for bulk release."
+}

@@ -270,7 +270,7 @@
 - [x] Review Chemistry diagram candidates and add no visual where the source figure is missing or the question is answerable textually; document the source-safe decision in reports/diagram_candidate_review.md
 
 - [x] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
-- [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates
+- [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates. Structural inventory is complete for 3,095 in-scope question starts, but record staging remains held because the PDF has no usable answer key; see reports/all_subject_pdf_structural_stage_receipt.json.
 - [x] Review approved-question visual needs; no source-safe mandatory diagram was available, so no fabricated visual was added; document the decision in reports/diagram_candidate_review.md
 
 - [x] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
