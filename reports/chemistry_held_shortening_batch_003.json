@@ -1,0 +1,228 @@
+{
+  "subject": "Chemistry",
+  "batch": 3,
+  "batchSize": 20,
+  "eligibleTotal": 89,
+  "selected": [
+    {
+      "id": 90166,
+      "externalId": "TechMed-Complete-Question-Bank-md-41",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Bronze is the traditional copper alloy formed mainly by combining copper with tin (copper + tin).\nAdding tin to copper raises hardness, improves castability and gives better corrosion resistance than pure copper, which explains bronze's historical use for tools, coins and statues.\nCopper and zinc form brass, a different copper alloy that is more malleable and used for fittings and musical instruments rather than classical bronze applications.\nCopper and aluminium can form aluminium-bronze alloys, but that term denotes a specific aluminium-rich alloy and is not the conventional definition of bronze in standard school chemistry.\nIron and carbon form steel or cast iron (ferrous alloys) with very different magnetic and mechanical properties and are not classified as bronzes.\nTherefore the correct choice is Copper and Tin because it matches the standard composition and properties taught for bronze.",
+      "after": "Bronze is the traditional copper alloy formed mainly by combining copper with tin (copper + tin).\nAdding tin to copper raises hardness, improves castability and gives better corrosion resistance than pure copper, which explains bronze's historical use for tools, coins and statues.\nCopper and zinc form brass, a different copper alloy that is more malleable and used for fittings and musical instruments rather than classical bronze applications.\nTherefore the correct choice is Copper and Tin because it matches the standard composition and properties taught for bronze."
+    },
+    {
+      "id": 90169,
+      "externalId": "TechMed-Complete-Question-Bank-md-44",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ethene (systematic name: ethylene) is a gaseous plant hormone that initiates and accelerates fruit ripening.\nIt activates ripening-specific enzymes that convert starch to sugars, degrade cell-wall polymers (softening), and induce colour and aroma changes.\nCommercially, ethene gas or ethene-releasing chemicals (for example ethephon) are applied to uniformly ripen fruits such as bananas and tomatoes.\nAmong the options, ethene is the only unsaturated hydrocarbon that functions as a biological signalling molecule in plants.\nEthane, methane and butane are saturated alkanes without this hormonal activity and are essentially biologically inert in ripening processes.\nRipening with ethene must be given at controlled concentrations and exposure times because excess ethene leads to over-ripening and loss of fruit quality.",
+      "after": "Ethene (systematic name: ethylene) is a gaseous plant hormone that initiates and accelerates fruit ripening.\nIt activates ripening-specific enzymes that convert starch to sugars, degrade cell-wall polymers (softening), and induce colour and aroma changes.\nCommercially, ethene gas or ethene-releasing chemicals (for example ethephon) are applied to uniformly ripen fruits such as bananas and tomatoes.\nRipening with ethene must be given at controlled concentrations and exposure times because excess ethene leads to over-ripening and loss of fruit quality."
+    },
+    {
+      "id": 90170,
+      "externalId": "TechMed-Complete-Question-Bank-md-45",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Organic chemistry is the branch of chemistry that studies carbon-containing compounds, especially those with C–H bonds and carbon–carbon frameworks.\nCarbon's tetravalency and ability to catenate (form long chains and rings) produce the vast diversity of organic molecules such as hydrocarbons, alcohols, acids, polymers and drugs.\nSome simple carbon-containing species (CO, CO₂ and carbonates) are conventionally treated as inorganic exceptions and are not classed under organic chemistry.\n\"All living matter\" is incorrect because biology studies living organisms, although living tissues are largely built from organic molecules that organic chemistry describes.\n\"Rocks and minerals\" are mainly inorganic substances studied in mineralogy and inorganic chemistry, not by organic chemistry.\n\"Oxygen compounds\" is wrong because many inorganic compounds contain oxygen; the presence of oxygen alone does not make a compound organic.",
+      "after": "Organic chemistry is the branch of chemistry that studies carbon-containing compounds, especially those with C–H bonds and carbon–carbon frameworks.\nCarbon's tetravalency and ability to catenate (form long chains and rings) produce the vast diversity of organic molecules such as hydrocarbons, alcohols, acids, polymers and drugs.\nSome simple carbon-containing species (CO, CO₂ and carbonates) are conventionally treated as inorganic exceptions and are not classed under organic chemistry.\n\"Oxygen compounds\" is wrong because many inorganic compounds contain oxygen; the presence of oxygen alone does not make a compound organic."
+    },
+    {
+      "id": 90173,
+      "externalId": "TechMed-Complete-Question-Bank-md-48",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A polymer is a macromolecule made of many repeating monomer units, giving it a high molecular mass compared with small molecules.\nPropane (C3H8) is a small saturated alkane with a definite low molar mass and no repeating units, so it is not a polymer.\nNylon is a synthetic polymer (a polyamide) formed by repeated amide linkages from diamine and dicarboxylic acid monomers.\nStarch is a natural polymer (a polysaccharide) composed of glucose units joined by glycosidic bonds in amylose and amylopectin fractions.\nProteins are biological polymers made of amino acid monomers linked by peptide bonds to form polypeptide chains.\nTherefore nylon, starch and proteins meet the definition of polymers while propane is a simple covalent molecule and correctly excluded.",
+      "after": "A polymer is a macromolecule made of many repeating monomer units, giving it a high molecular mass compared with small molecules.\nPropane (C3H8) is a small saturated alkane with a definite low molar mass and no repeating units, so it is not a polymer.\nNylon is a synthetic polymer (a polyamide) formed by repeated amide linkages from diamine and dicarboxylic acid monomers.\nTherefore nylon, starch and proteins meet the definition of polymers while propane is a simple covalent molecule and correctly excluded."
+    },
+    {
+      "id": 90174,
+      "externalId": "TechMed-Complete-Question-Bank-md-49",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Catalyst: a substance that increases the rate of a chemical reaction without being consumed by providing an alternative pathway with lower activation energy.\nIt is correct because a catalyst lowers the activation-energy barrier so a larger fraction of reactant collisions lead to product, and the catalyst is regenerated by the end of the reaction.\nA reactant is incorrect because reactants are consumed and transformed into products during the reaction.\nA product is incorrect because products are formed by the reaction and do not act to increase its rate.\nA solvent is generally just the medium that dissolves reactants and can influence rate by concentration or polarity, but it does not qualify as a catalyst unless it actively participates and is regenerated.\nExamples: biological catalysts (enzymes) and industrial catalysts (e.g. Pt or Ni for hydrogenation) lower activation energy and remain unchanged overall, illustrating the defining property of a catalyst.",
+      "after": "Catalyst: a substance that increases the rate of a chemical reaction without being consumed by providing an alternative pathway with lower activation energy.\nIt is correct because a catalyst lowers the activation-energy barrier so a larger fraction of reactant collisions lead to product, and the catalyst is regenerated by the end of the reaction.\nA reactant is incorrect because reactants are consumed and transformed into products during the reaction.\nExamples: biological catalysts (enzymes) and industrial catalysts (e.g. Pt or Ni for hydrogenation) lower activation energy and remain unchanged overall, illustrating the defining property of a catalyst."
+    },
+    {
+      "id": 90175,
+      "externalId": "TechMed-Complete-Question-Bank-md-50",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "pH is defined as the negative base-10 logarithm of the hydrogen-ion concentration: pH = −log[H+].\nHydrochloric acid (HCl) is a strong acid that fully dissociates in dilute aqueous solution, so a 0.001 M HCl gives [H+] = 0.001 M = 10^−3 M.\nSubstituting into the definition gives pH = −log(10^−3) = 3.\nTherefore the correct option is 3 because the hydrogen-ion concentration corresponds exactly to 10^−3 M.\nOptions 1 and 2 would imply [H+] = 1.0 M and 1.0×10^−2 M respectively, and option 4 would imply 1.0×10^−4 M; none of these match the given 0.001 M HCl.\nThis result assumes complete dissociation of HCl and that activity coefficients are close to unity so molarity approximates [H+], which is valid for a dilute solution like 0.001 M.",
+      "after": "pH is defined as the negative base-10 logarithm of the hydrogen-ion concentration: pH = −log[H+].\nHydrochloric acid (HCl) is a strong acid that fully dissociates in dilute aqueous solution, so a 0.001 M HCl gives [H+] = 0.001 M = 10^−3 M.\nSubstituting into the definition gives pH = −log(10^−3) = 3.\nThis result assumes complete dissociation of HCl and that activity coefficients are close to unity so molarity approximates [H+], which is valid for a dilute solution like 0.001 M."
+    },
+    {
+      "id": 90176,
+      "externalId": "TechMed-Complete-Question-Bank-md-51",
+      "subject": "Chemistry",
+      "topic": "Gas Laws and Diffusion",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Boyle's law states that for a fixed amount of gas at constant temperature (isothermal conditions) the volume V is inversely proportional to the pressure P, often written PV = constant.\nPressure is the correct choice because increasing external pressure compresses the gas and reduces its volume so that the product PV remains constant for an isothermal, fixed-amount sample.\nMicroscopically this occurs because compressing the gas increases molecular collision frequency against the container walls, raising pressure while the volume decreases to maintain PV constant.\nMass is not the target variable because Boyle's law assumes a fixed mass (fixed number of moles); changing the mass (adding gas) changes the amount and breaks the simple V ∝ 1/P relationship.\nDensity equals mass divided by volume, so for a fixed mass density varies inversely with volume and therefore is directly proportional to pressure under Boyle conditions, making it a plausible but incorrect distractor.\nNumber of moles appears in the ideal gas law PV = nRT, so changing n changes V directly at fixed P and T; Boyle's law only applies when n is held constant, so \"number of moles\" is not the inverse variable.",
+      "after": "Boyle's law states that for a fixed amount of gas at constant temperature (isothermal conditions) the volume V is inversely proportional to the pressure P, often written PV = constant.\nPressure is the correct choice because increasing external pressure compresses the gas and reduces its volume so that the product PV remains constant for an isothermal, fixed-amount sample.\nMicroscopically this occurs because compressing the gas increases molecular collision frequency against the container walls, raising pressure while the volume decreases to maintain PV constant.\nNumber of moles appears in the ideal gas law PV = nRT, so changing n changes V directly at fixed P and T; Boyle's law only applies when n is held constant, so \"number of moles\" is not the inverse variable."
+    },
+    {
+      "id": 90178,
+      "externalId": "TechMed-Complete-Question-Bank-md-53",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vulcanization is the chemical process that forms cross‑links between polymer chains in natural rubber to improve elasticity, strength and heat resistance.\nSulphur is used because, on heating, it forms sulphur (sulphide/disulphide) bridges between polyisoprene chains, converting linear polymers into a three‑dimensional network.\nThese sulphur cross‑links restrict chain mobility enough to prevent stickiness and permanent deformation while retaining elastic recovery, which explains why sulphur is chosen.\nCarbon is already part of the rubber backbone (polyisoprene) but is not introduced as a cross‑linking agent during vulcanization.\nPhosphorus and silicon are not vulcanising agents: phosphorus is mainly used in additives such as flame retardants, and silicon refers to silicone polymers rather than sulphur cross‑linking of natural rubber.\nVulcanization normally requires heat and small amounts of accelerators (e.g. zinc oxide and stearic acid) to speed sulphur cross‑linking, but the essential vulcanising element is sulphur.",
+      "after": "Vulcanization is the chemical process that forms cross‑links between polymer chains in natural rubber to improve elasticity, strength and heat resistance.\nSulphur is used because, on heating, it forms sulphur (sulphide/disulphide) bridges between polyisoprene chains, converting linear polymers into a three‑dimensional network.\nThese sulphur cross‑links restrict chain mobility enough to prevent stickiness and permanent deformation while retaining elastic recovery, which explains why sulphur is chosen.\nVulcanization normally requires heat and small amounts of accelerators (e.g. zinc oxide and stearic acid) to speed sulphur cross‑linking, but the essential vulcanising element is sulphur."
+    },
+    {
+      "id": 90179,
+      "externalId": "TechMed-Complete-Question-Bank-md-54",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An acid salt forms when a polyprotic acid is only partially neutralised; it contains a replaceable hydrogen and typically gives an acidic solution on hydrolysis.\nNaHSO4 (sodium hydrogen sulfate) is an acid salt made by partial neutralisation of H2SO4 and contains the HSO4- ion which can donate H+ to water, producing acidity.\nHSO4- is amphiprotic but predominantly behaves as a weak acid (it can release H+ to form SO4^2-), so NaHSO4 lowers the pH unlike a fully neutralised sulfate.\nNa2SO4 is a neutral salt from complete neutralisation of a strong acid (H2SO4) by a strong base (NaOH), so SO4^2- does not appreciably produce H+ or OH- in water.\nNa2CO3 is basic because CO3^2- is the conjugate base of the weak carbonic acid; carbonate hydrolyses to give OH- and therefore raises the pH.\nKNO3 is neutral since NO3- is the conjugate base of the strong acid HNO3 and neither donates H+ nor generates OH- appreciably in aqueous solution.",
+      "after": "An acid salt forms when a polyprotic acid is only partially neutralised; it contains a replaceable hydrogen and typically gives an acidic solution on hydrolysis.\nNaHSO4 (sodium hydrogen sulfate) is an acid salt made by partial neutralisation of H2SO4 and contains the HSO4- ion which can donate H+ to water, producing acidity.\nHSO4- is amphiprotic but predominantly behaves as a weak acid (it can release H+ to form SO4^2-), so NaHSO4 lowers the pH unlike a fully neutralised sulfate.\nKNO3 is neutral since NO3- is the conjugate base of the strong acid HNO3 and neither donates H+ nor generates OH- appreciably in aqueous solution."
+    },
+    {
+      "id": 90181,
+      "externalId": "TechMed-Complete-Question-Bank-md-56",
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Stoichiometry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Isotopes are atoms of the same element that have identical atomic number (Z) but different mass numbers (A) because their neutron counts differ.\nThe correct option is 'number of neutrons' since A = Z + N, so changing N changes the mass number while Z (proton count) stays the same; e.g. 12C and 14C both have Z=6 but N=6 and N=8 respectively.\nAtomic number is incorrect because it equals the proton count that defines the element and is identical for all isotopes of that element.\nNumber of electrons is not the distinguishing feature: neutral isotopes have the same electron count as protons, so electron number only changes if the atom is ionised, not because it is an isotope.\nChemical properties depend mainly on electron configuration, so isotopes have essentially the same chemistry although light isotopes can show kinetic isotope effects (for example H versus D) that alter reaction rates.\nThe neutron difference gives isotopes different masses, a fact used in mass spectrometry and radiocarbon dating to separate and identify isotopic species.",
+      "after": "Isotopes are atoms of the same element that have identical atomic number (Z) but different mass numbers (A) because their neutron counts differ.\nThe correct option is 'number of neutrons' since A = Z + N, so changing N changes the mass number while Z (proton count) stays the same; e.g. 12C and 14C both have Z=6 but N=6 and N=8 respectively.\nAtomic number is incorrect because it equals the proton count that defines the element and is identical for all isotopes of that element.\nThe neutron difference gives isotopes different masses, a fact used in mass spectrometry and radiocarbon dating to separate and identify isotopic species."
+    },
+    {
+      "id": 90185,
+      "externalId": "TechMed-Complete-Question-Bank-md-60",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Electrolysis of brine (concentrated aqueous NaCl) oxidises chloride ions at the anode, so the anode product is chlorine gas.\nAnode half‑reaction: 2Cl- → Cl2 + 2e-.\nAt the cathode water is reduced to hydrogen gas and hydroxide ions (2H2O + 2e- → H2 + 2OH-), so hydrogen is the cathode product, not the anode product.\nSodium ions remain in solution and combine with OH- to give NaOH; sodium metal is not produced because in aqueous solution water is reduced preferentially.\nOxygen gas is a plausible anode product only when chloride concentration is very low or under different electrode conditions; in concentrated brine chloride oxidation predominates due to kinetics and electrode overpotentials.\nTherefore chlorine (option C) is correct, while hydrogen (A) is the cathode product, oxygen (B) is displaced by chloride in brine electrolysis, and sodium (D) cannot be deposited from aqueous solution.",
+      "after": "Electrolysis of brine (concentrated aqueous NaCl) oxidises chloride ions at the anode, so the anode product is chlorine gas.\nAnode half‑reaction: 2Cl- → Cl2 + 2e-.\nAt the cathode water is reduced to hydrogen gas and hydroxide ions (2H2O + 2e- → H2 + 2OH-), so hydrogen is the cathode product, not the anode product.\nTherefore chlorine (option C) is correct, while hydrogen (A) is the cathode product, oxygen (B) is displaced by chloride in brine electrolysis, and sodium (D) cannot be deposited from aqueous solution."
+    },
+    {
+      "id": 90186,
+      "externalId": "TechMed-Complete-Question-Bank-md-61",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fats and oils are esters called triglycerides, formed by esterification of one glycerol molecule with three fatty acid molecules.\nEach ester linkage contains the -CO–O– connectivity (a carbonyl bonded to an oxygen), and triglycerides have three such ester bonds to the glycerol backbone.\nUnder hydrolysis they give glycerol and fatty acids, and alkaline hydrolysis (saponification) yields glycerolate salts (soap) plus glycerol, illustrating their ester nature.\nThey are not alcohols because the hydroxyl groups of glycerol are consumed in forming ester bonds, so triglycerides lack free -OH groups characteristic of alcohols.\nThey are not ethers (R–O–R lacks the carbonyl) nor free carboxylic acids (R–COOH), although the fatty acid components are carboxylic acids before esterification.\nWhether a lipid is a solid fat or a liquid oil depends on fatty-acid saturation and packing, but both fats and oils are chemically esters (triglycerides).",
+      "after": "Fats and oils are esters called triglycerides, formed by esterification of one glycerol molecule with three fatty acid molecules.\nEach ester linkage contains the -CO–O– connectivity (a carbonyl bonded to an oxygen), and triglycerides have three such ester bonds to the glycerol backbone.\nUnder hydrolysis they give glycerol and fatty acids, and alkaline hydrolysis (saponification) yields glycerolate salts (soap) plus glycerol, illustrating their ester nature.\nWhether a lipid is a solid fat or a liquid oil depends on fatty-acid saturation and packing, but both fats and oils are chemically esters (triglycerides)."
+    },
+    {
+      "id": 90187,
+      "externalId": "TechMed-Complete-Question-Bank-md-62",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Purity of iron here is judged by low carbon content and minimal impurities (slag, alloying elements), so the purest form is the one closest to elemental iron.\nWrought iron is correct because it contains the least carbon (typically about 0.02–0.1%) and is produced by refining and working processes that remove much of the slag and other impurities, yielding nearly pure metallic iron.\nWrought iron is made by repeatedly heating and mechanically working refined iron (historically by puddling and forging), which expels carbon and reduces brittleness while increasing ductility.\nPig iron is the unrefined blast-furnace product with high carbon (~3–4%) and other impurities, making it hard and brittle rather than pure iron.\nCast iron likewise has high carbon (about 2–4%) and is suited to casting, while steel has a controlled carbon range (roughly 0.02–2%) and deliberate alloying additions, so both contain more carbon or other elements than wrought iron.\nTherefore, of the options listed wrought iron is the purest form; industrial electrolytic or annealed pure iron can be even purer, but they are not among the choices provided.",
+      "after": "Purity of iron here is judged by low carbon content and minimal impurities (slag, alloying elements), so the purest form is the one closest to elemental iron.\nWrought iron is correct because it contains the least carbon (typically about 0.02–0.1%) and is produced by refining and working processes that remove much of the slag and other impurities, yielding nearly pure metallic iron.\nWrought iron is made by repeatedly heating and mechanically working refined iron (historically by puddling and forging), which expels carbon and reduces brittleness while increasing ductility.\nTherefore, of the options listed wrought iron is the purest form; industrial electrolytic or annealed pure iron can be even purer, but they are not among the choices provided."
+    },
+    {
+      "id": 90188,
+      "externalId": "TechMed-Complete-Question-Bank-md-63",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A heavy (bulk) chemical is a basic industrial material made in very large continuous quantities with low value per unit mass, used as a feedstock for many processes.\nSulphuric acid is a canonical heavy chemical: it is manufactured on multi‑thousand‑tonne scales (e.g. contact‑process plants) for fertiliser production, mineral processing and other bulk uses.\nPanadol (paracetamol) and quinine are pharmaceutical active ingredients produced as fine chemicals that require high purity and batchwise manufacture.\nDye, in the general sense, is usually classified as a fine or speciality chemical because individual dyestuffs are synthesised to tight specifications and sold by variety rather than as a single bulk commodity.\nBecause of the production scale and role in industry, sulphuric acid fits the heavy/bulk category while Panadol, quinine and dye are classed as fine/speciality chemicals and thus are incorrect here.\nThe contact process and continuous large‑scale manufacture of H2SO4 exemplify the industrial character that defines a heavy chemical.",
+      "after": "A heavy (bulk) chemical is a basic industrial material made in very large continuous quantities with low value per unit mass, used as a feedstock for many processes.\nSulphuric acid is a canonical heavy chemical: it is manufactured on multi‑thousand‑tonne scales (e.g. contact‑process plants) for fertiliser production, mineral processing and other bulk uses.\nPanadol (paracetamol) and quinine are pharmaceutical active ingredients produced as fine chemicals that require high purity and batchwise manufacture.\nThe contact process and continuous large‑scale manufacture of H2SO4 exemplify the industrial character that defines a heavy chemical."
+    },
+    {
+      "id": 90189,
+      "externalId": "TechMed-Complete-Question-Bank-md-64",
+      "subject": "Chemistry",
+      "topic": "Separation Techniques",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Mortar is the fine‑aggregate bonding material used in masonry, consisting of a binder, fine aggregate and water to give workability and adhesion.\nThe correct option (cement, sand and water) matches modern mortar: cement is the hydraulic binder, sand is the fine aggregate that reduces shrinkage and provides bulk, and water activates cement hydration and gives plasticity.\nConcrete differs because it also contains coarse aggregate (gravel or crushed stone), so stating cement, sand and water distinguishes mortar from concrete.\n“Cement and water” describes cement paste, which lacks sand's filler and is costly and prone to excessive shrinkage and cracking for masonry joints.\n“Lime, sand and clay” and “clay and water” describe traditional lime mortars or earth/clay mortars; lime+sand can be a historical mortar but the option includes clay which produces weaker, earthen mixes not standard for modern masonry mortar.\nTherefore, among the provided choices, cement, sand and water is the standard composition for modern mortar used in brick and block laying.",
+      "after": "Mortar is the fine‑aggregate bonding material used in masonry, consisting of a binder, fine aggregate and water to give workability and adhesion.\nThe correct option (cement, sand and water) matches modern mortar: cement is the hydraulic binder, sand is the fine aggregate that reduces shrinkage and provides bulk, and water activates cement hydration and gives plasticity.\nConcrete differs because it also contains coarse aggregate (gravel or crushed stone), so stating cement, sand and water distinguishes mortar from concrete.\nTherefore, among the provided choices, cement, sand and water is the standard composition for modern mortar used in brick and block laying."
+    },
+    {
+      "id": 90190,
+      "externalId": "TechMed-Complete-Question-Bank-md-65",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Allotropy is the occurrence of two or more different physical forms of the same element in the same physical state, so the term 'allotropes' names such varieties of an element.\nDiamond and graphite are both pure carbon but have different atomic arrangements and types of bonding, which makes them allotropes of carbon.\nIn diamond each carbon is sp3‑hybridised in a three‑dimensional tetrahedral covalent network, giving extreme hardness and electrical insulating behaviour.\nIn graphite each carbon is sp2‑hybridised in planar hexagonal sheets with delocalised π electrons between layers, producing electrical conductivity and lubricating (soft) properties.\nThey are not isomers because isomerism refers to different compounds with the same molecular formula rather than different structural forms of a single element.\nThey are also not isotopes (which are atoms of the same element with different neutron counts) nor isobars (different elements with the same mass number), so those options are incorrect.",
+      "after": "Allotropy is the occurrence of two or more different physical forms of the same element in the same physical state, so the term 'allotropes' names such varieties of an element.\nDiamond and graphite are both pure carbon but have different atomic arrangements and types of bonding, which makes them allotropes of carbon.\nIn diamond each carbon is sp3‑hybridised in a three‑dimensional tetrahedral covalent network, giving extreme hardness and electrical insulating behaviour.\nThey are also not isotopes (which are atoms of the same element with different neutron counts) nor isobars (different elements with the same mass number), so those options are incorrect."
+    },
+    {
+      "id": 90193,
+      "externalId": "TechMed-Complete-Question-Bank-md-68",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A transition metal is a d‑block element that typically has partly filled d orbitals and shows variable oxidation states.\nCopper (Cu, Z = 29) is classed as a transition metal because it forms cations such as Cu2+ with an incomplete 3d subshell (3d9).\nCopper exhibits characteristic transition‑metal behaviour — for example it forms coloured compounds (CuSO4·5H2O is blue), conducts electricity and acts as a catalyst in some reactions.\nCalcium is an s‑block alkaline‑earth metal (group 2) that normally shows a fixed +2 oxidation state and lacks valence d electrons.\nSodium is an s‑block alkali metal (group 1) with one valence s electron, and aluminium is a p‑block metal (group 13) typically showing +3; neither occupies the d‑block or gives rise to incomplete d subshells.\nTherefore the correct answer is Copper; Ca, Na and Al are main‑group elements, not transition metals.",
+      "after": "A transition metal is a d‑block element that typically has partly filled d orbitals and shows variable oxidation states.\nCopper (Cu, Z = 29) is classed as a transition metal because it forms cations such as Cu2+ with an incomplete 3d subshell (3d9).\nCopper exhibits characteristic transition‑metal behaviour — for example it forms coloured compounds (CuSO4·5H2O is blue), conducts electricity and acts as a catalyst in some reactions.\nTherefore the correct answer is Copper; Ca, Na and Al are main‑group elements, not transition metals."
+    },
+    {
+      "id": 90194,
+      "externalId": "TechMed-Complete-Question-Bank-md-69",
+      "subject": "Chemistry",
+      "topic": "Separation Techniques",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Water gas is a synthesis gas produced by passing steam over red‑hot carbon, and its principal components are carbon monoxide (CO) and hydrogen (H2).\nThe formation reaction is C + H2O → CO + H2, which is endothermic and therefore yields a mixture of CO and H2 as the direct product.\nThis CO–H2 mixture (syngas) is used as a fuel and as a chemical feedstock for processes such as methanol synthesis and Fischer–Tropsch chemistry.\nCO2 and H2 is produced in the water–gas shift reaction (CO + H2O → CO2 + H2), so CO2/H2 is a secondary equilibrium product, not the initial water gas.\nCO and N2 describe producer gas made when air (containing N2) is used instead of steam, so N2 appears only in air‑blown processes and dilutes the combustible gases.\nCO2 and N2 are inert or diluting gases in this context and therefore do not define water gas; the correct composition is CO and H2.",
+      "after": "Water gas is a synthesis gas produced by passing steam over red‑hot carbon, and its principal components are carbon monoxide (CO) and hydrogen (H2).\nThe formation reaction is C + H2O → CO + H2, which is endothermic and therefore yields a mixture of CO and H2 as the direct product.\nThis CO–H2 mixture (syngas) is used as a fuel and as a chemical feedstock for processes such as methanol synthesis and Fischer–Tropsch chemistry.\nCO2 and N2 are inert or diluting gases in this context and therefore do not define water gas; the correct composition is CO and H2."
+    },
+    {
+      "id": 90195,
+      "externalId": "TechMed-Complete-Question-Bank-md-70",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Galvanizing is the process of coating iron or steel with zinc to protect it from corrosion by forming a physical barrier and a zinc layer that corrodes preferentially.\nProtection works by sacrificial (cathodic) action: zinc oxidises more easily than iron, so it corrodes first and thus prevents rusting of the underlying iron even if the coating is scratched.\nThe common method is hot‑dip galvanizing, where cleaned iron is immersed in molten zinc; electro‑galvanizing (zinc electroplating) is another technique but both fall under the general term galvanizing.\nElectroplating is a broader term meaning metal deposition by electrolysis and is only the specific method when zinc is deposited electrically (electro‑galvanizing), so the option ‘Electroplating’ is plausible but not as precise.\nTinning specifically coats metal with tin to improve solderability or corrosion resistance, which is a different coating metal and does not provide the same sacrificial protection as zinc.\nAlloying produces a homogeneous mixture of metals throughout the bulk material rather than applying a protective surface coating, so it does not describe coating iron with zinc.",
+      "after": "Galvanizing is the process of coating iron or steel with zinc to protect it from corrosion by forming a physical barrier and a zinc layer that corrodes preferentially.\nProtection works by sacrificial (cathodic) action: zinc oxidises more easily than iron, so it corrodes first and thus prevents rusting of the underlying iron even if the coating is scratched.\nThe common method is hot‑dip galvanizing, where cleaned iron is immersed in molten zinc; electro‑galvanizing (zinc electroplating) is another technique but both fall under the general term galvanizing.\nAlloying produces a homogeneous mixture of metals throughout the bulk material rather than applying a protective surface coating, so it does not describe coating iron with zinc."
+    },
+    {
+      "id": 90197,
+      "externalId": "TechMed-Complete-Question-Bank-md-72",
+      "subject": "Chemistry",
+      "topic": "States of Matter and Intermolecular Forces",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A hygroscopic substance is one that absorbs moisture from the air and, in strong cases, can take up enough water to dissolve (deliquescence).\nAnhydrous calcium chloride (CaCl2) is strongly hygroscopic/deliquescent and is widely used as a drying agent because it readily absorbs atmospheric water to form hydrates or a concentrated solution.\nThe tendency of CaCl2 to take up water comes from its ionic nature and the large hydration energy of Ca2+ that drives water molecules into the salt lattice.\nSodium carbonate decahydrate (Na2CO3·10H2O, washing soda) already contains water of crystallisation and therefore in its hydrated form does not further absorb significant moisture from air.\nCopper(II) sulfate pentahydrate (CuSO4·5H2O) is the stable blue hydrated form and is not hygroscopic, although the anhydrous salt will rehydrate if exposed to moisture.\nSodium chloride (NaCl) is essentially non‑hygroscopic under normal conditions, so CaCl2 is the best choice among the given options.",
+      "after": "A hygroscopic substance is one that absorbs moisture from the air and, in strong cases, can take up enough water to dissolve (deliquescence).\nAnhydrous calcium chloride (CaCl2) is strongly hygroscopic/deliquescent and is widely used as a drying agent because it readily absorbs atmospheric water to form hydrates or a concentrated solution.\nThe tendency of CaCl2 to take up water comes from its ionic nature and the large hydration energy of Ca2+ that drives water molecules into the salt lattice.\nSodium chloride (NaCl) is essentially non‑hygroscopic under normal conditions, so CaCl2 is the best choice among the given options."
+    }
+  ]
+}

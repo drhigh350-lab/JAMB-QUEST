@@ -1,0 +1,107 @@
+{
+  "subject": "Chemistry",
+  "batch": 4,
+  "batchSize": 20,
+  "eligibleTotal": 69,
+  "selected": [
+    {
+      "id": 180010,
+      "externalId": "chem-part1-md-Chemistry-48",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Periodic-group valence electron count predicts ionic charge: Group 2 elements typically form 2+ cations.\nAtomic number 20 is calcium with electron configuration [Ar]4s2 (1s2 2s2 2p6 3s2 3p6 4s2), showing two outer 4s electrons.\nCalcium loses those two 4s electrons to attain the noble-gas core [Ar], so it forms the Ca2+ ion.\nA 1+ ion would leave a single 4s electron and is characteristic of Group 1, not Group 2, so 1+ is unlikely for Ca.\nA 3+ state would require removing a third electron from a filled inner shell (high ionisation energy), making Ca3+ not typical.\nForming a 2− anion would require electron gain and is energetically unfavourable for a metallic element like calcium, which therefore appears as Ca2+ in compounds such as CaCl2 and CaCO3.",
+      "after": "Periodic-group valence electron count predicts ionic charge: Group 2 elements typically form 2+ cations.\nAtomic number 20 is calcium with electron configuration [Ar]4s2 (1s2 2s2 2p6 3s2 3p6 4s2), showing two outer 4s electrons.\nCalcium loses those two 4s electrons to attain the noble-gas core [Ar], so it forms the Ca2+ ion.\nForming a 2− anion would require electron gain and is energetically unfavourable for a metallic element like calcium, which therefore appears as Ca2+ in compounds such as CaCl2 and CaCO3."
+    },
+    {
+      "id": 180012,
+      "externalId": "chem-part2-md-Chemistry-62",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The monomer of PVC is chloroethene (commonly called vinyl chloride), formula CH2=CHCl.\nPolyvinyl chloride means many vinyl chloride units joined together by addition polymerisation of the C=C double bond to form a long chain.\nChloroethene is ethene with one hydrogen replaced by chlorine, so each repeat unit in PVC bears a pendant chlorine atom on the polymer backbone.\nThose chlorine atoms increase intermolecular forces and give PVC greater rigidity, flame resistance and chemical resistance compared with polyethylene.\nThe other options are different monomers: ethene (polyethylene), propene (polypropylene) and tetrafluoroethene (polytetrafluoroethylene, PTFE/Teflon), so they form distinct polymers with different properties.\nTherefore chloroethene (vinyl chloride) is the correct monomer for PVC because its vinyl group polymerises and its chlorine substituent defines PVC's characteristic properties.",
+      "after": "The monomer of PVC is chloroethene (commonly called vinyl chloride), formula CH2=CHCl.\nPolyvinyl chloride means many vinyl chloride units joined together by addition polymerisation of the C=C double bond to form a long chain.\nChloroethene is ethene with one hydrogen replaced by chlorine, so each repeat unit in PVC bears a pendant chlorine atom on the polymer backbone.\nTherefore chloroethene (vinyl chloride) is the correct monomer for PVC because its vinyl group polymerises and its chlorine substituent defines PVC's characteristic properties."
+    },
+    {
+      "id": 180013,
+      "externalId": "chem-part2-md-Chemistry-69",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is coagulation/flocculation in water treatment, where a metallic salt is added to destabilize colloidal organic suspensions so they can aggregate and settle.\nAluminium sulfate, Al2(SO4)3 (alum), is the correct choice because it supplies Al3+ ions that neutralise negative charges on colloidal particles and hydrolyse to form gelatinous Al(OH)3 flocs that enmesh and settle the suspended matter.\nThese flocs carry adsorbed organic matter and suspended solids out of the water, allowing clarification by sedimentation and filtration.\nFeSO4 (ferrous sulfate) can sometimes be used as a coagulant or for phosphate removal, but it behaves differently from alum and is less commonly used for general colloidal organic removal in conventional treatment.\nCaCO3 is used to neutralise acidity and manage hardness by precipitation rather than to destabilise colloids, while NaCl does not produce coagulating metal cations and so is ineffective for this purpose.\nTherefore Al2(SO4)3 is the appropriate metallic compound among the options for removing colloidal organic matter.",
+      "after": "The concept tested is coagulation/flocculation in water treatment, where a metallic salt is added to destabilize colloidal organic suspensions so they can aggregate and settle.\nAluminium sulfate, Al2(SO4)3 (alum), is the correct choice because it supplies Al3+ ions that neutralise negative charges on colloidal particles and hydrolyse to form gelatinous Al(OH)3 flocs that enmesh and settle the suspended matter.\nThese flocs carry adsorbed organic matter and suspended solids out of the water, allowing clarification by sedimentation and filtration.\nTherefore Al2(SO4)3 is the appropriate metallic compound among the options for removing colloidal organic matter."
+    },
+    {
+      "id": 180014,
+      "externalId": "chem-part2-md-Chemistry-71",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Magnetic permeability measures how a material responds to an applied magnetic field and relative permeability μr = μ/μ0 compares it to free space μ0.\nDiamagnetic substances develop tiny induced magnetic moments that oppose an applied field, giving negative magnetic susceptibility and a relative permeability just below 1 (μ < μ0).\nBecause the question asks for a substance with permeability less than that of free space, the correct choice is diamagnetic.\nParamagnetic materials have unpaired electrons that align with the field, giving a small positive susceptibility and μr slightly greater than 1, so they do not have μ < μ0.\nFerromagnetic and ferrimagnetic materials exhibit strong alignment (spontaneous or net antiparallel moments respectively) and therefore have very large relative permeabilities (μr >> 1) and so much greater permeability than free space.\nTypical diamagnetic examples include bismuth, copper and water with μr just under 1, whereas iron (ferromagnetic) can have μr in the hundreds or thousands, illustrating the contrast in permeability values.",
+      "after": "Magnetic permeability measures how a material responds to an applied magnetic field and relative permeability μr = μ/μ0 compares it to free space μ0.\nDiamagnetic substances develop tiny induced magnetic moments that oppose an applied field, giving negative magnetic susceptibility and a relative permeability just below 1 (μ < μ0).\nBecause the question asks for a substance with permeability less than that of free space, the correct choice is diamagnetic.\nTypical diamagnetic examples include bismuth, copper and water with μr just under 1, whereas iron (ferromagnetic) can have μr in the hundreds or thousands, illustrating the contrast in permeability values."
+    },
+    {
+      "id": 180015,
+      "externalId": "chem-part2-md-Chemistry-83",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This question concerns acid–base indicators: litmus exists in a protonated red form and a deprotonated blue form.\nBlue litmus turning red means the indicator has been protonated by H+ ions in the solution, which occurs at pH values below about 7.\nHence the correct option 'the solution is acidic' is right because excess hydrogen ions convert litmus to its red form.\nA basic (alkaline) solution would keep blue litmus blue or convert red litmus to blue, so 'the solution is basic' is incorrect.\nA neutral solution (around pH 7) generally causes little or no net colour change (litmus can appear near purple), and labeling a solution simply as 'a salt' is not decisive because salts may produce acidic, neutral or basic solutions on hydrolysis.\nNote that litmus gives a qualitative acid/alkali indication only and does not provide an exact pH or distinguish weak from strong acids.",
+      "after": "This question concerns acid–base indicators: litmus exists in a protonated red form and a deprotonated blue form.\nBlue litmus turning red means the indicator has been protonated by H+ ions in the solution, which occurs at pH values below about 7.\nHence the correct option 'the solution is acidic' is right because excess hydrogen ions convert litmus to its red form.\nNote that litmus gives a qualitative acid/alkali indication only and does not provide an exact pH or distinguish weak from strong acids."
+    },
+    {
+      "id": 180016,
+      "externalId": "chem-part2-md-Chemistry-86",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The Bayer process chemically purifies bauxite by converting its aluminium compounds into a soluble aluminate and then recovering pure alumina.\nFirst the ore is digested in hot concentrated NaOH to form soluble sodium aluminate while insoluble impurities (red mud: iron oxides, silica, etc.) remain solid.\nThe resulting slurry is filtered to remove the red mud, yielding a clear aluminate solution.\nPure aluminium hydroxide is then precipitated from that solution by bubbling CO2 (or by cooling/seeding), producing Al(OH)3.\nThe precipitated hydroxide is calcined (strongly heated) to drive off water and yield Al2O3 (alumina), the feedstock for the electrolytic Hall–Héroult process.\nFractional distillation applies to volatile liquids, direct electrolysis of raw bauxite is impractical, and magnetic separation only removes magnetic impurities, so those alternatives do not describe the Bayer method.",
+      "after": "The Bayer process chemically purifies bauxite by converting its aluminium compounds into a soluble aluminate and then recovering pure alumina.\nFirst the ore is digested in hot concentrated NaOH to form soluble sodium aluminate while insoluble impurities (red mud: iron oxides, silica, etc.) remain solid.\nThe resulting slurry is filtered to remove the red mud, yielding a clear aluminate solution.\nFractional distillation applies to volatile liquids, direct electrolysis of raw bauxite is impractical, and magnetic separation only removes magnetic impurities, so those alternatives do not describe the Bayer method."
+    },
+    {
+      "id": 180017,
+      "externalId": "chem-part2-md-Chemistry-87",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is the occurrence of characteristic organic acids in fruits: tartaric acid is a major acid found in grapes.\nGrapes contain significant tartaric acid (C4H6O6), which contributes to their sourness and crystallises as potassium bitartrate (‘wine diamonds’) during winemaking.\nBecause tartaric acid is the principal acid in grapes, the correct option is Grape.\nOranges and lemons are citrus fruits whose dominant acid is citric acid (C6H8O7), so they are not sources of tartaric acid.\nBananas contain mainly malic acid and sugars rather than tartaric acid, making Banana an unlikely choice.\nPractical links: tartaric acid from grapes is used in winemaking and as the basis for cream of tartar (potassium hydrogen tartrate), which supports selecting Grape as the correct answer.",
+      "after": "The concept tested is the occurrence of characteristic organic acids in fruits: tartaric acid is a major acid found in grapes.\nGrapes contain significant tartaric acid (C4H6O6), which contributes to their sourness and crystallises as potassium bitartrate (‘wine diamonds’) during winemaking.\nBecause tartaric acid is the principal acid in grapes, the correct option is Grape.\nPractical links: tartaric acid from grapes is used in winemaking and as the basis for cream of tartar (potassium hydrogen tartrate), which supports selecting Grape as the correct answer."
+    },
+    {
+      "id": 180018,
+      "externalId": "chem-part2-md-Chemistry-89",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part2.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The reaction described is the xanthoproteic (xanthation) reaction, where concentrated nitric acid nitrates aromatic rings to give strongly coloured nitro-compounds (yellow to orange).\nMechanistically HNO3 generates the nitronium electrophile (NO2+) which undergoes electrophilic substitution on the benzene ring to form nitro‑aromatic products that absorb visible light and appear yellow.\nBecause nitration of a benzene ring produces a new chromophore, an intense yellow colour on adding concentrated HNO3 specifically indicates the presence of an aromatic (benzene) ring.\nAldehydes do not characteristically give this yellow nitration colour with HNO3; aldehydes are classically detected by Tollens' or Fehling's tests, so the aldehyde option is implausible here.\nSimple hydroxyl (alcohol) and carboxyl groups do not produce the xanthoproteic yellow unless they are attached to an aromatic ring (phenols or aromatic compounds), in which case the aromatic ring — not the OH/COOH alone — causes the colour.\nIn biochemical contexts the same reaction detects aromatic amino acids (e.g. tyrosine, tryptophan) and the yellow product typically deepens to orange on basification, reinforcing the aromatic‑ring (xanthoproteic) option as correct.",
+      "after": "The reaction described is the xanthoproteic (xanthation) reaction, where concentrated nitric acid nitrates aromatic rings to give strongly coloured nitro-compounds (yellow to orange).\nMechanistically HNO3 generates the nitronium electrophile (NO2+) which undergoes electrophilic substitution on the benzene ring to form nitro‑aromatic products that absorb visible light and appear yellow.\nBecause nitration of a benzene ring produces a new chromophore, an intense yellow colour on adding concentrated HNO3 specifically indicates the presence of an aromatic (benzene) ring.\nIn biochemical contexts the same reaction detects aromatic amino acids (e.g. tyrosine, tryptophan) and the yellow product typically deepens to orange on basification, reinforcing the aromatic‑ring (xanthoproteic) option as correct."
+    },
+    {
+      "id": 210001,
+      "externalId": "chem-part1-md-Chemistry-36",
+      "subject": "Chemistry",
+      "topic": "General Chemistry",
+      "sourceLabel": "Owner-provided Markdown · chem_part1.md · Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept is identifying the common fuel produced and burned in miners' (carbide) safety lamps: ethyne, also called acetylene.\nEthyne is produced when calcium carbide reacts with water and is collected as a gas to be ignited for illumination.\nThe standard secondary-school reaction is CaC2 + 2H2O → C2H2 + Ca(OH)2, showing how acetylene is generated on demand in the lamp.\nAcetylene burns with a bright, luminous flame useful for lighting because incandescent carbon particles formed in the flame emit intense light.\nEthene (ethylene) and ethane are simple hydrocarbons but are not produced by calcium carbide and give less suitable flames for carbide lamps, while ethene is mainly an industrial monomer and ethane is not used in this lamp design.\nEthanal (acetaldehyde) is a volatile liquid and not a practical or historical fuel for miners' safety lamps, so ethyne (acetylene) is the correct choice.",
+      "after": "The concept is identifying the common fuel produced and burned in miners' (carbide) safety lamps: ethyne, also called acetylene.\nEthyne is produced when calcium carbide reacts with water and is collected as a gas to be ignited for illumination.\nThe standard secondary-school reaction is CaC2 + 2H2O → C2H2 + Ca(OH)2, showing how acetylene is generated on demand in the lamp.\nEthanal (acetaldehyde) is a volatile liquid and not a practical or historical fuel for miners' safety lamps, so ethyne (acetylene) is the correct choice."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 1,
+  "batchSize": 20,
+  "eligibleTotal": 315,
+  "selected": [
+    {
+      "id": 30024,
+      "externalId": "BIO-OWNER-M1-Q29",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Digestive enzymes have specific pH optima matched to their site of action in the alimentary canal.\nPepsin is a stomach protease released as pepsinogen and activated by hydrochloric acid, functioning best at strongly acidic pH (~1.5–3.5).\nPtyalin (salivary amylase) begins starch digestion in the mouth and operates near neutral pH, being inactivated by low stomach pH.\nTrypsin is a pancreatic protease activated in the duodenum that requires an alkaline environment (around pH 7.5–8.5) to function.\nPancreatic lipase digests fats in the small intestine with bile salts and works best at neutral to slightly alkaline pH, while gastric lipase has limited activity compared with pepsin.\nThus among the options, pepsin is the enzyme adapted to and functioning optimally in an acidic medium.",
+      "after": "Digestive enzymes have specific pH optima matched to their site of action in the alimentary canal.\nPepsin is a stomach protease released as pepsinogen and activated by hydrochloric acid, functioning best at strongly acidic pH (~1.5–3.5).\nPtyalin (salivary amylase) begins starch digestion in the mouth and operates near neutral pH, being inactivated by low stomach pH.\nThus among the options, pepsin is the enzyme adapted to and functioning optimally in an acidic medium."
+    },
+    {
+      "id": 30026,
+      "externalId": "BIO-OWNER-M1-Q31",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns morphological adaptations that reduce transpiration in desert plants.\nCacti have leaves modified into spines, which drastically reduce exposed leaf surface area and so lower water loss by transpiration.\nSpines also deter herbivores and can shade the stem, both of which help reduce evaporation from the plant surface.\nThe water-storing succulent stem is the main photosynthetic organ in cacti and normally has a thick cuticle and few stomata, so the option “succulent stems without cuticles” is incorrect.\nBroad leaf surface area would increase transpiration and is maladaptive in deserts, so “broad leaf surface area” is wrong.\nMany desert plants have sunken stomata and employ CAM (opening stomata at night) rather than raised stomata on the upper epidermis, so “raised stomata” is not a water-conserving feature.",
+      "after": "The question concerns morphological adaptations that reduce transpiration in desert plants.\nCacti have leaves modified into spines, which drastically reduce exposed leaf surface area and so lower water loss by transpiration.\nSpines also deter herbivores and can shade the stem, both of which help reduce evaporation from the plant surface.\nMany desert plants have sunken stomata and employ CAM (opening stomata at night) rather than raised stomata on the upper epidermis, so “raised stomata” is not a water-conserving feature."
+    },
+    {
+      "id": 30027,
+      "externalId": "BIO-OWNER-M1-Q32",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Flame cells are terminal cells of the protonephridial system in Platyhelminthes, characterized by a tuft of beating cilia.\nThe beating cilia create a current that draws interstitial fluid into a cup-like cell where wastes are filtered and then passed along tubules to nephridiopores.\nThus the primary role of flame cells is excretion and osmoregulation—removing nitrogenous wastes and regulating water and ion balance.\nDigestion is carried out by the gastrovascular cavity and an eversible pharynx in Planaria, so the “Digestion” option is incorrect.\nGaseous exchange occurs across the moist body surface by diffusion rather than via flame cells.\nLocomotion is by ciliary gliding and muscle contractions; flame cell cilia move fluid within the excretory system but do not propel the animal.",
+      "after": "Flame cells are terminal cells of the protonephridial system in Platyhelminthes, characterized by a tuft of beating cilia.\nThe beating cilia create a current that draws interstitial fluid into a cup-like cell where wastes are filtered and then passed along tubules to nephridiopores.\nThus the primary role of flame cells is excretion and osmoregulation—removing nitrogenous wastes and regulating water and ion balance.\nLocomotion is by ciliary gliding and muscle contractions; flame cell cilia move fluid within the excretory system but do not propel the animal."
+    },
+    {
+      "id": 30028,
+      "externalId": "BIO-OWNER-M1-Q33",
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Nitrogenous wastes differ in toxicity, solubility and therefore in how much water is needed to excrete them safely.\nAmmonia is highly toxic and very soluble, so aquatic animals excrete it directly and must use a large volume of water to dilute and remove it.\nUrea is less toxic than ammonia and is concentrated in the urea cycle of mammals and some amphibians, so it requires less water for excretion than ammonia.\nUric acid is largely insoluble and is excreted as a semi-solid paste by birds, reptiles and some insects to conserve water, so it requires the least water.\nTrimethylamine oxide (TMAO) is mainly an osmolyte in marine animals and not a common primary nitrogenous waste like ammonia, urea or uric acid, so it is not the best alternative here.\nTherefore ammonia is the correct choice because its high toxicity and solubility make it require the greatest volume of water for elimination.",
+      "after": "Nitrogenous wastes differ in toxicity, solubility and therefore in how much water is needed to excrete them safely.\nAmmonia is highly toxic and very soluble, so aquatic animals excrete it directly and must use a large volume of water to dilute and remove it.\nUrea is less toxic than ammonia and is concentrated in the urea cycle of mammals and some amphibians, so it requires less water for excretion than ammonia.\nTherefore ammonia is the correct choice because its high toxicity and solubility make it require the greatest volume of water for elimination."
+    },
+    {
+      "id": 30029,
+      "externalId": "BIO-OWNER-M1-Q34",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fertilization is the fusion of a sperm and an ovum to form a zygote.\nIn humans this fusion most commonly takes place in the oviduct (fallopian tube), usually in its ampulla region.\nThe ovary releases the ovum at ovulation but the ovary itself is not the usual site of fertilization.\nThe uterus is the site of implantation and subsequent embryonic development, not where sperm typically meet the egg.\nThe cervix is the lower narrow passage of the uterus and does not provide the normal environment for sperm-egg fusion.\nTherefore the oviduct is correct because it transports the egg from the ovary and is the anatomical region where sperm and egg normally encounter each other for fertilization.",
+      "after": "Fertilization is the fusion of a sperm and an ovum to form a zygote.\nIn humans this fusion most commonly takes place in the oviduct (fallopian tube), usually in its ampulla region.\nThe ovary releases the ovum at ovulation but the ovary itself is not the usual site of fertilization.\nTherefore the oviduct is correct because it transports the egg from the ovary and is the anatomical region where sperm and egg normally encounter each other for fertilization."
+    },
+    {
+      "id": 30031,
+      "externalId": "BIO-OWNER-M1-Q36",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Soil water exists in forms that differ in how tightly it is held and whether plant roots can absorb it.\nCapillary water occupies small soil pores and is held by capillary forces in a way that makes it accessible to plant roots under normal conditions.\nBecause capillary water is held against gravity but can move toward roots by capillary action and plant uptake, it constitutes the plant-available water.\nGravitational water occupies large pores and drains rapidly under gravity after heavy rainfall, so it is generally not available long-term to roots.\nHygroscopic water forms thin films tightly adsorbed to soil particles and is unavailable to plants because roots cannot extract it.\nChemically combined water is bound within mineral structures or organic compounds and is also not available, so capillary water is the correct choice.",
+      "after": "Soil water exists in forms that differ in how tightly it is held and whether plant roots can absorb it.\nCapillary water occupies small soil pores and is held by capillary forces in a way that makes it accessible to plant roots under normal conditions.\nBecause capillary water is held against gravity but can move toward roots by capillary action and plant uptake, it constitutes the plant-available water.\nChemically combined water is bound within mineral structures or organic compounds and is also not available, so capillary water is the correct choice."
+    },
+    {
+      "id": 30032,
+      "externalId": "BIO-OWNER-M1-Q37",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Rhizobium and leguminous plants form a mutualistic symbiosis in which the bacteria fix atmospheric nitrogen into ammonia while the plant supplies carbohydrates and a protected niche (root nodules).\nNitrogen fixed by bacterial nitrogenase is converted into compounds the plant can use for growth and protein synthesis, so the plant gains a clear nutritional benefit.\nIn return the bacteria receive organic carbon and a stable, low-oxygen environment in the nodules that supports their metabolism, so the bacteria also benefit.\nParasitism would require the bacteria to harm the plant while benefiting, which is not the case here because plant growth is improved.\nCommensalism implies one partner benefits and the other is unaffected, but both Rhizobium and the legume derive advantages, so commensalism is incorrect.\nSaprophytism involves feeding on dead organic matter and does not describe living symbionts in root nodules; therefore the correct description is mutualism.",
+      "after": "Rhizobium and leguminous plants form a mutualistic symbiosis in which the bacteria fix atmospheric nitrogen into ammonia while the plant supplies carbohydrates and a protected niche (root nodules).\nNitrogen fixed by bacterial nitrogenase is converted into compounds the plant can use for growth and protein synthesis, so the plant gains a clear nutritional benefit.\nIn return the bacteria receive organic carbon and a stable, low-oxygen environment in the nodules that supports their metabolism, so the bacteria also benefit.\nSaprophytism involves feeding on dead organic matter and does not describe living symbionts in root nodules; therefore the correct description is mutualism."
+    },
+    {
+      "id": 30033,
+      "externalId": "BIO-OWNER-M1-Q38",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This is a monohybrid cross involving a dominant tall allele (T) and a recessive dwarf allele (t).\nA heterozygous tall parent (Tt) produces equal gametes T and t, while a homozygous dwarf parent (tt) produces only t gametes.\nFertilisation gives two possible genotypes: Tt (tall) and tt (dwarf), each with 50% probability in the Punnett square.\nTherefore the expected percentage of dwarf offspring is 50%.\nThe 0% option would apply only if no t allele were present in either parent (e.g. TT × TT or TT × Tt), and 25% is the result of a Tt × Tt cross (1/4 tt).\nThe 75% choice is not correct for Tt × tt and would reflect a different set of parental genotypes or a misinterpretation of dominance.",
+      "after": "This is a monohybrid cross involving a dominant tall allele (T) and a recessive dwarf allele (t).\nA heterozygous tall parent (Tt) produces equal gametes T and t, while a homozygous dwarf parent (tt) produces only t gametes.\nFertilisation gives two possible genotypes: Tt (tall) and tt (dwarf), each with 50% probability in the Punnett square.\nThe 75% choice is not correct for Tt × tt and would reflect a different set of parental genotypes or a misinterpretation of dominance."
+    },
+    {
+      "id": 30034,
+      "externalId": "BIO-OWNER-M1-Q39",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns accommodation, the process by which the eye adjusts focus for near and distant objects.\nThe lens is the flexible, transparent structure just behind the pupil that changes its curvature under control of the ciliary muscles to focus light sharply onto the retina.\nWhen the ciliary muscles contract the lens becomes more convex for near vision, and when they relax the lens flattens for distant vision, achieving sharp focus.\nThe cornea supplies the bulk of the eye's refractive power but has a fixed shape and therefore cannot change focus by varying curvature.\nThe iris adjusts pupil size to regulate light entry and the sclera is the tough protective outer layer, so neither can perform accommodation.\nThus the correct option is Lens because it is the structure among the choices that actively changes curvature to focus images on the retina.",
+      "after": "The question concerns accommodation, the process by which the eye adjusts focus for near and distant objects.\nThe lens is the flexible, transparent structure just behind the pupil that changes its curvature under control of the ciliary muscles to focus light sharply onto the retina.\nWhen the ciliary muscles contract the lens becomes more convex for near vision, and when they relax the lens flattens for distant vision, achieving sharp focus.\nThus the correct option is Lens because it is the structure among the choices that actively changes curvature to focus images on the retina."
+    },
+    {
+      "id": 30035,
+      "externalId": "BIO-OWNER-M1-Q40",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Seeds are multicellular reproductive structures that contain an embryo plus protective tissues, whereas spores are usually single cells without such reserves.\nThe correct option is that seeds contain stored food reserves (endosperm or cotyledons) which supply energy to the embryo during dormancy and early germination.\nThese food stores allow seedlings to establish before they can photosynthesise effectively, giving seeds a clear survival advantage on land compared with spores.\nSeeds also typically have a protective seed coat that reduces water loss and predation, improving the chance of reaching favorable conditions.\nThe option 'produced in larger quantities' is misleading because spores are generally produced in much greater numbers than seeds and rely on quantity for dispersal and survival.\n'Do not require wind for dispersal' is incorrect since seeds use diverse dispersal methods (wind, water, animals) and 'lack protective seed coats' is false because seeds characteristically have protective coats.",
+      "after": "Seeds are multicellular reproductive structures that contain an embryo plus protective tissues, whereas spores are usually single cells without such reserves.\nThe correct option is that seeds contain stored food reserves (endosperm or cotyledons) which supply energy to the embryo during dormancy and early germination.\nThese food stores allow seedlings to establish before they can photosynthesise effectively, giving seeds a clear survival advantage on land compared with spores.\n'Do not require wind for dispersal' is incorrect since seeds use diverse dispersal methods (wind, water, animals) and 'lack protective seed coats' is false because seeds characteristically have protective coats."
+    },
+    {
+      "id": 30036,
+      "externalId": "BIO-OWNER-M1-Q41",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Lamarck proposed that organisms pass on traits acquired during their lifetime to their offspring (e.g., giraffes stretching necks).\nModern genetics shows heritable traits are transmitted via DNA in germ cells, not by acquired changes to an individual’s somatic structures.\nThus the correct option is “Acquired traits are not transmitted to offspring through genes” because acquired physiological or structural changes generally do not alter the germline DNA sequence.\nOption A is incorrect: mutations are changes in DNA and can be harmful, neutral, or beneficial, so they are not “always harmful.”\nOption C is incorrect because natural selection tends to favour traits that increase reproductive success, not weaker traits.\nOption D is a partial distractor: fossils showing gradual change support evolution broadly but do not by themselves address the mechanism of inheritance required to refute Lamarck’s specific claim.",
+      "after": "Lamarck proposed that organisms pass on traits acquired during their lifetime to their offspring (e.g., giraffes stretching necks).\nModern genetics shows heritable traits are transmitted via DNA in germ cells, not by acquired changes to an individual’s somatic structures.\nThus the correct option is “Acquired traits are not transmitted to offspring through genes” because acquired physiological or structural changes generally do not alter the germline DNA sequence.\nOption D is a partial distractor: fossils showing gradual change support evolution broadly but do not by themselves address the mechanism of inheritance required to refute Lamarck’s specific claim."
+    },
+    {
+      "id": 30037,
+      "externalId": "BIO-OWNER-M1-Q42",
+      "subject": "Biology",
+      "topic": "Plant Growth and Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Epigeal germination occurs when the hypocotyl elongates strongly and pushes the cotyledons above the soil surface.\nDuring epigeal germination the hypocotyl often forms an arch as it grows, carrying the seed leaves and plumule upward while the radicle remains anchored below.\nThis is why 'Epigeal germination' is the correct option: the defining feature is cotyledons being raised above ground by hypocotyl elongation.\nBy contrast, in hypogeal germination the cotyledons remain below ground and the epicotyl or plumule elongates to bring the shoot above the soil.\nViviparous germination describes seeds germinating while still attached to the parent plant (e.g., some mangroves) and therefore does not explain cotyledons being pushed up by the hypocotyl.\nApomictic reproduction is a form of asexual seed formation without fertilization and is unrelated to the physical process that determines cotyledon position during germination.",
+      "after": "Epigeal germination occurs when the hypocotyl elongates strongly and pushes the cotyledons above the soil surface.\nDuring epigeal germination the hypocotyl often forms an arch as it grows, carrying the seed leaves and plumule upward while the radicle remains anchored below.\nThis is why 'Epigeal germination' is the correct option: the defining feature is cotyledons being raised above ground by hypocotyl elongation.\nApomictic reproduction is a form of asexual seed formation without fertilization and is unrelated to the physical process that determines cotyledon position during germination."
+    },
+    {
+      "id": 30038,
+      "externalId": "BIO-OWNER-M1-Q43",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Transpiration rate in a leafy shoot is commonly estimated by measuring the water uptake of the shoot, and a potometer is the instrument designed for that measurement.\nA potometer contains a graduated capillary tube or reservoir so the volume of water drawn up by the cut stem can be recorded per unit time.\nBecause most water absorbed by the xylem is lost through leaf transpiration, water uptake measured by the potometer is taken as an estimate of transpiration rate.\nThis method assumes little water is used for growth or storage and that the shoot-system connections are airtight; otherwise uptake and actual transpiration can differ.\nA hygrometer measures atmospheric humidity and so cannot directly measure transpiration or water uptake from a shoot.\nA photometer (light intensity) and an anemometer (wind speed) measure environmental factors that affect transpiration but do not themselves measure the rate of transpiration like a potometer does.",
+      "after": "Transpiration rate in a leafy shoot is commonly estimated by measuring the water uptake of the shoot, and a potometer is the instrument designed for that measurement.\nA potometer contains a graduated capillary tube or reservoir so the volume of water drawn up by the cut stem can be recorded per unit time.\nBecause most water absorbed by the xylem is lost through leaf transpiration, water uptake measured by the potometer is taken as an estimate of transpiration rate.\nA photometer (light intensity) and an anemometer (wind speed) measure environmental factors that affect transpiration but do not themselves measure the rate of transpiration like a potometer does."
+    },
+    {
+      "id": 30041,
+      "externalId": "BIO-OWNER-M1-Q46",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Primary succession on bare rock begins with pioneer organisms that can tolerate exposure and obtain nutrients without soil.\nLichens are symbiotic associations of fungi and algae (or cyanobacteria) that can adhere to rock, withstand desiccation, and initiate chemical and physical weathering.\nBy secreting acids and trapping dust and organic matter, lichens slowly produce the first thin layer of soil that allows other plants to establish.\nMosses are plausible early colonizers but generally require some moisture and a thin substrate produced by earlier colonizers like lichens.\nFerns and grasses appear later in succession because they need more developed soil and greater nutrient and water availability than lichens or mosses provide.\nTherefore the correct answer is lichens, which are the classic pioneer species on newly exposed bare rock surfaces.",
+      "after": "Primary succession on bare rock begins with pioneer organisms that can tolerate exposure and obtain nutrients without soil.\nLichens are symbiotic associations of fungi and algae (or cyanobacteria) that can adhere to rock, withstand desiccation, and initiate chemical and physical weathering.\nBy secreting acids and trapping dust and organic matter, lichens slowly produce the first thin layer of soil that allows other plants to establish.\nTherefore the correct answer is lichens, which are the classic pioneer species on newly exposed bare rock surfaces."
+    },
+    {
+      "id": 30042,
+      "externalId": "BIO-OWNER-M1-Q47",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sex-linked recessive disorders are caused by mutant alleles on the X chromosome and therefore affect males more frequently because they have only one X.\nRed-green color blindness results from mutations in the X-linked opsin genes, so it is classically inherited as an X-linked recessive trait.\nA male with the mutant allele on his single X chromosome will express the disorder, while a female must carry two copies to be affected, explaining the sex bias.\nAlbinism is usually an autosomal recessive disorder affecting melanin synthesis enzymes, so it is not sex-linked.\nSickle cell anemia is caused by a point mutation in the HBB gene on chromosome 11 and follows autosomal recessive inheritance rather than X-linkage.\nDown syndrome is due to trisomy 21 from nondisjunction and is a chromosomal aneuploidy, not a sex-linked recessive condition.",
+      "after": "Sex-linked recessive disorders are caused by mutant alleles on the X chromosome and therefore affect males more frequently because they have only one X.\nRed-green color blindness results from mutations in the X-linked opsin genes, so it is classically inherited as an X-linked recessive trait.\nA male with the mutant allele on his single X chromosome will express the disorder, while a female must carry two copies to be affected, explaining the sex bias.\nDown syndrome is due to trisomy 21 from nondisjunction and is a chromosomal aneuploidy, not a sex-linked recessive condition."
+    },
+    {
+      "id": 30043,
+      "externalId": "BIO-OWNER-M1-Q48",
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Malpighian tubules are blind-ended excretory tubes that extend from the insect gut into the haemocoel and function in excretion and osmoregulation.\nThey remove metabolic wastes—especially nitrogenous wastes such as uric acid—from the haemolymph by transporting ions and waste into the tubule lumen.\nWater follows osmotically and the tubule contents are emptied into the hindgut where salts and water may be reabsorbed, producing a semi-solid paste of excreta.\nTherefore 'Removal of metabolic wastes' is correct because Malpighian tubules actively sequester and eliminate waste products from the insect body.\nAbsorption of digested food is performed mainly by the midgut (ventriculus) and associated structures, not by Malpighian tubules.\nSecretion of digestive enzymes is a function of salivary glands and midgut cells, and gaseous exchange is by the tracheal system, so those options are incorrect.",
+      "after": "Malpighian tubules are blind-ended excretory tubes that extend from the insect gut into the haemocoel and function in excretion and osmoregulation.\nThey remove metabolic wastes—especially nitrogenous wastes such as uric acid—from the haemolymph by transporting ions and waste into the tubule lumen.\nWater follows osmotically and the tubule contents are emptied into the hindgut where salts and water may be reabsorbed, producing a semi-solid paste of excreta.\nSecretion of digestive enzymes is a function of salivary glands and midgut cells, and gaseous exchange is by the tracheal system, so those options are incorrect."
+    },
+    {
+      "id": 30044,
+      "externalId": "BIO-OWNER-M1-Q49",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Hydrophytes are aquatic plants that develop large intercellular air spaces (aerenchyma) in stems and leaves to adapt to waterlogged conditions.\nThese air spaces reduce tissue density to provide buoyancy so leaves and photosynthetic organs stay at or near the water surface.\nThey also form internal gas channels that allow diffusion of oxygen to submerged tissues and movement of CO2 to photosynthetic cells, aiding gaseous exchange and respiration.\n\"Increase water intake\" is incorrect because water uptake is by roots or epidermal tissues, whereas air spaces do not enhance water absorption.\n\"Store excess mineral salts\" is implausible since minerals are stored in cell compartments like vacuoles, not in air-filled spaces.\n\"Prevent heat loss\" is not a primary function for hydrophyte aerenchyma; thermal insulation is negligible compared with the roles of buoyancy and gas diffusion.",
+      "after": "Hydrophytes are aquatic plants that develop large intercellular air spaces (aerenchyma) in stems and leaves to adapt to waterlogged conditions.\nThese air spaces reduce tissue density to provide buoyancy so leaves and photosynthetic organs stay at or near the water surface.\nThey also form internal gas channels that allow diffusion of oxygen to submerged tissues and movement of CO2 to photosynthetic cells, aiding gaseous exchange and respiration.\n\"Prevent heat loss\" is not a primary function for hydrophyte aerenchyma; thermal insulation is negligible compared with the roles of buoyancy and gas diffusion."
+    },
+    {
+      "id": 30045,
+      "externalId": "BIO-OWNER-M1-Q50",
+      "subject": "Biology",
+      "topic": "Behaviour and Social Organization",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Division of labor among individuals in a termite colony refers to specialized castes (workers, soldiers, reproductives) performing different tasks for colony survival.\nThis organization is an example of social behavior because it involves cooperative interactions and role differentiation among members of the same species.\nTermites are eusocial insects, showing overlapping generations, cooperative brood care, and clear reproductive versus non-reproductive roles, which are hallmarks of advanced social behavior.\nParasitism is incorrect because it describes a relationship between species where one benefits at the other's expense, not cooperative roles within a single colony.\nTerritoriality involves defending or marking an area and does not account for the internal specialization and cooperative task allocation of termite castes.\nMutualism describes beneficial interactions between different species, so it does not describe the within-species caste system and cooperative organization of a termite colony.",
+      "after": "Division of labor among individuals in a termite colony refers to specialized castes (workers, soldiers, reproductives) performing different tasks for colony survival.\nThis organization is an example of social behavior because it involves cooperative interactions and role differentiation among members of the same species.\nTermites are eusocial insects, showing overlapping generations, cooperative brood care, and clear reproductive versus non-reproductive roles, which are hallmarks of advanced social behavior.\nMutualism describes beneficial interactions between different species, so it does not describe the within-species caste system and cooperative organization of a termite colony."
+    },
+    {
+      "id": 30071,
+      "externalId": "BIO-OWNER-M2-Q28",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Phototropism is directional growth of a plant organ in response to light, and positive phototropism means growth toward the light.\nShoots commonly show positive phototropism, bending toward a unilateral light source as described in the question.\nThe bending is explained by redistribution of auxin to the shaded side of the shoot, which promotes greater cell elongation there and causes the shoot to curve toward the light.\nPositive geotropism refers to growth toward gravity and is characteristic of roots, so it does not describe shoots bending toward light.\nNegative phototropism means growth away from light, the opposite of the shoot response described, and is therefore not the correct option.\nThigmotropism is a growth response to touch (seen in tendrils and climbing stems) and does not account for directional movement toward a light source.",
+      "after": "Phototropism is directional growth of a plant organ in response to light, and positive phototropism means growth toward the light.\nShoots commonly show positive phototropism, bending toward a unilateral light source as described in the question.\nThe bending is explained by redistribution of auxin to the shaded side of the shoot, which promotes greater cell elongation there and causes the shoot to curve toward the light.\nThigmotropism is a growth response to touch (seen in tendrils and climbing stems) and does not account for directional movement toward a light source."
+    },
+    {
+      "id": 30072,
+      "externalId": "BIO-OWNER-M2-Q29",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question assesses how soil texture and particle size affect water retention and drainage.\nSandy soil consists of large, coarse particles and large pore spaces, so it holds the least water and allows the fastest drainage.\nClay soil has very fine particles and many small pores, giving high water-holding capacity and slow drainage, so it is not correct.\nSilt soil has intermediate fine particles and holds more water than sand but less than clay, so its drainage is moderate.\nLoam is a balanced mixture of sand, silt and clay with good moisture retention and aeration, producing moderate drainage rather than the highest.\nPore size controls capillary action and permeability: the larger pores in sand reduce capillary rise and increase permeability, explaining sandy soil's high drainage.",
+      "after": "The question assesses how soil texture and particle size affect water retention and drainage.\nSandy soil consists of large, coarse particles and large pore spaces, so it holds the least water and allows the fastest drainage.\nClay soil has very fine particles and many small pores, giving high water-holding capacity and slow drainage, so it is not correct.\nPore size controls capillary action and permeability: the larger pores in sand reduce capillary rise and increase permeability, explaining sandy soil's high drainage."
+    }
+  ]
+}

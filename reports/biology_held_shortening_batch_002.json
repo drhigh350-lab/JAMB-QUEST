@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 2,
+  "batchSize": 20,
+  "eligibleTotal": 295,
+  "selected": [
+    {
+      "id": 30121,
+      "externalId": "BIO-OWNER-M3-Q30",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Transpiration is the upward movement of water from roots to leaves and its loss as water vapour mainly through stomata.\nThis process is driven by a transpiration pull caused by evaporation at leaf surfaces and cohesion-tension in the xylem vessels.\nTherefore 'Transpiration' is the correct choice because the stem describes both long-distance water movement and loss as vapour.\nGuttation is different: it produces liquid droplets at leaf margins via hydathodes when soil moisture is high and transpiration is low, not vapour loss through stomata.\nOsmosis is the passive movement of water across cell membranes and explains water entry into root cells but not the whole‑plant vapour loss, while exudation is the release of sap or fluids from wounds or cut stems.\nTranspiration also helps transport dissolved minerals upward and cools the plant, and its rate is controlled by stomatal opening and environmental factors.",
+      "after": "Transpiration is the upward movement of water from roots to leaves and its loss as water vapour mainly through stomata.\nThis process is driven by a transpiration pull caused by evaporation at leaf surfaces and cohesion-tension in the xylem vessels.\nTherefore 'Transpiration' is the correct choice because the stem describes both long-distance water movement and loss as vapour.\nTranspiration also helps transport dissolved minerals upward and cools the plant, and its rate is controlled by stomatal opening and environmental factors."
+    },
+    {
+      "id": 30122,
+      "externalId": "BIO-OWNER-M3-Q31",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question asks which organelle contains digestive enzymes capable of breaking down old organelles and cellular waste, and the correct answer is the lysosome.\nLysosomes are membrane-bound organelles that contain acid hydrolase enzymes which hydrolyse proteins, lipids, nucleic acids and carbohydrates and function optimally at acidic pH.\nThey remove damaged organelles and macromolecules by fusing with autophagosomes or endocytic vesicles, carrying out autophagy and degradation of ingested material.\nPeroxisomes are often confused with lysosomes but they contain oxidase and catalase enzymes for fatty acid oxidation and detoxification of hydrogen peroxide rather than bulk organelle digestion.\nThe Golgi apparatus modifies, sorts and packages proteins and lipids and forms vesicles (including lysosomal precursors) but does not itself perform intracellular digestion.\nThe endoplasmic reticulum (rough and smooth) is responsible for protein and lipid synthesis, detoxification and calcium storage and is not the main site of digestive enzyme activity.",
+      "after": "The question asks which organelle contains digestive enzymes capable of breaking down old organelles and cellular waste, and the correct answer is the lysosome.\nLysosomes are membrane-bound organelles that contain acid hydrolase enzymes which hydrolyse proteins, lipids, nucleic acids and carbohydrates and function optimally at acidic pH.\nThey remove damaged organelles and macromolecules by fusing with autophagosomes or endocytic vesicles, carrying out autophagy and degradation of ingested material.\nThe endoplasmic reticulum (rough and smooth) is responsible for protein and lipid synthesis, detoxification and calcium storage and is not the main site of digestive enzyme activity."
+    },
+    {
+      "id": 30123,
+      "externalId": "BIO-OWNER-M3-Q32",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Proteins are hydrolysed by proteases into smaller peptides and then into amino acids during digestion.\nMajor enzymes include pepsin in the stomach and trypsin, chymotrypsin and peptidases in the small intestine that break peptide bonds.\nTherefore the immediate products of protein digestion are amino acids, which are absorbed across the intestinal epithelium.\nEnergy is not a direct product of digestion; it is released later when amino acids are oxidised in cellular respiration.\nOxygen is not produced by digestion; it is taken into the body by breathing and used in oxidative metabolism.\nCarbon dioxide is not produced during digestion itself, though amino acids can be metabolised later to CO2 during respiration.",
+      "after": "Proteins are hydrolysed by proteases into smaller peptides and then into amino acids during digestion.\nMajor enzymes include pepsin in the stomach and trypsin, chymotrypsin and peptidases in the small intestine that break peptide bonds.\nTherefore the immediate products of protein digestion are amino acids, which are absorbed across the intestinal epithelium.\nCarbon dioxide is not produced during digestion itself, though amino acids can be metabolised later to CO2 during respiration."
+    },
+    {
+      "id": 30124,
+      "externalId": "BIO-OWNER-M3-Q33",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A hinge joint is a uniaxial joint that permits movement mainly in one plane — flexion and extension.\nBoth the human elbow and knee principally perform flexion and extension, so they are classified as hinge joints.\nHinge joints have complementary convex and concave bone surfaces (like a door hinge) stabilized by ligaments to restrict movement to one axis.\nA ball-and-socket joint (e.g., shoulder and hip) allows multiaxial movement including rotation, so it is not the correct option.\nA pivot joint permits rotation around a single longitudinal axis (e.g., atlas-axis or proximal radioulnar), which differs from the back-and-forth action of hinge joints.\nFixed (immovable) joints such as skull sutures do not permit movement, and although the knee has a small rotational component when flexed and is sometimes described as a modified hinge, hinge joint remains the accepted classification for both elbow and knee.",
+      "after": "A hinge joint is a uniaxial joint that permits movement mainly in one plane — flexion and extension.\nBoth the human elbow and knee principally perform flexion and extension, so they are classified as hinge joints.\nHinge joints have complementary convex and concave bone surfaces (like a door hinge) stabilized by ligaments to restrict movement to one axis.\nFixed (immovable) joints such as skull sutures do not permit movement, and although the knee has a small rotational component when flexed and is sometimes described as a modified hinge, hinge joint remains the accepted classification for both elbow and knee."
+    },
+    {
+      "id": 30125,
+      "externalId": "BIO-OWNER-M3-Q34",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "In ecosystems, organisms are arranged in trophic levels with primary producers (plants and algae) converting sunlight into biomass by photosynthesis.\nPrimary consumers are herbivores that obtain energy by feeding directly on these producers.\nTherefore the correct choice is \"Primary consumers\" because they eat producers rather than other animals or detritus.\nSecondary consumers eat primary consumers and are typically carnivores or omnivores, placing them one trophic level above primary consumers.\nApex predators occupy top trophic positions and may be secondary or tertiary consumers, but they do not feed directly on producers as a rule.\nDecomposers such as fungi and bacteria recycle nutrients by breaking down dead organic matter rather than consuming live primary producers.",
+      "after": "In ecosystems, organisms are arranged in trophic levels with primary producers (plants and algae) converting sunlight into biomass by photosynthesis.\nPrimary consumers are herbivores that obtain energy by feeding directly on these producers.\nTherefore the correct choice is \"Primary consumers\" because they eat producers rather than other animals or detritus.\nDecomposers such as fungi and bacteria recycle nutrients by breaking down dead organic matter rather than consuming live primary producers."
+    },
+    {
+      "id": 30127,
+      "externalId": "BIO-OWNER-M3-Q36",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Desert rodents conserve body water by producing highly concentrated urine so metabolic wastes are expelled with minimal water loss.\nTheir kidneys have long loops of Henle and a counter‑current multiplier system that creates a steep medullary osmotic gradient, allowing maximal reabsorption of water from the filtrate.\nHigh responsiveness to antidiuretic hormone (vasopressin) increases water permeability of collecting ducts and further concentrates the urine.\nProducing large volumes of dilute urine would increase water loss and is therefore the opposite of an adaptive response in arid environments.\nAbundant sweating or copious liquid feces also increase evaporative or fecal water loss, so desert rodents minimize sweating and produce dry fecal pellets instead.\nSome desert vertebrates additionally reduce water loss by excreting less soluble nitrogenous wastes (e.g. uric acid), but small mammals like rodents primarily rely on highly concentrated urine and behavioural adaptations.",
+      "after": "Desert rodents conserve body water by producing highly concentrated urine so metabolic wastes are expelled with minimal water loss.\nTheir kidneys have long loops of Henle and a counter‑current multiplier system that creates a steep medullary osmotic gradient, allowing maximal reabsorption of water from the filtrate.\nHigh responsiveness to antidiuretic hormone (vasopressin) increases water permeability of collecting ducts and further concentrates the urine.\nSome desert vertebrates additionally reduce water loss by excreting less soluble nitrogenous wastes (e.g. uric acid), but small mammals like rodents primarily rely on highly concentrated urine and behavioural adaptations."
+    },
+    {
+      "id": 30128,
+      "externalId": "BIO-OWNER-M3-Q37",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Meiosis is a form of nuclear division that reduces the chromosome number from diploid to haploid and involves two consecutive divisions (meiosis I and II).\nIt produces four genetically distinct haploid daughter cells because homologous recombination (crossing-over) in prophase I and independent assortment of chromosomes shuffle alleles.\nMitosis differs by producing two genetically identical diploid daughter cells for growth and tissue repair, not four haploid cells.\nBinary fission is an asexual division in prokaryotes that yields two usually identical cells and does not involve meiosis or chromosome reduction.\nBudding produces a small outgrowth that develops into a new organism (e.g., yeast or hydra) and typically results in one genetically similar offspring rather than four haploid cells.\nTherefore the correct option is Meiosis, since it uniquely combines chromosome reduction and mechanisms creating genetic diversity to yield four distinct haploid gametes.",
+      "after": "Meiosis is a form of nuclear division that reduces the chromosome number from diploid to haploid and involves two consecutive divisions (meiosis I and II).\nIt produces four genetically distinct haploid daughter cells because homologous recombination (crossing-over) in prophase I and independent assortment of chromosomes shuffle alleles.\nMitosis differs by producing two genetically identical diploid daughter cells for growth and tissue repair, not four haploid cells.\nTherefore the correct option is Meiosis, since it uniquely combines chromosome reduction and mechanisms creating genetic diversity to yield four distinct haploid gametes."
+    },
+    {
+      "id": 30129,
+      "externalId": "BIO-OWNER-M3-Q38",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question addresses which macronutrient is directly required for chlorophyll synthesis in green plants.\nMagnesium is the central atom in the chlorophyll molecule's porphyrin ring, so it is essential for forming functional chlorophyll.\nWithout adequate magnesium plants show interveinal chlorosis, especially on older leaves, because chlorophyll production is reduced.\nIron is a micronutrient that supports enzymes involved in chlorophyll synthesis and electron transport but does not occupy the central position in chlorophyll.\nCalcium and potassium perform important roles in cell wall structure, membrane stability, enzyme activation and stomatal function but are not components of the chlorophyll molecule.\nTherefore magnesium is the correct choice because it uniquely occupies the central position in chlorophyll and directly enables the pigment's light-absorption chemistry.",
+      "after": "The question addresses which macronutrient is directly required for chlorophyll synthesis in green plants.\nMagnesium is the central atom in the chlorophyll molecule's porphyrin ring, so it is essential for forming functional chlorophyll.\nWithout adequate magnesium plants show interveinal chlorosis, especially on older leaves, because chlorophyll production is reduced.\nTherefore magnesium is the correct choice because it uniquely occupies the central position in chlorophyll and directly enables the pigment's light-absorption chemistry."
+    },
+    {
+      "id": 30130,
+      "externalId": "BIO-OWNER-M3-Q39",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Endotherms maintain a relatively constant internal body temperature by producing metabolic heat, allowing physiological processes to work efficiently across a range of external temperatures.\nThey generate heat through high metabolic rates, shivering thermogenesis and cellular respiration, and often use insulation (fur, feathers, fat) to reduce heat loss.\n'Endotherms' is correct because the phrase 'constant internal body temperature regardless of environmental fluctuations' describes organisms that regulate heat internally rather than depending on the environment.\nPoikilotherms have body temperatures that vary with ambient conditions (typical of many reptiles and amphibians) and therefore do not keep a constant internal temperature.\nEctotherms rely mainly on external heat sources and behavioral adjustments to control body temperature, while heterotherms can switch between endothermic and ectothermic modes (e.g., torpor or hibernation), so neither fits the definition of maintaining a constant temperature at all times.\nCommon examples of endotherms are birds and mammals, which sustain stable internal temperatures to support continuous activity and optimal enzyme function.",
+      "after": "Endotherms maintain a relatively constant internal body temperature by producing metabolic heat, allowing physiological processes to work efficiently across a range of external temperatures.\nThey generate heat through high metabolic rates, shivering thermogenesis and cellular respiration, and often use insulation (fur, feathers, fat) to reduce heat loss.\n'Endotherms' is correct because the phrase 'constant internal body temperature regardless of environmental fluctuations' describes organisms that regulate heat internally rather than depending on the environment.\nCommon examples of endotherms are birds and mammals, which sustain stable internal temperatures to support continuous activity and optimal enzyme function."
+    },
+    {
+      "id": 30131,
+      "externalId": "BIO-OWNER-M3-Q40",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Xylem is the vascular tissue composed mainly of vessels, tracheids, xylem fibres and xylem parenchyma that functions in water transport and support.\nIt conducts water and dissolved mineral salts unidirectionally from roots upward to stems and leaves by mechanisms including root pressure and the transpiration-cohesion-tension stream.\nPhloem is incorrect because it transports organic solutes (mainly sugars) between sources and sinks and does not carry bulk water and mineral salts upward.\nCambium is a lateral meristem that produces secondary xylem and phloem and therefore generates conductive tissues rather than directly conducting water itself.\nCortex is ground tissue between the epidermis and vascular bundles that mainly stores food and provides support but does not perform long‑distance water conduction.\nXylem elements have thick lignified walls and form continuous tubular pathways, so they serve both as the principal water‑conducting tissue and as structural support in plants.",
+      "after": "Xylem is the vascular tissue composed mainly of vessels, tracheids, xylem fibres and xylem parenchyma that functions in water transport and support.\nIt conducts water and dissolved mineral salts unidirectionally from roots upward to stems and leaves by mechanisms including root pressure and the transpiration-cohesion-tension stream.\nPhloem is incorrect because it transports organic solutes (mainly sugars) between sources and sinks and does not carry bulk water and mineral salts upward.\nXylem elements have thick lignified walls and form continuous tubular pathways, so they serve both as the principal water‑conducting tissue and as structural support in plants."
+    },
+    {
+      "id": 30132,
+      "externalId": "BIO-OWNER-M3-Q41",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "In ecosystems energy flows from producers to consumers along trophic levels and decreases at each transfer.\nThe largest loss occurs as heat produced during cellular respiration when organisms convert food into usable energy.\nThis respiratory heat is dissipated to the environment and cannot be incorporated into the biomass of the next trophic level.\nUndigested plant cell walls represent unassimilated energy lost in faeces, but they account for a smaller fraction of total energy loss than respired heat in most consumers.\nExcretory wastes also remove some energy and nutrients, yet they are secondary contributors compared with the continual metabolic heat loss from respiration.\nStored chemical potential energy refers to biomass that could be transferred; it does not explain the decline in energy transfer, so the correct answer is heat during respiration.",
+      "after": "In ecosystems energy flows from producers to consumers along trophic levels and decreases at each transfer.\nThe largest loss occurs as heat produced during cellular respiration when organisms convert food into usable energy.\nThis respiratory heat is dissipated to the environment and cannot be incorporated into the biomass of the next trophic level.\nStored chemical potential energy refers to biomass that could be transferred; it does not explain the decline in energy transfer, so the correct answer is heat during respiration."
+    },
+    {
+      "id": 30133,
+      "externalId": "BIO-OWNER-M3-Q42",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Saprophytic nutrition is when an organism secretes digestive enzymes onto dead organic matter, digests it externally, and absorbs the soluble products.\nMucor is a fungus that exhibits this mode by growing hyphae into decaying material, releasing enzymes and absorbing the breakdown products.\nFungal features such as a filamentous mycelium increase surface area for enzyme secretion and absorption, which explains why Mucor fits the saprophytic category.\nAmoeba is a heterotrophic protozoan that obtains food by phagocytosis (engulfing food particles), which is ingestive (holozoic) rather than saprophytic.\nTapeworm is an endoparasite that absorbs nutrients directly from a host’s gut and lacks saprophytic external digestion.\nSpirogyra is a green alga with chloroplasts that carries out photosynthesis and is therefore autotrophic, not saprophytic.",
+      "after": "Saprophytic nutrition is when an organism secretes digestive enzymes onto dead organic matter, digests it externally, and absorbs the soluble products.\nMucor is a fungus that exhibits this mode by growing hyphae into decaying material, releasing enzymes and absorbing the breakdown products.\nFungal features such as a filamentous mycelium increase surface area for enzyme secretion and absorption, which explains why Mucor fits the saprophytic category.\nSpirogyra is a green alga with chloroplasts that carries out photosynthesis and is therefore autotrophic, not saprophytic."
+    },
+    {
+      "id": 30155,
+      "externalId": "BIO-OWNER-M4-Q14",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The testis is the male gonad where spermatozoa are produced by spermatogenesis in the seminiferous tubules.\nLeydig cells in the testis secrete testosterone, which supports sperm development and male secondary sexual characteristics.\nThe prostate gland contributes seminal fluid that nourishes and helps transport sperm but does not produce sperm cells.\nThe scrotum is a skin pouch that houses and thermoregulates the testes for optimal spermatogenesis; it does not synthesize sperm.\nThe vas deferens is a muscular duct that conveys mature sperm from the epididymis to the urethra during ejaculation and is not a site of sperm production.\nTherefore Testis is correct because it is the primary reproductive organ that produces male gametes, distinguishing it from the listed accessory structures.",
+      "after": "The testis is the male gonad where spermatozoa are produced by spermatogenesis in the seminiferous tubules.\nLeydig cells in the testis secrete testosterone, which supports sperm development and male secondary sexual characteristics.\nThe prostate gland contributes seminal fluid that nourishes and helps transport sperm but does not produce sperm cells.\nTherefore Testis is correct because it is the primary reproductive organ that produces male gametes, distinguishing it from the listed accessory structures."
+    },
+    {
+      "id": 30156,
+      "externalId": "BIO-OWNER-M4-Q15",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Nitrification is the biological oxidation of ammonia to nitrite and then to nitrate by soil bacteria.\nThe first step is the oxidation of ammonia (NH3) to nitrite (NO2−), typically carried out by chemoautotrophic bacteria such as Nitrosomonas under aerobic conditions.\nThe second step is the oxidation of nitrite to nitrate (NO3−), commonly performed by bacteria like Nitrobacter, making nitrogen available in a form plants can absorb.\nTherefore the correct option is Nitrification because it specifically names the two-step aerobic bacterial conversion from ammonia to nitrate.\nBy contrast, nitrogen fixation is the reduction of atmospheric N2 to ammonia, denitrification is the microbial reduction of nitrate back to gaseous nitrogen under anaerobic conditions, and ammonification is the release of ammonia from organic nitrogen.\nNitrification is a key part of the nitrogen cycle because it transforms toxic ammonia into nitrate, the major inorganic nitrogen source taken up by plant roots.",
+      "after": "Nitrification is the biological oxidation of ammonia to nitrite and then to nitrate by soil bacteria.\nThe first step is the oxidation of ammonia (NH3) to nitrite (NO2−), typically carried out by chemoautotrophic bacteria such as Nitrosomonas under aerobic conditions.\nThe second step is the oxidation of nitrite to nitrate (NO3−), commonly performed by bacteria like Nitrobacter, making nitrogen available in a form plants can absorb.\nNitrification is a key part of the nitrogen cycle because it transforms toxic ammonia into nitrate, the major inorganic nitrogen source taken up by plant roots."
+    },
+    {
+      "id": 30157,
+      "externalId": "BIO-OWNER-M4-Q16",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ovulation is the event when a mature ovarian follicle ruptures and releases an ovum (a secondary oocyte) from the ovary.\nThe correct option is “Ovum from the ovary” because the ovary physically expels the oocyte into the fallopian tube at ovulation.\nThis ovum is usually a secondary oocyte arrested in metaphase II and is released unfertilised unless sperm contact occurs later.\nA fertilized egg (zygote) is formed only after sperm fertilises the ovum and is not what the ovary releases during ovulation.\nHormones from the pituitary are secreted into the bloodstream and their release is separate from the physical release of the ovum, although an LH surge from the anterior pituitary triggers ovulation.\nAn embryo entering the uterus is a later stage after fertilisation and cleavage and is distinct from the ovulatory release of an oocyte.",
+      "after": "Ovulation is the event when a mature ovarian follicle ruptures and releases an ovum (a secondary oocyte) from the ovary.\nThe correct option is “Ovum from the ovary” because the ovary physically expels the oocyte into the fallopian tube at ovulation.\nThis ovum is usually a secondary oocyte arrested in metaphase II and is released unfertilised unless sperm contact occurs later.\nAn embryo entering the uterus is a later stage after fertilisation and cleavage and is distinct from the ovulatory release of an oocyte."
+    },
+    {
+      "id": 30158,
+      "externalId": "BIO-OWNER-M4-Q17",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A hermaphrodite is an organism that has both male and female reproductive organs and can produce both sperm and eggs.\nEarthworms are simultaneous hermaphrodites, possessing testes and ovaries in the same individual, which makes the option 'Earthworm' correct.\nDuring mating earthworms exchange sperm with each other and later use the stored sperm to fertilize their eggs within a cocoon, showing bisexual reproductive capability.\nCockroaches and houseflies are dioecious insects with separate male and female individuals, so they are not hermaphrodites.\nLizards are generally dioecious reptiles; although a few lizard species reproduce by parthenogenesis, they do not have both male and female gonads in one individual.\nHence among the given options, Earthworm uniquely fits the standard definition of a hermaphrodite.",
+      "after": "A hermaphrodite is an organism that has both male and female reproductive organs and can produce both sperm and eggs.\nEarthworms are simultaneous hermaphrodites, possessing testes and ovaries in the same individual, which makes the option 'Earthworm' correct.\nDuring mating earthworms exchange sperm with each other and later use the stored sperm to fertilize their eggs within a cocoon, showing bisexual reproductive capability.\nHence among the given options, Earthworm uniquely fits the standard definition of a hermaphrodite."
+    },
+    {
+      "id": 30159,
+      "externalId": "BIO-OWNER-M4-Q18",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Turbidity is the cloudiness or clarity of water caused by suspended particles and is measured to assess aquatic ecosystem condition.\nA Secchi disc—a white or black-and-white circular disk lowered into the water until it disappears—provides a simple, repeatable measure of water transparency called the Secchi depth.\nSecchi depth is recorded as the depth at which the disk is no longer visible; shallower Secchi depths correspond to higher turbidity.\nAn anemometer measures wind speed and so cannot determine water clarity.\nA quadrat is a sampling frame used to estimate abundance or percentage cover of organisms on a surface, not water transparency.\nA rain gauge measures precipitation and is unrelated to assessing turbidity or clarity of water.",
+      "after": "Turbidity is the cloudiness or clarity of water caused by suspended particles and is measured to assess aquatic ecosystem condition.\nA Secchi disc—a white or black-and-white circular disk lowered into the water until it disappears—provides a simple, repeatable measure of water transparency called the Secchi depth.\nSecchi depth is recorded as the depth at which the disk is no longer visible; shallower Secchi depths correspond to higher turbidity.\nA rain gauge measures precipitation and is unrelated to assessing turbidity or clarity of water."
+    },
+    {
+      "id": 30160,
+      "externalId": "BIO-OWNER-M4-Q19",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The placenta is a vascular organ formed from both fetal (chorionic villi) and maternal tissues that facilitates exchange of oxygen, nutrients, and wastes between maternal and fetal blood.\nNutrients and oxygen cross the placental barrier into fetal blood and are carried by the umbilical cord to the developing foetus, which is why 'Placenta' is the correct choice.\nThe chorion is a fetal membrane that contributes chorionic villi to the placenta but is not itself the organ performing the maternal–fetal exchange.\nThe amnion surrounds the embryo and contains amniotic fluid for cushioning and protection, and does not provide nutrients or oxygen.\nThe allantois contributes to formation of umbilical blood vessels and handles some waste functions in development, but does not directly supply oxygen and nutrients.\nTherefore, the placenta, with its fetal vasculature in chorionic villi bathed in maternal blood, is the structure responsible for supplying oxygen and nutrients to the developing mammalian foetus.",
+      "after": "The placenta is a vascular organ formed from both fetal (chorionic villi) and maternal tissues that facilitates exchange of oxygen, nutrients, and wastes between maternal and fetal blood.\nNutrients and oxygen cross the placental barrier into fetal blood and are carried by the umbilical cord to the developing foetus, which is why 'Placenta' is the correct choice.\nThe chorion is a fetal membrane that contributes chorionic villi to the placenta but is not itself the organ performing the maternal–fetal exchange.\nTherefore, the placenta, with its fetal vasculature in chorionic villi bathed in maternal blood, is the structure responsible for supplying oxygen and nutrients to the developing mammalian foetus."
+    },
+    {
+      "id": 30161,
+      "externalId": "BIO-OWNER-M4-Q20",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fraternal (dizygotic) twins occur when two separate ova are released and each is fertilized by a different sperm, producing two genetically distinct zygotes.\nThe correct option, \"Two separate eggs are fertilized by two separate sperm cells,\" precisely describes this scenario of two independent fertilization events.\n\"A single fertilized egg splits into two separate embryos\" refers to monozygotic (identical) twins, which arise from one zygote that divides, not fraternal twins.\n\"One egg is fertilized by two different sperm cells\" (polyspermy) usually results in abnormal chromosome numbers and is typically not a viable route to twin formation.\n\"A single egg is fertilized and then splits during implantation\" is essentially describing monozygotic twinning but is imprecise because the timing of splitting (pre- or post-implantation) affects placental arrangements.\nKey distinguishing fact: fraternal twins come from two separate eggs and two sperm, producing two embryos with independent genetic makeups.",
+      "after": "Fraternal (dizygotic) twins occur when two separate ova are released and each is fertilized by a different sperm, producing two genetically distinct zygotes.\nThe correct option, \"Two separate eggs are fertilized by two separate sperm cells,\" precisely describes this scenario of two independent fertilization events.\n\"A single fertilized egg splits into two separate embryos\" refers to monozygotic (identical) twins, which arise from one zygote that divides, not fraternal twins.\nKey distinguishing fact: fraternal twins come from two separate eggs and two sperm, producing two embryos with independent genetic makeups."
+    },
+    {
+      "id": 30162,
+      "externalId": "BIO-OWNER-M4-Q23",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Internal fertilization occurs when sperm are deposited inside the female reproductive tract and fertilization of the egg takes place within the body.\nLizards (reptiles) reproduce by copulation: the male introduces sperm into the female with paired hemipenes, so fertilization is internal.\nTilapia are bony fish that typically spawn by releasing eggs and milt into water, where external fertilization occurs.\nMost frogs carry out external fertilization during amplexus, with the female releasing eggs into water while the male sheds sperm over them.\nToads, like most frogs, generally exhibit external fertilization rather than internal fertilization.\nBecause only the lizard among the options uses copulation and internal sperm transfer, lizard is the correct choice.",
+      "after": "Internal fertilization occurs when sperm are deposited inside the female reproductive tract and fertilization of the egg takes place within the body.\nLizards (reptiles) reproduce by copulation: the male introduces sperm into the female with paired hemipenes, so fertilization is internal.\nTilapia are bony fish that typically spawn by releasing eggs and milt into water, where external fertilization occurs.\nBecause only the lizard among the options uses copulation and internal sperm transfer, lizard is the correct choice."
+    }
+  ]
+}

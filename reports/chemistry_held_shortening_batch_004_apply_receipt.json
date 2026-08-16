@@ -1,0 +1,24 @@
+{
+  "subject": "Chemistry",
+  "batch": 4,
+  "selected": 9,
+  "ids": [
+    180010,
+    180012,
+    180013,
+    180014,
+    180015,
+    180016,
+    180017,
+    180018,
+    210001
+  ],
+  "beforeLineRange": [
+    6,
+    6
+  ],
+  "afterLineRange": [
+    4,
+    4
+  ]
+}

@@ -334,3 +334,17 @@
 
 - [x] Re-run the runtime playable-gap audit after the completed owner-source Biology fine-tuning: 1,807 authorised records are playable, giving 2,807 total learner questions with the 1,000-question model bank; 472 over-cap explanations, 342 unmapped topics, and 369 needs-review rows remain excluded.
 - [x] Complete the current fine-tuning-ready Chemistry and Biology pass: Chemistry’s 197 candidate records and Biology’s 48 new source-preserving releases are processed through duplicate-safe gates; remaining records are held for topic, explanation-depth, or review reasons.
+
+- [ ] Review held Chemistry and Biology records and identify explanation-only holds that are safe to shorten under five lines.
+- [ ] Shorten and release eligible held Chemistry and Biology explanations in duplicate-safe batches without changing questions, options, answer keys, or syllabus topics.
+- [ ] Re-run active quality and runtime playable audits after the held-record remediation.
+
+- [x] Classify held Chemistry and Biology rows: 129 Chemistry and 315 Biology records were safe explanation-shortening candidates after topic, option, and answer checks; other holds remain unsafe or structurally unresolved.
+- [x] Shorten and apply Chemistry batches 1–2: 40 long explanations reduced from six lines to four using source sentences only.
+- [x] Shorten and apply Biology batches 1–2: 40 long explanations reduced from six lines to four using source sentences only.
+- [ ] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.
+
+- [x] Shorten and apply Chemistry batches 3–4: 29 additional long explanations reduced from six lines to four using source sentences only.
+- [x] Shorten and apply Biology batches 3–4: 40 additional long explanations reduced from six lines to four using source sentences only.
+- [x] Re-run audits after shortening batches 3–4: active over-five-line exceptions fell to 386, and authorised playable records rose to 1,956; total learner-facing questions are now 2,956 including the 1,000 model bank.
+- [ ] Continue shortening the remaining eligible held Chemistry and Biology explanations in bounded batches.

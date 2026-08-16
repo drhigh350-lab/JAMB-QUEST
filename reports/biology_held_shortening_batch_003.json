@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 3,
+  "batchSize": 20,
+  "eligibleTotal": 275,
+  "selected": [
+    {
+      "id": 30207,
+      "externalId": "BIO-OWNER-M5-Q18",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Pepsin is a proteolytic enzyme produced in the stomach that hydrolyses peptide bonds, so it acts on proteins.\nIt is secreted as inactive pepsinogen by gastric chief cells and activated to pepsin by stomach acid (HCl), with an acidic pH optimum around 1.5–3.5.\nProteins begin chemical digestion in the stomach under pepsin; further protein digestion continues in the small intestine by pancreatic proteases such as trypsin and chymotrypsin.\nCarbohydrates are mainly broken down by amylases (salivary and pancreatic) to disaccharides and monosaccharides, not by pepsin.\nFats are emulsified by bile and hydrolysed by pancreatic lipase in the small intestine, while vitamins are generally absorbed intact rather than being substrates for digestive enzymes.\nTherefore the correct option is \"Proteins\" because pepsin specifically cleaves peptide bonds in proteins under acidic gastric conditions.",
+      "after": "Pepsin is a proteolytic enzyme produced in the stomach that hydrolyses peptide bonds, so it acts on proteins.\nIt is secreted as inactive pepsinogen by gastric chief cells and activated to pepsin by stomach acid (HCl), with an acidic pH optimum around 1.5–3.5.\nProteins begin chemical digestion in the stomach under pepsin; further protein digestion continues in the small intestine by pancreatic proteases such as trypsin and chymotrypsin.\nTherefore the correct option is \"Proteins\" because pepsin specifically cleaves peptide bonds in proteins under acidic gastric conditions."
+    },
+    {
+      "id": 30208,
+      "externalId": "BIO-OWNER-M5-Q19",
+      "subject": "Biology",
+      "topic": "Cell Biology and Metabolism",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Anaerobic respiration is the breakdown of glucose without oxygen to yield energy and characteristic end-products such as ethanol and carbon dioxide in some organisms.\nYeast, a unicellular fungus, performs alcoholic fermentation by converting pyruvate to ethanol and CO2 while regenerating NAD+, allowing glycolysis to continue in the absence of oxygen.\nAmoeba and Paramecium are protozoans that normally obtain energy by aerobic respiration, using oxygen as the terminal electron acceptor.\nSpirogyra is a photosynthetic filamentous alga that produces oxygen during photosynthesis and relies on aerobic respiration for energy release under normal conditions.\nThe distinguishing feature here is that yeast can metabolise sugars anaerobically (as used in baking and brewing), whereas the other options depend on oxygen under typical conditions.\nHence Yeast is the correct choice because it is the standard example among the options of an organism that carries out anaerobic (alcoholic) respiration.",
+      "after": "Anaerobic respiration is the breakdown of glucose without oxygen to yield energy and characteristic end-products such as ethanol and carbon dioxide in some organisms.\nYeast, a unicellular fungus, performs alcoholic fermentation by converting pyruvate to ethanol and CO2 while regenerating NAD+, allowing glycolysis to continue in the absence of oxygen.\nAmoeba and Paramecium are protozoans that normally obtain energy by aerobic respiration, using oxygen as the terminal electron acceptor.\nHence Yeast is the correct choice because it is the standard example among the options of an organism that carries out anaerobic (alcoholic) respiration."
+    },
+    {
+      "id": 30209,
+      "externalId": "BIO-OWNER-M5-Q21",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Measuring wind speed in a terrestrial ecosystem involves recording the velocity of air movement at a location.\nAn anemometer is an instrument specifically designed to measure wind speed, commonly using rotating cups, vanes, or ultrasonic sensors.\nTherefore the correct option is Anemometer because it directly quantifies wind velocity, typically reported in m/s or km/h.\nA hygrometer measures atmospheric humidity (moisture content) and cannot measure wind speed.\nA barometer measures atmospheric pressure, which relates to weather patterns but does not provide a direct measure of wind speed.\nA photometer measures light intensity (illumination) and is not used for wind-speed measurements.",
+      "after": "Measuring wind speed in a terrestrial ecosystem involves recording the velocity of air movement at a location.\nAn anemometer is an instrument specifically designed to measure wind speed, commonly using rotating cups, vanes, or ultrasonic sensors.\nTherefore the correct option is Anemometer because it directly quantifies wind velocity, typically reported in m/s or km/h.\nA photometer measures light intensity (illumination) and is not used for wind-speed measurements."
+    },
+    {
+      "id": 30210,
+      "externalId": "BIO-OWNER-M5-Q22",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homeostasis is the physiological process by which organisms regulate internal conditions (temperature, pH, water balance and blood glucose) within narrow limits.\nHomeostasis is correct because it involves coordinated feedback mechanisms that maintain internal equilibrium despite external or internal changes.\nPlasmolysis is the collapse of the cell membrane away from the cell wall in plant cells caused by water loss and is a cellular response, not a whole‑organism regulatory system.\nDiffusion is the passive movement of molecules from regions of higher to lower concentration and contributes to transport but does not itself implement regulatory set‑point control.\nOsmosis is the specific diffusion of water across a selectively permeable membrane and is one mechanism used to achieve water balance, which is just one component of homeostasis.\nThus homeostasis is the encompassing term for integrated physiological mechanisms (including diffusion and osmosis) that keep the internal environment relatively constant.",
+      "after": "Homeostasis is the physiological process by which organisms regulate internal conditions (temperature, pH, water balance and blood glucose) within narrow limits.\nHomeostasis is correct because it involves coordinated feedback mechanisms that maintain internal equilibrium despite external or internal changes.\nPlasmolysis is the collapse of the cell membrane away from the cell wall in plant cells caused by water loss and is a cellular response, not a whole‑organism regulatory system.\nThus homeostasis is the encompassing term for integrated physiological mechanisms (including diffusion and osmosis) that keep the internal environment relatively constant."
+    },
+    {
+      "id": 30211,
+      "externalId": "BIO-OWNER-M5-Q23",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question addresses ABO blood-group compatibility for red blood-cell transfusion.\nGroup AB red cells present both A and B antigens and AB individuals therefore lack anti-A and anti-B antibodies in their plasma.\nBecause AB recipients have no anti-A or anti-B antibodies, they can accept red cells from A, B, AB and O donors without antibody-mediated agglutination, so 'All of the above' is correct.\nOptions 'A only' or 'B only' are too restrictive because donors of the other A/B type would also be compatible with an AB recipient.\nOption 'O only' is incorrect because, although group O is a universal red-cell donor, AB recipients can also receive A, B and AB red cells.\nIn practice Rh factor also matters (Rh‑negative recipients should generally not receive Rh‑positive blood), but for ABO compatibility alone the provided answer is correct.",
+      "after": "The question addresses ABO blood-group compatibility for red blood-cell transfusion.\nGroup AB red cells present both A and B antigens and AB individuals therefore lack anti-A and anti-B antibodies in their plasma.\nBecause AB recipients have no anti-A or anti-B antibodies, they can accept red cells from A, B, AB and O donors without antibody-mediated agglutination, so 'All of the above' is correct.\nIn practice Rh factor also matters (Rh‑negative recipients should generally not receive Rh‑positive blood), but for ABO compatibility alone the provided answer is correct."
+    },
+    {
+      "id": 30212,
+      "externalId": "BIO-OWNER-M5-Q24",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Cervical vertebrae are the seven vertebrae in the neck region of the vertebral column (C1–C7).\nC1 (atlas) and C2 (axis) are specialized cervical vertebrae that enable nodding and rotation of the head, confirming their location at the top of the spine.\nThe chest option corresponds to thoracic vertebrae (T1–T12), which articulate with the ribs and are distinct from cervical vertebrae.\nThe waist option refers to lumbar vertebrae (L1–L5), which are larger and built for weight-bearing below the rib cage, not for neck support.\nTail is not a term used for human vertebrae; humans have a coccyx (fused tailbone) at the base of the spine, which is unrelated to the cervical region.\nThus the correct choice is Neck because the cervical vertebrae are anatomically defined as the vertebrae of the neck.",
+      "after": "Cervical vertebrae are the seven vertebrae in the neck region of the vertebral column (C1–C7).\nC1 (atlas) and C2 (axis) are specialized cervical vertebrae that enable nodding and rotation of the head, confirming their location at the top of the spine.\nThe chest option corresponds to thoracic vertebrae (T1–T12), which articulate with the ribs and are distinct from cervical vertebrae.\nThus the correct choice is Neck because the cervical vertebrae are anatomically defined as the vertebrae of the neck."
+    },
+    {
+      "id": 30213,
+      "externalId": "BIO-OWNER-M5-Q25",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Physiological variation refers to differences in body functions or abilities among individuals, such as enzymatic activity, reflexes, or muscle movements.\nThe ability to roll the tongue is a functional trait involving muscle control and neural coordination, so it is classified as a physiological variation.\nHeight, although influenced by physiological factors like hormones and nutrition, is primarily a morphological (structural) characteristic.\nFingerprints are morphological features formed by skin patterning during fetal development and serve as physical identifiers.\nSkin color is likewise a morphological trait determined by the amount and distribution of melanin in the skin.\nBecause the other options describe structural traits, the ability to roll the tongue is the best example of a physiological variation.",
+      "after": "Physiological variation refers to differences in body functions or abilities among individuals, such as enzymatic activity, reflexes, or muscle movements.\nThe ability to roll the tongue is a functional trait involving muscle control and neural coordination, so it is classified as a physiological variation.\nHeight, although influenced by physiological factors like hormones and nutrition, is primarily a morphological (structural) characteristic.\nBecause the other options describe structural traits, the ability to roll the tongue is the best example of a physiological variation."
+    },
+    {
+      "id": 30214,
+      "externalId": "BIO-OWNER-M5-Q26",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Phenotype is the set of observable physical and biochemical characteristics of an organism resulting from the interaction of its genotype with the environment.\nPhenotype is the correct option because the question asks about appearance, which refers to observable traits such as height, eye colour and flower colour.\nGenotype is the organism's genetic makeup — the alleles it carries — and describes inherited potential rather than the outward appearance itself.\nAn allele is an alternative form of a gene at a specific locus; different alleles and their combinations contribute to the phenotype.\nHybrid usually denotes the offspring of genetically different parents or a heterozygous individual and describes genetic origin or combination, not directly the observable appearance asked for.\nTherefore phenotype is the best choice since it specifically denotes the observable characteristics produced by genes interacting with the environment, unlike genotype, allele or hybrid.",
+      "after": "Phenotype is the set of observable physical and biochemical characteristics of an organism resulting from the interaction of its genotype with the environment.\nPhenotype is the correct option because the question asks about appearance, which refers to observable traits such as height, eye colour and flower colour.\nGenotype is the organism's genetic makeup — the alleles it carries — and describes inherited potential rather than the outward appearance itself.\nTherefore phenotype is the best choice since it specifically denotes the observable characteristics produced by genes interacting with the environment, unlike genotype, allele or hybrid."
+    },
+    {
+      "id": 30215,
+      "externalId": "BIO-OWNER-M5-Q27",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The description of tall grasses, scattered fire‑resistant trees and distinct wet and dry seasons identifies a savanna biome, specifically the Guinea Savanna in Nigeria.\nIn Nigeria the Guinea Savanna occupies the transition belt between the forest zone and the drier Sudan/Sahel zones and commonly has grasses over a metre high with widely spaced trees.\nMany trees in the Guinea Savanna (for example Isoberlinia species) have thick bark or other adaptations that help them survive regular grass fires, which maintains the open grassy structure.\nTropical Rainforest is incorrect because it has continuous canopy cover, dense understorey and high year‑round rainfall rather than a pronounced dry season.\nMangrove Swamp is coastal and waterlogged with salt‑tolerant shrubs and trees, not an open grassland with a dry season, so it does not fit the description.\nSahel Savanna is drier overall with shorter grasses and even fewer trees, so the Guinea Savanna is the best match for tall grasses, scattered fire‑resistant trees and seasonal rainfall.",
+      "after": "The description of tall grasses, scattered fire‑resistant trees and distinct wet and dry seasons identifies a savanna biome, specifically the Guinea Savanna in Nigeria.\nIn Nigeria the Guinea Savanna occupies the transition belt between the forest zone and the drier Sudan/Sahel zones and commonly has grasses over a metre high with widely spaced trees.\nMany trees in the Guinea Savanna (for example Isoberlinia species) have thick bark or other adaptations that help them survive regular grass fires, which maintains the open grassy structure.\nSahel Savanna is drier overall with shorter grasses and even fewer trees, so the Guinea Savanna is the best match for tall grasses, scattered fire‑resistant trees and seasonal rainfall."
+    },
+    {
+      "id": 30239,
+      "externalId": "BIO-OWNER-M6-Q1",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Aestivation is a state of summer dormancy in animals, especially land snails, characterized by greatly reduced metabolic activity to survive hot, dry periods.\nIn land snails aestivation involves sealing the shell opening with an epiphragm and reducing metabolism and water loss until favorable conditions return.\nHigh temperature and dry conditions are the principal triggers because they increase the risk of desiccation, so snails enter aestivation to conserve moisture and energy.\nExcess moisture has the opposite effect—snails become active to feed and reproduce when conditions are wet rather than aestivate.\nLow ambient temperature typically induces hibernation or torpor in cold conditions, not aestivation, so that option is not correct.\nLack of food alone can sometimes contribute to dormancy, but without the heat and desiccation stress it is not the primary trigger for aestivation in land snails.",
+      "after": "Aestivation is a state of summer dormancy in animals, especially land snails, characterized by greatly reduced metabolic activity to survive hot, dry periods.\nIn land snails aestivation involves sealing the shell opening with an epiphragm and reducing metabolism and water loss until favorable conditions return.\nHigh temperature and dry conditions are the principal triggers because they increase the risk of desiccation, so snails enter aestivation to conserve moisture and energy.\nLack of food alone can sometimes contribute to dormancy, but without the heat and desiccation stress it is not the primary trigger for aestivation in land snails."
+    },
+    {
+      "id": 30240,
+      "externalId": "BIO-OWNER-M6-Q2",
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Class-level identification in vertebrates depends on distinctive structural characters that are unique or diagnostic for the group.\nMammary glands and hair (true hair/fur) are synapomorphies of mammals; no other vertebrate class produces milk or has hair, so option C is the correct diagnostic feature.\nA four-chambered heart occurs in mammals but also in birds and in crocodilians, so a 4-chambered heart is not unique to mammals.\nHomoiothermy (warm-blooded regulation) is shared by mammals and birds, and some variability exists within each group, so it cannot uniquely define mammals.\nInternal fertilization is found across several vertebrate classes (many fishes, amphibians, reptiles, birds and mammals), therefore it does not distinguish mammals alone.\nHence the combined presence of mammary glands and hair is the most reliable structural feature that separates Class Mammalia from other vertebrate classes.",
+      "after": "Class-level identification in vertebrates depends on distinctive structural characters that are unique or diagnostic for the group.\nMammary glands and hair (true hair/fur) are synapomorphies of mammals; no other vertebrate class produces milk or has hair, so option C is the correct diagnostic feature.\nA four-chambered heart occurs in mammals but also in birds and in crocodilians, so a 4-chambered heart is not unique to mammals.\nHence the combined presence of mammary glands and hair is the most reliable structural feature that separates Class Mammalia from other vertebrate classes."
+    },
+    {
+      "id": 30241,
+      "externalId": "BIO-OWNER-M6-Q3",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Spirogyra is a filamentous green alga with chloroplasts arranged in spiral bands that carry out photosynthesis.\nBecause it synthesizes organic food from carbon dioxide and light, its nutrition is holophytic (autotrophic).\nHolophytic nutrition means the organism is self-feeding via photosynthesis, also called photoautotrophy in plants and algae.\nHolozoic nutrition involves ingesting and digesting solid food as in animals, so it does not apply to Spirogyra.\nChemosynthetic nutrition uses chemical energy (for example sulfide oxidation) rather than light and is typical of some bacteria, not green algae like Spirogyra.\nSymbiosis denotes a close association between different organisms and is not the general nutritional mode of free-living Spirogyra.",
+      "after": "Spirogyra is a filamentous green alga with chloroplasts arranged in spiral bands that carry out photosynthesis.\nBecause it synthesizes organic food from carbon dioxide and light, its nutrition is holophytic (autotrophic).\nHolophytic nutrition means the organism is self-feeding via photosynthesis, also called photoautotrophy in plants and algae.\nSymbiosis denotes a close association between different organisms and is not the general nutritional mode of free-living Spirogyra."
+    },
+    {
+      "id": 30242,
+      "externalId": "BIO-OWNER-M6-Q4",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Voluntary actions are goal-directed behaviours under conscious control that involve the cerebral cortex.\nReading and interpreting a court verdict requires conscious decision-making, comprehension and coordinated motor activity (eye movements, speech or writing), so it is a voluntary action.\nA reflex action is an automatic, rapid response mediated by the spinal cord or brainstem without conscious involvement, for example the knee-jerk.\nAn instinct is an innate, species-specific pattern of behaviour triggered by certain stimuli and not dependent on conscious reasoning, unlike reading.\nA conditioned reflex is an acquired automatic response to a learned stimulus (Pavlovian) and does not involve the deliberate comprehension and choice needed to read and understand a verdict.\nTherefore the correct option is 'a voluntary action' because the act requires higher cortical processing, deliberate attention and purposeful output rather than automatic or innate responses.",
+      "after": "Voluntary actions are goal-directed behaviours under conscious control that involve the cerebral cortex.\nReading and interpreting a court verdict requires conscious decision-making, comprehension and coordinated motor activity (eye movements, speech or writing), so it is a voluntary action.\nA reflex action is an automatic, rapid response mediated by the spinal cord or brainstem without conscious involvement, for example the knee-jerk.\nTherefore the correct option is 'a voluntary action' because the act requires higher cortical processing, deliberate attention and purposeful output rather than automatic or innate responses."
+    },
+    {
+      "id": 30243,
+      "externalId": "BIO-OWNER-M6-Q5",
+      "subject": "Biology",
+      "topic": "Health and Disease",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Kwashiorkor is a form of severe protein–energy malnutrition that results chiefly from inadequate dietary protein intake, often in young children.\nThe condition is characterised by hypoalbuminaemia from protein deficiency, which leads to peripheral oedema, an enlarged fatty liver, muscle wasting and characteristic skin changes.\nTherefore the option 'Deficiency of protein' is correct because lack of protein lowers plasma oncotic pressure and impairs tissue repair and immune function, producing the classic signs.\nDeficiency of vitamin C causes scurvy, with bleeding gums, petechiae and poor wound healing, not the oedematous, fatty-liver picture of kwashiorkor.\nExcess carbohydrate intake by itself does not produce the hypoalbuminaemic oedema of kwashiorkor, although high-carb, low-protein diets can precipitate it.\nDeficiency of iron causes microcytic anaemia with pallor and fatigue rather than the oedema and hepatic changes seen in kwashiorkor, so it is not the correct cause.",
+      "after": "Kwashiorkor is a form of severe protein–energy malnutrition that results chiefly from inadequate dietary protein intake, often in young children.\nThe condition is characterised by hypoalbuminaemia from protein deficiency, which leads to peripheral oedema, an enlarged fatty liver, muscle wasting and characteristic skin changes.\nTherefore the option 'Deficiency of protein' is correct because lack of protein lowers plasma oncotic pressure and impairs tissue repair and immune function, producing the classic signs.\nDeficiency of iron causes microcytic anaemia with pallor and fatigue rather than the oedema and hepatic changes seen in kwashiorkor, so it is not the correct cause."
+    },
+    {
+      "id": 30245,
+      "externalId": "BIO-OWNER-M6-Q7",
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Gill rakers are bony or cartilaginous projections on the gill arch that act as a sieve to trap solid particles and prevent them from entering or damaging the delicate gill filaments.\nThe correct option — filtering solid particles from entering the gill filaments — is accurate because gas exchange occurs at the lamellae on the gill filaments, not on the rakers.\nGill filaments and their lamellae provide the large surface area and thin barrier required for direct oxygen uptake and carbon dioxide diffusion.\nCollecting food particles is a plausible alternative in some filter‑feeding species where rakers also help retain plankton, but their primary protective role is filtration rather than digestion.\nDirecting water movement over the lamellae is mainly achieved by coordinated buccal and opercular pumping, not by the rakers themselves.\nTherefore the best single answer is filtration of solids to protect the gill filaments while allowing water to pass over the lamellae for gaseous exchange.",
+      "after": "Gill rakers are bony or cartilaginous projections on the gill arch that act as a sieve to trap solid particles and prevent them from entering or damaging the delicate gill filaments.\nThe correct option — filtering solid particles from entering the gill filaments — is accurate because gas exchange occurs at the lamellae on the gill filaments, not on the rakers.\nGill filaments and their lamellae provide the large surface area and thin barrier required for direct oxygen uptake and carbon dioxide diffusion.\nTherefore the best single answer is filtration of solids to protect the gill filaments while allowing water to pass over the lamellae for gaseous exchange."
+    },
+    {
+      "id": 30246,
+      "externalId": "BIO-OWNER-M6-Q8",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Sesamoid bones are small, rounded bones that develop within tendons where they pass over joints to protect the tendon and alter mechanical leverage.\nThe patella is the largest sesamoid bone, embedded in the quadriceps (patellar) tendon, which increases the leverage of the quadriceps and protects the knee joint.\nThe scapula is a flat, triangular bone of the pectoral girdle and is not formed within a tendon, so it is not a sesamoid bone.\nThe clavicle is a long/irregular bone of the shoulder girdle formed by intramembranous ossification and transmits forces between the arm and axial skeleton, but it is not a sesamoid.\nThe sternum is a flat bone of the thoracic cage that protects thoracic organs and likewise is not embedded in a tendon.\nTherefore Patella is the correct choice because it is a sesamoid bone formed within a tendon.",
+      "after": "Sesamoid bones are small, rounded bones that develop within tendons where they pass over joints to protect the tendon and alter mechanical leverage.\nThe patella is the largest sesamoid bone, embedded in the quadriceps (patellar) tendon, which increases the leverage of the quadriceps and protects the knee joint.\nThe scapula is a flat, triangular bone of the pectoral girdle and is not formed within a tendon, so it is not a sesamoid bone.\nTherefore Patella is the correct choice because it is a sesamoid bone formed within a tendon."
+    },
+    {
+      "id": 30247,
+      "externalId": "BIO-OWNER-M6-Q9",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Rhizophora (red mangrove) is predominantly adapted to life in saline, tidal coastal swamp (mangrove) habitats.\nIt develops prominent prop (stilt) roots that anchor the tree in soft, waterlogged, anoxic mud and allow gas exchange above tidal water.\nRhizophora copes with salt by root filtration and related physiological mechanisms, and shows vivipary so seedlings establish quickly in the intertidal zone.\nDesert regions and open grasslands lack the saline tidal water, soft anaerobic substrate, and waterlogged conditions required by Rhizophora, so they are unsuitable.\nFreshwater rivers are also a poor match because Rhizophora is specialised for brackish to saline intertidal zones, though related species may tolerate lower salinity near estuaries.\nTherefore the correct option is coastal swampy areas, which provide the tidal salinity and substrate that Rhizophora's structural and physiological adaptations are built for.",
+      "after": "Rhizophora (red mangrove) is predominantly adapted to life in saline, tidal coastal swamp (mangrove) habitats.\nIt develops prominent prop (stilt) roots that anchor the tree in soft, waterlogged, anoxic mud and allow gas exchange above tidal water.\nRhizophora copes with salt by root filtration and related physiological mechanisms, and shows vivipary so seedlings establish quickly in the intertidal zone.\nTherefore the correct option is coastal swampy areas, which provide the tidal salinity and substrate that Rhizophora's structural and physiological adaptations are built for."
+    },
+    {
+      "id": 30249,
+      "externalId": "BIO-OWNER-M6-Q11",
+      "subject": "Biology",
+      "topic": "Nutrition and Digestion",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The dental formula i 2/2, c 1/1, pm 2/2, m 3/3 shows the number of each type of permanent tooth on one side (one half) of the upper and lower jaws.\nPer one side there are 2 incisors + 1 canine + 2 premolars + 3 molars = 8 teeth.\nWith four quadrants in the mouth the total is 8 × 4 = 32 teeth, so 32 is the correct full adult dentition.\nThe option 28 represents the common variation or post-extraction condition where all four third molars (wisdom teeth) are absent, giving 28 teeth.\nThe option 30 would indicate that only two third molars are missing congenitally or have been removed, a possible but nonstandard full count.\nThirty-six is impossible for normal human dentition because it implies nine teeth per quadrant, exceeding the recognised permanent tooth classes.",
+      "after": "The dental formula i 2/2, c 1/1, pm 2/2, m 3/3 shows the number of each type of permanent tooth on one side (one half) of the upper and lower jaws.\nPer one side there are 2 incisors + 1 canine + 2 premolars + 3 molars = 8 teeth.\nWith four quadrants in the mouth the total is 8 × 4 = 32 teeth, so 32 is the correct full adult dentition.\nThirty-six is impossible for normal human dentition because it implies nine teeth per quadrant, exceeding the recognised permanent tooth classes."
+    },
+    {
+      "id": 30252,
+      "externalId": "BIO-OWNER-M6-Q14",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The ABO blood group is determined by specific carbohydrate antigens (A and B) on the red blood cell membrane and corresponding antibodies in the plasma.\nIn blood group O, red blood cells lack both A and B antigens, which is why 'Antigens A and B' is the correct answer.\nIndividuals with group O usually have both anti-A and anti-B antibodies in their plasma, which react with those antigens if present on transfused cells.\n'Antibodies' is incorrect as a choice because antibodies are soluble proteins found in plasma rather than structures located on the red cell surface.\n'Blood plasma' is not absent on the red cells; plasma is the liquid component of whole blood and is separate from the antigenic makeup of red cells.\nThe Rhesus (Rh) factor is a different antigenic system (commonly the D antigen) and its presence or absence (Rh+ or Rh–) is independent of the ABO group, so group O does not imply absence of Rh.",
+      "after": "The ABO blood group is determined by specific carbohydrate antigens (A and B) on the red blood cell membrane and corresponding antibodies in the plasma.\nIn blood group O, red blood cells lack both A and B antigens, which is why 'Antigens A and B' is the correct answer.\nIndividuals with group O usually have both anti-A and anti-B antibodies in their plasma, which react with those antigens if present on transfused cells.\nThe Rhesus (Rh) factor is a different antigenic system (commonly the D antigen) and its presence or absence (Rh+ or Rh–) is independent of the ABO group, so group O does not imply absence of Rh."
+    },
+    {
+      "id": 30253,
+      "externalId": "BIO-OWNER-M6-Q15",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "In umbrella-shaped (agaric) mushrooms the reproductive spores (basidiospores) are produced on microscopic basidia that line the surfaces of the gills beneath the cap.\nGills are thin, radially arranged plates that provide a large surface area for basidia, which explains why 'Gills' is the correct option.\nThe cap primarily supports and protects the gills but its general tissue is not the direct site of spore formation.\nThe stipe (stem) elevates the cap to aid wind dispersal of spores and does not bear basidia or produce spores in typical gilled mushrooms.\nThe mycelium is the vegetative filamentous network in the substrate that generates the fruiting body; it does not directly produce spore-bearing basidia on the exposed gill surface.\nSome fungi lack gills and instead release spores from pores, teeth or smooth surfaces, so 'Gills' is specifically correct for umbrella-shaped, gilled mushrooms.",
+      "after": "In umbrella-shaped (agaric) mushrooms the reproductive spores (basidiospores) are produced on microscopic basidia that line the surfaces of the gills beneath the cap.\nGills are thin, radially arranged plates that provide a large surface area for basidia, which explains why 'Gills' is the correct option.\nThe cap primarily supports and protects the gills but its general tissue is not the direct site of spore formation.\nSome fungi lack gills and instead release spores from pores, teeth or smooth surfaces, so 'Gills' is specifically correct for umbrella-shaped, gilled mushrooms."
+    }
+  ]
+}

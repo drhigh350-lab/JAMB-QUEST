@@ -1,0 +1,228 @@
+{
+  "subject": "Biology",
+  "batch": 4,
+  "batchSize": 20,
+  "eligibleTotal": 255,
+  "selected": [
+    {
+      "id": 30297,
+      "externalId": "BIO-OWNER-M7-Q12",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homozygous describes an organism that carries two identical alleles of a particular gene (e.g., TT or tt).\nTT and tt are examples of homozygous genotypes because both alleles at the locus are the same.\nThis is why the correct option is Homozygous: it denotes identical allele pairs rather than allele effect.\nHeterozygous (Tt) means the two alleles at the locus are different, producing a different genotype from homozygous.\nHemizygous refers to having only one copy of a gene in an otherwise diploid organism (for example, many X‑linked genes in XY males), so it is not the same as homozygous.\nDominant describes how an allele expresses its phenotype when present, not the presence of two identical alleles, so it is not a genotype label.",
+      "after": "Homozygous describes an organism that carries two identical alleles of a particular gene (e.g., TT or tt).\nTT and tt are examples of homozygous genotypes because both alleles at the locus are the same.\nThis is why the correct option is Homozygous: it denotes identical allele pairs rather than allele effect.\nDominant describes how an allele expresses its phenotype when present, not the presence of two identical alleles, so it is not a genotype label."
+    },
+    {
+      "id": 30298,
+      "externalId": "BIO-OWNER-M7-Q13",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A reflex action is an involuntary, rapid, automatic response to a specific stimulus that does not require conscious thought or deliberate decision-making.\nThe stem describes exactly this kind of immediate automatic response, so 'Reflex action' is the correct option.\nVoluntary actions are controlled by the cerebral cortex, require conscious intent and are slower than reflexes (for example choosing to pick up a book).\nInstinctive behaviors are innate and unlearned but are typically more complex, patterned responses to situations (e.g., nesting) rather than the simple, rapid responses called reflexes.\nA conditioned reflex is a learned response formed by repeated association (Pavlovian conditioning) and therefore is not an innate automatic response present from birth.\nReflex speed is explained by the reflex arc: receptor → sensory neuron → integration center (often in the spinal cord) → motor neuron → effector, which bypasses conscious processing.",
+      "after": "A reflex action is an involuntary, rapid, automatic response to a specific stimulus that does not require conscious thought or deliberate decision-making.\nThe stem describes exactly this kind of immediate automatic response, so 'Reflex action' is the correct option.\nVoluntary actions are controlled by the cerebral cortex, require conscious intent and are slower than reflexes (for example choosing to pick up a book).\nReflex speed is explained by the reflex arc: receptor → sensory neuron → integration center (often in the spinal cord) → motor neuron → effector, which bypasses conscious processing."
+    },
+    {
+      "id": 30321,
+      "externalId": "BIO-OWNER-M7-Q36",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Natural selection is the process by which organisms with heritable traits that increase their chances of survival and reproduction become more common in a population over generations.\nCharles Darwin is primarily credited because he formulated natural selection as the main mechanism of evolution in On the Origin of Species (1859), explaining variation, struggle for existence, and differential reproductive success.\nDarwin argued that heritable variations favorable in a given environment tend to be preserved and accumulate, producing adaptation and species change.\nThomas Malthus influenced Darwin by describing competition for limited resources in human populations, but Malthus did not propose natural selection.\nJean-Baptiste Lamarck proposed inheritance of acquired characteristics (use and disuse) as a different mechanism and is therefore not credited with natural selection.\nHugo de Vries is associated with mutation theory and the rediscovery of Mendelian genetics, contributing to evolutionary thought but not as the originator of natural selection.",
+      "after": "Natural selection is the process by which organisms with heritable traits that increase their chances of survival and reproduction become more common in a population over generations.\nCharles Darwin is primarily credited because he formulated natural selection as the main mechanism of evolution in On the Origin of Species (1859), explaining variation, struggle for existence, and differential reproductive success.\nDarwin argued that heritable variations favorable in a given environment tend to be preserved and accumulate, producing adaptation and species change.\nHugo de Vries is associated with mutation theory and the rediscovery of Mendelian genetics, contributing to evolutionary thought but not as the originator of natural selection."
+    },
+    {
+      "id": 30322,
+      "externalId": "BIO-OWNER-M7-Q37",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question identifies fruits with a fleshy mesocarp and a hard stony endocarp as seen in mango and peach.\nThese fruits are called drupes, characterized by an outer skin (exocarp), a fleshy mesocarp and a single hard endocarp enclosing the seed.\nMango and peach have juicy flesh surrounding a single large seed enclosed in a woody pit, which matches the drupe structure.\nA berry is different because it is fleshy throughout and typically contains multiple seeds without a hard stony endocarp (examples: tomato, banana).\nA legume is a dry fruit that splits along two sutures to release seeds (example: pea) and therefore does not apply to fleshy mangoes or peaches.\nA capsule is a dry dehiscent fruit from several fused carpels that opens to release seeds, unlike the indehiscent, fleshy, stony structure of drupes.",
+      "after": "The question identifies fruits with a fleshy mesocarp and a hard stony endocarp as seen in mango and peach.\nThese fruits are called drupes, characterized by an outer skin (exocarp), a fleshy mesocarp and a single hard endocarp enclosing the seed.\nMango and peach have juicy flesh surrounding a single large seed enclosed in a woody pit, which matches the drupe structure.\nA capsule is a dry dehiscent fruit from several fused carpels that opens to release seeds, unlike the indehiscent, fleshy, stony structure of drupes."
+    },
+    {
+      "id": 30324,
+      "externalId": "BIO-OWNER-M7-Q39",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Endoparasitism is a parasitic relationship in which the parasite lives inside the host’s body and derives nutrients at the host’s expense.\nTapeworms live in the human intestine and absorb digested food through their surface, often causing nutrient loss or disease, so they are endoparasites.\nEctoparasitism describes parasites living on the host’s surface (e.g., lice, ticks) and does not apply to intestinal tapeworms.\nCommensalism means one organism benefits while the other is neither helped nor harmed, which is inaccurate for tapeworms because they harm or deprive the host.\nSymbiosis is a general term for close associations between species (including mutualism, commensalism, and parasitism), so calling the tapeworm–human link merely ‘symbiosis’ is imprecise without specifying parasitism.\nHence the most precise choice is Endoparasitism, because it specifically denotes parasites living inside and exploiting the host.",
+      "after": "Endoparasitism is a parasitic relationship in which the parasite lives inside the host’s body and derives nutrients at the host’s expense.\nTapeworms live in the human intestine and absorb digested food through their surface, often causing nutrient loss or disease, so they are endoparasites.\nEctoparasitism describes parasites living on the host’s surface (e.g., lice, ticks) and does not apply to intestinal tapeworms.\nHence the most precise choice is Endoparasitism, because it specifically denotes parasites living inside and exploiting the host."
+    },
+    {
+      "id": 30325,
+      "externalId": "BIO-OWNER-M7-Q40",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes and involve the photolysis (splitting) of water.\nPhotolysis provides electrons and protons for the electron transport chain and releases molecular oxygen (O2) as a byproduct.\nHence oxygen is the gas liberated during the light reactions, making the option 'Oxygen' correct.\nCarbon dioxide is not released in the light-dependent stage; it is fixed in the light-independent (Calvin) cycle to build sugars.\nNitrogen and methane are not products of photosynthetic light reactions and are not involved in producing O2.\nThe O2 produced diffuses out of the leaf (via stomata) into the atmosphere while electrons continue through the photosynthetic electron transport chain.",
+      "after": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes and involve the photolysis (splitting) of water.\nPhotolysis provides electrons and protons for the electron transport chain and releases molecular oxygen (O2) as a byproduct.\nHence oxygen is the gas liberated during the light reactions, making the option 'Oxygen' correct.\nThe O2 produced diffuses out of the leaf (via stomata) into the atmosphere while electrons continue through the photosynthetic electron transport chain."
+    },
+    {
+      "id": 30326,
+      "externalId": "BIO-OWNER-M7-Q41",
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The backbone (vertebral column) is formed by a series of individual bones called vertebrae.\nEach vertebra is an irregular bone with a body, vertebral arch and processes, and the vertebral foramina align to form the spinal canal that protects the spinal cord.\nThe stacked vertebrae are separated by intervertebral discs that allow flexibility and absorb shock during movement.\nThus 'Vertebrae' is correct because these repeated segmented bones are the structural units of the backbone.\nRibs are curved bones attached to the thorax that protect chest organs, while phalanges and metacarpals are bones of the fingers and palm and are not part of the backbone.\nVertebrae are further classified into cervical, thoracic, lumbar, sacral and coccygeal regions, reflecting differences in size and function along the column.",
+      "after": "The backbone (vertebral column) is formed by a series of individual bones called vertebrae.\nEach vertebra is an irregular bone with a body, vertebral arch and processes, and the vertebral foramina align to form the spinal canal that protects the spinal cord.\nThe stacked vertebrae are separated by intervertebral discs that allow flexibility and absorb shock during movement.\nVertebrae are further classified into cervical, thoracic, lumbar, sacral and coccygeal regions, reflecting differences in size and function along the column."
+    },
+    {
+      "id": 30327,
+      "externalId": "BIO-OWNER-M7-Q42",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A primary consumer is an organism that feeds directly on producers (autotrophs) in a food chain.\nIn the chain Grass → Grasshopper → Frog → Snake, grass is the producer because it photosynthesizes and makes its own food.\nThe grasshopper eats the grass, so it is the primary consumer (an herbivore) in this sequence.\nThe frog consumes grasshoppers and other small animals, so it is a secondary consumer rather than a primary consumer.\nThe snake preys on frogs and therefore acts as a tertiary (or higher-level) consumer in the chain.\nGrass is not a primary consumer because it produces its own food and is classified as a producer, not a consumer.",
+      "after": "A primary consumer is an organism that feeds directly on producers (autotrophs) in a food chain.\nIn the chain Grass → Grasshopper → Frog → Snake, grass is the producer because it photosynthesizes and makes its own food.\nThe grasshopper eats the grass, so it is the primary consumer (an herbivore) in this sequence.\nGrass is not a primary consumer because it produces its own food and is classified as a producer, not a consumer."
+    },
+    {
+      "id": 30328,
+      "externalId": "BIO-OWNER-M7-Q43",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Photosynthetic pigments absorb light energy so plants can drive the light-dependent reactions of photosynthesis.\nChlorophyll is the primary photosynthetic pigment in chloroplasts and absorbs mainly red and blue wavelengths, making it responsible for capturing the light energy used to produce ATP and NADPH.\nCarotene is an accessory pigment that absorbs blue-green light and reflects orange; it transfers absorbed energy to chlorophyll but is not the main pigment.\nXanthophylls are yellow accessory pigments that also help harvest light and provide photoprotection by dissipating excess energy.\nAnthocyanins are pigments in vacuoles that give red, purple or blue colours to leaves and flowers and are not central to the light-harvesting reactions of photosynthesis.\nBecause chlorophyll directly captures the bulk of light energy used in the light reactions, it is the correct answer.",
+      "after": "Photosynthetic pigments absorb light energy so plants can drive the light-dependent reactions of photosynthesis.\nChlorophyll is the primary photosynthetic pigment in chloroplasts and absorbs mainly red and blue wavelengths, making it responsible for capturing the light energy used to produce ATP and NADPH.\nCarotene is an accessory pigment that absorbs blue-green light and reflects orange; it transfers absorbed energy to chlorophyll but is not the main pigment.\nBecause chlorophyll directly captures the bulk of light energy used in the light reactions, it is the correct answer."
+    },
+    {
+      "id": 30329,
+      "externalId": "BIO-OWNER-M7-Q44",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Both colour blindness (commonly red–green) and classical haemophilia are caused by mutant alleles on the X chromosome and therefore follow X‑linked recessive inheritance.\nMales are hemizygous (XY), so a single recessive allele on their X chromosome produces the phenotype, making affected males relatively common.\nFemales (XX) must inherit two copies of the mutant allele to be affected and are therefore often healthy carriers when they have only one mutant allele.\nAutosomal dominant or recessive traits are carried on non‑sex chromosomes and typically affect males and females equally, unlike the sex‑biased patterns of these conditions.\nY‑linked traits occur only on the Y chromosome and are transmitted father‑to‑son, so they cannot account for affected females or carrier mothers of affected sons.\nThus the best choice is 'Sex‑linked traits on X chromosome' because it matches the gene location and the characteristic male‑biased expression with carrier females.",
+      "after": "Both colour blindness (commonly red–green) and classical haemophilia are caused by mutant alleles on the X chromosome and therefore follow X‑linked recessive inheritance.\nMales are hemizygous (XY), so a single recessive allele on their X chromosome produces the phenotype, making affected males relatively common.\nFemales (XX) must inherit two copies of the mutant allele to be affected and are therefore often healthy carriers when they have only one mutant allele.\nThus the best choice is 'Sex‑linked traits on X chromosome' because it matches the gene location and the characteristic male‑biased expression with carrier females."
+    },
+    {
+      "id": 30330,
+      "externalId": "BIO-OWNER-M7-Q45",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Positive geotropism is the growth response in which root tips grow toward the direction of gravity and is mediated by differential hormone action during growth.\nIn roots, starch-filled plastids called statoliths (amyloplasts) in the root cap settle to the lower side and trigger redistribution of auxin to that flank.\nAuxin becomes concentrated on the lower side of the root, and unlike in shoots, higher auxin levels in root cells inhibit elongation so the upper side grows faster and the root bends downward.\nBecause the curvature arises from this unequal auxin distribution controlling cell elongation, the option 'Differential distribution of auxins' is correct.\nRapid loss of turgor pressure produces fast, reversible movements (e.g., leaf folding) rather than the slow, growth-based bending seen in geotropism, so option B is incorrect.\nEthylene can influence root growth and light intensity governs phototropism, but neither is the primary mechanism that directs roots toward gravity, so options C and D are less plausible.",
+      "after": "Positive geotropism is the growth response in which root tips grow toward the direction of gravity and is mediated by differential hormone action during growth.\nIn roots, starch-filled plastids called statoliths (amyloplasts) in the root cap settle to the lower side and trigger redistribution of auxin to that flank.\nAuxin becomes concentrated on the lower side of the root, and unlike in shoots, higher auxin levels in root cells inhibit elongation so the upper side grows faster and the root bends downward.\nEthylene can influence root growth and light intensity governs phototropism, but neither is the primary mechanism that directs roots toward gravity, so options C and D are less plausible."
+    },
+    {
+      "id": 30331,
+      "externalId": "BIO-OWNER-M7-Q46",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns methods for sampling small ground‑dwelling invertebrates in terrestrial habitats.\nA pitfall trap is a container buried flush with the soil surface so crawling insects and other litter fauna fall in and cannot escape, making it ideal for leaf‑litter sampling.\nThis method effectively samples ground active arthropods such as beetles, ants and spiders that move across the litter layer.\nA quadrat is used to sample plants or sedentary organisms in a defined area and is not designed to trap mobile, crawling invertebrates.\nA Secchi disc measures water transparency in aquatic ecosystems and is unrelated to collecting terrestrial insects.\nA sweep net collects insects from vegetation and flying or foliage‑dwelling species, so it is less suitable than a pitfall trap for small crawling leaf‑litter invertebrates.",
+      "after": "The question concerns methods for sampling small ground‑dwelling invertebrates in terrestrial habitats.\nA pitfall trap is a container buried flush with the soil surface so crawling insects and other litter fauna fall in and cannot escape, making it ideal for leaf‑litter sampling.\nThis method effectively samples ground active arthropods such as beetles, ants and spiders that move across the litter layer.\nA sweep net collects insects from vegetation and flying or foliage‑dwelling species, so it is less suitable than a pitfall trap for small crawling leaf‑litter invertebrates."
+    },
+    {
+      "id": 30334,
+      "externalId": "BIO-OWNER-M7-Q49",
+      "subject": "Biology",
+      "topic": "Plant Growth and Reproduction",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Hypogeal germination is when the cotyledons remain below the soil as the seedling emerges.\nIn maize (a monocot) the single cotyledon called the scutellum stays underground and absorbs food from the endosperm while the coleoptile pushes the plumule above ground.\nThis contrasts with epigeal germination, where the cotyledons are carried above the soil (for example, in many beans) and may become photosynthetic.\nViviparous germination refers to seeds sprouting while still attached to the parent plant, and delayed germination refers to prolonged dormancy; neither term describes cotyledons remaining below ground.\nTherefore the correct choice is Hypogeal germination because the defining feature is cotyledons remaining below the soil surface.\nThe other options are plausible distractors by naming different germination patterns but do not match the cotyledon‑below‑soil condition described.",
+      "after": "Hypogeal germination is when the cotyledons remain below the soil as the seedling emerges.\nIn maize (a monocot) the single cotyledon called the scutellum stays underground and absorbs food from the endosperm while the coleoptile pushes the plumule above ground.\nThis contrasts with epigeal germination, where the cotyledons are carried above the soil (for example, in many beans) and may become photosynthetic.\nThe other options are plausible distractors by naming different germination patterns but do not match the cotyledon‑below‑soil condition described."
+    },
+    {
+      "id": 30335,
+      "externalId": "BIO-OWNER-M7-Q50",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Primary succession is the sequence of ecological changes that begins on bare, previously uninhabited substrates such as cooled lava or newly exposed rock, where no soil is present.\nIt is the correct answer because it describes colonization where no previous community existed and soil must develop de novo through weathering and accumulation of organic matter.\nPioneer species such as lichens, cyanobacteria, and mosses are characteristic of primary succession because they tolerate extreme conditions and initiate soil formation.\nSecondary succession differs in that it occurs after a disturbance on land that still retains soil and some organisms or propagules, so recovery is faster than in primary succession.\nClimax succession (or a climax community) denotes the stable, long‑term community reached at the end of succession, not the initial colonization of bare substrate.\nSeral succession refers to the intermediate communities (seral stages) through which an area passes during succession, and therefore is not specifically the beginning stage described.",
+      "after": "Primary succession is the sequence of ecological changes that begins on bare, previously uninhabited substrates such as cooled lava or newly exposed rock, where no soil is present.\nIt is the correct answer because it describes colonization where no previous community existed and soil must develop de novo through weathering and accumulation of organic matter.\nPioneer species such as lichens, cyanobacteria, and mosses are characteristic of primary succession because they tolerate extreme conditions and initiate soil formation.\nSeral succession refers to the intermediate communities (seral stages) through which an area passes during succession, and therefore is not specifically the beginning stage described."
+    },
+    {
+      "id": 30336,
+      "externalId": "BIO-OWNER-M8-Q1",
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Homologous chromosomes pair to form bivalents and undergo synapsis during Prophase I of meiosis, specifically in the zygotene–pachytene sub-stages.\nIn zygotene homologues align and a synaptonemal complex forms, and in pachytene crossing-over occurs between non-sister chromatids.\nThe synaptonemal complex stabilizes synapsis and enables exchange at chiasmata, which produces genetic variation.\nIn mitotic metaphase chromosomes align singly at the metaphase plate as sister chromatids, so homologous pairing and synapsis do not occur there.\nProphase II occurs in haploid daughter cells after meiosis I and involves condensation of chromosomes without re-pairing of homologues.\nAnaphase I is the stage when homologous chromosomes are pulled to opposite poles after chiasmata are resolved, so it follows synapsis rather than involving pairing itself.",
+      "after": "Homologous chromosomes pair to form bivalents and undergo synapsis during Prophase I of meiosis, specifically in the zygotene–pachytene sub-stages.\nIn zygotene homologues align and a synaptonemal complex forms, and in pachytene crossing-over occurs between non-sister chromatids.\nThe synaptonemal complex stabilizes synapsis and enables exchange at chiasmata, which produces genetic variation.\nAnaphase I is the stage when homologous chromosomes are pulled to opposite poles after chiasmata are resolved, so it follows synapsis rather than involving pairing itself."
+    },
+    {
+      "id": 30337,
+      "externalId": "BIO-OWNER-M8-Q2",
+      "subject": "Biology",
+      "topic": "Endocrine Regulation",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Excessive sweating raises blood osmolarity and reduces plasma volume, creating a water deficit in the body.\nOsmoreceptors in the hypothalamus and decreased baroreceptor firing stimulate the posterior pituitary (part of the pituitary gland) to secrete more anti-diuretic hormone (ADH).\nADH increases permeability of the kidney collecting ducts to water, promoting water reabsorption and producing small volumes of concentrated urine to conserve body water.\nInsulin is incorrect because its primary role is regulation of blood glucose and does not directly control water conservation.\nThyroxine is incorrect because it mainly regulates basal metabolic rate and long-term development, not acute fluid balance.\nOxytocin is incorrect because it primarily mediates uterine contraction and milk ejection, not renal water reabsorption.",
+      "after": "Excessive sweating raises blood osmolarity and reduces plasma volume, creating a water deficit in the body.\nOsmoreceptors in the hypothalamus and decreased baroreceptor firing stimulate the posterior pituitary (part of the pituitary gland) to secrete more anti-diuretic hormone (ADH).\nADH increases permeability of the kidney collecting ducts to water, promoting water reabsorption and producing small volumes of concentrated urine to conserve body water.\nOxytocin is incorrect because it primarily mediates uterine contraction and milk ejection, not renal water reabsorption."
+    },
+    {
+      "id": 30338,
+      "externalId": "BIO-OWNER-M8-Q3",
+      "subject": "Biology",
+      "topic": "Adaptations of Organisms",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question addresses morphological adaptations of hydrophytes (aquatic plants) that enable flotation and internal gas exchange.\nHydrophytes like water lilies characteristically develop extensive aerenchyma—large intercellular air spaces—that provide buoyancy and internal pathways for oxygen and carbon dioxide movement between submerged and aerial parts.\nFloating leaves with stomata on the upper surface maximize gas exchange with the atmosphere, which is why 'extensive aerenchyma tissue with floating leaves' is the correct option.\nReduced leaves with sunken stomata is a xerophytic adaptation to limit transpiration and is not typical of water lilies, which have broad floating leaves instead.\nA deeply penetrating taproot system is unnecessary for hydrophytes because water is abundant and roots mainly anchor the plant and absorb dissolved nutrients near the surface.\nThick, waxy stems for water storage describe succulents and other xerophytes; aquatic plants rely on aerenchyma and thin tissues rather than stem water storage.",
+      "after": "The question addresses morphological adaptations of hydrophytes (aquatic plants) that enable flotation and internal gas exchange.\nHydrophytes like water lilies characteristically develop extensive aerenchyma—large intercellular air spaces—that provide buoyancy and internal pathways for oxygen and carbon dioxide movement between submerged and aerial parts.\nFloating leaves with stomata on the upper surface maximize gas exchange with the atmosphere, which is why 'extensive aerenchyma tissue with floating leaves' is the correct option.\nThick, waxy stems for water storage describe succulents and other xerophytes; aquatic plants rely on aerenchyma and thin tissues rather than stem water storage."
+    },
+    {
+      "id": 30339,
+      "externalId": "BIO-OWNER-M8-Q4",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Transpiration pull (cohesion–tension theory) describes how evaporation from leaf surfaces creates a negative pressure that draws water upward through xylem vessels.\nCohesion between water molecules and adhesion to xylem walls maintain a continuous water column so the tension generated at the leaf is transmitted down the xylem to the roots.\nEvaporation from mesophyll cells lowers their water potential, producing the suction (tension) that pulls water from the xylem into the leaf and upward from the roots.\nRoot pressure is an osmotic push generated in roots but is usually weak and cannot account for water ascent in tall plants, so it is not the primary mechanism here.\nActive transport is incorrect because water movement in the xylem is passive and driven by water-potential gradients rather than direct metabolic energy, although ions may be actively absorbed by roots.\nMass flow or bulk flow is a general term for fluid movement (and is often used for phloem pressure-flow); the specific driver of xylem sap ascent in this context is the transpiration-induced tension (transpiration pull).",
+      "after": "Transpiration pull (cohesion–tension theory) describes how evaporation from leaf surfaces creates a negative pressure that draws water upward through xylem vessels.\nCohesion between water molecules and adhesion to xylem walls maintain a continuous water column so the tension generated at the leaf is transmitted down the xylem to the roots.\nEvaporation from mesophyll cells lowers their water potential, producing the suction (tension) that pulls water from the xylem into the leaf and upward from the roots.\nMass flow or bulk flow is a general term for fluid movement (and is often used for phloem pressure-flow); the specific driver of xylem sap ascent in this context is the transpiration-induced tension (transpiration pull)."
+    },
+    {
+      "id": 30360,
+      "externalId": "BIO-OWNER-M8-Q28",
+      "subject": "Biology",
+      "topic": "Nutrition and Diet",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Vitamin A is required for formation of retinal photopigments (rhodopsin) in rod cells, which mediate vision in dim light.\nDeficiency of vitamin A reduces rhodopsin regeneration and causes difficulty seeing in low light, a condition called night blindness.\nXerophthalmia is a related but broader ocular disease from vitamin A deficiency characterized by conjunctival/corneal drying, Bitot's spots and potential corneal ulceration leading to permanent blindness.\nScurvy results from vitamin C deficiency and presents with bleeding gums, poor wound healing and bruising, not primary impairment of night vision.\nBeriberi arises from thiamine (vitamin B1) deficiency and produces peripheral neuropathy, muscle weakness and cardiac failure rather than visual pigment defects.\nTherefore the correct answer is Night blindness, while Xerophthalmia is a more severe ocular consequence of the same deficiency and Scurvy and Beriberi are caused by different vitamins.",
+      "after": "Vitamin A is required for formation of retinal photopigments (rhodopsin) in rod cells, which mediate vision in dim light.\nDeficiency of vitamin A reduces rhodopsin regeneration and causes difficulty seeing in low light, a condition called night blindness.\nXerophthalmia is a related but broader ocular disease from vitamin A deficiency characterized by conjunctival/corneal drying, Bitot's spots and potential corneal ulceration leading to permanent blindness.\nTherefore the correct answer is Night blindness, while Xerophthalmia is a more severe ocular consequence of the same deficiency and Scurvy and Beriberi are caused by different vitamins."
+    },
+    {
+      "id": 30361,
+      "externalId": "BIO-OWNER-M8-Q29",
+      "subject": "Biology",
+      "topic": "Coordination and Control",
+      "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The synapse is the small gap (synaptic cleft) between a presynaptic and a postsynaptic neuron across which neurotransmitters are released and diffuse.\nIn a chemical synapse an action potential arriving at the axon terminal triggers vesicles to release neurotransmitter into the cleft, which then binds receptors on the next neuron to propagate a signal.\nThe axon hillock is the region where incoming signals are summed and action potentials are initiated, not a gap for transfer between neurons.\nThe myelin sheath is an insulating layer around axons that increases conduction speed by saltatory conduction and does not mediate inter-neuronal transmission.\nDendrites are branched receptive surfaces that receive signals and convey them toward the cell body but do not constitute the synaptic cleft itself.\nThus synapse is correct because it specifically names the functional gap across which neurotransmitters pass, distinguishing it from the initiation site (axon hillock), the insulator (myelin), and the receptor processes (dendrites).",
+      "after": "The synapse is the small gap (synaptic cleft) between a presynaptic and a postsynaptic neuron across which neurotransmitters are released and diffuse.\nIn a chemical synapse an action potential arriving at the axon terminal triggers vesicles to release neurotransmitter into the cleft, which then binds receptors on the next neuron to propagate a signal.\nThe axon hillock is the region where incoming signals are summed and action potentials are initiated, not a gap for transfer between neurons.\nThus synapse is correct because it specifically names the functional gap across which neurotransmitters pass, distinguishing it from the initiation site (axon hillock), the insulator (myelin), and the receptor processes (dendrites)."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "subject": "Chemistry",
+  "batch": 1,
+  "batchSize": 20,
+  "eligibleTotal": 129,
+  "selected": [
+    {
+      "id": 60001,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-1",
+      "subject": "Chemistry",
+      "topic": "Redox Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The oxidizing agent is the species that is reduced (it gains electrons) in the redox reaction.\nAssign oxidation states: S in H2S is −2 and Cl in Cl2 is 0; in the products S is 0 (S(s)) and Cl is −1 (in HCl).\nBecause S goes from −2 to 0 it loses electrons and is oxidized, so H2S acts as the reducing agent, not the oxidizing agent.\nCl2 goes from 0 to −1 (each chlorine atom gains one electron) and is therefore reduced, so Cl2 is the oxidizing agent — the correct option.\nElemental sulfur (S) is the oxidized product and cannot be the oxidizing agent, while HCl is the reduced product containing chloride ions produced by reduction of Cl2.\nElectron balance shows each S atom loses two electrons which are accepted by chlorine (Cl2 + 2e− → 2Cl−), confirming Cl2 accepts electrons and oxidizes H2S.",
+      "after": "The oxidizing agent is the species that is reduced (it gains electrons) in the redox reaction.\nAssign oxidation states: S in H2S is −2 and Cl in Cl2 is 0; in the products S is 0 (S(s)) and Cl is −1 (in HCl).\nBecause S goes from −2 to 0 it loses electrons and is oxidized, so H2S acts as the reducing agent, not the oxidizing agent.\nElectron balance shows each S atom loses two electrons which are accepted by chlorine (Cl2 + 2e− → 2Cl−), confirming Cl2 accepts electrons and oxidizes H2S."
+    },
+    {
+      "id": 60002,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-2",
+      "subject": "Chemistry",
+      "topic": "Chemical Equilibrium",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Le Chatelier’s principle describes how an equilibrium responds to changes in temperature, pressure and concentrations.\nThe given reaction is exothermic (ΔH = −90 kJ), so heat behaves like a product of the forward reaction.\nIncreasing temperature supplies extra heat and therefore shifts the equilibrium toward the reactants (left), decreasing the yield of NH3.\nA catalyst does not change the equilibrium position; it only speeds up the attainment of equilibrium, so the NH3 yield is unchanged.\nIncreasing pressure favours the side with fewer gaseous moles (2 mol NH3 vs 4 mol on the reactant side), so pressure increase would raise, not lower, NH3 yield.\nRemoving ammonia shifts the equilibrium to the right to produce more NH3, thus removal increases the yield rather than decreases it.",
+      "after": "Le Chatelier’s principle describes how an equilibrium responds to changes in temperature, pressure and concentrations.\nThe given reaction is exothermic (ΔH = −90 kJ), so heat behaves like a product of the forward reaction.\nIncreasing temperature supplies extra heat and therefore shifts the equilibrium toward the reactants (left), decreasing the yield of NH3.\nRemoving ammonia shifts the equilibrium to the right to produce more NH3, thus removal increases the yield rather than decreases it."
+    },
+    {
+      "id": 60004,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-4",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This question checks which functional group behaves as a Bronsted acid strong enough to react with bicarbonate to give CO2.\nAlkanoic acids (carboxylic acids, RCOOH) donate H+ to HCO3− to form RCOO− and H2CO3, and H2CO3 decomposes to CO2 and H2O: RCOOH + NaHCO3 → RCOONa + CO2 + H2O.\nAn alkanoate is the deprotonated carboxylate salt (RCOO−), so it will not liberate CO2 with NaHCO3 because no acidic proton is available.\nAlkanones (ketones) lack the acidic carboxyl hydrogen and therefore do not react with NaHCO3 to produce effervescence.\nAmines are basic (not acidic) and may be protonated by strong acids but do not give CO2 when treated with NaHCO3.\nHence Alkanoic Acid is correct: only carboxylic acids among the options react with bicarbonate to evolve CO2.",
+      "after": "This question checks which functional group behaves as a Bronsted acid strong enough to react with bicarbonate to give CO2.\nAlkanoic acids (carboxylic acids, RCOOH) donate H+ to HCO3− to form RCOO− and H2CO3, and H2CO3 decomposes to CO2 and H2O: RCOOH + NaHCO3 → RCOONa + CO2 + H2O.\nAn alkanoate is the deprotonated carboxylate salt (RCOO−), so it will not liberate CO2 with NaHCO3 because no acidic proton is available.\nHence Alkanoic Acid is correct: only carboxylic acids among the options react with bicarbonate to evolve CO2."
+    },
+    {
+      "id": 60005,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-5",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "2-methylpropanoic acid has a three‑carbon propanoic acid backbone with a methyl substituent on C‑2 (common name: isobutyric acid).\nThe condensed structural formula (CH₃)₂CHCOOH explicitly shows two methyl groups attached to the second carbon of the propanoyl chain and therefore represents 2‑methylpropanoic acid.\nCounting atoms in (CH₃)₂CHCOOH gives the molecular formula C₄H₈O₂ (4 C, 8 H, 2 O).\nCH₃(CH₂)₃COOH is a five‑carbon straight‑chain carboxylic acid (pentanoic acid) and does not match a C₄ skeleton.\nCH₃(CH₂)₂COOH is unbranched butanoic acid; it has the same molecular formula C₄H₈O₂ but is a structural isomer, not the branched 2‑methylpropanoic structure.\nCH₃CH₂COOH is propanoic acid (three carbons) and lacks the extra methyl group required for 2‑methylpropanoic acid.",
+      "after": "2-methylpropanoic acid has a three‑carbon propanoic acid backbone with a methyl substituent on C‑2 (common name: isobutyric acid).\nThe condensed structural formula (CH₃)₂CHCOOH explicitly shows two methyl groups attached to the second carbon of the propanoyl chain and therefore represents 2‑methylpropanoic acid.\nCounting atoms in (CH₃)₂CHCOOH gives the molecular formula C₄H₈O₂ (4 C, 8 H, 2 O).\nCH₃CH₂COOH is propanoic acid (three carbons) and lacks the extra methyl group required for 2‑methylpropanoic acid."
+    },
+    {
+      "id": 60007,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-7",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "CH3CH2COOC2H5 is the ester ethyl propanoate (ethyl propionate).\nEsters are formed by acid‑catalysed condensation of a carboxylic acid with an alcohol: RCOOH + R'OH → RCOOR' + H2O.\nIn CH3CH2COOC2H5 the acyl part CH3CH2CO– comes from propanoic acid (CH3CH2COOH) and the alkyl part C2H5– comes from ethanol (C2H5OH), so propanoic acid + ethanol is the correct reactant pair.\nEthanoic acid + propanol would produce propyl ethanoate (CH3COOC3H7), not the given ester.\nPropanoic acid + propanol would produce propyl propanoate (CH3CH2COOC3H7), and ethanoic acid + ethanol would give ethyl ethanoate (CH3COOC2H5); both are different structures.\nTherefore the correct choice is Propanoic acid + Ethanol because it supplies the CH3CH2CO– and C2H5– fragments that match CH3CH2COOC2H5.",
+      "after": "CH3CH2COOC2H5 is the ester ethyl propanoate (ethyl propionate).\nEsters are formed by acid‑catalysed condensation of a carboxylic acid with an alcohol: RCOOH + R'OH → RCOOR' + H2O.\nIn CH3CH2COOC2H5 the acyl part CH3CH2CO– comes from propanoic acid (CH3CH2COOH) and the alkyl part C2H5– comes from ethanol (C2H5OH), so propanoic acid + ethanol is the correct reactant pair.\nTherefore the correct choice is Propanoic acid + Ethanol because it supplies the CH3CH2CO– and C2H5– fragments that match CH3CH2COOC2H5."
+    },
+    {
+      "id": 60008,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-8",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Detergents are surfactants composed of a hydrophobic hydrocarbon tail and a hydrophilic head that together lower surface tension and solubilize oils.\nUsing straight (linear) hydrocarbon chains makes the hydrophobic tails less sterically hindered and more accessible to microbial enzymes, so they biodegrade more readily.\nLinear alkylbenzene sulfonates (LAS) are a standard example: linear chains were adopted because they break down in sewage treatment more efficiently than branched chains.\nSolubility is primarily controlled by the polar head group and the overall hydrophile–lipophile balance, not merely by whether the tail is straight or branched, although tail length also matters.\nFoaming depends on the surfactant class and formulation (air entrapment, additives), so high foam is not guaranteed by straight chains alone.\nAlkalinity describes pH or added basic agents in the formulation and is unrelated to the geometry of the hydrocarbon tail, so 'alkaline' is not the reason for straight chains.",
+      "after": "Detergents are surfactants composed of a hydrophobic hydrocarbon tail and a hydrophilic head that together lower surface tension and solubilize oils.\nUsing straight (linear) hydrocarbon chains makes the hydrophobic tails less sterically hindered and more accessible to microbial enzymes, so they biodegrade more readily.\nLinear alkylbenzene sulfonates (LAS) are a standard example: linear chains were adopted because they break down in sewage treatment more efficiently than branched chains.\nAlkalinity describes pH or added basic agents in the formulation and is unrelated to the geometry of the hydrocarbon tail, so 'alkaline' is not the reason for straight chains."
+    },
+    {
+      "id": 60010,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-10",
+      "subject": "Chemistry",
+      "topic": "Hydrocarbons and Petroleum",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Fractional distillation separates crude oil into lighter and heavier fractions by boiling point, leaving a dense heavy residue at the bottom.\nThe heavy residual fraction is commonly called bitumen or asphalt and is solid or semi-solid at ambient temperature.\nBitumen is used as coatings for pipes because it provides waterproofing, adhesion and resistance to corrosion and weathering.\nTractor fuel is obtained from the diesel or gas-oil fraction (middle distillates), not from the heavy residue.\nAviation fuels are kerosene-range fractions (jet fuel) with properties unsuitable for the heavy residual and so are not made from bitumen.\nSome heavy residues can be upgraded by cracking, but the unprocessed residual solids are primarily used as asphaltic coatings rather than as aviation or tractor fuels.",
+      "after": "Fractional distillation separates crude oil into lighter and heavier fractions by boiling point, leaving a dense heavy residue at the bottom.\nThe heavy residual fraction is commonly called bitumen or asphalt and is solid or semi-solid at ambient temperature.\nBitumen is used as coatings for pipes because it provides waterproofing, adhesion and resistance to corrosion and weathering.\nSome heavy residues can be upgraded by cracking, but the unprocessed residual solids are primarily used as asphaltic coatings rather than as aviation or tractor fuels."
+    },
+    {
+      "id": 60011,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-11",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An acid anhydride undergoes nucleophilic acyl substitution because the carbonyl carbons are electrophilic and are attacked by ammonia.\nAmmonia replaces one acyl group to form an amide (RCONH2) while the other acyl fragment becomes a carboxylic acid or its ammonium salt, so the organic nitrogen product is an amide.\nTherefore option D (Amides) is correct as the direct organic product of anhydride + NH3.\nAmines (option A) are nitrogen-containing bases but would require reduction or deacylation to form from an anhydride, not simple reaction with NH3.\nAmino acids (option B) have both -NH2 and -COOH on the same carbon and are not produced by treating a generic acid anhydride with NH3 under normal conditions.\nEthanoate (option C) denotes an acetate ion or ester fragment and is not the nitrogen-containing organic product expected, so it is incorrect.",
+      "after": "An acid anhydride undergoes nucleophilic acyl substitution because the carbonyl carbons are electrophilic and are attacked by ammonia.\nAmmonia replaces one acyl group to form an amide (RCONH2) while the other acyl fragment becomes a carboxylic acid or its ammonium salt, so the organic nitrogen product is an amide.\nTherefore option D (Amides) is correct as the direct organic product of anhydride + NH3.\nEthanoate (option C) denotes an acetate ion or ester fragment and is not the nitrogen-containing organic product expected, so it is incorrect."
+    },
+    {
+      "id": 60012,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-12",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "An alkanone is a ketone (R2C=O) and reduction supplies hydrogen to the carbonyl group.\nLiAlH4 is a strong hydride donor that delivers H- to the carbonyl carbon and subsequent protonation yields an alcohol.\nWhen a ketone is reduced the carbon bearing two alkyl groups becomes R2CH–OH, which is a secondary alkanol.\nThus the correct option is Secondary alkanols because ketones give secondary alcohols on reduction while aldehydes give primary alcohols.\nPolyhydric (multiple‑OH) alkanols arise only if the substrate has more than one reducible group or multiple carbonyls, not from a single ketone.\nTertiary alcohols are not formed by direct hydride reduction of a carbonyl because forming a tertiary alcohol would require creating a new C–C bond or breaking an alkyl–carbon bond, not simply adding hydrogen.",
+      "after": "An alkanone is a ketone (R2C=O) and reduction supplies hydrogen to the carbonyl group.\nLiAlH4 is a strong hydride donor that delivers H- to the carbonyl carbon and subsequent protonation yields an alcohol.\nWhen a ketone is reduced the carbon bearing two alkyl groups becomes R2CH–OH, which is a secondary alkanol.\nTertiary alcohols are not formed by direct hydride reduction of a carbonyl because forming a tertiary alcohol would require creating a new C–C bond or breaking an alkyl–carbon bond, not simply adding hydrogen."
+    },
+    {
+      "id": 60014,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-14",
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Stoichiometry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Use the ideal gas law PV = nRT with R = 0.082 L·atm·mol⁻¹·K⁻¹ because pressure is in atm and volume is sought in litres (dm³).\nConvert temperature to kelvin: T = −23°C + 273 = 250 K.\nSubstitute values into V = nRT/P: V = (25 × 0.082 × 250)/4 = 128.125 L (dm³).\nRounded to one decimal place this gives 128.1 dm³, which matches the listed correct option.\nThe other choices arise from typical errors: 15.17 or 38.84 dm³ come from incorrect temperature or arithmetic, and 80 dm³ from misusing R or dividing incorrectly by pressure.\nRemember that 1 L = 1 dm³, so no further unit conversion is needed for the final value 128.1 dm³.",
+      "after": "Use the ideal gas law PV = nRT with R = 0.082 L·atm·mol⁻¹·K⁻¹ because pressure is in atm and volume is sought in litres (dm³).\nConvert temperature to kelvin: T = −23°C + 273 = 250 K.\nSubstitute values into V = nRT/P: V = (25 × 0.082 × 250)/4 = 128.125 L (dm³).\nRemember that 1 L = 1 dm³, so no further unit conversion is needed for the final value 128.1 dm³."
+    },
+    {
+      "id": 60015,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-15",
+      "subject": "Chemistry",
+      "topic": "Hydrocarbons and Petroleum",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Destructive distillation of coal involves heating coal strongly in the absence of air so that volatile products are driven off and a solid residue remains.\nThe non‑volatile solid left behind is coke — a hard, porous, carbon‑rich material produced when volatiles (coal gas, coal tar, ammoniacal liquor) are removed.\nCoke has high fixed carbon and little volatile matter because thermal decomposition converts organic constituents to gases and liquids, leaving a carbon matrix.\nBecause of its strength, porosity and high carbon content coke is used as a fuel and as a reducing agent in blast furnaces.\nCoal tar and coal gas are volatile condensates (liquid and gas respectively) collected during destructive distillation, while lamp black is soot from incomplete combustion of hydrocarbons and not the distillation residue.\nHence the correct non‑volatile residue from destructive distillation of coal is coke.",
+      "after": "Destructive distillation of coal involves heating coal strongly in the absence of air so that volatile products are driven off and a solid residue remains.\nThe non‑volatile solid left behind is coke — a hard, porous, carbon‑rich material produced when volatiles (coal gas, coal tar, ammoniacal liquor) are removed.\nCoke has high fixed carbon and little volatile matter because thermal decomposition converts organic constituents to gases and liquids, leaving a carbon matrix.\nHence the correct non‑volatile residue from destructive distillation of coal is coke."
+    },
+    {
+      "id": 60016,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-16",
+      "subject": "Chemistry",
+      "topic": "Industrial Chemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The correct choice is nitrous oxide (N₂O), the inhalational anaesthetic commonly called 'laughing gas'.\nN₂O is a colorless, sweet‑smelling gas that produces analgesia and mild general anaesthesia and is widely used in dentistry and short procedures.\nIts anaesthetic action comes from CNS depression when inhaled at suitable concentrations, often in combination with other agents.\nNO₂ (nitrogen dioxide) is a reddish‑brown, strongly oxidizing and irritating gas that is toxic to the respiratory tract, not an anaesthetic.\nNH₃ (ammonia) is a pungent, irritating basic gas used industrially and as a household chemical, and it does not produce anaesthesia.\nNO (nitric oxide) can be used medically as an inhaled vasodilator in specific respiratory situations but is not an inhalational anaesthetic like N₂O.",
+      "after": "The correct choice is nitrous oxide (N₂O), the inhalational anaesthetic commonly called 'laughing gas'.\nN₂O is a colorless, sweet‑smelling gas that produces analgesia and mild general anaesthesia and is widely used in dentistry and short procedures.\nIts anaesthetic action comes from CNS depression when inhaled at suitable concentrations, often in combination with other agents.\nNO (nitric oxide) can be used medically as an inhaled vasodilator in specific respiratory situations but is not an inhalational anaesthetic like N₂O."
+    },
+    {
+      "id": 60019,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-19",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Alkaline pyrogallol absorbs oxygen because pyrogallol is readily oxidized in alkaline solution, removing O2 from an air stream.\nCaustic potash (KOH) absorbs carbon dioxide by converting CO2 into potassium carbonate/bicarbonate, so CO2 is removed.\nHence the constituents removed are O2 and CO2 when air is passed successively through alkaline pyrogallol and caustic potash.\nNitrogen is not removed because neither reagent reacts appreciably with N2 under these conditions, so N2 remains in the residual gas.\nOptions that merely reverse the order (CO2 & O2) or repeat O2 & CO2 state the same constituents; the order in the option does not change which gases are absorbed.\nConfidence: high; these conclusions follow standard senior-secondary chemistry: pyrogallol absorbs O2 and KOH absorbs CO2.",
+      "after": "Alkaline pyrogallol absorbs oxygen because pyrogallol is readily oxidized in alkaline solution, removing O2 from an air stream.\nCaustic potash (KOH) absorbs carbon dioxide by converting CO2 into potassium carbonate/bicarbonate, so CO2 is removed.\nHence the constituents removed are O2 and CO2 when air is passed successively through alkaline pyrogallol and caustic potash.\nConfidence: high; these conclusions follow standard senior-secondary chemistry: pyrogallol absorbs O2 and KOH absorbs CO2."
+    },
+    {
+      "id": 60020,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-20",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question distinguishes forms of iron by carbon content and their mechanical properties, especially tensile strength.\nCast iron contains about 2–4% carbon, making it hard and brittle with relatively low tensile strength, so it is the correct choice for objects that do not require high tensile strength.\nCast iron is used for castings such as pipes, manhole covers, stoves and other items where castability and compressive strength matter more than tensile strength.\nPig iron is the crude blast-furnace product with very high carbon and impurities and is generally an intermediate material rather than a finished product for making objects.\nWrought iron has very low carbon, is malleable and tough with good tensile strength, and is used where ductility and strength are required.\nIron rust (iron oxide) is a flaky, non-metallic corrosion product and is not a usable metallic form for manufacturing objects.",
+      "after": "The question distinguishes forms of iron by carbon content and their mechanical properties, especially tensile strength.\nCast iron contains about 2–4% carbon, making it hard and brittle with relatively low tensile strength, so it is the correct choice for objects that do not require high tensile strength.\nCast iron is used for castings such as pipes, manhole covers, stoves and other items where castability and compressive strength matter more than tensile strength.\nIron rust (iron oxide) is a flaky, non-metallic corrosion product and is not a usable metallic form for manufacturing objects."
+    },
+    {
+      "id": 60021,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-21",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Aqua regia is a mixture of concentrated hydrochloric acid and concentrated nitric acid in the volumetric ratio 3:1 (HCl:HNO3).\nNitric acid serves as the oxidizing agent while hydrochloric acid supplies chloride ions that form stable chloro‑complexes with oxidized metal ions, allowing gold and platinum to dissolve.\nThe reaction mixture also produces reactive species such as chlorine (Cl2) and nitrosyl chloride (NOCl) that assist the oxidation process.\nA 3:1 ratio balances oxidizing power and chloride availability so oxidized metal stays solubilized as complexes (for example AuCl4−).\nAlternative ratios like 1:1 or 2:1 provide less chloride and so weaker complexation, while 1:3 has excess oxidizer but insufficient chloride to form stable metal‑chloride complexes, which is why 3:1 is standard.\nConcentrated acids and aqua regia are highly corrosive and reactive, so preparation and handling require appropriate laboratory safety measures.",
+      "after": "Aqua regia is a mixture of concentrated hydrochloric acid and concentrated nitric acid in the volumetric ratio 3:1 (HCl:HNO3).\nNitric acid serves as the oxidizing agent while hydrochloric acid supplies chloride ions that form stable chloro‑complexes with oxidized metal ions, allowing gold and platinum to dissolve.\nThe reaction mixture also produces reactive species such as chlorine (Cl2) and nitrosyl chloride (NOCl) that assist the oxidation process.\nConcentrated acids and aqua regia are highly corrosive and reactive, so preparation and handling require appropriate laboratory safety measures."
+    },
+    {
+      "id": 60023,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-23",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Tartaric acid is a naturally occurring dicarboxylic acid (2,3-dihydroxybutanedioic acid) found in certain fruits and plants.\nGrapes, particularly wine grapes, are a well-known and significant source of tartaric acid and this acid influences wine acidity and stability.\nLemon and orange are rich in citric acid rather than tartaric acid, so they are not considered primary sources of tartaric acid.\nBanana contains small amounts of various organic acids (including citric and malic acids) but is not notable for tartaric acid content.\nThus the correct option is Grape because grapes accumulate tartaric acid in appreciable quantities compared with the other choices.\nRemembering typical fruit acids helps distinguish options: grapes → tartaric acid, citrus fruits → citric acid, and many pomes (e.g., apples) → malic acid.",
+      "after": "Tartaric acid is a naturally occurring dicarboxylic acid (2,3-dihydroxybutanedioic acid) found in certain fruits and plants.\nGrapes, particularly wine grapes, are a well-known and significant source of tartaric acid and this acid influences wine acidity and stability.\nLemon and orange are rich in citric acid rather than tartaric acid, so they are not considered primary sources of tartaric acid.\nRemembering typical fruit acids helps distinguish options: grapes → tartaric acid, citrus fruits → citric acid, and many pomes (e.g., apples) → malic acid."
+    },
+    {
+      "id": 60025,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-25",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The hydrogen ion H+ has no electrons and cannot contribute an electron pair to form a normal covalent bond.\nOxygen in H2O carries two lone pairs; one lone pair is donated to H+ to form the hydronium ion H3O+ (H2O + H+ → H3O+).\nThis donation creates a coordinate (dative) covalent bond, meaning both bonding electrons come from the oxygen atom.\nThe O–H bond in H3O+ is covalent in bonding character but is described as dative because of the one‑sided electron donation.\nIt is not ionic because no full electron transfer produces separate charged species, and it is not metallic because no metal atoms or delocalised metallic bonding are involved.\nTherefore the best answer is “Dative”; the plain option “Covalent” is related but less precise, while “Ionic” and “Metallic” are incorrect.",
+      "after": "The hydrogen ion H+ has no electrons and cannot contribute an electron pair to form a normal covalent bond.\nOxygen in H2O carries two lone pairs; one lone pair is donated to H+ to form the hydronium ion H3O+ (H2O + H+ → H3O+).\nThis donation creates a coordinate (dative) covalent bond, meaning both bonding electrons come from the oxygen atom.\nTherefore the best answer is “Dative”; the plain option “Covalent” is related but less precise, while “Ionic” and “Metallic” are incorrect."
+    },
+    {
+      "id": 60026,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-26",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Electrical conductivity of aqueous solutions depends on the concentration of ions and the degree to which the solute ionizes.\nStrong electrolytes such as HCl ionize essentially completely, whereas weak electrolytes like ethanoic (acetic) acid ionize only partially.\nA 2.0 M HCl solution therefore supplies the largest concentration of charge carriers (H+ and Cl−), and the very high mobility of H+ further increases conductivity.\n0.5 M HCl is also a strong acid but at lower concentration it provides fewer ions and so conducts less than 2.0 M HCl.\n2.0 M ethanoic acid, although more concentrated, remains a weak acid and produces far fewer ions than 2.0 M HCl, so its conductivity is much lower.\n0.5 M ethanoic acid is both dilute and weakly ionized, making it the least conducting option here.",
+      "after": "Electrical conductivity of aqueous solutions depends on the concentration of ions and the degree to which the solute ionizes.\nStrong electrolytes such as HCl ionize essentially completely, whereas weak electrolytes like ethanoic (acetic) acid ionize only partially.\nA 2.0 M HCl solution therefore supplies the largest concentration of charge carriers (H+ and Cl−), and the very high mobility of H+ further increases conductivity.\n0.5 M ethanoic acid is both dilute and weakly ionized, making it the least conducting option here."
+    },
+    {
+      "id": 60027,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-27",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Ionization energy is the energy required to remove an electron from a gaseous atom and depends mainly on nuclear charge, atomic radius and electron shielding.\nFluorine has a small atomic radius and a relatively high effective nuclear charge on its valence electrons, so those electrons are held more tightly and require more energy to remove.\nPotassium's outer electron is in a much larger orbital (4s) and is strongly shielded by inner electrons, so it is held less tightly and has a much lower ionization energy.\nThus the option \"Nuclear charge & atomic size\" correctly explains why fluorine's ionization energy is far higher than potassium's.\nMass, density and melting point are bulk or material properties and do not directly determine the first ionization energy of isolated atoms.\nAtomic mass can correlate with size in a general sense but is not the controlling factor for ionization energy, so the other options are not plausible explanations for the observed difference.",
+      "after": "Ionization energy is the energy required to remove an electron from a gaseous atom and depends mainly on nuclear charge, atomic radius and electron shielding.\nFluorine has a small atomic radius and a relatively high effective nuclear charge on its valence electrons, so those electrons are held more tightly and require more energy to remove.\nPotassium's outer electron is in a much larger orbital (4s) and is strongly shielded by inner electrons, so it is held less tightly and has a much lower ionization energy.\nAtomic mass can correlate with size in a general sense but is not the controlling factor for ionization energy, so the other options are not plausible explanations for the observed difference."
+    },
+    {
+      "id": 60028,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-28",
+      "subject": "Chemistry",
+      "topic": "Energetics and Thermodynamics",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Enthalpy change (ΔH) measures heat absorbed or released by a reaction at constant pressure.\nA positive ΔH means the reaction absorbs heat from the surroundings, so it is endothermic.\nEndothermic processes include melting, vaporization, and photosynthesis where heat is taken into the system.\nThe opposite is exothermic, which has negative ΔH and releases heat to the surroundings; therefore 'Exothermic' is incorrect.\nSpontaneity depends on Gibbs free energy (ΔG = ΔH - TΔS), so a positive ΔH does not by itself determine whether a reaction is spontaneous.\n'Neutral' is not a standard thermochemical classification for ΔH; reactions with ΔH ≈ 0 have negligible heat exchange but are not typically called neutral.",
+      "after": "Enthalpy change (ΔH) measures heat absorbed or released by a reaction at constant pressure.\nA positive ΔH means the reaction absorbs heat from the surroundings, so it is endothermic.\nEndothermic processes include melting, vaporization, and photosynthesis where heat is taken into the system.\n'Neutral' is not a standard thermochemical classification for ΔH; reactions with ΔH ≈ 0 have negligible heat exchange but are not typically called neutral."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "subject": "Chemistry",
+  "batch": 2,
+  "batchSize": 20,
+  "eligibleTotal": 109,
+  "selected": [
+    {
+      "id": 60060,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-60",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "This question asks what type of chemical bond forms between sodium (atomic number 11) and chlorine (atomic number 17).\nSodium has one valence electron (3s1) and chlorine has seven valence electrons (3s23p5), so Na tends to lose one electron while Cl tends to gain one to attain noble gas configurations.\nWhen Na donates an electron to Cl, Na+ and Cl− ions are formed and attract each other by electrostatic forces, which is the definition of an ionic bond.\nCovalent bonding involves mutual sharing of electron pairs between nonmetal atoms and does not describe the complete electron transfer that occurs here.\nMetallic bonding involves a lattice of metal cations in a sea of delocalized electrons and therefore does not apply to a metal–nonmetal pair like Na and Cl.\nA dative (coordinate) bond is a form of covalent bonding where one atom supplies both electrons for the shared pair, which is different from the electron transfer and ion formation observed for Na and Cl.",
+      "after": "This question asks what type of chemical bond forms between sodium (atomic number 11) and chlorine (atomic number 17).\nSodium has one valence electron (3s1) and chlorine has seven valence electrons (3s23p5), so Na tends to lose one electron while Cl tends to gain one to attain noble gas configurations.\nWhen Na donates an electron to Cl, Na+ and Cl− ions are formed and attract each other by electrostatic forces, which is the definition of an ionic bond.\nA dative (coordinate) bond is a form of covalent bonding where one atom supplies both electrons for the shared pair, which is different from the electron transfer and ion formation observed for Na and Cl."
+    },
+    {
+      "id": 60061,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-61",
+      "subject": "Chemistry",
+      "topic": "Mole Concept and Stoichiometry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Balance by conservation of atoms: coefficients must make the numbers of C, H and O equal on both sides of the equation.\nCarbon: CH4 has one carbon so it forms one CO2 (coefficient of CO2 = 1).\nHydrogen: CH4 has four hydrogens, which requires two H2O molecules (2 × 2 H = 4 H), so H2O coefficient = 2.\nOxygen atoms on the product side = 2 (from CO2) + 2×1 (from 2 H2O) = 4 oxygen atoms, so the reactant O2 must supply 4 oxygen atoms.\nEach O2 molecule provides 2 oxygen atoms, hence x = 4/2 = 2 and the correct coefficient is 2.\nOptions 1 and 4 are incorrect because x=1 gives only 2 oxygen atoms (too few) and x=4 gives 8 oxygen atoms (too many); the duplicate '2' in the options represents the same correct value.",
+      "after": "Balance by conservation of atoms: coefficients must make the numbers of C, H and O equal on both sides of the equation.\nCarbon: CH4 has one carbon so it forms one CO2 (coefficient of CO2 = 1).\nHydrogen: CH4 has four hydrogens, which requires two H2O molecules (2 × 2 H = 4 H), so H2O coefficient = 2.\nOptions 1 and 4 are incorrect because x=1 gives only 2 oxygen atoms (too few) and x=4 gives 8 oxygen atoms (too many); the duplicate '2' in the options represents the same correct value."
+    },
+    {
+      "id": 60064,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-64",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "pH is a scale from about 0 to 14 that measures hydrogen ion concentration; values below 7 are acidic, 7 is neutral and above 7 are alkaline.\nAlkalinity increases with increasing pH because each pH unit corresponds to a tenfold change in [H+].\nThe highest pH among 2.0, 3.5, 8.0 and 13.0 is 13.0, so that solution is the most alkaline.\npH 8.0 is only mildly basic, while pH 3.5 and 2.0 are acidic, with pH 2.0 being the stronger acid of the two.\nNumerically, pH 13.0 has 10^5 times lower hydrogen ion concentration than pH 8.0 (difference of five pH units), illustrating how much more basic it is.\nTherefore the correct choice is 13.0 because it indicates the lowest [H+] and highest basicity among the options.",
+      "after": "pH is a scale from about 0 to 14 that measures hydrogen ion concentration; values below 7 are acidic, 7 is neutral and above 7 are alkaline.\nAlkalinity increases with increasing pH because each pH unit corresponds to a tenfold change in [H+].\nThe highest pH among 2.0, 3.5, 8.0 and 13.0 is 13.0, so that solution is the most alkaline.\nTherefore the correct choice is 13.0 because it indicates the lowest [H+] and highest basicity among the options."
+    },
+    {
+      "id": 60065,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-65",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Use n = mass / Mr to find moles and apply the redox stoichiometry Ag+ + e− → Ag which consumes one electron per Ag atom.\nMoles of Ag = 212 g ÷ 106 g mol−1 = 2.0 mol.\nSince one electron is required to reduce one Ag+ ion, one mole of Ag corresponds to one mole of electrons.\nTherefore the moles of electrons required = 2.0 mol.\nThe 1 mol option would correspond to 106 g of Ag and the 3 mol option to 318 g, so those do not match the given 212 g.\nThe duplicate '2 mol' option appears to be a typographical repetition but does not affect that 2 mol is the correct answer.",
+      "after": "Use n = mass / Mr to find moles and apply the redox stoichiometry Ag+ + e− → Ag which consumes one electron per Ag atom.\nMoles of Ag = 212 g ÷ 106 g mol−1 = 2.0 mol.\nSince one electron is required to reduce one Ag+ ion, one mole of Ag corresponds to one mole of electrons.\nThe duplicate '2 mol' option appears to be a typographical repetition but does not affect that 2 mol is the correct answer."
+    },
+    {
+      "id": 60067,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-67",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The thermal decomposition is 2KClO3 → 2KCl + 3O2; a catalyst increases the reaction rate by lowering the activation energy without being consumed.\nManganese(IV) oxide (MnO2) is the standard heterogeneous catalyst used in school and laboratory preparations of oxygen from KClO3 because it provides an active surface and remains chemically unchanged.\nPotassium permanganate (MnO4− in KMnO4) is a strong oxidizing agent that would be consumed in redox processes, not a reusable catalyst for this decomposition.\nNickel (Ni) can catalyse certain reactions (e.g., hydrogenation) but is not the conventional catalyst for KClO3 decomposition and is not used in standard oxygen preparation methods.\nConcentrated sulfuric acid (H2SO4) is an acid and dehydrating/oxidizing agent that can cause side reactions and is not used as a catalyst to produce O2 from KClO3.\nThus MnO2 is correct because it accelerates O2 evolution without being consumed, whereas the other options would either be consumed or are not suitable catalysts for this reaction.",
+      "after": "The thermal decomposition is 2KClO3 → 2KCl + 3O2; a catalyst increases the reaction rate by lowering the activation energy without being consumed.\nManganese(IV) oxide (MnO2) is the standard heterogeneous catalyst used in school and laboratory preparations of oxygen from KClO3 because it provides an active surface and remains chemically unchanged.\nPotassium permanganate (MnO4− in KMnO4) is a strong oxidizing agent that would be consumed in redox processes, not a reusable catalyst for this decomposition.\nThus MnO2 is correct because it accelerates O2 evolution without being consumed, whereas the other options would either be consumed or are not suitable catalysts for this reaction."
+    },
+    {
+      "id": 60068,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-68",
+      "subject": "Chemistry",
+      "topic": "Chemical Equilibrium",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The equilibrium constant K (Kc or Kp) quantifies the ratio of product to reactant activities or concentrations at equilibrium for a given temperature.\nK depends on temperature because ΔG° = -RT lnK and the van ’t Hoff relation shows how K changes when T changes.\nChanging pressure changes partial pressures and the reaction quotient Q, so the equilibrium position shifts, but K at a fixed temperature remains the same.\nA catalyst increases the forward and reverse rates equally so equilibrium is reached faster but the numerical value of K is unchanged.\nChanging concentrations perturbs the system and causes a shift (Le Châtelier’s principle) to a new equilibrium composition, yet K at that temperature stays constant.\nThus, of the options given only temperature changes the equilibrium constant while pressure, catalyst and concentration alter position or rate but not K.",
+      "after": "The equilibrium constant K (Kc or Kp) quantifies the ratio of product to reactant activities or concentrations at equilibrium for a given temperature.\nK depends on temperature because ΔG° = -RT lnK and the van ’t Hoff relation shows how K changes when T changes.\nChanging pressure changes partial pressures and the reaction quotient Q, so the equilibrium position shifts, but K at a fixed temperature remains the same.\nThus, of the options given only temperature changes the equilibrium constant while pressure, catalyst and concentration alter position or rate but not K."
+    },
+    {
+      "id": 60070,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-70",
+      "subject": "Chemistry",
+      "topic": "Gas Laws and Diffusion",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Diffusion in liquids is the net movement of solute particles from a region of higher concentration to a region of lower concentration due to random molecular motion.\nA good demonstration requires a solute that dissolves readily and produces a visible change so the spreading can be observed without stirring.\nCuSO4 is highly soluble in water and dissociates into blue Cu2+ and SO4^2− ions, so the blue colour visibly spreads as those ions diffuse through the solvent.\nAn insoluble solid will not dissolve and so will not produce a moving coloured front to illustrate diffusion, making option two incorrect.\nA solute that reacts slowly or one that forms a precipitate can alter the appearance or produce solids that mask simple diffusion, so options three and four are unsuitable for a clear demonstration.\nTherefore the correct choice is ‘Highly soluble → shows colour spreading’ because the combination of rapid dissolution and a vivid colour makes the diffusion process easy to observe.",
+      "after": "Diffusion in liquids is the net movement of solute particles from a region of higher concentration to a region of lower concentration due to random molecular motion.\nA good demonstration requires a solute that dissolves readily and produces a visible change so the spreading can be observed without stirring.\nCuSO4 is highly soluble in water and dissociates into blue Cu2+ and SO4^2− ions, so the blue colour visibly spreads as those ions diffuse through the solvent.\nTherefore the correct choice is ‘Highly soluble → shows colour spreading’ because the combination of rapid dissolution and a vivid colour makes the diffusion process easy to observe."
+    },
+    {
+      "id": 60071,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-71",
+      "subject": "Chemistry",
+      "topic": "Combustion and Fuels",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "A Bunsen burner flame is divided into zones that reflect oxygen availability and how completely the gas burns.\nIncomplete combustion occurs where oxygen is insufficient, producing unburnt hydrocarbons, soot and a lower temperature.\nThe inner zone (the pale or dark cone nearest the nozzle) contains largely unburnt gas and is oxygen-poor, so combustion is incomplete there.\nThe outer zone is oxygen-rich and the hottest region where complete combustion takes place, so it is not the zone of incomplete combustion.\nThe middle (luminous) part represents partial combustion with higher temperature than the inner zone but is more oxidizing than the inner cone, making it a less plausible alternative.\nTherefore the inner zone is correct because it characteristically shows incomplete combustion (soot formation and lower temperature), unlike the outer or tip regions.",
+      "after": "A Bunsen burner flame is divided into zones that reflect oxygen availability and how completely the gas burns.\nIncomplete combustion occurs where oxygen is insufficient, producing unburnt hydrocarbons, soot and a lower temperature.\nThe inner zone (the pale or dark cone nearest the nozzle) contains largely unburnt gas and is oxygen-poor, so combustion is incomplete there.\nTherefore the inner zone is correct because it characteristically shows incomplete combustion (soot formation and lower temperature), unlike the outer or tip regions."
+    },
+    {
+      "id": 60072,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-72",
+      "subject": "Chemistry",
+      "topic": "Acids, Bases and Salts",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The reaction of a hot alkali (e.g., NaOH or KOH) with a fat or oil is called saponification.\nIn saponification, triglyceride esters are hydrolysed by the strong base to give glycerol and the sodium or potassium salts of fatty acids (soap).\nMechanistically, hydroxide ions attack the ester linkages of the triglyceride, breaking them to liberate glycerol and fatty acid anions that form soap salts.\nTherefore 'Saponification' is the correct option because it specifically names the base hydrolysis of fats to soap under hot alkali conditions.\nEsterification is the reverse process (acid + alcohol → ester + water) and 'Neutralization' refers generally to acid–base salt formation without describing ester hydrolysis to soap.\nHydrogenation adds hydrogen to C=C bonds in unsaturated fats to make more saturated fats (e.g., margarine) and does not produce soap, so it is not correct.",
+      "after": "The reaction of a hot alkali (e.g., NaOH or KOH) with a fat or oil is called saponification.\nIn saponification, triglyceride esters are hydrolysed by the strong base to give glycerol and the sodium or potassium salts of fatty acids (soap).\nMechanistically, hydroxide ions attack the ester linkages of the triglyceride, breaking them to liberate glycerol and fatty acid anions that form soap salts.\nHydrogenation adds hydrogen to C=C bonds in unsaturated fats to make more saturated fats (e.g., margarine) and does not produce soap, so it is not correct."
+    },
+    {
+      "id": 60073,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-73",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Valency is the positive charge an element must have to balance the negative charge of the anion in a neutral compound; X(SO4) is a neutral salt formed from X^n+ and SO4^2−.\nTetraoxosulphate (sulfate) is the anion SO4^2− and therefore carries a 2− charge.\nIn the formula X(SO4) one SO4^2− is balanced by one X^n+, so the charge n on X must be +2 to give electrical neutrality.\nHence the valency (charge) of element X in X(SO4) is 2, i.e. X is divalent.\nIf X were monovalent (1+) the formula would be X2SO4; if trivalent (3+) formulas would require different stoichiometry (e.g. X2(SO4)3 in ionic counting), and if tetravalent (4+) a compound like X(SO4)2 would be expected — none match X(SO4).\nThis conclusion follows straightforward ionic charge balance, so X has valency 2 (oxidation state +2 in the ionic model).",
+      "after": "Valency is the positive charge an element must have to balance the negative charge of the anion in a neutral compound; X(SO4) is a neutral salt formed from X^n+ and SO4^2−.\nTetraoxosulphate (sulfate) is the anion SO4^2− and therefore carries a 2− charge.\nIn the formula X(SO4) one SO4^2− is balanced by one X^n+, so the charge n on X must be +2 to give electrical neutrality.\nThis conclusion follows straightforward ionic charge balance, so X has valency 2 (oxidation state +2 in the ionic model)."
+    },
+    {
+      "id": 60074,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-74",
+      "subject": "Chemistry",
+      "topic": "Gas Laws and Diffusion",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Use Graham’s law: diffusion rate ∝ 1/√M, so a lighter gas diffuses faster than a heavier one.\nWith M_H = 1 and M_M = 25, Rate_H/Rate_M = √(25/1) = 5, so hydrogen diffuses five times faster than gas M.\nTime for a given volume is inversely proportional to rate, and when volumes differ t scales as t_H × (Rate_H/Rate_M) × (V_M/V_H).\nCompute t_M = 40 s × 5 × (245/140) = 40 × 5 × 1.75 = 350 s.\nTherefore 350 s is correct; 70 s or 80 s would wrongly imply gas M is faster, while 400 s reflects an arithmetic or ratio-misapplication error.\nIncluding the square-root mass ratio and the volume ratio yields the correct answer 350 s and distinguishes it from the distractors.",
+      "after": "Use Graham’s law: diffusion rate ∝ 1/√M, so a lighter gas diffuses faster than a heavier one.\nWith M_H = 1 and M_M = 25, Rate_H/Rate_M = √(25/1) = 5, so hydrogen diffuses five times faster than gas M.\nTime for a given volume is inversely proportional to rate, and when volumes differ t scales as t_H × (Rate_H/Rate_M) × (V_M/V_H).\nIncluding the square-root mass ratio and the volume ratio yields the correct answer 350 s and distinguishes it from the distractors."
+    },
+    {
+      "id": 60077,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-77",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Soft solder is a low‑melting alloy used to join metals at temperatures much lower than welding or brazing, typically melting near 180–190°C.\nThe conventional composition is an alloy of lead (Pb) and tin (Sn), often quoted as about 60% Sn and 40% Pb or the 63/37 eutectic mix.\nLead–tin alloys give a low melting point because alloying Sn and Pb produces a eutectic composition with a melting temperature lower than either pure metal.\nSn + Cu is not the traditional soft solder; tin–copper mixtures are used in some lead‑free solders and generally have higher melting points than Pb–Sn solders.\nPb + Al is unsuitable for ordinary soft soldering because aluminium rapidly forms an oxide film and is not readily wetted by Pb–based solders without special flux or methods.\nSn + Zn appears in some lead‑free alloy formulations but is not the conventional soft solder for general electronic or plumbing use due to different wetting and corrosion properties.",
+      "after": "Soft solder is a low‑melting alloy used to join metals at temperatures much lower than welding or brazing, typically melting near 180–190°C.\nThe conventional composition is an alloy of lead (Pb) and tin (Sn), often quoted as about 60% Sn and 40% Pb or the 63/37 eutectic mix.\nLead–tin alloys give a low melting point because alloying Sn and Pb produces a eutectic composition with a melting temperature lower than either pure metal.\nSn + Zn appears in some lead‑free alloy formulations but is not the conventional soft solder for general electronic or plumbing use due to different wetting and corrosion properties."
+    },
+    {
+      "id": 60078,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-78",
+      "subject": "Chemistry",
+      "topic": "Energetics and Thermodynamics",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Enthalpy change (ΔH) measures the heat absorbed or released by a reaction at constant pressure.\nA positive ΔH means the system absorbs heat from the surroundings, so energy is taken in during the process.\nReactions that absorb heat are termed endothermic, therefore “Endothermic” is the correct choice.\nExothermic reactions have negative ΔH and release heat to the surroundings, which is the opposite of a positive ΔH.\nA “Neutral” option would correspond to ΔH ≈ 0, indicating no net heat exchange, and is distinct from a positive enthalpy change.\nCombustion is a class of reaction that is generally exothermic (ΔH < 0), so it does not correspond to a positive ΔH.",
+      "after": "Enthalpy change (ΔH) measures the heat absorbed or released by a reaction at constant pressure.\nA positive ΔH means the system absorbs heat from the surroundings, so energy is taken in during the process.\nReactions that absorb heat are termed endothermic, therefore “Endothermic” is the correct choice.\nCombustion is a class of reaction that is generally exothermic (ΔH < 0), so it does not correspond to a positive ΔH."
+    },
+    {
+      "id": 60081,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-81",
+      "subject": "Chemistry",
+      "topic": "Combustion and Fuels",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Knocking in petrol engines is reduced by anti‑knock agents that raise the octane rating and stabilise combustion.\nTetraethyllead (TEL) was historically used because lead compounds suppress the radical reactions that cause knocking.\nTEL is no longer used principally because it is highly toxic and causes serious environmental and human health problems.\nLead emitted from TEL accumulates in air, soil and living tissues and can cause neurological damage, especially in children.\nBeing expensive is not the main reason for its removal, since TEL was inexpensive compared with the cost of its health and environmental impacts.\nTEL does not react destructively with petrol or simply form a precipitate; the phase‑out was driven by toxicity and by emissions control requirements (e.g. catalytic converters).",
+      "after": "Knocking in petrol engines is reduced by anti‑knock agents that raise the octane rating and stabilise combustion.\nTetraethyllead (TEL) was historically used because lead compounds suppress the radical reactions that cause knocking.\nTEL is no longer used principally because it is highly toxic and causes serious environmental and human health problems.\nTEL does not react destructively with petrol or simply form a precipitate; the phase‑out was driven by toxicity and by emissions control requirements (e.g. catalytic converters)."
+    },
+    {
+      "id": 60084,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-84",
+      "subject": "Chemistry",
+      "topic": "Metals and Extraction",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Limestone (CaCO3) is added to the blast furnace where it decomposes on heating to CaO and CO2.\nThe CaO acts as a basic flux and reacts with acidic impurities such as silica (SiO2) to form calcium silicate (CaSiO3), which is removed as slag.\nLimestone is not used to reduce Fe2O3, because reduction of iron oxide in the furnace is carried out by carbon monoxide and carbon from coke.\nIt does not act as a fuel, since limestone is not a combustible material and its decomposition actually absorbs heat and produces CO2.\nAdding limestone does not increase the melting point; the CaO–SiO2 reaction produces a low-melting slag that facilitates separation of molten iron from impurities.\nThus the correct option is Remove impurities (as slag) because CaO from decomposed limestone combines with gangue to form removable slag.",
+      "after": "Limestone (CaCO3) is added to the blast furnace where it decomposes on heating to CaO and CO2.\nThe CaO acts as a basic flux and reacts with acidic impurities such as silica (SiO2) to form calcium silicate (CaSiO3), which is removed as slag.\nLimestone is not used to reduce Fe2O3, because reduction of iron oxide in the furnace is carried out by carbon monoxide and carbon from coke.\nThus the correct option is Remove impurities (as slag) because CaO from decomposed limestone combines with gangue to form removable slag."
+    },
+    {
+      "id": 60086,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-86",
+      "subject": "Chemistry",
+      "topic": "Energetics and Thermodynamics",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept tested is Gibbs free energy (ΔG), used to predict spontaneity of processes at constant temperature and pressure.\nA reaction is spontaneous when ΔG is negative because the system loses free energy and the process can proceed without added work.\nWhen ΔG = 0 the system is at equilibrium and there is no net spontaneous change in composition.\nWhen ΔG is positive the reaction is non‑spontaneous and will not proceed without input of energy.\nThe option “Infinite” is not a meaningful descriptor for Gibbs free energy in this context and is therefore incorrect.\nTherefore the correct choice is Negative, since ΔG < 0 indicates a spontaneous reaction under the usual thermodynamic conditions.",
+      "after": "The concept tested is Gibbs free energy (ΔG), used to predict spontaneity of processes at constant temperature and pressure.\nA reaction is spontaneous when ΔG is negative because the system loses free energy and the process can proceed without added work.\nWhen ΔG = 0 the system is at equilibrium and there is no net spontaneous change in composition.\nTherefore the correct choice is Negative, since ΔG < 0 indicates a spontaneous reaction under the usual thermodynamic conditions."
+    },
+    {
+      "id": 60087,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-87",
+      "subject": "Chemistry",
+      "topic": "Separation Techniques",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The question concerns the Bayer process used to purify bauxite into aluminium oxide (Al2O3).\nThe correct order is crushing → digestion (with hot NaOH to dissolve aluminium hydroxides) → filtration (to remove insoluble red mud) → precipitation of Al(OH)3 → calcination to give Al2O3.\nCrushing precedes digestion to increase surface area and allow efficient leaching of aluminium-bearing minerals.\nFiltration must follow digestion because insoluble impurities (iron oxides, silica as red mud) are removed before you precipitate aluminium hydroxide.\nCalcination is last because it thermally decomposes the precipitated Al(OH)3 to anhydrous Al2O3; performing it earlier would prevent the chemical steps that rely on soluble hydroxide.\nAny option that puts filtration before digestion or places calcination before precipitation is implausible since it would either stop leaching of aluminium species or destroy the hydroxide required for precipitation.",
+      "after": "The question concerns the Bayer process used to purify bauxite into aluminium oxide (Al2O3).\nThe correct order is crushing → digestion (with hot NaOH to dissolve aluminium hydroxides) → filtration (to remove insoluble red mud) → precipitation of Al(OH)3 → calcination to give Al2O3.\nCrushing precedes digestion to increase surface area and allow efficient leaching of aluminium-bearing minerals.\nAny option that puts filtration before digestion or places calcination before precipitation is implausible since it would either stop leaching of aluminium species or destroy the hydroxide required for precipitation."
+    },
+    {
+      "id": 60089,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-89",
+      "subject": "Chemistry",
+      "topic": "Gas Laws and Diffusion",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Boyle's law states that for a fixed mass of gas at constant temperature the pressure is inversely proportional to the volume (P ∝ 1/V).\nFor an isothermal process the relationship is written P1V1 = P2V2.\nIf the volume is doubled (V2 = 2V1) substitution gives P2 = P1/2, so the pressure becomes half the original.\nThe option 'Double' is incorrect because it would imply pressure increases with increasing volume, contradicting the inverse relationship.\n'Unchanged' is wrong because changing volume at constant temperature (for a fixed mass of gas) must change pressure, while 'Zero' is impossible here unless all gas were removed to create a vacuum.\nThis explanation assumes a closed tyre with a fixed amount of air behaving approximately as an ideal gas and that the temperature remains constant.",
+      "after": "Boyle's law states that for a fixed mass of gas at constant temperature the pressure is inversely proportional to the volume (P ∝ 1/V).\nFor an isothermal process the relationship is written P1V1 = P2V2.\nIf the volume is doubled (V2 = 2V1) substitution gives P2 = P1/2, so the pressure becomes half the original.\nThis explanation assumes a closed tyre with a fixed amount of air behaving approximately as an ideal gas and that the temperature remains constant."
+    },
+    {
+      "id": 60090,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-90",
+      "subject": "Chemistry",
+      "topic": "Qualitative Analysis",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "The concept involved is the aqueous solubility of ionic chlorides and the common exceptions to the general solubility rule for chlorides.\nSilver chloride (AgCl) is insoluble because it has a very low solubility product (Ksp) and precipitates from water as a white solid.\nCopper(II) chloride (CuCl2) is soluble, dissociating into Cu2+ and Cl− ions in water, so it does not form an insoluble precipitate here.\nAluminium chloride (AlCl3) readily dissolves in water (and can hydrolyse to give an acidic solution), so it is not classed as insoluble.\nCalcium chloride (CaCl2) is highly soluble and is used for purposes that exploit that solubility (e.g., as a drying agent or de-icer).\nOther standard insoluble chlorides at this level include lead(II) chloride (PbCl2) and mercury(I) chloride (Hg2Cl2); among the given options AgCl is the classic insoluble example.",
+      "after": "The concept involved is the aqueous solubility of ionic chlorides and the common exceptions to the general solubility rule for chlorides.\nSilver chloride (AgCl) is insoluble because it has a very low solubility product (Ksp) and precipitates from water as a white solid.\nCopper(II) chloride (CuCl2) is soluble, dissociating into Cu2+ and Cl− ions in water, so it does not form an insoluble precipitate here.\nOther standard insoluble chlorides at this level include lead(II) chloride (PbCl2) and mercury(I) chloride (Hg2Cl2); among the given options AgCl is the classic insoluble example."
+    },
+    {
+      "id": 60093,
+      "externalId": "JAMB-Mock-Questions-2026-md-Chemistry-93",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry and Polymers",
+      "sourceLabel": "Owner-provided Markdown · JAMB_Mock_Questions_2026.md · Biology + Chemistry",
+      "beforeLines": 6,
+      "afterLines": 4,
+      "before": "Methyl 2-methylpropenoate is the IUPAC name for methyl methacrylate (MMA), a vinyl ester monomer.\nMMA polymerizes by addition (typically free-radical) across the carbon–carbon double bond to form a high-molecular-weight polymer.\nThe resulting polymer is polymethyl methacrylate (PMMA), an acrylic thermoplastic known as acrylic glass or Plexiglas, corresponding to the given correct option.\nPolypropylene is produced by polymerizing propene (prop-1-ene), so it cannot come from methyl methacrylate.\nPolyvinyl chloride is obtained from vinyl chloride (chloroethene) and polyethylene from ethene, therefore neither matches MMA as a monomer.\nHence the polymer formed from methyl 2-methylpropenoate is polymethyl methacrylate (PMMA).",
+      "after": "Methyl 2-methylpropenoate is the IUPAC name for methyl methacrylate (MMA), a vinyl ester monomer.\nMMA polymerizes by addition (typically free-radical) across the carbon–carbon double bond to form a high-molecular-weight polymer.\nThe resulting polymer is polymethyl methacrylate (PMMA), an acrylic thermoplastic known as acrylic glass or Plexiglas, corresponding to the given correct option.\nHence the polymer formed from methyl 2-methylpropenoate is polymethyl methacrylate (PMMA)."
+    }
+  ]
+}
