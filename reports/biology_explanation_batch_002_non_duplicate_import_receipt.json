@@ -1,0 +1,24 @@
+{
+  "intended": 4,
+  "releaseReady": 0,
+  "imported": 0,
+  "sourceId": null,
+  "holds": [
+    {
+      "externalId": "biology-dr-high-0047",
+      "reason": "duplicate in active bank"
+    },
+    {
+      "externalId": "biology-dr-high-0059",
+      "reason": "duplicate in active bank"
+    },
+    {
+      "externalId": "biology-dr-high-0060",
+      "reason": "duplicate in active bank"
+    },
+    {
+      "externalId": "biology-dr-high-0062",
+      "reason": "duplicate in active bank"
+    }
+  ]
+}

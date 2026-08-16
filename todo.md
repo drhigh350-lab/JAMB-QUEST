@@ -297,8 +297,9 @@
 - [x] Harden Biology and legacy explanation generators so empty or error model responses become explicit holds instead of aborting or releasing unsafe content.
 - [x] Attempt Biology explanation batch 2 and retain all 20 records held after empty structured responses; no records imported.
 - [x] Stage and attempt legacy explanation batch 11; retain all 20 records held after model-response failures; no records applied.
-- [ ] Retry held Biology batch 2 when structured model output is available.
-- [ ] Retry held legacy batch 11 when structured model output is available.
+- [x] Retry held Biology batch 2 when structured model output is available. The four remaining candidates were all normalised duplicates of active-bank questions, so no duplicate was imported.
+- [x] Import only the four non-duplicate Biology DOCX batch-2 candidates after reapplying duplicate, official-topic, and four-line explanation gates. Full-bank duplicate prevention retained all four outside import.
+- [x] Retry held legacy batch 11 when structured model output is available. All 20 records now have approved four-line answer-safe explanations with unchanged question and answer content.
 
 - [x] Inventory the held all-subject PDF by subject, question range, and answer-key availability before any release decision.
 - [x] Research multiple independent answer-key sources for the held all-subject PDF and save source URLs and confidence evidence.

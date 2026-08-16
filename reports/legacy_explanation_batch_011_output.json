@@ -1,188 +1,188 @@
 {
   "batchNumber": 11,
   "inputCount": 20,
-  "readyCount": 0,
-  "holdCount": 20,
+  "readyCount": 20,
+  "holdCount": 0,
   "records": [
     {
       "id": 30423,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Euglena has chloroplasts and performs photosynthesis in sunlight.\nWhen light is absent it takes up organic nutrients from its surroundings.\nAn organism that can switch between photosynthetic autotrophy and nutrient uptake heterotrophy is called mixotrophic.\nAnswer: Mixotrophic",
+      "lineCount": 4,
+      "wordCount": 37,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30424,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Nitrification\nIt is the aerobic oxidation of ammonium (NH4+) to nitrite (NO2-) carried out by bacteria such as Nitrosomonas.\nNitrosomonas specifically catalyzes the first step converting ammonium into nitrite using oxygen as the electron acceptor.\nBecause this reaction is the defined conversion of ammonium into nitrite, the term 'nitrification' is the correct name.",
+      "lineCount": 4,
+      "wordCount": 53,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30425,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Imbibition\nIt is the rapid absorption of water by dry seed tissues, especially hydrophilic colloids such as starch and proteins.\nThe absorbed water, aided by adhesive and capillary forces, causes the seed tissues to swell.\nThat swelling produces mechanical expansion and rehydrates cells, triggering metabolic activity that starts germination.",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30426,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Iron is an essential component of the haem group in haemoglobin and is needed for binding and transporting oxygen.\nWhen dietary iron is insufficient, the body cannot synthesize normal amounts of haemoglobin.\nReduced haemoglobin production leads to fewer or smaller red blood cells and lowers oxygen-carrying capacity.\nAnaemia",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30427,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Gaseous exchange requires air and blood to meet across a very thin barrier so gases can diffuse.\nEach alveolus is a tiny sac lined by a single layer of squamous epithelial cells and coated with surfactant.\nAlveoli are closely surrounded by a dense capillary network and together provide a large moist surface area with a very thin respiratory membrane for rapid O₂ uptake and CO₂ removal.\nAlveolus",
+      "lineCount": 4,
+      "wordCount": 67,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30428,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Homologous structures\nThey arise from a common evolutionary origin and share the same basic internal structure.\nHuman and whale forelimbs show the same bone arrangement (humerus, radius, ulna, carpals) following the tetrapod limb plan.\nThis shared anatomy indicates descent from a common ancestor even though the limbs have different functions.",
+      "lineCount": 4,
+      "wordCount": 50,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30429,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Homeostasis keeps internal conditions stable by maintaining variables within narrow limits despite external fluctuations.\nIt uses feedback systems: receptors detect changes, control centres compare to set points, and effectors restore balance.\nThrough this coordinated regulation the body maintains temperature, blood pH, blood glucose and osmotic balance within safe ranges.\nCorrect answer: Homeostasis",
+      "lineCount": 4,
+      "wordCount": 52,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30430,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Use and disuse of organs and inheritance of acquired traits\nLamarck argued that organs frequently used become stronger and better developed, while unused organs weaken or reduce.\nHe claimed that changes an organism acquires during its life to suit its environment can be transmitted to its offspring.\nTherefore this option correctly names Lamarck’s mechanism: evolution by use and disuse combined with inheritance of acquired traits.",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30431,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Homologous structures come from the same ancestral body part and share a common basic plan.\nThe whale flipper and horse forelimb both show the same sequence of limb bones: humerus, radius, ulna, carpals, metacarpals and phalanges.\nThese bones are modified for different functions (swimming in whales, running in horses) but retain the same structural blueprint.\nFinal answer: Whale flipper and horse forelimb",
+      "lineCount": 4,
+      "wordCount": 62,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30432,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Analogous structures are similar features that arise independently in unrelated organisms to perform the same or similar functions.\nSuch similarity comes from facing comparable environmental pressures or functional demands.\nConvergent evolution is the process where different lineages independently evolve similar traits as adaptive solutions to those pressures.\nConvergent evolution",
+      "lineCount": 4,
+      "wordCount": 49,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30433,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Fossils are preserved remains or traces of past organisms in sedimentary rocks, providing direct physical records of former life.\nTheir sequence in rock layers shows succession and transitional forms that link ancestral and descendant groups.\nDating methods such as stratigraphy and radiometric dating assign ages to fossils, allowing reconstruction of evolutionary timelines.\nAnswer: Fossils",
+      "lineCount": 4,
+      "wordCount": 54,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30434,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Speciation\nIt happens when a population becomes reproductively isolated so its members no longer exchange genes.\nOver many generations, mutation, natural selection and genetic drift cause genetic differences to accumulate.\nThose accumulated differences eventually prevent interbreeding (or produce infertile offspring), creating a new species.",
+      "lineCount": 4,
+      "wordCount": 44,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30435,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Mutation changes the DNA sequence in an organism's genes.\nThis can produce new alleles that affect how traits are inherited.\nWhen these altered genes are passed to offspring they create heritable differences between individuals.\nAnswer: Mutation",
+      "lineCount": 4,
+      "wordCount": 36,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30436,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "A vestigial organ is a structure that has lost most or all of its original function during evolution.\nThe human vermiform appendix is a reduced remnant of a larger cecum used by herbivorous ancestors for cellulose digestion.\nToday it may have minor immune or microbiome-related roles, but these functions are not essential for survival.\nFinal answer: Appendix",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30437,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Evolution is the gradual change in heritable characteristics of a population across successive generations.\nThese changes originate from genetic variation, such as mutation, recombination and gene flow, which alter allele frequencies.\nMechanisms like natural selection and genetic drift then act on that variation, causing some traits to become more or less common over time.\nCorrect answer: Evolution",
+      "lineCount": 4,
+      "wordCount": 57,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30438,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Divergent evolution occurs when related organisms change the same ancestral structure into different forms for different functions.\nHuman and bat forelimbs are homologous, sharing the same basic bone pattern: humerus, radius, ulna, carpals, metacarpals and phalanges.\nThose bones have been modified for different uses—manipulation in humans and flight in bats—showing the same structure diverged under different selective pressures.\nCorrect answer: Forelimbs of humans and bats",
+      "lineCount": 4,
+      "wordCount": 65,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30439,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Organisms with favourable inherited traits are more likely to survive and reproduce\nHeritable differences mean some individuals are better suited to the current environment\nThose better-suited individuals leave more surviving offspring on average\nOver generations the favourable inherited traits increase in frequency within the population",
+      "lineCount": 4,
+      "wordCount": 45,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30440,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Charles Darwin proposed natural selection by showing that individuals in a species vary and that some variations help survival and reproduction.\nThose advantageous, heritable traits become more common because individuals with them leave more offspring.\nDarwin gathered evidence from observations and presented this mechanism clearly in On the Origin of Species (1859).\nFinal answer: Charles Darwin",
+      "lineCount": 4,
+      "wordCount": 56,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30441,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Nephritis is inflammation of the kidneys, not the liver.\nIt involves inflammation of renal tissue and affects kidney function.\nBecause the condition targets the kidney organ, it is not classified as a liver disease.\nCorrect answer: Nephritis",
+      "lineCount": 4,
+      "wordCount": 37,
+      "status": "ready",
+      "holdReason": null
     },
     {
       "id": 30442,
       "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
-      "explanation": "",
-      "lineCount": 0,
-      "wordCount": 0,
-      "status": "hold",
-      "holdReason": "model-response-failure: empty model response: Insufficient credits"
+      "explanation": "Hepatitis\nHepatitis is inflammation of the liver caused by viruses, toxins, or autoimmune processes.\nIt primarily impairs liver function rather than affecting skin tissue, so it is not a skin disease.\nSkin changes like jaundice are secondary to liver dysfunction and do not make hepatitis a dermatological condition.",
+      "lineCount": 4,
+      "wordCount": 48,
+      "status": "ready",
+      "holdReason": null
     }
   ]
 }
