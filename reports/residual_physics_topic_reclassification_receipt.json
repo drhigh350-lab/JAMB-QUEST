@@ -1,0 +1,168 @@
+{
+  "input": 20,
+  "eligible": 20,
+  "updated": 20,
+  "skipped": 0,
+  "receipt": [
+    {
+      "id": 276,
+      "from": "Unclassified — source staged",
+      "to": "Quantity of heat",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Asks for heat needed to melt ice using specific latent heat (Q = mL), a calculation under Quantity of heat."
+    },
+    {
+      "id": 277,
+      "from": "Unclassified — source staged",
+      "to": "Change of state",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Conceptual distinction between boiling and evaporation belongs to Change of state."
+    },
+    {
+      "id": 278,
+      "from": "Unclassified — source staged",
+      "to": "Vapours",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Effect of pressure on boiling point relates to saturated vapour pressure and boiling, treated under Vapours."
+    },
+    {
+      "id": 279,
+      "from": "Unclassified — source staged",
+      "to": "Vapours",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Pressure cooker raising boiling point involves saturated vapour pressure/boiling concepts under Vapours."
+    },
+    {
+      "id": 280,
+      "from": "Unclassified — source staged",
+      "to": "Vapours",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Relative humidity definition (ratio involving saturated amount) is a Vapours topic."
+    },
+    {
+      "id": 281,
+      "from": "Unclassified — source staged",
+      "to": "Vapours",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Dew point (temperature of saturation/condensation) is under Vapours."
+    },
+    {
+      "id": 282,
+      "from": "Unclassified — source staged",
+      "to": "Vapours",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Wet and dry bulb hygrometer readings indicate humidity; hygrometry is in Vapours."
+    },
+    {
+      "id": 283,
+      "from": "Unclassified — source staged",
+      "to": "Structure of matter and kinetic theory",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Brownian motion evidences molecular/particulate nature; a core point of kinetic theory."
+    },
+    {
+      "id": 284,
+      "from": "Unclassified — source staged",
+      "to": "Structure of matter and kinetic theory",
+      "confidence": "medium",
+      "status": "updated",
+      "reason": "Explains surface tension via intermolecular forces, a kinetic theory perspective."
+    },
+    {
+      "id": 285,
+      "from": "Unclassified — source staged",
+      "to": "Structure of matter and kinetic theory",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Diffusion rate difference explained by molecular spacing and motion; kinetic theory."
+    },
+    {
+      "id": 286,
+      "from": "Unclassified — source staged",
+      "to": "Liquids at rest",
+      "confidence": "medium",
+      "status": "updated",
+      "reason": "Capillarity arises from surface tension/adhesion, commonly treated with surface phenomena in Liquids at rest."
+    },
+    {
+      "id": 287,
+      "from": "Unclassified — source staged",
+      "to": "Heat transfer",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Vacuum flask minimizes heat loss by radiation (silvered surfaces), a Heat transfer topic."
+    },
+    {
+      "id": 288,
+      "from": "Unclassified — source staged",
+      "to": "Heat transfer",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Convection requires a fluid and bulk motion; Heat transfer."
+    },
+    {
+      "id": 289,
+      "from": "Unclassified — source staged",
+      "to": "Heat transfer",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Good absorber is good emitter (Kirchhoff’s law of thermal radiation); Heat transfer."
+    },
+    {
+      "id": 290,
+      "from": "Unclassified — source staged",
+      "to": "Heat transfer",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Land breeze due to differential cooling and convection; application of Heat transfer."
+    },
+    {
+      "id": 291,
+      "from": "Unclassified — source staged",
+      "to": "Heat transfer",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Rate of conduction depends on conductivity, area, thickness, temperature gradient (Fourier’s law); Heat transfer."
+    },
+    {
+      "id": 292,
+      "from": "Unclassified — source staged",
+      "to": "Waves",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Uses v = fλ to find wave speed; fundamental Waves relation."
+    },
+    {
+      "id": 293,
+      "from": "Unclassified — source staged",
+      "to": "Waves",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Polarization is a property only of transverse waves; under Waves."
+    },
+    {
+      "id": 294,
+      "from": "Unclassified — source staged",
+      "to": "Characteristics of sound",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Beat frequency equals the difference of two sound frequencies; a characteristic of sound."
+    },
+    {
+      "id": 296,
+      "from": "Unclassified — source staged",
+      "to": "Propagation of sound",
+      "confidence": "high",
+      "status": "updated",
+      "reason": "Question about the speed of sound in media concerns how sound propagates."
+    }
+  ]
+}

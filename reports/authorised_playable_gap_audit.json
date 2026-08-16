@@ -1,16 +1,17 @@
 {
   "totalActiveAuthorisedRows": 3825,
-  "playableRows": 3456,
+  "playableRows": 3468,
   "outcomes": {
-    "playable": 3456,
-    "status:needs_review": 369
+    "invalid option content": 352,
+    "playable": 3468,
+    "status:needs_review": 5
   },
   "sources": {
     "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf": {
-      "status:needs_review": 186
+      "invalid option content": 186
     },
     "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf": {
-      "status:needs_review": 166
+      "invalid option content": 166
     },
     "Owner-provided Biology non-diagram collection — pending provenance review": {
       "playable": 458
@@ -22,16 +23,15 @@
       "playable": 47
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology": {
-      "playable": 86,
-      "status:needs_review": 3
+      "playable": 89
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": {
-      "playable": 74,
-      "status:needs_review": 9
+      "playable": 79,
+      "status:needs_review": 4
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": {
-      "playable": 37,
-      "status:needs_review": 5
+      "playable": 41,
+      "status:needs_review": 1
     },
     "Owner-provided Markdown · chem_part1.md · Chemistry": {
       "playable": 49
