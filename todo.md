@@ -269,12 +269,12 @@
 - [ ] Restore legacy questions toward the former 3,118 level only after they pass syllabus, answer, duplicate, and concise-explanation review
 - [ ] Identify only genuinely diagram-dependent Chemistry questions and add restrained black-and-white learning visuals where useful
 
-- [ ] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
+- [x] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
 - [ ] Parse and stage only structurally complete records from the all-subject PDF under the existing syllabus, duplicate, answer, and concise-explanation gates
 - [ ] Add black-and-white visuals only to approved questions where a diagram is required for solving or understanding the concept
 
-- [ ] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
-- [ ] Correct any Chemistry row whose runtime topic, explanation line count, option structure, or approval status fails the release gate
+- [x] Re-run the runtime playable audit for all 197 Chemistry DOCX records and confirm every released row passes the live mapper
+- [x] Correct any Chemistry row whose runtime topic, explanation line count, option structure, or approval status fails the release gate
 - [x] Inspect and parse the newly supplied Biology DOCX across every question, option, answer-key, and explanation format
 - [x] Deduplicate and structurally audit the Biology DOCX before staging any records
 - [x] Map Biology records to official JAMB syllabus parent topics and hold ambiguous records
