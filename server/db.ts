@@ -45,6 +45,9 @@ export type LearnerDashboard = {
   progress: LedgerSnapshot;
   comeback: {
     dailyMinimum: number;
+    dailyGoalCount: number;
+    dailyGoalSubject: string | null;
+    dailyGoalTopic: string | null;
     currentStreak: number;
     longestStreak: number;
     comebackXp: number;
@@ -370,6 +373,9 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     progress: buildLedgerSnapshot(progress),
     comeback: {
       dailyMinimum: system?.dailyMinimum ?? 10,
+      dailyGoalCount: system?.dailyGoalCount ?? system?.dailyMinimum ?? 10,
+      dailyGoalSubject: system?.dailyGoalSubject ?? null,
+      dailyGoalTopic: system?.dailyGoalTopic ?? null,
       currentStreak: system?.currentStreak ?? 0,
       longestStreak: system?.longestStreak ?? 0,
       comebackXp: system?.comebackXp ?? 0,
@@ -420,6 +426,11 @@ export async function updateLearnerProfile(userId: number, fallbackName: string 
   return getLearnerDashboard(userId, fallbackName);
 }
 
+export function countGoalQuestions(answerReview: Array<{ subject: string; topic: string }>, questionCount: number, goalSubject: string | null, goalTopic: string | null) {
+  if (!goalSubject || !goalTopic) return questionCount;
+  return answerReview.filter((answer) => answer.subject === goalSubject && answer.topic === goalTopic).length;
+}
+
 export async function recordLearnerRound(userId: number, fallbackName: string | null, input: RoundRecordInput) {
   const db = await ensureLearnerRows(userId, fallbackName);
   const [stored] = await db.select().from(learnerProgress).where(eq(learnerProgress.userId, userId)).limit(1);
@@ -455,8 +466,11 @@ export async function recordLearnerRound(userId: number, fallbackName: string | 
   const dateKey = localDateKey(timeZone);
   const activityKey = `${userId}:${dateKey}`;
   const [today] = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.activityKey, activityKey)).limit(1);
-  const dailyMinimum = system?.dailyMinimum ?? 10;
-  const questionsAnswered = (today?.questionsAnswered ?? 0) + input.questionCount;
+  const dailyMinimum = system?.dailyGoalCount ?? system?.dailyMinimum ?? 10;
+  const goalSubject = system?.dailyGoalSubject ?? null;
+  const goalTopic = system?.dailyGoalTopic ?? null;
+  const goalMatches = countGoalQuestions(input.answerReview, input.questionCount, goalSubject, goalTopic);
+  const questionsAnswered = (today?.questionsAnswered ?? 0) + goalMatches;
   const correctCount = (today?.correctCount ?? 0) + input.correctCount;
   const completedMinimum = questionsAnswered >= dailyMinimum;
   const firstCompletionToday = completedMinimum && !today?.completedMinimum;
@@ -515,9 +529,14 @@ export async function recordLearnerRound(userId: number, fallbackName: string | 
   return getLearnerDashboard(userId, fallbackName);
 }
 
-export async function updateLearnerSystem(userId: number, fallbackName: string | null, update: { dailyMinimum?: number }) {
+export async function updateLearnerSystem(userId: number, fallbackName: string | null, update: { dailyMinimum?: number; dailyGoalCount?: number; dailyGoalSubject?: string | null; dailyGoalTopic?: string | null }) {
   const db = await ensureLearnerRows(userId, fallbackName);
-  if (update.dailyMinimum !== undefined) await db.update(learnerSystems).set({ dailyMinimum: update.dailyMinimum }).where(eq(learnerSystems.userId, userId));
+  const set: { dailyMinimum?: number; dailyGoalCount?: number; dailyGoalSubject?: string | null; dailyGoalTopic?: string | null } = {};
+  if (update.dailyMinimum !== undefined) set.dailyMinimum = update.dailyMinimum;
+  if (update.dailyGoalCount !== undefined) { set.dailyGoalCount = update.dailyGoalCount; set.dailyMinimum = update.dailyGoalCount; }
+  if (update.dailyGoalSubject !== undefined) set.dailyGoalSubject = update.dailyGoalSubject;
+  if (update.dailyGoalTopic !== undefined) set.dailyGoalTopic = update.dailyGoalTopic;
+  if (Object.keys(set).length) await db.update(learnerSystems).set(set).where(eq(learnerSystems.userId, userId));
   return getLearnerDashboard(userId, fallbackName);
 }
 

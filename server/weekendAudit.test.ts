@@ -18,7 +18,9 @@ describe("weekend learner-flow audit", () => {
     expect(panel).toContain("Start today's mission");
     expect(panel).toContain("onStart(config)");
     expect(home).toContain('data-testid="goal-setter"');
-    expect(home).toContain("auth.onSaveProfile(auth.profileName, value)");
+    expect(home).toContain("Today’s study goal");
+    expect(home).toContain("Questions today");
+    expect(home).toContain("Optional topic");
   });
 
   it("makes parent syllabus sections and final-day recovery actions directly launchable", () => {

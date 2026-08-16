@@ -416,3 +416,4 @@
 - [x] Verify grouped parent syllabus sections launch their selected exact topic drill in untimed study mode.
 - [x] Fix the reported About-page question count mismatch: reconcile the displayed 4,952 total with the latest authoritative learner-facing playable count and add regression coverage across tabs. The runtime count is 4,952: 3,952 quality-gated authorised questions plus 1,000 model questions; the About page now reads the same settled count as Practice.
 
+- [x] Replace the score-oriented visible goal setter with a custom daily study goal: choose a question count and optionally a specific official syllabus topic, persist it, and show progress toward today’s goal while keeping the long-term JAMB target score separate. Daily progress counts all answered questions for an open goal or only matching answer-review records for a selected official topic.

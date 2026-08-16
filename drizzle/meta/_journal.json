@@ -71,6 +71,13 @@
       "when": 1786887102751,
       "tag": "0009_simple_vin_gonzales",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1786899529622,
+      "tag": "0010_square_frog_thor",
+      "breakpoints": true
     }
   ]
 }

@@ -1,6 +1,21 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
+import { buildLedgerSnapshot, countGoalQuestions, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
 import { selectDailyMission } from "../client/src/game/dailyMission";
+
+describe("daily study goals", () => {
+  it("counts all completed questions when no topic is selected", () => {
+    expect(countGoalQuestions([{ subject: "Biology", topic: "Genetics" }], 20, null, null)).toBe(20);
+  });
+
+  it("counts only matching answer-review records for a topic goal", () => {
+    expect(countGoalQuestions([
+      { subject: "Biology", topic: "Genetics" },
+      { subject: "Biology", topic: "Ecology" },
+      { subject: "Biology", topic: "Genetics" },
+      { subject: "Physics", topic: "Motion" },
+    ], 4, "Biology", "Genetics")).toBe(2);
+  });
+});
 
 describe("buildLedgerSnapshot", () => {
   it("hydrates valid persisted learner progress into the UI ledger shape", () => {

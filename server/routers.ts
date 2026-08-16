@@ -30,6 +30,9 @@ export const appRouter = router({
     })).mutation(({ ctx, input }) => updateLearnerProfile(ctx.user.id, ctx.user.name ?? null, input)),
     updateSystem: protectedProcedure.input(z.object({
       dailyMinimum: z.number().int().min(5).max(80).optional(),
+      dailyGoalCount: z.number().int().min(5).max(100).optional(),
+      dailyGoalSubject: subjectSchema.nullable().optional(),
+      dailyGoalTopic: z.string().trim().min(1).max(160).nullable().optional(),
     })).mutation(({ ctx, input }) => updateLearnerSystem(ctx.user.id, ctx.user.name ?? null, input)),
     updateReminder: protectedProcedure.input(z.object({
       enabled: z.boolean().optional(),

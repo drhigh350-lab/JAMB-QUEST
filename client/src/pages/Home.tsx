@@ -30,7 +30,7 @@ const badgeDefinitions = [
 type AppTab = "practice" | "progress" | "profile" | "about";
 type StudyPalette = Subject | "Lekki";
 type ComebackState = {
-  dailyMinimum: number; currentStreak: number; longestStreak: number; comebackXp: number; level: number; recoveryPending: boolean; consistencyScore: number;
+  dailyMinimum: number; dailyGoalCount?: number; dailyGoalSubject?: string | null; dailyGoalTopic?: string | null; currentStreak: number; longestStreak: number; comebackXp: number; level: number; recoveryPending: boolean; consistencyScore: number;
   today: { dateKey: string; questionsAnswered: number; correctCount: number; completedMinimum: boolean; xpEarned: number };
   activity: Array<{ dateKey: string; questionsAnswered: number; correctCount: number; completedMinimum: boolean; recoveryAction: boolean; xpEarned: number }>;
   badges: string[];
@@ -48,13 +48,13 @@ interface HomeProps {
   availableTopics?: Array<{ subject: Subject; topic: string }>;
   bookmarks?: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>;
   comparison?: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
-  comeback?: ComebackState; reminder?: ReminderState; onUpdateDailyMinimum: (dailyMinimum: number) => void; onEnablePush: () => void; onDisablePush: () => void; onTestPush?: () => void; pushWorking: boolean; pushStatus: "idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed" | "test-sent" | "test-failed";
+  comeback?: ComebackState; reminder?: ReminderState; onUpdateDailyMinimum: (dailyMinimum: number) => void; onUpdateDailyGoal?: (dailyGoalCount: number, dailyGoalSubject: Subject | null, dailyGoalTopic: string | null) => void; onEnablePush: () => void; onDisablePush: () => void; onTestPush?: () => void; pushWorking: boolean; pushStatus: "idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed" | "test-sent" | "test-failed";
   pwa: { isOnline: boolean; canInstall: boolean; installStatus: "idle" | "installing" | "installed" | "dismissed"; onInstall: () => void };
   resumableCbt?: { currentIndex: number; questionIds: string[]; secondsLeft: number } | null; onResumeCbt?: () => void; onDiscardResumableCbt?: () => void;
 }
 
 function guestComeback() {
-  return { dailyMinimum: 10, currentStreak: 0, longestStreak: 0, comebackXp: 0, level: 1, recoveryPending: false, consistencyScore: 0, today: { dateKey: "today", questionsAnswered: 0, correctCount: 0, completedMinimum: false, xpEarned: 0 }, activity: [], badges: [] } satisfies ComebackState;
+  return { dailyMinimum: 10, dailyGoalCount: 10, dailyGoalSubject: null, dailyGoalTopic: null, currentStreak: 0, longestStreak: 0, comebackXp: 0, level: 1, recoveryPending: false, consistencyScore: 0, today: { dateKey: "today", questionsAnswered: 0, correctCount: 0, completedMinimum: false, xpEarned: 0 }, activity: [], badges: [] } satisfies ComebackState;
 }
 
 function CompactPanel({ eyebrow, title, note, defaultOpen = false, children, tone = "paper" }: { eyebrow: string; title: string; note: string; defaultOpen?: boolean; children: React.ReactNode; tone?: "paper" | "ink" | "maize" }) {
@@ -68,7 +68,7 @@ function CompactPanel({ eyebrow, title, note, defaultOpen = false, children, ton
   </details>;
 }
 
-export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, examHistory, weakTopics, subjectPerformance = [], fullMockSubjectPerformance = [], availableTopics = [], bookmarks = [], comparison, onUpdateDailyMinimum, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
+export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, examHistory, weakTopics, subjectPerformance = [], fullMockSubjectPerformance = [], availableTopics = [], bookmarks = [], comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
   const [activeTab, setActiveTab] = useState<AppTab>(() => {
     const requested = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("tab");
     return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
@@ -94,7 +94,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const hasLekkiPractice = availableTopics.some((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster"));
   const isLekkiPalette = selectedPalette === "Lekki";
   const lekkiChapters = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster · Chapter")).map((item) => item.topic).sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
-  const selectedState = comeback ?? guestComeback();
+  const selectedState = { ...guestComeback(), ...(comeback ?? {}), today: { ...guestComeback().today, ...(comeback?.today ?? {}) }, dailyGoalCount: comeback?.dailyGoalCount ?? comeback?.dailyMinimum ?? 10, dailyGoalSubject: comeback?.dailyGoalSubject ?? null, dailyGoalTopic: comeback?.dailyGoalTopic ?? null };
   const wrongIds = progress.wrongIds ?? [];
   const visibleQuestionCount = questionCountReady ? questionCount : null;
   const visibleQuestionLabel = visibleQuestionCount === null ? "Preparing your JAMB Quest system" : `${visibleQuestionCount.toLocaleString()} practice questions`;
@@ -102,10 +102,11 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const roundAnalytics = summariseRoundAnalytics(examHistory);
   const overallAccuracy = progress.totalAnswered ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
   const progressNextAction = selectProgressNextAction({ accuracy: overallAccuracy, averageSecondsPerQuestion: roundAnalytics.averageSecondsPerQuestion, fallback: dailyMission.note });
-  const dailyPercent = Math.min(100, Math.round((selectedState.today.questionsAnswered / selectedState.dailyMinimum) * 100));
-  const targetLabel = auth.isAuthenticated ? `${auth.targetScore}` : "your goal";
+  const dailyPercent = Math.min(100, Math.round((selectedState.today.questionsAnswered / selectedState.dailyGoalCount) * 100));
+  const targetLabel = auth.isAuthenticated ? `${auth.targetScore}` : "your score target";
+  const dailyGoalTopicLabel = selectedState.dailyGoalSubject && selectedState.dailyGoalTopic ? `${selectedState.dailyGoalSubject} · ${selectedState.dailyGoalTopic}` : "Any subject";
   const liveMessages = [
-    selectedState.today.completedMinimum ? "Today’s minimum is complete. Protect the streak with one more deliberate round." : `${selectedState.dailyMinimum - Math.min(selectedState.dailyMinimum, selectedState.today.questionsAnswered)} marks remain in today’s system.`,
+    selectedState.today.completedMinimum ? "Today’s study goal is complete. Protect the streak with one more deliberate round." : `${selectedState.dailyGoalCount - Math.min(selectedState.dailyGoalCount, selectedState.today.questionsAnswered)} questions remain in today’s system.`,
     weakTopics[0] ? `Live focus: ${weakTopics[0].topic} is ready for a repair drill.` : "Live focus: finish your diagnostic to reveal the first weak topic.",
     visibleQuestionCount === null ? "Preparing your JAMB Quest system now." : `${visibleQuestionCount.toLocaleString()} practice questions are ready to support today’s system.`,
   ];
@@ -196,13 +197,13 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
       {activeTab === "practice" && <>
         <div className="entrance-item entrance-mission"><DailyMissionPanel label={dailyMission.label} note={dailyMission.note} config={dailyMission.config} onStart={onStart} /></div>
         <section className="compact-action-grid tab-section entrance-item entrance-tools" aria-label="Practice tools">
-          <CompactPanel eyebrow="01 / TODAY" title="Today’s JAMB practice" note={`${selectedState.today.questionsAnswered} of ${selectedState.dailyMinimum} questions in today’s plan`} defaultOpen tone="ink">
-            <div className="compact-system-status"><div><strong>{selectedState.today.questionsAnswered}<small> / {selectedState.dailyMinimum}</small></strong><span><CheckCircle2 size={14} /> {selectedState.today.completedMinimum ? "minimum complete" : `${selectedState.dailyMinimum - Math.min(selectedState.dailyMinimum, selectedState.today.questionsAnswered)} marks to go`}</span></div><div className="compact-system-metrics"><span><b>{selectedState.level}</b> level</span><span><b>{selectedState.comebackXp}</b> XP</span><span><b>{selectedState.currentStreak}</b> streak</span></div></div>
+          <CompactPanel eyebrow="01 / TODAY" title="Today’s JAMB practice" note={`${selectedState.today.questionsAnswered} of ${selectedState.dailyGoalCount} questions${selectedState.dailyGoalTopic ? ` · ${dailyGoalTopicLabel}` : " today"}`} defaultOpen tone="ink">
+            <div className="compact-system-status"><div><strong>{selectedState.today.questionsAnswered}<small> / {selectedState.dailyGoalCount}</small></strong><span><CheckCircle2 size={14} /> {selectedState.today.completedMinimum ? "daily goal complete" : `${selectedState.dailyGoalCount - Math.min(selectedState.dailyGoalCount, selectedState.today.questionsAnswered)} questions to go`}</span></div><div className="compact-system-metrics"><span><b>{selectedState.level}</b> level</span><span><b>{selectedState.comebackXp}</b> XP</span><span><b>{selectedState.currentStreak}</b> streak</span></div></div>
             <div className="system-meter"><i style={{ width: `${dailyPercent}%` }} /></div>
-            {auth.isAuthenticated && <div className="compact-minimum"><span>Daily minimum</span>{[5, 10, 20].map((value) => <button key={value} className={selectedState.dailyMinimum === value ? "active" : ""} onClick={() => onUpdateDailyMinimum(value)}>{value}</button>)}</div>}
+            {auth.isAuthenticated && <div className="compact-minimum"><span>Questions today</span>{[5, 10, 20, 40, 60].map((value) => <button key={value} className={selectedState.dailyGoalCount === value ? "active" : ""} onClick={() => onUpdateDailyGoal(value, selectedState.dailyGoalSubject && subjects.some((item) => item.name === selectedState.dailyGoalSubject) ? selectedState.dailyGoalSubject as Subject : null, selectedState.dailyGoalTopic ?? null)}>{value}</button>)}</div>}
             <div className="compact-goal-setter" data-testid="goal-setter">
-              <span><Target size={14} /> Target score <b>{targetLabel} / 400</b></span>
-              {auth.isAuthenticated ? <div>{[250, 280, 300, 320, 340, 360, 380].map((value) => <button key={value} className={auth.targetScore === value ? "active" : ""} onClick={() => auth.onSaveProfile(auth.profileName, value)} disabled={auth.savingProfile}>{value}</button>)}<button className="compact-goal-custom" onClick={() => setProfileOpen(true)}>Custom</button></div> : <button className="text-button" onClick={startLogin}>Set and save your goal <ArrowRight size={13} /></button>}
+              <span><Target size={14} /> Today’s study goal <b>{selectedState.dailyGoalCount} questions</b></span>
+              {auth.isAuthenticated ? <div className="daily-goal-controls"><label className="compact-topic-select"><span>Optional topic</span><select value={selectedState.dailyGoalTopic ? `${selectedState.dailyGoalSubject}||${selectedState.dailyGoalTopic}` : ""} onChange={(event) => { const [subject, ...topicParts] = event.target.value.split("||"); onUpdateDailyGoal(selectedState.dailyGoalCount ?? 10, subject ? subject as Subject : null, topicParts.length ? topicParts.join("||") : null); }}><option value="">Any subject</option>{availableTopics.filter((item) => !item.topic.startsWith("The Lekki Headmaster")).map((item) => <option key={`${item.subject}||${item.topic}`} value={`${item.subject}||${item.topic}`}>{item.subject} · {item.topic}</option>)}</select></label><button className="compact-goal-custom" onClick={() => setActiveTab("practice")} disabled={selectedState.today.completedMinimum}>{selectedState.dailyGoalTopic ? "Topic set" : "Set a topic"}</button></div> : <button className="text-button" onClick={startLogin}>Sign in to save today’s goal <ArrowRight size={13} /></button>}
             </div>
             <button className="compact-final-day-link" onClick={() => setActiveTab("progress")}><CalendarCheck2 size={14} /> Day before JAMB? Open your final-day review <ArrowRight size={13} /></button>
           </CompactPanel>
