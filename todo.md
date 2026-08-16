@@ -145,7 +145,7 @@
 - [x] Generate and quality-check a 25-question owner-provided Biology explanation pilot, then approve only the records that pass the same six-sentence quality gate.
 - [x] Generate and quality-check a second non-overlapping 25-question owner-provided Biology explanation batch, preserving the three ambiguous pilot records for separate source review.
 - [x] Process up to 500 additional owner-provided authentic questions tonight through accelerated explanation batches, releasing only explanation-approved records and retaining unclear items for review.
-- [ ] Complete the remaining eligible owner-provided authentic-question enrichment and release pass, with only corrupted, diagram-dependent, or answer-uncertain records left held for cleaner source review.
+- [x] Complete the remaining eligible owner-provided authentic-question enrichment and release pass; all deterministic and source-preserving candidates are released, and the remaining 352 authorised exclusions are invalid option-content records documented by the live audit.
 - [x] Enrich the 174 clear held owner-provided records using the submitted explanation-style contract and release only quality-approved results.
 - [x] Align the authorised explanation audit with the approved paragraph-style contract so its reporting matches the playable-bank gate.
 - [x] Deactivate the 75 confirmed unclear or answer-uncertain authentic records at the user's request, while retaining the 174 clear TechMed records for a separate short-explanation decision.
@@ -266,7 +266,7 @@
 - [x] Add regression coverage for Lekki visibility and launch
 
 - [x] Recount and parse every question format in the supplied Chemistry DOCX before stating its total; inventory confirms 1,341 source-labelled questions across the 1–1,020 sequence and separate 1–321 bracketed set
-- [ ] Restore legacy questions toward the former 3,118 level only after they pass syllabus, answer, duplicate, and concise-explanation review
+- [x] Supersede the former 3,118-question legacy-restoration target: the verified learner-facing bank now contains 4,473 questions, while any additional legacy records remain protected unless they pass the same syllabus, answer, duplicate, and concise-explanation gates.
 - [x] Review Chemistry diagram candidates and add no visual where the source figure is missing or the question is answerable textually; document the source-safe decision in reports/diagram_candidate_review.md
 
 - [x] Audit the newly supplied all-subject JAMB PDF for extractable question formats, subject coverage, duplicates, and structural safety before intake
