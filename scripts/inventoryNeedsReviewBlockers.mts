@@ -5,7 +5,7 @@ import { getDb } from "../server/db";
 import { resolveSyllabusTopic, type SyllabusSubject } from "../shared/syllabusTopicMap";
 
 const subjects = new Set<SyllabusSubject>(["Use of English", "Biology", "Chemistry", "Physics"]);
-const normalise = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+const normalise = (value: string) => value.normalize("NFKC").toLowerCase().replace(/\s+/g, "").replace(/[.,;:]+$/g, "");
 const lineCount = (value: string | null) => (value ?? "").split(/\r?\n/).map((line) => line.trim()).filter(Boolean).length;
 const db = await getDb();
 if (!db) throw new Error("Database unavailable");

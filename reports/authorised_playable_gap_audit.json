@@ -1,10 +1,9 @@
 {
   "totalActiveAuthorisedRows": 3825,
-  "playableRows": 3468,
+  "playableRows": 3473,
   "outcomes": {
     "invalid option content": 352,
-    "playable": 3468,
-    "status:needs_review": 5
+    "playable": 3473
   },
   "sources": {
     "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf": {
@@ -26,12 +25,10 @@
       "playable": 89
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": {
-      "playable": 79,
-      "status:needs_review": 4
+      "playable": 83
     },
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": {
-      "playable": 41,
-      "status:needs_review": 1
+      "playable": 42
     },
     "Owner-provided Markdown · chem_part1.md · Chemistry": {
       "playable": 49

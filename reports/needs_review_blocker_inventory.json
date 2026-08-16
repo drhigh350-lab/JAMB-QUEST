@@ -1,8 +1,8 @@
 {
   "total": 5,
-  "readyIfApproved": 0,
+  "readyIfApproved": 5,
   "byBlocker": {
-    "duplicate option text": 5
+    "status-only hold": 5
   },
   "bySource": {
     "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": 4,
@@ -20,10 +20,8 @@
       "explanation": "Each successive alkane differs by a CH₂ unit (methylene group) in its molecular formula.",
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "explanationLines": 1,
-      "blockers": [
-        "duplicate option text"
-      ],
-      "safeIfStatusApproved": false
+      "blockers": [],
+      "safeIfStatusApproved": true
     },
     {
       "id": 90148,
@@ -36,10 +34,8 @@
       "explanation": "X is glucose, a monosaccharide with molecular formula C₆H₁₂O₆.",
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "explanationLines": 1,
-      "blockers": [
-        "duplicate option text"
-      ],
-      "safeIfStatusApproved": false
+      "blockers": [],
+      "safeIfStatusApproved": true
     },
     {
       "id": 90163,
@@ -52,10 +48,8 @@
       "explanation": "The reaction involves 2 moles of NaOH (neutralization), so ΔH = 2 × (-57.3) = -114.6 kJ.",
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "explanationLines": 1,
-      "blockers": [
-        "duplicate option text"
-      ],
-      "safeIfStatusApproved": false
+      "blockers": [],
+      "safeIfStatusApproved": true
     },
     {
       "id": 90196,
@@ -68,10 +62,8 @@
       "explanation": "In NH₄⁺, the fourth N-H bond is formed when the nitrogen lone pair is donated to H⁺ (coordinate/dative covalent bond).",
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
       "explanationLines": 1,
-      "blockers": [
-        "duplicate option text"
-      ],
-      "safeIfStatusApproved": false
+      "blockers": [],
+      "safeIfStatusApproved": true
     },
     {
       "id": 90231,
@@ -84,10 +76,8 @@
       "explanation": "P = nRT/V = (1 × 8.3 × 300)/0.01 = 249,000 = 2.49 × 10⁵ Pa.",
       "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
       "explanationLines": 1,
-      "blockers": [
-        "duplicate option text"
-      ],
-      "safeIfStatusApproved": false
+      "blockers": [],
+      "safeIfStatusApproved": true
     }
   ]
 }
