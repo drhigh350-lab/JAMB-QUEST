@@ -1,0 +1,127 @@
+{
+  "input": 20,
+  "mapped": 20,
+  "held": 0,
+  "results": [
+    {
+      "id": 276,
+      "topic": "Quantity of heat",
+      "confidence": "high",
+      "reason": "Asks for heat needed to melt ice using specific latent heat (Q = mL), a calculation under Quantity of heat."
+    },
+    {
+      "id": 277,
+      "topic": "Change of state",
+      "confidence": "high",
+      "reason": "Conceptual distinction between boiling and evaporation belongs to Change of state."
+    },
+    {
+      "id": 278,
+      "topic": "Vapours",
+      "confidence": "high",
+      "reason": "Effect of pressure on boiling point relates to saturated vapour pressure and boiling, treated under Vapours."
+    },
+    {
+      "id": 279,
+      "topic": "Vapours",
+      "confidence": "high",
+      "reason": "Pressure cooker raising boiling point involves saturated vapour pressure/boiling concepts under Vapours."
+    },
+    {
+      "id": 280,
+      "topic": "Vapours",
+      "confidence": "high",
+      "reason": "Relative humidity definition (ratio involving saturated amount) is a Vapours topic."
+    },
+    {
+      "id": 281,
+      "topic": "Vapours",
+      "confidence": "high",
+      "reason": "Dew point (temperature of saturation/condensation) is under Vapours."
+    },
+    {
+      "id": 282,
+      "topic": "Vapours",
+      "confidence": "high",
+      "reason": "Wet and dry bulb hygrometer readings indicate humidity; hygrometry is in Vapours."
+    },
+    {
+      "id": 283,
+      "topic": "Structure of matter and kinetic theory",
+      "confidence": "high",
+      "reason": "Brownian motion evidences molecular/particulate nature; a core point of kinetic theory."
+    },
+    {
+      "id": 284,
+      "topic": "Structure of matter and kinetic theory",
+      "confidence": "medium",
+      "reason": "Explains surface tension via intermolecular forces, a kinetic theory perspective."
+    },
+    {
+      "id": 285,
+      "topic": "Structure of matter and kinetic theory",
+      "confidence": "high",
+      "reason": "Diffusion rate difference explained by molecular spacing and motion; kinetic theory."
+    },
+    {
+      "id": 286,
+      "topic": "Liquids at rest",
+      "confidence": "medium",
+      "reason": "Capillarity arises from surface tension/adhesion, commonly treated with surface phenomena in Liquids at rest."
+    },
+    {
+      "id": 287,
+      "topic": "Heat transfer",
+      "confidence": "high",
+      "reason": "Vacuum flask minimizes heat loss by radiation (silvered surfaces), a Heat transfer topic."
+    },
+    {
+      "id": 288,
+      "topic": "Heat transfer",
+      "confidence": "high",
+      "reason": "Convection requires a fluid and bulk motion; Heat transfer."
+    },
+    {
+      "id": 289,
+      "topic": "Heat transfer",
+      "confidence": "high",
+      "reason": "Good absorber is good emitter (Kirchhoff’s law of thermal radiation); Heat transfer."
+    },
+    {
+      "id": 290,
+      "topic": "Heat transfer",
+      "confidence": "high",
+      "reason": "Land breeze due to differential cooling and convection; application of Heat transfer."
+    },
+    {
+      "id": 291,
+      "topic": "Heat transfer",
+      "confidence": "high",
+      "reason": "Rate of conduction depends on conductivity, area, thickness, temperature gradient (Fourier’s law); Heat transfer."
+    },
+    {
+      "id": 292,
+      "topic": "Waves",
+      "confidence": "high",
+      "reason": "Uses v = fλ to find wave speed; fundamental Waves relation."
+    },
+    {
+      "id": 293,
+      "topic": "Waves",
+      "confidence": "high",
+      "reason": "Polarization is a property only of transverse waves; under Waves."
+    },
+    {
+      "id": 294,
+      "topic": "Characteristics of sound",
+      "confidence": "high",
+      "reason": "Beat frequency equals the difference of two sound frequencies; a characteristic of sound."
+    },
+    {
+      "id": 296,
+      "topic": "Propagation of sound",
+      "confidence": "high",
+      "reason": "Question about the speed of sound in media concerns how sound propagates."
+    }
+  ]
+}

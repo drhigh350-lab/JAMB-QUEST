@@ -1,0 +1,2529 @@
+{
+  "input": 360,
+  "mapped": 340,
+  "high": 317,
+  "medium": 23,
+  "held": 20,
+  "results": [
+    {
+      "id": 5,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "The question asks about characteristics that distinguish living from non-living things, which is a core concept in the 'Living organisms and organization' syllabus area."
+    },
+    {
+      "id": 6,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Protein synthesis and identification of the organelle (ribosome) is basic cell structure/function content covered under 'Living organisms and organization'."
+    },
+    {
+      "id": 7,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Recognizing cell features (large permanent vacuole, cellulose wall, chloroplasts) to identify a plant cell is a cell-structure question within 'Living organisms and organization'."
+    },
+    {
+      "id": 8,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Asking which level of organisation (stomach = organ) is a question about biological organisation levels, which belongs to 'Living organisms and organization'."
+    },
+    {
+      "id": 9,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Identification of the mitochondrion as the site of aerobic ATP production is cell structure/function content under 'Living organisms and organization'."
+    },
+    {
+      "id": 10,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Turgor pressure and osmoregulation via the plant vacuole concerns organelle function and cell physiology covered in 'Living organisms and organization'."
+    },
+    {
+      "id": 11,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Hierarchy of biological organisation (from simplest to most complex) is foundational material in 'Living organisms and organization'."
+    },
+    {
+      "id": 12,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "The nucleus as the control centre containing DNA is core cell biology included in 'Living organisms and organization'."
+    },
+    {
+      "id": 13,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Distinguishing structures unique to animal cells (e.g., centrioles) versus plant cells is cell-structure content in 'Living organisms and organization'."
+    },
+    {
+      "id": 14,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Using Hydra as an example of tissue-level organisation pertains to levels of organisation and tissue structure in 'Living organisms and organization'."
+    },
+    {
+      "id": 15,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Classifying blue-green algae under Monera because of prokaryotic features is a taxonomy/classification topic, so 'Evolution and classification' is appropriate."
+    },
+    {
+      "id": 16,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Euglena's placement in Protista due to mixed features (single-celled eukaryote with chloroplast/flagellum) is a classification question in 'Evolution and classification'."
+    },
+    {
+      "id": 17,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "The chemical composition of the fungal cell wall (chitin) is a distinguishing feature used in classifying fungi, fitting 'Evolution and classification'."
+    },
+    {
+      "id": 18,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Asking which plant shows the most advanced adaptation to terrestrial life directly addresses plant adaptations, so 'Adaptations of organisms' is the correct area."
+    },
+    {
+      "id": 19,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Distinguishing Bryophytes from Pteridophytes (e.g., presence/absence of vascular tissue, life-cycle differences) is a classification topic under 'Evolution and classification'."
+    },
+    {
+      "id": 20,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Identifying the phylum with jointed appendages, exoskeleton, segmented body (Arthropoda) is a taxonomy/classification question in 'Evolution and classification'."
+    },
+    {
+      "id": 21,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Assigning Taenia (tapeworm) to its phylum (Platyhelminthes) is a straightforward classification question in 'Evolution and classification'."
+    },
+    {
+      "id": 22,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Asking about the economic importance/role of the mosquito (e.g., disease vector, impact on human health/economy) relates to human-environment interactions, so 'Humans and environment' fits."
+    },
+    {
+      "id": 23,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Identifying the vertebrate class with a three-chambered heart and moist, scaleless skin (amphibians) is a classification of vertebrates, so 'Evolution and classification' applies."
+    },
+    {
+      "id": 24,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Comparing cartilaginous and bony fish based on skeleton composition and related features is a taxonomic/classification distinction in 'Evolution and classification'."
+    },
+    {
+      "id": 25,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Countershading is an adaptive coloration (camouflage) strategy to reduce predation risk—fits the 'Adaptations of organisms' topic."
+    },
+    {
+      "id": 26,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "The question concerns the caste performing reproduction in a termite colony, so it falls under reproductive biology."
+    },
+    {
+      "id": 27,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Hibernation is a physiological/behavioral adaptation for surviving adverse conditions, matching 'Adaptations of organisms'."
+    },
+    {
+      "id": 28,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "The butterfly's proboscis is a feeding adaptation (specialized mouthpart) — an example of organismal adaptation."
+    },
+    {
+      "id": 29,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Aestivation (estivation) is an adaptation to survive dry/harsh conditions, so it belongs to 'Adaptations of organisms'."
+    },
+    {
+      "id": 30,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Warning (aposematic) coloration is an adaptive trait to deter predators, fitting 'Adaptations of organisms'."
+    },
+    {
+      "id": 31,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Bright male coloration in Agama lizards is primarily a sexual/territorial display related to mating success, so it maps to 'Reproduction'."
+    },
+    {
+      "id": 32,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Resemblance to a twig is a form of protective mimicry/camouflage—an organismal adaptation."
+    },
+    {
+      "id": 33,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Distinguishing anatomical/physiological features of mammals (e.g., mammary glands, hair) concern mammal structure."
+    },
+    {
+      "id": 34,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Classifying Spirogyra as a thallophyte is a taxonomic/classification issue."
+    },
+    {
+      "id": 35,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Differences between monocots and dicots (cotyledons, venation, vascular arrangement) relate to plant structure."
+    },
+    {
+      "id": 36,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Binary fission is a mode of asexual reproduction; thus the item fits under 'Reproduction'."
+    },
+    {
+      "id": 37,
+      "subject": "Biology",
+      "topic": "Growth",
+      "confidence": "high",
+      "reason": "Metamorphic stages of a butterfly describe developmental growth changes, so this maps to 'Growth'."
+    },
+    {
+      "id": 39,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Characteristic segmentation (metamerism) of annelids concerns body organization, fitting 'Living organisms and organization'."
+    },
+    {
+      "id": 40,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Using Rhizopus to illustrate fungal characteristics relates to classification and grouping of organisms."
+    },
+    {
+      "id": 41,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Tracing plant transition from aquatic to terrestrial life refers to evolutionary evidence (fossils/adaptations), so 'Evidence of evolution' applies."
+    },
+    {
+      "id": 42,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Vascular bundle arrangement in stems is a structural feature of plants."
+    },
+    {
+      "id": 43,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Lateral growth (girth) of dicot stems being due to cambium concerns plant tissue structure and growth."
+    },
+    {
+      "id": 44,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Palisade mesophyll adaptations (chloroplast density, cell arrangement) are aspects of leaf/plant structure for photosynthesis."
+    },
+    {
+      "id": 45,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Xylem vessels function primarily in transport of water/minerals (and provide support); the primary fit is 'Transport'."
+    },
+    {
+      "id": 46,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Question asks anatomical location of a mammalian organ (kidney) — fits mammal structure/anatomy."
+    },
+    {
+      "id": 47,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Dark reaction (Calvin cycle) is a cellular/physiological process of photosynthesis studied under organization of living organisms (cell/organelle level)."
+    },
+    {
+      "id": 48,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Products of light-dependent reactions (ATP, NADPH, O2) are biochemical/physiological outcomes of photosynthesis — fits living organisms/organization."
+    },
+    {
+      "id": 49,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Plant response to nitrogen-deficient soil concerns soil nutrient availability and its effects — fits the Soil topic."
+    },
+    {
+      "id": 50,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "medium",
+      "reason": "Food tests for reducing sugars relate to food composition and nutrition; this is typically taught under nutrition/food testing rather than plant anatomy."
+    },
+    {
+      "id": 51,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Vitamin C deficiency (scurvy) is a nutritional deficiency disease — clearly Nutrition and digestion."
+    },
+    {
+      "id": 52,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Chemosynthesis vs photosynthesis concerns metabolic pathways and energy sources in organisms — fits living organisms/organization."
+    },
+    {
+      "id": 53,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Enzyme acting on starch in the mouth (salivary amylase) is part of digestive physiology — Nutrition and digestion."
+    },
+    {
+      "id": 54,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Absorption of most digested food (small intestine) is a digestive function — Nutrition and digestion."
+    },
+    {
+      "id": 55,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "high",
+      "reason": "Dental formula refers to tooth types and arrangement — anatomical feature of humans/mammals."
+    },
+    {
+      "id": 56,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Kwashiorkor is caused by protein malnutrition — a nutritional disease."
+    },
+    {
+      "id": 57,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "medium",
+      "reason": "Sundew’s insectivorous (carnivorous) nutrition is both a feeding strategy and an adaptation to poor soils; classified under Adaptations of organisms."
+    },
+    {
+      "id": 58,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Bile’s role (emulsification of fats) is a digestive function — Nutrition and digestion."
+    },
+    {
+      "id": 59,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Requirement of iron for haemoglobin formation is a nutritional mineral requirement — Nutrition and digestion."
+    },
+    {
+      "id": 60,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "End products of fat digestion (fatty acids and glycerol/monoglycerides) are part of digestion/nutrition."
+    },
+    {
+      "id": 61,
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "confidence": "high",
+      "reason": "Pepsin activity at low pH (stomach enzyme) is digestive physiology — Nutrition and digestion."
+    },
+    {
+      "id": 62,
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "confidence": "high",
+      "reason": "Leaf covered from light cannot photosynthesize/produce starch — this is a photosynthesis/cell physiology concept under living organisms/organization."
+    },
+    {
+      "id": 63,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Hepatic portal vein’s role in carrying absorbed nutrients from gut to liver concerns internal transport of substances — Transport."
+    },
+    {
+      "id": 64,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Osmosis as movement of water across a selectively permeable membrane in plant transport fits the Transport topic."
+    },
+    {
+      "id": 65,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Blood components and clotting (platelets) relate to circulatory system function and blood transport — classified under Transport."
+    },
+    {
+      "id": 66,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Transpiration pull describes the movement of water up the xylem from roots to leaves, a plant transport process."
+    },
+    {
+      "id": 67,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "The pulmonary artery is part of the circulatory system and is notable for carrying blood (deoxygenated) to the lungs, a transport function."
+    },
+    {
+      "id": 68,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "A hypertonic external solution causes water to move out of the cell by osmosis, which is a transport across membranes phenomenon."
+    },
+    {
+      "id": 69,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Lymph's primary role is returning excess tissue fluid to the bloodstream and transporting immune components — a transport function."
+    },
+    {
+      "id": 70,
+      "subject": "Biology",
+      "topic": "Transport",
+      "confidence": "high",
+      "reason": "Sieve tube elements and companion cells are components of phloem, which transport sugars in plants."
+    },
+    {
+      "id": 71,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Anaerobic respiration in yeast produces ethanol and carbon dioxide, a core respiration topic."
+    },
+    {
+      "id": 72,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Glycolysis yields a net gain of 2 ATP molecules per glucose without Krebs or oxidative phosphorylation; this is part of cellular respiration."
+    },
+    {
+      "id": 73,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Muscle fatigue from anaerobic respiration is due to accumulation of lactic acid—an aspect of animal respiration/metabolism."
+    },
+    {
+      "id": 74,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Identifying structures that serve (or do not serve) as respiratory surfaces pertains directly to respiration."
+    },
+    {
+      "id": 75,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "The Krebs (citric acid) cycle occurs in the mitochondrial matrix, a central part of cellular respiration."
+    },
+    {
+      "id": 76,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Gaseous exchange in plants during respiration primarily occurs through stomata/lenticels, a respiration-related process."
+    },
+    {
+      "id": 77,
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "confidence": "medium",
+      "reason": "Stomatal opening is driven by guard cell turgor and ion uptake; this involves stomatal structure and associated plant physiological mechanisms."
+    },
+    {
+      "id": 78,
+      "subject": "Biology",
+      "topic": "Respiration",
+      "confidence": "high",
+      "reason": "Observations demonstrating anaerobic respiration in yeast (e.g., CO2 or ethanol production under anaerobic conditions) relate to respiration."
+    },
+    {
+      "id": 79,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "The nephron is the functional unit of the kidney responsible for urine formation, an excretory system topic."
+    },
+    {
+      "id": 80,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "Forcing small molecules from the glomerulus into Bowman's capsule is glomerular filtration, a key excretory process."
+    },
+    {
+      "id": 81,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "Urea is the primary nitrogenous waste excreted by mammals, directly an excretion topic."
+    },
+    {
+      "id": 82,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "Malpighian tubules are insect excretory structures (arthropods), fitting the excretion category."
+    },
+    {
+      "id": 83,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "Plants' excretory products (e.g., oxygen, resins, tannins) are covered under plant excretion topics."
+    },
+    {
+      "id": 84,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "high",
+      "reason": "Selective reabsorption in the kidney prevents loss of useful substances (glucose, amino acids, water) during urine formation — an excretory process."
+    },
+    {
+      "id": 85,
+      "subject": "Biology",
+      "topic": "Excretion",
+      "confidence": "medium",
+      "reason": "The contractile vacuole expels excess water from Amoeba, a function related to excretion and osmoregulation."
+    },
+    {
+      "id": 86,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Phototropism is a growth response of shoots to light mediated by plant hormones (auxins), which falls under coordination and control of plant responses."
+    },
+    {
+      "id": 87,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Auxin-mediated cell elongation is a hormonal control mechanism in plants, so this question is about coordination and control."
+    },
+    {
+      "id": 88,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Apical dominance is regulated by auxin hormones produced at the shoot tip, making this a coordination and control topic."
+    },
+    {
+      "id": 89,
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "confidence": "high",
+      "reason": "Joints and their range of movement are part of the skeletal/muscular system, which is covered under support and movement."
+    },
+    {
+      "id": 90,
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "confidence": "high",
+      "reason": "The insect exoskeleton is a structural support for movement (chitin-based), so it fits support and movement."
+    },
+    {
+      "id": 92,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Double fertilisation is a reproductive process unique to angiosperms, so the appropriate area is reproduction."
+    },
+    {
+      "id": 93,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "medium",
+      "reason": "The advantage of cross-pollination relates to increased genetic diversity and reduced inbreeding; this connects directly to biological variation."
+    },
+    {
+      "id": 94,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Epigeal germination describes seed/embryo behavior during germination, which is part of plant reproduction."
+    },
+    {
+      "id": 95,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Conditions required for seed germination are topics within seed biology and reproductive processes."
+    },
+    {
+      "id": 96,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "The 'fight or flight' response is mediated by adrenal hormones (e.g., adrenaline) and is an aspect of endocrine coordination and control."
+    },
+    {
+      "id": 97,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Homeostasis is the maintenance of internal conditions via physiological control mechanisms (nervous and endocrine systems)."
+    },
+    {
+      "id": 98,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Insulin regulation of blood glucose is an endocrine control mechanism, falling under coordination and control."
+    },
+    {
+      "id": 99,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "The synapse (junction between neurons) is part of nervous system function, classified under coordination and control."
+    },
+    {
+      "id": 100,
+      "subject": "Biology",
+      "topic": "Coordination and control",
+      "confidence": "high",
+      "reason": "Reflex actions are involuntary nervous responses, a core topic in coordination and control."
+    },
+    {
+      "id": 101,
+      "subject": "Biology",
+      "topic": "Factors affecting distribution",
+      "confidence": "high",
+      "reason": "Abiotic factors determining organism distribution directly correspond to the syllabus area 'Factors affecting distribution.'"
+    },
+    {
+      "id": 102,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "A food chain represents feeding relationships and energy flow among populations, which is population ecology."
+    },
+    {
+      "id": 103,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "Removal of CO2 by plants (photosynthesis) is an ecosystem-level process in the carbon cycle and fits under natural habitats/ecosystem processes."
+    },
+    {
+      "id": 104,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "Organisms that decompose dead organic matter (decomposers/detritivores) are described in ecology and ecosystem functioning within natural habitats."
+    },
+    {
+      "id": 105,
+      "subject": "Biology",
+      "topic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "The Rhizobium–legume relationship is a classic example of symbiosis (mutualism), so it belongs to symbiotic interactions."
+    },
+    {
+      "id": 106,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "Trophic levels and energy distribution in a food chain are topics in population/ecosystem ecology."
+    },
+    {
+      "id": 107,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "The nitrogen cycle involves soil processes (fixation, nitrification, denitrification) and nutrient cycling in soils and ecosystems, so 'Soil' is the best match."
+    },
+    {
+      "id": 108,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "Population density is a core concept of population ecology (number of individuals per unit area or volume)."
+    },
+    {
+      "id": 109,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "high",
+      "reason": "The described sequence (bare rock to climax community) is ecological succession, a community-level change within natural habitats."
+    },
+    {
+      "id": 110,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "high",
+      "reason": "A biome with high rainfall, dense canopy, high biodiversity and year-round warmth describes tropical rainforest, which is a natural habitat/biome."
+    },
+    {
+      "id": 111,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "Predation regulates prey populations and affects population dynamics and community structure, which falls under population ecology."
+    },
+    {
+      "id": 112,
+      "subject": "Biology",
+      "topic": "Nigerian biomes",
+      "confidence": "high",
+      "reason": "The guinea savanna is a specific Nigerian biome; this question pertains to characteristics of that biome."
+    },
+    {
+      "id": 113,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "high",
+      "reason": "Condensation in the water cycle (vapour forming clouds) is an environmental process relevant to natural habitats and ecosystem cycles."
+    },
+    {
+      "id": 114,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "Biotic factors (predation, competition, disease, reproduction) directly affect population size, so this belongs to population ecology."
+    },
+    {
+      "id": 115,
+      "subject": "Biology",
+      "topic": "Population ecology",
+      "confidence": "high",
+      "reason": "Changes in one trophic level affecting others (trophic cascade) concern population interactions and dynamics, fitting population ecology."
+    },
+    {
+      "id": 116,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Contour ridging is a soil conservation method to reduce erosion and surface runoff, so it maps to 'Soil'."
+    },
+    {
+      "id": 117,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Differences in water retention relate to soil texture and pore size (sandy vs clay), so the topic is 'Soil'."
+    },
+    {
+      "id": 118,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Earthworms affect soil structure, aeration and nutrient cycling (fertility), making 'Soil' the appropriate area."
+    },
+    {
+      "id": 119,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "A game reserve's purpose (conservation, management of wildlife and habitats) addresses human–environment interactions and conservation policy."
+    },
+    {
+      "id": 120,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Global warming is primarily caused by increased atmospheric greenhouse gases (e.g., CO2) from human activities, an humans-and-environment issue."
+    },
+    {
+      "id": 121,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Transmission of Plasmodium to humans via a mosquito vector (Anopheles) relates to disease ecology and human–environment health interactions."
+    },
+    {
+      "id": 122,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Onchocerciasis is transmitted by blackflies (Simulium); this vector-borne disease concerns human health and environmental vectors."
+    },
+    {
+      "id": 123,
+      "subject": "Biology",
+      "topic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "The Plasmodium–human relationship is parasitism, a form of symbiotic interaction, so 'Symbiotic interactions' is the correct classification."
+    },
+    {
+      "id": 124,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Crop rotation maintains soil fertility by replenishing nutrients and reducing disease/pest buildup, a soil-management practice."
+    },
+    {
+      "id": 125,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "SO2 pollution arises from industrial and fossil-fuel combustion and affects air quality/acid deposition, fitting humans-and-environment topics."
+    },
+    {
+      "id": 126,
+      "subject": "Biology",
+      "topic": "Soil",
+      "confidence": "high",
+      "reason": "Humus improves soil structure, water-holding capacity and nutrient supply, so the topic is 'Soil'."
+    },
+    {
+      "id": 127,
+      "subject": "Biology",
+      "topic": "Nigerian biomes",
+      "confidence": "high",
+      "reason": "Question asks for classification of a specific Nigerian geographical/ecological feature (Obudu Plateau), matching the 'Nigerian biomes' area."
+    },
+    {
+      "id": 128,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "Secondary succession is an ecological process affecting communities and habitats; classified here under natural habitats (could also be considered community/ecosystem ecology)."
+    },
+    {
+      "id": 129,
+      "subject": "Biology",
+      "topic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Schistosomiasis is a parasitic (host–parasite) relationship, which fits under symbiotic interactions."
+    },
+    {
+      "id": 130,
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "confidence": "medium",
+      "reason": "The ecological concept of a niche describes a species' role and position within its habitat/community, placed here under natural habitats."
+    },
+    {
+      "id": 131,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Sewage treatment using microorganisms (activated sludge) is an applied environmental process linking human activity and environment."
+    },
+    {
+      "id": 132,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Eutrophication is an environmental problem caused by nutrient enrichment from human activities, fitting 'Humans and environment.'"
+    },
+    {
+      "id": 133,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "WHO's role in Nigeria pertains to public health and human–environment interactions, matching this area."
+    },
+    {
+      "id": 134,
+      "subject": "Biology",
+      "topic": "Symbiotic interactions",
+      "confidence": "high",
+      "reason": "Commensalism is a type of symbiotic relationship between organisms."
+    },
+    {
+      "id": 135,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Classification of resources (renewable vs non-renewable) is an environmental concept related to humans and the environment."
+    },
+    {
+      "id": 136,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "The Nigerian Conservation Foundation's functions concern conservation and environmental management, fitting 'Humans and environment.'"
+    },
+    {
+      "id": 137,
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "confidence": "high",
+      "reason": "Deforestation impacts on climate, biodiversity, soil, etc. are environmental issues under 'Humans and environment.'"
+    },
+    {
+      "id": 138,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Mendel's Law of Segregation concerns the behavior of alleles during inheritance, a core heredity topic."
+    },
+    {
+      "id": 139,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Monohybrid cross phenotypic ratios are classic heredity/genetics questions."
+    },
+    {
+      "id": 140,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Blood group inheritance (producing blood group O) involves Mendelian heredity of ABO alleles."
+    },
+    {
+      "id": 141,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Haemophilia inheritance pattern (sex-linked recessive) is a heredity/genetics topic."
+    },
+    {
+      "id": 142,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Sickle cell anaemia is caused by a genetic mutation and is addressed under heredity."
+    },
+    {
+      "id": 143,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Genotype HbAHbS describes heterozygous inheritance (sickle cell trait), a heredity concept."
+    },
+    {
+      "id": 144,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Definition of genotype vs phenotype is a fundamental heredity topic."
+    },
+    {
+      "id": 145,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "high",
+      "reason": "Discontinuous variation describes types of variation within populations, matching the 'Variation' area."
+    },
+    {
+      "id": 146,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Human sex determination (X/Y system and parental contribution) is a heredity/genetics topic."
+    },
+    {
+      "id": 148,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Colour blindness is an X‑linked (sex‑linked) trait; its pattern of inheritance is a classic heredity (genetic) topic."
+    },
+    {
+      "id": 149,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "A testcross involves crossing an individual showing the dominant phenotype with a homozygous recessive individual—this is a Mendelian heredity concept."
+    },
+    {
+      "id": 150,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "The structure of DNA is a fundamental topic in genetics and transmission of hereditary information."
+    },
+    {
+      "id": 151,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Inheritance of ABO blood groups follows Mendelian/codominant inheritance patterns, a heredity topic."
+    },
+    {
+      "id": 152,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Mendel’s experiments and choice of pea plants illustrate principles of inheritance and controlled crosses—core heredity material."
+    },
+    {
+      "id": 153,
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "confidence": "high",
+      "reason": "Production of GMOs involves genetic modification and recombinant DNA techniques, which fall under biotechnology."
+    },
+    {
+      "id": 154,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Calculating probabilities for sickle cell genotypes from parental genotypes is classic Mendelian heredity."
+    },
+    {
+      "id": 155,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "medium",
+      "reason": "Use of fingerprints in identification rests on individual variation and uniqueness of dermatoglyph patterns; this is typically taught under variation."
+    },
+    {
+      "id": 156,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "medium",
+      "reason": "Inbreeding concerns mating of closely related individuals and its effects on genetic variation/homozygosity, so it is best classified under variation."
+    },
+    {
+      "id": 157,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Determining which traits are passed genetically from parent to offspring is a central heredity concept."
+    },
+    {
+      "id": 158,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "The Rh factor is a blood group antigen with genetic inheritance implications and impacts transfusion compatibility—covered in heredity."
+    },
+    {
+      "id": 159,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "medium",
+      "reason": "Down’s syndrome results from a chromosomal abnormality (trisomy 21), a form of genetic variation/aberration often treated in variation topics."
+    },
+    {
+      "id": 160,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Dihybrid cross ratios (9:3:3:1) are a standard Mendelian heredity concept regarding independent assortment."
+    },
+    {
+      "id": 162,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Meiosis produces gametes and generates genetic variation; its role in transmitting hereditary information is a heredity topic."
+    },
+    {
+      "id": 163,
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "confidence": "high",
+      "reason": "Interferon produced by genetic engineering and its clinical uses are applications of biotechnology."
+    },
+    {
+      "id": 164,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "The law of independent assortment (unlinked genes assort independently) is a core Mendelian heredity principle."
+    },
+    {
+      "id": 165,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Predicting offspring genotypes from parental sickle cell genotypes (HbSHbS × HbAHbS) is Mendelian heredity problem-solving."
+    },
+    {
+      "id": 166,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "IVF involves fertilisation occurring outside the body—this difference from natural fertilisation falls under reproduction."
+    },
+    {
+      "id": 167,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "The formation of gametes by meiosis is gametogenesis, a fundamental concept in reproduction."
+    },
+    {
+      "id": 168,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "medium",
+      "reason": "Out‑breeding strategies (e.g., cross‑breeding, hybridization) are used to increase genetic variation and hybrid vigour, so they align with variation."
+    },
+    {
+      "id": 169,
+      "subject": "Biology",
+      "topic": "Heredity",
+      "confidence": "high",
+      "reason": "Codominance is a pattern of inheritance describing how alleles are expressed, so it falls under heredity (genetic inheritance)."
+    },
+    {
+      "id": 170,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "confidence": "high",
+      "reason": "Monozygotic (identical) twins arise when a single fertilized egg (zygote) splits during early embryonic development, a reproductive process."
+    },
+    {
+      "id": 171,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "high",
+      "reason": "PTC tasting illustrates a human genetic polymorphism and inter-individual genetic differences, which is a topic of variation."
+    },
+    {
+      "id": 172,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Lamarck's ideas (inheritance of acquired characters) are part of historical evolutionary theories, so classify under theories of evolution."
+    },
+    {
+      "id": 173,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Darwin's natural selection is a central evolutionary theory describing the mechanism of evolution."
+    },
+    {
+      "id": 174,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Evidence that whales evolved from land ancestors comes from transitional fossils and morphological changes, which are evidence of evolution."
+    },
+    {
+      "id": 175,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Fossil records document succession and transitional forms over time, providing evidence for evolutionary change."
+    },
+    {
+      "id": 177,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Comparative anatomy (homologous structures) is used as anatomical evidence supporting common ancestry and evolution."
+    },
+    {
+      "id": 178,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "high",
+      "reason": "A mutation is a change in genetic material and is a primary source of genetic variation in populations."
+    },
+    {
+      "id": 179,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Darwin's specific contributions (natural selection, descent with modification) are components of evolutionary theory."
+    },
+    {
+      "id": 180,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Analogous structures illustrate convergent evolution and are interpreted as evidence about evolutionary processes and adaptation."
+    },
+    {
+      "id": 181,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Industrial melanism exemplifies natural selection acting on populations, so it is best placed under evolutionary theory (mechanism of evolution)."
+    },
+    {
+      "id": 182,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Vestigial organs are reduced structures interpreted as remnants of ancestral forms, i.e., evidence for evolution."
+    },
+    {
+      "id": 183,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Comparative embryology reveals shared developmental stages among taxa, providing evidence for common ancestry and evolution."
+    },
+    {
+      "id": 184,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "The modern synthetic theory (neo-Darwinism) is a conceptual framework combining genetics with natural selection, so it is a theory of evolution."
+    },
+    {
+      "id": 185,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Speciation (the formation of new species) is a central concept/mechanism within evolutionary theory."
+    },
+    {
+      "id": 186,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Natural selection is a fundamental mechanism within evolutionary theory; the question concerns that mechanism."
+    },
+    {
+      "id": 187,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Geographical isolation leading to reproductive isolation and speciation is a mechanism/topic within evolutionary theory."
+    },
+    {
+      "id": 188,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Similarity of proteins across taxa (molecular homology) is molecular evidence supporting common ancestry and evolution."
+    },
+    {
+      "id": 189,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "The peppered moth example illustrates how natural selection operates (a theoretical mechanism), so it fits under theories of evolution."
+    },
+    {
+      "id": 190,
+      "subject": "Biology",
+      "topic": "Variation",
+      "confidence": "high",
+      "reason": "Genetic drift is a mechanism that changes allele frequencies and produces genetic variation within populations, so it fits 'Variation'."
+    },
+    {
+      "id": 191,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "Gill pouches in human embryos are comparative embryological structures used as evidence for common ancestry — a topic in evidence of evolution."
+    },
+    {
+      "id": 192,
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "confidence": "high",
+      "reason": "Diverse beak shapes are adaptations to different ecological niches/food sources, so this fits 'Adaptations of organisms'."
+    },
+    {
+      "id": 193,
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "confidence": "high",
+      "reason": "The geological time scale and fossil succession provide historical evidence for evolutionary change, so 'Evidence of evolution' is appropriate."
+    },
+    {
+      "id": 194,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "medium",
+      "reason": "Mechanisms (and non-mechanisms) of evolutionary change are typically treated within evolutionary theory, so 'Theories of evolution' is the best match."
+    },
+    {
+      "id": 195,
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "confidence": "high",
+      "reason": "Convergent evolution is an evolutionary concept illustrating how unrelated organisms evolve similar traits independently, which falls under evolutionary theory."
+    },
+    {
+      "id": 196,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Calculating least count from pitch and divisions is a fundamental measurement/units concept."
+    },
+    {
+      "id": 197,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Identifying a fundamental/base physical quantity (e.g., mass, length, time) is part of measurements and units."
+    },
+    {
+      "id": 198,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Determining the dimension of pressure is a dimensional analysis question, which belongs to measurements and units."
+    },
+    {
+      "id": 199,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Counting significant figures in a recorded measurement is a measurements-and-units concept."
+    },
+    {
+      "id": 200,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Checking dimensional consistency of v = u + at is a dimensional analysis task under measurements and units."
+    },
+    {
+      "id": 201,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Reading a Vernier caliper (main scale + Vernier scale × least count) is a measurements and units skill."
+    },
+    {
+      "id": 202,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Units of the gravitational constant G are directly related to gravitational field laws, so 'Gravitational field' is the appropriate area."
+    },
+    {
+      "id": 204,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Finding the resultant of perpendicular forces and using Pythagoras relates to force equilibrium/vector addition."
+    },
+    {
+      "id": 205,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Resolving a velocity into vertical component using trigonometry is a topic in motion (kinematics)."
+    },
+    {
+      "id": 206,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Distinguishing scalar versus vector quantities is a basic concept in kinematics/motion."
+    },
+    {
+      "id": 207,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Computing relative velocity of two trains moving in opposite directions is a kinematics (motion) problem."
+    },
+    {
+      "id": 208,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Determining the angle for three forces in equilibrium (Pythagorean triple) is an equilibrium of forces/vector resolution question."
+    },
+    {
+      "id": 209,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Resolving a vector into equal components along axes is a vectors-in-motion (kinematics) concept."
+    },
+    {
+      "id": 210,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Calculating distance under uniform acceleration from rest (s = 1/2 a t^2) is core kinematics (motion)."
+    },
+    {
+      "id": 211,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Vertical motion under constant gravity (projectile/upward throw) is a kinematics problem classified under Motion."
+    },
+    {
+      "id": 212,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Projectile range at an angle is a kinematics/projectile motion topic, which falls under Motion."
+    },
+    {
+      "id": 213,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Horizontal projectile from a cliff is a kinematics problem (projectile motion) appropriate to Motion."
+    },
+    {
+      "id": 214,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "medium",
+      "reason": "Newton's first law concerns the motion of bodies and inertia (also related to equilibrium), but it is typically taught within Motion."
+    },
+    {
+      "id": 215,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Collision with conservation of momentum and resulting common velocity is a dynamics/kinematics topic classified under Motion."
+    },
+    {
+      "id": 216,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Impulse (force × time) and change in momentum are part of dynamics/kinematics, placed under Motion."
+    },
+    {
+      "id": 217,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Definition of simple harmonic motion involves acceleration proportional to displacement and directed to equilibrium — a topic in motion/oscillations."
+    },
+    {
+      "id": 218,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Maximum velocity in SHM occurs at equilibrium position; this is an oscillation/kinematics concept under Motion."
+    },
+    {
+      "id": 219,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Area under a velocity–time graph equals displacement (kinematics), which is in Motion."
+    },
+    {
+      "id": 220,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Average speed for segments of a journey (kinematic/statistical speed calculation) is a Motion topic."
+    },
+    {
+      "id": 221,
+      "subject": "Physics",
+      "topic": "Waves",
+      "confidence": "high",
+      "reason": "Resonance in forced vibration (occurs when driving frequency equals natural frequency) is a Waves/oscillations topic."
+    },
+    {
+      "id": 222,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Retarding force found from deceleration (change in velocity over time) is a dynamics/kinematics problem under Motion."
+    },
+    {
+      "id": 223,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Change of gravitational field intensity with altitude (inverse-square dependence) belongs to Gravitational field."
+    },
+    {
+      "id": 224,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Weight at Earth's center (gravitational field value → zero) is a Gravitational field concept."
+    },
+    {
+      "id": 226,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Newton's law of universal gravitation (force ∝ product of masses / distance^2) is part of Gravitational field."
+    },
+    {
+      "id": 227,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Weightlessness of an orbiting astronaut is explained by free-fall in a gravitational field, a Gravitational field topic."
+    },
+    {
+      "id": 228,
+      "subject": "Physics",
+      "topic": "Gravitational field",
+      "confidence": "high",
+      "reason": "Definition of gravitational potential (work per unit mass) is a core Gravitational field concept."
+    },
+    {
+      "id": 229,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Three concurrent forces in equilibrium and resultant magnitude calculation pertains to Equilibrium of forces."
+    },
+    {
+      "id": 230,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Moment (turning effect = force × perpendicular distance) is a concept used in equilibrium/torque problems."
+    },
+    {
+      "id": 232,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Stable equilibrium (returns to original position after small displacement) is a standard topic in Equilibrium of forces."
+    },
+    {
+      "id": 233,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "high",
+      "reason": "Directly asks about the equilibrant of two forces, which is a fundamental concept in equilibrium of forces."
+    },
+    {
+      "id": 234,
+      "subject": "Physics",
+      "topic": "Machines",
+      "confidence": "high",
+      "reason": "Relates efficiency, velocity ratio and mechanical advantage—core concepts in the study of machines."
+    },
+    {
+      "id": 235,
+      "subject": "Physics",
+      "topic": "Electrical energy and power",
+      "confidence": "high",
+      "reason": "Asks for electrical energy consumed by a bulb in kWh, which fits electrical energy and power."
+    },
+    {
+      "id": 236,
+      "subject": "Physics",
+      "topic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "Calculates mechanical power from force and velocity, a work/energy-power concept."
+    },
+    {
+      "id": 237,
+      "subject": "Physics",
+      "topic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "Kinetic energy of a falling mass from a given height involves conversion of gravitational potential energy—covered under work, energy and power."
+    },
+    {
+      "id": 238,
+      "subject": "Physics",
+      "topic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "The principle of conservation of energy is a central concept in the topic of work, energy and power."
+    },
+    {
+      "id": 239,
+      "subject": "Physics",
+      "topic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "Classification of solar energy as renewable concerns energy sources and their properties, fitting work, energy and power."
+    },
+    {
+      "id": 240,
+      "subject": "Physics",
+      "topic": "Work, energy and power",
+      "confidence": "high",
+      "reason": "Area under a force–distance graph represents work/energy, a core work and energy concept."
+    },
+    {
+      "id": 241,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "medium",
+      "reason": "Explanation about static vs kinetic friction concerns force balance and initiating motion; fits equilibrium of forces though could also be treated under motion."
+    },
+    {
+      "id": 242,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "high",
+      "reason": "Terminal velocity is a motion/dynamics concept describing when net acceleration becomes zero during motion through a fluid."
+    },
+    {
+      "id": 243,
+      "subject": "Physics",
+      "topic": "Motion",
+      "confidence": "medium",
+      "reason": "Stokes' law gives the viscous force on a moving sphere in a fluid, a dynamics/motion topic involving resistive forces in fluids."
+    },
+    {
+      "id": 244,
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "confidence": "medium",
+      "reason": "Reducing friction relates to force interactions and mechanical equilibrium; could overlap with machines but best fits equilibrium of forces."
+    },
+    {
+      "id": 245,
+      "subject": "Physics",
+      "topic": "Machines",
+      "confidence": "high",
+      "reason": "Uses velocity ratio and efficiency to find effort for a load—standard machine calculations."
+    },
+    {
+      "id": 246,
+      "subject": "Physics",
+      "topic": "Machines",
+      "confidence": "high",
+      "reason": "Classification of levers (position of effort, fulcrum, load) is a basic machines topic."
+    },
+    {
+      "id": 248,
+      "subject": "Physics",
+      "topic": "Machines",
+      "confidence": "high",
+      "reason": "Asks why real machine efficiency is <100%; this is a primary conceptual point in machines (losses due to friction, heat, etc.)."
+    },
+    {
+      "id": 249,
+      "subject": "Physics",
+      "topic": "Elasticity",
+      "confidence": "high",
+      "reason": "Determining spring constant from force and extension is a basic elasticity calculation."
+    },
+    {
+      "id": 250,
+      "subject": "Physics",
+      "topic": "Elasticity",
+      "confidence": "high",
+      "reason": "Elastic limit and the transition to permanent deformation is a core elasticity concept."
+    },
+    {
+      "id": 251,
+      "subject": "Physics",
+      "topic": "Elasticity",
+      "confidence": "high",
+      "reason": "Work done in stretching a spring (1/2 k e^2) is a standard result in elasticity."
+    },
+    {
+      "id": 252,
+      "subject": "Physics",
+      "topic": "Elasticity",
+      "confidence": "high",
+      "reason": "Young's modulus is defined as stress over strain, a fundamental elasticity definition."
+    },
+    {
+      "id": 253,
+      "subject": "Physics",
+      "topic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Pressure at a depth in water is a hydrostatic pressure question, which belongs to liquids at rest."
+    },
+    {
+      "id": 254,
+      "subject": "Physics",
+      "topic": "Pressure",
+      "confidence": "high",
+      "reason": "Pascal's principle concerns transmission of pressure in an enclosed fluid, which falls under the topic 'Pressure'."
+    },
+    {
+      "id": 256,
+      "subject": "Physics",
+      "topic": "Pressure",
+      "confidence": "high",
+      "reason": "Hydraulic press calculation uses pressure transmission (Pascal's principle) between pistons, so it is best classified under 'Pressure'."
+    },
+    {
+      "id": 257,
+      "subject": "Physics",
+      "topic": "Pressure",
+      "confidence": "high",
+      "reason": "A barometer measures atmospheric pressure, and its use as an altimeter relies on pressure variation with height; this is a 'Pressure' topic."
+    },
+    {
+      "id": 258,
+      "subject": "Physics",
+      "topic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Upthrust (buoyancy) on a submerged solid is an application of fluid statics and Archimedes’ principle, placing it in 'Liquids at rest'."
+    },
+    {
+      "id": 259,
+      "subject": "Physics",
+      "topic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Archimedes' principle and upthrust are fundamentals of fluid statics, covered by 'Liquids at rest'."
+    },
+    {
+      "id": 260,
+      "subject": "Physics",
+      "topic": "Liquids at rest",
+      "confidence": "high",
+      "reason": "Floating of a ship is explained by buoyancy and displaced fluid (Archimedes), which is part of 'Liquids at rest'."
+    },
+    {
+      "id": 261,
+      "subject": "Physics",
+      "topic": "Temperature and measurement",
+      "confidence": "high",
+      "reason": "Converting 37°C to Kelvin is a basic temperature-scale conversion, under 'Temperature and measurement'."
+    },
+    {
+      "id": 262,
+      "subject": "Physics",
+      "topic": "Temperature and measurement",
+      "confidence": "high",
+      "reason": "Requirements for a thermometric property (suitable for measuring temperature) belong to 'Temperature and measurement'."
+    },
+    {
+      "id": 263,
+      "subject": "Physics",
+      "topic": "Temperature and measurement",
+      "confidence": "high",
+      "reason": "Fixed points used to calibrate thermometers (ice and steam points) are part of 'Temperature and measurement'."
+    },
+    {
+      "id": 264,
+      "subject": "Physics",
+      "topic": "Temperature and measurement",
+      "confidence": "high",
+      "reason": "The constriction in a clinical thermometer is a design feature related to temperature measurement devices, so it fits 'Temperature and measurement'."
+    },
+    {
+      "id": 265,
+      "subject": "Physics",
+      "topic": "Thermal expansion",
+      "confidence": "high",
+      "reason": "Relationships among linear, area and volume expansivities concern how materials expand with temperature, which is 'Thermal expansion'."
+    },
+    {
+      "id": 266,
+      "subject": "Physics",
+      "topic": "Thermal expansion",
+      "confidence": "high",
+      "reason": "Expansion joints in railway lines are provided to accommodate thermal expansion of rails, a 'Thermal expansion' topic."
+    },
+    {
+      "id": 267,
+      "subject": "Physics",
+      "topic": "Thermal expansion",
+      "confidence": "high",
+      "reason": "Anomalous expansion of water (density/volume behavior with temperature) is a phenomenon studied in 'Thermal expansion'."
+    },
+    {
+      "id": 268,
+      "subject": "Physics",
+      "topic": "Thermal expansion",
+      "confidence": "high",
+      "reason": "Real versus apparent expansivity relations are directly within the subject of 'Thermal expansion'."
+    },
+    {
+      "id": 269,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "high",
+      "reason": "Finding new volume given changes in temperature and pressure uses combined gas laws (Charles/Boyle), so it belongs to 'Gas laws'."
+    },
+    {
+      "id": 270,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "high",
+      "reason": "Boyle's law (pressure–volume relation at constant temperature) is a fundamental 'Gas laws' statement."
+    },
+    {
+      "id": 271,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "medium",
+      "reason": "The concept of the temperature where a gas would reach zero volume/pressure (absolute zero) is commonly derived from gas-law extrapolations; it could also relate to temperature measurement, but is most directly tied to 'Gas laws'."
+    },
+    {
+      "id": 273,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "high",
+      "reason": "Charles' law (volume–temperature relation at constant pressure) is a core 'Gas laws' topic."
+    },
+    {
+      "id": 274,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "high",
+      "reason": "Van der Waals corrections to ideal behavior address real-gas deviations from the ideal gas law, so this is 'Gas laws'."
+    },
+    {
+      "id": 275,
+      "subject": "Physics",
+      "topic": "Quantity of heat",
+      "confidence": "high",
+      "reason": "Calculating heat absorbed using mass, specific heat and temperature change (Q=mcΔT) is the domain of 'Quantity of heat'."
+    },
+    {
+      "id": 276,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 277,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 278,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 279,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 280,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 281,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 282,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 283,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 284,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 285,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 286,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 287,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 288,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 289,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 290,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 291,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 292,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 293,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 294,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 296,
+      "subject": "Physics",
+      "topic": null,
+      "confidence": "hold",
+      "reason": "invalid or missing classifier response"
+    },
+    {
+      "id": 297,
+      "subject": "Physics",
+      "topic": "Propagation of sound",
+      "confidence": "high",
+      "reason": "Echo involves sound traveling to and from a reflecting surface — classification fits propagation of sound (use of speed and time to get distance)."
+    },
+    {
+      "id": 298,
+      "subject": "Physics",
+      "topic": "Characteristics of sound",
+      "confidence": "high",
+      "reason": "Pitch is a property of sound (frequency) — falls under characteristics of sound."
+    },
+    {
+      "id": 299,
+      "subject": "Physics",
+      "topic": "Propagation of sound",
+      "confidence": "high",
+      "reason": "Resonance in a closed pipe and frequency calculation concern sound wave propagation in tubes."
+    },
+    {
+      "id": 300,
+      "subject": "Physics",
+      "topic": "Characteristics of sound",
+      "confidence": "high",
+      "reason": "Reverberation vs echo is a distinction of sound behavior/properties — a characteristics of sound topic."
+    },
+    {
+      "id": 301,
+      "subject": "Physics",
+      "topic": "Waves",
+      "confidence": "high",
+      "reason": "Fundamental frequency of a vibrating string is a wave-on-a-string concept (depends on length, tension, linear density)."
+    },
+    {
+      "id": 302,
+      "subject": "Physics",
+      "topic": "Optical instruments",
+      "confidence": "high",
+      "reason": "A pinhole camera is an optical instrument; image formation by it belongs to that area."
+    },
+    {
+      "id": 303,
+      "subject": "Physics",
+      "topic": "Reflection",
+      "confidence": "high",
+      "reason": "Image formation by a concave mirror is governed by laws of reflection and mirror formulae."
+    },
+    {
+      "id": 304,
+      "subject": "Physics",
+      "topic": "Reflection",
+      "confidence": "high",
+      "reason": "The laws stated (angles measured with respect to the normal) are the basic laws of reflection."
+    },
+    {
+      "id": 305,
+      "subject": "Physics",
+      "topic": "Reflection",
+      "confidence": "high",
+      "reason": "Image characteristics of a convex mirror (virtual, upright, diminished) are results of reflection by convex surfaces."
+    },
+    {
+      "id": 306,
+      "subject": "Physics",
+      "topic": "Refraction",
+      "confidence": "high",
+      "reason": "Bending toward the normal on entering glass is a refraction effect due to lower speed/higher refractive index in glass."
+    },
+    {
+      "id": 307,
+      "subject": "Physics",
+      "topic": "Refraction",
+      "confidence": "high",
+      "reason": "Critical angle relation sin c = 1/n (or n = 1/sin c) is a refraction/formula at an interface."
+    },
+    {
+      "id": 308,
+      "subject": "Physics",
+      "topic": "Optical instruments",
+      "confidence": "high",
+      "reason": "Using the lens formula for a converging lens and image distance is an optical instrument/lens calculation."
+    },
+    {
+      "id": 309,
+      "subject": "Physics",
+      "topic": "Dispersion and colours",
+      "confidence": "high",
+      "reason": "Prism dispersion arises because refractive index varies with wavelength — this is dispersion and colours."
+    },
+    {
+      "id": 310,
+      "subject": "Physics",
+      "topic": "Dispersion and colours",
+      "confidence": "high",
+      "reason": "Primary colours of light (RGB) are a topic in colours/dispersion and colour mixing."
+    },
+    {
+      "id": 311,
+      "subject": "Physics",
+      "topic": "Light energy",
+      "confidence": "high",
+      "reason": "Identification of electromagnetic waves by wavelength (gamma, X-rays, etc.) is covered under light/EM radiation."
+    },
+    {
+      "id": 312,
+      "subject": "Physics",
+      "topic": "Refraction",
+      "confidence": "high",
+      "reason": "Speed of light in a medium derived from refractive index (v = c/n) is a refraction concept."
+    },
+    {
+      "id": 313,
+      "subject": "Physics",
+      "topic": "Optical instruments",
+      "confidence": "high",
+      "reason": "Lens power and focal length calculation pertains to lenses and optical instruments."
+    },
+    {
+      "id": 315,
+      "subject": "Physics",
+      "topic": "Optical instruments",
+      "confidence": "high",
+      "reason": "Image properties of a concave lens (virtual, upright, diminished) relate to lens behavior in optical instruments."
+    },
+    {
+      "id": 316,
+      "subject": "Physics",
+      "topic": "Fibre optics and lasers",
+      "confidence": "high",
+      "reason": "Optical fibers operate by total internal reflection — fits fibre optics and lasers."
+    },
+    {
+      "id": 317,
+      "subject": "Physics",
+      "topic": "Optical instruments",
+      "confidence": "high",
+      "reason": "Image formation in an astronomical telescope (final image at infinity in normal adjustment) is an optical instrument topic."
+    },
+    {
+      "id": 318,
+      "subject": "Physics",
+      "topic": "Dispersion and colours",
+      "confidence": "high",
+      "reason": "Rainbow formation is due to dispersion of white light into colours by refraction and internal reflection in raindrops, a dispersion and colours topic."
+    },
+    {
+      "id": 319,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Force between point charges is Coulomb's law, a core electrostatics concept."
+    },
+    {
+      "id": 320,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Electric field lines between oppositely charged parallel plates (uniform, straight lines) are an electrostatics concept."
+    },
+    {
+      "id": 321,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Force on a charge in an electric field (F = qE) is a basic electrostatics principle."
+    },
+    {
+      "id": 322,
+      "subject": "Physics",
+      "topic": "Conduction of electricity",
+      "confidence": "high",
+      "reason": "Lightning conductors provide a low-resistance path to earth to conduct charge away, which concerns conduction/earthing."
+    },
+    {
+      "id": 323,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Gold-leaf electroscope operates via electrostatic repulsion of leaves when charged, an electrostatics phenomenon."
+    },
+    {
+      "id": 324,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "confidence": "high",
+      "reason": "Definition of electric potential at a point is a fundamental electrostatics topic."
+    },
+    {
+      "id": 326,
+      "subject": "Physics",
+      "topic": "Capacitors",
+      "confidence": "high",
+      "reason": "Energy stored in a charged capacitor (½CV²) is a direct capacitor-specific formula."
+    },
+    {
+      "id": 327,
+      "subject": "Physics",
+      "topic": "Capacitors",
+      "confidence": "high",
+      "reason": "How to increase capacitance (area, separation, dielectric) pertains directly to capacitors."
+    },
+    {
+      "id": 328,
+      "subject": "Physics",
+      "topic": "Capacitors",
+      "confidence": "high",
+      "reason": "Use of capacitors in radio tuning (forming resonant circuits with inductance) is a capacitors application."
+    },
+    {
+      "id": 329,
+      "subject": "Physics",
+      "topic": "Capacitors",
+      "confidence": "high",
+      "reason": "Equivalent capacitance for series connection is a standard capacitors calculation."
+    },
+    {
+      "id": 330,
+      "subject": "Physics",
+      "topic": "Electric cells",
+      "confidence": "high",
+      "reason": "Terminal voltage with internal resistance relates to a cell's emf and internal resistance, an electric cells topic."
+    },
+    {
+      "id": 331,
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "confidence": "high",
+      "reason": "Ohm's law about I ∝ V for a conductor under stated conditions is a central current electricity law."
+    },
+    {
+      "id": 332,
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "confidence": "high",
+      "reason": "Calculating effective resistance for resistors in parallel is a current electricity problem."
+    },
+    {
+      "id": 333,
+      "subject": "Physics",
+      "topic": "Conduction of electricity",
+      "confidence": "high",
+      "reason": "Definition of resistivity (resistance of unit length and unit cross-section) is a conduction/material property concept."
+    },
+    {
+      "id": 335,
+      "subject": "Physics",
+      "topic": "Electric cells",
+      "confidence": "high",
+      "reason": "Preference for potentiometer over voltmeter when measuring EMF (no current drawn from cell) pertains to measuring cell EMFs."
+    },
+    {
+      "id": 336,
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "confidence": "high",
+      "reason": "The meter bridge (Wheatstone bridge) is used to measure unknown resistances, a current electricity technique."
+    },
+    {
+      "id": 337,
+      "subject": "Physics",
+      "topic": "Electrical energy and power",
+      "confidence": "high",
+      "reason": "Using power rating and voltage to find current and resistance concerns electrical power relations (P = VI, V = IR)."
+    },
+    {
+      "id": 338,
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "confidence": "high",
+      "reason": "Domestic parallel wiring (independent operation, same voltage) is a current electricity / circuit wiring principle."
+    },
+    {
+      "id": 339,
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "confidence": "high",
+      "reason": "A fuse melts under excessive current to protect circuits—fundamental to current-carrying circuit protection."
+    },
+    {
+      "id": 340,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Lenz's law describes the direction of induced currents opposing change in magnetic flux—core topic of electromagnetic induction."
+    },
+    {
+      "id": 341,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Faraday's law relates induced EMF to rate of change of magnetic flux, which is the fundamental law of electromagnetic induction."
+    },
+    {
+      "id": 342,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "An AC generator produces EMF by changing magnetic flux through a coil—principle of electromagnetic induction."
+    },
+    {
+      "id": 343,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Transformer action (voltage ratio proportional to turns ratio) is based on mutual induction between coils—electromagnetic induction."
+    },
+    {
+      "id": 344,
+      "subject": "Physics",
+      "topic": "Magnets and magnetic fields",
+      "confidence": "high",
+      "reason": "Angle of declination refers to the angular difference between geographic (true) north and magnetic north—topic of magnets and magnetic fields."
+    },
+    {
+      "id": 345,
+      "subject": "Physics",
+      "topic": "Magnets and magnetic fields",
+      "confidence": "high",
+      "reason": "Magnetic inclination (dip) being 90° at the magnetic poles concerns Earth's magnetic field—magnets and magnetic fields."
+    },
+    {
+      "id": 346,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Eddy currents are induced currents in cores; methods to reduce them (e.g., lamination) are addressed under electromagnetic induction."
+    },
+    {
+      "id": 347,
+      "subject": "Physics",
+      "topic": "Force on a current-carrying conductor",
+      "confidence": "high",
+      "reason": "A DC motor's commutator reverses current to maintain torque direction on the current-carrying armature in a magnetic field—force on a current-carrying conductor."
+    },
+    {
+      "id": 348,
+      "subject": "Physics",
+      "topic": "Electromagnetic induction",
+      "confidence": "high",
+      "reason": "Inductance (ratio of flux linkage to current or induced emf to rate of change of current) is a concept in electromagnetic induction."
+    },
+    {
+      "id": 349,
+      "subject": "Physics",
+      "topic": "Force on a current-carrying conductor",
+      "confidence": "high",
+      "reason": "A moving-coil galvanometer's radial field ensures uniform torque on the current-carrying coil—relates to forces/torque on current in a magnetic field."
+    },
+    {
+      "id": 350,
+      "subject": "Physics",
+      "topic": "AC circuits",
+      "confidence": "high",
+      "reason": "RMS-to-peak relationships for sinusoidal currents (I_rms = I0/√2) are fundamental AC circuit concepts."
+    },
+    {
+      "id": 351,
+      "subject": "Physics",
+      "topic": "AC circuits",
+      "confidence": "high",
+      "reason": "Phase relationship in a purely capacitive AC circuit (current leads voltage by 90°) is an AC circuits topic."
+    },
+    {
+      "id": 352,
+      "subject": "Physics",
+      "topic": "AC circuits",
+      "confidence": "high",
+      "reason": "Resonance behavior (reactances equal, current max, impedance min) in an RLC series circuit is an AC circuits subject."
+    },
+    {
+      "id": 353,
+      "subject": "Physics",
+      "topic": "AC circuits",
+      "confidence": "high",
+      "reason": "Capacitive reactance formulas (X_C = 1/ωC or 1/(2πfC)) are part of AC circuit analysis."
+    },
+    {
+      "id": 355,
+      "subject": "Physics",
+      "topic": "Electric cells",
+      "confidence": "high",
+      "reason": "Faraday's first law of electrolysis (mass deposited proportional to quantity of electricity) pertains to electrochemical cells and electrolysis—covered under electric cells."
+    },
+    {
+      "id": 356,
+      "subject": "Physics",
+      "topic": "Electric cells",
+      "confidence": "high",
+      "reason": "Electrolysis of CuSO4 with copper electrodes (anode dissolution) is an electrochemical process in the electric cells/electrolysis topic."
+    },
+    {
+      "id": 357,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Thermionic emission and the concept of minimum energy to release an electron (work function) are topics in modern physics."
+    },
+    {
+      "id": 359,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Stopping potential and photoelectric effect concepts belong to modern physics (quantum/photoelectric phenomena)."
+    },
+    {
+      "id": 360,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Radioactive half-life and exponential decay calculations are topics in modern physics/nuclear physics."
+    },
+    {
+      "id": 362,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Energy release in nuclear fission due to mass defect and binding energy differences is a modern physics (nuclear) concept."
+    },
+    {
+      "id": 363,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Question tests knowledge of types of nuclear/radioactive radiation (alpha, beta, gamma), which is covered under Modern physics."
+    },
+    {
+      "id": 364,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Bohr atomic model is an atomic/quantum topic classified under Modern physics."
+    },
+    {
+      "id": 365,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "de Broglie wavelength (wave–particle duality) is a quantum/Modern physics topic."
+    },
+    {
+      "id": 366,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Nuclear fusion (combining nuclei) is a nuclear/Modern physics concept."
+    },
+    {
+      "id": 367,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "X‑ray production (bremsstrahlung/inner‑shell transitions) is a Modern physics topic."
+    },
+    {
+      "id": 368,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Heisenberg Uncertainty Principle is a core quantum/Modern physics concept."
+    },
+    {
+      "id": 369,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Alpha decay and resulting nuclide identification is a nuclear/Modern physics topic."
+    },
+    {
+      "id": 370,
+      "subject": "Physics",
+      "topic": "Modern physics",
+      "confidence": "high",
+      "reason": "Beta‑minus decay (neutron → proton + electron + antineutrino) is Modern physics/nuclear physics."
+    },
+    {
+      "id": 371,
+      "subject": "Physics",
+      "topic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Doping silicon to form n‑type semiconductors is a semiconductor/electronics topic."
+    },
+    {
+      "id": 372,
+      "subject": "Physics",
+      "topic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Operation of a p‑n junction diode (forward bias conduction) is introductory electronics."
+    },
+    {
+      "id": 373,
+      "subject": "Physics",
+      "topic": "Introductory electronics",
+      "confidence": "high",
+      "reason": "Half‑wave rectification (rectifier output behaviour) is an electronics topic."
+    },
+    {
+      "id": 374,
+      "subject": "Physics",
+      "topic": "Conduction of electricity",
+      "confidence": "medium",
+      "reason": "Band theory distinction (conductor/semiconductor/insulator) concerns electronic conduction; fits under Conduction of electricity."
+    },
+    {
+      "id": 90101,
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "confidence": "high",
+      "reason": "Distinguishing centipede vs millipede is a taxonomic/classification question."
+    },
+    {
+      "id": 90137,
+      "subject": "Biology",
+      "topic": "Growth",
+      "confidence": "medium",
+      "reason": "Question about an arthropod destructive at an early life stage pertains to life‑cycle/growth stages."
+    },
+    {
+      "id": 90148,
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "confidence": "medium",
+      "reason": "Asking for the molecular formula of a species X typically involves organic structural identification; fits Organic compounds."
+    },
+    {
+      "id": 90151,
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "confidence": "high",
+      "reason": "Counting structural/isomeric forms for C3H6Br2 is an organic‑chemistry isomerism question."
+    },
+    {
+      "id": 90158,
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "confidence": "medium",
+      "reason": "Question about which elements react (or not) with water/steam concerns chemical reactivity and combination."
+    },
+    {
+      "id": 90163,
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "confidence": "high",
+      "reason": "Calculation of heats of reaction/enthalpy changes falls under Energy changes."
+    },
+    {
+      "id": 90227,
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "confidence": "high",
+      "reason": "Determination of relative density (using beam balance and density bottle/pycnometer) is a measurement technique topic."
+    },
+    {
+      "id": 90231,
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "confidence": "high",
+      "reason": "Using PV = nRT to find pressure of an ideal gas at given T and V is directly under Gas laws."
+    }
+  ]
+}

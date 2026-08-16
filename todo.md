@@ -383,3 +383,7 @@
 - [x] Move the question palette below the active question in both CBT and standard question modes while preserving answer, flag, timer, and keyboard behavior.
 - [x] Parse the supplied CSV, compare every record against the full active bank for exact and normalized duplicate matches, and retain only technically playable non-duplicates for import: 742 imported; 382 duplicates skipped; 36 duplicate-option cards and 30 Mathematics cards held.
 - [x] Verify the responsive topic menus and bottom palettes, then report the duplicate-safe CSV intake result and revised playable total: 35 tests and 92 assertions pass, the production build succeeds, and the live bank reports 3,456 authorised playable records plus the 1,000 model questions.
+
+- [ ] Inventory the remaining 369 authorised needs-review records by structural, topic, answer, option, and explanation blocker.
+- [ ] Apply only deterministic or source-preserving repairs that clear every release gate; retain answer-uncertain or malformed records as explicit holds.
+- [ ] Revalidate the needs-review remediation pass and report every released record and residual protected hold.

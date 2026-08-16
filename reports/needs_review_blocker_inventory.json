@@ -1,0 +1,436 @@
+{
+  "total": 25,
+  "readyIfApproved": 0,
+  "byBlocker": {
+    "duplicate option text": 5,
+    "explanation exceeds five lines": 20,
+    "missing official topic mapping": 20
+  },
+  "bySource": {
+    "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf": 20,
+    "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry": 4,
+    "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics": 1
+  },
+  "records": [
+    {
+      "id": 276,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-91-93",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "The specific latent heat of fusion of ice is 336,000 Jkg⁻¹. The heat required to melt 500 g of ice at 0°C is",
+      "optionsJson": "[\"168,000 J\",\"16,800 J\",\"672,000 J\",\"336,000 J ✓ Correct Answer: A Explanation: Q = mLf = 0.5 × 336,000 = 168,000 J. Note: m = 500 g = 0.5 kg. Why others are wrong: B: 16,800 J — uses m = 0.05 kg, wrong unit conversion. C: 672,000 J = 2 × mLf — doubles the mass. D: 336,000 J = Lf × 1 kg — ignores the actual mass.\"]",
+      "answerIndex": 0,
+      "explanation": "This question uses the specific latent heat of fusion Lf, the energy required to melt 1 kg of a substance at its melting point without temperature change (units J kg⁻¹).\nApply Q = mLf and convert the mass 500 g to 0.5 kg before computing.\nSubstituting gives Q = 0.5 kg × 336,000 J kg⁻¹ = 168,000 J, therefore option A is correct.\nOption B (16,800 J) results from using 0.05 kg instead of 0.5 kg, a wrong unit conversion.\nOption C (672,000 J) is twice the correct value and reflects mistakenly doubling the mass or using 1.0 kg.\nOption D (336,000 J) equals Lf for 1 kg and thus incorrectly treats the sample as 1 kg instead of 0.5 kg.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 277,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-92-94",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Boiling differs from evaporation in that boiling",
+      "optionsJson": "[\"Occurs only at the surface of a liquid\",\"Occurs throughout the liquid at a fixed temperature and produces bubbles\",\"Occurs at any temperature\",\"Requires less energy than evaporation ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 25 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Boiling occurs throughout the bulk of the liquid at a specific temperature (boiling point), forming bubbles. Evaporation occurs only at the surface at any temperature below boiling point. Why others are wrong: A: Surface-only process is evaporation, not boiling. C: Any temperature occurrence is evaporation. D: Boiling requires the same latent heat as evaporation at the same temperature — it's not less energy.\"]",
+      "answerIndex": 1,
+      "explanation": "Boiling is rapid vaporization that occurs when a liquid's vapor pressure equals the external pressure, producing vapor bubbles throughout the bulk of the liquid.\nAt a given external pressure the boiling point is a specific temperature, so boiling proceeds at that fixed temperature until phase change conditions change.\nEvaporation is a surface phenomenon that can occur at temperatures below the boiling point and does not produce bubbles within the liquid.\nOption B is correct because it correctly identifies boiling as a bulk process at a fixed temperature with bubble formation.\nOption A is wrong because describing a surface-only process refers to evaporation, not boiling; option C is wrong because boiling does not occur at any temperature.\nOption D is incorrect because boiling requires the latent heat of vaporization per unit mass comparable to evaporation and is not inherently a lower-energy process.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 278,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-93-95",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Increasing pressure on the surface of a boiling liquid will",
+      "optionsJson": "[\"Lower the boiling point\",\"Raise the boiling point\",\"Have no effect on boiling point\",\"Cause immediate solidification ✓ Correct Answer: B Explanation: Higher external pressure requires the vapor pressure to be higher before boiling begins, so more heat is needed and the boiling point rises. This is the principle of pressure cookers. Why others are wrong: A: Decreasing pressure lowers the boiling point (not increasing). C: Pressure significantly affects boiling point. D: Increasing pressure on a liquid causes it to boil at a higher temperature, not solidify.\"]",
+      "answerIndex": 1,
+      "explanation": "Boiling occurs when the vapor pressure of a liquid equals the external (atmospheric) pressure at its surface.\nIncreasing the external pressure raises the vapor pressure required for bubbles to form, so a higher temperature (boiling point) is needed.\nTherefore option B is correct: raising external pressure raises the boiling point, as used in pressure cookers to increase cooking temperature.\nOption A is wrong because lowering external pressure—such as at high altitude—lowers the boiling point, not increasing pressure.\nOption C is incorrect since external pressure is a primary factor that changes the boiling temperature rather than having no effect.\nOption D is wrong because increased pressure raises the boiling temperature and does not cause immediate solidification; solidification depends on temperature and the material's phase diagram.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 279,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-94-96",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "A pressure cooker raises the boiling point of water above 100°C. This means that food cooks faster because",
+      "optionsJson": "[\"The water contains more pressure energy\",\"The higher temperature increases the rate of chemical reactions in cooking\",\"The steam is drier\",\"Less water is needed ✓ Correct Answer: B Explanation: At higher temperatures (e.g., 120°C in a pressure cooker), cooking reactions proceed faster. The rate of most chemical reactions approximately doubles for every 10°C rise in temperature (Arrhenius principle). Why others are wrong: A: Pressure energy doesn't directly cook food — temperature does. C: Dryness of steam is irrelevant to cooking speed. D: Water quantity is not the key factor.\"]",
+      "answerIndex": 1,
+      "explanation": "A pressure cooker raises the internal pressure so water and steam inside can reach temperatures above 100°C (typical working values are around 120°C).\nBecause chemical reaction rates increase with temperature, the higher temperature inside a pressure cooker makes the cooking reactions in food proceed faster.\nThis is consistent with the senior‑secondary Arrhenius idea that many reaction rates increase markedly with temperature (a rough rule of thumb is that rates double for every 10°C rise).\nOption A is incorrect because it is the temperature (and resulting heat transfer and reaction kinetics), not some vague 'pressure energy', that speeds cooking.\nOption C is incorrect because the dryness of steam does not account for the faster chemical and physical changes that occur at the higher temperature.\nOption D is incorrect because simply using less water does not explain the increased reaction rates; the key factor is the higher boiling temperature produced by the raised pressure.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 280,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-96-98",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Relative humidity is defined as the ratio of",
+      "optionsJson": "[\"Actual mass of water vapor in air to mass of water vapor needed to saturate the same air at the same temperature\",\"Temperature of air to dew point temperature © The Scholars Forge Tutorial | 350+ is ours! | Page 26 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave\",\"Pressure of water vapor to atmospheric pressure\",\"Volume of water vapor to volume of dry air ✓ Correct Answer: A Explanation: Relative humidity (RH) = (mass of water vapor in sample / mass needed to saturate at same T) × 100%. Equivalently: RH = (SVP at dew point / SVP at air temperature) × 100%. Why others are wrong: B: Temperature ratio is not the definition of RH. C: Ratio of water vapor pressure to atmospheric pressure is absolute humidity related but not RH definition. D: Volume ratio is not the standard definition.\"]",
+      "answerIndex": 0,
+      "explanation": "Relative humidity is the ratio of the actual mass (or partial pressure) of water vapour in air to the mass (or saturation vapour pressure) required to saturate the same air at the same temperature, usually expressed as a percentage.\nOption A restates this definition correctly by comparing the actual water-vapour mass to the mass needed for saturation at that temperature.\nAn equivalent expression used in senior-secondary physics is RH = e/e_s × 100%, where e is the actual vapour pressure and e_s is the saturation vapour pressure at the same temperature.\nOption B is wrong because a ratio of temperatures (air temperature to dew point) does not quantify the amount of moisture present relative to saturation.\nOption C confuses vapour pressure with atmospheric pressure; the correct pressure-based form uses the vapour pressure divided by the saturation vapour pressure, not by total atmospheric pressure.\nOption D is not the standard definition: while vapour volume can relate to mass under fixed conditions, relative humidity is defined by mass or vapour pressure relative to saturation, not a simple volume ratio.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 281,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-97-99",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "The dew point is the temperature at which",
+      "optionsJson": "[\"All water vapor condenses into rain\",\"The water vapor in air becomes saturated (SVP equals actual vapor pressure)\",\"Ice forms on surfaces\",\"Humidity is 0% ✓ Correct Answer: B Explanation: The dew point is the temperature at which air becomes saturated with its existing amount of water vapor (RH = 100%). At this point, condensation begins and dew forms on cool surfaces. Why others are wrong: A: Not all vapor condenses at the dew point — only the excess above saturation does. C: Ice (frost) forms below 0°C when dew point is below 0°C, but that's not the definition. D: At the dew point, humidity is 100%, not 0%.\"]",
+      "answerIndex": 1,
+      "explanation": "The dew point is the temperature at which air becomes saturated with its current amount of water vapour so that saturation vapour pressure equals the actual vapour pressure.\nAt the dew point the relative humidity is 100% and further cooling causes condensation onto surfaces or cloud formation.\nOption B is correct because it gives the definition in terms of vapour pressures (SVP = actual vapour pressure), which is the standard thermodynamic description of dew point.\nOption A is wrong because reaching the dew point causes condensation to begin, not the immediate conversion of all atmospheric vapour into rain, which requires additional processes.\nOption C is misleading: ice (frost) forms only when the dew point is below 0°C and surfaces are cold enough, so frost is a possible consequence but not the definition.\nOption D is incorrect because humidity at the dew point is 100%, whereas 0% indicates completely dry air, the opposite condition.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 282,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-98-100",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "A wet and dry bulb hygrometer shows wet bulb temperature of 18°C and dry bulb temperature of 24°C. The difference indicates",
+      "optionsJson": "[\"The temperature has risen\",\"Evaporation is occurring from the wet bulb, indicating unsaturated air with RH < 100%\",\"The air is fully saturated\",\"It is raining outside ✓ Correct Answer: B Explanation: When wet and dry bulb temperatures differ, evaporation cools the wet bulb. Greater difference = drier air = lower relative humidity. Equal readings mean 100% RH (saturated air — no evaporation occurs). Why others are wrong: A: Temperature change is not inferred from the difference alone. C: Saturated air (100% RH) would show equal wet and dry bulb temperatures. D: Rain cannot be inferred from a hygrometer reading. TOPIC 18: STRUCTURE OF MATTER & KINETIC THEORY\"]",
+      "answerIndex": 1,
+      "explanation": "A wet-and-dry bulb hygrometer compares a dry-bulb temperature and a wet-bulb temperature to assess atmospheric humidity.\nEvaporation from the wet bulb absorbs latent heat and cools it, so a wet-bulb reading of 18°C versus a dry-bulb 24°C shows evaporation is occurring.\nThe 6°C depression indicates the air is unsaturated and the relative humidity is less than 100%; greater wet–dry differences correspond to drier air.\nWhen air is saturated (RH = 100%) no evaporation occurs and the wet and dry bulb temperatures would be equal.\nYou cannot infer that the ambient temperature has risen from the bulb difference alone, because the difference reflects moisture-related cooling rather than a temperature change.\nYou also cannot conclude it is raining from this reading; precipitation requires additional meteorological evidence and is not indicated solely by wet-bulb depression.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 283,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-99-101",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Brownian motion provides evidence for",
+      "optionsJson": "[\"The wave nature of matter\",\"The continuous and random motion of molecules in a fluid\",\"The existence of atoms only in solids\",\"The absence of intermolecular forces ✓ Correct Answer: B Explanation: Brownian motion (random movement of pollen grains in water, observed by Robert Brown) shows that liquid molecules are in continuous, random motion, continually bombarding and jostling suspended particles. Why others are wrong: A: Brownian motion is a particle phenomenon — de Broglie's hypothesis deals with wave-particle duality. C: Molecular motion occurs in all states — solids, liquids, and gases. D: Brownian motion occurs due to molecular bombardment — intermolecular forces exist. © The Scholars Forge Tutorial | 350+ is ours! | Page 27 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave\"]",
+      "answerIndex": 1,
+      "explanation": "Brownian motion is the erratic, random movement of microscopic particles suspended in a fluid, observable under a microscope.\nThis movement results from continual, unequal impacts by the fluid's molecules, which themselves are in random thermal motion.\nHence option B is correct: Brownian motion provides direct evidence that molecules in a fluid undergo continuous and random motion.\nOption A is wrong because the wave nature of matter (de Broglie wave–particle duality) is a quantum concept not demonstrated by the macroscopic jitter of suspended particles.\nOption C is incorrect since molecular motion exists in solids, liquids and gases, although Brownian motion is most easily seen in fluids.\nOption D is false because Brownian motion arises from molecular collisions and thermal motion, which presuppose interacting molecules rather than an absence of intermolecular forces.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 284,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-100-102",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Surface tension is explained by molecular theory as arising from",
+      "optionsJson": "[\"Gravity acting on surface molecules\",\"Cohesion between molecules at the surface and net inward molecular force due to unbalanced cohesive forces\",\"Adhesion of water to air molecules\",\"The low density of surface molecules ✓ Correct Answer: B Explanation: Surface molecules experience cohesive forces from below and sides, but not from above (no liquid above them). This net inward force creates surface tension — the 'skin' effect that allows insects to walk on water. Why others are wrong: A: Gravity causes liquids to flow, not surface tension. C: Water-air adhesion is very weak compared to water-water cohesion. D: Density is uniform at the surface — surface tension is a force effect.\"]",
+      "answerIndex": 1,
+      "explanation": "Surface tension arises because molecules inside a liquid are pulled equally in all directions by cohesive forces, while molecules at the surface lack neighbors above and therefore experience a net inward cohesive force.\nThis unbalanced cohesive force tends to minimize the liquid's surface area and appears macroscopically as a contractile 'skin', measurable as force per unit length or as surface energy per unit area.\nOption B correctly states the molecular origin: cohesion among surface molecules and the resulting inward force produce surface tension.\nGravity (option A) acts on the bulk mass and deforms liquid surfaces but does not generate the molecular imbalance that causes surface tension.\nAdhesion to air molecules (option C) is negligible because gases interact weakly compared with the strong liquid–liquid cohesion (for water, hydrogen bonding) that dominates surface behaviour.\nThe idea of lower surface density (option D) is misleading: surface tension is due to unbalanced intermolecular forces at the interface, not to a lower density of surface molecules.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 285,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-101-103",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Diffusion occurs more rapidly in gases than in liquids because",
+      "optionsJson": "[\"Gas molecules are heavier\",\"Gas molecules have larger intermolecular distances and higher average speeds\",\"Liquids are more viscous than solids\",\"Gas molecules have stronger intermolecular forces ✓ Correct Answer: B Explanation: In gases, molecules are widely spaced (large mean free path) and move at high speeds (hundreds of m/s). In liquids, molecules are closely packed with stronger intermolecular forces that slow diffusion significantly. Why others are wrong: A: Gas molecules are often lighter than liquid molecules (e.g., air vs water) — mass opposes this claim. C: Liquids vs solids viscosity is irrelevant to gas-liquid comparison. D: Gas molecules have WEAKER intermolecular forces — that's why they're faster.\"]",
+      "answerIndex": 1,
+      "explanation": "Diffusion is the net movement of particles from regions of higher concentration to lower concentration driven by random thermal motion of molecules (kinetic theory).\nIn gases molecules are widely spaced so the mean free path is large and, at typical temperatures, they have high average speeds (order of 10^2 m/s), allowing rapid mixing.\nIn liquids molecules are closely packed with frequent collisions and stronger intermolecular attractions, which reduce molecular mobility and slow diffusion.\nHence option B is correct: larger intermolecular distances and higher average speeds in gases cause faster diffusion than in liquids.\nOption A is incorrect because gas molecules are not generally heavier than liquid molecules, and lighter particles at the same temperature tend to have higher average speeds, increasing diffusion.\nOption C is irrelevant to the gas–liquid comparison (viscosity of liquids vs solids does not explain why gases diffuse faster) and option D is false because gases have weaker, not stronger, intermolecular forces than liquids.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 286,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-102-104",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Capillarity (capillary action) occurs because of",
+      "optionsJson": "[\"Only cohesion between liquid molecules\",\"The interplay between adhesion (liquid to tube) and cohesion (liquid to liquid) forces\",\"Atmospheric pressure pushing liquid up the tube\",\"The weight of liquid in the tube ✓ Correct Answer: B Explanation: Capillary action depends on whether adhesion (liquid-tube) or cohesion (liquid-liquid) is stronger. If adhesion > cohesion (water in glass), liquid rises (concave meniscus). If cohesion > adhesion (mercury in glass), liquid is depressed (convex meniscus). Why others are wrong: A: Cohesion alone would cause liquid to fall, not rise. C: Atmospheric pressure acts on both inside and outside — it doesn't directly cause capillarity. D: Weight of liquid works against capillary rise, not for it.\"]",
+      "answerIndex": 1,
+      "explanation": "Capillarity is the spontaneous rise or fall of a liquid in a narrow tube caused by surface tension arising from molecular adhesion and cohesion.\nThe correct option is the interplay between adhesion (liquid-to-tube) and cohesion (liquid-to-liquid): when adhesion exceeds cohesion the liquid climbs the tube and forms a concave meniscus, and when cohesion exceeds adhesion the liquid is depressed with a convex meniscus.\nFor example, water wets glass (adhesion > cohesion) so it rises in a capillary, whereas mercury does not wet glass (cohesion > adhesion) so it is depressed.\nCohesion alone cannot produce capillary rise because molecules must also stick to the tube wall (adhesion) to pull the liquid column upward.\nAtmospheric pressure is not the direct cause of capillarity since it acts on the liquid surface both inside and outside the tube and does not determine the meniscus shape.\nThe weight of the liquid opposes capillary rise; an equilibrium height is reached when the upward force from surface tension (due to adhesion/cohesion) balances the downward weight of the liquid column.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 287,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-104-106",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "In a vacuum flask (thermos flask), heat loss by radiation is minimized by",
+      "optionsJson": "[\"The double glass walls\",\"The silvered inner surfaces which reflect radiated heat\",\"The stopper at the top\",\"The outer casing ✓ Correct Answer: B Explanation: The silvered inner surfaces of the vacuum flask reflect radiation back, minimizing heat transfer by radiation. The vacuum between the walls prevents conduction and convection. Why others are wrong: A: Double walls create the vacuum gap — it's the vacuum that stops conduction/convection, and silvering that stops radiation. C: The stopper reduces convection from the opening but is not the primary radiation control. D: The outer casing provides physical protection only.\"]",
+      "answerIndex": 1,
+      "explanation": "A vacuum flask reduces heat transfer by addressing the three modes of heat flow: conduction, convection and radiation.\nThe silvered inner surfaces are correct because they reflect infrared radiation back into the flask, greatly reducing radiative heat loss.\nThe vacuum between the double walls prevents conduction and convection because there are no particles to carry heat across the gap.\nOption A (the double glass walls) describes the structural feature that enables the vacuum gap, but without silvering they would not stop radiation effectively.\nOption C (the stopper) limits convective losses and some conductive loss through the opening, but it does not significantly affect radiation.\nOption D (the outer casing) mainly provides mechanical protection and minimal insulation; it is not the primary means of reducing radiative heat loss.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 288,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-105-107",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Heat transfer by convection requires",
+      "optionsJson": "[\"A vacuum\",\"A medium and bulk movement of the fluid carrying thermal energy\",\"Contact between two solid surfaces\",\"Electromagnetic radiation ✓ Correct Answer: B Explanation: Convection involves bulk movement of a fluid (liquid or gas) carrying thermal energy. Hot fluid rises (less dense), cool fluid sinks (denser), creating convection currents. Requires a medium (not vacuum). Why others are wrong: A: Convection cannot occur in a vacuum — requires a fluid medium. C: Contact between solid surfaces describes conduction. D: Electromagnetic radiation describes radiation, not convection.\"]",
+      "answerIndex": 1,
+      "explanation": "Convection is heat transfer that occurs by bulk motion of a fluid (liquid or gas) carrying thermal energy from one place to another.\nIt depends on density differences caused by temperature: warmer fluid becomes less dense and rises while cooler, denser fluid sinks, forming convection currents.\nBecause convection requires the motion of fluid particles it cannot occur in a vacuum and therefore needs a material medium.\nConduction, by contrast, is heat transfer through direct contact and particle-to-particle interactions in solids or stationary fluids, not bulk fluid movement.\nRadiation transfers heat by electromagnetic waves and can occur through a vacuum without any material medium, which distinguishes it from convection.\nTherefore the correct option is 'a medium and bulk movement of the fluid carrying thermal energy'; the other choices describe conduction, vacuum conditions, or radiation and so are incorrect.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 289,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-106-108",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "A good absorber of heat radiation is also a good",
+      "optionsJson": "[\"Reflector\",\"Emitter\",\"Conductor\",\"Insulator ✓ Correct Answer: B Explanation: By Kirchhoff's law of radiation, good absorbers are also good emitters at the same temperature. A perfect absorber (black body) is also the best emitter. Black surfaces absorb and emit more radiation than polished surfaces. Why others are wrong: A: Good absorbers are POOR reflectors (and vice versa) — they are opposites. C and D: Conduction and emission are different heat transfer mechanisms — absorption relates to radiation, not necessarily conduction.\"]",
+      "answerIndex": 1,
+      "explanation": "Kirchhoff's law of thermal radiation states that, for a body in thermal equilibrium, absorptivity equals emissivity at each wavelength and direction.\nTherefore a good absorber of heat radiation must also be a good emitter of radiation at the same temperature.\nA perfect absorber (black body) absorbs all incident radiation and is also the ideal emitter for thermal radiation.\nHighly reflective (polished) surfaces have low absorptivity and correspondingly low emissivity, so they are poor emitters.\nConduction and insulation concern transfer by particle collisions and materials' thermal conductivity, which are independent of radiative absorptivity/emissivity.\nThus the correct choice is 'Emitter'; the other options are incorrect because reflectors are poor absorbers and conduction/insulation are different heat-transfer processes.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 290,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-107-109",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Land breeze occurs at night because",
+      "optionsJson": "[\"The sea heats up faster than land and the warm air rises over the sea\",\"The land cools down faster than sea at night, so warm air rises over sea and cool air from land moves to replace it\",\"The land is always warmer than the sea\",\"Wind always blows from sea to land © The Scholars Forge Tutorial | 350+ is ours! | Page 29 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave ✓ Correct Answer: B Explanation: At night: land cools faster than sea (sea retains heat longer). Warm air rises over the warmer sea, and cooler air from land blows seaward to replace it — this is the land breeze (from land to sea). Why others are wrong: A: This describes the sea breeze (daytime, when land heats up faster). C: Land is warmer during the day and cooler at night — not always warmer. D: Wind from sea to land is the SEA BREEZE (daytime), not land breeze.\"]",
+      "answerIndex": 1,
+      "explanation": "At night the land loses heat faster than the sea, so the sea surface remains relatively warmer.\nWarmer air above the sea becomes less dense and rises, producing a local low pressure over the water.\nCooler, denser air over the land flows toward the sea to replace the rising warm air, creating a wind from land to sea called a land breeze.\nOption B correctly describes this sequence: land cools faster at night, warm air rises over the sea, and cool air moves seaward.\nOption A is wrong because it describes a sea breeze, which occurs during the day when land heats faster than the sea and air rises over land.\nOptions C and D are false generalisations: land is not always warmer than sea, and winds do not always blow from sea to land regardless of diurnal heating.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 291,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-108-110",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "The rate of heat conduction through a material is increased by",
+      "optionsJson": "[\"Decreasing the temperature gradient\",\"Increasing the thickness of the material\",\"Increasing the cross-sectional area and temperature gradient\",\"Using a material with low thermal conductivity ✓ Correct Answer: C Explanation: Rate of heat flow Q/t = kA(ΔT/L), where k = thermal conductivity, A = cross-sectional area, ΔT = temperature difference, L = thickness. Increasing A and ΔT (temperature gradient) increases heat flow rate. Why others are wrong: A: Decreasing temperature gradient (ΔT/L) DECREASES heat flow rate. B: Increasing thickness L DECREASES heat flow rate. D: Low thermal conductivity k DECREASES heat flow rate. TOPICS 20–22: WAVES AND SOUND\"]",
+      "answerIndex": 2,
+      "explanation": "Heat conduction in solids is given by Fourier's law Q/t = kA(ΔT/L), relating heat flow rate to thermal conductivity k, area A, temperature difference ΔT and thickness L.\nIn this relation k is the material's thermal conductivity, A is the cross-sectional area, ΔT is the temperature difference, and the temperature gradient is ΔT/L.\nOption C is correct because Q/t is directly proportional to both A and the temperature gradient, so increasing either increases the rate of heat transfer.\nOption A is wrong since decreasing the temperature gradient (ΔT/L) reduces Q/t, so heat flow falls rather than rises.\nOption B is wrong because increasing the thickness L increases the path for conduction and appears in the denominator, therefore reducing Q/t.\nOption D is incorrect because a material with low thermal conductivity k produces a smaller Q/t compared with a material of higher k under the same A, ΔT and L.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 292,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-109-111",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "The frequency of a wave is 500 Hz and its wavelength is 0.4 m. The velocity of the wave is",
+      "optionsJson": "[\"200 ms⁻¹\",\"1250 ms⁻¹\",\"0.0008 ms⁻¹\",\"2000 ms⁻¹ ✓ Correct Answer: A Explanation: v = fλ = 500 × 0.4 = 200 ms⁻¹. This is the wave equation relating velocity, frequency, and wavelength. Why others are wrong: B: 1250 ms⁻¹ = f/λ = 500/0.4 — divides instead of multiplies. C: 0.0008 = λ/f — inverts the formula. D: 2000 ms⁻¹ — arithmetic error.\"]",
+      "answerIndex": 0,
+      "explanation": "The relevant relation is v = fλ, where v is wave speed, f is frequency and λ is wavelength.\nSubstituting f = 500 Hz and λ = 0.4 m gives v = 500 × 0.4 = 200 m s⁻¹.\nUnit check: Hz is s⁻¹ so (s⁻¹)(m) = m s⁻¹, confirming the correct unit for speed.\nOption B (1250 m s⁻¹) comes from dividing f by λ (500/0.4) instead of multiplying, so it is incorrect.\nOption C (0.0008 m s⁻¹) is λ/f (0.4/500), an inversion of the correct formula and therefore wrong.\nOption D (2000 m s⁻¹) is an arithmetic slip (e.g. multiplying 500 by 4 instead of 0.4) and is also incorrect.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 293,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-112-114",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Polarization of waves is only possible for",
+      "optionsJson": "[\"Longitudinal waves\",\"Sound waves\",\"Transverse waves\",\"All types of waves ✓ Correct Answer: C Explanation: Polarization restricts vibration to one plane. This is only possible when vibrations are perpendicular to propagation (transverse waves). Longitudinal waves (like sound) vibrate along propagation — they cannot be polarized. Why others are wrong: A: Longitudinal waves CANNOT be polarized — vibration is along propagation direction. B: Sound is a longitudinal wave and cannot be polarized. D: Not all waves can be polarized — only transverse waves.\"]",
+      "answerIndex": 2,
+      "explanation": "Polarization means restricting the oscillation directions of a wave to a particular plane or orientation.\nThis restriction is possible only when oscillations are perpendicular to the direction of propagation, i.e. for transverse waves.\nTransverse waves such as electromagnetic waves (light) therefore can be polarized, so option C is correct.\nLongitudinal waves oscillate parallel to propagation and lack perpendicular oscillation components, so they cannot be polarized.\nSound in fluids is longitudinal, so it cannot be polarized, making option B incorrect.\nOption D is wrong because not all waves are transverse; only transverse waves exhibit polarization and practical polarizers (e.g. polarizing filters) demonstrate this property.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 294,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-114-116",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Beat frequency is produced when two sound waves of frequencies 440 Hz and 444 Hz are sounded together. The beat frequency is",
+      "optionsJson": "[\"884 Hz\",\"4 Hz\",\"440 Hz\",\"2 Hz ✓ Correct Answer: B Explanation: Beat frequency = |f₁ − f₂| = |440 − 444| = 4 Hz. This is the rate at which constructive interference alternates, heard as 4 pulses of loudness per second. Why others are wrong: A: 884 Hz = f₁ + f₂ — sum gives a different frequency, not beats. C: 440 Hz is just one of the original frequencies. D: 2 Hz = beat/2 — halves the result without basis.\"]",
+      "answerIndex": 1,
+      "explanation": "Beat frequency arises when two sound waves of nearly equal frequency interfere and equals the absolute difference of their frequencies.\nFor 440 Hz and 444 Hz the beat frequency is |440 − 444| = 4 Hz, so four loudness pulses are heard each second.\nThese beats are amplitude modulation of the combined signal, not a new steady tone at the sum frequency.\nOption A (884 Hz) is the arithmetic sum 440 + 444 and does not represent the beat rate.\nOption C (440 Hz) merely names one original component frequency and therefore cannot be the beat frequency.\nOption D (2 Hz) is wrong because there is no reason to halve the difference; beats equal the full absolute difference, 4 Hz.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 296,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-116-118",
+      "subject": "Physics",
+      "topic": "Unclassified — source staged",
+      "question": "Sound travels faster in",
+      "optionsJson": "[\"Vacuum\",\"Air\",\"Water\",\"Steel ✓ Correct Answer: D Explanation: Speed of sound increases with the elasticity and density of the medium: solids > liquids > gases. In steel: ~5000 ms⁻¹; water: ~1500 ms⁻¹; air: ~340 ms⁻¹; vacuum: sound cannot travel. Why others are wrong: A: Sound cannot travel in a vacuum — requires a material medium. B: Air is a gas with low density — sound is slowest in gases. C: Water is faster than air but slower than steel.\"]",
+      "answerIndex": 3,
+      "explanation": "The speed of sound in a medium depends on that medium's elasticity (stiffness) and density, with higher stiffness generally increasing wave speed.\nSolids such as steel have a very high elastic (Young's) modulus, so longitudinal sound waves in steel travel much faster (on the order of 5000 m s⁻¹) than in liquids or gases.\nWater is less compressible and denser than air, so sound travels faster in water (around 1500 m s⁻¹ in seawater) than in air.\nAir is a compressible gas with low stiffness, giving a much lower sound speed (about 340 m s⁻¹ at 20°C), so it is slower than water and steel.\nA vacuum cannot support mechanical waves because there are no particles to transmit oscillations, so sound does not travel in a vacuum.\nThus, among the options given the correct choice is steel, consistent with the general ordering solids > liquids > gases for sound speed.",
+      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
+      "explanationLines": 6,
+      "blockers": [
+        "missing official topic mapping",
+        "explanation exceeds five lines"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 90144,
+      "externalId": "TechMed-Complete-Question-Bank-md-4",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "question": "Consecutive members of an alkane homologous series differ by:",
+      "optionsJson": "[\"CH\",\"CH₂\",\"CH₃\",\"CₙHₙ\"]",
+      "answerIndex": 0,
+      "explanation": "Each successive alkane differs by a CH₂ unit (methylene group) in its molecular formula.",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "explanationLines": 1,
+      "blockers": [
+        "duplicate option text"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 90148,
+      "externalId": "TechMed-Complete-Question-Bank-md-9",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "The molecular formula of X is:",
+      "optionsJson": "[\"C₁₂H₂₂O₁₁\",\"C₆H₁₂O₆\",\"C₃H₆O₃\",\"C₇H₁₄O₇\"]",
+      "answerIndex": 0,
+      "explanation": "X is glucose, a monosaccharide with molecular formula C₆H₁₂O₆.",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "explanationLines": 1,
+      "blockers": [
+        "duplicate option text"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 90163,
+      "externalId": "TechMed-Complete-Question-Bank-md-37",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "question": "In dilute solution the heat of reaction NaOH + HCl → NaCl + H₂O is -57.3kJ. The heat of reaction 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O is:",
+      "optionsJson": "[\"+28.65kJ\",\"28.65kJ\",\"57.3kJ\",\"114.6kJ\"]",
+      "answerIndex": 3,
+      "explanation": "The reaction involves 2 moles of NaOH (neutralization), so ΔH = 2 × (-57.3) = -114.6 kJ.",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "explanationLines": 1,
+      "blockers": [
+        "duplicate option text"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 90196,
+      "externalId": "TechMed-Complete-Question-Bank-md-71",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure and Bonding",
+      "question": "Which of the following has a coordinate covalent bond?",
+      "optionsJson": "[\"NH₃\",\"CH₄\",\"NH₄⁺\",\"H₂O\"]",
+      "answerIndex": 0,
+      "explanation": "In NH₄⁺, the fourth N-H bond is formed when the nitrogen lone pair is donated to H⁺ (coordinate/dative covalent bond).",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Chemistry",
+      "explanationLines": 1,
+      "blockers": [
+        "duplicate option text"
+      ],
+      "safeIfStatusApproved": false
+    },
+    {
+      "id": 90231,
+      "externalId": "TechMed-Complete-Question-Bank-md-15",
+      "subject": "Physics",
+      "topic": "Gas laws",
+      "question": "The pressure of one mole of an ideal gas of volume 10⁻²m³ at 27°C is [R = 8.3 J/mol·K]:",
+      "optionsJson": "[\"2.24×10⁴\",\"2.24×10⁵\",\"2.49×10⁵\",\"2.49×10⁴ N/m²\"]",
+      "answerIndex": 3,
+      "explanation": "P = nRT/V = (1 × 8.3 × 300)/0.01 = 249,000 = 2.49 × 10⁵ Pa.",
+      "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+      "explanationLines": 1,
+      "blockers": [
+        "duplicate option text"
+      ],
+      "safeIfStatusApproved": false
+    }
+  ]
+}
