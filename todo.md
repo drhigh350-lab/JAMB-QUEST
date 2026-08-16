@@ -414,3 +414,5 @@
 - [x] Enable question-ledger navigation for untimed study rounds without bypassing answer-state safeguards.
 - [x] Prevent the opening sequence from auto-leaving before the live Atomic Habits quote finishes typing and has a readable hold.
 - [x] Verify grouped parent syllabus sections launch their selected exact topic drill in untimed study mode.
+- [x] Fix the reported About-page question count mismatch: reconcile the displayed 4,952 total with the latest authoritative learner-facing playable count and add regression coverage across tabs. The runtime count is 4,952: 3,952 quality-gated authorised questions plus 1,000 model questions; the About page now reads the same settled count as Practice.
+

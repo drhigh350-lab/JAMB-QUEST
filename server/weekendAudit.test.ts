@@ -34,6 +34,14 @@ describe("weekend learner-flow audit", () => {
     expect(home).toContain("Day before JAMB? Open your final-day review");
   });
 
+  it("uses one settled runtime question count across About and Practice", () => {
+    const home = readFileSync(resolve(root, "client/src/pages/Home.tsx"), "utf8");
+    const report = readFileSync(resolve(root, "reports/question_count_reconciliation_aug16.md"), "utf8");
+    expect(home).toContain("visibleQuestionCount === null ? \"Preparing JAMB Quest\"");
+    expect(home).toContain("visibleQuestionCount.toLocaleString()} JAMB Quest questions");
+    expect(report).toContain("**Current learner-facing total** | **4,952**");
+  });
+
   it("keeps the question palette after the active question", () => {
     const shell = readFileSync(resolve(root, "client/src/components/QuizShell.tsx"), "utf8");
     const game = readFileSync(resolve(root, "client/src/game/useQuizGame.ts"), "utf8");
