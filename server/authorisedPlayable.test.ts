@@ -73,6 +73,22 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, diagramUrl: "/manus-storage/energy-profile.svg" })).not.toBeNull();
   });
 
+  it("holds explicit figure and graph references until an asset is linked", () => {
+    const base = {
+      id: 231,
+      subject: "Biology" as const,
+      topic: "Support and movement",
+      difficulty: "medium" as const,
+      optionsJson: JSON.stringify(["A", "B", "C", "D"]),
+      answerIndex: 0,
+      explanation: "The labelled structure identifies the answer.",
+      sourceLabel: "Owner-provided source",
+    };
+    expect(toPlayableAuthorisedQuestion({ ...base, questionText: "[DIAGRAM: a labelled spine diagram] The part labelled II is the" })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 232, questionText: "The graph above represents the motion of the body." })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 233, questionText: "[Refers to the osmosis set-up diagram in Q3] Which result is expected?", diagramUrl: "/manus-storage/osmosis.svg" })).not.toBeNull();
+  });
+
   it("rejects malformed options before the record can enter the quiz feed", () => {
     expect(toPlayableAuthorisedQuestion({
       id: 13,

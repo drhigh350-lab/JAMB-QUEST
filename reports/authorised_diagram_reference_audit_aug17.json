@@ -1,0 +1,397 @@
+{
+  "generatedAt": "2026-08-17T20:59:55.412Z",
+  "source": "reports/jamb_quest_question_bank_aug17.json",
+  "totalQuestions": 5849,
+  "referencePattern": "\\b(diagram|figure|graph|chart|illustration|shown above|shown below|structure above|compound above)\\b",
+  "diagramReferenceCount": 52,
+  "diagramReferenceWithAssetCount": 0,
+  "diagramReferenceMissingAssetCount": 52,
+  "bySubject": {
+    "Use of English": {
+      "total": 6,
+      "withAsset": 0,
+      "missingAsset": 6
+    },
+    "Biology": {
+      "total": 10,
+      "withAsset": 0,
+      "missingAsset": 10
+    },
+    "Chemistry": {
+      "total": 26,
+      "withAsset": 0,
+      "missingAsset": 26
+    },
+    "Physics": {
+      "total": 10,
+      "withAsset": 0,
+      "missingAsset": 10
+    }
+  },
+  "missingAssetRecords": [
+    {
+      "id": "authorised-150085",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The area under a velocity-time graph represents:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-300076",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The geometric area bounded under a velocity-time graph represents:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-960274",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "CH3-CH2-C(=O)-O-CH2-CH3. The compound above is an",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-960330",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "CH3-CH(OH)-CH2-CH3 — the compound above is a",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-960476",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "Given the structure:\nH   CH3\n|   |\nH3C - C - C - CH2 - CH2 - CH3\n      |   |\n     CH3  H\nThe IUPAC nomenclature of the compound above is",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-960657",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "Identify the FIGURE OF SPEECH used: 'The wind sang a mournful song through the trees.'",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-960663",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "'I have told you a thousand times not to come here.' The figure of speech used is _____.",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-960664",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "'His words were like daggers to her heart.' The figure of speech is _____.",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-990312",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The slope of a distance-time graph gives:",
+      "answer_index": 3
+    },
+    {
+      "id": "authorised-990321",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The slope of a velocity-time graph gives:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-990330",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The area under a velocity-time graph gives:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1020027",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "question": "[DIAGRAM: a hollowed yam tuber is placed in a beaker of water, with salt solution inside the hollow of the yam - a classic osmosis set-up]\nYam is used in this set-up because it",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1020028",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "question": "[Refers to the osmosis set-up diagram in Q3]\nWhich of the following results is to be expected if the set-up is left for several hours?",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1020032",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "question": "[DIAGRAM: a vertebral column / spine diagram with two regions labelled I and II]\nThe type of joint between adjacent bones in the part labelled II is the",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1020033",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "question": "[Refers to the vertebral column diagram in Q8]\nThe bones labelled II are called",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1020036",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "question": "[DIAGRAM: a flower cross-section with four parts labelled I, II, III, IV]\nThe part labelled II is the",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1020037",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "question": "[Refers to the flower diagram in Q12]\nThe process of pollination involves the transfer of pollens from",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1020039",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "question": "[DIAGRAM: a cross-section of mammalian skin with structures labelled I, II, III, IV, including a hair follicle, sweat gland, and associated structures]\nThe function of the part labelled III is to",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1020055",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "question": "[DIAGRAM: a plant/animal cell diagram with organelles labelled I, II, III, IV, including nucleus, mitochondria, and other structures]\nThe part labelled II is responsible for",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1020056",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "question": "[Refers to the cell diagram in Q32]\nThe endoplasmic reticulum is represented by the part labelled",
+      "answer_index": 3
+    },
+    {
+      "id": "authorised-1020078",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[STRUCTURE] H3C–C(CH3)(H)–C(CH3)(H)–CH2–CH2–CH3 (a hexane chain with methyl substituents on C2 and C3)\nThe IUPAC nomenclature of the compound above is",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1020081",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and gases",
+      "question": "[DIAGRAM: a simple atomic diagram shows a nucleus with an orbiting electron]\nIn the experiment above, X is a mixture of nitrogen, carbon (IV) oxide and",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050022",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "question": "The structure above represents a",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050059",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "question": "[Diagram Question] In the graph above, the activation energy of the catalyzed reaction is:",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050086",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and gases",
+      "question": "[Diagram Question] From the diagram above, an ideal gas is represented by:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1050114",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "question": "Use the diagram to answer this question. The gas that can be used to demonstrate the experiment is",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050117",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "Choose the correct option from the structure above",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050122",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "question": "[Diagram Question] In the energy profile diagram above, X represents the:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1050123",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] Choose the correct answer in the option above. Which of the following is a primary amine?",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050162",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "question": "The diagram above represent the electron sub-level for",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050171",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] The IUPAC nomenclature for the compound above is:",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050200",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "The IUPAC nomenclature of the compound above is?",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050237",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "question": "[Diagram Question] The diagram above best illustrates the effect of a decrease in:",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050275",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "question": "Use the diagram to answer this question. The colour of the fountain water is",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1050297",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] The compound above is an:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050321",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "question": "[Diagram Question] From the solubility curve diagram, find the amount of solute deposited when 200 cm3 of the solution is cooled from 55°C to 40°C.",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050325",
+      "subject": "Chemistry",
+      "topic": "Chemical equilibria",
+      "question": "[Diagram Question] Choose the correct option from the graph above. 3Fe(s) + 4H2O(g) ⇌ Fe3O4(s) + 4H2(g). The equilibrium constant, K, of the reaction above is represented as:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1050362",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "The IUPAC nomenclature for the structure above is",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1050437",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] The functional groups present in the compound above are:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050438",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "question": "In a rate of reaction diagram, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050449",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] Use the above option to answer this question. The dehydration of ammonium salt of alkanoic acids produces a compound with the general formula:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050495",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "question": "The graph above demonstrate the effect of?",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1050536",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and gases",
+      "question": "[Diagram Question] From the diagram above, an ideal gas can be represented by:",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1050554",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] Use the following option above to answer this question. Which of the following compounds in solution will turn red litmus paper blue?",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1140020",
+      "subject": "Physics",
+      "topic": "Waves",
+      "question": "The property of wave shown in the diagram above is?",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1140022",
+      "subject": "Physics",
+      "topic": "Equilibrium of forces",
+      "question": "Find the tension in the two cords shown in the figure above. Neglect the mass of the cords, and assume that the angle is 38° and the mass m is 220 kg [Take g = 9.8 ms-2]",
+      "answer_index": 3
+    },
+    {
+      "id": "authorised-1140036",
+      "subject": "Physics",
+      "topic": "Machines",
+      "question": "A 200 kg load is raised using a 110 m long lever as shown in the diagram above. The load is 10m from the pivot P. If the efficiency of the the lever is 80%, find the effort E required to lift the load. [Take g = 10ms-2]",
+      "answer_index": 0
+    },
+    {
+      "id": "authorised-1140041",
+      "subject": "Physics",
+      "topic": "Measurements and units",
+      "question": "Three forces with magnitudes 16 N, 12 N and 21 N are shown in the diagram below. Determine the magnitude of their resultant force and angle with the x-axis",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1140100",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "A body is moving with uniform acceleration. Its velocity-time graph is a",
+      "answer_index": 1
+    },
+    {
+      "id": "ENG-057",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'The night wore a cloak of velvet silence.' Identify the figure of speech used.",
+      "answer_index": 0
+    },
+    {
+      "id": "ENG-069",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'Her courage was a shield, her fears were chains.' What figure of speech is used?",
+      "answer_index": 1
+    },
+    {
+      "id": "ENG-074",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'Her courage is a shield, her fears are chains.' Which figure of speech is used?",
+      "answer_index": 1
+    }
+  ]
+}

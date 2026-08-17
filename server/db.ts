@@ -793,7 +793,7 @@ export function hasEmbeddedOptionMetadata(option: string) {
   return EMBEDDED_OPTION_METADATA.test(option);
 }
 
-const DIAGRAM_REFERENCE = /(?:\[diagram question\]|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown))/i;
+const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b)/i;
 
 export function requiresDiagramAsset(questionText: string) {
   return DIAGRAM_REFERENCE.test(questionText);

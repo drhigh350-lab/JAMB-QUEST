@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-08-17T20:59:48.379Z",
+  "source": "/tmp/jamb-static-bank.json",
+  "totalQuestions": 1000,
+  "referencePattern": "\\b(diagram|figure|graph|chart|illustration|shown above|shown below|structure above|compound above)\\b",
+  "diagramReferenceCount": 3,
+  "diagramReferenceWithAssetCount": 0,
+  "diagramReferenceMissingAssetCount": 3,
+  "bySubject": {
+    "Use of English": {
+      "total": 3,
+      "withAsset": 0,
+      "missingAsset": 3
+    },
+    "Biology": {
+      "total": 0,
+      "withAsset": 0,
+      "missingAsset": 0
+    },
+    "Chemistry": {
+      "total": 0,
+      "withAsset": 0,
+      "missingAsset": 0
+    },
+    "Physics": {
+      "total": 0,
+      "withAsset": 0,
+      "missingAsset": 0
+    }
+  },
+  "missingAssetRecords": [
+    {
+      "id": "ENG-057",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'The night wore a cloak of velvet silence.' Identify the figure of speech used.",
+      "answer_index": 0
+    },
+    {
+      "id": "ENG-069",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'Her courage was a shield, her fears were chains.' What figure of speech is used?",
+      "answer_index": 1
+    },
+    {
+      "id": "ENG-074",
+      "subject": "Use of English",
+      "topic": "Original reading-text skills",
+      "question": "Excerpt: 'Her courage is a shield, her fears are chains.' Which figure of speech is used?",
+      "answer_index": 1
+    }
+  ]
+}

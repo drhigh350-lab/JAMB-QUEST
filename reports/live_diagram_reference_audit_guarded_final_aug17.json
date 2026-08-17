@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-08-17T21:05:17.165Z",
+  "source": "/tmp/authorised-playable-guarded-final.json",
+  "totalQuestions": 4983,
+  "diagramReferenceCount": 27,
+  "diagramReferenceWithAssetCount": 16,
+  "diagramReferenceMissingAssetCount": 11,
+  "bySubject": {
+    "Use of English": {
+      "total": 3,
+      "withAsset": 0,
+      "missingAsset": 3
+    },
+    "Biology": {
+      "total": 6,
+      "withAsset": 6,
+      "missingAsset": 0
+    },
+    "Chemistry": {
+      "total": 3,
+      "withAsset": 3,
+      "missingAsset": 0
+    },
+    "Physics": {
+      "total": 15,
+      "withAsset": 7,
+      "missingAsset": 8
+    }
+  },
+  "withAssetRecords": [
+    {
+      "id": "authorised-1050122",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "question": "[Diagram Question] In the energy profile diagram above, X represents the:",
+      "diagram_url": "/manus-storage/jamb-quest-chem-energy-profile-x_d3357802.svg"
+    },
+    {
+      "id": "authorised-1050171",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "question": "[Diagram Question] The IUPAC nomenclature for the compound above is:",
+      "diagram_url": "/manus-storage/jamb-quest-chem-4-methylpent-1-ene-neutral_48469471.svg"
+    },
+    {
+      "id": "authorised-1140020",
+      "subject": "Physics",
+      "topic": "Waves",
+      "question": "The property of wave shown in the diagram above is?",
+      "diagram_url": "/manus-storage/jamb-quest-physics-diffraction-wave-neutral_999b518c.svg"
+    },
+    {
+      "id": "authorised-1200008",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "question": "From the solubility graph, it can be inferred that",
+      "diagram_url": "/manus-storage/jamb-quest-chem-solubility-graph_eb7e3005.svg"
+    },
+    {
+      "id": "authorised-1260001",
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "question": "The value of R required to make the galvanometer measure voltage up to 40 V in the diagram above is",
+      "diagram_url": "/manus-storage/physics-galvanometer-multiplier_604015b2.svg"
+    },
+    {
+      "id": "authorised-1260002",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The mechanical advantage of the wedge shown above is",
+      "diagram_url": "/manus-storage/physics-wedge-mechanical-advantage_a9026ee8.svg"
+    },
+    {
+      "id": "authorised-1260003",
+      "subject": "Physics",
+      "topic": "Current electricity",
+      "question": "The electrical power developed in the resistor shown above is",
+      "diagram_url": "/manus-storage/physics-resistor-power_ded673cb.svg"
+    },
+    {
+      "id": "authorised-1260006",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "From the velocity-time graph shown, what distance is covered in the last stage of the motion?",
+      "diagram_url": "/manus-storage/physics-velocity-time-last-stage_16f55d7b.svg"
+    },
+    {
+      "id": "authorised-1260011",
+      "subject": "Physics",
+      "topic": "Refraction",
+      "question": "From the diagram, the sine of the angle of refraction in the glass is",
+      "diagram_url": "/manus-storage/physics-refraction-sine_38b4b48d.svg"
+    },
+    {
+      "id": "authorised-1260015",
+      "subject": "Physics",
+      "topic": "Magnets and magnetic fields",
+      "question": "The diagram shows a magnetic field due to a",
+      "diagram_url": "/manus-storage/physics-straight-wire-field_a97f62d8.svg"
+    },
+    {
+      "id": "authorised-1320004",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "question": "The plant diagram demonstrates",
+      "diagram_url": "/manus-storage/biology-phototropism_fb1e3ce3.svg"
+    },
+    {
+      "id": "authorised-1320005",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "question": "The part labelled I in the pregnancy diagram is the",
+      "diagram_url": "/manus-storage/biology-oviduct-pregnancy_086d1116.svg"
+    },
+    {
+      "id": "authorised-1320009",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "question": "The part labelled III in the insect diagram is the",
+      "diagram_url": "/manus-storage/biology-insect-thorax_d286cc57.svg"
+    },
+    {
+      "id": "authorised-1320010",
+      "subject": "Biology",
+      "topic": "Excretion",
+      "question": "The kidney shown in the diagram is responsible for",
+      "diagram_url": "/manus-storage/biology-kidney-osmoregulation_5860157c.svg"
+    },
+    {
+      "id": "authorised-1320012",
+      "subject": "Biology",
+      "topic": "Excretion",
+      "question": "The diagram above is a",
+      "diagram_url": "/manus-storage/biology-urinary-system_7534942f.svg"
+    },
+    {
+      "id": "authorised-1320013",
+      "subject": "Biology",
+      "topic": "Evolution and classification",
+      "question": "The organism shown in the diagram belongs to kingdom",
+      "diagram_url": "/manus-storage/biology-diatom-protista_b38400db.svg"
+    }
+  ],
+  "missingAssetRecords": [
+    {
+      "id": "authorised-150085",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The area under a velocity-time graph represents:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-300076",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The geometric area bounded under a velocity-time graph represents:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-960657",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "Identify the FIGURE OF SPEECH used: 'The wind sang a mournful song through the trees.'",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-960663",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "'I have told you a thousand times not to come here.' The figure of speech used is _____.",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-960664",
+      "subject": "Use of English",
+      "topic": "Ordinary, figurative and idiomatic usage",
+      "question": "'His words were like daggers to her heart.' The figure of speech is _____.",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-990312",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The slope of a distance-time graph gives:",
+      "answer_index": 3
+    },
+    {
+      "id": "authorised-990321",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The slope of a velocity-time graph gives:",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-990330",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The area under a velocity-time graph gives:",
+      "answer_index": 2
+    },
+    {
+      "id": "authorised-1140100",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "A body is moving with uniform acceleration. Its velocity-time graph is a",
+      "answer_index": 1
+    },
+    {
+      "id": "authorised-1230074",
+      "subject": "Physics",
+      "topic": "Quantity of heat",
+      "question": "The graph of pressure (P) against the reciprocal of the volume (1/V) in Boyle's law is a?",
+      "answer_index": 3
+    },
+    {
+      "id": "authorised-1230086",
+      "subject": "Physics",
+      "topic": "Motion",
+      "question": "The slope of the straight line displacement-time graph indicates?",
+      "answer_index": 1
+    }
+  ]
+}
