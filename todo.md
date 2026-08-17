@@ -446,3 +446,5 @@
 - [ ] Audit the withheld diagram-referencing questions, classify which are safely recreatable from self-contained text, identify which require original source images, and create only verified new diagram-based records without lowering the existing quality gates.
 
 - [x] Prepare a user-readable review file listing each held diagram-referencing question, its subject/topic/options, hold reason, and whether it needs the original figure or can be approved for a new instructional schematic. The generated file contains all 48 entries with options and recorded answer keys; two require original source figures and 46 are optional schematic candidates subject to source/answer approval.
+
+- [x] Reclassify the broad diagram-candidate list into ordinary no-diagram release candidates versus genuine visual candidates; validate user-identified review items 6 and 7 through the normal release gates without adding unnecessary visuals. Items 6 (`chem-docx-091`) and 7 (`chem-docx-135`) are already active, approved Chemistry records with the official `Organic compounds` topic; no duplicate release or diagram is needed.
