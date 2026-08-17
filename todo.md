@@ -436,3 +436,5 @@
 - [x] Expand the verified black-and-white diagram set with additional self-contained Physics, Biology, and Chemistry visuals, attaching only answer-aligned assets to live playable questions and recording the linked records in an audit manifest. Fourteen cross-subject diagrams were linked—five Physics, five Biology, and four Chemistry—bringing the audited playable visual-question total to 20.
 
 - [x] Add a navigable CBT exam log that lists completed CBT attempts and lets an authenticated learner reopen one specific attempt for full per-question correction review, including the selected answer, correct answer, explanation, timing, and summary context. The review is protected to the original learner and explicitly read-only, so it cannot alter the saved score or create a duplicate attempt.
+
+- [x] Upgrade saved CBT corrections to reopen in the familiar full CBT question interface with green/red answer stamps, a question palette, and read-only All, Correct-only, and Wrong/unanswered-only filters. The historic correction remains immutable and returns to Progress after the final reviewed question.

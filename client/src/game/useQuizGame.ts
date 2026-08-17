@@ -48,6 +48,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const [isPaused, setIsPaused] = useState(false);
   const [isHistoricalReview, setIsHistoricalReview] = useState(false);
   const [historicalReview, setHistoricalReview] = useState<{ completedAt: Date; durationSeconds: number } | null>(null);
+  const [historicalFilter, setHistoricalFilter] = useState<"all" | "correct" | "wrong">("all");
+  const [historicalSnapshot, setHistoricalSnapshot] = useState<{ questions: BankQuestion[]; answers: Record<string, AnswerRecord>; flaggedIds: string[] } | null>(null);
   const [resumableCbt, setResumableCbt] = useState<ActiveCbtSession | null>(() => getActiveCbtSession());
 
   const reload = useCallback(() => {
@@ -145,6 +147,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
       setRoundConfig(config);
       setIsHistoricalReview(false);
       setHistoricalReview(null);
+      setHistoricalSnapshot(null);
+      setHistoricalFilter("all");
       setRoundQuestions(picked);
       setCurrentIndex(0);
       setSelectedIndex(null);
@@ -291,17 +295,33 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
       return;
     }
     const answersByQuestion = Object.fromEntries(attempt.answerReview.flatMap((answer) => answer.questionId && bankById.has(answer.questionId) ? [[answer.questionId, { selectedIndex: answer.selectedIndex, correct: answer.correct, timedOut: answer.timedOut } satisfies AnswerRecord] as const] : []));
+    const restoredFlags = attempt.answerReview.flatMap((answer) => answer.flagged && answer.questionId ? [answer.questionId] : []);
     setRoundConfig({ subject: attempt.subject, mode: "review", count: restored.length, timing: "study", questionIds: restored.map((question) => question.id), recoveryOrigin: "missed-questions" });
     setRoundQuestions(restored);
     setAnswers(answersByQuestion);
-    setFlaggedIds(attempt.answerReview.flatMap((answer) => answer.flagged && answer.questionId ? [answer.questionId] : []));
+    setFlaggedIds(restoredFlags);
     setCurrentIndex(0);
     setSelectedIndex(answersByQuestion[restored[0]!.id]?.selectedIndex ?? null);
     setAnswered(true);
     setIsHistoricalReview(true);
     setHistoricalReview({ completedAt: attempt.completedAt, durationSeconds: attempt.durationSeconds });
-    setScreen("exam-review");
+    setHistoricalFilter("all");
+    setHistoricalSnapshot({ questions: restored, answers: answersByQuestion, flaggedIds: restoredFlags });
+    setScreen("quiz");
   }, [playableQuestions]);
+  const filterHistoricalReview = useCallback((filter: "all" | "correct" | "wrong") => {
+    if (!historicalSnapshot) return;
+    const filtered = historicalSnapshot.questions.filter((question) => filter === "all" || (filter === "correct" ? historicalSnapshot.answers[question.id]?.correct : !historicalSnapshot.answers[question.id]?.correct));
+    if (!filtered.length) return;
+    const filteredAnswers = Object.fromEntries(filtered.flatMap((question) => historicalSnapshot.answers[question.id] ? [[question.id, historicalSnapshot.answers[question.id]] as const] : []));
+    setHistoricalFilter(filter);
+    setRoundQuestions(filtered);
+    setAnswers(filteredAnswers);
+    setFlaggedIds(historicalSnapshot.flaggedIds.filter((id) => filtered.some((question) => question.id === id)));
+    setCurrentIndex(0);
+    setSelectedIndex(filteredAnswers[filtered[0]!.id]?.selectedIndex ?? null);
+    setAnswered(true);
+  }, [historicalSnapshot]);
 
   return {
     questions: playableQuestions,
@@ -327,6 +347,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     isCbt,
     isPaused,
     historicalReview,
+    historicalFilter,
     canReview: progress.wrongIds.length > 0,
     resumableCbt,
     startRound,
@@ -343,6 +364,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     quitRound,
     retryRound,
     openHistoricalReview,
+    filterHistoricalReview,
     resumeCbt,
     discardResumableCbt,
     goHome: quitRound,

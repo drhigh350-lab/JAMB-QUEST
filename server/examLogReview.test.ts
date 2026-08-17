@@ -9,7 +9,7 @@ describe("saved CBT correction log", () => {
     expect(review).toEqual([{ questionId: "authorised-219", subject: "Physics", topic: "Motion", selectedIndex: 2, correct: false, timedOut: false, flagged: true }]);
   });
 
-  it("uses a protected single-round query and a read-only correction viewer", () => {
+  it("uses a protected single-round query and a full-CBT-style read-only correction viewer with explicit answer filters", () => {
     const router = readFileSync(resolve(import.meta.dirname, "routers.ts"), "utf8");
     const game = readFileSync(resolve(import.meta.dirname, "../client/src/game/useQuizGame.ts"), "utf8");
     const home = readFileSync(resolve(import.meta.dirname, "../client/src/pages/Home.tsx"), "utf8");
@@ -17,8 +17,15 @@ describe("saved CBT correction log", () => {
     expect(router).toContain("roundReview: protectedProcedure");
     expect(game).toContain("openHistoricalReview");
     expect(game).toContain("if (isHistoricalReview)");
+    expect(game).toContain('historicalFilter, setHistoricalFilter');
+    expect(game).toContain("filterHistoricalReview");
     expect(home).toContain("Open corrections");
     expect(review).toContain("SAVED CBT CORRECTION");
+    expect(review).toContain("SAVED CBT CORRECTION");
     expect(review).toContain("will not change your score or create another attempt");
+    const shell = readFileSync(resolve(import.meta.dirname, "../client/src/components/QuizShell.tsx"), "utf8");
+    expect(shell).toContain("SAVED CBT CORRECTION / READ ONLY");
+    expect(shell).toContain("Wrong / unanswered");
+    expect(shell).toContain("Green = correct · red = review");
   });
 });
