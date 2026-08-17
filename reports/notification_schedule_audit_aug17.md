@@ -14,4 +14,4 @@ The afternoon and evening jobs were not changed. The reminder sender remains ide
 
 ## Verification boundary
 
-The schedule update returned the next execution as `2026-08-18T06:00:00Z`. Browser permission and manual test delivery have already been confirmed by the learner. The next scheduled run still requires one real-device receipt to close the final delivery-evidence item; no delivery receipt has been fabricated.
+The permanent morning schedule returns its next execution as `2026-08-18T06:00:00Z`. A first attempt to create a one-time 8:00 a.m. test using a date-specific cron was disabled after inspection showed the scheduler interpreted it as an annual date. It was replaced with a short-lived 60-second test schedule expiring at `2026-08-17T06:22:00Z`; its callback is the existing morning endpoint and its idempotent sender can deliver at most one morning push for the local date. Browser permission and manual test delivery have already been confirmed by the learner. The real-device receipt from this short-lived test remains the final delivery-evidence item; no delivery receipt has been fabricated.
