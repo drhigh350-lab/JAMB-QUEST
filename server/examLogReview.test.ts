@@ -1,0 +1,24 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { describe, expect, it } from "vitest";
+import { parseAnswerReview } from "./db";
+
+describe("saved CBT correction log", () => {
+  it("preserves selected answers, correction state, timeout, and flag data from a stored attempt", () => {
+    const review = parseAnswerReview(JSON.stringify([{ questionId: "authorised-219", subject: "Physics", topic: "Motion", selectedIndex: 2, correct: false, timedOut: false, flagged: true }]));
+    expect(review).toEqual([{ questionId: "authorised-219", subject: "Physics", topic: "Motion", selectedIndex: 2, correct: false, timedOut: false, flagged: true }]);
+  });
+
+  it("uses a protected single-round query and a read-only correction viewer", () => {
+    const router = readFileSync(resolve(import.meta.dirname, "routers.ts"), "utf8");
+    const game = readFileSync(resolve(import.meta.dirname, "../client/src/game/useQuizGame.ts"), "utf8");
+    const home = readFileSync(resolve(import.meta.dirname, "../client/src/pages/Home.tsx"), "utf8");
+    const review = readFileSync(resolve(import.meta.dirname, "../client/src/components/ExamReview.tsx"), "utf8");
+    expect(router).toContain("roundReview: protectedProcedure");
+    expect(game).toContain("openHistoricalReview");
+    expect(game).toContain("if (isHistoricalReview)");
+    expect(home).toContain("Open corrections");
+    expect(review).toContain("SAVED CBT CORRECTION");
+    expect(review).toContain("will not change your score or create another attempt");
+  });
+});

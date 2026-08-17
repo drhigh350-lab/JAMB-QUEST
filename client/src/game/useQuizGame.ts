@@ -46,6 +46,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const [streak, setStreak] = useState(0);
   const [flaggedIds, setFlaggedIds] = useState<string[]>([]);
   const [isPaused, setIsPaused] = useState(false);
+  const [isHistoricalReview, setIsHistoricalReview] = useState(false);
+  const [historicalReview, setHistoricalReview] = useState<{ completedAt: Date; durationSeconds: number } | null>(null);
   const [resumableCbt, setResumableCbt] = useState<ActiveCbtSession | null>(() => getActiveCbtSession());
 
   const reload = useCallback(() => {
@@ -141,6 +143,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
         setResumableCbt(null);
       }
       setRoundConfig(config);
+      setIsHistoricalReview(false);
+      setHistoricalReview(null);
       setRoundQuestions(picked);
       setCurrentIndex(0);
       setSelectedIndex(null);
@@ -198,6 +202,10 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const nextQuestion = useCallback(() => {
     if (!answered || !roundConfig) return;
     if (currentIndex >= roundQuestions.length - 1) {
+      if (isHistoricalReview) {
+        setScreen("home");
+        return;
+      }
       recordFinalRound(answers, score);
       return;
     }
@@ -205,7 +213,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setSelectedIndex(null);
     setAnswered(false);
     setSecondsLeft(DEFAULT_SECONDS);
-  }, [answers, answered, currentIndex, recordFinalRound, roundConfig, roundQuestions.length, score]);
+  }, [answers, answered, currentIndex, isHistoricalReview, recordFinalRound, roundConfig, roundQuestions.length, score]);
 
   const navigateQuestion = useCallback((index: number) => {
     if (index < 0 || index >= roundQuestions.length) return;
@@ -213,8 +221,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setCurrentIndex(index);
     setSelectedIndex(storedAnswer?.selectedIndex ?? null);
     // CBT answers remain editable until submission; study/review questions preserve their completed correction state.
-    setAnswered(isCbt ? false : Boolean(storedAnswer));
-  }, [answers, isCbt, roundQuestions]);
+    setAnswered(isHistoricalReview ? true : (isCbt ? false : Boolean(storedAnswer)));
+  }, [answers, isCbt, isHistoricalReview, roundQuestions]);
 
   const saveAndNextCbt = useCallback(() => {
     if (!isCbt) return;
@@ -275,6 +283,25 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const retryRound = useCallback(() => {
     if (roundConfig) startRound(roundConfig);
   }, [roundConfig, startRound]);
+  const openHistoricalReview = useCallback((attempt: { subject: RoundSubject; completedAt: Date; durationSeconds: number; answerReview: Array<{ questionId: string | null; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean }> }) => {
+    const bankById = new Map(playableQuestions.map((question) => [question.id, question]));
+    const restored = attempt.answerReview.flatMap((answer) => answer.questionId && bankById.has(answer.questionId) ? [bankById.get(answer.questionId)!] : []);
+    if (!restored.length) {
+      setLoadError("The questions from that saved CBT attempt are no longer available in the active question bank.");
+      return;
+    }
+    const answersByQuestion = Object.fromEntries(attempt.answerReview.flatMap((answer) => answer.questionId && bankById.has(answer.questionId) ? [[answer.questionId, { selectedIndex: answer.selectedIndex, correct: answer.correct, timedOut: answer.timedOut } satisfies AnswerRecord] as const] : []));
+    setRoundConfig({ subject: attempt.subject, mode: "review", count: restored.length, timing: "study", questionIds: restored.map((question) => question.id), recoveryOrigin: "missed-questions" });
+    setRoundQuestions(restored);
+    setAnswers(answersByQuestion);
+    setFlaggedIds(attempt.answerReview.flatMap((answer) => answer.flagged && answer.questionId ? [answer.questionId] : []));
+    setCurrentIndex(0);
+    setSelectedIndex(answersByQuestion[restored[0]!.id]?.selectedIndex ?? null);
+    setAnswered(true);
+    setIsHistoricalReview(true);
+    setHistoricalReview({ completedAt: attempt.completedAt, durationSeconds: attempt.durationSeconds });
+    setScreen("exam-review");
+  }, [playableQuestions]);
 
   return {
     questions: playableQuestions,
@@ -299,6 +326,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     flaggedIds,
     isCbt,
     isPaused,
+    historicalReview,
     canReview: progress.wrongIds.length > 0,
     resumableCbt,
     startRound,
@@ -314,6 +342,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     submitCbtReview,
     quitRound,
     retryRound,
+    openHistoricalReview,
     resumeCbt,
     discardResumableCbt,
     goHome: quitRound,

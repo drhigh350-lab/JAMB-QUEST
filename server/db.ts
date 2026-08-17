@@ -188,15 +188,18 @@ function parseScoreMap(raw: string | null): Record<string, number> {
   }
 }
 
-function parseAnswerReview(raw: string | null): Array<{ questionId: string | null; topic: string; subject: string | null; correct: boolean }> {
+export type PersistedExamAnswer = { questionId: string | null; topic: string; subject: string | null; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean };
+
+export function parseAnswerReview(raw: string | null): PersistedExamAnswer[] {
   if (!raw) return [];
   try {
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
     return parsed.flatMap((entry) => {
       if (!entry || typeof entry !== "object") return [];
-      const value = entry as { questionId?: unknown; topic?: unknown; subject?: unknown; correct?: unknown };
-      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ questionId: typeof value.questionId === "string" ? value.questionId : null, topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, correct: value.correct }] : [];
+      const value = entry as { questionId?: unknown; topic?: unknown; subject?: unknown; selectedIndex?: unknown; correct?: unknown; timedOut?: unknown; flagged?: unknown };
+      const selectedIndex = typeof value.selectedIndex === "number" && Number.isInteger(value.selectedIndex) && value.selectedIndex >= 0 && value.selectedIndex <= 4 ? value.selectedIndex : null;
+      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ questionId: typeof value.questionId === "string" ? value.questionId : null, topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, selectedIndex, correct: value.correct, timedOut: Boolean(value.timedOut), flagged: Boolean(value.flagged) }] : [];
     });
   } catch {
     return [];
@@ -424,6 +427,23 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
     comparison,
     recentRounds,
+  };
+}
+
+export async function getLearnerRoundReview(userId: number, fallbackName: string | null, roundId: number) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const [round] = await db.select().from(quizRounds).where(and(eq(quizRounds.id, roundId), eq(quizRounds.userId, userId))).limit(1);
+  if (!round || round.mode !== "cbt") return null;
+  return {
+    id: round.id,
+    subject: round.subject,
+    mode: round.mode,
+    questionCount: round.questionCount,
+    correctCount: round.correctCount,
+    score: round.score,
+    durationSeconds: round.durationSeconds,
+    completedAt: round.completedAt,
+    answerReview: parseAnswerReview(round.answerReviewJson),
   };
 }
 

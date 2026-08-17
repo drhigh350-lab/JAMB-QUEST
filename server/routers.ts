@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { disablePushSubscriptions, getLearnerDashboard, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { disablePushSubscriptions, getLearnerDashboard, getLearnerRoundReview, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -23,6 +23,7 @@ export const appRouter = router({
   }),
   learner: router({
     dashboard: protectedProcedure.query(({ ctx }) => getLearnerDashboard(ctx.user.id, ctx.user.name ?? null)),
+    roundReview: protectedProcedure.input(z.object({ roundId: z.number().int().positive() })).query(({ ctx, input }) => getLearnerRoundReview(ctx.user.id, ctx.user.name ?? null, input.roundId)),
     updateProfile: protectedProcedure.input(z.object({
       displayName: z.string().trim().max(80).optional(),
       targetScore: z.number().int().min(1).max(400).optional(),
