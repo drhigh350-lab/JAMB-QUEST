@@ -104,7 +104,7 @@
 .calculator-key { display: inline-flex; align-items: center; justify-content: center; min-height: 47px; border: 1px solid rgba(18,40,63,.25); background: #fff; color: var(--ink); font: 800 1rem "Space Grotesk", sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(.23,1,.32,1), background 160ms cubic-bezier(.23,1,.32,1); }
 .calculator-key:hover { background: rgba(244,178,40,.22); }
 .calculator-key:active { transform: scale(.97); }
-.calculator-equals { background: var(--green); color: #fffdf5; border-color: var(--green); }
+.calculator-equals { background: #2f7d4a; color: #fffdf5; border-color: #2f7d4a; font-weight: 900; }
 .calculator-clear { background: var(--maize); }
 .calculator-note { margin: 13px 0 0; color: rgba(18,40,63,.65); font-size: .76rem; line-height: 1.45; }
 .question-card-tools { display: inline-flex; align-items: center; justify-content: flex-end; gap: 8px; }

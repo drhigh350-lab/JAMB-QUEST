@@ -1,7 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { calculateExpression, formatCalculation } from "../client/src/game/calculator";
+import { CALCULATOR_KEYS } from "../client/src/components/JambCalculator";
 
 describe("JAMB calculator engine", () => {
+  it("exposes a visible equals key for completing calculations", () => {
+    expect(CALCULATOR_KEYS).toContain("=");
+    expect(formatCalculation(calculateExpression("32*2"))).toBe("64");
+  });
+
   it("evaluates standard arithmetic with brackets and precedence", () => {
     expect(calculateExpression("2+3*4")).toBe(14);
     expect(calculateExpression("(2+3)*4")).toBe(20);

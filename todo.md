@@ -479,3 +479,5 @@
 - [x] Fix mobile CBT diagram rendering: the energy-profile question shown in the learner screenshot referenced a diagram “above” but displayed no image. The approved Chemistry record had a NULL diagram URL; a clean activation-energy SVG is now attached and verified. Focused diagram/card regressions pass within 53 files / 136 tests; the launch screen renders cleanly on mobile.
 
 - [x] Add a release-time guard that blocks approved question records whose wording requires a diagram but whose diagram URL is missing, preventing another blank “diagram above” CBT question. The mapper now holds diagram-referencing records without assets, with regression coverage; validation passes at 53 files / 137 tests, TypeScript, and production build.
+
+- [x] Add a visible functional equals (=) key to the in-CBT JAMB calculator and verify that it evaluates expressions correctly on mobile. The equals key now uses an explicit high-contrast style, is visible in the 390px mobile fixture, and the calculator regression verifies `32 × 2 = 64`; validation passes at 53 files / 138 tests and TypeScript.

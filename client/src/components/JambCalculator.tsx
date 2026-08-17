@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { calculateExpression, formatCalculation } from "@/game/calculator";
 
-const keys = ["7", "8", "9", "÷", "4", "5", "6", "×", "1", "2", "3", "−", "0", ".", "(", "+", ")", "⌫", "AC", "="];
+export const CALCULATOR_KEYS = ["7", "8", "9", "÷", "4", "5", "6", "×", "1", "2", "3", "−", "0", ".", "(", "+", ")", "⌫", "AC", "="];
+const keys = CALCULATOR_KEYS;
 const calculationValue = (key: string) => key === "÷" ? "/" : key === "×" ? "*" : key === "−" ? "-" : key;
 
 export function JambCalculator({ initialOpen = false }: { initialOpen?: boolean }) {
