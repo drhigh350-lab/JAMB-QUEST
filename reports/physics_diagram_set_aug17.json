@@ -1,0 +1,13 @@
+{
+  "purpose": "First verified black-and-white visual aid set for learner-facing Physics questions.",
+  "selectionRule": "Only self-contained, answer-aligned questions with a useful explanatory visual were linked. Questions that refer to an unavailable original figure were not reconstructed.",
+  "visualVerification": "The portable SVG line art was visually checked after upload. Embedded SVG text was removed because the renderer substituted missing glyph boxes; the original question stems retain the necessary values and labels.",
+  "records": [
+    { "questionItemId": 219, "diagramUrl": "/manus-storage/jamb-quest-vt-area_7ec0005c.svg", "concept": "Velocity-time area represents displacement" },
+    { "questionItemId": 240, "diagramUrl": "/manus-storage/jamb-quest-force-distance-area_0c6f8643.svg", "concept": "Force-distance area represents work" },
+    { "questionItemId": 150136, "diagramUrl": "/manus-storage/jamb-quest-ammeter-series_af58ad61.svg", "concept": "Ammeter connection in series" },
+    { "questionItemId": 150149, "diagramUrl": "/manus-storage/jamb-quest-parallel-resistors_7ebce247.svg", "concept": "Six-ohm and three-ohm resistors in parallel" },
+    { "questionItemId": 180019, "diagramUrl": "/manus-storage/jamb-quest-fuse-series_bcf25351.svg", "concept": "Fuse in series protection path" },
+    { "questionItemId": 300019, "diagramUrl": "/manus-storage/jamb-quest-internal-resistance_15a18ace.svg", "concept": "Twelve-volt source, one-ohm internal resistance, and five-ohm external load" }
+  ]
+}

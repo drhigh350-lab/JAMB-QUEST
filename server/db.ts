@@ -59,6 +59,7 @@ export type LearnerDashboard = {
     badges: string[];
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean };
+  achievementStats: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] };
   performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }> };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
   comparison: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
@@ -315,6 +316,23 @@ export function levelForXp(xp: number) {
   return Math.max(1, Math.floor(Math.sqrt(Math.max(0, xp) / 100)) + 1);
 }
 
+export function summariseAchievementStats(input: {
+  activities: Array<{ completedMinimum: number | boolean }>;
+  rounds: Array<{ mode: string; subject: string; questionCount: number; durationSeconds: number }>;
+}) {
+  const cbtRounds = input.rounds.filter((round) => round.mode === "cbt").length;
+  const fullMocks = input.rounds.filter((round) => round.subject === "Full JAMB Mock" && round.questionCount === 180).length;
+  const subjectsPractised = Array.from(new Set(input.rounds.flatMap((round) => round.subject === "Full JAMB Mock" ? [] : [round.subject]))).sort();
+  return {
+    activeDays: input.activities.length,
+    completedGoalDays: input.activities.filter((activity) => Boolean(activity.completedMinimum)).length,
+    cbtRounds,
+    fullMocks,
+    recordedStudyMinutes: Math.round(input.rounds.reduce((total, round) => total + Math.max(0, round.durationSeconds), 0) / 60),
+    subjectsPractised,
+  };
+}
+
 async function claimBadge(db: NonNullable<Awaited<ReturnType<typeof getDb>>>, userId: number, badgeKey: typeof BADGE_KEYS[number]) {
   await db.insert(learnerAchievements).values({ claimKey: `${userId}:${badgeKey}`, userId, badgeKey }).onDuplicateKeyUpdate({ set: { claimKey: `${userId}:${badgeKey}` } });
 }
@@ -328,6 +346,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   const [pushSubscription] = await db.select().from(learnerPushSubscriptions).where(eq(learnerPushSubscriptions.userId, userId)).limit(1);
   const activities = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.userId, userId));
   const achievements = await db.select().from(learnerAchievements).where(eq(learnerAchievements.userId, userId));
+  const allRoundSummary = await db.select({ mode: quizRounds.mode, subject: quizRounds.subject, questionCount: quizRounds.questionCount, durationSeconds: quizRounds.durationSeconds }).from(quizRounds).where(eq(quizRounds.userId, userId));
   // Anchor analytics to the newest rounds; limiting an ascending query froze weakness analysis on the oldest history after 12 rounds.
   const rounds = await db.select().from(quizRounds).where(eq(quizRounds.userId, userId)).orderBy(desc(quizRounds.completedAt)).limit(12);
   const bookmarks = await db.select().from(learnerBookmarks).where(eq(learnerBookmarks.userId, userId));
@@ -400,6 +419,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       badges: achievements.map((achievement) => achievement.badgeKey),
     },
     reminder: { enabled: Boolean(reminder?.enabled), reminderTime: reminder?.reminderTime ?? "19:00", pushEnabled: Boolean(pushSubscription?.enabled) },
+    achievementStats: summariseAchievementStats({ activities, rounds: allRoundSummary }),
     performance: { weakTopics, subjectPerformance, fullMockSubjectPerformance },
     revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
     comparison,

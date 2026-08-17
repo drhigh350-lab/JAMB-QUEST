@@ -427,3 +427,8 @@
 - [x] Update runtime-count regression receipts and run the complete final test/build audit after the Physics follow-up import.
 
 - [x] Prepare a learner-readable export of the current 5,849-question bank with subject, topic, question, options, answer, explanation, and source classification for user inspection.
+
+- [x] Add an unrestricted authenticated custom daily-goal input that accepts a learner-selected question count such as 100, validates a practical range, persists it, and leaves completed goals unlocked for continued practice. The persisted range is 5–500 questions, and the visible quick picks now include 100.
+- [x] Expand the Profile achievements experience into an evidence-based 50-badge collection with earned, locked, and next-achievement states rather than decorative achievements. Achievement progress is derived from real answers, correct answers, rounds, streaks, activity days, completed goals, XP, CBTs, full mocks, subjects studied, and measured subject accuracy.
+- [x] Add learner-facing overall performance analytics, including a daily study heatmap, accuracy trend, subject comparison, and clear empty states for new users. Progress now presents a 28-day activity heatmap alongside the existing accuracy history, subject signals, recovery guidance, and useful empty states.
+- [x] Audit diagram-needing playable questions and add verified, clean black-and-white visual aids only where the diagram is answer-aligned and useful; display them inside the live question interface. Six self-contained Physics visuals are linked in `reports/physics_diagram_set_aug17.json`; questions requiring unavailable original figures remain excluded from reconstruction.
