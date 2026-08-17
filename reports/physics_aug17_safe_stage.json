@@ -1,0 +1,2486 @@
+{
+  "batch": "owner-supplied Physics 2020–2023 pasted content",
+  "status": "imported-approved",
+  "stagedCount": 152,
+  "heldDuplicates": [
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 12,
+      "question": "Which of the following statements regarding the application of electrical conduction via gases is/are correct? Electrical conduction in gas is applied in: (i) The identification of gases (ii) Lighting/fluorescent tubes (iii) Photocells (iv) Cathode ray oscilloscope/T.V. tubes"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 15,
+      "question": "On a particular hot day, the temperature is 40°C and the partial pressure of water vapor in the air is 38.8 mmHg. What is the relative humidity?"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 17,
+      "question": "The terminals of a battery of emf 24.0 V and internal resistance of 1.0 Ω is connected to an external resistor 5.0 Ω. Find the terminal p.d."
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 19,
+      "question": "The half life of a radioactive material is 12 days. Calculate the decay constant."
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 20,
+      "question": "The number of holes in an intrinsic semiconductor"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 21,
+      "question": "Name the type of equilibrium for each position of the ball"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 22,
+      "question": "Rainbow formation is as a result of the combination of which of the following phenomena? (i) Reflection (ii) Dispersion (iii) Total internal reflection (iv) Refraction"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 24,
+      "question": "Which process is responsible for production of energy in stars?"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 25,
+      "question": "How much net work is required to accelerate a 1200 kg car from 10 ms⁻¹ to 15 ms⁻¹"
+    }
+  ],
+  "questions": [
+    {
+      "externalId": "OWNER-PHY-AUG17-68011",
+      "subject": "Physics",
+      "topic": "Current Electricity - Series and Parallel",
+      "difficulty": "medium",
+      "question": "A 35 kΩ is connected in series with a resistance of 40 kΩ. What resistance R must be connected in parallel with the combination so that the equivalent resistance is equal to 25 kΩ?",
+      "options": [
+        "40 kΩ",
+        "37.5 kΩ",
+        "45.5 kΩ",
+        "30 kΩ"
+      ],
+      "answerIndex": 1,
+      "explanation": "Series combination = 35+40=75 kΩ. Parallel with R gives 1/25 = 1/75 + 1/R → 1/R = 1/25 - 1/75 = (3-1)/75 = 2/75 → R = 37.5 kΩ.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68011?exam_type=jamb&exam_year=2023&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68048",
+      "subject": "Physics",
+      "topic": "Waves - Strings",
+      "difficulty": "medium",
+      "question": "A piano wire 50 cm long has a total mass of 10 g and its stretched with a tension of 800 N. Find the frequency of the wire when it sounds its third overtone note.",
+      "options": [
+        "800 Hz",
+        "600 Hz",
+        "400 Hz",
+        "200 Hz"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fundamental f₁ = (1/2L)√(T/μ); μ = 0.01/0.5 = 0.02 kg/m; f₁ = (1/1)√(800/0.02)=√40000=200 Hz. Third overtone = 4th harmonic = 4×200=800 Hz.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68048?exam_type=jamb&exam_year=2023&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68070",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Density",
+      "difficulty": "medium",
+      "question": "A relative density bottle has a mass of 19 g when empty. When it is completely filled with water, its mass is 66 g. What will be its mass if completely filled with alcohol of relative density 0.8?",
+      "options": [
+        "47 g",
+        "52.8 g",
+        "37.6 g",
+        "56.6 g"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mass of water = 66-19=47g, volume of bottle = 47 cm³ (density water=1g/cm³). Mass of alcohol = density×volume = 0.8×47 = 37.6g. Total mass = 19+37.6 = 56.6 g.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68070?exam_type=jamb&exam_year=2023&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68116",
+      "subject": "Physics",
+      "topic": "Mechanics - Work",
+      "difficulty": "medium",
+      "question": "How much work is done against the gravitational force on a 3.0 kg object when it is carried from the ground floor to the roof of a building, a vertical climb of 240 m?",
+      "options": [
+        "7.2 kJ",
+        "4.6 kJ",
+        "6.8 kJ",
+        "8.4 kJ"
+      ],
+      "answerIndex": 0,
+      "explanation": "Work = mgh = 3×9.8×240 ≈ 7056 J ≈ 7.2 kJ.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68116?exam_type=jamb&exam_year=2023&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68117",
+      "subject": "Physics",
+      "topic": "Optics - Refraction",
+      "difficulty": "medium",
+      "question": "A beam of light travelling in water is incident on a glass which is immersed in the water. The incident beam makes an angle of 40° with the normal. Calculate the angle of refraction in the glass. [Refractive index of water = 1.33, Refractive index of glass = 1.5]",
+      "options": [
+        "29.36°",
+        "25.37°",
+        "37.21°",
+        "34.75°"
+      ],
+      "answerIndex": 3,
+      "explanation": "Snell's law: n₁ sin i = n₂ sin r → 1.33 sin40 = 1.5 sin r → sin r = 1.33×0.643/1.5 = 0.855/1.5 = 0.570 → r = 34.75°.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68117?exam_type=jamb&exam_year=2023&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68118",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Pressure Measurement",
+      "difficulty": "medium",
+      "question": "An open-tube mercury manometer is used to measure the pressure in a gas tank. When the atmospheric pressure is 101,325 Pa, what is the absolute pressure in Pa in the tank if the height of the mercury in the open tube is 25 cm higher. density of mercury = 13600 kg/m³, g = 9.8 m/s²",
+      "options": [
+        "108,986 Pa",
+        "165,238 Pa",
+        "122,364 Pa",
+        "134,645 Pa"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gauge pressure = ρgh = 13600×9.8×0.25 = 33320 Pa. Absolute = 101325+33320 = 134645 Pa.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68118?exam_type=jamb&exam_year=2023&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68119",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "difficulty": "medium",
+      "question": "The sensitivity of a thermometer is",
+      "options": [
+        "All of the above",
+        "how quickly a temperature change can be detected",
+        "the difference between the maximum and the minimum temperature",
+        "the smallest temperature change that can be detected or measured"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sensitivity refers to the smallest temperature difference the thermometer can register.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68119?exam_type=jamb&exam_year=2023&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68564",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "An explosion occurs at an altitude of 312 m above the ground. If the air temperature is -10.00°C, how long does it take the sound to reach the ground? [velocity of sound at 0°C = 331 ms-1]",
+      "options": [
+        "0.94s",
+        "0.96s",
+        "0.93s",
+        "0.95s"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed at -10°C: v = 331 + 0.6×(-10) = 331 - 6 = 325 m/s. Time = 312/325 ≈ 0.96 s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68564?exam_type=jamb&exam_year=2023&page=9"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68565",
+      "subject": "Physics",
+      "topic": "Electrostatics - Electric Field",
+      "difficulty": "medium",
+      "question": "A charge of 4.6 × 10⁻⁵ C is placed in an electric field of intensity 3.2 × 10⁴ Vm⁻¹. What is the force acting on the electron?",
+      "options": [
+        "1.5 N",
+        "3.7 N",
+        "4.2 N",
+        "2.5 N"
+      ],
+      "answerIndex": 0,
+      "explanation": "F = qE = 4.6e-5 × 3.2e4 = 1.472 N ≈ 1.5 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68565?exam_type=jamb&exam_year=2023&page=9"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68566",
+      "subject": "Physics",
+      "topic": "General Physics - Mechanics",
+      "difficulty": "medium",
+      "question": "The branch of physics that deals with the motion of objects and the forces acting on them is called:",
+      "options": [
+        "Electromagnetism",
+        "Thermodynamics",
+        "Mechanics",
+        "Quantum mechanics"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mechanics is the branch of physics that studies motion and forces.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68566?exam_type=jamb&exam_year=2023&page=9"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68567",
+      "subject": "Physics",
+      "topic": "Mechanics - Moments",
+      "difficulty": "medium",
+      "question": "The working of the beam balance is based on the principle of",
+      "options": [
+        "moments",
+        "conservation of energy",
+        "equivalence",
+        "floatation"
+      ],
+      "answerIndex": 0,
+      "explanation": "A beam balance works on the principle of moments (torque equilibrium).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68567?exam_type=jamb&exam_year=2023&page=9"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68569",
+      "subject": "Physics",
+      "topic": "Optics - Light Sources",
+      "difficulty": "medium",
+      "question": "Which of the following is a type of incandescent light source?",
+      "options": [
+        "Fluorescent lamp",
+        "LED lamp",
+        "Tungsten filament lamp",
+        "Neon lamp"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tungsten filament lamp produces light by heating a filament (incandescence).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68569?exam_type=jamb&exam_year=2023&page=10"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68571",
+      "subject": "Physics",
+      "topic": "Modern Physics - Photoelectric Effect",
+      "difficulty": "medium",
+      "question": "When light of a certain frequency is incident on a metal surface, no photoelectrons are emitted. If the frequency of the light is increased, what happens to the stopping potential?",
+      "options": [
+        "The stopping potential does not change.",
+        "The stopping potential decreases.",
+        "The stopping potential can either increase or decrease, depending on the intensity of the light.",
+        "The stopping potential increases."
+      ],
+      "answerIndex": 3,
+      "explanation": "Increasing frequency increases the kinetic energy of emitted electrons, so higher stopping potential is required.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68571?exam_type=jamb&exam_year=2023&page=10"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68573",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Surface Tension",
+      "difficulty": "medium",
+      "question": "Which of the following liquids has the highest surface tension?",
+      "options": [
+        "Soapy water",
+        "Water",
+        "Mercury",
+        "Oil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mercury has the highest surface tension among common liquids.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68573?exam_type=jamb&exam_year=2023&page=10"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68574",
+      "subject": "Physics",
+      "topic": "Atomic Physics - Atomic Models",
+      "difficulty": "medium",
+      "question": "What is the name of the model of the atom that describes electrons as orbiting the nucleus in specific energy levels?",
+      "options": [
+        "Bohr model",
+        "Dalton model",
+        "Rutherford model",
+        "Thomson model"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bohr's model proposed quantized orbits for electrons.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68574?exam_type=jamb&exam_year=2023&page=11"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68575",
+      "subject": "Physics",
+      "topic": "Current Electricity - Cells",
+      "difficulty": "medium",
+      "question": "The electrolyte used in the Nickel-Iron (NiFe) accumulator is",
+      "options": [
+        "dilute tetraoxosulphate(VI) acid",
+        "barium chloride solution",
+        "potassium hydroxide solution",
+        "sodium hydroxide solution"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nickel-Iron accumulator uses potassium hydroxide (KOH) as electrolyte.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68575?exam_type=jamb&exam_year=2023&page=11"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68576",
+      "subject": "Physics",
+      "topic": "Current Electricity - Conductors and Insulators",
+      "difficulty": "medium",
+      "question": "Which of the following materials is a good insulator?",
+      "options": [
+        "Silver",
+        "Water",
+        "Rubber",
+        "Copper"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rubber is a good electrical insulator.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68576?exam_type=jamb&exam_year=2023&page=11"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68577",
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction - Generators",
+      "difficulty": "medium",
+      "question": "A generator manufacturing company accidentally made an AC generator instead of a DC generator. To fix this error,",
+      "options": [
+        "the magnetic field needs to be made stronger",
+        "the split rings should be replaced with slip rings",
+        "the number of turns of the armature coil needs to be decreased",
+        "the slip rings should be replaced with split rings"
+      ],
+      "answerIndex": 3,
+      "explanation": "AC generator uses slip rings; DC generator uses split rings (commutator) to produce DC.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68577?exam_type=jamb&exam_year=2023&page=11"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68578",
+      "subject": "Physics",
+      "topic": "General Physics - Modern Physics",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT an example of elementary modern physics?",
+      "options": [
+        "Classical mechanics",
+        "Quantum mechanics",
+        "Special relativity",
+        "Nuclear physics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Classical mechanics is not modern physics; it's pre-20th century.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68578?exam_type=jamb&exam_year=2023&page=11"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68579",
+      "subject": "Physics",
+      "topic": "Mechanics - Couples",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a couple?",
+      "options": [
+        "All of the above.",
+        "The forces that are applied to the handle of a screwdriver when you twist it.",
+        "The forces that are applied to a cross wench to loosen or tighten the lug nuts on a wheel of a car.",
+        "The forces that are applied to the steering wheel of a car when you turn it."
+      ],
+      "answerIndex": 0,
+      "explanation": "A couple consists of two equal and opposite parallel forces that produce rotation; all options involve such forces.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68579?exam_type=jamb&exam_year=2023&page=12"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68580",
+      "subject": "Physics",
+      "topic": "Electrostatics - Electric Force",
+      "difficulty": "medium",
+      "question": "A positively charged particle is placed near a negatively charged particle. What is the direction of the electric force between the two particles?",
+      "options": [
+        "The electric force is directed from the negative particle to the positive particle.",
+        "The electric force is zero.",
+        "The direction of the electric force cannot be determined.",
+        "The electric force is directed from the positive particle to the negative particle."
+      ],
+      "answerIndex": 3,
+      "explanation": "Unlike charges attract; force on positive is toward the negative, so direction from positive to negative.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68580?exam_type=jamb&exam_year=2023&page=12"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-68581",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Adhesion and Cohesion",
+      "difficulty": "medium",
+      "question": "When a water droplet is placed on a freshly cut piece of wood, it spreads out to form a thin layer because the wood is",
+      "options": [
+        "not at equilibrium with the water",
+        "cohesive to water",
+        "at equilibrium with the water",
+        "adhesive to water"
+      ],
+      "answerIndex": 3,
+      "explanation": "Spreading indicates adhesion between water and wood is greater than cohesion within water.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68581?exam_type=jamb&exam_year=2023&page=12"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-69768",
+      "subject": "Physics",
+      "topic": "Electrostatics - Induction",
+      "difficulty": "medium",
+      "question": "A metal sphere is placed on an insulating stand. A negatively charged rod is brought close to it. If the sphere is earthed and the rod is taken away, what will be the charge on the sphere?",
+      "options": [
+        "The sphere will remain neutral.",
+        "The sphere will have a net negative charge.",
+        "The sphere will have a net positive charge.",
+        "The sphere will become polarized."
+      ],
+      "answerIndex": 2,
+      "explanation": "Induction: earth removes electrons from the sphere, leaving it positively charged after the rod is removed.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/69768?exam_type=jamb&exam_year=2023&page=13"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70351",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Stress",
+      "difficulty": "medium",
+      "question": "The stress experienced by a wire of diameter y/π m loaded by a weight y² N is",
+      "options": [
+        "π Nm⁻²",
+        "2π Nm⁻²",
+        "4π Nm⁻²",
+        "8π Nm⁻²"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stress = Force/Area. Area = π(d/2)² = π(y/(2π))² = y²/(4π). Stress = y² / (y²/(4π)) = 4π Nm⁻².",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70351?exam_type=jamb&exam_year=2023&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70352",
+      "subject": "Physics",
+      "topic": "Mechanics - Work",
+      "difficulty": "medium",
+      "question": "Under which conditions is work done",
+      "options": [
+        "A man supports a heavy load on his head with hands.",
+        "A woman holds a pot of water",
+        "A boy climbs onto a table",
+        "A man pushes against a stationary petrol tanker"
+      ],
+      "answerIndex": 2,
+      "explanation": "Work requires displacement in the direction of force. Climbing involves displacement against gravity.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70352?exam_type=jamb&exam_year=2023&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70355",
+      "subject": "Physics",
+      "topic": "Optics - Dispersion",
+      "difficulty": "medium",
+      "question": "Rainbow is formed when sunlight undergoes",
+      "options": [
+        "reflection",
+        "refraction",
+        "dispersion",
+        "diffraction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rainbow involves dispersion of white light into its constituent colours.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70355?exam_type=jamb&exam_year=2023&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70356",
+      "subject": "Physics",
+      "topic": "Electrostatics - Capacitance",
+      "difficulty": "medium",
+      "question": "Find the value of a capacitor with voltage 5V and 30C.",
+      "options": [
+        "7f",
+        "6f",
+        "15f",
+        "0.17f"
+      ],
+      "answerIndex": 1,
+      "explanation": "C = Q/V = 30/5 = 6 F.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70356?exam_type=jamb&exam_year=2023&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70357",
+      "subject": "Physics",
+      "topic": "Mechanics - Acceleration",
+      "difficulty": "medium",
+      "question": "When a bus is accelerating, it must be",
+      "options": [
+        "changing its speed",
+        "changing its velocity",
+        "changing its position",
+        "changing its direction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acceleration is the rate of change of velocity (magnitude or direction).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70357?exam_type=jamb&exam_year=2023&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70358",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Drag",
+      "difficulty": "medium",
+      "question": "The friction due to air mass can be reduced by",
+      "options": [
+        "streaming",
+        "lubricating",
+        "propeller",
+        "polishing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Streamlining reduces air resistance (drag).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70358?exam_type=jamb&exam_year=2023&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70359",
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "question": "Which of the following operates based on magnetic effect of electric current?",
+      "options": [
+        "electric heater",
+        "photocell",
+        "Dynamo",
+        "Cold cathode"
+      ],
+      "answerIndex": 2,
+      "explanation": "A dynamo (generator) works on electromagnetic induction (magnetic effect).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70359?exam_type=jamb&exam_year=2023&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70360",
+      "subject": "Physics",
+      "topic": "Electrostatics - Charges",
+      "difficulty": "medium",
+      "question": "When a charged ebonite rod is brought near a charged glass rod, there will be",
+      "options": [
+        "attraction",
+        "repulsion",
+        "spark",
+        "no force experienced"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ebonite (negative) and glass (positive) attract.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70360?exam_type=jamb&exam_year=2023&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70361",
+      "subject": "Physics",
+      "topic": "Pressure - Barometers",
+      "difficulty": "medium",
+      "question": "Pilots uses aneroid barometer to know the height above sea level because",
+      "options": [
+        "Very accurate",
+        "Small and convenient",
+        "Heavy and huge",
+        "Costly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aneroid barometers are compact and portable, ideal for aircraft.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70361?exam_type=jamb&exam_year=2023&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70362",
+      "subject": "Physics",
+      "topic": "Optics - Refraction",
+      "difficulty": "medium",
+      "question": "A light ray passing from air into water at an angle of 30° from the normal in air would",
+      "options": [
+        "make an angle greater than 30° in water",
+        "be completely absorbed",
+        "be completely reflected",
+        "make an angle less than 30° from the normal in water"
+      ],
+      "answerIndex": 3,
+      "explanation": "Light bends toward the normal when entering a denser medium.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70362?exam_type=jamb&exam_year=2023&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70363",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Density",
+      "difficulty": "medium",
+      "question": "A solid cube of aluminum is 1.5cm on each edge. The density of aluminum is 2700kgm⁻³. Find the mass of the cube.",
+      "options": [
+        "7.5g",
+        "9.1g",
+        "12.0g",
+        "15.0g"
+      ],
+      "answerIndex": 1,
+      "explanation": "Volume = (0.015)³ = 3.375e-6 m³; mass = 2700×3.375e-6 = 0.0091125 kg ≈ 9.1 g.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70363?exam_type=jamb&exam_year=2023&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70366",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Humidity",
+      "difficulty": "medium",
+      "question": "If the S.V.P of water vapour was 13.5mmHg at 33°C and 7.3mmHg at 7°C. Find the percentage relative humidity on a day when air temp was 33°C and dew point was 7°C.",
+      "options": [
+        "55%",
+        "60%",
+        "54%",
+        "51%"
+      ],
+      "answerIndex": 2,
+      "explanation": "RH = (SVP at dew point / SVP at air temp) × 100 = (7.3/13.5)×100 ≈ 54%.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70366?exam_type=jamb&exam_year=2023&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70367",
+      "subject": "Physics",
+      "topic": "Current Electricity - Electrolysis",
+      "difficulty": "medium",
+      "question": "Electrolysis can be investigated using",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Galvanometer",
+        "Voltameter"
+      ],
+      "answerIndex": 3,
+      "explanation": "A voltameter is an electrolytic cell used in electrolysis experiments.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70367?exam_type=jamb&exam_year=2023&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70368",
+      "subject": "Physics",
+      "topic": "Mechanics - Resolution of Forces",
+      "difficulty": "medium",
+      "question": "A wheelbarrow inclined at 60° to the horizontal is pushed with a force of 150N. What is the horizontal component of the applied force?",
+      "options": [
+        "130N",
+        "75N",
+        "60N",
+        "50N"
+      ],
+      "answerIndex": 1,
+      "explanation": "Horizontal component = F cosθ = 150 × cos60° = 150 × 0.5 = 75 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70368?exam_type=jamb&exam_year=2023&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70369",
+      "subject": "Physics",
+      "topic": "Optics - Mirrors",
+      "difficulty": "medium",
+      "question": "In a solar panel, solar beam is concentrated by using",
+      "options": [
+        "Concave mirror",
+        "Convex mirror",
+        "Plane mirror",
+        "Triangular mirror"
+      ],
+      "answerIndex": 0,
+      "explanation": "Concave mirrors converge sunlight to a focal point.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70369?exam_type=jamb&exam_year=2023&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70370",
+      "subject": "Physics",
+      "topic": "Electronics - Rectification",
+      "difficulty": "medium",
+      "question": "A rectifier is a device that changes",
+      "options": [
+        "D.C to D.C",
+        "D.C to A.C",
+        "A.C to A.C",
+        "A.C to D.C"
+      ],
+      "answerIndex": 3,
+      "explanation": "A rectifier converts AC to DC.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70370?exam_type=jamb&exam_year=2023&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70371",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Elasticity",
+      "difficulty": "medium",
+      "question": "The dimension of Young's modulus, E is given by",
+      "options": [
+        "MLT⁻¹",
+        "MT⁻²",
+        "ML⁻¹T⁻²",
+        "M⁻¹T"
+      ],
+      "answerIndex": 2,
+      "explanation": "Young's modulus = Stress/Strain = (Force/Area) = MLT⁻² / L² = ML⁻¹T⁻².",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70371?exam_type=jamb&exam_year=2023&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70372",
+      "subject": "Physics",
+      "topic": "Mechanics - Energy",
+      "difficulty": "medium",
+      "question": "A body of mass 2 kg is moving with a velocity of 10 m/s. What is its kinetic energy?",
+      "options": [
+        "20 J",
+        "100 J",
+        "50 J",
+        "200 J"
+      ],
+      "answerIndex": 1,
+      "explanation": "KE = ½mv² = 0.5 × 2 × 100 = 100 J.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70372?exam_type=jamb&exam_year=2023&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70373",
+      "subject": "Physics",
+      "topic": "Electrostatics - Capacitance",
+      "difficulty": "medium",
+      "question": "If a sheet of an insulating material is inserted between the plates of an air capacitor, the capacitance will",
+      "options": [
+        "become zero",
+        "decrease",
+        "increase",
+        "remain unchanged"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inserting a dielectric increases capacitance (C = κε₀A/d).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70373?exam_type=jamb&exam_year=2023&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70404",
+      "subject": "Physics",
+      "topic": "Waves - Strings",
+      "difficulty": "medium",
+      "question": "A sonometer's fundamental note is 50Hz, what is the new frequency when the tension is four times the original?",
+      "options": [
+        "25Hz",
+        "100Hz",
+        "200Hz",
+        "250Hz"
+      ],
+      "answerIndex": 1,
+      "explanation": "Frequency ∝ √T, so if T ×4, f doubles: 50×2=100 Hz.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70404?exam_type=jamb&exam_year=2023&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70406",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "difficulty": "medium",
+      "question": "A thick glass tumbler cracks when boiling water is poured into it because",
+      "options": [
+        "The inside expands more rapidly than the outside",
+        "The inside expands less rapidly than the outside",
+        "The expansion is even",
+        "It does not expand"
+      ],
+      "answerIndex": 0,
+      "explanation": "The inner surface expands faster than the outer, causing stress and cracking.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70406?exam_type=jamb&exam_year=2023&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70407",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Specific Heat",
+      "difficulty": "medium",
+      "question": "How much joules of heat are given out when a piece of iron, of mass 60g and specific heat capacity 460 JKg⁻¹K⁻¹, cools from 75°C to 35°C",
+      "options": [
+        "1000J",
+        "1050J",
+        "1067J",
+        "1104J"
+      ],
+      "answerIndex": 3,
+      "explanation": "Q = mcΔT = 0.06 × 460 × 40 = 1104 J.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70407?exam_type=jamb&exam_year=2023&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-70409",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "difficulty": "medium",
+      "question": "A mass of gas at 40mmHg is heated from 298K to 348K at constant volume. Calculate the pressure exerted by the gas.",
+      "options": [
+        "50.21mmHg",
+        "46.71mmHg",
+        "42.35mmHg",
+        "35.12mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "P₁/T₁ = P₂/T₂ → P₂ = 40 × 348/298 ≈ 46.71 mmHg.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70409?exam_type=jamb&exam_year=2023&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64908",
+      "subject": "Physics",
+      "topic": "Measurement and Units - SI Units",
+      "difficulty": "medium",
+      "question": "Which of these is a derived unit?",
+      "options": [
+        "Kilogram",
+        "Metre",
+        "Newton",
+        "Second"
+      ],
+      "answerIndex": 2,
+      "explanation": "Newton is a derived unit (kg·m/s²); others are base SI units.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64908?exam_type=jamb&exam_year=2022&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64911",
+      "subject": "Physics",
+      "topic": "Magnetism - Magnetic Poles",
+      "difficulty": "medium",
+      "question": "A bar magnet is divided into two pieces, which of the following statement is correct?",
+      "options": [
+        "two new magnets are created",
+        "the magnetic field of each separate piece becomes stronger",
+        "the electric field is created",
+        "the bar magnet is demagnetized"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each piece becomes a complete magnet with its own north and south poles.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64911?exam_type=jamb&exam_year=2022&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64912",
+      "subject": "Physics",
+      "topic": "Waves - Wave Equation",
+      "difficulty": "medium",
+      "question": "Consider the wave equation y = 5mm sin [1cm⁻¹ x - 60s⁻¹ t]. The wave number is?",
+      "options": [
+        "0.1 cm⁻¹",
+        "10 cm⁻¹",
+        "1.0 cm⁻¹",
+        "2 cm⁻¹"
+      ],
+      "answerIndex": 2,
+      "explanation": "The wave number is the coefficient of x, which is 1 cm⁻¹.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64912?exam_type=jamb&exam_year=2022&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64915",
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "question": "A bar magnet is placed near and lying along the axis of a solenoid connected to a galvanometer. The pointer of the galvanometer shows no deflection when?",
+      "options": [
+        "the magnet is moved towards the stationary solenoid",
+        "there is no relative motion",
+        "the magnet is moved away from the stationary solenoid",
+        "the solenoid is moved away from the stationary magnet"
+      ],
+      "answerIndex": 1,
+      "explanation": "EMF is induced only when there is relative motion (changing flux).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64915?exam_type=jamb&exam_year=2022&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64916",
+      "subject": "Physics",
+      "topic": "Mechanics - Friction",
+      "difficulty": "medium",
+      "question": "Tyres are treaded to?",
+      "options": [
+        "increase weight of tyres",
+        "increase friction",
+        "increase its longevity",
+        "look good"
+      ],
+      "answerIndex": 1,
+      "explanation": "Treads increase friction between tyre and road for better grip.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64916?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64918",
+      "subject": "Physics",
+      "topic": "Mechanics - Kinematics",
+      "difficulty": "medium",
+      "question": "A car starts from rest and covers a distance of 40 m in 10 s. Calculate the magnitude of its acceleration",
+      "options": [
+        "3.20 ms⁻²",
+        "0.25 ms⁻²",
+        "0.80 ms⁻²",
+        "4.00 ms⁻²"
+      ],
+      "answerIndex": 2,
+      "explanation": "s = ut + ½at² → 40 = 0 + 0.5×a×100 → a = 0.8 m/s².",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64918?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64920",
+      "subject": "Physics",
+      "topic": "Current Electricity - Cells",
+      "difficulty": "medium",
+      "question": "Which of the following is not a consequence of hydrogen bubbles covering the copper plate of a primary cell?",
+      "options": [
+        "formation of hydrogen bubbles on the electrode",
+        "increase in the resistance of the cell",
+        "local action",
+        "polarization"
+      ],
+      "answerIndex": 2,
+      "explanation": "Local action is caused by impurities, not hydrogen bubbles. Hydrogen bubbles cause polarization.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64920?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64923",
+      "subject": "Physics",
+      "topic": "Current Electricity - Internal Resistance",
+      "difficulty": "medium",
+      "question": "A cell whose internal resistance is 0.55Ω delivers a current of 4 A to an external resistor. The lost voltage of the cell is?",
+      "options": [
+        "4.00 V",
+        "2.20 V",
+        "0.15 V",
+        "8.00 V"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lost voltage = Ir = 4 × 0.55 = 2.20 V.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64923?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64924",
+      "subject": "Physics",
+      "topic": "Current Electricity - Conductors",
+      "difficulty": "medium",
+      "question": "Which of the following liquid is a poor conductor of electricity?",
+      "options": [
+        "Distilled water",
+        "Tap water",
+        "Sea water",
+        "Drinking water"
+      ],
+      "answerIndex": 0,
+      "explanation": "Distilled water is almost pure and a poor conductor; salts in other water make them conductive.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64924?exam_type=jamb&exam_year=2022&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64927",
+      "subject": "Physics",
+      "topic": "Optics - Colour",
+      "difficulty": "medium",
+      "question": "The secondary pigments consist of?",
+      "options": [
+        "blue, green, and violet",
+        "yellow, green, and magenta",
+        "magenta, yellow, and cyan",
+        "red, green, and blue"
+      ],
+      "answerIndex": 2,
+      "explanation": "Secondary pigments are cyan, magenta, yellow (CMY).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64927?exam_type=jamb&exam_year=2022&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64929",
+      "subject": "Physics",
+      "topic": "Optics - Refraction",
+      "difficulty": "medium",
+      "question": "A person standing waist-deep in a swimming pool appears to have short legs because of light?",
+      "options": [
+        "diffraction",
+        "refraction",
+        "reflection",
+        "interference"
+      ],
+      "answerIndex": 1,
+      "explanation": "Refraction causes apparent depth to be less than real depth, making legs look shorter.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64929?exam_type=jamb&exam_year=2022&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64930",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "A tuning fork having a frequency of 312 Hz emits a wave which has a wavelength of 1.10 m. Calculate the velocity of sound",
+      "options": [
+        "312.0 ms⁻¹",
+        "110.0 ms⁻¹",
+        "343.2 ms⁻¹",
+        "686.4 ms⁻¹"
+      ],
+      "answerIndex": 2,
+      "explanation": "v = fλ = 312 × 1.10 = 343.2 m/s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64930?exam_type=jamb&exam_year=2022&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64932",
+      "subject": "Physics",
+      "topic": "Electrostatics - Capacitance",
+      "difficulty": "medium",
+      "question": "When the plate area of a capacitor increases?",
+      "options": [
+        "the voltage can withstand increase",
+        "the capacitance decreases",
+        "the capacitance is unaffected",
+        "the capacitance increases"
+      ],
+      "answerIndex": 3,
+      "explanation": "C = ε₀A/d, so larger area means larger capacitance.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64932?exam_type=jamb&exam_year=2022&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64933",
+      "subject": "Physics",
+      "topic": "Magnetism - Applications",
+      "difficulty": "medium",
+      "question": "A magnet relay is a device used for?",
+      "options": [
+        "reading the magnitude of magnetic flux",
+        "controlling another circuit carrying larger current",
+        "turning in sports",
+        "storing magnetic field"
+      ],
+      "answerIndex": 1,
+      "explanation": "A relay uses a small current to switch a larger current in another circuit.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64933?exam_type=jamb&exam_year=2022&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64935",
+      "subject": "Physics",
+      "topic": "Kinetic Theory of Gases",
+      "difficulty": "medium",
+      "question": "According to kinetic molecular model in gases,",
+      "options": [
+        "the particles are closely packed together; they occupy minimum space and are usually arranged in a regular pattern",
+        "the particles vibrate about fixed positions and are held together by the strong intermolecular bonds between them",
+        "the molecules are very far apart and occupy all the spaces made available to them",
+        "the particles occur in clusters with molecules slightly further apart"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gas molecules are widely spaced and move freely to fill the container.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64935?exam_type=jamb&exam_year=2022&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64937",
+      "subject": "Physics",
+      "topic": "Current Electricity - Electrical Energy",
+      "difficulty": "medium",
+      "question": "A current of 0.5 A flows through a resistor when connected to a 40 V battery. How much energy is dispatched in 2 minutes?",
+      "options": [
+        "2400 J",
+        "9600 J",
+        "1500 J",
+        "1200 J"
+      ],
+      "answerIndex": 0,
+      "explanation": "Energy = VIt = 40 × 0.5 × 120 = 2400 J.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64937?exam_type=jamb&exam_year=2022&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64940",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Vapour Pressure",
+      "difficulty": "medium",
+      "question": "The vapour pressure?",
+      "options": [
+        "increases non-linearly with measuring temperature",
+        "increases linearly with increasing temperature",
+        "decreases linearly with increasing temperature",
+        "decreases non-linearly with measuring temperature"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vapour pressure increases exponentially (non-linearly) with temperature.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64940?exam_type=jamb&exam_year=2022&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64943",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Pressure",
+      "difficulty": "medium",
+      "question": "A reservoir is filled with liquid of density 2000 kgm⁻³. Calculate the depth at which the pressure in the liquid will be equal to 9100 Nm⁻² (g = 10 ms⁻²)",
+      "options": [
+        "0.262 m",
+        "0.664 m",
+        "0.819 m",
+        "0.455 m"
+      ],
+      "answerIndex": 3,
+      "explanation": "P = ρgh → h = P/(ρg) = 9100/(2000×10) = 0.455 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64943?exam_type=jamb&exam_year=2022&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64945",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "difficulty": "medium",
+      "question": "Water is not a good thermometric liquid because it?",
+      "options": [
+        "expands unevenly between 0°C and 4°C",
+        "maintains fixed density",
+        "has low freezing point",
+        "wets glass"
+      ],
+      "answerIndex": 0,
+      "explanation": "Water has anomalous expansion between 0°C and 4°C, making it unsuitable.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64945?exam_type=jamb&exam_year=2022&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64946",
+      "subject": "Physics",
+      "topic": "Mechanics - Levers",
+      "difficulty": "medium",
+      "question": "Which of these is a second-class lever?",
+      "options": [
+        "sugar tongs",
+        "claw hammer",
+        "plier",
+        "wheelbarrow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Wheelbarrow has load between effort and fulcrum, a class-2 lever.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64946?exam_type=jamb&exam_year=2022&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64947",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Convection",
+      "difficulty": "medium",
+      "question": "In the formation of sea breeze, wind blows from?",
+      "options": [
+        "sky to land",
+        "sea to sky",
+        "land to sea",
+        "sea to land"
+      ],
+      "answerIndex": 3,
+      "explanation": "During the day, sea breeze blows from sea to land (cooler sea air replaces rising hot land air).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64947?exam_type=jamb&exam_year=2022&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64948",
+      "subject": "Physics",
+      "topic": "Optics - Fibre Optics",
+      "difficulty": "medium",
+      "question": "Which component of fiber-optic connector has a provision of entry for the fibre along with the fixation to connector housing?",
+      "options": [
+        "coupling device",
+        "cable",
+        "ferrule",
+        "connector housing"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ferrule holds the fibre and aligns it in the connector.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64948?exam_type=jamb&exam_year=2022&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64949",
+      "subject": "Physics",
+      "topic": "Optics - Instruments",
+      "difficulty": "medium",
+      "question": "In order to view the sun, the most suitable instrument to use is?",
+      "options": [
+        "helioscope",
+        "telescope",
+        "stroboscope",
+        "sun meter"
+      ],
+      "answerIndex": 0,
+      "explanation": "A helioscope is designed for safe solar observation.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64949?exam_type=jamb&exam_year=2022&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64951",
+      "subject": "Physics",
+      "topic": "Astronomy - Eclipses",
+      "difficulty": "medium",
+      "question": "The eclipse of the moon occurs when?",
+      "options": [
+        "the moon reflects the rays from the sun to the earth",
+        "the moon comes exactly between the earth and the sun",
+        "the earth comes exactly between the moon and the sun",
+        "the sun comes exactly between the earth and the moon"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lunar eclipse occurs when Earth is between Sun and Moon, casting its shadow on the Moon.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64951?exam_type=jamb&exam_year=2022&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64953",
+      "subject": "Physics",
+      "topic": "Gravitation - Weight",
+      "difficulty": "medium",
+      "question": "The gravitational pull on the moon is 1/6 that of the earth. If a body weighs 6.0 N on the moon, what will be the weight on the earth?",
+      "options": [
+        "6.0 N",
+        "5.0 N",
+        "12.0 N",
+        "36.0 N"
+      ],
+      "answerIndex": 3,
+      "explanation": "Weight on earth = 6 × weight on moon = 6 × 6 = 36 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64953?exam_type=jamb&exam_year=2022&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64955",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "difficulty": "medium",
+      "question": "The amount of energy required to change a kilogram of ice block into water without a change in temperature is?",
+      "options": [
+        "specific latent heat of fusion of ice",
+        "specific heat capacity of ice",
+        "heat capacity of ice",
+        "specific heat of vaporization of ice"
+      ],
+      "answerIndex": 0,
+      "explanation": "Latent heat of fusion is the energy for phase change at constant temperature.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64955?exam_type=jamb&exam_year=2022&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-64956",
+      "subject": "Physics",
+      "topic": "Magnetism - Magnetic Flux",
+      "difficulty": "medium",
+      "question": "Which expression gives magnetic flux?",
+      "options": [
+        "qVB sinθ",
+        "μI/(2πr)",
+        "BA cosθ",
+        "-N dΦ/dt"
+      ],
+      "answerIndex": 2,
+      "explanation": "Magnetic flux Φ = BA cosθ (where θ is angle between B and normal to area).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64956?exam_type=jamb&exam_year=2022&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65085",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "difficulty": "medium",
+      "question": "The graph of pressure (P) against the reciprocal of the volume (1/V) in Boyle's law is a?",
+      "options": [
+        "hyperbola",
+        "parabola",
+        "curve",
+        "straight line"
+      ],
+      "answerIndex": 3,
+      "explanation": "Boyle's law: P ∝ 1/V, so P vs 1/V is a straight line through the origin.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65085?exam_type=jamb&exam_year=2022&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65087",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "difficulty": "medium",
+      "question": "What quantity of heat is required to convert 20 g of ice at 0°C to water at the same temperature? (Specific latent heat of ice = 336 Jg⁻¹)",
+      "options": [
+        "7.06 × 10³ J",
+        "5.38 × 10³ J",
+        "6.72 × 10³ J",
+        "1.35 × 10³ J"
+      ],
+      "answerIndex": 2,
+      "explanation": "Q = mL = 20 × 336 = 6720 J = 6.72 × 10³ J.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65087?exam_type=jamb&exam_year=2022&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65089",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "The main factor which affects the speed of sound wave is the?",
+      "options": [
+        "properties of the medium",
+        "amplitude of the sound wave",
+        "intensity of the sound wave",
+        "loudness of the sound wave"
+      ],
+      "answerIndex": 0,
+      "explanation": "Speed of sound depends on medium properties (density, elasticity, temperature).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65089?exam_type=jamb&exam_year=2022&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65090",
+      "subject": "Physics",
+      "topic": "Semiconductors - Bonding",
+      "difficulty": "medium",
+      "question": "A semiconductor is formed by?",
+      "options": [
+        "co-ordinate bonds",
+        "electrovalent bonds",
+        "a substance free of bonds",
+        "covalent bonds"
+      ],
+      "answerIndex": 3,
+      "explanation": "Semiconductors like silicon and germanium have covalent bonds.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65090?exam_type=jamb&exam_year=2022&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65091",
+      "subject": "Physics",
+      "topic": "Measurement - Scalars and Vectors",
+      "difficulty": "medium",
+      "question": "One of the following is a scalar quantity?",
+      "options": [
+        "weight",
+        "momentum",
+        "potential energy",
+        "displacement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Potential energy has only magnitude, no direction.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65091?exam_type=jamb&exam_year=2022&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65092",
+      "subject": "Physics",
+      "topic": "Pressure - Barometers",
+      "difficulty": "medium",
+      "question": "The mercury column in the barometer at normal atmospheric pressure has a height of?",
+      "options": [
+        "0.76 cm at sea level",
+        "760 cm at sea level",
+        "7.6 cm at sea level",
+        "76 cm at sea level"
+      ],
+      "answerIndex": 3,
+      "explanation": "Standard atmospheric pressure supports 760 mm = 76 cm of mercury.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65092?exam_type=jamb&exam_year=2022&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-65735",
+      "subject": "Physics",
+      "topic": "Mechanics - Friction",
+      "difficulty": "medium",
+      "question": "If an object just begins to slide on a surface inclined at 30° to the horizontal, the coefficient of friction is?",
+      "options": [
+        "√3",
+        "√3/2",
+        "1/√2",
+        "1/√3"
+      ],
+      "answerIndex": 3,
+      "explanation": "μ = tanθ = tan30° = 1/√3.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65735?exam_type=jamb&exam_year=2022&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-67268",
+      "subject": "Physics",
+      "topic": "Mechanics - Projectile Motion",
+      "difficulty": "medium",
+      "question": "A missile is launched with a speed of 75 ms-1 at an angle of 22° above the surface of a warship. Find the horizontal range achieved by the missile. Ignore air resistance. [Take g = 10 ms-2]",
+      "options": [
+        "195",
+        "271 m",
+        "391 m",
+        "136 m"
+      ],
+      "answerIndex": 2,
+      "explanation": "Range R = u²sin2θ/g = 75²×sin44°/10 = 5625×0.695/10 ≈ 391 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67268?exam_type=jamb&exam_year=2022&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-67280",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Pressure",
+      "difficulty": "medium",
+      "question": "Calculate the absolute pressure at the bottom of a lake at a depth of 32.8 m. Assume density of water = 1 × 10³ kgm⁻³ and air pressure = 101.3 kPa. [g = 9.8 ms⁻²]",
+      "options": [
+        "422.7 kPa",
+        "220.14 kPa",
+        "464.53 kPa",
+        "321.74 kPa"
+      ],
+      "answerIndex": 0,
+      "explanation": "P = P₀ + ρgh = 101300 + 1000×9.8×32.8 = 101300 + 321440 = 422740 Pa ≈ 422.7 kPa.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67280?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-67375",
+      "subject": "Physics",
+      "topic": "Mechanics - Kinematics",
+      "difficulty": "medium",
+      "question": "A lorry accelerates uniformly in a straight line with acceleration of 4 ms⁻² and covers a distance of 250 m in a time interval of 10 s. How far will it travel in the next 10 s?",
+      "options": [
+        "650 m",
+        "900 m",
+        "800 m",
+        "250 m"
+      ],
+      "answerIndex": 0,
+      "explanation": "s = ut + ½at²; 250 = 10u + 0.5×4×100 = 10u+200 → u=5 m/s. Total distance for 20s: s_total = 5×20 + 0.5×4×400 = 100+800=900; distance in next 10s = 900-250=650 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67375?exam_type=jamb&exam_year=2022&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-67441",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Heat Transfer",
+      "difficulty": "medium",
+      "question": "The surface temperature of a swimming pool on a warm day is 25°C and the temperature at the bottom is 15°C. If the pool has a surface area of 620 m² and depth 1.5 m, find the rate of energy transfer by conduction. [k = 0.6071 Wm⁻¹K⁻¹]",
+      "options": [
+        "2.5 kW",
+        "250 kW",
+        "300 kW",
+        "3.0 kW"
+      ],
+      "answerIndex": 0,
+      "explanation": "P = kAΔT/d = 0.6071×620×10/1.5 = 3764/1.5 ≈ 2509 W ≈ 2.5 kW.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67441?exam_type=jamb&exam_year=2022&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-67825",
+      "subject": "Physics",
+      "topic": "Mechanics - Circular Motion",
+      "difficulty": "medium",
+      "question": "A man swung an object of mass 2 kg in a circular path with a rope 1.2 m long. If swung at 120 rev/min, find the tension in the rope.",
+      "options": [
+        "400 N",
+        "288 N",
+        "240 N",
+        "379 N"
+      ],
+      "answerIndex": 3,
+      "explanation": "ω = 2π×120/60 = 4π rad/s; T = mω²r = 2×(4π)²×1.2 ≈ 379 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67825?exam_type=jamb&exam_year=2022&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60560",
+      "subject": "Physics",
+      "topic": "Mechanics - Kinematics Graphs",
+      "difficulty": "medium",
+      "question": "The slope of the straight line displacement-time graph indicates?",
+      "options": [
+        "distance traveled",
+        "uniform velocity",
+        "uniform acceleration",
+        "uniform speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Slope of displacement-time graph gives velocity. A straight line means constant velocity.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60560?exam_type=jamb&exam_year=2021&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60562",
+      "subject": "Physics",
+      "topic": "Pressure - Pressure and Area",
+      "difficulty": "medium",
+      "question": "A man will exert the greatest pressure when he?",
+      "options": [
+        "lies flat on his back",
+        "lies on his belly",
+        "stands on both feet",
+        "stands on the toes of one foot"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pressure = Force/Area. Smallest area (toes of one foot) gives greatest pressure.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60562?exam_type=jamb&exam_year=2021&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60566",
+      "subject": "Physics",
+      "topic": "Measurement and Units - Derived Units",
+      "difficulty": "medium",
+      "question": "Which of the units of the following physical quantities are derived? I. Area II. Thrust III. Pressure IV. Mass",
+      "options": [
+        "I, II, III and IV",
+        "I, II, and III only",
+        "I, II, and IV only",
+        "I and IV only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Area, thrust (force), and pressure are derived; mass is a base unit.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60566?exam_type=jamb&exam_year=2021&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60597",
+      "subject": "Physics",
+      "topic": "Mechanics - Momentum",
+      "difficulty": "medium",
+      "question": "A ball of mass 0.5 kg moving at 10 ms⁻¹ collides with another ball of equal mass at rest. If the two balls move off together after the impact, calculate their common velocity.",
+      "options": [
+        "0.2 ms⁻¹",
+        "0.5 ms⁻¹",
+        "5.0 ms⁻¹",
+        "5.5 ms⁻¹"
+      ],
+      "answerIndex": 2,
+      "explanation": "By conservation of momentum: m₁u₁ = (m₁+m₂)v → 0.5×10 = 1×v → v = 5 m/s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60597?exam_type=jamb&exam_year=2021&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60605",
+      "subject": "Physics",
+      "topic": "Mechanics - Simple Harmonic Motion",
+      "difficulty": "medium",
+      "question": "The motion of a body is simple harmonic if the?",
+      "options": [
+        "acceleration is always directed towards a fixed point",
+        "path of motion is a straight line",
+        "acceleration is proportional to the square of the distance from a fixed point",
+        "acceleration is constant and directed towards a fixed point"
+      ],
+      "answerIndex": 0,
+      "explanation": "SHM requires acceleration proportional to displacement and directed towards the equilibrium point.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60605?exam_type=jamb&exam_year=2021&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60607",
+      "subject": "Physics",
+      "topic": "Kinetic Theory of Gases",
+      "difficulty": "medium",
+      "question": "Which of the following is not correct about the molecules of a substance in a gaseous state? They?",
+      "options": [
+        "are in a constant state of motion",
+        "have different speeds",
+        "have a temperature which is measured by the average kinetic energy",
+        "The collision between the gases is perfectly inelastic"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gas collisions are assumed perfectly elastic, not inelastic.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60607?exam_type=jamb&exam_year=2021&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60611",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "difficulty": "medium",
+      "question": "A given mass of gas has a pressure of 80 Nm⁻² at a temperature of 47°C. If the temperature is reduced to 27°C with volume constant, the new pressure is?",
+      "options": [
+        "46.0 Nm⁻²",
+        "75.0 Nm⁻²",
+        "80.0 Nm⁻²",
+        "85.3 Nm⁻²"
+      ],
+      "answerIndex": 1,
+      "explanation": "P₁/T₁ = P₂/T₂ → P₂ = 80 × 300/320 = 75 Nm⁻².",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60611?exam_type=jamb&exam_year=2021&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60731",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "difficulty": "medium",
+      "question": "0.5kg of water at 10°C is completely converted to ice at 0°C by extracting 88000 J of heat. If specific heat capacity of water is 4200 Jkg⁻¹°C⁻¹, calculate the specific latent heat of fusion of ice.",
+      "options": [
+        "9.0 kJkg⁻¹",
+        "84.0 kJkg⁻¹",
+        "134.0 kJkg⁻¹",
+        "168.0 kJkg⁻¹"
+      ],
+      "answerIndex": 2,
+      "explanation": "Heat removed = mcΔT + mL → 88000 = 0.5×4200×10 + 0.5×L → 88000 = 21000 + 0.5L → L = 134000 J/kg = 134 kJ/kg.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60731?exam_type=jamb&exam_year=2021&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60733",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Humidity",
+      "difficulty": "medium",
+      "question": "Which of the following instruments may be used to measure relative humidity?",
+      "options": [
+        "Hydrometer",
+        "Manometer",
+        "Hygrometer",
+        "Hypsometer"
+      ],
+      "answerIndex": 2,
+      "explanation": "A hygrometer measures humidity.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60733?exam_type=jamb&exam_year=2021&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60734",
+      "subject": "Physics",
+      "topic": "Waves - Period and Frequency",
+      "difficulty": "medium",
+      "question": "A source of sound produces waves in air of wavelength 1.65 m. If the speed of sound in air is 330 ms⁻¹, the period of vibration in air is?",
+      "options": [
+        "200 s",
+        "0.005 s",
+        "0.5 s",
+        "0.02 s"
+      ],
+      "answerIndex": 1,
+      "explanation": "T = λ/v = 1.65/330 = 0.005 s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60734?exam_type=jamb&exam_year=2021&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60737",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "A boy standing some distance from the foot of a tall cliff claps his hands and hears an echo 0.5s later. If the speed of sound is 340 ms⁻¹, how far is he from the cliff?",
+      "options": [
+        "680 m",
+        "170 m",
+        "34 m",
+        "85 m"
+      ],
+      "answerIndex": 3,
+      "explanation": "Distance = vt/2 = 340×0.5/2 = 85 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60737?exam_type=jamb&exam_year=2021&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60738",
+      "subject": "Physics",
+      "topic": "Measurement - Scalars and Vectors",
+      "difficulty": "medium",
+      "question": "Which of the following is not a vector quantity?",
+      "options": [
+        "momentum",
+        "force",
+        "temperature",
+        "displacement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Temperature has only magnitude, no direction.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60738?exam_type=jamb&exam_year=2021&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60741",
+      "subject": "Physics",
+      "topic": "Alternating Current - Resonance",
+      "difficulty": "medium",
+      "question": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductor are 30V and 40V respectively. What is the voltage across the capacitor?",
+      "options": [
+        "30V",
+        "40V",
+        "50V",
+        "70V"
+      ],
+      "answerIndex": 1,
+      "explanation": "At resonance, V_L = V_C, so V_C = 40V.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60741?exam_type=jamb&exam_year=2021&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60745",
+      "subject": "Physics",
+      "topic": "Modern Physics - X-rays",
+      "difficulty": "medium",
+      "question": "If the frequency of an emitted x-ray is 1.6 × 10¹⁶ Hz, the accelerating potential is? [e = 1.6 × 10⁻¹⁹ C, h = 6.63 × 10⁻³⁴ Js]",
+      "options": [
+        "6630.0V",
+        "663.0V",
+        "66.3V",
+        "6.6V"
+      ],
+      "answerIndex": 2,
+      "explanation": "eV = hf → V = hf/e = (6.63e-34 × 1.6e16) / (1.6e-19) = 66.3 V.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60745?exam_type=jamb&exam_year=2021&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60747",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radioactivity",
+      "difficulty": "medium",
+      "question": "If the fraction of the atoms of a radioactive material left after 120 years is 1/64, what is the half-life of the material?",
+      "options": [
+        "24 years",
+        "20 years",
+        "10 years",
+        "2 years"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/64 = (1/2)^6 → 6 half-lives = 120 years → half-life = 20 years.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60747?exam_type=jamb&exam_year=2021&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60749",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radiation",
+      "difficulty": "medium",
+      "question": "A certain radioactive source emits radiation that was found to be deflected by both magnetic and electric fields. The radiation is?",
+      "options": [
+        "beta rays",
+        "gamma rays",
+        "x-rays",
+        "ultra-violet rays"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta rays (electrons) are charged and deflected by both fields.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60749?exam_type=jamb&exam_year=2021&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60750",
+      "subject": "Physics",
+      "topic": "Measurement and Units - Instruments",
+      "difficulty": "medium",
+      "question": "The inner diameter of a test tube can be measured accurately using a?",
+      "options": [
+        "micrometer screw gauge",
+        "pair of dividers",
+        "meter rule",
+        "pair of vernier calipers"
+      ],
+      "answerIndex": 3,
+      "explanation": "Vernier calipers are used for internal diameter measurements.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60750?exam_type=jamb&exam_year=2021&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60751",
+      "subject": "Physics",
+      "topic": "Mechanics - Newton's Laws",
+      "difficulty": "medium",
+      "question": "Two bodies have masses in the ratio 3:1. They experience forces which impart to them accelerations in the ratio 2:9 respectively. Find the ratio of forces the masses experienced",
+      "options": [
+        "1:4",
+        "2:1",
+        "2:3",
+        "2:5"
+      ],
+      "answerIndex": 2,
+      "explanation": "F = ma → F₁/F₂ = (m₁/m₂)(a₁/a₂) = (3/1)(2/9) = 6/9 = 2/3.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60751?exam_type=jamb&exam_year=2021&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60752",
+      "subject": "Physics",
+      "topic": "Mechanics - Circular Motion",
+      "difficulty": "medium",
+      "question": "Particles of mass 10⁻² kg is fixed to the tip of a fan blade which rotates with angular velocity of 100 rads⁻¹. If the radius of the blade is 0.2 m, the centripetal force is?",
+      "options": [
+        "2 N",
+        "20 N",
+        "200 N",
+        "400 N"
+      ],
+      "answerIndex": 1,
+      "explanation": "F = mω²r = 0.01 × 100² × 0.2 = 0.01×10000×0.2 = 20 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60752?exam_type=jamb&exam_year=2021&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60754",
+      "subject": "Physics",
+      "topic": "Mechanics - Energy",
+      "difficulty": "medium",
+      "question": "A ball of mass 0.1 kg is thrown vertically upwards with a speed of 10 ms⁻¹ from the top of a tower 10 m high. Neglecting air resistance, its total energy just before hitting the ground is? (Take g = 10 ms⁻²)",
+      "options": [
+        "5 J",
+        "10 J",
+        "15 J",
+        "20 J"
+      ],
+      "answerIndex": 2,
+      "explanation": "Initial total energy = PE + KE = mgh + ½mv² = 0.1×10×10 + 0.5×0.1×100 = 10 + 5 = 15 J.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60754?exam_type=jamb&exam_year=2021&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60758",
+      "subject": "Physics",
+      "topic": "Mechanics - Friction",
+      "difficulty": "medium",
+      "question": "When the breaks in a car are applied, the frictional force on the tyres is?",
+      "options": [
+        "a disadvantage because it is in the direction of the motion of the car",
+        "a disadvantage because it is in the opposite direction of the motion of the car",
+        "an advantage because it is in the direction of the motion of the car",
+        "an advantage because it is in the opposite direction of the motion of the car"
+      ],
+      "answerIndex": 3,
+      "explanation": "Friction opposes motion; it is an advantage when stopping.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60758?exam_type=jamb&exam_year=2021&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60774",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Density",
+      "difficulty": "medium",
+      "question": "A solid weighs 10.00 N in air, 6 N when forcefully immersed in water, and 7.0 N when fully immersed in a liquid X. Calculate the relative density of the liquid X.",
+      "options": [
+        "5/3",
+        "4/3",
+        "3/4",
+        "7/10"
+      ],
+      "answerIndex": 0,
+      "explanation": "Upthrust in water = 10-6=4 N; in liquid = 10-7=3 N. RD of liquid = upthrust in liquid / upthrust in water = 3/4 = 0.75, but options are 5/3, 4/3, 3/4, 7/10. So 3/4 is C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60774?exam_type=jamb&exam_year=2021&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60775",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Surface Tension",
+      "difficulty": "medium",
+      "question": "When the temperature of a liquid increases, its surface tension",
+      "options": [
+        "decreases",
+        "increases",
+        "remains constant",
+        "increases then decreases"
+      ],
+      "answerIndex": 0,
+      "explanation": "Surface tension decreases with increase in temperature.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60775?exam_type=jamb&exam_year=2021&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60776",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "difficulty": "medium",
+      "question": "A gas at a volume of V₀ in a container at pressure p₀ is compressed to one-fifth of its volume. What will be its pressure if the temperature is constant?",
+      "options": [
+        "p₀/5",
+        "4p₀/5",
+        "p₀",
+        "5p₀"
+      ],
+      "answerIndex": 3,
+      "explanation": "Boyle's law: p₁V₁ = p₂V₂ → p₂ = p₀ × V₀ / (V₀/5) = 5p₀.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60776?exam_type=jamb&exam_year=2021&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-60777",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Specific Heat",
+      "difficulty": "medium",
+      "question": "A piece of substance of specific heat capacity 450 Jkg⁻¹K⁻¹ falls through a vertical distance of 20 m from rest. Calculate the rise in temperature on hitting the ground when all its energy is converted into heat. [g = 10 ms⁻²]",
+      "options": [
+        "2/9 °C",
+        "4/9 °C",
+        "9/2 °C",
+        "9/4 °C"
+      ],
+      "answerIndex": 1,
+      "explanation": "mgh = mcΔT → ΔT = gh/c = 10×20/450 = 200/450 = 4/9 °C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60777?exam_type=jamb&exam_year=2021&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56890",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Diffusion",
+      "difficulty": "medium",
+      "question": "A few grains of table salt were put in a cup of cold water, kept at constant temperature and left undisturbed. Eventually all the water tested salty. This action is due to?",
+      "options": [
+        "convection",
+        "osmosis",
+        "capillarity",
+        "diffusion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Salt dissolves and spreads through water by diffusion.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56890?exam_type=jamb&exam_year=2020&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56892",
+      "subject": "Physics",
+      "topic": "Mechanics - Momentum",
+      "difficulty": "medium",
+      "question": "A machine gun with a mass of 5 kg fires a 50 g bullet at a speed of 100 ms⁻¹. The recoil speed of the machine gun is",
+      "options": [
+        "0.5 ms⁻¹",
+        "1.5 ms⁻¹",
+        "1 ms⁻¹",
+        "2 ms⁻¹"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conservation of momentum: 5v = 0.05×100 → v = 1 m/s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56892?exam_type=jamb&exam_year=2020&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56894",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "difficulty": "medium",
+      "question": "In what range of temperature is the expansion of water anomalous?",
+      "options": [
+        "+208°C to +212°C",
+        "-80°C to -76°C",
+        "0°C to +4°C",
+        "-4°C to 0°C"
+      ],
+      "answerIndex": 2,
+      "explanation": "Water shows anomalous expansion between 0°C and 4°C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56894?exam_type=jamb&exam_year=2020&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56895",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radiation",
+      "difficulty": "medium",
+      "question": "Which of the following statements about radioactivity is true? (i) Alpha particle is positively charged (ii) Beta particle is negatively charged (iii) Gamma ray is neutral (iv) Beta particle has the same mass as helium atom (v) Gamma ray is charged.",
+      "options": [
+        "i, ii, iii, iv only",
+        "i, ii, iii only",
+        "iv and v only",
+        "i, ii and v only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alpha (+), beta (-), gamma (neutral) are correct; beta is not helium mass.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56895?exam_type=jamb&exam_year=2020&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56896",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Temperature and Heat",
+      "difficulty": "medium",
+      "question": "In the study of Physics, temperature and heat are often confused with each other. Which of the following statements correctly defines these two elements?",
+      "options": [
+        "Temperature is a measure of the average kinetic energy of the molecules of a substance",
+        "Heat is a measure of the total kinetic energy of the molecules in a system",
+        "Different materials require different amounts of heat to cause a given change in temperature",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "All statements are correct definitions.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56896?exam_type=jamb&exam_year=2020&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56898",
+      "subject": "Physics",
+      "topic": "Electromagnetic Spectrum - X-rays",
+      "difficulty": "medium",
+      "question": "Which of the following statements on the use of X-rays is incorrect? X-rays are used",
+      "options": [
+        "In a hospital to obtain photographs of tissues and bones in the body",
+        "For the treatment of malignant growths like cancer cells",
+        "In detecting fingerprints",
+        "To reveal hidden flaws in metal castings and welded joints work of art"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fingerprints are detected using chemical methods or UV light, not X-rays.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56898?exam_type=jamb&exam_year=2020&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56900",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radioactivity",
+      "difficulty": "medium",
+      "question": "Natural radioactivity consists of emission?",
+      "options": [
+        "α-particles and β-rays",
+        "α-particles and X-rays",
+        "γ-ray and X-rays",
+        "α-particles, β-rays and γ-rays"
+      ],
+      "answerIndex": 3,
+      "explanation": "Natural radioactivity emits α, β, and γ radiations.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56900?exam_type=jamb&exam_year=2020&page=2"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56901",
+      "subject": "Physics",
+      "topic": "Waves - Doppler Effect",
+      "difficulty": "medium",
+      "question": "If a source of sound is moving, a stationary listener will hear a sound of different frequency. This is called?",
+      "options": [
+        "Doppler effect",
+        "resonance",
+        "ultrasound",
+        "rarefaction"
+      ],
+      "answerIndex": 0,
+      "explanation": "Change in frequency due to relative motion is the Doppler effect.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56901?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56902",
+      "subject": "Physics",
+      "topic": "Current Electricity - Power Transmission",
+      "difficulty": "medium",
+      "question": "Which of the following can be described as high tension transmission?",
+      "options": [
+        "High resistance and low voltage",
+        "Low current and high voltage",
+        "High current and low voltage",
+        "High current and low resistance"
+      ],
+      "answerIndex": 1,
+      "explanation": "High tension transmission uses high voltage and low current to reduce power loss.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56902?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56904",
+      "subject": "Physics",
+      "topic": "Atomic Physics - Particles",
+      "difficulty": "medium",
+      "question": "The mass of a proton is approximately equal to that of",
+      "options": [
+        "an α-particle",
+        "a β-particle",
+        "a neutron",
+        "an electron"
+      ],
+      "answerIndex": 2,
+      "explanation": "Proton and neutron have approximately equal mass.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56904?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56905",
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction - Transformers",
+      "difficulty": "medium",
+      "question": "A transformer has 300 turns of wire in the primary coil and 30 turns in the secondary coil. If the input voltage is 100 volts, the output voltage is",
+      "options": [
+        "5 volts",
+        "10 volts",
+        "15 volts",
+        "20 volts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vs = Vp × Ns/Np = 100 × 30/300 = 10 V.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56905?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56906",
+      "subject": "Physics",
+      "topic": "Fluid Mechanics - Density",
+      "difficulty": "medium",
+      "question": "A solid weighs 4.8g in air, 2.8g in water and 3.2g in Kerosine. The ratio of density of the solid to that of the kerosine is",
+      "options": [
+        "2",
+        "3/2",
+        "2/3",
+        "3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Upthrust in water = 4.8-2.8=2.0 g; in kerosine = 4.8-3.2=1.6 g. RD of solid = 4.8/2.0=2.4; RD of kerosine = 1.6/2.0=0.8; ratio = 2.4/0.8 = 3. So D.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56906?exam_type=jamb&exam_year=2020&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56907",
+      "subject": "Physics",
+      "topic": "Measurement and Units - Instruments",
+      "difficulty": "medium",
+      "question": "One of the following readings represents the measurement of the length of a metal rod using vernier calipers. Taking the reading accuracy into consideration, the most likely one is",
+      "options": [
+        "5.16 cm",
+        "5.165 cm",
+        "5.0 cm",
+        "5.160 cm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vernier calipers typically read to 0.01 cm, so 5.16 cm is appropriate.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56907?exam_type=jamb&exam_year=2020&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56908",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "When a sound wave passes from air into water its",
+      "options": [
+        "speed and frequency increases but its wavelength remains the same",
+        "speed and wavelength increases but its frequency remains the same",
+        "speed decreases",
+        "speed increases but its frequency and wavelength decreases"
+      ],
+      "answerIndex": 1,
+      "explanation": "Frequency remains constant; speed increases in water, so wavelength increases.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56908?exam_type=jamb&exam_year=2020&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56909",
+      "subject": "Physics",
+      "topic": "Optics - Mirrors",
+      "difficulty": "medium",
+      "question": "A convex mirror is used as a driving mirror because I. its image is erect II. It has a large field of view III. It has a long focal length. Identify the CORRECT statement(s)",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "II and IIII only",
+        "I, II and III only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Convex mirrors give erect images and a wide field of view; long focal length is not the primary reason.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56909?exam_type=jamb&exam_year=2020&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56911",
+      "subject": "Physics",
+      "topic": "Magnetism - Earth's Magnetic Field",
+      "difficulty": "medium",
+      "question": "A magnetic needle is suspended first at the earth's north magnetic pole and then at a point on the magnetic equator. The respective angles between the needle and the horizontal are",
+      "options": [
+        "0° and 0°",
+        "60° and 60°",
+        "90° and 90°",
+        "90° and 0°"
+      ],
+      "answerIndex": 3,
+      "explanation": "At magnetic poles, dip = 90°; at equator, dip = 0°.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56911?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56912",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Density",
+      "difficulty": "medium",
+      "question": "A hydrometer is an instrument for measuring the",
+      "options": [
+        "depth of water in a vessel",
+        "relative density of a liquid by the method of flotation",
+        "relative density of a liquid by finding the apparent loss in weight",
+        "relative humidity of the air"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hydrometer measures relative density based on buoyancy.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56912?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56914",
+      "subject": "Physics",
+      "topic": "Optics - Refractive Index",
+      "difficulty": "medium",
+      "question": "The refractive index of a liquid is 1.5. If the velocity of light in vacuum is 3.0 × 10⁸ ms⁻¹, the velocity of light in the liquid is",
+      "options": [
+        "1.5 × 10⁸ ms⁻¹",
+        "2.0 × 10⁸ ms⁻¹",
+        "3.0 × 10⁸ ms⁻¹",
+        "4.5 × 10⁸ ms⁻¹"
+      ],
+      "answerIndex": 1,
+      "explanation": "v = c/n = 3e8/1.5 = 2e8 m/s.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56914?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56915",
+      "subject": "Physics",
+      "topic": "Waves - Sound",
+      "difficulty": "medium",
+      "question": "A ship travelling towards a cliff receives the echo of its whistle after 3.5 seconds. A short while later, it receives the echo after 2.5 seconds. If the speed of sound in air under the prevailing condition is 250 ms⁻¹, how much closer is the ship to the cliff?",
+      "options": [
+        "10 m",
+        "350 m",
+        "175 m",
+        "125 m"
+      ],
+      "answerIndex": 3,
+      "explanation": "Distance in first case = 250×3.5/2 = 437.5 m; second = 250×2.5/2 = 312.5 m; difference = 125 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56915?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56916",
+      "subject": "Physics",
+      "topic": "Optics - Eye Defects",
+      "difficulty": "medium",
+      "question": "Which of the following statements about defects of vision is/are CORRECT? I. For a long sighted person, close objects appear blurred II. For a short sighted person, distant objects appear blurred III. Short sight is corrected by using a pair of converging lenses",
+      "options": [
+        "I only",
+        "II only",
+        "I and II only",
+        "II and III only"
+      ],
+      "answerIndex": 2,
+      "explanation": "Long sight (hypermetropia) → close objects blurred (I). Short sight (myopia) → distant objects blurred (II). Short sight is corrected with diverging lenses, not converging (III false).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56916?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56917",
+      "subject": "Physics",
+      "topic": "Optics - Total Internal Reflection",
+      "difficulty": "medium",
+      "question": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media? I. Light is passing from optical denser medium to optically less dense medium II. Light is passing from optically less dense medium to optically denser medium III. Angle of incidence is greater than a certain critical value IV. Angle of incidence is lesser than a certain critical value",
+      "options": [
+        "I and II only",
+        "II only III only",
+        "III and IV only",
+        "I and III only"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total internal reflection requires denser to rarer (I) and angle of incidence > critical angle (III).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56917?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56918",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "difficulty": "medium",
+      "question": "The linear expansivity of brass is 2 × 10⁻⁵ °C⁻¹. If the volume of piece of brass is 10 cm³ at 0°C, what will be its volume at 100°C?",
+      "options": [
+        "10.06 cm³",
+        "10.04 cm³",
+        "10.02 cm³",
+        "10.20 cm³"
+      ],
+      "answerIndex": 0,
+      "explanation": "γ = 3α = 6e-5. ΔV = γVΔT = 6e-5 × 10 × 100 = 0.06 cm³. New volume = 10.06 cm³.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56918?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56919",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "difficulty": "medium",
+      "question": "The lower and upper fixed points marked on a Mercury-in-glass thermometer are 210 mm apart. The end of the mercury column in the tube is 49 mm above the lower fixed point in a room. What is the temperature of the room in degrees Celsius?",
+      "options": [
+        "55.3°C",
+        "23.3°C",
+        "49.0°C",
+        "16.43°C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Temperature = (49/210) × 100 = 23.33°C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56919?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56925",
+      "subject": "Physics",
+      "topic": "Current Electricity - Electrical Power",
+      "difficulty": "medium",
+      "question": "Which of the following instruments consumes the highest current? I. Electric iron 250V 1kW II. Television set 220V 110W III. Torchlight 6V 30W IV. Immersion heater 110V 500W",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "answerIndex": 0,
+      "explanation": "I = P/V. I: 1000/250=4A; II: 110/220=0.5A; III: 30/6=5A; IV: 500/110≈4.55A. Highest is III (5A). So C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56925?exam_type=jamb&exam_year=2020&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56927",
+      "subject": "Physics",
+      "topic": "Electromagnetic Spectrum",
+      "difficulty": "medium",
+      "question": "Which of the following pairs is part of the electromagnetic spectrum? I. Radio waves II. sound waves III. Gamma rays IV. water waves",
+      "options": [
+        "I and II",
+        "III and IV",
+        "I and III",
+        "II and IV"
+      ],
+      "answerIndex": 2,
+      "explanation": "Radio waves and gamma rays are electromagnetic; sound and water are mechanical.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56927?exam_type=jamb&exam_year=2020&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-56928",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radioactivity",
+      "difficulty": "medium",
+      "question": "A substance has half-life of 3 min. After 6 min, the count rate was observed to be 400. What was its count rate at zero time?",
+      "options": [
+        "1600",
+        "1200",
+        "200",
+        "2400"
+      ],
+      "answerIndex": 0,
+      "explanation": "6 min = 2 half-lives. Initial count = 400 × 2² = 400×4 = 1600.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56928?exam_type=jamb&exam_year=2020&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-1452",
+      "subject": "Physics",
+      "topic": "Alternating Current - Inductive Reactance",
+      "difficulty": "medium",
+      "question": "A 2H inductor has negligible resistance and is connected to a 50/π Hz A.C supply. The reactance of the inductor is",
+      "options": [
+        "200 Ω",
+        "50 Ω",
+        "100/π Ω",
+        "25/π Ω"
+      ],
+      "answerIndex": 0,
+      "explanation": "X_L = 2πfL = 2π × (50/π) × 2 = 200 Ω.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1452?exam_type=jamb&exam_year=2020&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-1435",
+      "subject": "Physics",
+      "topic": "Current Electricity - Power Loss",
+      "difficulty": "medium",
+      "question": "An electric generator with a power output of 3.0KW at a voltage of 1.5KV distributes power along cables of resistance 20.0Ω. The power loss in the cables is",
+      "options": [
+        "80.0W",
+        "40.0W",
+        "10.0W",
+        "0.1W"
+      ],
+      "answerIndex": 0,
+      "explanation": "Current I = P/V = 3000/1500 = 2 A. Power loss = I²R = 4×20 = 80 W.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1435?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-716",
+      "subject": "Physics",
+      "topic": "Semiconductors - Intrinsic",
+      "difficulty": "medium",
+      "question": "In a pure semiconductor, the number of electrons in the conduction band is",
+      "options": [
+        "less than the number of holes in the valence band",
+        "equal to the number of holes in the valence band",
+        "greater than the number of holes in the valence band",
+        "twice the number of holes in the valence band"
+      ],
+      "answerIndex": 1,
+      "explanation": "In intrinsic semiconductors, electron and hole concentrations are equal.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/716?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-712",
+      "subject": "Physics",
+      "topic": "Optics - Lenses",
+      "difficulty": "medium",
+      "question": "A projection lantern is used to give the image of a slide on a screen. If the image is 24 times as large as the slide and the screen is 72.0m from the projecting lens, what is the position of the slide from the lens?",
+      "options": [
+        "0.3m",
+        "3.0m",
+        "3.5m",
+        "4.0m"
+      ],
+      "answerIndex": 0,
+      "explanation": "Magnification m = v/u = 24, v = 72 m, so u = v/m = 72/24 = 3.0 m.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/712?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-11700",
+      "subject": "Physics",
+      "topic": "Waves - Wave Equation",
+      "difficulty": "medium",
+      "question": "A travelling wave moving from left to right has an amplitude of 0.15m, a frequency of 550Hz and a wavelength of 0.01m. The equation describing the wave is",
+      "options": [
+        "y = 0.15 sin 200π(x - 5.5t)",
+        "y = 0.15 sin π(0.01x - 5.5t)",
+        "y = 0.15 sin 5.5π(x - 200t)",
+        "y = 0.15 sin π(550x - 0.01t)"
+      ],
+      "answerIndex": 0,
+      "explanation": "General wave: y = A sin(kx - ωt). k = 2π/λ = 2π/0.01 = 200π; ω = 2πf = 2π×550 = 1100π = 200π×5.5. So y = 0.15 sin(200πx - 1100πt) = 0.15 sin 200π(x - 5.5t).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11700?exam_type=jamb&exam_year=2020&page=8"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-705",
+      "subject": "Physics",
+      "topic": "Heat and Thermodynamics - Reglation",
+      "difficulty": "medium",
+      "question": "A thin wire with heavy weights attached to both ends is hung over a block of ice resting on two supports. If the wire cuts through the ice block while the block remains solid behind the wire, the process is called",
+      "options": [
+        "condensation",
+        "sublimation",
+        "regelation",
+        "fusion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Regelation is the process where ice melts under pressure and refreezes when pressure is removed.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/705?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-707",
+      "subject": "Physics",
+      "topic": "Waves - Stationary Waves",
+      "difficulty": "medium",
+      "question": "One end of a long wire is fixed while a vibrator is attached to the other end. When the vibrator is energized, the types of waves generated in the wire are",
+      "options": [
+        "stationary and longitudinal",
+        "stationary and transverse",
+        "progressive and transverse",
+        "progressive and longitudinal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waves in a stretched string are transverse and become stationary due to reflection.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/707?exam_type=jamb&exam_year=2020&page=4"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-1503",
+      "subject": "Physics",
+      "topic": "Modern Physics - Photoelectric Effect",
+      "difficulty": "medium",
+      "question": "Light of energy 5eV falls on a metal of work function 3eV and electrons are liberated. The stopping potential is",
+      "options": [
+        "1.7V",
+        "2.0V",
+        "8.0V",
+        "15.0V"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maximum kinetic energy = photon energy - work function = 5 - 3 = 2 eV, so stopping potential = 2V.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1503?exam_type=jamb&exam_year=2020&page=7"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-715",
+      "subject": "Physics",
+      "topic": "Optics - Telescopes",
+      "difficulty": "medium",
+      "question": "What optical instrument can best be constructed with converging lenses of focal lengths 50cm and 5cm?",
+      "options": [
+        "Compound microscope",
+        "Galileo's telescope",
+        "Terrestrial telescope",
+        "Astronomical telescope"
+      ],
+      "answerIndex": 3,
+      "explanation": "An astronomical telescope uses a long focal length objective and short focal length eyepiece (both converging lenses).",
+      "sourceUrl": "https://myschool.ng/classroom/physics/715?exam_type=jamb&exam_year=2020&page=5"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-1447",
+      "subject": "Physics",
+      "topic": "Nuclear Physics - Radioactivity",
+      "difficulty": "medium",
+      "question": "If the fraction of the atoms of a radioactive material left after 120years is 1/64, what is the half-life of the material?",
+      "options": [
+        "24 years",
+        "20 years",
+        "10 years",
+        "2 years"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/64 = (1/2)^6 → 6 half-lives = 120 years → half-life = 20 years.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1447?exam_type=jamb&exam_year=2020&page=6"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-696",
+      "subject": "Physics",
+      "topic": "Mechanics - Power",
+      "difficulty": "medium",
+      "question": "If the force and the velocity on a system are each reduced simultaneously by half, the power of the system is",
+      "options": [
+        "doubled",
+        "reduced to a quarter",
+        "reduced by half",
+        "constant"
+      ],
+      "answerIndex": 1,
+      "explanation": "Power P = Fv. If both halved, P' = (F/2)(v/2) = Fv/4 = P/4.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/696?exam_type=jamb&exam_year=2020&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-702",
+      "subject": "Physics",
+      "topic": "Properties of Matter - Density of Water",
+      "difficulty": "medium",
+      "question": "A quantity of water at 0°C is heated to about 30°C. At each degree rise in temperature, its density will",
+      "options": [
+        "rise steadily",
+        "fall steadily",
+        "fall then rise",
+        "rise then fall"
+      ],
+      "answerIndex": 3,
+      "explanation": "Water has maximum density at 4°C; from 0°C to 4°C density increases, then decreases.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/702?exam_type=jamb&exam_year=2020&page=3"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-11712",
+      "subject": "Physics",
+      "topic": "Optics - Reflection",
+      "difficulty": "medium",
+      "question": "An engineer intends to deviate a light ray from its path by 120° through reflection from a plane mirror. Calculate the angle of incidence",
+      "options": [
+        "60°",
+        "40°",
+        "30°",
+        "20°"
+      ],
+      "answerIndex": 2,
+      "explanation": "Deviation = 180° - 2i. Given deviation 120°, 120 = 180 - 2i → 2i = 60 → i = 30°.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11712?exam_type=jamb&exam_year=2020&page=9"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-693",
+      "subject": "Physics",
+      "topic": "Mechanics - Circular Motion",
+      "difficulty": "medium",
+      "question": "I. Its velocity is constant II. No work is done on the body III. It has constant acceleration directed away from the centre IV. The centripetal force is directed towards the centre. Which combination of the above is true of a body moving with constant speed in a circular track?",
+      "options": [
+        "II and IV",
+        "I and IV",
+        "II and III",
+        "I and III"
+      ],
+      "answerIndex": 0,
+      "explanation": "In uniform circular motion, speed is constant but velocity changes; work done is zero (force perpendicular to motion); centripetal force is towards centre. So II and IV.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/693?exam_type=jamb&exam_year=2020&page=1"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-41496",
+      "subject": "Physics",
+      "topic": "Mechanics - Equilibrium",
+      "difficulty": "medium",
+      "question": "A handbag containing some load weighing 162N is carried by two students each holding the handle of the bag next to him. If each handle is pulled 60° to the vertical, find the force on each student's arm",
+      "options": [
+        "81N",
+        "121N",
+        "162N",
+        "324N"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vertical components: 2T cos60° = 162 → 2T×0.5 = 162 → T = 162 N.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/41496?exam_type=jamb&exam_year=2020&page=10"
+    },
+    {
+      "externalId": "OWNER-PHY-AUG17-1501",
+      "subject": "Physics",
+      "topic": "Current Electricity - Cell Efficiency",
+      "difficulty": "medium",
+      "question": "A cell of internal resistance 1Ω supplies current to an external resistor of 3Ω. The efficiency of the cell is",
+      "options": [
+        "25%",
+        "33%",
+        "50%",
+        "75%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Efficiency = R/(R+r) = 3/(3+1) = 3/4 = 75%.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1501?exam_type=jamb&exam_year=2020&page=7"
+    }
+  ]
+}

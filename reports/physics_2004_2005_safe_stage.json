@@ -1,0 +1,134 @@
+{
+  "batch": "owner-supplied Physics 2004 and 2005 Markdown",
+  "status": "imported-approved",
+  "stagedCount": 8,
+  "holds": [
+    {
+      "file": "/home/ubuntu/upload/physics_jamb_2004.md",
+      "number": "6",
+      "reason": "duplicate option text"
+    }
+  ],
+  "questions": [
+    {
+      "externalId": "OWNER-PHY-2004-MD-001",
+      "subject": "Physics",
+      "topic": "Current Electricity — Energy Supplied by an EMF Source",
+      "difficulty": "medium",
+      "question": "A steady current of 2A flows in a coil of emf 12V for 0.4s. A back emf of 3V was induced during this period. The stored energy in the loop that can be utilized is",
+      "options": [
+        "9.6J",
+        "2.4J",
+        "12.0J",
+        "7.2J"
+      ],
+      "answerIndex": 0,
+      "explanation": "The total energy supplied by the source over the given time is E = emf × I × t = 12 × 2 × 0.4 = 9.6J. This is the total electrical energy delivered to the circuit by the source in that interval — the back e.m.f. (induced by the coil's own changing current, as in a self-inductance effect) opposes the driving current but the \"utilizable\" energy asked for here refers to the full energy supplied by the source itself, not the reduced net figure after subtracting the back-emf's effect."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-002",
+      "subject": "Physics",
+      "topic": "Optics — Prism Minimum Deviation Calculation",
+      "difficulty": "medium",
+      "question": "Calculate the angle of minimum deviation for a ray which is refracted through an equiangular prism of refractive index 1.4",
+      "options": [
+        "60",
+        "29",
+        "99",
+        "90"
+      ],
+      "answerIndex": 1,
+      "explanation": "An equiangular (equilateral) prism has apex angle A = 60°. At minimum deviation, n = sin[(A+Dm)/2] / sin(A/2), so sin[(60+Dm)/2] = 1.4 × sin(30°) = 0.7. Taking the inverse sine gives (60+Dm)/2 ≈ 44.4°, so Dm ≈ 2(44.4) − 60 ≈ 28.9°, rounding to 29°. This is the same standard prism-deviation formula used throughout minimum-deviation problems, just with a different refractive index than usual."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-003",
+      "subject": "Physics",
+      "topic": "Fluids — Viscosity and Pressure",
+      "difficulty": "medium",
+      "question": "As the pressure of a fluid increases, its viscosity",
+      "options": [
+        "decreases",
+        "increases",
+        "increases then decreases",
+        "remains constant"
+      ],
+      "answerIndex": 1,
+      "explanation": "Increasing pressure on a fluid pushes its molecules closer together, strengthening the intermolecular forces that resist relative motion between adjacent fluid layers, which increases viscosity. This pressure-viscosity relationship is distinct from viscosity's more commonly discussed dependence on temperature (where liquids get less viscous as they warm up) — pressure and temperature affect viscosity through different underlying mechanisms and shouldn't be confused with each other."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-004",
+      "subject": "Physics",
+      "topic": "Thermal Physics — Anomalous Expansion / Volume Change on Melting",
+      "difficulty": "medium",
+      "question": "The change in volume when 450kg of ice is completely melted is [density of ice = 900 kgm⁻³, density of water = 1000 kgm⁻³]",
+      "options": [
+        "0.50m³",
+        "0.45m³",
+        "0.05m³",
+        "4.50m³"
+      ],
+      "answerIndex": 2,
+      "explanation": "Volume of ice = mass/density = 450/900 = 0.5m³. Volume of resulting water = 450/1000 = 0.45m³. The change in volume is 0.5 − 0.45 = 0.05m³ (a decrease, since water is denser than ice). This volume contraction on melting is a direct consequence of ice's famous anomalous expansion — ice is less dense than liquid water, which is precisely why ice floats."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-005",
+      "subject": "Physics",
+      "topic": "Fluids — Pascal's Principle / Hydraulic Press",
+      "difficulty": "medium",
+      "question": "In a hydraulic press, a force of 40N is applied on the effort piston of area 0.4m². If the force exerted on the load piston is 400N, the area of the large piston is",
+      "options": [
+        "4m²",
+        "8m²",
+        "2m²",
+        "1m²"
+      ],
+      "answerIndex": 0,
+      "explanation": "By Pascal's principle, pressure is transmitted equally throughout an enclosed fluid: F₁/A₁ = F₂/A₂, so A₂ = F₂A₁/F₁ = (400 × 0.4)/40 = 4m². This equal-pressure relationship is exactly why hydraulic presses can multiply force so dramatically — a small force on a small piston area produces the same pressure, and hence a proportionally larger force, on a much larger piston area."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-007",
+      "subject": "Physics",
+      "topic": "Optics — Reflection at a Plane Mirror",
+      "difficulty": "medium",
+      "question": "A ray of light makes an angle of 35° with a plane mirror. What is the angle of reflection?",
+      "options": [
+        "35",
+        "55",
+        "70",
+        "65"
+      ],
+      "answerIndex": 1,
+      "explanation": "The angle of incidence and reflection are always measured from the normal (perpendicular to the mirror surface), not from the mirror surface itself. If the ray makes 35° with the mirror surface, it makes 90° − 35° = 55° with the normal, so both the angle of incidence and the angle of reflection are 55°. This normal-vs-surface distinction is a classic trap — always convert an angle given relative to the surface into the equivalent angle relative to the normal before applying the law of reflection."
+    },
+    {
+      "externalId": "OWNER-PHY-2004-MD-008",
+      "subject": "Physics",
+      "topic": "Thermal Physics — Specific Heat Capacity",
+      "difficulty": "medium",
+      "question": "A 50W electric heater is used to heat a metal block of mass 5kg. If in 10 minutes a temperature rise of 12°C is achieved, the specific heat capacity of the metal is",
+      "options": [
+        "400 J/kg/K",
+        "500 J/kg/K",
+        "390 J/kg/K",
+        "130 J/kg/K"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total heat energy supplied is Q = Power × time = 50 × (10×60) = 30,000J. Using Q = mcΔT, specific heat capacity c = Q/(mΔT) = 30000/(5×12) = 500 J/kg/K. This straightforward electrical-to-thermal energy conversion is a standard method for experimentally determining a material's specific heat capacity in the lab, assuming no heat is lost to the surroundings."
+    },
+    {
+      "externalId": "OWNER-PHY-2005-MD-001",
+      "subject": "Physics",
+      "topic": "Fluids — Density of a Mixture",
+      "difficulty": "medium",
+      "question": "A 3m³ volume of liquid W of density 200kgm⁻³ is mixed with another liquid L of volume 7m³ and density 150kgm⁻³. The density of the mixture is?",
+      "options": [
+        "165kgm⁻³",
+        "100kgm⁻³",
+        "265kgm⁻³",
+        "350kgm⁻³"
+      ],
+      "answerIndex": 0,
+      "explanation": "The density of a mixture is total mass divided by total volume, not a simple average of the two densities. Mass of W = 3 × 200 = 600kg, mass of L = 7 × 150 = 1050kg, giving total mass 1650kg over a total volume of 3+7=10m³, so density = 1650/10 = 165kg/m³. The trap is averaging the two densities directly ((200+150)/2 = 175), which ignores that the liquid with the larger volume should have proportionally more influence on the final mixture density — this is a weighted average, not a simple one."
+    }
+  ]
+}

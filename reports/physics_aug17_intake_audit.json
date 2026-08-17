@@ -1,0 +1,2344 @@
+{
+  "batch": "owner-supplied Physics August 17 2026",
+  "generatedAt": "2026-08-17T07:24:41.794Z",
+  "jsonRecordCount": 200,
+  "jsonCandidateCount": 161,
+  "jsonHoldCount": 39,
+  "figureDependentCount": 17,
+  "ambiguousExplanationCount": 13,
+  "intakeBoundaries": [
+    {
+      "file": "pasted_content.txt",
+      "completeRecords": 26,
+      "trailingFragment": true
+    },
+    {
+      "file": "pasted_content_2.txt",
+      "completeRecords": 29,
+      "trailingFragment": false
+    },
+    {
+      "file": "pasted_content_3.txt",
+      "completeRecords": 30,
+      "trailingFragment": false
+    },
+    {
+      "file": "pasted_content_4.txt",
+      "completeRecords": 27,
+      "trailingFragment": false
+    },
+    {
+      "file": "pasted_content_5.txt",
+      "completeRecords": 29,
+      "trailingFragment": true
+    },
+    {
+      "file": "pasted_content_6.txt",
+      "completeRecords": 29,
+      "trailingFragment": true
+    },
+    {
+      "file": "pasted_content_7.txt",
+      "completeRecords": 30,
+      "trailingFragment": true
+    }
+  ],
+  "markdownInventory": [
+    {
+      "file": "physics_jamb_2004.md",
+      "declaredUsable": 8,
+      "extractedBlocks": 8
+    },
+    {
+      "file": "physics_jamb_2005.md",
+      "declaredUsable": 1,
+      "extractedBlocks": 1
+    }
+  ],
+  "records": [
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 1,
+      "year": 2023,
+      "prompt": "A 35 kΩ is connected in series with a resistance of 40 kΩ. What resistance R must be connected in parallel with the combination so that the equivalent resistance is equal to 25 kΩ?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68011?exam_type=jamb&exam_year=2023&page=7",
+      "topic": "Current Electricity - Series and Parallel",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 2,
+      "year": 2023,
+      "prompt": "A piano wire 50 cm long has a total mass of 10 g and its stretched with a tension of 800 N. Find the frequency of the wire when it sounds its third overtone note.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68048?exam_type=jamb&exam_year=2023&page=7",
+      "topic": "Waves - Strings",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 3,
+      "year": 2023,
+      "prompt": "An object is placed 35 cm away from a convex mirror with a focal length of magnitude 15 cm. What is the location of the image?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68053?exam_type=jamb&exam_year=2023&page=7",
+      "topic": "Optics - Mirrors",
+      "answer": "B",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 4,
+      "year": 2023,
+      "prompt": "A relative density bottle has a mass of 19 g when empty. When it is completely filled with water, its mass is 66 g. What will be its mass if completely filled with alcohol of relative density 0.8?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68070?exam_type=jamb&exam_year=2023&page=8",
+      "topic": "Properties of Matter - Density",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 5,
+      "year": 2023,
+      "prompt": "How much work is done against the gravitational force on a 3.0 kg object when it is carried from the ground floor to the roof of a building, a vertical climb of 240 m?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68116?exam_type=jamb&exam_year=2023&page=8",
+      "topic": "Mechanics - Work",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 6,
+      "year": 2023,
+      "prompt": "A beam of light travelling in water is incident on a glass which is immersed in the water. The incident beam makes an angle of 40° with the normal. Calculate the angle of refraction in the glass. [Refractive index of water = 1.33, Refractive index of glass = 1.5]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68117?exam_type=jamb&exam_year=2023&page=8",
+      "topic": "Optics - Refraction",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 7,
+      "year": 2023,
+      "prompt": "An open-tube mercury manometer is used to measure the pressure in a gas tank. When the atmospheric pressure is 101,325 Pa, what is the absolute pressure in Pa in the tank if the height of the mercury in the open tube is 25 cm higher. density of mercury = 13600 kg/m³, g = 9.8 m/s²",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68118?exam_type=jamb&exam_year=2023&page=8",
+      "topic": "Fluid Mechanics - Pressure Measurement",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 8,
+      "year": 2023,
+      "prompt": "The sensitivity of a thermometer is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68119?exam_type=jamb&exam_year=2023&page=8",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 9,
+      "year": 2023,
+      "prompt": "The diagram above illustrates the penetrating power of some types of radiation. X, Y and Z are likely",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68121?exam_type=jamb&exam_year=2023&page=9",
+      "topic": "Nuclear Physics - Radiation",
+      "answer": "B",
+      "issues": [
+        "duplicate option text",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 10,
+      "year": 2023,
+      "prompt": "An explosion occurs at an altitude of 312 m above the ground. If the air temperature is -10.00°C, how long does it take the sound to reach the ground? [velocity of sound at 0°C = 331 ms-1]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68564?exam_type=jamb&exam_year=2023&page=9",
+      "topic": "Waves - Sound",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 11,
+      "year": 2023,
+      "prompt": "A charge of 4.6 × 10⁻⁵ C is placed in an electric field of intensity 3.2 × 10⁴ Vm⁻¹. What is the force acting on the electron?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68565?exam_type=jamb&exam_year=2023&page=9",
+      "topic": "Electrostatics - Electric Field",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 12,
+      "year": 2023,
+      "prompt": "The branch of physics that deals with the motion of objects and the forces acting on them is called:",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68566?exam_type=jamb&exam_year=2023&page=9",
+      "topic": "General Physics - Mechanics",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 13,
+      "year": 2023,
+      "prompt": "The working of the beam balance is based on the principle of",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68567?exam_type=jamb&exam_year=2023&page=9",
+      "topic": "Mechanics - Moments",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 14,
+      "year": 2023,
+      "prompt": "Which of the following is a type of incandescent light source?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68569?exam_type=jamb&exam_year=2023&page=10",
+      "topic": "Optics - Light Sources",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 15,
+      "year": 2023,
+      "prompt": "From the diagram above, if the potential differences across the resistor, capacitor, and inductor are 30V, 120V, and 60V, respectively, the effective potential difference is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68570?exam_type=jamb&exam_year=2023&page=10",
+      "topic": "Alternating Current - RLC Circuits",
+      "answer": "B",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 16,
+      "year": 2023,
+      "prompt": "When light of a certain frequency is incident on a metal surface, no photoelectrons are emitted. If the frequency of the light is increased, what happens to the stopping potential?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68571?exam_type=jamb&exam_year=2023&page=10",
+      "topic": "Modern Physics - Photoelectric Effect",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 17,
+      "year": 2023,
+      "prompt": "Which of the following is NOT a limitation of experimental measurements?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68572?exam_type=jamb&exam_year=2023&page=10",
+      "topic": "Measurement and Units - Errors",
+      "answer": "B",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 18,
+      "year": 2023,
+      "prompt": "Which of the following liquids has the highest surface tension?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68573?exam_type=jamb&exam_year=2023&page=10",
+      "topic": "Properties of Matter - Surface Tension",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 19,
+      "year": 2023,
+      "prompt": "What is the name of the model of the atom that describes electrons as orbiting the nucleus in specific energy levels?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68574?exam_type=jamb&exam_year=2023&page=11",
+      "topic": "Atomic Physics - Atomic Models",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 20,
+      "year": 2023,
+      "prompt": "The electrolyte used in the Nickel-Iron (NiFe) accumulator is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68575?exam_type=jamb&exam_year=2023&page=11",
+      "topic": "Current Electricity - Cells",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 21,
+      "year": 2023,
+      "prompt": "Which of the following materials is a good insulator?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68576?exam_type=jamb&exam_year=2023&page=11",
+      "topic": "Current Electricity - Conductors and Insulators",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 22,
+      "year": 2023,
+      "prompt": "A generator manufacturing company accidentally made an AC generator instead of a DC generator. To fix this error,",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68577?exam_type=jamb&exam_year=2023&page=11",
+      "topic": "Electromagnetic Induction - Generators",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 23,
+      "year": 2023,
+      "prompt": "Which of the following is NOT an example of elementary modern physics?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68578?exam_type=jamb&exam_year=2023&page=11",
+      "topic": "General Physics - Modern Physics",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 24,
+      "year": 2023,
+      "prompt": "Which of the following is an example of a couple?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68579?exam_type=jamb&exam_year=2023&page=12",
+      "topic": "Mechanics - Couples",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 25,
+      "year": 2023,
+      "prompt": "A positively charged particle is placed near a negatively charged particle. What is the direction of the electric force between the two particles?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68580?exam_type=jamb&exam_year=2023&page=12",
+      "topic": "Electrostatics - Electric Force",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content.txt",
+      "intakeIndex": 26,
+      "year": 2023,
+      "prompt": "When a water droplet is placed on a freshly cut piece of wood, it spreads out to form a thin layer because the wood is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/68581?exam_type=jamb&exam_year=2023&page=12",
+      "topic": "Properties of Matter - Adhesion and Cohesion",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 1,
+      "year": 2023,
+      "prompt": "A metal sphere is placed on an insulating stand. A negatively charged rod is brought close to it. If the sphere is earthed and the rod is taken away, what will be the charge on the sphere?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/69768?exam_type=jamb&exam_year=2023&page=13",
+      "topic": "Electrostatics - Induction",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 2,
+      "year": 2023,
+      "prompt": "The stress experienced by a wire of diameter y/π m loaded by a weight y² N is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70351?exam_type=jamb&exam_year=2023&page=1",
+      "topic": "Properties of Matter - Stress",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 3,
+      "year": 2023,
+      "prompt": "Under which conditions is work done",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70352?exam_type=jamb&exam_year=2023&page=1",
+      "topic": "Mechanics - Work",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 4,
+      "year": 2023,
+      "prompt": "The mechanical advantage of the machine shown above",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70353?exam_type=jamb&exam_year=2023&page=1",
+      "topic": "Mechanics - Machines",
+      "answer": "A",
+      "issues": [
+        "self-contradictory or tentative explanation",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 5,
+      "year": 2023,
+      "prompt": "Rainbow is formed when sunlight undergoes",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70355?exam_type=jamb&exam_year=2023&page=1",
+      "topic": "Optics - Dispersion",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 6,
+      "year": 2023,
+      "prompt": "Find the value of a capacitor with voltage 5V and 30C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70356?exam_type=jamb&exam_year=2023&page=1",
+      "topic": "Electrostatics - Capacitance",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 7,
+      "year": 2023,
+      "prompt": "When a bus is accelerating, it must be",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70357?exam_type=jamb&exam_year=2023&page=2",
+      "topic": "Mechanics - Acceleration",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 8,
+      "year": 2023,
+      "prompt": "The friction due to air mass can be reduced by",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70358?exam_type=jamb&exam_year=2023&page=2",
+      "topic": "Fluid Mechanics - Drag",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 9,
+      "year": 2023,
+      "prompt": "Which of the following operates based on magnetic effect of electric current?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70359?exam_type=jamb&exam_year=2023&page=2",
+      "topic": "Electromagnetic Induction",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 10,
+      "year": 2023,
+      "prompt": "When a charged ebonite rod is brought near a charged glass rod, there will be",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70360?exam_type=jamb&exam_year=2023&page=2",
+      "topic": "Electrostatics - Charges",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 11,
+      "year": 2023,
+      "prompt": "Pilots uses aneroid barometer to know the height above sea level because",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70361?exam_type=jamb&exam_year=2023&page=2",
+      "topic": "Pressure - Barometers",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 12,
+      "year": 2023,
+      "prompt": "A light ray passing from air into water at an angle of 30° from the normal in air would",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70362?exam_type=jamb&exam_year=2023&page=3",
+      "topic": "Optics - Refraction",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 13,
+      "year": 2023,
+      "prompt": "A solid cube of aluminum is 1.5cm on each edge. The density of aluminum is 2700kgm⁻³. Find the mass of the cube.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70363?exam_type=jamb&exam_year=2023&page=3",
+      "topic": "Properties of Matter - Density",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 14,
+      "year": 2023,
+      "prompt": "The value of R required to make the galvanometer measure voltage up to 40V in the diagram above",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70364?exam_type=jamb&exam_year=2023&page=3",
+      "topic": "Current Electricity - Galvanometer Conversion",
+      "answer": "A",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 15,
+      "year": 2023,
+      "prompt": "5 × 10⁻³ kg of liquid at its boiling point is evaporated in 20s by the heat generated by a resistor of 2Ω when a current of 10A is used. The specific latent heat of vaporization of the liquid is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70365?exam_type=jamb&exam_year=2023&page=3",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "answer": "B",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 16,
+      "year": 2023,
+      "prompt": "If the S.V.P of water vapour was 13.5mmHg at 33°C and 7.3mmHg at 7°C. Find the percentage relative humidity on a day when air temp was 33°C and dew point was 7°C.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70366?exam_type=jamb&exam_year=2023&page=3",
+      "topic": "Heat and Thermodynamics - Humidity",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 17,
+      "year": 2023,
+      "prompt": "Electrolysis can be investigated using",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70367?exam_type=jamb&exam_year=2023&page=4",
+      "topic": "Current Electricity - Electrolysis",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 18,
+      "year": 2023,
+      "prompt": "A wheelbarrow inclined at 60° to the horizontal is pushed with a force of 150N. What is the horizontal component of the applied force?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70368?exam_type=jamb&exam_year=2023&page=4",
+      "topic": "Mechanics - Resolution of Forces",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 19,
+      "year": 2023,
+      "prompt": "In a solar panel, solar beam is concentrated by using",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70369?exam_type=jamb&exam_year=2023&page=4",
+      "topic": "Optics - Mirrors",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 20,
+      "year": 2023,
+      "prompt": "A rectifier is a device that changes",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70370?exam_type=jamb&exam_year=2023&page=4",
+      "topic": "Electronics - Rectification",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 21,
+      "year": 2023,
+      "prompt": "The dimension of Young's modulus, E is given by",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70371?exam_type=jamb&exam_year=2023&page=4",
+      "topic": "Properties of Matter - Elasticity",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 22,
+      "year": 2023,
+      "prompt": "A body of mass 2 kg is moving with a velocity of 10 m/s. What is its kinetic energy?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70372?exam_type=jamb&exam_year=2023&page=5",
+      "topic": "Mechanics - Energy",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 23,
+      "year": 2023,
+      "prompt": "If a sheet of an insulating material is inserted between the plates of an air capacitor, the capacitance will",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70373?exam_type=jamb&exam_year=2023&page=5",
+      "topic": "Electrostatics - Capacitance",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 24,
+      "year": 2023,
+      "prompt": "A sonometer's fundamental note is 50Hz, what is the new frequency when the tension is four times the original?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70404?exam_type=jamb&exam_year=2023&page=5",
+      "topic": "Waves - Strings",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 25,
+      "year": 2023,
+      "prompt": "Which of the following is not a part of model rocket?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70405?exam_type=jamb&exam_year=2023&page=5",
+      "topic": "General - Model Rockets",
+      "answer": "D",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 26,
+      "year": 2023,
+      "prompt": "A thick glass tumbler cracks when boiling water is poured into it because",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70406?exam_type=jamb&exam_year=2023&page=6",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 27,
+      "year": 2023,
+      "prompt": "How much joules of heat are given out when a piece of iron, of mass 60g and specific heat capacity 460 JKg⁻¹K⁻¹, cools from 75°C to 35°C",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70407?exam_type=jamb&exam_year=2023&page=6",
+      "topic": "Heat and Thermodynamics - Specific Heat",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 28,
+      "year": 2023,
+      "prompt": "The energy of light of frequency 2.0 × 10¹⁵ Hz is (h = 6.63 × 10⁻³⁴ Js)",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70408?exam_type=jamb&exam_year=2023&page=6",
+      "topic": "Quantum Physics - Photon Energy",
+      "answer": "B",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_2.txt",
+      "intakeIndex": 29,
+      "year": 2023,
+      "prompt": "A mass of gas at 40mmHg is heated from 298K to 348K at constant volume. Calculate the pressure exerted by the gas.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/70409?exam_type=jamb&exam_year=2023&page=6",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 1,
+      "year": 2022,
+      "prompt": "Which of these is a derived unit?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64908?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Measurement and Units - SI Units",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 2,
+      "year": 2022,
+      "prompt": "A bar magnet is divided into two pieces, which of the following statement is correct?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64911?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Magnetism - Magnetic Poles",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 3,
+      "year": 2022,
+      "prompt": "Consider the wave equation y = 5mm sin [1cm⁻¹ x - 60s⁻¹ t]. The wave number is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64912?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Waves - Wave Equation",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 4,
+      "year": 2022,
+      "prompt": "An object 40 cm high is 30 cm from the pinhole camera. If the height of the image formed is 20 cm, what is the distance of the image from the pinhole?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64913?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Optics - Pinhole Camera",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 5,
+      "year": 2022,
+      "prompt": "A bar magnet is placed near and lying along the axis of a solenoid connected to a galvanometer. The pointer of the galvanometer shows no deflection when?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64915?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Electromagnetic Induction",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 6,
+      "year": 2022,
+      "prompt": "Tyres are treaded to?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64916?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Mechanics - Friction",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 7,
+      "year": 2022,
+      "prompt": "A car starts from rest and covers a distance of 40 m in 10 s. Calculate the magnitude of its acceleration",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64918?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Mechanics - Kinematics",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 8,
+      "year": 2022,
+      "prompt": "The relationship between the coefficient of linear expansion α and volumetric expansion γ is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64919?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "answer": "C",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 9,
+      "year": 2022,
+      "prompt": "Which of the following is not a consequence of hydrogen bubbles covering the copper plate of a primary cell?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64920?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Current Electricity - Cells",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 10,
+      "year": 2022,
+      "prompt": "A cell whose internal resistance is 0.55Ω delivers a current of 4 A to an external resistor. The lost voltage of the cell is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64923?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Current Electricity - Internal Resistance",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 11,
+      "year": 2022,
+      "prompt": "Which of the following liquid is a poor conductor of electricity?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64924?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Current Electricity - Conductors",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 12,
+      "year": 2022,
+      "prompt": "An isotope has an initial activity of 120 Bq. 6 days later its activity is 15 Bq. The half-life is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64925?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "B",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 13,
+      "year": 2022,
+      "prompt": "The secondary pigments consist of?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64927?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Optics - Colour",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 14,
+      "year": 2022,
+      "prompt": "A person standing waist-deep in a swimming pool appears to have short legs because of light?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64929?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Optics - Refraction",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 15,
+      "year": 2022,
+      "prompt": "A tuning fork having a frequency of 312 Hz emits a wave which has a wavelength of 1.10 m. Calculate the velocity of sound",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64930?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Waves - Sound",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 16,
+      "year": 2022,
+      "prompt": "When the plate area of a capacitor increases?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64932?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Electrostatics - Capacitance",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 17,
+      "year": 2022,
+      "prompt": "A magnet relay is a device used for?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64933?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Magnetism - Applications",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 18,
+      "year": 2022,
+      "prompt": "According to kinetic molecular model in gases,",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64935?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Kinetic Theory of Gases",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 19,
+      "year": 2022,
+      "prompt": "A current of 0.5 A flows through a resistor when connected to a 40 V battery. How much energy is dispatched in 2 minutes?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64937?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Current Electricity - Electrical Energy",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 20,
+      "year": 2022,
+      "prompt": "For a pear-shaped conductor shown above, the concentration of charge on the outside is highest at?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64939?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Electrostatics - Charge Distribution",
+      "answer": "B",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 21,
+      "year": 2022,
+      "prompt": "The vapour pressure?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64940?exam_type=jamb&exam_year=2022&page=5",
+      "topic": "Heat and Thermodynamics - Vapour Pressure",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 22,
+      "year": 2022,
+      "prompt": "The potential energy in an elastic string of force constant k, which has an extension X is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64942?exam_type=jamb&exam_year=2022&page=5",
+      "topic": "Mechanics - Elastic Potential Energy",
+      "answer": "C",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 23,
+      "year": 2022,
+      "prompt": "A reservoir is filled with liquid of density 2000 kgm⁻³. Calculate the depth at which the pressure in the liquid will be equal to 9100 Nm⁻² (g = 10 ms⁻²)",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64943?exam_type=jamb&exam_year=2022&page=5",
+      "topic": "Fluid Mechanics - Pressure",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 24,
+      "year": 2022,
+      "prompt": "Water is not a good thermometric liquid because it?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64945?exam_type=jamb&exam_year=2022&page=5",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 25,
+      "year": 2022,
+      "prompt": "Which of these is a second-class lever?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64946?exam_type=jamb&exam_year=2022&page=5",
+      "topic": "Mechanics - Levers",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 26,
+      "year": 2022,
+      "prompt": "In the formation of sea breeze, wind blows from?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64947?exam_type=jamb&exam_year=2022&page=6",
+      "topic": "Heat and Thermodynamics - Convection",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 27,
+      "year": 2022,
+      "prompt": "Which component of fiber-optic connector has a provision of entry for the fibre along with the fixation to connector housing?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64948?exam_type=jamb&exam_year=2022&page=6",
+      "topic": "Optics - Fibre Optics",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 28,
+      "year": 2022,
+      "prompt": "In order to view the sun, the most suitable instrument to use is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64949?exam_type=jamb&exam_year=2022&page=6",
+      "topic": "Optics - Instruments",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 29,
+      "year": 2022,
+      "prompt": "The eclipse of the moon occurs when?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64951?exam_type=jamb&exam_year=2022&page=6",
+      "topic": "Astronomy - Eclipses",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_3.txt",
+      "intakeIndex": 30,
+      "year": 2022,
+      "prompt": "The gravitational pull on the moon is 1/6 that of the earth. If a body weighs 6.0 N on the moon, what will be the weight on the earth?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64953?exam_type=jamb&exam_year=2022&page=6",
+      "topic": "Gravitation - Weight",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 1,
+      "year": 2022,
+      "prompt": "The amount of energy required to change a kilogram of ice block into water without a change in temperature is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64955?exam_type=jamb&exam_year=2022&page=7",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 2,
+      "year": 2022,
+      "prompt": "Which expression gives magnetic flux?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/64956?exam_type=jamb&exam_year=2022&page=7",
+      "topic": "Magnetism - Magnetic Flux",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 3,
+      "year": 2022,
+      "prompt": "The graph of pressure (P) against the reciprocal of the volume (1/V) in Boyle's law is a?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65085?exam_type=jamb&exam_year=2022&page=7",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 4,
+      "year": 2022,
+      "prompt": "What quantity of heat is required to convert 20 g of ice at 0°C to water at the same temperature? (Specific latent heat of ice = 336 Jg⁻¹)",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65087?exam_type=jamb&exam_year=2022&page=7",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 5,
+      "year": 2022,
+      "prompt": "A train of mass 1600 kg attains a speed of 25 ms⁻¹ in 20 seconds. The power developed in the engine is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65088?exam_type=jamb&exam_year=2022&page=7",
+      "topic": "Mechanics - Power",
+      "answer": "A",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 6,
+      "year": 2022,
+      "prompt": "The main factor which affects the speed of sound wave is the?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65089?exam_type=jamb&exam_year=2022&page=8",
+      "topic": "Waves - Sound",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 7,
+      "year": 2022,
+      "prompt": "A semiconductor is formed by?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65090?exam_type=jamb&exam_year=2022&page=8",
+      "topic": "Semiconductors - Bonding",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 8,
+      "year": 2022,
+      "prompt": "One of the following is a scalar quantity?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65091?exam_type=jamb&exam_year=2022&page=8",
+      "topic": "Measurement - Scalars and Vectors",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 9,
+      "year": 2022,
+      "prompt": "The mercury column in the barometer at normal atmospheric pressure has a height of?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65092?exam_type=jamb&exam_year=2022&page=8",
+      "topic": "Pressure - Barometers",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 10,
+      "year": 2022,
+      "prompt": "If an object just begins to slide on a surface inclined at 30° to the horizontal, the coefficient of friction is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/65735?exam_type=jamb&exam_year=2022&page=8",
+      "topic": "Mechanics - Friction",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 11,
+      "year": 2022,
+      "prompt": "The property of wave shown in the diagram above is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67249?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Waves - Diffraction",
+      "answer": "A",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 12,
+      "year": 2022,
+      "prompt": "Which of the following statements regarding the application of electrical conduction via gases is/are correct? Electrical conduction in gas is applied in: (i) The identification of gases (ii) Lighting/fluorescent tubes (iii) Photocells (iv) Cathode ray oscilloscope/T.V. tubes",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67250?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Current Electricity - Conduction in Gases",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 13,
+      "year": 2022,
+      "prompt": "Find the tension in the two cords shown in the figure above. Neglect the mass of the cords, and assume that the angle is 38° and the mass m is 220 kg [Take g = 9.8 ms-2]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67267?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Mechanics - Equilibrium",
+      "answer": "D",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 14,
+      "year": 2022,
+      "prompt": "A missile is launched with a speed of 75 ms-1 at an angle of 22° above the surface of a warship. Find the horizontal range achieved by the missile. Ignore air resistance. [Take g = 10 ms-2]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67268?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Mechanics - Projectile Motion",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 15,
+      "year": 2022,
+      "prompt": "On a particular hot day, the temperature is 40°C and the partial pressure of water vapor in the air is 38.8 mmHg. What is the relative humidity?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67275?exam_type=jamb&exam_year=2022&page=1",
+      "topic": "Heat and Thermodynamics - Humidity",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 16,
+      "year": 2022,
+      "prompt": "Calculate the absolute pressure at the bottom of a lake at a depth of 32.8 m. Assume density of water = 1 × 10³ kgm⁻³ and air pressure = 101.3 kPa. [g = 9.8 ms⁻²]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67280?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Fluid Mechanics - Pressure",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 17,
+      "year": 2022,
+      "prompt": "The terminals of a battery of emf 24.0 V and internal resistance of 1.0 Ω is connected to an external resistor 5.0 Ω. Find the terminal p.d.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67374?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Current Electricity - Internal Resistance",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 18,
+      "year": 2022,
+      "prompt": "A lorry accelerates uniformly in a straight line with acceleration of 4 ms⁻² and covers a distance of 250 m in a time interval of 10 s. How far will it travel in the next 10 s?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67375?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Mechanics - Kinematics",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 19,
+      "year": 2022,
+      "prompt": "The half life of a radioactive material is 12 days. Calculate the decay constant.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67376?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 20,
+      "year": 2022,
+      "prompt": "The number of holes in an intrinsic semiconductor",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67423?exam_type=jamb&exam_year=2022&page=2",
+      "topic": "Semiconductors - Intrinsic",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 21,
+      "year": 2022,
+      "prompt": "Name the type of equilibrium for each position of the ball",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67430?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Mechanics - Equilibrium",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 22,
+      "year": 2022,
+      "prompt": "Rainbow formation is as a result of the combination of which of the following phenomena? (i) Reflection (ii) Dispersion (iii) Total internal reflection (iv) Refraction",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67437?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Optics - Rainbow",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 23,
+      "year": 2022,
+      "prompt": "The surface temperature of a swimming pool on a warm day is 25°C and the temperature at the bottom is 15°C. If the pool has a surface area of 620 m² and depth 1.5 m, find the rate of energy transfer by conduction. [k = 0.6071 Wm⁻¹K⁻¹]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67441?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Heat and Thermodynamics - Heat Transfer",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 24,
+      "year": 2022,
+      "prompt": "Which process is responsible for production of energy in stars?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67593?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Nuclear Physics - Fusion",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 25,
+      "year": 2022,
+      "prompt": "How much net work is required to accelerate a 1200 kg car from 10 ms⁻¹ to 15 ms⁻¹",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67686?exam_type=jamb&exam_year=2022&page=3",
+      "topic": "Mechanics - Work-Energy Theorem",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 26,
+      "year": 2022,
+      "prompt": "A wire of radius 0.2 mm is extended by 0.5% of its length when supported by a load of 1.5 kg. Determine the Young's modulus. [g = 10 ms⁻²]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67743?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Properties of Matter - Elasticity",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_4.txt",
+      "intakeIndex": 27,
+      "year": 2022,
+      "prompt": "A man swung an object of mass 2 kg in a circular path with a rope 1.2 m long. If swung at 120 rev/min, find the tension in the rope.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/67825?exam_type=jamb&exam_year=2022&page=4",
+      "topic": "Mechanics - Circular Motion",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 1,
+      "year": 2021,
+      "prompt": "The slope of the straight line displacement-time graph indicates?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60560?exam_type=jamb&exam_year=2021&page=1",
+      "topic": "Mechanics - Kinematics Graphs",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 2,
+      "year": 2021,
+      "prompt": "A man will exert the greatest pressure when he?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60562?exam_type=jamb&exam_year=2021&page=1",
+      "topic": "Pressure - Pressure and Area",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 3,
+      "year": 2021,
+      "prompt": "Which of the units of the following physical quantities are derived? I. Area II. Thrust III. Pressure IV. Mass",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60566?exam_type=jamb&exam_year=2021&page=1",
+      "topic": "Measurement and Units - Derived Units",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 4,
+      "year": 2021,
+      "prompt": "A ball of mass 0.5 kg moving at 10 ms⁻¹ collides with another ball of equal mass at rest. If the two balls move off together after the impact, calculate their common velocity.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60597?exam_type=jamb&exam_year=2021&page=1",
+      "topic": "Mechanics - Momentum",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 5,
+      "year": 2021,
+      "prompt": "The motion of a body is simple harmonic if the?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60605?exam_type=jamb&exam_year=2021&page=1",
+      "topic": "Mechanics - Simple Harmonic Motion",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 6,
+      "year": 2021,
+      "prompt": "Which of the following is not correct about the molecules of a substance in a gaseous state? They?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60607?exam_type=jamb&exam_year=2021&page=2",
+      "topic": "Kinetic Theory of Gases",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 7,
+      "year": 2021,
+      "prompt": "A given mass of gas has a pressure of 80 Nm⁻² at a temperature of 47°C. If the temperature is reduced to 27°C with volume constant, the new pressure is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60611?exam_type=jamb&exam_year=2021&page=2",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 8,
+      "year": 2021,
+      "prompt": "0.5kg of water at 10°C is completely converted to ice at 0°C by extracting 88000 J of heat. If specific heat capacity of water is 4200 Jkg⁻¹°C⁻¹, calculate the specific latent heat of fusion of ice.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60731?exam_type=jamb&exam_year=2021&page=2",
+      "topic": "Heat and Thermodynamics - Latent Heat",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 9,
+      "year": 2021,
+      "prompt": "Which of the following instruments may be used to measure relative humidity?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60733?exam_type=jamb&exam_year=2021&page=2",
+      "topic": "Heat and Thermodynamics - Humidity",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 10,
+      "year": 2021,
+      "prompt": "A source of sound produces waves in air of wavelength 1.65 m. If the speed of sound in air is 330 ms⁻¹, the period of vibration in air is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60734?exam_type=jamb&exam_year=2021&page=2",
+      "topic": "Waves - Period and Frequency",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 11,
+      "year": 2021,
+      "prompt": "A boy standing some distance from the foot of a tall cliff claps his hands and hears an echo 0.5s later. If the speed of sound is 340 ms⁻¹, how far is he from the cliff?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60737?exam_type=jamb&exam_year=2021&page=3",
+      "topic": "Waves - Sound",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 12,
+      "year": 2021,
+      "prompt": "Which of the following is not a vector quantity?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60738?exam_type=jamb&exam_year=2021&page=3",
+      "topic": "Measurement - Scalars and Vectors",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 13,
+      "year": 2021,
+      "prompt": "Calculate the heat energy required to vaporize 50g of water initially at 80°C. [c = 4.23 Jg⁻¹K⁻¹, L_v = 2260 Jg⁻¹]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60740?exam_type=jamb&exam_year=2021&page=3",
+      "topic": "Heat and Thermodynamics - Calorimetry",
+      "answer": "D",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 14,
+      "year": 2021,
+      "prompt": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductor are 30V and 40V respectively. What is the voltage across the capacitor?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60741?exam_type=jamb&exam_year=2021&page=3",
+      "topic": "Alternating Current - Resonance",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 15,
+      "year": 2021,
+      "prompt": "If the frequency of an emitted x-ray is 1.6 × 10¹⁶ Hz, the accelerating potential is? [e = 1.6 × 10⁻¹⁹ C, h = 6.63 × 10⁻³⁴ Js]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60745?exam_type=jamb&exam_year=2021&page=3",
+      "topic": "Modern Physics - X-rays",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 16,
+      "year": 2021,
+      "prompt": "If the fraction of the atoms of a radioactive material left after 120 years is 1/64, what is the half-life of the material?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60747?exam_type=jamb&exam_year=2021&page=4",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 17,
+      "year": 2021,
+      "prompt": "A certain radioactive source emits radiation that was found to be deflected by both magnetic and electric fields. The radiation is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60749?exam_type=jamb&exam_year=2021&page=4",
+      "topic": "Nuclear Physics - Radiation",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 18,
+      "year": 2021,
+      "prompt": "The inner diameter of a test tube can be measured accurately using a?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60750?exam_type=jamb&exam_year=2021&page=4",
+      "topic": "Measurement and Units - Instruments",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 19,
+      "year": 2021,
+      "prompt": "Two bodies have masses in the ratio 3:1. They experience forces which impart to them accelerations in the ratio 2:9 respectively. Find the ratio of forces the masses experienced",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60751?exam_type=jamb&exam_year=2021&page=4",
+      "topic": "Mechanics - Newton's Laws",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 20,
+      "year": 2021,
+      "prompt": "Particles of mass 10⁻² kg is fixed to the tip of a fan blade which rotates with angular velocity of 100 rads⁻¹. If the radius of the blade is 0.2 m, the centripetal force is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60752?exam_type=jamb&exam_year=2021&page=4",
+      "topic": "Mechanics - Circular Motion",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 21,
+      "year": 2021,
+      "prompt": "A lead bullet of mass 0.05 kg is fired with a velocity of 200 ms⁻¹ into a block of mass 0.95 kg. Given that the lead block can move freely, the final kinetic energy after impact is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60753?exam_type=jamb&exam_year=2021&page=5",
+      "topic": "Mechanics - Momentum and Energy",
+      "answer": "B",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 22,
+      "year": 2021,
+      "prompt": "A ball of mass 0.1 kg is thrown vertically upwards with a speed of 10 ms⁻¹ from the top of a tower 10 m high. Neglecting air resistance, its total energy just before hitting the ground is? (Take g = 10 ms⁻²)",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60754?exam_type=jamb&exam_year=2021&page=5",
+      "topic": "Mechanics - Energy",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 23,
+      "year": 2021,
+      "prompt": "A car of mass 800 kg attains a speed of 25 m/s in 20 secs. The power developed in the engine is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60756?exam_type=jamb&exam_year=2021&page=5",
+      "topic": "Mechanics - Power",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 24,
+      "year": 2021,
+      "prompt": "When the breaks in a car are applied, the frictional force on the tyres is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60758?exam_type=jamb&exam_year=2021&page=5",
+      "topic": "Mechanics - Friction",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 25,
+      "year": 2021,
+      "prompt": "If the stress on a wire is 10⁷ Nm⁻² and the wire is stretched from its original length of 10.00 m to 10.05 m. The Young's modulus of the wire is?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60763?exam_type=jamb&exam_year=2021&page=5",
+      "topic": "Properties of Matter - Elasticity",
+      "answer": "D",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 26,
+      "year": 2021,
+      "prompt": "A solid weighs 10.00 N in air, 6 N when forcefully immersed in water, and 7.0 N when fully immersed in a liquid X. Calculate the relative density of the liquid X.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60774?exam_type=jamb&exam_year=2021&page=6",
+      "topic": "Fluid Mechanics - Density",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 27,
+      "year": 2021,
+      "prompt": "When the temperature of a liquid increases, its surface tension",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60775?exam_type=jamb&exam_year=2021&page=6",
+      "topic": "Properties of Matter - Surface Tension",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 28,
+      "year": 2021,
+      "prompt": "A gas at a volume of V₀ in a container at pressure p₀ is compressed to one-fifth of its volume. What will be its pressure if the temperature is constant?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60776?exam_type=jamb&exam_year=2021&page=6",
+      "topic": "Heat and Thermodynamics - Gas Laws",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_5.txt",
+      "intakeIndex": 29,
+      "year": 2021,
+      "prompt": "A piece of substance of specific heat capacity 450 Jkg⁻¹K⁻¹ falls through a vertical distance of 20 m from rest. Calculate the rise in temperature on hitting the ground when all its energy is converted into heat. [g = 10 ms⁻²]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/60777?exam_type=jamb&exam_year=2021&page=6",
+      "topic": "Heat and Thermodynamics - Specific Heat",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 1,
+      "year": 2020,
+      "prompt": "A few grains of table salt were put in a cup of cold water, kept at constant temperature and left undisturbed. Eventually all the water tested salty. This action is due to?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56890?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Properties of Matter - Diffusion",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 2,
+      "year": 2020,
+      "prompt": "The force required to make an object of mass m, travelling with velocity v, turn in a circle of radius r is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56891?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Mechanics - Circular Motion",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 3,
+      "year": 2020,
+      "prompt": "A machine gun with a mass of 5 kg fires a 50 g bullet at a speed of 100 ms⁻¹. The recoil speed of the machine gun is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56892?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Mechanics - Momentum",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 4,
+      "year": 2020,
+      "prompt": "If in a simple pendulum experiment the length of the inextensible string is increased by a factor of four, its period is increased by a factor of?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56893?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Mechanics - Simple Pendulum",
+      "answer": "D",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 5,
+      "year": 2020,
+      "prompt": "In what range of temperature is the expansion of water anomalous?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56894?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 6,
+      "year": 2020,
+      "prompt": "Which of the following statements about radioactivity is true? (i) Alpha particle is positively charged (ii) Beta particle is negatively charged (iii) Gamma ray is neutral (iv) Beta particle has the same mass as helium atom (v) Gamma ray is charged.",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56895?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Nuclear Physics - Radiation",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 7,
+      "year": 2020,
+      "prompt": "In the study of Physics, temperature and heat are often confused with each other. Which of the following statements correctly defines these two elements?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56896?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Heat and Thermodynamics - Temperature and Heat",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 8,
+      "year": 2020,
+      "prompt": "The effect of closing the key K in the circuit shown in the figure above would be to?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56897?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Current Electricity - Circuits",
+      "answer": "A",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 9,
+      "year": 2020,
+      "prompt": "Which of the following statements on the use of X-rays is incorrect? X-rays are used",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56898?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Electromagnetic Spectrum - X-rays",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 10,
+      "year": 2020,
+      "prompt": "Natural radioactivity consists of emission?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56900?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 11,
+      "year": 2020,
+      "prompt": "If a source of sound is moving, a stationary listener will hear a sound of different frequency. This is called?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56901?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Waves - Doppler Effect",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 12,
+      "year": 2020,
+      "prompt": "Which of the following can be described as high tension transmission?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56902?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Current Electricity - Power Transmission",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 13,
+      "year": 2020,
+      "prompt": "What is the cost of running five 50W lamps and four 100W lamps for 10 hours if electrical energy costs 2 Kobo per KWh?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56903?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Current Electricity - Electrical Energy",
+      "answer": "A",
+      "issues": [
+        "self-contradictory or tentative explanation"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 14,
+      "year": 2020,
+      "prompt": "The mass of a proton is approximately equal to that of",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56904?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Atomic Physics - Particles",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 15,
+      "year": 2020,
+      "prompt": "A transformer has 300 turns of wire in the primary coil and 30 turns in the secondary coil. If the input voltage is 100 volts, the output voltage is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56905?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Electromagnetic Induction - Transformers",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 16,
+      "year": 2020,
+      "prompt": "A solid weighs 4.8g in air, 2.8g in water and 3.2g in Kerosine. The ratio of density of the solid to that of the kerosine is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56906?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Fluid Mechanics - Density",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 17,
+      "year": 2020,
+      "prompt": "One of the following readings represents the measurement of the length of a metal rod using vernier calipers. Taking the reading accuracy into consideration, the most likely one is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56907?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Measurement and Units - Instruments",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 18,
+      "year": 2020,
+      "prompt": "When a sound wave passes from air into water its",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56908?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Waves - Sound",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 19,
+      "year": 2020,
+      "prompt": "A convex mirror is used as a driving mirror because I. its image is erect II. It has a large field of view III. It has a long focal length. Identify the CORRECT statement(s)",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56909?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Optics - Mirrors",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 20,
+      "year": 2020,
+      "prompt": "Two mirrors of the same length are arranged as shown in the diagram. A ray of light NO strikes the system at O and emerges along PQ. The emergent ray has been deviated through",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56910?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Optics - Reflection",
+      "answer": "C",
+      "issues": [
+        "self-contradictory or tentative explanation",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 21,
+      "year": 2020,
+      "prompt": "A magnetic needle is suspended first at the earth's north magnetic pole and then at a point on the magnetic equator. The respective angles between the needle and the horizontal are",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56911?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Magnetism - Earth's Magnetic Field",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 22,
+      "year": 2020,
+      "prompt": "A hydrometer is an instrument for measuring the",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56912?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Properties of Matter - Density",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 23,
+      "year": 2020,
+      "prompt": "Consider the three forces acting at O and in equilibrium as shown in the figure. Which of the following equations is/are CORRECT? I. P₁ cos θ₁ = P₂ cos θ₂ II. P₃ = P₁ cos θ₄ + P₂ cos θ₂ III. P₁ sin θ₁ = P₂ sin θ₂",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56913?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Mechanics - Equilibrium",
+      "answer": "C",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 24,
+      "year": 2020,
+      "prompt": "The refractive index of a liquid is 1.5. If the velocity of light in vacuum is 3.0 × 10⁸ ms⁻¹, the velocity of light in the liquid is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56914?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Optics - Refractive Index",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 25,
+      "year": 2020,
+      "prompt": "A ship travelling towards a cliff receives the echo of its whistle after 3.5 seconds. A short while later, it receives the echo after 2.5 seconds. If the speed of sound in air under the prevailing condition is 250 ms⁻¹, how much closer is the ship to the cliff?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56915?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Waves - Sound",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 26,
+      "year": 2020,
+      "prompt": "Which of the following statements about defects of vision is/are CORRECT? I. For a long sighted person, close objects appear blurred II. For a short sighted person, distant objects appear blurred III. Short sight is corrected by using a pair of converging lenses",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56916?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Optics - Eye Defects",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 27,
+      "year": 2020,
+      "prompt": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media? I. Light is passing from optical denser medium to optically less dense medium II. Light is passing from optically less dense medium to optically denser medium III. Angle of incidence is greater than a certain critical value IV. Angle of incidence is lesser than a certain critical value",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56917?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Optics - Total Internal Reflection",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 28,
+      "year": 2020,
+      "prompt": "The linear expansivity of brass is 2 × 10⁻⁵ °C⁻¹. If the volume of piece of brass is 10 cm³ at 0°C, what will be its volume at 100°C?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56918?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Heat and Thermodynamics - Thermal Expansion",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_6.txt",
+      "intakeIndex": 29,
+      "year": 2020,
+      "prompt": "The lower and upper fixed points marked on a Mercury-in-glass thermometer are 210 mm apart. The end of the mercury column in the tube is 49 mm above the lower fixed point in a room. What is the temperature of the room in degrees Celsius?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56919?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Heat and Thermodynamics - Thermometry",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 1,
+      "year": 2020,
+      "prompt": "The figure above represents a block-and-tackle pulley system on which an effort of W Newtons supports a load of 120.0N. If the efficiency of the machine is 40%, then the value of W is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56922?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Mechanics - Machines",
+      "answer": "D",
+      "issues": [
+        "self-contradictory or tentative explanation",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 2,
+      "year": 2020,
+      "prompt": "In an experiment in which molten naphthalene is allowed to cool, the cooling curve in the figure was obtained. The temperature 80°C is known as the",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56923?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Heat and Thermodynamics - Change of State",
+      "answer": "C",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 3,
+      "year": 2020,
+      "prompt": "In the figure, the value of R is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56924?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Current Electricity - Circuits",
+      "answer": "A",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 4,
+      "year": 2020,
+      "prompt": "Which of the following instruments consumes the highest current? I. Electric iron 250V 1kW II. Television set 220V 110W III. Torchlight 6V 30W IV. Immersion heater 110V 500W",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56925?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Current Electricity - Electrical Power",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 5,
+      "year": 2020,
+      "prompt": "In which of the following diagrams is the length of the tube equal to one wavelength?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56926?exam_type=jamb&exam_year=2020&page=8",
+      "topic": "Waves - Sound in Pipes",
+      "answer": "B",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 6,
+      "year": 2020,
+      "prompt": "Which of the following pairs is part of the electromagnetic spectrum? I. Radio waves II. sound waves III. Gamma rays IV. water waves",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56927?exam_type=jamb&exam_year=2020&page=8",
+      "topic": "Electromagnetic Spectrum",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 7,
+      "year": 2020,
+      "prompt": "A substance has half-life of 3 min. After 6 min, the count rate was observed to be 400. What was its count rate at zero time?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/56928?exam_type=jamb&exam_year=2020&page=8",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 8,
+      "year": 2020,
+      "prompt": "A 2H inductor has negligible resistance and is connected to a 50/π Hz A.C supply. The reactance of the inductor is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1452?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Alternating Current - Inductive Reactance",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 9,
+      "year": 2020,
+      "prompt": "The diagram above shows two capacitors P and Q of capacitance 5μF and 10μF. Find the charges stored in P and Q respectively",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11721?exam_type=jamb&exam_year=2020&page=9",
+      "topic": "Electrostatics - Capacitors",
+      "answer": "A",
+      "issues": [
+        "self-contradictory or tentative explanation",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 10,
+      "year": 2020,
+      "prompt": "A catapult used to hold a stone of mass 500g is extended by 20cm with an applied force F. If the stone leaves with a velocity of 40m/s, the value of F is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/697?exam_type=jamb&exam_year=2020&page=2",
+      "topic": "Mechanics - Elastic Potential Energy",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 11,
+      "year": 2020,
+      "prompt": "An electric generator with a power output of 3.0KW at a voltage of 1.5KV distributes power along cables of resistance 20.0Ω. The power loss in the cables is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1435?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Current Electricity - Power Loss",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 12,
+      "year": 2020,
+      "prompt": "In a pure semiconductor, the number of electrons in the conduction band is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/716?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Semiconductors - Intrinsic",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 13,
+      "year": 2020,
+      "prompt": "If current flows in the direction of the arrows in the solenoid above, the north pole is at",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11743?exam_type=jamb&exam_year=2020&page=10",
+      "topic": "Magnetism - Solenoids",
+      "answer": "A",
+      "issues": [
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 14,
+      "year": 2020,
+      "prompt": "In the a.c circuit above, the current value is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11745?exam_type=jamb&exam_year=2020&page=10",
+      "topic": "Alternating Current - Impedance",
+      "answer": "A",
+      "issues": [
+        "self-contradictory or tentative explanation",
+        "requires supplied figure or answer-aligned replacement visual"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 15,
+      "year": 2020,
+      "prompt": "A projection lantern is used to give the image of a slide on a screen. If the image is 24 times as large as the slide and the screen is 72.0m from the projecting lens, what is the position of the slide from the lens?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/712?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Optics - Lenses",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 16,
+      "year": 2020,
+      "prompt": "A travelling wave moving from left to right has an amplitude of 0.15m, a frequency of 550Hz and a wavelength of 0.01m. The equation describing the wave is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11700?exam_type=jamb&exam_year=2020&page=8",
+      "topic": "Waves - Wave Equation",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 17,
+      "year": 2020,
+      "prompt": "An electron of charge 1.6 × 10⁻¹⁹ C and mass 9.1 × 10⁻³¹ kg is accelerated between two metal plates with a velocity of 4 × 10⁷ ms⁻¹, the potential difference between the plates is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/713?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Electrostatics - Potential Difference",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 18,
+      "year": 2020,
+      "prompt": "In a thermonuclear reaction, the total initial mass is 5.02 × 10⁻²⁷ kg and the total final mass is 5.01 × 10⁻²⁷ kg. The energy released in the process is [c = 3.0 × 10⁸ ms⁻¹]",
+      "sourceUrl": "https://myschool.ng/classroom/physics/717?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Nuclear Physics - Mass-Energy Equivalence",
+      "answer": "A",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 19,
+      "year": 2020,
+      "prompt": "A thin wire with heavy weights attached to both ends is hung over a block of ice resting on two supports. If the wire cuts through the ice block while the block remains solid behind the wire, the process is called",
+      "sourceUrl": "https://myschool.ng/classroom/physics/705?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Heat and Thermodynamics - Reglation",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 20,
+      "year": 2020,
+      "prompt": "One end of a long wire is fixed while a vibrator is attached to the other end. When the vibrator is energized, the types of waves generated in the wire are",
+      "sourceUrl": "https://myschool.ng/classroom/physics/707?exam_type=jamb&exam_year=2020&page=4",
+      "topic": "Waves - Stationary Waves",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 21,
+      "year": 2020,
+      "prompt": "Light of energy 5eV falls on a metal of work function 3eV and electrons are liberated. The stopping potential is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1503?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Modern Physics - Photoelectric Effect",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 22,
+      "year": 2020,
+      "prompt": "What optical instrument can best be constructed with converging lenses of focal lengths 50cm and 5cm?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/715?exam_type=jamb&exam_year=2020&page=5",
+      "topic": "Optics - Telescopes",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 23,
+      "year": 2020,
+      "prompt": "If the fraction of the atoms of a radioactive material left after 120years is 1/64, what is the half-life of the material?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1447?exam_type=jamb&exam_year=2020&page=6",
+      "topic": "Nuclear Physics - Radioactivity",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 24,
+      "year": 2020,
+      "prompt": "A sonometer wire is vibrating at frequency f₀. If the tension in the wire is doubled while the length and mass per unit length are kept constant, the new frequency of vibration is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11277?exam_type=jamb&exam_year=2020&page=8",
+      "topic": "Waves - Strings",
+      "answer": "C",
+      "issues": [
+        "duplicate option text"
+      ],
+      "status": "hold"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 25,
+      "year": 2020,
+      "prompt": "If the force and the velocity on a system are each reduced simultaneously by half, the power of the system is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/696?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Mechanics - Power",
+      "answer": "B",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 26,
+      "year": 2020,
+      "prompt": "A quantity of water at 0°C is heated to about 30°C. At each degree rise in temperature, its density will",
+      "sourceUrl": "https://myschool.ng/classroom/physics/702?exam_type=jamb&exam_year=2020&page=3",
+      "topic": "Properties of Matter - Density of Water",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 27,
+      "year": 2020,
+      "prompt": "An engineer intends to deviate a light ray from its path by 120° through reflection from a plane mirror. Calculate the angle of incidence",
+      "sourceUrl": "https://myschool.ng/classroom/physics/11712?exam_type=jamb&exam_year=2020&page=9",
+      "topic": "Optics - Reflection",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 28,
+      "year": 2020,
+      "prompt": "I. Its velocity is constant II. No work is done on the body III. It has constant acceleration directed away from the centre IV. The centripetal force is directed towards the centre. Which combination of the above is true of a body moving with constant speed in a circular track?",
+      "sourceUrl": "https://myschool.ng/classroom/physics/693?exam_type=jamb&exam_year=2020&page=1",
+      "topic": "Mechanics - Circular Motion",
+      "answer": "A",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 29,
+      "year": 2020,
+      "prompt": "A handbag containing some load weighing 162N is carried by two students each holding the handle of the bag next to him. If each handle is pulled 60° to the vertical, find the force on each student's arm",
+      "sourceUrl": "https://myschool.ng/classroom/physics/41496?exam_type=jamb&exam_year=2020&page=10",
+      "topic": "Mechanics - Equilibrium",
+      "answer": "C",
+      "issues": [],
+      "status": "candidate"
+    },
+    {
+      "intakeFile": "pasted_content_7.txt",
+      "intakeIndex": 30,
+      "year": 2020,
+      "prompt": "A cell of internal resistance 1Ω supplies current to an external resistor of 3Ω. The efficiency of the cell is",
+      "sourceUrl": "https://myschool.ng/classroom/physics/1501?exam_type=jamb&exam_year=2020&page=7",
+      "topic": "Current Electricity - Cell Efficiency",
+      "answer": "D",
+      "issues": [],
+      "status": "candidate"
+    }
+  ]
+}

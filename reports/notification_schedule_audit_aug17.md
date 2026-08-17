@@ -6,12 +6,22 @@ The morning Heartbeat job existed and was enabled, but it was configured as `0 0
 
 A successful manual test therefore confirmed browser permission and push delivery, but it did not prove that the scheduled morning window was aligned with the learner’s local clock.
 
-## Correction
+## Corrected schedule definitions
 
-The morning job `jamb-quest-comeback-morning` / task UID `Et2qh8vakipKt66nVeBqN7` was updated to `0 0 6 * * *` UTC, which corresponds to 7:00 a.m. in Africa/Lagos. Its description now explicitly states `Morning 7am Africa/Lagos`.
+The initial in-place Heartbeat update returned a scheduler context-deadline error. To avoid claiming a successful update that could not be confirmed, the three legacy jobs were replaced with three new enabled definitions. The obsolete jobs were deleted only after all three replacements were created successfully.
 
-The afternoon and evening jobs were not changed. The reminder sender remains idempotent, uses the learner profile timezone for local date keys, skips completed daily minimums, and records a send date only after at least one device reports delivery.
+| Learner time | UTC cron | Callback | Replacement task UID |
+| --- | --- | --- | --- |
+| 07:00 Africa/Lagos | `0 0 6 * * *` | `/api/scheduled/comeback-morning` | `me56gJTKY9rsAquZKzqZff` |
+| 13:00 Africa/Lagos | `0 0 12 * * *` | `/api/scheduled/comeback-afternoon` | `detynW9Z24BSVinBqDgh5r` |
+| 19:00 Africa/Lagos | `0 0 18 * * *` | `/api/scheduled/comeback-evening` | `mRHcHM5DsSFsiSsaZ3zpTC` |
+
+The former afternoon and evening definitions incorrectly used 13:00 UTC and 19:00 UTC, which would have delivered one hour later than the required Africa/Lagos times. The reminder sender remains idempotent, uses the learner profile timezone for local date keys, skips completed daily minimums, and records a send date only after at least one device reports delivery.
+
+## Temporary 8:00 a.m. test reconciliation
+
+The temporary job `jamb-quest-8am-test-20260817` / task UID `8Bao3J5p4T5VRHiVfpouVh` was enabled for `0 0 7 * * *` UTC, equivalent to 8:00 a.m. Africa/Lagos. After its scheduled window, its Heartbeat execution history reported zero runs. A second isolated diagnostic callback at 08:15 Africa/Lagos also recorded zero Heartbeat runs, although the live callback endpoint correctly returned `403` to an unauthenticated public probe. The diagnostic was deleted so it cannot recur.
 
 ## Verification boundary
 
-The permanent morning schedule returns its next execution as `2026-08-18T06:00:00Z`. A first attempt to create a one-time 8:00 a.m. test using a date-specific cron was disabled after inspection showed the scheduler interpreted it as an annual date. It was replaced with a short-lived 60-second test schedule expiring at `2026-08-17T06:22:00Z`; its callback is the existing morning endpoint and its idempotent sender can deliver at most one morning push for the local date. Browser permission and manual test delivery have already been confirmed by the learner. The real-device receipt from this short-lived test remains the final delivery-evidence item; no delivery receipt has been fabricated.
+The replacement schedules have been created and are enabled, but no replacement callback has yet executed. Browser permission and manual test delivery have already been confirmed by the learner. A real-device receipt from a recorded scheduled callback is still required before scheduled push delivery can be claimed; no delivery receipt has been fabricated.
