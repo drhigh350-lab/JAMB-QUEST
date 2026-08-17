@@ -452,3 +452,5 @@
 - [ ] Reclassify all held diagram candidates—not just items 6 and 7—into ordinary no-diagram questions, genuinely useful optional visuals, and original-figure-dependent holds; validate and release safe ordinary records without adding unnecessary diagrams or duplicates.
 
 - [ ] Diagnose and fix the notification regression where an opted-in learner receives a successful test push but misses the scheduled 7:00 a.m. reminder; verify timezone, schedule execution, eligibility, and delivery logging.
+
+- [ ] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution.
