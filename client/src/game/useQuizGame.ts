@@ -292,7 +292,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     const restored = attempt.answerReview.flatMap((answer) => answer.questionId && bankById.has(answer.questionId) ? [bankById.get(answer.questionId)!] : []);
     if (!restored.length) {
       setLoadError("The questions from that saved CBT attempt are no longer available in the active question bank.");
-      return;
+      return false;
     }
     const answersByQuestion = Object.fromEntries(attempt.answerReview.flatMap((answer) => answer.questionId && bankById.has(answer.questionId) ? [[answer.questionId, { selectedIndex: answer.selectedIndex, correct: answer.correct, timedOut: answer.timedOut } satisfies AnswerRecord] as const] : []));
     const restoredFlags = attempt.answerReview.flatMap((answer) => answer.flagged && answer.questionId ? [answer.questionId] : []);
@@ -308,6 +308,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     setHistoricalFilter("all");
     setHistoricalSnapshot({ questions: restored, answers: answersByQuestion, flaggedIds: restoredFlags });
     setScreen("quiz");
+    return true;
   }, [playableQuestions]);
   const filterHistoricalReview = useCallback((filter: "all" | "correct" | "wrong") => {
     if (!historicalSnapshot) return;

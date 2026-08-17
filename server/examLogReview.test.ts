@@ -11,10 +11,15 @@ describe("saved CBT correction log", () => {
 
   it("uses a protected single-round query and a full-CBT-style read-only correction viewer with explicit answer filters", () => {
     const router = readFileSync(resolve(import.meta.dirname, "routers.ts"), "utf8");
+    const db = readFileSync(resolve(import.meta.dirname, "db.ts"), "utf8");
     const game = readFileSync(resolve(import.meta.dirname, "../client/src/game/useQuizGame.ts"), "utf8");
     const home = readFileSync(resolve(import.meta.dirname, "../client/src/pages/Home.tsx"), "utf8");
     const review = readFileSync(resolve(import.meta.dirname, "../client/src/components/ExamReview.tsx"), "utf8");
-    expect(router).toContain("roundReview: protectedProcedure");
+    expect(router).toContain("cbtHistory: protectedProcedure.query");
+    expect(router).toContain("roundReview: protectedProcedure.input");
+    expect(router).toContain("roundReview: protectedProcedure.input(z.object({ roundId: z.number().int().positive() })).mutation");
+    expect(db).toContain("getLearnerCbtHistory");
+    expect(db).toContain(".limit(100)");
     expect(game).toContain("openHistoricalReview");
     expect(game).toContain("if (isHistoricalReview)");
     expect(game).toContain('historicalFilter, setHistoricalFilter');

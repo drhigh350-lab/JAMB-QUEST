@@ -447,6 +447,26 @@ export async function getLearnerRoundReview(userId: number, fallbackName: string
   };
 }
 
+export async function getLearnerCbtHistory(userId: number, fallbackName: string | null) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const rounds = await db.select().from(quizRounds).where(and(eq(quizRounds.userId, userId), eq(quizRounds.mode, "cbt"))).orderBy(desc(quizRounds.completedAt)).limit(100);
+  return rounds.map((round) => {
+    const review = parseAnswerReview(round.answerReviewJson);
+    return {
+      id: round.id,
+      subject: round.subject,
+      mode: round.mode,
+      questionCount: round.questionCount,
+      correctCount: round.correctCount,
+      score: round.score,
+      durationSeconds: round.durationSeconds,
+      flaggedCount: parseStringList(round.flaggedQuestionIds).length,
+      missedQuestionIds: review.flatMap((answer) => !answer.correct && answer.questionId ? [answer.questionId] : []),
+      completedAt: round.completedAt,
+    };
+  });
+}
+
 export async function toggleLearnerBookmark(userId: number, fallbackName: string | null, input: { questionId: string; subject: string; topic: string }) {
   const db = await ensureLearnerRows(userId, fallbackName);
   const bookmarkKey = `${userId}:${input.questionId}`;

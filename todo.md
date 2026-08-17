@@ -438,3 +438,5 @@
 - [x] Add a navigable CBT exam log that lists completed CBT attempts and lets an authenticated learner reopen one specific attempt for full per-question correction review, including the selected answer, correct answer, explanation, timing, and summary context. The review is protected to the original learner and explicitly read-only, so it cannot alter the saved score or create a duplicate attempt.
 
 - [x] Upgrade saved CBT corrections to reopen in the familiar full CBT question interface with green/red answer stamps, a question palette, and read-only All, Correct-only, and Wrong/unanswered-only filters. The historic correction remains immutable and returns to Progress after the final reviewed question.
+
+- [x] Fix the reported saved-CBT regression: selected correction attempts now open through a direct protected action, and the exam log reads the complete CBT history from a dedicated 100-attempt endpoint rather than the dashboard’s 12-round analytics window. Database verification found two stored CBT attempts and nine separate sprint-practice rounds for the current learner, so the visible two CBT logs are complete rather than truncated.

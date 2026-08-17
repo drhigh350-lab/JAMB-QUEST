@@ -33,8 +33,8 @@ function App() {
   const [installStatus, setInstallStatus] = useState<"idle" | "installing" | "installed" | "dismissed">("idle");
   const [isOnline, setIsOnline] = useState(() => typeof navigator === "undefined" || navigator.onLine);
   const [showOpening, setShowOpening] = useState(() => new URLSearchParams(window.location.search).get("skipOpening") !== "1");
-  const [reviewRoundId, setReviewRoundId] = useState<number | null>(null);
-  const roundReviewQuery = trpc.learner.roundReview.useQuery({ roundId: reviewRoundId ?? 1 }, { enabled: isAuthenticated && reviewRoundId !== null, retry: false });
+  const [examReviewError, setExamReviewError] = useState<string | null>(null);
+  const cbtHistoryQuery = trpc.learner.cbtHistory.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const pushKeyQuery = trpc.push.publicKey.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const updateProfile = trpc.learner.updateProfile.useMutation({
     onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard),
@@ -61,11 +61,17 @@ function App() {
     if (isAuthenticated) recordRound.mutate(payload);
   }, [isAuthenticated, recordRound]);
   const game = useQuizGame({ remoteProgress, onRoundComplete: handleRoundComplete, additionalQuestions: authorisedQuestionsQuery.data ?? [] });
-  useEffect(() => {
-    if (!roundReviewQuery.data || reviewRoundId === null) return;
-    game.openHistoricalReview({ ...roundReviewQuery.data, subject: roundReviewQuery.data.subject as import("./game/types").RoundSubject });
-    setReviewRoundId(null);
-  }, [game.openHistoricalReview, reviewRoundId, roundReviewQuery.data]);
+  const roundReview = trpc.learner.roundReview.useMutation({
+    onSuccess: (attempt) => {
+      if (!attempt) {
+        setExamReviewError("That saved CBT attempt could not be found in your account.");
+        return;
+      }
+      const opened = game.openHistoricalReview({ ...attempt, subject: attempt.subject as import("./game/types").RoundSubject });
+      setExamReviewError(opened ? null : "The questions for that older CBT are no longer available in the active bank, so its corrections cannot be recreated safely.");
+    },
+    onError: () => setExamReviewError("The saved CBT could not be opened. Please try again."),
+  });
   const profileName = dashboardQuery.data?.profile.displayName ?? user?.name ?? "Learner";
   const setupBrowserPush = useCallback(async () => {
     if (!isAuthenticated || !("serviceWorker" in navigator) || !("PushManager" in window) || !("Notification" in window)) {
@@ -168,7 +174,7 @@ function App() {
   return (
     <ErrorBoundary>
       {showOpening && <QuestOpening onComplete={() => setShowOpening(false)} />}
-      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && !authorisedQuestionsQuery.isLoading} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={setReviewRoundId} examReviewOpening={reviewRoundId !== null || roundReviewQuery.isFetching} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && !authorisedQuestionsQuery.isLoading} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.isCbt ? game.saveAndNextCbt : game.nextQuestion} onQuit={game.quitRound} flaggedIds={game.flaggedIds} onNavigate={game.navigateQuestion} onToggleFlag={game.toggleFlag} onFinishCbt={game.finishCbt} isPaused={game.isPaused} onTogglePause={game.togglePause} historicalReview={Boolean(game.historicalReview)} historicalFilter={game.historicalFilter} onHistoricalFilter={game.filterHistoricalReview} bookmarkedQuestionIds={dashboardQuery.data?.revision.bookmarks.map((bookmark) => bookmark.questionId) ?? []} onToggleBookmark={() => isAuthenticated ? toggleBookmark.mutate({ questionId: game.currentQuestion!.id, subject: game.currentQuestion!.subject, topic: game.currentQuestion!.topic }) : startLogin()} />
       )}
