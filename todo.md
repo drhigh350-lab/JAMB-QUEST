@@ -425,3 +425,5 @@
 
 - [x] Complete the final Physics follow-up intake with unique per-record external IDs: 124 records imported, four same-batch duplicate candidates held, and ten additional source-quality/topic holds retained outside gameplay.
 - [x] Update runtime-count regression receipts and run the complete final test/build audit after the Physics follow-up import.
+
+- [x] Prepare a learner-readable export of the current 5,849-question bank with subject, topic, question, options, answer, explanation, and source classification for user inspection.
