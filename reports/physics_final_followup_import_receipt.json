@@ -1,0 +1,50 @@
+{
+  "candidates": 128,
+  "imported": 124,
+  "importedSources": [
+    {
+      "sourceLabel": "Owner-provided final Physics attachments · pasted_content_6.txt",
+      "count": 19,
+      "sourceId": 12720001
+    },
+    {
+      "sourceLabel": "Owner-provided final Physics attachments · pasted_content_7.txt",
+      "count": 23,
+      "sourceId": 12720002
+    },
+    {
+      "sourceLabel": "Owner-provided final Physics attachments · pasted_content_8.txt",
+      "count": 28,
+      "sourceId": 12720003
+    },
+    {
+      "sourceLabel": "Owner-provided final Physics attachments · pasted_content_9.txt",
+      "count": 27,
+      "sourceId": 12720004
+    },
+    {
+      "sourceLabel": "Owner-provided final Physics attachments · pasted_content_10.txt",
+      "count": 27,
+      "sourceId": 12720005
+    }
+  ],
+  "held": 4,
+  "holds": [
+    {
+      "externalId": "pasted_content_6.txt:https://myschool.ng/classroom/physics/...:7",
+      "reason": "duplicate at immediate pre-import check"
+    },
+    {
+      "externalId": "pasted_content_9.txt:https://myschool.ng/classroom/physics/...:8",
+      "reason": "duplicate at immediate pre-import check"
+    },
+    {
+      "externalId": "pasted_content_9.txt:https://myschool.ng/classroom/physics/...:28",
+      "reason": "duplicate at immediate pre-import check"
+    },
+    {
+      "externalId": "pasted_content_10.txt:https://myschool.ng/classroom/physics/...:7",
+      "reason": "duplicate at immediate pre-import check"
+    }
+  ]
+}

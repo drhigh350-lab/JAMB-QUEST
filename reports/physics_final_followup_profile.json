@@ -1,0 +1,65 @@
+{
+  "inputFiles": [
+    "pasted_content_6.txt",
+    "pasted_content_7.txt",
+    "pasted_content_8.txt",
+    "pasted_content_9.txt",
+    "pasted_content_10.txt"
+  ],
+  "parsed": 138,
+  "malformedFragments": 0,
+  "candidates": 128,
+  "held": 10,
+  "holds": [
+    {
+      "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67375?exam_type=jamb&exam_year=2023&page=2:8",
+      "reason": "contradictory or assumption-based explanation",
+      "topic": "Mechanics - Kinematics"
+    },
+    {
+      "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67883?exam_type=jamb&exam_year=2023&page=5:22",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Heat and Thermodynamics - Thermometry"
+    },
+    {
+      "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67893?exam_type=jamb&exam_year=2023&page=5:23",
+      "reason": "contradictory or assumption-based explanation",
+      "topic": "Mechanics - Friction"
+    },
+    {
+      "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67913?exam_type=jamb&exam_year=2023&page=5:25",
+      "reason": "contradictory or assumption-based explanation",
+      "topic": "Mechanics - Simple Pendulum"
+    },
+    {
+      "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67977?exam_type=jamb&exam_year=2023&page=6:28",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Optics - Eye Defects"
+    },
+    {
+      "externalId": "pasted_content_8.txt:https://myschool.ng/classroom/physics/...:10",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Properties of Matter - Molecular Forces"
+    },
+    {
+      "externalId": "pasted_content_8.txt:https://myschool.ng/classroom/physics/...:24",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Modern Physics - Emission"
+    },
+    {
+      "externalId": "pasted_content_9.txt:https://myschool.ng/classroom/physics/...:24",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Optics - Speed of Light"
+    },
+    {
+      "externalId": "pasted_content_10.txt:https://myschool.ng/classroom/physics/...:16",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Modern Physics - Emission"
+    },
+    {
+      "externalId": "pasted_content_10.txt:https://myschool.ng/classroom/physics/...:20",
+      "reason": "topic does not resolve to one official Physics syllabus area",
+      "topic": "Fluid Mechanics - Viscosity"
+    }
+  ]
+}

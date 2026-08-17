@@ -1,0 +1,28 @@
+{
+  "authorisedPlayable": 4849,
+  "modelPlayable": 1000,
+  "learnerFacingTotal": 5849,
+  "bySubject": {
+    "Use of English": {
+      "authorisedPlayable": 1105,
+      "modelPlayable": 250,
+      "learnerFacing": 1355
+    },
+    "Biology": {
+      "authorisedPlayable": 1155,
+      "modelPlayable": 250,
+      "learnerFacing": 1405
+    },
+    "Chemistry": {
+      "authorisedPlayable": 1814,
+      "modelPlayable": 250,
+      "learnerFacing": 2064
+    },
+    "Physics": {
+      "authorisedPlayable": 775,
+      "modelPlayable": 250,
+      "learnerFacing": 1025
+    }
+  },
+  "generatedAt": "2026-08-17T00:10:09.337Z"
+}
