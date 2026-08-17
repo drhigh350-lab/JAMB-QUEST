@@ -448,3 +448,7 @@
 - [x] Prepare a user-readable review file listing each held diagram-referencing question, its subject/topic/options, hold reason, and whether it needs the original figure or can be approved for a new instructional schematic. The generated file contains all 48 entries with options and recorded answer keys; two require original source figures and 46 are optional schematic candidates subject to source/answer approval.
 
 - [x] Reclassify the broad diagram-candidate list into ordinary no-diagram release candidates versus genuine visual candidates; validate user-identified review items 6 and 7 through the normal release gates without adding unnecessary visuals. Items 6 (`chem-docx-091`) and 7 (`chem-docx-135`) are already active, approved Chemistry records with the official `Organic compounds` topic; no duplicate release or diagram is needed.
+
+- [ ] Reclassify all held diagram candidates—not just items 6 and 7—into ordinary no-diagram questions, genuinely useful optional visuals, and original-figure-dependent holds; validate and release safe ordinary records without adding unnecessary diagrams or duplicates.
+
+- [ ] Diagnose and fix the notification regression where an opted-in learner receives a successful test push but misses the scheduled 7:00 a.m. reminder; verify timezone, schedule execution, eligibility, and delivery logging.
