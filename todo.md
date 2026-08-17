@@ -443,17 +443,17 @@
 
 - [x] Replace blank performance-tracking placeholders with a real responsive accuracy-over-time line graph, plotted points, readable axes, and honest empty states; ensure subject performance visuals render when recorded data exists. The line now appears in the always-open Progress evidence card, and subject accuracy tracks render from real attempts only.
 
-- [ ] Audit the withheld diagram-referencing questions, classify which are safely recreatable from self-contained text, identify which require original source images, and create only verified new diagram-based records without lowering the existing quality gates.
+- [x] Audit the withheld diagram-referencing questions, classify which are safely recreatable from self-contained text, identify which require original source images, and create only verified new diagram-based records without lowering the existing quality gates. The 48-item audit is documented; two original-figure holds were protected, ordinary no-diagram candidates were not guessed into gameplay, and verified Biology/Chemistry/Physics diagram batches were released with answer-aligned assets.
 
 - [x] Prepare a user-readable review file listing each held diagram-referencing question, its subject/topic/options, hold reason, and whether it needs the original figure or can be approved for a new instructional schematic. The generated file contains all 48 entries with options and recorded answer keys; two require original source figures and 46 are optional schematic candidates subject to source/answer approval.
 
 - [x] Reclassify the broad diagram-candidate list into ordinary no-diagram release candidates versus genuine visual candidates; validate user-identified review items 6 and 7 through the normal release gates without adding unnecessary visuals. Items 6 (`chem-docx-091`) and 7 (`chem-docx-135`) are already active, approved Chemistry records with the official `Organic compounds` topic; no duplicate release or diagram is needed.
 
-- [ ] Reclassify all held diagram candidates—not just items 6 and 7—into ordinary no-diagram questions, genuinely useful optional visuals, and original-figure-dependent holds; validate and release safe ordinary records without adding unnecessary diagrams or duplicates.
+- [x] Reclassify all held diagram candidates—not just items 6 and 7—into ordinary no-diagram questions, genuinely useful optional visuals, and original-figure-dependent holds; validate and release safe ordinary records without adding unnecessary diagrams or duplicates. The final reconciliation records 11 already-playable no-diagram candidates, 35 ordinary candidates held pending source/answer approval, and two original-figure-dependent holds; all later owner-keyed visual releases were duplicate-safe.
 
 - [ ] Diagnose and fix the notification regression where an opted-in learner receives a successful test push but misses the scheduled 7:00 a.m. reminder; verify timezone, schedule execution, eligibility, and delivery logging.
 
-- [ ] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution.
+- [x] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution. The test and a second diagnostic recorded no scheduler executions and were deleted; no delivery claim was made.
 
 - [x] Create and integrate nine user-supplied Biology diagram questions using the supplied answer keys and explanations as authority, with sharper labelled visuals, duplicate checks, official syllabus mapping, and learner-facing validation. All nine are imported and approved, each has a reserved generated diagram URL, database verification confirms 9/9 linked, and validation passes at 49 test files / 128 tests, TypeScript, and production build.
 
