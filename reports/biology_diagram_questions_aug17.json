@@ -1,0 +1,106 @@
+{
+  "batch": "owner-supplied Biology 2025 diagram questions",
+  "sourceClass": "owner-supplied reference screenshots and answer key",
+  "status": "imported-approved-diagram-linked",
+  "questions": [
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-001",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "What is the genotypic ratio of the F₂ generation?",
+      "options": ["2 : 1 : 1", "3 : 1", "1 : 1", "1 : 2 : 1"],
+      "answerIndex": 3,
+      "explanation": "The cross is Rr × Rr. It produces one RR, two Rr, and one rr offspring, giving the genotypic ratio 1 : 2 : 1.",
+      "topic": "Genetics — Mendelian inheritance",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-punnett-cross_2eb38f9e.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-002",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The part labelled II is the",
+      "options": ["cervix", "vagina", "uterus", "ovary"],
+      "answerIndex": 2,
+      "explanation": "Label II points to the thick-walled central organ of the female reproductive system. The uterus is where implantation occurs and the foetus develops during pregnancy.",
+      "topic": "Reproduction — Female reproductive system",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-female-reproductive-system_0427c81f.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-003",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The part labelled II is the",
+      "options": ["liver", "pancreas", "lung", "stomach"],
+      "answerIndex": 3,
+      "explanation": "Label II points to the J-shaped muscular organ between the oesophagus and small intestine. The stomach mixes food with gastric juice during digestion.",
+      "topic": "Nutrition — Human digestive system",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-digestive-system_e222260a.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-004",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The part labelled I is the",
+      "options": ["collar", "foot", "shell", "head"],
+      "answerIndex": 2,
+      "explanation": "Label I points to the snail’s large spiral outer covering. The shell is secreted by the mantle and protects the soft internal organs.",
+      "topic": "Biological diversity — Mollusca",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-snail_d362cf69.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+      "options": ["III", "I", "IV", "II"],
+      "answerIndex": 2,
+      "explanation": "Brightly coloured petals attract insects and other pollinators to the flower. In the diagram, the petals are indicated by label IV.",
+      "topic": "Reproduction — Reproduction in flowering plants",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-flower_be4a1e75.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-006",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The part labelled I is the",
+      "options": ["mitochondrion", "cytoplasm", "vacuole", "nucleus"],
+      "answerIndex": 2,
+      "explanation": "Label I points to the large clear cavity in the cell. The vacuole stores cell sap and helps the cell maintain its internal pressure.",
+      "topic": "Cell structure and organisation — Cell structures",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-cell_14241c7f.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-007",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The type of teeth used for tearing in man is labelled",
+      "options": ["IV", "III", "I", "II"],
+      "answerIndex": 3,
+      "explanation": "Canines are pointed teeth used for gripping and tearing food. In the diagram, the canines are grouped under label II.",
+      "topic": "Nutrition — Mammalian dentition",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-teeth_ba119a73.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-008",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The endocrine gland that is located in the part labelled I is",
+      "options": ["parathyroid", "thyroid", "pituitary", "adrenal"],
+      "answerIndex": 2,
+      "explanation": "The pituitary gland is located at the base of the brain, corresponding to label I. It is often called the master gland because it regulates several other endocrine glands.",
+      "topic": "Coordination and control — Endocrine system",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-endocrine-glands_9d758238.png"
+    },
+    {
+      "externalId": "OWNER-BIO-DIAGRAM-2025-009",
+      "subject": "Biology",
+      "year": 2025,
+      "question": "The structure labelled I is adapted for",
+      "options": ["tearing", "sieving", "boring", "sucking"],
+      "answerIndex": 2,
+      "explanation": "The long, sharp, slightly curved beak is adapted for boring into wood or bark to obtain insects. This feeding adaptation is represented by label I.",
+      "topic": "Adaptation — Feeding adaptations in birds",
+      "diagramUrl": "/manus-storage/jamb-quest-biology-bird-beak_f2152e97.png"
+    }
+  ]
+}

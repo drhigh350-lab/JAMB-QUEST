@@ -454,3 +454,5 @@
 - [ ] Diagnose and fix the notification regression where an opted-in learner receives a successful test push but misses the scheduled 7:00 a.m. reminder; verify timezone, schedule execution, eligibility, and delivery logging.
 
 - [ ] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution.
+
+- [x] Create and integrate nine user-supplied Biology diagram questions using the supplied answer keys and explanations as authority, with sharper labelled visuals, duplicate checks, official syllabus mapping, and learner-facing validation. All nine are imported and approved, each has a reserved generated diagram URL, database verification confirms 9/9 linked, and validation passes at 49 test files / 128 tests, TypeScript, and production build.
