@@ -36,4 +36,14 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('"SKIP_WAITING"');
     expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
   });
+
+  it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
+    const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
+
+    expect(worker).toContain('"jamb-quest-shell-v3"');
+    expect(worker).toContain('tag: "jamb-quest-daily-reminder"');
+    expect(worker).toContain("renotify: true");
+    expect(worker).toContain("requireInteraction: true");
+    expect(worker).toContain("vibrate: [200, 100, 200]");
+  });
 });

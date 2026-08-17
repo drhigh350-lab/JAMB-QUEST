@@ -24,4 +24,6 @@ The temporary job `jamb-quest-8am-test-20260817` / task UID `8Bao3J5p4T5VRHiVfpo
 
 ## Verification boundary
 
-The replacement schedules have been created and are enabled, but no replacement callback has yet executed. Browser permission and manual test delivery have already been confirmed by the learner. A real-device receipt from a recorded scheduled callback is still required before scheduled push delivery can be claimed; no delivery receipt has been fabricated.
+The replacement afternoon schedule did execute at `2026-08-17T12:09:00Z` (13:09 Africa/Lagos), returned HTTP 200, and returned the application result `sent: 1`, `skipped: 0`, `totalEnabled: 1`. This proves the cron callback and push-provider acceptance path executed for the enabled learner; it does **not** prove that the phone displayed the accepted browser notification. The learner reported no visible alert.
+
+To strengthen display behavior on supported devices, the service worker was upgraded to cache version `jamb-quest-shell-v3` and now requests a tagged, re-alerting, persistent notification with vibration and a direct practice action. A real-device receipt from the upgraded worker is still required before scheduled visible delivery can be claimed; no delivery receipt has been fabricated.

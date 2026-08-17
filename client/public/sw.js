@@ -1,7 +1,7 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v2";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v3";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
 self.addEventListener("install", (event) => {
@@ -48,6 +48,11 @@ self.addEventListener("push", (event) => {
     body: payload.body || "Your next comeback mission is ready.",
     icon: "/favicon.svg",
     badge: "/favicon.svg",
+    tag: "jamb-quest-daily-reminder",
+    renotify: true,
+    requireInteraction: true,
+    vibrate: [200, 100, 200],
+    actions: [{ action: "practice", title: "Start practice" }],
     data: { url: payload.url || "/" },
   }));
 });
