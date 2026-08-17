@@ -440,3 +440,5 @@
 - [x] Upgrade saved CBT corrections to reopen in the familiar full CBT question interface with green/red answer stamps, a question palette, and read-only All, Correct-only, and Wrong/unanswered-only filters. The historic correction remains immutable and returns to Progress after the final reviewed question.
 
 - [x] Fix the reported saved-CBT regression: selected correction attempts now open through a direct protected action, and the exam log reads the complete CBT history from a dedicated 100-attempt endpoint rather than the dashboard’s 12-round analytics window. Database verification found two stored CBT attempts and nine separate sprint-practice rounds for the current learner, so the visible two CBT logs are complete rather than truncated.
+
+- [x] Replace blank performance-tracking placeholders with a real responsive accuracy-over-time line graph, plotted points, readable axes, and honest empty states; ensure subject performance visuals render when recorded data exists. The line now appears in the always-open Progress evidence card, and subject accuracy tracks render from real attempts only.

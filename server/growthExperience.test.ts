@@ -12,12 +12,19 @@ describe("growth experience", () => {
     expect(home).toContain("Choose a whole number from 5 to 500.");
   });
 
-  it("renders a real activity heatmap and a 50-badge achievement gallery", () => {
+  it("renders a real activity heatmap, plotted performance line, subject comparison, and a 50-badge achievement gallery", () => {
     const home = readFileSync(resolve(import.meta.dirname, "../client/src/pages/Home.tsx"), "utf8");
     const styles = readFileSync(resolve(import.meta.dirname, "../client/src/comeback.css"), "utf8");
     expect(home).toContain("28-day study heatmap");
+    expect(home).toContain("AccuracyLineChart rounds={cbtHistory}");
+    expect(home).toContain("polyline points={polyline}");
+    expect(home).toContain("SubjectAccuracyChart performance={subjectPerformance}");
+    expect(home).toContain("Complete a CBT attempt to plot your first accuracy line.");
     expect(home).toContain("achievementSummary.earned.length} / 50");
     expect(styles).toContain(".study-heatmap");
+    expect(styles).toContain(".chart-line");
+    expect(styles).toContain(".chart-point");
+    expect(styles).toContain(".subject-chart-track");
     expect(styles).toContain(".achievement-grid");
   });
 
