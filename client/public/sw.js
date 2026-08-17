@@ -1,7 +1,7 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v3";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v4";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
 self.addEventListener("install", (event) => {
@@ -43,7 +43,12 @@ self.addEventListener("fetch", (event) => {
 });
 
 self.addEventListener("push", (event) => {
-  const payload = event.data ? event.data.json() : {};
+  let payload = {};
+  try {
+    payload = event.data ? event.data.json() : {};
+  } catch {
+    payload = {};
+  }
   event.waitUntil(self.registration.showNotification(payload.title || "JAMB Quest", {
     body: payload.body || "Your next comeback mission is ready.",
     icon: "/favicon.svg",

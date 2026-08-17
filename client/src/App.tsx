@@ -90,7 +90,12 @@ function App() {
         return;
       }
       const registration = await navigator.serviceWorker.register("/sw.js");
-      const subscription = await registration.pushManager.getSubscription() ?? await registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlBase64ToUint8Array(pushKeyQuery.data) });
+      const existingSubscription = await registration.pushManager.getSubscription();
+      // A successful provider response does not prove the installed app still owns a live
+      // endpoint. Explicitly renew on re-enable so the learner can recover from stale,
+      // rotated, or browser-restored subscriptions without clearing site data manually.
+      if (existingSubscription) await existingSubscription.unsubscribe();
+      const subscription = await registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlBase64ToUint8Array(pushKeyQuery.data) });
       const serialized = subscription.toJSON();
       if (!serialized.endpoint || !serialized.keys?.p256dh || !serialized.keys.auth) throw new Error("The browser did not provide a usable push subscription.");
       enablePush.mutate({ endpoint: serialized.endpoint, keys: { p256dh: serialized.keys.p256dh, auth: serialized.keys.auth } }, {

@@ -40,7 +40,9 @@ describe("JAMB Quest PWA assets", () => {
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
 
-    expect(worker).toContain('"jamb-quest-shell-v3"');
+    expect(worker).toContain('"jamb-quest-shell-v4"');
+    expect(worker).toContain("try {");
+    expect(worker).toContain("payload = {};");
     expect(worker).toContain('tag: "jamb-quest-daily-reminder"');
     expect(worker).toContain("renotify: true");
     expect(worker).toContain("requireInteraction: true");
