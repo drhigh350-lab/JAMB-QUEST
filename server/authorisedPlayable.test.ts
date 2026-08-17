@@ -57,6 +57,22 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, id: 16, subject: "Use of English", topic: "Lekki Headmaster - Chapter 1", explanation: null })).not.toBeNull();
   });
 
+  it("holds diagram-referencing records until a diagram asset is linked", () => {
+    const base = {
+      id: 230,
+      subject: "Chemistry" as const,
+      topic: "Energy changes",
+      difficulty: "medium" as const,
+      questionText: "[Diagram Question] In the energy profile diagram above, X represents the:",
+      optionsJson: JSON.stringify(["enthalpy", "enthalpy change", "activation energy", "activated complex"]),
+      answerIndex: 2,
+      explanation: "The arrow from the reactant level to the peak is the activation energy.",
+      sourceLabel: "Owner-provided source",
+    };
+    expect(toPlayableAuthorisedQuestion(base)).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, diagramUrl: "/manus-storage/energy-profile.svg" })).not.toBeNull();
+  });
+
   it("rejects malformed options before the record can enter the quiz feed", () => {
     expect(toPlayableAuthorisedQuestion({
       id: 13,

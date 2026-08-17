@@ -793,6 +793,12 @@ export function hasEmbeddedOptionMetadata(option: string) {
   return EMBEDDED_OPTION_METADATA.test(option);
 }
 
+const DIAGRAM_REFERENCE = /(?:\[diagram question\]|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown))/i;
+
+export function requiresDiagramAsset(questionText: string) {
+  return DIAGRAM_REFERENCE.test(questionText);
+}
+
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
   try {
@@ -801,6 +807,7 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
     if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex >= options.length) return null;
     const mappedTopic = resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic);
     if (!mappedTopic) return null;
+    if (requiresDiagramAsset(row.questionText) && !row.diagramUrl) return null;
     const explanation = row.explanation ?? "";
     const explanationLines = explanation.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
     const readingTextWithoutExplanation = row.subject === "Use of English" && mappedTopic === "Approved reading text" && explanationLines.length === 0;
