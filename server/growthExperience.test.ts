@@ -28,4 +28,12 @@ describe("growth experience", () => {
     expect(manifest.records.every((record: { diagramUrl: string }) => record.diagramUrl.startsWith("/manus-storage/jamb-quest-"))).toBe(true);
     expect(card).toContain("question.diagram_url");
   });
+
+  it("records the cross-subject diagram expansion and its twenty audited live diagram questions", () => {
+    const report = readFileSync(resolve(import.meta.dirname, "../reports/diagram_expansion_aug17.md"), "utf8");
+    expect(report).toContain("212, 303, 343, 300017, 300029");
+    expect(report).toContain("10, 44, 102, 30038, 30068");
+    expect(report).toContain("90185, 90204, 270008, 450166");
+    expect(report).toContain("20** audited diagram-enhanced playable questions");
+  });
 });
