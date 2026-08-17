@@ -442,3 +442,7 @@
 - [x] Fix the reported saved-CBT regression: selected correction attempts now open through a direct protected action, and the exam log reads the complete CBT history from a dedicated 100-attempt endpoint rather than the dashboard’s 12-round analytics window. Database verification found two stored CBT attempts and nine separate sprint-practice rounds for the current learner, so the visible two CBT logs are complete rather than truncated.
 
 - [x] Replace blank performance-tracking placeholders with a real responsive accuracy-over-time line graph, plotted points, readable axes, and honest empty states; ensure subject performance visuals render when recorded data exists. The line now appears in the always-open Progress evidence card, and subject accuracy tracks render from real attempts only.
+
+- [ ] Audit the withheld diagram-referencing questions, classify which are safely recreatable from self-contained text, identify which require original source images, and create only verified new diagram-based records without lowering the existing quality gates.
+
+- [x] Prepare a user-readable review file listing each held diagram-referencing question, its subject/topic/options, hold reason, and whether it needs the original figure or can be approved for a new instructional schematic. The generated file contains all 48 entries with options and recorded answer keys; two require original source figures and 46 are optional schematic candidates subject to source/answer approval.

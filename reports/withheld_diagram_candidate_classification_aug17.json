@@ -1,0 +1,558 @@
+{
+  "generatedAt": "2026-08-17T05:51:37.059Z",
+  "candidateCount": 48,
+  "bySubject": {
+    "Biology": {
+      "total": 40,
+      "safeOptionalSchematic": 38,
+      "requiresOriginalSourceFigure": 2
+    },
+    "Chemistry": {
+      "total": 8,
+      "safeOptionalSchematic": 8,
+      "requiresOriginalSourceFigure": 0
+    },
+    "Physics": {
+      "total": 0,
+      "safeOptionalSchematic": 0,
+      "requiresOriginalSourceFigure": 0
+    },
+    "Use of English": {
+      "total": 0,
+      "safeOptionalSchematic": 0,
+      "requiresOriginalSourceFigure": 0
+    }
+  },
+  "classifications": [
+    {
+      "file": "biology_explanation_batch_001_staged.json",
+      "externalId": "biology-dr-high-0012",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "structure"
+      ],
+      "question": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
+      "classification": "requires-original-source-figure"
+    },
+    {
+      "file": "biology_explanation_batch_001_staged.json",
+      "externalId": "biology-dr-high-0013",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "structure"
+      ],
+      "question": "During photosynthesis, the arrow labelled II represents the",
+      "classification": "requires-original-source-figure"
+    },
+    {
+      "file": "biology_explanation_batch_001_staged.json",
+      "externalId": "biology-dr-high-0017",
+      "subject": "Biology",
+      "topic": "Blood and Circulation",
+      "groups": [
+        "structure"
+      ],
+      "question": "The primary structure responsible for pumping blood for circulation through the mammalian circulatory systems is the",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "biology_explanation_batch_001_staged.json",
+      "externalId": "biology-dr-high-0022",
+      "subject": "Biology",
+      "topic": "Transport",
+      "groups": [
+        "spatial"
+      ],
+      "question": "The outer layer of the kidney where the Bowman's capsules are found is the",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "biology_explanation_batch_001_staged.json",
+      "externalId": "biology-dr-high-0027",
+      "subject": "Biology",
+      "topic": "Excretion and Osmoregulation",
+      "groups": [
+        "structure"
+      ],
+      "question": "I. Stomata → Spirogyra    II. Alveoli → Earthworm    III. Malpighian tubule → Mammal    IV. Contractile vacuole → Protozoa Which of the above structures is correctly matched with the organisms in which it is found?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_003_staged.json",
+      "externalId": "chem-docx-091",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "groups": [
+        "process"
+      ],
+      "question": "The process of separating petroleum into its various fractions based on differences in boiling points is",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_004_staged.json",
+      "externalId": "chem-docx-135",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "groups": [
+        "spatial"
+      ],
+      "question": "Which haloalkane is widely used as a refrigerant but causes depletion of the atmospheric ozone layer?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_006_staged.json",
+      "externalId": "chem-docx-177",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "groups": [
+        "process"
+      ],
+      "question": "The industrial process of breaking heavy long-chain hydrocarbon molecules into lighter, more useful short-chain alkanes and alkenes is known as",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_007_staged.json",
+      "externalId": "chem-docx-224",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "groups": [
+        "process",
+        "spatial"
+      ],
+      "question": "Galvanization is the process of protecting iron from rusting by coating it with a thin layer of",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_008_staged.json",
+      "externalId": "chem-docx-240",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "groups": [
+        "structure"
+      ],
+      "question": "How many carbon-carbon double bonds are formally represented in a Kekulé structure of benzene (C6H6)?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_008_staged.json",
+      "externalId": "chem-docx-250",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "groups": [
+        "process"
+      ],
+      "question": "The industrial process of coating iron sheet surfaces with thin tin metal to prevent corrosion is known as",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_008_staged.json",
+      "externalId": "chem-docx-010",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "groups": [
+        "spatial"
+      ],
+      "question": "The atomicity of ozone is",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "chemistry_explanation_batch_009_staged.json",
+      "externalId": "chem-docx-015",
+      "subject": "Chemistry",
+      "topic": "Electrolysis",
+      "groups": [
+        "process"
+      ],
+      "question": "Flow of electric current in electrolytes is due to the movement of",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_001_input.json",
+      "externalId": 30021,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "process"
+      ],
+      "question": "Which of the following represents the correct sequence in a food chain?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30050,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "groups": [
+        "process"
+      ],
+      "question": "The process of nitrogen fixation by free-living bacteria in the soil converts atmospheric nitrogen directly into:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30053,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "groups": [
+        "structure"
+      ],
+      "question": "One of the structures used for excretion in an earthworm is the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30054,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "The bright coloration of the petals of hibiscus flowers is an adaptation for:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30055,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which of the following structures is not a skeletal material?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30058,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which of the following is not part of the mammalian male reproductive system?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30063,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which of the following bones is correctly matched with the part of the human skeleton to which it belongs?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_002_input.json",
+      "externalId": 30069,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "apparatus"
+      ],
+      "question": "The instrument used to determine the relative humidity of an atmosphere in ecological studies is a:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_003_input.json",
+      "externalId": 30101,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "Water moves from the soil into root hair cells primarily through the process of:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_003_input.json",
+      "externalId": 30105,
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "groups": [
+        "structure"
+      ],
+      "question": "The structure that prevents food from entering the trachea during swallowing is the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_004_input.json",
+      "externalId": 30138,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "In a flowering plant, double fertilization results in the formation of a zygote and a triploid:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_004_input.json",
+      "externalId": 30145,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "groups": [
+        "process",
+        "structure"
+      ],
+      "question": "Learning how to ride a bicycle or drive a car is the function of what part of the brain?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_005_input.json",
+      "externalId": 30178,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which excretory structures are responsible for removing metabolic wastes in insects like the cockroach?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_005_input.json",
+      "externalId": 30180,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "process"
+      ],
+      "question": "In the carbon cycle, carbon is removed from the atmosphere primarily by the process of:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_005_input.json",
+      "externalId": 30185,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which part of the mammalian eye regulates the amount of light entering through the pupil?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_006_input.json",
+      "externalId": 30221,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "groups": [
+        "spatial"
+      ],
+      "question": "If an ovary is positioned on the receptacle above all other floral parts, it is called a:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_006_input.json",
+      "externalId": 30227,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "spatial"
+      ],
+      "question": "In an aquatic ecosystem, the light penetration zone where photosynthesis can comfortably occur is referred to as the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_006_input.json",
+      "externalId": 30230,
+      "subject": "Biology",
+      "topic": "Plant Growth and Reproduction",
+      "groups": [
+        "process"
+      ],
+      "question": "The process of seed germination in which the cotyledons are pushed above the ground surface is known as:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_006_input.json",
+      "externalId": 30233,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "spatial"
+      ],
+      "question": "The ecological transition zone between two distinct biological communities, such as forest and savanna, is called an:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_007_input.json",
+      "externalId": 30267,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "In flowering plants, pollination by insects is referred to as:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_007_input.json",
+      "externalId": 30268,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "The transfer of pollen grains from the anther to the stigma of a different flower on the same plant is called:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_007_input.json",
+      "externalId": 30269,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "The male gamete in flowering plants is contained within the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_007_input.json",
+      "externalId": 30277,
+      "subject": "Biology",
+      "topic": "Support, Movement and Sensory Systems",
+      "groups": [
+        "structure"
+      ],
+      "question": "Which bone forms part of the axial skeleton in humans?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30300,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "spatial"
+      ],
+      "question": "Which biome in Nigeria is characterized by high annual rainfall, dense multi- layered canopy, and rich biodiversity?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30303,
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "groups": [
+        "spatial"
+      ],
+      "question": "In humans, fertilization typically occurs in which region of the female reproductive tract?",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30305,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "groups": [
+        "structure"
+      ],
+      "question": "The specialized excretory structures found in insects like the cockroach are:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30307,
+      "subject": "Biology",
+      "topic": "Genetics and Evolution",
+      "groups": [
+        "process"
+      ],
+      "question": "A cross between a pure-breeding red-flowered plant and a pure-breeding white- flowered plant producing all pink offspring in the F₁ generation demonstrates:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30308,
+      "subject": "Biology",
+      "topic": "Transport",
+      "groups": [
+        "spatial"
+      ],
+      "question": "The movement of molecules from a region of higher concentration to lower concentration along a concentration gradient is:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30313,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "In flowering plants, double fertilization results in the formation of a diploid zygote and a triploid:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_008_input.json",
+      "externalId": 30317,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "groups": [
+        "process"
+      ],
+      "question": "The process of tooth decay, dental caries, is initiated by bacteria converting dietary sugars into:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_009_input.json",
+      "externalId": 30343,
+      "subject": "Biology",
+      "topic": "Respiration and Gas Exchange",
+      "groups": [
+        "structure"
+      ],
+      "question": "The structure that prevents food from entering the trachea during swallowing in mammals is the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_009_input.json",
+      "externalId": 30350,
+      "subject": "Biology",
+      "topic": "Classification and Diversity",
+      "groups": [
+        "process"
+      ],
+      "question": "The process of converting atmospheric nitrogen into nitrates by free-living soil bacteria like Azotobacter is:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_010_input.json",
+      "externalId": 30388,
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "groups": [
+        "process"
+      ],
+      "question": "The valve that prevents the backflow of blood from the aorta into the left ventricle is the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_010_input.json",
+      "externalId": 30393,
+      "subject": "Biology",
+      "topic": "Ecology",
+      "groups": [
+        "spatial"
+      ],
+      "question": "In ecological succession, the stable, self-sustaining community that undergoes no further major composition changes is the:",
+      "classification": "safe-optional-schematic"
+    },
+    {
+      "file": "legacy_explanation_batch_010_input.json",
+      "externalId": 30396,
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "groups": [
+        "process"
+      ],
+      "question": "Cross-pollination in flowering plants is favored by dichogamy, which specifically refers to:",
+      "classification": "safe-optional-schematic"
+    }
+  ]
+}
