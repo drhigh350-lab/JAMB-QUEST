@@ -1,7 +1,7 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v4";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v5";
 const STUDY_PACK_CACHE = "jamb-quest-study-pack-v1";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
@@ -27,7 +27,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin || url.pathname.startsWith("/api/")) return;
   if (request.mode === "navigate") {
-    event.respondWith(fetch(request).then((response) => {
+    event.respondWith(fetch(request, { cache: "no-store" }).then((response) => {
       const copy = response.clone();
       void caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
       return response;

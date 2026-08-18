@@ -168,7 +168,7 @@ function App() {
       window.location.reload();
     };
     navigator.serviceWorker.addEventListener("controllerchange", refreshForNewWorker);
-    void navigator.serviceWorker.register(workerPath).then((registration) => {
+    void navigator.serviceWorker.register(workerPath, { updateViaCache: "none" }).then((registration) => {
       const activateWaitingWorker = () => registration.waiting?.postMessage({ type: "SKIP_WAITING" });
       activateWaitingWorker();
       registration.addEventListener("updatefound", () => {
