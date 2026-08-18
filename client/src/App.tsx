@@ -106,7 +106,9 @@ function App() {
           setPushStatus(result.providerAccepted ? "enabled" : "provider-pending");
           return;
         } catch {
-          // Keep the existing VAPID route available if OneSignal cannot initialize on this device.
+          // A legacy VAPID result is not evidence that OneSignal can target this learner for future messages.
+          setPushStatus("provider-pending");
+          return;
         }
       }
       if (!pushKeyQuery.data) throw new Error("No browser-push transport is configured.");

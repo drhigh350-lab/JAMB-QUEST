@@ -8,6 +8,10 @@ describe("OneSignal recovery enrollment", () => {
     expect(app).toContain("enableOneSignal(oneSignalAppIdQuery.data, user.id)");
     expect(app).toContain("confirmProviderEnrollment.mutateAsync()");
     expect(app).toContain("providerEnrollmentAttempt.current === attemptKey");
+    expect(app).toContain('setPushStatus("provider-pending");\n          return;');
+    const providerBranch = app.slice(app.indexOf("if (oneSignalAppIdQuery.data && user?.id)"), app.indexOf("if (!pushKeyQuery.data)"));
+    expect(providerBranch).toContain('setPushStatus("provider-pending");\n          return;');
+    expect(providerBranch).not.toContain("enablePush.mutate");
     const adapter = readFileSync("client/src/lib/onesignal.ts", "utf8");
     expect(adapter).toContain("User.PushSubscription.optIn()");
     expect(adapter).toContain("PushSubscription.optedIn");
