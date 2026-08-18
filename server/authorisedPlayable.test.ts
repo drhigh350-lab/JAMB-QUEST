@@ -73,7 +73,7 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, diagramUrl: "/manus-storage/energy-profile.svg" })).not.toBeNull();
   });
 
-  it("removes the scraped diagram prefix but holds the owner-rejected screenshot batch even if an old asset remains", () => {
+  it("removes the scraped diagram prefix, blocks an old generated screenshot asset, and permits only a reviewed owner-original recovery", () => {
     expect(normaliseQuestionStem("[Diagram Question] In the energy profile diagram above, X represents the:")).toBe("In the energy profile diagram above, X represents the:");
     expect(toPlayableAuthorisedQuestion({
       id: 234,
@@ -88,6 +88,19 @@ describe("owner-provided playable question mapping", () => {
       diagramUrl: "/manus-storage/rejected-generated-energy-profile.svg",
       sourceLabel: "Owner-supplied Chemistry diagram screenshots",
     })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({
+      id: 235,
+      externalId: "OWNER-CHEM-DIAGRAM-2026-004",
+      subject: "Chemistry",
+      topic: "Energy changes",
+      difficulty: "medium",
+      questionText: "In the energy profile diagram above, X represents the:",
+      optionsJson: JSON.stringify(["enthalpy", "enthalpy change", "activation energy", "activated complex"]),
+      answerIndex: 2,
+      explanation: "A graph is needed to answer this question.",
+      diagramUrl: "/manus-storage/owner-chem-diagram-2026-004_4f0abed0.png",
+      sourceLabel: "Owner-supplied Chemistry diagram screenshots",
+    })).not.toBeNull();
   });
 
   it("holds explicit figure and graph references until an asset is linked", () => {

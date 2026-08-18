@@ -826,6 +826,7 @@ export function hasEmbeddedOptionMetadata(option: string) {
 
 const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b)/i;
 const OWNER_REJECTED_SCREENSHOT_BATCH = /^OWNER-(?:PHY|CHEM|BIO)-DIAGRAM-/;
+const RECOVERED_OWNER_ORIGINAL_ASSET = /^\/manus-storage\/owner-(?:phy|chem|bio)-diagram-/i;
 
 export function requiresDiagramAsset(questionText: string) {
   return DIAGRAM_REFERENCE.test(questionText);
@@ -837,9 +838,9 @@ export function normaliseQuestionStem(questionText: string) {
 
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
-  // The owner rejected all reconstructed screenshot-batch visuals. They remain held until
-  // an owner-supplied original visual is deliberately reviewed and relinked in a future intake.
-  if (row.externalId && OWNER_REJECTED_SCREENSHOT_BATCH.test(row.externalId)) return null;
+  // Reconstructed screenshot-batch visuals are rejected. These records may return only with
+  // a recovered owner-original asset, never with a generated replacement URL.
+  if (row.externalId && OWNER_REJECTED_SCREENSHOT_BATCH.test(row.externalId) && (!row.diagramUrl || !RECOVERED_OWNER_ORIGINAL_ASSET.test(row.diagramUrl))) return null;
   try {
     const questionText = normaliseQuestionStem(row.questionText);
     const options = JSON.parse(row.optionsJson);
