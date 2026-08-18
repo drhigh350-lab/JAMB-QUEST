@@ -32,7 +32,7 @@ describe("weekend learner-flow audit", () => {
     expect(home).toContain("openMissedQuestions(wrongIds, \"Full JAMB Mock\")");
     expect(home).toContain("weakTopics.slice(0, 3)");
     expect(home).toContain("bookmarks.slice(0, 3)");
-    expect(home).toContain("Start full mock");
+    expect(home).toContain("Start 2-hour CBT");
     expect(home).toContain("Day before JAMB? Open your final-day review");
   });
 

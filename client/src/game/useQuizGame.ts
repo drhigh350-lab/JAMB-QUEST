@@ -4,10 +4,17 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { isRoundTimed } from "./dailyMission";
 import { loadQuestionBank, normaliseQuestionTopic, selectQuestions } from "./questionBank";
 import { clearActiveCbtSession, getActiveCbtSession, getProgress, recordRound, saveActiveCbtSession, saveProgress } from "./storage";
-import type { ActiveCbtSession, AnswerRecord, BankQuestion, ExamReviewRecord, GameScreen, QuizMode, RoundConfig, RoundSubject, StoredProgress } from "./types";
+import { STANDARD_FULL_CBT_SECONDS, type ActiveCbtSession, type AnswerRecord, type BankQuestion, type ExamReviewRecord, type GameScreen, type QuizMode, type RoundConfig, type RoundSubject, type StoredProgress } from "./types";
 
 const DEFAULT_SECONDS = 35;
 const CBT_MINIMUM_SECONDS = 20 * 60;
+
+export function resolveCbtDurationSeconds(config: RoundConfig) {
+  if (config.mode !== "cbt") return DEFAULT_SECONDS;
+  if (config.durationSeconds) return config.durationSeconds;
+  if (config.subject === "Full JAMB Mock" && config.count === 180) return STANDARD_FULL_CBT_SECONDS;
+  return Math.max(CBT_MINIMUM_SECONDS, config.count * 75);
+}
 
 export type RoundCompletionPayload = {
   subject: RoundSubject;
@@ -150,12 +157,12 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const startRound = useCallback(
     (config: RoundConfig) => {
       if (!playableQuestions.length) return;
-      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds, { topic: config.topic, topics: config.topics, questionIds: config.questionIds });
+      const picked = selectQuestions(playableQuestions, config.subject, config.mode, config.count, progress.wrongIds, { topic: config.topic, topics: config.topics, questionIds: config.questionIds, includeLekki: config.includeLekki });
       if (!picked.length) {
         setLoadError(config.questionIds?.length ? config.recoveryOrigin === "missed-questions" ? "None of the missed questions from that attempt are currently available in the active question bank." : "That saved question is no longer available in the active question bank." : config.topic ? `No playable questions are currently available for ${config.topic}.` : config.topics?.length ? "No playable questions are currently available in that study area." : "No playable questions are available for this round.");
         return;
       }
-      const startingSeconds = config.mode === "cbt" ? Math.max(CBT_MINIMUM_SECONDS, config.count * 75) : DEFAULT_SECONDS;
+      const startingSeconds = resolveCbtDurationSeconds(config);
       if (config.mode === "cbt") {
         saveActiveCbtSession({ config, questionIds: picked.map((question) => question.id), answers: {}, flaggedIds: [], currentIndex: 0, secondsLeft: startingSeconds, initialSeconds: startingSeconds, isPaused: false, deadlineAt: Date.now() + startingSeconds * 1000 });
         setResumableCbt(null);

@@ -60,6 +60,15 @@ describe("CBT simulator", () => {
     });
   });
 
+  it("keeps the standard full CBT distinct from optional Lekki novel questions", () => {
+    const standardPool = subjects.flatMap((subject) => Array.from({ length: subject === "Use of English" ? 60 : 40 }, (_, index) => ({ ...questions.find((question) => question.subject === subject)!, id: `standard-excluding-lekki-${subject}-${index}` })));
+    const lekkiQuestions = Array.from({ length: 20 }, (_, index) => ({ ...questions[0], id: `lekki-full-mock-${index}`, subject: "Use of English" as const, topic: "The Lekki Headmaster · Chapter 1: Dusk" }));
+    const selected = selectQuestions([...standardPool, ...lekkiQuestions], "Full JAMB Mock", "cbt", 180, []);
+
+    expect(selected).toHaveLength(180);
+    expect(selected.every((question) => !question.topic.startsWith("The Lekki Headmaster"))).toBe(true);
+  });
+
   it("renders a full-mock navigator with local subject numbering, per-subject progress, and accessible palette states", () => {
     const html = renderToStaticMarkup(React.createElement(QuestionLedger, {
       questions,

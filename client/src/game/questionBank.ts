@@ -52,9 +52,10 @@ export function selectQuestions(
   mode: QuizMode,
   count: number,
   wrongIds: string[],
-  filters?: { topic?: string; topics?: string[]; questionIds?: string[] },
+  filters?: { topic?: string; topics?: string[]; questionIds?: string[]; includeLekki?: boolean },
 ): BankQuestion[] {
   const savedQuestionIds = new Set(filters?.questionIds ?? []);
+  const isLekkiQuestion = (question: BankQuestion) => question.subject === "Use of English" && question.topic.startsWith("The Lekki Headmaster");
   if (savedQuestionIds.size) {
     const exactQuestions = questions.filter((question) => savedQuestionIds.has(question.id));
     return shuffle(exactQuestions).slice(0, Math.min(count, exactQuestions.length));
@@ -64,13 +65,17 @@ export function selectQuestions(
       ? { "Use of English": 60, Biology: 40, Chemistry: 40, Physics: 40 } satisfies Record<Subject, number>
       : Object.fromEntries(SUBJECTS.map((currentSubject, index) => [currentSubject, Math.floor(count / SUBJECTS.length) + (index < count % SUBJECTS.length ? 1 : 0)])) as Record<Subject, number>;
     return SUBJECTS.flatMap((currentSubject) => {
-      const selected = questions.filter((question) => question.subject === currentSubject);
+      const selected = questions.filter((question) => question.subject === currentSubject && (currentSubject !== "Use of English" || filters?.includeLekki || !isLekkiQuestion(question)));
       return shuffle(selected).slice(0, distribution[currentSubject]);
     });
   }
-  const subjectQuestions = questions.filter((question) => question.subject === subject);
+  const allSubjectQuestions = questions.filter((question) => question.subject === subject);
   const requestedTopics = new Set(filters?.topics ?? []);
   const hasTopicFilter = Boolean(filters?.topic || requestedTopics.size);
+  const isDedicatedLekkiRound = Boolean(filters?.topic?.startsWith("The Lekki Headmaster")) || Array.from(requestedTopics).some((topic) => topic.startsWith("The Lekki Headmaster"));
+  const subjectQuestions = subject === "Use of English" && !filters?.includeLekki && !isDedicatedLekkiRound
+    ? allSubjectQuestions.filter((question) => !isLekkiQuestion(question))
+    : allSubjectQuestions;
   const source = filters?.topic
       ? subjectQuestions.filter((question) => question.topic === filters.topic || (filters.topic === "The Lekki Headmaster" && question.topic.startsWith("The Lekki Headmaster · Chapter")))
       : requestedTopics.size

@@ -47,4 +47,17 @@ describe("learner-facing topic normalization", () => {
     expect(selected).toHaveLength(20);
     expect(selected.every((question) => question.subject === "Use of English" && question.topic.startsWith("The Lekki Headmaster · Chapter"))).toBe(true);
   });
+
+  it("keeps Lekki out of ordinary English rounds unless the learner explicitly adds it", () => {
+    const coreEnglish = Array.from({ length: 8 }, (_, index) => ({ id: `core-english-${index}`, subject: "Use of English" as const, topic: "Lexis and Structure", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Core English question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "authorised" as const }));
+    const lekki = Array.from({ length: 8 }, (_, index) => ({ ...coreEnglish[index], id: `lekki-opt-in-${index}`, topic: "The Lekki Headmaster · Chapter 1: Dusk", question: `Lekki question ${index}` }));
+
+    const coreOnly = selectQuestions([...coreEnglish, ...lekki], "Use of English", "sprint", 16, []);
+    const withLekki = selectQuestions([...coreEnglish, ...lekki], "Use of English", "sprint", 16, [], { includeLekki: true });
+
+    expect(coreOnly).toHaveLength(8);
+    expect(coreOnly.every((question) => !question.topic.startsWith("The Lekki Headmaster"))).toBe(true);
+    expect(withLekki).toHaveLength(16);
+    expect(withLekki.some((question) => question.topic.startsWith("The Lekki Headmaster"))).toBe(true);
+  });
 });

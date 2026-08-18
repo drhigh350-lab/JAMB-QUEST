@@ -4,6 +4,7 @@ export type Subject = "Use of English" | "Biology" | "Chemistry" | "Physics";
 export type RoundSubject = Subject | "Full JAMB Mock";
 export type QuizMode = "sprint" | "cbt" | "review";
 export type GameScreen = "home" | "quiz" | "result" | "exam-review";
+export const STANDARD_FULL_CBT_SECONDS = 2 * 60 * 60;
 
 export interface BankQuestion {
   id: string;
@@ -36,6 +37,10 @@ export interface RoundConfig {
   mode: QuizMode;
   count: number;
   timing?: "study" | "timed";
+  /** Optional explicit duration for a timed CBT, in seconds. */
+  durationSeconds?: number;
+  /** English-only choice: include the separate Lekki Headmaster novel pool. */
+  includeLekki?: boolean;
   topic?: string;
   topics?: string[];
   questionIds?: string[];
