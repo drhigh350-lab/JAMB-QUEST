@@ -6,7 +6,7 @@ import { ArrowRight, Atom, Award, BellOff, BellRing, BookmarkCheck, BookOpen, Ca
 import { ProfilePanel } from "@/components/ProfilePanel";
 import { DailyMissionPanel } from "@/components/DailyMissionPanel";
 import { ProgressSignals } from "@/components/ProgressSignals";
-import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics } from "@/game/dailyMission";
+import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics, type CoreSubjectFocus } from "@/game/dailyMission";
 import { STANDARD_FULL_CBT_SECONDS, type RoundConfig, type RoundSubject, type StoredProgress, type Subject } from "@/game/types";
 import { OFFICIAL_SYLLABUS_AREAS } from "@shared/syllabusTopicMap";
 import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
@@ -48,6 +48,7 @@ interface HomeProps {
   weakTopics: Array<{ topic: string; subject?: string | null; misses: number; attempts: number; accuracy: number }>;
   subjectPerformance?: Array<{ subject: string; attempts: number; accuracy: number }>;
   fullMockSubjectPerformance?: Array<{ subject: string; attempts: number; accuracy: number }>;
+  coreSubjectFocus?: { subject: string; attempts: number; accuracy: number } | null;
   availableTopics?: Array<{ subject: Subject; topic: string }>;
   bookmarks?: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>;
   comparison?: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
@@ -93,7 +94,7 @@ function SubjectAccuracyChart({ performance }: { performance: Array<{ subject: s
   return <div className="subject-chart" aria-label="Subject accuracy comparison"><div className="performance-chart-head"><span>SUBJECT ACCURACY</span><strong>real attempts only</strong></div><div className="subject-chart-grid">{visible.map((item) => <div className="subject-chart-row" key={item.label}><b>{item.label}</b><div className="subject-chart-track"><span style={{ width: `${Math.max(2, item.accuracy)}%` }} /></div><strong>{item.attempts ? `${item.accuracy}%` : "—"}</strong></div>)}</div></div>;
 }
 
-export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, achievementStats, examHistory, onOpenExamLog = () => undefined, examReviewOpening = false, examReviewError = null, weakTopics, subjectPerformance = [], fullMockSubjectPerformance = [], availableTopics = [], bookmarks = [], comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
+export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, achievementStats, examHistory, onOpenExamLog = () => undefined, examReviewOpening = false, examReviewError = null, weakTopics, subjectPerformance = [], fullMockSubjectPerformance = [], coreSubjectFocus = null, availableTopics = [], bookmarks = [], comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
   const [activeTab, setActiveTab] = useState<AppTab>(() => {
     const requested = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("tab");
     return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
@@ -124,9 +125,12 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const lekkiChapters = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster · Chapter")).map((item) => item.topic).sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
   const selectedState = { ...guestComeback(), ...(comeback ?? {}), today: { ...guestComeback().today, ...(comeback?.today ?? {}) }, dailyGoalCount: comeback?.dailyGoalCount ?? comeback?.dailyMinimum ?? 10, dailyGoalSubject: comeback?.dailyGoalSubject ?? null, dailyGoalTopic: comeback?.dailyGoalTopic ?? null };
   const wrongIds = progress.wrongIds ?? [];
+  const balancedCoreFocus: CoreSubjectFocus | null = coreSubjectFocus && subjects.some((subject) => subject.name === coreSubjectFocus.subject) ? { ...coreSubjectFocus, subject: coreSubjectFocus.subject as Subject } : null;
+  const coreWeakTopics = weakTopics.filter((topic) => !topic.topic.startsWith("The Lekki Headmaster"));
+  const optionalNovelWeakTopics = weakTopics.filter((topic) => topic.topic.startsWith("The Lekki Headmaster"));
   const visibleQuestionCount = questionCountReady ? questionCount : null;
   const visibleQuestionLabel = visibleQuestionCount === null ? "Preparing your JAMB Quest system" : `${visibleQuestionCount.toLocaleString()} practice questions`;
-  const dailyMission = selectDailyMission({ weakTopics, fallbackSubject: selectedSubject, wrongIds, recoveryPending: selectedState.recoveryPending });
+  const dailyMission = selectDailyMission({ weakTopics: coreWeakTopics, fallbackSubject: selectedSubject, wrongIds, recoveryPending: selectedState.recoveryPending, coreSubjectFocus: balancedCoreFocus });
   const roundAnalytics = summariseRoundAnalytics(examHistory);
   const overallAccuracy = progress.totalAnswered ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
   const progressNextAction = selectProgressNextAction({ accuracy: overallAccuracy, averageSecondsPerQuestion: roundAnalytics.averageSecondsPerQuestion, fallback: dailyMission.note });
@@ -149,7 +153,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   });
   const liveMessages = [
     selectedState.today.completedMinimum ? "Today’s study goal is complete. Protect the streak with one more deliberate round." : `${selectedState.dailyGoalCount - Math.min(selectedState.dailyGoalCount, selectedState.today.questionsAnswered)} questions remain in today’s system.`,
-    weakTopics[0] ? `Live focus: ${weakTopics[0].topic} is ready for a repair drill.` : "Live focus: finish your diagnostic to reveal the first weak topic.",
+    balancedCoreFocus ? `Live focus: strengthen ${balancedCoreFocus.subject} with a balanced core round.` : "Live focus: finish your diagnostic to reveal the first subject signal.",
     visibleQuestionCount === null ? "Preparing your JAMB Quest system now." : `${visibleQuestionCount.toLocaleString()} practice questions are ready to support today’s system.`,
   ];
   const [liveMessageIndex, setLiveMessageIndex] = useState(0);
@@ -200,6 +204,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   };
   const startFullMock = () => onStart({ subject: "Full JAMB Mock", mode: "cbt", count: 180, durationSeconds: STANDARD_FULL_CBT_SECONDS });
   const isStudySubject = (subject: string): subject is Subject => subjects.some((item) => item.name === subject);
+  const startSubjectRepair = (focus: CoreSubjectFocus) => onStart({ subject: focus.subject, mode: "sprint", count: 20, timing: "study" });
   const startTopicDrill = (topic: { subject?: string | null; topic: string }) => { if (topic.subject && isStudySubject(topic.subject)) onStart({ subject: topic.subject, mode: "sprint", count: 20, timing: "study", topic: topic.topic }); };
   const startSelectedTopicDrill = () => {
     if (selectedTopic) {
@@ -215,7 +220,7 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
   const openBookmark = (bookmark: { questionId: string; subject: string; topic: string }) => { if (isStudySubject(bookmark.subject)) onStart({ subject: bookmark.subject, mode: "sprint", count: 1, timing: "study", questionIds: [bookmark.questionId], recoveryOrigin: "saved-question" }); };
   const openMissedQuestions = (questionIds: string[], subject: string) => { if (questionIds.length) { const roundSubject: RoundSubject = subject === "Full JAMB Mock" || isStudySubject(subject) ? subject : "Full JAMB Mock"; onStart({ subject: roundSubject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); } };
   const revisionSteps = [
-    weakTopics[0] ? { key: "drill", label: `Repair ${weakTopics[0].topic}`, note: `Run a 20-question ${weakTopics[0].subject ?? "focused"} drill from the most recent misses.`, action: () => startTopicDrill(weakTopics[0]) } : null,
+    balancedCoreFocus ? { key: "core-subject", label: `Strengthen ${balancedCoreFocus.subject}`, note: `${balancedCoreFocus.accuracy}% across ${balancedCoreFocus.attempts} recorded questions. Use a broad 20-question core round; exact topic repairs stay below.`, action: () => startSubjectRepair(balancedCoreFocus) } : null,
     bookmarks[0] ? { key: "saved", label: "Revisit a saved question", note: `${bookmarks.length} saved revision ${bookmarks.length === 1 ? "item is" : "items are"} ready for deliberate review.`, action: () => openBookmark(bookmarks[0]) } : null,
     comparison?.latest ? { key: "cbt", label: "Confirm with another CBT", note: "After the recovery action, use a timed CBT paper to measure the change under exam conditions.", action: startFullMock } : { key: "baseline", label: "Create your CBT baseline", note: "Open the standard two-hour CBT to give your study plan real evidence.", action: () => setActiveTab("practice") },
   ].filter((step): step is { key: string; label: string; note: string; action: () => void } => step !== null);
@@ -276,10 +281,10 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
 
       {activeTab === "progress" && <>
         <section className="compact-progress-grid tab-section" aria-label="Progress tools">
-          <CompactPanel eyebrow="01 / NEXT MOVE" title={weakTopics[0] ? `Fix ${weakTopics[0].topic}` : "Create your first evidence"} note={progressNextAction} defaultOpen tone="maize">
+          <CompactPanel eyebrow="01 / NEXT MOVE" title={balancedCoreFocus ? `Strengthen ${balancedCoreFocus.subject}` : "Create your first evidence"} note={progressNextAction} defaultOpen tone="maize">
             <ProgressSignals estimatedUtmeScore={roundAnalytics.estimatedUtmeScore} targetScore={auth.targetScore} averageSecondsPerQuestion={roundAnalytics.averageSecondsPerQuestion} accuracy={overallAccuracy} nextAction={progressNextAction} fullMockSubjectPerformance={fullMockSubjectPerformance} />
             <div className="compact-target-line"><span>YOUR TARGET</span><strong>{targetLabel}</strong><small>{auth.isAuthenticated ? "Your target is saved in Profile." : "Sign in to save and track your personal target."}</small></div>
-            <div className="compact-subject-signals">{subjects.map((subject) => { const signal = subjectPerformance.find((item) => item.subject === subject.name); const weakTopic = weakTopics.find((topic) => topic.subject === subject.name); return <article data-testid={`subject-signal-${subject.short}`} key={subject.name}><span>{subject.short}</span><strong>{signal ? `${signal.accuracy}%` : "—"}</strong><small>{weakTopic ? weakTopic.topic : "no weak topic yet"}</small>{weakTopic && <button className="text-button" onClick={() => startTopicDrill(weakTopic)}>Fix in 20 <ArrowRight size={12} /></button>}</article>; })}</div><SubjectAccuracyChart performance={subjectPerformance} /><AccuracyLineChart rounds={cbtHistory} />
+            <div className="compact-subject-signals">{subjects.map((subject) => { const signal = subjectPerformance.find((item) => item.subject === subject.name); const weakTopic = coreWeakTopics.find((topic) => topic.subject === subject.name); return <article data-testid={`subject-signal-${subject.short}`} key={subject.name}><span>{subject.short}</span><strong>{signal ? `${signal.accuracy}%` : "—"}</strong><small>{weakTopic ? weakTopic.topic : "no core topic yet"}</small>{weakTopic && <button className="text-button" onClick={() => startTopicDrill(weakTopic)}>Fix in 20 <ArrowRight size={12} /></button>}</article>; })}</div><SubjectAccuracyChart performance={subjectPerformance} /><AccuracyLineChart rounds={cbtHistory} />
             <ol className="compact-revision-steps">{revisionSteps.map((step, index) => <li key={step.key}><span>{index + 1}</span><div><b>{step.label}</b><small>{step.note}</small></div><button className="text-button" onClick={step.action}>Start <ArrowRight size={12} /></button></li>)}</ol>
           </CompactPanel>
 
@@ -291,7 +296,8 @@ export default function Home({ loading, loadError, progress, canReview, onRetryL
 
           <CompactPanel eyebrow="03 / REVISION" title="Open your revision shelf" note={`${wrongIds.length} missed · ${bookmarks.length} saved`} tone="ink">
             {wrongIds.length > 0 && <button className="compact-missed-button" onClick={() => openMissedQuestions(wrongIds, "Full JAMB Mock")}>Open all {wrongIds.length} missed <ArrowRight size={14} /></button>}
-            <div className="compact-weak-list">{weakTopics.length ? weakTopics.slice(0, 4).map((topic) => <article key={`${topic.subject}-${topic.topic}`}><span><b>{topic.topic}</b><small>{topic.subject} · {topic.accuracy}% accuracy</small></span><button className="text-button" onClick={() => startTopicDrill(topic)} disabled={!topic.subject}>Fix in 20 <ArrowRight size={12} /></button></article>) : <p className="compact-empty">Complete a round to turn real misses into focused repairs.</p>}</div>
+            <div className="compact-weak-list">{coreWeakTopics.length ? coreWeakTopics.slice(0, 4).map((topic) => <article key={`${topic.subject}-${topic.topic}`}><span><b>{topic.topic}</b><small>{topic.subject} · {topic.accuracy}% accuracy</small></span><button className="text-button" onClick={() => startTopicDrill(topic)} disabled={!topic.subject}>Fix in 20 <ArrowRight size={12} /></button></article>) : <p className="compact-empty">Complete a core-subject round to turn real misses into focused repairs.</p>}</div>
+            {optionalNovelWeakTopics.length > 0 && <details className="optional-novel-recovery"><summary>Optional Lekki recovery <span>{optionalNovelWeakTopics.length} chapter{optionalNovelWeakTopics.length === 1 ? "" : "s"}</span></summary>{optionalNovelWeakTopics.slice(0, 3).map((topic) => <article key={`${topic.subject}-${topic.topic}`}><span><b>{topic.topic.replace("The Lekki Headmaster · ", "")}</b><small>Use of English novel · {topic.accuracy}% accuracy</small></span><button className="text-button" onClick={() => startTopicDrill(topic)}>Fix in 20 <ArrowRight size={12} /></button></article>)}</details>}
             <div className="compact-saved-list">{bookmarks.length ? bookmarks.slice(0, 5).map((bookmark) => <article key={bookmark.questionId}><span><b>{bookmark.topic}</b><small>{bookmark.subject}</small></span><button className="text-button" onClick={() => openBookmark(bookmark)}>Open <ArrowRight size={12} /></button></article>) : <p className="compact-empty">Save any useful question to keep it on your revision shelf.</p>}</div>
             <div className="compact-badges"><span>{achievementSummary.earned.length} / 50 achievements</span>{achievementSummary.earned.slice(0, 6).map((badge) => <i className="unlocked" key={badge.key} title={badge.label}><Award size={15} /></i>)}{achievementSummary.next && <b>Next: {achievementSummary.next.label}</b>}</div>
           </CompactPanel>

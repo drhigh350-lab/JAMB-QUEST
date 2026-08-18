@@ -61,7 +61,7 @@ export type LearnerDashboard = {
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean; providerEnabled: boolean; providerQueue: { scheduledCount: number; nextScheduledAt: Date | null; horizonDays: number } };
   achievementStats: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] };
-  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }> };
+  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; coreSubjectFocus: { subject: string; attempts: number; accuracy: number } | null };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
   comparison: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
   recentRounds: Array<{
@@ -230,7 +230,7 @@ export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: 
 
 export function buildExamComparison(
   rounds: Array<{ id: number; mode: string; questionCount: number; correctCount: number; durationSeconds: number; flaggedCount: number; completedAt: Date }>,
-  weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>,
+  coreSubjectFocus: { subject: string; attempts: number; accuracy: number } | null,
 ) {
   const exams = rounds.filter((round) => round.mode === "cbt").slice(0, 2);
   const latestRound = exams[0];
@@ -245,11 +245,10 @@ export function buildExamComparison(
   const latest = toSummary(latestRound);
   const previous = toSummary(previousRound);
   const accuracyChange = latest && previous ? latest.accuracy - previous.accuracy : null;
-  const priorityTopic = weakTopics[0];
   const recommendation = !latest
     ? "Take a timed CBT mock to create your first performance baseline."
-    : priorityTopic
-      ? `Run a focused ${Math.min(20, Math.max(10, priorityTopic.misses * 5))}-question drill on ${priorityTopic.topic}; it is your clearest recovery opportunity.`
+    : coreSubjectFocus
+      ? `Use a balanced 20-question ${coreSubjectFocus.subject} core practice next. Its ${coreSubjectFocus.accuracy}% accuracy is the clearest subject-level recovery signal.`
       : latest.flaggedCount
         ? "Revisit the questions you flagged, then take another short CBT to confirm the improvement."
         : "Keep your system steady with a short mixed practice round before your next timed CBT.";
@@ -266,6 +265,16 @@ export function summariseSubjectPerformance(answers: Array<{ subject?: string | 
     bySubject.set(answer.subject, current);
   });
   return Array.from(bySubject.entries()).map(([subject, value]) => ({ subject, attempts: value.attempts, accuracy: Math.round((value.correct / value.attempts) * 100) })).sort((left, right) => left.subject.localeCompare(right.subject));
+}
+
+const CORE_STUDY_SUBJECTS = ["Use of English", "Biology", "Chemistry", "Physics"] as const;
+
+/** Keep the main recommendation subject-led; individual topics remain in subject recovery. */
+export function selectCoreSubjectFocus(performance: Array<{ subject: string; attempts: number; accuracy: number }>) {
+  const subjectOrder = new Map(CORE_STUDY_SUBJECTS.map((subject, index) => [subject, index]));
+  return performance
+    .filter((item) => item.attempts > 0 && subjectOrder.has(item.subject as typeof CORE_STUDY_SUBJECTS[number]))
+    .sort((left, right) => left.accuracy - right.accuracy || right.attempts - left.attempts || (subjectOrder.get(left.subject as typeof CORE_STUDY_SUBJECTS[number]) ?? 0) - (subjectOrder.get(right.subject as typeof CORE_STUDY_SUBJECTS[number]) ?? 0))[0] ?? null;
 }
 
 export function selectFullMockSubjectPerformance(rounds: Array<{ subject: string; questionCount: number; answerReviewJson: string | null }>) {
@@ -372,6 +381,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   }));
   const weakTopics = summariseWeakTopicsFromRounds(rounds, inferredTopicsByQuestionId);
   const subjectPerformance = summariseSubjectPerformance(answerReviews);
+  const coreSubjectFocus = selectCoreSubjectFocus(subjectPerformance);
   const fullMockSubjectPerformance = selectFullMockSubjectPerformance(rounds);
   const recentRounds = rounds.map((round) => {
     const review = parseAnswerReview(round.answerReviewJson);
@@ -388,7 +398,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       completedAt: round.completedAt,
     };
   });
-  const comparison = buildExamComparison(recentRounds, weakTopics);
+  const comparison = buildExamComparison(recentRounds, coreSubjectFocus);
   const today = activities.find((activity) => activity.dateKey === dateKey);
   const completedDays = recentActivity.filter((activity) => activity.completedMinimum).length;
 
@@ -435,8 +445,8 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       },
     },
     achievementStats: summariseAchievementStats({ activities, rounds: allRoundSummary }),
-    performance: { weakTopics, subjectPerformance, fullMockSubjectPerformance },
-    revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
+    performance: { weakTopics, subjectPerformance, fullMockSubjectPerformance, coreSubjectFocus },
+    revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: coreSubjectFocus ? weakTopics.flatMap((topic) => topic.subject === coreSubjectFocus.subject && !topic.topic.startsWith("The Lekki Headmaster") && topic.subject ? [{ topic: topic.topic, subject: topic.subject }] : [])[0] ?? null : null },
     comparison,
     recentRounds,
   };

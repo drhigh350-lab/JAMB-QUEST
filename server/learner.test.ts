@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot, countGoalQuestions, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
+import { buildLedgerSnapshot, countGoalQuestions, selectCoreSubjectFocus, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
 import { selectDailyMission } from "../client/src/game/dailyMission";
 
 describe("daily study goals", () => {
@@ -85,6 +85,18 @@ describe("selectFullMockSubjectPerformance", () => {
       { subject: "Full JAMB Mock", questionCount: 180, answerReviewJson: JSON.stringify([{ subject: "Biology", topic: "Ecology", correct: true }, { subject: "Biology", topic: "Ecology", correct: false }, { subject: "Physics", topic: "Forces", correct: true }]) },
     ])).toEqual([{ subject: "Biology", attempts: 2, accuracy: 50 }, { subject: "Physics", attempts: 1, accuracy: 100 }]);
     expect(selectFullMockSubjectPerformance([{ subject: "Biology", questionCount: 40, answerReviewJson: null }])).toEqual([]);
+  });
+});
+
+describe("selectCoreSubjectFocus", () => {
+  it("selects the lowest-performing core subject rather than the loudest narrow topic", () => {
+    const focus = selectCoreSubjectFocus([
+      { subject: "Use of English", attempts: 26, accuracy: 75 },
+      { subject: "Biology", attempts: 24, accuracy: 84 },
+      { subject: "Chemistry", attempts: 20, accuracy: 80 },
+      { subject: "Physics", attempts: 30, accuracy: 70 },
+    ]);
+    expect(focus).toMatchObject({ subject: "Physics", attempts: 30, accuracy: 70 });
   });
 });
 

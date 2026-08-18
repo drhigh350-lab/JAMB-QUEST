@@ -18,6 +18,14 @@ describe("daily study mission", () => {
     expect(summariseRoundAnalytics([{ subject: "Full JAMB Mock", questionCount: 180, correctCount: 144, durationSeconds: 7200, completedAt: new Date() }])).toEqual({ attempted: 180, averageSecondsPerQuestion: 40, estimatedUtmeScore: 320 });
   });
 
+  it("uses a broad core-subject mission when a balanced subject focus is available, leaving narrow topic repair inside Progress", () => {
+    const mission = selectDailyMission({ weakTopics: [{ subject: "Use of English", topic: "The Lekki Headmaster · Chapter 10: Passport Pains", misses: 26, accuracy: 74 }, { subject: "Physics", topic: "Reflection", misses: 6, accuracy: 70 }], fallbackSubject: "Biology", wrongIds: [], recoveryPending: false, coreSubjectFocus: { subject: "Physics", attempts: 30, accuracy: 70 } });
+    expect(mission.label).toBe("Physics core practice");
+    expect(mission.config).toMatchObject({ subject: "Physics", mode: "sprint", count: 20, timing: "study" });
+    expect(mission.config.topic).toBeUndefined();
+    expect(mission.note).toContain("exact topic repairs stay in Progress");
+  });
+
   it("withholds the UTME score estimate until a full 180-question mock is complete", () => {
     expect(summariseRoundAnalytics([{ subject: "Biology", questionCount: 40, correctCount: 35, durationSeconds: 1200, completedAt: new Date() }]).estimatedUtmeScore).toBeNull();
     expect(summariseRoundAnalytics([{ subject: "Full JAMB Mock", questionCount: 80, correctCount: 62, durationSeconds: 4800, completedAt: new Date() }]).estimatedUtmeScore).toBeNull();
@@ -26,7 +34,7 @@ describe("daily study mission", () => {
   it("changes the next action for slow-but-accurate versus inaccurate-but-fast work", () => {
     const fallback = "Fix Genetics first with 20 focused questions.";
     expect(selectProgressNextAction({ accuracy: 80, averageSecondsPerQuestion: 100, fallback })).toContain("timed speed drill");
-    expect(selectProgressNextAction({ accuracy: 50, averageSecondsPerQuestion: 30, fallback })).toContain("repair the weakest topic first");
+    expect(selectProgressNextAction({ accuracy: 50, averageSecondsPerQuestion: 30, fallback })).toContain("core-subject repair");
   });
 
   it("keeps Study and recovery rounds untimed while preserving strict CBT timing", () => {

@@ -107,15 +107,15 @@ describe("CBT simulator", () => {
     expect(emptyReview).toEqual([]);
   });
 
-  it("compares the two latest CBT logs and recommends the weakest topic rather than claiming a score prediction", () => {
+  it("compares the two latest CBT logs and recommends the balanced core subject rather than claiming a score prediction", () => {
     const comparison = buildExamComparison([
       { id: 2, mode: "cbt", questionCount: 40, correctCount: 30, durationSeconds: 1800, flaggedCount: 2, completedAt: new Date("2026-08-14T11:00:00Z") },
       { id: 1, mode: "cbt", questionCount: 40, correctCount: 25, durationSeconds: 1900, flaggedCount: 5, completedAt: new Date("2026-08-13T11:00:00Z") },
-    ], [{ topic: "Genetics", subject: "Biology", misses: 3, attempts: 5, accuracy: 40 }]);
+    ], { subject: "Physics", attempts: 30, accuracy: 70 });
     expect(comparison.latest?.accuracy).toBe(75);
     expect(comparison.previous?.accuracy).toBe(63);
     expect(comparison.accuracyChange).toBe(12);
-    expect(comparison.recommendation).toContain("Genetics");
+    expect(comparison.recommendation).toContain("Physics");
   });
 
   it("renders a full marked answer review with the learner answer, correction, and explanation", () => {
