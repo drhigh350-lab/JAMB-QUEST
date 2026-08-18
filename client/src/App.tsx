@@ -13,6 +13,7 @@ import { ResultSummary } from "./components/ResultSummary";
 import { ExamReview } from "./components/ExamReview";
 import type { StoredProgress } from "./game/types";
 import { urlBase64ToUint8Array } from "./lib/push";
+import { enableOneSignal } from "./lib/onesignal";
 import { startLogin } from "./const";
 import "./comeback.css";
 import { QuestOpening } from "./components/QuestOpening";
@@ -36,6 +37,7 @@ function App() {
   const [examReviewError, setExamReviewError] = useState<string | null>(null);
   const cbtHistoryQuery = trpc.learner.cbtHistory.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const pushKeyQuery = trpc.push.publicKey.useQuery(undefined, { enabled: isAuthenticated, retry: false });
+  const oneSignalAppIdQuery = trpc.push.oneSignalAppId.useQuery();
   const updateProfile = trpc.learner.updateProfile.useMutation({
     onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard),
   });
@@ -74,11 +76,11 @@ function App() {
   });
   const profileName = dashboardQuery.data?.profile.displayName ?? user?.name ?? "Learner";
   const setupBrowserPush = useCallback(async () => {
-    if (!isAuthenticated || !("serviceWorker" in navigator) || !("PushManager" in window) || !("Notification" in window)) {
+    if (!isAuthenticated || !("serviceWorker" in navigator) || !("Notification" in window)) {
       setPushStatus("unsupported");
       return;
     }
-    if (!pushKeyQuery.data) {
+    if (!oneSignalAppIdQuery.data && (!("PushManager" in window) || !pushKeyQuery.data)) {
       setPushStatus("failed");
       return;
     }
@@ -89,6 +91,17 @@ function App() {
         setPushStatus("denied");
         return;
       }
+      if (oneSignalAppIdQuery.data && user?.id) {
+        try {
+          await enableOneSignal(oneSignalAppIdQuery.data, user.id);
+          updateReminder.mutate({ enabled: true });
+          setPushStatus("enabled");
+          return;
+        } catch {
+          // Keep the existing VAPID route available if OneSignal cannot initialize on this device.
+        }
+      }
+      if (!pushKeyQuery.data) throw new Error("No browser-push transport is configured.");
       const registration = await navigator.serviceWorker.register("/sw.js");
       const existingSubscription = await registration.pushManager.getSubscription();
       // A successful provider response does not prove the installed app still owns a live
@@ -105,7 +118,7 @@ function App() {
     } catch {
       setPushStatus("failed");
     }
-  }, [enablePush, isAuthenticated, pushKeyQuery.data, updateReminder]);
+  }, [enablePush, isAuthenticated, oneSignalAppIdQuery.data, pushKeyQuery.data, updateReminder, user?.id]);
   const disableBrowserPush = useCallback(() => {
     disablePush.mutate(undefined, {
       onSuccess: () => { updateReminder.mutate({ enabled: false }); setPushStatus("disabled"); },

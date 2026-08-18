@@ -645,7 +645,37 @@ export async function getWebPushPublicKey() {
   return config.publicKey;
 }
 
+export function getOneSignalAppId() {
+  return process.env.ONESIGNAL_APP_ID ?? null;
+}
+
+async function sendOneSignalPush(userId: number, title: string, body: string, url: string) {
+  const appId = process.env.ONESIGNAL_APP_ID;
+  const apiKey = process.env.ONESIGNAL_APP_API_KEY;
+  if (!appId || !apiKey) return false;
+  try {
+    const response = await fetch("https://api.onesignal.com/notifications", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Key ${apiKey}` },
+      body: JSON.stringify({
+        app_id: appId,
+        include_aliases: { external_id: [String(userId)] },
+        target_channel: "push",
+        headings: { en: title },
+        contents: { en: body },
+        url,
+      }),
+    });
+    if (!response.ok) return false;
+    const result = await response.json() as { recipients?: number };
+    return Number(result.recipients ?? 0) > 0;
+  } catch {
+    return false;
+  }
+}
+
 export async function sendLearnerPush(userId: number, title: string, body: string, url = "/") {
+  if (await sendOneSignalPush(userId, title, body, url)) return [{ id: -1, delivered: true }];
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
   const config = await getOrCreatePushConfig();

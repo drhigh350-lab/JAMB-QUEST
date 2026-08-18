@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -84,6 +84,7 @@ export const appRouter = router({
   }),
   push: router({
     publicKey: publicProcedure.query(() => getWebPushPublicKey()),
+    oneSignalAppId: publicProcedure.query(() => getOneSignalAppId()),
   }),
   questionImports: router({
     validate: adminProcedure.input(authorisedImportSchema).query(({ input }) => ({
