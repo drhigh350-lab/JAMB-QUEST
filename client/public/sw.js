@@ -1,9 +1,11 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
-/* Keep OneSignal available here because the provider may re-register root scope. */
-importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+const ONE_SIGNAL_ROOT_WORKER = new URL(self.location.href).searchParams.get("onesignalRootWorker") === "1";
+/* A stale direct /sw.js registration retains provider compatibility; the shared root
+ * worker already loaded OneSignal before importing this script. */
+if (!ONE_SIGNAL_ROOT_WORKER) importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v5";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v6";
 const STUDY_PACK_CACHE = "jamb-quest-study-pack-v1";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 

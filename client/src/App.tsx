@@ -183,8 +183,9 @@ function App() {
       reloading = true;
       window.location.reload();
     };
+    const sharedWorkerPath = legacyUpgradeFixture ? "/sw.js?upgradeFixture=legacy" : "/OneSignalSDKWorker.js";
     navigator.serviceWorker.addEventListener("controllerchange", refreshForNewWorker);
-    void navigator.serviceWorker.register(workerPath, { updateViaCache: "none" }).then((registration) => {
+    void navigator.serviceWorker.register(sharedWorkerPath, { updateViaCache: "none" }).then((registration) => {
       const activateWaitingWorker = () => registration.waiting?.postMessage({ type: "SKIP_WAITING" });
       activateWaitingWorker();
       registration.addEventListener("updatefound", () => {

@@ -26,8 +26,8 @@ export function getOneSignal(appId: string) {
       try {
         await oneSignal.init({
           appId,
-          serviceWorkerPath: "push/onesignal/OneSignalSDKWorker.js",
-          serviceWorkerParam: { scope: "/push/onesignal/" },
+          serviceWorkerPath: "OneSignalSDKWorker.js",
+          serviceWorkerParam: { scope: "/" },
         });
         resolve(oneSignal);
       } catch (error) {

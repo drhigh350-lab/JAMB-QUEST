@@ -1,5 +1,4 @@
-/* Root compatibility entry point required by the provider's current Web settings.
- * It deliberately imports the JAMB Quest root worker, which already imports the
- * OneSignal worker and retains PWA cache, push, and notification-click behavior.
- */
-importScripts("/sw.js");
+/* OneSignal must load first; the JAMB Quest PWA behavior is then added at root scope.
+ * This follows the provider's documented combined-worker ordering. */
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+importScripts("/sw.js?onesignalRootWorker=1");

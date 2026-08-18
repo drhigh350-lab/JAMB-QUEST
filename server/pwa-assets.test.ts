@@ -29,7 +29,8 @@ describe("JAMB Quest PWA assets", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
     const providerRootWorker = readFileSync(resolve(publicDirectory, "OneSignalSDKWorker.js"), "utf8");
 
-    expect(worker).toContain('importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
+    expect(worker).toContain('const ONE_SIGNAL_ROOT_WORKER');
+    expect(worker).toContain('if (!ONE_SIGNAL_ROOT_WORKER) importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
     expect(worker).toContain('self.addEventListener("install"');
     expect(worker).toContain('self.addEventListener("fetch"');
     expect(worker).toContain('self.addEventListener("push"');
@@ -37,14 +38,15 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('self.addEventListener("message"');
     expect(worker).toContain('"SKIP_WAITING"');
     expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
-    expect(providerRootWorker).toContain('importScripts("/sw.js")');
+    expect(providerRootWorker).toContain('importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
+    expect(providerRootWorker).toContain('importScripts("/sw.js?onesignalRootWorker=1")');
     expect(providerRootWorker).not.toContain("text/html");
   });
 
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
 
-    expect(worker).toContain('"jamb-quest-shell-v5"');
+    expect(worker).toContain('"jamb-quest-shell-v6"');
     expect(worker).toContain('fetch(request, { cache: "no-store" })');
     const app = readFileSync(resolve(import.meta.dirname, "../client/src/App.tsx"), "utf8");
     expect(app).toContain('updateViaCache: "none"');
