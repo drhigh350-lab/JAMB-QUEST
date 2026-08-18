@@ -1,6 +1,6 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { and, desc, eq, inArray } from "drizzle-orm";
+import { and, desc, eq, gt, inArray } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
@@ -11,6 +11,7 @@ import {
   learnerBookmarks,
   learnerDailyActivities,
   learnerProfiles,
+  learnerProviderReminderQueue,
   learnerProgress,
   learnerPushSubscriptions,
   learnerReminderPreferences,
@@ -58,7 +59,7 @@ export type LearnerDashboard = {
     activity: Array<{ dateKey: string; questionsAnswered: number; correctCount: number; completedMinimum: boolean; recoveryAction: boolean; xpEarned: number }>;
     badges: string[];
   };
-  reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean };
+  reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean; providerQueue: { scheduledCount: number; nextScheduledAt: Date | null; horizonDays: number } };
   achievementStats: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] };
   performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }> };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
@@ -353,6 +354,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
   // Anchor analytics to the newest rounds; limiting an ascending query froze weakness analysis on the oldest history after 12 rounds.
   const rounds = await db.select().from(quizRounds).where(eq(quizRounds.userId, userId)).orderBy(desc(quizRounds.completedAt)).limit(12);
   const bookmarks = await db.select().from(learnerBookmarks).where(eq(learnerBookmarks.userId, userId));
+  const queuedProviderReminders = await db.select().from(learnerProviderReminderQueue).where(and(eq(learnerProviderReminderQueue.userId, userId), eq(learnerProviderReminderQueue.status, "scheduled"), gt(learnerProviderReminderQueue.scheduledFor, new Date())));
   const timeZone = profile?.timeZone ?? "Africa/Lagos";
   const dateKey = localDateKey(timeZone);
   const recentActivity = activities.sort((left, right) => left.dateKey.localeCompare(right.dateKey)).slice(-14);
@@ -421,7 +423,16 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       })),
       badges: achievements.map((achievement) => achievement.badgeKey),
     },
-    reminder: { enabled: Boolean(reminder?.enabled), reminderTime: reminder?.reminderTime ?? "19:00", pushEnabled: Boolean(pushSubscription?.enabled) },
+    reminder: {
+      enabled: Boolean(reminder?.enabled),
+      reminderTime: reminder?.reminderTime ?? "19:00",
+      pushEnabled: Boolean(pushSubscription?.enabled),
+      providerQueue: {
+        scheduledCount: queuedProviderReminders.length,
+        nextScheduledAt: queuedProviderReminders.sort((left, right) => left.scheduledFor.getTime() - right.scheduledFor.getTime())[0]?.scheduledFor ?? null,
+        horizonDays: PROVIDER_QUEUE_HORIZON_DAYS,
+      },
+    },
     achievementStats: summariseAchievementStats({ activities, rounds: allRoundSummary }),
     performance: { weakTopics, subjectPerformance, fullMockSubjectPerformance },
     revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: weakTopics[0]?.subject ? { topic: weakTopics[0].topic, subject: weakTopics[0].subject } : null },
@@ -606,6 +617,8 @@ export async function updateReminderPreferences(userId: number, fallbackName: st
   if (update.enabled !== undefined) set.enabled = update.enabled ? 1 : 0;
   if (update.reminderTime !== undefined) set.reminderTime = update.reminderTime;
   if (Object.keys(set).length) await db.update(learnerReminderPreferences).set(set).where(eq(learnerReminderPreferences.userId, userId));
+  if (update.enabled === false) await cancelProviderScheduledReminders(userId);
+  if (update.enabled === true) await refreshProviderScheduledReminders(userId, fallbackName);
   return getLearnerDashboard(userId, fallbackName);
 }
 
@@ -647,6 +660,107 @@ export async function getWebPushPublicKey() {
 
 export function getOneSignalAppId() {
   return process.env.ONESIGNAL_APP_ID ?? null;
+}
+
+const PROVIDER_QUEUE_HORIZON_DAYS = 28;
+const PROVIDER_QUEUE_URL = "/?tab=profile";
+const LAGOS_WINDOWS: Array<{ window: ReminderWindow; hour: number; title: string; body: string }> = [
+  { window: "morning", hour: 7, title: "JAMB Quest: start with your system", body: "Your morning JAMB Quest study system is ready. Start with one focused set." },
+  { window: "afternoon", hour: 13, title: "JAMB Quest: one deliberate round", body: "Your JAMB Quest study system is still open. One deliberate round changes the evidence." },
+  { window: "evening", hour: 19, title: "JAMB Quest: close the day with evidence", body: "Close the day with one focused JAMB Quest round and read the corrections." },
+];
+
+type ProviderReminderSlot = { queueKey: string; window: ReminderWindow; scheduledFor: Date };
+
+function lagosDateParts(date: Date) {
+  const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Lagos", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(date);
+  return Object.fromEntries(parts.filter((part) => part.type !== "literal").map((part) => [part.type, part.value])) as { year: string; month: string; day: string };
+}
+
+/** Nigeria uses Africa/Lagos (UTC+01:00 without daylight-saving shifts). */
+export function buildProviderReminderSlots(now = new Date(), horizonDays = PROVIDER_QUEUE_HORIZON_DAYS): ProviderReminderSlot[] {
+  const first = lagosDateParts(now);
+  const firstLagosMidnightUtc = Date.UTC(Number(first.year), Number(first.month) - 1, Number(first.day), -1, 0, 0);
+  return Array.from({ length: horizonDays + 1 }, (_, offset) => new Date(firstLagosMidnightUtc + offset * 86_400_000))
+    .flatMap((lagosMidnightUtc) => LAGOS_WINDOWS.map(({ window, hour }) => {
+      const scheduledFor = new Date(lagosMidnightUtc.getTime() + hour * 3_600_000);
+      const date = lagosDateParts(scheduledFor);
+      return { queueKey: `provider:${date.year}-${date.month}-${date.day}:${window}`, window, scheduledFor };
+    }))
+    .filter((slot) => slot.scheduledFor.getTime() > now.getTime() + 60_000);
+}
+
+async function createOneSignalFuturePush(userId: number, title: string, body: string, scheduledFor: Date) {
+  const appId = process.env.ONESIGNAL_APP_ID;
+  const apiKey = process.env.ONESIGNAL_APP_API_KEY;
+  if (!appId || !apiKey) return null;
+  try {
+    const response = await fetch("https://api.onesignal.com/notifications", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Key ${apiKey}` },
+      body: JSON.stringify({
+        app_id: appId,
+        include_aliases: { external_id: [String(userId)] },
+        target_channel: "push",
+        headings: { en: title },
+        contents: { en: body },
+        url: PROVIDER_QUEUE_URL,
+        send_after: scheduledFor.toISOString(),
+      }),
+    });
+    if (!response.ok) return null;
+    const result = await response.json() as { id?: string; recipients?: number };
+    return result.id && Number(result.recipients ?? 0) > 0 ? result.id : null;
+  } catch {
+    return null;
+  }
+}
+
+async function cancelOneSignalFuturePush(messageId: string) {
+  const appId = process.env.ONESIGNAL_APP_ID;
+  const apiKey = process.env.ONESIGNAL_APP_API_KEY;
+  if (!appId || !apiKey) return false;
+  try {
+    const response = await fetch(`https://api.onesignal.com/notifications/${encodeURIComponent(messageId)}?app_id=${encodeURIComponent(appId)}`, {
+      method: "DELETE",
+      headers: { Authorization: `Key ${apiKey}` },
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+export async function refreshProviderScheduledReminders(userId: number, fallbackName: string | null) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const [preference] = await db.select().from(learnerReminderPreferences).where(eq(learnerReminderPreferences.userId, userId)).limit(1);
+  if (!preference?.enabled) return getLearnerDashboard(userId, fallbackName);
+  const existing = await db.select().from(learnerProviderReminderQueue).where(eq(learnerProviderReminderQueue.userId, userId));
+  const byQueueKey = new Map(existing.map((record) => [record.queueKey, record]));
+  for (const slot of buildProviderReminderSlots()) {
+    const existingRecord = byQueueKey.get(slot.queueKey);
+    if (existingRecord?.status === "scheduled") continue;
+    const copy = LAGOS_WINDOWS.find((candidate) => candidate.window === slot.window);
+    if (!copy) continue;
+    const messageId = await createOneSignalFuturePush(userId, copy.title, copy.body, slot.scheduledFor);
+    if (!messageId) continue;
+    if (existingRecord) {
+      await db.update(learnerProviderReminderQueue).set({ window: slot.window, scheduledFor: slot.scheduledFor, oneSignalMessageId: messageId, status: "scheduled" }).where(eq(learnerProviderReminderQueue.id, existingRecord.id));
+    } else {
+      await db.insert(learnerProviderReminderQueue).values({ queueKey: slot.queueKey, userId, window: slot.window, scheduledFor: slot.scheduledFor, oneSignalMessageId: messageId, status: "scheduled" });
+    }
+  }
+  return getLearnerDashboard(userId, fallbackName);
+}
+
+async function cancelProviderScheduledReminders(userId: number) {
+  const db = await getDb();
+  if (!db) return;
+  const queued = await db.select().from(learnerProviderReminderQueue).where(and(eq(learnerProviderReminderQueue.userId, userId), eq(learnerProviderReminderQueue.status, "scheduled"), gt(learnerProviderReminderQueue.scheduledFor, new Date())));
+  await Promise.allSettled(queued.map(async (record) => {
+    await cancelOneSignalFuturePush(record.oneSignalMessageId);
+    await db.update(learnerProviderReminderQueue).set({ status: "cancelled" }).where(eq(learnerProviderReminderQueue.id, record.id));
+  }));
 }
 
 async function sendOneSignalPush(userId: number, title: string, body: string, url: string) {

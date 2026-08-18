@@ -210,6 +210,22 @@ export const learnerPushSubscriptions = mysqlTable("learnerPushSubscriptions", {
 });
 
 /**
+ * One record per learner/window/date pair for future OneSignal messages.
+ * The stable queueKey prevents duplicate schedules when Profile refreshes.
+ */
+export const learnerProviderReminderQueue = mysqlTable("learnerProviderReminderQueue", {
+  id: int("id").autoincrement().primaryKey(),
+  queueKey: varchar("queueKey", { length: 128 }).notNull().unique(),
+  userId: int("userId").notNull().references(() => users.id),
+  window: mysqlEnum("window", ["morning", "afternoon", "evening"]).notNull(),
+  scheduledFor: timestamp("scheduledFor").notNull(),
+  oneSignalMessageId: varchar("oneSignalMessageId", { length: 128 }).notNull(),
+  status: mysqlEnum("status", ["scheduled", "cancelled", "failed"]).notNull().default("scheduled"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+/**
  * The app’s VAPID key pair is generated once and stored server-side, never exposed beyond the public key.
  */
 export const projectPushConfigs = mysqlTable("projectPushConfigs", {
@@ -234,4 +250,5 @@ export type LearnerDailyActivity = typeof learnerDailyActivities.$inferSelect;
 export type LearnerAchievement = typeof learnerAchievements.$inferSelect;
 export type LearnerReminderPreference = typeof learnerReminderPreferences.$inferSelect;
 export type LearnerPushSubscription = typeof learnerPushSubscriptions.$inferSelect;
+export type LearnerProviderReminderQueue = typeof learnerProviderReminderQueue.$inferSelect;
 export type ProjectPushConfig = typeof projectPushConfigs.$inferSelect;

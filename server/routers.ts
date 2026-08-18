@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, refreshProviderScheduledReminders, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -40,6 +40,7 @@ export const appRouter = router({
       enabled: z.boolean().optional(),
       reminderTime: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/).optional(),
     })).mutation(({ ctx, input }) => updateReminderPreferences(ctx.user.id, ctx.user.name ?? null, input)),
+    refreshProviderReminderQueue: protectedProcedure.mutation(({ ctx }) => refreshProviderScheduledReminders(ctx.user.id, ctx.user.name ?? null)),
     enablePush: protectedProcedure.input(z.object({
       endpoint: z.string().url(),
       keys: z.object({ p256dh: z.string().min(8), auth: z.string().min(8) }),
