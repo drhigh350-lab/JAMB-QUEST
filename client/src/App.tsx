@@ -119,6 +119,20 @@ function App() {
       setPushStatus("failed");
     }
   }, [enablePush, isAuthenticated, oneSignalAppIdQuery.data, pushKeyQuery.data, updateReminder, user?.id]);
+  useEffect(() => {
+    if (!isAuthenticated || !user?.id || !oneSignalAppIdQuery.data || !("Notification" in window) || Notification.permission !== "granted") return;
+    let disposed = false;
+    // Existing learners may have allowed browser notifications before OneSignal was added.
+    // Reuse that permission to establish the provider external-ID link without showing a second prompt.
+    void enableOneSignal(oneSignalAppIdQuery.data, user.id)
+      .then(() => {
+        if (!disposed) updateReminder.mutate({ enabled: true });
+      })
+      .catch(() => {
+        // The existing VAPID route remains a fallback if provider enrollment cannot complete.
+      });
+    return () => { disposed = true; };
+  }, [isAuthenticated, oneSignalAppIdQuery.data, updateReminder, user?.id]);
   const disableBrowserPush = useCallback(() => {
     disablePush.mutate(undefined, {
       onSuccess: () => { updateReminder.mutate({ enabled: false }); setPushStatus("disabled"); },

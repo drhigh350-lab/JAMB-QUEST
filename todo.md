@@ -452,6 +452,7 @@
 - [x] Reclassify all held diagram candidates—not just items 6 and 7—into ordinary no-diagram questions, genuinely useful optional visuals, and original-figure-dependent holds; validate and release safe ordinary records without adding unnecessary diagrams or duplicates. The final reconciliation records 11 already-playable no-diagram candidates, 35 ordinary candidates held pending source/answer approval, and two original-figure-dependent holds; all later owner-keyed visual releases were duplicate-safe.
 
 - [ ] Diagnose and fix the notification regression where an opted-in learner receives a successful test push but misses the scheduled 7:00 a.m. reminder; verify timezone, schedule execution, eligibility, and delivery logging.
+- [ ] Investigate the newly confirmed 7:00 a.m. Africa/Lagos non-delivery after OneSignal rollout: capture the callback, identify whether the learner is enrolled in OneSignal or browser push, and obtain provider/device evidence before declaring a repair.
 
 - [x] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution. The test and a second diagnostic recorded no scheduler executions and were deleted; no delivery claim was made.
 
