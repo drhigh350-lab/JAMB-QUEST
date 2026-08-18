@@ -92,10 +92,26 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const isCbt = roundConfig?.mode === "cbt";
   const isTimedRound = isRoundTimed(roundConfig);
 
-  useEffect(() => {
+  const persistActiveCbt = useCallback((patch: Partial<Pick<ActiveCbtSession, "answers" | "flaggedIds" | "currentIndex" | "secondsLeft" | "initialSeconds" | "isPaused">> = {}) => {
     if (screen !== "quiz" || !isCbt || !roundConfig || !roundQuestions.length) return;
-    saveActiveCbtSession({ config: roundConfig, questionIds: roundQuestions.map((question) => question.id), answers, flaggedIds, currentIndex, secondsLeft, initialSeconds, isPaused, deadlineAt: isPaused ? null : Date.now() + secondsLeft * 1000 });
+    const nextPaused = patch.isPaused ?? isPaused;
+    const nextSeconds = patch.secondsLeft ?? secondsLeft;
+    saveActiveCbtSession({
+      config: roundConfig,
+      questionIds: roundQuestions.map((question) => question.id),
+      answers: patch.answers ?? answers,
+      flaggedIds: patch.flaggedIds ?? flaggedIds,
+      currentIndex: patch.currentIndex ?? currentIndex,
+      secondsLeft: nextSeconds,
+      initialSeconds: patch.initialSeconds ?? initialSeconds,
+      isPaused: nextPaused,
+      deadlineAt: nextPaused ? null : Date.now() + nextSeconds * 1000,
+    });
   }, [answers, currentIndex, flaggedIds, initialSeconds, isCbt, isPaused, roundConfig, roundQuestions, screen, secondsLeft]);
+
+  useEffect(() => {
+    persistActiveCbt();
+  }, [persistActiveCbt]);
 
   const buildReview = useCallback((finalAnswers: Record<string, AnswerRecord>): ExamReviewRecord[] => roundQuestions.map((question) => ({
     questionId: question.id,
@@ -141,7 +157,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
       }
       const startingSeconds = config.mode === "cbt" ? Math.max(CBT_MINIMUM_SECONDS, config.count * 75) : DEFAULT_SECONDS;
       if (config.mode === "cbt") {
-        clearActiveCbtSession();
+        saveActiveCbtSession({ config, questionIds: picked.map((question) => question.id), answers: {}, flaggedIds: [], currentIndex: 0, secondsLeft: startingSeconds, initialSeconds: startingSeconds, isPaused: false, deadlineAt: Date.now() + startingSeconds * 1000 });
         setResumableCbt(null);
       }
       setRoundConfig(config);
@@ -170,7 +186,11 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     if (!currentQuestion || answered) return;
     setSelectedIndex(index);
     if (roundConfig?.mode === "cbt") {
-      setAnswers((current) => ({ ...current, [currentQuestion.id]: { selectedIndex: index, correct: index === currentQuestion.answer_index, timedOut: false } }));
+      setAnswers((current) => {
+        const next = { ...current, [currentQuestion.id]: { selectedIndex: index, correct: index === currentQuestion.answer_index, timedOut: false } };
+        persistActiveCbt({ answers: next });
+        return next;
+      });
     }
   }, [answered, currentQuestion, roundConfig?.mode]);
 
@@ -222,6 +242,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const navigateQuestion = useCallback((index: number) => {
     if (index < 0 || index >= roundQuestions.length) return;
     const storedAnswer = answers[roundQuestions[index].id];
+    persistActiveCbt({ currentIndex: index });
     setCurrentIndex(index);
     setSelectedIndex(storedAnswer?.selectedIndex ?? null);
     // CBT answers remain editable until submission; study/review questions preserve their completed correction state.
@@ -235,13 +256,21 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
 
   const toggleFlag = useCallback(() => {
     if (!isCbt || !currentQuestion) return;
-    setFlaggedIds((current) => current.includes(currentQuestion.id) ? current.filter((id) => id !== currentQuestion.id) : [...current, currentQuestion.id]);
-  }, [currentQuestion, isCbt]);
+    setFlaggedIds((current) => {
+      const next = current.includes(currentQuestion.id) ? current.filter((id) => id !== currentQuestion.id) : [...current, currentQuestion.id];
+      persistActiveCbt({ flaggedIds: next });
+      return next;
+    });
+  }, [currentQuestion, isCbt, persistActiveCbt]);
 
   const togglePause = useCallback(() => {
     if (!isCbt || screen !== "quiz") return;
-    setIsPaused((current) => !current);
-  }, [isCbt, screen]);
+    setIsPaused((current) => {
+      const next = !current;
+      persistActiveCbt({ isPaused: next });
+      return next;
+    });
+  }, [isCbt, persistActiveCbt, screen]);
 
   const submitCbtReview = useCallback(() => {
     if (!isCbt) return;
@@ -249,9 +278,12 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   }, [answers, isCbt, recordFinalRound, score]);
 
   const quitRound = useCallback(() => {
-    if (isCbt) setResumableCbt(getActiveCbtSession());
+    if (isCbt) {
+      persistActiveCbt();
+      setResumableCbt(getActiveCbtSession());
+    }
     setScreen("home");
-  }, [isCbt]);
+  }, [isCbt, persistActiveCbt]);
   const resumeCbt = useCallback(() => {
     if (!resumableCbt || !playableQuestions.length) return;
     const byId = new Map(playableQuestions.map((question) => [question.id, question]));
@@ -368,6 +400,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     filterHistoricalReview,
     resumeCbt,
     discardResumableCbt,
+    persistActiveCbt,
     goHome: quitRound,
   };
 }

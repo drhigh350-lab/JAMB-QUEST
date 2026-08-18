@@ -1,20 +1,18 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v7";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v8";
 const STUDY_PACK_CACHE = "jamb-quest-study-pack-v1";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith("jamb-quest-") && key !== CACHE_NAME && key !== STUDY_PACK_CACHE).map((key) => caches.delete(key)))).then(async () => {
     await self.clients.claim();
     if (UPGRADE_TEST_LEGACY) return;
-    const openWindows = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
-    await Promise.all(openWindows.map((client) => client.navigate(client.url).catch(() => undefined)));
   }));
 });
 

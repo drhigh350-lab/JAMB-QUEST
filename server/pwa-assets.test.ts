@@ -40,7 +40,7 @@ describe("JAMB Quest PWA assets", () => {
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
 
-    expect(worker).toContain('"jamb-quest-shell-v7"');
+    expect(worker).toContain('"jamb-quest-shell-v8"');
     expect(worker).toContain('fetch(request, { cache: "no-store" })');
     const app = readFileSync(resolve(import.meta.dirname, "../client/src/App.tsx"), "utf8");
     expect(app).toContain('updateViaCache: "none"');

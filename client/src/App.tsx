@@ -129,27 +129,44 @@ function App() {
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
     const legacyUpgradeFixture = new URLSearchParams(window.location.search).get("swUpgradeFixture") === "legacy";
-    let reloading = false;
-    const refreshForNewWorker = () => {
-      if (reloading) return;
-      reloading = true;
-      window.location.reload();
-    };
-    navigator.serviceWorker.addEventListener("controllerchange", refreshForNewWorker);
     void navigator.serviceWorker.register(legacyUpgradeFixture ? "/sw.js?upgradeFixture=legacy" : "/sw.js", { updateViaCache: "none" }).then((registration) => {
-      const activateWaitingWorker = () => registration.waiting?.postMessage({ type: "SKIP_WAITING" });
+      const activateWaitingWorker = () => {
+        if (game.screen === "quiz" && game.isCbt) return;
+        registration.waiting?.postMessage({ type: "SKIP_WAITING" });
+      };
       activateWaitingWorker();
       registration.addEventListener("updatefound", () => {
         const installing = registration.installing;
         if (!installing) return;
         installing.addEventListener("statechange", () => {
-          if (installing.state === "installed" && navigator.serviceWorker.controller) installing.postMessage({ type: "SKIP_WAITING" });
+          if (installing.state === "installed" && navigator.serviceWorker.controller && !(game.screen === "quiz" && game.isCbt)) installing.postMessage({ type: "SKIP_WAITING" });
         });
       });
       void registration.update().catch(() => undefined);
     }).catch(() => undefined);
-    return () => navigator.serviceWorker.removeEventListener("controllerchange", refreshForNewWorker);
-  }, []);
+  }, [game.isCbt, game.screen]);
+
+  useEffect(() => {
+    if (game.screen !== "quiz" || !game.isCbt) return;
+    const protectExit = (event: BeforeUnloadEvent) => {
+      game.persistActiveCbt();
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    const protectBack = () => {
+      game.persistActiveCbt();
+      const leave = window.confirm("Leave this CBT? Your answers and timer have been saved. Choose Cancel to continue the exam.");
+      if (leave) game.quitRound();
+      else window.history.pushState({ jambQuestCbt: true }, "", window.location.href);
+    };
+    window.history.pushState({ jambQuestCbt: true }, "", window.location.href);
+    window.addEventListener("beforeunload", protectExit);
+    window.addEventListener("popstate", protectBack);
+    return () => {
+      window.removeEventListener("beforeunload", protectExit);
+      window.removeEventListener("popstate", protectBack);
+    };
+  }, [game.isCbt, game.persistActiveCbt, game.quitRound, game.screen]);
   useEffect(() => {
     const handleBeforeInstall = (event: Event) => {
       event.preventDefault();
