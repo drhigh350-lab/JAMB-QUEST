@@ -73,6 +73,20 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, diagramUrl: "/manus-storage/energy-profile.svg" })).not.toBeNull();
   });
 
+  it("keeps an organic-structure question playable when its complete structure is written in the stem", () => {
+    expect(toPlayableAuthorisedQuestion({
+      id: 236,
+      subject: "Chemistry",
+      topic: "Organic compounds",
+      difficulty: "medium",
+      questionText: "CH3-CH2-C(=O)-O-CH2-CH3. The compound above is an",
+      optionsJson: JSON.stringify(["ether", "ester", "alkanal", "alkanol"]),
+      answerIndex: 1,
+      explanation: "The written C(=O)-O- linkage is an ester functional group.",
+      sourceLabel: "Owner-provided source",
+    })).not.toBeNull();
+  });
+
   it("removes the scraped diagram prefix, blocks an old generated screenshot asset, and permits only a reviewed owner-original recovery", () => {
     expect(normaliseQuestionStem("[Diagram Question] In the energy profile diagram above, X represents the:")).toBe("In the energy profile diagram above, X represents the:");
     expect(toPlayableAuthorisedQuestion({

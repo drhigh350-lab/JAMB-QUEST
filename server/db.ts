@@ -825,11 +825,12 @@ export function hasEmbeddedOptionMetadata(option: string) {
 }
 
 const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b)/i;
+const TEXTUAL_STRUCTURE_EVIDENCE = /(?:\[structure\]|(?:\bCH\d*|\bH\d*C)\s*(?:[-–—=]|\()|C\(=O\)|CH\(OH\))/i;
 const OWNER_REJECTED_SCREENSHOT_BATCH = /^OWNER-(?:PHY|CHEM|BIO)-DIAGRAM-/;
 const RECOVERED_OWNER_ORIGINAL_ASSET = /^\/manus-storage\/owner-(?:phy|chem|bio)-diagram-/i;
 
 export function requiresDiagramAsset(questionText: string) {
-  return DIAGRAM_REFERENCE.test(questionText);
+  return DIAGRAM_REFERENCE.test(questionText) && !TEXTUAL_STRUCTURE_EVIDENCE.test(questionText);
 }
 
 export function normaliseQuestionStem(questionText: string) {
