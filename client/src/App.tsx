@@ -11,9 +11,10 @@ import { useQuizGame } from "./game/useQuizGame";
 import { QuizShell } from "./components/QuizShell";
 import { ResultSummary } from "./components/ResultSummary";
 import { ExamReview } from "./components/ExamReview";
-import type { StoredProgress } from "./game/types";
+import type { BankQuestion, StoredProgress } from "./game/types";
 import { urlBase64ToUint8Array } from "./lib/push";
 import { enableOneSignal } from "./lib/onesignal";
+import { clearOfflineStudyPack, downloadOfflineStudyPack, loadOfflineStudyPack, type OfflineStudyPackInfo } from "./lib/offlineStudyPack";
 import { startLogin } from "./const";
 import "./comeback.css";
 import { QuestOpening } from "./components/QuestOpening";
@@ -33,6 +34,10 @@ function App() {
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [installStatus, setInstallStatus] = useState<"idle" | "installing" | "installed" | "dismissed">("idle");
   const [isOnline, setIsOnline] = useState(() => typeof navigator === "undefined" || navigator.onLine);
+  const [offlineAuthorisedQuestions, setOfflineAuthorisedQuestions] = useState<BankQuestion[]>([]);
+  const [offlineStudyPack, setOfflineStudyPack] = useState<OfflineStudyPackInfo | null>(null);
+  const [offlinePackStatus, setOfflinePackStatus] = useState<"idle" | "downloading" | "ready" | "failed" | "clearing">("idle");
+  const [offlinePackError, setOfflinePackError] = useState<string | null>(null);
   const [showOpening, setShowOpening] = useState(() => new URLSearchParams(window.location.search).get("skipOpening") !== "1");
   const [examReviewError, setExamReviewError] = useState<string | null>(null);
   const cbtHistoryQuery = trpc.learner.cbtHistory.useQuery(undefined, { enabled: isAuthenticated, retry: false });
@@ -63,7 +68,7 @@ function App() {
   const handleRoundComplete = useCallback((payload: Parameters<typeof recordRound.mutate>[0]) => {
     if (isAuthenticated) recordRound.mutate(payload);
   }, [isAuthenticated, recordRound]);
-  const game = useQuizGame({ remoteProgress, onRoundComplete: handleRoundComplete, additionalQuestions: authorisedQuestionsQuery.data ?? [] });
+  const game = useQuizGame({ remoteProgress, onRoundComplete: handleRoundComplete, additionalQuestions: authorisedQuestionsQuery.data ?? offlineAuthorisedQuestions });
   const roundReview = trpc.learner.roundReview.useMutation({
     onSuccess: (attempt) => {
       if (!attempt) {
@@ -207,10 +212,44 @@ function App() {
     setInstallPrompt(null);
     setInstallStatus(choice.outcome === "accepted" ? "installed" : "dismissed");
   }, [installPrompt]);
+  useEffect(() => {
+    void loadOfflineStudyPack().then(({ info, questions }) => {
+      setOfflineStudyPack(info);
+      setOfflineAuthorisedQuestions(questions);
+      if (info) setOfflinePackStatus("ready");
+    });
+  }, []);
+  const saveOfflineStudyPack = useCallback(async () => {
+    const questions = authorisedQuestionsQuery.data ?? [];
+    setOfflinePackError(null);
+    setOfflinePackStatus("downloading");
+    try {
+      const info = await downloadOfflineStudyPack(questions);
+      setOfflineStudyPack(info);
+      setOfflineAuthorisedQuestions(questions);
+      setOfflinePackStatus("ready");
+    } catch (error) {
+      setOfflinePackStatus("failed");
+      setOfflinePackError(error instanceof Error ? error.message : "The study pack could not be downloaded. Please try again while online.");
+    }
+  }, [authorisedQuestionsQuery.data]);
+  const removeOfflineStudyPack = useCallback(async () => {
+    setOfflinePackError(null);
+    setOfflinePackStatus("clearing");
+    try {
+      await clearOfflineStudyPack();
+      setOfflineStudyPack(null);
+      setOfflineAuthorisedQuestions([]);
+      setOfflinePackStatus("idle");
+    } catch {
+      setOfflinePackStatus("failed");
+      setOfflinePackError("The downloaded study pack could not be removed from this device.");
+    }
+  }, []);
   return (
     <ErrorBoundary>
       {showOpening && <QuestOpening onComplete={() => setShowOpening(false)} />}
-      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && !authorisedQuestionsQuery.isLoading} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} onRefreshProviderQueue={() => refreshProviderReminderQueue.mutate()} queueRefreshing={refreshProviderReminderQueue.isPending} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && (!authorisedQuestionsQuery.isLoading || offlineAuthorisedQuestions.length > 0)} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} onRefreshProviderQueue={() => refreshProviderReminderQueue.mutate()} queueRefreshing={refreshProviderReminderQueue.isPending} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa, offlinePack: { status: offlinePackStatus, questionCount: offlineStudyPack?.questionCount ?? 0, visualCount: offlineStudyPack?.visualCount ?? 0, savedAt: offlineStudyPack?.savedAt ?? null, isCurrent: Boolean(offlineStudyPack && authorisedQuestionsQuery.data && offlineStudyPack.questionCount === authorisedQuestionsQuery.data.length), canDownload: Boolean(authorisedQuestionsQuery.data?.length), error: offlinePackError, onDownload: () => void saveOfflineStudyPack(), onClear: () => void removeOfflineStudyPack() } }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.isCbt ? game.saveAndNextCbt : game.nextQuestion} onQuit={game.quitRound} flaggedIds={game.flaggedIds} onNavigate={game.navigateQuestion} onToggleFlag={game.toggleFlag} onFinishCbt={game.finishCbt} isPaused={game.isPaused} onTogglePause={game.togglePause} historicalReview={Boolean(game.historicalReview)} historicalFilter={game.historicalFilter} onHistoricalFilter={game.filterHistoricalReview} bookmarkedQuestionIds={dashboardQuery.data?.revision.bookmarks.map((bookmark) => bookmark.questionId) ?? []} onToggleBookmark={() => isAuthenticated ? toggleBookmark.mutate({ questionId: game.currentQuestion!.id, subject: game.currentQuestion!.subject, topic: game.currentQuestion!.topic }) : startLogin()} />
       )}
