@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { toPlayableAuthorisedQuestion } from "./db";
+import { normaliseQuestionStem, toPlayableAuthorisedQuestion } from "./db";
 
 describe("owner-provided playable question mapping", () => {
   it("maps a complete labelled source record into the same quiz contract as model questions", () => {
@@ -71,6 +71,23 @@ describe("owner-provided playable question mapping", () => {
     };
     expect(toPlayableAuthorisedQuestion(base)).toBeNull();
     expect(toPlayableAuthorisedQuestion({ ...base, diagramUrl: "/manus-storage/energy-profile.svg" })).not.toBeNull();
+  });
+
+  it("removes the scraped diagram prefix but holds the owner-rejected screenshot batch even if an old asset remains", () => {
+    expect(normaliseQuestionStem("[Diagram Question] In the energy profile diagram above, X represents the:")).toBe("In the energy profile diagram above, X represents the:");
+    expect(toPlayableAuthorisedQuestion({
+      id: 234,
+      externalId: "OWNER-CHEM-DIAGRAM-2026-004",
+      subject: "Chemistry",
+      topic: "Energy changes",
+      difficulty: "medium",
+      questionText: "[Diagram Question] In the energy profile diagram above, X represents the:",
+      optionsJson: JSON.stringify(["enthalpy", "enthalpy change", "activation energy", "activated complex"]),
+      answerIndex: 2,
+      explanation: "A graph is needed to answer this question.",
+      diagramUrl: "/manus-storage/rejected-generated-energy-profile.svg",
+      sourceLabel: "Owner-supplied Chemistry diagram screenshots",
+    })).toBeNull();
   });
 
   it("holds explicit figure and graph references until an asset is linked", () => {

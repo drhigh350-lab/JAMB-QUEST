@@ -804,6 +804,7 @@ export async function getQuestionSourceCatalogue() {
 
 type AuthorisedPlayableRow = {
   id: number;
+  externalId?: string;
   subject: string;
   topic: string;
   difficulty: "easy" | "medium" | "hard";
@@ -824,20 +825,29 @@ export function hasEmbeddedOptionMetadata(option: string) {
 }
 
 const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b)/i;
+const OWNER_REJECTED_SCREENSHOT_BATCH = /^OWNER-(?:PHY|CHEM|BIO)-DIAGRAM-/;
 
 export function requiresDiagramAsset(questionText: string) {
   return DIAGRAM_REFERENCE.test(questionText);
 }
 
+export function normaliseQuestionStem(questionText: string) {
+  return questionText.replace(/^\s*\[diagram question\]\s*/i, "").trim();
+}
+
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
+  // The owner rejected all reconstructed screenshot-batch visuals. They remain held until
+  // an owner-supplied original visual is deliberately reviewed and relinked in a future intake.
+  if (row.externalId && OWNER_REJECTED_SCREENSHOT_BATCH.test(row.externalId)) return null;
   try {
+    const questionText = normaliseQuestionStem(row.questionText);
     const options = JSON.parse(row.optionsJson);
     if (!Array.isArray(options) || options.length < 4 || options.length > 5 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
     if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex >= options.length) return null;
     const mappedTopic = resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic);
     if (!mappedTopic) return null;
-    if (requiresDiagramAsset(row.questionText) && !row.diagramUrl) return null;
+    if (requiresDiagramAsset(questionText) && !row.diagramUrl) return null;
     const explanation = row.explanation ?? "";
     const explanationLines = explanation.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
     const readingTextWithoutExplanation = row.subject === "Use of English" && mappedTopic === "Approved reading text" && explanationLines.length === 0;
@@ -850,7 +860,7 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
       subtopic: "Owner-provided source",
       difficulty: row.difficulty,
       question_type: "multiple_choice" as const,
-      question: row.questionText,
+      question: questionText,
       options,
       answer_index: row.answerIndex,
       answer_text: options[row.answerIndex],
@@ -869,6 +879,7 @@ export async function getPlayableAuthorisedQuestions() {
   if (!db) return [];
   const rows = await db.select({
     id: questionItems.id,
+    externalId: questionItems.externalId,
     subject: questionItems.subject,
     topic: questionItems.topic,
     difficulty: questionItems.difficulty,
