@@ -1,4 +1,6 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
+/* Keep OneSignal available here because the provider may re-register root scope. */
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
 const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v5";

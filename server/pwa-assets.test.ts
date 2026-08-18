@@ -27,7 +27,9 @@ describe("JAMB Quest PWA assets", () => {
 
   it("keeps offline cache behavior and push notification behavior in one worker", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
+    const providerRootWorker = readFileSync(resolve(publicDirectory, "OneSignalSDKWorker.js"), "utf8");
 
+    expect(worker).toContain('importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
     expect(worker).toContain('self.addEventListener("install"');
     expect(worker).toContain('self.addEventListener("fetch"');
     expect(worker).toContain('self.addEventListener("push"');
@@ -35,6 +37,8 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('self.addEventListener("message"');
     expect(worker).toContain('"SKIP_WAITING"');
     expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
+    expect(providerRootWorker).toContain('importScripts("/sw.js")');
+    expect(providerRootWorker).not.toContain("text/html");
   });
 
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
