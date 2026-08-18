@@ -3,6 +3,7 @@ type OneSignalApi = {
   login: (externalId: string) => Promise<void>;
   logout?: () => Promise<void>;
   Notifications: { requestPermission: () => Promise<void> };
+  User: { PushSubscription: { optedIn: boolean; optIn: () => Promise<void> } };
 };
 
 declare global {
@@ -47,4 +48,8 @@ export async function enableOneSignal(appId: string, externalId: number) {
   const oneSignal = await getOneSignal(appId);
   await oneSignal.login(String(externalId));
   await oneSignal.Notifications.requestPermission();
+  // A browser permission alone can belong to the legacy VAPID worker. Explicitly
+  // opt in through the OneSignal worker before treating the provider route as ready.
+  await oneSignal.User.PushSubscription.optIn();
+  if (!oneSignal.User.PushSubscription.optedIn) throw new Error("OneSignal did not create a subscribed Web Push device.");
 }

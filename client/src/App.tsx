@@ -95,7 +95,8 @@ function App() {
       if (oneSignalAppIdQuery.data && user?.id) {
         try {
           await enableOneSignal(oneSignalAppIdQuery.data, user.id);
-          updateReminder.mutate({ enabled: true });
+          await updateReminder.mutateAsync({ enabled: true });
+          await refreshProviderReminderQueue.mutateAsync();
           setPushStatus("enabled");
           return;
         } catch {
@@ -126,14 +127,16 @@ function App() {
     // Existing learners may have allowed browser notifications before OneSignal was added.
     // Reuse that permission to establish the provider external-ID link without showing a second prompt.
     void enableOneSignal(oneSignalAppIdQuery.data, user.id)
-      .then(() => {
-        if (!disposed) updateReminder.mutate({ enabled: true });
+      .then(async () => {
+        if (disposed) return;
+        await updateReminder.mutateAsync({ enabled: true });
+        if (!disposed) await refreshProviderReminderQueue.mutateAsync();
       })
       .catch(() => {
         // The existing VAPID route remains a fallback if provider enrollment cannot complete.
       });
     return () => { disposed = true; };
-  }, [isAuthenticated, oneSignalAppIdQuery.data, updateReminder, user?.id]);
+  }, [isAuthenticated, oneSignalAppIdQuery.data, refreshProviderReminderQueue, updateReminder, user?.id]);
   const disableBrowserPush = useCallback(() => {
     disablePush.mutate(undefined, {
       onSuccess: () => { updateReminder.mutate({ enabled: false }); setPushStatus("disabled"); },
