@@ -59,7 +59,7 @@ export type LearnerDashboard = {
     activity: Array<{ dateKey: string; questionsAnswered: number; correctCount: number; completedMinimum: boolean; recoveryAction: boolean; xpEarned: number }>;
     badges: string[];
   };
-  reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean; providerQueue: { scheduledCount: number; nextScheduledAt: Date | null; horizonDays: number } };
+  reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean; providerEnabled: boolean; providerQueue: { scheduledCount: number; nextScheduledAt: Date | null; horizonDays: number } };
   achievementStats: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] };
   performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }> };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
@@ -427,6 +427,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       enabled: Boolean(reminder?.enabled),
       reminderTime: reminder?.reminderTime ?? "19:00",
       pushEnabled: Boolean(pushSubscription?.enabled),
+      providerEnabled: Boolean(reminder?.providerEnabled),
       providerQueue: {
         scheduledCount: queuedProviderReminders.length,
         nextScheduledAt: queuedProviderReminders.sort((left, right) => left.scheduledFor.getTime() - right.scheduledFor.getTime())[0]?.scheduledFor ?? null,
@@ -613,12 +614,14 @@ export async function updateLearnerSystem(userId: number, fallbackName: string |
 
 export async function updateReminderPreferences(userId: number, fallbackName: string | null, update: { enabled?: boolean; reminderTime?: string }) {
   const db = await ensureLearnerRows(userId, fallbackName);
-  const set: { enabled?: number; reminderTime?: string } = {};
-  if (update.enabled !== undefined) set.enabled = update.enabled ? 1 : 0;
+  const set: { enabled?: number; providerEnabled?: number; reminderTime?: string } = {};
+  if (update.enabled !== undefined) {
+    set.enabled = update.enabled ? 1 : 0;
+    if (!update.enabled) set.providerEnabled = 0;
+  }
   if (update.reminderTime !== undefined) set.reminderTime = update.reminderTime;
   if (Object.keys(set).length) await db.update(learnerReminderPreferences).set(set).where(eq(learnerReminderPreferences.userId, userId));
   if (update.enabled === false) await cancelProviderScheduledReminders(userId);
-  if (update.enabled === true) await refreshProviderScheduledReminders(userId, fallbackName);
   return getLearnerDashboard(userId, fallbackName);
 }
 
@@ -716,6 +719,22 @@ async function createOneSignalFuturePush(userId: number, title: string, body: st
   }
 }
 
+async function hasProviderPushSubscription(userId: number) {
+  const probeAt = new Date(Date.now() + 10 * 60_000);
+  const messageId = await createOneSignalFuturePush(userId, "JAMB Quest provider enrollment check", "This internal enrollment check will be cancelled immediately.", probeAt);
+  if (!messageId) return false;
+  await cancelOneSignalFuturePush(messageId);
+  return true;
+}
+
+export async function confirmProviderEnrollment(userId: number, fallbackName: string | null) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const providerAccepted = await hasProviderPushSubscription(userId);
+  await db.update(learnerReminderPreferences).set({ enabled: providerAccepted ? 1 : 0, providerEnabled: providerAccepted ? 1 : 0 }).where(eq(learnerReminderPreferences.userId, userId));
+  if (providerAccepted) await refreshProviderScheduledReminders(userId, fallbackName);
+  return { providerAccepted, dashboard: await getLearnerDashboard(userId, fallbackName) };
+}
+
 async function cancelOneSignalFuturePush(messageId: string) {
   const appId = process.env.ONESIGNAL_APP_ID;
   const apiKey = process.env.ONESIGNAL_APP_API_KEY;
@@ -734,16 +753,18 @@ async function cancelOneSignalFuturePush(messageId: string) {
 export async function refreshProviderScheduledReminders(userId: number, fallbackName: string | null) {
   const db = await ensureLearnerRows(userId, fallbackName);
   const [preference] = await db.select().from(learnerReminderPreferences).where(eq(learnerReminderPreferences.userId, userId)).limit(1);
-  if (!preference?.enabled) return getLearnerDashboard(userId, fallbackName);
+  if (!preference?.enabled || !preference.providerEnabled) return getLearnerDashboard(userId, fallbackName);
   const existing = await db.select().from(learnerProviderReminderQueue).where(eq(learnerProviderReminderQueue.userId, userId));
   const byQueueKey = new Map(existing.map((record) => [record.queueKey, record]));
+  let providerUnavailable = false;
   for (const slot of buildProviderReminderSlots()) {
+    if (providerUnavailable) break;
     const existingRecord = byQueueKey.get(slot.queueKey);
     if (existingRecord?.status === "scheduled") continue;
     const copy = LAGOS_WINDOWS.find((candidate) => candidate.window === slot.window);
     if (!copy) continue;
     const messageId = await createOneSignalFuturePush(userId, copy.title, copy.body, slot.scheduledFor);
-    if (!messageId) continue;
+    if (!messageId) { providerUnavailable = true; continue; }
     if (existingRecord) {
       await db.update(learnerProviderReminderQueue).set({ window: slot.window, scheduledFor: slot.scheduledFor, oneSignalMessageId: messageId, status: "scheduled" }).where(eq(learnerProviderReminderQueue.id, existingRecord.id));
     } else {

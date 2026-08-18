@@ -6,8 +6,8 @@ describe("OneSignal recovery enrollment", () => {
     const app = readFileSync("client/src/App.tsx", "utf8");
     expect(app).toContain('Notification.permission !== "granted"');
     expect(app).toContain("enableOneSignal(oneSignalAppIdQuery.data, user.id)");
-    expect(app).toContain("await updateReminder.mutateAsync({ enabled: true })");
-    expect(app).toContain("await refreshProviderReminderQueue.mutateAsync()");
+    expect(app).toContain("confirmProviderEnrollment.mutateAsync()");
+    expect(app).toContain("providerEnrollmentAttempt.current === attemptKey");
     const adapter = readFileSync("client/src/lib/onesignal.ts", "utf8");
     expect(adapter).toContain("User.PushSubscription.optIn()");
     expect(adapter).toContain("PushSubscription.optedIn");

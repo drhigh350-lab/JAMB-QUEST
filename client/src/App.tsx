@@ -1,6 +1,6 @@
 /* Field Notes Arcade: React is the picture frame; quiz state and data stay in focused game modules. */
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -30,7 +30,7 @@ function App() {
   const dashboardQuery = trpc.learner.dashboard.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const sourceQuery = trpc.questionSources.list.useQuery();
   const authorisedQuestionsQuery = trpc.questions.authorisedPlayable.useQuery(undefined, { retry: false });
-  const [pushStatus, setPushStatus] = useState<"idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed" | "test-sent" | "test-failed">("idle");
+  const [pushStatus, setPushStatus] = useState<"idle" | "unsupported" | "denied" | "enabling" | "enabled" | "provider-pending" | "disabled" | "failed" | "test-sent" | "test-failed">("idle");
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [installStatus, setInstallStatus] = useState<"idle" | "installing" | "installed" | "dismissed">("idle");
   const [isOnline, setIsOnline] = useState(() => typeof navigator === "undefined" || navigator.onLine);
@@ -38,6 +38,7 @@ function App() {
   const [offlineStudyPack, setOfflineStudyPack] = useState<OfflineStudyPackInfo | null>(null);
   const [offlinePackStatus, setOfflinePackStatus] = useState<"idle" | "downloading" | "ready" | "failed" | "clearing">("idle");
   const [offlinePackError, setOfflinePackError] = useState<string | null>(null);
+  const providerEnrollmentAttempt = useRef<string | null>(null);
   const [showOpening, setShowOpening] = useState(() => new URLSearchParams(window.location.search).get("skipOpening") !== "1");
   const [examReviewError, setExamReviewError] = useState<string | null>(null);
   const cbtHistoryQuery = trpc.learner.cbtHistory.useQuery(undefined, { enabled: isAuthenticated, retry: false });
@@ -51,6 +52,7 @@ function App() {
   });
   const updateSystem = trpc.learner.updateSystem.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const updateReminder = trpc.learner.updateReminder.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
+  const confirmProviderEnrollment = trpc.learner.confirmProviderEnrollment.useMutation({ onSuccess: ({ dashboard }) => utils.learner.dashboard.setData(undefined, dashboard) });
   const refreshProviderReminderQueue = trpc.learner.refreshProviderReminderQueue.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const enablePush = trpc.learner.enablePush.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
   const disablePush = trpc.learner.disablePush.useMutation({ onSuccess: (dashboard) => utils.learner.dashboard.setData(undefined, dashboard) });
@@ -100,9 +102,8 @@ function App() {
       if (oneSignalAppIdQuery.data && user?.id) {
         try {
           await enableOneSignal(oneSignalAppIdQuery.data, user.id);
-          await updateReminder.mutateAsync({ enabled: true });
-          await refreshProviderReminderQueue.mutateAsync();
-          setPushStatus("enabled");
+          const result = await confirmProviderEnrollment.mutateAsync();
+          setPushStatus(result.providerAccepted ? "enabled" : "provider-pending");
           return;
         } catch {
           // Keep the existing VAPID route available if OneSignal cannot initialize on this device.
@@ -125,23 +126,26 @@ function App() {
     } catch {
       setPushStatus("failed");
     }
-  }, [enablePush, isAuthenticated, oneSignalAppIdQuery.data, pushKeyQuery.data, updateReminder, user?.id]);
+  }, [confirmProviderEnrollment, enablePush, isAuthenticated, oneSignalAppIdQuery.data, pushKeyQuery.data, updateReminder, user?.id]);
   useEffect(() => {
     if (!isAuthenticated || !user?.id || !oneSignalAppIdQuery.data || !("Notification" in window) || Notification.permission !== "granted") return;
+    const attemptKey = `${oneSignalAppIdQuery.data}:${user.id}`;
+    if (providerEnrollmentAttempt.current === attemptKey) return;
+    providerEnrollmentAttempt.current = attemptKey;
     let disposed = false;
     // Existing learners may have allowed browser notifications before OneSignal was added.
     // Reuse that permission to establish the provider external-ID link without showing a second prompt.
     void enableOneSignal(oneSignalAppIdQuery.data, user.id)
       .then(async () => {
         if (disposed) return;
-        await updateReminder.mutateAsync({ enabled: true });
-        if (!disposed) await refreshProviderReminderQueue.mutateAsync();
+        const result = await confirmProviderEnrollment.mutateAsync();
+        if (!disposed) setPushStatus(result.providerAccepted ? "enabled" : "provider-pending");
       })
       .catch(() => {
-        // The existing VAPID route remains a fallback if provider enrollment cannot complete.
+        if (!disposed) setPushStatus("provider-pending");
       });
     return () => { disposed = true; };
-  }, [isAuthenticated, oneSignalAppIdQuery.data, refreshProviderReminderQueue, updateReminder, user?.id]);
+  }, [confirmProviderEnrollment, isAuthenticated, oneSignalAppIdQuery.data, user?.id]);
   const disableBrowserPush = useCallback(() => {
     disablePush.mutate(undefined, {
       onSuccess: () => { updateReminder.mutate({ enabled: false }); setPushStatus("disabled"); },
@@ -249,7 +253,7 @@ function App() {
   return (
     <ErrorBoundary>
       {showOpening && <QuestOpening onComplete={() => setShowOpening(false)} />}
-      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && (!authorisedQuestionsQuery.isLoading || offlineAuthorisedQuestions.length > 0)} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} onRefreshProviderQueue={() => refreshProviderReminderQueue.mutate()} queueRefreshing={refreshProviderReminderQueue.isPending} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa, offlinePack: { status: offlinePackStatus, questionCount: offlineStudyPack?.questionCount ?? 0, visualCount: offlineStudyPack?.visualCount ?? 0, savedAt: offlineStudyPack?.savedAt ?? null, isCurrent: Boolean(offlineStudyPack && authorisedQuestionsQuery.data && offlineStudyPack.questionCount === authorisedQuestionsQuery.data.length), canDownload: Boolean(authorisedQuestionsQuery.data?.length), error: offlinePackError, onDownload: () => void saveOfflineStudyPack(), onClear: () => void removeOfflineStudyPack() } }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
+      {game.screen === "home" && <Home loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && (!authorisedQuestionsQuery.isLoading || offlineAuthorisedQuestions.length > 0)} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} onRefreshProviderQueue={() => refreshProviderReminderQueue.mutate()} queueRefreshing={refreshProviderReminderQueue.isPending} pushWorking={confirmProviderEnrollment.isPending || enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa, offlinePack: { status: offlinePackStatus, questionCount: offlineStudyPack?.questionCount ?? 0, visualCount: offlineStudyPack?.visualCount ?? 0, savedAt: offlineStudyPack?.savedAt ?? null, isCurrent: Boolean(offlineStudyPack && authorisedQuestionsQuery.data && offlineStudyPack.questionCount === authorisedQuestionsQuery.data.length), canDownload: Boolean(authorisedQuestionsQuery.data?.length), error: offlinePackError, onDownload: () => void saveOfflineStudyPack(), onClear: () => void removeOfflineStudyPack() } }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.isCbt ? game.saveAndNextCbt : game.nextQuestion} onQuit={game.quitRound} flaggedIds={game.flaggedIds} onNavigate={game.navigateQuestion} onToggleFlag={game.toggleFlag} onFinishCbt={game.finishCbt} isPaused={game.isPaused} onTogglePause={game.togglePause} historicalReview={Boolean(game.historicalReview)} historicalFilter={game.historicalFilter} onHistoricalFilter={game.filterHistoricalReview} bookmarkedQuestionIds={dashboardQuery.data?.revision.bookmarks.map((bookmark) => bookmark.questionId) ?? []} onToggleBookmark={() => isAuthenticated ? toggleBookmark.mutate({ questionId: game.currentQuestion!.id, subject: game.currentQuestion!.subject, topic: game.currentQuestion!.topic }) : startLogin()} />
       )}

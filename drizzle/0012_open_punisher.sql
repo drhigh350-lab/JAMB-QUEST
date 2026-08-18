@@ -1,0 +1,1 @@
+ALTER TABLE `learnerReminderPreferences` ADD `providerEnabled` int DEFAULT 0 NOT NULL;

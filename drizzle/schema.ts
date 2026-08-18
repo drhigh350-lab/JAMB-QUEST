@@ -187,6 +187,7 @@ export const learnerReminderPreferences = mysqlTable("learnerReminderPreferences
   id: int("id").autoincrement().primaryKey(),
   userId: int("userId").notNull().unique().references(() => users.id),
   enabled: int("enabled").notNull().default(0),
+  providerEnabled: int("providerEnabled").notNull().default(0),
   reminderTime: varchar("reminderTime", { length: 5 }).notNull().default("19:00"),
   scheduleCronTaskUid: varchar("scheduleCronTaskUid", { length: 65 }),
   lastSentDate: varchar("lastSentDate", { length: 10 }),
