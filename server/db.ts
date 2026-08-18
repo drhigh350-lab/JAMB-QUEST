@@ -708,6 +708,36 @@ export async function sendLearnerTestPush(userId: number) {
   return { delivered: didDeliverPush(results), activeSubscriptions: results.length };
 }
 
+export const CONTROLLED_SCHEDULE_TEST_COPY = {
+  title: "JAMB Quest: scheduled reminder test",
+  body: "This is the 8:30 a.m. scheduled delivery test. Your JAMB Quest reminder route is checking this device now.",
+  url: "/?tab=profile",
+} as const;
+
+/**
+ * Sends a controlled cron-only test through the same transport selection as permanent reminders.
+ * It deliberately does not modify morning/afternoon/evening sent-date columns, so it cannot consume
+ * a learner's normal daily notification window.
+ */
+export async function sendControlledScheduleTest() {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const preferences = await db.select().from(learnerReminderPreferences).where(eq(learnerReminderPreferences.enabled, 1));
+  let sent = 0;
+  let skipped = 0;
+  for (const preference of preferences) {
+    const results = await sendLearnerPush(
+      preference.userId,
+      CONTROLLED_SCHEDULE_TEST_COPY.title,
+      CONTROLLED_SCHEDULE_TEST_COPY.body,
+      CONTROLLED_SCHEDULE_TEST_COPY.url,
+    );
+    if (results.some((result) => result.delivered)) sent += 1;
+    else skipped += 1;
+  }
+  return { window: "controlled-test", sent, skipped, totalEnabled: preferences.length };
+}
+
 export type DailyReminderDecision = "send" | "already_sent" | "minimum_completed";
 export type ReminderWindow = "morning" | "afternoon" | "evening";
 

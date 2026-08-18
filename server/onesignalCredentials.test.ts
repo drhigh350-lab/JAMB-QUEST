@@ -11,8 +11,10 @@ describe("OneSignal production credentials", () => {
     });
 
     expect(response.status).toBe(200);
-    const payload = await response.json() as { id?: string };
+    const payload = await response.json() as { id?: string; chrome_web_origin?: string | null; site_name?: string | null };
     expect(payload.id).toBe(appId);
+    expect(payload.chrome_web_origin).toBe("https://jambquiz-kmqgtf9m.manus.space");
+    expect(payload.site_name).toBe("JAMB Quest");
   }, 15_000);
 });
 

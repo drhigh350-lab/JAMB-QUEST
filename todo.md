@@ -456,6 +456,7 @@
 - [ ] Compare the now-visible manual test path with the invisible scheduled-reminder path, remove any transport, payload, or idempotency difference, and prove the schedule invokes the same confirmed device route.
 
 - [x] Add a temporary one-time 8:00 a.m. Africa/Lagos notification test without changing the regular 7:00 a.m., 1:00 p.m., and 7:00 p.m. daily reminder jobs; remove or expire the temporary test after execution. The test and a second diagnostic recorded no scheduler executions and were deleted; no delivery claim was made.
+- [ ] Run a new one-time 8:30 a.m. Africa/Lagos OneSignal schedule test after the provider Web-origin repair, preserve the permanent 7:00 a.m./1:00 p.m./7:00 p.m. jobs, and record callback plus device evidence before removing the test.
 
 - [x] Create and integrate nine user-supplied Biology diagram questions using the supplied answer keys and explanations as authority, with sharper labelled visuals, duplicate checks, official syllabus mapping, and learner-facing validation. All nine are imported and approved, each has a reserved generated diagram URL, database verification confirms 9/9 linked, and validation passes at 49 test files / 128 tests, TypeScript, and production build.
 

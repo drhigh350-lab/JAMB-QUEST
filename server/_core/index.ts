@@ -6,7 +6,7 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
-import { sendDailyComebackReminders, type ReminderWindow } from "../db";
+import { sendControlledScheduleTest, sendDailyComebackReminders, type ReminderWindow } from "../db";
 import { createContext } from "./context";
 import { sdk } from "./sdk";
 import { serveStatic, setupVite } from "./vite";
@@ -56,6 +56,21 @@ async function startServer() {
   app.post("/api/scheduled/comeback-morning", scheduledReminder("morning"));
   app.post("/api/scheduled/comeback-afternoon", scheduledReminder("afternoon"));
   app.post("/api/scheduled/comeback-evening", scheduledReminder("evening"));
+  app.post("/api/scheduled/comeback-controlled-test", async (req, res) => {
+    try {
+      const user = await sdk.authenticateRequest(req);
+      if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
+      const result = await sendControlledScheduleTest();
+      return res.json({ ok: true, ...result, taskUid: user.taskUid });
+    } catch (error) {
+      return res.status(500).json({
+        error: error instanceof Error ? error.message : "controlled reminder test failed",
+        stack: error instanceof Error ? error.stack : undefined,
+        context: { url: req.originalUrl, window: "controlled-test" },
+        timestamp: new Date().toISOString(),
+      });
+    }
+  });
   // Keep the former callback path valid during schedule migration; it maps to the evening window.
   app.post("/api/scheduled/daily-comeback", scheduledReminder("evening"));
   // tRPC API
