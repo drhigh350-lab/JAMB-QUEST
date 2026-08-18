@@ -4,6 +4,7 @@ import React from "react";
 import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
+import { splitQuestionPresentation } from "@/game/questionPresentation";
 
 interface QuestionCardProps {
   question: BankQuestion;
@@ -26,6 +27,7 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
   const letters = ["A", "B", "C", "D", "E"];
   const explanationLines = questionExplanationLines(question);
   const topic = normalisedTopic(question.topic);
+  const presentation = splitQuestionPresentation(question.question);
   return (
     <section className="question-card" aria-labelledby="question-title">
       <div className="question-card-topline">
@@ -37,7 +39,8 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
       <div className="question-rule" />
       <div className="question-copy">
         <span className="eyebrow">QUESTION</span>
-        <h1 id="question-title">{question.question}</h1>
+        {presentation.context && <div className="question-source-context"><span>{presentation.contextLabel}</span><p>{presentation.context}</p></div>}
+        <h1 id="question-title">{presentation.prompt}</h1>
       </div>
       {question.diagram_url && <figure className="question-diagram"><img src={question.diagram_url} alt="Black-and-white instructional diagram for this question" loading="lazy" /><figcaption>Use the diagram with the question stem before choosing an answer.</figcaption></figure>}
       <div className="option-list" role="radiogroup" aria-label="Answer options">
