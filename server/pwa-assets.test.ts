@@ -27,10 +27,7 @@ describe("JAMB Quest PWA assets", () => {
 
   it("keeps offline cache behavior and push notification behavior in one worker", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
-    const providerRootWorker = readFileSync(resolve(publicDirectory, "OneSignalSDKWorker.js"), "utf8");
-
-    expect(worker).toContain('const ONE_SIGNAL_ROOT_WORKER');
-    expect(worker).toContain('if (!ONE_SIGNAL_ROOT_WORKER) importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
+    expect(worker).not.toContain("OneSignalSDK.sw.js");
     expect(worker).toContain('self.addEventListener("install"');
     expect(worker).toContain('self.addEventListener("fetch"');
     expect(worker).toContain('self.addEventListener("push"');
@@ -38,15 +35,12 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('self.addEventListener("message"');
     expect(worker).toContain('"SKIP_WAITING"');
     expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
-    expect(providerRootWorker).toContain('importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js")');
-    expect(providerRootWorker).toContain('importScripts("/sw.js?onesignalRootWorker=1")');
-    expect(providerRootWorker).not.toContain("text/html");
   });
 
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
 
-    expect(worker).toContain('"jamb-quest-shell-v6"');
+    expect(worker).toContain('"jamb-quest-shell-v7"');
     expect(worker).toContain('fetch(request, { cache: "no-store" })');
     const app = readFileSync(resolve(import.meta.dirname, "../client/src/App.tsx"), "utf8");
     expect(app).toContain('updateViaCache: "none"');
@@ -57,7 +51,7 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain("requireInteraction: true");
     expect(worker).toContain("vibrate: [200, 100, 200]");
     const serverEntry = readFileSync(resolve(import.meta.dirname, "_core/index.ts"), "utf8");
-    expect(serverEntry).toContain('app.get("/OneSignalSDKWorker.js"');
-    expect(serverEntry).toContain('"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0"');
+    expect(serverEntry).toContain('app.post("/api/scheduled/direct-browser-reminder"');
+    expect(serverEntry).toContain("sendDailyDirectBrowserReminders(window)");
   });
 });

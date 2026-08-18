@@ -6,7 +6,7 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
-import { sendControlledScheduleTest, sendDailyComebackReminders, type ReminderWindow } from "../db";
+import { sendControlledScheduleTest, sendDailyComebackReminders, sendDailyDirectBrowserReminders, type ReminderWindow } from "../db";
 import { createContext } from "./context";
 import { sdk } from "./sdk";
 import { serveStatic, setupVite } from "./vite";
@@ -73,6 +73,19 @@ async function startServer() {
   });
   // Keep the former callback path valid during schedule migration; it maps to the evening window.
   app.post("/api/scheduled/daily-comeback", scheduledReminder("evening"));
+  app.post("/api/scheduled/direct-browser-reminder", async (req, res) => {
+    try {
+      const user = await sdk.authenticateRequest(req);
+      if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
+      const hour = new Date().getUTCHours();
+      const window: ReminderWindow | null = hour === 6 ? "morning" : hour === 12 ? "afternoon" : hour === 18 ? "evening" : null;
+      if (!window) return res.json({ ok: true, skipped: "outside-direct-reminder-window", hour, taskUid: user.taskUid });
+      const result = await sendDailyDirectBrowserReminders(window);
+      return res.json({ ok: true, ...result, taskUid: user.taskUid });
+    } catch (error) {
+      return res.status(500).json({ error: error instanceof Error ? error.message : "direct-browser reminder failed", stack: error instanceof Error ? error.stack : undefined, context: { url: req.originalUrl }, timestamp: new Date().toISOString() });
+    }
+  });
   // OneSignal appends a stable SDK query string to this root URL. Its worker can
   // otherwise stay cached after a repair, so always serve the current compatible
   // bootstrap as JavaScript before the static-app fallback can return index.html.

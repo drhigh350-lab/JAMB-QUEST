@@ -811,6 +811,11 @@ async function sendOneSignalPush(userId: number, title: string, body: string, ur
 
 export async function sendLearnerPush(userId: number, title: string, body: string, url = "/") {
   if (await sendOneSignalPush(userId, title, body, url)) return [{ id: -1, delivered: true }];
+  return sendLearnerDirectBrowserPush(userId, title, body, url);
+}
+
+/** Sends through the JAMB Quest-owned VAPID subscription only, never OneSignal. */
+export async function sendLearnerDirectBrowserPush(userId: number, title: string, body: string, url = "/") {
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
   const config = await getOrCreatePushConfig();
@@ -953,6 +958,39 @@ export async function sendDailyComebackReminders(window: ReminderWindow = "eveni
   }
 
   return { window, sent, skipped, totalEnabled: preferences.length };
+}
+
+/**
+ * Managed daily-trigger transport. It deliberately bypasses the retired
+ * OneSignal route and sends to the browser subscription JAMB Quest stores.
+ */
+export async function sendDailyDirectBrowserReminders(window: ReminderWindow) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const preferences = await db.select().from(learnerReminderPreferences).where(eq(learnerReminderPreferences.enabled, 1));
+  let sent = 0;
+  let skipped = 0;
+  for (const preference of preferences) {
+    const [profile] = await db.select().from(learnerProfiles).where(eq(learnerProfiles.userId, preference.userId)).limit(1);
+    const [system] = await db.select().from(learnerSystems).where(eq(learnerSystems.userId, preference.userId)).limit(1);
+    const dateKey = localDateKey(profile?.timeZone ?? "Africa/Lagos");
+    const [activity] = await db.select().from(learnerDailyActivities).where(eq(learnerDailyActivities.activityKey, `${preference.userId}:${dateKey}`)).limit(1);
+    const decision = getWindowReminderDecision({ lastSentDate: lastSentDateForWindow(preference, window), dateKey, completedMinimum: Boolean(activity?.completedMinimum) });
+    if (decision === "already_sent") { skipped += 1; continue; }
+    if (decision === "minimum_completed") {
+      await db.update(learnerReminderPreferences).set({ lastSentDate: dateKey }).where(eq(learnerReminderPreferences.id, preference.id));
+      skipped += 1;
+      continue;
+    }
+    const recovery = Boolean(system?.recoveryPending);
+    const copy = REMINDER_WINDOW_COPY[window];
+    const results = await sendLearnerDirectBrowserPush(preference.userId, copy.title, copy.body(system?.dailyMinimum ?? 10, recovery), "/");
+    if (didDeliverPush(results)) {
+      await db.update(learnerReminderPreferences).set(sentDatePatch(window, dateKey)).where(eq(learnerReminderPreferences.id, preference.id));
+      sent += 1;
+    } else skipped += 1;
+  }
+  return { window, sent, skipped, totalEnabled: preferences.length, transport: "direct-browser" as const };
 }
 
 export async function getQuestionSourceCatalogue() {

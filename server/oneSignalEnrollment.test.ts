@@ -1,24 +1,18 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
-describe("OneSignal recovery enrollment", () => {
-  it("relinks an authenticated device that already granted notification permission without requiring a second gesture", () => {
+describe("direct browser-push enrollment", () => {
+  it("uses a VAPID subscription and does not make OneSignal a requirement for learner reminders", () => {
     const app = readFileSync("client/src/App.tsx", "utf8");
-    expect(app).toContain('Notification.permission !== "granted"');
-    expect(app).toContain("enableOneSignal(oneSignalAppIdQuery.data, user.id)");
-    expect(app).toContain("confirmProviderEnrollment.mutateAsync()");
-    expect(app).toContain("providerEnrollmentAttempt.current === attemptKey");
-    expect(app).toContain('setPushStatus("provider-pending");\n          return;');
-    const providerBranch = app.slice(app.indexOf("if (oneSignalAppIdQuery.data && user?.id)"), app.indexOf("if (!pushKeyQuery.data)"));
-    expect(providerBranch).toContain('setPushStatus("provider-pending");\n          return;');
-    expect(providerBranch).not.toContain("enablePush.mutate");
-    const adapter = readFileSync("client/src/lib/onesignal.ts", "utf8");
-    expect(adapter).toContain("User.PushSubscription.optIn()");
-    expect(adapter).toContain("PushSubscription.optedIn");
-    expect(adapter).toContain("PushSubscription.id");
-    expect(adapter).toContain("inspectOneSignal");
+    expect(app).toContain('navigator.serviceWorker.register("/sw.js")');
+    expect(app).toContain("registration.pushManager.subscribe");
+    expect(app).toContain("await enablePush.mutateAsync");
+    expect(app).toContain("await updateReminder.mutateAsync({ enabled: true })");
+    expect(app).not.toContain("enableOneSignal(");
+    expect(app).not.toContain("confirmProviderEnrollment.mutateAsync()");
     const profile = readFileSync("client/src/pages/Home.tsx", "utf8");
-    expect(profile).toContain("ONE SIGNAL DEVICE CHECK");
-    expect(profile).toContain("Device subscription:");
+    expect(profile).toContain("JAMB Quest sends browser reminders directly to this device");
+    expect(profile).toContain("Direct browser reminders ready");
+    expect(profile).not.toContain("Retry OneSignal setup");
   });
 });
