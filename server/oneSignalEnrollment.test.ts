@@ -15,5 +15,10 @@ describe("OneSignal recovery enrollment", () => {
     const adapter = readFileSync("client/src/lib/onesignal.ts", "utf8");
     expect(adapter).toContain("User.PushSubscription.optIn()");
     expect(adapter).toContain("PushSubscription.optedIn");
+    expect(adapter).toContain("PushSubscription.id");
+    expect(adapter).toContain("inspectOneSignal");
+    const profile = readFileSync("client/src/pages/Home.tsx", "utf8");
+    expect(profile).toContain("ONE SIGNAL DEVICE CHECK");
+    expect(profile).toContain("Device subscription:");
   });
 });
