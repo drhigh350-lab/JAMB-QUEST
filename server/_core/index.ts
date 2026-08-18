@@ -73,6 +73,18 @@ async function startServer() {
   });
   // Keep the former callback path valid during schedule migration; it maps to the evening window.
   app.post("/api/scheduled/daily-comeback", scheduledReminder("evening"));
+  // OneSignal appends a stable SDK query string to this root URL. Its worker can
+  // otherwise stay cached after a repair, so always serve the current compatible
+  // bootstrap as JavaScript before the static-app fallback can return index.html.
+  app.get("/OneSignalSDKWorker.js", (_req, res) => {
+    res
+      .status(200)
+      .set({
+        "Content-Type": "application/javascript; charset=utf-8",
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+      })
+      .send('importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");\nimportScripts("/sw.js?onesignalRootWorker=1");\n');
+  });
   // tRPC API
   app.use(
     "/api/trpc",

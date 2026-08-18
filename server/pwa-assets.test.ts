@@ -56,5 +56,8 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain("renotify: true");
     expect(worker).toContain("requireInteraction: true");
     expect(worker).toContain("vibrate: [200, 100, 200]");
+    const serverEntry = readFileSync(resolve(import.meta.dirname, "_core/index.ts"), "utf8");
+    expect(serverEntry).toContain('app.get("/OneSignalSDKWorker.js"');
+    expect(serverEntry).toContain('"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0"');
   });
 });
