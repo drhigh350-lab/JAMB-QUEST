@@ -19,3 +19,11 @@ The separate owner Drive file **`CHEMISTRY-JAMB-Past-Questions_copy.pdf`** conta
 The figure region contains only the curve, `X`, the two axes, and the neutral figure label. It contains no answer word, key, explanation, or option text. A crop may therefore be prepared from this owner-provided original without reconstructing any diagram.
 
 The final `940×610` crop was checked at phone scale. It retains the full curve, the `X` label, Energy and Reaction coordinate axes, and the neutral `Fig. 3` label only. The adjacent question sentence was removed; no answer, option, key, or explanation is present.
+
+## Successful organic-structure match
+
+The owner-provided Drive file **`JAMB-CHEMISTRY-PAST-QUESTIONS_copy.pdf`** contains the exact original structural formula on page 40 for question 49. It matches held record `1050171` / `kairo-csv-chemistry_30bd42`: the displayed structure has a five-carbon chain with a terminal double bond and a methyl branch at carbon 4, matching the keyed answer `4-methylpent-1-ene`.
+
+The source page also contains answer choices and an answer-key column elsewhere. The only permitted learner visual is a tight crop of the structural formula itself. The crop must exclude the question sentence, answer options, answer key, and all other page content.
+
+The first crop was rejected during visual review because it clipped the lower methyl branch; the widened replacement was then rejected because it retained the first pixels of the adjacent question sentence. Neither interim crop is used in JAMB Quest. A final crop must retain the full structural formula while ending before the prompt begins.
