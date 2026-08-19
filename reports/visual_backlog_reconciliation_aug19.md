@@ -4,14 +4,26 @@
 
 The public `questions.authorisedPlayable` endpoint was queried directly after the four source-backed recoveries. It returned **4,988 authorised learner-playable records**. The restored records `750005`, `750006`, `1050122`, and `1050171` are all present in that exact response.
 
-The authorised database ledger contains **5,510 approved** and **132 needs-review** records. The difference between the approved ledger and learner feed is governed by the existing learner eligibility rules: subject scope, source activation, option integrity, syllabus mapping, diagram-asset presence for explicit visual stems, and the five-line explanation guard. It must not be treated as a diagram-only number.
+The authorised database ledger contains **5,510 approved** and **132 needs-review** records across both current and archival sources. The active source set is **5,401 approved** plus **6 needs-review** records, while inactive archival sources contain **109 approved** and **126 needs-review** records. The difference between the active approved ledger and learner feed is governed by the existing learner eligibility rules: subject scope, option integrity, syllabus mapping, diagram-asset presence for explicit visual stems, and the five-line explanation guard. It must not be treated as a diagram-only number.
 
 | Measure | Current evidence | Interpretation |
 | --- | ---: | --- |
 | Authorised learner-playable API records | 4,988 | Current safe authorised feed; includes all four newly restored record IDs. |
 | Static model-bank records | 1,000 | Kept as the separate bundled study bank. |
 | Combined learner-visible baseline | 5,988 | Current count before any further evidence-backed releases. |
-| Earlier learner-visible snapshot | 5,990 | A historical count that is now two records above the current API-derived baseline and requires a separate count-drift audit. |
+| Earlier learner-visible snapshot | 5,990 | Historical baseline; the two-record difference is now reconciled below. |
+
+## Resolved two-record count change
+
+The apparent two-record drift is fully explained by two later, evidence-preserving changes. The historical checkpoint at the 5,990 baseline had **5,403 active approved** records and **4,990 API-playable** records. Four records were then restored after exact owner-original visual recovery, while six Use-of-English comprehension records were moved to review because their shared source passage was absent and could not be invented.
+
+| Count basis | Historical checkpoint | Later safe changes | Current state |
+| --- | ---: | ---: | ---: |
+| Active approved authorised records | 5,403 | +4 restored originals −6 contextless English records | 5,401 |
+| Learner-playable authorised API records | 4,990 | +4 restored originals −6 contextless English records | 4,988 |
+| Combined learner-visible bank, including the static model bank | 5,990 | −2 net safe change | 5,988 |
+
+The six held English records are `csv-aug16-use_of_english_0192`, `0193`, `0197`, `0198`, `0199`, and `0200`. They all depend on the same unavailable malpractice-comprehension passage. The historical snapshot is therefore reconciled; no unexplained learner-bank loss remains.
 
 ## Visual-recovery conclusion
 
