@@ -54,3 +54,15 @@ Records **1050059**, **1140041**, **1020081**, and **1050275** passed visual rev
 Record **1050297** is now source-recovered from the retained public question page: the visual is ethyl propanoate, `CH3–CH2–C(=O)–O–CH2–CH3`. The reviewed neutral redraw preserves only its atoms and bonds, without a class or answer label.
 
 Record **1050437** is now source-recovered as `CH3–CH(OH)–CH2–CHCl2`. The reviewed neutral redraw preserves the hydroxyl and chlorine substituents only. The public mirror labels its key as “hydroxyl and halo-group,” while the imported owner key says “hydroxyl and chloro-group”; both describe the drawn formula but select different answer wording. The existing imported key remains unchanged pending a separate answer-safety decision; the visual itself is safe and attached.
+
+Record **1050495** is now source-recovered. Its original graph compares powdered marble and marble chips: both give the same carbon(IV) oxide endpoint, but powdered marble reaches it earlier. The reviewed neutral redraw preserves the axis labels, both curves, `t1`/`t2`, and endpoint markings without an answer annotation.
+
+Record **1050536** remains held. The recovered public source is a `PV` versus `P` graph labelled `W`, `X`, `Y`, and `Z`, while the imported record’s answer options are `M`, `N`, `K`, and `L`. Because the label systems do not correspond, attaching that graph would make the stored answer unverifiable.
+
+Record **1050438** remains held. The recovered source graph contains four curves labelled `X`, `Y`, `Z`, and `R`; the oxygen-evolution curve is `R`. The imported record instead stores prose curve descriptions and marks its first option as correct. Because neither the option-label system nor the key agrees with the recovered source, the graph is not attached and the key is not altered.
+
+Record **1050237** is now source-recovered. The original is a rate-of-reaction versus reaction-time curve that falls steeply then approaches zero; the reviewed neutral redraw preserves that axes and curve only, with no answer text.
+
+Record **1050325** is now source-recovered. Its original is a four-choice equilibrium-expression panel. The reviewed neutral redraw preserves every source option, including the correct source expression in its normal choice position, without highlighting it or adding a solution annotation.
+
+After these recoveries, only three records remain held: **1050117** has no retained source structure to identify its unnamed A–D option; **1050438** has a source/answer mapping conflict; and **1050536** has a source/import label-system conflict. None is released with a substitute visual.
