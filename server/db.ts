@@ -101,6 +101,23 @@ export type LearnerQuestionReportInput = {
   note?: string;
 };
 
+export type LearnerQuestionReportStatus = "open" | "reviewing" | "resolved" | "dismissed";
+
+export const learnerQuestionReportStatuses = ["open", "reviewing", "resolved", "dismissed"] as const;
+
+function toLearnerQuestionReportReceipt(report: typeof learnerQuestionReports.$inferSelect) {
+  return {
+    id: report.id,
+    questionId: report.questionId,
+    subject: report.subject,
+    topic: report.topic,
+    reason: report.reason,
+    status: report.status,
+    createdAt: report.createdAt,
+    statusUpdatedAt: report.statusUpdatedAt,
+  };
+}
+
 const EMPTY_LEDGER: LedgerSnapshot = {
   totalAnswered: 0,
   totalCorrect: 0,
@@ -542,8 +559,31 @@ export async function reportLearnerQuestion(userId: number, fallbackName: string
     topic: input.topic,
     reason: input.reason,
     note,
-  }).onDuplicateKeyUpdate({ set: { note, status: "new" } });
-  return { accepted: true as const };
+  }).onDuplicateKeyUpdate({ set: { note, status: "open", resolvedByUserId: null, statusUpdatedAt: new Date() } });
+  const [stored] = await db.select().from(learnerQuestionReports).where(eq(learnerQuestionReports.reportKey, reportKey)).limit(1);
+  return { accepted: true as const, receipt: stored ? toLearnerQuestionReportReceipt(stored) : null };
+}
+
+export async function getLearnerQuestionReportReceipts(userId: number, fallbackName: string | null) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const reports = await db.select().from(learnerQuestionReports).where(eq(learnerQuestionReports.userId, userId)).orderBy(desc(learnerQuestionReports.statusUpdatedAt)).limit(20);
+  return reports.map(toLearnerQuestionReportReceipt);
+}
+
+export async function getOwnerQuestionReports() {
+  const db = await getDb();
+  if (!db) throw new Error("The review queue is unavailable right now.");
+  const reports = await db.select().from(learnerQuestionReports).orderBy(desc(learnerQuestionReports.statusUpdatedAt)).limit(100);
+  return reports.map((report) => ({ ...toLearnerQuestionReportReceipt(report), note: report.note, reporterUserId: report.userId, resolvedByUserId: report.resolvedByUserId }));
+}
+
+export async function updateOwnerQuestionReportStatus(ownerUserId: number, reportId: number, status: LearnerQuestionReportStatus) {
+  const db = await getDb();
+  if (!db) throw new Error("The review queue is unavailable right now.");
+  await db.update(learnerQuestionReports).set({ status, resolvedByUserId: status === "resolved" || status === "dismissed" ? ownerUserId : null, statusUpdatedAt: new Date() }).where(eq(learnerQuestionReports.id, reportId));
+  const [updated] = await db.select().from(learnerQuestionReports).where(eq(learnerQuestionReports.id, reportId)).limit(1);
+  if (!updated) throw new Error("The report no longer exists.");
+  return toLearnerQuestionReportReceipt(updated);
 }
 
 export async function updateLearnerProfile(userId: number, fallbackName: string | null, update: { displayName?: string; targetScore?: number; timeZone?: string }) {

@@ -32,7 +32,7 @@ interface QuizShellProps {
   onTogglePause?: () => void;
   bookmarkedQuestionIds?: string[];
   onToggleBookmark?: () => void;
-  onReportQuestion?: (input: { questionId: string; subject: BankQuestion["subject"]; topic: string; reason: "wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other"; note?: string }) => Promise<unknown>;
+  onReportQuestion?: (input: { questionId: string; subject: BankQuestion["subject"]; topic: string; reason: "wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other"; note?: string }) => Promise<{ accepted: boolean; receipt: { id: number; status: "open" | "reviewing" | "resolved" | "dismissed" } | null }>;
   historicalReview?: boolean;
   historicalFilter?: "all" | "correct" | "wrong";
   onHistoricalFilter?: (filter: "all" | "correct" | "wrong") => void;

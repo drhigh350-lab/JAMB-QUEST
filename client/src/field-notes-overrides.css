@@ -115,6 +115,34 @@
 .confidence-building { background: rgba(244,178,40,.22); color: var(--ink); }
 .confidence-repair { background: rgba(191,88,75,.14); color: #a13f36; }
 .confidence-not-started { background: rgba(18,40,63,.1); color: rgba(18,40,63,.7); }
+.question-report-success > span { display: grid; gap: 3px; }
+.question-report-success small { color: rgba(18,40,63,.68); font-size: .75rem; }
+.report-receipts { display: grid; gap: 11px; padding: 17px; background: #f7f1e2; border-left: 4px solid var(--maize); }
+.report-receipts > div:first-child { display: grid; gap: 4px; }
+.report-receipts h2 { margin: 0; color: var(--ink); font: 800 1.1rem "Space Grotesk", sans-serif; }
+.report-receipts p { margin: 0; color: rgba(18,40,63,.7); font-size: .8rem; }
+.report-receipt-list { display: grid; gap: 7px; }
+.report-receipt-list article { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px; background: #fff; border: 1px solid rgba(18,40,63,.14); }
+.report-receipt-list span { display: grid; gap: 3px; min-width: 0; }
+.report-receipt-list b { overflow: hidden; color: var(--ink); font-size: .8rem; text-overflow: ellipsis; white-space: nowrap; }
+.report-receipt-list small { color: rgba(18,40,63,.62); font-size: .71rem; text-transform: capitalize; }
+.report-receipt-list em { flex: 0 0 auto; padding: 5px 7px; font: 800 8px "Space Grotesk", sans-serif; font-style: normal; letter-spacing: .07em; text-transform: uppercase; }
+.report-status-open { background: rgba(244,178,40,.22); color: var(--ink); }
+.report-status-reviewing { background: rgba(39,101,154,.14); color: #1f5a87; }
+.report-status-resolved { background: rgba(46,121,89,.16); color: var(--green); }
+.report-status-dismissed { background: rgba(18,40,63,.1); color: rgba(18,40,63,.7); }
+.owner-report-desk { padding: 0; overflow: hidden; background: var(--ink); color: #fff; }
+.owner-report-desk summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px; cursor: pointer; list-style: none; }
+.owner-report-desk summary::-webkit-details-marker { display: none; }
+.owner-report-desk summary span { display: grid; gap: 3px; }
+.owner-report-desk summary small { color: rgba(255,255,255,.65); font-size: .73rem; }
+.owner-report-list { display: grid; gap: 1px; background: rgba(255,255,255,.18); }
+.owner-report-list article { display: flex; justify-content: space-between; gap: 12px; padding: 12px; background: #fff; color: var(--ink); }
+.owner-report-list article > div { display: grid; gap: 3px; min-width: 0; }
+.owner-report-list b { font-size: .8rem; }
+.owner-report-list small, .owner-report-list p { margin: 0; color: rgba(18,40,63,.65); font-size: .72rem; }
+.owner-report-list label { display: grid; align-content: start; gap: 4px; flex: 0 0 94px; color: rgba(18,40,63,.65); font: 800 8px "Space Grotesk", sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.owner-report-list select { min-height: 30px; border: 1px solid rgba(18,40,63,.25); background: #fff; color: var(--ink); font: 700 .72rem "DM Sans", sans-serif; }
 .weak-topic-recovery { display: grid; gap: 12px; padding-top: 17px; border-top: 2px solid var(--maize); }
 .weak-topic-recovery h3 { margin: 4px 0 0; color: var(--ink); }
 .weak-topic-list { display: grid; gap: 9px; }

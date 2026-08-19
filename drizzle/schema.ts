@@ -100,7 +100,9 @@ export const learnerQuestionReports = mysqlTable("learnerQuestionReports", {
   topic: varchar("topic", { length: 160 }).notNull(),
   reason: mysqlEnum("reason", ["wrong_answer", "missing_context", "broken_diagram", "confusing_wording", "other"]).notNull(),
   note: varchar("note", { length: 500 }),
-  status: mysqlEnum("status", ["new", "reviewed", "resolved"]).notNull().default("new"),
+  status: mysqlEnum("status", ["open", "reviewing", "resolved", "dismissed"]).notNull().default("open"),
+  statusUpdatedAt: timestamp("statusUpdatedAt").defaultNow().onUpdateNow().notNull(),
+  resolvedByUserId: int("resolvedByUserId").references(() => users.id),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 

@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -60,6 +60,7 @@ export const appRouter = router({
       reason: z.enum(["wrong_answer", "missing_context", "broken_diagram", "confusing_wording", "other"]),
       note: z.string().trim().max(500).optional(),
     })).mutation(({ ctx, input }) => reportLearnerQuestion(ctx.user.id, ctx.user.name ?? null, input)),
+    myQuestionReports: protectedProcedure.query(({ ctx }) => getLearnerQuestionReportReceipts(ctx.user.id, ctx.user.name ?? null)),
     recordRound: protectedProcedure.input(z.object({
       subject: roundSubjectSchema,
       mode: z.enum(["sprint", "cbt", "review"]),
@@ -95,6 +96,13 @@ export const appRouter = router({
   push: router({
     publicKey: publicProcedure.query(() => getWebPushPublicKey()),
     oneSignalAppId: publicProcedure.query(() => getOneSignalAppId()),
+  }),
+  qualityReview: router({
+    questionReports: adminProcedure.query(() => getOwnerQuestionReports()),
+    updateQuestionReportStatus: adminProcedure.input(z.object({
+      reportId: z.number().int().positive(),
+      status: z.enum(learnerQuestionReportStatuses),
+    })).mutation(({ ctx, input }) => updateOwnerQuestionReportStatus(ctx.user.id, input.reportId, input.status)),
   }),
   questionImports: router({
     validate: adminProcedure.input(authorisedImportSchema).query(({ input }) => ({
