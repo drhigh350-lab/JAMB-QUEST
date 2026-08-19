@@ -8,3 +8,9 @@ The held all-subject import therefore remains blocked. Releasing cards from this
 ## Subject-page follow-up
 
 A second review found more granular public pages. SchoolNGR exposes year and subject question pages and “View Answer & Explanation” links, while Myschool exposes individual question pages without a complete answer table in the extracted landing page. EduPadi exposes individual 2003 Physics questions with visible “Correct Answer” text and worked solutions. These sources demonstrate that partial question-level corroboration may be possible, but they do not yet provide a complete, consistently extractable answer-key dataset aligned to every question in the held PDF. No bulk import decision changes.
+
+## Owner-Drive companion-file check
+
+On August 19, the connected owner Drive was searched for a 2025 all-subject companion, an all-subject answer key, and filenames or contents containing answer-key terms. The only matching 2025 all-subject file was the already staged `826050738-Jamb-2025-questions-and-Past-Questions-All-Subjects-compressed.pdf` itself. No separate owner-provided answer key or numbering-aligned companion file was found.
+
+The import remains correctly blocked. A release decision now requires either the source’s official answer-key file or a newly supplied owner-approved mapping that aligns every selected question to its answer; general web pages and inferred answers remain insufficient for bulk release.
