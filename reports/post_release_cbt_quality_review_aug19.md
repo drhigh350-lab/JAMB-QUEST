@@ -16,5 +16,6 @@ The development service was restarted once after the implementation. The current
 | Correction reasons | Pass | Persisted answer-review parser and analytics regression. |
 | Topic confidence | Pass | Real-attempt confidence regression and phone-sized balanced four-subject Progress review. |
 | Current runtime startup | Pass | Clean service restart and no current browser-console error. |
+| Learner-flow labels and safety wording | Pass | Regression verifies explicit CBT ready-check, saved-session context, private report labels, optional correction tags, and save-before-exit wording. |
 
-No code correction was required from this review. The remaining evidence blockers are unchanged: real-device scheduled-push proof, user-provided rich explanation source, and source-backed model-bank provenance/answer-safety evidence.
+No corrective product change was required from this review. The remaining evidence blockers are unchanged: real-device scheduled-push proof, user-provided rich explanation source, and source-backed model-bank provenance/answer-safety evidence.
