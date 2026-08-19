@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -99,6 +99,7 @@ export const appRouter = router({
   }),
   qualityReview: router({
     questionReports: adminProcedure.query(() => getOwnerQuestionReports()),
+    heldDiagramRecords: adminProcedure.query(() => getOwnerHeldDiagramRecords()),
     updateQuestionReportStatus: adminProcedure.input(z.object({
       reportId: z.number().int().positive(),
       status: z.enum(learnerQuestionReportStatuses),

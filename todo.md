@@ -560,3 +560,7 @@
 - [x] Review saved CBT history and correction-entry readability on phone-sized layouts, ensuring each learner can identify score, attempt size, timing, misses, flags, and the exact correction action without altering answer data or question content. Each saved CBT row now shows correct/total, miss count, flag count, minutes, accessible accuracy, and a clear “Open full correction” action. Focused regression and TypeScript pass without changing any answer data or question content.
 
 - [x] Reinspect existing local source-ledger and explanation-quality reports for verifiable provenance that could advance the historical model-explanation backlog; do not rewrite, release, or alter any question unless the evidence supports it. The existing receipts support only legacy batches already treated; the model bank still has no authorship or answer-safety evidence, so its protected hold remains unchanged. The reinspection is recorded in `reports/historical_explanation_provenance_reinspection_aug19.md`.
+
+- [x] Add a compact CBT readiness checklist that confirms timer, calculator, palette, flags, saved-session safety, and interruption handling before a learner begins a Standard CBT.
+- [x] Add a daily-plan completion summary that tells the learner what was completed today, their accuracy, the study signal that changed, and the next evidence-based repair without inventing progress.
+- [x] Add an owner-only diagram review desk listing held figure-dependent records and their safe hold reason, with no release action or visual reconstruction path.

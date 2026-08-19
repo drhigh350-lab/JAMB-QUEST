@@ -1,6 +1,6 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { and, desc, eq, gt, inArray } from "drizzle-orm";
+import { and, desc, eq, gt, inArray, isNull } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { createHash } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
@@ -575,6 +575,25 @@ export async function getOwnerQuestionReports() {
   if (!db) throw new Error("The review queue is unavailable right now.");
   const reports = await db.select().from(learnerQuestionReports).orderBy(desc(learnerQuestionReports.statusUpdatedAt)).limit(100);
   return reports.map((report) => ({ ...toLearnerQuestionReportReceipt(report), note: report.note, reporterUserId: report.userId, resolvedByUserId: report.resolvedByUserId }));
+}
+
+/** Owner-only evidence desk: these records remain held until an exact owner-original visual is attached. */
+export async function getOwnerHeldDiagramRecords() {
+  const db = await getDb();
+  if (!db) throw new Error("The diagram review desk is unavailable right now.");
+  const heldCandidates = await db.select({
+    id: questionItems.id,
+    externalId: questionItems.externalId,
+    subject: questionItems.subject,
+    topic: questionItems.topic,
+    questionText: questionItems.questionText,
+  }).from(questionItems).where(isNull(questionItems.diagramUrl)).orderBy(questionItems.id);
+  return heldCandidates
+    .filter((record) => requiresDiagramAsset(normaliseQuestionStem(record.questionText)))
+    .map((record) => ({
+      ...record,
+      questionPreview: normaliseQuestionStem(record.questionText).replace(/\s+/g, " ").slice(0, 220),
+    }));
 }
 
 export async function updateOwnerQuestionReportStatus(ownerUserId: number, reportId: number, status: LearnerQuestionReportStatus) {

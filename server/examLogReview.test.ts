@@ -24,7 +24,7 @@ describe("saved CBT correction log", () => {
     expect(game).toContain("if (isHistoricalReview)");
     expect(game).toContain('historicalFilter, setHistoricalFilter');
     expect(game).toContain("filterHistoricalReview");
-    expect(home).toContain("Open corrections");
+    expect(home).toContain("Open full correction");
     expect(review).toContain("SAVED CBT CORRECTION");
     expect(review).toContain("SAVED CBT CORRECTION");
     expect(review).toContain("will not change your score or create another attempt");
