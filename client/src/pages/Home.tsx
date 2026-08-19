@@ -50,6 +50,7 @@ type ReminderState = { enabled: boolean; reminderTime: string; pushEnabled: bool
 
 interface HomeProps {
   loading: boolean; loadError: string | null; progress: StoredProgress; canReview: boolean; onRetryLoad: () => void; onStart: (config: RoundConfig) => void; questionCount: number; questionCountReady: boolean;
+  initialTab?: AppTab; onActiveTabChange?: (tab: AppTab) => void;
   questionSources?: Array<{ id: number; label: string; sourceType: "model" | "authorised"; permissionNote: string | null }>;
   auth: { loading: boolean; isAuthenticated: boolean; profileName: string; targetScore: number; onLogout: () => void; onSaveProfile: (displayName: string, targetScore: number) => void; savingProfile: boolean };
   examHistory: Array<{ id: number; subject: string; mode: string; questionCount: number; correctCount: number; score: number; durationSeconds: number; flaggedCount: number; missedQuestionIds: string[]; completedAt: Date }>;
@@ -110,11 +111,9 @@ function SubjectAccuracyChart({ performance }: { performance: Array<{ subject: s
   return <div className="subject-chart" aria-label="Subject accuracy comparison"><div className="performance-chart-head"><span>SUBJECT ACCURACY</span><strong>real attempts only</strong></div><div className="subject-chart-grid">{visible.map((item) => <div className="subject-chart-row" key={item.label}><b>{item.label}</b><div className="subject-chart-track"><span style={{ width: `${Math.max(2, item.accuracy)}%` }} /></div><strong>{item.attempts ? `${item.accuracy}%` : "—"}</strong></div>)}</div></div>;
 }
 
-export default function Home({ loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, achievementStats, examHistory, onOpenExamLog = () => undefined, examReviewOpening = false, examReviewError = null, weakTopics, topicConfidence = [], subjectPerformance = [], fullMockSubjectPerformance = [], coreSubjectFocus = null, availableTopics = [], bookmarks = [], questionReports = [], isOwner = false, ownerQuestionReports = [], ownerHeldDiagramRecords = [], onOwnerReportStatus = () => undefined, ownerReportUpdatingId = null, comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
-  const [activeTab, setActiveTab] = useState<AppTab>(() => {
-    const requested = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("tab");
-    return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
-  });
+export default function Home({ initialTab = "practice", onActiveTabChange, loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, achievementStats, examHistory, onOpenExamLog = () => undefined, examReviewOpening = false, examReviewError = null, weakTopics, topicConfidence = [], subjectPerformance = [], fullMockSubjectPerformance = [], coreSubjectFocus = null, availableTopics = [], bookmarks = [], questionReports = [], isOwner = false, ownerQuestionReports = [], ownerHeldDiagramRecords = [], onOwnerReportStatus = () => undefined, ownerReportUpdatingId = null, comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
+  const [activeTab, setActiveTab] = useState<AppTab>(initialTab);
+  useEffect(() => { onActiveTabChange?.(activeTab); }, [activeTab, onActiveTabChange]);
   const [selectedSubject, setSelectedSubject] = useState<Subject>("Biology");
   const [selectedPalette, setSelectedPalette] = useState<StudyPalette>("Biology");
   const [mode, setMode] = useState<"sprint" | "cbt" | "review">("sprint");
