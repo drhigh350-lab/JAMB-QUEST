@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, FlagTriangleRight, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
-import { splitQuestionPresentation } from "@/game/questionPresentation";
+import { preserveEnglishCompletionGap, splitQuestionPresentation } from "@/game/questionPresentation";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface QuestionCardProps {
@@ -29,7 +29,7 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
   const letters = ["A", "B", "C", "D", "E"];
   const explanationLines = questionExplanationLines(question);
   const topic = normalisedTopic(question.topic);
-  const presentation = splitQuestionPresentation(question.question);
+  const presentation = splitQuestionPresentation(preserveEnglishCompletionGap(question.question, question.subject));
   const [reportOpen, setReportOpen] = useState(false);
   const [reportReason, setReportReason] = useState<"wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other">("wrong_answer");
   const [reportNote, setReportNote] = useState("");

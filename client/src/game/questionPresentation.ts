@@ -4,6 +4,12 @@ export type QuestionPresentation = {
   context: string | null;
 };
 
+/** Preserve a legacy double-space completion position as a visible answer gap on learner cards. */
+export function preserveEnglishCompletionGap(rawQuestion: string | null | undefined, subject: string) {
+  if (typeof rawQuestion !== "string") return rawQuestion ?? "";
+  return subject === "Use of English" ? rawQuestion.replace(/ {2,}/g, " _____ ") : rawQuestion;
+}
+
 /**
  * Separates source-supplied reading material from its question prompt without
  * changing a single word. Ordinary questions retain their original text and
