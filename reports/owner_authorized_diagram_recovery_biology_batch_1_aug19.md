@@ -23,3 +23,9 @@ The corrected flower replacement passed review: `II` and `III` each terminate at
 ## Preserved hold
 
 Records **1020055** and **1020056** remain held in this batch. They cite one shared cell diagram, but the retained answer keys assign Roman numeral II to two incompatible structures: mitochondrion for record 1020055 and endoplasmic reticulum for record 1020056. Attaching a synthetic image would make at least one answer wrong. No diagram or answer key was changed.
+
+## Exact retained-PDF recovery found
+
+The retained owner `Biology 2004` PDF pages were then recovered and reviewed directly. Its page 54 supplies the shared source figure: label `II` points to a mitochondrion, while label `I` points to endoplasmic reticulum. This validates record 1020055’s respiration answer and proves that record 1020056’s imported answer mapping is incorrect; the correct option is `I` (the third displayed option), not `II`. A neutral redraw will preserve those original I–IV relationships before the pair is released.
+
+The neutral redraw passed visual review: `I` terminates on endoplasmic-reticulum membranes and `II` terminates within an oval mitochondrion. It contains no organ-name text or answer annotation. Record 1020056 was corrected from answer index `3` (`II`) to answer index `2` (`I`) before both records were linked to the reviewed figure.
