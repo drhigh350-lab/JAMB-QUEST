@@ -43,4 +43,18 @@ describe("question formatting intake gate", () => {
 
     expect(result).toMatchObject({ status: "needs_review", reasons: ["question references a visual but no linked visual asset is supplied"] });
   });
+
+  it("blocks raw LaTeX commands from future batch release", () => {
+    const result = evaluateQuestionFormatting({
+      subject: "Chemistry",
+      question: "STP uses 0^\\circ\\text{C} and 1\\text{ atm}.",
+      options: ["0^\\circ\\text{C}", "25^\\circ\\text{C}", "273\\text{ K}", "760\\text{ mmHg}"],
+    });
+
+    expect(result).toMatchObject({
+      status: "needs_review",
+      hasRawLatex: true,
+      reasons: ["raw LaTeX or mathematical command syntax must be converted before release"],
+    });
+  });
 });

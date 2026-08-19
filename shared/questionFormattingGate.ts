@@ -12,11 +12,13 @@ export type FormattingGateResult = {
   reasons: string[];
   hasAsciiExponent: boolean;
   hasLegacyEnglishGap: boolean;
+  hasRawLatex: boolean;
 };
 
 const sourceIncompleteMarker = /\[(?:continues|passage|question stem|context|diagram|figure|graph|table|structure|apparatus)[^\]]*(?:cut off|missing|unavailable|partial|not shown)/i;
 const shortUnderscoreGap = /(?<!_)_{1,4}(?!_)/;
 const visualReferenceWithoutAsset = /\b(?:diagram|figure|graph|table|structure|apparatus)\s+(?:above|below|shown|following)\b/i;
+const rawLatexMarkup = /\\[A-Za-z]+|\^\\|_\\|\$[^$]+\$/;
 
 /**
  * Intake checks only evidence visible in the supplied record. Missing wording,
@@ -30,6 +32,7 @@ export function evaluateQuestionFormatting(input: FormattingGateInput): Formatti
   const text = [question, ...input.options, input.explanation ?? ""].join("\n");
   const hasAsciiExponent = /(?<=[A-Za-z0-9)\]])\^[0-9+-]+/.test(text);
   const hasLegacyEnglishGap = subject === "Use of English" && (/ {2,}/.test(question) || shortUnderscoreGap.test(question));
+  const hasRawLatex = rawLatexMarkup.test(text);
   const reasons: string[] = [];
 
   if (!question.trim()) reasons.push("question text is missing");
@@ -39,11 +42,15 @@ export function evaluateQuestionFormatting(input: FormattingGateInput): Formatti
   if (visualReferenceWithoutAsset.test(question) && !input.diagramUrl?.trim()) {
     reasons.push("question references a visual but no linked visual asset is supplied");
   }
+  if (hasRawLatex) {
+    reasons.push("raw LaTeX or mathematical command syntax must be converted before release");
+  }
 
   return {
     status: reasons.length ? "needs_review" : "ready",
     reasons,
     hasAsciiExponent,
     hasLegacyEnglishGap,
+    hasRawLatex,
   };
 }

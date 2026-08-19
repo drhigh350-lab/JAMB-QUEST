@@ -14,4 +14,15 @@ describe("learner text formatting", () => {
     expect(formatLearnerText("F⁶")).toBe("F⁶");
     expect(formatLearnerText(undefined)).toBe("");
   });
+
+  it("converts raw LaTeX temperatures, units, and chemistry indices into readable learner text", () => {
+    expect(formatLearnerText("25^\\circ\\text{C} and 1\\text{atm}")).toBe("25°C and 1atm");
+    expect(formatLearnerText("100^\\circ\\text{C} and 760\\text{ mmHg}")).toBe("100°C and 760 mmHg");
+    expect(formatLearnerText("H_2\\text{O} + SO_4^{2-}")).toBe("H₂O + SO₄²⁻");
+  });
+
+  it("converts common equation markup without exposing raw command syntax", () => {
+    expect(formatLearnerText("\\frac{1}{2}\\pi r^2 \\times 4")).toBe("1/2π r² × 4");
+    expect(formatLearnerText("\\Delta H \\rightleftharpoons \\infty")).toBe("Δ H ⇌ ∞");
+  });
 });
