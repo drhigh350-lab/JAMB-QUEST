@@ -20,6 +20,7 @@ import LekkiChapterLaunchFixture from "./e2e/LekkiChapterLaunchFixture";
 import FiveOptionCbtFixture from "./e2e/FiveOptionCbtFixture";
 import OpeningSequenceFixture from "./e2e/OpeningSequenceFixture";
 import EnglishQuestionPresentationFixture from "./e2e/EnglishQuestionPresentationFixture";
+import OwnerOriginalEnergyProfileFixture from "./e2e/OwnerOriginalEnergyProfileFixture";
 import { startLogin } from "./const";
 import "./index.css";
 
@@ -104,11 +105,12 @@ const isLekkiChapterFixture = new URLSearchParams(window.location.search).get("e
 const isFiveOptionCbtFixture = new URLSearchParams(window.location.search).get("e2eFiveOptionCbtFixture") === "1";
 const isOpeningSequenceFixture = new URLSearchParams(window.location.search).get("e2eOpeningSequenceFixture") === "1";
 const isEnglishQuestionPresentationFixture = new URLSearchParams(window.location.search).get("e2eEnglishQuestionPresentationFixture") === "1";
+const isOwnerOriginalEnergyProfileFixture = new URLSearchParams(window.location.search).get("e2eOwnerOriginalEnergyProfileFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : isLekkiChapterFixture ? <LekkiChapterLaunchFixture /> : isFiveOptionCbtFixture ? <FiveOptionCbtFixture /> : isOpeningSequenceFixture ? <OpeningSequenceFixture /> : isEnglishQuestionPresentationFixture ? <EnglishQuestionPresentationFixture /> : isReminderFixture ? <ReminderFixture /> : <App />}
+      {isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : isLekkiChapterFixture ? <LekkiChapterLaunchFixture /> : isFiveOptionCbtFixture ? <FiveOptionCbtFixture /> : isOpeningSequenceFixture ? <OpeningSequenceFixture /> : isEnglishQuestionPresentationFixture ? <EnglishQuestionPresentationFixture /> : isOwnerOriginalEnergyProfileFixture ? <OwnerOriginalEnergyProfileFixture /> : isReminderFixture ? <ReminderFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );
