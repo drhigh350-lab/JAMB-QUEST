@@ -24,5 +24,11 @@ describe("learner text formatting", () => {
   it("converts common equation markup without exposing raw command syntax", () => {
     expect(formatLearnerText("\\frac{1}{2}\\pi r^2 \\times 4")).toBe("1/2π r² × 4");
     expect(formatLearnerText("\\Delta H \\rightleftharpoons \\infty")).toBe("Δ H ⇌ ∞");
+    expect(formatLearnerText("A \\equiv B and y \\propto x")).toBe("A ≡ B and y ∝ x");
+  });
+
+  it("preserves currency while repairing a malformed lost-subscript marker", () => {
+    expect(formatLearnerText("Between $100 and $200")).toBe("Between $100 and $200");
+    expect(formatLearnerText("Na₂CO₃·10H�2O")).toBe("Na₂CO₃·10H₂O");
   });
 });

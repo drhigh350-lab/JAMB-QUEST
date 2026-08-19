@@ -1,0 +1,377 @@
+{
+  "totalFields": 37876,
+  "totalRecords": 6407,
+  "sourceRawMarkupFields": 76,
+  "renderedUnresolvedFields": 0,
+  "rawBySource": {
+    "authorised": 76
+  },
+  "rawBySubject": {
+    "Chemistry": 76
+  },
+  "rawCommandCounts": {
+    "\\approx": 1,
+    "\\circ": 3,
+    "\\Delta": 1,
+    "\\equiv": 1,
+    "\\propto": 1,
+    "\\rightarrow": 3,
+    "\\rightleftharpoons": 1,
+    "\\sqrt": 4,
+    "\\text": 95,
+    "\\times": 10
+  },
+  "unresolvedSamples": [],
+  "rawSamples": [
+    {
+      "source": "authorised",
+      "id": "owner-aug15-chemistry-chemistry-100-md-49",
+      "subject": "Chemistry",
+      "field": "explanation",
+      "value": "This restates the same principle as Q21: a hydrated salt (here, sodium carbonate decahydrate, Na₂CO₃·10H�2O) spontaneously losing water of crystallization to the atmosphere without external heating is efflorescence. Deliquescence is the opposite process (absorbing atmospheric moisture until the solid dissolves), hygroscopy is absorbing moisture without full dissolution, and effervescence refers to gas bubbling, unrelated to hydration state changes. This concept appears in multiple JAMB years — worth memorizing thoroughly given its recurrence.\n\n---"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-028",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "In the preparation of oxygen by heating \\text{KClO}_3 in the presence of \\text{MnO}_2, only moderate heat is needed because the catalyst acts by"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-030",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "2\\text{H}_2(g) + \\text{O}_2(g) \\rightleftharpoons 2\\text{H}_2\\text{O}(g)\\ \\Delta H = \\text{-ve}. What happens to the equilibrium constant of the reaction above if the temperature is increased?"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-031",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{CO}_3^{2-}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-031",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{Cl}^-"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-031",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{SO}_4^{2-}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-031",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{NO}_3^-"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-033",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{HNO}_3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-033",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{CH}_3\\text{COOH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-033",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{H}_2\\text{SO}_4"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-033",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{HCl}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-037",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{Na}^+"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-037",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{Ca}^{2+}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-037",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{Fe}^{3+}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-037",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{Fe}^{2+}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-042",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{CH}_3\\text{COOH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-042",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{C}_2\\text{H}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-042",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{C}_2\\text{H}_4"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-042",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{CH}_3\\text{COOC}_2\\text{H}_5"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-050",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{CCl}_4"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-050",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{CHCl}_3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-050",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{CH}_2\\text{Cl}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-050",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{CH}_3\\text{Cl}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-059",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{CO}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-059",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{SO}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-059",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{Cl}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-059",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{NH}_3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-060",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "The oxidation state of chromium in potassium dichromate (VI), \\text{K}_2\\text{Cr}_2\\text{O}_7, is"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-066",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{CH}_2"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-066",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{CH}_3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-066",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{CH}_4"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-066",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "\\text{C}_2\\text{H}_5"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-069",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "What is the concentration of hydrogen ions [\\text{H}^+] in a solution whose \\text{pH} is 3?"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-069",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "1 \\times 10^{-3}\\text{ mol/dm}^3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-069",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "1 \\times 10^{-11}\\text{ mol/dm}^3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-069",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "3\\text{ mol/dm}^3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-069",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "1 \\times 10^{3}\\text{ mol/dm}^3"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-072",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "-\\text{COOH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-072",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "-\\text{CHO}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-072",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "-\\text{OH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-072",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "-\\text{COO}-"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-073",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "concentrated alkali like \\text{NaOH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-077",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "Which of the following compounds exhibits functional group isomerism with ethanoic acid (\\text{CH}_3\\text{COOH})?"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-080",
+      "subject": "Chemistry",
+      "field": "question",
+      "value": "A solution with a \\text{pH} greater than 7 turns red litmus paper"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-081",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "\\text{C}\\equiv\\text{C}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-081",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "\\text{C}=\\text{C}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-081",
+      "subject": "Chemistry",
+      "field": "option_3",
+      "value": "\\text{C}-\\text{C}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-081",
+      "subject": "Chemistry",
+      "field": "option_4",
+      "value": "-\\text{OH}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-083",
+      "subject": "Chemistry",
+      "field": "option_1",
+      "value": "25^\\circ\\text{C} and 1\\text{ atm}"
+    },
+    {
+      "source": "authorised",
+      "id": "chem-docx-083",
+      "subject": "Chemistry",
+      "field": "option_2",
+      "value": "0^\\circ\\text{C} and 1\\text{ atm}"
+    }
+  ]
+}

@@ -48,6 +48,8 @@ const latexSymbols: Record<string, string> = {
   times: "×",
   cdot: "·",
   div: "÷",
+  equiv: "≡",
+  propto: "∝",
   le: "≤",
   leq: "≤",
   ge: "≥",
@@ -73,7 +75,7 @@ function unicodeExponent(value: string, symbols: Record<string, string>): string
  */
 function formatCommonLatex(value: string): string {
   let formatted = value
-    .replace(/\$\$?([^$]+)\$\$?/g, "$1")
+    .replace(/\$([^$]+)\$/g, (_match, content: string) => (/\\[A-Za-z]+|[{}^_]/.test(content) ? content : _match))
     .replace(/\\\[\s*([^\]]+?)\s*\\\]/g, "$1")
     .replace(/\\\(\s*([^\)]+?)\s*\\\)/g, "$1")
     .replace(/\\(?:text|textrm|mathrm|mathbf|mathit|operatorname)\{([^{}]*)\}/g, "$1")
@@ -87,6 +89,7 @@ function formatCommonLatex(value: string): string {
     .replace(/[{}]/g, "");
 
   formatted = formatted
+    .replace(/([A-Za-z])�([0-9+-])/g, (_match, base: string, subscript: string) => `${base}${unicodeExponent(subscript, subscriptCharacters)}`)
     .replace(/([A-Za-z0-9)\]])\^\{?([0-9+-]+)\}?/g, (_match, base: string, exponent: string) => (
       `${base}${unicodeExponent(exponent, superscriptCharacters)}`
     ))
