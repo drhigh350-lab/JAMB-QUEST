@@ -11,6 +11,8 @@ type IncomingQuestion = {
   questionText?: string;
   options?: unknown;
   explanation?: string | null;
+  diagram_url?: string | null;
+  diagramUrl?: string | null;
 };
 
 const [inputPath, outputPath = "question-formatting-gate-report.json"] = process.argv.slice(2);
@@ -36,6 +38,7 @@ const results = records.map((value, index) => {
     question: record.question ?? record.questionText ?? "",
     options,
     explanation: record.explanation,
+    diagramUrl: record.diagram_url ?? record.diagramUrl,
   });
   return {
     index,

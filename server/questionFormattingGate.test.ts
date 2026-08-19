@@ -10,7 +10,7 @@ describe("question formatting intake gate", () => {
       options: ["A", "B", "C", "D"],
     });
 
-    expect(result).toMatchObject({ status: "needs_review", reasons: ["English source context or question stem is explicitly incomplete"] });
+    expect(result).toMatchObject({ status: "needs_review", reasons: ["source context, question stem, or required visual is explicitly incomplete"] });
   });
 
   it("accepts a self-contained English completion prompt and reports its display-safe gap", () => {
@@ -31,5 +31,16 @@ describe("question formatting intake gate", () => {
     });
 
     expect(result).toMatchObject({ status: "ready", hasAsciiExponent: true });
+  });
+
+  it("holds a science question that references a visual but has no linked asset", () => {
+    const result = evaluateQuestionFormatting({
+      subject: "Chemistry",
+      question: "Choose the correct option from the graph above.",
+      options: ["A", "B", "C", "D"],
+      diagramUrl: null,
+    });
+
+    expect(result).toMatchObject({ status: "needs_review", reasons: ["question references a visual but no linked visual asset is supplied"] });
   });
 });

@@ -4,6 +4,7 @@ export type FormattingGateInput = {
   question: string;
   options: string[];
   explanation?: string | null;
+  diagramUrl?: string | null;
 };
 
 export type FormattingGateResult = {
@@ -13,13 +14,15 @@ export type FormattingGateResult = {
   hasLegacyEnglishGap: boolean;
 };
 
-const sourceIncompleteMarker = /\[(?:continues|passage|question stem|context)[^\]]*(?:cut off|missing|unavailable|partial)/i;
+const sourceIncompleteMarker = /\[(?:continues|passage|question stem|context|diagram|figure|graph|table|structure|apparatus)[^\]]*(?:cut off|missing|unavailable|partial|not shown)/i;
 const shortUnderscoreGap = /(?<!_)_{1,4}(?!_)/;
+const visualReferenceWithoutAsset = /\b(?:diagram|figure|graph|table|structure|apparatus)\s+(?:above|below|shown|following)\b/i;
 
 /**
- * Intake checks only evidence visible in the supplied record. Missing English
- * directions are never invented from a topic label: explicit source-loss
- * markers go to review, while ordinary short blanks remain display-safe.
+ * Intake checks only evidence visible in the supplied record. Missing wording,
+ * context, and visual references are never invented from a topic label:
+ * explicit source-loss markers go to review, while ordinary short blanks remain
+ * display-safe.
  */
 export function evaluateQuestionFormatting(input: FormattingGateInput): FormattingGateResult {
   const subject = input.subject.trim();
@@ -30,8 +33,11 @@ export function evaluateQuestionFormatting(input: FormattingGateInput): Formatti
   const reasons: string[] = [];
 
   if (!question.trim()) reasons.push("question text is missing");
-  if (subject === "Use of English" && sourceIncompleteMarker.test(question)) {
-    reasons.push("English source context or question stem is explicitly incomplete");
+  if (sourceIncompleteMarker.test(question)) {
+    reasons.push("source context, question stem, or required visual is explicitly incomplete");
+  }
+  if (visualReferenceWithoutAsset.test(question) && !input.diagramUrl?.trim()) {
+    reasons.push("question references a visual but no linked visual asset is supplied");
   }
 
   return {
