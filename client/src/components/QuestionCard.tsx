@@ -5,6 +5,7 @@ import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, FlagTriangleRight, Send,
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
 import { preserveEnglishCompletionGap, splitQuestionPresentation } from "@/game/questionPresentation";
+import { formatLearnerText } from "@/game/learnerText";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface QuestionCardProps {
@@ -64,8 +65,8 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
       <div className="question-rule" />
       <div className="question-copy">
         <span className="eyebrow">QUESTION</span>
-        {presentation.context && <div className="question-source-context"><span>{presentation.contextLabel}</span><p>{presentation.context}</p></div>}
-        <h1 id="question-title">{presentation.prompt}</h1>
+        {presentation.context && <div className="question-source-context"><span>{presentation.contextLabel}</span><p>{formatLearnerText(presentation.context)}</p></div>}
+        <h1 id="question-title">{formatLearnerText(presentation.prompt)}</h1>
       </div>
       {question.diagram_url && <figure className="question-diagram"><img src={question.diagram_url} alt="Black-and-white instructional diagram for this question" loading="lazy" /><figcaption>Use the diagram with the question stem before choosing an answer.</figcaption></figure>}
       <div className="option-list" role="radiogroup" aria-label="Answer options">
@@ -83,7 +84,7 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
               disabled={answered}
             >
               <span className="option-letter">{letters[optionIndex]}</span>
-              <span className="option-text">{option}</span>
+              <span className="option-text">{formatLearnerText(option)}</span>
               <span className="option-state">
                 {isCorrect && <CheckCircle2 size={18} />}
                 {isWrong && <XCircle size={18} />}
@@ -97,7 +98,7 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
           <div className="feedback-stamp">{answer?.correct ? "CORRECT" : answer?.timedOut ? "TIME" : "REVIEW"}</div>
           <div className="feedback-copy">
             <strong>{answer?.correct ? "That mark counts." : answer?.timedOut ? "The clock moved on." : "Not this time."}</strong>
-            <div className="explanation-block" aria-label="Detailed explanation">{explanationLines.map((line, lineIndex) => <p key={`${question.id}-explanation-${lineIndex}`}>{line}</p>)}</div>
+            <div className="explanation-block" aria-label="Detailed explanation">{explanationLines.map((line, lineIndex) => <p key={`${question.id}-explanation-${lineIndex}`}>{formatLearnerText(line)}</p>)}</div>
           </div>
           <button className="button button-dark button-small" onClick={onNext}>
             {index === total - 1 ? "See result" : "Next question"} <Send size={15} />

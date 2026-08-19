@@ -7,6 +7,11 @@ describe("English completion prompt gaps", () => {
     expect(splitQuestionPresentation(prompt).prompt).toBe("It is imperative that the government _____ swift measures.");
   });
 
+  it("renders a retained short underscore English blank as a visible gap", () => {
+    const prompt = preserveEnglishCompletionGap("Neither Ade nor Bisi _ ready.", "Use of English");
+    expect(splitQuestionPresentation(prompt).prompt).toBe("Neither Ade nor Bisi _____ ready.");
+  });
+
   it("does not alter ordinary spacing in another subject", () => {
     expect(preserveEnglishCompletionGap("A force  acts on the body.", "Physics")).toBe("A force  acts on the body.");
   });
