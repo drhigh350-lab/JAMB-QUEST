@@ -38,3 +38,19 @@ The following records do not preserve enough reliable geometry, numeric scale, s
 | 1050275 | Exact experimental layout is absent beyond a generic fountain reference. |
 | 1050536 | Exact W–Z particle layout is absent; no safe pairing has been reconstructed yet. |
 | 1140041 | Vector directions and angles are absent, so the resultant-force figure cannot be recovered safely. |
+
+## Source recovery progress
+
+Record **1050059** is no longer geometry-missing. Its retained public source graph was recovered and reviewed: it has an `H(kJ)` axis, `Time(min)` axis, a 100 kJ reactant level, a 300 kJ solid peak, a 200 kJ dashed peak, and a 50 kJ product level. The regenerated neutral graph preserves that geometry without naming either curve or marking an answer.
+
+Record **1140041** is no longer direction-missing. Its retained source page confirms a 16 N vector 26° above the negative x-axis, a 12 N vector 32° above the positive x-axis, and a 21 N downward y-axis vector. A neutral redraw is pending visual review.
+
+Record **1020081** is no longer source-missing. The retained 2021 Chemistry PDF page 70 shows the original two-shell Bohr-style atom with a nucleus and electron labels. The rebuilt diagram preserves the two inner-shell and four outer-shell electrons, source labels, and no answer annotation.
+
+Record **1050275** is no longer source-missing. Its retained source page shows a fountain apparatus with a gas flask, atmospheric-pressure label, and water with blue litmus. The rebuilt diagram preserves exactly those apparatus cues but does not display the resulting colour.
+
+Records **1050059**, **1140041**, **1020081**, and **1050275** passed visual review and were linked to their respective learner questions. Record **1050162** also passed review as a neutral three-box p-sublevel diagram with one unpaired electron per box and no element-name label.
+
+Record **1050297** is now source-recovered from the retained public question page: the visual is ethyl propanoate, `CH3–CH2–C(=O)–O–CH2–CH3`. The reviewed neutral redraw preserves only its atoms and bonds, without a class or answer label.
+
+Record **1050437** is now source-recovered as `CH3–CH(OH)–CH2–CHCl2`. The reviewed neutral redraw preserves the hydroxyl and chlorine substituents only. The public mirror labels its key as “hydroxyl and halo-group,” while the imported owner key says “hydroxyl and chloro-group”; both describe the drawn formula but select different answer wording. The existing imported key remains unchanged pending a separate answer-safety decision; the visual itself is safe and attached.
