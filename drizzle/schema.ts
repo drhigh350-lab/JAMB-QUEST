@@ -88,6 +88,23 @@ export const learnerBookmarks = mysqlTable("learnerBookmarks", {
 });
 
 /**
+ * Private learner quality reports. Reports are keyed per learner/question/reason
+ * so a repeated tap cannot flood the owner review queue.
+ */
+export const learnerQuestionReports = mysqlTable("learnerQuestionReports", {
+  id: int("id").autoincrement().primaryKey(),
+  reportKey: varchar("reportKey", { length: 320 }).notNull().unique(),
+  userId: int("userId").notNull().references(() => users.id),
+  questionId: varchar("questionId", { length: 128 }).notNull(),
+  subject: varchar("subject", { length: 48 }).notNull(),
+  topic: varchar("topic", { length: 160 }).notNull(),
+  reason: mysqlEnum("reason", ["wrong_answer", "missing_context", "broken_diagram", "confusing_wording", "other"]).notNull(),
+  note: varchar("note", { length: 500 }),
+  status: mysqlEnum("status", ["new", "reviewed", "resolved"]).notNull().default("new"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+/**
  * Provenance records keep original model questions clearly distinct from authorised question sets.
  */
 export const questionSources = mysqlTable("questionSources", {

@@ -1,10 +1,11 @@
 /* Field Notes Arcade: answer choices behave like marked strips on a study sheet. */
 
-import React from "react";
-import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, Send, XCircle } from "lucide-react";
+import React, { useState } from "react";
+import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, FlagTriangleRight, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
 import { splitQuestionPresentation } from "@/game/questionPresentation";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface QuestionCardProps {
   question: BankQuestion;
@@ -21,21 +22,43 @@ interface QuestionCardProps {
   onSaveAndNext?: () => void;
   isBookmarked?: boolean;
   onToggleBookmark?: () => void;
+  onReportQuestion?: (input: { reason: "wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other"; note?: string }) => Promise<unknown>;
 }
 
-export function QuestionCard({ question, index, total, subjectLabel, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext, isBookmarked = false, onToggleBookmark }: QuestionCardProps) {
+export function QuestionCard({ question, index, total, subjectLabel, selectedIndex, answered, answer, onSelect, onSubmit, onNext, cbtMode = false, onSaveAndNext, isBookmarked = false, onToggleBookmark, onReportQuestion }: QuestionCardProps) {
   const letters = ["A", "B", "C", "D", "E"];
   const explanationLines = questionExplanationLines(question);
   const topic = normalisedTopic(question.topic);
   const presentation = splitQuestionPresentation(question.question);
+  const [reportOpen, setReportOpen] = useState(false);
+  const [reportReason, setReportReason] = useState<"wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other">("wrong_answer");
+  const [reportNote, setReportNote] = useState("");
+  const [reportStatus, setReportStatus] = useState<"idle" | "sending" | "sent" | "failed">("idle");
+  const submitReport = async () => {
+    if (!onReportQuestion) return;
+    try {
+      setReportStatus("sending");
+      await onReportQuestion({ reason: reportReason, note: reportNote.trim() || undefined });
+      setReportStatus("sent");
+    } catch {
+      setReportStatus("failed");
+    }
+  };
   return (
     <section className="question-card" aria-labelledby="question-title">
       <div className="question-card-topline">
         <div className="question-meta">
           <span>{subjectLabel ? `${subjectLabel} — ` : ""}Question {String(index + 1).padStart(2, "0")} of {String(total).padStart(2, "0")}</span>
         </div>
-        <div className="question-card-tools">{topic !== "Unclassified" && <span className="question-topic-label">Topic: {topic}</span>}{onToggleBookmark && <button className={`bookmark-control ${isBookmarked ? "active" : ""}`} onClick={onToggleBookmark} aria-pressed={isBookmarked} title={isBookmarked ? "Remove saved question" : "Save question for revision"}>{isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}<span>{isBookmarked ? "Saved" : "Save"}</span></button>}</div>
+        <div className="question-card-tools">{topic !== "Unclassified" && <span className="question-topic-label">Topic: {topic}</span>}{onToggleBookmark && <button className={`bookmark-control ${isBookmarked ? "active" : ""}`} onClick={onToggleBookmark} aria-pressed={isBookmarked} title={isBookmarked ? "Remove saved question" : "Save question for revision"}>{isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}<span>{isBookmarked ? "Saved" : "Save"}</span></button>}{onReportQuestion && <button className="bookmark-control question-report-control" onClick={() => { setReportStatus("idle"); setReportOpen(true); }} title="Report a question issue"><FlagTriangleRight size={16} /><span>Report</span></button>}</div>
       </div>
+      <Dialog open={reportOpen} onOpenChange={setReportOpen}>
+        <DialogContent className="question-report-dialog">
+          <DialogHeader><span className="eyebrow">QUALITY REPORT / PRIVATE</span><DialogTitle>What needs review?</DialogTitle><DialogDescription>Your report goes only to the JAMB Quest owner review queue. It does not change this question or show to other learners.</DialogDescription></DialogHeader>
+          {reportStatus === "sent" ? <div className="question-report-success"><CheckCircle2 size={18} /> Report received. Thank you for protecting the question bank.</div> : <><label className="question-report-field"><span>Issue type</span><select value={reportReason} onChange={(event) => setReportReason(event.target.value as typeof reportReason)}><option value="wrong_answer">Wrong answer or answer key</option><option value="missing_context">Missing passage or instruction</option><option value="broken_diagram">Broken, missing, or unclear diagram</option><option value="confusing_wording">Confusing wording</option><option value="other">Other quality issue</option></select></label><label className="question-report-field"><span>Optional note</span><textarea maxLength={500} value={reportNote} onChange={(event) => setReportNote(event.target.value)} placeholder="Briefly tell us what you noticed." /></label>{reportStatus === "failed" && <p className="question-report-error">The report could not be saved. Please try again.</p>}</>}
+          <DialogFooter>{reportStatus === "sent" ? <button className="button button-dark" onClick={() => setReportOpen(false)}>Done</button> : <><button className="button button-outline" onClick={() => setReportOpen(false)}>Cancel</button><button className="button button-dark" onClick={() => void submitReport()} disabled={reportStatus === "sending"}>{reportStatus === "sending" ? "Saving…" : "Send report"}</button></>}</DialogFooter>
+        </DialogContent>
+      </Dialog>
       <div className="question-rule" />
       <div className="question-copy">
         <span className="eyebrow">QUESTION</span>

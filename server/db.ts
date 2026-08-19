@@ -14,6 +14,7 @@ import {
   learnerProviderReminderQueue,
   learnerProgress,
   learnerPushSubscriptions,
+  learnerQuestionReports,
   learnerReminderPreferences,
   learnerSystems,
   projectPushConfigs,
@@ -61,7 +62,7 @@ export type LearnerDashboard = {
   };
   reminder: { enabled: boolean; reminderTime: string; pushEnabled: boolean; providerEnabled: boolean; providerQueue: { scheduledCount: number; nextScheduledAt: Date | null; horizonDays: number } };
   achievementStats: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] };
-  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; coreSubjectFocus: { subject: string; attempts: number; accuracy: number } | null };
+  performance: { weakTopics: Array<{ topic: string; subject: string | null; misses: number; attempts: number; accuracy: number }>; topicConfidence: Array<{ topic: string; subject: string | null; attempts: number; accuracy: number; confidence: "Building" | "Strong" | "Repair" }>; subjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; fullMockSubjectPerformance: Array<{ subject: string; attempts: number; accuracy: number }>; coreSubjectFocus: { subject: string; attempts: number; accuracy: number } | null };
   revision: { bookmarks: Array<{ questionId: string; subject: string; topic: string; createdAt: Date }>; recommendedTopic: { topic: string; subject: string } | null };
   comparison: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
   recentRounds: Array<{
@@ -78,6 +79,8 @@ export type LearnerDashboard = {
   }>;
 };
 
+export type MistakeReason = "concept" | "calculation" | "reading" | "careless";
+
 export type RoundRecordInput = {
   subject: string;
   mode: string;
@@ -87,7 +90,15 @@ export type RoundRecordInput = {
   wrongIds: string[];
   durationSeconds: number;
   flaggedIds: string[];
-  answerReview: Array<{ questionId: string; subject: string; topic: string; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean }>;
+  answerReview: Array<{ questionId: string; subject: string; topic: string; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean; mistakeReason?: MistakeReason }>;
+};
+
+export type LearnerQuestionReportInput = {
+  questionId: string;
+  subject: string;
+  topic: string;
+  reason: "wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other";
+  note?: string;
 };
 
 const EMPTY_LEDGER: LedgerSnapshot = {
@@ -189,7 +200,7 @@ function parseScoreMap(raw: string | null): Record<string, number> {
   }
 }
 
-export type PersistedExamAnswer = { questionId: string | null; topic: string; subject: string | null; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean };
+export type PersistedExamAnswer = { questionId: string | null; topic: string; subject: string | null; selectedIndex: number | null; correct: boolean; timedOut: boolean; flagged: boolean; mistakeReason?: MistakeReason };
 
 export function parseAnswerReview(raw: string | null): PersistedExamAnswer[] {
   if (!raw) return [];
@@ -198,9 +209,10 @@ export function parseAnswerReview(raw: string | null): PersistedExamAnswer[] {
     if (!Array.isArray(parsed)) return [];
     return parsed.flatMap((entry) => {
       if (!entry || typeof entry !== "object") return [];
-      const value = entry as { questionId?: unknown; topic?: unknown; subject?: unknown; selectedIndex?: unknown; correct?: unknown; timedOut?: unknown; flagged?: unknown };
+      const value = entry as { questionId?: unknown; topic?: unknown; subject?: unknown; selectedIndex?: unknown; correct?: unknown; timedOut?: unknown; flagged?: unknown; mistakeReason?: unknown };
       const selectedIndex = typeof value.selectedIndex === "number" && Number.isInteger(value.selectedIndex) && value.selectedIndex >= 0 && value.selectedIndex <= 4 ? value.selectedIndex : null;
-      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ questionId: typeof value.questionId === "string" ? value.questionId : null, topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, selectedIndex, correct: value.correct, timedOut: Boolean(value.timedOut), flagged: Boolean(value.flagged) }] : [];
+      const mistakeReason = ["concept", "calculation", "reading", "careless"].includes(String(value.mistakeReason)) ? value.mistakeReason as MistakeReason : undefined;
+      return typeof value.topic === "string" && typeof value.correct === "boolean" ? [{ questionId: typeof value.questionId === "string" ? value.questionId : null, topic: value.topic, subject: typeof value.subject === "string" ? value.subject : null, selectedIndex, correct: value.correct, timedOut: Boolean(value.timedOut), flagged: Boolean(value.flagged), mistakeReason }] : [];
     });
   } catch {
     return [];
@@ -226,6 +238,24 @@ export function summariseWeakTopicsFromRounds(rounds: Array<{ answerReviewJson: 
     weakTopicMap.set(key, current);
   });
   return Array.from(weakTopicMap.entries()).map(([key, value]) => ({ topic: key.split("\u0000")[1] ?? key, ...value, accuracy: Math.round(((value.attempts - value.misses) / value.attempts) * 100) })).filter((topic) => topic.misses > 0).sort((left, right) => right.misses - left.misses || left.accuracy - right.accuracy).slice(0, 5);
+}
+
+export function summariseTopicConfidenceFromRounds(rounds: Array<{ answerReviewJson: string | null }>, inferredTopicsByQuestionId = new Map<string, string>()) {
+  const confidenceMap = new Map<string, { attempts: number; correct: number; subject: string | null }>();
+  rounds.flatMap((round) => parseAnswerReview(round.answerReviewJson)).forEach((answer) => {
+    const topic = normalisePersistedTopic(answer.subject, answer.topic, answer.questionId ? inferredTopicsByQuestionId.get(answer.questionId) : undefined);
+    if (!topic) return;
+    const key = `${answer.subject ?? ""}\u0000${topic}`;
+    const current = confidenceMap.get(key) ?? { attempts: 0, correct: 0, subject: answer.subject };
+    current.attempts += 1;
+    if (answer.correct) current.correct += 1;
+    confidenceMap.set(key, current);
+  });
+  return Array.from(confidenceMap.entries()).map(([key, value]) => {
+    const accuracy = Math.round((value.correct / value.attempts) * 100);
+    const confidence = value.attempts >= 5 && accuracy >= 75 ? "Strong" as const : value.attempts >= 3 && accuracy < 60 ? "Repair" as const : "Building" as const;
+    return { topic: key.split("\u0000")[1] ?? key, subject: value.subject, attempts: value.attempts, accuracy, confidence };
+  }).sort((left, right) => (left.subject ?? "").localeCompare(right.subject ?? "") || right.attempts - left.attempts || left.topic.localeCompare(right.topic));
 }
 
 export function buildExamComparison(
@@ -380,6 +410,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
     return inferredTopic ? [[`authorised-${question.id}`, inferredTopic] as const] : [];
   }));
   const weakTopics = summariseWeakTopicsFromRounds(rounds, inferredTopicsByQuestionId);
+  const topicConfidence = summariseTopicConfidenceFromRounds(rounds, inferredTopicsByQuestionId);
   const subjectPerformance = summariseSubjectPerformance(answerReviews);
   const coreSubjectFocus = selectCoreSubjectFocus(subjectPerformance);
   const fullMockSubjectPerformance = selectFullMockSubjectPerformance(rounds);
@@ -445,7 +476,7 @@ export async function getLearnerDashboard(userId: number, fallbackName: string |
       },
     },
     achievementStats: summariseAchievementStats({ activities, rounds: allRoundSummary }),
-    performance: { weakTopics, subjectPerformance, fullMockSubjectPerformance, coreSubjectFocus },
+    performance: { weakTopics, topicConfidence, subjectPerformance, fullMockSubjectPerformance, coreSubjectFocus },
     revision: { bookmarks: bookmarks.sort((left, right) => right.createdAt.getTime() - left.createdAt.getTime()).slice(0, 24).map((bookmark) => ({ questionId: bookmark.questionId, subject: bookmark.subject, topic: bookmark.topic, createdAt: bookmark.createdAt })), recommendedTopic: coreSubjectFocus ? weakTopics.flatMap((topic) => topic.subject === coreSubjectFocus.subject && !topic.topic.startsWith("The Lekki Headmaster") && topic.subject ? [{ topic: topic.topic, subject: topic.subject }] : [])[0] ?? null : null },
     comparison,
     recentRounds,
@@ -496,6 +527,23 @@ export async function toggleLearnerBookmark(userId: number, fallbackName: string
   if (existing) await db.delete(learnerBookmarks).where(eq(learnerBookmarks.id, existing.id));
   else await db.insert(learnerBookmarks).values({ bookmarkKey, userId, questionId: input.questionId, subject: input.subject, topic: input.topic });
   return getLearnerDashboard(userId, fallbackName);
+}
+
+/** Store a learner-only quality signal without exposing reports to other learners. */
+export async function reportLearnerQuestion(userId: number, fallbackName: string | null, input: LearnerQuestionReportInput) {
+  const db = await ensureLearnerRows(userId, fallbackName);
+  const note = input.note?.trim().slice(0, 500) || null;
+  const reportKey = `${userId}:${input.questionId}:${input.reason}`;
+  await db.insert(learnerQuestionReports).values({
+    reportKey,
+    userId,
+    questionId: input.questionId,
+    subject: input.subject,
+    topic: input.topic,
+    reason: input.reason,
+    note,
+  }).onDuplicateKeyUpdate({ set: { note, status: "new" } });
+  return { accepted: true as const };
 }
 
 export async function updateLearnerProfile(userId: number, fallbackName: string | null, update: { displayName?: string; targetScore?: number; timeZone?: string }) {

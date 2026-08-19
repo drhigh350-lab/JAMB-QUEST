@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { isRoundTimed } from "./dailyMission";
 import { loadQuestionBank, normaliseQuestionTopic, selectQuestions } from "./questionBank";
 import { clearActiveCbtSession, getActiveCbtSession, getProgress, recordRound, saveActiveCbtSession, saveProgress } from "./storage";
-import { STANDARD_FULL_CBT_SECONDS, type ActiveCbtSession, type AnswerRecord, type BankQuestion, type ExamReviewRecord, type GameScreen, type QuizMode, type RoundConfig, type RoundSubject, type StoredProgress } from "./types";
+import { STANDARD_FULL_CBT_SECONDS, type ActiveCbtSession, type AnswerRecord, type BankQuestion, type ExamReviewRecord, type GameScreen, type MistakeReason, type QuizMode, type RoundConfig, type RoundSubject, type StoredProgress } from "./types";
 
 const DEFAULT_SECONDS = 35;
 const CBT_MINIMUM_SECONDS = 20 * 60;
@@ -52,6 +52,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [flaggedIds, setFlaggedIds] = useState<string[]>([]);
+  const [mistakeReasons, setMistakeReasons] = useState<Record<string, MistakeReason>>({});
   const [isPaused, setIsPaused] = useState(false);
   const [isHistoricalReview, setIsHistoricalReview] = useState(false);
   const [historicalReview, setHistoricalReview] = useState<{ completedAt: Date; durationSeconds: number } | null>(null);
@@ -128,7 +129,8 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     correct: Boolean(finalAnswers[question.id]?.correct),
     timedOut: Boolean(finalAnswers[question.id]?.timedOut),
     flagged: flaggedIds.includes(question.id),
-  })), [flaggedIds, roundQuestions]);
+    mistakeReason: finalAnswers[question.id]?.correct ? undefined : mistakeReasons[question.id],
+  })), [flaggedIds, mistakeReasons, roundQuestions]);
 
   const finishCbt = useCallback(() => {
     if (!roundConfig || roundConfig.mode !== "cbt" || screen !== "quiz") return;
@@ -183,6 +185,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
       setScore(0);
       setStreak(0);
       setFlaggedIds([]);
+      setMistakeReasons({});
       setIsPaused(false);
       setScreen("quiz");
     },
@@ -284,6 +287,15 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     recordFinalRound(answers, score);
   }, [answers, isCbt, recordFinalRound, score]);
 
+  const setMistakeReason = useCallback((questionId: string, reason: MistakeReason | null) => {
+    setMistakeReasons((current) => {
+      const next = { ...current };
+      if (reason) next[questionId] = reason;
+      else delete next[questionId];
+      return next;
+    });
+  }, []);
+
   const quitRound = useCallback(() => {
     if (isCbt) {
       persistActiveCbt();
@@ -384,6 +396,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     correctCount,
     wrongQuestions,
     flaggedIds,
+    mistakeReasons,
     isCbt,
     isPaused,
     historicalReview,
@@ -401,6 +414,7 @@ export function useQuizGame({ remoteProgress, onRoundComplete, additionalQuestio
     togglePause,
     finishCbt,
     submitCbtReview,
+    setMistakeReason,
     quitRound,
     retryRound,
     openHistoricalReview,

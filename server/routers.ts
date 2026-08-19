@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, refreshProviderScheduledReminders, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerRoundReview, getOneSignalAppId, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -53,6 +53,13 @@ export const appRouter = router({
       subject: subjectSchema,
       topic: z.string().trim().min(1).max(160),
     })).mutation(({ ctx, input }) => toggleLearnerBookmark(ctx.user.id, ctx.user.name ?? null, input)),
+    reportQuestion: protectedProcedure.input(z.object({
+      questionId: z.string().min(1).max(128),
+      subject: subjectSchema,
+      topic: z.string().trim().min(1).max(160),
+      reason: z.enum(["wrong_answer", "missing_context", "broken_diagram", "confusing_wording", "other"]),
+      note: z.string().trim().max(500).optional(),
+    })).mutation(({ ctx, input }) => reportLearnerQuestion(ctx.user.id, ctx.user.name ?? null, input)),
     recordRound: protectedProcedure.input(z.object({
       subject: roundSubjectSchema,
       mode: z.enum(["sprint", "cbt", "review"]),
@@ -70,6 +77,7 @@ export const appRouter = router({
         correct: z.boolean(),
         timedOut: z.boolean(),
         flagged: z.boolean(),
+        mistakeReason: z.enum(["concept", "calculation", "reading", "careless"]).optional(),
       })).max(100).default([]),
     })).mutation(({ ctx, input }) => recordLearnerRound(ctx.user.id, ctx.user.name ?? null, {
       ...input,

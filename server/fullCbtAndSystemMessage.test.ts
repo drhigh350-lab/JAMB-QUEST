@@ -16,6 +16,10 @@ describe("visible standard CBT and system-first positioning", () => {
     expect(home).toContain('data-testid="standard-cbt-path"');
     expect(home).toContain("Standard CBT");
     expect(home).toContain("180 questions · 2 hours");
+    expect(home).toContain("Confirm your JAMB simulation");
+    expect(home).toContain("60 ENG / 40 BIO / 40 CHE / 40 PHY");
+    expect(home).toContain("CBT safely saved");
+    expect(home).toContain("last saved at question");
     expect(home).toContain("Add The Lekki Headmaster?");
     expect(home).toContain("Core English only");
     expect(home).toContain("Add Lekki novel");

@@ -53,6 +53,8 @@ export interface AnswerRecord {
   timedOut: boolean;
 }
 
+export type MistakeReason = "concept" | "calculation" | "reading" | "careless";
+
 export interface ActiveCbtSession {
   config: RoundConfig;
   questionIds: string[];
@@ -73,6 +75,7 @@ export interface ExamReviewRecord {
   correct: boolean;
   timedOut: boolean;
   flagged: boolean;
+  mistakeReason?: MistakeReason;
 }
 
 export interface StoredProgress {

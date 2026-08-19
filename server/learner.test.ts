@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildLedgerSnapshot, countGoalQuestions, selectCoreSubjectFocus, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseWeakTopicsFromRounds } from "./db";
+import { buildLedgerSnapshot, countGoalQuestions, parseAnswerReview, selectCoreSubjectFocus, selectFullMockSubjectPerformance, summariseSubjectPerformance, summariseTopicConfidenceFromRounds, summariseWeakTopicsFromRounds } from "./db";
 import { selectDailyMission } from "../client/src/game/dailyMission";
 
 describe("daily study goals", () => {
@@ -126,5 +126,31 @@ describe("diagnostic review loop", () => {
   it("excludes unresolved topics from weakness guidance rather than presenting a generic classification", () => {
     const weakTopics = summariseWeakTopicsFromRounds([{ answerReviewJson: JSON.stringify([{ questionId: "authorised-unknown", subject: "Chemistry", topic: "Unclassified", correct: false }]) }]);
     expect(weakTopics).toEqual([]);
+  });
+});
+
+describe("confidence and correction reasons", () => {
+  it("derives Repair, Building, and Strong only from recorded topic attempts", () => {
+    const confidence = summariseTopicConfidenceFromRounds([{
+      answerReviewJson: JSON.stringify([
+        { questionId: "BIO-1", subject: "Biology", topic: "Genetics", correct: false },
+        { questionId: "BIO-2", subject: "Biology", topic: "Genetics", correct: false },
+        { questionId: "BIO-3", subject: "Biology", topic: "Genetics", correct: true },
+        { questionId: "PHY-1", subject: "Physics", topic: "Waves", correct: true },
+        { questionId: "CHE-1", subject: "Chemistry", topic: "Atomic Structure", correct: true },
+        { questionId: "CHE-2", subject: "Chemistry", topic: "Atomic Structure", correct: true },
+        { questionId: "CHE-3", subject: "Chemistry", topic: "Atomic Structure", correct: true },
+        { questionId: "CHE-4", subject: "Chemistry", topic: "Atomic Structure", correct: true },
+        { questionId: "CHE-5", subject: "Chemistry", topic: "Atomic Structure", correct: false },
+      ]),
+    }]);
+    expect(confidence).toContainEqual(expect.objectContaining({ subject: "Biology", topic: "Genetics", attempts: 3, accuracy: 33, confidence: "Repair" }));
+    expect(confidence).toContainEqual(expect.objectContaining({ subject: "Physics", topic: "Waves", attempts: 1, confidence: "Building" }));
+    expect(confidence).toContainEqual(expect.objectContaining({ subject: "Chemistry", topic: "Atomic Structure", attempts: 5, accuracy: 80, confidence: "Strong" }));
+  });
+
+  it("keeps a valid optional mistake reason in persisted answer review data", () => {
+    expect(parseAnswerReview(JSON.stringify([{ questionId: "BIO-1", subject: "Biology", topic: "Genetics", correct: false, mistakeReason: "concept" }]))).toMatchObject([{ questionId: "BIO-1", mistakeReason: "concept" }]);
+    expect(parseAnswerReview(JSON.stringify([{ questionId: "BIO-2", subject: "Biology", topic: "Genetics", correct: false, mistakeReason: "unsupported" }]))).toMatchObject([{ questionId: "BIO-2", mistakeReason: undefined }]);
   });
 });
