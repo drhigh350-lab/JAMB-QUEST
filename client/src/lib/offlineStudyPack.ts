@@ -1,8 +1,8 @@
 import type { BankQuestion } from "@/game/types";
 
-const STUDY_PACK_CACHE = "jamb-quest-study-pack-v3";
-const STUDY_PACK_DATA_URL = "/__jamb-quest__/offline-study-pack-v3.json";
-const STUDY_PACK_META_URL = "/__jamb-quest__/offline-study-pack-v3.meta.json";
+const STUDY_PACK_CACHE = "jamb-quest-study-pack-v4";
+const STUDY_PACK_DATA_URL = "/__jamb-quest__/offline-study-pack-v4.json";
+const STUDY_PACK_META_URL = "/__jamb-quest__/offline-study-pack-v4.meta.json";
 
 export type OfflineStudyPackInfo = {
   savedAt: number;

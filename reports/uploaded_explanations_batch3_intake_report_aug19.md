@@ -23,3 +23,7 @@ The re-uploaded file was inspected across its complete top-level abstract syntax
 ## Release decision
 
 Only the explanation field was updated in a new managed 1,000-question model-bank asset. The replacement explanations contain 55–125 words, remain above the learner UI’s 25-word fallback threshold, and do not contain the unwanted generic comparison ending. The 1,000-question asset passes the current all-subject formatting/context/visual gate with 1,000 ready and zero records needing review. The remaining pending CSV records are unchanged.
+
+## Corrected batch coverage
+
+The user clarified that `explanations_batch2.py` and `explanations_batch3.py` are successive rich-explanation batches for the same CSV revision list. Batch 2 supplies 100 matching Use-of-English model-bank explanations (`ENG-102` through `ENG-202`, with the source’s intentional identifier sequence). Batch 3 supplies 48 Use-of-English and 52 Biology model-bank explanations. The batches do not overlap, yielding 200 source-supplied explanation updates: 148 Use-of-English and 52 Biology records. All 200 IDs match the pending CSV, have the expected subject, exceed the learner fallback threshold, and contain no unwanted generic comparison ending. The new combined model-bank asset retains every existing question, option, topic, and answer key unchanged.
