@@ -42,7 +42,7 @@ async function startServer() {
     try {
       const user = await sdk.authenticateRequest(req);
       if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
-      const result = await sendDailyComebackReminders(window);
+      const result = await sendDailyDirectBrowserReminders(window);
       return res.json({ ok: true, ...result, taskUid: user.taskUid });
     } catch (error) {
       return res.status(500).json({

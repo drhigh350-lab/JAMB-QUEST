@@ -53,5 +53,9 @@ describe("JAMB Quest PWA assets", () => {
     const serverEntry = readFileSync(resolve(import.meta.dirname, "_core/index.ts"), "utf8");
     expect(serverEntry).toContain('app.post("/api/scheduled/direct-browser-reminder"');
     expect(serverEntry).toContain("sendDailyDirectBrowserReminders(window)");
+
+    const liveLagosCallback = serverEntry.split("const scheduledReminder")[1]?.split('app.post("/api/scheduled/comeback-morning"')[0] ?? "";
+    expect(liveLagosCallback).toContain("sendDailyDirectBrowserReminders(window)");
+    expect(liveLagosCallback).not.toContain("sendDailyComebackReminders(window)");
   });
 });

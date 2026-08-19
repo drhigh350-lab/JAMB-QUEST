@@ -849,7 +849,7 @@ export function didDeliverPush(results: Array<{ delivered: boolean }>) {
 }
 
 export async function sendLearnerTestPush(userId: number) {
-  const results = await sendLearnerPush(
+  const results = await sendLearnerDirectBrowserPush(
     userId,
     "JAMB Quest: reminder test",
     "Your daily comeback reminder is connected on this device. Keep building your score, one focused set at a time.",
@@ -876,7 +876,7 @@ export async function sendControlledScheduleTest() {
   let sent = 0;
   let skipped = 0;
   for (const preference of preferences) {
-    const results = await sendLearnerPush(
+    const results = await sendLearnerDirectBrowserPush(
       preference.userId,
       CONTROLLED_SCHEDULE_TEST_COPY.title,
       CONTROLLED_SCHEDULE_TEST_COPY.body,
@@ -953,7 +953,7 @@ export async function sendDailyComebackReminders(window: ReminderWindow = "eveni
 
     const recovery = Boolean(system?.recoveryPending);
     const copy = REMINDER_WINDOW_COPY[window];
-    const results = await sendLearnerPush(
+    const results = await sendLearnerDirectBrowserPush(
       preference.userId,
       copy.title,
       copy.body(system?.dailyMinimum ?? 10, recovery),
