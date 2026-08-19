@@ -27,3 +27,13 @@ The owner-provided Drive file **`JAMB-CHEMISTRY-PAST-QUESTIONS_copy.pdf`** conta
 The source page also contains answer choices and an answer-key column elsewhere. The only permitted learner visual is a tight crop of the structural formula itself. The crop must exclude the question sentence, answer options, answer key, and all other page content.
 
 The first crop was rejected during visual review because it clipped the lower methyl branch; the widened replacement was then rejected because it retained the first pixels of the adjacent question sentence. Neither interim crop is used in JAMB Quest. A final crop must retain the full structural formula while ending before the prompt begins.
+
+## Successful shared Biology figure match
+
+The owner-provided Drive file **`JAMB Biology Past Questions 2010 - 2018_copy.pdf`** contains the exact shared plant-transport diagram on page 3 for Questions 12 and 13. It matches both held records: `750005` / `biology-dr-high-0012` asks about the xylem and phloem arrows, while `750006` / `biology-dr-high-0013` asks what arrow II represents during photosynthesis.
+
+The diagram itself contains only the plant, arrow labels I–IV, and neutral `soil` labels. The words “Use the diagram above” and all question prompts, options, and answer content are outside the crop and must remain excluded. A single evidence-only crop may therefore support both matched records.
+
+The first shared-figure crop retained a small detached heading artifact at its upper edge, so it was rejected. No JAMB Quest record uses that interim crop. The final crop must start below the heading while preserving all arrow labels, the plant, roots, and soil labels.
+
+The final `1000×740` crop was checked at phone scale. It retains the complete plant-transport visual, labels I–IV, roots, and both neutral soil labels. It excludes the heading, all question and option text, the answer keys, and explanatory content.
