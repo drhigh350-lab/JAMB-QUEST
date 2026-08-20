@@ -10,6 +10,7 @@ import {
   learnerAchievements,
   learnerBookmarks,
   learnerDailyActivities,
+  directReminderCallbackAudits,
   learnerProfiles,
   learnerProviderReminderQueue,
   learnerProgress,
@@ -997,6 +998,40 @@ export async function sendControlledScheduleTest() {
 
 export type DailyReminderDecision = "send" | "already_sent" | "minimum_completed";
 export type ReminderWindow = "morning" | "afternoon" | "evening";
+
+/** The managed schedule runs at 07:00, 13:00, and 19:00 Africa/Lagos (UTC+1). */
+export function getDirectReminderWindowForUtcHour(hour: number): ReminderWindow | null {
+  return hour === 6 ? "morning" : hour === 12 ? "afternoon" : hour === 18 ? "evening" : null;
+}
+
+export async function recordDirectReminderCallbackAudit(input: {
+  cronTaskUid: string | null;
+  window: ReminderWindow | null;
+  outcome: "sent" | "skipped" | "outside_window" | "failed";
+  observedUtcHour: number | null;
+  sent?: number;
+  skipped?: number;
+  totalEnabled?: number;
+  transport?: string | null;
+}): Promise<void> {
+  try {
+    const db = await getDb();
+    if (!db) return;
+    await db.insert(directReminderCallbackAudits).values({
+      cronTaskUid: input.cronTaskUid,
+      window: input.window,
+      outcome: input.outcome,
+      observedUtcHour: input.observedUtcHour,
+      sent: input.sent ?? 0,
+      skipped: input.skipped ?? 0,
+      totalEnabled: input.totalEnabled ?? 0,
+      transport: input.transport ?? null,
+    });
+  } catch {
+    // Audit persistence must never change an authenticated reminder callback's result.
+    console.warn("[Direct reminder audit] callback evidence could not be recorded.");
+  }
+}
 
 const REMINDER_WINDOW_COPY: Record<ReminderWindow, { title: string; body: (dailyMinimum: number, recovery: boolean) => string }> = {
   morning: {

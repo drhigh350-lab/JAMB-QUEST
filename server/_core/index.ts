@@ -6,7 +6,7 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "../routers";
-import { sendControlledScheduleTest, sendDailyComebackReminders, sendDailyDirectBrowserReminders, type ReminderWindow } from "../db";
+import { getDirectReminderWindowForUtcHour, recordDirectReminderCallbackAudit, sendControlledScheduleTest, sendDailyComebackReminders, sendDailyDirectBrowserReminders, type ReminderWindow } from "../db";
 import { createContext } from "./context";
 import { sdk } from "./sdk";
 import { serveStatic, setupVite } from "./vite";
@@ -78,11 +78,16 @@ async function startServer() {
       const user = await sdk.authenticateRequest(req);
       if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
       const hour = new Date().getUTCHours();
-      const window: ReminderWindow | null = hour === 6 ? "morning" : hour === 12 ? "afternoon" : hour === 18 ? "evening" : null;
-      if (!window) return res.json({ ok: true, skipped: "outside-direct-reminder-window", hour, taskUid: user.taskUid });
+      const window: ReminderWindow | null = getDirectReminderWindowForUtcHour(hour);
+      if (!window) {
+        await recordDirectReminderCallbackAudit({ cronTaskUid: user.taskUid, window: null, outcome: "outside_window", observedUtcHour: hour });
+        return res.json({ ok: true, skipped: "outside-direct-reminder-window", hour, taskUid: user.taskUid });
+      }
       const result = await sendDailyDirectBrowserReminders(window);
+      await recordDirectReminderCallbackAudit({ cronTaskUid: user.taskUid, window, outcome: result.sent > 0 ? "sent" : "skipped", observedUtcHour: hour, sent: result.sent, skipped: result.skipped, totalEnabled: result.totalEnabled, transport: result.transport });
       return res.json({ ok: true, ...result, taskUid: user.taskUid });
     } catch (error) {
+      await recordDirectReminderCallbackAudit({ cronTaskUid: null, window: null, outcome: "failed", observedUtcHour: null });
       return res.status(500).json({ error: error instanceof Error ? error.message : "direct-browser reminder failed", stack: error instanceof Error ? error.stack : undefined, context: { url: req.originalUrl }, timestamp: new Date().toISOString() });
     }
   });

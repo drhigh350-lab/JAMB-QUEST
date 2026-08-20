@@ -594,6 +594,7 @@
 - [ ] Investigate why yesterday’s 12:00 p.m. and 7:00 p.m. Lagos reminder deliveries were not received, without sending an extra test request
 - [ ] Verify and report whether the latest JAMB Quest checkpoint is deployed and live
 - [ ] Resolve any reminder delivery failure only after execution and endpoint evidence identifies a safe fix
+- [x] Persist a privacy-safe direct-reminder callback audit record for each scheduled invocation so missed-window diagnosis does not rely only on transient runtime logs. The table stores only task/window/outcome/timing and aggregate send/skip counts, never learner identity, subscription endpoint, or notification body.
 
 - [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
 

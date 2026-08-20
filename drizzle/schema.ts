@@ -217,6 +217,23 @@ export const learnerReminderPreferences = mysqlTable("learnerReminderPreferences
 });
 
 /**
+ * Aggregate-only evidence for cron-authenticated direct browser-reminder callbacks.
+ * It stores no learner identity, device endpoint, message body, or subscription data.
+ */
+export const directReminderCallbackAudits = mysqlTable("directReminderCallbackAudits", {
+  id: int("id").autoincrement().primaryKey(),
+  cronTaskUid: varchar("cronTaskUid", { length: 65 }),
+  window: varchar("window", { length: 16 }),
+  outcome: varchar("outcome", { length: 32 }).notNull(),
+  observedUtcHour: int("observedUtcHour"),
+  sent: int("sent").notNull().default(0),
+  skipped: int("skipped").notNull().default(0),
+  totalEnabled: int("totalEnabled").notNull().default(0),
+  transport: varchar("transport", { length: 32 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+/**
  * Web-push subscriptions are opt-in per browser/device and can be disabled without affecting study data.
  */
 export const learnerPushSubscriptions = mysqlTable("learnerPushSubscriptions", {
@@ -269,6 +286,7 @@ export type LearnerSystem = typeof learnerSystems.$inferSelect;
 export type LearnerDailyActivity = typeof learnerDailyActivities.$inferSelect;
 export type LearnerAchievement = typeof learnerAchievements.$inferSelect;
 export type LearnerReminderPreference = typeof learnerReminderPreferences.$inferSelect;
+export type DirectReminderCallbackAudit = typeof directReminderCallbackAudits.$inferSelect;
 export type LearnerPushSubscription = typeof learnerPushSubscriptions.$inferSelect;
 export type LearnerProviderReminderQueue = typeof learnerProviderReminderQueue.$inferSelect;
 export type ProjectPushConfig = typeof projectPushConfigs.$inferSelect;
