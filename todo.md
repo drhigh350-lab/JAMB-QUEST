@@ -599,6 +599,9 @@
 - [x] Make the earned-card Share action invoke Android’s native share chooser when that capability is available, with download only as an honest fallback. The action now converts the card to PNG before native sharing because common Android share targets accept PNG more consistently than SVG.
 - [x] Apply the user-confirmed final square JAMB Quest cover image as the app’s cover/icon asset. The uploaded navy-and-gold square is now the browser, Apple-touch, manifest, maskable, and notification icon asset.
 - [x] Redesign every earned achievement share card as a portrait phone-wallpaper image suitable for Android sharing, WhatsApp Status, and Stories. Achievement and daily-goal cards now render at 1080×1920.
+- [x] Synchronize the development preview with the latest shared JAMB Quest project version.
+- [x] Replace reconstructed logo fragments on share cards with the exact approved JAMB Quest logo asset across all achievement categories. The portrait achievement and daily-goal cards embed the uploaded unaltered JAMB Quest wordmark rather than recreating its tiles or recolouring the mark by badge category.
+- [ ] Prepare and hand off the verified JAMB Quest project for export to the user’s GitHub account.
 
 - [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
 
