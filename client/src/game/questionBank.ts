@@ -4,7 +4,7 @@ import type { BankQuestion, QuizMode, RoundSubject, Subject } from "./types";
 import { inferTopicFromQuestion } from "@shared/topicInference";
 
 export const QUESTION_BANK_URL =
-  "/manus-storage/jamb_high_yield_practice_bank_1000_explanations_batches2_3_v1_fd2d09f2.json";
+  "/manus-storage/jamb_high_yield_practice_bank_1000_explanations_batches2_5_v1_f79e67c9.json";
 
 const SUBJECTS: Subject[] = ["Use of English", "Biology", "Chemistry", "Physics"];
 const INTERNAL_TOPIC_LABEL = "to be tagged during syllabus mapping";
