@@ -16,5 +16,9 @@ describe("CBT readiness and daily completion", () => {
     expect(home).toContain("selectedState.today.correctCount}/{selectedState.today.questionsAnswered} correct");
     expect(home).toContain("progressNextAction");
     expect(home).toContain("Start next repair");
+    expect(home).toContain("GOAL COMPLETE");
+    expect(home).toContain("Earned from today’s recorded study evidence.");
+    expect(home).toContain("Download achievement");
+    expect(home).toContain("downloadDailyGoalAchievement");
   });
 });

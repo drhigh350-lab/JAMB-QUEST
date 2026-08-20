@@ -23,7 +23,7 @@ export function ExamReview({ config, questions, answers, flaggedIds, onFinalize,
   return <main className="exam-review page-shell">
     <header className="exam-review-header"><div><span className="eyebrow">{historical ? "SAVED CBT CORRECTION" : "CBT EXAM REVIEW"}</span><h1>{config.subject}</h1><p>{historical ? `Completed ${historical.completedAt.toLocaleString()} · ${Math.max(0, Math.round(historical.durationSeconds / 60))} minutes recorded. Your original answers and corrections are preserved below.` : "Your selections have been marked. Review the corrections below before saving this mock to your exam log."}</p></div><button className="button button-outline" onClick={onHome}>{historical ? "Back to progress" : "Exit without saving"}</button></header>
     <section className="exam-review-summary"><div><CheckCircle2 size={20} /><strong>{correct} / {questions.length}</strong><span>correct</span></div><div><BarChart3 size={20} /><strong>{accuracy}%</strong><span>accuracy</span></div><div><Flag size={20} /><strong>{flaggedIds.length}</strong><span>flagged</span></div><div><XCircle size={20} /><strong>{unanswered}</strong><span>unanswered</span></div></section>
-    <section className="exam-review-list" aria-label="Exam question review">{questions.map((question, index) => {
+    <section className="exam-review-list" aria-label="Scrollable CBT correction log" tabIndex={0}>{questions.map((question, index) => {
       const answer = answers[question.id];
       const isCorrect = Boolean(answer?.correct);
       const selectedText = answer?.selectedIndex === null || answer?.selectedIndex === undefined ? "No answer selected" : question.options[answer.selectedIndex];
