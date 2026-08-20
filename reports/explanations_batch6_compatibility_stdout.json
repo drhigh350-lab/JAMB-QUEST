@@ -1,0 +1,16 @@
+{
+  "source": "explanations_batch6.py",
+  "recordCount": 100,
+  "targetSubject": "Chemistry",
+  "firstId": "CHE-140",
+  "lastId": "CHE-244",
+  "missingFromPendingRevisionList": [],
+  "missingFromCurrentModelBank": [],
+  "subjectMismatches": [],
+  "preexistingIdenticalExplanations": [],
+  "literalParseMetadata": {
+    "ignoredStatusPrintCount": 1,
+    "minCharacters": 431,
+    "maxCharacters": 799
+  }
+}

@@ -602,6 +602,9 @@
 - [x] Synchronize the development preview with the latest shared JAMB Quest project version.
 - [x] Replace reconstructed logo fragments on share cards with the exact approved JAMB Quest logo asset across all achievement categories. The portrait achievement and daily-goal cards embed the uploaded unaltered JAMB Quest wordmark rather than recreating its tiles or recolouring the mark by badge category.
 - [ ] Prepare and hand off the verified JAMB Quest project for export to the user’s GitHub account.
+- [x] Parse the uploaded explanations batch 6 as inert literal data only and validate its identifiers, subjects, and overlap status before release. The source contained one literal 100-entry Chemistry dictionary (CHE-140 to CHE-244, with source gaps) plus one ignored status-print statement; it was not executed. All 100 IDs match the revision list and active model bank with no subject mismatch or duplicate explanation overlap.
+- [x] Integrate only batch-six explanation updates that match the pending revision list and do not alter questions, options, topics, answer keys, or diagrams. The managed batches 2–6 asset changes exactly 100 Chemistry explanation fields, with an immutable-field guard and receipt retained in `reports/uploaded_explanations_batch6_merge_report.json`.
+- [ ] Restore GitHub write authorization for `drhigh350-lab/JAMB-QUEST` and push the verified project once the repository accepts writes.
 
 - [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
 
