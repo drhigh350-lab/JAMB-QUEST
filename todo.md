@@ -592,7 +592,7 @@
 - [x] Publish the validated achievement share-card update so it is available on the live JAMB Quest site.
 - [x] Audit the locally completed morning changes and state clearly which ones are included in the next published checkpoint. The checkpoint contains the branded all-achievement share-card system, daily-goal native sharing, compact gallery controls, strengthened regression coverage, and only a test-timeout stability adjustment.
 - [ ] Investigate why yesterday’s 12:00 p.m. and 7:00 p.m. Lagos reminder deliveries were not received, without sending an extra test request
-- [ ] Verify and report whether the latest JAMB Quest checkpoint is deployed and live
+- [x] Verify and report whether the latest JAMB Quest checkpoint is deployed and live. The direct reminder callback-audit release is published as checkpoint `c5148649` on the JAMB Quest domain.
 - [ ] Resolve any reminder delivery failure only after execution and endpoint evidence identifies a safe fix
 - [x] Persist a privacy-safe direct-reminder callback audit record for each scheduled invocation so missed-window diagnosis does not rely only on transient runtime logs. The table stores only task/window/outcome/timing and aggregate send/skip counts, never learner identity, subscription endpoint, or notification body.
 
