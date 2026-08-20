@@ -19,9 +19,9 @@ describe("JAMB Quest PWA assets", () => {
     expect(manifest.display).toBe("standalone");
     expect(manifest.start_url).toBe("/");
     expect(manifest.icons).toEqual(expect.arrayContaining([
-      expect.objectContaining({ sizes: "192x192", type: "image/png", src: expect.stringContaining("jamb-quest-official-icon-192") }),
-      expect.objectContaining({ sizes: "512x512", type: "image/png", src: expect.stringContaining("jamb-quest-official-icon-512") }),
-      expect.objectContaining({ purpose: "maskable", src: expect.stringContaining("jamb-quest-official-icon-maskable") }),
+      expect.objectContaining({ sizes: "192x192", type: "image/png", src: expect.stringContaining("jamb-quest-final-app-cover-192") }),
+      expect.objectContaining({ sizes: "512x512", type: "image/png", src: expect.stringContaining("jamb-quest-final-app-cover-512") }),
+      expect.objectContaining({ purpose: "maskable", src: expect.stringContaining("jamb-quest-final-app-cover") }),
     ]));
   });
 
@@ -34,13 +34,14 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('self.addEventListener("notificationclick"');
     expect(worker).toContain('self.addEventListener("message"');
     expect(worker).toContain('"SKIP_WAITING"');
-    expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg"]');
+    expect(worker).toContain('const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg", "/manus-storage/jamb-quest-final-app-cover-192_7f5f7f7b.png"]');
   });
 
   it("requests a prominent scheduled reminder and upgrades its active worker cache", () => {
     const worker = readFileSync(resolve(publicDirectory, "sw.js"), "utf8");
 
-    expect(worker).toContain('"jamb-quest-shell-v8"');
+    expect(worker).toContain('"jamb-quest-shell-v9"');
+    expect(worker).toContain('icon: "/manus-storage/jamb-quest-final-app-cover-192_7f5f7f7b.png"');
     expect(worker).toContain('fetch(request, { cache: "no-store" })');
     const app = readFileSync(resolve(import.meta.dirname, "../client/src/App.tsx"), "utf8");
     expect(app).toContain('updateViaCache: "none"');

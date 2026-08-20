@@ -1,4 +1,5 @@
 import type { AchievementBadge } from "./achievements";
+import { downloadSvgCard, shareSvgCard, type ShareCardResult } from "./shareCardFile";
 
 export type EarnedAchievementShareCard = Pick<AchievementBadge, "key" | "label" | "note" | "category" | "target"> & {
   learnerName: string;
@@ -28,46 +29,25 @@ export function buildAchievementShareCardSvg(card: EarnedAchievementShareCard): 
   const note = escapeXml(card.note);
   const evidence = `${Math.max(card.evidenceValue, card.target).toLocaleString()} / ${card.target.toLocaleString()} evidence reached`;
   const earnedOn = escapeXml(card.earnedOn || "Recorded in JAMB Quest");
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="JAMB Quest achievement card for ${label}"><rect width="1600" height="900" fill="#12283f"/><path d="M0 740 L1600 520 L1600 900 L0 900 Z" fill="${style.accent}"/><rect x="64" y="64" width="1472" height="772" rx="34" fill="#fffdf5" stroke="#12283f" stroke-width="18"/><rect x="97" y="97" width="1406" height="706" rx="20" fill="none" stroke="${style.accent}" stroke-width="8"/><g transform="translate(160 154)"><path d="M0 0 H58 L47 64 H-11 Z" fill="#12283f"/><path d="M66 0 H124 L135 64 H55 Z" fill="${style.accent}"/><path d="M-11 72 H47 L58 136 H-22 Z" fill="#12283f"/><path d="M55 72 H135 L124 136 H44 Z" fill="#12283f"/></g><text x="272" y="174" fill="#12283f" font-family="Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="6">JAMB QUEST</text><text x="272" y="218" fill="#12283f" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">${style.label}</text><g transform="translate(800 356)"><circle r="142" fill="${style.accent}" stroke="#12283f" stroke-width="18"/><circle r="100" fill="#fffdf5" stroke="#12283f" stroke-width="8"/><text x="0" y="38" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="118" font-weight="900">${style.icon}</text><path d="M-118 122 L-198 302 L-70 250 L0 336 L70 250 L198 302 L118 122" fill="#12283f" stroke="#12283f" stroke-width="14" stroke-linejoin="round"/></g><text x="800" y="588" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="68" font-weight="900">${label}</text><text x="800" y="646" text-anchor="middle" fill="#2f7d4a" font-family="Arial, sans-serif" font-size="36" font-weight="800">${learnerName}</text><text x="800" y="698" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="29">${note}</text><text x="800" y="742" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="25" font-weight="700">${escapeXml(evidence)} · ${earnedOn}</text><text x="800" y="782" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="4">BUILD YOUR SYSTEM. WIN JAMB.</text></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="JAMB Quest achievement wallpaper for ${label}"><rect width="1080" height="1920" fill="#12283f"/><path d="M0 1550 L1080 1330 L1080 1920 L0 1920 Z" fill="${style.accent}"/><rect x="46" y="46" width="988" height="1828" rx="40" fill="#fffdf5" stroke="#12283f" stroke-width="18"/><rect x="78" y="78" width="924" height="1764" rx="24" fill="none" stroke="${style.accent}" stroke-width="8"/><g transform="translate(126 142)"><path d="M0 0 H50 L41 56 H-9 Z" fill="#12283f"/><path d="M58 0 H108 L117 56 H49 Z" fill="${style.accent}"/><path d="M-9 64 H41 L50 120 H-18 Z" fill="#12283f"/><path d="M49 64 H117 L108 120 H40 Z" fill="#12283f"/></g><text x="248" y="154" fill="#12283f" font-family="Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="5">JAMB QUEST</text><text x="248" y="196" fill="#12283f" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">${style.label}</text><line x1="126" y1="270" x2="954" y2="270" stroke="${style.accent}" stroke-width="5"/><g transform="translate(540 650)"><circle r="128" fill="${style.accent}" stroke="#12283f" stroke-width="18"/><circle r="88" fill="#fffdf5" stroke="#12283f" stroke-width="8"/><text x="0" y="31" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="98" font-weight="900">${style.icon}</text><path d="M-104 108 L-178 294 L-62 246 L0 334 L62 246 L178 294 L104 108" fill="#12283f" stroke="#12283f" stroke-width="12" stroke-linejoin="round"/></g><text x="540" y="1135" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="66" font-weight="900" textLength="810" lengthAdjust="spacingAndGlyphs">${label}</text><text x="540" y="1200" text-anchor="middle" fill="#2f7d4a" font-family="Arial, sans-serif" font-size="40" font-weight="800" textLength="680" lengthAdjust="spacingAndGlyphs">${learnerName}</text><text x="540" y="1300" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="31" textLength="820" lengthAdjust="spacingAndGlyphs">${note}</text><text x="540" y="1360" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="27" font-weight="700" textLength="860" lengthAdjust="spacingAndGlyphs">${escapeXml(evidence)}</text><text x="540" y="1410" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="24" font-weight="700" textLength="760" lengthAdjust="spacingAndGlyphs">${earnedOn}</text><text x="540" y="1728" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="4">BUILD YOUR SYSTEM.</text><text x="540" y="1770" text-anchor="middle" fill="#12283f" font-family="Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="4">WIN JAMB.</text></svg>`;
 }
 
 function createCardFile(card: EarnedAchievementShareCard) {
-  const blob = new Blob([buildAchievementShareCardSvg(card)], { type: "image/svg+xml;charset=utf-8" });
-  return new File([blob], `jamb-quest-${safeFilename(card.label)}-achievement.svg`, { type: blob.type });
+  return { svg: buildAchievementShareCardSvg(card), filename: `jamb-quest-${safeFilename(card.label)}-achievement.svg` };
 }
 
 export function downloadAchievementShareCard(card: EarnedAchievementShareCard): void {
-  if (typeof document === "undefined") return;
   const file = createCardFile(card);
-  const url = URL.createObjectURL(file);
-  const anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = file.name;
-  document.body.appendChild(anchor);
-  anchor.click();
-  anchor.remove();
-  window.setTimeout(() => URL.revokeObjectURL(url), 0);
+  downloadSvgCard(file.svg, file.filename);
 }
 
-export async function shareAchievementShareCard(card: EarnedAchievementShareCard): Promise<"shared" | "downloaded" | "unavailable"> {
-  if (typeof navigator === "undefined") return "unavailable";
+export async function shareAchievementShareCard(card: EarnedAchievementShareCard): Promise<ShareCardResult> {
   const file = createCardFile(card);
-  const data = {
+  return shareSvgCard({
+    ...file,
+    width: 1080,
+    height: 1920,
     title: `JAMB Quest · ${card.label}`,
     text: `I earned the ${card.label} achievement in JAMB Quest. Build your system. Win JAMB.`,
-    files: [file],
-  };
-  try {
-    if (typeof navigator.share === "function" && (!navigator.canShare || navigator.canShare(data))) {
-      await navigator.share(data);
-      return "shared";
-    }
-  } catch {
-    // A dismissed native share sheet leaves the achievement available to download instead.
-  }
-  if (typeof document !== "undefined") {
-    downloadAchievementShareCard(card);
-    return "downloaded";
-  }
-  return "unavailable";
+  });
 }

@@ -595,6 +595,10 @@
 - [x] Verify and report whether the latest JAMB Quest checkpoint is deployed and live. The direct reminder callback-audit release is published as checkpoint `c5148649` on the JAMB Quest domain.
 - [ ] Resolve any reminder delivery failure only after execution and endpoint evidence identifies a safe fix
 - [x] Persist a privacy-safe direct-reminder callback audit record for each scheduled invocation so missed-window diagnosis does not rely only on transient runtime logs. The table stores only task/window/outcome/timing and aggregate send/skip counts, never learner identity, subscription endpoint, or notification body.
+- [x] Prevent the achievement-card medal from covering an earned badge name or learner evidence. The portrait composition puts the medal above a separately spaced title, learner name, and evidence block.
+- [x] Make the earned-card Share action invoke Android’s native share chooser when that capability is available, with download only as an honest fallback. The action now converts the card to PNG before native sharing because common Android share targets accept PNG more consistently than SVG.
+- [x] Apply the user-confirmed final square JAMB Quest cover image as the app’s cover/icon asset. The uploaded navy-and-gold square is now the browser, Apple-touch, manifest, maskable, and notification icon asset.
+- [x] Redesign every earned achievement share card as a portrait phone-wallpaper image suitable for Android sharing, WhatsApp Status, and Stories. Achievement and daily-goal cards now render at 1080×1920.
 
 - [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
 

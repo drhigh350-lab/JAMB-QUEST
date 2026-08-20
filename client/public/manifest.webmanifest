@@ -10,25 +10,25 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/manus-storage/jamb-quest-official-icon-192_f6b939ac.png",
+      "src": "/manus-storage/jamb-quest-final-app-cover-192_7f5f7f7b.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/manus-storage/jamb-quest-official-icon-512_5d4abda6.png",
+      "src": "/manus-storage/jamb-quest-final-app-cover-512_4280c5b9.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/manus-storage/jamb-quest-official-icon-maskable-192_94694ccc.png",
+      "src": "/manus-storage/jamb-quest-final-app-cover-192_7f5f7f7b.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/manus-storage/jamb-quest-official-icon-maskable-512_0947e559.png",
+      "src": "/manus-storage/jamb-quest-final-app-cover-512_4280c5b9.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
