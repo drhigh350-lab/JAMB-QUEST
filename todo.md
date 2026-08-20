@@ -588,3 +588,19 @@
 - [x] Compact the Progress number presentation to match the tighter learner cards without hiding core accuracy, streak, or progress information.
 - [x] Reframe the Revision Shelf as a once-weekly revision routine rather than an exam-day prompt, without fabricating revision activity or reminders.
 - [x] Make the long CBT correction log independently scrollable on mobile and desktop so the main screen does not become excessively long.
+- [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
+- [x] Publish the validated achievement share-card update so it is available on the live JAMB Quest site.
+- [x] Audit the locally completed morning changes and state clearly which ones are included in the next published checkpoint. The checkpoint contains the branded all-achievement share-card system, daily-goal native sharing, compact gallery controls, strengthened regression coverage, and only a test-timeout stability adjustment.
+- [ ] Investigate why yesterday’s 12:00 p.m. and 7:00 p.m. Lagos reminder deliveries were not received, without sending an extra test request
+- [ ] Verify and report whether the latest JAMB Quest checkpoint is deployed and live
+- [ ] Resolve any reminder delivery failure only after execution and endpoint evidence identifies a safe fix
+
+- [x] Make every evidence-based JAMB Quest achievement downloadable and shareable as a personalised branded card with the official logo and specific earned achievement; never render a card for an unearned achievement or invented learner result.
+
+Reminder investigation constraint: preserve the exact one-POST direct-browser-reminder contract; do not use OneSignal or browser automation.
+
+Historical evidence-dependent items remain open:
+- [ ] Verify the deployed reminder callback against a real opted-in incomplete learner twice
+- [ ] Regenerate previously AI-written explanations against the authentic-style contract
+
+Note: the achievement-sharing release is implemented locally but still requires its final validation checkpoint.

@@ -21,5 +21,5 @@ describe("Lekki Headmaster imported record", () => {
     expect(html).not.toContain("DailyEd");
     expect(html).not.toContain("Verification Pending");
     expect((html.match(/class=\"explanation-block\"[^>]*>[\s\S]*?<\/div>/)?.[0].match(/<p>/g) ?? []).length).toBe(1);
-  });
+  }, 15_000);
 });

@@ -273,3 +273,4 @@
 .exam-review-list { max-height: min(64vh, 760px); overflow-y: auto; overscroll-behavior: contain; padding-right: 7px; scrollbar-gutter: stable; }
 .compact-log-list { max-height: min(48vh, 440px); overflow-y: auto; overscroll-behavior: contain; padding-right: 5px; scrollbar-gutter: stable; }
 @media (max-width: 620px) { .exam-review-list { max-height: 58vh; padding-right: 4px; } }
+.achievement-share-actions { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }.achievement-share-actions .text-button { min-height: 22px; padding: 3px 5px; color: var(--ink); border: 1px solid rgba(18,40,63,.18); background: rgba(255,253,245,.68); font-size: 8px; }.achievement-share-actions .text-button:hover { border-color: var(--leaf); color: var(--leaf); }.achievement-grid article.earned { align-content: start; }
