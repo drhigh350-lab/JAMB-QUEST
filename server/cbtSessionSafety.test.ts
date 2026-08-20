@@ -14,7 +14,7 @@ describe("CBT Exam Safety Net", () => {
     expect(app).toContain('window.addEventListener("popstate", protectBack)');
     expect(app).not.toContain("window.location.reload()");
     const worker = readFileSync("client/public/sw.js", "utf8");
-    expect(worker).toContain('"jamb-quest-shell-v10"');
+    expect(worker).toContain('"jamb-quest-shell-v11"');
     expect(worker).not.toContain('then(() => self.skipWaiting())');
     expect(worker).not.toContain("client.navigate(client.url)");
     const shell = readFileSync("client/src/components/QuizShell.tsx", "utf8");

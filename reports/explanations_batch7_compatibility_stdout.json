@@ -1,0 +1,14 @@
+{
+  "source": "explanations_batch7.py",
+  "recordCount": 25,
+  "targetSubject": "Physics",
+  "missingFromPendingRevisionList": [],
+  "missingFromCurrentModelBank": [],
+  "subjectMismatches": [],
+  "preexistingIdenticalExplanations": [],
+  "literalParseMetadata": {
+    "ignoredStatusPrintCount": 1,
+    "minCharacters": 589,
+    "maxCharacters": 798
+  }
+}
