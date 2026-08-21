@@ -637,3 +637,8 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Parse explanations_batch10_rectified.py as inert data and validate IDs, subjects, duplicates, mappings, and explanation formatting.
 - [x] Parse explanations_batch11_rectified.py as inert data and validate IDs, subjects, duplicates, mappings, and explanation formatting.
 - [x] Import only the validated rectified explanations into the canonical model bank or authorised-question database and publish a tested checkpoint.
+
+- [x] Parse explanations_batch12.py as inert data and validate its identifiers, subjects, duplicates, mappings, and explanation formatting. It contains 100 authorised records; all IDs overlap Batch 11 but all 100 explanation values are corrected replacements.
+- [x] Parse explanations_batch13.py as inert data and validate its identifiers, subjects, duplicates, mappings, and explanation formatting. It contains 100 mapped authorised records with no duplicate IDs, raw markup, or generic-template findings.
+- [x] Parse explanations_batch14.py as inert data and validate its identifiers, subjects, duplicates, mappings, and explanation formatting. It contains 100 mapped authorised records with no duplicate IDs, raw markup, or generic-template findings.
+- [x] Import only the validated Batch 12–14 explanations into the canonical model bank or authorised-question database and publish a tested checkpoint. All 300 authorised explanation fields were updated without creating duplicate question rows.
