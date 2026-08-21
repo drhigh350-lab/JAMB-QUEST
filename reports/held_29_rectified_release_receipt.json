@@ -1,0 +1,11 @@
+{
+  "source": "explanations_held_29_rectified.py",
+  "parsedAsInertLiteralData": true,
+  "exactHeldIdMatch": true,
+  "totalSupplied": 29,
+  "authorisedQuestionsUpdated": 29,
+  "rawMarkupCount": 0,
+  "genericTemplateCount": 0,
+  "outputLayer": "authorised questionItems explanation fields only",
+  "note": "All 29 previously held Physics explanations were replaced after exact-ID, mapping, raw-markup, and generic-template gates passed. No question, options, answer, topic, or diagram fields were changed."
+}

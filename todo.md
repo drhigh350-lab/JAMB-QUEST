@@ -642,3 +642,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Parse explanations_batch13.py as inert data and validate its identifiers, subjects, duplicates, mappings, and explanation formatting. It contains 100 mapped authorised records with no duplicate IDs, raw markup, or generic-template findings.
 - [x] Parse explanations_batch14.py as inert data and validate its identifiers, subjects, duplicates, mappings, and explanation formatting. It contains 100 mapped authorised records with no duplicate IDs, raw markup, or generic-template findings.
 - [x] Import only the validated Batch 12–14 explanations into the canonical model bank or authorised-question database and publish a tested checkpoint. All 300 authorised explanation fields were updated without creating duplicate question rows.
+
+- [x] Parse explanations_held_29_rectified.py as inert data and verify it maps exactly to the 29 held Physics IDs without duplicates or raw markup. The upload contains exactly the 29 held IDs, with zero raw-markup records and zero generic-template residue.
+- [x] Import the validated 29 rectified Physics explanations and preserve the held-record release receipt. All 29 existing authorised records were updated without changing protected question fields.
+- [x] Temporarily configure the direct browser reminder for exactly 08:00 and 21:00 Africa/Lagos using the existing one-POST, no-OneSignal, no-browser contract. The schedule is enabled, isolated, and connector-free; real callback evidence remains pending until a scheduled window runs.
