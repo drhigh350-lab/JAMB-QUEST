@@ -6975,7 +6975,7 @@
       "subject": "Physics",
       "status": "ready",
       "reasons": [],
-      "hasAsciiExponent": false,
+      "hasAsciiExponent": true,
       "hasLegacyEnglishGap": false
     },
     {

@@ -3,14 +3,14 @@ import { describe, expect, it } from "vitest";
 import { QUESTION_BANK_URL } from "../client/src/game/questionBank";
 import { questionExplanationLines } from "../client/src/game/explanation";
 
-describe("uploaded explanation batches 2 through 7", () => {
+describe("uploaded explanation batches 2 through 7 plus the clean batch-nine model subset", () => {
   it("uses the managed combined explanation asset and invalidates stale offline packs", () => {
     const offlinePack = readFileSync("client/src/lib/offlineStudyPack.ts", "utf8");
     const worker = readFileSync("client/public/sw.js", "utf8");
 
-    expect(QUESTION_BANK_URL).toContain("jamb_high_yield_practice_bank_1000_explanations_batches2_7_v1_96ef1e46.json");
-    expect(offlinePack).toContain("jamb-quest-study-pack-v7");
-    expect(worker).toContain("jamb-quest-study-pack-v7");
+    expect(QUESTION_BANK_URL).toContain("jamb_high_yield_practice_bank_1000_explanations_batches2_7_plus_batch9_model_v1_00288b3a.json");
+    expect(offlinePack).toContain("jamb-quest-study-pack-v8");
+    expect(worker).toContain("jamb-quest-study-pack-v8");
   });
 
   it("keeps rich supplied explanations free of the generic fallback ending", () => {
