@@ -626,3 +626,8 @@ Historical evidence-dependent items remain open:
 - [ ] Regenerate previously AI-written explanations against the authentic-style contract
 
 Note: the achievement-sharing release is implemented locally but still requires its final validation checkpoint.
+
+- [x] Inventory and safely release all held explanation records that originated from user-supplied Python files, preserving the quality and mapping audit trail.
+- [x] Investigate why scheduled direct browser reminders have not produced learner-visible notifications for multiple days, including trigger execution, callback audit writes, subscription eligibility, and delivery response evidence.
+- [ ] Repair the scheduled reminder path without OneSignal, browser automation, duplicate requests, or changes to the exact one-POST contract.
+- [x] Re-run import, notification, TypeScript, test, and production-build verification before publishing the combined update.

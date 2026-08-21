@@ -1,0 +1,16 @@
+{
+  "sources": [
+    "explanations_PHY_103_211_batch8.py",
+    "explanations_batch9_fixed.py"
+  ],
+  "explicitUserRelease": true,
+  "uploadedFilesParsedAsInertLiteralData": true,
+  "modelQuestionsUpdated": 138,
+  "batch8ModelQuestionsUpdated": 100,
+  "batch9ModelQuestionsUpdated": 38,
+  "authorisedQuestionsUpdated": 62,
+  "batch9AuthorisedMappingHeldNowReleased": 16,
+  "batch9GenericTemplateRecordsReleasedByExplicitUserInstruction": 46,
+  "outputBank": "/home/ubuntu/webdev-static-assets/jamb_high_yield_practice_bank_1000_explanations_batches2_7_plus_batch9_model_v2.json",
+  "warning": "The explicit release includes the 46 records previously flagged for generic-template language; this is recorded for later quality review."
+}
