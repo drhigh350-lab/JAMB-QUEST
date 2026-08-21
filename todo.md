@@ -631,3 +631,9 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Investigate why scheduled direct browser reminders have not produced learner-visible notifications for multiple days, including trigger execution, callback audit writes, subscription eligibility, and delivery response evidence.
 - [x] Repair the scheduled reminder path without OneSignal, browser automation, duplicate requests, or changes to the exact one-POST contract.
 - [x] Re-run import, notification, TypeScript, test, and production-build verification before publishing the combined update.
+
+- [x] Parse explanations_batch8_rectified.py as inert data and compare it with the previously released Batch 8 records.
+- [x] Parse explanations_batch9_rectified.py as inert data and compare it with the previously released Batch 9 records.
+- [x] Parse explanations_batch10_rectified.py as inert data and validate IDs, subjects, duplicates, mappings, and explanation formatting.
+- [x] Parse explanations_batch11_rectified.py as inert data and validate IDs, subjects, duplicates, mappings, and explanation formatting.
+- [x] Import only the validated rectified explanations into the canonical model bank or authorised-question database and publish a tested checkpoint.
