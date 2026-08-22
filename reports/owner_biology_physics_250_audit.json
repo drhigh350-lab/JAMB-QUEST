@@ -1,0 +1,38 @@
+{
+  "sourceFiles": [
+    "pasted_content.txt",
+    "pasted_content_2.txt",
+    "pasted_content_3.txt",
+    "pasted_content_4.txt",
+    "pasted_content_5.txt",
+    "pasted_content_6.txt",
+    "pasted_content_7.txt",
+    "pasted_content_8.txt",
+    "pasted_content_9.txt",
+    "pasted_content_10.txt",
+    "pasted_content_11.txt",
+    "pasted_content_12.txt",
+    "pasted_content_13.txt",
+    "pasted_content_14.txt",
+    "pasted_content_15.txt",
+    "pasted_content_16.txt"
+  ],
+  "declaredRanges": {
+    "Biology": "101–250",
+    "Physics": "1–250"
+  },
+  "expectedCount": 400,
+  "parsedCount": 400,
+  "uniqueParsedCount": 400,
+  "internalDuplicateCount": 0,
+  "modelBankCandidateCount": 1000,
+  "authorisedLedgerCandidateCount": 7796,
+  "eligibleCount": 400,
+  "eligibleBySubject": {
+    "Biology": 150,
+    "Physics": 250
+  },
+  "heldCount": 0,
+  "held": [],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/owner_biology_physics_250_stage.json"
+}

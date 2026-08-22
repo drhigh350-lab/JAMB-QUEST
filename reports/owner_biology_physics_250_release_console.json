@@ -1,0 +1,27 @@
+{
+  "release": "Owner-supplied Biology 101–250 and Physics 1–250 batches · 22 Aug 2026",
+  "releasedCount": 400,
+  "releasedBySubject": {
+    "Biology": 150,
+    "Physics": 250
+  },
+  "sourceLabels": [
+    "Owner-supplied Biology 250 batch · 22 Aug 2026",
+    "Owner-supplied Physics 250 batch · 22 Aug 2026"
+  ],
+  "updatedFields": [
+    "explanationStatus"
+  ],
+  "preservedProtectedFields": [
+    "externalId",
+    "subject",
+    "topic",
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "sourceStatusBeforeRelease": [
+    "needs_review"
+  ]
+}

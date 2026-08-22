@@ -1,0 +1,72 @@
+{
+  "valid": true,
+  "questionCount": 400,
+  "results": [
+    {
+      "sourceLabel": "Owner-supplied Biology 250 batch · 22 Aug 2026",
+      "questionCount": 150,
+      "topics": [
+        "Respiration",
+        "Excretion",
+        "Coordination and control",
+        "Factors affecting distribution",
+        "Soil",
+        "Symbiotic interactions",
+        "Variation",
+        "Reproduction",
+        "Transport",
+        "Heredity",
+        "Evidence of evolution",
+        "Theories of evolution",
+        "Evolution and classification",
+        "Plant and mammal structure",
+        "Natural habitats",
+        "Humans and environment",
+        "Biotechnology",
+        "Population ecology",
+        "Living organisms and organization",
+        "Adaptations of organisms",
+        "Nutrition and digestion"
+      ]
+    },
+    {
+      "sourceLabel": "Owner-supplied Physics 250 batch · 22 Aug 2026",
+      "questionCount": 250,
+      "topics": [
+        "Measurements and units",
+        "Motion",
+        "Equilibrium of forces",
+        "Change of state",
+        "Gravitational field",
+        "Work, energy and power",
+        "Pressure",
+        "Liquids at rest",
+        "Heat transfer",
+        "Elasticity",
+        "Temperature and measurement",
+        "Thermal expansion",
+        "Waves",
+        "Propagation of sound",
+        "Characteristics of sound",
+        "Reflection",
+        "Refraction",
+        "Optical instruments",
+        "Dispersion and colours",
+        "Magnets and magnetic fields",
+        "Electrostatics",
+        "Capacitors",
+        "Current electricity",
+        "Electric cells",
+        "Electromagnetic induction",
+        "Introductory electronics",
+        "Modern physics",
+        "Conduction of electricity",
+        "Machines",
+        "Structure of matter and kinetic theory",
+        "AC circuits",
+        "Quantity of heat",
+        "Gas laws"
+      ]
+    }
+  ]
+}

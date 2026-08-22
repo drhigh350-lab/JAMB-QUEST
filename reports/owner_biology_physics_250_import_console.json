@@ -1,0 +1,16 @@
+{
+  "sourceFile": "owner_biology_physics_250_stage.json",
+  "totalRecords": 400,
+  "receipt": [
+    {
+      "sourceLabel": "Owner-supplied Biology 250 batch · 22 Aug 2026",
+      "questionCount": 150,
+      "status": "imported"
+    },
+    {
+      "sourceLabel": "Owner-supplied Physics 250 batch · 22 Aug 2026",
+      "questionCount": 250,
+      "status": "imported"
+    }
+  ]
+}
