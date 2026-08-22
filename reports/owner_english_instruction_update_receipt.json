@@ -1,0 +1,655 @@
+{
+  "updatedCount": 107,
+  "protectedFieldsUnchanged": [
+    "externalId",
+    "subject",
+    "topic",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "updates": [
+    {
+      "id": 1410001,
+      "externalId": "ENG-OWNER-20260822-001",
+      "beforeQuestionHash": "fc54641e246b9f83f8156c1a2e0fe89d7b2cad9101fbc1ec1f30cf061b43bdbb",
+      "afterQuestionHash": "a9cdfc98b9813f595f93a7fe12235d49deb3c099cb06b4ed6d22ec06ee71842b"
+    },
+    {
+      "id": 1410002,
+      "externalId": "ENG-OWNER-20260822-002",
+      "beforeQuestionHash": "be4db2799c0a45d88ba24d796e1473b3ec0306fbd05930fcf6881a43c11d0a4f",
+      "afterQuestionHash": "9496ac644cbaf14f5211fe46dc682e29eec0a15115b96f528bc4e3b833d7648f"
+    },
+    {
+      "id": 1410003,
+      "externalId": "ENG-OWNER-20260822-003",
+      "beforeQuestionHash": "51b20260eb364239e841d47ee3a4ca96ad43c8dfaf25b84843329c13d1797569",
+      "afterQuestionHash": "92069f8c214cd21f38a8361294c48f2c51e2f2d1911763861b7cf9a33d334786"
+    },
+    {
+      "id": 1410004,
+      "externalId": "ENG-OWNER-20260822-004",
+      "beforeQuestionHash": "6cbac92c6353926e7911f8d54333fe2a61bf8efa11287371fa14f6470034b886",
+      "afterQuestionHash": "764424360527c88b7ab3730e849c0608842a4ee89aae549b4dc7c32f4aab8313"
+    },
+    {
+      "id": 1410005,
+      "externalId": "ENG-OWNER-20260822-005",
+      "beforeQuestionHash": "a5f17fddc20982381ad0997e9234061a02f7dcdb3eb98f38832cf99f89730b60",
+      "afterQuestionHash": "e0dd74024f75995ce358893bfa998e5dc04e981af0e6ebf123b735450d2018ac"
+    },
+    {
+      "id": 1410006,
+      "externalId": "ENG-OWNER-20260822-006",
+      "beforeQuestionHash": "479e101d1529f20977b0cd98f0d07c96f741fe5de354f8faa42ea9148a075793",
+      "afterQuestionHash": "db9e27b84624ea1500ef04386e1bba01080d5a6572c03698560b2b2f27d03ad7"
+    },
+    {
+      "id": 1410007,
+      "externalId": "ENG-OWNER-20260822-007",
+      "beforeQuestionHash": "daf4580af05c3e6fe7875be1b9ba156c0a1c04c145f62282992db8d72ae0f9b1",
+      "afterQuestionHash": "05be144b88a8f1aa531dee5ad1e923d5ad446913be9edf71074e4299c02f1ad2"
+    },
+    {
+      "id": 1410008,
+      "externalId": "ENG-OWNER-20260822-008",
+      "beforeQuestionHash": "5004c3fbda1017ef34dd0efdb3a967d41b7d460985a76e2f416b000fa8c3c057",
+      "afterQuestionHash": "9de5c20e7798c628e75f612cf61947e676d2fb3e06dcc620e4056183842ae477"
+    },
+    {
+      "id": 1410009,
+      "externalId": "ENG-OWNER-20260822-009",
+      "beforeQuestionHash": "3b8a65e01b7dd0252cb8c4fadf0e04a13e9646debf332e0e11b90aee520b3ebd",
+      "afterQuestionHash": "adcec3ac1f11568d99f27c38964b0f1d2b7fe3f4b6023bc4eef045ad4579a6b5"
+    },
+    {
+      "id": 1410010,
+      "externalId": "ENG-OWNER-20260822-010",
+      "beforeQuestionHash": "ff3f75e625dfabb331777c31a1cae5a3aaa2a37e23017f70e8f23681c0b83ca1",
+      "afterQuestionHash": "206cdff20b4782f1e30824b0b883149c0a784a8359760a4da296e20fd643af0b"
+    },
+    {
+      "id": 1410012,
+      "externalId": "ENG-OWNER-20260822-012",
+      "beforeQuestionHash": "711b83ae504148a59ee27d6b5c7340f1556abaeaf745e65ccc7bb3dafc230b37",
+      "afterQuestionHash": "795455edcfdd2bc70ddf3538303604679cdcb1deb0ce2ef4ee1d720f7f1a86e3"
+    },
+    {
+      "id": 1410013,
+      "externalId": "ENG-OWNER-20260822-013",
+      "beforeQuestionHash": "f241498074f7e3a8c4317dcc8d2729ea13bc32cdf83ff8b36a25e7eb8b37dc0f",
+      "afterQuestionHash": "f0abbf9303d90004bbfe9eb0ba7ee4ce0006c39796134198b6ebe915e40b0bf6"
+    },
+    {
+      "id": 1410014,
+      "externalId": "ENG-OWNER-20260822-014",
+      "beforeQuestionHash": "cd5607ea0651116145f74c4be7f924df753fc7c5bbb689814b92df8434b1e564",
+      "afterQuestionHash": "3ce1a292795b2a73dec1730342951a4adadbf8b4e96804d396cc6688c311630e"
+    },
+    {
+      "id": 1410015,
+      "externalId": "ENG-OWNER-20260822-015",
+      "beforeQuestionHash": "f6bd47d2983eb74a8efdf775bc86916001212fee8a08a0c4452ecc304ea2c0d0",
+      "afterQuestionHash": "ba1c555d3fb4ca8c1eac03be13d6b09ff5c50a2d83fdcb1626ab7a215e50158b"
+    },
+    {
+      "id": 1410016,
+      "externalId": "ENG-OWNER-20260822-016",
+      "beforeQuestionHash": "de8bf5dadf0f85690b166627630c40312254d8e6b903bb6c7a3656f43dd06f03",
+      "afterQuestionHash": "768e13c0eeb22e830c981ad887f3474759b94a370f976e5ae8de00e08355bd5e"
+    },
+    {
+      "id": 1410017,
+      "externalId": "ENG-OWNER-20260822-017",
+      "beforeQuestionHash": "c7464677e71a29a1fa5afd69f910fb176e84bc66bfc7869f4c1e5d0cb5b68cdb",
+      "afterQuestionHash": "7e4dfe6e9c2dd60287f2424029c68f5dd551244929cbe9c347ead321a9a6989a"
+    },
+    {
+      "id": 1410018,
+      "externalId": "ENG-OWNER-20260822-018",
+      "beforeQuestionHash": "7617c11d976bc0c431885d5e2af09a5b38fc3d05c8f0c00334be8b87c99737b0",
+      "afterQuestionHash": "42b30377d231d4e9db639864e3b1613b7098e8856a1219188fdedc80b0388b73"
+    },
+    {
+      "id": 1410019,
+      "externalId": "ENG-OWNER-20260822-019",
+      "beforeQuestionHash": "6a6b5f5cd7d4bd2f9e34dec7eb28d446ca51d0386a3fb7feb380e16d99576238",
+      "afterQuestionHash": "e4f3f88fcaa8c7f81221d276455446067947e4c6cab108641e7f0f2d035f9374"
+    },
+    {
+      "id": 1410020,
+      "externalId": "ENG-OWNER-20260822-020",
+      "beforeQuestionHash": "ebf86061164f56738361c6e48a732f025216860034383608e31e5e7534522c1b",
+      "afterQuestionHash": "2f132f334cf02eb61320a1d608a133badfd14c641728bfe6ac25bd928ac04964"
+    },
+    {
+      "id": 1410021,
+      "externalId": "ENG-OWNER-20260822-021",
+      "beforeQuestionHash": "3913b9ec39fa13cbae40d62eaf7899b0f3aa42d1f5c3289c4301e5f77775affc",
+      "afterQuestionHash": "ae1a5347cb1f4be002df564662b05e0c7f0ba381f561b54db92feafe3bb8bf13"
+    },
+    {
+      "id": 1410022,
+      "externalId": "ENG-OWNER-20260822-022",
+      "beforeQuestionHash": "b9492aa4f84f0ae0cbb88ece2fc26420b82b0622f42d96ec41862f61de97e05d",
+      "afterQuestionHash": "cbc591eb346bb77e2c09c694fb1fc258770dfd58ffbb8bcb524ef5762326584c"
+    },
+    {
+      "id": 1410023,
+      "externalId": "ENG-OWNER-20260822-023",
+      "beforeQuestionHash": "4f266a1adc6990668159b7b2651c5f86a4126396299456bb4d11d70fdba19867",
+      "afterQuestionHash": "f5726712889e692ef524ab9caf37eed116ea8bc89475e8e6190cf75e9a954d7d"
+    },
+    {
+      "id": 1410024,
+      "externalId": "ENG-OWNER-20260822-024",
+      "beforeQuestionHash": "ce5c2bd08898628ebd924e78353368f7cc47689156a0d8e522140419cc7f6f8a",
+      "afterQuestionHash": "bf53315f9985beac9c5a52f726f6abac7543e01365599e3b18624afb176d53b2"
+    },
+    {
+      "id": 1410025,
+      "externalId": "ENG-OWNER-20260822-025",
+      "beforeQuestionHash": "96bfd1834d6c2e330cf1323e625551f0eeb41f8b3da1dea4379a5f9e5e8e58d6",
+      "afterQuestionHash": "b618d4faedb9599b31fbdac48d186e189e247cd64ea3cef9b1a2e06f921f3fa1"
+    },
+    {
+      "id": 1410026,
+      "externalId": "ENG-OWNER-20260822-026",
+      "beforeQuestionHash": "604e2bc92c0180300e57faad41cfaf7e1bf09ea3f81892c469b9e7047f06cda0",
+      "afterQuestionHash": "ed8e6f878a6970cf6bb29d79b36a1c8c0582314540820c6ffe364223121ae367"
+    },
+    {
+      "id": 1410027,
+      "externalId": "ENG-OWNER-20260822-027",
+      "beforeQuestionHash": "5b382e886ba0f5e00591aae5d2fd508fcc24957be4493b326b973d43340559e0",
+      "afterQuestionHash": "2a709977ed53c990ae1eb20e567507eacffcbbd42764f606a8967cc48d9171e0"
+    },
+    {
+      "id": 1410028,
+      "externalId": "ENG-OWNER-20260822-028",
+      "beforeQuestionHash": "4a435b695b7776c53f509d8dc93fc4e4fb0f2906107ba664e74bf50190d46cf2",
+      "afterQuestionHash": "49a130d8ceb90442d4ecbfb5014ed3b5c7c8ae65e5fc9ff6a1feea7e3a4e4a0e"
+    },
+    {
+      "id": 1410029,
+      "externalId": "ENG-OWNER-20260822-029",
+      "beforeQuestionHash": "646dc070762aa74b5ccea3c60c9afe6fb59929ffbeed9d91502e91b82fc866a9",
+      "afterQuestionHash": "c67abc2ea273abbd7a14d28e542e1a0e57c5ea249082e8e33757b642a96d27b9"
+    },
+    {
+      "id": 1410030,
+      "externalId": "ENG-OWNER-20260822-030",
+      "beforeQuestionHash": "95b40a56b57a84b29109f58a27236e80f874ca1ae6a32cf865f6fdb86e16670e",
+      "afterQuestionHash": "aa248ffae2834bfde3f3f51bdfbbe479b2ccbd2494991d1735a3952c35e36bc3"
+    },
+    {
+      "id": 1410031,
+      "externalId": "ENG-OWNER-20260822-031",
+      "beforeQuestionHash": "711f2781e021d33237962d81a4b52ec12ead054ebb649a1d247a7f68ae4c4a05",
+      "afterQuestionHash": "90d5e8dd480161380daa898ed6ccb863ae9a27ef44a6dc4f01e53c23b3b2b643"
+    },
+    {
+      "id": 1410032,
+      "externalId": "ENG-OWNER-20260822-032",
+      "beforeQuestionHash": "0a5efb3b197a9c355cc4fb18e349bcef345965938b3201b05693478b36f733d9",
+      "afterQuestionHash": "8fa4de24e88cff1857330af65439ea3a0c89aa744a277bdea1c5ad1da31ef248"
+    },
+    {
+      "id": 1410033,
+      "externalId": "ENG-OWNER-20260822-033",
+      "beforeQuestionHash": "ee44dc2fb996baa221ef6e7059a4ae71fee8421aa6822bbb8f49a19c6c935ca4",
+      "afterQuestionHash": "65b0382074134b5114135959e46ad0f37a078bda611ca3a15bd995994355a254"
+    },
+    {
+      "id": 1410034,
+      "externalId": "ENG-OWNER-20260822-034",
+      "beforeQuestionHash": "784c55801fe12f5d78d6f5dde345de45df05e55ca801fbc554e48f425f066cab",
+      "afterQuestionHash": "6beeed83c49d33bfbcdd0ad70f02632908ec471b4fa24e67ed74a347afde76c8"
+    },
+    {
+      "id": 1410035,
+      "externalId": "ENG-OWNER-20260822-035",
+      "beforeQuestionHash": "a19192f33c80a9f8f24500fe7e15b02c6fb3dc3b2e36d2bd3c6a169b01ffdc8e",
+      "afterQuestionHash": "59a71bf4bf08122e960da891931dc68d390aa11b2c1e04643be8be1ca6eefcdf"
+    },
+    {
+      "id": 1410036,
+      "externalId": "ENG-OWNER-20260822-036",
+      "beforeQuestionHash": "e5c97c9c2b6bce60361dbf09a5778247c37da772e80b0185c377eded8f2db7cf",
+      "afterQuestionHash": "288974d0448384c4af09a2a76c4e96227003d51eb50c596494993b30d579fdb1"
+    },
+    {
+      "id": 1410037,
+      "externalId": "ENG-OWNER-20260822-037",
+      "beforeQuestionHash": "542f790dc20246b93a2d5e30d6b01ed523035a88cbe600e9784324a7ec6309ae",
+      "afterQuestionHash": "6a60e00e791b554e6ba98c1e0e708478ac092102413c7ac11a87abeea707b30c"
+    },
+    {
+      "id": 1410038,
+      "externalId": "ENG-OWNER-20260822-038",
+      "beforeQuestionHash": "c58d92c4b84c239e323c060ee925afae02f9cdd379729ef48b88ebc4c61fffa5",
+      "afterQuestionHash": "22e622eddefa2dbf3206a03c5338cdcd726dcb1c016f234635617a53dc32f35f"
+    },
+    {
+      "id": 1410039,
+      "externalId": "ENG-OWNER-20260822-039",
+      "beforeQuestionHash": "8ce6f0d07beb63ecebcb3e0a60b9f70c93c6b97224fe435d28b44d7cb54cd7ad",
+      "afterQuestionHash": "3f767a2ded8ad37bc60d118a77df9b75f7255ee70de5a74591db5e767cbd11a8"
+    },
+    {
+      "id": 1410040,
+      "externalId": "ENG-OWNER-20260822-040",
+      "beforeQuestionHash": "3d7aa6cbb780e5abe4b9dee559ddfabf5e98db8e4752758a0e0210a9148af8cc",
+      "afterQuestionHash": "05e5e882ac71ed76463efb7010a252f0e50b1b20131d7ce6dcd18bdfca93c196"
+    },
+    {
+      "id": 1410041,
+      "externalId": "ENG-OWNER-20260822-041",
+      "beforeQuestionHash": "5841d949e76889ab6c981c566eec687402417c9097e76da4c1600ad92fbee64f",
+      "afterQuestionHash": "a295229a20c2b8c836e7346a392646d671cdd1960eb820f1a2fbe545584485a5"
+    },
+    {
+      "id": 1410042,
+      "externalId": "ENG-OWNER-20260822-042",
+      "beforeQuestionHash": "e72ebb5e78391f9eb0a2b56f11585b44b023c8c24946639d3ba8d4b69e502893",
+      "afterQuestionHash": "28034c1ad0a2579061b7514c3f909002d8dd2b97699243751c392cdf217cec1d"
+    },
+    {
+      "id": 1410043,
+      "externalId": "ENG-OWNER-20260822-043",
+      "beforeQuestionHash": "d5b2660a44cd114a99ba4d0e1b1a282fa0d6c87ae1399b74cb0d89683be06031",
+      "afterQuestionHash": "ae5615d029d7afafeb0e31bb0261c6e90f078b5051732a8ecf926f3692b426f4"
+    },
+    {
+      "id": 1410044,
+      "externalId": "ENG-OWNER-20260822-044",
+      "beforeQuestionHash": "48da9de88470066f0da856af79605aaf5c68e6d93588db7411e3ef0df074c2fb",
+      "afterQuestionHash": "9d40164a3b8ca7878cbb797935b4a20849bc875ee5177c56c99f29bf8bed7776"
+    },
+    {
+      "id": 1410045,
+      "externalId": "ENG-OWNER-20260822-045",
+      "beforeQuestionHash": "0ae5cf8f21341cba70eb21b18f544cdbf5cb39ffc95c04ee8d45d4791f3ae078",
+      "afterQuestionHash": "5a2399d44efc94a41562ca28b203731507f66b10f82ff4a0734ad4c52fd4f299"
+    },
+    {
+      "id": 1410046,
+      "externalId": "ENG-OWNER-20260822-046",
+      "beforeQuestionHash": "17b341f7d699bfa95b23c722519ac4cf59e37b62491cff488cd227b6f15f615f",
+      "afterQuestionHash": "4c687568c1eeddc4fb71c66add79a7a4ecec0c7ddf203791054a4d874182145c"
+    },
+    {
+      "id": 1410047,
+      "externalId": "ENG-OWNER-20260822-047",
+      "beforeQuestionHash": "362247492a1a926d2765f6d7da2ee5291b4eb348177284b08cf160c51e745814",
+      "afterQuestionHash": "77ce9c7b308136e6d3ee7331e796f52620fd33a1b4c129795495ed3c2e61f790"
+    },
+    {
+      "id": 1410048,
+      "externalId": "ENG-OWNER-20260822-048",
+      "beforeQuestionHash": "e5e087b24bcca87c06ea2229fb4832cedf8f6d2139bb4ce79ceead61c3b6e96c",
+      "afterQuestionHash": "ff490684f977b9e8ed37ec43e7fdaa6b87bb1b9272713f1a84706261e2911483"
+    },
+    {
+      "id": 1410049,
+      "externalId": "ENG-OWNER-20260822-049",
+      "beforeQuestionHash": "221530654eadbfc92c9e56e30176fe22f6547acdc4cf1c0167c1dd86c4fc8aef",
+      "afterQuestionHash": "828dcc38e152d3b3f2000e96030ca21fbe609bf2b300a1b43a68e850ba54512d"
+    },
+    {
+      "id": 1410050,
+      "externalId": "ENG-OWNER-20260822-050",
+      "beforeQuestionHash": "64f86d69ddf6949e8187c4d52b21b7714afd12832a23557ba7357c00dafdff93",
+      "afterQuestionHash": "27c947747222adc9b3e24b4027dc3d5aed79755097099ab3fd69ffacdc50f9b8"
+    },
+    {
+      "id": 1410051,
+      "externalId": "ENG-OWNER-20260822-051",
+      "beforeQuestionHash": "86bc8219aabfc49ccefefe87b6416e8a38cca9f182cda59ac3c36e511a7d534c",
+      "afterQuestionHash": "984a5b0aa0b11d3bc33f0aa4cf79d83ace79bcabc0dcaf47f56226851022e948"
+    },
+    {
+      "id": 1410052,
+      "externalId": "ENG-OWNER-20260822-052",
+      "beforeQuestionHash": "3c5a12805fb1e420b58d52b72391bbff3a422de0e570ec7678414172106db14e",
+      "afterQuestionHash": "23df72b06672888612ef1d0baea559014b8f445e74badd851a0009d7bfd683d7"
+    },
+    {
+      "id": 1410053,
+      "externalId": "ENG-OWNER-20260822-053",
+      "beforeQuestionHash": "1b5e180dc107395496282444fa7a908c24c3a034137d984c0f882090d5d2d910",
+      "afterQuestionHash": "c491a4215d27256cdb64c034b7f88f5a51b5abc23df5d576c50b709c858024c7"
+    },
+    {
+      "id": 1410054,
+      "externalId": "ENG-OWNER-20260822-054",
+      "beforeQuestionHash": "6302145741900da1a70dbfdcf4e5e03ece68d678616b7b88739dfd72b6ccfbb7",
+      "afterQuestionHash": "e6a596c4079cbc223ff185a7418934f053b46a90f7c63248cba0662d84fecaf9"
+    },
+    {
+      "id": 1410055,
+      "externalId": "ENG-OWNER-20260822-055",
+      "beforeQuestionHash": "106ae740db75c3b874687f1035a3476d07fd4f76ea53ccd488262049e203d9af",
+      "afterQuestionHash": "df9e2f6565e5456b60db2b974633eba945822562014c4350b7b8c41335b7852b"
+    },
+    {
+      "id": 1410056,
+      "externalId": "ENG-OWNER-20260822-056",
+      "beforeQuestionHash": "c067ee2cdb5757fcd682839a6356574799344d5e7430a9008eb392c1a3de438e",
+      "afterQuestionHash": "3c6b52bac606db248bf42f5ca0937be409477527ffca1228887c310f9a40a37f"
+    },
+    {
+      "id": 1410057,
+      "externalId": "ENG-OWNER-20260822-057",
+      "beforeQuestionHash": "6e81bb0bfa47534a4fcc510d9b02067d1c100d19c1c00e1ff585e163d9d204ac",
+      "afterQuestionHash": "1af5ce5d8a6d5f3e02a10b52912809cc41ac6d7d6a2b498e6fb98b224dcb7d30"
+    },
+    {
+      "id": 1410058,
+      "externalId": "ENG-OWNER-20260822-058",
+      "beforeQuestionHash": "c73379bdb68e49e7419acbaba3cb7917cfb0f9bce8096309731e691775bdd0c8",
+      "afterQuestionHash": "dc8c9fa848028d78c4b8ec3a6b6b07ec87948b247110d5fbc47ea01f322df3c8"
+    },
+    {
+      "id": 1410059,
+      "externalId": "ENG-OWNER-20260822-059",
+      "beforeQuestionHash": "088b31faf700f0a79edf0e56b5ed5174fb9fa1245ad42f371c7026c8260c2d71",
+      "afterQuestionHash": "c123d16cfc136662a551a4fee1871d5d014f4c58c3dacbefc6be3a6d8f79e19b"
+    },
+    {
+      "id": 1410060,
+      "externalId": "ENG-OWNER-20260822-060",
+      "beforeQuestionHash": "08b6daadf8e265dd295c1345bd7af5dd2a8083fd181bb5ae3d69b7f42bd15421",
+      "afterQuestionHash": "8ca1928bbc353c1104abac1243157a873082e146b7d8bbb13df1c8ab0ffd3f71"
+    },
+    {
+      "id": 1410061,
+      "externalId": "ENG-OWNER-20260822-061",
+      "beforeQuestionHash": "5b37575932c0d30db3593551e1969008364d25e9b02aa7ff36dc9afad5abf039",
+      "afterQuestionHash": "64ed0ceed17ba846a84f0949d9354b291427b1c2ddabf0a87645eda644677b1a"
+    },
+    {
+      "id": 1410062,
+      "externalId": "ENG-OWNER-20260822-062",
+      "beforeQuestionHash": "de20d8c39d94c59428c92d58f1bd6f2db35d6a36f6142e961b55a88dfe0a87c9",
+      "afterQuestionHash": "67d5f20ee616bbef12e52c95af9e9c163cfc7ab2aff071650d3a4434a52de9bb"
+    },
+    {
+      "id": 1410063,
+      "externalId": "ENG-OWNER-20260822-063",
+      "beforeQuestionHash": "f78e2148a2e6fa2997a1806804af3efea10d2a8fd0c6bf30abc2b894b52ecca8",
+      "afterQuestionHash": "18bd0f29118d402ecab71b9e32ee43d56bea73a59b684d8de594778f9ae07245"
+    },
+    {
+      "id": 1410064,
+      "externalId": "ENG-OWNER-20260822-064",
+      "beforeQuestionHash": "888928dc5db40546aa301486862e07215b9fd6975e74171d3f34f14d976c420f",
+      "afterQuestionHash": "8813f8dae779cdadcdc5fdee936e314e2ef47ac2bbcb2286e0133a7372410359"
+    },
+    {
+      "id": 1410065,
+      "externalId": "ENG-OWNER-20260822-065",
+      "beforeQuestionHash": "eaa642869d7848bc9bffa5d1870ecc81108bd336ca2a896099e42336e10112d5",
+      "afterQuestionHash": "b40d62a699fc2991e2d36c60bb30a8c34d614be2fff027224af10ae100dea9f7"
+    },
+    {
+      "id": 1410066,
+      "externalId": "ENG-OWNER-20260822-066",
+      "beforeQuestionHash": "b59b87a514db764a8d4ae3d19a3e9efb74df0803a46acdad376ccf42371ef348",
+      "afterQuestionHash": "7809e6f3b8bd0928355d4aa7b2891d00668827ab6c2fd73283ad597e7e827a36"
+    },
+    {
+      "id": 1410067,
+      "externalId": "ENG-OWNER-20260822-067",
+      "beforeQuestionHash": "8fedc2051a617146085b42b701d2aadf6c74db894191f5b784d68df638fb0d32",
+      "afterQuestionHash": "30d79ac5d82681d82d0a93e547c6fd3861e2c9c5a4dbe5345fdedf6191af8ca0"
+    },
+    {
+      "id": 1410068,
+      "externalId": "ENG-OWNER-20260822-068",
+      "beforeQuestionHash": "d650f702aa27376277c79f5a77d0d67f377585d069d6ce85ad4617b5c8b89ea7",
+      "afterQuestionHash": "a285f09e23b6208160461023d9a27c6ea3c18fba0389d3b5a8a40a7903431b58"
+    },
+    {
+      "id": 1410069,
+      "externalId": "ENG-OWNER-20260822-069",
+      "beforeQuestionHash": "87f6df785a37f7708ad03280dc13e6dfebc1be561ba59b2232657c6900eba2cd",
+      "afterQuestionHash": "42e04ea62c3f9ea238bd64c66a3c5deb0071f642e310a5c4af83f076ee7fdacd"
+    },
+    {
+      "id": 1410070,
+      "externalId": "ENG-OWNER-20260822-070",
+      "beforeQuestionHash": "c6616f0bf050536f04be3e04bb58fd16eb299dfb944441fc07f83e02dbb94858",
+      "afterQuestionHash": "e41619f6681819041a6f6251f56055b8587ee2a78665af01fde17cf48e7a5633"
+    },
+    {
+      "id": 1410071,
+      "externalId": "ENG-OWNER-20260822-071",
+      "beforeQuestionHash": "fd5f084d20e42c84430cbf7bc4f619b155adaef5a35d885987dcb3d53287cbe1",
+      "afterQuestionHash": "9e37d557ae28cffb6bf874e78b368e51ccfe999157e0ac7340310a66768e8ed9"
+    },
+    {
+      "id": 1410072,
+      "externalId": "ENG-OWNER-20260822-072",
+      "beforeQuestionHash": "3d6d903a01ee8c044990666c42046bd51a849a8a6746b93c39d36511d33f4472",
+      "afterQuestionHash": "a91c142f32229f4473356415f89f8d441ac1af783f9c505a8e77953ddb35990d"
+    },
+    {
+      "id": 1410073,
+      "externalId": "ENG-OWNER-20260822-073",
+      "beforeQuestionHash": "4f266a1adc6990668159b7b2651c5f86a4126396299456bb4d11d70fdba19867",
+      "afterQuestionHash": "f5726712889e692ef524ab9caf37eed116ea8bc89475e8e6190cf75e9a954d7d"
+    },
+    {
+      "id": 1410074,
+      "externalId": "ENG-OWNER-20260822-075",
+      "beforeQuestionHash": "cbcb5ad62743025c7773e66d77ce4d5fc17dadf268eb8d73bfaa03619fff502b",
+      "afterQuestionHash": "d9c6870b435ec0ac32d00442a4f68d5ce6fd8018ecf686271c298d28b5ba0b2f"
+    },
+    {
+      "id": 1410080,
+      "externalId": "ENG-OWNER-20260822-081",
+      "beforeQuestionHash": "cfdf9fc7e4d3fda86db751c6f0701eca4dbc2d8afae6643eeb8585ca390ef1c7",
+      "afterQuestionHash": "9d101796c052536225906930117886339268c8321295bf8a18e966c2f9903580"
+    },
+    {
+      "id": 1410081,
+      "externalId": "ENG-OWNER-20260822-082",
+      "beforeQuestionHash": "0cafc6eb14a047b046e09d1e8e8ee0c7fe5fb0343db18cc1515de1fd2ed80d24",
+      "afterQuestionHash": "fc441923069a9182dadfd5fa7171cfda6d6fe969e31f47b775adb96b07dc3413"
+    },
+    {
+      "id": 1410082,
+      "externalId": "ENG-OWNER-20260822-083",
+      "beforeQuestionHash": "03a1123cfdf3863abff416cb5feb787907d5e03580e90ce08a9ea7361afdc52f",
+      "afterQuestionHash": "4a884a3c04014cfb968f052a0ac2b7595a39a84e8828628415a597981ca86116"
+    },
+    {
+      "id": 1410083,
+      "externalId": "ENG-OWNER-20260822-084",
+      "beforeQuestionHash": "3dc7474ec82ecb2d1f767ea6be70cd116b7410934ce24b45e15b79c3015df061",
+      "afterQuestionHash": "04901b47fd73f54aaa58276ac4975a65b9c1fcbcef3f592aa631fb1c2247269d"
+    },
+    {
+      "id": 1410084,
+      "externalId": "ENG-OWNER-20260822-085",
+      "beforeQuestionHash": "703e205b06ff23c3ea35e5746d03b918fb35b7ed0d012d12ee5673f1ad88c6ae",
+      "afterQuestionHash": "f6f3e7745fc29da1c8ad96af3408ae3a7bb8545cbda9181a945f9450c22a75d6"
+    },
+    {
+      "id": 1410085,
+      "externalId": "ENG-OWNER-20260822-086",
+      "beforeQuestionHash": "6300c6580cbff799abc96af0fdea0d472a33860b8b4b0b463555e9208b4bcff7",
+      "afterQuestionHash": "1e394035b3ebe91b6b332d8fc315af42b166979e18c6e50454b3d182b621d838"
+    },
+    {
+      "id": 1410086,
+      "externalId": "ENG-OWNER-20260822-087",
+      "beforeQuestionHash": "0519d2fb98656f5101f9e94f8cfbb6453eb7509708ec7193cad9b2dd89bc88b0",
+      "afterQuestionHash": "59edb50f58a09bf2c17db372a32cc3afd2ccea6f9662b04f16a7794dbf883e4e"
+    },
+    {
+      "id": 1410087,
+      "externalId": "ENG-OWNER-20260822-088",
+      "beforeQuestionHash": "ba1c19d594267a1e317e8c2e267de5385dc4de8625be1106c0289dbc3566a165",
+      "afterQuestionHash": "24251df68d012037fb4673926537e4b6910cc8081b847ec4c431c819d40df5e2"
+    },
+    {
+      "id": 1410088,
+      "externalId": "ENG-OWNER-20260822-089",
+      "beforeQuestionHash": "7a2a3f2a5faa3462b0ac1bf383d4462c21aa0eceb09b3876151e33d3ef26914a",
+      "afterQuestionHash": "61903bc172694e8d04142dfe588bea4cffd1883fdd43e660526ff9bba14834b2"
+    },
+    {
+      "id": 1410089,
+      "externalId": "ENG-OWNER-20260822-090",
+      "beforeQuestionHash": "797dc53dd41c6dadd07502379c2cd883e22b5428ab52a940efeb987052de7067",
+      "afterQuestionHash": "7730805207f501d56972a45c69695e717c791613cab584242fd12955e3f845aa"
+    },
+    {
+      "id": 1410090,
+      "externalId": "ENG-OWNER-20260822-091",
+      "beforeQuestionHash": "0770cd2a6825a82b558fc7c18b0989ae554fde621e8d54a068ba8abda8047a60",
+      "afterQuestionHash": "eb33d23d839f20e52e0e24d30f839c0354bc591711c919fef9a647d3e97a105d"
+    },
+    {
+      "id": 1410091,
+      "externalId": "ENG-OWNER-20260822-092",
+      "beforeQuestionHash": "33ad314d5ca108bee1d8c8aeb035ba8d183b2190cae105513f74297c6d6416b9",
+      "afterQuestionHash": "dc36795f76441ee186a15fdef58ded310d506cd73e10e931b870043ee06167c3"
+    },
+    {
+      "id": 1410092,
+      "externalId": "ENG-OWNER-20260822-093",
+      "beforeQuestionHash": "b5422b1ea40215a262a025172c60ac16581a3cd14babeaea67e476e10d5b4012",
+      "afterQuestionHash": "3c85800fe91cd2ac1e725ccab7f9b62070cdafda1c2e603000a41541b43f493b"
+    },
+    {
+      "id": 1410093,
+      "externalId": "ENG-OWNER-20260822-094",
+      "beforeQuestionHash": "a944c71b1dac397b828aa1adb1db369f5698a3c9c67773640a0b72d6c94b6ab0",
+      "afterQuestionHash": "59cbe20502a9a764210403fc96e4157a23b7d5fbf1d56c75e93349e91d219200"
+    },
+    {
+      "id": 1410094,
+      "externalId": "ENG-OWNER-20260822-095",
+      "beforeQuestionHash": "e53679f5402c96ee7083077695fd22abce92b892429e95a6d5a04d5c4008fa1c",
+      "afterQuestionHash": "32d00847960de674556fa22c273f12d427330385fe3900cbdfea49e00dfc684b"
+    },
+    {
+      "id": 1410095,
+      "externalId": "ENG-OWNER-20260822-096",
+      "beforeQuestionHash": "9ee33572f291654f3a8d6de39fd9abeb50b73b261a665f83cd98bbab2f647be7",
+      "afterQuestionHash": "eab6b2fef812f19a321fe8404e0ca88a64160b4a46bf4064726c5585da7a3715"
+    },
+    {
+      "id": 1410096,
+      "externalId": "ENG-OWNER-20260822-097",
+      "beforeQuestionHash": "24780c919643e27a4634a561b447800bd1b743193a92b3765bb99b0dbe22b2bc",
+      "afterQuestionHash": "c5201bb55458a2ce5556654a963b8726cf5a2448fe757c0f9e21a435d2b5f3f3"
+    },
+    {
+      "id": 1410097,
+      "externalId": "ENG-OWNER-20260822-098",
+      "beforeQuestionHash": "4547b2eeca07d2515170e9e4853c5420221f4b6412fcca665ea6fdfc52975c24",
+      "afterQuestionHash": "8aae0122872f18b5ba872bcf59ab70d8f32160a5664b727f4e5e809d04d60adc"
+    },
+    {
+      "id": 1410098,
+      "externalId": "ENG-OWNER-20260822-099",
+      "beforeQuestionHash": "967b901987e15686a94a914618416f0957d47cc7771c86ee048b5912b12393ac",
+      "afterQuestionHash": "4440c666507838c62c123c7d89647bf7e475cef30e2647452fedff2eb924212f"
+    },
+    {
+      "id": 1410099,
+      "externalId": "ENG-OWNER-20260822-100",
+      "beforeQuestionHash": "e06afc97927e96376cbab78a405c15afd256bd26684be838c1d53f8ec35aac84",
+      "afterQuestionHash": "476062994db0213d458e8f3cd752b6a42e46de0a3a17b4aa94a5a5f0c61b720c"
+    },
+    {
+      "id": 1410110,
+      "externalId": "ENG-OWNER-20260822-111",
+      "beforeQuestionHash": "d6f460d42d630c86a855cb7a2587b2a9f94e030090109262cfdc65675e2e9a5b",
+      "afterQuestionHash": "987b19fb5b0599b65f820593c8a1d11ea2c5ed25274e57127efff072017f0b58"
+    },
+    {
+      "id": 1410111,
+      "externalId": "ENG-OWNER-20260822-112",
+      "beforeQuestionHash": "13b690023a8df195378c2ae6f0af672b27044bc2880cf78fd8767c97146c6c18",
+      "afterQuestionHash": "6a9338b7f788b15a6a72927652da1f4d985b56599492988d88809faaed8542b5"
+    },
+    {
+      "id": 1410112,
+      "externalId": "ENG-OWNER-20260822-113",
+      "beforeQuestionHash": "6e62f7c4adc1f595670ef338cfd57e4602b7febd98b164bc4853763d530d7ede",
+      "afterQuestionHash": "18bf67afb2934bcc7df58c9ef0e9f49ac8033dbb8873a9543f01cf6bb58f4797"
+    },
+    {
+      "id": 1410113,
+      "externalId": "ENG-OWNER-20260822-114",
+      "beforeQuestionHash": "cd3b9a81ac0988060f160f8aa3841943af51547c5ea8ac848aa8f324df0809d9",
+      "afterQuestionHash": "7911d00fd7ec4949a4a8908af2f09c88d9ae9c4e9a2b80d55aca1e0666ea1482"
+    },
+    {
+      "id": 1410114,
+      "externalId": "ENG-OWNER-20260822-115",
+      "beforeQuestionHash": "975ed1e1d05be7aa3fc0c62e3742ab6bdd7ae61a59d9872f8231573f53e1fce3",
+      "afterQuestionHash": "2f5f482705f03550acbee72ad53bb799142174ab53f2a2014c9fb42717ab2b1f"
+    },
+    {
+      "id": 1410115,
+      "externalId": "ENG-OWNER-20260822-116",
+      "beforeQuestionHash": "fa8626b5ccb2adcfb7f35461fe4bb8ffe9615111cc1bdfd1794b4ad9afdae80a",
+      "afterQuestionHash": "35f20d77452b11d13545c6b8bcb3aa4bb556f0df3e0d75dbabb69ee48a759892"
+    },
+    {
+      "id": 1410116,
+      "externalId": "ENG-OWNER-20260822-117",
+      "beforeQuestionHash": "bc122ec06f715b583270bd52e9bd2e48d46193cc37f5066f2295e4a0cbfc75e8",
+      "afterQuestionHash": "f9e6c07ea44fa782661cd026086318f114b8c2559918514ea6ac6daf1a332d28"
+    },
+    {
+      "id": 1410117,
+      "externalId": "ENG-OWNER-20260822-118",
+      "beforeQuestionHash": "8d44ba5f311ddaad152e86eade638e2a561da28daed6528e825733fc16440159",
+      "afterQuestionHash": "41b390a4d7d8fe9d0ca2664e3568ad5984f94f33419f0ef961e058696699e876"
+    },
+    {
+      "id": 1410118,
+      "externalId": "ENG-OWNER-20260822-119",
+      "beforeQuestionHash": "42725d422d428983a73e52ea0a9c5343ca0f9374e3004ab3606262e0e94991f3",
+      "afterQuestionHash": "a2fbea9838fa3dec15145a585e466336ddf1c5a0f14cc0cc502162fa1d696809"
+    },
+    {
+      "id": 1410119,
+      "externalId": "ENG-OWNER-20260822-120",
+      "beforeQuestionHash": "3fa0335e2fb5a4a62bd2480d9e93455f848d90979f2d5a0344d9b8ab5f3066d6",
+      "afterQuestionHash": "bf2d92985c5a27475298b9581bbff0498795417250caf49a9e796b6bd4e635a0"
+    },
+    {
+      "id": 1410120,
+      "externalId": "ENG-OWNER-20260822-121",
+      "beforeQuestionHash": "62ac2808c52342b5a6b06e6eed9f39d927aa672e28d0c538157e55be1971a971",
+      "afterQuestionHash": "04801aa3e37e9a5f1117c0231d168033bb99a7606bf6130a22a12fdaf980b2f7"
+    },
+    {
+      "id": 1410121,
+      "externalId": "ENG-OWNER-20260822-122",
+      "beforeQuestionHash": "4672a8dda56d26ce982a117fa703791daadb9be017dea73f56211dd315d51f4f",
+      "afterQuestionHash": "b635345a9af1b7164b4af33c52a243d016b34bd0f5aace3c65326493018172e7"
+    },
+    {
+      "id": 1410123,
+      "externalId": "ENG-OWNER-20260822-124",
+      "beforeQuestionHash": "c7464677e71a29a1fa5afd69f910fb176e84bc66bfc7869f4c1e5d0cb5b68cdb",
+      "afterQuestionHash": "7e4dfe6e9c2dd60287f2424029c68f5dd551244929cbe9c347ead321a9a6989a"
+    },
+    {
+      "id": 1410124,
+      "externalId": "ENG-OWNER-20260822-125",
+      "beforeQuestionHash": "4f266a1adc6990668159b7b2651c5f86a4126396299456bb4d11d70fdba19867",
+      "afterQuestionHash": "f5726712889e692ef524ab9caf37eed116ea8bc89475e8e6190cf75e9a954d7d"
+    }
+  ]
+}
