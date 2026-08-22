@@ -1,0 +1,11 @@
+{
+  "sourceFile": "owner_chemistry_1_250_stage.json",
+  "totalRecords": 248,
+  "receipt": [
+    {
+      "sourceLabel": "Owner-supplied Chemistry 1–250 batch · 22 Aug 2026",
+      "questionCount": 248,
+      "status": "imported"
+    }
+  ]
+}

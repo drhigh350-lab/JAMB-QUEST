@@ -1,0 +1,20 @@
+{
+  "release": "Owner-supplied Chemistry 1–250 batch · 22 Aug 2026",
+  "releasedCount": 248,
+  "sourceLabel": "Owner-supplied Chemistry 1–250 batch · 22 Aug 2026",
+  "updatedFields": [
+    "explanationStatus"
+  ],
+  "preservedProtectedFields": [
+    "externalId",
+    "subject",
+    "topic",
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "sourceStatusBeforeRelease": [
+    "needs_review"
+  ]
+}

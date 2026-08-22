@@ -1,0 +1,38 @@
+{
+  "sourceFiles": [
+    "pasted_content.txt",
+    "pasted_content_2.txt",
+    "pasted_content_3.txt",
+    "pasted_content_4.txt",
+    "pasted_content_5.txt",
+    "pasted_content_6.txt",
+    "pasted_content_7.txt",
+    "pasted_content_8.txt",
+    "pasted_content_9.txt",
+    "pasted_content_10.txt"
+  ],
+  "declaredRange": "Chemistry 1–250",
+  "expectedCount": 250,
+  "parsedCount": 250,
+  "uniqueParsedCount": 250,
+  "internalDuplicateCount": 0,
+  "modelBankCandidateCount": 1000,
+  "authorisedLedgerCandidateCount": 8196,
+  "eligibleCount": 248,
+  "heldCount": 2,
+  "held": [
+    {
+      "externalId": "CHEM-OWNER-20260822-R2-166",
+      "questionNumber": 166,
+      "reason": "Structural hold: option set, answer target, or compact explanation is not usable.",
+      "question": "For aA+bB⇌ cC+dD the equilibrium constant expression is"
+    },
+    {
+      "externalId": "CHEM-OWNER-20260822-R2-234",
+      "questionNumber": 234,
+      "reason": "Answer-key hold: the supplied answer letter conflicts with its numeric or formula answer note and the listed option text.",
+      "question": "A current of 2 A flows through an electrolyte for 30 minutes. The quantity of electricity passed is"
+    }
+  ],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/owner_chemistry_1_250_stage.json"
+}
