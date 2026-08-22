@@ -663,3 +663,6 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Replace the broken achievement-card wordmark placeholder with the user-supplied transparent JAMB Quest logo through a stable share-safe hosted asset URL.
 - [x] Add regression coverage and visually verify that the official JAMB Quest logo renders in generated portrait cards before publishing the correction.
+
+- [x] Parse the user-supplied `explanations_batch15_careful.py`, `explanations_batch16_careful.py`, and `explanations_batch17_careful.py` strictly as inert data; validate IDs, subjects, duplicates, mappings, formatting, and explanation-quality gates. The inert AST reader found 299 mapped authorised records, no duplicate IDs, no raw markup, and 304 generic-tail findings across 288 unique records.
+- [x] Update only validated explanation fields from Batches 15–17, preserve all protected question data, retain a detailed receipt for held records, and publish only after regression validation. Eleven specific explanations were released after question-and-answer review; 288 generic/template-tailed records remain held. The release changed only `explanation` and `explanationStatus`; focused regression, TypeScript, and production build passed.

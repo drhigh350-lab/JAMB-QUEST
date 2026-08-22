@@ -1,0 +1,1865 @@
+{
+  "sources": [
+    "explanations_batch15_careful.py",
+    "explanations_batch16_careful.py",
+    "explanations_batch17_careful.py"
+  ],
+  "parsedAsInertLiteralData": true,
+  "countsByBatch": {
+    "batch15": 100,
+    "batch16": 100,
+    "batch17": 99
+  },
+  "totalRecords": 299,
+  "duplicateIds": [],
+  "nonAuthorisedIds": [],
+  "rawMarkupIds": [],
+  "tooShortIds": [],
+  "tooLongIds": [],
+  "genericFindings": [
+    {
+      "id": "authorised-1110116",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110117",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110118",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110119",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110120",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110122",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110124",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110125",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110130",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110131",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110132",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110133",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110134",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110135",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110136",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110137",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110138",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110139",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110140",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110142",
+      "batch": 15,
+      "rule": "generic-lens-formula-tail"
+    },
+    {
+      "id": "authorised-1110143",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110144",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110145",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110147",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110148",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110149",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110150",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1110151",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140001",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140002",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140003",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140004",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140004",
+      "batch": 15,
+      "rule": "generic-lens-formula-tail"
+    },
+    {
+      "id": "authorised-1140005",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140006",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140007",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140008",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140009",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140010",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140011",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140012",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140013",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140013",
+      "batch": 15,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140014",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140015",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140016",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140017",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140018",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140019",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140020",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140021",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140022",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140023",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140024",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140025",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140026",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140027",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140028",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140029",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140030",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140031",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140032",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140033",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140035",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140037",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140038",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140039",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140040",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140040",
+      "batch": 15,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140042",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140042",
+      "batch": 15,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140043",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140043",
+      "batch": 15,
+      "rule": "generic-momentum-tail"
+    },
+    {
+      "id": "authorised-1140044",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140045",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140046",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140047",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140048",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140049",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140050",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140051",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140052",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140053",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140054",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140055",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140056",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140057",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140058",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140059",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140060",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140060",
+      "batch": 15,
+      "rule": "generic-momentum-tail"
+    },
+    {
+      "id": "authorised-1140061",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140062",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140063",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140063",
+      "batch": 15,
+      "rule": "generic-lens-formula-tail"
+    },
+    {
+      "id": "authorised-1140064",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140065",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140066",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140067",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140068",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140069",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140070",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140071",
+      "batch": 15,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140071",
+      "batch": 15,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140072",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140074",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140075",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140076",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140077",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140078",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140079",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140080",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140081",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140081",
+      "batch": 16,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140082",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140083",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140083",
+      "batch": 16,
+      "rule": "generic-momentum-tail"
+    },
+    {
+      "id": "authorised-1140084",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140085",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140086",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140087",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140088",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140089",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140090",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140091",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140092",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140093",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140094",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140095",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140096",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140097",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140098",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140099",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140100",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140101",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140102",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140103",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140104",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140105",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140106",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140107",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140107",
+      "batch": 16,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1140108",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140109",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140110",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140111",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140112",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140112",
+      "batch": 16,
+      "rule": "generic-momentum-tail"
+    },
+    {
+      "id": "authorised-1140113",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140114",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140114",
+      "batch": 16,
+      "rule": "generic-lens-formula-tail"
+    },
+    {
+      "id": "authorised-1140115",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140116",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140117",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140118",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140119",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140120",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140121",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140122",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140123",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1140124",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1170003",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1170004",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1170005",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1170006",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1170007",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200001",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200002",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200004",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200005",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200006",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200007",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200008",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1200009",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230002",
+      "batch": 16,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1230004",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230006",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230007",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230008",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230009",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230010",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230011",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230012",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230013",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230016",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230017",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230018",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230019",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230020",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230021",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230023",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230025",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230026",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230027",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230028",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230029",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230030",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230031",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230032",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230033",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230035",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230036",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230037",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230039",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230040",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230041",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230042",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230043",
+      "batch": 16,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230043",
+      "batch": 16,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1230045",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230047",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230048",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230049",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230051",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230052",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230053",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230054",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230055",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230057",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230058",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230058",
+      "batch": 17,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1230059",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230060",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230061",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230062",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230063",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230064",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230065",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230066",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230067",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230068",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230072",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230074",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230075",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230076",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230078",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230079",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230080",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230081",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230082",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230084",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230085",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230086",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230087",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230088",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230089",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230090",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230091",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230092",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230094",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230095",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230096",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230097",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230098",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230099",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230102",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230103",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230104",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230105",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230106",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230109",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230110",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230112",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230113",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230115",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230116",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230118",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230118",
+      "batch": 17,
+      "rule": "generic-wave-relationship-tail"
+    },
+    {
+      "id": "authorised-1230119",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230121",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230123",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230124",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230126",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230132",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230133",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230134",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230135",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230137",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230138",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230142",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230143",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230144",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230147",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230149",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230151",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1230152",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260002",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260003",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260004",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260007",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260009",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260011",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260013",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1260015",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320003",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320004",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320005",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320007",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320008",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320009",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320010",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320011",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320012",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    },
+    {
+      "id": "authorised-1320013",
+      "batch": 17,
+      "rule": "generic-deciding-feature-tail"
+    }
+  ],
+  "missingDatabaseIds": [],
+  "authorisedDatabaseMatches": 299,
+  "eligibleIds": [
+    "authorised-1110112",
+    "authorised-1110114",
+    "authorised-1110123",
+    "authorised-1140034",
+    "authorised-1140073",
+    "authorised-1230044",
+    "authorised-1230046",
+    "authorised-1230050",
+    "authorised-1230073",
+    "authorised-1230129",
+    "authorised-1230131"
+  ],
+  "heldIds": [
+    "authorised-1110116",
+    "authorised-1110117",
+    "authorised-1110118",
+    "authorised-1110119",
+    "authorised-1110120",
+    "authorised-1110122",
+    "authorised-1110124",
+    "authorised-1110125",
+    "authorised-1110130",
+    "authorised-1110131",
+    "authorised-1110132",
+    "authorised-1110133",
+    "authorised-1110134",
+    "authorised-1110135",
+    "authorised-1110136",
+    "authorised-1110137",
+    "authorised-1110138",
+    "authorised-1110139",
+    "authorised-1110140",
+    "authorised-1110142",
+    "authorised-1110143",
+    "authorised-1110144",
+    "authorised-1110145",
+    "authorised-1110147",
+    "authorised-1110148",
+    "authorised-1110149",
+    "authorised-1110150",
+    "authorised-1110151",
+    "authorised-1140001",
+    "authorised-1140002",
+    "authorised-1140003",
+    "authorised-1140004",
+    "authorised-1140005",
+    "authorised-1140006",
+    "authorised-1140007",
+    "authorised-1140008",
+    "authorised-1140009",
+    "authorised-1140010",
+    "authorised-1140011",
+    "authorised-1140012",
+    "authorised-1140013",
+    "authorised-1140014",
+    "authorised-1140015",
+    "authorised-1140016",
+    "authorised-1140017",
+    "authorised-1140018",
+    "authorised-1140019",
+    "authorised-1140020",
+    "authorised-1140021",
+    "authorised-1140022",
+    "authorised-1140023",
+    "authorised-1140024",
+    "authorised-1140025",
+    "authorised-1140026",
+    "authorised-1140027",
+    "authorised-1140028",
+    "authorised-1140029",
+    "authorised-1140030",
+    "authorised-1140031",
+    "authorised-1140032",
+    "authorised-1140033",
+    "authorised-1140035",
+    "authorised-1140037",
+    "authorised-1140038",
+    "authorised-1140039",
+    "authorised-1140040",
+    "authorised-1140042",
+    "authorised-1140043",
+    "authorised-1140044",
+    "authorised-1140045",
+    "authorised-1140046",
+    "authorised-1140047",
+    "authorised-1140048",
+    "authorised-1140049",
+    "authorised-1140050",
+    "authorised-1140051",
+    "authorised-1140052",
+    "authorised-1140053",
+    "authorised-1140054",
+    "authorised-1140055",
+    "authorised-1140056",
+    "authorised-1140057",
+    "authorised-1140058",
+    "authorised-1140059",
+    "authorised-1140060",
+    "authorised-1140061",
+    "authorised-1140062",
+    "authorised-1140063",
+    "authorised-1140064",
+    "authorised-1140065",
+    "authorised-1140066",
+    "authorised-1140067",
+    "authorised-1140068",
+    "authorised-1140069",
+    "authorised-1140070",
+    "authorised-1140071",
+    "authorised-1140072",
+    "authorised-1140074",
+    "authorised-1140075",
+    "authorised-1140076",
+    "authorised-1140077",
+    "authorised-1140078",
+    "authorised-1140079",
+    "authorised-1140080",
+    "authorised-1140081",
+    "authorised-1140082",
+    "authorised-1140083",
+    "authorised-1140084",
+    "authorised-1140085",
+    "authorised-1140086",
+    "authorised-1140087",
+    "authorised-1140088",
+    "authorised-1140089",
+    "authorised-1140090",
+    "authorised-1140091",
+    "authorised-1140092",
+    "authorised-1140093",
+    "authorised-1140094",
+    "authorised-1140095",
+    "authorised-1140096",
+    "authorised-1140097",
+    "authorised-1140098",
+    "authorised-1140099",
+    "authorised-1140100",
+    "authorised-1140101",
+    "authorised-1140102",
+    "authorised-1140103",
+    "authorised-1140104",
+    "authorised-1140105",
+    "authorised-1140106",
+    "authorised-1140107",
+    "authorised-1140108",
+    "authorised-1140109",
+    "authorised-1140110",
+    "authorised-1140111",
+    "authorised-1140112",
+    "authorised-1140113",
+    "authorised-1140114",
+    "authorised-1140115",
+    "authorised-1140116",
+    "authorised-1140117",
+    "authorised-1140118",
+    "authorised-1140119",
+    "authorised-1140120",
+    "authorised-1140121",
+    "authorised-1140122",
+    "authorised-1140123",
+    "authorised-1140124",
+    "authorised-1170003",
+    "authorised-1170004",
+    "authorised-1170005",
+    "authorised-1170006",
+    "authorised-1170007",
+    "authorised-1200001",
+    "authorised-1200002",
+    "authorised-1200004",
+    "authorised-1200005",
+    "authorised-1200006",
+    "authorised-1200007",
+    "authorised-1200008",
+    "authorised-1200009",
+    "authorised-1230002",
+    "authorised-1230004",
+    "authorised-1230006",
+    "authorised-1230007",
+    "authorised-1230008",
+    "authorised-1230009",
+    "authorised-1230010",
+    "authorised-1230011",
+    "authorised-1230012",
+    "authorised-1230013",
+    "authorised-1230016",
+    "authorised-1230017",
+    "authorised-1230018",
+    "authorised-1230019",
+    "authorised-1230020",
+    "authorised-1230021",
+    "authorised-1230023",
+    "authorised-1230025",
+    "authorised-1230026",
+    "authorised-1230027",
+    "authorised-1230028",
+    "authorised-1230029",
+    "authorised-1230030",
+    "authorised-1230031",
+    "authorised-1230032",
+    "authorised-1230033",
+    "authorised-1230035",
+    "authorised-1230036",
+    "authorised-1230037",
+    "authorised-1230039",
+    "authorised-1230040",
+    "authorised-1230041",
+    "authorised-1230042",
+    "authorised-1230043",
+    "authorised-1230045",
+    "authorised-1230047",
+    "authorised-1230048",
+    "authorised-1230049",
+    "authorised-1230051",
+    "authorised-1230052",
+    "authorised-1230053",
+    "authorised-1230054",
+    "authorised-1230055",
+    "authorised-1230057",
+    "authorised-1230058",
+    "authorised-1230059",
+    "authorised-1230060",
+    "authorised-1230061",
+    "authorised-1230062",
+    "authorised-1230063",
+    "authorised-1230064",
+    "authorised-1230065",
+    "authorised-1230066",
+    "authorised-1230067",
+    "authorised-1230068",
+    "authorised-1230072",
+    "authorised-1230074",
+    "authorised-1230075",
+    "authorised-1230076",
+    "authorised-1230078",
+    "authorised-1230079",
+    "authorised-1230080",
+    "authorised-1230081",
+    "authorised-1230082",
+    "authorised-1230084",
+    "authorised-1230085",
+    "authorised-1230086",
+    "authorised-1230087",
+    "authorised-1230088",
+    "authorised-1230089",
+    "authorised-1230090",
+    "authorised-1230091",
+    "authorised-1230092",
+    "authorised-1230094",
+    "authorised-1230095",
+    "authorised-1230096",
+    "authorised-1230097",
+    "authorised-1230098",
+    "authorised-1230099",
+    "authorised-1230102",
+    "authorised-1230103",
+    "authorised-1230104",
+    "authorised-1230105",
+    "authorised-1230106",
+    "authorised-1230109",
+    "authorised-1230110",
+    "authorised-1230112",
+    "authorised-1230113",
+    "authorised-1230115",
+    "authorised-1230116",
+    "authorised-1230118",
+    "authorised-1230119",
+    "authorised-1230121",
+    "authorised-1230123",
+    "authorised-1230124",
+    "authorised-1230126",
+    "authorised-1230132",
+    "authorised-1230133",
+    "authorised-1230134",
+    "authorised-1230135",
+    "authorised-1230137",
+    "authorised-1230138",
+    "authorised-1230142",
+    "authorised-1230143",
+    "authorised-1230144",
+    "authorised-1230147",
+    "authorised-1230149",
+    "authorised-1230151",
+    "authorised-1230152",
+    "authorised-1260002",
+    "authorised-1260003",
+    "authorised-1260004",
+    "authorised-1260007",
+    "authorised-1260009",
+    "authorised-1260011",
+    "authorised-1260013",
+    "authorised-1260015",
+    "authorised-1320003",
+    "authorised-1320004",
+    "authorised-1320005",
+    "authorised-1320007",
+    "authorised-1320008",
+    "authorised-1320009",
+    "authorised-1320010",
+    "authorised-1320011",
+    "authorised-1320012",
+    "authorised-1320013"
+  ],
+  "eligibleByBatch": {
+    "batch15": 4,
+    "batch16": 1,
+    "batch17": 6
+  },
+  "heldByBatch": {
+    "batch15": 96,
+    "batch16": 99,
+    "batch17": 93
+  },
+  "protectedFields": [
+    "question",
+    "options",
+    "answer",
+    "topic",
+    "diagram",
+    "source metadata"
+  ],
+  "note": "Only mapped authorised explanation fields that clear all structural, learner-formatting, and non-generic-text gates may be released. This audit neither executes the supplied Python nor changes question data."
+}

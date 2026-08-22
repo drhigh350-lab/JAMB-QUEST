@@ -1,0 +1,93 @@
+{
+  "sources": [
+    "explanations_batch15_careful.py",
+    "explanations_batch16_careful.py",
+    "explanations_batch17_careful.py"
+  ],
+  "parsedAsInertLiteralData": true,
+  "suppliedRecords": 299,
+  "authorisedQuestionsUpdated": 11,
+  "heldByQualityGate": 288,
+  "heldGenericFindingCount": 304,
+  "updatedRecords": [
+    {
+      "id": "authorised-1110112",
+      "batch": 15,
+      "source": "explanations_batch15_careful.py",
+      "explanationSha256": "9d5ebe505d284697c70811af38c5bb56811d61898cd8f65c3f30d4ac1afd0578"
+    },
+    {
+      "id": "authorised-1110114",
+      "batch": 15,
+      "source": "explanations_batch15_careful.py",
+      "explanationSha256": "c0ea0a9d7ffb39f4c7c7c0d6650b4808828c15afb91ec286d9d7d87cedc95281"
+    },
+    {
+      "id": "authorised-1110123",
+      "batch": 15,
+      "source": "explanations_batch15_careful.py",
+      "explanationSha256": "ceb97a3c149111eafdbeba83877e0c94b3331ec27bf235f58f354374c4857b41"
+    },
+    {
+      "id": "authorised-1140034",
+      "batch": 15,
+      "source": "explanations_batch15_careful.py",
+      "explanationSha256": "79aec27d589a3069001bd30afa5ff9588368438cfb740b5e8cf224bb11cd716b"
+    },
+    {
+      "id": "authorised-1140073",
+      "batch": 16,
+      "source": "explanations_batch16_careful.py",
+      "explanationSha256": "80c6288ce5428c210afe193c80f60b3c26438eb156f5237368dc190df952941f"
+    },
+    {
+      "id": "authorised-1230044",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "ebc5572cbfce1317dc1b0528a84319195f27abfda57a0bfdb4b50550af02e14b"
+    },
+    {
+      "id": "authorised-1230046",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "efbc23ef3bfabe70548819af032a7b84be5c7e9ac634fbcca6ce9b355520503f"
+    },
+    {
+      "id": "authorised-1230050",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "29dbbfb013e313a284b8b7dd462dc0168410a48aaaa2c9ebedcfcebe91fe2527"
+    },
+    {
+      "id": "authorised-1230073",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "71517f38d59b6df1ed2af08798a91d5f3b1e1d9d4c8bb64a1047f39d60c1fbcb"
+    },
+    {
+      "id": "authorised-1230129",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "368c11f6211b20ea802644a28c19a395dd7e36eac17cc52f7dddd0381316eecf"
+    },
+    {
+      "id": "authorised-1230131",
+      "batch": 17,
+      "source": "explanations_batch17_careful.py",
+      "explanationSha256": "9345af59f9a6beea0427dbca87fafa3d3b1cac40ab6cb403e5cf0c88bdf8d2cd"
+    }
+  ],
+  "protectedFieldsPreserved": [
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "topic",
+    "diagramUrl",
+    "source metadata"
+  ],
+  "updatedFields": [
+    "explanation",
+    "explanationStatus"
+  ],
+  "note": "Only the eleven explanations that passed the Batch 15–17 structural, formatting, non-generic-text, database-mapping, and question-specific answer review gates were released. All other supplied explanations remain held unchanged."
+}
