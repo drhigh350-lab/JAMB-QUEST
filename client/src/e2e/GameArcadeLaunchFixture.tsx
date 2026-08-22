@@ -11,6 +11,7 @@ export function GameArcadeLaunchFixture() {
     const openDestination = window.setTimeout(() => {
       if (destination === "expedition") document.querySelector<HTMLButtonElement>(".expedition-world .button")?.click();
       if (destination === "president") document.querySelector<HTMLButtonElement>(".president-world .button")?.click();
+      if (destination === "archive") document.querySelector<HTMLButtonElement>(".archive-world .button")?.click();
     }, 80);
     return () => { window.cancelAnimationFrame(openArcade); window.clearTimeout(openDestination); };
   }, [destination]);

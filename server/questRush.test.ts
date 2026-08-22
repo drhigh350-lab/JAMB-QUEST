@@ -16,7 +16,8 @@ describe("Study Expedition game mode", () => {
     expect(component).toContain("Correct answer:");
     expect(component).toContain("onOpenCorrection");
     expect(component).toContain("repair cards");
-    expect(component).toContain("PASSPORT_KEY");
+    expect(component).toContain("readArcadeProfile().expedition");
+    expect(component).toContain("writeArcadeProfile({ ...profile, expedition: next })");
     expect(component).toContain("autoStart");
   });
 });

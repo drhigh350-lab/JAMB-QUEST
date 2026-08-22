@@ -18,6 +18,7 @@ import { OfflineStudyPackPanel, type PwaControls } from "@/components/OfflineStu
 import { QuestRush } from "@/components/QuestRush";
 import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
 import { PresidentsDesk } from "@/components/PresidentsDesk";
+import { GreatArchive } from "@/components/GreatArchive";
 import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "../lekki-palette.css";
@@ -269,6 +270,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" });
   }} />;
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
+  if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>

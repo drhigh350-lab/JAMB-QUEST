@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, BookOpenCheck, Check, ChevronRight, Compass, Flag, Map, Route, ShieldCheck, Sparkles, Stamp, X } from "lucide-react";
 import { formatLearnerText } from "@/game/learnerText";
 import type { BankQuestion, Subject } from "@/game/types";
+import { readArcadeProfile, type ExpeditionArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
 import "./quest-rush.css";
 
 const subjects: Array<{ subject: Subject; short: string; accent: string; icon: string }> = [
@@ -27,9 +28,8 @@ type ContractId = (typeof contracts)[number]["id"];
 type ToolId = (typeof tools)[number]["id"];
 type ExpeditionPhase = "setup" | "playing" | "results";
 type ExpeditionAnswer = { questionId: string; selectedIndex: number; correct: boolean };
-type Passport = { stamps: Record<string, number>; routes: string[] };
+type Passport = ExpeditionArcadeState;
 
-const PASSPORT_KEY = "jambQuest.studyExpedition.v1";
 const blankPassport = (): Passport => ({ stamps: {}, routes: [] });
 
 function shuffled<T>(items: T[]) {
@@ -67,18 +67,12 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
   const mapSegments = contractId === "scout" ? 1 : contractId === "builder" ? 2 : 3;
   const segmentAward = accuracy >= 70 && integrity > 0 ? mapSegments : 0;
 
-  useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem(PASSPORT_KEY);
-      if (saved) setPassport({ ...blankPassport(), ...JSON.parse(saved) });
-    } catch {
-      setPassport(blankPassport());
-    }
-  }, []);
+  useEffect(() => { setPassport(readArcadeProfile().expedition); }, []);
 
   const persistPassport = (next: Passport) => {
     setPassport(next);
-    try { window.localStorage.setItem(PASSPORT_KEY, JSON.stringify(next)); } catch { /* local progress is optional */ }
+    const profile = readArcadeProfile();
+    writeArcadeProfile({ ...profile, expedition: next });
   };
 
   const start = () => {

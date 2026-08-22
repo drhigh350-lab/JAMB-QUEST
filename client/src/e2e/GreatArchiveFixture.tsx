@@ -1,0 +1,5 @@
+import type { BankQuestion } from "@/game/types";
+import { GreatArchive } from "@/components/GreatArchive";
+
+const fixtureQuestions: BankQuestion[] = ["Use of English", "Biology", "Chemistry", "Physics"].flatMap((subject) => Array.from({ length: 6 }, (_, index) => ({ id: `archive-${subject}-${index + 1}`, subject: subject as BankQuestion["subject"], topic: `${subject} topic tile ${index + 1}`, subtopic: "Fixture", difficulty: "medium", question_type: "multiple_choice", question: `Archive fixture question ${index + 1}: which option is correct?`, options: ["Option A", "Option B", "Option C", "Option D"], answer_index: 0, answer_text: "Option A", explanation: "This fixture verifies an exact topic tile and repair-card flow.", tags: [], source: "fixture" })));
+export function GreatArchiveFixture() { const autoStart = new URLSearchParams(window.location.search).get("autostart") === "1"; return <GreatArchive questions={fixtureQuestions} autoStart={autoStart} onExit={() => undefined} onOpenCorrection={() => undefined} />; }

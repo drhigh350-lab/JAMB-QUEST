@@ -2,13 +2,14 @@ import { ArrowRight, Banknote, BookOpenCheck, Building2, Check, ChevronRight, He
 import { useEffect, useMemo, useRef, useState } from "react";
 import { formatLearnerText } from "@/game/learnerText";
 import type { BankQuestion, Subject } from "@/game/types";
+import { emptyArcadeProfile, readArcadeProfile, type PresidentsDeskArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
 import "./presidents-desk.css";
 
 type MinistryId = "education" | "health" | "energy" | "innovation";
 type AdviserId = "research" | "resilience" | "clarity";
 type Phase = "setup" | "briefing" | "report";
 type Answer = { questionId: string; selectedIndex: number; correct: boolean };
-type Commonwealth = { treasury: number; confidence: number; insight: number; terms: number; projects: Record<MinistryId, number> };
+type Commonwealth = PresidentsDeskArcadeState;
 
 const ministries: Array<{ id: MinistryId; name: string; subject: Subject; icon: typeof Building2; project: string; note: string }> = [
   { id: "education", name: "Education", subject: "Use of English", icon: Users, project: "Community Reading Network", note: "Train mentors and open reading rooms." },
@@ -21,8 +22,7 @@ const advisers: Array<{ id: AdviserId; name: string; note: string }> = [
   { id: "resilience", name: "Resilience Office", note: "Protect public confidence from the first missed briefing." },
   { id: "clarity", name: "Clarity Office", note: "Show the official topic before each cabinet briefing." },
 ];
-const COMMONWEALTH_KEY = "jambQuest.presidentsDesk.v1";
-const blankCommonwealth = (): Commonwealth => ({ treasury: 120, confidence: 6, insight: 0, terms: 0, projects: { education: 0, health: 0, energy: 0, innovation: 0 } });
+const blankCommonwealth = (): Commonwealth => emptyArcadeProfile().presidentsDesk;
 const shuffle = <T,>(items: T[]) => [...items].sort(() => Math.random() - .5);
 
 export function PresidentsDesk({ questions, onExit, onOpenCorrection, autoStart = false }: { questions: BankQuestion[]; onExit: () => void; onOpenCorrection: (subject: Subject, questionIds: string[]) => void; autoStart?: boolean }) {
@@ -45,8 +45,8 @@ export function PresidentsDesk({ questions, onExit, onOpenCorrection, autoStart 
   const accuracy = answers.length ? Math.round((correctCount / answers.length) * 100) : 0;
   const completedThisTerm = correctCount >= 3 && accuracy >= 60;
 
-  useEffect(() => { try { const stored = window.localStorage.getItem(COMMONWEALTH_KEY); if (stored) setCommonwealth({ ...blankCommonwealth(), ...JSON.parse(stored), projects: { ...blankCommonwealth().projects, ...JSON.parse(stored).projects } }); } catch { setCommonwealth(blankCommonwealth()); } }, []);
-  const saveCommonwealth = (next: Commonwealth) => { setCommonwealth(next); try { window.localStorage.setItem(COMMONWEALTH_KEY, JSON.stringify(next)); } catch { /* optional local game progress */ } };
+  useEffect(() => { setCommonwealth(readArcadeProfile().presidentsDesk); }, []);
+  const saveCommonwealth = (next: Commonwealth) => { setCommonwealth(next); const profile = readArcadeProfile(); writeArcadeProfile({ ...profile, presidentsDesk: next }); };
   const start = () => { setBriefings(shuffle(available).slice(0, 5)); setIndex(0); setAnswers([]); setFeedback(null); setConfidenceProtected(false); setPhase("briefing"); };
   useEffect(() => { if (autoStart && !autoStarted.current && phase === "setup" && available.length >= 5) { autoStarted.current = true; start(); } }, [autoStart, available.length, phase]);
   const resolve = (selectedIndex: number) => { if (!current || feedback) return; const correct = selectedIndex === current.answer_index; setAnswers((items) => [...items, { questionId: current.id, selectedIndex, correct }]); if (!correct && adviserId === "resilience" && !confidenceProtected) setConfidenceProtected(true); setFeedback(correct ? "correct" : "wrong"); };
