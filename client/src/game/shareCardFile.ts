@@ -17,10 +17,52 @@ export function downloadSvgCard(svg: string, filename: string): void {
   window.setTimeout(() => URL.revokeObjectURL(url), 0);
 }
 
-async function toPngFile(svg: string, svgFilename: string, width: number, height: number): Promise<File> {
-  if (typeof document === "undefined") return svgFile(svg, svgFilename);
+const SVG_IMAGE_HREF = /(<image\b[^>]*?\bhref=")(.*?)(")/gi;
+
+function blobToDataUri(blob: Blob): Promise<string> {
   return new Promise((resolve, reject) => {
-    const url = URL.createObjectURL(new Blob([svg], { type: "image/svg+xml;charset=utf-8" }));
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Share-card image could not be read"));
+    reader.onload = () => typeof reader.result === "string"
+      ? resolve(reader.result)
+      : reject(new Error("Share-card image produced no data URI"));
+    reader.readAsDataURL(blob);
+  });
+}
+
+/**
+ * A blob-backed SVG has no reliable document base URL for an external `<image>`.
+ * Resolve each approved hosted image first, then embed it so Canvas always receives
+ * a self-contained SVG when producing the native-share PNG.
+ */
+export async function inlineSvgImageHrefs(svg: string): Promise<string> {
+  if (typeof fetch === "undefined" || !SVG_IMAGE_HREF.test(svg)) return svg;
+  SVG_IMAGE_HREF.lastIndex = 0;
+  const hrefs = Array.from(svg.matchAll(SVG_IMAGE_HREF)).map((match) => match[2]).filter((href) => !href.startsWith("data:"));
+  const uniqueHrefs = Array.from(new Set(hrefs));
+  if (!uniqueHrefs.length) return svg;
+
+  const resolved = new Map<string, string>();
+  await Promise.all(uniqueHrefs.map(async (href) => {
+    const response = await fetch(href, { credentials: "same-origin" });
+    if (!response.ok) throw new Error(`Share-card image request failed: ${response.status}`);
+    const blob = await response.blob();
+    if (!blob.type.startsWith("image/")) throw new Error("Share-card image response is not an image");
+    resolved.set(href, await blobToDataUri(blob));
+  }));
+
+  SVG_IMAGE_HREF.lastIndex = 0;
+  return svg.replace(SVG_IMAGE_HREF, (fullMatch, prefix: string, href: string, suffix: string) => {
+    const dataUri = resolved.get(href);
+    return dataUri ? `${prefix}${dataUri}${suffix}` : fullMatch;
+  });
+}
+
+export async function rasterizeSvgToPngFile(svg: string, svgFilename: string, width: number, height: number): Promise<File> {
+  if (typeof document === "undefined") return svgFile(svg, svgFilename);
+  const selfContainedSvg = await inlineSvgImageHrefs(svg);
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(new Blob([selfContainedSvg], { type: "image/svg+xml;charset=utf-8" }));
     const image = new Image();
     image.onload = () => {
       try {
@@ -53,7 +95,7 @@ export async function shareSvgCard(input: { svg: string; filename: string; title
   let file: File;
   try {
     // Android share targets commonly accept PNG files but reject SVG files, causing a download fallback.
-    file = await toPngFile(input.svg, input.filename, input.width, input.height);
+    file = await rasterizeSvgToPngFile(input.svg, input.filename, input.width, input.height);
   } catch {
     file = svgFile(input.svg, input.filename);
   }

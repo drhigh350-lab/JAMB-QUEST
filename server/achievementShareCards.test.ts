@@ -41,6 +41,10 @@ describe("shareable achievement cards", () => {
 
   it("uses a PNG file for Android-compatible native sharing before an honest download fallback", () => {
     const shareHelper = readFileSync("client/src/game/shareCardFile.ts", "utf8");
+    expect(shareHelper).toContain("inlineSvgImageHrefs");
+    expect(shareHelper).toContain('fetch(href, { credentials: "same-origin" })');
+    expect(shareHelper).toContain("reader.readAsDataURL(blob)");
+    expect(shareHelper).toContain("selfContainedSvg");
     expect(shareHelper).toContain('type: "image/png"');
     expect(shareHelper).toContain("canvas.width = width");
     expect(shareHelper).toContain("canvas.height = height");
