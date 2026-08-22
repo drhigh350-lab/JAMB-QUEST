@@ -29,15 +29,16 @@ describe("owner question review desk", () => {
     await expect(caller.qualityReview.approvedQuestionPage({ subject: "Biology", page: 0, pageSize: 24 })).rejects.toMatchObject({ code: "FORBIDDEN" });
   });
 
-  it("keeps the owner browser subject-filtered, source-scoped, paginated, and answer-complete", () => {
+  it("keeps the owner browser subject-filtered, unified, paginated, and answer-complete", () => {
     const routerSource = readFileSync(resolve(process.cwd(), "server/routers.ts"), "utf8");
     const deskSource = readFileSync(resolve(process.cwd(), "client/src/components/OwnerQuestionReview.tsx"), "utf8");
     const viewSource = readFileSync(resolve(process.cwd(), "client/src/pages/Home.tsx"), "utf8");
     expect(routerSource).toContain("approvedQuestionSummary: adminProcedure");
     expect(routerSource).toContain("approvedQuestionPage: adminProcedure");
     expect(deskSource).toContain("OWNER ONLY / QUESTION SCRUTINY");
-    expect(deskSource).toContain("Owner-authorised ledger");
-    expect(deskSource).toContain("Managed model bank");
+    expect(deskSource).toContain("ONE LIVE JAMB QUEST BANK");
+    expect(deskSource).toContain("source evidence");
+    expect(deskSource).not.toContain('type Scope = "authorised" | "model"');
     expect(deskSource).toContain("answerIndex");
     expect(deskSource).toContain("Explanation");
     expect(deskSource).toContain("Page {page + 1} of {pageCount}");

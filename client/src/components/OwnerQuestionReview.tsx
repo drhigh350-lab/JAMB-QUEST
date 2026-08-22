@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, ArrowRight, BookOpenCheck, Database, Eye, FileText, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ArrowRight, Eye, FileText, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import type { BankQuestion, Subject } from "@/game/types";
 import { loadQuestionBank } from "@/game/questionBank";
@@ -12,7 +12,6 @@ const SUBJECTS: Array<{ subject: Subject; short: string }> = [
   { subject: "Physics", short: "PHY" },
 ];
 
-type Scope = "authorised" | "model";
 type ReviewRecord = {
   id: string;
   externalId: string;
@@ -47,23 +46,24 @@ function asModelRecord(question: BankQuestion): ReviewRecord {
 
 export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boolean; activeQuestions: BankQuestion[] }) {
   const [subject, setSubject] = useState<Subject>("Use of English");
-  const [scope, setScope] = useState<Scope>("authorised");
   const [page, setPage] = useState(0);
   const [loadedModelQuestions, setLoadedModelQuestions] = useState<BankQuestion[]>([]);
   const pageSize = 24;
   const summaryQuery = trpc.qualityReview.approvedQuestionSummary.useQuery(undefined, { enabled: isOwner, retry: false });
-  const authorisedQuery = trpc.qualityReview.approvedQuestionPage.useQuery({ subject, page, pageSize }, { enabled: isOwner && scope === "authorised", retry: false });
   const activeModelQuestions = activeQuestions.length ? activeQuestions.filter((question) => !question.id.startsWith("authorised-")) : loadedModelQuestions;
+  const authorisedStart = Math.max(0, page * pageSize - activeModelQuestions.filter((question) => question.subject === subject).length);
+  const authorisedPage = Math.floor(authorisedStart / 30);
+  const authorisedOffset = authorisedStart % 30;
+  const authorisedQuery = trpc.qualityReview.approvedQuestionPage.useQuery({ subject, page: authorisedPage, pageSize: 30 }, { enabled: isOwner, retry: false });
   const modelQuestions = useMemo(() => activeModelQuestions.filter((question) => question.subject === subject).map(asModelRecord), [activeModelQuestions, subject]);
   const modelPageCount = Math.max(1, Math.ceil(modelQuestions.length / pageSize));
   const authorisedCount = summaryQuery.data?.find((entry) => entry.subject === subject)?.authorisedCount ?? 0;
-  const authorisedPageCount = Math.max(1, Math.ceil(authorisedCount / pageSize));
-  const pageCount = scope === "authorised" ? authorisedPageCount : modelPageCount;
+  const total = authorisedCount + modelQuestions.length;
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
   const modelSlice = modelQuestions.slice(page * pageSize, page * pageSize + pageSize);
-  const records: ReviewRecord[] = scope === "authorised"
-    ? (authorisedQuery.data?.questions ?? []).map((record) => ({ ...record, sourceKind: "Owner-authorised ledger" as const }))
-    : modelSlice;
-  const total = scope === "authorised" ? authorisedCount : modelQuestions.length;
+  const remaining = Math.max(0, pageSize - modelSlice.length);
+  const authorisedSlice = (authorisedQuery.data?.questions ?? []).slice(authorisedOffset, authorisedOffset + remaining).map((record) => ({ ...record, sourceKind: "Owner-authorised ledger" as const }));
+  const records: ReviewRecord[] = [...modelSlice, ...authorisedSlice];
   const overallActive = (summaryQuery.data ?? []).reduce((sum, entry) => sum + entry.authorisedCount, 0) + activeModelQuestions.length;
 
   useEffect(() => {
@@ -72,7 +72,7 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
     void loadQuestionBank(controller.signal).then(setLoadedModelQuestions).catch(() => setLoadedModelQuestions([]));
     return () => controller.abort();
   }, [activeQuestions.length, isOwner]);
-  useEffect(() => { setPage(0); }, [scope, subject]);
+  useEffect(() => { setPage(0); }, [subject]);
   useEffect(() => { if (page >= pageCount) setPage(Math.max(0, pageCount - 1)); }, [page, pageCount]);
   if (!isOwner) return null;
 
@@ -81,7 +81,7 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
       <div>
         <span className="eyebrow">OWNER ONLY / QUESTION SCRUTINY</span>
         <h2 id="owner-question-review-title">Question bank review desk</h2>
-        <p>Browse the approved ledger and loaded model questions by subject, inspect the exact answer and explanation, and keep source evidence beside every record. This desk is private to the owner account.</p>
+        <p>Browse one live JAMB Quest question bank by subject. Each record keeps its answer, explanation, and source evidence for audit, but the learner-facing bank is never split into separate collections.</p>
       </div>
       <div className="owner-review-total"><ShieldCheck size={18} /><span><b>{overallActive.toLocaleString()}</b><small>reviewable records</small></span></div>
     </header>
@@ -94,15 +94,9 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
       })}
     </div>
 
-    <div className="owner-review-toolbar">
-      <div className="owner-review-scopes" aria-label="Question source scope">
-        <button className={scope === "authorised" ? "active" : ""} onClick={() => setScope("authorised")}><Database size={15} /> Owner-authorised ledger <b>{authorisedCount.toLocaleString()}</b></button>
-        <button className={scope === "model" ? "active" : ""} onClick={() => setScope("model")}><BookOpenCheck size={15} /> Managed model bank <b>{modelQuestions.length.toLocaleString()}</b></button>
-      </div>
-      <span className="owner-review-range"><Eye size={14} /> {total ? `${page * pageSize + 1}–${Math.min(total, (page + 1) * pageSize)} of ${total.toLocaleString()}` : "No active records"}</span>
-    </div>
+    <div className="owner-review-toolbar"><div className="owner-review-unified"><ShieldCheck size={15} /><span>ONE LIVE JAMB QUEST BANK</span><b>{total.toLocaleString()}</b></div><span className="owner-review-range"><Eye size={14} /> {total ? `${page * pageSize + 1}–${Math.min(total, (page + 1) * pageSize)} of ${total.toLocaleString()}` : "No active records"}</span></div>
 
-    {scope === "authorised" && authorisedQuery.isLoading ? <div className="owner-review-loading">Loading the approved ledger for {subject}…</div> : scope === "authorised" && authorisedQuery.error ? <div className="owner-review-error">The private review desk could not load this subject. Refresh and try again.</div> : <div className="owner-question-list">
+    {authorisedQuery.isLoading ? <div className="owner-review-loading">Loading the live question bank for {subject}…</div> : authorisedQuery.error ? <div className="owner-review-error">The private review desk could not load this subject. Refresh and try again.</div> : <div className="owner-question-list">
       {records.map((record, index) => <details key={record.id} className="owner-question-card" open={index === 0}>
         <summary><span className="owner-question-number">{String(page * pageSize + index + 1).padStart(3, "0")}</span><span className="owner-question-title"><b>{record.topic}</b><small>{record.sourceKind} · {record.difficulty}</small></span><ArrowRight size={16} /></summary>
         <div className="owner-question-body">
@@ -113,7 +107,7 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
           <footer><span><b>Record</b> {record.externalId}</span><span><b>Source</b> {record.sourceLabel}</span></footer>
         </div>
       </details>)}
-      {!records.length && <p className="compact-empty">No active {scope === "authorised" ? "authorised" : "model"} records are ready for this subject.</p>}
+      {!records.length && <p className="compact-empty">No active JAMB Quest questions are ready for this subject.</p>}
     </div>}
 
     {total > pageSize && <nav className="owner-review-pagination" aria-label="Question review pagination"><button onClick={() => setPage((current) => Math.max(0, current - 1))} disabled={page === 0}><ArrowLeft size={15} /> Previous</button><span>Page {page + 1} of {pageCount}</span><button onClick={() => setPage((current) => Math.min(pageCount - 1, current + 1))} disabled={page >= pageCount - 1}>Next <ArrowRight size={15} /></button></nav>}

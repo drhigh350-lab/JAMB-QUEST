@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { normaliseLearnerTopic, normaliseQuestionTopic, selectQuestions } from "../client/src/game/questionBank";
 
 describe("learner-facing topic normalization", () => {
@@ -30,6 +30,20 @@ describe("learner-facing topic normalization", () => {
     const selected = selectQuestions([...mechanics, ...energy, distractor], "Physics", "sprint", 20, [], { topics: ["Mechanics", "Energy"] });
     expect(selected).toHaveLength(20);
     expect(selected.every((question) => question.subject === "Physics" && ["Mechanics", "Energy"].includes(question.topic))).toBe(true);
+  });
+
+  it("draws a fresh shuffled question mix for each eligible syllabus session rather than keeping a fixed deck", () => {
+    const pool = Array.from({ length: 12 }, (_, index) => ({ id: `fresh-${index}`, subject: "Biology" as const, topic: index < 6 ? "Nutrition and digestion" : "Respiration", difficulty: "medium" as const, question_type: "multiple_choice" as const, question: `Fresh question ${index}`, options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "", tags: [], source: "approved" as const }));
+    const random = vi.spyOn(Math, "random");
+    random.mockReturnValue(0);
+    const first = selectQuestions(pool, "Biology", "sprint", 5, [], { topics: ["Nutrition and digestion", "Respiration"] });
+    random.mockReturnValue(0.999999);
+    const second = selectQuestions(pool, "Biology", "sprint", 5, [], { topics: ["Nutrition and digestion", "Respiration"] });
+    random.mockRestore();
+    expect(first).toHaveLength(5);
+    expect(second).toHaveLength(5);
+    expect(first.map((question) => question.id)).not.toEqual(second.map((question) => question.id));
+    expect([...first, ...second].every((question) => ["Nutrition and digestion", "Respiration"].includes(question.topic))).toBe(true);
   });
 
   it("respects a learner-selected 50-question exact-topic practice length", () => {
