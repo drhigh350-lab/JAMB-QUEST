@@ -1,0 +1,21 @@
+{
+  "sourceFile": "jamb_questions_only.pdf",
+  "answerFile": "UoE_Batch1_Q1-100.md",
+  "declaredRange": "Use of English 1–100",
+  "answerHeadingCount": 100,
+  "parsedAnswerCount": 100,
+  "stagedSourceCount": 100,
+  "modelBankCandidateCount": 1000,
+  "authorisedLedgerCandidateCount": 8452,
+  "eligibleCount": 99,
+  "heldCount": 1,
+  "held": [
+    {
+      "externalId": "PDF-OWNER-20260822-ENG-031",
+      "questionNumber": 31,
+      "reason": "Answer-key hold: the explanation states a different answer letter from the supplied answer heading."
+    }
+  ],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/pdf_owner_uoe_001_to_100_answer_matched_eligible.json",
+  "releasePolicy": "This audit stages eligible records only. It does not import, approve, or expose any record to learner gameplay."
+}

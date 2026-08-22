@@ -1,0 +1,28 @@
+{
+  "release": "Owner PDF answer-matched Use of English 1–100 · 22 Aug 2026",
+  "releasedCount": 99,
+  "heldExternalId": "PDF-OWNER-20260822-ENG-031",
+  "sourceLabel": "Owner PDF answer-matched Use of English 1–100 · 22 Aug 2026",
+  "updatedFields": [
+    "explanationStatus"
+  ],
+  "preservedProtectedFields": [
+    "externalId",
+    "subject",
+    "topic",
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "sourceStatusBeforeRelease": [
+    "needs_review"
+  ],
+  "approvedAuthorisedBySubject": {
+    "Biology": 2478,
+    "Physics": 1927,
+    "Chemistry": 2207,
+    "Use of English": 1490
+  },
+  "verifiedApprovedAuthorisedTotal": 8102
+}

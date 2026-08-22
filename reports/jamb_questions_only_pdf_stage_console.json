@@ -1,0 +1,23 @@
+{
+  "sourceFile": "jamb_questions_only.pdf",
+  "pageCount": 224,
+  "declaredSubjects": [
+    "Use of English",
+    "Biology",
+    "Chemistry",
+    "Physics"
+  ],
+  "expectedCount": 1000,
+  "extractedCompleteCount": 1000,
+  "stagedBySubject": {
+    "Use of English": 250,
+    "Biology": 250,
+    "Chemistry": 250,
+    "Physics": 250
+  },
+  "embeddedPerQuestionAnswerMarkers": 0,
+  "releasePolicy": "No staged record is playable or importable until a matching owner-supplied answer-and-explanation batch provides a verifiable key. The parser does not infer, generate, or repair answers, explanations, diagrams, context, or official syllabus labels.",
+  "heldCount": 0,
+  "held": [],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/jamb_questions_only_pdf_unkeyed_stage.json"
+}
