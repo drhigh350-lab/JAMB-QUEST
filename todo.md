@@ -648,9 +648,12 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Temporarily configure the direct browser reminder for exactly 08:00 and 21:00 Africa/Lagos using the existing one-POST, no-OneSignal, no-browser contract. The schedule is enabled, isolated, and connector-free; real callback evidence remains pending until a scheduled window runs.
 
 - [x] Diagnose the failed 08:00 Lagos reminder after the user received no notification, distinguishing trigger, callback, eligibility, and push-delivery failure. The agent schedule ran without reaching the callback; the direct platform callback returned `sent:1`, and the device still displayed nothing. One stale duplicate enabled subscription was disabled, leaving the fresh Aug 20 subscription active.
-- [ ] Apply and validate the smallest safe reminder repair while preserving the exact one-POST curl playbook, no connectors, no OneSignal, and no browser automation.
+- [x] Apply and validate the smallest safe reminder repair while preserving the exact one-POST direct callback contract, no OneSignal, and no browser automation. The silent agent schedule was paused, stale subscriptions were removed, and the user has now confirmed a scheduled receipt.
 
 - [x] Audit questions_rows(3).csv as inert data for new records, duplicates, subject/topic coverage, answer-key completeness, and learner-facing formatting before import. The 3,912-row file contains 2,371 likely-new rows; 2,273 supported clean candidates and 98 held candidates.
-- [ ] Record and investigate today’s missed scheduled notification separately from yesterday’s confirmed delivery, without sending a manual test or changing the direct one-POST contract.
+- [x] Record and investigate today’s missed scheduled notification separately from yesterday’s confirmed delivery, without sending a manual test or changing the direct one-POST contract. The callback returned `sent:1`, and the user later confirmed a scheduled notification receipt.
 
 - [x] Import only the clean new Biology, Chemistry, Physics, and Use of English rows from questions_rows(3).csv; exclude all Mathematics and retain all flagged rows as held audit data. Database deduplication and syllabus mapping resulted in 1,573 imported records; 700 remain held, including 396 existing-stem overlaps and 304 topic-mapping holds. No Mathematics was imported.
+
+- [x] Map the 304 held supported-subject CSV topics to exact official JAMB syllabus areas, import only unambiguous mappings, and retain any remaining exception records outside the learner bank. The deterministic mapping release imported 273 records; 31 placeholder or diagram-dependent records remain held.
+- [x] Record the user-confirmed scheduled notification receipt and retain the direct VAPID-only reminder configuration without changing achievement-share cards.

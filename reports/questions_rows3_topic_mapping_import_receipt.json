@@ -1,0 +1,12 @@
+{
+  "inputMapped": 273,
+  "imported": 273,
+  "skippedExisting": [],
+  "held": 31,
+  "heldByReason": {
+    "placeholder_or_missing_context": 8,
+    "diagram_or_label_reference_needs_asset_check": 23
+  },
+  "sourceId": 22620001,
+  "importId": 1320001
+}
