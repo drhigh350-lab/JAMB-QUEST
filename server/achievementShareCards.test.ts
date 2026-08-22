@@ -15,12 +15,11 @@ describe("shareable achievement cards", () => {
       earnedOn: "Recorded in JAMB Quest",
     });
 
-    expect(card).toContain("jamb-quest-official-wordmark-transparent_789d0e04.png");
+    expect(card).toContain("jamb-quest-official-transparent-mark_70a776fe.png");
     expect(card).toContain("Century builder");
     expect(card).toContain("Amina");
     expect(card).toContain("124 / 100");
     expect(card).toContain("evidence reached");
-    expect(card).toContain("jamb-quest-official-wordmark-transparent_789d0e04.png");
     expect(card).toContain("preserveAspectRatio=\"xMinYMid meet\"");
     expect(card).toContain("BUILD YOUR SYSTEM.");
     expect(card).toContain("WIN JAMB.");

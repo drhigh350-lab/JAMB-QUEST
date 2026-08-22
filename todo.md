@@ -660,3 +660,6 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Remove horizontal glyph compression from portrait achievement share cards and replace it with natural-size wrapped typography for titles, learner names, evidence, and footer copy.
 - [x] Add regression coverage and visually verify readable portrait achievement-card typography before publishing the fix.
+
+- [x] Replace the broken achievement-card wordmark placeholder with the user-supplied transparent JAMB Quest logo through a stable share-safe hosted asset URL.
+- [x] Add regression coverage and visually verify that the official JAMB Quest logo renders in generated portrait cards before publishing the correction.
