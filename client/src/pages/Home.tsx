@@ -16,6 +16,8 @@ import { downloadDailyGoalAchievement, shareDailyGoalAchievement } from "@/game/
 import { downloadAchievementShareCard, shareAchievementShareCard } from "@/game/achievementShareCard";
 import { OfflineStudyPackPanel, type PwaControls } from "@/components/OfflineStudyPackPanel";
 import { QuestRush } from "@/components/QuestRush";
+import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
+import { PresidentsDesk } from "@/components/PresidentsDesk";
 import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "../lekki-palette.css";
@@ -136,7 +138,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [customGoalInput, setCustomGoalInput] = useState("");
   const [customGoalError, setCustomGoalError] = useState("");
   const [achievementDownloaded, setAchievementDownloaded] = useState(false);
-  const [questRushOpen, setQuestRushOpen] = useState(false);
+  const [arcadeMode, setArcadeMode] = useState<ArcadeMode | null>(null);
+  const [gameArcadeOpen, setGameArcadeOpen] = useState(false);
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
@@ -261,10 +264,12 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   ];
   const desktopDesk = typeof window !== "undefined" && window.matchMedia("(min-width: 1100px)").matches;
 
-  if (questRushOpen) return <QuestRush questions={activeQuestions} defaultSubject={selectedSubject} onExit={() => setQuestRushOpen(false)} onOpenCorrection={(subject, questionIds) => {
-    setQuestRushOpen(false);
+  if (arcadeMode === "expedition") return <QuestRush questions={activeQuestions} defaultSubject={selectedSubject} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => {
+    setArcadeMode(null);
     onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" });
   }} />;
+  if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
+  if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <Dialog open={fullMockSetupOpen} onOpenChange={setFullMockSetupOpen}>
@@ -332,7 +337,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
         <section className="study-expedition-destination tab-section" data-testid="study-expedition-destination" aria-labelledby="study-expedition-destination-title">
           <div className="study-expedition-destination-map" aria-hidden="true"><i /><i /><i /><i /><span>MAP</span></div>
           <div className="study-expedition-destination-copy"><span className="eyebrow">OPTIONAL GAME DESK / STUDY EXPEDITION</span><h2 id="study-expedition-destination-title">When you need a different way to practise.</h2><p>Build a personal study map with approved question cards. Choose a subject territory, sign a route contract, earn stamps, and repair every missed card—without changing your normal Practice or CBT history.</p><div><span><ShieldCheck size={15} /> No timer</span><span><MapIcon size={15} /> Route progression</span><span><BookOpen size={15} /> Repair cards</span></div></div>
-          <button data-testid="study-expedition-path" className="button button-dark study-expedition-destination-action" onClick={() => setQuestRushOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><MapIcon size={17} /> Open Study Expedition <ArrowRight size={17} /></button>
+          <button data-testid="game-arcade-path" className="button button-dark study-expedition-destination-action" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><MapIcon size={17} /> Enter Game Arcade <ArrowRight size={17} /></button>
         </section>
       </>}
 

@@ -1,0 +1,5 @@
+import type { BankQuestion } from "@/game/types";
+import { PresidentsDesk } from "@/components/PresidentsDesk";
+
+const fixtureQuestions: BankQuestion[] = ["Use of English", "Biology", "Chemistry", "Physics"].flatMap((subject) => Array.from({ length: 6 }, (_, index) => ({ id: `president-${subject}-${index + 1}`, subject: subject as BankQuestion["subject"], topic: `${subject} Cabinet Territory`, subtopic: "Fixture", difficulty: "medium", question_type: "multiple_choice", question: `Cabinet briefing ${index + 1}: which approved option is correct?`, options: ["Option A", "Option B", "Option C", "Option D"], answer_index: 0, answer_text: "Option A", explanation: "This fixture confirms that each cabinet briefing provides answer-safe correction feedback.", tags: [], source: "fixture" })));
+export function PresidentsDeskFixture() { const autoStart = new URLSearchParams(window.location.search).get("autostart") === "1"; return <PresidentsDesk questions={fixtureQuestions} autoStart={autoStart} onExit={() => undefined} onOpenCorrection={() => undefined} />; }

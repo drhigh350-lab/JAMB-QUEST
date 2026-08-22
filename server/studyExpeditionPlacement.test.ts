@@ -13,7 +13,10 @@ describe("Study Expedition Practice placement", () => {
     expect(standardCbtPath).toBeGreaterThan(practicePath);
     expect(home).not.toContain('data-testid="quest-rush-path"');
     expect(expeditionDestination).toBeGreaterThan(topicDesk);
-    expect(home).toContain('data-testid="study-expedition-path"');
+    expect(home).toContain('data-testid="game-arcade-path"');
     expect(home).toContain("OPTIONAL GAME DESK / STUDY EXPEDITION");
+
+    const app = readFileSync("client/src/App.tsx", "utf8");
+    expect(app).toContain("activeQuestions={game.questions}");
   });
 });
