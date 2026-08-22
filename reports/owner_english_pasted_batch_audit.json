@@ -1,0 +1,26 @@
+{
+  "sourceFiles": [
+    "pasted_content.txt",
+    "pasted_content_2.txt",
+    "pasted_content_3.txt",
+    "pasted_content_4.txt",
+    "pasted_content_5.txt"
+  ],
+  "parsedCount": 125,
+  "uniqueParsedCount": 125,
+  "internalDuplicateCount": 0,
+  "modelBankCandidateCount": 250,
+  "authorisedLedgerCandidateCount": 7480,
+  "eligibleCount": 124,
+  "heldCount": 1,
+  "held": [
+    {
+      "externalId": "ENG-OWNER-20260822-074",
+      "questionNumber": 74,
+      "reason": "Answer-integrity hold: ‘stone’ and ‘gone’ do not rhyme in the standard pronunciation needed for this Oral English item; the supplied key must not be released as correct.",
+      "question": "Choose the word that rhymes with stone."
+    }
+  ],
+  "internalDuplicates": [],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/owner_english_pasted_batch_20260822_eligible.json"
+}
