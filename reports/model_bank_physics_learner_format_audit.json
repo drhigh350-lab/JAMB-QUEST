@@ -1,0 +1,1204 @@
+{
+  "physicsModelRecords": 250,
+  "fieldsImprovedAtRender": 199,
+  "recordsImprovedAtRender": 89,
+  "unresolvedLearnerFormattingFields": 0,
+  "unresolvedLearnerFormattingRecords": 0,
+  "renderChanges": [
+    {
+      "id": "PHY-001",
+      "field": "option_1",
+      "before": "M L T^-1",
+      "rendered": "M L T⁻¹"
+    },
+    {
+      "id": "PHY-001",
+      "field": "option_2",
+      "before": "M L^2 T^-2",
+      "rendered": "M L² T⁻²"
+    },
+    {
+      "id": "PHY-001",
+      "field": "option_3",
+      "before": "M T^-2",
+      "rendered": "M T⁻²"
+    },
+    {
+      "id": "PHY-001",
+      "field": "option_4",
+      "before": "L^2 T^-2",
+      "rendered": "L² T⁻²"
+    },
+    {
+      "id": "PHY-001",
+      "field": "explanation",
+      "before": "Work is defined as the product of force and displacement in the direction of the force. Since force has dimensions of mass times acceleration (M L T^-2), and acceleration itself has dimensions L T^-2, combining force with an additional length dimension gives work the dimensions M L^2 T^-2, matching the joule unit. Option A (M L T^-1) represents momentum or impulse dimensions, option C (M T^-2) lacks the length-squared component, and option D (L^2 T^-2) lacks mass entirely, making them all incorrect. This tests applying dimensional analysis to derive the correct dimensions of work from its fundamental definition. Remember that work, energy, and torque all share the same dimensional formula M L^2 T^-2, a consistency check worth applying whenever analysing physical quantities dimensionally.",
+      "rendered": "Work is defined as the product of force and displacement in the direction of the force. Since force has dimensions of mass times acceleration (M L T⁻²), and acceleration itself has dimensions L T⁻², combining force with an additional length dimension gives work the dimensions M L² T⁻², matching the joule unit. Option A (M L T⁻¹) represents momentum or impulse dimensions, option C (M T⁻²) lacks the length-squared component, and option D (L² T⁻²) lacks mass entirely, making them all incorrect. This tests applying dimensional analysis to derive the correct dimensions of work from its fundamental definition. Remember that work, energy, and torque all share the same dimensional formula M L² T⁻², a consistency check worth applying whenever analysing physical quantities dimensionally."
+    },
+    {
+      "id": "PHY-004",
+      "field": "question",
+      "before": "A car starts from rest and accelerates uniformly at 2 m/s^2 for 5 s. What is its final velocity?",
+      "rendered": "A car starts from rest and accelerates uniformly at 2 m/s² for 5 s. What is its final velocity?"
+    },
+    {
+      "id": "PHY-004",
+      "field": "explanation",
+      "before": "Using the kinematic equation v = u + at, where initial velocity u is 0 m/s (starting from rest), acceleration a is 2 m/s^2, and time t is 5 s, the final velocity v equals 0 + (2 × 5) = 10 m/s, confirmed by direct substitution, making this correct. The other options result from arithmetic errors or misapplication of the kinematic formula. This tests applying the first equation of motion to a straightforward uniformly accelerated motion scenario. Remember the standard kinematic equations for constant acceleration: v = u + at, s = ut + ½at^2, and v^2 = u^2 + 2as, which should be applied systematically based on which variables are known and which are sought.",
+      "rendered": "Using the kinematic equation v = u + at, where initial velocity u is 0 m/s (starting from rest), acceleration a is 2 m/s², and time t is 5 s, the final velocity v equals 0 + (2 × 5) = 10 m/s, confirmed by direct substitution, making this correct. The other options result from arithmetic errors or misapplication of the kinematic formula. This tests applying the first equation of motion to a straightforward uniformly accelerated motion scenario. Remember the standard kinematic equations for constant acceleration: v = u + at, s = ut + ½at², and v² = u² + 2as, which should be applied systematically based on which variables are known and which are sought."
+    },
+    {
+      "id": "PHY-005",
+      "field": "explanation",
+      "before": "The horizontal range of a projectile launched at angle θ with initial speed v is given by R = v^2 sin(2θ) / g. For v = 20 m/s and θ = 45°, sin(90°) = 1, so R = (20)^2 × 1 / 9.8 = 400 / 9.8 ≈ 40.8 m, which rounds to approximately 41 m, making this correct. The other options significantly understate or overstate the range due to calculation errors or incorrect formula application. This tests applying the projectile range formula, specifically noting that 45° gives maximum range for a given initial speed. Remember that the range formula assumes launch and landing at the same vertical level with no air resistance, and maximum range always occurs at 45° for symmetric projectile motion.",
+      "rendered": "The horizontal range of a projectile launched at angle θ with initial speed v is given by R = v² sin(2θ) / g. For v = 20 m/s and θ = 45°, sin(90°) = 1, so R = (20)² × 1 / 9.8 = 400 / 9.8 ≈ 40.8 m, which rounds to approximately 41 m, making this correct. The other options significantly understate or overstate the range due to calculation errors or incorrect formula application. This tests applying the projectile range formula, specifically noting that 45° gives maximum range for a given initial speed. Remember that the range formula assumes launch and landing at the same vertical level with no air resistance, and maximum range always occurs at 45° for symmetric projectile motion."
+    },
+    {
+      "id": "PHY-006",
+      "field": "option_1",
+      "before": "1 m/s^2",
+      "rendered": "1 m/s²"
+    },
+    {
+      "id": "PHY-006",
+      "field": "option_2",
+      "before": "3 m/s^2",
+      "rendered": "3 m/s²"
+    },
+    {
+      "id": "PHY-006",
+      "field": "option_3",
+      "before": "4 m/s^2",
+      "rendered": "4 m/s²"
+    },
+    {
+      "id": "PHY-006",
+      "field": "option_4",
+      "before": "12 m/s^2",
+      "rendered": "12 m/s²"
+    },
+    {
+      "id": "PHY-006",
+      "field": "explanation",
+      "before": "Newton's second law states that acceleration equals net force divided by mass, a = F/m. Substituting F = 12 N and m = 3 kg gives a = 12/3 = 4 m/s^2, confirmed by direct calculation, making this correct. The other options result from dividing mass by force, omitting the division, or other arithmetic errors. This tests direct application of Newton's second law to calculate acceleration from known force and mass. Remember that Newton's second law is one of the most fundamental equations in mechanics: F = ma, and rearranging to solve for any one variable when the other two are known is a core problem-solving skill.",
+      "rendered": "Newton's second law states that acceleration equals net force divided by mass, a = F/m. Substituting F = 12 N and m = 3 kg gives a = 12/3 = 4 m/s², confirmed by direct calculation, making this correct. The other options result from dividing mass by force, omitting the division, or other arithmetic errors. This tests direct application of Newton's second law to calculate acceleration from known force and mass. Remember that Newton's second law is one of the most fundamental equations in mechanics: F = ma, and rearranging to solve for any one variable when the other two are known is a core problem-solving skill."
+    },
+    {
+      "id": "PHY-007",
+      "field": "explanation",
+      "before": "Impulse equals the change in momentum, J = Δp = m(v_f - v_i). Substituting m = 0.5 kg, v_i = 3 m/s, and v_f = -2 m/s gives Δp = 0.5(-2 - 3) = 0.5(-5) = -2.5 N·s. The magnitude of the impulse is therefore 2.5 N·s, with the negative sign indicating direction reversal, making the magnitude 2.5 N·s correct. The other options result from sign errors, omitting the mass, or adding instead of subtracting velocities. This tests applying the impulse-momentum theorem while carefully handling vector directions. Remember that impulse and momentum are vector quantities, so direction matters; always define a positive direction first and consistently apply signs to velocities.",
+      "rendered": "Impulse equals the change in momentum, J = Δp = m(v(f) - vᵢ). Substituting m = 0.5 kg, vᵢ = 3 m/s, and v(f) = -2 m/s gives Δp = 0.5(-2 - 3) = 0.5(-5) = -2.5 N·s. The magnitude of the impulse is therefore 2.5 N·s, with the negative sign indicating direction reversal, making the magnitude 2.5 N·s correct. The other options result from sign errors, omitting the mass, or adding instead of subtracting velocities. This tests applying the impulse-momentum theorem while carefully handling vector directions. Remember that impulse and momentum are vector quantities, so direction matters; always define a positive direction first and consistently apply signs to velocities."
+    },
+    {
+      "id": "PHY-008",
+      "field": "explanation",
+      "before": "F_c = m v^2 / r = 2 × (6^2) / 5 = 2 × 36 / 5 = 72 / 5 = 14.4 N.",
+      "rendered": "F(c) = m v² / r = 2 × (6²) / 5 = 2 × 36 / 5 = 72 / 5 = 14.4 N."
+    },
+    {
+      "id": "PHY-010",
+      "field": "option_1",
+      "before": "0.98 m/s^2",
+      "rendered": "0.98 m/s²"
+    },
+    {
+      "id": "PHY-010",
+      "field": "option_2",
+      "before": "9.8 m/s^2",
+      "rendered": "9.8 m/s²"
+    },
+    {
+      "id": "PHY-010",
+      "field": "option_3",
+      "before": "98 m/s^2",
+      "rendered": "98 m/s²"
+    },
+    {
+      "id": "PHY-010",
+      "field": "option_4",
+      "before": "9.8 km/s^2",
+      "rendered": "9.8 km/s²"
+    },
+    {
+      "id": "PHY-010",
+      "field": "explanation",
+      "before": "The standard accepted value for gravitational acceleration near Earth's surface is approximately 9.8 m/s^2, varying slightly by location due to Earth's rotation and shape. Option A is an order of magnitude too small, option C is an order of magnitude too large, and option D uses incorrect units (km/s^2 instead of m/s^2), making 9.8 m/s^2 correct. This tests recall of a fundamental physical constant essential for countless mechanics calculations. Remember that g ≈ 9.8 m/s^2 (or approximately 10 m/s^2 for quick estimates) is the standard value used in nearly all introductory physics problems unless a different value is explicitly stated.",
+      "rendered": "The standard accepted value for gravitational acceleration near Earth's surface is approximately 9.8 m/s², varying slightly by location due to Earth's rotation and shape. Option A is an order of magnitude too small, option C is an order of magnitude too large, and option D uses incorrect units (km/s² instead of m/s²), making 9.8 m/s² correct. This tests recall of a fundamental physical constant essential for countless mechanics calculations. Remember that g ≈ 9.8 m/s² (or approximately 10 m/s² for quick estimates) is the standard value used in nearly all introductory physics problems unless a different value is explicitly stated."
+    },
+    {
+      "id": "PHY-013",
+      "field": "explanation",
+      "before": "Normal force N = mg = 5×9.8 ≈ 49 N. Maximum static friction F_s,max = μs N ≈ 0.4×49 ≈ 19.6 N. Since 15 N < 19.6 N, it will not move.",
+      "rendered": "Normal force N = mg = 5×9.8 ≈ 49 N. Maximum static friction Fₛ,max = μs N ≈ 0.4×49 ≈ 19.6 N. Since 15 N < 19.6 N, it will not move."
+    },
+    {
+      "id": "PHY-015",
+      "field": "question",
+      "before": "A rod of length 2.0 m and cross-sectional area 1×10^-4 m^2 is stretched by 2.0×10^-3 m under a force of 400 N. Young's modulus E is:",
+      "rendered": "A rod of length 2.0 m and cross-sectional area 1×10⁻⁴ m² is stretched by 2.0×10⁻³ m under a force of 400 N. Young's modulus E is:"
+    },
+    {
+      "id": "PHY-015",
+      "field": "option_1",
+      "before": "2×10^9 Pa",
+      "rendered": "2×10⁹ Pa"
+    },
+    {
+      "id": "PHY-015",
+      "field": "option_2",
+      "before": "4×10^9 Pa",
+      "rendered": "4×10⁹ Pa"
+    },
+    {
+      "id": "PHY-015",
+      "field": "option_3",
+      "before": "6×10^9 Pa",
+      "rendered": "6×10⁹ Pa"
+    },
+    {
+      "id": "PHY-015",
+      "field": "option_4",
+      "before": "8×10^9 Pa",
+      "rendered": "8×10⁹ Pa"
+    },
+    {
+      "id": "PHY-015",
+      "field": "explanation",
+      "before": "Young's modulus is defined as E = (F/A) / (ΔL/L) = FL/(AΔL). Substituting F = 400 N, L = 2.0 m, A = 1×10^-4 m^2, and ΔL = 2.0×10^-3 m gives E = (400 × 2.0) / (1×10^-4 × 2.0×10^-3) = 800 / (2×10^-7) = 4×10^9 Pa, confirmed by step-by-step calculation, making this correct. The other options result from arithmetic errors, incorrect exponent handling, or misplacing decimal places. This tests applying the Young's modulus formula with careful attention to powers of ten. Remember that Young's modulus measures material stiffness; higher values mean stiffer materials that deform less under the same stress, and always verify your power-of-ten calculations carefully in modulus problems.",
+      "rendered": "Young's modulus is defined as E = (F/A) / (ΔL/L) = FL/(AΔL). Substituting F = 400 N, L = 2.0 m, A = 1×10⁻⁴ m², and ΔL = 2.0×10⁻³ m gives E = (400 × 2.0) / (1×10⁻⁴ × 2.0×10⁻³) = 800 / (2×10⁻⁷) = 4×10⁹ Pa, confirmed by step-by-step calculation, making this correct. The other options result from arithmetic errors, incorrect exponent handling, or misplacing decimal places. This tests applying the Young's modulus formula with careful attention to powers of ten. Remember that Young's modulus measures material stiffness; higher values mean stiffer materials that deform less under the same stress, and always verify your power-of-ten calculations carefully in modulus problems."
+    },
+    {
+      "id": "PHY-016",
+      "field": "question",
+      "before": "The pressure at the bottom of a column of water 10 m deep (ρ=1000 kg/m^3, g=9.8 m/s^2) is approximately:",
+      "rendered": "The pressure at the bottom of a column of water 10 m deep (ρ=1000 kg/m³, g=9.8 m/s²) is approximately:"
+    },
+    {
+      "id": "PHY-016",
+      "field": "explanation",
+      "before": "Hydrostatic pressure at depth h in a fluid is given by P = ρgh. Substituting ρ = 1000 kg/m^3, g = 9.8 m/s^2, and h = 10 m gives P = 1000 × 9.8 × 10 = 98,000 Pa = 98 kPa, confirmed by direct calculation, making this correct. Option A is an order of magnitude too small (missing a factor of 10 in depth), option C is an order of magnitude too large, and option D uses incorrect units. This tests applying the hydrostatic pressure formula to calculate pressure at a given water depth. Remember that atmospheric pressure at the surface adds approximately 101 kPa, but the question asks for pressure due to the water column alone, so only ρgh is needed.",
+      "rendered": "Hydrostatic pressure at depth h in a fluid is given by P = ρgh. Substituting ρ = 1000 kg/m³, g = 9.8 m/s², and h = 10 m gives P = 1000 × 9.8 × 10 = 98,000 Pa = 98 kPa, confirmed by direct calculation, making this correct. Option A is an order of magnitude too small (missing a factor of 10 in depth), option C is an order of magnitude too large, and option D uses incorrect units. This tests applying the hydrostatic pressure formula to calculate pressure at a given water depth. Remember that atmospheric pressure at the surface adds approximately 101 kPa, but the question asks for pressure due to the water column alone, so only ρgh is needed."
+    },
+    {
+      "id": "PHY-017",
+      "field": "option_1",
+      "before": "320 kg/m^3",
+      "rendered": "320 kg/m³"
+    },
+    {
+      "id": "PHY-017",
+      "field": "option_2",
+      "before": "400 kg/m^3",
+      "rendered": "400 kg/m³"
+    },
+    {
+      "id": "PHY-017",
+      "field": "option_3",
+      "before": "800 kg/m^3",
+      "rendered": "800 kg/m³"
+    },
+    {
+      "id": "PHY-017",
+      "field": "option_4",
+      "before": "1600 kg/m^3",
+      "rendered": "1600 kg/m³"
+    },
+    {
+      "id": "PHY-017",
+      "field": "explanation",
+      "before": "Density is defined as mass divided by volume, ρ = m/V. For a cube of side 0.5 m, the volume is (0.5)^3 = 0.125 m^3. Substituting m = 40 kg and V = 0.125 m^3 gives ρ = 40/0.125 = 320 kg/m^3, confirmed by direct calculation, making this correct. The other options result from incorrect volume calculations, such as using face area instead of volume or misplacing decimal points. This tests applying the density formula with correct geometric volume calculation. Remember that for regular shapes, always calculate volume carefully before dividing mass; for a cube, V = s^3, not s^2 or any other combination.",
+      "rendered": "Density is defined as mass divided by volume, ρ = m/V. For a cube of side 0.5 m, the volume is (0.5)³ = 0.125 m³. Substituting m = 40 kg and V = 0.125 m³ gives ρ = 40/0.125 = 320 kg/m³, confirmed by direct calculation, making this correct. The other options result from incorrect volume calculations, such as using face area instead of volume or misplacing decimal points. This tests applying the density formula with correct geometric volume calculation. Remember that for regular shapes, always calculate volume carefully before dividing mass; for a cube, V = s³, not s² or any other combination."
+    },
+    {
+      "id": "PHY-018",
+      "field": "question",
+      "before": "A wooden block of density 600 kg/m^3 is in water (ρ = 1000 kg/m^3). In equilibrium while floating, what fraction of its volume is submerged?",
+      "rendered": "A wooden block of density 600 kg/m³ is in water (ρ = 1000 kg/m³). In equilibrium while floating, what fraction of its volume is submerged?"
+    },
+    {
+      "id": "PHY-018",
+      "field": "explanation",
+      "before": "For a floating object in equilibrium, Archimedes' principle requires that the weight of displaced fluid equals the object's weight. This means ρ_object × V_object × g = ρ_fluid × V_submerged × g, so the fraction submerged equals ρ_object/ρ_fluid = 600/1000 = 0.60, confirmed by direct ratio, making this correct. The other options result from inverting the ratio, using incorrect densities, or arithmetic errors. This tests applying Archimedes' principle to find the submerged fraction of a floating object. Remember the key floating condition: fraction submerged always equals the ratio of object density to fluid density, a relationship that applies regardless of the object's total mass or volume.",
+      "rendered": "For a floating object in equilibrium, Archimedes' principle requires that the weight of displaced fluid equals the object's weight. This means ρ(object) × V(object) × g = ρ(fluid) × V(submerged) × g, so the fraction submerged equals ρ(object)/ρ(fluid) = 600/1000 = 0.60, confirmed by direct ratio, making this correct. The other options result from inverting the ratio, using incorrect densities, or arithmetic errors. This tests applying Archimedes' principle to find the submerged fraction of a floating object. Remember the key floating condition: fraction submerged always equals the ratio of object density to fluid density, a relationship that applies regardless of the object's total mass or volume."
+    },
+    {
+      "id": "PHY-019",
+      "field": "question",
+      "before": "An object of mass 2 kg is raised vertically by 5 m near Earth's surface (g ≈ 9.8 m/s^2). What is the increase in its gravitational potential energy?",
+      "rendered": "An object of mass 2 kg is raised vertically by 5 m near Earth's surface (g ≈ 9.8 m/s²). What is the increase in its gravitational potential energy?"
+    },
+    {
+      "id": "PHY-019",
+      "field": "explanation",
+      "before": "Gravitational potential energy change is given by ΔU = mgh. Substituting m = 2 kg, g ≈ 9.8 m/s^2, and h = 5 m gives ΔU = 2 × 9.8 × 5 = 98 J, confirmed by direct multiplication, making this correct. Option A uses only g, option B uses half the correct mass, and option D doubles the correct answer, all representing common calculation errors. This tests applying the gravitational potential energy formula to a simple vertical displacement scenario. Remember that gravitational potential energy depends linearly on mass, gravitational acceleration, and height; doubling any one of these doubles the energy change.",
+      "rendered": "Gravitational potential energy change is given by ΔU = mgh. Substituting m = 2 kg, g ≈ 9.8 m/s², and h = 5 m gives ΔU = 2 × 9.8 × 5 = 98 J, confirmed by direct multiplication, making this correct. Option A uses only g, option B uses half the correct mass, and option D doubles the correct answer, all representing common calculation errors. This tests applying the gravitational potential energy formula to a simple vertical displacement scenario. Remember that gravitational potential energy depends linearly on mass, gravitational acceleration, and height; doubling any one of these doubles the energy change."
+    },
+    {
+      "id": "PHY-020",
+      "field": "option_1",
+      "before": "0.5 m/s^2",
+      "rendered": "0.5 m/s²"
+    },
+    {
+      "id": "PHY-020",
+      "field": "option_2",
+      "before": "0.8 m/s^2",
+      "rendered": "0.8 m/s²"
+    },
+    {
+      "id": "PHY-020",
+      "field": "option_3",
+      "before": "1.0 m/s^2",
+      "rendered": "1.0 m/s²"
+    },
+    {
+      "id": "PHY-020",
+      "field": "option_4",
+      "before": "1.2 m/s^2",
+      "rendered": "1.2 m/s²"
+    },
+    {
+      "id": "PHY-020",
+      "field": "explanation",
+      "before": "F_f = μk mg ≈ 0.3×4×9.8 ≈ 11.76 N. Net force = 15 − 11.76 = 3.24 N. a = F/m ≈ 3.24/4 ≈ 0.81 m/s^2 ≈ 0.8 m/s^2.",
+      "rendered": "F(f) = μk mg ≈ 0.3×4×9.8 ≈ 11.76 N. Net force = 15 − 11.76 = 3.24 N. a = F/m ≈ 3.24/4 ≈ 0.81 m/s² ≈ 0.8 m/s²."
+    },
+    {
+      "id": "PHY-021",
+      "field": "option_1",
+      "before": "2.9×10^3 N",
+      "rendered": "2.9×10³ N"
+    },
+    {
+      "id": "PHY-021",
+      "field": "option_2",
+      "before": "1.4×10^4 N",
+      "rendered": "1.4×10⁴ N"
+    },
+    {
+      "id": "PHY-021",
+      "field": "option_3",
+      "before": "2.9×10^4 N",
+      "rendered": "2.9×10⁴ N"
+    },
+    {
+      "id": "PHY-021",
+      "field": "option_4",
+      "before": "1.4×10^5 N",
+      "rendered": "1.4×10⁵ N"
+    },
+    {
+      "id": "PHY-021",
+      "field": "explanation",
+      "before": "Centripetal force is given by F_c = mv^2/r. Substituting m = 1200 kg, v = 22 m/s, and r = 20 m gives F_c = 1200 × (22)^2 / 20 = 1200 × 484 / 20 = 580,800 / 20 = 29,040 N ≈ 2.9×10^4 N, confirmed by step-by-step calculation, making this correct. The other options result from omitting the mass, using incorrect velocity values, or misplacing decimal points in the final answer. This tests applying the centripetal force formula to circular motion. Remember that centripetal force is always directed toward the center of the circular path and is necessary to maintain circular motion; without it, the object would travel in a straight line due to inertia.",
+      "rendered": "Centripetal force is given by F(c) = mv²/r. Substituting m = 1200 kg, v = 22 m/s, and r = 20 m gives F(c) = 1200 × (22)² / 20 = 1200 × 484 / 20 = 580,800 / 20 = 29,040 N ≈ 2.9×10⁴ N, confirmed by step-by-step calculation, making this correct. The other options result from omitting the mass, using incorrect velocity values, or misplacing decimal points in the final answer. This tests applying the centripetal force formula to circular motion. Remember that centripetal force is always directed toward the center of the circular path and is necessary to maintain circular motion; without it, the object would travel in a straight line due to inertia."
+    },
+    {
+      "id": "PHY-024",
+      "field": "question",
+      "before": "An object with density 800 kg/m^3 is placed in water (ρ = 1000 kg/m^3). In floating equilibrium, what fraction of its volume is submerged?",
+      "rendered": "An object with density 800 kg/m³ is placed in water (ρ = 1000 kg/m³). In floating equilibrium, what fraction of its volume is submerged?"
+    },
+    {
+      "id": "PHY-024",
+      "field": "explanation",
+      "before": "For a floating object, the fraction of volume submerged equals the ratio of the object's density to the fluid's density: f = ρ_object/ρ_fluid = 800/1000 = 0.80, confirmed by direct ratio, making this correct. This is a direct application of Archimedes' principle where the buoyant force equals the weight of the displaced fluid. The other options result from inverting the ratio, subtracting densities, or other incorrect operations. This reinforces the same floating fraction concept tested in PHY-018, now with different numerical values. Continue applying the consistent principle: fraction submerged = ρ_object/ρ_fluid for any object floating in equilibrium in a fluid.",
+      "rendered": "For a floating object, the fraction of volume submerged equals the ratio of the object's density to the fluid's density: f = ρ(object)/ρ(fluid) = 800/1000 = 0.80, confirmed by direct ratio, making this correct. This is a direct application of Archimedes' principle where the buoyant force equals the weight of the displaced fluid. The other options result from inverting the ratio, subtracting densities, or other incorrect operations. This reinforces the same floating fraction concept tested in PHY-018, now with different numerical values. Continue applying the consistent principle: fraction submerged = ρ(object)/ρ(fluid) for any object floating in equilibrium in a fluid."
+    },
+    {
+      "id": "PHY-025",
+      "field": "explanation",
+      "before": "Gravitational potential energy increase is ΔU = mgh. Using m = 2 kg, g ≈ 9.8 m/s^2, and h = 5 m gives ΔU = 2 × 9.8 × 5 = 98 J, confirmed by direct calculation, making this correct. This question is essentially identical to PHY-019 with the same numerical values, reinforcing the gravitational potential energy calculation. The other options represent the same common errors as in PHY-019. Given its direct repetition of the same concept and values, firmly establish ΔU = mgh as a fundamental formula to be applied automatically whenever gravitational potential energy changes are involved.",
+      "rendered": "Gravitational potential energy increase is ΔU = mgh. Using m = 2 kg, g ≈ 9.8 m/s², and h = 5 m gives ΔU = 2 × 9.8 × 5 = 98 J, confirmed by direct calculation, making this correct. This question is essentially identical to PHY-019 with the same numerical values, reinforcing the gravitational potential energy calculation. The other options represent the same common errors as in PHY-019. Given its direct repetition of the same concept and values, firmly establish ΔU = mgh as a fundamental formula to be applied automatically whenever gravitational potential energy changes are involved."
+    },
+    {
+      "id": "PHY-029",
+      "field": "option_1",
+      "before": "a = 2.0 m/s^2 and s = 12 m",
+      "rendered": "a = 2.0 m/s² and s = 12 m"
+    },
+    {
+      "id": "PHY-029",
+      "field": "option_2",
+      "before": "a = 5.0 m/s^2 and s = 20 m",
+      "rendered": "a = 5.0 m/s² and s = 20 m"
+    },
+    {
+      "id": "PHY-029",
+      "field": "option_3",
+      "before": "a = 10 m/s^2 and s = 40 m",
+      "rendered": "a = 10 m/s² and s = 40 m"
+    },
+    {
+      "id": "PHY-029",
+      "field": "option_4",
+      "before": "a = 1 m/s^2 and s = 8 m",
+      "rendered": "a = 1 m/s² and s = 8 m"
+    },
+    {
+      "id": "PHY-030",
+      "field": "explanation",
+      "before": "The equation of motion s = ut + ½at^2 describes displacement under constant acceleration. For an object starting from rest (u = 0) with a = 2 m/s^2 and t = 3 s, s = 0 + ½(2)(3)^2 = ½ × 2 × 9 = 9 m, confirmed by direct substitution, making this correct. The other options result from omitting the half factor, using t instead of t^2, or other algebraic errors. This tests applying the second kinematic equation for uniformly accelerated motion from rest. Remember the three standard kinematic equations and when to use each: v = u + at for final velocity, s = ut + ½at^2 for displacement, and v^2 = u^2 + 2as for velocity-displacement relationships.",
+      "rendered": "The equation of motion s = ut + ½at² describes displacement under constant acceleration. For an object starting from rest (u = 0) with a = 2 m/s² and t = 3 s, s = 0 + ½(2)(3)² = ½ × 2 × 9 = 9 m, confirmed by direct substitution, making this correct. The other options result from omitting the half factor, using t instead of t², or other algebraic errors. This tests applying the second kinematic equation for uniformly accelerated motion from rest. Remember the three standard kinematic equations and when to use each: v = u + at for final velocity, s = ut + ½at² for displacement, and v² = u² + 2as for velocity-displacement relationships."
+    },
+    {
+      "id": "PHY-031",
+      "field": "option_1",
+      "before": "0.3 m/s^2",
+      "rendered": "0.3 m/s²"
+    },
+    {
+      "id": "PHY-031",
+      "field": "option_2",
+      "before": "0.6 m/s^2",
+      "rendered": "0.6 m/s²"
+    },
+    {
+      "id": "PHY-031",
+      "field": "option_3",
+      "before": "1.0 m/s^2",
+      "rendered": "1.0 m/s²"
+    },
+    {
+      "id": "PHY-031",
+      "field": "option_4",
+      "before": "1.5 m/s^2",
+      "rendered": "1.5 m/s²"
+    },
+    {
+      "id": "PHY-031",
+      "field": "explanation",
+      "before": "a = F/m = 3/5 = 0.6 m/s^2.",
+      "rendered": "a = F/m = 3/5 = 0.6 m/s²."
+    },
+    {
+      "id": "PHY-032",
+      "field": "explanation",
+      "before": "Initial p_i = 0.2×3=0.6; final p_f=0.2×(-2.5)=-0.5; Δp = p_f−p_i = -1.1 kg·m/s; magnitude 1.1.",
+      "rendered": "Initial pᵢ = 0.2×3=0.6; final p(f)=0.2×(-2.5)=-0.5; Δp = p(f)−pᵢ = -1.1 kg·m/s; magnitude 1.1."
+    },
+    {
+      "id": "PHY-033",
+      "field": "option_1",
+      "before": "2.5 m/s^2",
+      "rendered": "2.5 m/s²"
+    },
+    {
+      "id": "PHY-033",
+      "field": "option_2",
+      "before": "5 m/s^2",
+      "rendered": "5 m/s²"
+    },
+    {
+      "id": "PHY-033",
+      "field": "option_3",
+      "before": "10 m/s^2",
+      "rendered": "10 m/s²"
+    },
+    {
+      "id": "PHY-033",
+      "field": "option_4",
+      "before": "20 m/s^2",
+      "rendered": "20 m/s²"
+    },
+    {
+      "id": "PHY-033",
+      "field": "explanation",
+      "before": "a_c = v^2 / r = 100 / 20 = 5 m/s^2.",
+      "rendered": "a(c) = v² / r = 100 / 20 = 5 m/s²."
+    },
+    {
+      "id": "PHY-039",
+      "field": "question",
+      "before": "With μ_s = 0.4, a 5 kg block on a horizontal surface has maximum static friction f_max = μ_s N. What is f_max?",
+      "rendered": "With μₛ = 0.4, a 5 kg block on a horizontal surface has maximum static friction fₘₐₓ = μₛ N. What is fₘₐₓ?"
+    },
+    {
+      "id": "PHY-039",
+      "field": "explanation",
+      "before": "N = mg = 5×9.8 = 49 N; f_max = μ_s N = 0.4×49 = 19.6 N.",
+      "rendered": "N = mg = 5×9.8 = 49 N; fₘₐₓ = μₛ N = 0.4×49 = 19.6 N."
+    },
+    {
+      "id": "PHY-042",
+      "field": "question",
+      "before": "A piston with area 0.01 m^2 is subjected to a force of 50 N. The pressure is:",
+      "rendered": "A piston with area 0.01 m² is subjected to a force of 50 N. The pressure is:"
+    },
+    {
+      "id": "PHY-043",
+      "field": "option_1",
+      "before": "900 kg/m^3",
+      "rendered": "900 kg/m³"
+    },
+    {
+      "id": "PHY-043",
+      "field": "option_2",
+      "before": "0.9 kg/m^3",
+      "rendered": "0.9 kg/m³"
+    },
+    {
+      "id": "PHY-043",
+      "field": "option_3",
+      "before": "9000 kg/m^3",
+      "rendered": "9000 kg/m³"
+    },
+    {
+      "id": "PHY-043",
+      "field": "option_4",
+      "before": "90 kg/m^3",
+      "rendered": "90 kg/m³"
+    },
+    {
+      "id": "PHY-043",
+      "field": "explanation",
+      "before": "V = (0.1)^3 = 1.0×10^-3 m^3; ρ = m/V = 0.9 / 1.0×10^-3 = 900 kg/m^3.",
+      "rendered": "V = (0.1)³ = 1.0×10⁻³ m³; ρ = m/V = 0.9 / 1.0×10⁻³ = 900 kg/m³."
+    },
+    {
+      "id": "PHY-044",
+      "field": "question",
+      "before": "An object has density 700 kg/m^3 and is placed in water (density 1000 kg/m^3). Fraction submerged is approximately:",
+      "rendered": "An object has density 700 kg/m³ and is placed in water (density 1000 kg/m³). Fraction submerged is approximately:"
+    },
+    {
+      "id": "PHY-045",
+      "field": "question",
+      "before": "In water of density 1000 kg/m^3, the pressure at depth h is p = p0 + ρ g h. If h = 10 m and p0 = 101 kPa, the total pressure is approximately:",
+      "rendered": "In water of density 1000 kg/m³, the pressure at depth h is p = p0 + ρ g h. If h = 10 m and p0 = 101 kPa, the total pressure is approximately:"
+    },
+    {
+      "id": "PHY-046",
+      "field": "explanation",
+      "before": "F_avg = Δp/Δt = (0 − 0.5×3)/0.02 = −1.5/0.02 = −75 N (magnitude 75 N).",
+      "rendered": "F(avg) = Δp/Δt = (0 − 0.5×3)/0.02 = −1.5/0.02 = −75 N (magnitude 75 N)."
+    },
+    {
+      "id": "PHY-047",
+      "field": "explanation",
+      "before": "F_c = m v^2 / r = 0.5×9 / 0.6 = 4.5 / 0.6 = 7.5 N.",
+      "rendered": "F(c) = m v² / r = 0.5×9 / 0.6 = 4.5 / 0.6 = 7.5 N."
+    },
+    {
+      "id": "PHY-048",
+      "field": "question",
+      "before": "A person of mass 60 kg stands on a scale in an elevator accelerating upwards at 2 m/s^2. The scale reading is:",
+      "rendered": "A person of mass 60 kg stands on a scale in an elevator accelerating upwards at 2 m/s². The scale reading is:"
+    },
+    {
+      "id": "PHY-049",
+      "field": "explanation",
+      "before": "Initial KE = 0.5×1000×20^2 = 200,000 J. Work done by brakes = ΔK = 200,000 J; F = W/d = 200,000 / 25 = 8000 N.",
+      "rendered": "Initial KE = 0.5×1000×20² = 200,000 J. Work done by brakes = ΔK = 200,000 J; F = W/d = 200,000 / 25 = 8000 N."
+    },
+    {
+      "id": "PHY-050",
+      "field": "question",
+      "before": "A block on an incline experiences impending motion. If μ_s = 0.4, the angle θ satisfies tan θ = μ_s. The approximate angle is:",
+      "rendered": "A block on an incline experiences impending motion. If μₛ = 0.4, the angle θ satisfies tan θ = μₛ. The approximate angle is:"
+    },
+    {
+      "id": "PHY-050",
+      "field": "explanation",
+      "before": "At impending slip, tan θ = μ_s → θ ≈ arctan(0.4) ≈ 21.8° ≈ 22°.",
+      "rendered": "At impending slip, tan θ = μₛ → θ ≈ arctan(0.4) ≈ 21.8° ≈ 22°."
+    },
+    {
+      "id": "PHY-054",
+      "field": "question",
+      "before": "A car starts from rest with constant acceleration 2 m/s^2. What is its velocity after 5 s?",
+      "rendered": "A car starts from rest with constant acceleration 2 m/s². What is its velocity after 5 s?"
+    },
+    {
+      "id": "PHY-055",
+      "field": "question",
+      "before": "A body is dropped from a height of 20 metres. Assuming g ≈ 9.8 m/s^2, its time to reach the ground is approximately",
+      "rendered": "A body is dropped from a height of 20 metres. Assuming g ≈ 9.8 m/s², its time to reach the ground is approximately"
+    },
+    {
+      "id": "PHY-056",
+      "field": "question",
+      "before": "A projectile is launched with speed 20 m/s at 30° to the horizontal. Its horizontal range is closest to which value (g ≈ 9.8 m/s^2)?",
+      "rendered": "A projectile is launched with speed 20 m/s at 30° to the horizontal. Its horizontal range is closest to which value (g ≈ 9.8 m/s²)?"
+    },
+    {
+      "id": "PHY-056",
+      "field": "explanation",
+      "before": "R = v^2 sin(2θ)/g = 400×sin60°/9.8 ≈ 400×0.866/9.8 ≈ 35 m.",
+      "rendered": "R = v² sin(2θ)/g = 400×sin60°/9.8 ≈ 400×0.866/9.8 ≈ 35 m."
+    },
+    {
+      "id": "PHY-057",
+      "field": "option_1",
+      "before": "0.3 m/s^2",
+      "rendered": "0.3 m/s²"
+    },
+    {
+      "id": "PHY-057",
+      "field": "option_2",
+      "before": "0.6 m/s^2",
+      "rendered": "0.6 m/s²"
+    },
+    {
+      "id": "PHY-057",
+      "field": "option_3",
+      "before": "1.0 m/s^2",
+      "rendered": "1.0 m/s²"
+    },
+    {
+      "id": "PHY-057",
+      "field": "option_4",
+      "before": "1.5 m/s^2",
+      "rendered": "1.5 m/s²"
+    },
+    {
+      "id": "PHY-057",
+      "field": "explanation",
+      "before": "a = F/m = 3/5 = 0.6 m/s^2.",
+      "rendered": "a = F/m = 3/5 = 0.6 m/s²."
+    },
+    {
+      "id": "PHY-058",
+      "field": "explanation",
+      "before": "Initial p_i = 2×3 = 6; final p_f = -6; Δp = p_f - p_i = -12 N·s; magnitude 12 N·s.",
+      "rendered": "Initial pᵢ = 2×3 = 6; final p(f) = -6; Δp = p(f) - pᵢ = -12 N·s; magnitude 12 N·s."
+    },
+    {
+      "id": "PHY-059",
+      "field": "option_1",
+      "before": "2.5 m/s^2",
+      "rendered": "2.5 m/s²"
+    },
+    {
+      "id": "PHY-059",
+      "field": "option_2",
+      "before": "5 m/s^2",
+      "rendered": "5 m/s²"
+    },
+    {
+      "id": "PHY-059",
+      "field": "option_3",
+      "before": "7.5 m/s^2",
+      "rendered": "7.5 m/s²"
+    },
+    {
+      "id": "PHY-059",
+      "field": "option_4",
+      "before": "10 m/s^2",
+      "rendered": "10 m/s²"
+    },
+    {
+      "id": "PHY-059",
+      "field": "explanation",
+      "before": "a_c = v^2/r = 100/20 = 5 m/s^2.",
+      "rendered": "a(c) = v²/r = 100/20 = 5 m/s²."
+    },
+    {
+      "id": "PHY-065",
+      "field": "option_1",
+      "before": "0.8 m/s^2",
+      "rendered": "0.8 m/s²"
+    },
+    {
+      "id": "PHY-065",
+      "field": "option_2",
+      "before": "2.4 m/s^2",
+      "rendered": "2.4 m/s²"
+    },
+    {
+      "id": "PHY-065",
+      "field": "option_3",
+      "before": "3.6 m/s^2",
+      "rendered": "3.6 m/s²"
+    },
+    {
+      "id": "PHY-065",
+      "field": "option_4",
+      "before": "5.0 m/s^2",
+      "rendered": "5.0 m/s²"
+    },
+    {
+      "id": "PHY-065",
+      "field": "explanation",
+      "before": "Mass m = W/g ≈ 6/9.8 ≈ 0.612 kg. μs N ≈ 0.5×6 ≈ 3 N. Since 4 N > 3 N, motion starts. F_k = μk N ≈ 0.3×6 ≈ 1.8 N. Net F ≈ 4 − 1.8 = 2.2 N. a ≈ 2.2/0.612 ≈ 3.6 m/s^2.",
+      "rendered": "Mass m = W/g ≈ 6/9.8 ≈ 0.612 kg. μs N ≈ 0.5×6 ≈ 3 N. Since 4 N > 3 N, motion starts. Fₖ = μk N ≈ 0.3×6 ≈ 1.8 N. Net F ≈ 4 − 1.8 = 2.2 N. a ≈ 2.2/0.612 ≈ 3.6 m/s²."
+    },
+    {
+      "id": "PHY-067",
+      "field": "explanation",
+      "before": "U = 1/2 k x^2 = 0.5×200×0.05^2 = 0.25 J.",
+      "rendered": "U = 1/2 k x² = 0.5×200×0.05² = 0.25 J."
+    },
+    {
+      "id": "PHY-068",
+      "field": "question",
+      "before": "A force of 100 N is applied on a plate of area 0.02 m^2. The pressure is",
+      "rendered": "A force of 100 N is applied on a plate of area 0.02 m². The pressure is"
+    },
+    {
+      "id": "PHY-069",
+      "field": "question",
+      "before": "A floating block has density 900 kg/m^3 while the surrounding water has density 1000 kg/m^3. What fraction of the block's volume is submerged?",
+      "rendered": "A floating block has density 900 kg/m³ while the surrounding water has density 1000 kg/m³. What fraction of the block's volume is submerged?"
+    },
+    {
+      "id": "PHY-069",
+      "field": "explanation",
+      "before": "Fraction submerged equals ρ_block/ρ_fluid = 900/1000 = 0.9.",
+      "rendered": "Fraction submerged equals ρ(block)/ρ(fluid) = 900/1000 = 0.9."
+    },
+    {
+      "id": "PHY-070",
+      "field": "question",
+      "before": "A wooden block of density 600 kg/m^3 floats in water (density 1000 kg/m^3). What fraction of its volume is submerged?",
+      "rendered": "A wooden block of density 600 kg/m³ floats in water (density 1000 kg/m³). What fraction of its volume is submerged?"
+    },
+    {
+      "id": "PHY-070",
+      "field": "explanation",
+      "before": "Submerged fraction = ρ_block/ρ_fluid = 600/1000 = 0.6.",
+      "rendered": "Submerged fraction = ρ(block)/ρ(fluid) = 600/1000 = 0.6."
+    },
+    {
+      "id": "PHY-071",
+      "field": "question",
+      "before": "A block with density 800 kg/m^3 is placed in water. What fraction of its volume is submerged?",
+      "rendered": "A block with density 800 kg/m³ is placed in water. What fraction of its volume is submerged?"
+    },
+    {
+      "id": "PHY-071",
+      "field": "explanation",
+      "before": "Fraction submerged = ρ_block/ρ_fluid = 800/1000 = 0.8.",
+      "rendered": "Fraction submerged = ρ(block)/ρ(fluid) = 800/1000 = 0.8."
+    },
+    {
+      "id": "PHY-072",
+      "field": "option_1",
+      "before": "1.0 m/s^2",
+      "rendered": "1.0 m/s²"
+    },
+    {
+      "id": "PHY-072",
+      "field": "option_2",
+      "before": "2.5 m/s^2",
+      "rendered": "2.5 m/s²"
+    },
+    {
+      "id": "PHY-072",
+      "field": "option_3",
+      "before": "4.0 m/s^2",
+      "rendered": "4.0 m/s²"
+    },
+    {
+      "id": "PHY-072",
+      "field": "option_4",
+      "before": "5.0 m/s^2",
+      "rendered": "5.0 m/s²"
+    },
+    {
+      "id": "PHY-072",
+      "field": "explanation",
+      "before": "a = (m2 − m1)g/(m1 + m2) = (5−3)×9.8/8 ≈ 2.45 m/s^2 ≈ 2.5 m/s^2.",
+      "rendered": "a = (m2 − m1)g/(m1 + m2) = (5−3)×9.8/8 ≈ 2.45 m/s² ≈ 2.5 m/s²."
+    },
+    {
+      "id": "PHY-073",
+      "field": "explanation",
+      "before": "KE = 1/2 mv^2 = 0.5×0.5×16 = 4 J.",
+      "rendered": "KE = 1/2 mv² = 0.5×0.5×16 = 4 J."
+    },
+    {
+      "id": "PHY-074",
+      "field": "option_1",
+      "before": "1.0 m/s^2",
+      "rendered": "1.0 m/s²"
+    },
+    {
+      "id": "PHY-074",
+      "field": "option_2",
+      "before": "2.0 m/s^2",
+      "rendered": "2.0 m/s²"
+    },
+    {
+      "id": "PHY-074",
+      "field": "option_3",
+      "before": "2.5 m/s^2",
+      "rendered": "2.5 m/s²"
+    },
+    {
+      "id": "PHY-074",
+      "field": "option_4",
+      "before": "3.0 m/s^2",
+      "rendered": "3.0 m/s²"
+    },
+    {
+      "id": "PHY-074",
+      "field": "explanation",
+      "before": "a = Δv/Δt = (25−0)/10 = 2.5 m/s^2.",
+      "rendered": "a = Δv/Δt = (25−0)/10 = 2.5 m/s²."
+    },
+    {
+      "id": "PHY-075",
+      "field": "question",
+      "before": "What is the pressure at a depth of 8 m in freshwater (ρ = 1000 kg/m^3, g ≈ 9.8 m/s^2)?",
+      "rendered": "What is the pressure at a depth of 8 m in freshwater (ρ = 1000 kg/m³, g ≈ 9.8 m/s²)?"
+    },
+    {
+      "id": "PHY-077",
+      "field": "question",
+      "before": "A steel rod of length 2.0 m at 20°C has a coefficient of linear expansion α = 12 × 10^-6 /°C. By how much does its length change when heated to 60°C?",
+      "rendered": "A steel rod of length 2.0 m at 20°C has a coefficient of linear expansion α = 12 × 10⁻⁶ /°C. By how much does its length change when heated to 60°C?"
+    },
+    {
+      "id": "PHY-077",
+      "field": "explanation",
+      "before": "∆L = α L0 ∆T = 12×10^-6 × 2.0 × (60−20) = 12×10^-6 × 2.0 × 40 = 0.00096 m = 0.96 mm.",
+      "rendered": "∆L = α L0 ∆T = 12×10⁻⁶ × 2.0 × (60−20) = 12×10⁻⁶ × 2.0 × 40 = 0.00096 m = 0.96 mm."
+    },
+    {
+      "id": "PHY-080",
+      "field": "explanation",
+      "before": "Q = mL_f = 0.5 × 334 = 167 kJ.",
+      "rendered": "Q = mL(f) = 0.5 × 334 = 167 kJ."
+    },
+    {
+      "id": "PHY-091",
+      "field": "question",
+      "before": "A glass plate of area 2.0 m^2, thickness 0.10 m, thermal conductivity k = 0.8 W/m·K, and a temperature difference ΔT = 20 K across its faces conducts heat at what rate (power)?",
+      "rendered": "A glass plate of area 2.0 m², thickness 0.10 m, thermal conductivity k = 0.8 W/m·K, and a temperature difference ΔT = 20 K across its faces conducts heat at what rate (power)?"
+    },
+    {
+      "id": "PHY-093",
+      "field": "question",
+      "before": "The latent heat of vaporisation of water is about 2.26 × 10^6 J/kg. Energy needed to vapourise 0.15 kg of water at 100°C is:",
+      "rendered": "The latent heat of vaporisation of water is about 2.26 × 10⁶ J/kg. Energy needed to vapourise 0.15 kg of water at 100°C is:"
+    },
+    {
+      "id": "PHY-093",
+      "field": "explanation",
+      "before": "Q = m L_v = 0.15 × 2.26×10^6 ≈ 3.39×10^5 J = 339 kJ.",
+      "rendered": "Q = m Lᵥ = 0.15 × 2.26×10⁶ ≈ 3.39×10⁵ J = 339 kJ."
+    },
+    {
+      "id": "PHY-096",
+      "field": "question",
+      "before": "If a liquid has a volumetric expansion coefficient β = 1.8 × 10^-4 /°C and its initial volume is 0.50 L, what is ΔV when heated by 30°C?",
+      "rendered": "If a liquid has a volumetric expansion coefficient β = 1.8 × 10⁻⁴ /°C and its initial volume is 0.50 L, what is ΔV when heated by 30°C?"
+    },
+    {
+      "id": "PHY-096",
+      "field": "explanation",
+      "before": "ΔV = β V0 ∆T = 1.8×10^-4 × 0.50 × 30 = 0.0027 L.",
+      "rendered": "ΔV = β V0 ∆T = 1.8×10⁻⁴ × 0.50 × 30 = 0.0027 L."
+    },
+    {
+      "id": "PHY-098",
+      "field": "explanation",
+      "before": "Q = m L_v = 0.25 × 2.26×10^6 ≈ 5.65×10^5 J = 565 kJ.",
+      "rendered": "Q = m Lᵥ = 0.25 × 2.26×10⁶ ≈ 5.65×10⁵ J = 565 kJ."
+    },
+    {
+      "id": "PHY-101",
+      "field": "option_1",
+      "before": "4.25 × 10^-6 /°C",
+      "rendered": "4.25 × 10⁻⁶ /°C"
+    },
+    {
+      "id": "PHY-101",
+      "field": "option_2",
+      "before": "7.1 × 10^-6 /°C",
+      "rendered": "7.1 × 10⁻⁶ /°C"
+    },
+    {
+      "id": "PHY-101",
+      "field": "option_3",
+      "before": "1.2 × 10^-5 /°C",
+      "rendered": "1.2 × 10⁻⁵ /°C"
+    },
+    {
+      "id": "PHY-101",
+      "field": "option_4",
+      "before": "2.8 × 10^-6 /°C",
+      "rendered": "2.8 × 10⁻⁶ /°C"
+    },
+    {
+      "id": "PHY-101",
+      "field": "explanation",
+      "before": "α = ΔL / (L0 ΔT) = 0.00034 /(0.80 × 60) ≈ 7.1 × 10^-6 /°C.",
+      "rendered": "α = ΔL / (L0 ΔT) = 0.00034 /(0.80 × 60) ≈ 7.1 × 10⁻⁶ /°C."
+    },
+    {
+      "id": "PHY-106",
+      "field": "question",
+      "before": "V_rms ∝ sqrt(T). If temperature doubles from 300 K to 600 K, by what factor does v_rms increase?",
+      "rendered": "Vᵣₘₛ ∝ sqrt(T). If temperature doubles from 300 K to 600 K, by what factor does vᵣₘₛ increase?"
+    },
+    {
+      "id": "PHY-106",
+      "field": "explanation",
+      "before": "v_rms ∝ sqrt(T) → factor = sqrt(600/300) = sqrt(2) ≈ 1.41. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 1.41 the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "vᵣₘₛ ∝ sqrt(T) → factor = sqrt(600/300) = sqrt(2) ≈ 1.41. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 1.41 the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-107",
+      "field": "question",
+      "before": "A copper rod of length 0.05 m and cross-sectional area 2 cm^2 (2×10^-4 m^2) has ends at ΔT = 60°C. If k = 400 W/mK, what is the rate of heat transfer Q/t?",
+      "rendered": "A copper rod of length 0.05 m and cross-sectional area 2 cm² (2×10⁻⁴ m²) has ends at ΔT = 60°C. If k = 400 W/mK, what is the rate of heat transfer Q/t?"
+    },
+    {
+      "id": "PHY-109",
+      "field": "question",
+      "before": "A black surface initially at 600 K increases to 900 K. By what factor does its radiated power change (P ∝ T^4)?",
+      "rendered": "A black surface initially at 600 K increases to 900 K. By what factor does its radiated power change (P ∝ T⁴)?"
+    },
+    {
+      "id": "PHY-109",
+      "field": "explanation",
+      "before": "P2/P1 = (900/600)^4 ≈ (1.5)^4 ≈ 5.06 ≈ 5.1. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 5.1 the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "P2/P1 = (900/600)⁴ ≈ (1.5)⁴ ≈ 5.06 ≈ 5.1. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 5.1 the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-115",
+      "field": "question",
+      "before": "Given linear α = 7×10^-6 /°C. If a rod of length 1.20 m is heated by ΔT = 40°C, estimate ΔL.",
+      "rendered": "Given linear α = 7×10⁻⁶ /°C. If a rod of length 1.20 m is heated by ΔT = 40°C, estimate ΔL."
+    },
+    {
+      "id": "PHY-115",
+      "field": "explanation",
+      "before": "ΔL = α L0 ΔT = 7e-6 × 1.20 × 40 ≈ 3.36×10^-4 m ≈ 0.34 mm. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 0.34 mm the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "ΔL = α L0 ΔT = 7e-6 × 1.20 × 40 ≈ 3.36×10⁻⁴ m ≈ 0.34 mm. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 0.34 mm the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-116",
+      "field": "question",
+      "before": "If linear α = 7×10^-6 /°C, estimate the volumetric coefficient β ≈ 3α.",
+      "rendered": "If linear α = 7×10⁻⁶ /°C, estimate the volumetric coefficient β ≈ 3α."
+    },
+    {
+      "id": "PHY-116",
+      "field": "option_1",
+      "before": "1.0×10^-5",
+      "rendered": "1.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-116",
+      "field": "option_2",
+      "before": "2.1×10^-5",
+      "rendered": "2.1×10⁻⁵"
+    },
+    {
+      "id": "PHY-116",
+      "field": "option_3",
+      "before": "3.0×10^-5",
+      "rendered": "3.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-116",
+      "field": "option_4",
+      "before": "6.0×10^-5",
+      "rendered": "6.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-116",
+      "field": "explanation",
+      "before": "β ≈ 3α for solids → 3×7×10^-6 = 2.1×10^-5 /°C. The important step is choosing the correct expansion relation and keeping the temperature change and units consistent.",
+      "rendered": "β ≈ 3α for solids → 3×7×10⁻⁶ = 2.1×10⁻⁵ /°C. The important step is choosing the correct expansion relation and keeping the temperature change and units consistent."
+    },
+    {
+      "id": "PHY-121",
+      "field": "question",
+      "before": "For α = 7×10^-6 /°C, a rod of length L0 = 1.20 m heated by ΔT = 40°C changes length by what amount?",
+      "rendered": "For α = 7×10⁻⁶ /°C, a rod of length L0 = 1.20 m heated by ΔT = 40°C changes length by what amount?"
+    },
+    {
+      "id": "PHY-121",
+      "field": "explanation",
+      "before": "ΔL = α L0 ΔT = 7e-6 × 1.20 × 40 ≈ 3.36×10^-4 m ≈ 0.34 mm. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 0.34 mm the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "ΔL = α L0 ΔT = 7e-6 × 1.20 × 40 ≈ 3.36×10⁻⁴ m ≈ 0.34 mm. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 0.34 mm the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-122",
+      "field": "question",
+      "before": "If α = 7×10^-6 /°C, the volumetric coefficient β for the same solid is approximately:",
+      "rendered": "If α = 7×10⁻⁶ /°C, the volumetric coefficient β for the same solid is approximately:"
+    },
+    {
+      "id": "PHY-122",
+      "field": "option_1",
+      "before": "1.0×10^-5",
+      "rendered": "1.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-122",
+      "field": "option_2",
+      "before": "2.1×10^-5",
+      "rendered": "2.1×10⁻⁵"
+    },
+    {
+      "id": "PHY-122",
+      "field": "option_3",
+      "before": "3.0×10^-5",
+      "rendered": "3.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-122",
+      "field": "option_4",
+      "before": "6.0×10^-5",
+      "rendered": "6.0×10⁻⁵"
+    },
+    {
+      "id": "PHY-122",
+      "field": "explanation",
+      "before": "β ≈ 3α for solids → 2.1×10^-5 /°C. The important step is choosing the correct expansion relation and keeping the temperature change and units consistent.",
+      "rendered": "β ≈ 3α for solids → 2.1×10⁻⁵ /°C. The important step is choosing the correct expansion relation and keeping the temperature change and units consistent."
+    },
+    {
+      "id": "PHY-134",
+      "field": "explanation",
+      "before": "Intensity ∝ amplitude^2; doubling amplitude → quadruple intensity. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes Quadruples the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "Intensity ∝ amplitude²; doubling amplitude → quadruple intensity. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes Quadruples the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-142",
+      "field": "question",
+      "before": "A simple telescope has objective focal length 100 cm and eyepiece focal length 25 cm. Its angular magnification is M ≈ f_o / f_e. What is M?",
+      "rendered": "A simple telescope has objective focal length 100 cm and eyepiece focal length 25 cm. Its angular magnification is M ≈ fₒ / fₑ. What is M?"
+    },
+    {
+      "id": "PHY-142",
+      "field": "explanation",
+      "before": "M ≈ f_o / f_e = 100/25 = 4. The correct choice follows from the relevant rule of geometrical optics; the tempting alternatives come from reversing the ray relationship or confusing a related optical phenomenon. Identify what the wave or optical quantity represents before using a formula; distinguish frequency, wavelength, speed, amplitude, and the relevant angle or path.",
+      "rendered": "M ≈ fₒ / fₑ = 100/25 = 4. The correct choice follows from the relevant rule of geometrical optics; the tempting alternatives come from reversing the ray relationship or confusing a related optical phenomenon. Identify what the wave or optical quantity represents before using a formula; distinguish frequency, wavelength, speed, amplitude, and the relevant angle or path."
+    },
+    {
+      "id": "PHY-176",
+      "field": "explanation",
+      "before": "E = k q / r^2. With q = 2×10^-6 C and r = 0.50 m, E = (9×10^9 × 2×10^-6) / (0.50^2) = 72,000 N/C along +x.",
+      "rendered": "E = k q / r². With q = 2×10⁻⁶ C and r = 0.50 m, E = (9×10⁹ × 2×10⁻⁶) / (0.50²) = 72,000 N/C along +x."
+    },
+    {
+      "id": "PHY-177",
+      "field": "question",
+      "before": "A parallel-plate capacitor has plate area A = 0.01 m^2 and plate separation d = 0.005 m. Using ε0 ≈ 8.85×10^-12 F/m, what is its capacitance C?",
+      "rendered": "A parallel-plate capacitor has plate area A = 0.01 m² and plate separation d = 0.005 m. Using ε0 ≈ 8.85×10⁻¹² F/m, what is its capacitance C?"
+    },
+    {
+      "id": "PHY-178",
+      "field": "question",
+      "before": "A cell with EMF E = 1.5 V has an internal resistance r_i = 0.5 Ω and is connected to an external circuit with resistance R = 4 Ω. The current in the circuit is:",
+      "rendered": "A cell with EMF E = 1.5 V has an internal resistance rᵢ = 0.5 Ω and is connected to an external circuit with resistance R = 4 Ω. The current in the circuit is:"
+    },
+    {
+      "id": "PHY-178",
+      "field": "explanation",
+      "before": "I = E/(R + r_i) = 1.5 / (4 + 0.5) = 1.5 / 4.5 = 0.333 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "I = E/(R + rᵢ) = 1.5 / (4 + 0.5) = 1.5 / 4.5 = 0.333 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-179",
+      "field": "question",
+      "before": "A copper wire of length L = 2.0 m has cross-section area A = 0.5 mm^2 and resistivity ρ = 1.7×10^-8 Ωm. Its resistance is:",
+      "rendered": "A copper wire of length L = 2.0 m has cross-section area A = 0.5 mm² and resistivity ρ = 1.7×10⁻⁸ Ωm. Its resistance is:"
+    },
+    {
+      "id": "PHY-180",
+      "field": "explanation",
+      "before": "R_total = 2 + 3 + 5 = 10 Ω; I = V/R = 12/10 = 1.2 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "Rₜₒₜₐₗ = 2 + 3 + 5 = 10 Ω; I = V/R = 12/10 = 1.2 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-181",
+      "field": "explanation",
+      "before": "R_eq = (4×6)/(4+6) = 24/10 = 2.4 Ω; I_total = 12/2.4 = 5 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "R(eq) = (4×6)/(4+6) = 24/10 = 2.4 Ω; Iₜₒₜₐₗ = 12/2.4 = 5 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-186",
+      "field": "explanation",
+      "before": "V_peak = √2 × V_rms ≈ 1.414 × 230 ≈ 327 V. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 327 V the correct answer and shows exactly why the calculation or principle leads to that option.",
+      "rendered": "Vₚₑₐₖ = √2 × Vᵣₘₛ ≈ 1.414 × 230 ≈ 327 V. The main skill tested is identifying the governing physical relationship before substituting the values. The other options do not satisfy the same relationship; they result from using the wrong formula, reversing a ratio, or making an arithmetic or unit-conversion error. This makes 327 V the correct answer and shows exactly why the calculation or principle leads to that option."
+    },
+    {
+      "id": "PHY-187",
+      "field": "question",
+      "before": "In a solution with resistivity ρ = 0.5 Ω m, a path of length L = 0.30 m and cross-section A = 1.0×10^-4 m^2 is used as a conductor. The resistance is R = ρL/A. Which value is correct?",
+      "rendered": "In a solution with resistivity ρ = 0.5 Ω m, a path of length L = 0.30 m and cross-section A = 1.0×10⁻⁴ m² is used as a conductor. The resistance is R = ρL/A. Which value is correct?"
+    },
+    {
+      "id": "PHY-187",
+      "field": "explanation",
+      "before": "R = (0.5×0.30)/(1.0×10^-4) = 0.15/1e-4 = 1500 Ω. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "R = (0.5×0.30)/(1.0×10⁻⁴) = 0.15/1e-4 = 1500 Ω. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-188",
+      "field": "explanation",
+      "before": "B = μ0 N I /(2R) = (4π×10^-7 × 50 × 2) / 0.2 = 6.28×10^-4 T. The result follows from the appropriate magnetic-force or electromagnetic-induction relation, with the number of turns and field geometry included where required. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "B = μ0 N I /(2R) = (4π×10⁻⁷ × 50 × 2) / 0.2 = 6.28×10⁻⁴ T. The result follows from the appropriate magnetic-force or electromagnetic-induction relation, with the number of turns and field geometry included where required. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-191",
+      "field": "explanation",
+      "before": "Vc(t) = V0(1 − e^{−t/RC}) = 10(1 − e^{-1}) ≈ 6.32 V. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "Vc(t) = V0(1 − e⁻ᵗ⁄ᴿᶜ) = 10(1 − e⁻¹) ≈ 6.32 V. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-193",
+      "field": "question",
+      "before": "A 9 V battery has internal resistance r_i = 1 Ω and is connected to a 9 Ω external resistor. The current is:",
+      "rendered": "A 9 V battery has internal resistance rᵢ = 1 Ω and is connected to a 9 Ω external resistor. The current is:"
+    },
+    {
+      "id": "PHY-193",
+      "field": "explanation",
+      "before": "I = E/(R + r_i) = 9/(9 + 1) = 9/10 = 0.9 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "I = E/(R + rᵢ) = 9/(9 + 1) = 9/10 = 0.9 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-199",
+      "field": "question",
+      "before": "The breakdown electric field for air is about 3×10^6 V/m. A capacitor has plate separation d = 2.0 mm. The minimum voltage that will cause breakdown is:",
+      "rendered": "The breakdown electric field for air is about 3×10⁶ V/m. A capacitor has plate separation d = 2.0 mm. The minimum voltage that will cause breakdown is:"
+    },
+    {
+      "id": "PHY-199",
+      "field": "explanation",
+      "before": "V = E d = 3×10^6 × 0.002 = 6×10^3 V = 6 kV. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "V = E d = 3×10⁶ × 0.002 = 6×10³ V = 6 kV. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-201",
+      "field": "question",
+      "before": "A point charge Q = 5.0 microcoulombs is located at the origin. Using k = 9.0e9 N m^2 C^-2, what is the magnitude of the electric field at a distance r = 0.10 m from the charge?",
+      "rendered": "A point charge Q = 5.0 microcoulombs is located at the origin. Using k = 9.0e9 N m² C⁻², what is the magnitude of the electric field at a distance r = 0.10 m from the charge?"
+    },
+    {
+      "id": "PHY-201",
+      "field": "explanation",
+      "before": "E = kQ/r^2 = (9e9)(5e-6)/(0.10)^2 = 4.5e6 N/C. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "E = kQ/r² = (9e9)(5e-6)/(0.10)² = 4.5e6 N/C. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-202",
+      "field": "question",
+      "before": "A parallel-plate capacitor has plate area A = 0.02 m^2 and plate separation d = 0.002 m. The dielectric is air (permittivity ε0 = 8.85e-12 F/m). What is its capacitance C?",
+      "rendered": "A parallel-plate capacitor has plate area A = 0.02 m² and plate separation d = 0.002 m. The dielectric is air (permittivity ε0 = 8.85e-12 F/m). What is its capacitance C?"
+    },
+    {
+      "id": "PHY-205",
+      "field": "explanation",
+      "before": "R_total = 6 + 3 = 9 Ω. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "Rₜₒₜₐₗ = 6 + 3 = 9 Ω. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-206",
+      "field": "explanation",
+      "before": "P = I^2 R = (0.5)^2 × 100 = 25 W. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "P = I² R = (0.5)² × 100 = 25 W. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-210",
+      "field": "explanation",
+      "before": "I_rms = V_rms / R = 120 / 12 = 10 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "Iᵣₘₛ = Vᵣₘₛ / R = 120 / 12 = 10 A. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-211",
+      "field": "explanation",
+      "before": "For charging, Vc(t=τ) = V_final(1 − e^-1) ≈ 0.632 V_final. The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "For charging, Vc(t=τ) = V(final)(1 − e⁻¹) ≈ 0.632 V(final). The calculation must follow the stated circuit arrangement and the appropriate electrical relation, with units kept consistent throughout. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-213",
+      "field": "question",
+      "before": "A loop of area A = 0.05 m^2 is placed in a uniform magnetic field perpendicular to the loop. The field increases at dB/dt = 0.5 T/s. If the loop has N = 1 turn, what is the induced emf magnitude?",
+      "rendered": "A loop of area A = 0.05 m² is placed in a uniform magnetic field perpendicular to the loop. The field increases at dB/dt = 0.5 T/s. If the loop has N = 1 turn, what is the induced emf magnitude?"
+    },
+    {
+      "id": "PHY-215",
+      "field": "question",
+      "before": "In an AC circuit consisting of a resistor, the average power dissipated equals I_rms^2 R. If I_rms = 3 A and R = 50 Ω, what is the power?",
+      "rendered": "In an AC circuit consisting of a resistor, the average power dissipated equals Iᵣₘₛ² R. If Iᵣₘₛ = 3 A and R = 50 Ω, what is the power?"
+    },
+    {
+      "id": "PHY-215",
+      "field": "explanation",
+      "before": "For an AC resistor, average power is P = I_rms²R. Substituting I_rms = 3 A and R = 50 Ω gives P = 3² × 50 = 450 W. The other options would result from failing to square the current or using an inappropriate AC power relation. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable.",
+      "rendered": "For an AC resistor, average power is P = Iᵣₘₛ²R. Substituting Iᵣₘₛ = 3 A and R = 50 Ω gives P = 3² × 50 = 450 W. The other options would result from failing to square the current or using an inappropriate AC power relation. Start from the exact electrical or magnetic relationship named by the question, then substitute the given quantities with their units; direction and sign matter where applicable."
+    },
+    {
+      "id": "PHY-218",
+      "field": "question",
+      "before": "A copper wire 0.5 m long with cross-sectional area 0.5 mm^2 has resistivity ρ ≈ 1.7e-8 Ω m. What is its resistance?",
+      "rendered": "A copper wire 0.5 m long with cross-sectional area 0.5 mm² has resistivity ρ ≈ 1.7e-8 Ω m. What is its resistance?"
+    },
+    {
+      "id": "PHY-223",
+      "field": "question",
+      "before": "For a resistor in an AC circuit, the average power is P = I_rms^2 R. If I_rms = 3 A and R = 50 Ω, what is P?",
+      "rendered": "For a resistor in an AC circuit, the average power is P = Iᵣₘₛ² R. If Iᵣₘₛ = 3 A and R = 50 Ω, what is P?"
+    },
+    {
+      "id": "PHY-237",
+      "field": "explanation",
+      "before": "The radioactive decay law is A = A₀(1/2)^(t/T½). With A₀ = 800 Bq, t = 12 and T½ = 4, there are three half-lives, so A = 800(1/2)³ = 800/8 = 100 Bq. The other values correspond to using the wrong number of half-lives or decay factor. The key is to connect the physical observation to the correct model or device principle rather than memorising the answer choice alone.",
+      "rendered": "The radioactive decay law is A = A₀(1/2)⁽ᵗ⁄ᵀ½⁾. With A₀ = 800 Bq, t = 12 and T½ = 4, there are three half-lives, so A = 800(1/2)³ = 800/8 = 100 Bq. The other values correspond to using the wrong number of half-lives or decay factor. The key is to connect the physical observation to the correct model or device principle rather than memorising the answer choice alone."
+    },
+    {
+      "id": "PHY-245",
+      "field": "question",
+      "before": "A photon has frequency 6.0 × 10^14 Hz. Using h = 6.63 × 10^-34 J·s, the photon energy E = hf is approximately",
+      "rendered": "A photon has frequency 6.0 × 10¹⁴ Hz. Using h = 6.63 × 10⁻³⁴ J·s, the photon energy E = hf is approximately"
+    },
+    {
+      "id": "PHY-245",
+      "field": "option_1",
+      "before": "3.98 × 10^-19 J",
+      "rendered": "3.98 × 10⁻¹⁹ J"
+    },
+    {
+      "id": "PHY-245",
+      "field": "option_2",
+      "before": "6.63 × 10^-20 J",
+      "rendered": "6.63 × 10⁻²⁰ J"
+    },
+    {
+      "id": "PHY-245",
+      "field": "option_3",
+      "before": "1.26 × 10^-16 J",
+      "rendered": "1.26 × 10⁻¹⁶ J"
+    },
+    {
+      "id": "PHY-245",
+      "field": "option_4",
+      "before": "2.00 × 10^-19 J",
+      "rendered": "2.00 × 10⁻¹⁹ J"
+    },
+    {
+      "id": "PHY-246",
+      "field": "option_1",
+      "before": "4.0 × 10^-17 J",
+      "rendered": "4.0 × 10⁻¹⁷ J"
+    },
+    {
+      "id": "PHY-246",
+      "field": "option_2",
+      "before": "3.2 × 10^-17 J",
+      "rendered": "3.2 × 10⁻¹⁷ J"
+    },
+    {
+      "id": "PHY-246",
+      "field": "option_3",
+      "before": "1.6 × 10^-19 J",
+      "rendered": "1.6 × 10⁻¹⁹ J"
+    },
+    {
+      "id": "PHY-246",
+      "field": "option_4",
+      "before": "2.0 × 10^-20 J",
+      "rendered": "2.0 × 10⁻²⁰ J"
+    }
+  ],
+  "unresolved": []
+}

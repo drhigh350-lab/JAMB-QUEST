@@ -8,9 +8,9 @@ describe("uploaded explanation batches 2 through 7 plus the clean batch-nine mod
     const offlinePack = readFileSync("client/src/lib/offlineStudyPack.ts", "utf8");
     const worker = readFileSync("client/public/sw.js", "utf8");
 
-    expect(QUESTION_BANK_URL).toContain("jamb_high_yield_practice_bank_1000_explanations_batches2_7_plus_batch9_model_v3_rectified_167c6b81.json");
-    expect(offlinePack).toContain("jamb-quest-study-pack-v8");
-    expect(worker).toContain("jamb-quest-study-pack-v8");
+    expect(QUESTION_BANK_URL).toContain("jamb_high_yield_practice_bank_1000_model_v4_english_instructions_6e499bc7.json");
+    expect(offlinePack).toContain("jamb-quest-study-pack-v9");
+    expect(worker).toContain("jamb-quest-study-pack-v9");
   });
 
   it("keeps rich supplied explanations free of the generic fallback ending", () => {

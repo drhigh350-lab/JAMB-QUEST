@@ -10,6 +10,13 @@ describe("learner text formatting", () => {
     expect(formatLearnerText("(x + y)^2 while a^n remains symbolic.")).toBe("(x + y)² while a^n remains symbolic.");
   });
 
+  it("renders common Physics variables and grouped exponents without raw underscore or caret notation", () => {
+    expect(formatLearnerText("I_rms = V_rms / R and Vc(t=τ) = V_final(1 − e^-1).")).toBe("Iᵣₘₛ = Vᵣₘₛ / R and Vc(t=τ) = V(final)(1 − e⁻¹).");
+    expect(formatLearnerText("A = A₀(1/2)^(t/T½) and e^{−t/RC}.")).toBe("A = A₀(1/2)⁽ᵗ⁄ᵀ½⁾ and e⁻ᵗ⁄ᴿᶜ.");
+    expect(formatLearnerText("ρ_object / μ_s = f_max")).toBe("ρ(object) / μₛ = fₘₐₓ");
+    expect(formatLearnerText("A = A₀(1/2)^(t/T½).")).toBe("A = A₀(1/2)⁽ᵗ⁄ᵀ½⁾.");
+  });
+
   it("keeps already-formatted and unavailable text safe", () => {
     expect(formatLearnerText("F⁶")).toBe("F⁶");
     expect(formatLearnerText(undefined)).toBe("");

@@ -28,6 +28,15 @@ const subscriptCharacters: Record<string, string> = {
   "-": "₋",
 };
 
+const subscriptLetters: Record<string, string> = {
+  a: "ₐ", e: "ₑ", h: "ₕ", i: "ᵢ", j: "ⱼ", k: "ₖ", l: "ₗ", m: "ₘ", n: "ₙ", o: "ₒ", p: "ₚ", r: "ᵣ", s: "ₛ", t: "ₜ", u: "ᵤ", v: "ᵥ", x: "ₓ",
+};
+
+const groupedSuperscriptCharacters: Record<string, string> = {
+  ...superscriptCharacters,
+  "(": "⁽", ")": "⁾", "/": "⁄", t: "ᵗ", T: "ᵀ", R: "ᴿ", C: "ᶜ", "½": "½", "−": "⁻",
+};
+
 const latexSymbols: Record<string, string> = {
   alpha: "α",
   beta: "β",
@@ -69,6 +78,16 @@ function unicodeExponent(value: string, symbols: Record<string, string>): string
   return Array.from(value).map((character) => symbols[character] ?? character).join("");
 }
 
+function unicodeIfFullyKnown(value: string, symbols: Record<string, string>) {
+  const characters = Array.from(value);
+  return characters.every((character) => symbols[character]) ? unicodeExponent(value, symbols) : value;
+}
+
+function unicodeSubscriptLetters(value: string) {
+  const rendered = unicodeIfFullyKnown(value, subscriptLetters);
+  return rendered === value ? `(${value})` : rendered;
+}
+
 /**
  * Converts common source LaTeX into readable plain Unicode. It intentionally
  * does not interpret equations or change the stored question source.
@@ -81,6 +100,7 @@ function formatCommonLatex(value: string): string {
     .replace(/\\(?:text|textrm|mathrm|mathbf|mathit|operatorname)\{([^{}]*)\}/g, "$1")
     .replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, "$1/$2")
     .replace(/\\sqrt\{([^{}]*)\}/g, "√($1)")
+    .replace(/\^\{([^{}]+)\}/g, (_match, exponent: string) => unicodeIfFullyKnown(exponent, groupedSuperscriptCharacters))
     .replace(/\\(?:left|right)\b\s*/g, "")
     .replace(/\\[,!;:\s]+/g, " ")
     .replace(/\^\{\\(?:circ|degree)\}|\^\\(?:circ|degree)/g, "°")
@@ -95,6 +115,12 @@ function formatCommonLatex(value: string): string {
     ))
     .replace(/([A-Za-z0-9)\]])_\{?([0-9+-]+)\}?/g, (_match, base: string, subscript: string) => (
       `${base}${unicodeExponent(subscript, subscriptCharacters)}`
+    ))
+    .replace(/([A-Za-z\u0370-\u03FF])_([A-Za-z]+)\b/g, (_match, base: string, subscript: string) => (
+      `${base}${unicodeSubscriptLetters(subscript)}`
+    ))
+    .replace(/\^\(([^()]+)\)/g, (_match, exponent: string) => (
+      unicodeIfFullyKnown(`(${exponent})`, groupedSuperscriptCharacters)
     ));
 
   return formatted.replace(/\s{2,}/g, " ").trim();

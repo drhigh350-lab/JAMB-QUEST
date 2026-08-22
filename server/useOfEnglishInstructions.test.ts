@@ -21,6 +21,13 @@ describe("Use of English instruction policy", () => {
     expect(withUseOfEnglishInstruction("Comprehension passages", prompt)).toEqual({ instruction: "", questionText: prompt, changed: false });
   });
 
+  it("uses type-specific directions for legacy model reading, grammar, lexis, and oral-form prompts", () => {
+    expect(withUseOfEnglishInstruction("Comprehension and summary", "Excerpt: 'Rain fell.' What is the main idea?").instruction).toBe("Read the passage or excerpt carefully and choose the option that best answers the question.");
+    expect(withUseOfEnglishInstruction("Grammar and sentence structure", "Neither Ada nor Musa _____ ready.").instruction).toBe("Choose the option that correctly completes or improves the sentence.");
+    expect(withUseOfEnglishInstruction("Lexis and idioms", "What does the expression mean?").instruction).toBe("Choose the option that best explains the word, expression, or usage in the question.");
+    expect(withUseOfEnglishInstruction("Oral forms", "Which word rhymes with sight?").instruction).toBe("Choose the option with the required sound relationship.");
+  });
+
   it("is idempotent for a prompt that already gives a clear instruction", () => {
     const prompt = "Choose the option opposite in meaning to the key word in the sentence.\n\nThe road is accessible to vehicles.";
     expect(withUseOfEnglishInstruction("Antonyms", prompt)).toEqual({ instruction: "", questionText: prompt, changed: false });

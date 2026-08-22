@@ -14,6 +14,7 @@ export function useOfEnglishInstruction(topic: string, questionText: string) {
   if (startsWithExplicitInstruction(prompt)) return "";
   if (topic === "Synonyms") return "Choose the option nearest in meaning to the key word or expression in the sentence.";
   if (topic === "Antonyms") return "Choose the option opposite in meaning to the key word or expression in the sentence.";
+  if (topic === "Lexis and idioms") return "Choose the option that best explains the word, expression, or usage in the question.";
   if (topic === "Sentence meaning" || value.includes("sentence interpretation") || value.includes("idiom")) return "Choose the option that best explains the expression in the sentence.";
   if (topic === "Cloze passages" || prompt.includes("______")) return "Choose the option that best completes the gap in the sentence or passage.";
   if (topic === "Mechanics") {
@@ -27,6 +28,15 @@ export function useOfEnglishInstruction(topic: string, questionText: string) {
   if (topic === "Word stress") return "Choose the option that correctly identifies the stressed syllable.";
   if (topic === "Emphatic stress") return "Choose the option that states the meaning conveyed by the stressed word.";
   if (topic === "Comprehension passages") return "Read the passage carefully and choose the option best supported by it.";
+  if (topic === "Comprehension and summary" || topic === "Original reading-text skills") return "Read the passage or excerpt carefully and choose the option that best answers the question.";
+  if (topic === "Grammar and sentence structure") return "Choose the option that correctly completes or improves the sentence.";
+  if (topic === "Oral forms") {
+    if (/vowel/i.test(value)) return "Choose the option with the required vowel sound.";
+    if (/consonant/i.test(value)) return "Choose the option with the required consonant sound.";
+    if (/stress|syllable/i.test(value)) return "Choose the option that correctly identifies the stressed syllable.";
+    if (/rhyme|homophone/i.test(value)) return "Choose the option with the required sound relationship.";
+    return "Choose the option that correctly answers the oral English question.";
+  }
   return "Choose the option that best completes or correctly answers the question.";
 }
 
