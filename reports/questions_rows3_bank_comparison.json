@@ -1,0 +1,262 @@
+{
+  "csvRows": 3912,
+  "bankTotal": 5849,
+  "exactStemMatches": 1539,
+  "ambiguousStemMatches": 2,
+  "unmatchedLikelyNew": 2371,
+  "newBySubject": {
+    "Biology": 1177,
+    "Chemistry": 139,
+    "Mathematics": 75,
+    "Physics": 796,
+    "Use of English": 184
+  },
+  "bankBySubject": {
+    "Biology": 1405,
+    "Chemistry": 2064,
+    "Physics": 1025,
+    "Use of English": 1355
+  },
+  "matchedExamples": [
+    {
+      "csvId": "biology_0025",
+      "bankId": "authorised-960001",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0033",
+      "bankId": "authorised-150227",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0034",
+      "bankId": "authorised-960002",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0036",
+      "bankId": "authorised-960003",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0038",
+      "bankId": "authorised-960004",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0060",
+      "bankId": "authorised-960005",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0071",
+      "bankId": "authorised-90122",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0091",
+      "bankId": "authorised-960006",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0100",
+      "bankId": "authorised-150220",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0105",
+      "bankId": "authorised-30032",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0111",
+      "bankId": "authorised-960007",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0119",
+      "bankId": "authorised-960008",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0125",
+      "bankId": "authorised-960009",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0142",
+      "bankId": "authorised-960010",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0145",
+      "bankId": "authorised-150230",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0150",
+      "bankId": "authorised-960011",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0157",
+      "bankId": "authorised-960012",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0164",
+      "bankId": "authorised-960013",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0165",
+      "bankId": "authorised-960014",
+      "subject": "Biology"
+    },
+    {
+      "csvId": "biology_0180",
+      "bankId": "authorised-960015",
+      "subject": "Biology"
+    }
+  ],
+  "ambiguousExamples": [
+    {
+      "csvId": "biology_0772",
+      "subject": "Biology",
+      "matches": [
+        "authorised-30056",
+        "authorised-90060"
+      ]
+    },
+    {
+      "csvId": "chemistry_0128",
+      "subject": "Chemistry",
+      "matches": [
+        "authorised-900030",
+        "authorised-960137"
+      ]
+    }
+  ],
+  "newExamples": [
+    {
+      "csvId": "biology_0001",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "Which of the following is NOT a characteristic that distinguishes living from non-living things?"
+    },
+    {
+      "csvId": "biology_0002",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "The cell organelle responsible for the synthesis of proteins in both plant and animal cells is the"
+    },
+    {
+      "csvId": "biology_0003",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "A student observes a cell with a large permanent vacuole, a cellulose cell wall, and chloroplasts. The cell is most likely from"
+    },
+    {
+      "csvId": "biology_0004",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "Which level of organisation is represented by the human stomach?"
+    },
+    {
+      "csvId": "biology_0005",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "The powerhouse of the cell, responsible for the production of ATP via aerobic respiration, is the"
+    },
+    {
+      "csvId": "biology_0006",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "In a plant cell, the organelle that maintains turgor pressure and helps in osmoregulation is the"
+    },
+    {
+      "csvId": "biology_0007",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "Which of the following correctly represents the hierarchy of biological organisation from the simplest to the most complex?"
+    },
+    {
+      "csvId": "biology_0008",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "The control centre of a cell, containing the genetic material (DNA), is the"
+    },
+    {
+      "csvId": "biology_0009",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "Which of the following structures is found in animal cells but NOT in plant cells?"
+    },
+    {
+      "csvId": "biology_0010",
+      "subject": "Biology",
+      "topic": "Living organisms",
+      "stem": "Hydra is used as an example of organisation at the tissue level because"
+    },
+    {
+      "csvId": "biology_0011",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "Blue-green algae are classified under Monera because they"
+    },
+    {
+      "csvId": "biology_0012",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "Euglena is classified as a Protist because it"
+    },
+    {
+      "csvId": "biology_0013",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "The cell wall of fungi is composed of"
+    },
+    {
+      "csvId": "biology_0014",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "Which of the following plants shows the most advanced adaptation to terrestrial life?"
+    },
+    {
+      "csvId": "biology_0015",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "The feature that distinguishes Bryophytes from Pteridophytes is that Bryophytes"
+    },
+    {
+      "csvId": "biology_0016",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "An organism that has jointed appendages, an exoskeleton, and a segmented body belongs to the phylum"
+    },
+    {
+      "csvId": "biology_0017",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "Taenia (tapeworm) belongs to the phylum"
+    },
+    {
+      "csvId": "biology_0018",
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "stem": "The economic importance of the mosquito includes its role as"
+    },
+    {
+      "csvId": "biology_0019",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "Which of the following vertebrates is characterised by a three-chambered heart and moist, scaleless skin?"
+    },
+    {
+      "csvId": "biology_0020",
+      "subject": "Biology",
+      "topic": "Evolution among organisms",
+      "stem": "The primary difference between cartilaginous and bony fish is that cartilaginous fish"
+    }
+  ]
+}

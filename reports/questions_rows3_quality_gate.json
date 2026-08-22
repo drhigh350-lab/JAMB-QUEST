@@ -1,0 +1,928 @@
+{
+  "rowCount": 3912,
+  "cleanCount": 3755,
+  "flaggedCount": 157,
+  "flagsByType": {
+    "raw_latex": 63,
+    "options_not_four": 44,
+    "invalid_correct_option": 4,
+    "unsupported_subject": 75,
+    "generic_template": 1
+  },
+  "cleanBySubject": {
+    "Biology": 1321,
+    "Chemistry": 1207,
+    "Physics": 855,
+    "Use of English": 372
+  },
+  "flaggedExamples": [
+    {
+      "id": "biology_0240",
+      "subject": "Biology",
+      "topic": "The ecology of populations",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "In a field experiment, the frequency of water leaf was observed to be 48 after 20 tosses of a 2m\\(^2\\) quadrat. What is the density of the plants in the field?"
+    },
+    {
+      "id": "biology_0397",
+      "subject": "Biology",
+      "topic": "The ecology of populations",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The population density of Tridex in an abandoned square farm land of side 200 m was found to be 5 plants per m\\(^2\\). The population size of the plant on the farm is"
+    },
+    {
+      "id": "chemistry_0201",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "X is crystalline salt of sodium. Solution of X in water turns litmus red, produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilute hydrochloric acid. X is"
+    },
+    {
+      "id": "chemistry_0202",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The alkanol obtained from the production of soap is"
+    },
+    {
+      "id": "chemistry_0203",
+      "subject": "Chemistry",
+      "topic": "Chemistry and Industry",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The flame used by welders in cutting metals is"
+    },
+    {
+      "id": "chemistry_0204",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Consecutive members of an alkane homologous series differ by"
+    },
+    {
+      "id": "chemistry_0205",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "If an element has the electronic configuration 1s2 2s2 2p6 3s2 3p2, it is"
+    },
+    {
+      "id": "chemistry_0206",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Some copper (II) sulphate pentahydrate (CuSO4.5H2O), was heated at 120°C with the following results: Wt of crucible = 10.00 g; Wt of crucible + CuSO4.5H2O = 14.98g; Wt of crucible + residue = 13.54g. How many molecules of water of crystallization were lost? [H=1, Cu=63.5, O=16, S=32]"
+    },
+    {
+      "id": "chemistry_0207",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The three-dimensional shape of methane is"
+    },
+    {
+      "id": "chemistry_0208",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Questions 8-10 are based on the following: An unknown organic compound X has a relative molecular mass of 180. It is a colourless crystalline solid, readily soluble in water. X contains the element C, H, and O in the atomic ratio 1:2:1. The compound has a sweet taste and melts on heating. In the presence of yeast and in the absence of air X is converted to compound Y and a colourless gas. Compound Y reacts with sodium metal to produce a gas Z which gives a 'pop' sound with a glowing splint. Y also reacts with ethanoic acid to give a sweet-smelling compound W. Compound W is"
+    },
+    {
+      "id": "chemistry_0209",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The molecular formula of X is"
+    },
+    {
+      "id": "chemistry_0210",
+      "subject": "Chemistry",
+      "topic": "Chemistry and Industry",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Reaction of X with yeast forms the basis of the"
+    },
+    {
+      "id": "chemistry_0211",
+      "subject": "Chemistry",
+      "topic": "Separation of mixtures and purification of chemical substances",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "A mixture of common salt, ammonium chloride and barium sulphate can best be separated by"
+    },
+    {
+      "id": "chemistry_0212",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following relationships between the pressure P, the volume V and the temperature T, represents an ideal gas behaviour?"
+    },
+    {
+      "id": "chemistry_0213",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The colour imparted to a flame by calcium ion is"
+    },
+    {
+      "id": "chemistry_0214",
+      "subject": "Chemistry",
+      "topic": "Oxidation and reduction",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "In which of the following processes is iron being oxidized? 1. Fe + H2SO4 → H2 + FeSO4  2. FeSO4 + H2S → FeS + H2SO4  3. FeCl2 + Cl2 → 2FeCl3  4. FeCl3 + SnCl2 → 2FeCl2 + SnCl4"
+    },
+    {
+      "id": "chemistry_0215",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "flags": [
+        "options_not_four",
+        "invalid_correct_option"
+      ],
+      "stem": "In the reaction Fe + Cu2+ → Fe2+ + Cu, iron displaces copper ions to form copper. This is due to the fact that"
+    },
+    {
+      "id": "chemistry_0216",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "How many isomeric forms are there for the molecular formula C3H6Br2?"
+    },
+    {
+      "id": "chemistry_0217",
+      "subject": "Chemistry",
+      "topic": "Non-metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "A piece of burning sulphur will continue to burn in a gas jar of oxygen to give misty fumes which readily dissolve in water. The resulting liquid is"
+    },
+    {
+      "id": "chemistry_0218",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Sodium decahydrate (Na2SO4.10H2O) on exposure to air loses all its water of crystallization. The process of loss is known as"
+    },
+    {
+      "id": "chemistry_0219",
+      "subject": "Chemistry",
+      "topic": "Electrolysis",
+      "flags": [
+        "options_not_four",
+        "invalid_correct_option"
+      ],
+      "stem": "Which of the following happens during the electrolysis of molten sodium chloride?"
+    },
+    {
+      "id": "chemistry_0220",
+      "subject": "Chemistry",
+      "topic": "Environmental Pollution",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Crude petroleum pollutant usually seen on some Nigerian creeks and waterways can be dispersed or removed by"
+    },
+    {
+      "id": "chemistry_0221",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "An element is electronegative if"
+    },
+    {
+      "id": "chemistry_0222",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four",
+        "invalid_correct_option"
+      ],
+      "stem": "Solutions X, Y, and Z have pH values 3.0, 5.0 and 9.0 respectively. Which of the following statements is correct?"
+    },
+    {
+      "id": "chemistry_0223",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "In the reactions (1) H2(g) + 1/2O2(g) → H2O(l); ΔH = -286kJ, and (2) C(s) + O2(g) → CO2(g); ΔH = -406kJ, the equations imply that"
+    },
+    {
+      "id": "chemistry_0224",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of these metals, Mg, Fe, Pb, and Cu will dissolve in dilute HCl?"
+    },
+    {
+      "id": "chemistry_0225",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Stainless steel is an alloy of"
+    },
+    {
+      "id": "chemistry_0226",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "What volume of 0.50 M H2SO4 will exactly neutralize 20cm3 of 0.1 M NaOH solution?"
+    },
+    {
+      "id": "chemistry_0227",
+      "subject": "Chemistry",
+      "topic": "Non-metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following pairs of gases will NOT react further with oxygen at a temperature between 30°C and 400°C?"
+    },
+    {
+      "id": "chemistry_0228",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "In the preparation of some pure crystals of Cu(NO3)2 starting with CuO, a student gave the following statements as steps he employed. Which of these shows a flaw in his report? A) Some CuO was reacted with excess dilute H2SO4; B) The solution was concentrated; C) When the concentrate was cooled, crystals formed were removed by filtration; D) The crystals were washed with very cold water; E) The crystals were then allowed to dry."
+    },
+    {
+      "id": "chemistry_0229",
+      "subject": "Chemistry",
+      "topic": "Organic Compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following separation processes is most likely to yield high quality ethanol (>95%) from palm wine?"
+    },
+    {
+      "id": "chemistry_0230",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Increasing the pressure of a gas"
+    },
+    {
+      "id": "chemistry_0231",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "A jet plane carrying 3,000 kg of ethane burns off all the gas forming water and carbon dioxide. If all the carbon dioxide is expelled and the water formed is condensed and kept on board the plane, then the gain in weight is"
+    },
+    {
+      "id": "chemistry_0232",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Liquid X reacts with sodium trioxocarbonate (IV) (Na2CO3) to give a gas which turns lime water milky. X is"
+    },
+    {
+      "id": "chemistry_0233",
+      "subject": "Chemistry",
+      "topic": "Metals and their compounds",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following statements is FALSE? A) Copper (II) ion can be reduced to copper (I) ion by hydrochloric acid and zinc; B) Sodium metal dissolves in water giving oxygen; C) Nitrogen is insoluble in water; D) Carbon dioxide is soluble in water; E) Lead has a higher atomic weight than copper"
+    },
+    {
+      "id": "chemistry_0234",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "When sodium dioxonitrate (III) (NaNO2) dissolves in water, the process is"
+    },
+    {
+      "id": "chemistry_0235",
+      "subject": "Chemistry",
+      "topic": "Rates of Chemical Reaction",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Zn + H2SO4 → ZnSO4 + H2. The rate of the above reaction will be greatly increased if"
+    },
+    {
+      "id": "chemistry_0236",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Zn + H2SO4 → ZnSO4 + H2. In the above reaction how much zinc will be left undissolved if 2.00 g of zinc is treated with 10cm3 of 1.0 M of H2SO4? [Zn=65, S=32, O=16, H=1]"
+    },
+    {
+      "id": "chemistry_0237",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "30cm3 of 0.1 M Al(NO3)3 solution is reacted with 100cm3 of 0.15M NaOH solution. Which is in excess and by how much?"
+    },
+    {
+      "id": "chemistry_0238",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "2.5 g of a hydrated barium salt gave on heating, 2.13 g of the anhydrous salt. Given that the relative molecular mass of the anhydrous salt is 208, the number of molecules of water of crystallization of the barium salt is"
+    },
+    {
+      "id": "chemistry_0239",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "3.06 g of a sample of potassium trioxochlorate (V) (KClO3) was required to make a saturated solution with 10cm3 of water at 25°C. The solubility of the salt at 25°C is [K=39, Cl=35.5, O=16]"
+    },
+    {
+      "id": "chemistry_0240",
+      "subject": "Chemistry",
+      "topic": "Chemistry and Industry",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The cracking process is very important in the petroleum industry because it"
+    },
+    {
+      "id": "chemistry_0241",
+      "subject": "Chemistry",
+      "topic": "Oxidation and reduction",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "A gas that can behave as a reducing agent towards chlorine and as an oxidizing agent towards hydrogen sulphide is"
+    },
+    {
+      "id": "chemistry_0242",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following solutions will give a white precipitate with barium chloride solution and a green flame test?"
+    },
+    {
+      "id": "chemistry_0243",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "The mass of an atom is determined by"
+    },
+    {
+      "id": "chemistry_0244",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "flags": [
+        "options_not_four",
+        "invalid_correct_option"
+      ],
+      "stem": "Which of the following is a neutralization reaction? A) Addition of chloride solution; B) Addition of trioxonitrate (V) acid (nitric acid) to distilled water; C) Addition of trioxonitrate (V) acid (nitric acid) to tetraoxosulphate (VI) acid (sulphuric acid); D) Addition of trioxonitrate (V) (potassium nitrate) solution; E) Addition of trioxonitrate (V) acid (nitric acid) to potassium hydroxide solution"
+    },
+    {
+      "id": "chemistry_066eb7",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The quantum number that specifies the orientation of an orbital in space is the"
+    },
+    {
+      "id": "chemistry_29facf",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The molecular geometry of the boron trifluoride ($BF_3$) molecule is"
+    },
+    {
+      "id": "chemistry_2b7010",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "What is the concentration in mol dm⁻³ of a solution prepared by dissolving 2.0 g of NaOH in 250 cm³ of distilled water? [Na = 23, O = 16, H = 1]"
+    },
+    {
+      "id": "chemistry_2e4260",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Under constant temperature, if the pressure of a given mass of gas is doubled, its volume will be"
+    },
+    {
+      "id": "chemistry_3750eb",
+      "subject": "Chemistry",
+      "topic": "Electrolysis",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The substance deposited at the cathode during the electrolysis of molten lead(II) bromide using inert graphite electrodes is"
+    },
+    {
+      "id": "chemistry_4194d6",
+      "subject": "Chemistry",
+      "topic": "Electrolysis",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "What current in amperes is required to deposit 1.28 g of copper from a $CuSO_4$ solution in 30 minutes? [Cu = 64, 1 F = 96500 C]"
+    },
+    {
+      "id": "chemistry_72dff1",
+      "subject": "Chemistry",
+      "topic": "Chemical combination",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Calculate the volume of carbon(IV) oxide gas evolved at s.t.p. when 5.0 g of calcium trioxocarbonate(IV) reacts with excess dilute hydrochloric acid. [Ca = 40, C = 12, O = 16, Molar volume of gas at s.t.p. = 22.4 dm³]"
+    },
+    {
+      "id": "chemistry_8321cd",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "An element X has an atomic number of 12 and mass number of 24. How many electrons are in its divalent cation ($X^{2+}$)?"
+    },
+    {
+      "id": "chemistry_836425",
+      "subject": "Chemistry",
+      "topic": "Electrolysis",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "How many faradays of electricity will deposit 0.25 mole of aluminium from molten aluminium oxide during electrolysis?"
+    },
+    {
+      "id": "chemistry_83a145",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Equal volumes of gas A and gas B diffuse through a pinhole in 30 seconds and 60 seconds respectively. If the relative molecular mass of A is 16, what is the relative molecular mass of B?"
+    },
+    {
+      "id": "chemistry_85503f",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Under constant pressure, the volume of a fixed mass of gas at 27°C is 300 cm³. What is its volume at 127°C?"
+    },
+    {
+      "id": "chemistry_864d28",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "According to Graham's law of diffusion, the rate of diffusion of a gas is inversely proportional to the square root of its"
+    },
+    {
+      "id": "chemistry_94eb7a",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Which of the following compounds has non-polar covalent bonds?"
+    },
+    {
+      "id": "chemistry_b2d4ed",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Which of the following compounds contains ionic, covalent, and dative covalent bonds?"
+    },
+    {
+      "id": "chemistry_c96ae8",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Calculate the mass of anhydrous sodium trioxocarbonate(IV) required to prepare 250 cm³ of a 0.1 mol dm⁻³ solution. [Na = 23, C = 12, O = 16]"
+    },
+    {
+      "id": "chemistry_e6068a",
+      "subject": "Chemistry",
+      "topic": "Oxidation and reduction",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "What is the oxidation number of chlorine in potassium trioxochlorate(V), KClO3?"
+    },
+    {
+      "id": "chemistry_fff976",
+      "subject": "Chemistry",
+      "topic": "Oxidation and reduction",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The oxidation number of chromium in the dichromate ion ($Cr_2O_7^{2-}$) is"
+    },
+    {
+      "id": "mathematics_0001",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Convert 110101₂ to base 10."
+    },
+    {
+      "id": "mathematics_0002",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Convert 58 (base 10) to base 2."
+    },
+    {
+      "id": "mathematics_0003",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate 235₈ (base eight) in base ten."
+    },
+    {
+      "id": "mathematics_0004",
+      "subject": "Mathematics",
+      "topic": "Indices",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Simplify (2³ × 2⁴) ÷ 2⁵."
+    },
+    {
+      "id": "mathematics_0005",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If log₂8 = x, find x."
+    },
+    {
+      "id": "mathematics_0006",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate log₁₀100 + log₁₀10."
+    },
+    {
+      "id": "mathematics_0007",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If x + y = 10 and x − y = 2, find the value of x."
+    },
+    {
+      "id": "mathematics_0008",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Given 2x + 3y = 12 and x − y = 1, find the value of y."
+    },
+    {
+      "id": "mathematics_0009",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If 3x − y = 7 and x + y = 5, find the value of xy."
+    },
+    {
+      "id": "mathematics_0010",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Solve the equation x² − 5x + 6 = 0."
+    },
+    {
+      "id": "mathematics_0011",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the positive root of x² − 2x − 15 = 0."
+    },
+    {
+      "id": "mathematics_0012",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "For the equation x² − 7x + 12 = 0, what is the product of its roots?"
+    },
+    {
+      "id": "mathematics_0013",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the simple interest on ₦20,000 for 3 years at 5% per annum."
+    },
+    {
+      "id": "mathematics_0014",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A trader increases the price of an item from ₦4,000 to ₦4,800. Find the percentage increase."
+    },
+    {
+      "id": "mathematics_0015",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A sum of money amounts to ₦33,000 after 2 years at 10% per annum simple interest. Find the principal."
+    },
+    {
+      "id": "mathematics_0016",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the area of a rectangle with length 12 cm and width 7 cm."
+    },
+    {
+      "id": "mathematics_0017",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the circumference of a circle of radius 7 cm. (Take π = 22/7)"
+    },
+    {
+      "id": "mathematics_0018",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A cuboid has length 5 cm, width 4 cm, and height 3 cm. Find its volume."
+    },
+    {
+      "id": "mathematics_0019",
+      "subject": "Mathematics",
+      "topic": "Trigonometric ratios",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "In a right-angled triangle, the side opposite angle θ is 3 cm and the hypotenuse is 5 cm. Find sin θ."
+    },
+    {
+      "id": "mathematics_0020",
+      "subject": "Mathematics",
+      "topic": "Heights and distances",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A ladder 10 m long leans against a wall, making an angle of 60° with the ground. Find the height it reaches on the wall. (sin 60° ≈ 0.866)"
+    },
+    {
+      "id": "mathematics_0021",
+      "subject": "Mathematics",
+      "topic": "Trigonometric ratios",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the value of tan 45°."
+    },
+    {
+      "id": "mathematics_0022",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the mean of the numbers 4, 8, 6, 10, 12."
+    },
+    {
+      "id": "mathematics_0023",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the median of the numbers 7, 3, 9, 5, 11, 1."
+    },
+    {
+      "id": "mathematics_0024",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the mode of the data set: 2, 4, 4, 5, 6, 4, 7, 5."
+    },
+    {
+      "id": "mathematics_0025",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A bag contains 5 red balls and 3 blue balls. Find the probability of picking a red ball at random."
+    },
+    {
+      "id": "mathematics_0026",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A fair die is rolled once. Find the probability of obtaining a number greater than 4."
+    },
+    {
+      "id": "mathematics_0027",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Two fair coins are tossed together. Find the probability of getting exactly one head."
+    },
+    {
+      "id": "mathematics_0028",
+      "subject": "Mathematics",
+      "topic": "Arithmetic progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the 10th term of the arithmetic progression 3, 7, 11, 15, ..."
+    },
+    {
+      "id": "mathematics_0029",
+      "subject": "Mathematics",
+      "topic": "Arithmetic progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the sum of the first 8 terms of the arithmetic progression 2, 5, 8, 11, ..."
+    },
+    {
+      "id": "mathematics_0030",
+      "subject": "Mathematics",
+      "topic": "Geometric progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "The first term of a geometric progression is 3 and the common ratio is 2. Find the 5th term."
+    },
+    {
+      "id": "mathematics_0031",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If U = {x : x is an integer and 1 \\(\\leq\\) x \\(\\leq\\) 20} E\\(_1\\) = {x : x is a multiple of 3} E\\(_2\\) = {x : x is a multiple of 4} and an integer is picked at random from U, find the probability that it is not in E\\(_2\\)"
+    },
+    {
+      "id": "mathematics_0032",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate 5-\\(^{3log_52}\\) x 2\\(^{2log_23}\\)"
+    },
+    {
+      "id": "mathematics_0033",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Audu bought an article for N50,000 and sold it to Femi at a loss of x%. Femi later sold the article to Oche at a profit of 40%. If Femi made a profit of N10,000, find the value of x."
+    },
+    {
+      "id": "mathematics_0034",
+      "subject": "Mathematics",
+      "topic": "Binary operations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the inverse of p under the binary operation * defined by p*q = p + q - pq, where p and q are real numbers and zero is the identity"
+    },
+    {
+      "id": "mathematics_0035",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If α and β are the roots of the equation 3x\\(^2\\) + 5x - 2 = 0, find the value of 1/α + 1/β"
+    },
+    {
+      "id": "mathematics_0036",
+      "subject": "Mathematics",
+      "topic": "Coordinate geometry",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "3y = 4x - 1 and Ky = x + 3 are equations of two straight lines. If the two lines are perpendicular to each other, find K."
+    },
+    {
+      "id": "mathematics_0037",
+      "subject": "Mathematics",
+      "topic": "Loci",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "if P and Q are fixed points and X is a point which moves so that XP = XQ, the locus of X is"
+    }
+  ]
+}

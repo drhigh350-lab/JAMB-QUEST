@@ -1,0 +1,574 @@
+{
+  "likelyNewRows": 2371,
+  "cleanNewCount": 2273,
+  "heldNewCount": 98,
+  "cleanNewBySubject": {
+    "Biology": 1175,
+    "Chemistry": 136,
+    "Physics": 778,
+    "Use of English": 184
+  },
+  "heldNewByFlag": {
+    "raw_latex": 47,
+    "options_not_four": 1,
+    "unsupported_subject": 75,
+    "generic_template": 1
+  },
+  "heldExamples": [
+    {
+      "id": "biology_0240",
+      "subject": "Biology",
+      "topic": "The ecology of populations",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "In a field experiment, the frequency of water leaf was observed to be 48 after 20 tosses of a 2m\\(^2\\) quadrat. What is the density of the plants in the field?"
+    },
+    {
+      "id": "biology_0397",
+      "subject": "Biology",
+      "topic": "The ecology of populations",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "The population density of Tridex in an abandoned square farm land of side 200 m was found to be 5 plants per m\\(^2\\). The population size of the plant on the farm is"
+    },
+    {
+      "id": "chemistry_0212",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and Gas Laws",
+      "flags": [
+        "options_not_four"
+      ],
+      "stem": "Which of the following relationships between the pressure P, the volume V and the temperature T, represents an ideal gas behaviour?"
+    },
+    {
+      "id": "chemistry_2b7010",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "What is the concentration in mol dm⁻³ of a solution prepared by dissolving 2.0 g of NaOH in 250 cm³ of distilled water? [Na = 23, O = 16, H = 1]"
+    },
+    {
+      "id": "chemistry_c96ae8",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "flags": [
+        "raw_latex"
+      ],
+      "stem": "Calculate the mass of anhydrous sodium trioxocarbonate(IV) required to prepare 250 cm³ of a 0.1 mol dm⁻³ solution. [Na = 23, C = 12, O = 16]"
+    },
+    {
+      "id": "mathematics_0001",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Convert 110101₂ to base 10."
+    },
+    {
+      "id": "mathematics_0002",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Convert 58 (base 10) to base 2."
+    },
+    {
+      "id": "mathematics_0003",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate 235₈ (base eight) in base ten."
+    },
+    {
+      "id": "mathematics_0004",
+      "subject": "Mathematics",
+      "topic": "Indices",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Simplify (2³ × 2⁴) ÷ 2⁵."
+    },
+    {
+      "id": "mathematics_0005",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If log₂8 = x, find x."
+    },
+    {
+      "id": "mathematics_0006",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate log₁₀100 + log₁₀10."
+    },
+    {
+      "id": "mathematics_0007",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If x + y = 10 and x − y = 2, find the value of x."
+    },
+    {
+      "id": "mathematics_0008",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Given 2x + 3y = 12 and x − y = 1, find the value of y."
+    },
+    {
+      "id": "mathematics_0009",
+      "subject": "Mathematics",
+      "topic": "Simultaneous equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If 3x − y = 7 and x + y = 5, find the value of xy."
+    },
+    {
+      "id": "mathematics_0010",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Solve the equation x² − 5x + 6 = 0."
+    },
+    {
+      "id": "mathematics_0011",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the positive root of x² − 2x − 15 = 0."
+    },
+    {
+      "id": "mathematics_0012",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "For the equation x² − 7x + 12 = 0, what is the product of its roots?"
+    },
+    {
+      "id": "mathematics_0013",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the simple interest on ₦20,000 for 3 years at 5% per annum."
+    },
+    {
+      "id": "mathematics_0014",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A trader increases the price of an item from ₦4,000 to ₦4,800. Find the percentage increase."
+    },
+    {
+      "id": "mathematics_0015",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A sum of money amounts to ₦33,000 after 2 years at 10% per annum simple interest. Find the principal."
+    },
+    {
+      "id": "mathematics_0016",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the area of a rectangle with length 12 cm and width 7 cm."
+    },
+    {
+      "id": "mathematics_0017",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the circumference of a circle of radius 7 cm. (Take π = 22/7)"
+    },
+    {
+      "id": "mathematics_0018",
+      "subject": "Mathematics",
+      "topic": "Mensuration",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A cuboid has length 5 cm, width 4 cm, and height 3 cm. Find its volume."
+    },
+    {
+      "id": "mathematics_0019",
+      "subject": "Mathematics",
+      "topic": "Trigonometric ratios",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "In a right-angled triangle, the side opposite angle θ is 3 cm and the hypotenuse is 5 cm. Find sin θ."
+    },
+    {
+      "id": "mathematics_0020",
+      "subject": "Mathematics",
+      "topic": "Heights and distances",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A ladder 10 m long leans against a wall, making an angle of 60° with the ground. Find the height it reaches on the wall. (sin 60° ≈ 0.866)"
+    },
+    {
+      "id": "mathematics_0021",
+      "subject": "Mathematics",
+      "topic": "Trigonometric ratios",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the value of tan 45°."
+    },
+    {
+      "id": "mathematics_0022",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the mean of the numbers 4, 8, 6, 10, 12."
+    },
+    {
+      "id": "mathematics_0023",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the median of the numbers 7, 3, 9, 5, 11, 1."
+    },
+    {
+      "id": "mathematics_0024",
+      "subject": "Mathematics",
+      "topic": "Measures of central tendency",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the mode of the data set: 2, 4, 4, 5, 6, 4, 7, 5."
+    },
+    {
+      "id": "mathematics_0025",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A bag contains 5 red balls and 3 blue balls. Find the probability of picking a red ball at random."
+    },
+    {
+      "id": "mathematics_0026",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "A fair die is rolled once. Find the probability of obtaining a number greater than 4."
+    },
+    {
+      "id": "mathematics_0027",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Two fair coins are tossed together. Find the probability of getting exactly one head."
+    },
+    {
+      "id": "mathematics_0028",
+      "subject": "Mathematics",
+      "topic": "Arithmetic progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the 10th term of the arithmetic progression 3, 7, 11, 15, ..."
+    },
+    {
+      "id": "mathematics_0029",
+      "subject": "Mathematics",
+      "topic": "Arithmetic progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the sum of the first 8 terms of the arithmetic progression 2, 5, 8, 11, ..."
+    },
+    {
+      "id": "mathematics_0030",
+      "subject": "Mathematics",
+      "topic": "Geometric progression",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "The first term of a geometric progression is 3 and the common ratio is 2. Find the 5th term."
+    },
+    {
+      "id": "mathematics_0031",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If U = {x : x is an integer and 1 \\(\\leq\\) x \\(\\leq\\) 20} E\\(_1\\) = {x : x is a multiple of 3} E\\(_2\\) = {x : x is a multiple of 4} and an integer is picked at random from U, find the probability that it is not in E\\(_2\\)"
+    },
+    {
+      "id": "mathematics_0032",
+      "subject": "Mathematics",
+      "topic": "Logarithms",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate 5-\\(^{3log_52}\\) x 2\\(^{2log_23}\\)"
+    },
+    {
+      "id": "mathematics_0033",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Audu bought an article for N50,000 and sold it to Femi at a loss of x%. Femi later sold the article to Oche at a profit of 40%. If Femi made a profit of N10,000, find the value of x."
+    },
+    {
+      "id": "mathematics_0034",
+      "subject": "Mathematics",
+      "topic": "Binary operations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the inverse of p under the binary operation * defined by p*q = p + q - pq, where p and q are real numbers and zero is the identity"
+    },
+    {
+      "id": "mathematics_0035",
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If α and β are the roots of the equation 3x\\(^2\\) + 5x - 2 = 0, find the value of 1/α + 1/β"
+    },
+    {
+      "id": "mathematics_0036",
+      "subject": "Mathematics",
+      "topic": "Coordinate geometry",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "3y = 4x - 1 and Ky = x + 3 are equations of two straight lines. If the two lines are perpendicular to each other, find K."
+    },
+    {
+      "id": "mathematics_0037",
+      "subject": "Mathematics",
+      "topic": "Loci",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "if P and Q are fixed points and X is a point which moves so that XP = XQ, the locus of X is"
+    },
+    {
+      "id": "mathematics_0038",
+      "subject": "Mathematics",
+      "topic": "Applications of integration",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "A bowl is designed by revolving completely the area enclosed by y = x\\(^2\\) - 1, y = 3, and x ≥ 0 around the y-axis. What is the volume of this bowl?"
+    },
+    {
+      "id": "mathematics_0039",
+      "subject": "Mathematics",
+      "topic": "Measures of dispersion",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 10, 9, 7, 10, 6, 5"
+    },
+    {
+      "id": "mathematics_0040",
+      "subject": "Mathematics",
+      "topic": "Data collection and presentation",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "Given that the various faces of a fair dice 1, 2, 3, 4, 5, 6 appeared 30, 43, 54, 40, 41, 32 times respectively in a single toss. Picture the figures as being represented in a simple table with number (X) against frequency (f). If a pie chart is used to depict the data, the angle corresponding to 4 is?"
+    },
+    {
+      "id": "mathematics_0041",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "X and Y are two events. The probability of X or Y is 0.7 and that of X is 0.4. If X and Y are independent, find the probability of Y."
+    },
+    {
+      "id": "mathematics_0042",
+      "subject": "Mathematics",
+      "topic": "Percentages",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "If the population of a town was 240,000 in January 1998 and it increased by 2% each year, what would be the population of the town in January, 2000?"
+    },
+    {
+      "id": "mathematics_0043",
+      "subject": "Mathematics",
+      "topic": "Differentiation",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "The expression ax\\(^2\\) + bx + c equals 5 at x = 1. If its derivative is 2x + 1, what are the values of a, b, and c, respectively?"
+    },
+    {
+      "id": "mathematics_0044",
+      "subject": "Mathematics",
+      "topic": "Permutations and combinations",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "In how many ways can the word MATHEMATICS be arranged?"
+    },
+    {
+      "id": "mathematics_0045",
+      "subject": "Mathematics",
+      "topic": "Applications of differentiation",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If the volume of a hemisphere is increasing at a steady rate of 18π m\\(^{3}\\) s\\(^{-1}\\), at what rate is its radius changing when its is 6m?"
+    },
+    {
+      "id": "mathematics_0046",
+      "subject": "Mathematics",
+      "topic": "Number bases",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Change 71\\(_{10}\\) to base 8"
+    },
+    {
+      "id": "mathematics_0047",
+      "subject": "Mathematics",
+      "topic": "Matrices and determinants",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "A matrix P \\(\\begin{pmatrix}a & b\\\\ c & d\\end{pmatrix}\\) is such that P\\(^T\\) = - P, where P\\(^T\\) is the transpose of P. If b = 1, then P is"
+    },
+    {
+      "id": "mathematics_0048",
+      "subject": "Mathematics",
+      "topic": "Surds",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "If \\(\\frac{(2\\sqrt{3}-\\sqrt{2})}{(\\sqrt{3}+2\\sqrt{2})} = m +n\\sqrt{6}\\), find the values of m and n respectively."
+    },
+    {
+      "id": "mathematics_0049",
+      "subject": "Mathematics",
+      "topic": "Polygons",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "In a regular polygon, each interior angle doubles its corresponding exterior angle. Find the number of sides of the polygon."
+    },
+    {
+      "id": "mathematics_0050",
+      "subject": "Mathematics",
+      "topic": "Integration",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "A function f(x) passes through the origin and its first derivative is 3x + 2. What is f(x)?"
+    },
+    {
+      "id": "mathematics_0051",
+      "subject": "Mathematics",
+      "topic": "Fractions, decimals and approximations",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate \\(\\frac{(2.813 \\times 10^{-3} \\times 1.063)}{(5.637 \\times 10^{-2})}\\) reducing each number to two significant figures and leaving your answer in two significant figures."
+    },
+    {
+      "id": "mathematics_0052",
+      "subject": "Mathematics",
+      "topic": "Sets",
+      "flags": [
+        "unsupported_subject"
+      ],
+      "stem": "In a youth club with 94 members, 60 like modern music, and 50 like traditional music. The number of members who like both traditional and modern music is three times those who do not like any type of music. How many members like only one type of music?"
+    },
+    {
+      "id": "mathematics_0053",
+      "subject": "Mathematics",
+      "topic": "Binary operations",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "A binary operation * is defined by a * b = a\\(^b\\). If a * 2 = 2 - a, find the possible values of a."
+    },
+    {
+      "id": "mathematics_0054",
+      "subject": "Mathematics",
+      "topic": "Geometric progression",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Evaluate (\\(\\frac{1}{2} - \\frac{1}{4} + \\frac{1}{8} - \\frac{1}{16} + ...) -1\\)"
+    },
+    {
+      "id": "mathematics_0055",
+      "subject": "Mathematics",
+      "topic": "Integration",
+      "flags": [
+        "raw_latex",
+        "unsupported_subject"
+      ],
+      "stem": "Find the value of \\(\\int^{\\pi}_{0}\\frac{cos^{2}\\theta-1}{sin^{2}\\theta}d\\theta\\)"
+    }
+  ]
+}

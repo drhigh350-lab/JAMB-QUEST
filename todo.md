@@ -646,3 +646,9 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Parse explanations_held_29_rectified.py as inert data and verify it maps exactly to the 29 held Physics IDs without duplicates or raw markup. The upload contains exactly the 29 held IDs, with zero raw-markup records and zero generic-template residue.
 - [x] Import the validated 29 rectified Physics explanations and preserve the held-record release receipt. All 29 existing authorised records were updated without changing protected question fields.
 - [x] Temporarily configure the direct browser reminder for exactly 08:00 and 21:00 Africa/Lagos using the existing one-POST, no-OneSignal, no-browser contract. The schedule is enabled, isolated, and connector-free; real callback evidence remains pending until a scheduled window runs.
+
+- [x] Diagnose the failed 08:00 Lagos reminder after the user received no notification, distinguishing trigger, callback, eligibility, and push-delivery failure. The agent schedule ran without reaching the callback; the direct platform callback returned `sent:1`, and the device still displayed nothing. One stale duplicate enabled subscription was disabled, leaving the fresh Aug 20 subscription active.
+- [ ] Apply and validate the smallest safe reminder repair while preserving the exact one-POST curl playbook, no connectors, no OneSignal, and no browser automation.
+
+- [x] Audit questions_rows(3).csv as inert data for new records, duplicates, subject/topic coverage, answer-key completeness, and learner-facing formatting before import. The 3,912-row file contains 2,371 likely-new rows; 2,273 supported clean candidates and 98 held candidates.
+- [ ] Record and investigate today’s missed scheduled notification separately from yesterday’s confirmed delivery, without sending a manual test or changing the direct one-POST contract.
