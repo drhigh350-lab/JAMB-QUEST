@@ -18,15 +18,18 @@ describe("shareable achievement cards", () => {
     expect(card).toContain("jamb-quest-official-wordmark-transparent_789d0e04.png");
     expect(card).toContain("Century builder");
     expect(card).toContain("Amina");
-    expect(card).toContain("124 / 100 evidence reached");
+    expect(card).toContain("124 / 100");
+    expect(card).toContain("evidence reached");
     expect(card).toContain("jamb-quest-official-wordmark-transparent_789d0e04.png");
     expect(card).toContain("preserveAspectRatio=\"xMinYMid meet\"");
     expect(card).toContain("BUILD YOUR SYSTEM.");
     expect(card).toContain("WIN JAMB.");
     expect(card).toContain('width="1080" height="1920"');
     expect(card).toContain('transform="translate(540 650)"');
-    expect(card).toContain('y="1135"');
-    expect(card).toContain('textLength="810"');
+    expect(card).toContain('y="1100"');
+    expect(card).toContain('<tspan x="540"');
+    expect(card).not.toContain("textLength=");
+    expect(card).not.toContain("lengthAdjust=");
   });
 
   it("exposes download and share controls only for actual earned badges", () => {

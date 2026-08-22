@@ -657,3 +657,6 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Map the 304 held supported-subject CSV topics to exact official JAMB syllabus areas, import only unambiguous mappings, and retain any remaining exception records outside the learner bank. The deterministic mapping release imported 273 records; 31 placeholder or diagram-dependent records remain held.
 - [x] Record the user-confirmed scheduled notification receipt and retain the direct VAPID-only reminder configuration without changing achievement-share cards.
+
+- [x] Remove horizontal glyph compression from portrait achievement share cards and replace it with natural-size wrapped typography for titles, learner names, evidence, and footer copy.
+- [x] Add regression coverage and visually verify readable portrait achievement-card typography before publishing the fix.
