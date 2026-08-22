@@ -1,0 +1,38 @@
+{
+  "release": "Owner PDF answer-matched batches 2–4 · 22 Aug 2026",
+  "releasedCount": 300,
+  "sourceLabels": [
+    "Owner PDF answer-matched Use of English 101–200 · 22 Aug 2026",
+    "Owner PDF answer-matched Use of English 201–250 · 22 Aug 2026",
+    "Owner PDF answer-matched Biology 1–50 · 22 Aug 2026",
+    "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026"
+  ],
+  "releasedBySourceLabel": {
+    "Owner PDF answer-matched Use of English 101–200 · 22 Aug 2026": 100,
+    "Owner PDF answer-matched Use of English 201–250 · 22 Aug 2026": 50,
+    "Owner PDF answer-matched Biology 1–50 · 22 Aug 2026": 50,
+    "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026": 100
+  },
+  "updatedFields": [
+    "explanationStatus"
+  ],
+  "preservedProtectedFields": [
+    "externalId",
+    "subject",
+    "topic",
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "sourceStatusBeforeRelease": [
+    "needs_review"
+  ],
+  "approvedAuthorisedBySubject": {
+    "Biology": 2628,
+    "Physics": 1927,
+    "Chemistry": 2207,
+    "Use of English": 1640
+  },
+  "verifiedApprovedAuthorisedTotal": 8402
+}

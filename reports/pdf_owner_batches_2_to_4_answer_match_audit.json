@@ -1,0 +1,54 @@
+{
+  "sourceFile": "jamb_questions_only.pdf",
+  "answerFiles": [
+    "UoE_Batch2_Q101-200.md",
+    "Batch3_UoE201-250_Bio1-50.md",
+    "Biology_Batch4_Q51-150.md"
+  ],
+  "declaredRecordCount": 300,
+  "modelBankCandidateCount": 1000,
+  "authorisedLedgerCandidateCount": 8551,
+  "eligibleCount": 300,
+  "heldCount": 0,
+  "perRange": [
+    {
+      "range": "Use of English 101–200",
+      "sourceFile": "UoE_Batch2_Q101-200.md",
+      "parsedAnswerCount": 100,
+      "answerHeadingCountInSection": 100,
+      "stagedSourceCount": 100,
+      "eligibleCount": 100,
+      "heldCount": 0
+    },
+    {
+      "range": "Use of English 201–250",
+      "sourceFile": "Batch3_UoE201-250_Bio1-50.md",
+      "parsedAnswerCount": 50,
+      "answerHeadingCountInSection": 50,
+      "stagedSourceCount": 50,
+      "eligibleCount": 50,
+      "heldCount": 0
+    },
+    {
+      "range": "Biology 1–50",
+      "sourceFile": "Batch3_UoE201-250_Bio1-50.md",
+      "parsedAnswerCount": 50,
+      "answerHeadingCountInSection": 50,
+      "stagedSourceCount": 50,
+      "eligibleCount": 50,
+      "heldCount": 0
+    },
+    {
+      "range": "Biology 51–150",
+      "sourceFile": "Biology_Batch4_Q51-150.md",
+      "parsedAnswerCount": 100,
+      "answerHeadingCountInSection": 100,
+      "stagedSourceCount": 100,
+      "eligibleCount": 100,
+      "heldCount": 0
+    }
+  ],
+  "held": [],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/pdf_owner_batches_2_to_4_answer_matched_eligible.json",
+  "releasePolicy": "This audit stages eligible records only. It does not import, approve, or expose any record to learner gameplay."
+}
