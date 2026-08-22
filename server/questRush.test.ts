@@ -1,16 +1,22 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
-describe("Quest Rush game mode", () => {
-  it("uses active approved questions in short timed subject bursts without replacing CBT", () => {
+describe("Study Expedition game mode", () => {
+  it("uses approved subject questions in a strategic route-and-correction loop without replacing CBT", () => {
     const component = readFileSync("client/src/components/QuestRush.tsx", "utf8");
-    expect(component).toContain("const ROUND_LENGTH = 12");
-    expect(component).toContain("const ROUND_SECONDS = 75");
+    expect(component).toContain("const contracts");
+    expect(component).toContain("Scout Route");
+    expect(component).toContain("Mastery Route");
+    expect(component).toContain("const tools");
+    expect(component).toContain("Topic Lens");
+    expect(component).toContain("Focus Stamp");
+    expect(component).toContain("Recovery Pass");
     expect(component).toContain('question.subject === subject');
-    expect(component).toContain("Does not overwrite your CBT history");
+    expect(component).toContain("No timer, no CBT overwrite, no chance mechanics");
     expect(component).toContain("Correct answer:");
     expect(component).toContain("onOpenCorrection");
-    expect(component).toContain("paused");
+    expect(component).toContain("repair cards");
+    expect(component).toContain("PASSPORT_KEY");
     expect(component).toContain("autoStart");
   });
 });
