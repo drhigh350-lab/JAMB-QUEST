@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
+import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -100,6 +100,12 @@ export const appRouter = router({
   qualityReview: router({
     questionReports: adminProcedure.query(() => getOwnerQuestionReports()),
     heldDiagramRecords: adminProcedure.query(() => getOwnerHeldDiagramRecords()),
+    approvedQuestionSummary: adminProcedure.query(() => getOwnerApprovedQuestionReviewSummary()),
+    approvedQuestionPage: adminProcedure.input(z.object({
+      subject: subjectSchema,
+      page: z.number().int().min(0).max(1_000),
+      pageSize: z.number().int().min(10).max(30),
+    })).query(({ input }) => getOwnerApprovedQuestionReviewPage(input)),
     updateQuestionReportStatus: adminProcedure.input(z.object({
       reportId: z.number().int().positive(),
       status: z.enum(learnerQuestionReportStatuses),

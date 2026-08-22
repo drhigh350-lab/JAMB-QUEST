@@ -597,6 +597,74 @@ export async function getOwnerHeldDiagramRecords() {
     }));
 }
 
+const OWNER_REVIEW_SUBJECTS = ["Use of English", "Biology", "Chemistry", "Physics"] as const;
+
+export async function getOwnerApprovedQuestionReviewSummary() {
+  const db = await getDb();
+  if (!db) throw new Error("The owner question desk is unavailable right now.");
+  const rows = await db.select({ subject: questionItems.subject }).from(questionItems)
+    .innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id))
+    .where(and(eq(questionSources.isActive, 1), eq(questionItems.explanationStatus, "approved")));
+  const counts = rows.reduce<Record<string, number>>((result, row) => {
+    result[row.subject] = (result[row.subject] ?? 0) + 1;
+    return result;
+  }, {});
+  return OWNER_REVIEW_SUBJECTS.map((subject) => ({ subject, authorisedCount: counts[subject] ?? 0 }));
+}
+
+export async function getOwnerApprovedQuestionReviewPage(input: { subject: (typeof OWNER_REVIEW_SUBJECTS)[number]; page: number; pageSize: number }) {
+  const db = await getDb();
+  if (!db) throw new Error("The owner question desk is unavailable right now.");
+  const filter = and(eq(questionSources.isActive, 1), eq(questionItems.explanationStatus, "approved"), eq(questionItems.subject, input.subject));
+  const allRows = await db.select({ id: questionItems.id }).from(questionItems)
+    .innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id))
+    .where(filter);
+  const rows = await db.select({
+    id: questionItems.id,
+    externalId: questionItems.externalId,
+    subject: questionItems.subject,
+    topic: questionItems.topic,
+    difficulty: questionItems.difficulty,
+    questionText: questionItems.questionText,
+    optionsJson: questionItems.optionsJson,
+    answerIndex: questionItems.answerIndex,
+    explanation: questionItems.explanation,
+    diagramUrl: questionItems.diagramUrl,
+    sourceLabel: questionSources.label,
+  }).from(questionItems)
+    .innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id))
+    .where(filter)
+    .orderBy(questionItems.id)
+    .limit(input.pageSize)
+    .offset(input.page * input.pageSize);
+  return {
+    total: allRows.length,
+    page: input.page,
+    pageSize: input.pageSize,
+    questions: rows.flatMap((row) => {
+      try {
+        const options = JSON.parse(row.optionsJson) as unknown;
+        if (!Array.isArray(options) || options.some((option) => typeof option !== "string") || row.answerIndex < 0 || row.answerIndex >= options.length) return [];
+        return [{
+          id: `authorised-${row.id}`,
+          externalId: row.externalId,
+          subject: row.subject as (typeof OWNER_REVIEW_SUBJECTS)[number],
+          topic: row.topic,
+          difficulty: row.difficulty,
+          question: row.questionText,
+          options,
+          answerIndex: row.answerIndex,
+          explanation: row.explanation ?? "",
+          diagramUrl: row.diagramUrl,
+          sourceLabel: row.sourceLabel,
+        }];
+      } catch {
+        return [];
+      }
+    }),
+  };
+}
+
 export async function updateOwnerQuestionReportStatus(ownerUserId: number, reportId: number, status: LearnerQuestionReportStatus) {
   const db = await getDb();
   if (!db) throw new Error("The review queue is unavailable right now.");
