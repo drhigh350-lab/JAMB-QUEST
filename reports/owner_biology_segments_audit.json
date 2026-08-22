@@ -1,0 +1,20 @@
+{
+  "sourceFiles": [
+    "pasted_content_6.txt",
+    "pasted_content_7.txt",
+    "pasted_content_8.txt"
+  ],
+  "declaredRanges": [
+    "1–25",
+    "51–75",
+    "76–100"
+  ],
+  "explicitlyMissingRange": "26–50",
+  "parsedCount": 75,
+  "uniqueParsedCount": 75,
+  "internalDuplicateCount": 0,
+  "eligibleCount": 75,
+  "heldCount": 0,
+  "held": [],
+  "stagedPath": "/home/ubuntu/jamb-import-staging/owner_biology_segments_1_25_51_75_76_100_eligible.json"
+}
