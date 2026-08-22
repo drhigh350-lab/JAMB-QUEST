@@ -652,3 +652,5 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Audit questions_rows(3).csv as inert data for new records, duplicates, subject/topic coverage, answer-key completeness, and learner-facing formatting before import. The 3,912-row file contains 2,371 likely-new rows; 2,273 supported clean candidates and 98 held candidates.
 - [ ] Record and investigate today’s missed scheduled notification separately from yesterday’s confirmed delivery, without sending a manual test or changing the direct one-POST contract.
+
+- [x] Import only the clean new Biology, Chemistry, Physics, and Use of English rows from questions_rows(3).csv; exclude all Mathematics and retain all flagged rows as held audit data. Database deduplication and syllabus mapping resulted in 1,573 imported records; 700 remain held, including 396 existing-stem overlaps and 304 topic-mapping holds. No Mathematics was imported.

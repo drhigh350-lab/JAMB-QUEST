@@ -1,0 +1,444 @@
+{
+  "source": "reports/questions_rows3_clean_supported_payload.json",
+  "prepared": 2273,
+  "releaseReadyBeforeDbDedup": 2273,
+  "imported": 1573,
+  "held": 700,
+  "heldByReason": {
+    "existing_question_stem": 396,
+    "topic_not_mapped_to_syllabus": 304
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "staged": 500,
+      "imported": 500,
+      "sourceId": 22500001,
+      "importId": 1290001
+    },
+    {
+      "batch": 2,
+      "staged": 500,
+      "imported": 500,
+      "sourceId": 22500002,
+      "importId": 1290002
+    },
+    {
+      "batch": 3,
+      "staged": 500,
+      "imported": 500,
+      "sourceId": 22500003,
+      "importId": 1290003
+    },
+    {
+      "batch": 4,
+      "staged": 73,
+      "imported": 73,
+      "sourceId": 22500004,
+      "importId": 1290004
+    }
+  ],
+  "heldExamples": [
+    {
+      "id": "biology_0001",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0002",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0003",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0004",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0005",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0006",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0007",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0008",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0009",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0010",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0011",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0012",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0013",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0014",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0015",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0016",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0017",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0018",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0019",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0020",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0021",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0022",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0023",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0024",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0026",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0027",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0028",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0029",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0030",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0031",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0032",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0035",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0037",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0039",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0040",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0041",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0042",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0043",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0044",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0045",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0046",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0047",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0048",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0049",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0050",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0051",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0052",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0053",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0054",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0055",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0056",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0057",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0058",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0059",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0061",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0062",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0063",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0064",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0065",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0066",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0067",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0068",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0069",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0070",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0072",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0073",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0074",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0075",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0076",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0077",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0078",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0079",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0080",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0081",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0082",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0083",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0084",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0085",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0086",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0087",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0088",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0089",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0090",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0092",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0093",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0094",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0095",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0096",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0097",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0098",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0099",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0101",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0102",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0103",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0104",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0106",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0107",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0108",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0109",
+      "reason": "existing_question_stem"
+    },
+    {
+      "id": "biology_0110",
+      "reason": "existing_question_stem"
+    }
+  ],
+  "status": "imported"
+}
