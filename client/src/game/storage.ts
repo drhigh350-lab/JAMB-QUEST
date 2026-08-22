@@ -36,6 +36,8 @@ export function getActiveCbtSession(): ActiveCbtSession | null {
   try {
     const parsed = JSON.parse(window.localStorage.getItem(ACTIVE_CBT_KEY) ?? "null") as Partial<ActiveCbtSession> | null;
     if (!parsed || parsed.config?.mode !== "cbt" || !Array.isArray(parsed.questionIds) || !parsed.questionIds.length || !parsed.answers || !Array.isArray(parsed.flaggedIds) || typeof parsed.currentIndex !== "number" || typeof parsed.secondsLeft !== "number" || typeof parsed.initialSeconds !== "number" || typeof parsed.isPaused !== "boolean") return null;
+    const expectedQuestionCount = parsed.config.subject === "Full JAMB Mock" ? 180 : parsed.config.count;
+    if (!Number.isInteger(expectedQuestionCount) || expectedQuestionCount < 1 || parsed.questionIds.length !== expectedQuestionCount || parsed.currentIndex < 0 || parsed.currentIndex >= parsed.questionIds.length) return null;
     return { config: parsed.config, questionIds: parsed.questionIds, answers: parsed.answers, flaggedIds: parsed.flaggedIds, currentIndex: parsed.currentIndex, secondsLeft: parsed.secondsLeft, initialSeconds: parsed.initialSeconds, isPaused: parsed.isPaused, deadlineAt: typeof parsed.deadlineAt === "number" ? parsed.deadlineAt : null };
   } catch {
     return null;

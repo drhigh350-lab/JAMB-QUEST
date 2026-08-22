@@ -6,7 +6,7 @@ export default function CbtResumeFixture() {
   const game = useQuizGame();
   const studyOnly = new URLSearchParams(window.location.search).get("study") === "1";
   useEffect(() => {
-    if (!game.loading && !game.loadError && game.screen === "home" && game.questions.length && !game.resumableCbt) game.startRound(studyOnly ? { subject: "Biology", mode: "sprint", count: 1, timing: "study" } : { subject: "Full JAMB Mock", mode: "cbt", count: 4 });
+    if (!game.loading && !game.loadError && game.screen === "home" && game.questions.length && !game.resumableCbt) game.startRound(studyOnly ? { subject: "Biology", mode: "sprint", count: 1, timing: "study" } : { subject: "Biology", mode: "cbt", count: 4 });
   }, [game.loadError, game.loading, game.questions.length, game.resumableCbt, game.screen, game.startRound, studyOnly]);
   if (game.loadError) return <main data-e2e="resume-cbt-error">{game.loadError}</main>;
   if (game.loading) return <main data-e2e="resume-cbt-loading">Loading resume fixture…</main>;
