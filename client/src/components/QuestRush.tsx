@@ -53,6 +53,7 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
   const [integrity, setIntegrity] = useState(3);
   const [recoveryUsed, setRecoveryUsed] = useState(false);
   const [passport, setPassport] = useState<Passport>(blankPassport);
+  const [playerName, setPlayerName] = useState("");
   const [sessionStamps, setSessionStamps] = useState(0);
   const autoStarted = useRef(false);
   const awardSaved = useRef(false);
@@ -67,7 +68,7 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
   const mapSegments = contractId === "scout" ? 1 : contractId === "builder" ? 2 : 3;
   const segmentAward = accuracy >= 70 && integrity > 0 ? mapSegments : 0;
 
-  useEffect(() => { setPassport(readArcadeProfile().expedition); }, []);
+  useEffect(() => { const profile = readArcadeProfile(); setPassport(profile.expedition); setPlayerName(profile.displayName); }, []);
 
   const persistPassport = (next: Passport) => {
     setPassport(next);
@@ -125,7 +126,7 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
 
   if (phase === "setup") return <section className="quest-rush expedition" aria-labelledby="expedition-title">
     <header className="quest-rush-head"><button className="quest-rush-close" onClick={onExit}><X size={17} /> Back to practice</button><span className="quest-rush-brand" aria-label="JAMB Quest"><i /><i /><i /><i /><b>JAMB QUEST</b></span><span className="quest-rush-stamp"><Map size={15} /> STUDY EXPEDITION</span></header>
-    <div className="expedition-hero"><div><div className="expedition-brand-seal" aria-label="JAMB Quest Study Expedition"><span><i /><i /><i /><i /></span><b>JAMB QUEST</b><small>APPROVED QUESTION MAP</small></div><span className="eyebrow">YOUR BOARD / YOUR ROUTE</span><h1 id="expedition-title">Build a learning map.<br /><em>Not a countdown.</em></h1><p>Choose a territory, sign a route contract, and collect study stamps by answering approved JAMB questions. Every miss becomes a repair card—not a dead end.</p><div className="expedition-passport"><Stamp size={18} /><span><b>{Object.values(passport.stamps).reduce((sum, value) => sum + value, 0)}</b> study stamps collected</span><span><b>{passport.routes.length}</b> routes secured</span></div></div><div className="expedition-map-art" aria-hidden="true"><img src="/manus-storage/study-expedition-board_e70ad981.png" alt="" /><div className="expedition-map-overlay"><span>START</span><i /><i /><i /><i /><b>JAMB<br />MAP</b></div></div></div>
+    <div className="expedition-hero"><div><div className="expedition-brand-seal" aria-label="JAMB Quest Study Expedition"><span><i /><i /><i /><i /></span><b>JAMB QUEST</b><small>APPROVED QUESTION MAP</small></div><span className="eyebrow">{playerName ? `${playerName.toUpperCase()} / YOUR STUDY MAP` : "YOUR BOARD / YOUR ROUTE"}</span><h1 id="expedition-title">Build a learning map.<br /><em>Not a countdown.</em></h1><p>Choose a territory, sign a route contract, and collect study stamps by answering approved JAMB questions. Every miss becomes a repair card—not a dead end.</p><div className="expedition-passport"><Stamp size={18} /><span><b>{Object.values(passport.stamps).reduce((sum, value) => sum + value, 0)}</b> study stamps collected</span><span><b>{passport.routes.length}</b> routes secured</span></div></div><div className="expedition-map-art" aria-hidden="true"><img src="/manus-storage/study-expedition-board_e70ad981.png" alt="" /><div className="expedition-map-overlay"><span>START</span><i /><i /><i /><i /><b>JAMB<br />MAP</b></div></div></div>
     <div className="expedition-rules" aria-label="Study Expedition learning safeguards"><span><ShieldCheck size={16} /> Uses approved JAMB Quest questions only</span><span><BookOpenCheck size={16} /> Every miss becomes a repair card</span><span><Compass size={16} /> No timer, no CBT overwrite, no chance mechanics</span></div>
     <section className="expedition-setup"><div className="expedition-step"><span className="eyebrow">01 / CHOOSE A TERRITORY</span><div className="quest-rush-subjects">{subjects.map((item) => <button key={item.subject} className={`quest-rush-subject ${item.accent} ${subject === item.subject ? "active" : ""}`} onClick={() => setSubject(item.subject)}><b>{item.short}</b><span>{item.subject}</span><small>{questions.filter((question) => question.subject === item.subject).length} question cards</small><i>{passport.stamps[item.subject] ?? 0} stamps</i></button>)}</div></div>
       <div className="expedition-step"><span className="eyebrow">02 / SIGN A ROUTE CONTRACT</span><div className="expedition-contracts">{contracts.map((item) => <button key={item.id} className={`expedition-contract ${contractId === item.id ? "active" : ""}`} onClick={() => setContractId(item.id)}><Flag size={16} /><b>{item.name}</b><span>{item.length} question cards</span><small>{item.subtitle}</small><i>{item.reward}</i></button>)}</div></div>

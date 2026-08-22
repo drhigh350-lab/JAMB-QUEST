@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { ARCADE_PROFILE_KEY, ARCADE_PROFILE_VERSION, emptyArcadeProfile, parseArcadeProfile, selectArcadeQuestions, writeArcadeProfile } from "../client/src/game/arcadeProfile";
+import { ARCADE_PROFILE_KEY, ARCADE_PROFILE_VERSION, cleanArcadeDisplayName, emptyArcadeProfile, parseArcadeProfile, selectArcadeQuestions, writeArcadeProfile } from "../client/src/game/arcadeProfile";
 import type { BankQuestion } from "../client/src/game/types";
 
 const question = (id: string, subject: BankQuestion["subject"]): BankQuestion => ({ id, subject, topic: "Fixture topic", subtopic: "Fixture", difficulty: "medium", question_type: "multiple_choice", question: "Which option is correct?", options: ["A", "B", "C", "D"], answer_index: 0, answer_text: "A", explanation: "A safe fixture explanation.", tags: [], source: "fixture" });
@@ -17,6 +17,12 @@ describe("shared Game Arcade profile", () => {
     expect(profile.expedition.routes).toEqual(["Biology:scout"]);
     expect(profile.presidentsDesk).toMatchObject({ treasury: 0, confidence: 6, insight: 6, terms: 2, projects: { education: 3, health: 2, energy: 0, innovation: 0 } });
     expect(profile.greatArchive).toEqual({ tiles: {}, blueprints: { balanced: 0, mastery: 0, repair: 0 }, restoredWings: [] });
+  });
+
+  it("keeps a short, clean display name as arcade-only personalisation", () => {
+    expect(cleanArcadeDisplayName("  Ada   Okafor  ")).toBe("Ada Okafor");
+    expect(cleanArcadeDisplayName("A".repeat(30))).toHaveLength(24);
+    expect(parseArcadeProfile(JSON.stringify({ ...emptyArcadeProfile(), displayName: "  Zainab   " })).displayName).toBe("Zainab");
   });
 
   it("writes one arcade-only key and selects exact subject questions without creating or altering them", () => {

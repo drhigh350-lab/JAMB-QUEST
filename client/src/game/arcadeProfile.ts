@@ -8,10 +8,11 @@ export type ExpeditionArcadeState = { stamps: Record<string, number>; routes: st
 export type PresidentsDeskArcadeState = { treasury: number; confidence: number; insight: number; terms: number; projects: Record<"education" | "health" | "energy" | "innovation", number> };
 export type ArchiveBlueprintId = "balanced" | "mastery" | "repair";
 export type GreatArchiveArcadeState = { tiles: Record<string, number>; blueprints: Record<ArchiveBlueprintId, number>; restoredWings: string[] };
-export type GameArcadeProfile = { version: number; expedition: ExpeditionArcadeState; presidentsDesk: PresidentsDeskArcadeState; greatArchive: GreatArchiveArcadeState };
+export type GameArcadeProfile = { version: number; displayName: string; expedition: ExpeditionArcadeState; presidentsDesk: PresidentsDeskArcadeState; greatArchive: GreatArchiveArcadeState };
 
 export const emptyArcadeProfile = (): GameArcadeProfile => ({
   version: ARCADE_PROFILE_VERSION,
+  displayName: "",
   expedition: { stamps: {}, routes: [] },
   presidentsDesk: { treasury: 120, confidence: 6, insight: 0, terms: 0, projects: { education: 0, health: 0, energy: 0, innovation: 0 } },
   greatArchive: { tiles: {}, blueprints: { balanced: 0, mastery: 0, repair: 0 }, restoredWings: [] },
@@ -19,6 +20,7 @@ export const emptyArcadeProfile = (): GameArcadeProfile => ({
 
 const whole = (value: unknown, fallback: number, maximum: number) => typeof value === "number" && Number.isFinite(value) ? Math.min(maximum, Math.max(0, Math.floor(value))) : fallback;
 const object = (value: unknown): Record<string, unknown> => value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
+export const cleanArcadeDisplayName = (value: unknown) => typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, 24) : "";
 
 export function parseArcadeProfile(raw: string | null | undefined): GameArcadeProfile {
   if (!raw) return emptyArcadeProfile();
@@ -34,6 +36,7 @@ export function parseArcadeProfile(raw: string | null | undefined): GameArcadePr
     const routes = Array.isArray(expedition.routes) ? Array.from(new Set(expedition.routes.filter((route): route is string => typeof route === "string" && route.length > 0).slice(0, 500))) : [];
     return {
       version: ARCADE_PROFILE_VERSION,
+      displayName: cleanArcadeDisplayName(source.displayName),
       expedition: { stamps, routes },
       presidentsDesk: {
         treasury: whole(desk.treasury, defaults.presidentsDesk.treasury, 999999),
