@@ -42,6 +42,8 @@ describe("owner question review desk", () => {
     expect(deskSource).toContain("answerIndex");
     expect(deskSource).toContain("Explanation");
     expect(deskSource).toContain("Page {page + 1} of {pageCount}");
+    expect(viewSource).not.toContain('import { OwnerQuestionReview }');
+    expect(viewSource).not.toContain("<OwnerQuestionReview");
     expect(viewSource).toContain("Quality before quantity.");
     expect(viewSource).toContain("Recover without punishment");
   });
