@@ -23,10 +23,15 @@ describe("Syllabus Journey", () => {
     expect(selected.every((item) => item.topic === "Nutrition and digestion" && !["BIO-1", "BIO-2"].includes(item.id))).toBe(true);
   });
 
-  it("keeps the tracker honest: reading is a confirmation, while quiz evidence is explicitly separate", () => {
+  it("keeps the tracker honest, exposes every official area, and retains a direct confirmed-topic quiz path", () => {
     const source = readFileSync("client/src/components/SyllabusJourney.tsx", "utf8");
     expect(source).toContain("A confirmation is a study reminder, not a mastery claim");
-    expect(source).toContain("Start 5-question syllabus quiz");
+    expect(source).toContain("FULL OFFICIAL OUTLINE");
+    expect(source).toContain("awaiting matching approved questions");
+    expect(source).toContain("autoStart = false");
+    expect(source).toContain('setPhase("quiz")');
+    expect(source).toContain("Start {Math.min(5, topicCounts[activeTopic])}-question syllabus quiz");
+    expect(source).not.toContain("disabled={!ready}");
     expect(source).not.toContain("recordRound");
   });
 });

@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it, vi } from "vitest";
 import { normaliseLearnerTopic, normaliseQuestionTopic, selectQuestions } from "../client/src/game/questionBank";
 
@@ -73,5 +74,14 @@ describe("learner-facing topic normalization", () => {
     expect(coreOnly.every((question) => !question.topic.startsWith("The Lekki Headmaster"))).toBe(true);
     expect(withLekki).toHaveLength(16);
     expect(withLekki.some((question) => question.topic.startsWith("The Lekki Headmaster"))).toBe(true);
+  });
+
+  it("merges the managed model asset with approved authorised records into one learner pool while retaining only ID de-duplication", () => {
+    const game = readFileSync("client/src/game/useQuizGame.ts", "utf8");
+    const model = readFileSync("client/src/game/questionBank.ts", "utf8");
+    expect(model).toContain("jamb_high_yield_practice_bank_1000_model_v5_explanations_reviewed");
+    expect(game).toContain("return [...questions, ...additionalQuestions].map(normaliseQuestionTopic)");
+    expect(game).toContain("if (seen.has(question.id)) return false");
+    expect(game).not.toContain("question.source ===");
   });
 });

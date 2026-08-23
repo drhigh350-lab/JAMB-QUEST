@@ -1,4 +1,5 @@
 import { SyllabusJourney } from "@/components/SyllabusJourney";
+import { confirmSyllabusRead, parseSyllabusJourney, writeSyllabusJourney } from "@/game/syllabusJourney";
 import type { BankQuestion } from "@/game/types";
 
 const questions: BankQuestion[] = Array.from({ length: 7 }, (_, index) => ({
@@ -18,5 +19,7 @@ const questions: BankQuestion[] = Array.from({ length: 7 }, (_, index) => ({
 }));
 
 export function SyllabusJourneyFixture() {
-  return <SyllabusJourney questions={questions} onExit={() => undefined} />;
+  const autoStart = new URLSearchParams(window.location.search).get("autoStart") === "1";
+  if (autoStart) writeSyllabusJourney(confirmSyllabusRead(parseSyllabusJourney(null), "Biology", "Nutrition and digestion"));
+  return <SyllabusJourney questions={questions} onExit={() => undefined} autoStart={autoStart} />;
 }
