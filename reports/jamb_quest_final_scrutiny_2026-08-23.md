@@ -2,7 +2,7 @@
 
 ## Audit position
 
-This was a **release-grade systems audit**, not a claim that every historical question has been externally re-marked. It checked the current learner-bank boundary, core learning routes, CBT protection, device-only learning tools, responsive rendering, motion safeguards, runtime logs, and executable validation. No reproducible high-priority application defect was found in this pass, so protected questions, answer keys, options, explanations, diagrams, and source records were not changed.
+This was a **release-grade systems audit**, not a claim that every historical question has been externally re-marked. It checked the current learner-bank boundary, core learning routes, CBT protection, device-only learning tools, responsive rendering, motion safeguards, runtime logs, and executable validation. No reproducible high-priority application defect was found in this pass, so protected questions, answer keys, options, explanations, diagrams, and source records were not changed. The historical 9,050 receipt and the later live 8,867 count are reconciled separately in `reports/unified_question_bank_live_reconciliation_2026-08-23.md`.
 
 > The owner’s physical screening remains the appropriate final authority for any question-specific wording, answer-key, source-context, or original-figure concern. Such findings should be reported by question ID so they can be audited without changing unrelated cards.
 
@@ -10,7 +10,7 @@ This was a **release-grade systems audit**, not a claim that every historical qu
 
 | Area | Evidence reviewed | Outcome |
 |---|---|---|
-| Question-bank boundary | Read-only database reconciliation and the runtime merge contract | **7,941** approved active authorised records: Biology 2,442; Chemistry 2,207; Physics 1,761; Use of English 1,531. Together with the protected 1,000-record managed bank, this is 8,941 records before exact-ID de-duplication. The live learner display is **8,867**, meaning 74 repeated IDs are removed by the normal merge rather than shown twice. |
+| Question-bank boundary | Read-only database reconciliation and the runtime merge contract | **7,941** approved active authorised records: Biology 2,442; Chemistry 2,207; Physics 1,761; Use of English 1,531. Together with the protected 1,000-record managed bank, this is 8,941 records before exact-ID de-duplication. The live learner display is **8,867**, meaning 74 repeated IDs are removed by the normal merge rather than shown twice. The historical 9,050 snapshot included a now-retired 109-question Lekki source; see the dedicated live reconciliation report. |
 | Content safeguards | Full test suite, question-bank, formatting, explanation, syllabus, five-option, and import protections | The active quality boundary remains intact. No source content was silently rewritten during the audit. |
 | Practice and recovery | Standard practice, English context, five-option CBT, calculator, topic and Lekki launch, recovery-empty state, submitted explanation card | The tested cards remain legible at phone width; the ledger remains below the question; five-option answers and answer feedback render correctly. |
 | CBT safety | CBT flow, saved resume, full mock, exam review, and historical correction safeguards | Separate CBT state and read-only historical correction flows remain protected. The real learner-facing saved-CBT card is styled in the Practice panel; a plain resume screen observed during review is an isolated test fixture, not a production route. |
