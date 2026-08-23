@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
 describe("owner physical-screening corrections", () => {
-  it("keeps Standard CBT first and leaves the subject desk compact until it is deliberately opened", () => {
+  it("keeps Standard CBT first, leaves the core subject desk compact, and restores Lekki as a separate optional compact route", () => {
     const home = readFileSync("client/src/pages/Home.tsx", "utf8");
     const standard = home.indexOf('data-testid="standard-cbt-path"');
     const subjectDesk = home.indexOf('className="practice-subject-path"');
@@ -11,6 +11,9 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('<details className="practice-subject-path">');
     expect(home).not.toContain('data-testid="lekki-palette"');
     expect(home).not.toContain('data-testid="lekki-chapter-start"');
+    expect(home).toContain('data-testid="lekki-practice-path"');
+    expect(home).toContain('data-testid="lekki-mixed-study-start"');
+    expect(home).toContain('topic: selectedLekkiTopic || "The Lekki Headmaster"');
   });
 
   it("keeps the Home daily goal while placing level, XP, and streak evidence in Profile or Progress", () => {
@@ -30,5 +33,17 @@ describe("owner physical-screening corrections", () => {
     expect(journey).toContain('if (topicCounts[activeTopic]) startQuiz(nextProfile);');
     expect(journey).toContain('<span>SUBTOPICS</span>');
     expect(journey).not.toMatch(/supplied .*syllabus PDF|Condensed from/i);
+  });
+
+  it("gives the mobile CBT exit confirmation its own opaque, non-overlapping dialog surface", () => {
+    const quizShell = readFileSync("client/src/components/QuizShell.tsx", "utf8");
+    const styles = readFileSync("client/src/field-notes-overrides.css", "utf8");
+    expect(quizShell).toContain('className="cbt-exit-dialog"');
+    expect(quizShell).toContain('className="cbt-exit-footer"');
+    expect(quizShell).toContain('initialExitConfirmationOpen = false');
+    expect(styles).toContain('.cbt-exit-dialog');
+    expect(styles).toContain('background: #fffdf5 !important');
+    expect(styles).toContain('z-index: 80 !important');
+    expect(styles).toContain('.cbt-exit-footer { grid-template-columns: 1fr; }');
   });
 });

@@ -5,6 +5,7 @@ import { loadQuestionBank } from "@/game/questionBank";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 
 export default function CbtFlowFixture() {
+  const exitDialogOpen = new URLSearchParams(window.location.search).get("openExitDialog") === "1";
   const [questions, setQuestions] = useState<BankQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, AnswerRecord>>({});
@@ -50,5 +51,5 @@ export default function CbtFlowFixture() {
   if (!question) return <main data-e2e="cbt-loading">Loading four-subject CBT fixture…</main>;
   if (screen === "logged") return <main data-e2e="cbt-logged">CBT exam log saved.</main>;
   if (screen === "review") return <ExamReview config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} answers={answerMap} flaggedIds={flaggedIds} onFinalize={() => setScreen("logged")} onHome={() => setScreen("quiz")} />;
-  return <QuizShell config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} currentIndex={currentIndex} currentQuestion={question} selectedIndex={selectedIndex} answered={false} currentAnswer={currentAnswer} secondsLeft={secondsLeft} streak={0} answers={answerMap} onSelect={select} onSubmit={() => undefined} onNext={() => goTo((currentIndex + 1) % questions.length)} onQuit={() => undefined} flaggedIds={flaggedIds} onNavigate={goTo} onToggleFlag={toggleFlag} onFinishCbt={() => setScreen("review")} isPaused={isPaused} onTogglePause={() => setIsPaused((current) => !current)} />;
+  return <QuizShell config={{ subject: "Full JAMB Mock", mode: "cbt", count: 4 }} questions={questions} currentIndex={currentIndex} currentQuestion={question} selectedIndex={selectedIndex} answered={false} currentAnswer={currentAnswer} secondsLeft={secondsLeft} streak={0} answers={answerMap} onSelect={select} onSubmit={() => undefined} onNext={() => goTo((currentIndex + 1) % questions.length)} onQuit={() => undefined} flaggedIds={flaggedIds} onNavigate={goTo} onToggleFlag={toggleFlag} onFinishCbt={() => setScreen("review")} isPaused={isPaused} onTogglePause={() => setIsPaused((current) => !current)} initialExitConfirmationOpen={exitDialogOpen} />;
 }

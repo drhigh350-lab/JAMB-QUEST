@@ -36,11 +36,13 @@ interface QuizShellProps {
   historicalReview?: boolean;
   historicalFilter?: "all" | "correct" | "wrong";
   onHistoricalFilter?: (filter: "all" | "correct" | "wrong") => void;
+  /** Fixture-only initial state used for deterministic visual regression capture. */
+  initialExitConfirmationOpen?: boolean;
 }
 
-export function QuizShell({ config, questions, currentIndex, currentQuestion, selectedIndex, answered, currentAnswer, secondsLeft, streak, answers, onSelect, onSubmit, onNext, onQuit, flaggedIds = [], onNavigate, onToggleFlag, onFinishCbt, isPaused = false, onTogglePause, bookmarkedQuestionIds = [], onToggleBookmark, onReportQuestion, historicalReview = false, historicalFilter = "all", onHistoricalFilter }: QuizShellProps) {
+export function QuizShell({ config, questions, currentIndex, currentQuestion, selectedIndex, answered, currentAnswer, secondsLeft, streak, answers, onSelect, onSubmit, onNext, onQuit, flaggedIds = [], onNavigate, onToggleFlag, onFinishCbt, isPaused = false, onTogglePause, bookmarkedQuestionIds = [], onToggleBookmark, onReportQuestion, historicalReview = false, historicalFilter = "all", onHistoricalFilter, initialExitConfirmationOpen = false }: QuizShellProps) {
   const [submitConfirmOpen, setSubmitConfirmOpen] = useState(false);
-  const [exitConfirmOpen, setExitConfirmOpen] = useState(false);
+  const [exitConfirmOpen, setExitConfirmOpen] = useState(initialExitConfirmationOpen);
   const timerState = secondsLeft <= 10 ? "timer-hot" : secondsLeft <= 20 ? "timer-warm" : "";
   const cbtMode = config.mode === "cbt";
   const displayCbt = cbtMode || historicalReview;
@@ -87,7 +89,7 @@ export function QuizShell({ config, questions, currentIndex, currentQuestion, se
   return (
     <main className="quiz-layout page-shell">
       <header className="quiz-header">
-        {cbtMode && !historicalReview ? <AlertDialog open={exitConfirmOpen} onOpenChange={setExitConfirmOpen}><AlertDialogTrigger asChild><button className="icon-button" aria-label="Leave CBT and save progress"><ArrowLeft size={19} /></button></AlertDialogTrigger><AlertDialogContent><AlertDialogHeader><AlertDialogTitle>Leave this CBT?</AlertDialogTitle><AlertDialogDescription>Your answers, flags, question position, and remaining time are already saved on this device. You can resume from the Practice desk later.</AlertDialogDescription></AlertDialogHeader><AlertDialogFooter><AlertDialogCancel>Continue exam</AlertDialogCancel><AlertDialogAction onClick={() => { setExitConfirmOpen(false); onQuit(); }}>Save and exit</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog> : <button className="icon-button" onClick={onQuit} aria-label="Leave round"><ArrowLeft size={19} /></button>}
+        {cbtMode && !historicalReview ? <AlertDialog open={exitConfirmOpen} onOpenChange={setExitConfirmOpen}><AlertDialogTrigger asChild><button className="icon-button" aria-label="Leave CBT and save progress"><ArrowLeft size={19} /></button></AlertDialogTrigger><AlertDialogContent className="cbt-exit-dialog"><AlertDialogHeader><AlertDialogTitle>Leave this CBT?</AlertDialogTitle><AlertDialogDescription>Your answers, flags, question position, and remaining time are already saved on this device. You can resume from the Practice desk later.</AlertDialogDescription></AlertDialogHeader><AlertDialogFooter className="cbt-exit-footer"><AlertDialogCancel className="cbt-exit-cancel">Continue exam</AlertDialogCancel><AlertDialogAction className="cbt-exit-action" onClick={() => { setExitConfirmOpen(false); onQuit(); }}>Save and exit</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog> : <button className="icon-button" onClick={onQuit} aria-label="Leave round"><ArrowLeft size={19} /></button>}
         <div className="quiz-header-title"><span className="eyebrow">{historicalReview ? "SAVED CBT CORRECTION / READ ONLY" : cbtMode ? "JAMB CBT MOCK" : config.mode === "review" ? "REVIEW MISSES" : "STUDY MODE / UNTIMED"}</span><strong>{config.subject}</strong></div>
         <div className="quiz-header-controls"><JambCalculator />{historicalReview ? <span className="study-mode-status">Saved correction</span> : timedRound ? <div className={`timer-block ${timerState} ${isPaused ? "timer-paused" : ""}`}><TimerReset size={17} /><span>{String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}</span></div> : <span className="study-mode-status">Untimed study</span>}</div>
       </header>

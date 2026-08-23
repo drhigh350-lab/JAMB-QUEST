@@ -120,6 +120,7 @@ function SubjectAccuracyChart({ performance }: { performance: Array<{ subject: s
 }
 
 export default function Home({ initialTab = "practice", onActiveTabChange, loading, loadError, progress, canReview, onRetryLoad, onStart, auth, questionCount, questionCountReady, comeback, reminder, achievementStats, examHistory, onOpenExamLog = () => undefined, examReviewOpening = false, examReviewError = null, weakTopics, topicConfidence = [], subjectPerformance = [], fullMockSubjectPerformance = [], coreSubjectFocus = null, availableTopics = [], bookmarks = [], questionReports = [], isOwner = false, ownerQuestionReports = [], onOwnerReportStatus = () => undefined, ownerReportUpdatingId = null, activeQuestions = [], comparison, onUpdateDailyMinimum, onUpdateDailyGoal = () => undefined, onEnablePush, onDisablePush, onTestPush = () => undefined, pushWorking, pushStatus, pwa, resumableCbt = null, onResumeCbt = () => undefined, onDiscardResumableCbt = () => undefined }: HomeProps) {
+  const openPracticeFixture = typeof window !== "undefined" && new URLSearchParams(window.location.search).get("e2eOpenPracticePath") === "1";
   const [activeTab, setActiveTab] = useState<AppTab>(initialTab);
   useEffect(() => { onActiveTabChange?.(activeTab); }, [activeTab, onActiveTabChange]);
   const [selectedSubject, setSelectedSubject] = useState<Subject>("Biology");
@@ -127,6 +128,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [count, setCount] = useState(10);
   const [topicDrillCount, setTopicDrillCount] = useState(20);
   const [selectedTopic, setSelectedTopic] = useState("");
+  const [selectedLekkiTopic, setSelectedLekkiTopic] = useState("");
+  const [lekkiCount, setLekkiCount] = useState(20);
   const [entranceReady, setEntranceReady] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [typedEntrance, setTypedEntrance] = useState("");
@@ -141,6 +144,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
+  const lekkiTopics = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
   const officialTopics = OFFICIAL_SYLLABUS_AREAS[selectedSubject];
   const syllabusParentGroups = getSyllabusParentGroups(selectedSubject);
   const topicQuestionCounts = selectableTopics.reduce<Record<string, number>>((counts, topic) => ({ ...counts, [topic]: (counts[topic] ?? 0) + 1 }), {});
@@ -218,6 +222,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     unsupported: "This browser cannot receive push reminders. Your in-app daily system still works.", denied: "Browser notifications were declined. You can enable them later in your browser settings.", failed: "The reminder could not be set up on this device. Please try again later.", enabled: "JAMB Quest browser reminders are enabled on this device. The Lagos daily timetable is active.", disabled: "Browser reminders are off for this device. Your in-app system stays active.", "test-sent": "Test reminder sent. Check this device’s notification shade now.", "test-failed": "No reminder reached this device. Re-enable notifications and try the test again.",
   };
   const start = () => onStart({ subject: selectedSubject, mode, count, ...(mode === "sprint" ? { timing: "study" as const } : {}) });
+  const startLekkiStudy = () => onStart({ subject: "Use of English", mode: "sprint", count: lekkiCount, timing: "study", includeLekki: true, topic: selectedLekkiTopic || "The Lekki Headmaster" });
   const applyCustomGoal = () => {
     const value = Number(customGoalInput);
     if (!Number.isInteger(value) || value < 5 || value > 500) { setCustomGoalError("Choose a whole number from 5 to 500."); return; }
@@ -314,7 +319,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             <button className="compact-final-day-link" onClick={() => setActiveTab("progress")}><CalendarCheck2 size={14} /> Day before JAMB? Open your final-day review <ArrowRight size={13} /></button>
           </CompactPanel>
 
-          <CompactPanel eyebrow="02 / PRACTICE" title="Choose your practice path" note="Start a full Standard CBT first, or open a compact subject desk for a focused round." tone="paper">
+          <CompactPanel eyebrow="02 / PRACTICE" title="Choose your practice path" note="Start a full Standard CBT first, or open a compact subject desk for a focused round." defaultOpen={openPracticeFixture} tone="paper">
             <button data-testid="standard-cbt-path" className="practice-route practice-route-standard" onClick={startFullMock} disabled={loading || !!loadError}><Trophy size={20} /><span><b>Standard CBT</b><small>180 questions · 2 hours · 60 ENG / 40 BIO / 40 CHE / 40 PHY</small></span><ArrowRight size={17} /></button>
             <details className="practice-subject-path">
               <summary data-testid="single-subject-path"><BookOpen size={18} /><span><b>Practice a subject</b><small>Open Biology, Chemistry, Physics, or Use of English only when you need focused study, CBT, or review.</small></span><ArrowRight size={15} /></summary>
@@ -324,6 +329,14 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
                 <div className="compact-count-row"><span>Question count</span><div>{(mode === "cbt" ? [20, 40, 80] : [10, 20, 40]).map((value) => <button key={value} className={count === value ? "active" : ""} onClick={() => setCount(value)}>{value}</button>)}</div></div>
                 {resumableCbt && <div className="compact-resume compact-resume-detailed"><div><span>CBT safely saved</span><b>{resumableCbt.config.subject === "Full JAMB Mock" ? "Full JAMB · 60 ENG / 40 BIO / 40 CHE / 40 PHY" : `${resumableCbt.config.subject} CBT`}</b><small>{Object.keys(resumableCbt.answers).length} of {resumableCbt.questionIds.length} answered · {formatCbtTime(resumableCbt.secondsLeft)} left · last saved at question {resumableCbt.currentIndex + 1}</small></div><div><button className="text-button" onClick={onResumeCbt}>Resume <ArrowRight size={13} /></button><button className="text-button" onClick={onDiscardResumableCbt}>Discard</button></div></div>}
                 <button className="button button-dark compact-start" onClick={start} disabled={loading || !!loadError || (mode === "review" && !canReview)}>{mode === "review" ? "Open recovery set" : mode === "sprint" ? `Start ${selected.short} study` : `Start ${selected.short} CBT`} <ArrowRight size={17} /></button>
+              </div>
+            </details>
+            <details className="practice-subject-path practice-lekki-path">
+              <summary data-testid="lekki-practice-path"><BookOpen size={18} /><span><b>The Lekki Headmaster</b><small>Optional novel practice. Keep it separate from your core English preparation and open it only when you want it.</small></span><ArrowRight size={15} /></summary>
+              <div className="practice-subject-path-body practice-lekki-path-body">
+                <label className="compact-topic-select"><span>Choose a chapter</span><select aria-label="Choose a Lekki Headmaster chapter" value={selectedLekkiTopic} onChange={(event) => setSelectedLekkiTopic(event.target.value)}><option value="">Mixed novel practice</option>{lekkiTopics.map((topic) => <option key={topic} value={topic}>{topic.replace(/^The Lekki Headmaster\s*·\s*/, "")}</option>)}</select></label>
+                <div className="compact-count-row"><span>Question count</span><div>{[20, 50].map((value) => <button key={value} className={lekkiCount === value ? "active" : ""} onClick={() => setLekkiCount(value)}>{value}</button>)}</div></div>
+                <button data-testid="lekki-mixed-study-start" className="button button-outline compact-start" onClick={startLekkiStudy} disabled={loading || !!loadError || !lekkiTopics.length}>Start {lekkiCount}-question novel study <ArrowRight size={17} /></button>
               </div>
             </details>
           </CompactPanel>
