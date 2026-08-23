@@ -25,6 +25,7 @@ export default function ProgressAnalyticsFixture() {
     { id: 2, subject: "Biology", mode: "sprint", questionCount: 20, correctCount: 15, score: 1500, durationSeconds: 760, flaggedCount: 0, missedQuestionIds: ["BIO-005"], completedAt: new Date("2026-08-12T19:00:00.000Z") },
   ];
   return <><Home
+    initialTab="progress"
     loading={false}
     loadError={null}
     progress={{ totalAnswered: diagnostic ? 0 : totalAnswered, totalCorrect: diagnostic ? 0 : totalCorrect, bestScore: 3200, lastScore: 2800, roundsPlayed: diagnostic ? 0 : 3, wrongIds: diagnostic ? [] : ["BIO-001"], subjectBest: { Biology: 3200, Chemistry: 2700, Physics: 2500, "Use of English": 3000 } }}
