@@ -43,8 +43,10 @@ async function startServer() {
       const user = await sdk.authenticateRequest(req);
       if (!user.isCron || !user.taskUid) return res.status(403).json({ error: "cron-only" });
       const result = await sendDailyDirectBrowserReminders(window);
+      await recordDirectReminderCallbackAudit({ cronTaskUid: user.taskUid, window, outcome: result.sent > 0 ? "sent" : "skipped", observedUtcHour: new Date().getUTCHours(), sent: result.sent, skipped: result.skipped, totalEnabled: result.totalEnabled, transport: result.transport });
       return res.json({ ok: true, ...result, taskUid: user.taskUid });
     } catch (error) {
+      await recordDirectReminderCallbackAudit({ cronTaskUid: null, window, outcome: "failed", observedUtcHour: new Date().getUTCHours() });
       return res.status(500).json({
         error: error instanceof Error ? error.message : `${window}-comeback failed`,
         stack: error instanceof Error ? error.stack : undefined,
