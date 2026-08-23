@@ -1,0 +1,117 @@
+{
+  "sourceFile": "jamb_questions_only.pdf",
+  "answerFiles": [
+    "Biology_Batch5_Q151-250.md",
+    "Chemistry_Batch6_Q1-100.md",
+    "Chemistry_Batch7_Q101-200.md"
+  ],
+  "declaredRecordCount": 300,
+  "eligibleCount": 287,
+  "heldCount": 13,
+  "perRange": [
+    {
+      "range": "Biology 151–250",
+      "sourceFile": "Biology_Batch5_Q151-250.md",
+      "parsedAnswerCount": 100,
+      "stagedSourceCount": 100,
+      "eligibleCount": 98,
+      "heldCount": 2
+    },
+    {
+      "range": "Chemistry 1–100",
+      "sourceFile": "Chemistry_Batch6_Q1-100.md",
+      "parsedAnswerCount": 100,
+      "stagedSourceCount": 100,
+      "eligibleCount": 94,
+      "heldCount": 6
+    },
+    {
+      "range": "Chemistry 101–200",
+      "sourceFile": "Chemistry_Batch7_Q101-200.md",
+      "parsedAnswerCount": 100,
+      "stagedSourceCount": 100,
+      "eligibleCount": 95,
+      "heldCount": 5
+    }
+  ],
+  "held": [
+    {
+      "externalId": "PDF-OWNER-20260822-BIO-210",
+      "subject": "Biology",
+      "questionNumber": 210,
+      "reason": "Syllabus hold: source cannot be resolved to an exact official syllabus area."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-BIO-211",
+      "subject": "Biology",
+      "questionNumber": 211,
+      "reason": "Syllabus hold: source cannot be resolved to an exact official syllabus area."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-005",
+      "subject": "Chemistry",
+      "questionNumber": 5,
+      "reason": "Answer-key hold: supplied answer letter and answer text do not identify the same staged source option."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-042",
+      "subject": "Chemistry",
+      "questionNumber": 42,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-043",
+      "subject": "Chemistry",
+      "questionNumber": 43,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-056",
+      "subject": "Chemistry",
+      "questionNumber": 56,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-062",
+      "subject": "Chemistry",
+      "questionNumber": 62,
+      "reason": "Syllabus hold: source cannot be resolved to an exact official syllabus area."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-075",
+      "subject": "Chemistry",
+      "questionNumber": 75,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-109",
+      "subject": "Chemistry",
+      "questionNumber": 109,
+      "reason": "Answer-key hold: explanation states a different answer letter from the supplied heading."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-126",
+      "subject": "Chemistry",
+      "questionNumber": 126,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-153",
+      "subject": "Chemistry",
+      "questionNumber": 153,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-170",
+      "subject": "Chemistry",
+      "questionNumber": 170,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    },
+    {
+      "externalId": "PDF-OWNER-20260822-CHEM-200",
+      "subject": "Chemistry",
+      "questionNumber": 200,
+      "reason": "Option-integrity hold: staged source lacks four or five distinct non-empty options."
+    }
+  ]
+}

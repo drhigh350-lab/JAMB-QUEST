@@ -29,14 +29,15 @@ describe("Arcade world board and syllabus detail upgrades", () => {
     expect(hub).toContain("no streak penalty, paid advantage, or random reward");
   });
 
-  it("shows a supplied-PDF-derived objective and subtopics for every official topic without changing quiz boundaries", () => {
+  it("shows an objective and subtopics for every official topic without changing quiz boundaries or exposing source-processing copy", () => {
     const journey = read("client/src/components/SyllabusJourney.tsx");
-    expect(journey).toContain("OFFICIAL LEARNING OBJECTIVE");
-    expect(journey).toContain("OFFICIAL SUBTOPICS");
-    expect(journey).toContain("Condensed from your supplied");
+    expect(journey).toContain("<span>LEARNING OBJECTIVE</span>");
+    expect(journey).toContain("<span>SUBTOPICS</span>");
+    expect(journey).not.toMatch(/supplied .*syllabus PDF|Condensed from/i);
     expect(journey).toContain("data-testid=\"syllabus-topic-focus\"");
     expect(journey).toContain("getSyllabusJourneyDetail(subject, activeTopic)");
     expect(journey).toContain('selectSyllabusJourneyQuiz(questions, subject, activeTopic, 5');
+    expect(journey).toContain("if (topicCounts[activeTopic]) startQuiz(nextProfile);");
     expect(journey).toContain("awaiting matching approved questions");
     expect(journey).not.toContain("recordRound");
     for (const [subject, topics] of Object.entries(OFFICIAL_SYLLABUS_AREAS)) {

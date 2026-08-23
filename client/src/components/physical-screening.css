@@ -1,0 +1,44 @@
+.practice-route-standard {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  min-height: 92px;
+  margin: 14px 0 10px;
+  padding: 15px;
+  border: 1px solid var(--ink);
+  color: var(--chalk);
+  background: var(--ink);
+  box-shadow: 5px 5px 0 var(--maize);
+  text-align: left;
+  cursor: pointer;
+}
+.practice-route-standard > span,
+.practice-subject-path summary > span { display: grid; gap: 4px; }
+.practice-route-standard b { font: 800 16px/1 "Space Grotesk", sans-serif; letter-spacing: -.03em; }
+.practice-route-standard small { color: rgba(255,252,245,.72); font-size: 10px; line-height: 1.35; }
+.practice-route-standard:disabled { opacity: .55; cursor: not-allowed; }
+.practice-subject-path { margin-top: 12px; border: 1px solid rgba(18,40,63,.2); background: rgba(255,252,245,.62); }
+.practice-subject-path summary { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: 10px; align-items: center; min-height: 70px; padding: 12px; cursor: pointer; list-style: none; }
+.practice-subject-path summary::-webkit-details-marker { display: none; }
+.practice-subject-path summary b { font: 800 12px/1 "Space Grotesk", sans-serif; }
+.practice-subject-path summary small { color: rgba(18,40,63,.63); font-size: 9px; line-height: 1.3; }
+.practice-subject-path summary > svg:last-child { transition: transform .18s var(--ease-out); }
+.practice-subject-path[open] summary > svg:last-child { transform: rotate(90deg); }
+.practice-subject-path-body { padding: 0 12px 14px; border-top: 1px solid rgba(18,40,63,.12); }
+.syllabus-use-guide { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin: 14px 0; }
+.syllabus-use-guide > span { display: grid; gap: 5px; min-height: 74px; padding: 10px; border-top: 3px solid var(--ink); background: rgba(255,252,245,.56); color: var(--ink); font-size: 9px; line-height: 1.3; }
+.syllabus-use-guide b { display: grid; place-items: center; width: 20px; height: 20px; color: var(--chalk); background: var(--ink); font: 800 10px "Space Grotesk", sans-serif; }
+.profile-study-metrics { margin-bottom: 18px; }
+@media (min-width: 900px) {
+  .practice-route-standard { min-height: 104px; padding: 20px; }
+  .practice-route-standard b { font-size: 19px; }
+  .practice-subject-path summary { min-height: 76px; padding: 15px; }
+}
+@media (max-width: 420px) {
+  .practice-route-standard { min-height: 86px; padding: 13px; }
+  .practice-route-standard b { font-size: 14px; }
+  .syllabus-use-guide { gap: 5px; }
+  .syllabus-use-guide > span { min-height: 82px; padding: 8px; font-size: 8px; }
+}

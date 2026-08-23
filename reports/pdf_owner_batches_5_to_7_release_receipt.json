@@ -1,0 +1,47 @@
+{
+  "release": "Owner PDF answer-matched Biology 151–250 and Chemistry 1–200 · 23 Aug 2026",
+  "releasedCount": 287,
+  "heldCount": 13,
+  "sourceGroups": [
+    {
+      "sourceLabel": "Owner PDF answer-matched Biology 151–250 · 23 Aug 2026",
+      "expectedCount": 98,
+      "sourceId": 26340001,
+      "importedCount": 98,
+      "approvedCount": 98
+    },
+    {
+      "sourceLabel": "Owner PDF answer-matched Chemistry 1–100 · 23 Aug 2026",
+      "expectedCount": 94,
+      "sourceId": 26340002,
+      "importedCount": 94,
+      "approvedCount": 94
+    },
+    {
+      "sourceLabel": "Owner PDF answer-matched Chemistry 101–200 · 23 Aug 2026",
+      "expectedCount": 95,
+      "sourceId": 26340003,
+      "importedCount": 95,
+      "approvedCount": 95
+    }
+  ],
+  "updatedFields": [
+    "explanationStatus"
+  ],
+  "preservedProtectedFields": [
+    "externalId",
+    "subject",
+    "topic",
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "explanation"
+  ],
+  "verifiedApprovedAuthorisedTotal": 8337,
+  "approvedAuthorisedBySubject": {
+    "Biology": 2540,
+    "Chemistry": 2396,
+    "Physics": 1761,
+    "Use of English": 1640
+  }
+}

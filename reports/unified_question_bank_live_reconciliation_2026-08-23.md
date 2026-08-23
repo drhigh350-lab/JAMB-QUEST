@@ -10,13 +10,13 @@ The earlier `unified_question_bank_receipt_2026-08-23.md` correctly recorded a *
 
 | Step | Count | Verified basis |
 |---|---:|---|
-| Active approved authorised questions | 7,941 | Read-only database count of `questionItems` joined to active `questionSources`, grouped by subject. |
+| Active approved authorised questions | 8,228 | Read-only database count of `questionItems` joined to active `questionSources`, grouped by subject, after the validated Biology 151–250 and Chemistry 1–200 release. |
 | Managed model questions | 1,000 | Protected active model-bank asset and model-bank regression. |
-| Current combined pool before ID de-duplication | 8,941 | 7,941 + 1,000. |
-| Exact repeated IDs removed by the normal merge | 74 | 8,941 pre-de-duplication records less the 8,867 cards exposed by the live runtime. |
-| **Current learner-visible unified pool** | **8,867** | `useQuizGame` merges both banks and removes repeated IDs only. |
+| Current combined pool before ID de-duplication | 9,228 | 8,228 + 1,000. |
+| Exact repeated IDs removed by the normal merge | 74 | 9,228 pre-de-duplication records less the 9,154 cards exposed by the live runtime. |
+| **Current learner-visible unified pool** | **9,154** | `useQuizGame` merges both banks and removes repeated IDs only. |
 
-The active approved authorised subject counts are Biology **2,442**, Chemistry **2,207**, Physics **1,761**, and Use of English **1,531**.
+The active approved authorised subject counts are Biology **2,540**, Chemistry **2,396**, Physics **1,761**, and Use of English **1,531**. The increase is exactly the **287** records released from owner-supplied answer/explanation files after source matching and full duplicate validation; **13** records remain held outside learner play.
 
 ## Why 9,050 became 8,941 before de-duplication
 
@@ -36,4 +36,4 @@ There is no source-based exclusion at this stage. The same unified array reaches
 
 ## Verification
 
-Focused safeguards passed on 23 August 2026: `server/questionBank.test.ts` (10 tests), `server/readyQuestionCount.test.ts` (3 tests), and `server/modelBankEnglishInstructionRepair.test.ts` (1 test). The live source reconciliation was read-only; no question, answer, option, explanation, topic, diagram, source label, or approval status was changed.
+Focused safeguards passed on 23 August 2026: `server/questionBank.test.ts` (10 tests), `server/readyQuestionCount.test.ts` (3 tests), `server/questionsOnlyPdfBatches5To7.test.ts` (3 tests), and `server/modelBankEnglishInstructionRepair.test.ts` (1 test). The 287 new owner records were released only after deterministic answer-to-option matching, exact official-topic resolution, format checks, and duplicate screening against both the active authorised ledger and protected model asset. No protected field was changed after import; only eligibility moved from `needs_review` to `approved`.
