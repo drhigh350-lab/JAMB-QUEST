@@ -1,34 +1,46 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { OFFICIAL_SYLLABUS_AREAS } from "../shared/syllabusTopicMap";
+import { SYLLABUS_JOURNEY_DETAILS } from "../shared/syllabusJourneyDetails";
 
 const read = (path: string) => readFileSync(path, "utf8");
 
-describe("Arcade transmission and syllabus detail upgrades", () => {
-  it("adds one real-time, reduced-motion-safe study signal to every Arcade question loop", () => {
-    const signal = read("client/src/components/ArcadeTransmission.tsx");
-    const styles = read("client/src/components/arcade-transmission.css");
+describe("Arcade world board and syllabus detail upgrades", () => {
+  it("places every Arcade question loop on a reduced-motion-safe virtual game board without touching CBT", () => {
+    const board = read("client/src/components/ArcadeWorldBoard.tsx");
+    const styles = read("client/src/components/arcade-world-board.css");
     const expedition = read("client/src/components/QuestRush.tsx");
     const president = read("client/src/components/PresidentsDesk.tsx");
     const archive = read("client/src/components/GreatArchive.tsx");
+    const hub = read("client/src/components/GameArcade.tsx");
 
-    expect(signal).toContain("prefers-reduced-motion: reduce");
-    expect(signal).toContain("Repair signal logged");
+    expect(board).toContain('image: "/manus-storage/jamb-quest-expedition-world');
+    expect(board).toContain('image: "/manus-storage/jamb-quest-asterra-world');
+    expect(board).toContain('image: "/manus-storage/jamb-quest-archive-world');
+    expect(board).toContain("setTypedMessage(message.slice(0, position))");
+    expect(board).toContain("prefers-reduced-motion: reduce");
     expect(styles).toContain("@media(prefers-reduced-motion:reduce)");
-    expect(expedition).toContain('<ArcadeTransmission world="expedition"');
-    expect(president).toContain('<ArcadeTransmission world="asterra"');
-    expect(archive).toContain('<ArcadeTransmission world="archive"');
-    expect(signal).not.toContain("localStorage");
-    expect(signal).not.toContain("CBT");
+    expect(expedition).toContain('<ArcadeWorldBoard world="expedition"');
+    expect(president).toContain('<ArcadeWorldBoard world="asterra"');
+    expect(archive).toContain('<ArcadeWorldBoard world="archive"');
+    expect(board).not.toContain("localStorage");
+    expect(board).not.toContain("CBT");
+    expect(hub).toContain("RETURN BOARD / YOUR NEXT REAL MOVE");
+    expect(hub).toContain("no streak penalty, paid advantage, or random reward");
   });
 
-  it("shows a study objective and only source-tagged approved-card subtopics without changing official topic or quiz boundaries", () => {
+  it("shows a supplied-PDF-derived objective and subtopics for every official topic without changing quiz boundaries", () => {
     const journey = read("client/src/components/SyllabusJourney.tsx");
-    expect(journey).toContain("LEARNING OBJECTIVE");
-    expect(journey).toContain("APPROVED-CARD SUBTOPICS");
+    expect(journey).toContain("OFFICIAL LEARNING OBJECTIVE");
+    expect(journey).toContain("OFFICIAL SUBTOPICS");
+    expect(journey).toContain("Condensed from your supplied");
     expect(journey).toContain("data-testid=\"syllabus-topic-focus\"");
-    expect(journey).toContain("question.subtopic.trim()");
+    expect(journey).toContain("getSyllabusJourneyDetail(subject, activeTopic)");
     expect(journey).toContain('selectSyllabusJourneyQuiz(questions, subject, activeTopic, 5');
     expect(journey).toContain("awaiting matching approved questions");
     expect(journey).not.toContain("recordRound");
+    for (const [subject, topics] of Object.entries(OFFICIAL_SYLLABUS_AREAS)) {
+      for (const topic of topics) expect(SYLLABUS_JOURNEY_DETAILS[subject][topic]).toBeDefined();
+    }
   });
 });
