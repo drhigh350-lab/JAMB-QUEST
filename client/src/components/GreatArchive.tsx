@@ -1,7 +1,7 @@
 import { Archive, ArrowRight, BookOpenCheck, Check, ChevronRight, LibraryBig, ShieldCheck, Sparkles, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { formatLearnerText } from "@/game/learnerText";
-import { emptyArcadeProfile, readArcadeProfile, type ArchiveBlueprintId, type GreatArchiveArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
+import { emptyArcadeProfile, readArcadeProfile, selectArcadeQuestions, type ArchiveBlueprintId, type GreatArchiveArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
 import type { BankQuestion, Subject } from "@/game/types";
 import "./great-archive.css";
 
@@ -13,8 +13,6 @@ const blueprints: Array<{ id: ArchiveBlueprintId; title: string; note: string; t
   { id: "mastery", title: "Mastery Gallery", note: "Secure four true answers to deepen a single subject collection.", target: "4 secured tiles" },
   { id: "repair", title: "Repair Vault", note: "Build a careful index: secure three topic tiles and keep every miss ready for correction.", target: "3 secured tiles + repair rack" },
 ];
-
-const shuffle = <T,>(items: T[]) => [...items].sort(() => Math.random() - .5);
 
 export function GreatArchive({ questions, onExit, onOpenCorrection, autoStart = false }: { questions: BankQuestion[]; onExit: () => void; onOpenCorrection: (subject: Subject, questionIds: string[]) => void; autoStart?: boolean }) {
   const [subject, setSubject] = useState<Subject>("Biology");
@@ -38,14 +36,14 @@ export function GreatArchive({ questions, onExit, onOpenCorrection, autoStart = 
 
   useEffect(() => { const profile = readArcadeProfile(); setArchive(profile.greatArchive); setPlayerName(profile.displayName); }, []);
   const saveArchive = (next: GreatArchiveArcadeState) => { setArchive(next); const profile = readArcadeProfile(); writeArcadeProfile({ ...profile, greatArchive: next }); };
-  const start = () => { saved.current = false; setSession(shuffle(available).slice(0, 5)); setAnswers([]); setIndex(0); setFeedback(null); setPhase("playing"); };
+  const start = () => { saved.current = false; setSession(selectArcadeQuestions(available, subject, 5, archive.recentQuestionIds)); setAnswers([]); setIndex(0); setFeedback(null); setPhase("playing"); };
   useEffect(() => { if (autoStart && !autoStarted.current && phase === "setup" && available.length >= 5) { autoStarted.current = true; start(); } }, [autoStart, available.length, phase]);
   useEffect(() => {
     if (phase !== "report" || saved.current || !session.length) return;
     saved.current = true;
     const tiles = { ...archive.tiles };
     sessionTopics.forEach((topic) => { tiles[topic] = (tiles[topic] ?? 0) + 1; });
-    saveArchive({ tiles, blueprints: { ...archive.blueprints, [blueprintId]: archive.blueprints[blueprintId] + (targetMet ? 1 : 0) }, restoredWings: targetMet && !archive.restoredWings.includes(wingKey) ? [...archive.restoredWings, wingKey] : archive.restoredWings });
+    saveArchive({ tiles, blueprints: { ...archive.blueprints, [blueprintId]: archive.blueprints[blueprintId] + (targetMet ? 1 : 0) }, restoredWings: targetMet && !archive.restoredWings.includes(wingKey) ? [...archive.restoredWings, wingKey] : archive.restoredWings, recentQuestionIds: [...archive.recentQuestionIds, ...session.map((item) => item.id)].slice(-120) });
   }, [archive, blueprintId, phase, session.length, sessionTopics, targetMet, wingKey]);
   const answer = (selectedIndex: number) => { if (!current || feedback) return; const correct = selectedIndex === current.answer_index; setAnswers((items) => [...items, { questionId: current.id, selectedIndex, correct }]); setFeedback(correct ? "correct" : "wrong"); };
   const next = () => { if (index + 1 < session.length) { setIndex((value) => value + 1); setFeedback(null); } else setPhase("report"); };

@@ -16,6 +16,10 @@ describe("President’s Desk civic strategy mode", () => {
     expect(component).toContain("president-study-map");
     expect(component).toContain("Start 5 questions");
     expect(component).toContain("playerName");
+    expect(component).toContain("asterra-build-board_9da2f55a.png");
+    expect(component).toContain("twelve marks complete its visible Asterra build journey");
+    expect(component).toContain("commonwealth.recentQuestionIds");
+    expect(component).toContain("selectArcadeQuestions");
     expect(component).not.toContain("Nigeria");
     expect(component).not.toContain("payment");
     expect(arcade).toContain('onSelect("president")');

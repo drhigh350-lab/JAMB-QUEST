@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, BookOpenCheck, Check, ChevronRight, Compass, Flag, Map, Route, ShieldCheck, Sparkles, Stamp, X } from "lucide-react";
 import { formatLearnerText } from "@/game/learnerText";
 import type { BankQuestion, Subject } from "@/game/types";
-import { readArcadeProfile, type ExpeditionArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
+import { readArcadeProfile, selectArcadeQuestions, type ExpeditionArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
 import "./quest-rush.css";
 
 const subjects: Array<{ subject: Subject; short: string; accent: string; icon: string }> = [
@@ -30,16 +30,7 @@ type ExpeditionPhase = "setup" | "playing" | "results";
 type ExpeditionAnswer = { questionId: string; selectedIndex: number; correct: boolean };
 type Passport = ExpeditionArcadeState;
 
-const blankPassport = (): Passport => ({ stamps: {}, routes: [] });
-
-function shuffled<T>(items: T[]) {
-  const copy = [...items];
-  for (let index = copy.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [copy[index], copy[swapIndex]] = [copy[swapIndex]!, copy[index]!];
-  }
-  return copy;
-}
+const blankPassport = (): Passport => ({ stamps: {}, routes: [], recentQuestionIds: [] });
 
 export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpenCorrection, autoStart = false }: { questions: BankQuestion[]; defaultSubject?: Subject; onExit: () => void; onOpenCorrection: (subject: Subject, questionIds: string[]) => void; autoStart?: boolean }) {
   const [subject, setSubject] = useState<Subject>(defaultSubject);
@@ -77,7 +68,7 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
   };
 
   const start = () => {
-    const selected = shuffled(available).slice(0, Math.min(contract.length, available.length));
+    const selected = selectArcadeQuestions(available, subject, Math.min(contract.length, available.length), passport.recentQuestionIds);
     awardSaved.current = false;
     setRoute(selected);
     setIndex(0);
@@ -103,6 +94,7 @@ export function QuestRush({ questions, defaultSubject = "Biology", onExit, onOpe
     const next: Passport = {
       stamps: { ...passport.stamps, [subject]: (passport.stamps[subject] ?? 0) + earnedStamps },
       routes: isNewRoute && segmentAward ? [...passport.routes, routeKey] : passport.routes,
+      recentQuestionIds: [...passport.recentQuestionIds, ...route.map((item) => item.id)].slice(-120),
     };
     persistPassport(next);
   }, [phase, route.length, passport, routeKey, segmentAward, sessionStamps, subject]);

@@ -19,6 +19,7 @@ import { QuestRush } from "@/components/QuestRush";
 import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
 import { PresidentsDesk } from "@/components/PresidentsDesk";
 import { GreatArchive } from "@/components/GreatArchive";
+import { SyllabusJourney } from "@/components/SyllabusJourney";
 import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "../lekki-palette.css";
@@ -141,6 +142,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [achievementDownloaded, setAchievementDownloaded] = useState(false);
   const [arcadeMode, setArcadeMode] = useState<ArcadeMode | null>(null);
   const [gameArcadeOpen, setGameArcadeOpen] = useState(false);
+  const [syllabusJourneyOpen, setSyllabusJourneyOpen] = useState(false);
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
@@ -272,6 +274,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
+  if (syllabusJourneyOpen) return <SyllabusJourney questions={activeQuestions} onExit={() => setSyllabusJourneyOpen(false)} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <Dialog open={fullMockSetupOpen} onOpenChange={setFullMockSetupOpen}>
@@ -336,6 +339,11 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             <label className="compact-topic-select"><span>Selected detailed area</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose a detailed official syllabus area</option>{syllabusParentGroups.flatMap((group) => group.topics).map((topic) => <option key={topic} value={topic} disabled={!topicQuestionCounts[topic]}>{topic}{topicQuestionCounts[topic] ? ` (${topicQuestionCounts[topic]})` : " — not loaded yet"}</option>)}</select></label><div className="compact-count-row"><span>Drill size</span><div>{[10, 20, 40, 50].map((value) => <button data-testid={`topic-drill-count-${value}`} key={value} className={topicDrillCount === value ? "active" : ""} onClick={() => setTopicDrillCount(value)}>{value}</button>)}</div></div>
             <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopic || !topicQuestionCounts[selectedTopic] || loading || !!loadError}>Start {topicDrillCount}-question drill <ArrowRight size={16} /></button>
           </CompactPanel>
+        </section>
+        <section className="study-expedition-destination syllabus-journey-destination tab-section" data-testid="syllabus-journey-destination" aria-labelledby="syllabus-journey-destination-title">
+          <div className="study-expedition-destination-map" aria-hidden="true"><i /><i /><i /><i /><span>ROAD</span></div>
+          <div className="study-expedition-destination-copy"><span className="eyebrow">STUDY ROAD / SYLLABUS JOURNEY</span><h2 id="syllabus-journey-destination-title">Make the official syllabus your revision plan.</h2><p>Open a clear subject outline, mark the part you have studied from your notes or class, then take a short quiz from matching approved questions. Your score shows what to revisit; a tick alone never claims mastery.</p><div><span><BookOpen size={15} /> Official outline</span><span><CheckCircle2 size={15} /> Study reminder</span><span><Target size={15} /> Topic quiz evidence</span></div></div>
+          <button data-testid="syllabus-journey-path" className="button button-outline study-expedition-destination-action" onClick={() => setSyllabusJourneyOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={17} /> Open Syllabus Journey <ArrowRight size={17} /></button>
         </section>
         <section className="study-expedition-destination tab-section" data-testid="study-expedition-destination" aria-labelledby="study-expedition-destination-title">
           <div className="study-expedition-destination-map" aria-hidden="true"><i /><i /><i /><i /><span>MAP</span></div>

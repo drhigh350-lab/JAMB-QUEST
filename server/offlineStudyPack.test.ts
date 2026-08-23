@@ -5,11 +5,11 @@ describe("downloadable offline study pack", () => {
   it("stores authorised questions and same-origin diagram assets outside the disposable shell cache", () => {
     const pack = readFileSync("client/src/lib/offlineStudyPack.ts", "utf8");
     const worker = readFileSync("client/public/sw.js", "utf8");
-    expect(pack).toContain('const STUDY_PACK_CACHE = "jamb-quest-study-pack-v9"');
+    expect(pack).toContain('const STUDY_PACK_CACHE = "jamb-quest-study-pack-v10"');
     expect(pack).toContain("downloadOfflineStudyPack");
     expect(pack).toContain("question.diagram_url");
     expect(pack).toContain("navigator.storage?.persist");
-    expect(worker).toContain('const STUDY_PACK_CACHE = "jamb-quest-study-pack-v9"');
+    expect(worker).toContain('const STUDY_PACK_CACHE = "jamb-quest-study-pack-v10"');
     expect(worker).toContain("key !== STUDY_PACK_CACHE");
   });
 
