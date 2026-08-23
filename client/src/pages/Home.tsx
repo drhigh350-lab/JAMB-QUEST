@@ -20,6 +20,7 @@ import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
 import { PresidentsDesk } from "@/components/PresidentsDesk";
 import { GreatArchive } from "@/components/GreatArchive";
 import { SyllabusJourney } from "@/components/SyllabusJourney";
+import { RevisionReturnQueue } from "@/components/RevisionReturnQueue";
 import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "../lekki-palette.css";
@@ -345,6 +346,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
           <div className="study-expedition-destination-copy"><span className="eyebrow">STUDY ROAD / SYLLABUS JOURNEY</span><h2 id="syllabus-journey-destination-title">Make the official syllabus your revision plan.</h2><p>Open a clear subject outline, mark the part you have studied from your notes or class, then take a short quiz from matching approved questions. Your score shows what to revisit; a tick alone never claims mastery.</p><div><span><BookOpen size={15} /> Official outline</span><span><CheckCircle2 size={15} /> Study reminder</span><span><Target size={15} /> Topic quiz evidence</span></div></div>
           <button data-testid="syllabus-journey-path" className="button button-outline study-expedition-destination-action" onClick={() => setSyllabusJourneyOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={17} /> Open Syllabus Journey <ArrowRight size={17} /></button>
         </section>
+        <RevisionReturnQueue onStart={onStart} />
         <section className="study-expedition-destination tab-section" data-testid="study-expedition-destination" aria-labelledby="study-expedition-destination-title">
           <div className="study-expedition-destination-map" aria-hidden="true"><i /><i /><i /><i /><span>MAP</span></div>
           <div className="study-expedition-destination-copy"><span className="eyebrow">OPTIONAL GAME DESK / JAMB QUEST ARCADE</span><h2 id="study-expedition-destination-title">When you need a different way to practise.</h2><p>Choose Study Expedition, President’s Desk, or The Great Archive. Each new game uses a fresh mix of approved questions from the JAMB Quest bank, then gives you repair cards for any miss—without changing your normal Practice or CBT history.</p><div><span><ShieldCheck size={15} /> No timer</span><span><MapIcon size={15} /> Fresh question mix</span><span><BookOpen size={15} /> Repair cards</span></div></div>

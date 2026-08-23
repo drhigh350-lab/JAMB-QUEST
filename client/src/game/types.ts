@@ -44,7 +44,7 @@ export interface RoundConfig {
   topic?: string;
   topics?: string[];
   questionIds?: string[];
-  recoveryOrigin?: "saved-question" | "missed-questions";
+  recoveryOrigin?: "saved-question" | "missed-questions" | "revision-return";
 }
 
 export interface AnswerRecord {

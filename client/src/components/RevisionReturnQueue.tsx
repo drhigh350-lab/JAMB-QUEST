@@ -1,0 +1,13 @@
+import React, { useEffect, useState } from "react";
+import { CalendarClock, CheckCircle2, ChevronRight, Clock3, Trash2 } from "lucide-react";
+import { readRevisionReturnQueue, removeRevisionReturn, returnDueLabel, snoozeRevisionReturn, type RevisionReturnQueue as QueueState, writeRevisionReturnQueue } from "@/game/revisionReturnQueue";
+import type { RoundConfig } from "@/game/types";
+import "./revision-return-queue.css";
+
+export function RevisionReturnQueue({ onStart }: { onStart: (config: RoundConfig) => void }) {
+  const [queue, setQueue] = useState<QueueState>(() => ({ version: 1, items: [] }));
+  useEffect(() => { setQueue(readRevisionReturnQueue()); }, []);
+  const save = (next: QueueState) => { setQueue(next); writeRevisionReturnQueue(next); };
+  const start = (id: string) => { const item = queue.items.find((entry) => entry.id === id); if (!item) return; save(removeRevisionReturn(queue, id)); onStart({ subject: item.subject, mode: "review", count: item.questionIds.length, timing: "study", questionIds: item.questionIds, recoveryOrigin: "revision-return" }); };
+  return <section className="revision-return-queue tab-section" data-testid="revision-return-queue" aria-labelledby="revision-return-title"><div className="revision-return-head"><span className="eyebrow">REVISION RETURN QUEUE</span><h2 id="revision-return-title">Bring a topic back at the right time.</h2><p>Optional local reminders from your own Syllabus Journey quizzes. Each return opens the exact approved questions you scheduled; nothing changes your CBT history.</p></div>{queue.items.length ? <div className="revision-return-items">{queue.items.map((item) => <article key={item.id}><div><span><CalendarClock size={15} /> {returnDueLabel(item.dueAt)}</span><b>{item.topic}</b><small>{item.subject} · {item.questionIds.length} exact question{item.questionIds.length === 1 ? "" : "s"} · scheduled after a syllabus quiz</small></div><div className="revision-return-actions"><button className="button button-dark" onClick={() => start(item.id)}><CheckCircle2 size={15} /> Review now</button><button onClick={() => save(snoozeRevisionReturn(queue, item.id, 3))}><Clock3 size={14} /> +3 days</button><button aria-label={`Remove ${item.topic} return`} onClick={() => save(removeRevisionReturn(queue, item.id))}><Trash2 size={14} /></button></div></article>)}</div> : <div className="revision-return-empty"><CalendarClock size={22} /><div><b>Your next returns will appear here.</b><p>Finish a Syllabus Journey quiz, then choose tomorrow, 3 days, or 7 days. You stay in control and can snooze or remove any return.</p></div><ChevronRight size={18} /></div>}</section>;
+}
