@@ -28,7 +28,9 @@ describe("ready question count", () => {
     expect(html).toContain('data-testid="ready-question-count"');
     expect(html).toContain('data-ready="true"');
     expect(html).toContain("JAMB Quest ready");
-    expect(html).toContain("1,975 practice questions");
+    expect(html).toContain("1,975");
+    expect(html).toContain("practice questions");
+    expect(html).not.toContain("1,975 practice questions");
   });
 
   it("marks the count as unsettled while the authorised-question query is still loading", () => {

@@ -26,6 +26,16 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('<span>study level</span>');
   });
 
+  it("keeps the Practice hero concise and exposes Syllabus Journey and Game Arcade as compact route choices", () => {
+    const home = readFileSync("client/src/pages/Home.tsx", "utf8");
+    expect(home).toContain("Choose a practice path. Your progress updates as you go.");
+    expect(home).not.toContain("LIVE DESK");
+    expect(home).not.toContain("Your goal is built through daily action");
+    expect(home).toContain('data-testid="syllabus-journey-path"');
+    expect(home).toContain('data-testid="game-arcade-path"');
+    expect(home).toContain('className="practice-route-choice-grid"');
+  });
+
   it("uses source-neutral, visible detail cards and immediately starts an exact ready-topic quiz after confirmation", () => {
     const journey = readFileSync("client/src/components/SyllabusJourney.tsx", "utf8");
     expect(journey).toContain('const startQuiz = (profileSource = profile)');

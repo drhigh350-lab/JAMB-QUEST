@@ -32,6 +32,13 @@
 .practice-lekki-path-body { display: grid; gap: 10px; }
 .practice-lekki-path-body .compact-topic-select { margin: 0; }
 .practice-lekki-path-body .compact-start { margin: 0; }
+.practice-route-choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin-top: 12px; }
+.practice-route-quick { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 9px; align-items: center; min-height: 74px; padding: 11px; border: 1px solid rgba(18,40,63,.24); border-top: 3px solid var(--maize); background: #fffdf5; color: var(--ink); text-align: left; cursor: pointer; }
+.practice-route-quick > span { display: grid; gap: 3px; }
+.practice-route-quick b { font: 800 11px/1 "Space Grotesk", sans-serif; }
+.practice-route-quick small { color: rgba(18,40,63,.64); font-size: 9px; line-height: 1.3; }
+.practice-route-game { border-top-color: var(--ink); background: rgba(18,40,63,.06); }
+.practice-route-quick:disabled { opacity: .55; cursor: not-allowed; }
 .syllabus-use-guide { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin: 14px 0; }
 .syllabus-use-guide > span { display: grid; gap: 5px; min-height: 74px; padding: 10px; border-top: 3px solid var(--ink); background: rgba(255,252,245,.56); color: var(--ink); font-size: 9px; line-height: 1.3; }
 .syllabus-use-guide b { display: grid; place-items: center; width: 20px; height: 20px; color: var(--chalk); background: var(--ink); font: 800 10px "Space Grotesk", sans-serif; }
@@ -44,6 +51,8 @@
 @media (max-width: 420px) {
   .practice-route-standard { min-height: 86px; padding: 13px; }
   .practice-route-standard b { font-size: 14px; }
+  .practice-route-choice-grid { grid-template-columns: 1fr; }
+  .practice-route-quick { min-height: 66px; }
   .syllabus-use-guide { gap: 5px; }
   .syllabus-use-guide > span { min-height: 82px; padding: 8px; font-size: 8px; }
 }
