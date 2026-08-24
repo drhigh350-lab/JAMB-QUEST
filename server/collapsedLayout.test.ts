@@ -18,6 +18,7 @@ describe("collapsed-first study layout", () => {
     expect(source).not.toContain('title="Choose your practice path" note={isLekkiPalette ? "Lekki novel · choose 10, 20, 40, or 50 questions" : "Single Subject for focused repair, or Standard CBT for a full two-hour simulation"} defaultOpen');
     expect(source).not.toContain('title="Choose from the JAMB syllabus" note="Use this when you want a deliberate revision path: choose one official section, then one exact topic or a broad section drill." defaultOpen');
     expect(source).not.toContain('title={balancedCoreFocus ? `Strengthen ${balancedCoreFocus.subject}` : "Create your first evidence"} note={progressNextAction} defaultOpen');
+    expect(source).toContain('title={balancedCoreFocus ? `Core focus: ${balancedCoreFocus.subject}` : "Create your first evidence"}');
   });
 
   it("uses a restrained ink typewriter caret instead of a long yellow first-load marker", () => {

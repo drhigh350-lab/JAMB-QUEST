@@ -1,5 +1,11 @@
 # JAMB Quest Upgrade Checklist
 
+
+- [x] Repair mobile Progress text collisions, long final-day rows, and repeated Strengthen-card wording so every label, count, and action remains separate and readable. Long final-day actions now use a two-line action layout, and dense confidence/chart evidence sits behind compact summaries instead of forming an always-open list.
+- [x] Order topic confidence with Repair before Building and make the recorded-data basis of the subject bars, accuracy line, and changing core-subject focus clear to learners. Repair ranks first globally; bars use saved answers, the trend line uses completed CBTs, and the core focus is the current lowest saved core-subject accuracy and changes after later completed attempts.
+- [x] Build a compact, evidence-only daily report sheet in Progress using recorded daily activity, completed questions, accuracy, goal status, and next action; do not fabricate learner metrics. The report shows today’s saved answers, accuracy, XP, goal state, and one evidence-based next move.
+- [x] Add regression coverage and mobile/desktop visual checks for Progress readability, repair-first ordering, changing evidence-based focus, and the daily report sheet. Focused coverage, full 108-file / 270-test suite, TypeScript, production build, and phone/desktop Progress analytics fixture reviews pass.
+
 - [x] Read the full-stack WebDev guide and apply the user/auth/database feature scaffold.
 - [x] Add profile identity and account-state UI without disrupting the existing quiz flow.
 - [x] Move progress, best scores, wrong-answer history, and round summaries from local-only storage to per-user persistence.

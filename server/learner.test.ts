@@ -98,6 +98,36 @@ describe("selectCoreSubjectFocus", () => {
     ]);
     expect(focus).toMatchObject({ subject: "Physics", attempts: 30, accuracy: 70 });
   });
+
+  it("changes when new recorded subject evidence makes a different core subject the lowest performer", () => {
+    const firstFocus = selectCoreSubjectFocus([
+      { subject: "Biology", attempts: 20, accuracy: 78 },
+      { subject: "Chemistry", attempts: 20, accuracy: 74 },
+      { subject: "Physics", attempts: 20, accuracy: 66 },
+    ]);
+    const laterFocus = selectCoreSubjectFocus([
+      { subject: "Biology", attempts: 20, accuracy: 64 },
+      { subject: "Chemistry", attempts: 20, accuracy: 74 },
+      { subject: "Physics", attempts: 40, accuracy: 79 },
+    ]);
+    expect(firstFocus?.subject).toBe("Physics");
+    expect(laterFocus?.subject).toBe("Biology");
+  });
+});
+
+describe("topic confidence ordering", () => {
+  it("puts Repair evidence before Building evidence across subjects", () => {
+    const confidence = summariseTopicConfidenceFromRounds([{ answerReviewJson: JSON.stringify([
+      { subject: "Biology", topic: "Ecology", correct: true },
+      { subject: "Biology", topic: "Ecology", correct: false },
+      { subject: "Biology", topic: "Ecology", correct: false },
+      { subject: "Chemistry", topic: "Atomic structure", correct: true },
+      { subject: "Chemistry", topic: "Atomic structure", correct: false },
+      { subject: "Physics", topic: "Forces", correct: true },
+    ]) }]);
+    expect(confidence.map((item) => item.confidence)).toEqual(["Repair", "Building", "Building"]);
+    expect(confidence[0]).toMatchObject({ subject: "Biology", topic: "Ecology", accuracy: 33 });
+  });
 });
 
 describe("diagnostic review loop", () => {

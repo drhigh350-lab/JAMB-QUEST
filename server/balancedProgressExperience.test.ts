@@ -10,9 +10,14 @@ describe("balanced Progress experience", () => {
     expect(app).toContain("coreSubjectFocus={dashboardQuery.data?.performance.coreSubjectFocus ?? null}");
     expect(home).toContain("const balancedCoreFocus");
     expect(home).toContain("const coreWeakTopics");
-    expect(home).toContain("Strengthen ${balancedCoreFocus.subject}");
+    expect(home).toContain("Core focus: ${balancedCoreFocus.subject}");
+    expect(home).toContain("It updates after completed attempts.");
+    expect(home).toContain('data-testid="daily-report-sheet"');
+    expect(home).toContain("This sheet uses today’s saved questions, correct answers, goal progress, and XP only.");
+    expect(home).toContain("Repair topics first, then Building. Based only on saved attempts.");
+    expect(home).toContain('className="progress-chart-desk"');
     expect(home).not.toContain("Optional Lekki recovery");
     expect(home).not.toContain('data-testid="lekki-palette"');
-    expect(home).toContain("coreWeakTopics.find");
+    expect(home).toContain("coreWeakTopics.slice(0, 4)");
   });
 });

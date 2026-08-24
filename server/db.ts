@@ -273,7 +273,10 @@ export function summariseTopicConfidenceFromRounds(rounds: Array<{ answerReviewJ
     const accuracy = Math.round((value.correct / value.attempts) * 100);
     const confidence = value.attempts >= 5 && accuracy >= 75 ? "Strong" as const : value.attempts >= 3 && accuracy < 60 ? "Repair" as const : "Building" as const;
     return { topic: key.split("\u0000")[1] ?? key, subject: value.subject, attempts: value.attempts, accuracy, confidence };
-  }).sort((left, right) => (left.subject ?? "").localeCompare(right.subject ?? "") || right.attempts - left.attempts || left.topic.localeCompare(right.topic));
+  }).sort((left, right) => {
+    const rank = { Repair: 0, Building: 1, Strong: 2 } as const;
+    return rank[left.confidence] - rank[right.confidence] || left.accuracy - right.accuracy || right.attempts - left.attempts || left.topic.localeCompare(right.topic);
+  });
 }
 
 export function buildExamComparison(
