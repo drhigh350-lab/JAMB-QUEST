@@ -7,6 +7,7 @@ import { ProfilePanel } from "@/components/ProfilePanel";
 import { DailyMissionPanel } from "@/components/DailyMissionPanel";
 import { ProgressSignals } from "@/components/ProgressSignals";
 import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics, type CoreSubjectFocus } from "@/game/dailyMission";
+import { getPinnedDailyFocus } from "@/game/pinnedDailyFocus";
 import { STANDARD_FULL_CBT_SECONDS, type RoundConfig, type RoundSubject, type StoredProgress, type Subject } from "@/game/types";
 import { summariseAchievements } from "@/game/achievements";
 import { downloadDailyGoalAchievement, shareDailyGoalAchievement } from "@/game/dailyGoalAchievement";
@@ -41,7 +42,7 @@ const badgeDefinitions = [
   { key: "hundred-mark-club", label: "1,000 XP", note: "Earn serious JAMB momentum", icon: Medal },
 ];
 
-type AppTab = "practice" | "study" | "progress" | "profile" | "about";
+type AppTab = "practice" | "progress" | "profile" | "about";
 
 function formatCbtTime(seconds: number) {
   const safeSeconds = Math.max(0, Math.round(seconds));
@@ -62,7 +63,7 @@ interface HomeProps {
   loading: boolean; loadError: string | null; progress: StoredProgress; canReview: boolean; onRetryLoad: () => void; onStart: (config: RoundConfig) => void; questionCount: number; questionCountReady: boolean;
   initialTab?: AppTab; onActiveTabChange?: (tab: AppTab) => void;
   questionSources?: Array<{ id: number; label: string; sourceType: "model" | "authorised"; permissionNote: string | null }>;
-  auth: { loading: boolean; isAuthenticated: boolean; profileName: string; targetScore: number; onLogout: () => void; onSaveProfile: (displayName: string, targetScore: number) => void; savingProfile: boolean };
+  auth: { loading: boolean; isAuthenticated: boolean; profileName: string; targetScore: number; focusKey?: string | null; onLogout: () => void; onSaveProfile: (displayName: string, targetScore: number) => void; savingProfile: boolean };
   examHistory: Array<{ id: number; subject: string; mode: string; questionCount: number; correctCount: number; score: number; durationSeconds: number; flaggedCount: number; missedQuestionIds: string[]; completedAt: Date }>;
   onOpenExamLog?: (roundId: number) => void; examReviewOpening?: boolean; examReviewError?: string | null;
   weakTopics: Array<{ topic: string; subject?: string | null; misses: number; attempts: number; accuracy: number }>;
@@ -151,7 +152,9 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const confidenceRank = { Repair: 0, Building: 1, "Not started": 2, Strong: 3 } as const;
   const confidencePreview = subjects.flatMap((subject) => availableTopics.filter((item) => item.subject === subject.name && !item.topic.startsWith("The Lekki Headmaster")).map((item) => confidenceByTopic.get(`${item.subject}\u0000${item.topic}`) ?? { ...item, attempts: 0, accuracy: 0, confidence: "Not started" as const })).sort((left, right) => confidenceRank[left.confidence] - confidenceRank[right.confidence] || left.accuracy - right.accuracy || right.attempts - left.attempts || left.topic.localeCompare(right.topic)).slice(0, 4);
   const visibleQuestionCount = questionCountReady ? questionCount : null;
-  const dailyMission = selectDailyMission({ weakTopics: coreWeakTopics, fallbackSubject: selectedSubject, wrongIds, recoveryPending: selectedState.recoveryPending, coreSubjectFocus: balancedCoreFocus });
+  const liveDailyMission = selectDailyMission({ weakTopics: coreWeakTopics, fallbackSubject: selectedSubject, wrongIds, recoveryPending: selectedState.recoveryPending, coreSubjectFocus: balancedCoreFocus });
+  const focusDateKey = /^\d{4}-\d{2}-\d{2}$/.test(selectedState.today.dateKey) ? selectedState.today.dateKey : new Date().toLocaleDateString("en-CA");
+  const dailyMission = getPinnedDailyFocus({ learnerKey: auth.focusKey ?? null, dateKey: focusDateKey, completed: selectedState.today.completedMinimum, focus: liveDailyMission });
   const roundAnalytics = summariseRoundAnalytics(examHistory);
   const overallAccuracy = progress.totalAnswered ? Math.round((progress.totalCorrect / progress.totalAnswered) * 100) : 0;
   const progressNextAction = selectProgressNextAction({ accuracy: overallAccuracy, averageSecondsPerQuestion: roundAnalytics.averageSecondsPerQuestion, fallback: dailyMission.note });
@@ -186,7 +189,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     return () => window.cancelAnimationFrame(frame);
   }, []);
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
-    { id: "practice", label: "Practice", icon: BookOpen }, { id: "study", label: "Study", icon: MapIcon }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
+    { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
   const pushFeedbackMessages: Partial<Record<HomeProps["pushStatus"], string>> = {
     unsupported: "This browser cannot receive push reminders. Your in-app daily system still works.", denied: "Browser notifications were declined. You can enable them later in your browser settings.", failed: "The reminder could not be set up on this device. Please try again later.", enabled: "JAMB Quest browser reminders are enabled on this device. The Lagos daily timetable is active.", disabled: "Browser reminders are off for this device. Your in-app system stays active.", "test-sent": "Test reminder sent. Check this device’s notification shade now.", "test-failed": "No reminder reached this device. Re-enable notifications and try the test again.",
@@ -229,8 +232,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
-  if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("study"); }} onStart={onStart} />;
-  if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("study"); }} />;
+  if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("practice"); }} onStart={onStart} />;
+  if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("practice"); }} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <Dialog open={fullMockSetupOpen} onOpenChange={setFullMockSetupOpen}>
@@ -260,7 +263,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     {loadError && <div className="load-error page-shell"><span>{loadError}</span><button className="text-button" onClick={onRetryLoad}>Try again <ArrowRight size={14} /></button></div>}
 
     <section key={`hero-${activeTab}`} data-testid={`tab-cinematic-${activeTab}`} className="tab-hero page-shell compact-hero entrance-item entrance-hero tab-cinematic-entry">
-      <div><span className="eyebrow">{activeTab === "practice" ? "YOUR JAMB QUEST SYSTEM" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward<br /><em>{targetLabel}</em><br />with a system.</> : activeTab === "study" ? <>Choose your<br /><em>study route.</em></> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "Choose a practice path. Your progress updates as you go." : activeTab === "study" ? "Topic Drill, Syllabus Journey, and Game Arcade each have their own clear purpose." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you focused practice, correction, and targeted improvement."}</p></div>
+      <div><span className="eyebrow">{activeTab === "practice" ? "YOUR JAMB QUEST SYSTEM" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward<br /><em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "Choose a practice path or go deeper with the official syllabus. Your progress updates as you go." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you focused practice, correction, and targeted improvement."}</p></div>
       <div className="tab-hero-stats">{activeTab === "practice" ? <><div><strong>{auth.isAuthenticated ? auth.targetScore : "—"}</strong><span>your goal</span></div><div><strong>4</strong><span>core subjects</span></div><div><strong>{visibleQuestionCount === null ? "—" : visibleQuestionCount.toLocaleString()}</strong><span>practice questions</span></div></> : activeTab === "progress" ? <><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day streak</span></div><div><strong>{selectedState.comebackXp}</strong><span>study XP</span></div></> : <><div><strong>{selectedState.level}</strong><span>study level</span></div><div><strong>{selectedState.comebackXp}</strong><span>study XP</span></div><div><strong>{selectedState.longestStreak}</strong><span>best streak</span></div></>}</div>
     </section>
 
@@ -303,10 +306,12 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             </details>
           </CompactPanel>
 
+          <CompactPanel eyebrow="03 / STUDY TOOLS" title="Go deeper with the syllabus" note="Topic Drill, Syllabus Journey, and Game Arcade are separate practice tools. Open one only when it serves today’s work." tone="maize">
+            <section className="study-destination-grid practice-study-destinations" aria-label="Study tools inside Practice"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Take one official syllabus area, or refine it to one specific topic, in an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read the learning objective, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button><button data-testid="game-arcade-destination" className="study-destination-card study-destination-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={22} /><span><b>Game Arcade</b><small>Take a different revision break with a fresh approved question mix.</small></span><ArrowRight size={18} /></button></section>
+          </CompactPanel>
+
         </section>
       </>}
-
-      {activeTab === "study" && <section className="study-destination-grid tab-section" aria-label="Study destinations"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Choose a JAMB subject, official area, and specific topic. Then take an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read learning objectives, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button><button data-testid="game-arcade-destination" className="study-destination-card study-destination-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={22} /><span><b>Game Arcade</b><small>Take a different revision break with a fresh approved question mix.</small></span><ArrowRight size={18} /></button></section>}
 
       {activeTab === "progress" && <>
         <section className="progress-daily-report tab-section" aria-label="Daily report sheet">

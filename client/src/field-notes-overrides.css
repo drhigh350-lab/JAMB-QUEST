@@ -219,6 +219,7 @@
 .daily-mission-panel h2 { display: flex; align-items: center; gap: 8px; margin: 5px 0 8px; color: #fffdf5; }
 .daily-mission-panel h2 svg { color: var(--maize); }
 .daily-mission-panel p { margin: 0; color: rgba(255,253,245,.74); line-height: 1.55; }
+.daily-mission-focus-note { display: block; margin-top: 8px; color: rgba(255,253,245,.5); font: 800 9px/1.35 "Space Grotesk", sans-serif; letter-spacing: .06em; text-transform: uppercase; }
 .daily-mission-action { display: grid; justify-items: start; gap: 10px; }
 .daily-mission-action > span { display: inline-flex; align-items: center; gap: 5px; color: var(--maize); font: 800 9px "Space Grotesk", sans-serif; letter-spacing: .1em; text-transform: uppercase; }
 .progress-signals { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.3fr); gap: 20px; align-items: center; padding: 18px; background: rgba(18,40,63,.06); border-top: 4px solid var(--green); }

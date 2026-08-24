@@ -26,17 +26,16 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('<span>study level</span>');
   });
 
-  it("keeps Practice concise while moving Topic Drill, Syllabus Journey, and Arcade into separate Study destinations", () => {
+  it("keeps Practice concise while grouping its three optional Study tools in a separate compact panel", () => {
     const home = readFileSync("client/src/pages/Home.tsx", "utf8");
-    expect(home).toContain("Choose a practice path. Your progress updates as you go.");
+    expect(home).toContain("Choose a practice path or go deeper with the official syllabus. Your progress updates as you go.");
     expect(home).not.toContain("LIVE DESK");
     expect(home).not.toContain("Your goal is built through daily action");
-    const practice = home.slice(home.indexOf('{activeTab === "practice"'), home.indexOf('{activeTab === "study"'));
-    expect(practice).not.toContain('syllabus-journey-path');
-    expect(practice).not.toContain('game-arcade-path');
-    expect(home).toContain('data-testid="topic-drill-destination"');
-    expect(home).toContain('data-testid="syllabus-journey-destination"');
-    expect(home).toContain('data-testid="game-arcade-destination"');
+    const practice = home.slice(home.indexOf('{activeTab === "practice"'), home.indexOf('{activeTab === "progress"'));
+    expect(practice).toContain('aria-label="Study tools inside Practice"');
+    expect(practice).toContain('data-testid="topic-drill-destination"');
+    expect(practice).toContain('data-testid="syllabus-journey-destination"');
+    expect(practice).toContain('data-testid="game-arcade-destination"');
   });
 
   it("uses source-neutral objectives and subtopics in a reading-only Syllabus Journey", () => {
