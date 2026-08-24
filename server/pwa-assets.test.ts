@@ -45,6 +45,16 @@ describe("JAMB Quest PWA assets", () => {
     expect(worker).toContain('fetch(request, { cache: "no-store" })');
     const app = readFileSync(resolve(import.meta.dirname, "../client/src/App.tsx"), "utf8");
     expect(app).toContain('updateViaCache: "none"');
+    expect(app).toContain("const [appUpdateReady, setAppUpdateReady]");
+    expect(app).toContain("const applyAppUpdate");
+    expect(app).toContain("if (activeCbt)");
+    expect(app).toContain("game.persistActiveCbt()");
+    expect(app).toContain('navigator.serviceWorker.addEventListener("controllerchange"');
+    expect(app).toContain('waitingWorker.postMessage({ type: "SKIP_WAITING" })');
+    const pwaPanel = readFileSync(resolve(import.meta.dirname, "../client/src/components/OfflineStudyPackPanel.tsx"), "utf8");
+    expect(pwaPanel).toContain('data-testid="app-update-control"');
+    expect(pwaPanel).toContain("Update JAMB Quest");
+    expect(pwaPanel).toContain("A newer JAMB Quest version is ready");
     expect(worker).toContain("try {");
     expect(worker).toContain("payload = {};");
     expect(worker).toContain('tag: "jamb-quest-daily-reminder"');

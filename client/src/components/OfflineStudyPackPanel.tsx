@@ -17,6 +17,7 @@ export type PwaControls = {
   canInstall: boolean;
   installStatus: "idle" | "installing" | "installed" | "dismissed";
   onInstall: () => void;
+  update?: { available: boolean; status: "idle" | "updating" | "deferred"; onUpdate: () => void };
   offlinePack?: OfflineStudyPackControls;
 };
 
@@ -37,6 +38,7 @@ export function OfflineStudyPackPanel({ pwa }: { pwa: PwaControls }) {
       </div>
     </div>
     <div className="pwa-actions offline-pack-actions">
+      {pwa.update?.available && <div className="app-update-control" data-testid="app-update-control"><small>{pwa.update.status === "deferred" ? "Update ready after you leave this question" : "A newer JAMB Quest version is ready"}</small><button className="button button-dark" onClick={pwa.update.onUpdate} disabled={pwa.update.status === "updating" || pwa.update.status === "deferred"}><RefreshCw size={16} /> {pwa.update.status === "updating" ? "Updating JAMB Quest" : pwa.update.status === "deferred" ? "Finish question first" : "Update JAMB Quest"}</button></div>}
       {pwa.canInstall ? <button className="button button-dark" onClick={pwa.onInstall} disabled={pwa.installStatus === "installing"}><Download size={16} /> {pwa.installStatus === "installing" ? "Opening install" : "Install JAMB Quest"}</button> : pwa.installStatus === "installed" ? <span className="pwa-status"><CheckCircle2 size={16} /> Installed on this device</span> : <span className="pwa-status"><Download size={16} /> Use your browser menu to install</span>}
       <button className="button button-push" onClick={pack.onDownload} disabled={!pack.canDownload || busy}><HardDriveDownload size={16} /> {pack.status === "downloading" ? "Downloading study pack" : hasPack && !pack.isCurrent ? "Update downloaded bank" : hasPack ? "Download again" : "Download full study bank"}</button>
       {hasPack && <button className="button button-outline offline-clear-button" onClick={pack.onClear} disabled={busy}><Trash2 size={15} /> {pack.status === "clearing" ? "Removing" : "Remove download"}</button>}

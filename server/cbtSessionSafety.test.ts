@@ -12,7 +12,13 @@ describe("CBT Exam Safety Net", () => {
     const app = readFileSync("client/src/App.tsx", "utf8");
     expect(app).toContain('window.addEventListener("beforeunload", protectExit)');
     expect(app).toContain('window.addEventListener("popstate", protectBack)');
-    expect(app).not.toContain("window.location.reload()");
+    expect(app).toContain("const applyAppUpdate");
+    expect(app).toContain("isUnsavedQuestionFlow(game.screen, Boolean(game.historicalReview))");
+    expect(app).toContain("if (activeQuestionFlow)");
+    expect(app).toContain("if (activeCbt)");
+    expect(app).toContain("game.persistActiveCbt()");
+    expect(app).toContain("const reloadWhenControlled = () => window.location.reload()");
+    expect(app).toContain('navigator.serviceWorker.addEventListener("controllerchange", reloadWhenControlled, { once: true })');
     const worker = readFileSync("client/public/sw.js", "utf8");
     expect(worker).toContain('"jamb-quest-shell-v14"');
     expect(worker).not.toContain('then(() => self.skipWaiting())');

@@ -22,6 +22,7 @@ import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "@/components/physical-screening.css";
 import "@/components/progress-clarity.css";
+import "@/components/daily-report-reflection.css";
 
 const subjects: Array<{ name: Subject; short: string; note: string; icon: typeof BookOpen; tint: string }> = [
   { name: "Use of English", short: "ENG", note: "Lexis, structure & oral forms", icon: BookOpen, tint: "subject-english" },
@@ -154,6 +155,13 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const dailyPercent = Math.min(100, Math.round((selectedState.today.questionsAnswered / selectedState.dailyGoalCount) * 100));
   const dailyAccuracy = selectedState.today.questionsAnswered ? Math.round((selectedState.today.correctCount / selectedState.today.questionsAnswered) * 100) : 0;
   const dailyGoalRemaining = Math.max(0, selectedState.dailyGoalCount - selectedState.today.questionsAnswered);
+  const dailyReflection = selectedState.today.questionsAnswered === 0
+    ? "No answers saved today yet. One short practice round will create a clear report."
+    : selectedState.today.completedMinimum
+      ? `${selectedState.today.questionsAnswered} answers saved at ${dailyAccuracy}% accuracy. Your goal is complete; keep the next move deliberate.`
+      : dailyAccuracy >= 75
+        ? `${dailyAccuracy}% accuracy so far. Keep the same care as you finish today’s goal.`
+        : `${dailyAccuracy}% accuracy so far. Use the next move to turn today’s misses into a clear repair.`;
   const targetLabel = auth.isAuthenticated ? `${auth.targetScore}` : "your score target";
   const showOnboarding = auth.isAuthenticated && progress.roundsPlayed === 0 && !onboardingDismissed;
   const dismissOnboarding = () => { window.localStorage.setItem("jamb-quest-onboarding-v1", "done"); setOnboardingDismissed(true); };
@@ -301,7 +309,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
       {activeTab === "progress" && <>
         <section className="progress-daily-report tab-section" aria-label="Daily report sheet">
           <CompactPanel eyebrow="01 / DAILY REPORT" title="Today’s report" note={selectedState.today.completedMinimum ? "Daily goal complete — recorded on this device." : `${dailyGoalRemaining} questions remain in today’s goal.`} defaultOpen={selectedState.today.questionsAnswered > 0} tone="paper">
-            <section className="daily-report-sheet" data-testid="daily-report-sheet"><div className="daily-report-head"><span>RECORDED TODAY</span><b>{selectedState.today.completedMinimum ? "Goal complete" : "In progress"}</b></div><div className="daily-report-metrics"><div><span>Answered</span><b>{selectedState.today.questionsAnswered}</b></div><div><span>Accuracy</span><b>{selectedState.today.questionsAnswered ? `${dailyAccuracy}%` : "—"}</b></div><div><span>Study XP</span><b>{selectedState.today.xpEarned}</b></div></div><div className="daily-report-next"><span>Next suggested move</span><b>{dailyMission.label}</b><small>{progressNextAction}</small></div><small className="daily-report-note">This sheet uses today’s saved questions, correct answers, goal progress, and XP only.</small></section>
+            <section className="daily-report-sheet" data-testid="daily-report-sheet"><div className="daily-report-head"><span>RECORDED TODAY</span><b>{selectedState.today.completedMinimum ? "Goal complete" : "In progress"}</b></div><div className="daily-report-metrics"><div><span>Answered</span><b>{selectedState.today.questionsAnswered}</b></div><div><span>Accuracy</span><b>{selectedState.today.questionsAnswered ? `${dailyAccuracy}%` : "—"}</b></div><div><span>Study XP</span><b>{selectedState.today.xpEarned}</b></div></div><p className="daily-report-reflection">{dailyReflection}</p><div className="daily-report-next"><span>Next suggested move</span><b>{dailyMission.label}</b><small>{progressNextAction}</small></div><small className="daily-report-note">This sheet uses today’s saved questions, correct answers, goal progress, and XP only.</small></section>
           </CompactPanel>
         </section>
         <section className="compact-progress-grid tab-section" aria-label="Progress tools">

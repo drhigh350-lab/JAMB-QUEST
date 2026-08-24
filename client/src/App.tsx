@@ -18,6 +18,7 @@ import { startLogin } from "./const";
 import "./comeback.css";
 import { QuestOpening } from "./components/QuestOpening";
 import { markQuestOpeningComplete, shouldShowQuestOpening } from "./lib/openingSessionState";
+import { isUnsavedQuestionFlow } from "./lib/appUpdateSafety";
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>;
@@ -40,6 +41,10 @@ function App() {
   const [offlineStudyPack, setOfflineStudyPack] = useState<OfflineStudyPackInfo | null>(null);
   const [offlinePackStatus, setOfflinePackStatus] = useState<"idle" | "downloading" | "ready" | "failed" | "clearing">("idle");
   const [offlinePackError, setOfflinePackError] = useState<string | null>(null);
+  const updateReadyFixture = new URLSearchParams(window.location.search).get("updateReadyFixture") === "1";
+  const [appUpdateReady, setAppUpdateReady] = useState(updateReadyFixture);
+  const [appUpdateStatus, setAppUpdateStatus] = useState<"idle" | "updating" | "deferred">("idle");
+  const serviceWorkerRegistrationRef = useRef<ServiceWorkerRegistration | null>(null);
   const [showOpening, setShowOpening] = useState(() => shouldShowQuestOpening(window.location.search));
   const [examReviewError, setExamReviewError] = useState<string | null>(null);
   const [homeTab, setHomeTab] = useState<"practice" | "progress" | "profile" | "about">(() => {
@@ -137,25 +142,44 @@ function App() {
       onError: () => setPushStatus("test-failed"),
     });
   }, [testPush, utils]);
+  const activeQuestionFlow = isUnsavedQuestionFlow(game.screen, Boolean(game.historicalReview));
+  const activeCbt = activeQuestionFlow && game.isCbt;
+  const applyAppUpdate = useCallback(() => {
+    if (activeQuestionFlow) {
+      if (activeCbt) game.persistActiveCbt();
+      setAppUpdateStatus("deferred");
+      return;
+    }
+    if (updateReadyFixture) {
+      setAppUpdateStatus("updating");
+      return;
+    }
+    const waitingWorker = serviceWorkerRegistrationRef.current?.waiting;
+    if (!waitingWorker) return;
+    setAppUpdateStatus("updating");
+    const reloadWhenControlled = () => window.location.reload();
+    navigator.serviceWorker.addEventListener("controllerchange", reloadWhenControlled, { once: true });
+    waitingWorker.postMessage({ type: "SKIP_WAITING" });
+  }, [activeCbt, activeQuestionFlow, game, updateReadyFixture]);
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
     const legacyUpgradeFixture = new URLSearchParams(window.location.search).get("swUpgradeFixture") === "legacy";
     void navigator.serviceWorker.register(legacyUpgradeFixture ? "/sw.js?upgradeFixture=legacy" : "/sw.js", { updateViaCache: "none" }).then((registration) => {
-      const activateWaitingWorker = () => {
-        if (game.screen === "quiz" && game.isCbt) return;
-        registration.waiting?.postMessage({ type: "SKIP_WAITING" });
-      };
-      activateWaitingWorker();
+      serviceWorkerRegistrationRef.current = registration;
+      if (registration.waiting && navigator.serviceWorker.controller) setAppUpdateReady(true);
       registration.addEventListener("updatefound", () => {
         const installing = registration.installing;
         if (!installing) return;
         installing.addEventListener("statechange", () => {
-          if (installing.state === "installed" && navigator.serviceWorker.controller && !(game.screen === "quiz" && game.isCbt)) installing.postMessage({ type: "SKIP_WAITING" });
+          if (installing.state === "installed" && navigator.serviceWorker.controller) setAppUpdateReady(true);
         });
       });
       void registration.update().catch(() => undefined);
     }).catch(() => undefined);
-  }, [game.isCbt, game.screen]);
+  }, []);
+  useEffect(() => {
+    if (!activeQuestionFlow && appUpdateStatus === "deferred") setAppUpdateStatus("idle");
+  }, [activeQuestionFlow, appUpdateStatus]);
 
   useEffect(() => {
     if (game.screen !== "quiz" || !game.isCbt || game.historicalReview) return;
@@ -254,7 +278,7 @@ function App() {
   return (
     <ErrorBoundary>
       {showOpening && <QuestOpening onComplete={() => { markQuestOpeningComplete(); setShowOpening(false); }} />}
-      {game.screen === "home" && <Home initialTab={homeTab} onActiveTabChange={setHomeTab} loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && (!authorisedQuestionsQuery.isLoading || offlineAuthorisedQuestions.length > 0)} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setHomeTab("progress"); setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} topicConfidence={dashboardQuery.data?.performance.topicConfidence ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} coreSubjectFocus={dashboardQuery.data?.performance.coreSubjectFocus ?? null} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} questionReports={questionReportsQuery.data ?? []} isOwner={user?.role === "admin"} ownerQuestionReports={ownerQuestionReportsQuery.data ?? []} onOwnerReportStatus={(reportId, status) => updateQuestionReportStatus.mutate({ reportId, status })} ownerReportUpdatingId={updateQuestionReportStatus.isPending ? updateQuestionReportStatus.variables?.reportId ?? null : null} activeQuestions={game.questions} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa, offlinePack: { status: offlinePackStatus, questionCount: offlineStudyPack?.questionCount ?? 0, visualCount: offlineStudyPack?.visualCount ?? 0, savedAt: offlineStudyPack?.savedAt ?? null, isCurrent: Boolean(offlineStudyPack && authorisedQuestionsQuery.data && offlineStudyPack.questionCount === authorisedQuestionsQuery.data.length), canDownload: Boolean(authorisedQuestionsQuery.data?.length), error: offlinePackError, onDownload: () => void saveOfflineStudyPack(), onClear: () => void removeOfflineStudyPack() } }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
+      {game.screen === "home" && <Home initialTab={homeTab} onActiveTabChange={setHomeTab} loading={game.loading} loadError={game.loadError} progress={game.progress} canReview={game.canReview} onRetryLoad={game.reload} onStart={game.startRound} auth={{ loading: authLoading, isAuthenticated, profileName, targetScore: dashboardQuery.data?.profile.targetScore ?? 380, onLogout: logout, onSaveProfile: (displayName, targetScore) => updateProfile.mutate({ displayName, targetScore, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }), savingProfile: updateProfile.isPending }} questionCount={game.questions.length} questionCountReady={!game.loading && (!authorisedQuestionsQuery.isLoading || offlineAuthorisedQuestions.length > 0)} comeback={dashboardQuery.data?.comeback} reminder={dashboardQuery.data?.reminder} achievementStats={dashboardQuery.data?.achievementStats} examHistory={cbtHistoryQuery.data ?? dashboardQuery.data?.recentRounds ?? []} onOpenExamLog={(roundId) => { setHomeTab("progress"); setExamReviewError(null); roundReview.mutate({ roundId }); }} examReviewOpening={roundReview.isPending} examReviewError={examReviewError} weakTopics={dashboardQuery.data?.performance.weakTopics ?? []} topicConfidence={dashboardQuery.data?.performance.topicConfidence ?? []} subjectPerformance={dashboardQuery.data?.performance.subjectPerformance ?? []} fullMockSubjectPerformance={dashboardQuery.data?.performance.fullMockSubjectPerformance ?? []} coreSubjectFocus={dashboardQuery.data?.performance.coreSubjectFocus ?? null} bookmarks={dashboardQuery.data?.revision.bookmarks ?? []} comparison={dashboardQuery.data?.comparison} questionReports={questionReportsQuery.data ?? []} isOwner={user?.role === "admin"} ownerQuestionReports={ownerQuestionReportsQuery.data ?? []} onOwnerReportStatus={(reportId, status) => updateQuestionReportStatus.mutate({ reportId, status })} ownerReportUpdatingId={updateQuestionReportStatus.isPending ? updateQuestionReportStatus.variables?.reportId ?? null : null} activeQuestions={game.questions} availableTopics={game.questions.reduce<Array<{ subject: import("./game/types").Subject; topic: string }>>((topics, question) => topics.some((item) => item.subject === question.subject && item.topic === question.topic) ? topics : [...topics, { subject: question.subject, topic: question.topic}], [])} onUpdateDailyMinimum={(dailyMinimum) => updateSystem.mutate({ dailyMinimum })} onUpdateDailyGoal={(dailyGoalCount, dailyGoalSubject, dailyGoalTopic) => updateSystem.mutate({ dailyGoalCount, dailyGoalSubject, dailyGoalTopic })} onEnablePush={setupBrowserPush} onDisablePush={disableBrowserPush} onTestPush={sendTestPush} pushWorking={enablePush.isPending || disablePush.isPending || testPush.isPending || updateReminder.isPending || pushStatus === "enabling"} pushStatus={pushStatus} pwa={{ isOnline, canInstall: !!installPrompt, installStatus, onInstall: installPwa, update: { available: appUpdateReady, status: appUpdateStatus, onUpdate: applyAppUpdate }, offlinePack: { status: offlinePackStatus, questionCount: offlineStudyPack?.questionCount ?? 0, visualCount: offlineStudyPack?.visualCount ?? 0, savedAt: offlineStudyPack?.savedAt ?? null, isCurrent: Boolean(offlineStudyPack && authorisedQuestionsQuery.data && offlineStudyPack.questionCount === authorisedQuestionsQuery.data.length), canDownload: Boolean(authorisedQuestionsQuery.data?.length), error: offlinePackError, onDownload: () => void saveOfflineStudyPack(), onClear: () => void removeOfflineStudyPack() } }} resumableCbt={game.resumableCbt} onResumeCbt={game.resumeCbt} onDiscardResumableCbt={game.discardResumableCbt} />}
       {game.screen === "quiz" && game.currentQuestion && game.roundConfig && (
         <QuizShell config={game.roundConfig} questions={game.roundQuestions} currentIndex={game.currentIndex} currentQuestion={game.currentQuestion} selectedIndex={game.selectedIndex} answered={game.answered} currentAnswer={game.currentAnswer} secondsLeft={game.secondsLeft} streak={game.streak} answers={game.answers} onSelect={game.selectAnswer} onSubmit={() => game.submitAnswer(false)} onNext={game.isCbt ? game.saveAndNextCbt : game.nextQuestion} onQuit={game.historicalReview ? () => { setHomeTab("progress"); game.goHome(); } : game.quitRound} flaggedIds={game.flaggedIds} onNavigate={game.navigateQuestion} onToggleFlag={game.toggleFlag} onFinishCbt={game.finishCbt} isPaused={game.isPaused} onTogglePause={game.togglePause} historicalReview={Boolean(game.historicalReview)} historicalFilter={game.historicalFilter} onHistoricalFilter={game.filterHistoricalReview} bookmarkedQuestionIds={dashboardQuery.data?.revision.bookmarks.map((bookmark) => bookmark.questionId) ?? []} onToggleBookmark={() => isAuthenticated ? toggleBookmark.mutate({ questionId: game.currentQuestion!.id, subject: game.currentQuestion!.subject, topic: game.currentQuestion!.topic }) : startLogin()} onReportQuestion={isAuthenticated ? (input) => reportQuestion.mutateAsync(input) : undefined} />
       )}

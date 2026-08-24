@@ -1,6 +1,12 @@
 # JAMB Quest Upgrade Checklist
 
 
+- [x] Complete one concrete KAIRO-compatible, evidence-led refinement in JAMB Quest without copying KAIRO identity, inventing learner data, or adding crowded screens. The Daily Report now includes one concise dynamic reflection paired with the existing single next action; it uses only today’s saved answers, accuracy, goal state, and XP.
+
+- [x] Add a visible Update JAMB Quest control only when a newer PWA release is ready, with plain learner wording and a safe synchronization action. The control appears in the existing Profile app/offline settings area only when the service worker reports an update waiting.
+- [x] Prevent an update refresh from interrupting an active CBT or other unsaved question flow; preserve the active CBT first and offer the update only after the learner exits the active study screen. All active non-historical question flows defer the update; an active CBT is persisted before deferral and the waiting update becomes actionable only after exit. The deferred label now correctly refers to leaving the active question, not only a CBT.
+- [x] Add a deterministic non-CBT deferred-update fixture and phone/desktop verification showing that update activation remains unavailable during an active question and becomes actionable only after the learner exits. The fixture renders both the disabled “Finish question first” state and the actionable “Update JAMB Quest” post-exit state; focused safeguards, full 110-file / 273-test suite, TypeScript, production build, and phone/desktop visual reviews pass.
+
 - [x] Repair mobile Progress text collisions, long final-day rows, and repeated Strengthen-card wording so every label, count, and action remains separate and readable. Long final-day actions now use a two-line action layout, and dense confidence/chart evidence sits behind compact summaries instead of forming an always-open list.
 - [x] Order topic confidence with Repair before Building and make the recorded-data basis of the subject bars, accuracy line, and changing core-subject focus clear to learners. Repair ranks first globally; bars use saved answers, the trend line uses completed CBTs, and the core focus is the current lowest saved core-subject accuracy and changes after later completed attempts.
 - [x] Build a compact, evidence-only daily report sheet in Progress using recorded daily activity, completed questions, accuracy, goal status, and next action; do not fabricate learner metrics. The report shows today’s saved answers, accuracy, XP, goal state, and one evidence-based next move.
