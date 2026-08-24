@@ -1,7 +1,7 @@
 /* JAMB Quest PWA worker: offline study cache plus daily browser-push delivery. */
 
 const UPGRADE_TEST_LEGACY = new URL(self.location.href).searchParams.get("upgradeFixture") === "legacy";
-const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v14";
+const CACHE_NAME = UPGRADE_TEST_LEGACY ? "jamb-quest-shell-v1-upgrade-fixture" : "jamb-quest-shell-v15";
 const STUDY_PACK_CACHE = "jamb-quest-study-pack-v10";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/favicon.svg", "/manus-storage/jamb-quest-final-app-cover-192_7f5f7f7b.png"];
 

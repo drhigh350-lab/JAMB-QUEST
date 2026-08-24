@@ -1,6 +1,9 @@
 # JAMB Quest Upgrade Checklist
 
 
+- [x] Advance the service-worker release marker from v14 to v15 so installed and browser sessions can detect this release and expose the safe learner-triggered update control. Focused safeguards, the full 110-file / 273-test suite, and production build pass.
+- [ ] Observe a real existing deployed/browser or installed-app session detecting the v15 worker and surfacing Update JAMB Quest without manual cache clearing; do not force a live update or disturb active learner work.
+
 - [x] Complete one concrete KAIRO-compatible, evidence-led refinement in JAMB Quest without copying KAIRO identity, inventing learner data, or adding crowded screens. The Daily Report now includes one concise dynamic reflection paired with the existing single next action; it uses only today’s saved answers, accuracy, goal state, and XP.
 
 - [x] Add a visible Update JAMB Quest control only when a newer PWA release is ready, with plain learner wording and a safe synchronization action. The control appears in the existing Profile app/offline settings area only when the service worker reports an update waiting.

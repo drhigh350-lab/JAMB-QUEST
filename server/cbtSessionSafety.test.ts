@@ -20,7 +20,7 @@ describe("CBT Exam Safety Net", () => {
     expect(app).toContain("const reloadWhenControlled = () => window.location.reload()");
     expect(app).toContain('navigator.serviceWorker.addEventListener("controllerchange", reloadWhenControlled, { once: true })');
     const worker = readFileSync("client/public/sw.js", "utf8");
-    expect(worker).toContain('"jamb-quest-shell-v14"');
+    expect(worker).toContain('"jamb-quest-shell-v15"');
     expect(worker).not.toContain('then(() => self.skipWaiting())');
     expect(worker).not.toContain("client.navigate(client.url)");
     const shell = readFileSync("client/src/components/QuizShell.tsx", "utf8");
