@@ -26,22 +26,25 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('<span>study level</span>');
   });
 
-  it("keeps the Practice hero concise and exposes Syllabus Journey and Game Arcade as compact route choices", () => {
+  it("keeps Practice concise while moving Topic Drill, Syllabus Journey, and Arcade into separate Study destinations", () => {
     const home = readFileSync("client/src/pages/Home.tsx", "utf8");
     expect(home).toContain("Choose a practice path. Your progress updates as you go.");
     expect(home).not.toContain("LIVE DESK");
     expect(home).not.toContain("Your goal is built through daily action");
-    expect(home).toContain('data-testid="syllabus-journey-path"');
-    expect(home).toContain('data-testid="game-arcade-path"');
-    expect(home).toContain('className="practice-route-choice-grid"');
+    const practice = home.slice(home.indexOf('{activeTab === "practice"'), home.indexOf('{activeTab === "study"'));
+    expect(practice).not.toContain('syllabus-journey-path');
+    expect(practice).not.toContain('game-arcade-path');
+    expect(home).toContain('data-testid="topic-drill-destination"');
+    expect(home).toContain('data-testid="syllabus-journey-destination"');
+    expect(home).toContain('data-testid="game-arcade-destination"');
   });
 
-  it("uses source-neutral subtopics and suggests a separate exact topic drill after study confirmation", () => {
+  it("uses source-neutral objectives and subtopics in a reading-only Syllabus Journey", () => {
     const journey = readFileSync("client/src/components/SyllabusJourney.tsx", "utf8");
     expect(journey).toContain('const nextProfile = confirmSyllabusRead(profile, subject, activeTopic);');
-    expect(journey).toContain('onStart({ subject, mode: "sprint", count, timing: "study", topic: activeTopic })');
-    expect(journey).toContain("Suggested next step");
-    expect(journey).toContain("Open Topic Drill");
+    expect(journey).toContain("WHAT TO READ");
+    expect(journey).toContain("Continue your direction");
+    expect(journey).not.toContain("Open Topic Drill");
     expect(journey).toContain('<span>SUBTOPICS</span>');
     expect(journey).not.toContain("selectSyllabusJourneyQuiz");
     expect(journey).not.toContain('setPhase("quiz")');

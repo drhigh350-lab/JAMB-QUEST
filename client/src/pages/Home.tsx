@@ -17,12 +17,14 @@ import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
 import { PresidentsDesk } from "@/components/PresidentsDesk";
 import { GreatArchive } from "@/components/GreatArchive";
 import { SyllabusJourney } from "@/components/SyllabusJourney";
+import { TopicDrill } from "@/components/TopicDrill";
 import { RevisionReturnQueue } from "@/components/RevisionReturnQueue";
 import "@/components/study-expedition-entry.css";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import "@/components/physical-screening.css";
 import "@/components/progress-clarity.css";
 import "@/components/daily-report-reflection.css";
+import "@/components/study-destinations.css";
 
 const subjects: Array<{ name: Subject; short: string; note: string; icon: typeof BookOpen; tint: string }> = [
   { name: "Use of English", short: "ENG", note: "Lexis, structure & oral forms", icon: BookOpen, tint: "subject-english" },
@@ -39,7 +41,7 @@ const badgeDefinitions = [
   { key: "hundred-mark-club", label: "1,000 XP", note: "Earn serious JAMB momentum", icon: Medal },
 ];
 
-type AppTab = "practice" | "progress" | "profile" | "about";
+type AppTab = "practice" | "study" | "progress" | "profile" | "about";
 
 function formatCbtTime(seconds: number) {
   const safeSeconds = Math.max(0, Math.round(seconds));
@@ -137,6 +139,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [arcadeMode, setArcadeMode] = useState<ArcadeMode | null>(null);
   const [gameArcadeOpen, setGameArcadeOpen] = useState(false);
   const [syllabusJourneyOpen, setSyllabusJourneyOpen] = useState(false);
+  const [topicDrillOpen, setTopicDrillOpen] = useState(false);
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
   const lekkiTopics = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
@@ -183,7 +186,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     return () => window.cancelAnimationFrame(frame);
   }, []);
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
-    { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
+    { id: "practice", label: "Practice", icon: BookOpen }, { id: "study", label: "Study", icon: MapIcon }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
   const pushFeedbackMessages: Partial<Record<HomeProps["pushStatus"], string>> = {
     unsupported: "This browser cannot receive push reminders. Your in-app daily system still works.", denied: "Browser notifications were declined. You can enable them later in your browser settings.", failed: "The reminder could not be set up on this device. Please try again later.", enabled: "JAMB Quest browser reminders are enabled on this device. The Lagos daily timetable is active.", disabled: "Browser reminders are off for this device. Your in-app system stays active.", "test-sent": "Test reminder sent. Check this device’s notification shade now.", "test-failed": "No reminder reached this device. Re-enable notifications and try the test again.",
@@ -226,7 +229,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
-  if (syllabusJourneyOpen) return <SyllabusJourney questions={activeQuestions} onExit={() => setSyllabusJourneyOpen(false)} onStart={onStart} />;
+  if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("study"); }} onStart={onStart} />;
+  if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("study"); }} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <Dialog open={fullMockSetupOpen} onOpenChange={setFullMockSetupOpen}>
@@ -256,7 +260,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     {loadError && <div className="load-error page-shell"><span>{loadError}</span><button className="text-button" onClick={onRetryLoad}>Try again <ArrowRight size={14} /></button></div>}
 
     <section key={`hero-${activeTab}`} data-testid={`tab-cinematic-${activeTab}`} className="tab-hero page-shell compact-hero entrance-item entrance-hero tab-cinematic-entry">
-      <div><span className="eyebrow">{activeTab === "practice" ? "YOUR JAMB QUEST SYSTEM" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward<br /><em>{targetLabel}</em><br />with a system.</> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "Choose a practice path. Your progress updates as you go." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you focused practice, correction, and targeted improvement."}</p></div>
+      <div><span className="eyebrow">{activeTab === "practice" ? "YOUR JAMB QUEST SYSTEM" : `${activeTab.toUpperCase()} DESK`}</span><h1>{activeTab === "practice" ? <>Build toward<br /><em>{targetLabel}</em><br />with a system.</> : activeTab === "study" ? <>Choose your<br /><em>study route.</em></> : activeTab === "progress" ? <>Your work<br />is evidence.</> : activeTab === "profile" ? <>Your study<br />identity.</> : <>Know the<br />study desk.</>}</h1><p>{activeTab === "practice" ? "Choose a practice path. Your progress updates as you go." : activeTab === "study" ? "Topic Drill, Syllabus Journey, and Game Arcade each have their own clear purpose." : activeTab === "progress" ? "Open only the evidence you need: the next repair, your history, or your revision shelf." : activeTab === "profile" ? "Keep your profile, daily reminder, and installable study app in one calm control room." : "JAMB Quest gives you focused practice, correction, and targeted improvement."}</p></div>
       <div className="tab-hero-stats">{activeTab === "practice" ? <><div><strong>{auth.isAuthenticated ? auth.targetScore : "—"}</strong><span>your goal</span></div><div><strong>4</strong><span>core subjects</span></div><div><strong>{visibleQuestionCount === null ? "—" : visibleQuestionCount.toLocaleString()}</strong><span>practice questions</span></div></> : activeTab === "progress" ? <><div><strong>{overallAccuracy || "—"}</strong><span>% accuracy</span></div><div><strong>{selectedState.currentStreak}</strong><span>day streak</span></div><div><strong>{selectedState.comebackXp}</strong><span>study XP</span></div></> : <><div><strong>{selectedState.level}</strong><span>study level</span></div><div><strong>{selectedState.comebackXp}</strong><span>study XP</span></div><div><strong>{selectedState.longestStreak}</strong><span>best streak</span></div></>}</div>
     </section>
 
@@ -277,7 +281,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             <button className="compact-final-day-link" onClick={() => setActiveTab("progress")}><CalendarCheck2 size={14} /> Day before JAMB? Open your final-day review <ArrowRight size={13} /></button>
           </CompactPanel>
 
-          <CompactPanel eyebrow="02 / PRACTICE" title="Choose your practice path" note="CBT, subject practice, syllabus, and games—open only what you need." defaultOpen={openPracticeFixture} tone="paper">
+          <CompactPanel eyebrow="02 / PRACTICE" title="Choose your practice path" note="CBT, core subject practice, and optional novel practice—open only what you need." defaultOpen={openPracticeFixture} tone="paper">
             <button data-testid="standard-cbt-path" className="practice-route practice-route-standard" onClick={startFullMock} disabled={loading || !!loadError}><Trophy size={20} /><span><b>Standard CBT</b><small>180 questions · 2 hours · 60 ENG / 40 BIO / 40 CHE / 40 PHY</small></span><ArrowRight size={17} /></button>
             <details className="practice-subject-path">
               <summary data-testid="single-subject-path"><BookOpen size={18} /><span><b>Practice a subject</b><small>Open Biology, Chemistry, Physics, or Use of English only when you need focused study, CBT, or review.</small></span><ArrowRight size={15} /></summary>
@@ -297,14 +301,12 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
                 <button data-testid="lekki-mixed-study-start" className="button button-outline compact-start" onClick={startLekkiStudy} disabled={loading || !!loadError || !lekkiTopics.length}>Start {lekkiCount}-question novel study <ArrowRight size={17} /></button>
               </div>
             </details>
-            <div className="practice-route-choice-grid" aria-label="More practice routes">
-              <button data-testid="syllabus-journey-path" className="practice-route-quick" onClick={() => setSyllabusJourneyOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={18} /><span><b>Syllabus &amp; Topic Plan</b><small>See subtopics, plan your study, then open a separate Topic Drill.</small></span><ArrowRight size={15} /></button>
-              <button data-testid="game-arcade-path" className="practice-route-quick practice-route-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={18} /><span><b>Game Arcade</b><small>Try a different revision game with a fresh question mix.</small></span><ArrowRight size={15} /></button>
-            </div>
           </CompactPanel>
 
         </section>
       </>}
+
+      {activeTab === "study" && <section className="study-destination-grid tab-section" aria-label="Study destinations"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Choose a JAMB subject, official area, and specific topic. Then take an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read learning objectives, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button><button data-testid="game-arcade-destination" className="study-destination-card study-destination-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={22} /><span><b>Game Arcade</b><small>Take a different revision break with a fresh approved question mix.</small></span><ArrowRight size={18} /></button></section>}
 
       {activeTab === "progress" && <>
         <section className="progress-daily-report tab-section" aria-label="Daily report sheet">

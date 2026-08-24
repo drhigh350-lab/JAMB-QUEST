@@ -23,14 +23,16 @@ describe("Syllabus Journey", () => {
     expect(selected.every((item) => item.topic === "Nutrition and digestion" && !["BIO-1", "BIO-2"].includes(item.id))).toBe(true);
   });
 
-  it("keeps the planner honest, exposes official-area subtopics, and hands off only to the separate Topic Drill", () => {
+  it("keeps the planner reading-only, exposes official-area subtopics, and gives ongoing study direction without a drill handoff", () => {
     const source = readFileSync("client/src/components/SyllabusJourney.tsx", "utf8");
     expect(source).toContain("Marking a section studied is a planning reminder, not a mastery claim.");
-    expect(source).toContain("PLAN → PRACTISE");
+    expect(source).toContain("READ → PLAN");
     expect(source).toContain("LEARNING OBJECTIVE");
+    expect(source).toContain("WHAT TO READ");
     expect(source).toContain("SUBTOPICS");
-    expect(source).toContain("Suggested next step");
-    expect(source).toContain("Open Topic Drill");
+    expect(source).toContain("Continue your direction");
+    expect(source).not.toContain("Open Topic Drill");
+    expect(source).not.toContain("onStart");
     expect(source).not.toContain("selectSyllabusJourneyQuiz");
     expect(source).not.toContain('setPhase("quiz")');
     expect(source).not.toContain("recordRound");

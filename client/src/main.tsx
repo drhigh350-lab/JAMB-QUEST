@@ -30,6 +30,7 @@ import OwnerOriginalOrganicStructureFixture from "./e2e/OwnerOriginalOrganicStru
 import OwnerOriginalBiologyPlantTransportFixture from "./e2e/OwnerOriginalBiologyPlantTransportFixture";
 import AchievementSharePngFixture from "./e2e/AchievementSharePngFixture";
 import { DeferredAppUpdateFixture } from "./e2e/DeferredAppUpdateFixture";
+import { TopicDrillFixture } from "./e2e/TopicDrillFixture";
 import { startLogin } from "./const";
 import "./index.css";
 
@@ -124,11 +125,12 @@ const isOwnerOriginalOrganicStructureFixture = new URLSearchParams(window.locati
 const isOwnerOriginalBiologyPlantTransportFixture = new URLSearchParams(window.location.search).get("e2eOwnerOriginalBiologyPlantTransportFixture") === "1";
 const isAchievementSharePngFixture = new URLSearchParams(window.location.search).get("e2eAchievementSharePngFixture") === "1";
 const isDeferredAppUpdateFixture = new URLSearchParams(window.location.search).get("e2eDeferredAppUpdateFixture") === "1";
+const isTopicDrillFixture = new URLSearchParams(window.location.search).get("e2eTopicDrillFixture") === "1";
 
 createRoot(document.getElementById("root")!).render(
   <trpc.Provider client={trpcClient} queryClient={queryClient}>
     <QueryClientProvider client={queryClient}>
-      {isDeferredAppUpdateFixture ? <DeferredAppUpdateFixture /> : isAchievementSharePngFixture ? <AchievementSharePngFixture /> : isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : isLekkiChapterFixture ? <LekkiChapterLaunchFixture /> : isFiveOptionCbtFixture ? <FiveOptionCbtFixture /> : isOpeningSequenceFixture ? <OpeningSequenceFixture /> : isEnglishQuestionPresentationFixture ? <EnglishQuestionPresentationFixture /> : isQuestRushFixture ? <QuestRushFixture /> : isPresidentsDeskFixture ? <PresidentsDeskFixture /> : isGreatArchiveFixture ? <GreatArchiveFixture /> : isSyllabusJourneyFixture ? <SyllabusJourneyFixture /> : isGameArcadeLaunchFixture ? <GameArcadeLaunchFixture /> : isOwnerOriginalEnergyProfileFixture ? <OwnerOriginalEnergyProfileFixture /> : isOwnerOriginalOrganicStructureFixture ? <OwnerOriginalOrganicStructureFixture /> : isOwnerOriginalBiologyPlantTransportFixture ? <OwnerOriginalBiologyPlantTransportFixture /> : isReminderFixture ? <ReminderFixture /> : <App />}
+      {isTopicDrillFixture ? <TopicDrillFixture /> : isDeferredAppUpdateFixture ? <DeferredAppUpdateFixture /> : isAchievementSharePngFixture ? <AchievementSharePngFixture /> : isCalculatorFixture ? <CalculatorFixture /> : isQuizFlowFixture ? <QuizFlowFixture /> : isCbtFlowFixture ? <CbtFlowFixture /> : isProgressAnalyticsFixture ? <ProgressAnalyticsFixture /> : isReadyQuestionCountFixture ? <ReadyQuestionCountFixture /> : isRealGameCbtFixture ? <RealGameCbtFixture /> : isCbtResumeFixture ? <CbtResumeFixture /> : isRecoveryEmptyStateFixture ? <RecoveryEmptyStateFixture /> : isSubmittedRichQuestionFixture ? <SubmittedRichQuestionFixture /> : isTopicPracticeFixture ? <TopicPracticeFixture /> : isLekkiChapterFixture ? <LekkiChapterLaunchFixture /> : isFiveOptionCbtFixture ? <FiveOptionCbtFixture /> : isOpeningSequenceFixture ? <OpeningSequenceFixture /> : isEnglishQuestionPresentationFixture ? <EnglishQuestionPresentationFixture /> : isQuestRushFixture ? <QuestRushFixture /> : isPresidentsDeskFixture ? <PresidentsDeskFixture /> : isGreatArchiveFixture ? <GreatArchiveFixture /> : isSyllabusJourneyFixture ? <SyllabusJourneyFixture /> : isGameArcadeLaunchFixture ? <GameArcadeLaunchFixture /> : isOwnerOriginalEnergyProfileFixture ? <OwnerOriginalEnergyProfileFixture /> : isOwnerOriginalOrganicStructureFixture ? <OwnerOriginalOrganicStructureFixture /> : isOwnerOriginalBiologyPlantTransportFixture ? <OwnerOriginalBiologyPlantTransportFixture /> : isReminderFixture ? <ReminderFixture /> : <App />}
     </QueryClientProvider>
   </trpc.Provider>
 );

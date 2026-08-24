@@ -1,6 +1,13 @@
 # JAMB Quest Upgrade Checklist
 
 
+- [x] Make Topic Drill a dedicated standard JAMB-syllabus quiz destination with core subject, official area, specific-topic, and drill-size controls; keep it independent of Syllabus Journey. The dedicated screen uses official subject/area selection, question readiness, 10/20/40/50 sizes, and a deliberate untimed exact-topic start.
+- [x] Make Syllabus Journey a reading-and-planning destination only, with learning objectives, what to read, official subtopics, and continued study direction; remove quiz launch and drill controls from Journey. It now keeps a planning-only study marker with no drill size, quiz selection, or start action.
+- [x] Remove Syllabus and Game Arcade from the compact Practice chooser, leaving CBT, core subject practice, and optional Lekki practice only; create clear separate entries for Topic Drill, Syllabus Journey, and Game Arcade. A new Study destination holds three clear separate cards without mixing them into Practice.
+- [x] Add regression coverage and phone/desktop visual verification for the separated Practice, Topic Drill, Syllabus Journey, and Arcade destinations. Focused regressions, the full 111-file / 274-test suite, TypeScript, production build, and phone/desktop Study, Topic Drill, and Journey reviews pass.
+- [x] Require deliberate official-area and specific-topic choices in Topic Drill before the exact-topic start action can become available; do not default to any first available group or topic. Both controls now begin unselected, the exact-topic control stays disabled until its official area is chosen, and Start stays visibly unavailable until a ready exact topic is selected.
+- [x] Re-run Topic Drill regressions and phone/desktop review to prove the start action remains disabled until both selectors are chosen, exact-topic launch remains isolated, and Journey stays reading-only. Full 111-file / 274-test suite, TypeScript, production build, and fresh final phone/desktop Topic Drill reviews pass.
+
 - [x] Advance the service-worker release marker from v14 to v15 so installed and browser sessions can detect this release and expose the safe learner-triggered update control. Focused safeguards, the full 110-file / 273-test suite, and production build pass.
 - [ ] Observe a real existing deployed/browser or installed-app session detecting the v15 worker and surfacing Update JAMB Quest without manual cache clearing; do not force a live update or disturb active learner work.
 
