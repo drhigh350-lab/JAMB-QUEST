@@ -1,63 +1,69 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRight, BookOpenCheck, Check, ChevronRight, CircleCheck, Map, X } from "lucide-react";
-import { formatLearnerText } from "@/game/learnerText";
-import { confirmSyllabusRead, entryFor, readSyllabusJourney, recordSyllabusQuiz, selectSyllabusJourneyQuiz, type SyllabusJourneyProfile, writeSyllabusJourney } from "@/game/syllabusJourney";
-import { readRevisionReturnQueue, scheduleRevisionReturn, writeRevisionReturnQueue } from "@/game/revisionReturnQueue";
-import type { BankQuestion, Subject } from "@/game/types";
+import { useEffect, useMemo, useState } from "react";
+import { ArrowRight, BookOpenCheck, CircleCheck, Map, X } from "lucide-react";
+import { confirmSyllabusRead, entryFor, readSyllabusJourney, type SyllabusJourneyProfile, writeSyllabusJourney } from "@/game/syllabusJourney";
+import type { BankQuestion, RoundConfig, Subject } from "@/game/types";
 import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
 import { getSyllabusJourneyDetail } from "@shared/syllabusJourneyDetails";
 import "./syllabus-journey.css";
 import "./syllabus-journey-states.css";
 import "./syllabus-journey-details.css";
 
-type Phase = "map" | "quiz" | "report";
-type Answer = { questionId: string; selectedIndex: number; correct: boolean };
-const subjects: Array<{ name: Subject; short: string }> = [{ name: "Use of English", short: "ENG" }, { name: "Biology", short: "BIO" }, { name: "Chemistry", short: "CHE" }, { name: "Physics", short: "PHY" }];
+const subjects: Array<{ name: Subject; short: string }> = [
+  { name: "Use of English", short: "ENG" },
+  { name: "Biology", short: "BIO" },
+  { name: "Chemistry", short: "CHE" },
+  { name: "Physics", short: "PHY" },
+];
 
-export function SyllabusJourney({ questions, onExit, autoStart = false }: { questions: BankQuestion[]; onExit: () => void; autoStart?: boolean }) {
+export function SyllabusJourney({ questions, onExit, onStart, defaultPlannerOpen = false }: { questions: BankQuestion[]; onExit: () => void; onStart: (config: RoundConfig) => void; defaultPlannerOpen?: boolean }) {
   const [subject, setSubject] = useState<Subject>("Biology");
   const [selectedTopic, setSelectedTopic] = useState("");
-  const [profile, setProfile] = useState<SyllabusJourneyProfile>(() => typeof window !== "undefined" ? readSyllabusJourney() : ({ version: 1, entries: {} }));
-  const [phase, setPhase] = useState<Phase>("map");
-  const [quiz, setQuiz] = useState<BankQuestion[]>([]);
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState<Answer[]>([]);
-  const [feedback, setFeedback] = useState<"correct" | "wrong" | null>(null);
-  const [returnMessage, setReturnMessage] = useState("");
-  const [startError, setStartError] = useState("");
-  const autoStarted = useRef(false);
+  const [drillCount, setDrillCount] = useState(20);
+  const [profile, setProfile] = useState<SyllabusJourneyProfile>(() => typeof window !== "undefined" ? readSyllabusJourney() : { version: 1, entries: {} });
   const topicCounts = useMemo(() => questions.filter((question) => question.subject === subject).reduce<Record<string, number>>((counts, question) => ({ ...counts, [question.topic]: (counts[question.topic] ?? 0) + 1 }), {}), [questions, subject]);
   const groups = getSyllabusParentGroups(subject);
-  const activeTopic = selectedTopic || (groups.flatMap((group) => group.topics).find((topic) => topicCounts[topic]) ?? groups.flatMap((group) => group.topics)[0] ?? "");
-  const officialDetail = activeTopic ? getSyllabusJourneyDetail(subject, activeTopic) : null;
-  const activeSubtopics = officialDetail?.subtopics ?? [];
-  const objective = officialDetail?.objective ?? (activeTopic ? `Study the official content under ${activeTopic.toLowerCase()}, then use fresh JAMB questions and any missed explanation to guide the next study pass.` : "Choose an official area to see its study focus.");
+  const allTopics = groups.flatMap((group) => group.topics);
+  const activeTopic = selectedTopic || allTopics.find((topic) => topicCounts[topic]) || allTopics[0] || "";
+  const activeCount = topicCounts[activeTopic] ?? 0;
+  const detail = activeTopic ? getSyllabusJourneyDetail(subject, activeTopic) : null;
   const entry = activeTopic ? entryFor(profile, subject, activeTopic) : null;
-  const current = quiz[index];
-  const correctCount = answers.filter((answer) => answer.correct).length;
-  const score = answers.length ? Math.round((correctCount / answers.length) * 100) : 0;
 
   useEffect(() => { setSelectedTopic(""); }, [subject]);
-  const saveProfile = (next: SyllabusJourneyProfile) => { setProfile(next); writeSyllabusJourney(next); };
-  const startQuiz = (profileSource = profile) => {
-    const quizEntry = activeTopic ? entryFor(profileSource, subject, activeTopic) : null;
-    if (!activeTopic || !quizEntry?.readAt) { setStartError("Confirm that you have studied this area first, then its matching quiz will open."); return; }
-    const selected = selectSyllabusJourneyQuiz(questions, subject, activeTopic, 5, quizEntry.recentQuestionIds);
-    if (!selected.length) { setStartError("This official area is visible, but matching approved questions are not ready yet. Choose another ready area or return after the bank grows."); return; }
-    setStartError(""); setQuiz(selected); setIndex(0); setAnswers([]); setFeedback(null); setPhase("quiz");
-  };
-  const markRead = () => {
+
+  const markStudied = () => {
     if (!activeTopic) return;
     const nextProfile = confirmSyllabusRead(profile, subject, activeTopic);
-    saveProfile(nextProfile);
-    if (topicCounts[activeTopic]) startQuiz(nextProfile);
+    setProfile(nextProfile);
+    writeSyllabusJourney(nextProfile);
   };
-  useEffect(() => { if (autoStart && !autoStarted.current && phase === "map" && activeTopic && entry?.readAt && topicCounts[activeTopic] > 0) { autoStarted.current = true; startQuiz(); } }, [autoStart, phase, activeTopic, entry?.readAt, topicCounts]);
-  const answer = (selectedIndex: number) => { if (!current || feedback) return; const correct = selectedIndex === current.answer_index; setAnswers((items) => [...items, { questionId: current.id, selectedIndex, correct }]); setFeedback(correct ? "correct" : "wrong"); };
-  const next = () => { if (index + 1 < quiz.length) { setIndex((value) => value + 1); setFeedback(null); return; } if (activeTopic) saveProfile(recordSyllabusQuiz(profile, subject, activeTopic, score, quiz.map((question) => question.id))); setPhase("report"); };
-  const scheduleReturn = (days: number) => { if (!activeTopic || !quiz.length) return; const nextQueue = scheduleRevisionReturn(readRevisionReturnQueue(), { subject, topic: activeTopic, questionIds: quiz.map((question) => question.id), reason: "syllabus-quiz" }, days); writeRevisionReturnQueue(nextQueue); setReturnMessage(`Saved: return to these exact questions ${days === 1 ? "tomorrow" : `in ${days} days`}.`); };
+  const startTopicDrill = (count = drillCount) => {
+    if (!activeTopic || !activeCount) return;
+    onStart({ subject, mode: "sprint", count, timing: "study", topic: activeTopic });
+  };
 
-  if (phase === "quiz") return <main className="syllabus-journey journey-quiz" aria-live="polite"><header className="journey-head"><button onClick={() => setPhase("map")}><X size={17} /> Pause journey</button><span><Map size={16} /> JAMB QUEST / SYLLABUS QUIZ</span><b>{index + 1} / {quiz.length}</b></header><section className="journey-quiz-rail"><span>{subject}</span><b>{activeTopic}</b><i style={{ width: `${((index + 1) / quiz.length) * 100}%` }} /></section>{current && <article className="journey-question"><span className="eyebrow">OFFICIAL SYLLABUS CHECK</span><h1>{formatLearnerText(current.question)}</h1><div className="journey-options">{current.options.map((option, optionIndex) => <button key={`${current.id}-${optionIndex}`} className={`${feedback && optionIndex === current.answer_index ? "correct" : ""} ${feedback === "wrong" && answers.at(-1)?.selectedIndex === optionIndex ? "wrong" : ""}`} onClick={() => answer(optionIndex)} disabled={Boolean(feedback)}><b>{String.fromCharCode(65 + optionIndex)}</b><span>{formatLearnerText(option)}</span>{feedback && optionIndex === current.answer_index && <Check size={17} />}</button>)}</div>{feedback && <div className={`journey-feedback ${feedback}`}><b>{feedback === "correct" ? "Good evidence for this topic." : "Keep this one in your next revision."}</b><small>{feedback === "wrong" ? `Correct answer: ${formatLearnerText(current.answer_text)} — ` : ""}{formatLearnerText(current.explanation)}</small><button className="button button-dark" onClick={next}>{index + 1 === quiz.length ? "See journey result" : "Next question"} <ChevronRight size={16} /></button></div>}</article>}</main>;
-  if (phase === "report") return <main className="syllabus-journey journey-report"><header className="journey-head"><button onClick={onExit}><X size={17} /> Back to practice</button><span><Map size={16} /> JAMB QUEST / JOURNEY RESULT</span></header><section className="journey-report-hero"><span className="eyebrow">{subject.toUpperCase()} / {activeTopic.toUpperCase()}</span><h1>{score >= 70 ? "You have evidence to build on." : "This topic needs another pass."}</h1><p>This is a personal revision record, not a claim that the syllabus is finished. Use the explanations and retry when your study notes are fresh.</p><div><span><b>{score}%</b> quiz score</span><span><b>{correctCount}/{quiz.length}</b> correct</span><span><b>{entryFor(profile, subject, activeTopic).bestScore}%</b> best score</span></div></section><section className="journey-return-choice"><span className="eyebrow">OPTIONAL SPACED RETURN</span><h2>When should these exact questions come back?</h2><p>Choose a return date only if it helps your revision plan. You can snooze or remove it later from Progress.</p><div><button onClick={() => scheduleReturn(1)}>Tomorrow</button><button onClick={() => scheduleReturn(3)}>In 3 days</button><button onClick={() => scheduleReturn(7)}>In 7 days</button></div>{returnMessage && <p role="status">{returnMessage}</p>}</section><footer className="journey-report-actions"><button className="button button-dark" onClick={() => setPhase("map")}><Map size={16} /> Continue journey</button><button className="button button-outline" onClick={() => startQuiz()}><BookOpenCheck size={16} /> Retry this topic</button></footer></main>;
-  return <main className="syllabus-journey" aria-labelledby="syllabus-journey-title"><header className="journey-head"><button onClick={onExit}><X size={17} /> Back to practice</button><span><Map size={16} /> JAMB QUEST / SYLLABUS JOURNEY</span><b>READ → CHECK → REVISE</b></header><section className="journey-hero"><div><span className="eyebrow">OFFICIAL JAMB SYLLABUS</span><h1 id="syllabus-journey-title">Turn the syllabus<br />into a <em>study road.</em></h1><p>Every official area stays on this road. Choose a question-ready area to study, confirm, and quiz; areas without approved matching cards are still visible and clearly marked so you know what is coming next.</p></div><div className="journey-steps"><span><b>1</b> Study it</span><span><b>2</b> Confirm it</span><span><b>3</b> Quiz it</span><span><b>4</b> Revisit it</span></div></section><section className="journey-subjects" aria-label="Syllabus subject selector">{subjects.map((item) => <button key={item.name} className={subject === item.name ? "active" : ""} onClick={() => { setSubject(item.name); setStartError(""); }}><b>{item.short}</b><small>{item.name}</small></button>)}</section><section className="journey-map"><div className="journey-outline"><span className="eyebrow">{subject.toUpperCase()} / FULL OFFICIAL OUTLINE</span>{groups.map((group) => <details key={group.label} open><summary><b>{group.label}</b><small>{group.topics.filter((topic) => topicCounts[topic]).length}/{group.topics.length} ready areas</small><ArrowRight size={15} /></summary><div>{group.topics.map((topic) => { const ready = topicCounts[topic] ?? 0; const topicEntry = entryFor(profile, subject, topic); return <button key={topic} className={`${activeTopic === topic ? "active" : ""} ${!ready ? "pending" : ""}`} onClick={() => { setSelectedTopic(topic); setStartError(""); }}><span><b>{topic}</b><small>{ready ? `${ready} approved questions ready` : "awaiting matching approved questions"}</small></span>{topicEntry.bestScore ? <em>{topicEntry.bestScore}% best</em> : topicEntry.readAt ? <CircleCheck size={15} /> : !ready ? <i>soon</i> : <i />}</button>; })}</div></details>)}</div><aside className="journey-action"><span className="eyebrow">YOUR NEXT STOP</span>{activeTopic && entry ? <><h2>{activeTopic}</h2><p>{topicCounts[activeTopic] ? entry.readAt ? "You marked this area as studied on this device. Your quiz score—not the confirmation—shows what to revisit." : "Study this area in your trusted notes, book, class, or lesson first. Then confirm it to open a short diagnostic quiz." : "This official syllabus area is mapped and visible, but it is awaiting matching approved questions. You can still mark your reading progress here; the quiz will unlock only when the approved bank has cards for this exact area."}</p><section className="journey-focus-card" data-testid="syllabus-topic-focus"><span>LEARNING OBJECTIVE</span><p>{objective}</p><span>SUBTOPICS</span>{activeSubtopics.length ? <div>{activeSubtopics.map((subtopic) => <b key={subtopic}>{subtopic}</b>)}</div> : <small>Subtopic details will appear here when this area is ready.</small>}</section><dl><div><dt>Question status</dt><dd>{topicCounts[activeTopic] ? `${topicCounts[activeTopic]} ready` : "Awaiting cards"}</dd></div><div><dt>Read / studied</dt><dd>{entry.readAt ? new Date(entry.readAt).toLocaleDateString() : "Not yet"}</dd></div><div><dt>Quiz attempts</dt><dd>{entry.quizAttempts}</dd></div><div><dt>Best evidence</dt><dd>{entry.quizAttempts ? `${entry.bestScore}%` : "No quiz yet"}</dd></div></dl>{!entry.readAt ? <button className="button button-dark" onClick={markRead}><BookOpenCheck size={16} /> {topicCounts[activeTopic] ? `I have studied this — start ${Math.min(5, topicCounts[activeTopic])}-question quiz` : "I have studied this part"}</button> : topicCounts[activeTopic] ? <button className="button button-dark" onClick={() => startQuiz()}><BookOpenCheck size={16} /> Start {Math.min(5, topicCounts[activeTopic])}-question syllabus quiz</button> : <button className="button button-outline" disabled><BookOpenCheck size={16} /> Quiz unlocks with approved cards</button>}{startError && <p className="journey-start-error" role="status">{startError}</p>}<small className="journey-honesty">A confirmation is a study reminder, not a mastery claim. Quiz evidence stays local to this device.</small></> : <p>Select an official syllabus area to begin.</p>}</aside></section></main>;
+  return <main className="syllabus-journey syllabus-planner" aria-labelledby="syllabus-journey-title">
+    <header className="journey-head"><button onClick={onExit}><X size={17} /> Back to practice</button><span><Map size={16} /> JAMB QUEST / SYLLABUS &amp; TOPIC PLAN</span><b>PLAN → PRACTISE</b></header>
+    <section className="journey-hero journey-planner-hero"><div><span className="eyebrow">OFFICIAL JAMB SYLLABUS</span><h1 id="syllabus-journey-title">Plan your<br /><em>syllabus study.</em></h1><p>Use the official outline to plan what to read. When you are ready, choose the separate Topic Drill for that exact area.</p></div><div className="journey-steps"><span><b>1</b> Choose an area</span><span><b>2</b> Read &amp; plan</span><span><b>3</b> Practise separately</span></div></section>
+    <section className="journey-subjects" aria-label="Syllabus subject selector">{subjects.map((item) => <button key={item.name} className={subject === item.name ? "active" : ""} onClick={() => setSubject(item.name)}><b>{item.short}</b><small>{item.name}</small></button>)}</section>
+    <section className="journey-plan-cards" aria-label="Syllabus study options">
+      <details className="journey-plan-card" open>
+        <summary><span><b>Topic Drill</b><small>Choose one official area and practise it in the main question mode.</small></span><ArrowRight size={16} /></summary>
+        <div className="journey-plan-card-body">
+          <label className="journey-field"><span>Official area</span><select aria-label="Choose official syllabus area for a topic drill" value={activeTopic} onChange={(event) => setSelectedTopic(event.target.value)}>{groups.map((group) => <optgroup key={group.label} label={group.label}>{group.topics.map((topic) => <option key={topic} value={topic}>{topic}{topicCounts[topic] ? ` · ${topicCounts[topic]} questions ready` : " · not ready yet"}</option>)}</optgroup>)}</select></label>
+          <div className="journey-topic-status">{activeCount ? <><CircleCheck size={15} /> {activeCount} matching questions ready</> : "Questions for this official area are not ready yet."}</div>
+          <div className="journey-drill-count"><span>Drill size</span><div>{[10, 20, 40, 50].map((count) => <button key={count} className={drillCount === count ? "active" : ""} onClick={() => setDrillCount(count)}>{count}</button>)}</div></div>
+          <button className="button button-dark journey-start-drill" onClick={() => startTopicDrill()} disabled={!activeCount}>Start {drillCount}-question Topic Drill <ArrowRight size={16} /></button>
+        </div>
+      </details>
+      <details className="journey-plan-card" open={defaultPlannerOpen}>
+        <summary><span><b>Study Planner</b><small>See the learning objective and subtopics before you practise.</small></span><ArrowRight size={16} /></summary>
+        <div className="journey-plan-card-body journey-planner-card-body">
+          <div className="journey-focus-card" data-testid="syllabus-topic-focus"><span>LEARNING OBJECTIVE</span><p>{detail?.objective ?? "Choose an official area to see its study focus."}</p><span>SUBTOPICS</span>{detail?.subtopics.length ? <ul>{detail.subtopics.map((subtopic) => <li key={subtopic}>{subtopic}</li>)}</ul> : <small>Subtopic details will appear here when this official area is ready.</small>}</div>
+          <div className="journey-study-status"><span>Study status</span><b>{entry?.readAt ? `Marked studied on ${new Date(entry.readAt).toLocaleDateString()}` : "Not marked studied yet"}</b></div>
+          {!entry?.readAt ? <button className="button button-outline" onClick={markStudied}><BookOpenCheck size={16} /> I have studied this area</button> : activeCount ? <section className="journey-drill-suggestion"><b>Suggested next step</b><p>Try a separate {Math.min(20, activeCount)}-question Topic Drill for {activeTopic} when you are ready.</p><button className="button button-dark" onClick={() => startTopicDrill(Math.min(20, activeCount))}>Open Topic Drill <ArrowRight size={16} /></button></section> : <p className="journey-honesty">You have marked this area as studied. A Topic Drill will be available when matching approved questions are ready.</p>}
+          <small className="journey-honesty">Marking a section studied is a planning reminder, not a mastery claim.</small>
+        </div>
+      </details>
+    </section>
+  </main>;
 }

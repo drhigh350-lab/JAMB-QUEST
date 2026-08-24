@@ -23,11 +23,13 @@ describe("weekend learner-flow audit", () => {
     expect(home).toContain("Optional topic");
   });
 
-  it("makes parent syllabus sections and final-day recovery actions directly launchable", () => {
+  it("keeps the compact syllabus topic plan and final-day recovery actions directly launchable", () => {
     const home = readFileSync(resolve(root, "client/src/pages/Home.tsx"), "utf8");
-    expect(home).toContain("const startParentGroupDrill");
-    expect(home).toContain("startParentGroupDrill(group.topics)");
-    expect(home).toContain("Study all {group.label}");
+    const journey = readFileSync(resolve(root, "client/src/components/SyllabusJourney.tsx"), "utf8");
+    expect(home).toContain('data-testid="syllabus-journey-path"');
+    expect(journey).toContain("Topic Drill");
+    expect(journey).toContain("Study Planner");
+    expect(journey).toContain('onStart({ subject, mode: "sprint", count, timing: "study", topic: activeTopic })');
     expect(home).toContain("const finalDayActions");
     expect(home).toContain("openMissedQuestions(wrongIds, \"Full JAMB Mock\")");
     expect(home).toContain("weakTopics.slice(0, 3)");

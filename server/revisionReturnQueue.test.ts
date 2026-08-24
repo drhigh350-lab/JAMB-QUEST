@@ -28,8 +28,9 @@ describe("Revision Return Queue", () => {
     const storage = readFileSync("client/src/game/revisionReturnQueue.ts", "utf8");
     expect(panel).toContain('recoveryOrigin: "revision-return"');
     expect(panel).toContain("questionIds: item.questionIds");
-    expect(journey).toContain("OPTIONAL SPACED RETURN");
-    expect(journey).toContain("scheduleReturn(1)");
+    expect(journey).not.toContain("OPTIONAL SPACED RETURN");
+    expect(journey).not.toContain("scheduleReturn(1)");
+    expect(journey).not.toContain("scheduleRevisionReturn");
     expect(storage).toContain("jambQuest.revisionReturnQueue.v1");
     expect(storage).not.toContain("active-cbt");
     expect(storage).not.toContain("recordRound");

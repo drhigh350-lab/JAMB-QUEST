@@ -21,5 +21,5 @@ const questions: BankQuestion[] = Array.from({ length: 7 }, (_, index) => ({
 export function SyllabusJourneyFixture() {
   const autoStart = new URLSearchParams(window.location.search).get("autoStart") === "1";
   if (autoStart) writeSyllabusJourney(confirmSyllabusRead(parseSyllabusJourney(null), "Biology", "Nutrition and digestion"));
-  return <SyllabusJourney questions={questions} onExit={() => undefined} autoStart={autoStart} />;
+  return <SyllabusJourney questions={questions} onExit={() => undefined} onStart={() => undefined} defaultPlannerOpen={autoStart} />;
 }

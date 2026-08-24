@@ -8,8 +8,6 @@ import { DailyMissionPanel } from "@/components/DailyMissionPanel";
 import { ProgressSignals } from "@/components/ProgressSignals";
 import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics, type CoreSubjectFocus } from "@/game/dailyMission";
 import { STANDARD_FULL_CBT_SECONDS, type RoundConfig, type RoundSubject, type StoredProgress, type Subject } from "@/game/types";
-import { OFFICIAL_SYLLABUS_AREAS } from "@shared/syllabusTopicMap";
-import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
 import { summariseAchievements } from "@/game/achievements";
 import { downloadDailyGoalAchievement, shareDailyGoalAchievement } from "@/game/dailyGoalAchievement";
 import { downloadAchievementShareCard, shareAchievementShareCard } from "@/game/achievementShareCard";
@@ -126,8 +124,6 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [selectedSubject, setSelectedSubject] = useState<Subject>("Biology");
   const [mode, setMode] = useState<"sprint" | "cbt" | "review">("sprint");
   const [count, setCount] = useState(10);
-  const [topicDrillCount, setTopicDrillCount] = useState(20);
-  const [selectedTopic, setSelectedTopic] = useState("");
   const [selectedLekkiTopic, setSelectedLekkiTopic] = useState("");
   const [lekkiCount, setLekkiCount] = useState(20);
   const [entranceReady, setEntranceReady] = useState(false);
@@ -141,11 +137,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [syllabusJourneyOpen, setSyllabusJourneyOpen] = useState(false);
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
   const selected = subjects.find((subject) => subject.name === selectedSubject)!;
-  const selectableTopics = availableTopics.filter((item) => item.subject === selectedSubject && !item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
   const lekkiTopics = availableTopics.filter((item) => item.subject === "Use of English" && item.topic.startsWith("The Lekki Headmaster")).map((item) => item.topic);
-  const officialTopics = OFFICIAL_SYLLABUS_AREAS[selectedSubject];
-  const syllabusParentGroups = getSyllabusParentGroups(selectedSubject);
-  const topicQuestionCounts = selectableTopics.reduce<Record<string, number>>((counts, topic) => ({ ...counts, [topic]: (counts[topic] ?? 0) + 1 }), {});
   const selectedState = { ...guestComeback(), ...(comeback ?? {}), today: { ...guestComeback().today, ...(comeback?.today ?? {}) }, dailyGoalCount: comeback?.dailyGoalCount ?? comeback?.dailyMinimum ?? 10, dailyGoalSubject: comeback?.dailyGoalSubject ?? null, dailyGoalTopic: comeback?.dailyGoalTopic ?? null };
   const wrongIds = progress.wrongIds ?? [];
   const balancedCoreFocus: CoreSubjectFocus | null = coreSubjectFocus && subjects.some((subject) => subject.name === coreSubjectFocus.subject) ? { ...coreSubjectFocus, subject: coreSubjectFocus.subject as Subject } : null;
@@ -202,15 +194,6 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const isStudySubject = (subject: string): subject is Subject => subjects.some((item) => item.name === subject);
   const startSubjectRepair = (focus: CoreSubjectFocus) => onStart({ subject: focus.subject, mode: "sprint", count: 20, timing: "study" });
   const startTopicDrill = (topic: { subject?: string | null; topic: string }) => { if (topic.subject && isStudySubject(topic.subject)) onStart({ subject: topic.subject, mode: "sprint", count: 20, timing: "study", topic: topic.topic }); };
-  const startSelectedTopicDrill = () => {
-    if (selectedTopic) {
-      onStart({ subject: selectedSubject, mode: "sprint", count: topicDrillCount, timing: "study", topic: selectedTopic });
-      return;
-    }
-  };
-  const startParentGroupDrill = (topics: readonly string[]) => {
-    if (topics.length) onStart({ subject: selectedSubject, mode: "sprint", count: topicDrillCount, timing: "study", topics: [...topics] });
-  };
   const openBookmark = (bookmark: { questionId: string; subject: string; topic: string }) => { if (isStudySubject(bookmark.subject)) onStart({ subject: bookmark.subject, mode: "sprint", count: 1, timing: "study", questionIds: [bookmark.questionId], recoveryOrigin: "saved-question" }); };
   const openMissedQuestions = (questionIds: string[], subject: string) => { if (questionIds.length) { const roundSubject: RoundSubject = subject === "Full JAMB Mock" || isStudySubject(subject) ? subject : "Full JAMB Mock"; onStart({ subject: roundSubject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); } };
   const revisionSteps = [
@@ -232,7 +215,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
-  if (syllabusJourneyOpen) return <SyllabusJourney questions={activeQuestions} onExit={() => setSyllabusJourneyOpen(false)} />;
+  if (syllabusJourneyOpen) return <SyllabusJourney questions={activeQuestions} onExit={() => setSyllabusJourneyOpen(false)} onStart={onStart} />;
 
   return <main className={`home-page tabbed-home compact-home ${entranceReady ? "entrance-ready" : ""}`}>
     <Dialog open={fullMockSetupOpen} onOpenChange={setFullMockSetupOpen}>
@@ -288,7 +271,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             <details className="practice-subject-path">
               <summary data-testid="single-subject-path"><BookOpen size={18} /><span><b>Practice a subject</b><small>Open Biology, Chemistry, Physics, or Use of English only when you need focused study, CBT, or review.</small></span><ArrowRight size={15} /></summary>
               <div className="practice-subject-path-body">
-                <div className="compact-subject-grid">{subjects.map((subject) => { const Icon = subject.icon; const active = selectedSubject === subject.name; return <button key={subject.name} className={`compact-subject ${subject.tint} ${active ? "active" : ""}`} onClick={() => { setSelectedSubject(subject.name); setSelectedTopic(""); }}><Icon size={17} /><span><b>{subject.short}</b><small>{subject.name}</small></span></button>; })}</div>
+                <div className="compact-subject-grid">{subjects.map((subject) => { const Icon = subject.icon; const active = selectedSubject === subject.name; return <button key={subject.name} className={`compact-subject ${subject.tint} ${active ? "active" : ""}`} onClick={() => setSelectedSubject(subject.name)}><Icon size={17} /><span><b>{subject.short}</b><small>{subject.name}</small></span></button>; })}</div>
                 <div className="compact-mode-tabs"><button className={mode === "sprint" ? "active" : ""} onClick={() => setMode("sprint")}><Zap size={15} /> Study</button><button className={mode === "cbt" ? "active" : ""} onClick={() => setMode("cbt")}><Clock3 size={15} /> CBT</button><button className={`${mode === "review" ? "active" : ""} ${!canReview ? "disabled" : ""}`} onClick={() => canReview && setMode("review")}><ListChecks size={15} /> Review</button></div>
                 <div className="compact-count-row"><span>Question count</span><div>{(mode === "cbt" ? [20, 40, 80] : [10, 20, 40]).map((value) => <button key={value} className={count === value ? "active" : ""} onClick={() => setCount(value)}>{value}</button>)}</div></div>
                 {resumableCbt && <div className="compact-resume compact-resume-detailed"><div><span>CBT safely saved</span><b>{resumableCbt.config.subject === "Full JAMB Mock" ? "Full JAMB · 60 ENG / 40 BIO / 40 CHE / 40 PHY" : `${resumableCbt.config.subject} CBT`}</b><small>{Object.keys(resumableCbt.answers).length} of {resumableCbt.questionIds.length} answered · {formatCbtTime(resumableCbt.secondsLeft)} left · last saved at question {resumableCbt.currentIndex + 1}</small></div><div><button className="text-button" onClick={onResumeCbt}>Resume <ArrowRight size={13} /></button><button className="text-button" onClick={onDiscardResumableCbt}>Discard</button></div></div>}
@@ -304,17 +287,11 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
               </div>
             </details>
             <div className="practice-route-choice-grid" aria-label="More practice routes">
-              <button data-testid="syllabus-journey-path" className="practice-route-quick" onClick={() => setSyllabusJourneyOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={18} /><span><b>Syllabus Journey</b><small>Study the official outline, then take a matching quiz.</small></span><ArrowRight size={15} /></button>
+              <button data-testid="syllabus-journey-path" className="practice-route-quick" onClick={() => setSyllabusJourneyOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={18} /><span><b>Syllabus &amp; Topic Plan</b><small>See subtopics, plan your study, then open a separate Topic Drill.</small></span><ArrowRight size={15} /></button>
               <button data-testid="game-arcade-path" className="practice-route-quick practice-route-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={18} /><span><b>Game Arcade</b><small>Try a different revision game with a fresh question mix.</small></span><ArrowRight size={15} /></button>
             </div>
           </CompactPanel>
 
-          <CompactPanel eyebrow="03 / OFFICIAL SYLLABUS" title="Choose from the JAMB syllabus" note="Follow three clear steps: choose a subject, choose an official area, then start one focused drill." tone="maize">
-            <div className="syllabus-use-guide"><span><b>1</b> Choose a core subject</span><span><b>2</b> Choose one official area</span><span><b>3</b> Start that area or its whole section</span></div>
-            <div className="compact-topic-groups official-topic-grid" role="list" aria-label={`${selected.name} official JAMB syllabus parent sections`}>{syllabusParentGroups.map((group) => { const readyCount = group.topics.reduce((sum, topic) => sum + (topicQuestionCounts[topic] ?? 0), 0); return <details className="syllabus-parent-group" key={group.label} open={group.topics.some((topic) => selectedTopic === topic)}><summary><span><b>{group.label}</b><small>{readyCount ? `${readyCount} questions ready` : "not loaded yet"}</small></span><ArrowRight size={15} /></summary><div className="syllabus-child-topics">{group.topics.map((topic) => { const countForTopic = topicQuestionCounts[topic] ?? 0; return <button role="listitem" key={topic} className={selectedTopic === topic ? "active" : ""} disabled={!countForTopic} onClick={() => setSelectedTopic(topic)}><b>{topic}</b><small>{countForTopic ? `${countForTopic} questions ready` : "not loaded yet"}</small><ArrowRight size={13} /></button>; })}</div><button data-testid={`parent-drill-${group.label.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}`} className="parent-section-drill" onClick={() => startParentGroupDrill(group.topics)} disabled={!readyCount || loading || !!loadError}>Study all {group.label} <ArrowRight size={13} /></button></details>; })}</div>
-            <label className="compact-topic-select"><span>Selected detailed area</span><select value={selectedTopic} onChange={(event) => setSelectedTopic(event.target.value)}><option value="">Choose a detailed official syllabus area</option>{syllabusParentGroups.flatMap((group) => group.topics).map((topic) => <option key={topic} value={topic} disabled={!topicQuestionCounts[topic]}>{topic}{topicQuestionCounts[topic] ? ` (${topicQuestionCounts[topic]})` : " — not loaded yet"}</option>)}</select></label><div className="compact-count-row"><span>Drill size</span><div>{[10, 20, 40, 50].map((value) => <button data-testid={`topic-drill-count-${value}`} key={value} className={topicDrillCount === value ? "active" : ""} onClick={() => setTopicDrillCount(value)}>{value}</button>)}</div></div>
-            <button className="button button-dark compact-start" onClick={startSelectedTopicDrill} disabled={!selectedTopic || !topicQuestionCounts[selectedTopic] || loading || !!loadError}>Start {topicDrillCount}-question drill <ArrowRight size={16} /></button>
-          </CompactPanel>
         </section>
       </>}
 

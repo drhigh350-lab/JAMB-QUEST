@@ -36,12 +36,15 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('className="practice-route-choice-grid"');
   });
 
-  it("uses source-neutral, visible detail cards and immediately starts an exact ready-topic quiz after confirmation", () => {
+  it("uses source-neutral subtopics and suggests a separate exact topic drill after study confirmation", () => {
     const journey = readFileSync("client/src/components/SyllabusJourney.tsx", "utf8");
-    expect(journey).toContain('const startQuiz = (profileSource = profile)');
     expect(journey).toContain('const nextProfile = confirmSyllabusRead(profile, subject, activeTopic);');
-    expect(journey).toContain('if (topicCounts[activeTopic]) startQuiz(nextProfile);');
+    expect(journey).toContain('onStart({ subject, mode: "sprint", count, timing: "study", topic: activeTopic })');
+    expect(journey).toContain("Suggested next step");
+    expect(journey).toContain("Open Topic Drill");
     expect(journey).toContain('<span>SUBTOPICS</span>');
+    expect(journey).not.toContain("selectSyllabusJourneyQuiz");
+    expect(journey).not.toContain('setPhase("quiz")');
     expect(journey).not.toMatch(/supplied .*syllabus PDF|Condensed from/i);
   });
 
