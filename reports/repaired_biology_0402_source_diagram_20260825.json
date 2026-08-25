@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-25T15:18:34.112Z",
+  "scope": "Guarded source-proven repair. Only the exact-source-proven answer index, explanation, and diagram mapping may change; stem, options, topic, source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "biology_0402",
+    "questionText": "From the diagram above the structure labelled I originates from the",
+    "optionsJson": "[\"liver\",\"kidney\",\"small intestine\",\"stomach\"]",
+    "topic": "Plant and mammal structure",
+    "sourceId": 22500001,
+    "expectedAnswerIndex": 3,
+    "replacementAnswerIndex": 1,
+    "expectedDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0402-schoolngr-source-panel_2f306451.png",
+    "replacementExplanation": "The labelled structure is the ureter. It carries urine from the kidney to the urinary bladder, so it originates from the kidney."
+  },
+  "receipt": {
+    "externalId": "biology_0402",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact public-source urinary-system figure confirms the kidney key and source-backed explanation"
+  }
+}

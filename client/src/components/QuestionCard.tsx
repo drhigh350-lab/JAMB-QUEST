@@ -1,6 +1,6 @@
 /* Field Notes Arcade: answer choices behave like marked strips on a study sheet. */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, FlagTriangleRight, Send, XCircle } from "lucide-react";
 import type { AnswerRecord, BankQuestion } from "@/game/types";
 import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
@@ -31,11 +31,15 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
   const explanationLines = questionExplanationLines(question);
   const topic = normalisedTopic(question.topic);
   const presentation = splitQuestionPresentation(preserveEnglishCompletionGap(question.question, question.subject));
+  const [diagramFailed, setDiagramFailed] = useState(false);
   const [reportOpen, setReportOpen] = useState(false);
   const [reportReason, setReportReason] = useState<"wrong_answer" | "missing_context" | "broken_diagram" | "confusing_wording" | "other">("wrong_answer");
   const [reportNote, setReportNote] = useState("");
   const [reportStatus, setReportStatus] = useState<"idle" | "sending" | "sent" | "failed">("idle");
   const [reportReceipt, setReportReceipt] = useState<{ id: number; status: "open" | "reviewing" | "resolved" | "dismissed" } | null>(null);
+  useEffect(() => {
+    setDiagramFailed(false);
+  }, [question.id, question.diagram_url]);
   const submitReport = async () => {
     if (!onReportQuestion) return;
     try {
@@ -68,7 +72,8 @@ export function QuestionCard({ question, index, total, subjectLabel, selectedInd
         {presentation.context && <div className="question-source-context"><span>{presentation.contextLabel}</span><p>{formatLearnerText(presentation.context)}</p></div>}
         <h1 id="question-title">{formatLearnerText(presentation.prompt)}</h1>
       </div>
-      {question.diagram_url && <figure className="question-diagram"><img src={question.diagram_url} alt="Black-and-white instructional diagram for this question" loading="lazy" /><figcaption>Use the diagram with the question stem before choosing an answer.</figcaption></figure>}
+      {question.diagram_url && !diagramFailed && <figure className="question-diagram"><img src={question.diagram_url} alt="Black-and-white instructional diagram for this question" loading="lazy" onError={() => setDiagramFailed(true)} /><figcaption>Use the diagram with the question stem before choosing an answer.</figcaption></figure>}
+      {question.diagram_url && diagramFailed && <div className="question-diagram-unavailable" role="alert"><strong>Diagram unavailable.</strong><span>Do not guess from an empty visual area. Return to the question later or use Report to flag it.</span></div>}
       <div className="option-list" role="radiogroup" aria-label="Answer options">
         {question.options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;

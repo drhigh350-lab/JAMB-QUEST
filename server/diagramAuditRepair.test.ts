@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 91, bySubject: { Biology: 40, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 39, bySubject: { Biology: 36, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 39 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 93, bySubject: { Biology: 42, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 38, bySubject: { Biology: 35, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 38 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -98,6 +98,32 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("immutableFields.every");
     expect(script).toContain("SET optionsJson = ?, answerIndex = ?, explanation = ?, diagramUrl = ?");
     expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
+  });
+
+  it("corrects biology_0402 only where the exact source urinary-system diagram proves the key and explanation mismatch", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0402SourceDiagramRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0402"');
+    expect(script).toContain("biology-0402-schoolngr-source-panel_2f306451.png");
+    expect(script).toContain("replacementAnswerIndex: 1");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
+  });
+
+  it("repairs the reported biology_1102 beak question only with an exact-source figure, key, and explanation", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology1102SourceBeakRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_1102"');
+    expect(script).toContain("biology-1102-myschool-source-panel_41a60dd5.png");
+    expect(script).toContain("replacementAnswerIndex: 3");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET topic");
     expect(script).not.toContain("SET sourceId");
   });

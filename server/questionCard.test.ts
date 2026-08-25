@@ -43,6 +43,7 @@ describe("uniform Biology question card", () => {
     const diagramUrls = [
       "/manus-storage/jamb-quest-potometer_0ff84706.svg",
       "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+      "/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png",
       "/manus-storage/chemistry-energy-profile-original_3e1f7670.png",
       "/manus-storage/jamb-quest-biology-digestive-system_e222260a.png",
     ];

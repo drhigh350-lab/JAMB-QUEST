@@ -40,4 +40,24 @@ The protected `biology_0396` record has an evidence-backed content mismatch: its
 
 The guarded repair completed with source-only learner asset `/manus-storage/biology-0396-schoolngr-source-panel_658f04ef.png`. It changed only the exact-source-proven options, answer index, explanation, and diagram URL; the protected stem, topic, source relationship, and approved status were verified unchanged. The production eligibility audit now reports 39 unresolved missing-original holds.
 
+## `biology_0402` — ureter origin
+
+MySchool and SchoolNGR both provide the exact JAMB 2005 prompt and the same liver/kidney/small-intestine/stomach option order. MySchool’s image is watermarked and unsuitable for release. SchoolNGR exposes a separate candidate at `https://www.schoolngr.com/eattachments/d8a8a54d0207df537d68a19de7e29be771103f61`; the page keeps its figure separate from the answers and has no answer text inside the shown preview. Direct image quality and crop boundaries remain to be checked before any mapping decision.
+
+Direct inspection confirms the independent candidate is 382 × 335. It retains the complete urinary-system drawing and labels I–IV without a watermark, answer option, answer letter, or correction text inside the panel. Only detached source specks and white framing remain outside the figure; a conservative original-only crop is staged for review before protected-record verification and any release.
+
+The protected `biology_0402` record has an exact-source mismatch: both public pages show the same options and identify the ureter (label I) as originating from the kidney, so the source-supported answer index is `1`, not the current index `3`. Its current digestive-system explanation contradicts the exact urinary-system figure. The crop is otherwise source-fit; the record remains held pending a guarded source-proven mapping, key, and explanation repair.
+
+The guarded repair completed with original-only learner asset `/manus-storage/biology-0402-schoolngr-source-panel_2f306451.png`. It changed only the source-proven answer index, explanation, and diagram mapping; the protected stem, option order, topic, source relationship, and approved status were verified unchanged. The production eligibility audit now reports 38 unresolved missing-original holds.
+
+## `biology_1102` — beak adaptation
+
+The reported empty learner figure corresponds to the JAMB 2022 prompt “The beak structure of the organism is best adapted for?” MySchool exposes an original beak figure at `https://myschool.ng/storage/classroom/u4HIrklh7jDDBlbxlZ0tWumkNFo1Lw1mUj06GARg.jpeg`; SchoolNGR corroborates the exact prompt and option order. Both public sources mark **sucking nectars** as the source answer (index `3`). The active record instead has no current diagram mapping, an answer index of `1`, and an explanation for fish-catching—an evidence-backed mismatch to be repaired only through a guarded script after direct source-image review.
+
+Direct inspection confirms the source figure is a 400 × 174 isolated beak drawing with no options, answer marker, correction text, or watermark. It is a dark print scan rather than a blank image. A deterministic grayscale/autocontrast-only cleanup is staged to improve legibility without changing its geometry, labels, or semantic content.
+
+The guarded repair completed with original-only learner asset `/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png`. It changed only the exact-source-proven answer index, explanation, and diagram mapping; the protected stem, options, topic, source relationship, and approved status were verified unchanged. The source-backed Beak Structure predicate now also holds future beak-structure records without a linked visual.
+
+At 390 × 844, the actual `QuestionCard` now renders the beak figure and the four options without the empty frame shown in the reported screenshot. A deliberate missing-image fixture now replaces an unloaded figure with an explicit “Diagram unavailable” warning rather than leaving an answer-critical blank area.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

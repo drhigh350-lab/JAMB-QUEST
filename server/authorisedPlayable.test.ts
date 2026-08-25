@@ -130,6 +130,7 @@ describe("owner-provided playable question mapping", () => {
     };
     expect(toPlayableAuthorisedQuestion({ ...base, questionText: "[DIAGRAM: a labelled spine diagram] The part labelled II is the" })).toBeNull();
     expect(toPlayableAuthorisedQuestion({ ...base, id: 232, questionText: "The graph above represents the motion of the body." })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 234, questionText: "The beak structure of the organism is best adapted for?" })).toBeNull();
     expect(toPlayableAuthorisedQuestion({ ...base, id: 233, questionText: "[Refers to the osmosis set-up diagram in Q3] Which result is expected?", diagramUrl: "/manus-storage/osmosis.svg" })).not.toBeNull();
   });
 

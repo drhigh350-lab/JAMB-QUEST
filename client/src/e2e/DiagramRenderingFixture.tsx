@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "beak" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -52,6 +52,38 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "24 °C",
     explanation: "The 24 °C curve reaches the highest number of cockroaches in the graph.",
     diagram_url: "/manus-storage/biology-0396-schoolngr-source-panel_658f04ef.png",
+  },
+  beak: {
+    id: "fixture-diagram-source-beak",
+    subject: "Biology",
+    topic: "Adaptations of organisms",
+    subtopic: "Structural adaptation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "source-only original", "beak"],
+    source: "Fixture — verified JAMB 2022 original",
+    question: "The beak structure of the organism is best adapted for?",
+    options: ["pecking grass", "killing and picking fish", "pecking woods", "sucking nectars"],
+    answer_index: 3,
+    answer_text: "sucking nectars",
+    explanation: "The long, slender pointed beak is adapted for reaching into flowers to take nectar.",
+    diagram_url: "/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png",
+  },
+  broken: {
+    id: "fixture-diagram-unavailable",
+    subject: "Biology",
+    topic: "Adaptations of organisms",
+    subtopic: "Structural adaptation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "failed image", "fallback"],
+    source: "Fixture — intentional failed diagram URL",
+    question: "This question must never leave an empty answer-critical diagram frame.",
+    options: ["Option A", "Option B", "Option C", "Option D"],
+    answer_index: 0,
+    answer_text: "Option A",
+    explanation: "The error state must be explicit instead of showing a blank diagram area.",
+    diagram_url: "/manus-storage/intentional-missing-diagram-fixture.png",
   },
   wide: {
     id: "fixture-diagram-wide-energy-profile",
@@ -106,6 +138,8 @@ const labels: Record<DiagramFixtureVariant, string> = {
   svg: "Browser-delivered SVG",
   source: "Original-only source crop",
   sourceGraph: "Original-only source graph",
+  beak: "Repaired original beak figure",
+  broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",
   none: "Held/no-diagram fallback",

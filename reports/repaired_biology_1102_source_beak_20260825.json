@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-25T15:24:43.364Z",
+  "scope": "Guarded source-proven repair. Only the exact-source-proven answer index, explanation, and diagram mapping may change; stem, options, topic, source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "biology_1102",
+    "questionText": "The beak structure of the organism is best adapted for?",
+    "optionsJson": "[\"pecking grass\",\"killing and picking fish\",\"pecking woods\",\"sucking nectars\"]",
+    "topic": "Adaptations of organisms",
+    "sourceId": 22500002,
+    "expectedAnswerIndex": 1,
+    "replacementAnswerIndex": 3,
+    "expectedDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png",
+    "replacementExplanation": "The beak in the figure is long, slender, and pointed. This shape is adapted for reaching into flowers to take nectar, so the best answer is sucking nectars."
+  },
+  "receipt": {
+    "externalId": "biology_1102",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "two exact public-source pages and the original beak figure confirm the nectar option and source-backed explanation"
+  }
+}
