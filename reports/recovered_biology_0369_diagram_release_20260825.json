@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T14:57:16.957Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology diagram. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0369",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0369-schoolngr-source-panel_aa1ec92c.png",
+    "questionText": "From the diagram above, The bile is stored in the part labelled",
+    "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+    "answerIndex": 1,
+    "topic": "Nutrition and digestion",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0369",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact public-source original figure cropped without options, answer text, or source chrome"
+  }
+}

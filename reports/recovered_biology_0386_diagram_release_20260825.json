@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T15:05:46.488Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology diagram. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0386",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0386-schoolngr-source-panel_50cbedfb.png",
+    "questionText": "From the diagram above the angle between the parts labelled II and III is the",
+    "optionsJson": "[\"bud\",\"node\",\"internode\",\"axil\"]",
+    "answerIndex": 3,
+    "topic": "Plant and mammal structure",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0386",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact public-source original figure cropped without options, answer text, watermark, or source chrome"
+  }
+}

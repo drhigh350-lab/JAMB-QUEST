@@ -12,7 +12,7 @@ const [decisions, holds] = await Promise.all([
 ]);
 
 const currentLinkedMappings = {
-  Biology: 37,
+  Biology: 40,
   Chemistry: 26,
   Physics: 25,
   "Use of English": 0,
@@ -50,7 +50,7 @@ const output = {
   safetyBoundary: [
     "No question stem, options, answer index, topic, explanation, or source relationship was modified by diagram repair scripts.",
     "No AI-generated or semantically reconstructed diagram was released.",
-    "The 42 reviewed screenshot mappings and the 42 missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.",
+    "The 42 reviewed screenshot mappings and the 39 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.",
   ],
 };
 

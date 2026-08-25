@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -36,6 +36,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "7.5 m/s²",
     explanation: "The diagram supplies the force information needed to calculate the resultant force and acceleration.",
     diagram_url: "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+  },
+  sourceGraph: {
+    id: "fixture-diagram-source-cockroach-graph",
+    subject: "Biology",
+    topic: "Natural habitats",
+    subtopic: "Environmental factors",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "source-only crop", "graph"],
+    source: "Fixture — verified owner-source graph",
+    question: "From the diagram above the optimal temperature for breeding cockroaches is",
+    options: ["15 °C", "19 °C", "24 °C", "33 °C"],
+    answer_index: 2,
+    answer_text: "24 °C",
+    explanation: "The 24 °C curve reaches the highest number of cockroaches in the graph.",
+    diagram_url: "/manus-storage/biology-0396-schoolngr-source-panel_658f04ef.png",
   },
   wide: {
     id: "fixture-diagram-wide-energy-profile",
@@ -89,6 +105,7 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
 const labels: Record<DiagramFixtureVariant, string> = {
   svg: "Browser-delivered SVG",
   source: "Original-only source crop",
+  sourceGraph: "Original-only source graph",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",
   none: "Held/no-diagram fallback",

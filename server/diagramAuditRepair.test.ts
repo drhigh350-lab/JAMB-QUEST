@@ -60,8 +60,45 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 88, bySubject: { Biology: 37, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 42, bySubject: { Biology: 39, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 42 missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 91, bySubject: { Biology: 40, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 39, bySubject: { Biology: 36, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 39 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+  });
+
+  it("releases biology_0369 only after exact source and protected-field verification", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0369Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0369"');
+    expect(script).toContain("biology-0369-schoolngr-source-panel_aa1ec92c.png");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("releases biology_0386 only after exact source and protected-field verification", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0386Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0386"');
+    expect(script).toContain("biology-0386-schoolngr-source-panel_50cbedfb.png");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("corrects biology_0396 only where the exact source graph proves the malformed option and key mismatch", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0396SourceGraphRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0396"');
+    expect(script).toContain("biology-0396-schoolngr-source-panel_658f04ef.png");
+    expect(script).toContain('["15 °C","19 °C","24 °C","33 °C"]');
+    expect(script).toContain("replacementAnswerIndex: 2");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET optionsJson = ?, answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
   });
 });
