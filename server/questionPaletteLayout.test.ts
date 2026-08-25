@@ -14,5 +14,8 @@ describe("question palette placement", () => {
     const mobileStyles = readFileSync(`${project}/client/src/field-notes-overrides.css`, "utf8");
     expect(mobileStyles).not.toContain(".cbt-ledger-stack { order: -1; }");
     expect(mobileStyles).toContain(".cbt-ledger-stack { order: initial; }");
+    expect(mobileStyles).toContain(".question-palette-bottom .cbt-actions { position: sticky;");
+    expect(mobileStyles).toContain("env(safe-area-inset-bottom)");
+    expect(mobileStyles).toContain(".question-palette-bottom .cbt-actions .cbt-nav-actions { grid-column: 1 / -1; }");
   });
 });

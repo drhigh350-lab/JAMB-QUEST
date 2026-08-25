@@ -247,6 +247,12 @@
   .mode-panel-stamp { top: -12px; right: 15px; font-size: 8px; }
   .progress-strip { padding-top: 43px; }
   .cbt-ledger-stack { order: initial; }
+  /* Keep the action controls usable when the long question sheet reaches the phone viewport edge. */
+  .question-palette-bottom .cbt-actions { position: sticky; bottom: max(12px, env(safe-area-inset-bottom)); z-index: 12; grid-template-columns: 1fr 1fr; padding: 10px; background: #fffdf5; box-shadow: 4px 5px 0 rgba(18,40,63,.16); }
+  .question-palette-bottom .cbt-actions .cbt-nav-actions { grid-column: 1 / -1; }
+  .question-palette-bottom .cbt-actions > .button { width: 100%; min-height: 42px; }
+  .question-palette-bottom .cbt-actions > [data-slot="alert-dialog-trigger"] { display: block; width: 100%; }
+  .question-palette-bottom .cbt-actions > [data-slot="alert-dialog-trigger"] .button { width: 100%; min-height: 42px; }
   .exam-review { padding-top: 16px; }
   .exam-review-header, .exam-review-footer { align-items: stretch; flex-direction: column; }
   .exam-review-item { grid-template-columns: 34px minmax(0,1fr); gap: 10px; padding: 15px; }
