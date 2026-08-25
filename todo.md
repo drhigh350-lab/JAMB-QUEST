@@ -2,6 +2,7 @@
 - [x] Recover and release the exact-source JAMB 2008 thermoregulation graph for `biology_0518` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 36 to 35, and the 390px QuestionCard fixture confirms a complete, legible graph with answer options outside the visual.
 - [x] Recover and release the exact-source JAMB 2011 fermentation apparatus for `biology_0600` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 35 to 34, and the 390px QuestionCard fixture confirms the complete labelled apparatus with options outside the visual.
 - [x] Recover and release the exact-source JAMB 2012 continuous-variation graph for `biology_0645` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 34 to 33, and the 390px QuestionCard fixture confirms the complete, legible graph with options outside the visual.
+- [x] Recover and release the exact-source JAMB 2012 ovary-function diagram for `biology_0649` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 33 to 32, and the 390px QuestionCard fixture confirms the complete I–IV figure with options outside the visual.
 
 
 

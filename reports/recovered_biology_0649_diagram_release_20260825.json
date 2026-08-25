@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:32:18.823Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology reproductive-system figure. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0649",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
+    "questionText": "Use the diagram above to answer this question. The function of the part labelled III is to",
+    "optionsJson": "[\"produce egg cells\",\"protect sperms during fertilization\",\"secrete hormones during coitus\",\"protect the developing embryo\"]",
+    "answerIndex": 0,
+    "topic": "Reproduction",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0649",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact MySchool original labelled reproductive-system figure verified separately from the source answer and free of watermark, options, answer letters, correction text, and source chrome"
+  }
+}

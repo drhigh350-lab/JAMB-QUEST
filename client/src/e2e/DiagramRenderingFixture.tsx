@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "ovary" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -100,6 +100,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "a continuously varying character",
     explanation: "The smooth distribution across a range of heights is characteristic of continuous variation.",
     diagram_url: "/manus-storage/biology-0645-myschool-original_3340a9ed.jpg",
+  },
+  ovary: {
+    id: "fixture-diagram-ovary-function",
+    subject: "Biology",
+    topic: "Reproduction",
+    subtopic: "Female reproductive system",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "ovary function"],
+    source: "Fixture — verified JAMB 2012 original reproductive system",
+    question: "Use the diagram above to answer this question. The function of the part labelled III is to",
+    options: ["produce egg cells", "protect sperms during fertilization", "secrete hormones during coitus", "protect the developing embryo"],
+    answer_index: 0,
+    answer_text: "produce egg cells",
+    explanation: "Label III is the ovary, which produces egg cells.",
+    diagram_url: "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
   },
   beak: {
     id: "fixture-diagram-source-beak",
@@ -205,6 +221,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   thermoregulation: "Repaired original thermoregulation graph",
   fermentation: "Repaired original fermentation apparatus",
   variation: "Repaired original continuous-variation graph",
+  ovary: "Repaired original ovary-function diagram",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",
