@@ -1,0 +1,23 @@
+{
+  "importId": 1590001,
+  "sourceId": 27810001,
+  "sourceLabel": "Owner PDF answer-matched Physics 1–250 · 25 Aug 2026",
+  "sourceType": "authorised",
+  "questionCount": 206,
+  "status": "imported",
+  "staged": 206,
+  "held": 44,
+  "heldByReason": {
+    "duplicate of active authorised record": 17,
+    "supplied key/answer text does not match PDF option": 1,
+    "wrapper variant repeats an earlier PDF concept and is not a new learner question": 26
+  },
+  "preservedProtectedFields": [
+    "questionText",
+    "optionsJson",
+    "answerIndex",
+    "topic",
+    "explanation",
+    "externalId"
+  ]
+}
