@@ -22,7 +22,7 @@ describe("instructional diagram question payload", () => {
     const fixture = readFileSync(resolve(import.meta.dirname, "../client/src/e2e/DiagramRenderingFixture.tsx"), "utf8");
     const main = readFileSync(resolve(import.meta.dirname, "../client/src/main.tsx"), "utf8");
     const card = readFileSync(resolve(import.meta.dirname, "../client/src/components/QuestionCard.tsx"), "utf8");
-    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "fermentation", "variation", "ovary", "beak", "vertebra", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
+    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "fermentation", "variation", "ovary", "embryo", "beak", "vertebra", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
     expect(fixture).toContain("owner-phy-diagram-2026-008-source-panel_acaa185f.png");
     expect(fixture).toContain("jamb-quest-potometer_0ff84706.svg");
     expect(fixture).toContain("chemistry-energy-profile-original_3e1f7670.png");

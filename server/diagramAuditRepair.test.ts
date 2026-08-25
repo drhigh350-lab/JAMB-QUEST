@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 99, bySubject: { Biology: 48, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 32, bySubject: { Biology: 29, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 32 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 100, bySubject: { Biology: 49, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 31, bySubject: { Biology: 28, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 31 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -193,6 +193,19 @@ describe("undersized diagram audit repair", () => {
     const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0649Diagram.mjs"), "utf8");
     expect(script).toContain('externalId: "biology_0649"');
     expect(script).toContain("biology-0649-myschool-original_0ce93479.jpg");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("releases biology_0667 only through a guarded byte-identical original mapping that preserves protected content", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0667Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0667"');
+    expect(script).toContain("biology-0649-myschool-original_0ce93479.jpg");
+    expect(script).toContain("byte-identical");
     expect(script).toContain("expectedCurrentDiagramUrl: null");
     expect(script).toContain("protectedFields.every");
     expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");

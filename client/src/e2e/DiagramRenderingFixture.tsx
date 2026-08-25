@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "ovary" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -117,6 +117,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Label III is the ovary, which produces egg cells.",
     diagram_url: "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
   },
+  embryo: {
+    id: "fixture-diagram-embryo-location",
+    subject: "Biology",
+    topic: "Reproduction",
+    subtopic: "Female reproductive system",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "byte-identical original", "embryo location"],
+    source: "Fixture — verified paired JAMB 2012 original reproductive system",
+    question: "Use the diagram above to answer this question. The developing embryo is usually contained in the part labelled",
+    options: ["IV", "III", "II", "I"],
+    answer_index: 2,
+    answer_text: "II",
+    explanation: "Label II is the uterus, where the developing embryo is contained.",
+    diagram_url: "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
+  },
   beak: {
     id: "fixture-diagram-source-beak",
     subject: "Biology",
@@ -222,6 +238,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   fermentation: "Repaired original fermentation apparatus",
   variation: "Repaired original continuous-variation graph",
   ovary: "Repaired original ovary-function diagram",
+  embryo: "Repaired paired embryo-location diagram",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",

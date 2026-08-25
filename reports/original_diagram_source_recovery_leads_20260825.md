@@ -206,4 +206,12 @@ The similarly worded SchoolNGR result `https://www.schoolngr.com/classroom/biolo
 
 Direct inspection confirms the 300 × 231 original retains the complete female reproductive-system geometry, all I–IV leaders, and neutral labels. It contains no watermark, answer letter, option text, correction, or source chrome. The original was uploaded unmodified and released through guarded mapping-only script `releaseRecoveredBiology0649Diagram.mjs` as `/manus-storage/biology-0649-myschool-original_0ce93479.jpg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 32 unresolved missing-original holds.
 
+## `biology_0667` — embryo location
+
+MySchool JAMB 2012 page `https://myschool.ng/classroom/biology/31171` exactly matches the protected prompt and `IV` / `III` / `II` / `I` option order. It identifies **II** as option C (index `2`), consistent with the active held record’s key and explanation. Its served figure is `https://myschool.ng/storage/classroom/25633622286_bio-2012%203.jpg`.
+
+Direct source inspection and SHA-256 comparison confirm this file is byte-identical to the clean, already verified JAMB 2012 reproductive-system original for `biology_0649` (`847cfe2697c384797a05e1d60e05dfabd2ccdded1e2f0b8ae1985748eb24299a`). It retains the full I–IV figure and has no answer-bearing or source-chrome material. The same uploaded original asset is eligible for a guarded mapping-only release; no protected record field has yet changed.
+
+The byte-identical original was released through guarded mapping-only script `releaseRecoveredBiology0667Diagram.mjs` as `/manus-storage/biology-0649-myschool-original_0ce93479.jpg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 31 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

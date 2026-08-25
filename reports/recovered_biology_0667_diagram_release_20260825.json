@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:37:39.401Z",
+  "scope": "Guarded mapping-only release of a byte-identical exact-source Biology reproductive-system figure. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0667",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
+    "questionText": "Use the diagram above to answer this question. The developing embryo is usually contained in the part labelled",
+    "optionsJson": "[\"IV\",\"III\",\"II\",\"I\"]",
+    "answerIndex": 2,
+    "topic": "Reproduction",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0667",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact paired MySchool JAMB 2012 original is byte-identical to the already inspected clean reproductive-system figure and contains no watermark, options, answer letters, correction text, or source chrome"
+  }
+}
