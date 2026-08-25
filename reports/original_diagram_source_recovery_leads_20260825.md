@@ -296,7 +296,7 @@ Direct inspection confirms the 400 × 139 original contains the complete bird-he
 
 MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31284` exactly matches the protected prompt and `gametogenesis` / `sporulation` / `sexual reproduction in Spirogyra` / `sexual reproduction in Rhizopus` option order. It identifies **sexual reproduction in Rhizopus** as option D (index `3`), which conflicts with the held record’s current index `2`/Spirogyra explanation. Its direct source figure is `https://myschool.ng/storage/classroom/25635133044_youi12.jpg`.
 
-Direct page inspection reconfirms that source-text residue crosses the staged sequence of Rhizopus hyphae and zygospore geometry. A source-only crop cannot remove it without cutting the tested stages. The record remains held and its source-proven key/explanation mismatch intentionally unchanged until a clean exact original is found; no mapping, topic, or other protected record field changed.
+Independent SchoolNGR JAMB 2007 page `https://www.schoolngr.com/classroom/biology/11089` confirms the same option order and option D/Rhizopus answer. Its direct 300 × 229 original `https://www.schoolngr.com/eattachments/b8670f8877104109cc19e344e4aa8cceaa1ee97c` has the same embedded scan/source residue across the hyphae and zygospore sequence. A source-only crop cannot remove it without cutting the tested stages. The record remains held and its source-proven key/explanation mismatch intentionally unchanged until a clean exact original is found; no mapping, topic, or other protected record field changed.
 
 ## `biology_0481` — labelled heart structure
 
