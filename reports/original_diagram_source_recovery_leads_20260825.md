@@ -306,6 +306,18 @@ Direct inspection confirms the 300 × 212 figure retains the heart anatomy and I
 
 MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/40373` exactly matches the protected prompt and `i` / `ii` / `iii` / `iv` option order. It identifies **i** as option A (index `0`), consistent with the active held record’s key and explanation. Its direct source figure is `https://myschool.ng/storage/classroom/10131908864_blinkg11.jpg`.
 
-Direct page inspection confirms label I identifies the tassel, but embedded source text crosses the maize plant and all label leaders. A source-only boundary crop cannot remove the residue without losing the male inflorescence/label geometry. `biology_0501` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+Direct page inspection confirms label I identifies the tassel, but embedded source text crosses the maize plant and all label leaders. Independent SchoolNGR JAMB 2008 page `https://www.schoolngr.com/classroom/biology/11321` matches the prompt, option order, and key, but its direct original `https://www.schoolngr.com/eattachments/0b9a6ed8128703773beae9575e325d7a3aaa6b91` is the same residue-bearing scan. A source-only boundary crop cannot remove the residue without losing the male inflorescence/label geometry. `biology_0501` remains held; no mapping, key, explanation, topic, or other protected record field changed.
 
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.
+
+## `kairo-csv-chemistry_1ea741` — missing organic structure
+
+The protected record traces to the authorised user-supplied `questions_rows(2).csv` intake (`Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2`). The source row retains only the generic stem “Choose the correct option from the structure above” and A/B/C/D option letters; it contains no diagram URL, structural formula, image attachment, source-page URL, or recoverable original-asset reference. No public source can be matched exactly from the preserved text. It remains held: creating or inferring an organic structure would be a semantic redraw and could expose or change the answer.
+
+## `kairo-csv-chemistry_bcfca8` — missing oxygen-evolution curve
+
+This protected record traces to the same authorised CSV-only intake. Although its options describe possible curve shapes, the source preserves no original graph, labels, scale, image attachment, source-page URL, or provenance sufficient to prove the intended figure. It remains held rather than showing a blank frame or a recreated curve; the existing answer and explanation are left unchanged.
+
+## `kairo-csv-chemistry_ea3781` — missing ideal-gas graph
+
+This protected record traces to `questions_rows(2).csv` Batch 2, which retains only the prompt and M/N/K/L options. It contains no original graph, axes, plotted curves, diagram attachment, source-page URL, or recoverable figure reference. The identity of the line labelled M cannot be verified without the source visual, so the record remains excluded from learner play and no answer, explanation, or mapping is altered.
