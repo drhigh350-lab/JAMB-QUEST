@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-25T17:35:57.894Z",
+  "scope": "Guarded source-proven repair of a held diagram-dependent Biology record. It changes only exact source-proven answer index, explanation, and original diagram mapping; stem, option order, topic, source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "biology_1225",
+    "questionText": "Use the diagram above to answer the question that follows. The structure labelled I is adapted for",
+    "topic": "Adaptations of organisms",
+    "sourceId": 22500002,
+    "expectedOptionsJson": "[\"tearing\",\"sieving\",\"boring\",\"sucking\"]",
+    "expectedAnswerIndex": 2,
+    "expectedDiagramUrl": null,
+    "replacementAnswerIndex": 3,
+    "replacementExplanation": "In the exact source figure, label I points to the long, narrow upper beak adapted for reaching into tubular flowers to suck nectar.",
+    "replacementDiagramUrl": "/manus-storage/biology-1225-myschool-original_353283bf.png"
+  },
+  "receipt": {
+    "externalId": "biology_1225",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact MySchool JAMB 2025 source provides the clean labelled beak original and identifies sucking as option D"
+  }
+}

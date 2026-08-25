@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 104, bySubject: { Biology: 53, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 27, bySubject: { Biology: 24, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 27 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 105, bySubject: { Biology: 54, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 26, bySubject: { Biology: 23, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 26 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -255,6 +255,19 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain('externalId: "biology_0749"');
     expect(script).toContain("biology-0749-schoolngr-original_64d08afe.png");
     expect(script).toContain("replacementAnswerIndex: 0");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
+  });
+
+  it("repairs biology_1225 only where the exact JAMB 2025 source provides a clean original and identifies sucking as option D", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology1225SourceBeakRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_1225"');
+    expect(script).toContain("biology-1225-myschool-original_353283bf.png");
+    expect(script).toContain("replacementAnswerIndex: 3");
     expect(script).toContain("immutableFields.every");
     expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
     expect(script).not.toContain("SET questionText");
