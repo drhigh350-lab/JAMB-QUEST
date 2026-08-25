@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-25T15:49:45.005Z",
+  "scope": "Guarded source-proven repair of a held diagram-dependent Biology record. It changes only exact public-source-proven answer index, explanation, and diagram mapping; stem, option order, topic, source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "biology_1020",
+    "questionText": "Use the diagram to answer the question. The vertebra illustrated is",
+    "topic": "Support and movement",
+    "sourceId": 22500002,
+    "expectedOptionsJson": "[\"Lumbar\",\"Thoracic\",\"Caudal\",\"Cervical\"]",
+    "expectedAnswerIndex": 3,
+    "expectedDiagramUrl": null,
+    "replacementAnswerIndex": 1,
+    "replacementExplanation": "The illustrated vertebra is thoracic. Its long neural spine and rib-articulating processes identify it as a thoracic vertebra.",
+    "replacementDiagramUrl": "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp"
+  },
+  "receipt": {
+    "externalId": "biology_1020",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact public-source vertebra diagram and both corroborating pages identify thoracic as option B"
+  }
+}

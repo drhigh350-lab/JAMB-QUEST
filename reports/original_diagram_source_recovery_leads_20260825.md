@@ -70,4 +70,44 @@ The cropped source panel retains the full original I–IV geometry and contains 
 
 The guarded release completed with learner asset `/manus-storage/biology-0405-schoolngr-source-panel_9fb86380.png`; the receipt verifies the protected stem, options, answer index, topic, explanation, and source relationship remained unchanged. The production eligibility audit now reports 37 unresolved missing-original holds.
 
+## `biology_0480` — dog monohybrid cross
+
+MySchool and SchoolNGR corroborate the held JAMB 2007 prompt and diagram-based dog labels. MySchool’s scan has extraneous source text; SchoolNGR exposes a cleaner candidate at `https://www.schoolngr.com/eattachments/a4700d0dd58e365b967c3b67495a538f008e3258`. The public option glyphs are rendered inconsistently (`I` versus `L`), so the protected database option values and answer index must be verified before any source-only diagram release; no content is assumed from the public rendering.
+
+The protected record has an exact-source mismatch: its options are corrupted as `ll`, `l`, `IV`, `lll`, its answer index points to `lll`, and its explanation says III. Both public sources and the original dog labels identify the non-grey dog **IV** as `gg`, so only an evidence-backed repair to options `II`, `I`, `IV`, `III`, answer index `2`, explanation, and a source-only figure can be considered. The candidate itself has faint scan-source residue at the far left, so it remains held pending a clean crop check.
+
+Direct inspection confirms the 300 × 235 SchoolNGR candidate contains the four original dogs and I–IV labels without a watermark, answer marker, or correction text. A deterministic crop is staged to remove only the far-left faint residue; no source geometry or labels are redrawn.
+
+The crop retains all four dogs and labels but still carries faint embedded source residue across the figure. Because that material cannot be conclusively separated from the source drawing without altering the visual, this candidate is **held**. No mapping, option, key, or explanation field was changed for `biology_0480`; a cleaner exact original remains required.
+
+## `biology_0523` — water reabsorption
+
+MySchool and SchoolNGR corroborate the held JAMB 2008 prompt and the same four organ-system panels. SchoolNGR exposes a candidate original at `https://www.schoolngr.com/eattachments/fd9ce63a516d147a919215593dfd066d45be5f1c`. The public option typography renders Roman numerals inconsistently, so its direct figure, the protected option order, and answer index must be verified before any release.
+
+Direct inspection confirms the 256 × 300 candidate contains all I–IV panels but also carries embedded source residue across the panel backgrounds. It cannot be cleanly source-cropped without potentially altering the tested original. `biology_0523` remains held; no mapping or protected-content field changed.
+
+## `biology_0536` — transpiration control
+
+MySchool and SchoolNGR corroborate the held JAMB 2009 leaf-section prompt and identify the source answer as IV. SchoolNGR exposes a candidate original at `https://www.schoolngr.com/eattachments/f73522ef8d0fbda1b339559b62ee720e6d6224a7`. Direct asset inspection and protected-record verification are required before any mapping or correction decision because the public Roman-numeral option rendering is inconsistent.
+
+Direct inspection confirms the 300 × 193 candidate retains I–IV labels and no answer marker, but faint embedded source residue runs through the leaf-section figure. It cannot be removed by an answer-neutral crop without risking source geometry. `biology_0536` remains held; no mapping or protected-content field changed.
+
+## `biology_0551` — emulsification of fats
+
+SchoolNGR exposes an exact JAMB 2009 digestive-system candidate at `https://www.schoolngr.com/eattachments/7e07763e2ccb9f62b58659db11cba6311cbe01a9`. Direct inspection confirms the I–IV labels remain visible and no answer marker is present, but faint embedded source residue crosses the original figure. It cannot be cleanly removed without modifying the tested drawing, so `biology_0551` remains held and no mapping or protected-content field changed.
+
+## `biology_1020` — vertebra identification
+
+MySchool exposes the exact JAMB 2020 vertebra source at `https://myschool.ng/classroom/biology/56792`, including the original I–IV drawing and source answer B (thoracic). The available figure contains embedded scan-source residue behind the vertebra. It is not released from this source; a cleaner exact original is required before the record can leave its diagram hold.
+
+An alternate exact-source page at `https://quizzerweb.com.ng/study/discuss/133393/2020-utme-biology-past-questions` exposes the same JAMB 2020 prompt, A–D option order, and source answer B, with candidate figure `https://quizzerweb.com.ng/images/quiz/62eb1d1943059.png`. This is a lead only pending direct image inspection for clean source-only recovery.
+
+Direct inspection confirms the 400 × 319 Quizzerweb candidate retains the complete I–IV vertebra drawing with no watermark, option text, answer marker, or explanatory correction inside the image. Unlike the MySchool scan, it has no visible embedded source residue crossing the tested figure. It is eligible for controlled source-only crop and protected-record verification.
+
+The protected `biology_1020` record has an exact-source mismatch: both MySchool and Quizzerweb show **thoracic** as option B (index `1`), while the active record currently selects cervical (index `3`) and contains a cervical explanation. The stem, option order, topic, source relationship, and approved status match. The verified alternate original can therefore be paired only with a guarded mapping, answer-index, and explanation correction.
+
+The guarded repair completed with alternate original learner asset `/manus-storage/biology-1020-quizzerweb-original_595264ba.webp`. It changed only the source-proven answer index, explanation, and diagram mapping; stem, option order, topic, source relationship, and approval status were verified unchanged. The production eligibility audit now reports 36 unresolved missing-original holds.
+
+At 390 × 844, the alternate original vertebra displays completely inside the actual `QuestionCard`; its I–IV drawing is legible and the corrected Thoracic option appears in the learner answer list. No answer-bearing text appears inside the figure.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

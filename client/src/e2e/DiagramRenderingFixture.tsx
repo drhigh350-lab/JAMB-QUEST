@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "beak" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -68,6 +68,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "sucking nectars",
     explanation: "The long, slender pointed beak is adapted for reaching into flowers to take nectar.",
     diagram_url: "/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png",
+  },
+  vertebra: {
+    id: "fixture-diagram-source-vertebra",
+    subject: "Biology",
+    topic: "Support and movement",
+    subtopic: "Vertebral column",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "alternate original", "vertebra"],
+    source: "Fixture — verified JAMB 2020 alternate original",
+    question: "Use the diagram to answer the question. The vertebra illustrated is",
+    options: ["Lumbar", "Thoracic", "Caudal", "Cervical"],
+    answer_index: 1,
+    answer_text: "Thoracic",
+    explanation: "The illustrated vertebra is thoracic. Its long neural spine and rib-articulating processes identify it as a thoracic vertebra.",
+    diagram_url: "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
   },
   broken: {
     id: "fixture-diagram-unavailable",
@@ -139,6 +155,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   source: "Original-only source crop",
   sourceGraph: "Original-only source graph",
   beak: "Repaired original beak figure",
+  vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

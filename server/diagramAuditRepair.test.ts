@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 94, bySubject: { Biology: 43, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 37, bySubject: { Biology: 34, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 37 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 95, bySubject: { Biology: 44, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 36, bySubject: { Biology: 33, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 36 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -138,5 +138,18 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("repairs biology_1020 only where exact public sources prove the thoracic key and clean original figure", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology1020SourceVertebraRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_1020"');
+    expect(script).toContain("biology-1020-quizzerweb-original_595264ba.webp");
+    expect(script).toContain("replacementAnswerIndex: 1");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
   });
 });
