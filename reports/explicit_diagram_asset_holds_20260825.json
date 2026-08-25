@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T16:37:47.147Z",
+  "generatedAt": "2026-08-25T16:45:51.791Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 31,
+  "totalHeld": 30,
   "bySubject": {
-    "Biology": 28,
+    "Biology": 27,
     "Chemistry": 3
   },
   "holds": [
@@ -283,20 +283,6 @@
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",
       "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1380066,
-      "externalId": "biology_0870",
-      "subject": "Biology",
-      "topic": "Coordination and control",
-      "questionText": "The graph above shows the results of a laboratory investigation which measured the body temperatures of a lizard and a bird under changing artificial conditions. Use it to answer the question. What physiological term can be used to describe the regulation of the body temperature of the lizard?",
-      "diagramUrl": null,
-      "sourceId": 22620001,
-      "sourceSlug": "authorised-1-1787414197417",
-      "sourceLabel": "Owner CSV questions_rows(3) · Official syllabus mapping release",
       "disposition": "hold_missing_original",
       "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
       "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."

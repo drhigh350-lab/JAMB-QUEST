@@ -214,4 +214,18 @@ Direct source inspection and SHA-256 comparison confirm this file is byte-identi
 
 The byte-identical original was released through guarded mapping-only script `releaseRecoveredBiology0667Diagram.mjs` as `/manus-storage/biology-0649-myschool-original_0ce93479.jpg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 31 unresolved missing-original holds.
 
+## `biology_0749` — Euglena photosynthetic structure
+
+MySchool JAMB 2014 page `https://myschool.ng/classroom/biology/31145` and SchoolNGR JAMB 2014 page `https://www.schoolngr.com/classroom/biology/12457` match the protected stem and `III` / `IV` / `I` / `II` option order. However, their answer evidence is internally inconsistent with third-party copies: MySchool marks option A/III, while a TestDriller result presents a different option ordering and selects the equivalent last-listed IV label. SchoolNGR’s served figure `https://www.schoolngr.com/eattachments/37204accf9f7936e0ec131f343d9019d5f35707a` is visibly incomplete in page rendering; MySchool did not retain a recoverable direct image URL after browser reset.
+
+The active record selects option D/II and describes label II as photosynthetic tissue, which cannot be reconciled yet with the source evidence or a complete clean exact original. `biology_0749` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0870` — lizard and bird thermoregulation graph
+
+MySchool JAMB 2018 page `https://myschool.ng/classroom/biology/47178` and independent SchoolNGR JAMB 2018 page `https://www.schoolngr.com/classroom/biology/13236` exactly match the protected prompt and `Homeostasis` / `Homoiothermy` / `Poikilothermy` / `Osmoregulation` option order. Both identify **Poikilothermy** as option C (index `2`), consistent with the active held record’s key and explanation. MySchool serves `https://myschool.ng/storage/classroom/wxjnjyVcFPQKsSN4RHxyjXWmiP5S6OgS2acGcCAn.jpeg`; SchoolNGR serves `https://www.schoolngr.com/eattachments/5b13367f22ae746ac0d9b59ff326167cba18bae5`.
+
+Both pages display a complete lizard/bird temperature graph separately from answer controls. The figure remains a **lead only** pending direct image inspection for readable axes and labels, absence of embedded answer-bearing material, and safe source-only boundaries. No mapping or protected record field changed.
+
+Direct inspection confirms the 400 × 319 original retains the complete body-temperature and environmental-temperature axes, lizard/bird lines, grid geometry, and neutral labels. The scan texture is confined to the original graph image and contains no watermark, answer letter, option text, correction, or source chrome. The unmodified original was released through guarded mapping-only script `releaseRecoveredBiology0870Diagram.mjs` as `/manus-storage/biology-0870-myschool-original_c780fc2d.jpeg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 30 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

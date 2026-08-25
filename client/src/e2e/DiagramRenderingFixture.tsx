@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -68,6 +68,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "homoiotherm",
     explanation: "Line I remains nearly constant as external temperature changes, which identifies a homoiotherm.",
     diagram_url: "/manus-storage/biology-0518-myschool-original_32575fb8.png",
+  },
+  lizardGraph: {
+    id: "fixture-diagram-lizard-thermoregulation-graph",
+    subject: "Biology",
+    topic: "Coordination and control",
+    subtopic: "Thermoregulation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "lizard temperature graph"],
+    source: "Fixture — verified JAMB 2018 original graph",
+    question: "The graph above shows the results of a laboratory investigation which measured the body temperatures of a lizard and a bird under changing artificial conditions. Use it to answer the question. What physiological term can be used to describe the regulation of the body temperature of the lizard?",
+    options: ["Homeostasis", "Homoiothermy", "Poikilothermy", "Osmoregulation"],
+    answer_index: 2,
+    answer_text: "Poikilothermy",
+    explanation: "The lizard's body temperature changes with environmental temperature, so it is poikilothermic.",
+    diagram_url: "/manus-storage/biology-0870-myschool-original_c780fc2d.jpeg",
   },
   fermentation: {
     id: "fixture-diagram-fermentation-apparatus",
@@ -235,6 +251,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   source: "Original-only source crop",
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
+  lizardGraph: "Repaired original lizard-and-bird graph",
   fermentation: "Repaired original fermentation apparatus",
   variation: "Repaired original continuous-variation graph",
   ovary: "Repaired original ovary-function diagram",

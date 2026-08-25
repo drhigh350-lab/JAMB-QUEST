@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T16:38:03.452Z",
+  "generatedAt": "2026-08-25T16:46:11.750Z",
   "scope": "Final source-preserving learner diagram reconciliation. Counts reflect the post-repair database reconciliation; all material with a required missing original visual remains excluded from the learner pool.",
   "learnerFacingLinkedMappings": {
-    "total": 100,
+    "total": 101,
     "bySubject": {
-      "Biology": 49,
+      "Biology": 50,
       "Chemistry": 26,
       "Physics": 25,
       "Use of English": 0
@@ -37,15 +37,14 @@
     ]
   },
   "missingOriginalVisualHolds": {
-    "total": 31,
+    "total": 30,
     "bySubject": {
-      "Biology": 28,
+      "Biology": 27,
       "Chemistry": 3
     },
     "learnerState": "excluded by the production eligibility guard; no generated replacement is used",
     "sourceSlugs": [
       "authorised-1-1787388348086",
-      "authorised-1-1787414197417",
       "authorised-1-1787388348602",
       "authorised-1-1786922522370",
       "authorised-1-1786922522930"
@@ -54,6 +53,6 @@
   "safetyBoundary": [
     "Mapping-only releases preserve question stem, options, answer index, topic, explanation, and source relationship; any source-proven content repair is guarded and separately receipted.",
     "No AI-generated or semantically reconstructed diagram was released.",
-    "The 42 reviewed screenshot mappings and the 31 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable."
+    "The 42 reviewed screenshot mappings and the 30 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable."
   ]
 }
