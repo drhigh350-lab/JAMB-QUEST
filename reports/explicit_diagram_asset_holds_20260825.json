@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T16:45:51.791Z",
+  "generatedAt": "2026-08-25T16:53:28.716Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 30,
+  "totalHeld": 29,
   "bySubject": {
-    "Biology": 27,
+    "Biology": 26,
     "Chemistry": 3
   },
   "holds": [
@@ -293,20 +293,6 @@
       "subject": "Biology",
       "topic": "Reproduction",
       "questionText": "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350482,
-      "externalId": "biology_0905",
-      "subject": "Biology",
-      "topic": "Transport",
-      "questionText": "Use the diagram shown to answer the question. The experiment above is used to demonstrate the process of",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",

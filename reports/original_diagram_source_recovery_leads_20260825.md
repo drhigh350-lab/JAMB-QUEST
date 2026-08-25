@@ -228,4 +228,18 @@ Both pages display a complete lizard/bird temperature graph separately from answ
 
 Direct inspection confirms the 400 × 319 original retains the complete body-temperature and environmental-temperature axes, lizard/bird lines, grid geometry, and neutral labels. The scan texture is confined to the original graph image and contains no watermark, answer letter, option text, correction, or source chrome. The unmodified original was released through guarded mapping-only script `releaseRecoveredBiology0870Diagram.mjs` as `/manus-storage/biology-0870-myschool-original_c780fc2d.jpeg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 30 unresolved missing-original holds.
 
+## `biology_0890` — frog amplexus posture
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/37165` exactly matches the protected prompt and `mating` / `amplexus` / `courtship display` / `reproductive swimming` option order. It identifies **amplexus** as option B (index `1`), consistent with the active held record’s key and explanation. Its direct source image is `https://myschool.ng/storage/classroom/27294061013_207-2.jpg`.
+
+Direct page inspection confirms the source panel contains the tested frog posture and I–III leaders, but embedded scan-source residue is visible through the background and overlaps the animals/leader geometry. A source-only boundary crop would not clear it without cutting the tested figure. `biology_0890` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0905` — thistle-funnel osmosis apparatus
+
+MySchool JAMB 2018 page `https://myschool.ng/classroom/biology/47167` and SchoolNGR JAMB 2018 page `https://www.schoolngr.com/classroom/biology/13194` exactly match the protected prompt and `transportation` / `water culture` / `diffusion` / `osmosis` option order. Both identify **osmosis** as option D (index `3`), consistent with the active held record’s key and explanation. SchoolNGR serves the direct candidate `https://www.schoolngr.com/eattachments/65bfd86690c3c1b928a36e3d20a5cbcb49fb2eab`.
+
+The independent page displays a complete neutral thistle-funnel apparatus with its thistle funnel, distilled water, sugar solution, and membrane labels separately from answer controls. It remains a **lead only** pending direct image inspection for source-only boundaries and embedded residue. No mapping or protected record field changed.
+
+Direct inspection confirms the 400 × 274 original retains complete apparatus geometry and neutral thistle funnel, clamp, distilled water, sugar solution, and membrane labels. It contains no watermark, option text, answer letter, correction text, or source chrome. The unmodified original was released through guarded mapping-only script `releaseRecoveredBiology0905Diagram.mjs` as `/manus-storage/biology-0905-schoolngr-original_705e2a37.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 29 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

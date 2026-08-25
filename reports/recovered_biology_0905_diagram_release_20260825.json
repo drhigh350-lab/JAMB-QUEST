@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:53:20.673Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology osmosis apparatus. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0905",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0905-schoolngr-original_705e2a37.png",
+    "questionText": "Use the diagram shown to answer the question. The experiment above is used to demonstrate the process of",
+    "optionsJson": "[\"transportation\",\"water culture\",\"diffusion\",\"osmosis\"]",
+    "answerIndex": 3,
+    "topic": "Transport",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0905",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR original thistle-funnel apparatus verified separately from the source answer and free of watermark, options, answer letters, correction text, and source chrome"
+  }
+}

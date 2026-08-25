@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -84,6 +84,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "Poikilothermy",
     explanation: "The lizard's body temperature changes with environmental temperature, so it is poikilothermic.",
     diagram_url: "/manus-storage/biology-0870-myschool-original_c780fc2d.jpeg",
+  },
+  osmosis: {
+    id: "fixture-diagram-thistle-funnel-osmosis",
+    subject: "Biology",
+    topic: "Transport",
+    subtopic: "Osmosis",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "thistle funnel osmosis"],
+    source: "Fixture — verified JAMB 2018 original apparatus",
+    question: "Use the diagram shown to answer the question. The experiment above is used to demonstrate the process of",
+    options: ["transportation", "water culture", "diffusion", "osmosis"],
+    answer_index: 3,
+    answer_text: "osmosis",
+    explanation: "The thistle-funnel apparatus demonstrates water movement through a selectively permeable membrane by osmosis.",
+    diagram_url: "/manus-storage/biology-0905-schoolngr-original_705e2a37.png",
   },
   fermentation: {
     id: "fixture-diagram-fermentation-apparatus",
@@ -252,6 +268,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
   lizardGraph: "Repaired original lizard-and-bird graph",
+  osmosis: "Repaired original thistle-funnel apparatus",
   fermentation: "Repaired original fermentation apparatus",
   variation: "Repaired original continuous-variation graph",
   ovary: "Repaired original ovary-function diagram",
