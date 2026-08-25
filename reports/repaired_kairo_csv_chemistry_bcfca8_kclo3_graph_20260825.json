@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-25T17:52:57.049Z",
+  "scope": "Guarded source-proven repair of a held Chemistry graph record. It changes only the exact-source-proven question text, options, answer index, explanation, and clean original diagram mapping; topic, authorised source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "kairo-csv-chemistry_bcfca8",
+    "topic": "Rates of reaction",
+    "sourceId": 12330001,
+    "expectedQuestionText": "In a rate of reaction diagram, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
+    "expectedOptionsJson": "[\"Curve starting at origin and plateauing at the top\",\"Curve starting high and sloping down to plateau near zero\",\"A straight diagonal line passing through the origin\",\"A horizontal line parallel to the time axis\"]",
+    "expectedAnswerIndex": 0,
+    "expectedExplanation": "Even without seeing the specific image, understand the principle of a product curve. Oxygen is a product. At time zero, no reaction has happened, so the volume of oxygen is 0 (it starts at the origin). As the reaction proceeds quickly, the curve rises steeply. As the reactant (KClO3) gets used up, the rate slows down, causing the curve to level off and eventually become a flat plateau when the reaction stops.",
+    "expectedDiagramUrl": null,
+    "replacementQuestionText": "In the diagram above, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
+    "replacementOptionsJson": "[\"X\",\"Y\",\"Z\",\"R\"]",
+    "replacementAnswerIndex": 3,
+    "replacementExplanation": "Curve R begins at the origin, rises as oxygen is evolved, and levels off as potassium chlorate is used up.",
+    "replacementDiagramUrl": "/manus-storage/chemistry-kclo3-schoolngr-original_4374f259.png"
+  },
+  "receipt": {
+    "externalId": "kairo-csv-chemistry_bcfca8",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR JAMB 2009 source provides the clean X/Y/Z/R graph and keys R as option D; MySchool independently matches the prompt, option order, and key but its watermarked visual was not used"
+  }
+}

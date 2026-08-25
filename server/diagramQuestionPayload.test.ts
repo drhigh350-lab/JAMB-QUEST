@@ -22,7 +22,7 @@ describe("instructional diagram question payload", () => {
     const fixture = readFileSync(resolve(import.meta.dirname, "../client/src/e2e/DiagramRenderingFixture.tsx"), "utf8");
     const main = readFileSync(resolve(import.meta.dirname, "../client/src/main.tsx"), "utf8");
     const card = readFileSync(resolve(import.meta.dirname, "../client/src/components/QuestionCard.tsx"), "utf8");
-    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "lizardGraph", "osmosis", "fermentation", "variation", "ovary", "embryo", "beak", "vertebra", "digestive0413", "euglena0749", "beak1225", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
+    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "lizardGraph", "osmosis", "fermentation", "variation", "ovary", "embryo", "beak", "vertebra", "digestive0413", "euglena0749", "beak1225", "kclo3Oxygen", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
     expect(fixture).toContain("owner-phy-diagram-2026-008-source-panel_acaa185f.png");
     expect(fixture).toContain("jamb-quest-potometer_0ff84706.svg");
     expect(fixture).toContain("chemistry-energy-profile-original_3e1f7670.png");
@@ -39,6 +39,7 @@ describe("instructional diagram question payload", () => {
     expect(fixture).toContain("biology-0413-schoolngr-source-only-v2_75d0867c.png");
     expect(fixture).toContain("biology-0749-schoolngr-original_64d08afe.png");
     expect(fixture).toContain("biology-1225-myschool-original_353283bf.png");
+    expect(fixture).toContain("chemistry-kclo3-schoolngr-original_4374f259.png");
     expect(card).toContain("onError={() => setDiagramFailed(true)}");
     expect(card).toContain("Diagram unavailable.");
     expect(main).toContain("e2eDiagramFixture");

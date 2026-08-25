@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T17:36:08.324Z",
+  "generatedAt": "2026-08-25T17:53:04.247Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 26,
+  "totalHeld": 25,
   "bySubject": {
     "Biology": 23,
-    "Chemistry": 3
+    "Chemistry": 2
   },
   "holds": [
     {
@@ -335,20 +335,6 @@
       "subject": "Chemistry",
       "topic": "Organic compounds",
       "questionText": "Choose the correct option from the structure above",
-      "diagramUrl": null,
-      "sourceId": 12330001,
-      "sourceSlug": "authorised-1-1786922522370",
-      "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1050438,
-      "externalId": "kairo-csv-chemistry_bcfca8",
-      "subject": "Chemistry",
-      "topic": "Rates of reaction",
-      "questionText": "In a rate of reaction diagram, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
       "diagramUrl": null,
       "sourceId": 12330001,
       "sourceSlug": "authorised-1-1786922522370",

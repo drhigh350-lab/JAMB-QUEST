@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 105, bySubject: { Biology: 54, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 26, bySubject: { Biology: 23, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 26 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 106, bySubject: { Biology: 54, Chemistry: 27, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 25, bySubject: { Biology: 23, Chemistry: 2 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 25 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -272,6 +272,18 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
+  });
+
+  it("repairs the Kairo oxygen-evolution record only where exact JAMB 2009 sources provide a clean X/Y/Z/R graph and source-proven content", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairChemistryKclo3OxygenGraphRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "kairo-csv-chemistry_bcfca8"');
+    expect(script).toContain("chemistry-kclo3-schoolngr-original_4374f259.png");
+    expect(script).toContain('replacementOptionsJson: \'["X","Y","Z","R"]\'');
+    expect(script).toContain("replacementAnswerIndex: 3");
+    expect(script).toContain("SET questionText = ?, optionsJson = ?, answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
     expect(script).not.toContain("SET topic");
     expect(script).not.toContain("SET sourceId");
   });

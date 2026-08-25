@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -245,6 +245,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "In the exact source figure, label I points to the long, narrow upper beak adapted for reaching into tubular flowers to suck nectar.",
     diagram_url: "/manus-storage/biology-1225-myschool-original_353283bf.png",
   },
+  kclo3Oxygen: {
+    id: "fixture-diagram-jamb-2009-kclo3-oxygen-graph",
+    subject: "Chemistry",
+    topic: "Rates of reaction",
+    subtopic: "Reaction progress curves",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "oxygen evolution", "JAMB 2009"],
+    source: "Fixture — verified JAMB 2009 original",
+    question: "In the diagram above, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
+    options: ["X", "Y", "Z", "R"],
+    answer_index: 3,
+    answer_text: "R",
+    explanation: "Curve R begins at the origin, rises as oxygen is evolved, and levels off as potassium chlorate is used up.",
+    diagram_url: "/manus-storage/chemistry-kclo3-schoolngr-original_4374f259.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -326,6 +342,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   digestive0413: "Repaired exact JAMB 2005 digestive-system figure",
   euglena0749: "Repaired exact JAMB 2014 Euglena figure",
   beak1225: "Repaired exact JAMB 2025 bird-beak figure",
+  kclo3Oxygen: "Repaired exact JAMB 2009 oxygen-evolution graph",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",
