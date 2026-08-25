@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-25T18:01:36.603Z",
+  "scope": "Guarded source-proven repair of a held Chemistry graph record. It changes only the corroborated answer index, explanation, and clean original diagram mapping; stem, option order, topic, authorised source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "kairo-csv-chemistry_ea3781",
+    "questionText": "From the diagram above, an ideal gas can be represented by:",
+    "topic": "Kinetic theory of matter and gases",
+    "sourceId": 12330002,
+    "expectedOptionsJson": "[\"M.\",\"N.\",\"K.\",\"L.\"]",
+    "expectedAnswerIndex": 0,
+    "expectedExplanation": "Although the specific diagram is hidden, UTME typically tests this concept using a graph of PV/RT against pressure. For an ideal gas, PV/RT always equals 1, regardless of the pressure. This creates a perfectly horizontal, straight line (often labeled M). Real gases deviate and curve up or down. Whenever you see this graph, the straight flat line represents the theoretical 'ideal' behavior.",
+    "expectedDiagramUrl": null,
+    "replacementAnswerIndex": 1,
+    "replacementExplanation": "In the exact source graph, N is the horizontal line, so its PV value remains unchanged as pressure varies. It represents ideal gas behaviour.",
+    "replacementDiagramUrl": "/manus-storage/chemistry-ideal-gas-schoolngr-original_002271ae.png"
+  },
+  "receipt": {
+    "externalId": "kairo-csv-chemistry_ea3781",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR JAMB 2011 source provides the clean M/N/K/L graph and keys N as option B; MySchool independently matches that prompt, option order, and answer but its watermarked visual was not used"
+  }
+}

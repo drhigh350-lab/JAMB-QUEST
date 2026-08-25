@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -261,6 +261,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Curve R begins at the origin, rises as oxygen is evolved, and levels off as potassium chlorate is used up.",
     diagram_url: "/manus-storage/chemistry-kclo3-schoolngr-original_4374f259.png",
   },
+  idealGas: {
+    id: "fixture-diagram-jamb-2011-ideal-gas-graph",
+    subject: "Chemistry",
+    topic: "Kinetic theory of matter and gases",
+    subtopic: "Ideal and real gases",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "ideal gas", "JAMB 2011"],
+    source: "Fixture — verified JAMB 2011 original",
+    question: "From the diagram above, an ideal gas can be represented by:",
+    options: ["M.", "N.", "K.", "L."],
+    answer_index: 1,
+    answer_text: "N.",
+    explanation: "In the exact source graph, N is the horizontal line, so its PV value remains unchanged as pressure varies. It represents ideal gas behaviour.",
+    diagram_url: "/manus-storage/chemistry-ideal-gas-schoolngr-original_002271ae.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -343,6 +359,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   euglena0749: "Repaired exact JAMB 2014 Euglena figure",
   beak1225: "Repaired exact JAMB 2025 bird-beak figure",
   kclo3Oxygen: "Repaired exact JAMB 2009 oxygen-evolution graph",
+  idealGas: "Repaired exact JAMB 2011 ideal-gas graph",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",
