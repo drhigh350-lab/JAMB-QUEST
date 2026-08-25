@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -52,6 +52,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "24 °C",
     explanation: "The 24 °C curve reaches the highest number of cockroaches in the graph.",
     diagram_url: "/manus-storage/biology-0396-schoolngr-source-panel_658f04ef.png",
+  },
+  thermoregulation: {
+    id: "fixture-diagram-thermoregulation-graph",
+    subject: "Biology",
+    topic: "Support and movement",
+    subtopic: "Temperature regulation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "thermoregulation graph"],
+    source: "Fixture — verified JAMB 2008 original graph",
+    question: "Use the diagram above to answer this question. The animal represented by I is a",
+    options: ["poikilotherm", "homoiotherm", "carnivore", "herbivore"],
+    answer_index: 1,
+    answer_text: "homoiotherm",
+    explanation: "Line I remains nearly constant as external temperature changes, which identifies a homoiotherm.",
+    diagram_url: "/manus-storage/biology-0518-myschool-original_32575fb8.png",
   },
   beak: {
     id: "fixture-diagram-source-beak",
@@ -154,6 +170,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   svg: "Browser-delivered SVG",
   source: "Original-only source crop",
   sourceGraph: "Original-only source graph",
+  thermoregulation: "Repaired original thermoregulation graph",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",

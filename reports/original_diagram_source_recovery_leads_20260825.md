@@ -110,4 +110,36 @@ The guarded repair completed with alternate original learner asset `/manus-stora
 
 At 390 × 844, the alternate original vertebra displays completely inside the actual `QuestionCard`; its I–IV drawing is legible and the corrected Thoracic option appears in the learner answer list. No answer-bearing text appears inside the figure.
 
+## `biology_0505` — chitinous exoskeleton
+
+MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/31249` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11269` exactly match the protected stem, present the same I–IV organism panel, and show the same `I` / `II` / `III` / `IV` option order. Both sources identify I as the chitinous-exoskeleton organism. The MySchool figure is `https://myschool.ng/storage/classroom/9969187256_youipic6.jpg`; it visibly has faint embedded scan/source residue in the organism panels and is not yet suitable for learner release.
+
+SchoolNGR independently exposes `https://www.schoolngr.com/eattachments/f6eed4a19bd523d6714f420c938a351aeb9d9c5a`, a source figure kept separate from answer controls. It has matching organism geometry and is the preferred clean-source candidate, but remains a **lead only** until direct asset inspection confirms complete labels, crop boundaries, and no embedded answer-bearing material. No mapping or protected record field has changed.
+
+Direct inspection confirms the SchoolNGR candidate is 290 × 300 and contains the complete original I–IV organisms panel: arthropod, fish, bird, and hydra. It has no answer letter, option text, or correction inside the visual. However, faint embedded scan/source residue is present across the lower organism panels, not solely outside the crop boundary. It cannot be removed through answer-neutral cropping without risking source geometry. `biology_0505` therefore remains held; no mapping, key, explanation, or other protected record field changed.
+
+## `biology_0483` — fungal zygospore
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31286` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11093` exactly match the protected stem and option order: `sporangium`, `hypha`, `zygospore`, `conidiospore`. Both sources identify the labelled structure as **zygospore** (option index `2`), which confirms the active record’s existing key and explanation are source-consistent. MySchool exposes `https://myschool.ng/storage/classroom/7120870920_youi12.jpg`; SchoolNGR exposes `https://www.schoolngr.com/eattachments/d80216b6c7469abce05c36e2b2d5cb81c3ee0b42`.
+
+Direct inspection confirms the 300 × 229 independent figure contains the original fungal fusion/zygospore geometry and the `Gametangia` label, without any answer letter, option text, or correction within the image. However, embedded scan-source residue runs through the figure background and beneath the lower labelled structure. It is not removable with a source-only boundary crop without altering or obscuring tested geometry. `biology_0483` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0470` — sexual reproduction in *Rhizopus*
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31284` exactly matches the protected prompt and option order: `gametogenesis`, `sporulation`, `sexual reproduction in Spirogyra`, `sexual reproduction in Rhizopus`. Its original figure is `https://myschool.ng/storage/classroom/25635133044_youi12.jpg`. The source identifies **sexual reproduction in Rhizopus** as option D (index `3`), whereas the active held record currently selects option C (index `2`) and describes *Spirogyra*. This is an evidence-backed key/explanation mismatch.
+
+The visual is the same fungal fusion/zygospore process as the independently inspected SchoolNGR candidate for `biology_0483`, retaining embedded scan-source residue through the figure background. It cannot be released by source-only cropping. `biology_0470` remains held and its source-proven key/explanation correction is deliberately not applied without an eligible original figure; no learner mapping or protected record field changed.
+
+## `biology_0502` — Hydra budding
+
+MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/31250` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11273` exactly match the protected prompt and `sexual` / `conjugation` / `binary fission` / `budding` option order. SchoolNGR identifies the source answer as **budding** (option index `3`), consistent with the active held record. Its separate candidate figure is `https://www.schoolngr.com/eattachments/148eff9a52954c505e7b3a561f03a8b8fa4a9e03`.
+
+The independent page renders the exact shared I–IV organism panel—arthropod, fish, bird, and Hydra—already inspected for `biology_0505`. This asset visibly carries embedded scan/source residue through the lower panels, including the Hydra area, rather than only at detachable outer boundaries. It cannot be cleanly source-cropped without risking original tested geometry. `biology_0502` remains held; its mapping, key, explanation, topic, and other protected record fields are unchanged.
+
+## `biology_0518` — thermoregulation graph
+
+MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/31265` exactly matches the protected stem and `poikilotherm` / `homoiotherm` / `carnivore` / `herbivore` option order. The source marks **homoiotherm** as option B (index `1`), matching the existing active answer and explanation. Its direct original figure is `https://myschool.ng/storage/classroom/OY9Es6BWw7dwg3VYFTj6kc6R07A9Udu6FFLnii8E.png`.
+
+Direct inspection confirms the 329 × 157 original contains the complete body-temperature versus external-temperature graph, I/II line labels, both axes, and readable temperature scales. It has no watermark, answer letter, option text, correction, or source chrome. The unmodified original asset was uploaded and released through guarded mapping-only script `releaseRecoveredBiology0518Diagram.mjs` as `/manus-storage/biology-0518-myschool-original_32575fb8.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 35 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

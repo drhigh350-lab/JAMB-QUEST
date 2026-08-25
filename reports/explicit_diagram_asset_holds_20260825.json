@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T15:49:55.716Z",
+  "generatedAt": "2026-08-25T16:04:35.454Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 36,
+  "totalHeld": 35,
   "bySubject": {
-    "Biology": 33,
+    "Biology": 32,
     "Chemistry": 3
   },
   "holds": [
@@ -111,20 +111,6 @@
       "subject": "Biology",
       "topic": "Theories of evolution",
       "questionText": "Use the diagram above to answer this question. Which of the organisms is characterised by the possession of a chitinous exoskeleton?",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350216,
-      "externalId": "biology_0518",
-      "subject": "Biology",
-      "topic": "Support and movement",
-      "questionText": "Use the diagram above to answer this question. The animal represented by I is a",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",

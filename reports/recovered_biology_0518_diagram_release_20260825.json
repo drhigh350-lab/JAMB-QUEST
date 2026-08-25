@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:04:22.461Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology graph. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0518",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0518-myschool-original_32575fb8.png",
+    "questionText": "Use the diagram above to answer this question. The animal represented by I is a",
+    "optionsJson": "[\"poikilotherm\",\"homoiotherm\",\"carnivore\",\"herbivore\"]",
+    "answerIndex": 1,
+    "topic": "Support and movement",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0518",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact MySchool original thermoregulation graph verified separately from the source answer and free of watermark, answer text, and source chrome"
+  }
+}
