@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "variation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -84,6 +84,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "carbon (IV) oxide",
     explanation: "Yeast breaks down the sucrose anaerobically, producing carbon(IV) oxide that passes into the lime water.",
     diagram_url: "/manus-storage/biology-0600-schoolngr-original_413d60ab.png",
+  },
+  variation: {
+    id: "fixture-diagram-continuous-variation-graph",
+    subject: "Biology",
+    topic: "Population ecology",
+    subtopic: "Variation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "continuous variation graph"],
+    source: "Fixture — verified JAMB 2012 original graph",
+    question: "Use the diagram above to answer this question. The graph illustrates",
+    options: ["the highest frequency for height of 2 metres", "a discontinuously varying character", "a continuously varying character", "total yield in a cassava farm"],
+    answer_index: 2,
+    answer_text: "a continuously varying character",
+    explanation: "The smooth distribution across a range of heights is characteristic of continuous variation.",
+    diagram_url: "/manus-storage/biology-0645-myschool-original_3340a9ed.jpg",
   },
   beak: {
     id: "fixture-diagram-source-beak",
@@ -188,6 +204,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
   fermentation: "Repaired original fermentation apparatus",
+  variation: "Repaired original continuous-variation graph",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",

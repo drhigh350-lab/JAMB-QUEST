@@ -156,4 +156,46 @@ The SchoolNGR page keeps the figure separate from answer controls and appears to
 
 Direct inspection confirms the 300 × 134 original contains the complete apparatus, both tripod stands, connecting tube, lime-water vessel, and neutral labels (`Lime water`, `10% sucrose and yeast`, and `Tripod stand`). It contains no answer letter, option, correction, watermark, or source chrome. The original was uploaded unmodified and released through guarded mapping-only script `releaseRecoveredBiology0600Diagram.mjs` as `/manus-storage/biology-0600-schoolngr-original_413d60ab.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 34 unresolved missing-original holds.
 
+## `biology_0552` — stomach content
+
+MySchool JAMB 2009 page `https://myschool.ng/classroom/biology/31225` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11449` exactly match the protected prompt and `neutral` / `alkaline` / `acidic` / `saline` option order. Both sources identify the content of label III (the stomach) as **acidic** (option index `2`). The active held record instead selects alkaline (index `1`) and describes the small intestine, so it has an evidence-backed answer-key and explanation mismatch.
+
+SchoolNGR exposes the corresponding original panel at `https://www.schoolngr.com/eattachments/497f886155922610cba2692fb734fb445c438ea3`, separate from the source answers. Direct page inspection confirms the figure contains the labelled I–IV digestive-system geometry and no answer option or correction. It also shows faint embedded scan-source residue at the outer figure boundaries; the record remains held until direct crop-boundary inspection establishes whether a complete original-only panel can be safely retained. No mapping or protected record field changed.
+
+Direct inspection confirms the 300 × 158 candidate retains the complete original stomach, liver, oesophagus, duodenum, and I–IV labels. It has no answer letter, option text, or correction inside the visual. However, embedded source residue is visibly present through the left liver panel and below the duodenum/IV leader line. It cannot be removed with an answer-neutral boundary crop without cutting the original tested anatomy or labels. `biology_0552` remains held; its source-proven key/explanation correction is deliberately not applied without an eligible original figure. No mapping or protected record field changed.
+
+## `biology_0562` — photosynthesis arrow II
+
+MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31198` exactly matches the protected prompt and active option order, and identifies **release of oxygen as a by-product** as option D (index `3`), consistent with the active held record. Quizzerweb independently corroborates the exact prompt and oxygen outcome, although its alternative option order places that result at C; it does not make the protected active option order invalid.
+
+The MySchool visual at `https://myschool.ng/storage/classroom/17089204980_w4.jpg` has embedded scan-source residue throughout the plant/arrow figure. Quizzerweb exposes only a broken/unavailable image placeholder for its candidate. Without a complete clean exact original, `biology_0562` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0569` — raptor feeding adaptation
+
+MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31200` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11674` exactly match the protected prompt and `flesh` / `fruits` / `seeds` / `nectar` option order. Both sources identify **flesh** as option A (index `0`), based on the hooked beak and grasping talons. The active held record instead selects seeds (index `2`) and describes seed-cracking, so it has an evidence-backed answer-key and explanation mismatch.
+
+SchoolNGR exposes the matching original bird panel at `https://www.schoolngr.com/eattachments/ecee2876f60c792cafff33fa07154805e61c6c36`. Both source images retain embedded scan/source residue through the bird background and lower feet/talons. It cannot be cleanly removed with an answer-neutral crop without risking the exact tested anatomy. `biology_0569` remains held; its source-proven key/explanation correction is deliberately not applied without an eligible original figure. No mapping or protected record field changed.
+
+## `biology_0574` — aquatic-dependence ordering
+
+MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31201` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11678` exactly match the protected prompt and Roman-numeral option order. Both sources mark **IV, III, II and I** as option B (index `1`), consistent with the active held record’s key and explanation. MySchool exposes a complete four-animal candidate at `https://myschool.ng/storage/classroom/27057938931_w2.jpg`; SchoolNGR exposes `https://www.schoolngr.com/eattachments/82ed2f034c40b86109c26ddd55f6dc02fd533737`.
+
+The MySchool panel appears complete at page level, while the independent SchoolNGR visual is visibly incomplete in its rendered delivery. The MySchool candidate remains a **lead only** until direct figure inspection confirms full I–IV animals, safe crop boundaries, and no embedded source residue. No mapping or protected record field changed.
+
+Direct inspection confirms the 300 × 171 MySchool candidate retains all four original animal panels and I–IV labels, with no answer letter, option text, or correction inside the figure. However, embedded scan-source residue crosses the upper boundary and outer left edge of the original panel. It cannot be removed through an answer-neutral crop without cutting the tested animal-panel border. `biology_0574` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0583` — plantation height distribution
+
+MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31192` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11655` exactly match the protected prompt and `III` / `II` / `I` / `IV` option order. Both sources identify **III** as option A (index `0`), while the active held record currently selects I (index `2`) and describes plantation I. This is an evidence-backed answer-key and explanation mismatch.
+
+MySchool exposes `https://myschool.ng/storage/classroom/22785557328_scan work1.jpg`; SchoolNGR exposes `https://www.schoolngr.com/eattachments/b1e3647ca05fb3fc6d5a3b4e962d4481c1292354`. Both displayed candidates retain the same original II/III/IV graph but have embedded scan-source residue across the graph field and outside text geometry. It cannot be cleared with a safe boundary crop without risking the plotted curves or axes. `biology_0583` remains held; its source-proven key/explanation correction is deliberately not applied without an eligible original figure. No mapping or protected record field changed.
+
+## `biology_0645` — continuous variation graph
+
+MySchool JAMB 2012 page `https://myschool.ng/classroom/biology/31174` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/12070` exactly match the protected prompt and option order. Both sources identify **a continuously varying character** as option C (index `2`), consistent with the active held record’s key and explanation. MySchool exposes `https://myschool.ng/storage/classroom/24209542886_Scan3%202012%204.jpg`; SchoolNGR exposes `https://www.schoolngr.com/eattachments/ce69abed4138a51f9a3b1943fa6cf7ff942f2dd1`.
+
+Both pages show the complete source graph with the frequency axis, height-of-cassava scale, and a bell curve, separately from option controls. The source figure appears candidate-ready, but remains a **lead only** until direct image inspection confirms full label readability, safe boundaries, and no embedded answer-bearing or source-residue material. No mapping or protected record field changed.
+
+Direct inspection confirms the 300 × 163 original retains the complete frequency axis, 20–160 scale, 1.0–2.0 cassava-height scale, and neutral bell curve. It contains no watermark, answer letter, option text, correction, or source chrome. The original was uploaded unmodified and released through guarded mapping-only script `releaseRecoveredBiology0645Diagram.mjs` as `/manus-storage/biology-0645-myschool-original_3340a9ed.jpg`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 33 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

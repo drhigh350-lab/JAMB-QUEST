@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:26:35.790Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology graph. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0645",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0645-myschool-original_3340a9ed.jpg",
+    "questionText": "Use the diagram above to answer this question. The graph illustrates",
+    "optionsJson": "[\"the highest frequency for height of 2 metres\",\"a discontinuously varying character\",\"a continuously varying character\",\"total yield in a cassava farm\"]",
+    "answerIndex": 2,
+    "topic": "Population ecology",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0645",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact MySchool original continuous-variation graph verified separately from the source answer and free of watermark, options, answer letters, correction text, and source chrome"
+  }
+}
