@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "fermentation" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -68,6 +68,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "homoiotherm",
     explanation: "Line I remains nearly constant as external temperature changes, which identifies a homoiotherm.",
     diagram_url: "/manus-storage/biology-0518-myschool-original_32575fb8.png",
+  },
+  fermentation: {
+    id: "fixture-diagram-fermentation-apparatus",
+    subject: "Biology",
+    topic: "Respiration",
+    subtopic: "Anaerobic respiration",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "fermentation apparatus"],
+    source: "Fixture — verified JAMB 2011 original apparatus",
+    question: "Use the diagram above to answer this question. The gas evolved in the process is",
+    options: ["carbon (IV) oxide", "nitrogen", "oxygen", "carbon (II) oxide"],
+    answer_index: 0,
+    answer_text: "carbon (IV) oxide",
+    explanation: "Yeast breaks down the sucrose anaerobically, producing carbon(IV) oxide that passes into the lime water.",
+    diagram_url: "/manus-storage/biology-0600-schoolngr-original_413d60ab.png",
   },
   beak: {
     id: "fixture-diagram-source-beak",
@@ -171,6 +187,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   source: "Original-only source crop",
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
+  fermentation: "Repaired original fermentation apparatus",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   broken: "Intentional unavailable-diagram fallback",

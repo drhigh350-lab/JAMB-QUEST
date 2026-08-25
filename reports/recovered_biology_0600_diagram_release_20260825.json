@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T16:14:34.480Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology apparatus. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0600",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0600-schoolngr-original_413d60ab.png",
+    "questionText": "Use the diagram above to answer this question. The gas evolved in the process is",
+    "optionsJson": "[\"carbon (IV) oxide\",\"nitrogen\",\"oxygen\",\"carbon (II) oxide\"]",
+    "answerIndex": 0,
+    "topic": "Respiration",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0600",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR original fermentation apparatus verified separately from the source answer and free of watermark, options, answer letters, correction text, and source chrome"
+  }
+}

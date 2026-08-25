@@ -142,4 +142,18 @@ MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/31265` exactly ma
 
 Direct inspection confirms the 329 × 157 original contains the complete body-temperature versus external-temperature graph, I/II line labels, both axes, and readable temperature scales. It has no watermark, answer letter, option text, correction, or source chrome. The unmodified original asset was uploaded and released through guarded mapping-only script `releaseRecoveredBiology0518Diagram.mjs` as `/manus-storage/biology-0518-myschool-original_32575fb8.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 35 unresolved missing-original holds.
 
+## `biology_0527` — thermoregulation deduction graph
+
+MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/31264` exactly matches the protected prompt and all four deduction options. It identifies “the body temperature in I is independent of external temperature” as option B (index `1`), consistent with the active held record. Its direct figure is `https://myschool.ng/storage/classroom/KJKMLllOmzAyRkWsffpmHeo2d7rTRAHvfbMtV64p.jpeg`.
+
+Direct inspection confirms the 400 × 195 original contains I/II temperature lines and both graph axes without an answer letter, options, or correction. However, clipped embedded source residue (“40 and 47”) overlaps the graph’s upper edge beside the vertical arrow. Removing it through a source-only crop would cut the tested axis/arrow geometry. `biology_0527` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_0600` — fermentation apparatus
+
+MySchool JAMB 2011 page `https://myschool.ng/classroom/biology/31189` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11874` exactly match the protected prompt and `carbon (IV) oxide` / `nitrogen` / `oxygen` / `carbon (II) oxide` option order. SchoolNGR identifies the source answer as **carbon (IV) oxide** (option index `0`), consistent with the active held record. Its separately served candidate apparatus figure is `https://www.schoolngr.com/eattachments/299f9fc5051b9fb9961db3ddb722b2326b39196c`.
+
+The SchoolNGR page keeps the figure separate from answer controls and appears to show the original lime-water fermentation apparatus. It remains a **lead only** pending direct image inspection for complete apparatus geometry, legible neutral labels, answer-bearing material, and safe boundaries. No mapping or protected record field has changed.
+
+Direct inspection confirms the 300 × 134 original contains the complete apparatus, both tripod stands, connecting tube, lime-water vessel, and neutral labels (`Lime water`, `10% sucrose and yeast`, and `Tripod stand`). It contains no answer letter, option, correction, watermark, or source chrome. The original was uploaded unmodified and released through guarded mapping-only script `releaseRecoveredBiology0600Diagram.mjs` as `/manus-storage/biology-0600-schoolngr-original_413d60ab.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 34 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

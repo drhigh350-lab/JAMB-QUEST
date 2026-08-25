@@ -1,6 +1,8 @@
 # JAMB Quest Upgrade Checklist
-
 - [x] Recover and release the exact-source JAMB 2008 thermoregulation graph for `biology_0518` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 36 to 35, and the 390px QuestionCard fixture confirms a complete, legible graph with answer options outside the visual.
+- [x] Recover and release the exact-source JAMB 2011 fermentation apparatus for `biology_0600` through a guarded mapping-only update; preserve the stem, option order, answer index, topic, explanation, and source relationship. The active missing-original hold count fell from 35 to 34, and the 390px QuestionCard fixture confirms the complete labelled apparatus with options outside the visual.
+
+
 
 
 - [x] Build an authoritative inventory of all learner-visible diagram-linked and diagram-dependent questions across the active authorised bank and model bank, including subject, source ID, diagram URL/status, and whether the stem requires a visual. The read-only inventory found 260 candidate records: 91 initially linked assets plus conservative wording cues; after repair, the learner-visible approved pool has 87 linked diagram mappings across Biology, Chemistry, and Physics.
