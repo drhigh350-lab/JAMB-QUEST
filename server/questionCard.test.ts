@@ -38,4 +38,24 @@ describe("uniform Biology question card", () => {
     expect(html).toContain("Black-and-white instructional diagram for this question");
     expect(html).toContain("Use the diagram with the question stem before choosing an answer.");
   });
+
+  it("renders SVG, original crop, wide graph, and portrait diagram URLs while omitting the figure for a held/no-diagram fallback", () => {
+    const diagramUrls = [
+      "/manus-storage/jamb-quest-potometer_0ff84706.svg",
+      "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+      "/manus-storage/chemistry-energy-profile-original_3e1f7670.png",
+      "/manus-storage/jamb-quest-biology-digestive-system_e222260a.png",
+    ];
+    for (const [index, diagram_url] of diagramUrls.entries()) {
+      const question: BankQuestion = { ...biologyPilot, id: `DIAGRAM-SHAPE-${index}`, diagram_url };
+      const html = renderToStaticMarkup(React.createElement(QuestionCard, { question, index: 0, total: 1, selectedIndex: null, answered: false, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
+      expect(html).toContain("question-diagram");
+      expect(html).toContain(diagram_url);
+      expect(html).toContain("Use the diagram with the question stem before choosing an answer.");
+    }
+    const noDiagramQuestion: BankQuestion = { ...biologyPilot, id: "DIAGRAM-NONE", diagram_url: undefined };
+    const noDiagramHtml = renderToStaticMarkup(React.createElement(QuestionCard, { question: noDiagramQuestion, index: 0, total: 1, selectedIndex: null, answered: false, onSelect: vi.fn(), onSubmit: vi.fn(), onNext: vi.fn() }));
+    expect(noDiagramHtml).not.toContain("question-diagram");
+    expect(noDiagramHtml).not.toContain("Use the diagram with the question stem before choosing an answer.");
+  });
 });

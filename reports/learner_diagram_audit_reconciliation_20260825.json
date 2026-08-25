@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-25T14:39:33.626Z",
+  "scope": "Final source-preserving learner diagram reconciliation. Counts reflect the post-repair database reconciliation; all material with a required missing original visual remains excluded from the learner pool.",
+  "learnerFacingLinkedMappings": {
+    "total": 88,
+    "bySubject": {
+      "Biology": 37,
+      "Chemistry": 26,
+      "Physics": 25,
+      "Use of English": 0
+    }
+  },
+  "sourceScreenshotReview": {
+    "reviewed": 42,
+    "retainedOriginal": 38,
+    "repairedWithSourceOnlyOriginalCrop": 4,
+    "heldWithinReviewedScreenshotSet": 0,
+    "repairedExternalIds": [
+      "OWNER-PHY-DIAGRAM-2026-003",
+      "OWNER-PHY-DIAGRAM-2026-005",
+      "OWNER-PHY-DIAGRAM-2026-007",
+      "OWNER-PHY-DIAGRAM-2026-008"
+    ]
+  },
+  "sourceBackedMappingRepairs": {
+    "redundantChemistryMappingsRemoved": [
+      "OWNER-CHEM-DIAGRAM-2026-005",
+      "OWNER-CHEM-DIAGRAM-2026-006",
+      "OWNER-CHEM-DIAGRAM-2026-007"
+    ],
+    "recoveredChemistryFormulaTableReleased": "OWNER-CHEM-DIAGRAM-2026-009",
+    "recoveredPhysicsOriginalPanelsReleased": [
+      "OWNER-PHY-DIAGRAM-2026-003",
+      "OWNER-PHY-DIAGRAM-2026-005",
+      "OWNER-PHY-DIAGRAM-2026-007",
+      "OWNER-PHY-DIAGRAM-2026-008"
+    ]
+  },
+  "missingOriginalVisualHolds": {
+    "total": 42,
+    "bySubject": {
+      "Biology": 39,
+      "Chemistry": 3
+    },
+    "learnerState": "excluded by the production eligibility guard; no generated replacement is used",
+    "sourceSlugs": [
+      "authorised-1-1787388348086",
+      "authorised-1-1787414197417",
+      "authorised-1-1787388348602",
+      "authorised-1-1786922522370",
+      "authorised-1-1786922522930"
+    ]
+  },
+  "safetyBoundary": [
+    "No question stem, options, answer index, topic, explanation, or source relationship was modified by diagram repair scripts.",
+    "No AI-generated or semantically reconstructed diagram was released.",
+    "The 42 reviewed screenshot mappings and the 42 missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable."
+  ]
+}

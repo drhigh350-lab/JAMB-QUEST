@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-08-25T14:30:35.891Z",
+  "scope": "Idempotent mapping-only recovery of four source-only Physics figure panels. Protected question text, options, answer index, topic, explanation, and source relationship are verified unchanged.",
+  "targets": [
+    {
+      "externalId": "OWNER-PHY-DIAGRAM-2026-003",
+      "expectedCurrentDiagramUrl": "/manus-storage/owner-phy-diagram-2026-003_ab65db76.png",
+      "replacementDiagramUrl": "/manus-storage/owner-phy-diagram-2026-003-source-panel_50717966.png",
+      "questionText": "The electrical power developed in the resistor shown above is"
+    },
+    {
+      "externalId": "OWNER-PHY-DIAGRAM-2026-005",
+      "expectedCurrentDiagramUrl": "/manus-storage/owner-phy-diagram-2026-005_58f9ed01.png",
+      "replacementDiagramUrl": "/manus-storage/owner-phy-diagram-2026-005-source-panel_63401d12.png",
+      "questionText": "Assuming E₁, E₂ and E₃ are equal, the total e.m.f. of the arrangement shown is given by"
+    },
+    {
+      "externalId": "OWNER-PHY-DIAGRAM-2026-007",
+      "expectedCurrentDiagramUrl": "/manus-storage/owner-phy-diagram-2026-007_79e42e61.png",
+      "replacementDiagramUrl": "/manus-storage/owner-phy-diagram-2026-007-source-panel_a3213b69.png",
+      "questionText": "If a positively charged rod is brought close to the cap of the positively charged electroscope shown, the divergence of its leaves"
+    },
+    {
+      "externalId": "OWNER-PHY-DIAGRAM-2026-008",
+      "expectedCurrentDiagramUrl": "/manus-storage/owner-phy-diagram-2026-008_e11f38cf.png",
+      "replacementDiagramUrl": "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+      "questionText": "The acceleration of the body shown in the liquid is"
+    }
+  ],
+  "receipt": {
+    "repaired": [
+      {
+        "externalId": "OWNER-PHY-DIAGRAM-2026-003",
+        "id": 1260003,
+        "protectedSnapshot": {
+          "questionText": "The electrical power developed in the resistor shown above is",
+          "optionsJson": "[\"8 W\",\"64 W\",\"128 W\",\"256 W\"]",
+          "answerIndex": 2,
+          "topic": "Current electricity",
+          "explanation": "Use P = V²/R for the 16 V supply and 2 Ω resistor. Therefore P = 16²/2 = 128 W.",
+          "sourceId": 14070001
+        }
+      },
+      {
+        "externalId": "OWNER-PHY-DIAGRAM-2026-005",
+        "id": 1260005,
+        "protectedSnapshot": {
+          "questionText": "Assuming E₁, E₂ and E₃ are equal, the total e.m.f. of the arrangement shown is given by",
+          "optionsJson": "[\"1/E = (1/E₁ + 1/E₂) + E₃\",\"E = E₁ + E₂ + E₃\",\"1/E = 1/E₁ + 1/E₂ + 1/E₃\",\"E = E₁ = E₂ = E₃\"]",
+          "answerIndex": 3,
+          "topic": "Current electricity",
+          "explanation": "The identical cells are connected in parallel across common terminals. A parallel combination has the e.m.f. of one cell, so E = E₁ = E₂ = E₃.",
+          "sourceId": 14070001
+        }
+      },
+      {
+        "externalId": "OWNER-PHY-DIAGRAM-2026-007",
+        "id": 1260007,
+        "protectedSnapshot": {
+          "questionText": "If a positively charged rod is brought close to the cap of the positively charged electroscope shown, the divergence of its leaves",
+          "optionsJson": "[\"is unchanged\",\"increases\",\"decreases\",\"collapses\"]",
+          "answerIndex": 1,
+          "topic": "Electrostatics",
+          "explanation": "The positive rod repels positive charge further toward the leaves. Their like charges repel more strongly, so the divergence increases.",
+          "sourceId": 14070001
+        }
+      },
+      {
+        "externalId": "OWNER-PHY-DIAGRAM-2026-008",
+        "id": 1260008,
+        "protectedSnapshot": {
+          "questionText": "The acceleration of the body shown in the liquid is",
+          "optionsJson": "[\"10.0 m/s²\",\"20.0 m/s²\",\"7.5 m/s²\",\"6.8 m/s²\"]",
+          "answerIndex": 2,
+          "topic": "Motion",
+          "explanation": "The downward weight is 100 N, while upthrust and viscous drag total 25 N. Net force is 75 N, so a = 75/10 = 7.5 m/s².",
+          "sourceId": 14070001
+        }
+      }
+    ],
+    "alreadyRepaired": [],
+    "skipped": []
+  }
+}

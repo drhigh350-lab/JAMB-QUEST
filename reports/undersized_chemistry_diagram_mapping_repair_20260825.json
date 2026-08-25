@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-25T14:14:44.060Z",
+  "scope": "Idempotent mapping-only repair. Question text, options, answer index, topic, explanation, and source fields are preserved.",
+  "receipt": {
+    "removedRedundantMappings": [
+      {
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-005",
+        "id": 1200005
+      },
+      {
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-006",
+        "id": 1200006
+      },
+      {
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-007",
+        "id": 1200007
+      }
+    ],
+    "heldIncompleteTable": {
+      "externalId": "OWNER-CHEM-DIAGRAM-2026-009",
+      "id": 1200009,
+      "reason": "formula table crop is incomplete; no learner release until a readable source visual is recovered"
+    },
+    "skipped": []
+  }
+}

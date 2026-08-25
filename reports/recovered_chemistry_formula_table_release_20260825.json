@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-08-25T14:22:40.003Z",
+  "scope": "Mapping/status-only release. Question text, options, answer index, topic, explanation, and source fields are preserved.",
+  "target": {
+    "externalId": "OWNER-CHEM-DIAGRAM-2026-009",
+    "expectedCurrentDiagramUrl": "/manus-storage/owner-chem-diagram-2026-009_837e85f8.png",
+    "replacementDiagramUrl": "/manus-storage/owner-chem-diagram-2026-009-source-table_b66e3aaa.png",
+    "stem": "In the formula table, the two compounds that combine in the presence of an acid catalyst to produce compound V are"
+  },
+  "receipt": {
+    "externalId": "OWNER-CHEM-DIAGRAM-2026-009",
+    "released": true,
+    "skipped": false,
+    "reason": "verified original formula table recovered and mapped"
+  }
+}

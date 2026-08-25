@@ -1,0 +1,108 @@
+import { useState } from "react";
+import { QuestionCard } from "@/components/QuestionCard";
+import type { BankQuestion } from "@/game/types";
+
+export type DiagramFixtureVariant = "svg" | "source" | "wide" | "portrait" | "none";
+
+const questions: Record<DiagramFixtureVariant, BankQuestion> = {
+  svg: {
+    id: "fixture-diagram-svg-potometer",
+    subject: "Biology",
+    topic: "Plant Biology",
+    subtopic: "Transpiration",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "svg", "potometer"],
+    source: "Fixture — verified learner SVG",
+    question: "Which apparatus in the diagram is used to measure the rate of transpiration in a leafy shoot?",
+    options: ["Hygrometer", "Photometer", "Potometer", "Anemometer"],
+    answer_index: 2,
+    answer_text: "Potometer",
+    explanation: "A potometer estimates water uptake by a leafy shoot and is used to investigate transpiration.",
+    diagram_url: "/manus-storage/jamb-quest-potometer_0ff84706.svg",
+  },
+  source: {
+    id: "fixture-diagram-source-liquid-force",
+    subject: "Physics",
+    topic: "Motion",
+    subtopic: "Forces in fluids",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "source-only crop", "forces"],
+    source: "Fixture — verified owner original crop",
+    question: "The acceleration of the body shown in the liquid is",
+    options: ["10.0 m/s²", "20.0 m/s²", "7.5 m/s²", "6.8 m/s²"],
+    answer_index: 2,
+    answer_text: "7.5 m/s²",
+    explanation: "The diagram supplies the force information needed to calculate the resultant force and acceleration.",
+    diagram_url: "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+  },
+  wide: {
+    id: "fixture-diagram-wide-energy-profile",
+    subject: "Chemistry",
+    topic: "Energy changes",
+    subtopic: "Energy profiles",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "wide", "energy profile"],
+    source: "Fixture — verified owner original",
+    question: "In the energy profile diagram above, X represents the:",
+    options: ["enthalpy.", "enthalpy change.", "activation energy.", "activated complex."],
+    answer_index: 2,
+    answer_text: "activation energy.",
+    explanation: "The point marked X is at the top of the energy barrier.",
+    diagram_url: "/manus-storage/chemistry-energy-profile-original_3e1f7670.png",
+  },
+  portrait: {
+    id: "fixture-diagram-portrait-digestive-system",
+    subject: "Biology",
+    topic: "Nutrition — Human digestive system",
+    subtopic: "Digestive system",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "portrait", "biology"],
+    source: "Fixture — verified owner original",
+    question: "The part labelled II is the",
+    options: ["liver", "pancreas", "lung", "stomach"],
+    answer_index: 3,
+    answer_text: "stomach",
+    explanation: "Label II identifies the J-shaped organ between the oesophagus and small intestine.",
+    diagram_url: "/manus-storage/jamb-quest-biology-digestive-system_e222260a.png",
+  },
+  none: {
+    id: "fixture-diagram-none-fallback",
+    subject: "Chemistry",
+    topic: "Chemical equilibria",
+    subtopic: "Equilibrium constants",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "no diagram", "fallback"],
+    source: "Fixture — intentional no-diagram fallback",
+    question: "For the equilibrium 2XY₃(g) ⇌ X₂(g) + 3Y₂(g), the expression for Kc is",
+    options: ["[2XY₃] / [X₂][3Y₂]", "[X₂][3Y₂] / 2XY₃", "[XY₃]² / [X₂][Y₂]", "[X₂][Y₂]³ / [XY₃]²"],
+    answer_index: 3,
+    answer_text: "[X₂][Y₂]³ / [XY₃]²",
+    explanation: "The question is fully answerable from its equation and options, so no diagram is rendered.",
+  },
+};
+
+const labels: Record<DiagramFixtureVariant, string> = {
+  svg: "Browser-delivered SVG",
+  source: "Original-only source crop",
+  wide: "Wide energy profile",
+  portrait: "Portrait Biology diagram",
+  none: "Held/no-diagram fallback",
+};
+
+export function DiagramRenderingFixture({ variant }: { variant: DiagramFixtureVariant }) {
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const question = questions[variant];
+  return (
+    <main className="p-4 md:p-8">
+      <div className="mx-auto mb-4 max-w-[760px] rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+        <strong>Diagram rendering fixture:</strong> {labels[variant]}
+      </div>
+      <QuestionCard question={question} index={0} total={1} selectedIndex={selectedIndex} answered={false} onSelect={setSelectedIndex} onSubmit={() => undefined} onNext={() => undefined} />
+    </main>
+  );
+}
