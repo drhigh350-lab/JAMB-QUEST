@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -197,6 +197,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The illustrated vertebra is thoracic. Its long neural spine and rib-articulating processes identify it as a thoracic vertebra.",
     diagram_url: "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
   },
+  digestive0413: {
+    id: "fixture-diagram-jamb-2005-digestive-system",
+    subject: "Biology",
+    topic: "Plant and mammal structure",
+    subtopic: "Human digestive system",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "digestive system", "JAMB 2005"],
+    source: "Fixture — verified JAMB 2005 original",
+    question: "From the diagram above the part labelled IV represents the",
+    options: ["colon", "ileum", "caecum", "duodenum"],
+    answer_index: 3,
+    answer_text: "duodenum",
+    explanation: "Label IV points to the first section of the small intestine immediately after the stomach: the duodenum.",
+    diagram_url: "/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -275,6 +291,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   embryo: "Repaired paired embryo-location diagram",
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
+  digestive0413: "Repaired exact JAMB 2005 digestive-system figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

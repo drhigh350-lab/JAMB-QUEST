@@ -14,6 +14,12 @@ The final source-only crop removes the unrelated fragment and retains the comple
 
 The guarded mapping release completed with learner asset `/manus-storage/biology-0369-schoolngr-source-panel_aa1ec92c.png`. Its receipt verifies that the question text, options, answer index, topic, explanation, and source relationship stayed unchanged. The production eligibility audit now reports 41 unresolved missing-original holds, not 42.
 
+## `biology_0413` — JAMB 2005 digestive-system label IV
+
+SchoolNGR’s JAMB 2005 page `https://www.schoolngr.com/classroom/biology/10590` exactly matches the protected prompt and the `colon` / `ileum` / `caecum` / `duodenum` option order. It marks **duodenum** as option D (index `3`), consistent with the active record’s protected answer and explanation. Its direct original figure is `https://www.schoolngr.com/eattachments/45189a09a37c502b0f63ad5ebc8ca3b8cc3c8c17`.
+
+Direct inspection found a complete neutral I–IV digestive-system original. A partial non-figure header was the only residue; deterministic top trimming removed it without cutting the liver, stomach, pancreas, duodenum, any leader line, or labels I–IV. The final source-only crop contains no options, answer letters, correction text, watermark, or source chrome. `scripts/releaseRecoveredBiology0413Diagram.mjs` therefore applied a guarded mapping-only release to `/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png`, preserving the stem, options, answer index, topic, explanation, source relationship, and approval status. The authoritative audit then reduced the unresolved original-visual holds from 29 to 28.
+
 ## `biology_0386` — plant axil
 
 The public MySchool JAMB 2005 page title exactly matches the held protected stem, “From the diagram above the angle between the parts labelled II and III is the,” and exposes `https://myschool.ng/storage/classroom/6819292380_bio20058.jpg`. The page’s figure is separate from the options and answer state; it shows the labelled plant/stem geometry needed for the question. Direct delivery reports 300 × 218.
@@ -241,5 +247,53 @@ MySchool JAMB 2018 page `https://myschool.ng/classroom/biology/47167` and School
 The independent page displays a complete neutral thistle-funnel apparatus with its thistle funnel, distilled water, sugar solution, and membrane labels separately from answer controls. It remains a **lead only** pending direct image inspection for source-only boundaries and embedded residue. No mapping or protected record field changed.
 
 Direct inspection confirms the 400 × 274 original retains complete apparatus geometry and neutral thistle funnel, clamp, distilled water, sugar solution, and membrane labels. It contains no watermark, option text, answer letter, correction text, or source chrome. The unmodified original was released through guarded mapping-only script `releaseRecoveredBiology0905Diagram.mjs` as `/manus-storage/biology-0905-schoolngr-original_705e2a37.png`; question text, option order, answer index, explanation, topic, and source relationship were verified unchanged. The production eligibility audit now reports 29 unresolved missing-original holds.
+
+## `biology_1021` — neural arch of a vertebra
+
+MySchool JAMB 2020 page `https://myschool.ng/classroom/biology/56793` exactly matches the protected prompt and `i` / `ii` / `iii` / `iv` option order. The page identifies **ii** as option B (index `1`) and the direct figure `https://myschool.ng/storage/classroom/eAvDjWwAjyEh0FbCPSN1AilyuvBTBBnCpMfqroM3.jpeg` confirms the neural arch leader is II. This conflicts with the held record’s current index `2`/III explanation.
+
+Direct inspection shows faint embedded source text crossing the body and arch geometry of the 400 × 319 figure. A source-only boundary crop cannot remove it while keeping the tested label II and full neural arch. The record remains held, and its source-proven key/explanation mismatch is documented but intentionally unchanged until a clean exact original permits a guarded complete release.
+
+## `biology_1033` — countershading adaptation
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31267` exactly matches the protected prompt and `Disruptive colouration` / `Flash colouration` / `Countershading colouration` / `Warning colouration` option order. It identifies **Countershading colouration** as option C (index `2`), consistent with the active held record’s key and explanation. The independently published SchoolNGR candidate `https://www.schoolngr.com/classroom/biology/60967` presents the same wording/options but is marked JAMB 2020, so it is corroborative only—not a replacement for the exact 2007 source.
+
+The available SchoolNGR rat figure visibly carries embedded source text through the animal panel, while the exact MySchool page did not retain a recoverable direct image URL after browser reset. The record remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_1041` — frog water loss and intake
+
+MySchool JAMB 2020 page `https://myschool.ng/classroom/biology/56839` exactly matches the protected prompt and `Evaporation and osmosis` / `Osmosis and exhalation` / `Osmosis and diffusion` / `Urination and diffusion` option order. It identifies **Evaporation and osmosis** as option A (index `0`), consistent with the active held record’s key and explanation. Its direct source figure is `https://myschool.ng/storage/classroom/6aC3qS7VdVhWzkm79Op7uAB0xu79DvqqRs38zOMJ.jpeg`.
+
+Direct inspection confirms the 400 × 198 frog figure retains I/II arrows and the water context, but faint embedded source text crosses the frog and water geometry. A source-only boundary crop would remove either the tested arrows or the water context. `biology_1041` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_1111` — F2 genotypic ratio
+
+MySchool JAMB 2025 page `https://myschool.ng/classroom/biology/74648` exactly matches the protected illustration prompt and `2 : 1 : 1` / `3 : 1` / `1 : 1` / `1 : 2 : 1` option order. It identifies **1 : 2 : 1** as option D (index `3`), consistent with the active held record’s key and explanation. Its direct figure is `https://myschool.ng/storage/classroom/opWHC0fyVyZoSNe2uWmtLSW76f2VyiS9xKei85cF.png`.
+
+Direct inspection confirms the genetic cross labels and complete four-offspring outcome, but also shows an embedded pointer/cursor residue through the central crossing lines. Cropping it out would cut necessary cross geometry, and removing it would be an impermissible in-figure edit. `biology_1111` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+
+## `biology_1225` — labelled bird structure
+
+MySchool JAMB 2025 page `https://myschool.ng/classroom/biology/74398` exactly matches the protected prompt and `tearing` / `sieving` / `boring` / `sucking` option order. It identifies **sucking** as option D (index `3`), which conflicts with the held record’s current index `2`/boring explanation. The exact page did not retain a recoverable direct image URL after browser reset, and no independent exact original was located.
+
+The record remains held. Its source-proven key/explanation mismatch is documented but intentionally unchanged until a clean exact original permits a guarded complete release; no mapping, topic, or other protected record field changed.
+
+## `biology_0470` — sexual reproduction in Rhizopus
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31284` exactly matches the protected prompt and `gametogenesis` / `sporulation` / `sexual reproduction in Spirogyra` / `sexual reproduction in Rhizopus` option order. It identifies **sexual reproduction in Rhizopus** as option D (index `3`), which conflicts with the held record’s current index `2`/Spirogyra explanation. Its direct source figure is `https://myschool.ng/storage/classroom/25635133044_youi12.jpg`.
+
+Direct page inspection reconfirms that source-text residue crosses the staged sequence of Rhizopus hyphae and zygospore geometry. A source-only crop cannot remove it without cutting the tested stages. The record remains held and its source-proven key/explanation mismatch intentionally unchanged until a clean exact original is found; no mapping, topic, or other protected record field changed.
+
+## `biology_0481` — labelled heart structure
+
+MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31276` exactly matches the protected prompt and `pulmonary artery` / `vena cava` / `aorta` / `bicuspid valve` option order. MySchool marks **pulmonary artery** as option A (index `0`), whereas the active held record is indexed to option B/vena cava. The exact page did not retain a recoverable direct image URL after browser reset. Its discussion is internally inconsistent, reinforcing that the line must be verified against a clean exact figure rather than text alone.
+
+The record remains held. No mapping, key, explanation, topic, or other protected record field changed until a clean exact original supports a figure-backed guarded release.
+
+## `biology_0501` — maize male inflorescence
+
+MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/40373` exactly matches the protected prompt and `i` / `ii` / `iii` / `iv` option order. It identifies **i** as option A (index `0`), consistent with the active held record’s key and explanation. Its direct source figure is `https://myschool.ng/storage/classroom/10131908864_blinkg11.jpg`.
+
+Direct page inspection confirms label I identifies the tassel, but embedded source text crosses the maize plant and all label leaders. A source-only boundary crop cannot remove the residue without losing the male inflorescence/label geometry. `biology_0501` remains held; no mapping, key, explanation, topic, or other protected record field changed.
 
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

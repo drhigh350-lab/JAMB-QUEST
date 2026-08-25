@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T17:14:48.653Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology digestive-system figure. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0413",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png",
+    "questionText": "From the diagram above the part labelled IV represents the",
+    "optionsJson": "[\"colon\",\"ileum\",\"caecum\",\"duodenum\"]",
+    "answerIndex": 3,
+    "topic": "Plant and mammal structure",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0413",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR JAMB 2005 digestive-system original verified with the source option order and answer; source-only crop removes the partial page header while retaining the complete labelled I–IV figure, with no answer letters, options, correction text, watermark, or source chrome"
+  }
+}
