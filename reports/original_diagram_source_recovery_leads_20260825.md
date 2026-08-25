@@ -60,4 +60,14 @@ The guarded repair completed with original-only learner asset `/manus-storage/bi
 
 At 390 × 844, the actual `QuestionCard` now renders the beak figure and the four options without the empty frame shown in the reported screenshot. A deliberate missing-image fixture now replaces an unloaded figure with an explicit “Diagram unavailable” warning rather than leaving an answer-critical blank area.
 
+## `biology_0405` — vasectomy
+
+MySchool and SchoolNGR both match the held JAMB 2005 vasectomy prompt and I–IV option order; both identify **III** as the vas deferens. MySchool’s original figure is visibly watermarked and must not be used. SchoolNGR exposes a separate candidate figure at `https://www.schoolngr.com/eattachments/48876a27e6a0b12b2680e9ee6e768c3ac82825b3`; direct asset inspection, source-only crop review, and protected-record verification are still required before any mapping or content update.
+
+Direct inspection confirms the 382 × 335 SchoolNGR candidate contains the complete male reproductive-system drawing and labels I–IV without an answer marker, explanation, or watermark. Only small detached scan specks above the drawing require a non-semantic crop; the source figure is otherwise candidate-ready.
+
+The cropped source panel retains the full original I–IV geometry and contains no answer-bearing material. The protected record exactly matches the public source stem, I–IV option order, source relationship, topic, and existing answer index `2` (III); its approved explanation is already source-consistent. It is eligible for a **mapping-only** guarded release after upload.
+
+The guarded release completed with learner asset `/manus-storage/biology-0405-schoolngr-source-panel_9fb86380.png`; the receipt verifies the protected stem, options, answer index, topic, explanation, and source relationship remained unchanged. The production eligibility audit now reports 37 unresolved missing-original holds.
+
 At 390 × 844 and 1280 × 720, the repaired graph renders inside the actual `QuestionCard` at its natural proportion. The original curve labels and axes remain readable, the corrected 15 °C / 19 °C / 24 °C / 33 °C options are presented outside the diagram, and no answer-bearing text appears in the visual itself.

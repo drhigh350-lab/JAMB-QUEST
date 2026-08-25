@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-25T15:37:07.569Z",
+  "scope": "Guarded mapping-only release of an exact-source Biology diagram. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0405",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0405-schoolngr-source-panel_9fb86380.png",
+    "questionText": "From the diagram above Birth control by vasectomy is achieved by severing the structure labelled",
+    "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+    "answerIndex": 2,
+    "topic": "Reproduction",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0405",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact public-source original figure cropped without options, answer text, watermark, or source chrome"
+  }
+}

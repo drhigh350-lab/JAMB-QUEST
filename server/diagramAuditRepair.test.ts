@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 93, bySubject: { Biology: 42, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 38, bySubject: { Biology: 35, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 38 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 94, bySubject: { Biology: 43, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 37, bySubject: { Biology: 34, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 37 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -126,5 +126,17 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET topic");
     expect(script).not.toContain("SET sourceId");
+  });
+
+  it("releases biology_0405 only through a guarded source-only mapping that leaves protected content untouched", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0405Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0405"');
+    expect(script).toContain("biology-0405-schoolngr-source-panel_9fb86380.png");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
   });
 });

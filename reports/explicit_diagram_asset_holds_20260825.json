@@ -1,26 +1,12 @@
 {
-  "generatedAt": "2026-08-25T15:24:58.143Z",
+  "generatedAt": "2026-08-25T15:37:17.415Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 38,
+  "totalHeld": 37,
   "bySubject": {
-    "Biology": 35,
+    "Biology": 34,
     "Chemistry": 3
   },
   "holds": [
-    {
-      "id": 1350119,
-      "externalId": "biology_0405",
-      "subject": "Biology",
-      "topic": "Reproduction",
-      "questionText": "From the diagram above Birth control by vasectomy is achieved by severing the structure labelled",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
     {
       "id": 1350127,
       "externalId": "biology_0413",
