@@ -128,7 +128,7 @@ const isAchievementSharePngFixture = new URLSearchParams(window.location.search)
 const isDeferredAppUpdateFixture = new URLSearchParams(window.location.search).get("e2eDeferredAppUpdateFixture") === "1";
 const isTopicDrillFixture = new URLSearchParams(window.location.search).get("e2eTopicDrillFixture") === "1";
 const diagramFixtureValue = new URLSearchParams(window.location.search).get("e2eDiagramFixture");
-const isDiagramFixtureVariant = (value: string | null): value is DiagramFixtureVariant => value === "svg" || value === "source" || value === "sourceGraph" || value === "thermoregulation" || value === "lizardGraph" || value === "osmosis" || value === "fermentation" || value === "variation" || value === "ovary" || value === "embryo" || value === "beak" || value === "vertebra" || value === "digestive0413" || value === "broken" || value === "wide" || value === "portrait" || value === "none";
+const isDiagramFixtureVariant = (value: string | null): value is DiagramFixtureVariant => value === "svg" || value === "source" || value === "sourceGraph" || value === "thermoregulation" || value === "lizardGraph" || value === "osmosis" || value === "fermentation" || value === "variation" || value === "ovary" || value === "embryo" || value === "beak" || value === "vertebra" || value === "digestive0413" || value === "euglena0749" || value === "broken" || value === "wide" || value === "portrait" || value === "none";
 const diagramFixtureVariant = isDiagramFixtureVariant(diagramFixtureValue) ? diagramFixtureValue : null;
 
 createRoot(document.getElementById("root")!).render(

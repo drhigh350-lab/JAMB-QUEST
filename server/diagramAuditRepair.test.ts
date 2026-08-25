@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 103, bySubject: { Biology: 52, Chemistry: 26, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 28, bySubject: { Biology: 25, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 28 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 104, bySubject: { Biology: 53, Chemistry: 26, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 27, bySubject: { Biology: 24, Chemistry: 3 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 27 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -248,5 +248,18 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("repairs biology_0749 only where exact public sources corroborate the III photosynthesis label and clean original figure", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0749SourceEuglenaRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0749"');
+    expect(script).toContain("biology-0749-schoolngr-original_64d08afe.png");
+    expect(script).toContain("replacementAnswerIndex: 0");
+    expect(script).toContain("immutableFields.every");
+    expect(script).toContain("SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
   });
 });

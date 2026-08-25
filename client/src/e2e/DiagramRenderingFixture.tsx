@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -213,6 +213,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Label IV points to the first section of the small intestine immediately after the stomach: the duodenum.",
     diagram_url: "/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png",
   },
+  euglena0749: {
+    id: "fixture-diagram-jamb-2014-euglena",
+    subject: "Biology",
+    topic: "Nutrition and digestion",
+    subtopic: "Photosynthesis",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "Euglena", "JAMB 2014"],
+    source: "Fixture — verified JAMB 2014 original",
+    question: "Use the diagram above to answer this question. The part responsible for photosynthesis is labelled",
+    options: ["III", "IV", "I", "II"],
+    answer_index: 0,
+    answer_text: "III",
+    explanation: "In the exact source figure, label III identifies the chloroplast-containing part of Euglena. Chloroplasts contain chlorophyll and carry out photosynthesis.",
+    diagram_url: "/manus-storage/biology-0749-schoolngr-original_64d08afe.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -292,6 +308,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   beak: "Repaired original beak figure",
   vertebra: "Repaired alternate-source vertebra figure",
   digestive0413: "Repaired exact JAMB 2005 digestive-system figure",
+  euglena0749: "Repaired exact JAMB 2014 Euglena figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

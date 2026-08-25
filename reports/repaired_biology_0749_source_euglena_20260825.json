@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-25T17:25:24.428Z",
+  "scope": "Guarded source-proven repair of a held diagram-dependent Biology record. It changes only corroborated answer index, explanation, and original diagram mapping; stem, option order, topic, source relationship, and approved status are verified unchanged.",
+  "target": {
+    "externalId": "biology_0749",
+    "questionText": "Use the diagram above to answer this question. The part responsible for photosynthesis is labelled",
+    "topic": "Nutrition and digestion",
+    "sourceId": 22500001,
+    "expectedOptionsJson": "[\"III\",\"IV\",\"I\",\"II\"]",
+    "expectedAnswerIndex": 3,
+    "expectedDiagramUrl": null,
+    "replacementAnswerIndex": 0,
+    "replacementExplanation": "In the exact source figure, label III identifies the chloroplast-containing part of Euglena. Chloroplasts contain chlorophyll and carry out photosynthesis.",
+    "replacementDiagramUrl": "/manus-storage/biology-0749-schoolngr-original_64d08afe.png"
+  },
+  "receipt": {
+    "externalId": "biology_0749",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "reason": "exact SchoolNGR JAMB 2014 original maps photosynthesis to III; independent TestDriller JAMB 2014 Question 3 also marks III as the correct label despite a differently ordered option list"
+  }
+}

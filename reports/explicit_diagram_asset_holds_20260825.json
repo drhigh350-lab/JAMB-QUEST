@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T17:14:54.437Z",
+  "generatedAt": "2026-08-25T17:25:31.625Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 28,
+  "totalHeld": 27,
   "bySubject": {
-    "Biology": 25,
+    "Biology": 24,
     "Chemistry": 3
   },
   "holds": [
@@ -251,20 +251,6 @@
       "subject": "Biology",
       "topic": "Natural habitats",
       "questionText": "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350393,
-      "externalId": "biology_0749",
-      "subject": "Biology",
-      "topic": "Nutrition and digestion",
-      "questionText": "Use the diagram above to answer this question. The part responsible for photosynthesis is labelled",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",

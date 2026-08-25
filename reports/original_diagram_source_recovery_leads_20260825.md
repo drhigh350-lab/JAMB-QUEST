@@ -20,6 +20,18 @@ SchoolNGR’s JAMB 2005 page `https://www.schoolngr.com/classroom/biology/10590`
 
 Direct inspection found a complete neutral I–IV digestive-system original. A partial non-figure header was the only residue; deterministic top trimming removed it without cutting the liver, stomach, pancreas, duodenum, any leader line, or labels I–IV. The final source-only crop contains no options, answer letters, correction text, watermark, or source chrome. `scripts/releaseRecoveredBiology0413Diagram.mjs` therefore applied a guarded mapping-only release to `/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png`, preserving the stem, options, answer index, topic, explanation, source relationship, and approval status. The authoritative audit then reduced the unresolved original-visual holds from 29 to 28.
 
+## `biology_0546` — JAMB 2009 leaf-section label I
+
+MySchool (`https://myschool.ng/classroom/biology/31217`) and SchoolNGR (`https://www.schoolngr.com/classroom/biology/11443`) exactly match the protected prompt and the `spongy mesophyll` / `upper epidermis` / `cuticle` / `vein` option order. Both identify **cuticle** as option C (index `2`), consistent with the active record’s protected answer and explanation. SchoolNGR’s direct candidate is `https://www.schoolngr.com/eattachments/e2622b87349a55ec6176d04042827594443a30ff`.
+
+Direct inspection confirms the 300 × 193 source figure preserves the original I–IV leaf-section leaders but has faint embedded source residue across the central and lower leaf-cell geometry. A boundary crop that preserves the full tested original cannot remove this residue; a narrow upper-only crop would omit most of the original figure and its associated labels. `biology_0546` remains held. No mapping, answer key, explanation, topic, or other protected record field changed.
+
+## `biology_0584` — JAMB 2010 plantation II graph
+
+MySchool (`https://myschool.ng/classroom/biology/31193`) and SchoolNGR (`https://www.schoolngr.com/classroom/biology/11659`) exactly match the protected prompt and the four supplied statements. The source identifies **“It has the highest number of trees of about 2m high”** as option A (index `0`), whereas the active held record is indexed to option B. The direct SchoolNGR candidate is `https://www.schoolngr.com/eattachments/fddc8af0856aea39fb4619e2f25a5889e1a990dd`.
+
+Direct inspection confirms the 300 × 139 graph preserves the percent-of-tree-population axis, height axis, and I–IV curves, but faint embedded source text runs through the peak and lower curve geometry. MySchool’s independently delivered `https://myschool.ng/storage/classroom/14240974940_scan%20work1.jpg` is the same residue-bearing scan. A boundary crop cannot remove it without removing required labels or graph scales, and in-figure removal would be an impermissible edit. `biology_0584` remains held. The source-proven key/explanation discrepancy is intentionally unchanged until a clean exact original supports a single guarded figure-plus-field release; no mapping, answer key, explanation, topic, or other protected record field changed.
+
 ## `biology_0386` — plant axil
 
 The public MySchool JAMB 2005 page title exactly matches the held protected stem, “From the diagram above the angle between the parts labelled II and III is the,” and exposes `https://myschool.ng/storage/classroom/6819292380_bio20058.jpg`. The page’s figure is separate from the options and answer state; it shows the labelled plant/stem geometry needed for the question. Direct delivery reports 300 × 218.
@@ -222,9 +234,9 @@ The byte-identical original was released through guarded mapping-only script `re
 
 ## `biology_0749` — Euglena photosynthetic structure
 
-MySchool JAMB 2014 page `https://myschool.ng/classroom/biology/31145` and SchoolNGR JAMB 2014 page `https://www.schoolngr.com/classroom/biology/12457` match the protected stem and `III` / `IV` / `I` / `II` option order. However, their answer evidence is internally inconsistent with third-party copies: MySchool marks option A/III, while a TestDriller result presents a different option ordering and selects the equivalent last-listed IV label. SchoolNGR’s served figure `https://www.schoolngr.com/eattachments/37204accf9f7936e0ec131f343d9019d5f35707a` is visibly incomplete in page rendering; MySchool did not retain a recoverable direct image URL after browser reset.
+MySchool JAMB 2014 page `https://myschool.ng/classroom/biology/31145` and SchoolNGR JAMB 2014 page `https://www.schoolngr.com/classroom/biology/12457` match the protected stem and `III` / `IV` / `I` / `II` option order. SchoolNGR marks **III** as option A. Independent TestDriller JAMB 2014 Question 3 (`https://www.testdriller.com/past-questions/jamb-objective-biology-2014-3`) presents a differently ordered IV / I / II / III list but marks **III** as its answer D, resolving the earlier apparent conflict in favour of the same source label.
 
-The active record selects option D/II and describes label II as photosynthetic tissue, which cannot be reconciled yet with the source evidence or a complete clean exact original. `biology_0749` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+Direct inspection of SchoolNGR’s 300 × 227 figure `https://www.schoolngr.com/eattachments/37204accf9f7936e0ec131f343d9019d5f35707a` confirms a complete neutral Euglena original with readable I–IV leaders and no options, answer letters, correction text, watermark, or source chrome. The active record’s option D/II key and II-based explanation therefore have exact-source evidence of error. `scripts/repairBiology0749SourceEuglenaRecord.mjs` applied one guarded repair to the answer index (to option A/III), explanation, and diagram mapping `/manus-storage/biology-0749-schoolngr-original_64d08afe.png`; the stem, option order, topic, source relationship, and approved status were verified unchanged. The authoritative hold audit then reduced unresolved missing-original holds from 28 to 27.
 
 ## `biology_0870` — lizard and bird thermoregulation graph
 
