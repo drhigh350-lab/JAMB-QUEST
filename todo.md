@@ -902,3 +902,5 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] New owner batch: verify all newly mapped pictures open in the owner audit and learner QuestionCard, with no Lekki Headmaster changes. All five links returned HTTP 200; focused tests passed; the hold on `kairo-csv-chemistry_1ea741` remains intact; Lekki Headmaster was not touched.
 
 - [x] Owner request: permanently delete only `kairo-csv-chemistry_1ea741` from the question bank; verify no Lekki Headmaster record changes. Exact ID `1050117` is gone; no foreign-key references existed; the protected Lekki sources remain with 126, 109, 500, and 150 records in their active sources. Regression tests passed.
+
+- [x] New owner image: match `Gemini_Generated_Image_yxf649yxf649yxf6.jpg` to its exact Biology question; do not assign it until the question match is certain. Strong exact match is `biology_1225` / database ID `1350755`, with the same labelled-I wording and options; the picture remains queued and was not assigned.
