@@ -1255,7 +1255,7 @@ export function hasPlaceholderOption(option: string) {
   return PLACEHOLDER_OPTION.test(option.trim());
 }
 
-const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b|\bbeak\s+structure\s+of\s+the\s+organism\b)/i;
+const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b|\bbeak\s+structure\s+of\s+the\s+organism\b|\bin\s+the\s+(?:above\s+)?(?:diagram|figure|illustration)\s*,?\s+the\s+part\s+labelled\b|\bthe\s+part\s+labelled\s+(?:[a-z]|[ivxlcdm]+|\d+)\s+(?:in|on)\s+the\s+(?:above\s+)?(?:diagram|figure|illustration)\b|\buse\s+the\s+table\s+to\s+answer\b)/i;
 const TEXTUAL_STRUCTURE_EVIDENCE = /(?:\[structure\]|(?:\bCH\d*|\bH\d*C)\s*(?:[-–—=]|\()|C\(=O\)|CH\(OH\))/i;
 const OWNER_REJECTED_SCREENSHOT_BATCH = /^OWNER-(?:PHY|CHEM|BIO)-DIAGRAM-/;
 const RECOVERED_OWNER_ORIGINAL_ASSET = /^\/manus-storage\/owner-(?:phy|chem|bio)-diagram-/i;

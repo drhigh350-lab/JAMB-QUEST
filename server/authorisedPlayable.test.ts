@@ -134,6 +134,22 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, id: 233, questionText: "[Refers to the osmosis set-up diagram in Q3] Which result is expected?", diagramUrl: "/manus-storage/osmosis.svg" })).not.toBeNull();
   });
 
+  it("holds direct labelled-part and table prompts until their original answer-critical visual is linked", () => {
+    const base = {
+      id: 235,
+      subject: "Biology" as const,
+      topic: "Heredity",
+      difficulty: "medium" as const,
+      optionsJson: JSON.stringify(["A", "B", "C", "D"]),
+      answerIndex: 0,
+      explanation: "The original visual determines the labelled answer.",
+      sourceLabel: "Owner-provided source",
+    };
+    expect(toPlayableAuthorisedQuestion({ ...base, questionText: "In the diagram, the part labelled I represents the" })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 236, questionText: "Use the table to answer the question. Which zone is a desert?" })).toBeNull();
+    expect(toPlayableAuthorisedQuestion({ ...base, id: 237, questionText: "In the diagram, the part labelled I represents the", diagramUrl: "/manus-storage/verified-original.png" })).not.toBeNull();
+  });
+
   it("rejects malformed options before the record can enter the quiz feed", () => {
     expect(toPlayableAuthorisedQuestion({
       id: 13,
