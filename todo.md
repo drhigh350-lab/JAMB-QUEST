@@ -904,3 +904,5 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Owner request: permanently delete only `kairo-csv-chemistry_1ea741` from the question bank; verify no Lekki Headmaster record changes. Exact ID `1050117` is gone; no foreign-key references existed; the protected Lekki sources remain with 126, 109, 500, and 150 records in their active sources. Regression tests passed.
 
 - [x] New owner image: match `Gemini_Generated_Image_yxf649yxf649yxf6.jpg` to its exact Biology question; do not assign it until the question match is certain. Strong exact match is `biology_1225` / database ID `1350755`, with the same labelled-I wording and options; the picture remains queued and was not assigned.
+
+- [x] New owner images: match the supplied digestive-system, endocrine-gland, energy-profile, and bird diagrams to their exact questions; do not assign them until each match is certain. The unique new files match `OWNER-BIO-DIAGRAM-2025-003` / ID `1170003`, `OWNER-BIO-DIAGRAM-2025-008` / ID `1170008`, and `OWNER-CHEM-DIAGRAM-2026-004` / ID `1200004`; the fourth upload is a duplicate energy image. No picture was moved.
