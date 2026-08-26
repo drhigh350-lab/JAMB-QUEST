@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T07:50:43.733Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, explanation, topic, source relationship, and approval status must remain unchanged.",
+  "target": {
+    "externalId": "biology_0501",
+    "questionText": "Use the diagram above to answer this question. The male inflorescence is labeled",
+    "optionsJson": "[\"i\",\"ii\",\"iii\",\"iv\"]",
+    "answerIndex": 0,
+    "explanation": "The male inflorescence shown in the referenced diagram is labelled I. In maize, for example, the male inflorescence is the tassel, which produces pollen, while the female inflorescence is the ear.",
+    "topic": "Reproduction",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0501-testdriller-original_53441b7a.png",
+    "explanationStatus": "approved"
+  },
+  "receipt": {
+    "externalId": "biology_0501",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The male inflorescence is labeled",
+      "optionsJson": "[\"i\",\"ii\",\"iii\",\"iv\"]",
+      "answerIndex": 0,
+      "explanation": "The male inflorescence shown in the referenced diagram is labelled I. In maize, for example, the male inflorescence is the tassel, which produces pollen, while the female inflorescence is the ear.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The male inflorescence is labeled",
+      "optionsJson": "[\"i\",\"ii\",\"iii\",\"iv\"]",
+      "answerIndex": 0,
+      "explanation": "The male inflorescence shown in the referenced diagram is labelled I. In maize, for example, the male inflorescence is the tassel, which produces pollen, while the female inflorescence is the ear.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0501-testdriller-original_53441b7a.png"
+    },
+    "reason": "TestDriller JAMB 2008 question 24 provides a clean complete native maize original with all I–IV leaders. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and A/I key, so the exact original is mapped without changing learner content."
+  }
+}

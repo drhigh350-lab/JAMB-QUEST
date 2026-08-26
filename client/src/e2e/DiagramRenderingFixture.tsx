@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -421,6 +421,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The recessive genotype gg is expressed by the non-grey-headed dog. In the exact figure, dog IV has that phenotype; with the supplied option order, it is option C.",
     diagram_url: "/manus-storage/biology-0480-testdriller-original_4eb6cef1.png",
   },
+  maize0501: {
+    id: "fixture-diagram-jamb-2008-maize-inflorescence",
+    subject: "Biology",
+    topic: "Reproduction",
+    subtopic: "Flowering plants",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "maize inflorescence", "JAMB 2008"],
+    source: "Fixture — verified JAMB 2008 original",
+    question: "Use the diagram above to answer this question. The male inflorescence is labeled",
+    options: ["i", "ii", "iii", "iv"],
+    answer_index: 0,
+    answer_text: "i",
+    explanation: "In maize, the male inflorescence is the tassel. The exact figure labels the tassel I, so with the supplied option order the answer is option A.",
+    diagram_url: "/manus-storage/biology-0501-testdriller-original_53441b7a.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -561,6 +577,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   fungal0483: "Repaired exact JAMB 2007 fungal-zygospore figure",
   fungal0470: "Repaired byte-identical exact JAMB 2007 Rhizopus-process figure",
   dog0480: "Repaired exact JAMB 2007 dog-genetics figure",
+  maize0501: "Recovered exact JAMB 2008 maize-inflorescence figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

@@ -12,7 +12,7 @@ const [decisions, holds] = await Promise.all([
 ]);
 
 const currentLinkedMappings = {
-  Biology: 66,
+  Biology: 67,
   Chemistry: 28,
   Physics: 25,
   "Use of English": 0,
@@ -44,6 +44,7 @@ const output = {
     repairedBiologyFungalZygospore: "biology_0483",
     repairedBiologyRhizopusProcess: "biology_0470",
     repairedBiologyDogGenetics: "biology_0480",
+    recoveredBiologyMaizeInflorescence: "biology_0501",
     recoveredPhysicsOriginalPanelsReleased: decisions.decisions.filter((decision) => decision.changedMapping).map((decision) => decision.externalId),
   },
   missingOriginalVisualHolds: {
@@ -55,7 +56,7 @@ const output = {
   safetyBoundary: [
     "Mapping-only releases preserve question stem, options, answer index, topic, explanation, and source relationship; any source-proven content repair is guarded and separately receipted.",
     "No AI-generated or semantically reconstructed diagram was released.",
-    "The 42 reviewed screenshot mappings and the 12 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.",
+    "The 42 reviewed screenshot mappings and the 11 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.",
   ],
 };
 

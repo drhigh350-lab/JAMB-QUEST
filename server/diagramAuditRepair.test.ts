@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 119, bySubject: { Biology: 66, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 12, bySubject: { Biology: 11, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 12 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 120, bySubject: { Biology: 67, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 11, bySubject: { Biology: 10, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 11 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -453,5 +453,16 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("immutableFields.every");
     expect(script).not.toContain("SET topic");
     expect(script).not.toContain("SET sourceId");
+  });
+
+  it("releases biology_0501 only through a guarded clean maize-inflorescence original while preserving the source-matching A/I content", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0501Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0501"');
+    expect(script).toContain("biology-0501-testdriller-original_53441b7a.png");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
   });
 });
