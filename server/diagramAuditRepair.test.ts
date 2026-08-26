@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 122, bySubject: { Biology: 69, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 9, bySubject: { Biology: 8, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 9 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 123, bySubject: { Biology: 70, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 8, bySubject: { Biology: 7, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 8 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -484,6 +484,19 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("byte-identical");
     expect(script).toContain("currentAnswerIndex: 2");
     expect(script).toContain("replacementAnswerIndex: 0");
+    expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
+  });
+
+  it("repairs biology_0523 only through a guarded clean water-reabsorption panel and B/III-and-IV correction", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0523WaterReabsorptionRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0523"');
+    expect(script).toContain("biology-0523-testdriller-original_f9b78c24.png");
+    expect(script).toContain("currentAnswerIndex: 2");
+    expect(script).toContain("replacementAnswerIndex: 1");
     expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
     expect(script).toContain("immutableFields.every");
     expect(script).not.toContain("SET questionText");

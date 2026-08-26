@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T08:00:48.612Z",
+  "generatedAt": "2026-08-26T08:06:40.316Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 9,
+  "totalHeld": 8,
   "bySubject": {
-    "Biology": 8,
+    "Biology": 7,
     "Chemistry": 1
   },
   "holds": [
@@ -13,20 +13,6 @@
       "subject": "Biology",
       "topic": "Transport",
       "questionText": "Use the diagram above to answer this question. The part labelled l is the",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350221,
-      "externalId": "biology_0523",
-      "subject": "Biology",
-      "topic": "Excretion",
-      "questionText": "Use the diagram above to answer this question. Water reabsorption takes place in",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",

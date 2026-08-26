@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T08:06:29.888Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0523",
+    "questionText": "Use the diagram above to answer this question. Water reabsorption takes place in",
+    "optionsJson": "[\"II and III\",\"III and IV\",\"I and IV\",\"I and III\"]",
+    "currentAnswerIndex": 2,
+    "currentExplanation": "Water reabsorption is an essential part of urine formation because the kidney returns useful water from the filtrate to the blood. In the referenced nephron diagram, the structures labelled I and IV are the sites identified for water reabsorption. Do not rush this type of question: identify each labelled nephron region first, then match its function.",
+    "replacementAnswerIndex": 1,
+    "replacementExplanation": "Water reabsorption takes place in the alimentary canal and the kidney. In the exact figure, those organs are labelled III and IV; with the supplied option order, the correct answer is option B.",
+    "topic": "Excretion",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0523-testdriller-original_f9b78c24.png"
+  },
+  "receipt": {
+    "externalId": "biology_0523",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. Water reabsorption takes place in",
+      "optionsJson": "[\"II and III\",\"III and IV\",\"I and IV\",\"I and III\"]",
+      "topic": "Excretion",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "Water reabsorption is an essential part of urine formation because the kidney returns useful water from the filtrate to the blood. In the referenced nephron diagram, the structures labelled I and IV are the sites identified for water reabsorption. Do not rush this type of question: identify each labelled nephron region first, then match its function.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. Water reabsorption takes place in",
+      "optionsJson": "[\"II and III\",\"III and IV\",\"I and IV\",\"I and III\"]",
+      "topic": "Excretion",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 1,
+      "explanation": "Water reabsorption takes place in the alimentary canal and the kidney. In the exact figure, those organs are labelled III and IV; with the supplied option order, the correct answer is option B.",
+      "diagramUrl": "/manus-storage/biology-0523-testdriller-original_f9b78c24.png"
+    },
+    "reason": "TestDriller JAMB 2008 question 16 provides a clean complete native I–IV organ-system original. TestDriller, MySchool, and SchoolNGR match the protected prompt, II-and-III / III-and-IV / I-and-IV / I-and-III option order, and B/III-and-IV answer, so the source-proven key/explanation correction and mapping are released together."
+  }
+}

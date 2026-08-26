@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -469,6 +469,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "A chitinous exoskeleton is a defining feature of arthropods. In the exact figure, organism I is the arthropod, so with the supplied option order it is option A.",
     diagram_url: "/manus-storage/biology-0502-testdriller-original_eea7904a.png",
   },
+  water0523: {
+    id: "fixture-diagram-jamb-2008-water-reabsorption",
+    subject: "Biology",
+    topic: "Excretion",
+    subtopic: "Water balance",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "water reabsorption", "JAMB 2008"],
+    source: "Fixture — verified JAMB 2008 original",
+    question: "Use the diagram above to answer this question. Water reabsorption takes place in",
+    options: ["II and III", "III and IV", "I and IV", "I and III"],
+    answer_index: 1,
+    answer_text: "III and IV",
+    explanation: "Water reabsorption takes place in the alimentary canal and the kidney. In the exact figure, those organs are labelled III and IV; with the supplied option order, it is option B.",
+    diagram_url: "/manus-storage/biology-0523-testdriller-original_f9b78c24.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -612,6 +628,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   maize0501: "Recovered exact JAMB 2008 maize-inflorescence figure",
   hydra0502: "Recovered exact JAMB 2008 Hydra-budding figure",
   chitin0505: "Repaired byte-identical exact JAMB 2008 chitinous-exoskeleton figure",
+  water0523: "Repaired exact JAMB 2008 water-reabsorption figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
