@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-26T16:32:39.690Z",
+  "changedOnly": "diagramUrl",
+  "replacements": [
+    {
+      "id": 1170004,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-004",
+      "newDiagramUrl": "/manus-storage/Gemini_Generated_Image_yxf649yxf649yxf6_a31767f9.jpg"
+    },
+    {
+      "id": 1170003,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-003",
+      "newDiagramUrl": "/manus-storage/d53ee860-a163-11f1-aa95-c705be48a32d_7301fc24.png"
+    },
+    {
+      "id": 1050536,
+      "externalId": "kairo-csv-chemistry_ea3781",
+      "newDiagramUrl": "/manus-storage/5587f440-a168-11f1-8e1a-9529d895e9b2_ec811623.png"
+    },
+    {
+      "id": 1050438,
+      "externalId": "kairo-csv-chemistry_bcfca8",
+      "newDiagramUrl": "/manus-storage/8c64c100-a168-11f1-8e1a-9529d895e9b2_b6b8f094.png"
+    }
+  ],
+  "protectedFieldsVerified": true,
+  "lekkiHeadmasterTouched": false,
+  "idempotentRerunSafe": true
+}
