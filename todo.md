@@ -895,3 +895,8 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [ ] Owner batch: map the supplied new energy-profile image to `kairo-csv-chemistry_20650b`.
 - [ ] Owner batch: verify both owner mappings, learner visibility, and no Lekki Headmaster changes.
 - [x] Owner batch: record all 14 supplied image files and their known matching question records in `reports/owner_fourteen_diagram_mapping_queue_20260826.md`; no database question was changed during this read-only matching pass.
+
+- [x] New owner batch: replace the broken organic picture on `kairo-csv-chemistry_30bd42` with the newly supplied organic structure image. Saved as `/manus-storage/361320_b9c7bf03.png`; protected fields were unchanged.
+- [x] New owner batch: replace the energy-profile picture on `kairo-csv-chemistry_20650b` with the newly supplied image if it is the owner-approved replacement. Saved as `/manus-storage/361319_fa65243d.png`; protected fields were unchanged.
+- [x] New owner batch: map the supplied bird-beak, teeth, and female-reproductive diagrams to their exact questions. Mapped to `OWNER-BIO-DIAGRAM-2025-009`, `OWNER-BIO-DIAGRAM-2025-007`, and `OWNER-BIO-DIAGRAM-2025-002`; protected fields were unchanged.
+- [x] New owner batch: verify all newly mapped pictures open in the owner audit and learner QuestionCard, with no Lekki Headmaster changes. All five links returned HTTP 200; focused tests passed; the hold on `kairo-csv-chemistry_1ea741` remains intact; Lekki Headmaster was not touched.

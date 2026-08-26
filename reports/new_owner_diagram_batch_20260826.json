@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-08-26T14:23:17.351Z",
+  "changedOnly": "diagramUrl",
+  "updates": [
+    {
+      "id": 1050171,
+      "externalId": "kairo-csv-chemistry_30bd42",
+      "newDiagramUrl": "/manus-storage/361320_b9c7bf03.png"
+    },
+    {
+      "id": 1050122,
+      "externalId": "kairo-csv-chemistry_20650b",
+      "newDiagramUrl": "/manus-storage/361319_fa65243d.png"
+    },
+    {
+      "id": 1170009,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-009",
+      "newDiagramUrl": "/manus-storage/eff8e838-cc13-42a4-8eb6-72f5154f1e16_6298bc87.png"
+    },
+    {
+      "id": 1170007,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-007",
+      "newDiagramUrl": "/manus-storage/42349b3d-5d89-4d76-aadd-4a41e6a8f4fb(1)_3bcd216a.png"
+    },
+    {
+      "id": 1170002,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-002",
+      "newDiagramUrl": "/manus-storage/65b13ce8-83ec-449a-8bbf-30e6aaf08540_a28ca462.png"
+    }
+  ],
+  "terminatedStillHidden": {
+    "id": 1050117,
+    "externalId": "kairo-csv-chemistry_1ea741",
+    "explanationStatus": "needs_review"
+  },
+  "protectedFieldsVerified": true,
+  "lekkiHeadmasterTouched": false,
+  "idempotentRerunSafe": true
+}
