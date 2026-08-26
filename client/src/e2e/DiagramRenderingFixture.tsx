@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "ownerCell" | "ownerFlower" | "ownerSpine" | "ownerOsmosis" | "ownerSkin" | "ownerPlantTransport" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "ownerCell" | "ownerFlower" | "ownerSpine" | "ownerOsmosis" | "ownerSkin" | "ownerPlantTransport" | "ownerCleanRr" | "benzeneNoPicture" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -132,6 +132,37 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "III and IV respectively",
     explanation: "The restored image shows the arrows used in the question.",
     diagram_url: "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png",
+  },
+  ownerCleanRr: {
+    id: "OWNER-BIO-DIAGRAM-2025-001",
+    subject: "Biology",
+    topic: "Heredity",
+    subtopic: "Mendelian inheritance",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "owner-supplied", "Rr cross", "F2 ratio"],
+    source: "Fixture — clean owner-supplied Rr cross",
+    question: "What is the genotypic ratio of the F₂ generation?",
+    options: ["2 : 1 : 1", "3 : 1", "1 : 1", "1 : 2 : 1"],
+    answer_index: 3,
+    answer_text: "1 : 2 : 1",
+    explanation: "The Rr × Rr cross gives one RR, two Rr, and one rr offspring.",
+    diagram_url: "/manus-storage/owner-rr-cross-clean-20260826_58261e88.png",
+  },
+  benzeneNoPicture: {
+    id: "chem-docx-240",
+    subject: "Chemistry",
+    topic: "Organic compounds",
+    subtopic: "Benzene",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "owner-confirmed text-only", "benzene"],
+    source: "Fixture — owner-confirmed no-picture benzene question",
+    question: "How many carbon-carbon double bonds are formally represented in a Kekulé structure of benzene (C6H6)?",
+    options: ["1", "2", "3", "6"],
+    answer_index: 2,
+    answer_text: "3",
+    explanation: "A Kekulé benzene structure has three alternating carbon-carbon double bonds.",
   },
   sourceGraph: {
     id: "fixture-diagram-source-cockroach-graph",
@@ -783,6 +814,8 @@ const labels: Record<DiagramFixtureVariant, string> = {
   ownerOsmosis: "Owner-supplied yam osmosis set-up",
   ownerSkin: "Owner-supplied mammalian-skin diagram, label III",
   ownerPlantTransport: "Restored Owner Biology DOCX plant-transport diagram",
+  ownerCleanRr: "Clean owner-supplied Rr genetic cross",
+  benzeneNoPicture: "Owner-confirmed text-only benzene question",
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
   lizardGraph: "Repaired original lizard-and-bird graph",

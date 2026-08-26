@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T13:05:25.657Z",
+  "action": "Guarded owner-confirmed diagram-only batch update.",
+  "changedCount": 0,
+  "unchangedOnRepeatCount": 4,
+  "learnerEligibilityChanged": false,
+  "questionTextChanged": false,
+  "optionsChanged": false,
+  "answerChanged": false,
+  "explanationChanged": false,
+  "kairoChanged": false,
+  "lekkiHeadmasterChanged": false,
+  "records": [
+    {
+      "id": 660007,
+      "externalId": "chem-docx-240",
+      "reason": "Owner-confirmed text-only benzene question.",
+      "diagramUrl": {
+        "before": null,
+        "after": null
+      },
+      "protectedFieldsSha256": "3c5e18ed635ef4a548be89b745e4ce6490f479dcfd3f82544e5889f2be1d2d89",
+      "affectedRows": 0
+    },
+    {
+      "id": 750005,
+      "externalId": "biology-dr-high-0012",
+      "reason": "Owner-supplied clean replacement for the same labelled plant-transport original.",
+      "diagramUrl": {
+        "before": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png",
+        "after": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png"
+      },
+      "protectedFieldsSha256": "f62afb619ec879cbc838880ac0fd71ad065f6f29c91cac8c8b072840530fe4e5",
+      "affectedRows": 0
+    },
+    {
+      "id": 750006,
+      "externalId": "biology-dr-high-0013",
+      "reason": "The paired question uses the same owner-supplied clean plant-transport image.",
+      "diagramUrl": {
+        "before": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png",
+        "after": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png"
+      },
+      "protectedFieldsSha256": "a1bec62f43c5d73510536fc4a4a79ed4d2610b99d14f234beadc8ff344acf01f",
+      "affectedRows": 0
+    },
+    {
+      "id": 1170001,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-001",
+      "reason": "Owner-supplied clean replacement for the same Rr × Rr genetic cross.",
+      "diagramUrl": {
+        "before": "/manus-storage/owner-rr-cross-clean-20260826_58261e88.png",
+        "after": "/manus-storage/owner-rr-cross-clean-20260826_58261e88.png"
+      },
+      "protectedFieldsSha256": "ac546e6142df0722d523c0241f79c8803317235e064df2fcdb30293879ce1f5d",
+      "affectedRows": 0
+    }
+  ]
+}

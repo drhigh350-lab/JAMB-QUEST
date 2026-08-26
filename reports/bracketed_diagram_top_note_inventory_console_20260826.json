@@ -1,0 +1,38 @@
+{
+  "reportPath": "/home/ubuntu/jamb-quiz-game/reports/bracketed_diagram_top_note_inventory_20260826.json",
+  "linkedRecordCount": 114,
+  "removableBracketedTopNoteCount": 4,
+  "byType": {
+    "diagram-reference": 4
+  },
+  "records": [
+    {
+      "id": 1020028,
+      "externalId": "supplied-keyed-2004-biology-004",
+      "note": "[Refers to the osmosis set-up diagram in Q3]",
+      "questionAfterRemovingNote": "Which of the following results is to be expected if the set-up is left for several hours?",
+      "diagramUrl": "/manus-storage/owner-yam-osmosis-20260826_8e443547.png"
+    },
+    {
+      "id": 1020033,
+      "externalId": "supplied-keyed-2004-biology-009",
+      "note": "[Refers to the vertebral column diagram in Q8]",
+      "questionAfterRemovingNote": "The bones labelled II are called",
+      "diagramUrl": "/manus-storage/owner-vertebral-cervical-label-20260826_e9eea2e9.png"
+    },
+    {
+      "id": 1020037,
+      "externalId": "supplied-keyed-2004-biology-013",
+      "note": "[Refers to the flower diagram in Q12]",
+      "questionAfterRemovingNote": "The process of pollination involves the transfer of pollens from",
+      "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png"
+    },
+    {
+      "id": 1020056,
+      "externalId": "supplied-keyed-2004-biology-033",
+      "note": "[Refers to the cell diagram in Q32]",
+      "questionAfterRemovingNote": "The endoplasmic reticulum is represented by the part labelled",
+      "diagramUrl": "/manus-storage/biology-2004-cell-original-label-map-neutral_adf47544.png"
+    }
+  ]
+}

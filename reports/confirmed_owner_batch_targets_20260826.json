@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-26T13:03:31.090Z",
+  "mode": "Read-only target check. No question, image, answer, or source was changed.",
+  "records": [
+    {
+      "id": 660007,
+      "externalId": "chem-docx-240",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "questionText": "How many carbon-carbon double bonds are formally represented in a Kekulé structure of benzene (C6H6)?",
+      "optionsJson": "[\"1\",\"2\",\"3\",\"6\"]",
+      "answerIndex": 2,
+      "explanation": "Governing principle: The Kekulé structure of benzene is shown as a six-membered ring with alternating single and double C–C bonds.\nAlternation means every other bond around the ring is a double bond.\nCounting those gives 6 ÷ 2 = 3 carbon–carbon double bonds.\nCorrect option: C (3).",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/jamb-quest-benzene-kekule_36e25e7a.png",
+      "sourceId": 8880001,
+      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 008",
+      "sourceActive": 1,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "savedAnswer": "3"
+    },
+    {
+      "id": 750005,
+      "externalId": "biology-dr-high-0012",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
+      "optionsJson": "[\"A. III and IV respectively\",\"B. II and I respectively\",\"C. I and II respectively\",\"D. I and III respectively\"]",
+      "answerIndex": 0,
+      "explanation": "Concept: the question tests transport direction in vascular tissues—xylem moves water/minerals upward and phloem moves food downward/outward as shown by arrows III and IV.\nWhy A is correct: arrow III indicates upward xylem flow (water and minerals) and arrow IV indicates downward/outward phloem flow (food), so III and IV match the tissues.\nReject the nearest alternative: any option that replaces IV with I (for example D) is incorrect because I does not show the downward/outward food transport depicted by arrow IV.\nExam takeaway: choose A (III and IV) whenever the diagram shows upward movement in xylem and downward/outward movement in phloem.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png",
+      "sourceId": 9210001,
+      "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+      "sourceActive": 1,
+      "options": [
+        "A. III and IV respectively",
+        "B. II and I respectively",
+        "C. I and II respectively",
+        "D. I and III respectively"
+      ],
+      "savedAnswer": "A. III and IV respectively"
+    },
+    {
+      "id": 750006,
+      "externalId": "biology-dr-high-0013",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "During photosynthesis, the arrow labelled II represents the",
+      "optionsJson": "[\"A. escape of mineral salts\",\"B. absorption of energy from the sun\",\"C. release of carbon (IV) oxide\",\"D. release of oxygen as a by‑product\"]",
+      "answerIndex": 3,
+      "explanation": "Concept: Arrow II indicates a gas being released from the leaf during photosynthesis.\nWhy D is correct: Option D (release of oxygen as a by‑product) matches because oxygen is produced by photolysis—the splitting of water—and exits the leaf where Arrow II points.\nReject the closest alternative: Not C — carbon(IV) oxide is taken into the leaf for the light‑independent stage rather than being released; A and B are also wrong because mineral salts don’t exit as that gas and sunlight is absorbed into the leaf, not shown as an outward gas arrow.\nExam takeaway: When an arrow points out of a leaf in a photosynthesis diagram, choose oxygen release (D) and remember oxygen comes from water splitting during the light stage.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png",
+      "sourceId": 9210001,
+      "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+      "sourceActive": 1,
+      "options": [
+        "A. escape of mineral salts",
+        "B. absorption of energy from the sun",
+        "C. release of carbon (IV) oxide",
+        "D. release of oxygen as a by‑product"
+      ],
+      "savedAnswer": "D. release of oxygen as a by‑product"
+    },
+    {
+      "id": 1170001,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-001",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "What is the genotypic ratio of the F₂ generation?",
+      "optionsJson": "[\"2 : 1 : 1\",\"3 : 1\",\"1 : 1\",\"1 : 2 : 1\"]",
+      "answerIndex": 3,
+      "explanation": "The cross is Rr × Rr. It produces one RR, two Rr, and one rr offspring, giving the genotypic ratio 1 : 2 : 1.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-bio-diagram-2025-001_7a12c1dc.png",
+      "sourceId": 13830001,
+      "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+      "sourceActive": 1,
+      "options": [
+        "2 : 1 : 1",
+        "3 : 1",
+        "1 : 1",
+        "1 : 2 : 1"
+      ],
+      "savedAnswer": "1 : 2 : 1"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-26T13:02:44.807Z",
+  "action": "Guarded removal of leading bracketed diagram-reference notes only.",
+  "targetCount": 4,
+  "changedCount": 0,
+  "unchangedOnRepeatCount": 4,
+  "diagramLinksChanged": false,
+  "learnerEligibilityChanged": false,
+  "kairoChanged": false,
+  "lekkiHeadmasterChanged": false,
+  "records": [
+    {
+      "id": 1020028,
+      "externalId": "supplied-keyed-2004-biology-004",
+      "removedNote": "[Refers to the osmosis set-up diagram in Q3]",
+      "questionTextBefore": "Which of the following results is to be expected if the set-up is left for several hours?",
+      "questionTextAfter": "Which of the following results is to be expected if the set-up is left for several hours?",
+      "diagramUrlUnchanged": "/manus-storage/owner-yam-osmosis-20260826_8e443547.png",
+      "protectedFieldsSha256": "f26a6ac86b01c4b1de46c40863ce8df0164bc697e4b4c6209ab3a9942155d33d",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020033,
+      "externalId": "supplied-keyed-2004-biology-009",
+      "removedNote": "[Refers to the vertebral column diagram in Q8]",
+      "questionTextBefore": "The bones labelled II are called",
+      "questionTextAfter": "The bones labelled II are called",
+      "diagramUrlUnchanged": "/manus-storage/owner-vertebral-cervical-label-20260826_e9eea2e9.png",
+      "protectedFieldsSha256": "686f37992ec3f016035f332fabe10b1d1345c0deee57f3521abdb96d57356a50",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020037,
+      "externalId": "supplied-keyed-2004-biology-013",
+      "removedNote": "[Refers to the flower diagram in Q12]",
+      "questionTextBefore": "The process of pollination involves the transfer of pollens from",
+      "questionTextAfter": "The process of pollination involves the transfer of pollens from",
+      "diagramUrlUnchanged": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+      "protectedFieldsSha256": "01ce6d79d63ada374506c463b40aadbbc679c879686285473d5f96e051a2cc36",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020056,
+      "externalId": "supplied-keyed-2004-biology-033",
+      "removedNote": "[Refers to the cell diagram in Q32]",
+      "questionTextBefore": "The endoplasmic reticulum is represented by the part labelled",
+      "questionTextAfter": "The endoplasmic reticulum is represented by the part labelled",
+      "diagramUrlUnchanged": "/manus-storage/biology-2004-cell-original-label-map-neutral_adf47544.png",
+      "protectedFieldsSha256": "8b9cf0453b2dd4824b97e22fc59a0ce1c270b626a89a938f425b3a2c28668678",
+      "affectedRows": 0
+    }
+  ]
+}

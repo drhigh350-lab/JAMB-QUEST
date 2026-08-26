@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-08-26T13:01:27.812Z",
+  "mode": "Read-only inventory. Only leading bracketed diagram descriptions/references are reported; normal instructions are excluded.",
+  "linkedRecordCount": 114,
+  "removableBracketedTopNoteCount": 4,
+  "byType": {
+    "diagram-reference": 4
+  },
+  "records": [
+    {
+      "id": 1020028,
+      "externalId": "supplied-keyed-2004-biology-004",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "note": "[Refers to the osmosis set-up diagram in Q3]",
+      "questionText": "[Refers to the osmosis set-up diagram in Q3]\nWhich of the following results is to be expected if the set-up is left for several hours?",
+      "questionAfterRemovingNote": "Which of the following results is to be expected if the set-up is left for several hours?",
+      "options": [
+        "Movement of water from the salt solution",
+        "Decrease in the size of the yam",
+        "Movement of the salt solution into the water",
+        "Decrease in the volume of water inside the yam."
+      ],
+      "answerIndex": 1,
+      "savedAnswer": "Decrease in the size of the yam",
+      "explanation": "Since the salt solution held inside the hollowed yam cavity has a higher solute concentration than the plain water surrounding it in the beaker, water moves by osmosis from the beaker (higher water potential) through the semi-permeable yam tissue into the salt solution inside the cavity, causing the salt solution's volume to increase and its concentration to become diluted over several hours. This directional movement is driven purely by the water potential gradient between the two solutions, with water always moving toward the region of lower water potential (higher solute concentration) across a semi-permeable membrane. This tests prediction of osmotic water movement direction based on relative solute concentrations, a core cell biology application. Exam tip: always identify which side of a semi-permeable membrane holds the higher solute concentration first, since water always moves toward that side by osmosis.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-yam-osmosis-20260826_8e443547.png",
+      "sourceId": 11580001,
+      "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+      "sourceActive": true,
+      "noteType": "diagram-reference"
+    },
+    {
+      "id": 1020033,
+      "externalId": "supplied-keyed-2004-biology-009",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "note": "[Refers to the vertebral column diagram in Q8]",
+      "questionText": "[Refers to the vertebral column diagram in Q8]\nThe bones labelled II are called",
+      "questionAfterRemovingNote": "The bones labelled II are called",
+      "options": [
+        "thoracic vertebrae",
+        "lumbar vertebrae",
+        "cervical vertebrae",
+        "sacral vertebrae."
+      ],
+      "answerIndex": 2,
+      "savedAnswer": "cervical vertebrae",
+      "explanation": "Based on the typical position labelled in this classic vertebral column diagram (region II, generally positioned in the neck/upper spine area in standard versions of this question), the bones are identified as cervical vertebrae, the seven vertebrae located in the neck region that support the skull and allow head movement. Thoracic, lumbar, and sacral vertebrae are located in the chest, lower back, and pelvic regions respectively, each with distinct labelled positions along the column. This tests regional identification of vertebral column segments, a standard skeletal anatomy topic. Exam tip: memorize the vertebral column regions from top to bottom: cervical (neck, 7 bones) - thoracic (chest, 12 bones) - lumbar (lower back, 5 bones) - sacral (pelvis, fused) - coccygeal (tailbone).",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-vertebral-cervical-label-20260826_e9eea2e9.png",
+      "sourceId": 11580001,
+      "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+      "sourceActive": true,
+      "noteType": "diagram-reference"
+    },
+    {
+      "id": 1020037,
+      "externalId": "supplied-keyed-2004-biology-013",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "note": "[Refers to the flower diagram in Q12]",
+      "questionText": "[Refers to the flower diagram in Q12]\nThe process of pollination involves the transfer of pollens from",
+      "questionAfterRemovingNote": "The process of pollination involves the transfer of pollens from",
+      "options": [
+        "III to IV",
+        "IV to I",
+        "II to III",
+        "I to II"
+      ],
+      "answerIndex": 0,
+      "savedAnswer": "III to IV",
+      "explanation": "Pollination is the transfer of pollen grains from the anther (the male pollen-producing structure) to the stigma (the female pollen-receiving structure), so based on the diagram's labelling where the parts are identified in sequence, the correct transfer direction runs from the anther (part III in this diagram's typical labelling) to the stigma (part IV), consistent with the fundamental definition of pollination. This tests understanding of the basic mechanism and directional flow of pollination between flower structures. Exam tip: pollination always flows from anther (pollen source) to stigma (pollen destination) - memorize this directional relationship regardless of how a specific diagram labels the parts.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+      "sourceId": 11580001,
+      "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+      "sourceActive": true,
+      "noteType": "diagram-reference"
+    },
+    {
+      "id": 1020056,
+      "externalId": "supplied-keyed-2004-biology-033",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "note": "[Refers to the cell diagram in Q32]",
+      "questionText": "[Refers to the cell diagram in Q32]\nThe endoplasmic reticulum is represented by the part labelled",
+      "questionAfterRemovingNote": "The endoplasmic reticulum is represented by the part labelled",
+      "options": [
+        "III",
+        "VI",
+        "I",
+        "II"
+      ],
+      "answerIndex": 2,
+      "savedAnswer": "I",
+      "explanation": "Based on the typical labelling convention in this classic cell diagram, the endoplasmic reticulum (the network of membranes involved in protein and lipid synthesis/transport) is represented by the part labelled II, distinguishing it from other organelles like mitochondria, the nucleus, and Golgi apparatus which are labelled at different positions in the same diagram. This tests recognition of the endoplasmic reticulum's characteristic branching membrane network appearance in cell diagrams. Exam tip: the endoplasmic reticulum is typically drawn as a network of folded/branching membrane channels extending from the nuclear envelope, visually distinct from the double-membraned oval mitochondria or the membrane-bound round nucleus.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-2004-cell-original-label-map-neutral_adf47544.png",
+      "sourceId": 11580001,
+      "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+      "sourceActive": true,
+      "noteType": "diagram-reference"
+    }
+  ]
+}
