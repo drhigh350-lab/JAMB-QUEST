@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-26T12:54:41.131Z",
+  "action": "Fresh-link recovery for the unchanged Owner Biology DOCX plant-transport original.",
+  "originalImageSha256": "9c8211d8d4e41614e33b9d21f00f51bca98036fa3c9ef9f3571d11c01a6b6807",
+  "imageDimensions": "1000x740",
+  "changedCount": 0,
+  "unchangedOnRepeatCount": 2,
+  "learnerEligibilityChanged": false,
+  "questionTextChanged": false,
+  "kairoChanged": false,
+  "lekkiHeadmasterChanged": false,
+  "records": [
+    {
+      "id": 750005,
+      "externalId": "biology-dr-high-0012",
+      "diagramUrl": {
+        "before": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png",
+        "after": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png"
+      },
+      "protectedFieldsSha256": "f62afb619ec879cbc838880ac0fd71ad065f6f29c91cac8c8b072840530fe4e5",
+      "affectedRows": 0
+    },
+    {
+      "id": 750006,
+      "externalId": "biology-dr-high-0013",
+      "diagramUrl": {
+        "before": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png",
+        "after": "/manus-storage/owner-biology-plant-transport-restored-20260826_8317ae86.png"
+      },
+      "protectedFieldsSha256": "a1bec62f43c5d73510536fc4a4a79ed4d2610b99d14f234beadc8ff344acf01f",
+      "affectedRows": 0
+    }
+  ]
+}
