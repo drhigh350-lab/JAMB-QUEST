@@ -1,0 +1,96 @@
+import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
+import fs from "node:fs/promises";
+import path from "node:path";
+import mysql from "mysql2/promise";
+
+const projectRoot = "/home/ubuntu/jamb-quiz-game";
+const inventoryPath = path.join(projectRoot, "reports", "diagram_description_prefix_and_kairo_provenance_20260826.json");
+const receiptPath = path.join(projectRoot, "reports", "visible_diagram_description_prefix_removal_receipt_20260826.json");
+const LEKKI_MARKER = /lekki headmaster/i;
+const PREFIX = /^\s*\[DIAGRAM[^\]]*\]\s*/i;
+const inventory = JSON.parse(await fs.readFile(inventoryPath, "utf8"));
+const targets = inventory.visibleDiagramDescriptionPrefixes;
+assert.equal(targets.length, 6, "The visible prefix inventory changed; refusing cleanup.");
+
+function protectedSnapshot(row) {
+  return {
+    id: row.id,
+    externalId: row.externalId,
+    subject: row.subject,
+    topic: row.topic,
+    difficulty: row.difficulty,
+    optionsJson: row.optionsJson,
+    answerIndex: row.answerIndex,
+    explanation: row.explanation,
+    explanationStatus: row.explanationStatus,
+    diagramUrl: row.diagramUrl,
+    sourceId: row.sourceId,
+  };
+}
+
+const digest = (value) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
+const connection = await mysql.createConnection(process.env.DATABASE_URL);
+try {
+  await connection.beginTransaction();
+  const records = [];
+  for (const target of targets) {
+    const [beforeRows] = await connection.execute(`
+      SELECT qi.id, qi.externalId, qi.subject, qi.topic, qi.difficulty, qi.questionText,
+        qi.optionsJson, qi.answerIndex, qi.explanation, qi.explanationStatus, qi.diagramUrl,
+        qi.sourceId, qs.label AS sourceLabel
+      FROM questionItems qi INNER JOIN questionSources qs ON qs.id = qi.sourceId
+      WHERE qi.id = ?
+    `, [target.id]);
+    assert.equal(beforeRows.length, 1, `Record ${target.id} is missing.`);
+    const before = beforeRows[0];
+    assert.equal(before.externalId, target.externalId, `External ID changed for ${target.id}.`);
+    assert.equal(before.sourceId, target.sourceId, `Source changed for ${target.id}.`);
+    assert.equal(before.diagramUrl, target.diagramUrl, `Diagram link changed for ${target.id}.`);
+    assert.ok(!LEKKI_MARKER.test(before.sourceLabel) && !LEKKI_MARKER.test(before.questionText), `Lekki record ${target.id} is excluded.`);
+    const expectedCleanedQuestionText = target.questionText.replace(PREFIX, "").trimStart();
+    const hasVisiblePrefix = PREFIX.test(before.questionText);
+    const cleanedQuestionText = hasVisiblePrefix ? before.questionText.replace(PREFIX, "").trimStart() : before.questionText;
+    assert.equal(cleanedQuestionText, expectedCleanedQuestionText, `Unexpected question text for ${target.id}.`);
+    const snapshot = protectedSnapshot(before);
+    let affectedRows = 0;
+    if (hasVisiblePrefix) {
+      const [result] = await connection.execute(`
+        UPDATE questionItems
+        SET questionText = ?
+        WHERE id = ? AND externalId = ? AND sourceId = ? AND questionText = ? AND optionsJson = ?
+          AND answerIndex = ? AND explanationStatus = ? AND diagramUrl = ?
+      `, [cleanedQuestionText, before.id, before.externalId, before.sourceId, before.questionText, before.optionsJson, before.answerIndex, before.explanationStatus, before.diagramUrl]);
+      affectedRows = result.affectedRows;
+      assert.equal(affectedRows, 1, `Prefix cleanup did not affect exactly one record for ${target.id}.`);
+    }
+    const [afterRows] = await connection.execute(`
+      SELECT id, externalId, subject, topic, difficulty, questionText, optionsJson, answerIndex,
+        explanation, explanationStatus, diagramUrl, sourceId
+      FROM questionItems WHERE id = ?
+    `, [target.id]);
+    const after = afterRows[0];
+    assert.equal(after.questionText, cleanedQuestionText, `Prefix remains for ${target.id}.`);
+    assert.equal(digest(protectedSnapshot(after)), digest(snapshot), `Protected content changed for ${target.id}.`);
+    records.push({ id: target.id, externalId: target.externalId, questionTextBefore: before.questionText, questionTextAfter: after.questionText, diagramUrlUnchanged: after.diagramUrl, protectedFieldsSha256: digest(snapshot), affectedRows });
+  }
+  await connection.commit();
+  const receipt = {
+    generatedAt: new Date().toISOString(),
+    action: "Guarded removal of visible bracketed diagram-description prefixes only.",
+    targetCount: targets.length,
+    changedCount: records.filter((record) => record.affectedRows === 1).length,
+    unchangedOnRepeatCount: records.filter((record) => record.affectedRows === 0).length,
+    learnerEligibilityRuleChanged: false,
+    diagramLinksChanged: false,
+    lekkiHeadmasterChanged: false,
+    records,
+  };
+  await fs.writeFile(receiptPath, `${JSON.stringify(receipt, null, 2)}\n`);
+  console.log(JSON.stringify({ receiptPath, receipt }, null, 2));
+} catch (error) {
+  await connection.rollback();
+  throw error;
+} finally {
+  await connection.end();
+}

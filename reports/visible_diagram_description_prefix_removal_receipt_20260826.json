@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-08-26T12:08:13.032Z",
+  "action": "Guarded removal of visible bracketed diagram-description prefixes only.",
+  "targetCount": 6,
+  "changedCount": 0,
+  "unchangedOnRepeatCount": 6,
+  "learnerEligibilityRuleChanged": false,
+  "diagramLinksChanged": false,
+  "lekkiHeadmasterChanged": false,
+  "records": [
+    {
+      "id": 1020027,
+      "externalId": "supplied-keyed-2004-biology-003",
+      "questionTextBefore": "Yam is used in this set-up because it",
+      "questionTextAfter": "Yam is used in this set-up because it",
+      "diagramUrlUnchanged": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+      "protectedFieldsSha256": "26373878a8fdb6e8e6aa07c94da3753d4f2646fb051ed88e3161e8cea0899bf7",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020032,
+      "externalId": "supplied-keyed-2004-biology-008",
+      "questionTextBefore": "The type of joint between adjacent bones in the part labelled II is the",
+      "questionTextAfter": "The type of joint between adjacent bones in the part labelled II is the",
+      "diagramUrlUnchanged": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+      "protectedFieldsSha256": "fcee0c4f35bfd99114f4c790a026830905f59131f2f7c8feab78ccc224ab3393",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020036,
+      "externalId": "supplied-keyed-2004-biology-012",
+      "questionTextBefore": "The part labelled II is the",
+      "questionTextAfter": "The part labelled II is the",
+      "diagramUrlUnchanged": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+      "protectedFieldsSha256": "e26805585ea0756da5fc7c7d1010ea030f1bfdb729b5f660772ce6b7cfceb5f4",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020039,
+      "externalId": "supplied-keyed-2004-biology-015",
+      "questionTextBefore": "The function of the part labelled III is to",
+      "questionTextAfter": "The function of the part labelled III is to",
+      "diagramUrlUnchanged": "/manus-storage/biology-skin-cross-section-neutral_c2f97b70.png",
+      "protectedFieldsSha256": "74076f45263bbcc46361821a48872b8d1cf4c0fa0dadc2ed3940b92d5b790460",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020055,
+      "externalId": "supplied-keyed-2004-biology-032",
+      "questionTextBefore": "The part labelled II is responsible for",
+      "questionTextAfter": "The part labelled II is responsible for",
+      "diagramUrlUnchanged": "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png",
+      "protectedFieldsSha256": "03a2d27c582ee03c1206a4b5182a5615a301dd32c440d7def2f395936a76a533",
+      "affectedRows": 0
+    },
+    {
+      "id": 1020081,
+      "externalId": "supplied-keyed-2021-chemistry-036",
+      "questionTextBefore": "In the experiment above, X is a mixture of nitrogen, carbon (IV) oxide and",
+      "questionTextAfter": "In the experiment above, X is a mixture of nitrogen, carbon (IV) oxide and",
+      "diagramUrlUnchanged": "/manus-storage/chemistry-2021-atom-mixture-neutral_4778e51b.png",
+      "protectedFieldsSha256": "82cabbb18d29013fb457f34f414ce902256fe64f309b2af7b3c70dcc7de55f3b",
+      "affectedRows": 0
+    }
+  ]
+}
