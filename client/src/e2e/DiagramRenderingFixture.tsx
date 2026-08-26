@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -309,6 +309,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Label IV identifies the duodenum, where bile emulsifies fats into smaller droplets and increases the surface area available to lipase.",
     diagram_url: "/manus-storage/biology-0551-testdriller-original_7dc25806.png",
   },
+  plantation0583: {
+    id: "fixture-diagram-jamb-2010-plantation-height",
+    subject: "Biology",
+    topic: "Natural habitats",
+    subtopic: "Population distribution",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "plantation graph", "JAMB 2010"],
+    source: "Fixture — verified JAMB 2010 original",
+    question: "Use the diagram above to answer this question. In which plantation are all the trees between the height of 2-4m?",
+    options: ["III", "II", "I", "IV"],
+    answer_index: 0,
+    answer_text: "III",
+    explanation: "All trees in plantation III lie between 2 m and 4 m on the graph. The other plantations include trees outside that interval, so III is correct; with the supplied option order, that is option A.",
+    diagram_url: "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -394,6 +410,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   idealGas: "Repaired exact JAMB 2011 ideal-gas graph",
   photosynthesis0562: "Repaired exact JAMB 2010 photosynthesis-arrow figure",
   emulsification0551: "Repaired exact JAMB 2009 emulsification figure",
+  plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

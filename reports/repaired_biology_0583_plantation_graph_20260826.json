@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T06:55:31.541Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change after exact source confirmation; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0583",
+    "questionText": "Use the diagram above to answer this question. In which plantation are all the trees between the height of 2-4m?",
+    "optionsJson": "[\"III\",\"II\",\"I\",\"IV\"]",
+    "currentAnswerIndex": 2,
+    "currentExplanation": "This question requires reading the height distribution shown in the plantation diagram. Plantation I is the one whose represented trees all fall within the 2–4 m height interval; the key is to compare the entire range of tree heights rather than the tallest or most numerous trees.",
+    "replacementAnswerIndex": 0,
+    "replacementExplanation": "All trees in plantation III lie between 2 m and 4 m on the graph. The other plantations include trees outside that interval, so III is correct; with the supplied option order, that is option A.",
+    "topic": "Natural habitats",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png"
+  },
+  "receipt": {
+    "externalId": "biology_0583",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. In which plantation are all the trees between the height of 2-4m?",
+      "optionsJson": "[\"III\",\"II\",\"I\",\"IV\"]",
+      "topic": "Natural habitats",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "This question requires reading the height distribution shown in the plantation diagram. Plantation I is the one whose represented trees all fall within the 2–4 m height interval; the key is to compare the entire range of tree heights rather than the tallest or most numerous trees.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. In which plantation are all the trees between the height of 2-4m?",
+      "optionsJson": "[\"III\",\"II\",\"I\",\"IV\"]",
+      "topic": "Natural habitats",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 0,
+      "explanation": "All trees in plantation III lie between 2 m and 4 m on the graph. The other plantations include trees outside that interval, so III is correct; with the supplied option order, that is option A.",
+      "diagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png"
+    },
+    "reason": "clean exact TestDriller graph confirms the complete I–IV height distributions; TestDriller and SchoolNGR independently match the prompt, option order, and A/III key, so the source-proven answer/explanation correction and diagram mapping are released together"
+  }
+}

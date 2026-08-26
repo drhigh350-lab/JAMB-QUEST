@@ -60,8 +60,8 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 109, bySubject: { Biology: 56, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 22, bySubject: { Biology: 21, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 110, bySubject: { Biology: 57, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 21, bySubject: { Biology: 20, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
     expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 24 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
@@ -328,5 +328,18 @@ describe("undersized diagram audit repair", () => {
     expect(addendum.answerDecision).toContain("TestDriller reports B/II");
     expect(addendum.answerDecision).toContain("not treated as independent answer authority");
     expect(addendum.correctionRule).toContain("Do not alter the key or explanation");
+  });
+
+  it("repairs biology_0583 only through a guarded clean exact-original plantation-graph and A/III key correction", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0583PlantationGraphRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0583"');
+    expect(script).toContain("biology-0583-testdriller-original_99e7eb08.png");
+    expect(script).toContain("currentAnswerIndex: 2");
+    expect(script).toContain("replacementAnswerIndex: 0");
+    expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
   });
 });
