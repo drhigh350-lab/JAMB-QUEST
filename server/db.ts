@@ -607,6 +607,33 @@ type OwnerDiagramAuditState = "all" | "missing" | "linked";
 export async function getOwnerDiagramAuditPage(input: { subject: OwnerDiagramAuditSubject | "all"; state: OwnerDiagramAuditState; search: string; page: number; pageSize: number }) {
   const db = await getDb();
   if (!db) throw new Error("The owner diagram desk is unavailable right now.");
+  const baseFilter = input.subject === "all"
+    ? eq(questionSources.isActive, 1)
+    : and(eq(questionSources.isActive, 1), eq(questionItems.subject, input.subject));
+  const candidates = await db.select({
+    id: questionItems.id,
+    externalId: questionItems.externalId,
+    subject: questionItems.subject,
+    topic: questionItems.topic,
+    questionText: questionItems.questionText,
+    diagramUrl: questionItems.diagramUrl,
+    sourceLabel: questionSources.label,
+  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(baseFilter).orderBy(questionItems.id);
+
+  const search = input.search.trim().toLowerCase();
+  const relevantCandidates = candidates.filter((row) => {
+    const stem = normaliseQuestionStem(row.questionText);
+    const hasDiagram = Boolean(row.diagramUrl?.trim());
+    if (!hasDiagram && !requiresDiagramAsset(stem)) return false;
+    if (search && ![row.id, row.externalId, row.subject, row.topic, stem, row.sourceLabel].some((value) => String(value ?? "").toLowerCase().includes(search))) return false;
+    return true;
+  });
+  const missingCount = relevantCandidates.filter((record) => !record.diagramUrl?.trim()).length;
+  const linkedCount = relevantCandidates.filter((record) => Boolean(record.diagramUrl?.trim())).length;
+  const stateCandidates = relevantCandidates.filter((record) => input.state === "all" || (input.state === "missing" ? !record.diagramUrl?.trim() : Boolean(record.diagramUrl?.trim())));
+  const start = input.page * input.pageSize;
+  const pageIds = stateCandidates.slice(start, start + input.pageSize).map((record) => record.id);
+  if (!pageIds.length) return { total: stateCandidates.length, missingCount, linkedCount, page: input.page, pageSize: input.pageSize, records: [] };
   const rows = await db.select({
     id: questionItems.id,
     externalId: questionItems.externalId,
@@ -620,18 +647,12 @@ export async function getOwnerDiagramAuditPage(input: { subject: OwnerDiagramAud
     explanationStatus: questionItems.explanationStatus,
     diagramUrl: questionItems.diagramUrl,
     sourceLabel: questionSources.label,
-    sourceActive: questionSources.isActive,
-  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(eq(questionSources.isActive, 1)).orderBy(questionItems.id);
-
-  const search = input.search.trim().toLowerCase();
-  const records = rows.flatMap((row) => {
+  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(and(baseFilter, inArray(questionItems.id, pageIds)));
+  const recordsById = new Map(rows.map((row) => [row.id, row]));
+  const records = pageIds.flatMap((id) => {
+    const row = recordsById.get(id);
+    if (!row) return [];
     const stem = normaliseQuestionStem(row.questionText);
-    const hasDiagram = Boolean(row.diagramUrl?.trim());
-    if (!hasDiagram && !requiresDiagramAsset(stem)) return [];
-    if (input.subject !== "all" && row.subject !== input.subject) return [];
-    if (input.state === "missing" && hasDiagram) return [];
-    if (input.state === "linked" && !hasDiagram) return [];
-    if (search && ![row.id, row.externalId, row.subject, row.topic, stem, row.sourceLabel].some((value) => String(value ?? "").toLowerCase().includes(search))) return [];
     try {
       const options = JSON.parse(row.optionsJson) as unknown;
       if (!Array.isArray(options) || options.some((option) => typeof option !== "string") || row.answerIndex < 0 || row.answerIndex >= options.length) return [];
@@ -668,10 +689,7 @@ export async function getOwnerDiagramAuditPage(input: { subject: OwnerDiagramAud
       return [];
     }
   });
-  const missingCount = records.filter((record) => !record.diagramUrl).length;
-  const linkedCount = records.filter((record) => Boolean(record.diagramUrl)).length;
-  const start = input.page * input.pageSize;
-  return { total: records.length, missingCount, linkedCount, page: input.page, pageSize: input.pageSize, records: records.slice(start, start + input.pageSize) };
+  return { total: stateCandidates.length, missingCount, linkedCount, page: input.page, pageSize: input.pageSize, records };
 }
 
 const OWNER_REVIEW_SUBJECTS = ["Use of English", "Biology", "Chemistry", "Physics"] as const;
