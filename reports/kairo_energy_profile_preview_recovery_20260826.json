@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-08-26T13:48:24.789Z",
+  "target": {
+    "id": 1050122,
+    "externalId": "kairo-csv-chemistry_20650b",
+    "oldDiagramUrl": "/manus-storage/chemistry-energy-profile-original_3e1f7670.png",
+    "newDiagramUrl": "/manus-storage/chemistry-energy-profile-original-20260826_69a97b4c.png",
+    "explanationStatus": "approved"
+  },
+  "changedFields": [
+    "diagramUrl"
+  ],
+  "learnerVisible": true,
+  "protectedFieldsSha256": "ebc0269a96f1a86b3879d075ef5d77346955fd90b71f0760e896dad82c861b9e",
+  "affectedRows": 0
+}
