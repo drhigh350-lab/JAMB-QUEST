@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-08-26T16:44:55.288Z",
+  "target": {
+    "id": 1140020,
+    "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67249?exam_type=jamb&exam_year=2023&page=1:1",
+    "expectedDiagramUrl": "/manus-storage/jamb-quest-physics-diffraction-wave-neutral_999b518c.svg",
+    "newDiagramUrl": "/manus-storage/09b24020-a16d-11f1-bf0f-f32031ac4e86_665b74c5.webp"
+  },
+  "changedOnly": "diagramUrl",
+  "protectedFieldsVerified": true,
+  "lekkiHeadmasterTouched": false,
+  "idempotentRerunSafe": true
+}
