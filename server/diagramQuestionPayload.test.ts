@@ -22,7 +22,7 @@ describe("instructional diagram question payload", () => {
     const fixture = readFileSync(resolve(import.meta.dirname, "../client/src/e2e/DiagramRenderingFixture.tsx"), "utf8");
     const main = readFileSync(resolve(import.meta.dirname, "../client/src/main.tsx"), "utf8");
     const card = readFileSync(resolve(import.meta.dirname, "../client/src/components/QuestionCard.tsx"), "utf8");
-    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "lizardGraph", "osmosis", "fermentation", "variation", "ovary", "embryo", "beak", "vertebra", "digestive0413", "euglena0749", "beak1225", "kclo3Oxygen", "idealGas", "photosynthesis0562", "emulsification0551", "plantation0583", "plantation0584", "leaf0536", "leaf0546", "fungal0483", "fungal0470", "dog0480", "maize0501", "hydra0502", "chitin0505", "water0523", "thermo0527", "amplexus0890", "frog1041", "countershade1033", "aquatic0574", "digestive0552", "raptor0569", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
+    for (const variant of ["svg", "source", "sourceGraph", "thermoregulation", "lizardGraph", "osmosis", "fermentation", "variation", "ovary", "embryo", "beak", "vertebra", "digestive0413", "euglena0749", "beak1225", "kclo3Oxygen", "idealGas", "photosynthesis0562", "emulsification0551", "plantation0583", "plantation0584", "leaf0536", "leaf0546", "fungal0483", "fungal0470", "dog0480", "maize0501", "hydra0502", "chitin0505", "water0523", "thermo0527", "amplexus0890", "frog1041", "countershade1033", "f2ratio1111", "aquatic0574", "digestive0552", "raptor0569", "broken", "wide", "portrait", "none"]) expect(fixture).toContain(`${variant}:`);
     expect(fixture).toContain("owner-phy-diagram-2026-008-source-panel_acaa185f.png");
     expect(fixture).toContain("jamb-quest-potometer_0ff84706.svg");
     expect(fixture).toContain("chemistry-energy-profile-original_3e1f7670.png");
@@ -54,6 +54,7 @@ describe("instructional diagram question payload", () => {
     expect(fixture).toContain("biology-0890-testdriller-original_300cb4b6.png");
     expect(fixture).toContain("biology-1041-testdriller-original_f360a5e8.png");
     expect(fixture).toContain("biology-1033-testdriller-original_425154e0.png");
+    expect(fixture).toContain("boundary-x0-520-y38-354_5d0f5769.png");
     expect(fixture).toContain("biology-0574-testdriller-original_23e441c0.png");
     expect(fixture).toContain("biology-0552-testdriller-original_2097df8d.png");
     expect(fixture).toContain("biology-0569-testdriller-original_ec8a36e9.png");

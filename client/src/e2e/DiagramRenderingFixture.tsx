@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -549,6 +549,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Countershading uses a darker upper surface and lighter underside to reduce visibility. With the supplied option order, it is option C.",
     diagram_url: "/manus-storage/biology-1033-testdriller-original_425154e0.png",
   },
+  f2ratio1111: {
+    id: "fixture-diagram-jamb-2025-f2-genotypic-ratio",
+    subject: "Biology",
+    topic: "Heredity",
+    subtopic: "Mendelian inheritance",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "clean repeated original", "F2 ratio", "JAMB 2025"],
+    source: "Fixture — verified JAMB 2025 content with clean repeated original visual",
+    question: "Use the illustration above to answer the question that follows What is the genotypic ratio of the F2 generation?",
+    options: ["2 :1 :1", "3 : 1", "1 : 1", "1 : 2: 1"],
+    answer_index: 3,
+    answer_text: "1 : 2: 1",
+    explanation: "A cross between heterozygotes produces one homozygous dominant, two heterozygotes, and one homozygous recessive offspring, giving a 1:2:1 genotypic ratio. With the protected JAMB 2025 option order, it is option D.",
+    diagram_url: "/manus-storage/boundary-x0-520-y38-354_5d0f5769.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -697,6 +713,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   amplexus0890: "Recovered exact JAMB 2007 breeding-posture figure",
   frog1041: "Recovered clean repeated-original JAMB 2020 frog water-loss figure",
   countershade1033: "Recovered exact JAMB 2007 countershading figure",
+  f2ratio1111: "Recovered clean repeated-original JAMB 2025 F2 genetic-cross figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
