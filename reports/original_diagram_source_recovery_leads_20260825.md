@@ -344,6 +344,8 @@ Direct inspection confirms the 300 × 212 figure retains the heart anatomy and I
 
 Independent TestDriller JAMB 2007 question 30 `https://www.testdriller.com/past-questions/jamb-objective-biology-2007-30` embeds a clean 287 × 270 exact heart original with complete I–IV leaders, no watermark, source residue, answer marker, option text, correction, or source chrome. However, TestDriller identifies I as **pulmonary artery** (A), SchoolNGR reports **aorta** (C), and the active record is currently **vena cava** (B). The clean visual alone does not resolve this three-way key conflict, so `biology_0481` remains held. No mapping, key, explanation, topic, or other protected record field changed.
 
+On 2026-08-26, EduPadi’s JAMB 2007 page 3 `https://edupadi.com/classroom/lessons/jamb/biology/2007/page/3` was inspected as a possible fourth source. Its question 29 repeats the protected stem and identical pulmonary-artery / vena-cava / aorta / bicuspid-valve option order, but the publicly available page exposes neither a clean source figure nor an answer state without interaction. It therefore cannot resolve the A/B/C disagreement or support a learner release; the record remains excluded.
+
 ## `biology_0501` — maize male inflorescence
 
 MySchool JAMB 2008 page `https://myschool.ng/classroom/biology/40373` exactly matches the protected prompt and `i` / `ii` / `iii` / `iv` option order. It identifies **i** as option A (index `0`), consistent with the active held record’s key and explanation. Its direct source figure is `https://myschool.ng/storage/classroom/10131908864_blinkg11.jpg`.
