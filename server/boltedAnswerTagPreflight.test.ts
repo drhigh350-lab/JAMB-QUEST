@@ -7,6 +7,8 @@ describe("bolted answer-tag preflight", () => {
     const script = readFileSync(resolve(import.meta.dirname, "../scripts/preflightBoltedAnswerTagRepair.mjs"), "utf8");
     expect(script).toContain("Correct answer|Answer");
     expect(script).toContain("tagAnswer.toLowerCase() === expectedAnswer.toLowerCase()");
+    expect(script).toContain("exactKeyRestatement");
+    expect(script).toContain("^([A-E])\\s*\\(\\s*(.+?)\\s*\\)$");
     expect(script).toContain("body.split(/\\s+/).length >= 8");
     expect(script).toContain("lekki headmaster");
     expect(script).not.toContain("UPDATE questionItems");

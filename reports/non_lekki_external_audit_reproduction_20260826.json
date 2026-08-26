@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T10:42:52.310Z",
+  "generatedAt": "2026-08-26T10:45:49.676Z",
   "scope": "Read-only reproduction of externally reported defects. All Lekki Headmaster source/content records are excluded from this audit and must remain unchanged.",
   "auditedQuestionCount": 8459,
   "excludedLekkiQuestionCount": 893,
@@ -8,7 +8,7 @@
     "duplicated_stem_with_options_marker": 0,
     "literal_escaped_newline_in_question_text": 0,
     "dangling_repeat_explanation_reference": 46,
-    "bolted_answer_tag_in_explanation": 1,
+    "bolted_answer_tag_in_explanation": 0,
     "visual_reference_without_asset_or_existing_hold": 90,
     "options_json_parse_or_count_mismatch": 0
   },
@@ -21,9 +21,7 @@
       "Owner PDF answer-matched Chemistry 101–200 · 23 Aug 2026": 5,
       "Owner PDF answer-matched Physics 1–250 · 25 Aug 2026": 31
     },
-    "bolted_answer_tag_in_explanation": {
-      "Owner Chemistry DOCX · Uniform explanation batch 005": 1
-    },
+    "bolted_answer_tag_in_explanation": {},
     "visual_reference_without_asset_or_existing_hold": {
       "JAMB 500 Question Master Bank · Physics · August 2026": 3,
       "JAMB Quest · supplied keyed answer pairs · August 2026": 2,
@@ -127,21 +125,7 @@
         "preview": "This is a repeat of Question 217: a plant is destarched by keeping it in darkness for several days so that its stored starch reserves are used up (since no new photosynthesis can occur without light), providing a \"starch-free\" baseline for subsequent experiments. See Question 217"
       }
     ],
-    "bolted_answer_tag_in_explanation": [
-      {
-        "issueType": "bolted_answer_tag_in_explanation",
-        "repairClass": "candidate for guarded explanation-format repair only when source explanation remains intact",
-        "internalId": 570030,
-        "externalId": "chem-docx-150",
-        "subject": "Chemistry",
-        "topic": "Kinetic theory of matter and gases",
-        "sourceId": 8790005,
-        "sourceSlug": "authorised-1-1786822027935",
-        "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
-        "sourceActive": true,
-        "preview": "Governing principle: among halogens, larger atoms have stronger London dispersion forces, raising boiling points and changing physical state at room temperature. F2 and Cl2 are gases at room temperature due to weak dispersion forces and low boiling points. Br2 has stronger disper"
-      }
-    ],
+    "bolted_answer_tag_in_explanation": [],
     "visual_reference_without_asset_or_existing_hold": [
       {
         "issueType": "visual_reference_without_asset_or_existing_hold",
@@ -211,7 +195,7 @@
     ],
     "options_json_parse_or_count_mismatch": []
   },
-  "findingCount": 137,
+  "findingCount": 136,
   "findings": [
     {
       "issueType": "dangling_repeat_explanation_reference",
@@ -810,19 +794,6 @@
       "sourceLabel": "Owner PDF answer-matched Physics 1–250 · 25 Aug 2026",
       "sourceActive": true,
       "preview": "This is a repeat of Question 193: in beta-minus decay, a neutron changes into a proton and emits an electron. See Question 193 for full reasoning."
-    },
-    {
-      "issueType": "bolted_answer_tag_in_explanation",
-      "repairClass": "candidate for guarded explanation-format repair only when source explanation remains intact",
-      "internalId": 570030,
-      "externalId": "chem-docx-150",
-      "subject": "Chemistry",
-      "topic": "Kinetic theory of matter and gases",
-      "sourceId": 8790005,
-      "sourceSlug": "authorised-1-1786822027935",
-      "sourceLabel": "Owner Chemistry DOCX · Uniform explanation batch 005",
-      "sourceActive": true,
-      "preview": "Governing principle: among halogens, larger atoms have stronger London dispersion forces, raising boiling points and changing physical state at room temperature. F2 and Cl2 are gases at room temperature due to weak dispersion forces and low boiling points. Br2 has stronger disper"
     },
     {
       "issueType": "visual_reference_without_asset_or_existing_hold",

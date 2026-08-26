@@ -6,6 +6,11 @@ const projectRoot = "/home/ubuntu/jamb-quiz-game";
 const reportPath = path.join(projectRoot, "reports", "preflight_bolted_answer_tags_20260826.json");
 const trailingAnswerPattern = /^(?<body>[\s\S]*?)(?:\s|\n)+(?:Correct answer|Answer)\s*:\s*(?<answer>[^\n.]+)\.?\s*$/i;
 const normalize = (value) => String(value ?? "").replace(/\s+/g, " ").trim();
+const exactKeyRestatement = (tagAnswer, expectedAnswer, answerIndex) => {
+  if (tagAnswer.toLowerCase() === expectedAnswer.toLowerCase()) return true;
+  const letterAndOption = /^([A-E])\s*\(\s*(.+?)\s*\)$/i.exec(tagAnswer);
+  return Boolean(letterAndOption) && letterAndOption[1].toUpperCase() === String.fromCharCode(65 + Number(answerIndex)) && normalize(letterAndOption[2]).toLowerCase() === expectedAnswer.toLowerCase();
+};
 const nonLekkiClause = `NOT (
   LOWER(COALESCE(qs.label, '')) LIKE '%lekki headmaster%'
   OR LOWER(qi.questionText) LIKE '%lekki headmaster%'
@@ -31,7 +36,7 @@ try {
     const expectedAnswer = normalize(options[row.answerIndex]);
     const body = normalize(match.groups.body);
     const tagAnswer = normalize(match.groups.answer);
-    const safe = Array.isArray(options) && row.answerIndex >= 0 && row.answerIndex < options.length && body.split(/\s+/).length >= 8 && tagAnswer.toLowerCase() === expectedAnswer.toLowerCase();
+    const safe = Array.isArray(options) && row.answerIndex >= 0 && row.answerIndex < options.length && body.split(/\s+/).length >= 8 && exactKeyRestatement(tagAnswer, expectedAnswer, row.answerIndex);
     return [{
       id: row.id,
       externalId: row.externalId,
