@@ -310,7 +310,9 @@ Independent SchoolNGR JAMB 2007 page `https://www.schoolngr.com/classroom/biolog
 
 MySchool JAMB 2007 page `https://myschool.ng/classroom/biology/31276` and SchoolNGR JAMB 2007 page `https://www.schoolngr.com/classroom/biology/11077` exactly match the protected prompt and `pulmonary artery` / `vena cava` / `aorta` / `bicuspid valve` option order. Both identify **pulmonary artery** as option A (index `0`), whereas the active held record is indexed to option B/vena cava. SchoolNGR exposes direct figure `https://www.schoolngr.com/eattachments/f6f414fe00de673b1883b2f10cc0f932fa37580d`.
 
-Direct inspection confirms the 300 × 212 figure retains the heart anatomy and I–IV leaders, but faint embedded source text crosses the anatomy and the leader paths. A source-only crop cannot remove it without cutting tested label geometry; in-figure removal would be impermissible. The record remains held. Its source-proven key/explanation discrepancy remains intentionally unchanged until a clean exact original supports a figure-backed guarded release; no mapping, key, explanation, topic, or other protected record field changed.
+Direct inspection confirms the 300 × 212 figure retains the heart anatomy and I–IV leaders, but faint embedded source text crosses the anatomy and the leader paths. A source-only crop cannot remove it without cutting tested label geometry; in-figure removal would be impermissible.
+
+Independent TestDriller JAMB 2007 question 30 `https://www.testdriller.com/past-questions/jamb-objective-biology-2007-30` embeds a clean 287 × 270 exact heart original with complete I–IV leaders, no watermark, source residue, answer marker, option text, correction, or source chrome. However, TestDriller identifies I as **pulmonary artery** (A), SchoolNGR reports **aorta** (C), and the active record is currently **vena cava** (B). The clean visual alone does not resolve this three-way key conflict, so `biology_0481` remains held. No mapping, key, explanation, topic, or other protected record field changed.
 
 ## `biology_0501` — maize male inflorescence
 
