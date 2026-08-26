@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-26T07:00:04.881Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, topic, explanation, source relationship, and approval status remain unchanged.",
+  "target": {
+    "externalId": "biology_0574",
+    "questionText": "Use the diagram above to answer this question. With respect to their decreasing dependence on aquatic conditions for reproduction, which of the following is the correct arrangement of the animals represented?",
+    "optionsJson": "[\"I, IV, II and III\",\"IV, III, II and I\",\"I, II, IV and III\",\"III, II, IV and I\"]",
+    "answerIndex": 1,
+    "topic": "Reproduction",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0574-testdriller-original_23e441c0.png"
+  },
+  "receipt": {
+    "externalId": "biology_0574",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "clean exact TestDriller panel retains all four I–IV animals and grid boundaries with no source residue, answer marker, option text, correction, or watermark; the existing B/IV, III, II and I key is independently source-matching and remains unchanged"
+  }
+}

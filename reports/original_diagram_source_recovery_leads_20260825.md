@@ -204,7 +204,9 @@ MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31201` and indepe
 
 Direct inspection of the 300 × 171 MySchool original confirms all four I–IV animal panels are present, but faint embedded source residue runs through the panel backgrounds, grid dividers, and animal outlines. A source-only crop cannot remove it without losing the required ordering context. `biology_0574` remains held; no mapping or protected record field changed.
 
-Direct inspection confirms the 300 × 171 MySchool candidate retains all four original animal panels and I–IV labels, with no answer letter, option text, or correction inside the figure. However, embedded scan-source residue crosses the upper boundary and outer left edge of the original panel. It cannot be removed through an answer-neutral crop without cutting the tested animal-panel border. `biology_0574` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+Direct inspection confirms the 300 × 171 MySchool candidate retains all four original animal panels and I–IV labels, with no answer letter, option text, or correction inside the figure. However, embedded scan-source residue crosses the upper boundary and outer left edge of the original panel. It cannot be removed through an answer-neutral crop without cutting the tested animal-panel border.
+
+Independent TestDriller JAMB 2010 question 6 `https://www.testdriller.com/past-questions/jamb-objective-biology-2010-6` embeds a separate 343 × 207 exact original PNG. Native inspection confirms complete I–IV animal panels, grid boundaries, and readable animal anatomy with no watermark, source residue, answer marker, option text, correction, or source chrome. Its prompt, option order, and B/IV, III, II and I key match the protected record and the earlier MySchool/SchoolNGR source evidence. The clean original was uploaded as `/manus-storage/biology-0574-testdriller-original_23e441c0.png` and is eligible for guarded mapping-only release.
 
 ## `biology_0583` — plantation height distribution
 

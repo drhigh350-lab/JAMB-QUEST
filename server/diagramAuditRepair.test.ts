@@ -60,8 +60,8 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 110, bySubject: { Biology: 57, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 21, bySubject: { Biology: 20, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 111, bySubject: { Biology: 58, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 20, bySubject: { Biology: 19, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
     expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 24 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
@@ -341,5 +341,17 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET topic");
+  });
+
+  it("releases biology_0574 only through a guarded clean exact-original four-animal mapping that preserves all answer fields", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0574Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0574"');
+    expect(script).toContain("biology-0574-testdriller-original_23e441c0.png");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
   });
 });
