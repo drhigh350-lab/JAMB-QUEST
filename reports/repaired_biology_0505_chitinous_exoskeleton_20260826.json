@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T08:00:39.688Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0505",
+    "questionText": "Use the diagram above to answer this question. Which of the organisms is characterised by the possession of a chitinous exoskeleton?",
+    "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+    "currentAnswerIndex": 2,
+    "currentExplanation": "A chitinous exoskeleton is a defining feature of arthropods. The organism labelled III in the referenced diagram belongs to this group, so it is the correct choice.",
+    "replacementAnswerIndex": 0,
+    "replacementExplanation": "A chitinous exoskeleton is a defining feature of arthropods. In the exact figure, organism I is the arthropod; with the supplied option order, the correct answer is option A.",
+    "topic": "Theories of evolution",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png"
+  },
+  "receipt": {
+    "externalId": "biology_0505",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. Which of the organisms is characterised by the possession of a chitinous exoskeleton?",
+      "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+      "topic": "Theories of evolution",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "A chitinous exoskeleton is a defining feature of arthropods. The organism labelled III in the referenced diagram belongs to this group, so it is the correct choice.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. Which of the organisms is characterised by the possession of a chitinous exoskeleton?",
+      "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+      "topic": "Theories of evolution",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 0,
+      "explanation": "A chitinous exoskeleton is a defining feature of arthropods. In the exact figure, organism I is the arthropod; with the supplied option order, the correct answer is option A.",
+      "diagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png"
+    },
+    "reason": "TestDriller JAMB 2008 question 4 provides a clean complete native I–IV organism panel whose bytes are SHA-256-identical to the clean TestDriller JAMB 2008 question 5 asset. TestDriller, MySchool, and SchoolNGR match the protected prompt, I/II/III/IV option order, and A/I answer, so the source-proven key/explanation correction and mapping are released together."
+  }
+}

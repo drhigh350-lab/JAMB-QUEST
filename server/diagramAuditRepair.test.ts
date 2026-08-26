@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 121, bySubject: { Biology: 68, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 10, bySubject: { Biology: 9, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 10 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 122, bySubject: { Biology: 69, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 9, bySubject: { Biology: 8, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 9 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -475,5 +475,19 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("repairs biology_0505 only through a guarded byte-identical organism panel and A/I correction", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0505ChitinousExoskeletonRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0505"');
+    expect(script).toContain("biology-0502-testdriller-original_eea7904a.png");
+    expect(script).toContain("byte-identical");
+    expect(script).toContain("currentAnswerIndex: 2");
+    expect(script).toContain("replacementAnswerIndex: 0");
+    expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET topic");
   });
 });
