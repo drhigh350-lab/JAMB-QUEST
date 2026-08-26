@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "aquatic0574" | "digestive0552" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -357,6 +357,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Label III identifies the stomach in the diagram. Its contents are usually acidic because hydrochloric acid is present in gastric juice; with the supplied option order, acidic is option C.",
     diagram_url: "/manus-storage/biology-0552-testdriller-original_2097df8d.png",
   },
+  raptor0569: {
+    id: "fixture-diagram-jamb-2010-raptor-feeding",
+    subject: "Biology",
+    topic: "Nutrition and digestion",
+    subtopic: "Feeding adaptations",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "raptor", "JAMB 2010"],
+    source: "Fixture — verified JAMB 2010 original",
+    question: "Use the diagram above to answer this question based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on?",
+    options: ["flesh", "fruits", "seeds", "nectar"],
+    answer_index: 0,
+    answer_text: "flesh",
+    explanation: "The hooked beak and strong grasping talons identify a raptor adapted for catching prey and tearing flesh. With the supplied option order, flesh is option A.",
+    diagram_url: "/manus-storage/biology-0569-testdriller-original_ec8a36e9.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -445,6 +461,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
+  raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

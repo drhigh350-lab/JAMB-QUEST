@@ -60,8 +60,8 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 112, bySubject: { Biology: 59, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 19, bySubject: { Biology: 18, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 113, bySubject: { Biology: 60, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 18, bySubject: { Biology: 17, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
     expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 24 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
@@ -361,6 +361,18 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("biology-0552-testdriller-original_2097df8d.png");
     expect(script).toContain("currentAnswerIndex: 1");
     expect(script).toContain("replacementAnswerIndex: 2");
+    expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+  });
+
+  it("repairs biology_0569 only through a guarded clean exact-original raptor figure and A/flesh key correction", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0569RaptorFeedingRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0569"');
+    expect(script).toContain("biology-0569-testdriller-original_ec8a36e9.png");
+    expect(script).toContain("currentAnswerIndex: 2");
+    expect(script).toContain("replacementAnswerIndex: 0");
     expect(script).toContain("UPDATE questionItems SET answerIndex = ?, explanation = ?, diagramUrl = ?");
     expect(script).toContain("immutableFields.every");
     expect(script).not.toContain("SET questionText");

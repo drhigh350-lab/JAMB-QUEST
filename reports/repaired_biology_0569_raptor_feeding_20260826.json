@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T07:13:14.840Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0569",
+    "questionText": "Use the diagram above to answer this question based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on?",
+    "optionsJson": "[\"flesh\",\"fruits\",\"seeds\",\"nectar\"]",
+    "currentAnswerIndex": 2,
+    "currentExplanation": "The question tests the relationship between an animal's structure and its mode of feeding. The referenced bird diagram is associated with adaptations for feeding on seeds, where a strong, suitable beak can crack or crush hard seed coverings.",
+    "replacementAnswerIndex": 0,
+    "replacementExplanation": "The hooked beak and strong grasping talons identify a raptor adapted for catching prey and tearing flesh. With the supplied option order, flesh is option A.",
+    "topic": "Nutrition and digestion",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0569-testdriller-original_ec8a36e9.png"
+  },
+  "receipt": {
+    "externalId": "biology_0569",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on?",
+      "optionsJson": "[\"flesh\",\"fruits\",\"seeds\",\"nectar\"]",
+      "topic": "Nutrition and digestion",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "The question tests the relationship between an animal's structure and its mode of feeding. The referenced bird diagram is associated with adaptations for feeding on seeds, where a strong, suitable beak can crack or crush hard seed coverings.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on?",
+      "optionsJson": "[\"flesh\",\"fruits\",\"seeds\",\"nectar\"]",
+      "topic": "Nutrition and digestion",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 0,
+      "explanation": "The hooked beak and strong grasping talons identify a raptor adapted for catching prey and tearing flesh. With the supplied option order, flesh is option A.",
+      "diagramUrl": "/manus-storage/biology-0569-testdriller-original_ec8a36e9.png"
+    },
+    "reason": "clean exact TestDriller raptor figure shows hooked beak and grasping talons; TestDriller plus the previously verified MySchool and SchoolNGR sources match the protected prompt, option order, and A/flesh key, so the source-proven answer/explanation correction and diagram mapping are released together"
+  }
+}

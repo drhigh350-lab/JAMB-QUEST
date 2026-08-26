@@ -196,7 +196,9 @@ Independent TestDriller JAMB 2010 question 13 `https://www.testdriller.com/past-
 
 MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31200` and independent SchoolNGR page `https://www.schoolngr.com/classroom/biology/11674` exactly match the protected prompt and `flesh` / `fruits` / `seeds` / `nectar` option order. Both sources identify **flesh** as option A (index `0`), based on the hooked beak and grasping talons. The active held record instead selects seeds (index `2`) and describes seed-cracking, so it has an evidence-backed answer-key and explanation mismatch.
 
-SchoolNGR exposes the matching original bird panel at `https://www.schoolngr.com/eattachments/ecee2876f60c792cafff33fa07154805e61c6c36`. Both source images retain embedded scan/source residue through the bird background and lower feet/talons. It cannot be cleanly removed with an answer-neutral crop without risking the exact tested anatomy. `biology_0569` remains held; its source-proven key/explanation correction is deliberately not applied without an eligible original figure. No mapping or protected record field changed.
+SchoolNGR exposes the matching original bird panel at `https://www.schoolngr.com/eattachments/ecee2876f60c792cafff33fa07154805e61c6c36`. Both source images retain embedded scan/source residue through the bird background and lower feet/talons. It cannot be cleanly removed with an answer-neutral crop without risking the exact tested anatomy.
+
+Independent TestDriller JAMB 2010 question 10 `https://www.testdriller.com/past-questions/jamb-objective-biology-2010-10` embeds a separate 229 × 197 exact original PNG. Native inspection confirms the hooked beak, complete grasping talons, and label I leaders are visible with no watermark, source residue, answer marker, option text, correction, or source chrome. The TestDriller A/flesh answer agrees with the prior MySchool and SchoolNGR evidence. The clean original was uploaded as `/manus-storage/biology-0569-testdriller-original_ec8a36e9.png`; it is eligible for a guarded answer-index, explanation, and diagram release together.
 
 ## `biology_0574` — aquatic-dependence ordering
 
