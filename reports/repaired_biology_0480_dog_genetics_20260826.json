@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-08-26T07:45:20.849Z",
+  "scope": "Guarded source-proven content repair. Only exact-source question wording, option labels, answerIndex, explanation, and diagramUrl may change; topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0480",
+    "currentQuestionText": "Use the diagram above to answer this question. If the dogs are offspring of a monohybird cross and the gene G for grey head is dominant cross over its allele g, the individual whose genotype is likely to be gg is",
+    "currentOptionsJson": "[\"ll\",\"l\",\"IV\",\"lll\"]",
+    "currentAnswerIndex": 3,
+    "currentExplanation": "In a monohybrid cross, the homozygous recessive genotype (gg) would show the recessive phenotype. The individual with the recessive trait (likely a different colour) would be the one with genotype gg. Based on the diagram, III likely represents the individual showing the recessive trait.",
+    "replacementQuestionText": "Use the diagram above to answer this question. If the dogs are offspring of a monohybrid cross and the gene G for grey head is dominant over its allele g, the individual whose genotype is likely to be gg is",
+    "replacementOptionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+    "replacementAnswerIndex": 2,
+    "replacementExplanation": "The recessive genotype gg is expressed by the non-grey-headed dog. In the exact figure, dog IV has that recessive phenotype; with the supplied option order II, I, IV, III, the correct answer is option C.",
+    "topic": "Heredity",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0480-testdriller-original_4eb6cef1.png"
+  },
+  "receipt": {
+    "externalId": "biology_0480",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. If the dogs are offspring of a monohybird cross and the gene G for grey head is dominant cross over its allele g, the individual whose genotype is likely to be gg is",
+      "optionsJson": "[\"ll\",\"l\",\"IV\",\"lll\"]",
+      "topic": "Heredity",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 3,
+      "explanation": "In a monohybrid cross, the homozygous recessive genotype (gg) would show the recessive phenotype. The individual with the recessive trait (likely a different colour) would be the one with genotype gg. Based on the diagram, III likely represents the individual showing the recessive trait.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. If the dogs are offspring of a monohybrid cross and the gene G for grey head is dominant over its allele g, the individual whose genotype is likely to be gg is",
+      "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+      "topic": "Heredity",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "The recessive genotype gg is expressed by the non-grey-headed dog. In the exact figure, dog IV has that recessive phenotype; with the supplied option order II, I, IV, III, the correct answer is option C.",
+      "diagramUrl": "/manus-storage/biology-0480-testdriller-original_4eb6cef1.png"
+    },
+    "reason": "TestDriller JAMB 2007 question 47 provides a clean complete native I–IV dog-panel original and exact corrected wording/options. TestDriller, MySchool, and SchoolNGR match the source wording, II/I/IV/III option order, and C/IV answer, so the source-proven prompt formatting, option labels, answer/explanation, and mapping are repaired together while topic, source relationship, and approval status remain protected."
+  }
+}

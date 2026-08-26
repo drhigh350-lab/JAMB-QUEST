@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 118, bySubject: { Biology: 65, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 13, bySubject: { Biology: 12, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 13 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 119, bySubject: { Biology: 66, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 12, bySubject: { Biology: 11, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 12 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -441,5 +441,17 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET topic");
+  });
+
+  it("repairs biology_0480 only through a guarded clean dog-genetics original and source-proven wording, labels, and C/IV correction", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/repairBiology0480DogGeneticsRecord.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_0480"');
+    expect(script).toContain("biology-0480-testdriller-original_4eb6cef1.png");
+    expect(script).toContain('replacementOptionsJson: \'["II","I","IV","III"]\'');
+    expect(script).toContain("replacementAnswerIndex: 2");
+    expect(script).toContain("SET questionText = ?, optionsJson = ?, answerIndex = ?, explanation = ?, diagramUrl = ?");
+    expect(script).toContain("immutableFields.every");
+    expect(script).not.toContain("SET topic");
+    expect(script).not.toContain("SET sourceId");
   });
 });

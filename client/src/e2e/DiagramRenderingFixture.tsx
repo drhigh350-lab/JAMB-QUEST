@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -405,6 +405,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The diagram shows fusion of compatible Rhizopus gametangia and formation of a zygospore. With the supplied option order, this is option D.",
     diagram_url: "/manus-storage/biology-0483-testdriller-original_eb32af79.png",
   },
+  dog0480: {
+    id: "fixture-diagram-jamb-2007-dog-genetics",
+    subject: "Biology",
+    topic: "Heredity",
+    subtopic: "Monohybrid inheritance",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "dog genetics", "JAMB 2007"],
+    source: "Fixture — verified JAMB 2007 original",
+    question: "Use the diagram above to answer this question. If the dogs are offspring of a monohybrid cross and the gene G for grey head is dominant over its allele g, the individual whose genotype is likely to be gg is",
+    options: ["II", "I", "IV", "III"],
+    answer_index: 2,
+    answer_text: "IV",
+    explanation: "The recessive genotype gg is expressed by the non-grey-headed dog. In the exact figure, dog IV has that phenotype; with the supplied option order, it is option C.",
+    diagram_url: "/manus-storage/biology-0480-testdriller-original_4eb6cef1.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -544,6 +560,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   leaf0546: "Recovered byte-identical exact JAMB 2009 leaf-label-I figure",
   fungal0483: "Repaired exact JAMB 2007 fungal-zygospore figure",
   fungal0470: "Repaired byte-identical exact JAMB 2007 Rhizopus-process figure",
+  dog0480: "Repaired exact JAMB 2007 dog-genetics figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
