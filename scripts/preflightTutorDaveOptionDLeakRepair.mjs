@@ -5,7 +5,7 @@ import mysql from "mysql2/promise";
 const projectRoot = "/home/ubuntu/jamb-quiz-game";
 const reportPath = path.join(projectRoot, "reports", "preflight_tutor_dave_option_d_leaks_20260826.json");
 const sourceIds = [420003, 420004];
-const leakPattern = /^(?<option>.+?)\s+Correct Answer:\s*(?<letter>[A-D])\s+Explanation:\s*(?<explanation>[\s\S]+)$/i;
+const leakPattern = /^(?<option>.+?)\s+(?:✓\s*)?Correct Answer:\s*(?<letter>[A-D])(?:\s+©[\s\S]*?)?\s+Explanation:\s*(?<explanation>[\s\S]+)$/i;
 const normalize = (value) => String(value ?? "").replace(/\s+/g, " ").trim();
 const answerLetter = (answerIndex) => Number.isInteger(Number(answerIndex)) && Number(answerIndex) >= 0 && Number(answerIndex) <= 3 ? String.fromCharCode(65 + Number(answerIndex)) : null;
 

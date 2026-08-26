@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T10:35:46.257Z",
+  "generatedAt": "2026-08-26T10:42:52.310Z",
   "scope": "Read-only reproduction of externally reported defects. All Lekki Headmaster source/content records are excluded from this audit and must remain unchanged.",
   "auditedQuestionCount": 8459,
   "excludedLekkiQuestionCount": 893,
   "byIssueType": {
-    "answer_and_explanation_leaked_in_option_d": 9,
+    "answer_and_explanation_leaked_in_option_d": 0,
     "duplicated_stem_with_options_marker": 0,
     "literal_escaped_newline_in_question_text": 0,
     "dangling_repeat_explanation_reference": 46,
@@ -13,9 +13,7 @@
     "options_json_parse_or_count_mismatch": 0
   },
   "byIssueTypeAndSource": {
-    "answer_and_explanation_leaked_in_option_d": {
-      "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf": 9
-    },
+    "answer_and_explanation_leaked_in_option_d": {},
     "duplicated_stem_with_options_marker": {},
     "literal_escaped_newline_in_question_text": {},
     "dangling_repeat_explanation_reference": {
@@ -59,73 +57,7 @@
     "options_json_parse_or_count_mismatch": {}
   },
   "samplesByIssueType": {
-    "answer_and_explanation_leaked_in_option_d": [
-      {
-        "issueType": "answer_and_explanation_leaked_in_option_d",
-        "repairClass": "candidate for exact source-backed option repair",
-        "internalId": 221,
-        "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-29-29",
-        "subject": "Physics",
-        "topic": "Waves",
-        "sourceId": 420004,
-        "sourceSlug": "authorised-1-1786633894425",
-        "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-        "sourceActive": true,
-        "preview": "Damping is at maximum ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 9 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Resonance is the phenomenon where a system vibrates with maximum amplitude because the applied (fo"
-      },
-      {
-        "issueType": "answer_and_explanation_leaked_in_option_d",
-        "repairClass": "candidate for exact source-backed option repair",
-        "internalId": 228,
-        "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-37-37",
-        "subject": "Physics",
-        "topic": "Gravitational field",
-        "sourceId": 420004,
-        "sourceSlug": "authorised-1-1786633894425",
-        "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-        "sourceActive": true,
-        "preview": "The acceleration due to gravity at that point ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 11 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Gravitational potential V = W/m = work done per unit mass in bringing a m"
-      },
-      {
-        "issueType": "answer_and_explanation_leaked_in_option_d",
-        "repairClass": "candidate for exact source-backed option repair",
-        "internalId": 241,
-        "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-53-53",
-        "subject": "Physics",
-        "topic": "Equilibrium of forces",
-        "sourceId": 420004,
-        "sourceSlug": "authorised-1-1786633894425",
-        "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-        "sourceActive": true,
-        "preview": "Static surfaces are rougher ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 15 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: When surfaces are at rest relative to each other, molecular adhesion bonds build up, requir"
-      },
-      {
-        "issueType": "answer_and_explanation_leaked_in_option_d",
-        "repairClass": "candidate for exact source-backed option repair",
-        "internalId": 253,
-        "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-65-65",
-        "subject": "Physics",
-        "topic": "Liquids at rest",
-        "sourceId": 420004,
-        "sourceSlug": "authorised-1-1786633894425",
-        "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-        "sourceActive": true,
-        "preview": "50 Pa ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 18 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Pressure P = ρgh = 1000 × 10 × 5 = 50,000 Pa = 50 kPa. This is the gauge pressure due to the water column alone. "
-      },
-      {
-        "issueType": "answer_and_explanation_leaked_in_option_d",
-        "repairClass": "candidate for exact source-backed option repair",
-        "internalId": 262,
-        "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-76-77",
-        "subject": "Physics",
-        "topic": "Temperature and measurement",
-        "sourceId": 420004,
-        "sourceSlug": "authorised-1-1786633894425",
-        "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-        "sourceActive": true,
-        "preview": "Remain constant over a temperature range ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 21 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: A thermometric property must vary continuously, measurably, and reproducibly w"
-      }
-    ],
+    "answer_and_explanation_leaked_in_option_d": [],
     "duplicated_stem_with_options_marker": [],
     "literal_escaped_newline_in_question_text": [],
     "dangling_repeat_explanation_reference": [
@@ -279,125 +211,8 @@
     ],
     "options_json_parse_or_count_mismatch": []
   },
-  "findingCount": 146,
+  "findingCount": 137,
   "findings": [
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 221,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-29-29",
-      "subject": "Physics",
-      "topic": "Waves",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Damping is at maximum ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 9 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Resonance is the phenomenon where a system vibrates with maximum amplitude because the applied (fo"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 228,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-37-37",
-      "subject": "Physics",
-      "topic": "Gravitational field",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "The acceleration due to gravity at that point ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 11 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Gravitational potential V = W/m = work done per unit mass in bringing a m"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 241,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-53-53",
-      "subject": "Physics",
-      "topic": "Equilibrium of forces",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Static surfaces are rougher ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 15 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: When surfaces are at rest relative to each other, molecular adhesion bonds build up, requir"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 253,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-65-65",
-      "subject": "Physics",
-      "topic": "Liquids at rest",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "50 Pa ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 18 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Pressure P = ρgh = 1000 × 10 × 5 = 50,000 Pa = 50 kPa. This is the gauge pressure due to the water column alone. "
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 262,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-76-77",
-      "subject": "Physics",
-      "topic": "Temperature and measurement",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Remain constant over a temperature range ✓ Correct Answer: A © The Scholars Forge Tutorial | 350+ is ours! | Page 21 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: A thermometric property must vary continuously, measurably, and reproducibly w"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 273,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-88-90",
-      "subject": "Physics",
-      "topic": "Gas laws",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Independent of temperature ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 24 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Charles' law: V/T = constant (T in Kelvin, P constant). V ∝ T(K). Must use Kelvin — Celsius "
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 277,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-92-94",
-      "subject": "Physics",
-      "topic": "Change of state",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Requires less energy than evaporation ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 25 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Boiling occurs throughout the bulk of the liquid at a specific temperature (boili"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 317,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-139-141",
-      "subject": "Physics",
-      "topic": "Optical instruments",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "At the objective lens ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 37 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: In normal adjustment, a telescope is set so that the final image forms at infinity (parallel rays"
-    },
-    {
-      "issueType": "answer_and_explanation_leaked_in_option_d",
-      "repairClass": "candidate for exact source-backed option repair",
-      "internalId": 346,
-      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-171-173",
-      "subject": "Physics",
-      "topic": "Electromagnetic induction",
-      "sourceId": 420004,
-      "sourceSlug": "authorised-1-1786633894425",
-      "sourceLabel": "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
-      "sourceActive": true,
-      "preview": "Using copper for the core ✓ Correct Answer: B © The Scholars Forge Tutorial | 350+ is ours! | Page 45 UTME '26 REVELATION | PHYSICS MASTERY PACK | 200 Questions | Tutor Dave Explanation: Eddy currents are circulating currents induced in the core. Laminating (layering thin iron sh"
-    },
     {
       "issueType": "dangling_repeat_explanation_reference",
       "repairClass": "needs source-backed replacement explanation; do not invent teaching content",

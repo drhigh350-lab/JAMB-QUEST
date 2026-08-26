@@ -8,6 +8,7 @@ describe("Tutor Dave option-D leak preflight", () => {
     expect(script).toContain("sourceIds = [420003, 420004]");
     expect(script).toContain("Correct Answer:");
     expect(script).toContain("Explanation:");
+    expect(script).toContain("(?:\\s+©[\\s\\S]*?)?");
     expect(script).toContain("leakedAnswerLetter === expectedLetter");
     expect(script).toContain("options.length === 4");
     expect(script).toContain("protectedSnapshot");
