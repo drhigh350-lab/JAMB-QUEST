@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -341,6 +341,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The plantation II curve peaks at about 2 m and has the highest number of trees at that height. It does not have the highest total number of trees, so with the supplied option order the correct answer is option A.",
     diagram_url: "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
   },
+  leaf0536: {
+    id: "fixture-diagram-jamb-2009-transpiration-control",
+    subject: "Biology",
+    topic: "Transport",
+    subtopic: "Transpiration",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "leaf section", "JAMB 2009"],
+    source: "Fixture — verified JAMB 2009 original",
+    question: "Use the diagram above to answer this question. The structure that controls loss of water vapour during transpiration is labelled",
+    options: ["I", "II", "III", "IV"],
+    answer_index: 3,
+    answer_text: "IV",
+    explanation: "The structure that controls water vapour loss is the stoma, whose opening and closing is controlled by its guard cells. In the diagram, the stomatal structure is labelled IV.",
+    diagram_url: "/manus-storage/biology-0536-testdriller-original_a59c4d17.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -476,6 +492,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   emulsification0551: "Repaired exact JAMB 2009 emulsification figure",
   plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
   plantation0584: "Repaired exact JAMB 2010 plantation-II graph",
+  leaf0536: "Recovered exact JAMB 2009 transpiration-control leaf figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

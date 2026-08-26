@@ -110,6 +110,8 @@ MySchool and SchoolNGR corroborate the held JAMB 2009 leaf-section prompt and id
 
 Direct inspection confirms the 300 × 193 candidate retains I–IV labels and no answer marker, but faint embedded source residue runs through the leaf-section figure. It cannot be removed by an answer-neutral crop without risking source geometry. `biology_0536` remains held; no mapping or protected-content field changed.
 
+On 2026-08-26, independent TestDriller JAMB 2009 question 13 `https://www.testdriller.com/past-questions/jamb-objective-biology-2009-13` was found to match the protected transpiration-control prompt and the I/II/III/IV option order exactly. The page states answer D/IV and embeds a clean exact 218 × 166 native PNG (SHA-256 `54280f98be6e3f37e17bdb35381134191a3a2cc12628390bc90c9a527fcba9ed`) with the full leaf-section geometry, neutral I–IV leaders, and no answer marker, option text, correction, watermark, or source residue. TestDriller, MySchool, and SchoolNGR agree on the protected prompt and IV key. The native original was uploaded as `/manus-storage/biology-0536-testdriller-original_a59c4d17.png` and released only through guarded mapping-only script `releaseRecoveredBiology0536Diagram.mjs`; question text, options, answer index D/IV, explanation, topic, source relationship, and approval status were verified unchanged.
+
 ## `biology_0551` — emulsification of fats
 
 SchoolNGR exposes an exact JAMB 2009 digestive-system candidate at `https://www.schoolngr.com/eattachments/7e07763e2ccb9f62b58659db11cba6311cbe01a9`. Direct inspection confirms the I–IV labels remain visible and no answer marker is present, but faint embedded source residue crosses the original figure. It cannot be cleanly removed without modifying the tested drawing.

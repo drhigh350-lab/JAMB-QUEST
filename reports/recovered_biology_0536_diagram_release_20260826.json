@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-26T07:26:42.806Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, topic, explanation, source relationship, and approval status remain unchanged.",
+  "target": {
+    "externalId": "biology_0536",
+    "questionText": "Use the diagram above to answer this question. The structure that controls loss of water vapour during transpiration is labelled",
+    "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+    "answerIndex": 3,
+    "topic": "Transport",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png"
+  },
+  "receipt": {
+    "externalId": "biology_0536",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The structure that controls loss of water vapour during transpiration is labelled",
+      "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+      "answerIndex": 3,
+      "topic": "Transport",
+      "explanation": "The structure that controls water vapour loss is the stoma, whose opening and closing is controlled by its guard cells. In the diagram, the stomatal structure is labelled IV. When the stomatal pore closes, diffusion of water vapour out of the leaf is reduced.",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The structure that controls loss of water vapour during transpiration is labelled",
+      "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+      "answerIndex": 3,
+      "topic": "Transport",
+      "explanation": "The structure that controls water vapour loss is the stoma, whose opening and closing is controlled by its guard cells. In the diagram, the stomatal structure is labelled IV. When the stomatal pore closes, diffusion of water vapour out of the leaf is reduced.",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png"
+    },
+    "reason": "TestDriller JAMB 2009 question 13 supplies a clean complete native leaf-section original with neutral I–IV leaders and no answer marker, option text, correction, watermark, or source residue. TestDriller, MySchool, and SchoolNGR all match the protected prompt and IV key, so only the verified original mapping is released; all protected learner fields remain unchanged."
+  }
+}
