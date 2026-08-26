@@ -855,6 +855,8 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [ ] Reproduce and remediate the external-audit defects only for non-Lekki questions: keep every Lekki Headmaster record unchanged; use guarded source-preserving repairs for answer-leaking Tutor Dave options, duplicated mock stems, literal escaped newlines, malformed option counts, and only evidence-backed explanation/diagram work; retain uncertain visual questions outside learner play rather than inferring content.
 
+- [x] Use short, everyday language in owner-facing progress updates; clearly state what was fixed, what was left alone, and what needs real source material before it can be safely changed.
+
 - [x] Inspect and, only where the stored explanation and keyed answer exactly validate the split, remove the leaked `Correct Answer`/`Explanation` suffix from option D for the 352 non-Lekki Tutor Dave Biology and Physics records through an idempotent guarded options-only repair. The initial preflight repaired 343 exact four-option/key-matched splits and isolated 9 branded variants; question text, answer index, explanation, topic, diagram mapping, source relationship, and status were verified unchanged. Lekki Headmaster records were untouched.
 
 - [x] Inspect the 9 held non-Lekki Tutor Dave option-D leaks separately. The branded source-only parser grammar established a deterministic original option boundary, exact stored answer-letter match, and complete answer/explanation suffix for all 9; the idempotent guarded repair changed only `optionsJson`. Re-audit reduced Tutor Dave answer leakage from 9 to 0; every protected field and all Lekki Headmaster data remained unchanged. Full tests (124 files / 336 tests), TypeScript, and build passed.
