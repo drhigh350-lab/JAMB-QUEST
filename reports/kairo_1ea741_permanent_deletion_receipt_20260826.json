@@ -1,0 +1,17 @@
+{
+  "request": "Permanently remove one exact Kairo Chemistry question from the question bank.",
+  "externalId": "kairo-csv-chemistry_1ea741",
+  "databaseId": 1050117,
+  "preDelete": {
+    "subject": "Chemistry",
+    "questionText": "Choose the correct option from the structure above",
+    "optionsJson": "[\"A\",\"B\",\"C\",\"D\"]",
+    "answerIndex": 0,
+    "explanationStatus": "needs_review",
+    "sourceId": 12330001,
+    "diagramUrl": null,
+    "foreignKeyReferencesFound": []
+  },
+  "guard": "DELETE only where id=1050117, externalId=kairo-csv-chemistry_1ea741, explanationStatus=needs_review, and diagramUrl IS NULL.",
+  "lekkiHeadmasterTouched": false
+}
