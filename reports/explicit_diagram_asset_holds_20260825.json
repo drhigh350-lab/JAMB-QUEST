@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T07:32:24.203Z",
+  "generatedAt": "2026-08-26T07:36:33.240Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 15,
+  "totalHeld": 14,
   "bySubject": {
-    "Biology": 14,
+    "Biology": 13,
     "Chemistry": 1
   },
   "holds": [
@@ -41,20 +41,6 @@
       "subject": "Biology",
       "topic": "Transport",
       "questionText": "Use the diagram above to answer this question. The part labelled l is the",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350184,
-      "externalId": "biology_0483",
-      "subject": "Biology",
-      "topic": "Theories of evolution",
-      "questionText": "Use the diagram above to answer this question. The structure labelled l is the",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",

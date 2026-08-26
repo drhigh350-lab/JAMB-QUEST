@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T07:36:27.268Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0483",
+    "questionText": "Use the diagram above to answer this question. The structure labelled l is the",
+    "optionsJson": "[\"sporangium\",\"hypha\",\"zygospore\",\"conidiospore\"]",
+    "currentAnswerIndex": 3,
+    "currentExplanation": "In the diagram of a fungus like Aspergillus or Penicillium, the structure labelled I is likely a conidiospore, which is an asexual spore produced in chains. Sporangium is a sac containing spores, hypha is the filament, and zygospore is a sexual spore.",
+    "replacementAnswerIndex": 2,
+    "replacementExplanation": "The labelled structure is the zygospore formed when compatible fungal gametangia fuse. A zygospore is the thick-walled sexual resting spore shown after fusion; with the supplied option order, zygospore is option C.",
+    "topic": "Theories of evolution",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png"
+  },
+  "receipt": {
+    "externalId": "biology_0483",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The structure labelled l is the",
+      "optionsJson": "[\"sporangium\",\"hypha\",\"zygospore\",\"conidiospore\"]",
+      "topic": "Theories of evolution",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 3,
+      "explanation": "In the diagram of a fungus like Aspergillus or Penicillium, the structure labelled I is likely a conidiospore, which is an asexual spore produced in chains. Sporangium is a sac containing spores, hypha is the filament, and zygospore is a sexual spore.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The structure labelled l is the",
+      "optionsJson": "[\"sporangium\",\"hypha\",\"zygospore\",\"conidiospore\"]",
+      "topic": "Theories of evolution",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "The labelled structure is the zygospore formed when compatible fungal gametangia fuse. A zygospore is the thick-walled sexual resting spore shown after fusion; with the supplied option order, zygospore is option C.",
+      "diagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png"
+    },
+    "reason": "TestDriller JAMB 2007 question 45 provides a clean complete native fungal-fusion original with neutral label I, gametangia, and plus/minus geometry. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and C/zygospore answer, so the source-proven key/explanation correction and diagram mapping are released together."
+  }
+}
