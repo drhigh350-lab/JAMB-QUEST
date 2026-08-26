@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-26T13:44:23.312Z",
+  "target": {
+    "id": 1020081,
+    "externalId": "supplied-keyed-2021-chemistry-036",
+    "sourceId": 11580001,
+    "diagramUrl": "/manus-storage/nitrogen-orbital-owner-supplied-20260826_9c7bddd0.png",
+    "explanationStatus": "needs_review"
+  },
+  "changedFields": [
+    "diagramUrl"
+  ],
+  "learnerVisible": false,
+  "questionRemainsHeld": true,
+  "protectedFieldsSha256": "c3ce421133ff0d0db8173c7a1169a1ed6e2de6c6f2779ef53e8665f0d8605bba",
+  "affectedRows": 0
+}
