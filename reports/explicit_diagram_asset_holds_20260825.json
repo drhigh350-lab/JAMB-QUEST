@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T08:17:12.984Z",
+  "generatedAt": "2026-08-26T08:23:21.339Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 6,
+  "totalHeld": 5,
   "bySubject": {
-    "Biology": 5,
+    "Biology": 4,
     "Chemistry": 1
   },
   "holds": [
@@ -41,20 +41,6 @@
       "subject": "Biology",
       "topic": "Adaptations of organisms",
       "questionText": "Use the diagram to answer the question. The type of protective adaptation exhibited by the animal is",
-      "diagramUrl": null,
-      "sourceId": 22500002,
-      "sourceSlug": "authorised-1-1787388348602",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350593,
-      "externalId": "biology_1041",
-      "subject": "Biology",
-      "topic": "Transport",
-      "questionText": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
       "diagramUrl": null,
       "sourceId": 22500002,
       "sourceSlug": "authorised-1-1787388348602",

@@ -60,9 +60,9 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 125, bySubject: { Biology: 72, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 6, bySubject: { Biology: 5, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
-    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 6 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 126, bySubject: { Biology: 73, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 5, bySubject: { Biology: 4, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 5 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
   it("releases biology_0369 only after exact source and protected-field verification", () => {
@@ -521,6 +521,18 @@ describe("undersized diagram audit repair", () => {
     expect(script).toContain("biology-0890-testdriller-original_300cb4b6.png");
     expect(script).toContain("protectedFields.every");
     expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("releases biology_1041 only through a guarded clean repeated-original frog water-loss figure while preserving protected 2020 learner content", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology1041Diagram.mjs"), "utf8");
+    expect(script).toContain('externalId: "biology_1041"');
+    expect(script).toContain("biology-1041-testdriller-original_f360a5e8.png");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).toContain("preserves all protected learner content");
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET answerIndex");

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -517,6 +517,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Amplexus is the characteristic breeding embrace in frogs and other amphibians. With the supplied option order, it is option B.",
     diagram_url: "/manus-storage/biology-0890-testdriller-original_300cb4b6.png",
   },
+  frog1041: {
+    id: "fixture-diagram-jamb-2020-frog-water-loss",
+    subject: "Biology",
+    topic: "Transport",
+    subtopic: "Water balance",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "clean repeated original", "frog water loss", "JAMB 2020"],
+    source: "Fixture — verified JAMB 2020 content with clean repeated original visual",
+    question: "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
+    options: ["Evaporation and osmosis", "Osmosis and exhalation", "Osmosis and diffusion", "Urination and diffusion"],
+    answer_index: 0,
+    answer_text: "Evaporation and osmosis",
+    explanation: "The diagram represents water leaving the body by evaporation and entering through osmosis. With the protected JAMB 2020 option order, it is option A.",
+    diagram_url: "/manus-storage/biology-1041-testdriller-original_f360a5e8.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -663,6 +679,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   water0523: "Repaired exact JAMB 2008 water-reabsorption figure",
   thermo0527: "Recovered exact JAMB 2008 thermoregulation graph",
   amplexus0890: "Recovered exact JAMB 2007 breeding-posture figure",
+  frog1041: "Recovered clean repeated-original JAMB 2020 frog water-loss figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

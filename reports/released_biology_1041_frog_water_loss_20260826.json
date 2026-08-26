@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T08:23:06.543Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, explanation, topic, source relationship, and approval status must remain unchanged.",
+  "target": {
+    "externalId": "biology_1041",
+    "questionText": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
+    "optionsJson": "[\"Evaporation and osmosis\",\"Osmosis and exhalation\",\"Osmosis and diffusion\",\"Urination and diffusion\"]",
+    "answerIndex": 0,
+    "explanation": "The diagram represents water leaving the body by evaporation and entering through osmosis. Osmosis specifically concerns movement of water across a selectively permeable membrane, while evaporation is water loss as vapour.",
+    "topic": "Transport",
+    "sourceId": 22500002,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-1041-testdriller-original_f360a5e8.png",
+    "explanationStatus": "approved"
+  },
+  "receipt": {
+    "externalId": "biology_1041",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
+      "optionsJson": "[\"Evaporation and osmosis\",\"Osmosis and exhalation\",\"Osmosis and diffusion\",\"Urination and diffusion\"]",
+      "answerIndex": 0,
+      "explanation": "The diagram represents water leaving the body by evaporation and entering through osmosis. Osmosis specifically concerns movement of water across a selectively permeable membrane, while evaporation is water loss as vapour.",
+      "topic": "Transport",
+      "sourceId": 22500002,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
+      "optionsJson": "[\"Evaporation and osmosis\",\"Osmosis and exhalation\",\"Osmosis and diffusion\",\"Urination and diffusion\"]",
+      "answerIndex": 0,
+      "explanation": "The diagram represents water leaving the body by evaporation and entering through osmosis. Osmosis specifically concerns movement of water across a selectively permeable membrane, while evaporation is water loss as vapour.",
+      "topic": "Transport",
+      "sourceId": 22500002,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-1041-testdriller-original_f360a5e8.png"
+    },
+    "reason": "TestDriller JAMB 2003 question 6 supplies the clean original repeated frog-water visual with intact I/II arrows and water context. The supported JAMB 2020 MySchool and SchoolNGR pages independently match the protected prompt, option order, and A/evaporation-and-osmosis key, while their served visual variants are residue-bearing. This release maps only the clean visual and preserves all protected learner content."
+  }
+}

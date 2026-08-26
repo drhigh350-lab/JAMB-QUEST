@@ -23,3 +23,7 @@ Independent TestDriller JAMB 2008 question 46 is available at `https://www.testd
 ## `biology_0890` — JAMB 2007 breeding posture
 
 Independent TestDriller JAMB 2007 question 19 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2007-19`. It matches the protected breeding-posture prompt and `mating` / `amplexus` / `courtship display` / `reproductive swimming` option order, states B/amplexus, and supplies a clean complete frog-pair figure. Native inspection, protected-record comparison, and MySchool/SchoolNGR corroboration all passed; the original was released mapping-only as `/manus-storage/biology-0890-testdriller-original_300cb4b6.png` with the protected key and all other learner fields unchanged.
+
+## `biology_1041` — JAMB 2003 frog water loss and intake
+
+Independent TestDriller JAMB 2003 question 6 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2003-6`. It supplies a clean repeated original frog-water figure with arrows I and II, but its older answer-option wording differs from the protected 2020 record. Native inspection passed and the image was released mapping-only as `/manus-storage/biology-1041-testdriller-original_f360a5e8.png`; the protected JAMB 2020 wording, key, explanation, and all other learner fields remain unchanged, with MySchool and SchoolNGR as the answer authorities.
