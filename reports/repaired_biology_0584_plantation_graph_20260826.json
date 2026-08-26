@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T07:18:09.754Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0584",
+    "questionText": "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
+    "optionsJson": "[\"it has the highest number of trees of about 2m high\",\"it has highest number of trees\",\"it has the highest number of tall trees\",\"the height of all its trees range between 2m and 6m\"]",
+    "currentAnswerIndex": 1,
+    "currentExplanation": "This is a diagram-reading question about comparing populations across plantations. Plantation II has the greatest total number of trees, so the correct statement concerns overall population size rather than the number of trees at one particular height.",
+    "replacementAnswerIndex": 0,
+    "replacementExplanation": "The plantation II curve peaks at about 2 m and has the highest number of trees at that height. It does not have the highest total number of trees, so with the supplied option order the correct answer is option A.",
+    "topic": "Natural habitats",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png"
+  },
+  "receipt": {
+    "externalId": "biology_0584",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
+      "optionsJson": "[\"it has the highest number of trees of about 2m high\",\"it has highest number of trees\",\"it has the highest number of tall trees\",\"the height of all its trees range between 2m and 6m\"]",
+      "topic": "Natural habitats",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 1,
+      "explanation": "This is a diagram-reading question about comparing populations across plantations. Plantation II has the greatest total number of trees, so the correct statement concerns overall population size rather than the number of trees at one particular height.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
+      "optionsJson": "[\"it has the highest number of trees of about 2m high\",\"it has highest number of trees\",\"it has the highest number of tall trees\",\"the height of all its trees range between 2m and 6m\"]",
+      "topic": "Natural habitats",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 0,
+      "explanation": "The plantation II curve peaks at about 2 m and has the highest number of trees at that height. It does not have the highest total number of trees, so with the supplied option order the correct answer is option A.",
+      "diagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png"
+    },
+    "reason": "TestDriller question 43 embeds a byte-identical copy of the clean exact graph already inspected and mapped for JAMB 2010 question 42; TestDriller and MySchool independently match the protected prompt, option order, and A/highest-number-at-about-2m key, so the source-proven answer/explanation correction and mapping are released together"
+  }
+}

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -325,6 +325,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "All trees in plantation III lie between 2 m and 4 m on the graph. The other plantations include trees outside that interval, so III is correct; with the supplied option order, that is option A.",
     diagram_url: "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
   },
+  plantation0584: {
+    id: "fixture-diagram-jamb-2010-plantation-ii",
+    subject: "Biology",
+    topic: "Natural habitats",
+    subtopic: "Population distribution",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "byte-identical exact original", "plantation graph", "JAMB 2010"],
+    source: "Fixture — verified JAMB 2010 original",
+    question: "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
+    options: ["it has the highest number of trees of about 2m high", "it has highest number of trees", "it has the highest number of tall trees", "the height of all its trees range between 2m and 6m"],
+    answer_index: 0,
+    answer_text: "it has the highest number of trees of about 2m high",
+    explanation: "The plantation II curve peaks at about 2 m and has the highest number of trees at that height. It does not have the highest total number of trees, so with the supplied option order the correct answer is option A.",
+    diagram_url: "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -459,6 +475,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   photosynthesis0562: "Repaired exact JAMB 2010 photosynthesis-arrow figure",
   emulsification0551: "Repaired exact JAMB 2009 emulsification figure",
   plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
+  plantation0584: "Repaired exact JAMB 2010 plantation-II graph",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
