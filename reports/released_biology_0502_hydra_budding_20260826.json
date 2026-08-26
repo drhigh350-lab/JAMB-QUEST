@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T07:55:45.964Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, explanation, topic, source relationship, and approval status must remain unchanged.",
+  "target": {
+    "externalId": "biology_0502",
+    "questionText": "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
+    "optionsJson": "[\"sexual\",\"conjugation\",\"binary fission\",\"budding\"]",
+    "answerIndex": 3,
+    "explanation": "The organism labelled IV is Hydra, which reproduces asexually by budding. A small outgrowth develops on the parent, grows into a young individual, and eventually separates from the parent.",
+    "topic": "Reproduction",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png",
+    "explanationStatus": "approved"
+  },
+  "receipt": {
+    "externalId": "biology_0502",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
+      "optionsJson": "[\"sexual\",\"conjugation\",\"binary fission\",\"budding\"]",
+      "answerIndex": 3,
+      "explanation": "The organism labelled IV is Hydra, which reproduces asexually by budding. A small outgrowth develops on the parent, grows into a young individual, and eventually separates from the parent.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
+      "optionsJson": "[\"sexual\",\"conjugation\",\"binary fission\",\"budding\"]",
+      "answerIndex": 3,
+      "explanation": "The organism labelled IV is Hydra, which reproduces asexually by budding. A small outgrowth develops on the parent, grows into a young individual, and eventually separates from the parent.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png"
+    },
+    "reason": "TestDriller JAMB 2008 question 5 provides a clean complete native I–IV organism panel. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and D/budding key, so the exact original is mapped without changing learner content."
+  }
+}

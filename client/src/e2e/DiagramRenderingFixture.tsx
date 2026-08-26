@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -437,6 +437,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "In maize, the male inflorescence is the tassel. The exact figure labels the tassel I, so with the supplied option order the answer is option A.",
     diagram_url: "/manus-storage/biology-0501-testdriller-original_53441b7a.png",
   },
+  hydra0502: {
+    id: "fixture-diagram-jamb-2008-hydra-budding",
+    subject: "Biology",
+    topic: "Reproduction",
+    subtopic: "Asexual reproduction",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "Hydra budding", "JAMB 2008"],
+    source: "Fixture — verified JAMB 2008 original",
+    question: "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
+    options: ["sexual", "conjugation", "binary fission", "budding"],
+    answer_index: 3,
+    answer_text: "budding",
+    explanation: "The organism in IV is Hydra, which reproduces asexually by budding. With the supplied option order, budding is option D.",
+    diagram_url: "/manus-storage/biology-0502-testdriller-original_eea7904a.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -578,6 +594,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   fungal0470: "Repaired byte-identical exact JAMB 2007 Rhizopus-process figure",
   dog0480: "Repaired exact JAMB 2007 dog-genetics figure",
   maize0501: "Recovered exact JAMB 2008 maize-inflorescence figure",
+  hydra0502: "Recovered exact JAMB 2008 Hydra-budding figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

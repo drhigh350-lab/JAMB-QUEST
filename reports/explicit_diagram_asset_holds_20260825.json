@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T07:50:52.288Z",
+  "generatedAt": "2026-08-26T07:55:53.754Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 11,
+  "totalHeld": 10,
   "bySubject": {
-    "Biology": 10,
+    "Biology": 9,
     "Chemistry": 1
   },
   "holds": [
@@ -13,20 +13,6 @@
       "subject": "Biology",
       "topic": "Transport",
       "questionText": "Use the diagram above to answer this question. The part labelled l is the",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350202,
-      "externalId": "biology_0502",
-      "subject": "Biology",
-      "topic": "Reproduction",
-      "questionText": "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",
