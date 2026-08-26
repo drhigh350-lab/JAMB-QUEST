@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-26T13:19:05.240Z",
+  "action": "Non-destructive owner hold for one wrong diagram.",
+  "target": {
+    "id": 1020081,
+    "externalId": "supplied-keyed-2021-chemistry-036",
+    "sourceId": 11580001,
+    "oldDiagramUrl": "/manus-storage/chemistry-2021-atom-mixture-neutral_4778e51b.png",
+    "newDiagramUrl": null,
+    "oldExplanationStatus": "approved",
+    "newExplanationStatus": "needs_review"
+  },
+  "changedFields": [
+    "diagramUrl",
+    "explanationStatus"
+  ],
+  "learnerVisible": false,
+  "ownerHistoryRetained": true,
+  "protectedFieldsSha256": "a409b953bb0d98f2558b02de8ef75e7417de7f45819f99342b1e37cc07f4e809",
+  "affectedRows": 0
+}
