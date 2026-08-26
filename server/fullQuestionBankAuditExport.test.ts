@@ -7,6 +7,9 @@ describe("full question-bank audit CSV export", () => {
     const script = readFileSync(resolve(import.meta.dirname, "../scripts/exportFullQuestionBankAuditCsv.mjs"), "utf8");
     expect(script).toContain("FROM questionItems qi");
     expect(script).toContain("LEFT JOIN questionSources qs ON qs.id = qi.sourceId");
+    expect(script).toContain("--exclude-lekki-headmaster");
+    expect(script).toContain("LOWER(COALESCE(qs.label, '')) LIKE '%lekki headmaster%'");
+    expect(script).toContain("LOWER(qi.questionText) LIKE '%lekki headmaster%'");
     expect(script).toContain("explicit_diagram_asset_holds_20260825.json");
     expect(script).toContain("audit_explicit_visual_hold");
     expect(script).toContain("answer_index_zero_based");

@@ -5,8 +5,12 @@ import mysql from "mysql2/promise";
 const projectRoot = "/home/ubuntu/jamb-quiz-game";
 const reportsDirectory = path.join(projectRoot, "reports");
 const holdsPath = path.join(reportsDirectory, "explicit_diagram_asset_holds_20260825.json");
-const outputPath = path.join(reportsDirectory, "jamb_quest_full_question_bank_audit_20260826.csv");
-const summaryPath = path.join(reportsDirectory, "jamb_quest_full_question_bank_audit_20260826.summary.json");
+const excludeLekkiHeadmaster = process.argv.includes("--exclude-lekki-headmaster");
+const exportStem = excludeLekkiHeadmaster
+  ? "jamb_quest_question_bank_audit_excluding_lekki_headmaster_20260826"
+  : "jamb_quest_full_question_bank_audit_20260826";
+const outputPath = path.join(reportsDirectory, `${exportStem}.csv`);
+const summaryPath = path.join(reportsDirectory, `${exportStem}.summary.json`);
 
 const columns = [
   "internal_id",
@@ -57,6 +61,16 @@ const holdsByExternalId = new Map(holds.holds.map((hold) => [hold.externalId, ho
 const connection = await mysql.createConnection(process.env.DATABASE_URL);
 
 try {
+  const [[databaseTotal]] = await connection.execute("SELECT COUNT(*) AS totalQuestionCount FROM questionItems");
+  const lekkiExclusionClause = excludeLekkiHeadmaster
+    ? `WHERE NOT (
+      LOWER(COALESCE(qs.label, '')) LIKE '%lekki headmaster%'
+      OR LOWER(qi.questionText) LIKE '%lekki headmaster%'
+      OR LOWER(COALESCE(qi.explanation, '')) LIKE '%lekki headmaster%'
+      OR LOWER(qi.optionsJson) LIKE '%lekki headmaster%'
+      OR LOWER(qi.topic) LIKE '%lekki headmaster%'
+    )`
+    : "";
   const [rows] = await connection.execute(`
     SELECT
       qi.id,
@@ -78,6 +92,7 @@ try {
       qs.isActive AS sourceActive
     FROM questionItems qi
     LEFT JOIN questionSources qs ON qs.id = qi.sourceId
+    ${lekkiExclusionClause}
     ORDER BY qi.subject ASC, qi.externalId ASC, qi.id ASC
   `);
 
@@ -127,6 +142,9 @@ try {
   const summary = {
     generatedAt: new Date().toISOString(),
     scope: "Read-only full question-bank export for owner-provided external audit. No learner record was changed.",
+    excludesLekkiHeadmaster: excludeLekkiHeadmaster,
+    exclusionRule: excludeLekkiHeadmaster ? "Question source label or preserved question content contains 'Lekki Headmaster' (case-insensitive)." : null,
+    excludedQuestionCount: Number(databaseTotal.totalQuestionCount) - exportRows.length,
     outputPath,
     csvColumns: columns,
     totalRows: exportRows.length,
@@ -134,6 +152,7 @@ try {
     explicitVisualHoldsIncluded: holds.holds.length,
     integrityChecks: {
       exportedRowsMatchDatabaseRows: exportRows.length === rows.length,
+      exportedPlusExcludedRowsMatchDatabaseRows: exportRows.length + (Number(databaseTotal.totalQuestionCount) - exportRows.length) === Number(databaseTotal.totalQuestionCount),
       allRowsHaveExternalId: exportRows.every((row) => Boolean(row.external_id)),
       allRowsRetainRawOptionsJson: exportRows.every((row) => typeof row.options_json === "string"),
       physicalCsvRowsMatchHeaderPlusQuestions: csv.split("\n").length - 2 === exportRows.length,
