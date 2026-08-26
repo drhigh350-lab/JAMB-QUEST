@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-08-26T13:31:15.591Z",
+  "readOnly": true,
+  "records": [
+    {
+      "id": 990172,
+      "externalId": "jamb-500-master-chemistry-077",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "questionText": "A reaction with a high activation energy is generally:",
+      "optionsJson": "[\"slower at a given temperature\",\"always reversible\",\"always explosive\",\"independent of temperature\"]",
+      "answerIndex": 0,
+      "explanationStatus": "approved",
+      "diagramUrl": null,
+      "sourceId": 10980002,
+      "sourceLabel": "JAMB 500 Question Master Bank · Chemistry · August 2026",
+      "sourceActive": 1
+    },
+    {
+      "id": 1050059,
+      "externalId": "kairo-csv-chemistry_07c53d",
+      "subject": "Chemistry",
+      "topic": "Rates of reaction",
+      "questionText": "In the graph above, the activation energy of the catalyzed reaction is:",
+      "optionsJson": "[\"100KJ.\",\"300KJ.\",\"250KJ.\",\"200KJ.\"]",
+      "answerIndex": 0,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/chemistry-energy-profile-catalysed-neutral_2508e1aa.png",
+      "sourceId": 12330001,
+      "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+      "sourceActive": 1
+    },
+    {
+      "id": 1050117,
+      "externalId": "kairo-csv-chemistry_1ea741",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "questionText": "Choose the correct option from the structure above",
+      "optionsJson": "[\"A\",\"B\",\"C\",\"D\"]",
+      "answerIndex": 0,
+      "explanationStatus": "approved",
+      "diagramUrl": null,
+      "sourceId": 12330001,
+      "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+      "sourceActive": 1
+    },
+    {
+      "id": 1050122,
+      "externalId": "kairo-csv-chemistry_20650b",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "questionText": "In the energy profile diagram above, X represents the:",
+      "optionsJson": "[\"enthalpy.\",\"enthalpy change.\",\"activation energy.\",\"activated complex.\"]",
+      "answerIndex": 2,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/chemistry-energy-profile-original_3e1f7670.png",
+      "sourceId": 12330001,
+      "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+      "sourceActive": 1
+    },
+    {
+      "id": 1050171,
+      "externalId": "kairo-csv-chemistry_30bd42",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "questionText": "The IUPAC nomenclature for the compound above is:",
+      "optionsJson": "[\"4-methylpent-1-ene.\",\"3-methylpent-2-ene.\",\"2-methylpent-1-ene.\",\"2-methylpent-4-ene.\"]",
+      "answerIndex": 0,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/chemistry-organic-structure-original_fa400ff1.png",
+      "sourceId": 12330001,
+      "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+      "sourceActive": 1
+    },
+    {
+      "id": 1620222,
+      "externalId": "PDF-OWNER-20260822-CHEM-132",
+      "subject": "Chemistry",
+      "topic": "Nuclear chemistry",
+      "questionText": "The activation energy of a reaction is the minimum energy needed for",
+      "optionsJson": "[\"atoms to change into elements\",\"a catalyst to be consumed\",\"successful collisions to occur\",\"all products to evaporate\"]",
+      "answerIndex": 2,
+      "explanationStatus": "approved",
+      "diagramUrl": null,
+      "sourceId": 26340003,
+      "sourceLabel": "Owner PDF answer-matched Chemistry 101–200 · 23 Aug 2026",
+      "sourceActive": 1
+    }
+  ]
+}

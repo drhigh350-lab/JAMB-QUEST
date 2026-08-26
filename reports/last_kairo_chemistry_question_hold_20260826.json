@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-08-26T13:32:28.749Z",
+  "target": {
+    "externalId": "kairo-csv-chemistry_1ea741",
+    "questionText": "Choose the correct option from the structure above",
+    "newStatus": "needs_review"
+  },
+  "changedFields": [
+    "explanationStatus"
+  ],
+  "learnerVisible": false,
+  "ownerHistoryRetained": true,
+  "diagramUrlRemainedNull": true,
+  "protectedFieldsSha256": "acd184f8ff2425c408b7a24a37fb6d3298fae15987b78f07dc6c8acb4a10efbb",
+  "affectedRows": 0
+}
