@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-08-26T11:26:36.373Z",
+  "action": "Guarded mapping-only replacement with owner-supplied original image.",
+  "record": {
+    "id": 1020055,
+    "externalId": "supplied-keyed-2004-biology-032",
+    "subject": "Biology",
+    "topic": "Living organisms and organization",
+    "sourceId": 11580001
+  },
+  "ownerImage": {
+    "filename": "361163.png",
+    "dimensions": "1522x1033",
+    "sha256": "869bc894f278d79565cc3b1723f91a0187956dc7b13a861b69187e1e7292f263",
+    "storedUrl": "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png"
+  },
+  "diagramUrl": {
+    "before": "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png",
+    "after": "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png"
+  },
+  "protectedFieldsSha256": "ee2e98a7d92eca858500c7369b1c167b7b8b80d3088c714a0f368977b55011e7",
+  "affectedRows": 0,
+  "learnerEligibilityChanged": false,
+  "lekkiHeadmasterChanged": false
+}

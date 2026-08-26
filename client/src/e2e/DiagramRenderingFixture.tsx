@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "ownerCell" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -36,6 +36,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     answer_text: "7.5 m/s²",
     explanation: "The diagram supplies the force information needed to calculate the resultant force and acceleration.",
     diagram_url: "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+  },
+  ownerCell: {
+    id: "supplied-keyed-2004-biology-032",
+    subject: "Biology",
+    topic: "Living organisms and organization",
+    subtopic: "Cell structure and function",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "owner-supplied original", "cell", "mitochondrion"],
+    source: "Fixture — owner-supplied cell original",
+    question: "The part labelled II is responsible for",
+    options: ["respiration", "protein synthesis", "excretion", "photosynthesis"],
+    answer_index: 0,
+    answer_text: "respiration",
+    explanation: "Label II points to a mitochondrion, which is responsible for respiration.",
+    diagram_url: "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png",
   },
   sourceGraph: {
     id: "fixture-diagram-source-cockroach-graph",
@@ -681,6 +697,7 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
 const labels: Record<DiagramFixtureVariant, string> = {
   svg: "Browser-delivered SVG",
   source: "Original-only source crop",
+  ownerCell: "Owner-supplied cell diagram, label II",
   sourceGraph: "Original-only source graph",
   thermoregulation: "Repaired original thermoregulation graph",
   lizardGraph: "Repaired original lizard-and-bird graph",

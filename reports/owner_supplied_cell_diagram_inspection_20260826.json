@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-26T11:24:58.057Z",
+  "mode": "Read-only inspection. No question, source, diagram, learner eligibility, notification, or Lekki Headmaster record was changed.",
+  "ownerSuppliedEvidence": {
+    "imageFile": "/home/ubuntu/upload/361163.png",
+    "imageDimensions": "1522x1033",
+    "claimedPrompt": "The part labelled II is responsible for",
+    "claimedAnswer": "A. respiration",
+    "claimedVisualMeaning": "Label II points to a mitochondrion."
+  },
+  "matches": [
+    {
+      "id": 1020055,
+      "externalId": "supplied-keyed-2004-biology-032",
+      "subject": "Biology",
+      "topic": "Living organisms and organization",
+      "questionText": "[DIAGRAM: a plant/animal cell diagram with organelles labelled I, II, III, IV, including nucleus, mitochondria, and other structures]\nThe part labelled II is responsible for",
+      "optionsJson": "[\"respiration\",\"protein synthesis\",\"excretion\",\"photosynthesis\"]",
+      "answerIndex": 0,
+      "explanation": "Based on the typical labelling convention in this classic cell diagram question, the part labelled II corresponds to the mitochondrion, the organelle responsible for cellular respiration (the process that generates most of the cell's usable energy in the form of ATP). This distinguishes it from other labelled organelles like the nucleus (protein synthesis control/genetic material), which would be responsible for excretion-related or reproductive functions, and other structures serving different specific cellular roles as shown in the diagram. This tests identification of the mitochondrion and its primary function from a labelled cell diagram, a fundamental cell biology topic. Exam tip: 'mitochondria = respiration/ATP production, the powerhouse of the cell' is one of the most consistently tested organelle-function pairings in biology.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-2004-cell-original-label-map-neutral_adf47544.png",
+      "sourceId": 11580001,
+      "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+      "sourceActive": 1,
+      "options": [
+        "respiration",
+        "protein synthesis",
+        "excretion",
+        "photosynthesis"
+      ],
+      "storedAnswer": "respiration"
+    }
+  ]
+}
