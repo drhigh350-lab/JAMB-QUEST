@@ -52,16 +52,20 @@ try {
   const byKind = Object.fromEntries(
     ["empty", "known_no_explanation"].map((kind) => [kind, findings.filter(({ placeholders }) => placeholders.some((placeholder) => placeholder.kind === kind)).length]),
   );
+  const approvedRowsScannedBySubject = Object.fromEntries(
+    [...new Set(rows.map(({ subject }) => subject))].sort().map((subject) => [subject, rows.filter((row) => row.subject === subject).length]),
+  );
   await fs.writeFile(outputPath, `${JSON.stringify({
     generatedAt: new Date().toISOString(),
     scope: "Precise JSON parse of every approved learner record. It detects only truly empty option strings and literal no-explanation placeholder values; quoted dialogue is parsed as ordinary option text and does not produce a false match.",
     approvedRowsScanned: rows.length,
+    approvedRowsScannedBySubject,
     totalAffected: findings.length,
     byKind,
     malformedOptionsJsonExternalIds,
     findings,
   }, null, 2)}\n`);
-  console.log(JSON.stringify({ outputPath, approvedRowsScanned: rows.length, totalAffected: findings.length, byKind, malformedOptionsJsonCount: malformedOptionsJsonExternalIds.length }, null, 2));
+  console.log(JSON.stringify({ outputPath, approvedRowsScanned: rows.length, approvedRowsScannedBySubject, totalAffected: findings.length, byKind, malformedOptionsJsonCount: malformedOptionsJsonExternalIds.length }, null, 2));
 } finally {
   await connection.end();
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -293,6 +293,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "In the exact source figure, arrow II shows oxygen leaving the leaf during photosynthesis. Oxygen is released as a by-product of the process.",
     diagram_url: "/manus-storage/biology-0562-testdriller-original_301dd58c.png",
   },
+  emulsification0551: {
+    id: "fixture-diagram-jamb-2009-emulsification",
+    subject: "Biology",
+    topic: "Nutrition and digestion",
+    subtopic: "Human digestion",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "emulsification", "JAMB 2009"],
+    source: "Fixture — verified JAMB 2009 original",
+    question: "Use the diagram above to answer this question. Emulsification of fats takes place in the part labelled?",
+    options: ["I", "II", "III", "IV"],
+    answer_index: 3,
+    answer_text: "IV",
+    explanation: "Label IV identifies the duodenum, where bile emulsifies fats into smaller droplets and increases the surface area available to lipase.",
+    diagram_url: "/manus-storage/biology-0551-testdriller-original_7dc25806.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -377,6 +393,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   kclo3Oxygen: "Repaired exact JAMB 2009 oxygen-evolution graph",
   idealGas: "Repaired exact JAMB 2011 ideal-gas graph",
   photosynthesis0562: "Repaired exact JAMB 2010 photosynthesis-arrow figure",
+  emulsification0551: "Repaired exact JAMB 2009 emulsification figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

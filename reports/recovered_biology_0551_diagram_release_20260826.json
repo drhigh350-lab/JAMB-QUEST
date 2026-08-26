@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-26T06:47:10.459Z",
+  "scope": "Guarded mapping-only release of the clean exact JAMB 2009 emulsification figure. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0551",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0551-testdriller-original_7dc25806.png",
+    "questionText": "Use the diagram above to answer this question. Emulsification of fats takes place in the part labelled?",
+    "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+    "answerIndex": 3,
+    "topic": "Nutrition and digestion",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0551",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact TestDriller JAMB 2009 original is complete and clean: all I–IV leaders, digestive anatomy, and soil-free figure geometry are visible with no answer option, answer letter, correction, watermark, or source residue; conflicting TestDriller answer metadata is not used to alter the independently corroborated active D/IV key"
+  }
+}

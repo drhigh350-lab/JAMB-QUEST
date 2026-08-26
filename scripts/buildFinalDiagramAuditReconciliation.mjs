@@ -12,7 +12,7 @@ const [decisions, holds] = await Promise.all([
 ]);
 
 const currentLinkedMappings = {
-  Biology: 55,
+  Biology: 56,
   Chemistry: 28,
   Physics: 25,
   "Use of English": 0,

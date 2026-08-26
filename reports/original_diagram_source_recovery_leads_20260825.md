@@ -112,7 +112,9 @@ Direct inspection confirms the 300 × 193 candidate retains I–IV labels and no
 
 ## `biology_0551` — emulsification of fats
 
-SchoolNGR exposes an exact JAMB 2009 digestive-system candidate at `https://www.schoolngr.com/eattachments/7e07763e2ccb9f62b58659db11cba6311cbe01a9`. Direct inspection confirms the I–IV labels remain visible and no answer marker is present, but faint embedded source residue crosses the original figure. It cannot be cleanly removed without modifying the tested drawing, so `biology_0551` remains held and no mapping or protected-content field changed.
+SchoolNGR exposes an exact JAMB 2009 digestive-system candidate at `https://www.schoolngr.com/eattachments/7e07763e2ccb9f62b58659db11cba6311cbe01a9`. Direct inspection confirms the I–IV labels remain visible and no answer marker is present, but faint embedded source residue crosses the original figure. It cannot be cleanly removed without modifying the tested drawing.
+
+Independent TestDriller JAMB 2009 question 16 `https://www.testdriller.com/past-questions/jamb-objective-biology-2009-16` embeds a separate 284 × 180 exact original PNG. Native inspection confirms a complete I–IV digestive-system figure with no answer marker, option text, correction, watermark, source chrome, or residue through its tested leaders and anatomy. SchoolNGR matches the protected prompt and I–IV order and publicly reports D/IV, consistent with the active record. MySchool `https://myschool.ng/classroom/biology/31218` confirms the same prompt, option order, and figure but is not used as independent answer authority because its visible page content includes conflicting user commentary. TestDriller’s page reports B/II despite displaying the same prompt and figure. This source-key conflict does not justify an answer or explanation change, so the clean original is eligible only for a guarded mapping-only release with the existing fields unmodified. The clean original was uploaded as `/manus-storage/biology-0551-testdriller-original_7dc25806.png`; the conflict rationale is retained in `reports/biology_0551_answer_conflict_addendum_20260826.json`.
 
 ## `biology_1020` — vertebra identification
 

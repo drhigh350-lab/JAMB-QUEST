@@ -23,6 +23,7 @@ describe("no-explanation answer-option safety hold", () => {
     expect(hold).not.toContain("SET explanation =");
     expect(hold).not.toContain("SET diagramUrl");
     expect(preciseAudit).toContain("JSON.parse(row.optionsJson)");
+    expect(preciseAudit).toContain("approvedRowsScannedBySubject");
     expect(preciseAudit).toContain('? "empty" : "known_no_explanation"');
     expect(preciseAudit).toContain("quoted dialogue is parsed as ordinary option text");
   });

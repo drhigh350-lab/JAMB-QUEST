@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-26T06:39:47.020Z",
+  "generatedAt": "2026-08-26T06:45:40.412Z",
   "scope": "Precise JSON parse of every approved learner record. It detects only truly empty option strings and literal no-explanation placeholder values; quoted dialogue is parsed as ordinary option text and does not produce a false match.",
   "approvedRowsScanned": 8487,
+  "approvedRowsScannedBySubject": {
+    "Biology": 2484,
+    "Chemistry": 2396,
+    "Physics": 1967,
+    "Use of English": 1640
+  },
   "totalAffected": 0,
   "byKind": {
     "empty": 0,

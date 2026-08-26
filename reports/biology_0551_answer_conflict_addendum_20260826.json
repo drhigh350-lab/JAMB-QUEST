@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-08-26T06:49:00.000Z",
+  "externalId": "biology_0551",
+  "scope": "Evidence-wording addendum for a guarded mapping-only clean-original release. No database field changes were made by this addendum.",
+  "figureDecision": "The clean exact TestDriller original is eligible and was mapped because it contains the complete I–IV digestive-system figure with no answer-bearing residue.",
+  "answerDecision": "The active D/IV answer index and explanation were deliberately preserved unchanged. SchoolNGR reports D/IV, while TestDriller reports B/II for the same prompt and figure. MySchool confirms the prompt, I–IV order, and visual but is not treated as independent answer authority because its page content includes conflicting user commentary. The conflict does not justify an answer-key change.",
+  "correctionRule": "Do not alter the key or explanation unless a later exact primary or independently corroborated authoritative source resolves the conflict."
+}

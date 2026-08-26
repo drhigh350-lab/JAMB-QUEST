@@ -60,8 +60,8 @@ describe("undersized diagram audit repair", () => {
     expect(audit).toContain("toPlayableAuthorisedQuestion");
     expect(audit).toContain("SELECT qi.id");
     expect(audit).not.toContain("UPDATE questionItems");
-    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 108, bySubject: { Biology: 55, Chemistry: 28, Physics: 25, "Use of English": 0 } });
-    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 23, bySubject: { Biology: 22, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
+    expect(reconciliation.learnerFacingLinkedMappings).toEqual({ total: 109, bySubject: { Biology: 56, Chemistry: 28, Physics: 25, "Use of English": 0 } });
+    expect(reconciliation.missingOriginalVisualHolds).toMatchObject({ total: 22, bySubject: { Biology: 21, Chemistry: 1 }, learnerState: "excluded by the production eligibility guard; no generated replacement is used" });
     expect(reconciliation.safetyBoundary).toContain("The 42 reviewed screenshot mappings and the 24 remaining missing-original holds are distinct sets; the latter are not learner-visible while their original source figures are unavailable.");
   });
 
@@ -311,5 +311,22 @@ describe("undersized diagram audit repair", () => {
     expect(script).not.toContain("SET questionText");
     expect(script).not.toContain("SET optionsJson");
     expect(script).not.toContain("SET answerIndex");
+  });
+
+  it("releases biology_0551 only through a guarded clean exact-original emulsification mapping that preserves the active D/IV source-supported fields", () => {
+    const script = readFileSync(resolve(import.meta.dirname, "../scripts/releaseRecoveredBiology0551Diagram.mjs"), "utf8");
+    const addendum = JSON.parse(readFileSync(resolve(import.meta.dirname, "../reports/biology_0551_answer_conflict_addendum_20260826.json"), "utf8"));
+    expect(script).toContain('externalId: "biology_0551"');
+    expect(script).toContain("biology-0551-testdriller-original_7dc25806.png");
+    expect(script).toContain("expectedCurrentDiagramUrl: null");
+    expect(script).toContain("protectedFields.every");
+    expect(script).toContain("UPDATE questionItems SET diagramUrl = ?");
+    expect(script).not.toContain("SET questionText");
+    expect(script).not.toContain("SET optionsJson");
+    expect(script).not.toContain("SET answerIndex");
+    expect(addendum.answerDecision).toContain("SchoolNGR reports D/IV");
+    expect(addendum.answerDecision).toContain("TestDriller reports B/II");
+    expect(addendum.answerDecision).toContain("not treated as independent answer authority");
+    expect(addendum.correctionRule).toContain("Do not alter the key or explanation");
   });
 });
