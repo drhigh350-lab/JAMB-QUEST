@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-08-26T13:57:54.604Z",
+  "source": {
+    "id": 1020081,
+    "externalId": "supplied-keyed-2021-chemistry-036",
+    "explanationStatus": "needs_review",
+    "currentDiagramUrl": "/manus-storage/nitrogen-orbital-owner-supplied-20260826_9c7bddd0.png"
+  },
+  "destination": {
+    "id": 1050162,
+    "externalId": "kairo-csv-chemistry_2bdf6a",
+    "explanationStatus": "approved",
+    "newDiagramUrl": "/manus-storage/nitrogen-orbital-owner-supplied-20260826_9c7bddd0.png"
+  },
+  "changedFields": [
+    {
+      "externalId": "supplied-keyed-2021-chemistry-036",
+      "fields": [
+        "diagramUrl"
+      ]
+    },
+    {
+      "externalId": "kairo-csv-chemistry_2bdf6a",
+      "fields": [
+        "diagramUrl"
+      ]
+    }
+  ],
+  "sourceLearnerVisible": false,
+  "destinationLearnerVisible": true,
+  "affectedRows": {
+    "source": 0,
+    "destination": 1
+  },
+  "idempotentRerunSafe": true,
+  "protectedFieldsVerified": true
+}

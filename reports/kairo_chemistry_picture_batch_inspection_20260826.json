@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-26T13:59:59.679Z",
+  "readOnly": true,
+  "records": [
+    {
+      "id": 1050117,
+      "externalId": "kairo-csv-chemistry_1ea741",
+      "subject": "Chemistry",
+      "topic": "Organic compounds",
+      "questionText": "Choose the correct option from the structure above",
+      "optionsJson": "[\"A\",\"B\",\"C\",\"D\"]",
+      "answerIndex": 0,
+      "explanation": "This question relies on a missing structural diagram from the original exam paper. In UTME structural questions, the trick is always to identify your longest continuous carbon chain first and prioritize your functional groups for numbering. Since the diagram is missing, we can't definitively solve it, but keep your IUPAC priority rules sharp!",
+      "explanationStatus": "needs_review",
+      "diagramUrl": null,
+      "sourceId": 12330001
+    },
+    {
+      "id": 1050122,
+      "externalId": "kairo-csv-chemistry_20650b",
+      "subject": "Chemistry",
+      "topic": "Energy changes",
+      "questionText": "In the energy profile diagram above, X represents the:",
+      "optionsJson": "[\"enthalpy.\",\"enthalpy change.\",\"activation energy.\",\"activated complex.\"]",
+      "answerIndex": 2,
+      "explanation": "In standard energy profile diagrams for UTME, the arrow pointing from the energy level of the reactants up to the highest peak of the curve represents the activation energy (Ea). This is the minimum energy 'hill' that reacting particles must climb over for a successful chemical reaction to occur.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/chemistry-energy-profile-original-20260826_69a97b4c.png",
+      "sourceId": 12330001
+    }
+  ]
+}

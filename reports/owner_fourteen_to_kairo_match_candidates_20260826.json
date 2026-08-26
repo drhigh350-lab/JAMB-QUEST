@@ -1,0 +1,1271 @@
+{
+  "generatedAt": "2026-08-26T14:02:35.152Z",
+  "readOnly": true,
+  "matches": [
+    {
+      "owner": {
+        "id": 1170002,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-002",
+        "subject": "Biology",
+        "topic": "Reproduction",
+        "questionText": "The part labelled II is the",
+        "optionsJson": "[\"cervix\",\"vagina\",\"uterus\",\"ovary\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-002_eb1f7c83.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.23076923076923078,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1875,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15384615384615385,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.14285714285714285,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050006,
+            "externalId": "kairo-csv-biology_0206",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The parts which function together to bring about hearing are labelled",
+            "optionsJson": "[\"IV, V and VI\",\"I, II, IV and VI\",\"I, II, III and IV\",\"I, II and IV\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.11764705882352941,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170003,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-003",
+        "subject": "Biology",
+        "topic": "Nutrition and digestion",
+        "questionText": "The part labelled II is the",
+        "optionsJson": "[\"liver\",\"pancreas\",\"lung\",\"stomach\"]",
+        "answerIndex": 3,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-003_f017e9d4.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050013,
+            "externalId": "kairo-csv-biology_0214",
+            "subject": "Biology",
+            "topic": "Excretion",
+            "questionText": "Urea formation occurs in the",
+            "optionsJson": "[\"heart\",\"liver\",\"lung\",\"kidney\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.25,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.23076923076923078,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1875,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15384615384615385,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.14285714285714285,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170004,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-004",
+        "subject": "Biology",
+        "topic": "Evolution and classification",
+        "questionText": "The part labelled I is the",
+        "optionsJson": "[\"collar\",\"foot\",\"shell\",\"head\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-004_abd70262.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.23076923076923078,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1875,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15384615384615385,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.14285714285714285,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050006,
+            "externalId": "kairo-csv-biology_0206",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The parts which function together to bring about hearing are labelled",
+            "optionsJson": "[\"IV, V and VI\",\"I, II, IV and VI\",\"I, II, III and IV\",\"I, II and IV\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.11764705882352941,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170005,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+        "subject": "Biology",
+        "topic": "Plant and mammal structure",
+        "questionText": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+        "optionsJson": "[\"III\",\"I\",\"IV\",\"II\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-005_51f986ac.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2222222222222222,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050006,
+            "externalId": "kairo-csv-biology_0206",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The parts which function together to bring about hearing are labelled",
+            "optionsJson": "[\"IV, V and VI\",\"I, II, IV and VI\",\"I, II, III and IV\",\"I, II and IV\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.18181818181818182,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.13043478260869565,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170006,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-006",
+        "subject": "Biology",
+        "topic": "Living organisms and organization",
+        "questionText": "The part labelled I is the",
+        "optionsJson": "[\"mitochondrion\",\"cytoplasm\",\"vacuole\",\"nucleus\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-006_5eb4d812.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.23076923076923078,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1875,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15384615384615385,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.14285714285714285,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050006,
+            "externalId": "kairo-csv-biology_0206",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The parts which function together to bring about hearing are labelled",
+            "optionsJson": "[\"IV, V and VI\",\"I, II, IV and VI\",\"I, II, III and IV\",\"I, II and IV\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.11764705882352941,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170007,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-007",
+        "subject": "Biology",
+        "topic": "Plant and mammal structure",
+        "questionText": "The type of teeth used for tearing in man is labelled",
+        "optionsJson": "[\"IV\",\"III\",\"I\",\"II\"]",
+        "answerIndex": 3,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-007_bc399683.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.21428571428571427,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050228,
+            "externalId": "kairo-csv-chemistry_4b38b5",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The gasification of coke is used for the manufacturing of?",
+            "optionsJson": "[\"producer gas\",\"natural gas\",\"synthetic gas\",\"industrial gas\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.17647058823529413,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050006,
+            "externalId": "kairo-csv-biology_0206",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The parts which function together to bring about hearing are labelled",
+            "optionsJson": "[\"IV, V and VI\",\"I, II, IV and VI\",\"I, II, III and IV\",\"I, II and IV\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.16666666666666666,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050558,
+            "externalId": "kairo-csv-chemistry_f730cd",
+            "subject": "Chemistry",
+            "topic": "Metals and their compounds",
+            "questionText": "An allotrope of carbon used in the manufacture of electrodes for dry cells is",
+            "optionsJson": "[\"graphite\",\"diamond\",\"coke\",\"lampblack\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330002
+          },
+          "score": 0.15789473684210525,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170008,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-008",
+        "subject": "Biology",
+        "topic": "Coordination and control",
+        "questionText": "The endocrine gland that is located in the part labelled I is",
+        "optionsJson": "[\"parathyroid\",\"thyroid\",\"pituitary\",\"adrenal\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-008_04c94f3c.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1875,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050005,
+            "externalId": "kairo-csv-biology_0205",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled IV is the",
+            "optionsJson": "[\"albumen\",\"germinal disc\",\"yolk\",\"air space\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.17647058823529413,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050021,
+            "externalId": "kairo-csv-biology_0222",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The part labelled II is the",
+            "optionsJson": "[\"fenestra ovalis\",\"middle ear canal\",\"internal auditrory meatus\",\"ear ossicles\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.15,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050143,
+            "externalId": "kairo-csv-chemistry_27c863",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The number of isomers that can be obtained from C4H10 is:",
+            "optionsJson": "[\"3.\",\"4.\",\"1.\",\"2.\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.11764705882352941,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.1111111111111111,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1170009,
+        "externalId": "OWNER-BIO-DIAGRAM-2025-009",
+        "subject": "Biology",
+        "topic": "Adaptations of organisms",
+        "questionText": "The structure labelled I is adapted for",
+        "optionsJson": "[\"tearing\",\"sieving\",\"boring\",\"sucking\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-bio-diagram-2025-009_70ea46c4.png",
+        "sourceId": 13830001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050001,
+            "externalId": "kairo-csv-biology_0201",
+            "subject": "Biology",
+            "topic": "Plant and mammal structure",
+            "questionText": "The structure that holds the yolk in position is labelled",
+            "optionsJson": "[\"II\",\"I\",\"IV\",\"III\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.21428571428571427,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050002,
+            "externalId": "kairo-csv-biology_0202",
+            "subject": "Biology",
+            "topic": "Support and movement",
+            "questionText": "Blood vessel usually pass through the structure labelled",
+            "optionsJson": "[\"III\",\"II\",\"V\",\"IV\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050362,
+            "externalId": "kairo-csv-chemistry_9462f9",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature for the structure above is",
+            "optionsJson": "[\"2, 3 - dichloro - 4, 4, 5 - trimethyl pent - 2 - ene\",\"4, 5 - dichloro - 2, 3 - dimethyl hex - 2 - ene\",\"2, 3 - dichloro - 4, 4 - dimethyl hex - 2- ene\",\"2, 3 dichloro - 2, 2 - dimethyl hex - 2 - ene\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-dichloro-dimethyl-alkene-neutral_53e982d2.png",
+            "sourceId": 12330001
+          },
+          "score": 0.16666666666666666,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050117,
+            "externalId": "kairo-csv-chemistry_1ea741",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "Choose the correct option from the structure above",
+            "optionsJson": "[\"A\",\"B\",\"C\",\"D\"]",
+            "answerIndex": 0,
+            "explanationStatus": "needs_review",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.14285714285714285,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050171,
+            "externalId": "kairo-csv-chemistry_30bd42",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature for the compound above is:",
+            "optionsJson": "[\"4-methylpent-1-ene.\",\"3-methylpent-2-ene.\",\"2-methylpent-1-ene.\",\"2-methylpent-4-ene.\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-organic-structure-original_fa400ff1.png",
+            "sourceId": 12330001
+          },
+          "score": 0.13333333333333333,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1200001,
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-001",
+        "subject": "Chemistry",
+        "topic": "Organic compounds",
+        "questionText": "The IUPAC nomenclature of the structure shown is",
+        "optionsJson": "[\"3-chloro-3-methylbutane\",\"2,2-dichloro-3-methylbutane\",\"3-methylchlorobutane\",\"2-chloro-2-methylbutane\"]",
+        "answerIndex": 3,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-chem-diagram-2026-001_4bf2495e.png",
+        "sourceId": 13950001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050218,
+            "externalId": "kairo-csv-chemistry_48e8c5",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound (CH3)2C(Cl)CH2CH3 is",
+            "optionsJson": "[\"3-chloro-3-methylbutane\",\"2,2-dichloro-3-methylbutane\",\"3-methylchlorobutane\",\"2-chloro-2-methylbutane\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.5833333333333334,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050362,
+            "externalId": "kairo-csv-chemistry_9462f9",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature for the structure above is",
+            "optionsJson": "[\"2, 3 - dichloro - 4, 4, 5 - trimethyl pent - 2 - ene\",\"4, 5 - dichloro - 2, 3 - dimethyl hex - 2 - ene\",\"2, 3 - dichloro - 4, 4 - dimethyl hex - 2- ene\",\"2, 3 dichloro - 2, 2 - dimethyl hex - 2 - ene\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-dichloro-dimethyl-alkene-neutral_53e982d2.png",
+            "sourceId": 12330001
+          },
+          "score": 0.3125,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050040,
+            "externalId": "kairo-csv-chemistry_010270",
+            "subject": "Chemistry",
+            "topic": "Chemical combination",
+            "questionText": "What is the IUPAC nomenclature of the compound NaClO?",
+            "optionsJson": "[\"sodium oxochlorate (I)\",\"sodium chloro (I) oxide\",\"sodium monooxochlorate (II)\",\"sodium chloro (I) monoxide\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.23529411764705882,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050200,
+            "externalId": "kairo-csv-chemistry_3e5b55",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound above is?",
+            "optionsJson": "[\"4 - ethyloctane\",\"5 - ethyloctane\",\"5 - propylheptane\",\"3 - propylheptane\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-4-ethyloctane-structure-neutral_a0b17510.png",
+            "sourceId": 12330001
+          },
+          "score": 0.23076923076923078,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050171,
+            "externalId": "kairo-csv-chemistry_30bd42",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature for the compound above is:",
+            "optionsJson": "[\"4-methylpent-1-ene.\",\"3-methylpent-2-ene.\",\"2-methylpent-1-ene.\",\"2-methylpent-4-ene.\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-organic-structure-original_fa400ff1.png",
+            "sourceId": 12330001
+          },
+          "score": 0.21428571428571427,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1200002,
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-002",
+        "subject": "Chemistry",
+        "topic": "Organic compounds",
+        "questionText": "The IUPAC name of the compound shown is",
+        "optionsJson": "[\"3-methyl-3-bromobutane\",\"2-methyl-2-bromobutane\",\"2-bromo-2-methylbutane\",\"3-bromo-3-methylbutane\"]",
+        "answerIndex": 2,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-chem-diagram-2026-002_05abca41.png",
+        "sourceId": 13950001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050383,
+            "externalId": "kairo-csv-chemistry_9e013a",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC name of the organic compound CH3-CH(CH3)-CH2-CH3 is",
+            "optionsJson": "[\"2-methylbutane\",\"3-methylbutane\",\"pentane\",\"2,2-dimethylpropane\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.35714285714285715,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050340,
+            "externalId": "kairo-csv-chemistry_87bba5",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC name of the compound CH3CH(CH3)CH2CH2OH is",
+            "optionsJson": "[\"2-methylbutan-4-ol\",\"3-methylbutan-1-ol\",\"2-methylbutan-1-ol\",\"pentan-1-ol\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2857142857142857,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050493,
+            "externalId": "kairo-csv-chemistry_d81121",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC name of the compound CH3-CH(OH)-CH2-CH3 is",
+            "optionsJson": "[\"butan-1-ol\",\"butan-2-ol\",\"2-methylpropan-2-ol\",\"propan-2-ol\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2857142857142857,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050045,
+            "externalId": "kairo-csv-chemistry_03d572",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC name of the compound CH3CH2CH(CH3)CHO is",
+            "optionsJson": "[\"2-methylbutanal\",\"3-methylbutanal\",\"pentanal\",\"2-methylbutanone\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.26666666666666666,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050218,
+            "externalId": "kairo-csv-chemistry_48e8c5",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound (CH3)2C(Cl)CH2CH3 is",
+            "optionsJson": "[\"3-chloro-3-methylbutane\",\"2,2-dichloro-3-methylbutane\",\"3-methylchlorobutane\",\"2-chloro-2-methylbutane\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.26666666666666666,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1200003,
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-003",
+        "subject": "Chemistry",
+        "topic": "Organic compounds",
+        "questionText": "The IUPAC nomenclature of the compound shown is",
+        "optionsJson": "[\"propan-1-ol\",\"butan-1-ol\",\"2-methylpropan-1-ol\",\"2-methylpropan-2-ol\"]",
+        "answerIndex": 3,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-chem-diagram-2026-003_7abfad28.png",
+        "sourceId": 13950001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050214,
+            "externalId": "kairo-csv-chemistry_47c5f2",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound CH3CH(OH)CH2CH3 is",
+            "optionsJson": "[\"butan-1-ol\",\"butan-2-ol\",\"2-methylpropan-1-ol\",\"2-methylpropan-2-ol\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.6,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050493,
+            "externalId": "kairo-csv-chemistry_d81121",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC name of the compound CH3-CH(OH)-CH2-CH3 is",
+            "optionsJson": "[\"butan-1-ol\",\"butan-2-ol\",\"2-methylpropan-2-ol\",\"propan-2-ol\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.5454545454545454,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050200,
+            "externalId": "kairo-csv-chemistry_3e5b55",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound above is?",
+            "optionsJson": "[\"4 - ethyloctane\",\"5 - ethyloctane\",\"5 - propylheptane\",\"3 - propylheptane\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-4-ethyloctane-structure-neutral_a0b17510.png",
+            "sourceId": 12330001
+          },
+          "score": 0.36363636363636365,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050171,
+            "externalId": "kairo-csv-chemistry_30bd42",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature for the compound above is:",
+            "optionsJson": "[\"4-methylpent-1-ene.\",\"3-methylpent-2-ene.\",\"2-methylpent-1-ene.\",\"2-methylpent-4-ene.\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-organic-structure-original_fa400ff1.png",
+            "sourceId": 12330001
+          },
+          "score": 0.3333333333333333,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050564,
+            "externalId": "kairo-csv-chemistry_faaac0",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The IUPAC nomenclature of the compound CH3C≡CCH(CH3)2 is",
+            "optionsJson": "[\"3-methylpent-2-yne\",\"4-methylpent-2-yne\",\"2-methylpent-3-yne\",\"4-methylpent-3-yne\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330002
+          },
+          "score": 0.3076923076923077,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1200004,
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-004",
+        "subject": "Chemistry",
+        "topic": "Energy changes",
+        "questionText": "In the energy profile shown, y represents",
+        "optionsJson": "[\"endothermic reaction\",\"activation energy\",\"exothermic reaction\",\"ionization energy\"]",
+        "answerIndex": 1,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-chem-diagram-2026-004_4f0abed0.png",
+        "sourceId": 13950001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050122,
+            "externalId": "kairo-csv-chemistry_20650b",
+            "subject": "Chemistry",
+            "topic": "Energy changes",
+            "questionText": "In the energy profile diagram above, X represents the:",
+            "optionsJson": "[\"enthalpy.\",\"enthalpy change.\",\"activation energy.\",\"activated complex.\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-energy-profile-original-20260826_69a97b4c.png",
+            "sourceId": 12330001
+          },
+          "score": 0.3125,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050246,
+            "externalId": "kairo-csv-chemistry_534c7c",
+            "subject": "Chemistry",
+            "topic": "Rates of reaction",
+            "questionText": "The minimum amount of energy required for a reaction to take place is:",
+            "optionsJson": "[\"lattice energy.\",\"ionization energy.\",\"activation energy.\",\"kinetic energy.\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2777777777777778,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050128,
+            "externalId": "kairo-csv-chemistry_2137e5",
+            "subject": "Chemistry",
+            "topic": "Energy changes",
+            "questionText": "A chemical reaction in which the hydration energy is greater than the lattice energy is referred to as:",
+            "optionsJson": "[\"a spontaneous reaction.\",\"an endothermic reaction.\",\"an exothermic reaction.\",\"a reversible reaction.\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.2631578947368421,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050052,
+            "externalId": "kairo-csv-chemistry_06d4a4",
+            "subject": "Chemistry",
+            "topic": "Energy changes",
+            "questionText": "The minimum energy required by colliding particles to initiate a chemical reaction is called",
+            "optionsJson": "[\"ionization energy\",\"lattice energy\",\"activation energy\",\"bond dissociation energy\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.25,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050059,
+            "externalId": "kairo-csv-chemistry_07c53d",
+            "subject": "Chemistry",
+            "topic": "Rates of reaction",
+            "questionText": "In the graph above, the activation energy of the catalyzed reaction is:",
+            "optionsJson": "[\"100KJ.\",\"300KJ.\",\"250KJ.\",\"200KJ.\"]",
+            "answerIndex": 0,
+            "explanationStatus": "approved",
+            "diagramUrl": "/manus-storage/chemistry-energy-profile-catalysed-neutral_2508e1aa.png",
+            "sourceId": 12330001
+          },
+          "score": 0.23529411764705882,
+          "answerSame": false
+        }
+      ]
+    },
+    {
+      "owner": {
+        "id": 1200008,
+        "externalId": "OWNER-CHEM-DIAGRAM-2026-008",
+        "subject": "Chemistry",
+        "topic": "Solubility",
+        "questionText": "From the solubility graph, it can be inferred that",
+        "optionsJson": "[\"the solubility of X and Y is the same at all temperatures\",\"the solubility of X, Y and Z is temperature dependent\",\"the solubility of Z increases as temperature increases\",\"the solubility of Y increases steadily as temperature increases\"]",
+        "answerIndex": 3,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/owner-chem-diagram-2026-008_10876a35.png",
+        "sourceId": 13950001
+      },
+      "candidates": [
+        {
+          "candidate": {
+            "id": 1050143,
+            "externalId": "kairo-csv-chemistry_27c863",
+            "subject": "Chemistry",
+            "topic": "Organic compounds",
+            "questionText": "The number of isomers that can be obtained from C4H10 is:",
+            "optionsJson": "[\"3.\",\"4.\",\"1.\",\"2.\"]",
+            "answerIndex": 3,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.21052631578947367,
+          "answerSame": true
+        },
+        {
+          "candidate": {
+            "id": 1050541,
+            "externalId": "kairo-csv-chemistry_ece32e",
+            "subject": "Chemistry",
+            "topic": "Solubility",
+            "questionText": "The solubility of a solid solute in water generally increases with",
+            "optionsJson": "[\"increase in pressure\",\"decrease in pressure\",\"increase in temperature\",\"decrease in temperature\"]",
+            "answerIndex": 2,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330002
+          },
+          "score": 0.17391304347826086,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050301,
+            "externalId": "kairo-csv-chemistry_73a35b",
+            "subject": "Chemistry",
+            "topic": "Solubility",
+            "questionText": "The solubilities of different solutes in a given solvent can be compared by:",
+            "optionsJson": "[\"plotting their solubility curves on separate axes.\",\"plotting their solubility curves on the same axes.\",\"plotting some of the solubility curves on the x-axis and others on the y-axis.\",\"plotting their solubility curves on the x-axis only.\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.16666666666666666,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050546,
+            "externalId": "kairo-csv-chemistry_f05ad1",
+            "subject": "Chemistry",
+            "topic": "Solubility",
+            "questionText": "117.0g of sodium chloride was dissolved in 1.0 dm³ of distilled water at 25°C. Determine the solubility in mol dm⁻³ of sodium chloride at that temperature [Na = 23, Cl = 35.5]",
+            "optionsJson": "[\"1.0\",\"2.0\",\"3.0\",\"4.0\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330002
+          },
+          "score": 0.16666666666666666,
+          "answerSame": false
+        },
+        {
+          "candidate": {
+            "id": 1050189,
+            "externalId": "kairo-csv-chemistry_375adb",
+            "subject": "Chemistry",
+            "topic": "Energy changes",
+            "questionText": "When ΔH is positive and small, and ΔS is positive and large, the reaction will be",
+            "optionsJson": "[\"non-spontaneous at all temperatures\",\"spontaneous at high temperatures\",\"spontaneous at all temperatures\",\"non-spontaneous only at high temperatures\"]",
+            "answerIndex": 1,
+            "explanationStatus": "approved",
+            "diagramUrl": null,
+            "sourceId": 12330001
+          },
+          "score": 0.16,
+          "answerSame": false
+        }
+      ]
+    }
+  ],
+  "manuallyIdentifiedImage": {
+    "file": "chemistry-ideal-gas-schoolngr-original_002271ae.png",
+    "candidate": [
+      {
+        "id": 1050536,
+        "externalId": "kairo-csv-chemistry_ea3781",
+        "subject": "Chemistry",
+        "topic": "Kinetic theory of matter and gases",
+        "questionText": "From the diagram above, an ideal gas can be represented by:",
+        "optionsJson": "[\"M.\",\"N.\",\"K.\",\"L.\"]",
+        "answerIndex": 1,
+        "explanationStatus": "approved",
+        "diagramUrl": "/manus-storage/chemistry-ideal-gas-schoolngr-original_002271ae.png",
+        "sourceId": 12330002
+      }
+    ]
+  }
+}

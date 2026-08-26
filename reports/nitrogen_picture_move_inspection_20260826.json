@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-26T13:55:51.188Z",
+  "readOnly": true,
+  "records": [
+    {
+      "id": 1050162,
+      "externalId": "kairo-csv-chemistry_2bdf6a",
+      "subject": "Chemistry",
+      "topic": "Atomic structure and bonding",
+      "questionText": "The diagram above represent the electron sub-level for",
+      "optionsJson": "[\"carbon\",\"nitrogen\",\"oxygen\",\"fluorine\"]",
+      "answerIndex": 1,
+      "explanation": "Although the specific diagram is missing in this text version, these questions typically display standard orbital box diagrams demonstrating Hund's rule. Nitrogen (atomic number 7) has a configuration of 1s² 2s² 2p³. It is distinguished by having exactly three unpaired electrons in the 2p orbitals, making it a very common structural question.",
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/chemistry-nitrogen-2p-sublevel-neutral_ffd2c5f4.png",
+      "sourceId": 12330001
+    },
+    {
+      "id": 1020081,
+      "externalId": "supplied-keyed-2021-chemistry-036",
+      "subject": "Chemistry",
+      "topic": "Kinetic theory of matter and gases",
+      "questionText": "In the experiment above, X is a mixture of nitrogen, carbon (IV) oxide and",
+      "optionsJson": "[\"oxygen\",\"inert gas\",\"water\",\"impurities\"]",
+      "answerIndex": 0,
+      "explanation": "The question describes X as a mixture of nitrogen, carbon(IV) oxide, and one further component; since these three gases (nitrogen, carbon dioxide, and oxygen) together make up the overwhelming majority of ordinary air by volume, oxygen is the chemically consistent missing component that completes the description of natural air composition. Inert gas, water, and impurities are present in air only in trace amounts and would not typically be paired with nitrogen and CO2 as the defining components in this type of composition question. This tests recall of the major constituents of atmospheric air, a foundational environmental chemistry fact. Exam tip: whenever nitrogen and carbon dioxide are named together as major components of a gas mixture, oxygen is almost always the third expected component to complete the picture of ordinary air.",
+      "explanationStatus": "needs_review",
+      "diagramUrl": "/manus-storage/nitrogen-orbital-owner-supplied-20260826_9c7bddd0.png",
+      "sourceId": 11580001
+    }
+  ]
+}
