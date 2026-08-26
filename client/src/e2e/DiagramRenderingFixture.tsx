@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -501,6 +501,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Line I remains approximately constant while external temperature changes, so the body temperature in I is independent of external temperature. With the supplied option order, it is option B.",
     diagram_url: "/manus-storage/biology-0527-testdriller-original_8ece4a3c.png",
   },
+  amplexus0890: {
+    id: "fixture-diagram-jamb-2007-breeding-posture",
+    subject: "Biology",
+    topic: "Reproduction",
+    subtopic: "Reproductive behaviour",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "frog amplexus", "JAMB 2007"],
+    source: "Fixture — verified JAMB 2007 original",
+    question: "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
+    options: ["mating", "amplexus", "courtship display", "reproductive swimming"],
+    answer_index: 1,
+    answer_text: "amplexus",
+    explanation: "Amplexus is the characteristic breeding embrace in frogs and other amphibians. With the supplied option order, it is option B.",
+    diagram_url: "/manus-storage/biology-0890-testdriller-original_300cb4b6.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -646,6 +662,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   chitin0505: "Repaired byte-identical exact JAMB 2008 chitinous-exoskeleton figure",
   water0523: "Repaired exact JAMB 2008 water-reabsorption figure",
   thermo0527: "Recovered exact JAMB 2008 thermoregulation graph",
+  amplexus0890: "Recovered exact JAMB 2007 breeding-posture figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

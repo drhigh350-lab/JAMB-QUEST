@@ -19,3 +19,7 @@ Independent TestDriller JAMB 2008 question 16 is available at `https://www.testd
 ## `biology_0527` — JAMB 2008 thermoregulation deduction graph
 
 Independent TestDriller JAMB 2008 question 46 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2008-46`. It matches the protected deduction prompt and exact A–D option order, states B/“the body temperature in I is independent of external temperature,” and embeds a clean complete native graph labelled I and II. Native inspection, protected-record comparison, and MySchool/SchoolNGR corroboration all passed; the original was released mapping-only as `/manus-storage/biology-0527-testdriller-original_8ece4a3c.png` with the protected key and all other learner fields unchanged.
+
+## `biology_0890` — JAMB 2007 breeding posture
+
+Independent TestDriller JAMB 2007 question 19 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2007-19`. It matches the protected breeding-posture prompt and `mating` / `amplexus` / `courtship display` / `reproductive swimming` option order, states B/amplexus, and supplies a clean complete frog-pair figure. Native inspection, protected-record comparison, and MySchool/SchoolNGR corroboration all passed; the original was released mapping-only as `/manus-storage/biology-0890-testdriller-original_300cb4b6.png` with the protected key and all other learner fields unchanged.

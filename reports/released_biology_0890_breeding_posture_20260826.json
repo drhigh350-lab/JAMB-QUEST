@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T08:17:02.373Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, explanation, topic, source relationship, and approval status must remain unchanged.",
+  "target": {
+    "externalId": "biology_0890",
+    "questionText": "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
+    "optionsJson": "[\"mating\",\"amplexus\",\"courtship display\",\"reproductive swimming\"]",
+    "answerIndex": 1,
+    "explanation": "Amplexus is the characteristic breeding embrace in frogs and other amphibians, where the male clasps the female during reproduction. This positioning helps the male release sperm as the female lays her eggs, facilitating external fertilization.",
+    "topic": "Reproduction",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0890-testdriller-original_300cb4b6.png",
+    "explanationStatus": "approved"
+  },
+  "receipt": {
+    "externalId": "biology_0890",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
+      "optionsJson": "[\"mating\",\"amplexus\",\"courtship display\",\"reproductive swimming\"]",
+      "answerIndex": 1,
+      "explanation": "Amplexus is the characteristic breeding embrace in frogs and other amphibians, where the male clasps the female during reproduction. This positioning helps the male release sperm as the female lays her eggs, facilitating external fertilization.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
+      "optionsJson": "[\"mating\",\"amplexus\",\"courtship display\",\"reproductive swimming\"]",
+      "answerIndex": 1,
+      "explanation": "Amplexus is the characteristic breeding embrace in frogs and other amphibians, where the male clasps the female during reproduction. This positioning helps the male release sperm as the female lays her eggs, facilitating external fertilization.",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0890-testdriller-original_300cb4b6.png"
+    },
+    "reason": "TestDriller JAMB 2007 question 19 provides a clean complete native frog-pair posture original. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and B/amplexus key, so the exact original is mapped without changing learner content."
+  }
+}
