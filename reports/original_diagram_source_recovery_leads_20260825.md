@@ -186,7 +186,9 @@ Direct inspection confirms the 300 × 158 candidate retains the complete origina
 
 MySchool JAMB 2010 page `https://myschool.ng/classroom/biology/31198` exactly matches the protected prompt and active option order, and identifies **release of oxygen as a by-product** as option D (index `3`), consistent with the active held record. Quizzerweb independently corroborates the exact prompt and oxygen outcome, although its alternative option order places that result at C; it does not make the protected active option order invalid.
 
-The MySchool visual at `https://myschool.ng/storage/classroom/17089204980_w4.jpg` has embedded scan-source residue throughout the plant/arrow figure. Quizzerweb exposes only a broken/unavailable image placeholder for its candidate. Without a complete clean exact original, `biology_0562` remains held; no mapping, key, explanation, topic, or other protected record field changed.
+The MySchool visual at `https://myschool.ng/storage/classroom/17089204980_w4.jpg` has embedded scan-source residue throughout the plant/arrow figure. Quizzerweb exposes only a broken/unavailable image placeholder for its candidate.
+
+Independent TestDriller JAMB 2010 question 13 `https://www.testdriller.com/past-questions/jamb-objective-biology-2010-13` exactly matches the protected prompt, active option order, and option D source answer. It embeds a separate 227 × 222 original PNG with the complete plant, I–IV arrows, and both soil labels. Direct native inspection confirms that this original has no answer marker, option text, correction, watermark, source chrome, or residue through the arrows or plant geometry. The clean unmodified original was uploaded as `/manus-storage/biology-0562-testdriller-original_301dd58c.png` and is eligible for a guarded mapping-only release; the protected stem, options, key, explanation, topic, and source relationship must remain unchanged.
 
 ## `biology_0569` — raptor feeding adaptation
 

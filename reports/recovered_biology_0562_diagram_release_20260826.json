@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-26T06:25:43.528Z",
+  "scope": "Guarded mapping-only release of the clean exact JAMB 2010 photosynthesis-arrow figure. Question text, options, answer index, topic, explanation, and source relationship remain unchanged.",
+  "target": {
+    "externalId": "biology_0562",
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0562-testdriller-original_301dd58c.png",
+    "questionText": "Use the diagram above to answer this question. During photosynthesis, the arrow labeled II represents the?",
+    "optionsJson": "[\"escape of mineral salts\",\"absorption of energy from the sun\",\"release of carbon (IV) oxide\",\"release of oxygen as a by-product\"]",
+    "answerIndex": 3,
+    "topic": "Nutrition and digestion",
+    "sourceId": 22500001
+  },
+  "receipt": {
+    "externalId": "biology_0562",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "reason": "exact TestDriller JAMB 2010 original is complete and clean: all I–IV arrows, plant geometry, and soil labels remain visible with no answer option, answer letter, correction, watermark, or source residue"
+  }
+}

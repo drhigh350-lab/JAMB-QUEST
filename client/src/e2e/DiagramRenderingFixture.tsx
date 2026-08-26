@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -277,6 +277,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "In the exact source graph, N is the horizontal line, so its PV value remains unchanged as pressure varies. It represents ideal gas behaviour.",
     diagram_url: "/manus-storage/chemistry-ideal-gas-schoolngr-original_002271ae.png",
   },
+  photosynthesis0562: {
+    id: "fixture-diagram-jamb-2010-photosynthesis-arrow",
+    subject: "Biology",
+    topic: "Nutrition and digestion",
+    subtopic: "Photosynthesis",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "photosynthesis arrows", "JAMB 2010"],
+    source: "Fixture — verified JAMB 2010 original",
+    question: "Use the diagram above to answer this question. During photosynthesis, the arrow labeled II represents the?",
+    options: ["escape of mineral salts", "absorption of energy from the sun", "release of carbon (IV) oxide", "release of oxygen as a by-product"],
+    answer_index: 3,
+    answer_text: "release of oxygen as a by-product",
+    explanation: "In the exact source figure, arrow II shows oxygen leaving the leaf during photosynthesis. Oxygen is released as a by-product of the process.",
+    diagram_url: "/manus-storage/biology-0562-testdriller-original_301dd58c.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -360,6 +376,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   beak1225: "Repaired exact JAMB 2025 bird-beak figure",
   kclo3Oxygen: "Repaired exact JAMB 2009 oxygen-evolution graph",
   idealGas: "Repaired exact JAMB 2011 ideal-gas graph",
+  photosynthesis0562: "Repaired exact JAMB 2010 photosynthesis-arrow figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",

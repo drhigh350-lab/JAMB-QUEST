@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T18:01:44.545Z",
+  "generatedAt": "2026-08-26T06:25:49.196Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
-  "totalHeld": 24,
+  "totalHeld": 23,
   "bySubject": {
-    "Biology": 23,
+    "Biology": 22,
     "Chemistry": 1
   },
   "holds": [
@@ -181,20 +181,6 @@
       "subject": "Biology",
       "topic": "Nutrition and digestion",
       "questionText": "Use the diagram above to answer this question. The content of the part labelled III is usually?",
-      "diagramUrl": null,
-      "sourceId": 22500001,
-      "sourceSlug": "authorised-1-1787388348086",
-      "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
-      "disposition": "hold_missing_original",
-      "learnerEligibility": "excluded by toPlayableAuthorisedQuestion until a source-backed original visual is linked",
-      "reason": "The protected stem explicitly depends on a diagram after normalisation, but no linked original learner asset exists. No semantic reconstruction or AI-generated visual is permitted."
-    },
-    {
-      "id": 1350251,
-      "externalId": "biology_0562",
-      "subject": "Biology",
-      "topic": "Nutrition and digestion",
-      "questionText": "Use the diagram above to answer this question. During photosynthesis, the arrow labeled II represents the?",
       "diagramUrl": null,
       "sourceId": 22500001,
       "sourceSlug": "authorised-1-1787388348086",
