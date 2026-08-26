@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -485,6 +485,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "Water reabsorption takes place in the alimentary canal and the kidney. In the exact figure, those organs are labelled III and IV; with the supplied option order, it is option B.",
     diagram_url: "/manus-storage/biology-0523-testdriller-original_f9b78c24.png",
   },
+  thermo0527: {
+    id: "fixture-diagram-jamb-2008-thermoregulation",
+    subject: "Biology",
+    topic: "Support and movement",
+    subtopic: "Thermoregulation",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "thermoregulation graph", "JAMB 2008"],
+    source: "Fixture — verified JAMB 2008 original",
+    question: "Use the diagram above to answer this question. From the graph above, it can be appropriately deduced that",
+    options: ["the body temperature in II varies with that in I", "the body temperature in I is independent of external temperature", "I and II maintain constant body temperature", "external temperatures affect the body temperature of I and II"],
+    answer_index: 1,
+    answer_text: "the body temperature in I is independent of external temperature",
+    explanation: "Line I remains approximately constant while external temperature changes, so the body temperature in I is independent of external temperature. With the supplied option order, it is option B.",
+    diagram_url: "/manus-storage/biology-0527-testdriller-original_8ece4a3c.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -629,6 +645,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   hydra0502: "Recovered exact JAMB 2008 Hydra-budding figure",
   chitin0505: "Repaired byte-identical exact JAMB 2008 chitinous-exoskeleton figure",
   water0523: "Repaired exact JAMB 2008 water-reabsorption figure",
+  thermo0527: "Recovered exact JAMB 2008 thermoregulation graph",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",

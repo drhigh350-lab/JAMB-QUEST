@@ -15,3 +15,7 @@ Independent TestDriller JAMB 2008 question 4 is available at `https://www.testdr
 ## `biology_0523` — JAMB 2008 water reabsorption
 
 Independent TestDriller JAMB 2008 question 16 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2008-16`. It matches the held water-reabsorption prompt and `II and III` / `III and IV` / `I and IV` / `I and III` option order, states B/III and IV, and displays an inline I–IV organ-system panel. The visible figure appears free of answer lettering, correction text, watermark, source residue, or source chrome inside the asset. Native extraction and inspection, protected-record comparison, and retention of existing MySchool/SchoolNGR corroboration are required before any learner mapping or key change.
+
+## `biology_0527` — JAMB 2008 thermoregulation deduction graph
+
+Independent TestDriller JAMB 2008 question 46 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2008-46`. It matches the protected deduction prompt and exact A–D option order, states B/“the body temperature in I is independent of external temperature,” and embeds a clean complete native graph labelled I and II. Native inspection, protected-record comparison, and MySchool/SchoolNGR corroboration all passed; the original was released mapping-only as `/manus-storage/biology-0527-testdriller-original_8ece4a3c.png` with the protected key and all other learner fields unchanged.

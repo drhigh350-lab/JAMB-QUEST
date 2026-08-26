@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T08:11:43.279Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, explanation, topic, source relationship, and approval status must remain unchanged.",
+  "target": {
+    "externalId": "biology_0527",
+    "questionText": "Use the diagram above to answer this question. From the graph above, it can be appropriately deduced that",
+    "optionsJson": "[\"the body temperature in II varies with that in I\",\"the body temperature in I is independent of external temperature\",\"I and II maintain constant body temperature\",\"external temperatures affect the body temperature of I and II\"]",
+    "answerIndex": 1,
+    "explanation": "The graph demonstrates the difference between an animal that maintains a relatively constant internal temperature and one whose body temperature changes with the environment. The body temperature represented by I remains relatively constant despite changes in external temperature, showing homeothermic regulation.",
+    "topic": "Support and movement",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0527-testdriller-original_8ece4a3c.png",
+    "explanationStatus": "approved"
+  },
+  "receipt": {
+    "externalId": "biology_0527",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. From the graph above, it can be appropriately deduced that",
+      "optionsJson": "[\"the body temperature in II varies with that in I\",\"the body temperature in I is independent of external temperature\",\"I and II maintain constant body temperature\",\"external temperatures affect the body temperature of I and II\"]",
+      "answerIndex": 1,
+      "explanation": "The graph demonstrates the difference between an animal that maintains a relatively constant internal temperature and one whose body temperature changes with the environment. The body temperature represented by I remains relatively constant despite changes in external temperature, showing homeothermic regulation.",
+      "topic": "Support and movement",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. From the graph above, it can be appropriately deduced that",
+      "optionsJson": "[\"the body temperature in II varies with that in I\",\"the body temperature in I is independent of external temperature\",\"I and II maintain constant body temperature\",\"external temperatures affect the body temperature of I and II\"]",
+      "answerIndex": 1,
+      "explanation": "The graph demonstrates the difference between an animal that maintains a relatively constant internal temperature and one whose body temperature changes with the environment. The body temperature represented by I remains relatively constant despite changes in external temperature, showing homeothermic regulation.",
+      "topic": "Support and movement",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0527-testdriller-original_8ece4a3c.png"
+    },
+    "reason": "TestDriller JAMB 2008 question 46 provides a clean complete native graph with legible I/II lines and axes. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and B/I-independent key, so the exact original is mapped without changing learner content."
+  }
+}
