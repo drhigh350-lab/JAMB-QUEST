@@ -1,0 +1,425 @@
+{
+  "reportPath": "/home/ubuntu/jamb-quiz-game/reports/explicit_new_owner_diagram_candidates_20260826.json",
+  "results": [
+    {
+      "key": "vertebral",
+      "count": 4,
+      "candidates": [
+        {
+          "id": 1020032,
+          "externalId": "supplied-keyed-2004-biology-008",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[DIAGRAM: a vertebral column / spine diagram with two regions labelled I and II] The type of joint between adjacent bones in the part labelled II is the",
+          "options": [
+            "hinge joint",
+            "suture joint",
+            "sliding joint",
+            "ball-and-socket joint"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "suture joint",
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1020033,
+          "externalId": "supplied-keyed-2004-biology-009",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[Refers to the vertebral column diagram in Q8] The bones labelled II are called",
+          "options": [
+            "thoracic vertebrae",
+            "lumbar vertebrae",
+            "cervical vertebrae",
+            "sacral vertebrae."
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "cervical vertebrae",
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1350160,
+          "externalId": "biology_0449",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "questionText": "In the diagram, A unique characteristic that distinguishes the class of vertebrates represented from other vertebrates is the presence of",
+          "options": [
+            "two pair of limbs",
+            "scales on the lower legs",
+            "a pair of wings",
+            "a covering of feathers"
+          ],
+          "answerIndex": 3,
+          "storedAnswer": "a covering of feathers",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01"
+        },
+        {
+          "id": 1350578,
+          "externalId": "biology_1020",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "Use the diagram to answer the question. The vertebra illustrated is",
+          "options": [
+            "Lumbar",
+            "Thoracic",
+            "Caudal",
+            "Cervical"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "Thoracic",
+          "diagramUrl": "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02"
+        }
+      ]
+    },
+    {
+      "key": "skin",
+      "count": 2,
+      "candidates": [
+        {
+          "id": 1020039,
+          "externalId": "supplied-keyed-2004-biology-015",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a cross-section of mammalian skin with structures labelled I, II, III, IV, including a hair follicle, sweat gland, and associated structures] The function of the part labelled III is to",
+          "options": [
+            "produce oil for the skin",
+            "carry blood and nitrogenous waste",
+            "contract to pull the hair erect",
+            "conduct nervous impulses"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "contract to pull the hair erect",
+          "diagramUrl": "/manus-storage/biology-skin-cross-section-neutral_c2f97b70.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1350085,
+          "externalId": "biology_0360",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The sweat gland is the structure labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 3,
+          "storedAnswer": "IV",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01"
+        }
+      ]
+    },
+    {
+      "key": "potato_osmosis",
+      "count": 10,
+      "candidates": [
+        {
+          "id": 990190,
+          "externalId": "jamb-500-master-chemistry-095",
+          "subject": "Chemistry",
+          "topic": "Acids, bases and salts",
+          "questionText": "A salt solution may be acidic or alkaline due to:",
+          "options": [
+            "nuclear fission",
+            "hydrolysis of its ions",
+            "loss of all water",
+            "metallic bonding"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "hydrolysis of its ions",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB 500 Question Master Bank · Chemistry · August 2026"
+        },
+        {
+          "id": 1020027,
+          "externalId": "supplied-keyed-2004-biology-003",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[DIAGRAM: a hollowed yam tuber is placed in a beaker of water, with salt solution inside the hollow of the yam - a classic osmosis set-up] Yam is used in this set-up because it",
+          "options": [
+            "acts as a semi-permeable membrane",
+            "acts as a storage organ",
+            "is permeable to the salt solution",
+            "is a plant material"
+          ],
+          "answerIndex": 0,
+          "storedAnswer": "acts as a semi-permeable membrane",
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1020028,
+          "externalId": "supplied-keyed-2004-biology-004",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[Refers to the osmosis set-up diagram in Q3] Which of the following results is to be expected if the set-up is left for several hours?",
+          "options": [
+            "Movement of water from the salt solution",
+            "Decrease in the size of the yam",
+            "Movement of the salt solution into the water",
+            "Decrease in the volume of water inside the yam."
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "Decrease in the size of the yam",
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1050053,
+          "externalId": "kairo-csv-chemistry_06dbe3",
+          "subject": "Chemistry",
+          "topic": "Electrolysis",
+          "questionText": "Calculate the mass of copper deposited when 0.2 Faraday of electricity is passed through a copper(II) salt solution. [Cu = 64]",
+          "options": [
+            "3.2 g",
+            "6.4 g",
+            "12.8 g",
+            "64.0 g"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "6.4 g",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2"
+        },
+        {
+          "id": 1050054,
+          "externalId": "kairo-csv-chemistry_074ad4",
+          "subject": "Chemistry",
+          "topic": "Solubility",
+          "questionText": "On heating 12.5 g of a saturated salt solution to dryness at 60°C, 2.0 g of anhydrous salt was recovered. Calculate the solubility of the salt in grams per 100 g of water.",
+          "options": [
+            "16.0 g per 100 g water",
+            "19.05 g per 100 g water",
+            "20.0 g per 100 g water",
+            "25.0 g per 100 g water"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "19.05 g per 100 g water",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2"
+        },
+        {
+          "id": 1050274,
+          "externalId": "kairo-csv-chemistry_609363",
+          "subject": "Chemistry",
+          "topic": "Oxidation and reduction",
+          "questionText": "Which of the following metals is displaced from its aqueous salt solution by iron?",
+          "options": [
+            "Magnesium",
+            "Zinc",
+            "Copper",
+            "Aluminium"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "Copper",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2"
+        },
+        {
+          "id": 1350210,
+          "externalId": "biology_0511",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "A plant cell placed in a concentrated salt solution is likely to",
+          "options": [
+            "become turgid",
+            "gain water",
+            "become plasmolysed",
+            "increase in turgor pressure"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "become plasmolysed",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01"
+        },
+        {
+          "id": 1350600,
+          "externalId": "biology_1048",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When a Spirogyra cell is immersed in a salt solution more concentrated than its cell sap, it?",
+          "options": [
+            "remains unchanged",
+            "takes up water and burst",
+            "absorbs a little water",
+            "loses water and shrivels"
+          ],
+          "answerIndex": 3,
+          "storedAnswer": "loses water and shrivels",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02"
+        },
+        {
+          "id": 1470010,
+          "externalId": "BIO-OWNER-20260822-010",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When an animal cell is placed in a very concentrated salt solution, it will most likely",
+          "options": [
+            "gain water and burst",
+            "lose water and shrink",
+            "remain unchanged because water cannot move",
+            "develop a cell wall"
+          ],
+          "answerIndex": 1,
+          "storedAnswer": "lose water and shrink",
+          "diagramUrl": null,
+          "explanationStatus": "needs_review",
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026"
+        },
+        {
+          "id": 1590217,
+          "externalId": "PDF-OWNER-20260822-BIO-067",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "questionText": "A plant cell placed in a concentrated salt solution loses water and becomes flaccid because of",
+          "options": [
+            "active transport of water in",
+            "photosynthesis",
+            "respiration stopping",
+            "osmosis out of the cell"
+          ],
+          "answerIndex": 3,
+          "storedAnswer": "osmosis out of the cell",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026"
+        }
+      ]
+    },
+    {
+      "key": "flower",
+      "count": 6,
+      "candidates": [
+        {
+          "id": 1020036,
+          "externalId": "supplied-keyed-2004-biology-012",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a flower cross-section with four parts labelled I, II, III, IV] The part labelled II is the",
+          "options": [
+            "anther",
+            "style",
+            "filament",
+            "stigma"
+          ],
+          "answerIndex": 0,
+          "storedAnswer": "anther",
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1020037,
+          "externalId": "supplied-keyed-2004-biology-013",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[Refers to the flower diagram in Q12] The process of pollination involves the transfer of pollens from",
+          "options": [
+            "III to IV",
+            "IV to I",
+            "II to III",
+            "I to II"
+          ],
+          "answerIndex": 0,
+          "storedAnswer": "III to IV",
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026"
+        },
+        {
+          "id": 1170005,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "IV",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2025-005_51f986ac.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation"
+        },
+        {
+          "id": 1320007,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-007",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "The flower of plants belongs to the part labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "III",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007_78063897.png",
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation"
+        },
+        {
+          "id": 1350242,
+          "externalId": "biology_0549",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "In the diagram, the likely pollinating agent of the flower is?",
+          "options": [
+            "wind",
+            "water",
+            "insect",
+            "man"
+          ],
+          "answerIndex": 2,
+          "storedAnswer": "insect",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01"
+        },
+        {
+          "id": 1350805,
+          "externalId": "biology_1280",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The part of the flower that is brightly coloured and attract pollinating agents such as insects is labelled",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "answerIndex": 0,
+          "storedAnswer": "III",
+          "diagramUrl": null,
+          "explanationStatus": "approved",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02"
+        }
+      ]
+    }
+  ]
+}

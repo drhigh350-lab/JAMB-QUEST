@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-08-26T11:52:02.631Z",
+  "mode": "Read-only second-pass classification. A safe-for-removal record has no direct/implicit visual anchor and no visual meaning hidden in terms such as graph, table, experiment, magnetic field, or genetic generation.",
+  "summary": {
+    "retain_semantic_visual_dependency": 7
+  },
+  "safeForGuardedRemoval": [],
+  "retainedForVisualMeaning": [
+    {
+      "id": 1170001,
+      "externalId": "OWNER-BIO-DIAGRAM-2025-001",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "What is the genotypic ratio of the F₂ generation?",
+      "options": [
+        "2 : 1 : 1",
+        "3 : 1",
+        "1 : 1",
+        "1 : 2 : 1"
+      ],
+      "answerIndex": 3,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-bio-diagram-2025-001_7a12c1dc.png",
+      "sourceId": 13830001,
+      "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "genotypic ratio"
+    },
+    {
+      "id": 1200008,
+      "externalId": "OWNER-CHEM-DIAGRAM-2026-008",
+      "subject": "Chemistry",
+      "topic": "Solubility",
+      "questionText": "From the solubility graph, it can be inferred that",
+      "options": [
+        "the solubility of X and Y is the same at all temperatures",
+        "the solubility of X, Y and Z is temperature dependent",
+        "the solubility of Z increases as temperature increases",
+        "the solubility of Y increases steadily as temperature increases"
+      ],
+      "answerIndex": 3,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-chem-diagram-2026-008_10876a35.png",
+      "sourceId": 13950001,
+      "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "solubility graph"
+    },
+    {
+      "id": 1200009,
+      "externalId": "OWNER-CHEM-DIAGRAM-2026-009",
+      "subject": "Chemistry",
+      "topic": "Acids, bases and salts",
+      "questionText": "In the formula table, the two compounds that combine in the presence of an acid catalyst to produce compound V are",
+      "options": [
+        "I and IV",
+        "III and IV",
+        "I and II",
+        "II and III"
+      ],
+      "answerIndex": 0,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-chem-diagram-2026-009-source-table_b66e3aaa.png",
+      "sourceId": 13950001,
+      "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "formula table"
+    },
+    {
+      "id": 1260015,
+      "externalId": "OWNER-PHY-DIAGRAM-2026-015",
+      "subject": "Physics",
+      "topic": "Magnets and magnetic fields",
+      "questionText": "The diagram shows a magnetic field due to a",
+      "options": [
+        "solenoid",
+        "circular coil",
+        "current-carrying straight conductor",
+        "Earth's meridian"
+      ],
+      "answerIndex": 2,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-phy-diagram-2026-015_83bea0b8.png",
+      "sourceId": 14070001,
+      "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "diagram shows"
+    },
+    {
+      "id": 1320004,
+      "externalId": "OWNER-BIO-DIAGRAM-2026-004",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "The plant diagram demonstrates",
+      "options": [
+        "thigmotropism",
+        "phototropism",
+        "geotropism",
+        "hydrotropism"
+      ],
+      "answerIndex": 1,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-bio-diagram-2026-004_0fa49e50.png",
+      "sourceId": 14250001,
+      "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "The plant diagram demonstrates"
+    },
+    {
+      "id": 1320006,
+      "externalId": "OWNER-BIO-DIAGRAM-2026-006",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "The experiment is set up to determine the presence of",
+      "options": [
+        "chlorophyll",
+        "starch",
+        "oxygen",
+        "pigment"
+      ],
+      "answerIndex": 1,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-bio-diagram-2026-006_3f083ef6.png",
+      "sourceId": 14250001,
+      "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "The experiment is set up"
+    },
+    {
+      "id": 1320008,
+      "externalId": "OWNER-BIO-DIAGRAM-2026-008",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "What is the genotypic ratio of the offspring produced in the F1 generation?",
+      "options": [
+        "2:1:1",
+        "1:2:1",
+        "2:2",
+        "3:1"
+      ],
+      "answerIndex": 1,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/owner-bio-diagram-2026-008_86cf9b66.png",
+      "sourceId": 14250001,
+      "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+      "sourceActive": 1,
+      "directVisualAnchor": false,
+      "implicitVisualAnchor": false,
+      "disposition": "retain_semantic_visual_dependency",
+      "semanticVisualDependency": true,
+      "semanticMatch": "genotypic ratio"
+    }
+  ]
+}

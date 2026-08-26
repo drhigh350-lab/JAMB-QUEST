@@ -1,0 +1,2494 @@
+{
+  "reportPath": "/home/ubuntu/jamb-quiz-game/reports/new_owner_diagram_candidate_search_20260826.json",
+  "candidates": [
+    {
+      "key": "vertebral_column",
+      "count": 40,
+      "candidates": [
+        {
+          "id": 23,
+          "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-19-24",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "questionText": "Which of the following vertebrates is characterised by a three-chambered heart and moist, scaleless skin?",
+          "options": [
+            "Pisces",
+            "Reptilia",
+            "Amphibia",
+            "Mammalia"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 33,
+          "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-30-35",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "Which feature is characteristic of mammals that distinguishes them from all other vertebrates?",
+          "options": [
+            "Warm-blooded metabolism",
+            "Presence of hair and mammary glands",
+            "Internal fertilization",
+            "Four-chambered heart"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 30014,
+          "externalId": "BIO-OWNER-M1-Q17",
+          "subject": "Biology",
+          "topic": "Classification and Diversity",
+          "questionText": "Hydra belongs to which of the following groups of invertebrates?",
+          "options": [
+            "Coelenterata",
+            "Annelida",
+            "Arthropoda",
+            "Nematoda"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30039,
+          "externalId": "BIO-OWNER-M1-Q44",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "The joint located between the atlas and axis vertebrae, which allows for the turning movement of the head, is a:",
+          "options": [
+            "Hinge joint",
+            "Ball and socket joint",
+            "Pivot joint",
+            "Gliding joint"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30065,
+          "externalId": "BIO-OWNER-M2-Q22",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "questionText": "The earliest form of life among the vertebrate groups is the:",
+          "options": [
+            "Aves",
+            "Amphibian",
+            "Pisces",
+            "Reptilia"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30087,
+          "externalId": "BIO-OWNER-M2-Q44",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "In the mammalian skeleton, the thoracic vertebrae are distinguished by the presence of:",
+          "options": [
+            "Long neural spines and facets for rib attachment",
+            "Transverse foramina for blood vessels",
+            "Large, heavy centra without neural spines",
+            "Peg-like odontoid processes"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30099,
+          "externalId": "BIO-OWNER-M3-Q6",
+          "subject": "Biology",
+          "topic": "Classification and Diversity",
+          "questionText": "Which of the following is an example of a vertebrate?",
+          "options": [
+            "Earthworm",
+            "Snail",
+            "Goat",
+            "Cockroach"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30182,
+          "externalId": "BIO-OWNER-M4-Q43",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "Which of the following mammalian vertebrae possesses transverse foramina for the passage of vertebral arteries?",
+          "options": [
+            "Thoracic vertebrae",
+            "Lumbar vertebrae",
+            "Cervical vertebrae",
+            "Sacral vertebrae"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30212,
+          "externalId": "BIO-OWNER-M5-Q24",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "The cervical vertebrae are found in which region of the body?",
+          "options": [
+            "Tail",
+            "Neck",
+            "Chest",
+            "Waist"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30228,
+          "externalId": "BIO-OWNER-M5-Q40",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "Which of the following organisms is an invertebrate that possesses an exoskeleton made of chitin and jointed appendages?",
+          "options": [
+            "Earthworm",
+            "Snail",
+            "Grasshopper",
+            "Starfish"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30240,
+          "externalId": "BIO-OWNER-M6-Q2",
+          "subject": "Biology",
+          "topic": "Classification and Diversity",
+          "questionText": "Which of the following structural features distinguishes Class Mammalia from all other vertebrate classes?",
+          "options": [
+            "Presence of a 4-chambered heart",
+            "Homoiothermic warm-blooded regulation",
+            "Possession of mammary glands and hair",
+            "Internal fertilization"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30278,
+          "externalId": "BIO-OWNER-M6-Q41",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "The joint between the atlas and axis vertebrae allowing head rotation is a:",
+          "options": [
+            "Hinge joint",
+            "Pivot joint",
+            "Ball-and-socket joint",
+            "Gliding joint"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30331,
+          "externalId": "BIO-OWNER-M7-Q46",
+          "subject": "Biology",
+          "topic": "Ecology",
+          "questionText": "An ecology instrument used to collect small crawling insects and invertebrates from leaf litter is a:",
+          "options": [
+            "Pitfall trap",
+            "Quadrant",
+            "Secchi disc",
+            "Sweep net"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30353,
+          "externalId": "BIO-OWNER-M8-Q21",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "What structural unit of the skeletal system protects the spinal cord in vertebrates?",
+          "options": [
+            "Skull",
+            "Ribcage",
+            "Vertebral column",
+            "Pelvic girdle"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30459,
+          "externalId": "BIO-OWNER-M10-Q33",
+          "subject": "Biology",
+          "topic": "Support, Movement and Sensory Systems",
+          "questionText": "The joint between the atlas and axis vertebrae that allows the turning movement of the head is a:",
+          "options": [
+            "Hinge joint",
+            "Ball-and-socket joint",
+            "Pivot joint",
+            "Saddle joint"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 90115,
+          "externalId": "TechMed-Complete-Question-Bank-md-71",
+          "subject": "Biology",
+          "topic": "Classification and Diversity",
+          "questionText": "Which of the following invertebrates does NOT possess antennae?",
+          "options": [
+            "Centipede",
+            "Crustacean",
+            "Millipede",
+            "Spider"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 150233,
+          "externalId": "bio-part2-md-Biology-82",
+          "subject": "Biology",
+          "topic": "Evidence of evolution",
+          "questionText": "The process by which bones and muscles in the forelimbs are modified for different functions in different vertebrates is evidence of:",
+          "options": [
+            "Analogous evolution",
+            "Convergent evolution",
+            "Divergent evolution",
+            "Parallel evolution"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · bio_part2.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330010,
+          "externalId": "biology-past-questions-aug15-part1-1-25-txt-Biology-10",
+          "subject": "Biology",
+          "topic": "Skeleton and Supporting Systems",
+          "questionText": "The joint between the atlas and axis vertebrae that allows rotation of the head is a:",
+          "options": [
+            "Hinge joint",
+            "Pivot joint",
+            "Ball and socket joint",
+            "Gliding joint"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330035,
+          "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-35",
+          "subject": "Biology",
+          "topic": "Mammalian Skeleton (Vertebrae)",
+          "questionText": "Which type of vertebra possesses prominent transverse processes containing vertebrarterial canals for blood vessels?",
+          "options": [
+            "Lumbar vertebra",
+            "Thoracic vertebra",
+            "Cervical vertebra",
+            "Sacral vertebra"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 840005,
+          "externalId": "biology-dr-high-0077",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "questionText": "The following animals is an invertebrate except",
+          "options": [
+            "A. flat worms",
+            "B. round worms",
+            "C. chordate",
+            "D. protozoan"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 005",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020032,
+          "externalId": "supplied-keyed-2004-biology-008",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[DIAGRAM: a vertebral column / spine diagram with two regions labelled I and II] The type of joint between adjacent bones in the part labelled II is the",
+          "options": [
+            "hinge joint",
+            "suture joint",
+            "sliding joint",
+            "ball-and-socket joint"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020033,
+          "externalId": "supplied-keyed-2004-biology-009",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[Refers to the vertebral column diagram in Q8] The bones labelled II are called",
+          "options": [
+            "thoracic vertebrae",
+            "lumbar vertebrae",
+            "cervical vertebrae",
+            "sacral vertebrae."
+          ],
+          "answerIndex": 2,
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020049,
+          "externalId": "supplied-keyed-2004-biology-026",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "Insects are considered the most successful among the invertebrates because they",
+          "options": [
+            "survive in various environmental conditions",
+            "possess the ability to change their forms",
+            "possess exoskeletons",
+            "have wing for flight"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350131,
+          "externalId": "biology_0417",
+          "subject": "Biology",
+          "topic": "Evidence of evolution",
+          "questionText": "I. Rattus rattus II. Agama agama III. Bufo regularis IV. tilipia zilli the order of evolutionary advancement to the above vertebrates is",
+          "options": [
+            "I, II, III, IV",
+            "I, IV, III, II",
+            "II, III, IV, I",
+            "IV, III, II, I"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350139,
+          "externalId": "biology_0425",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "A unique characteristics of the cervical vertebrae is the presence of",
+          "options": [
+            "large centrum",
+            "long transverse processes",
+            "zgapophysis",
+            "vertebrartarial canal"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350158,
+          "externalId": "biology_0447",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "questionText": "A characteristic that best exemplifies the evolutionary advancement of mammals over other vertebrates is the",
+          "options": [
+            "viviparous mode of reproduction",
+            "possession of paired limbs",
+            "terrestrial mode of life",
+            "possession of a heart"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350160,
+          "externalId": "biology_0449",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "questionText": "In the diagram, A unique characteristic that distinguishes the class of vertebrates represented from other vertebrates is the presence of",
+          "options": [
+            "two pair of limbs",
+            "scales on the lower legs",
+            "a pair of wings",
+            "a covering of feathers"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350229,
+          "externalId": "biology_0534",
+          "subject": "Biology",
+          "topic": "Evidence of evolution",
+          "questionText": "The first terrestrial vertebrates evolved from",
+          "options": [
+            "Pisces",
+            "Reptilia",
+            "Amphibia",
+            "Mammalian"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350283,
+          "externalId": "biology_0610",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "In which of the following groups of vertebrates is parental care mostly exhibited?",
+          "options": [
+            "Reptilia",
+            "Amphibia",
+            "Aves",
+            "Mammalia"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350336,
+          "externalId": "biology_0675",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "The main structure in vertebrates that supports and protects the body is the",
+          "options": [
+            "skeleton",
+            "ligament",
+            "muscle",
+            "joint"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350343,
+          "externalId": "biology_0683",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Which blood cells are involved in the immune response of vertebrates?",
+          "options": [
+            "Phagocytes",
+            "Lymphocytes",
+            "Erythrocytes",
+            "Monocytes"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350347,
+          "externalId": "biology_0688",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "The blood circulatory system of vertebrates consists of",
+          "options": [
+            "heart, arteries, capillaries and veins",
+            "heart, aorta, capillaries and veins",
+            "heart, aorta, arteries and veins",
+            "heart, vena cava, arteries, and veins"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350558,
+          "externalId": "biology_0997",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "What type of vertebra assists in breathing alongside with the ribs?",
+          "options": [
+            "Sacral",
+            "Caudal",
+            "Thoracic",
+            "Lumbar"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350578,
+          "externalId": "biology_1020",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "Use the diagram to answer the question. The vertebra illustrated is",
+          "options": [
+            "Lumbar",
+            "Thoracic",
+            "Caudal",
+            "Cervical"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350581,
+          "externalId": "biology_1023",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "questionText": "In which of the following vertebrates does the skin function as a respiratory surface?",
+          "options": [
+            "Rat",
+            "Lizard",
+            "Fish",
+            "Frog"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350585,
+          "externalId": "biology_1032",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Which of the following vertebrates has the most simple structured heart?",
+          "options": [
+            "Reptile",
+            "Fish",
+            "Mammal",
+            "Amphibian"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350599,
+          "externalId": "biology_1047",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "questionText": "Flatworms and roundworms are said to be invertebrates because?",
+          "options": [
+            "they are small animals",
+            "they can live inside the vertebrates",
+            "some of them are unicellular",
+            "they have no backbones"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350762,
+          "externalId": "biology_1235",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "The vertebrate bone responsible for the attachment of the abdominal muscles is",
+          "options": [
+            "sacral",
+            "thoracic",
+            "lumber",
+            "cervical"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350780,
+          "externalId": "biology_1254",
+          "subject": "Biology",
+          "topic": "Evidence of evolution",
+          "questionText": "In most vertebrates, the common basic plan with a skull, vertebral column and a pair of girdle is an evidence of evolution from",
+          "options": [
+            "molecular records",
+            "fossil records",
+            "comparative anatomy",
+            "embryology"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1470028,
+          "externalId": "BIO-OWNER-20260822-053",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "The skeleton of a vertebrate provides",
+          "options": [
+            "support, protection, and attachment for muscles",
+            "digestion of proteins",
+            "production of bile only",
+            "absorption of glucose from the intestine"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "explanationStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "key": "skin_section",
+      "count": 18,
+      "candidates": [
+        {
+          "id": 23,
+          "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-19-24",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "questionText": "Which of the following vertebrates is characterised by a three-chambered heart and moist, scaleless skin?",
+          "options": [
+            "Pisces",
+            "Reptilia",
+            "Amphibia",
+            "Mammalia"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 30306,
+          "externalId": "BIO-OWNER-M7-Q21",
+          "subject": "Biology",
+          "topic": "Genetics and Evolution",
+          "questionText": "Human height, weight, and skin color are examples of:",
+          "options": [
+            "Discontinuous variation",
+            "Continuous variation",
+            "Sex-linked variation",
+            "Mutational variation"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30318,
+          "externalId": "BIO-OWNER-M7-Q33",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "questionText": "Which class of kingdom Animalia is characterized by a three-chambered heart, moist skin, and external fertilization?",
+          "options": [
+            "Pisces",
+            "Amphibia",
+            "Reptilia",
+            "Aves"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30442,
+          "externalId": "BIO-OWNER-M10-Q16",
+          "subject": "Biology",
+          "topic": "Health and Disease",
+          "questionText": "Which of the following is NOT a skin disease?",
+          "options": [
+            "Eczema",
+            "Ringworm",
+            "Psoriasis",
+            "Hepatitis"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330031,
+          "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-31",
+          "subject": "Biology",
+          "topic": "Coordination and control",
+          "questionText": "When human body temperature rises above normal, sweat glands increase activity and superficial skin blood vessels:",
+          "options": [
+            "Constrict (Vasoconstriction)",
+            "Dilate (Vasodilation)",
+            "Rupture",
+            "Close completely"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330074,
+          "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-74",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "Human sweat glands perform a dual homeostatic role by contributing directly to both:",
+          "options": [
+            "Circulation and digestion",
+            "Thermoregulation and excretion",
+            "Respiration and locomotion",
+            "Hormone secretion and sight"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020039,
+          "externalId": "supplied-keyed-2004-biology-015",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a cross-section of mammalian skin with structures labelled I, II, III, IV, including a hair follicle, sweat gland, and associated structures] The function of the part labelled III is to",
+          "options": [
+            "produce oil for the skin",
+            "carry blood and nitrogenous waste",
+            "contract to pull the hair erect",
+            "conduct nervous impulses"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": "/manus-storage/biology-skin-cross-section-neutral_c2f97b70.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350085,
+          "externalId": "biology_0360",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The sweat gland is the structure labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350142,
+          "externalId": "biology_0428",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The part of the mammalian skin involved in temperature regulation is the",
+          "options": [
+            "sweat gland",
+            "hair papilla",
+            "hair follicle",
+            "sebaceous gland"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350171,
+          "externalId": "biology_0463",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The product of excretion common to the mammalian kidney, lung and skin is",
+          "options": [
+            "mineral salt",
+            "carbon (IV) oxide",
+            "water",
+            "urea"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350363,
+          "externalId": "biology_0709",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The part of the mammalian skin involved in excretion is the",
+          "options": [
+            "sweat glands",
+            "Malpighian layer",
+            "sebaceous gland",
+            "horny layer"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350406,
+          "externalId": "biology_0792",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "Which of these is not detected by the nerve endings of the skin?",
+          "options": [
+            "cold",
+            "pain",
+            "pressure",
+            "weakness"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350581,
+          "externalId": "biology_1023",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "questionText": "In which of the following vertebrates does the skin function as a respiratory surface?",
+          "options": [
+            "Rat",
+            "Lizard",
+            "Fish",
+            "Frog"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350621,
+          "externalId": "biology_1071",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The part of mammalian skin that excretes metabolic wastes is?",
+          "options": [
+            "sweat gland",
+            "horny layer",
+            "Malpighian layer",
+            "sebaceous gland"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350674,
+          "externalId": "biology_1132",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "Which of the following functions is performed by the skin to help maintain homeostasis in the human body?",
+          "options": [
+            "Regulation of body temperature",
+            "Filtration of blood",
+            "Production of hormones",
+            "Digestion of food"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1590234,
+          "externalId": "PDF-OWNER-20260822-BIO-084",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "A lizard basking in the sun is regulating",
+          "options": [
+            "body temperature",
+            "blood group",
+            "digestion only",
+            "genotype"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 960361,
+          "externalId": "csv-aug16-chemistry_0375",
+          "subject": "Chemistry",
+          "topic": "Metals and their compounds",
+          "questionText": "Tetraoxosulphate(VI) acid burns the skin by",
+          "options": [
+            "dehydration",
+            "hydrolysis",
+            "hydration",
+            "heating"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest CSV · jamb_past_question · Chemistry · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351227,
+          "externalId": "physics_0550",
+          "subject": "Physics",
+          "topic": "Optical instruments",
+          "questionText": "The eyeball consists of a round tough white skin called",
+          "options": [
+            "Sclerotic",
+            "Choroid coat",
+            "Optical fiber",
+            "Accommodation"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        }
+      ]
+    },
+    {
+      "key": "potato_osmosis",
+      "count": 18,
+      "candidates": [
+        {
+          "id": 64,
+          "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-64-69",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Osmosis in the context of plant transport is best defined as",
+          "options": [
+            "the movement of water molecules through a semi-permeable membrane from a region of higher water potential to a region of lower water potential",
+            "the active transport of ions against a concentration gradient",
+            "the bulk flow of water through xylem vessels due to transpiration pull",
+            "the movement of sucrose from phloem to cells by mass flow"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 30368,
+          "externalId": "BIO-OWNER-M8-Q36",
+          "subject": "Biology",
+          "topic": "Cell Biology and Metabolism",
+          "questionText": "Unicellular organisms like Amoeba eliminate excess water entering by osmosis through the:",
+          "options": [
+            "Food vacuole",
+            "Contractile vacuole",
+            "Pseudopodium",
+            "Cell membrane"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 90107,
+          "externalId": "TechMed-Complete-Question-Bank-md-61",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Which of the following will NOT allow osmosis to take place?",
+          "options": [
+            "Pig's bladder",
+            "Cellophane",
+            "Parchment paper",
+            "Transparent polythene"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 990231,
+          "externalId": "jamb-500-master-biology-037",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "Osmosis is movement of:",
+          "options": [
+            "solutes from low to high concentration",
+            "proteins through a wall",
+            "cells through tissues",
+            "water across a selectively permeable membrane"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB 500 Question Master Bank · Biology · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020027,
+          "externalId": "supplied-keyed-2004-biology-003",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[DIAGRAM: a hollowed yam tuber is placed in a beaker of water, with salt solution inside the hollow of the yam - a classic osmosis set-up] Yam is used in this set-up because it",
+          "options": [
+            "acts as a semi-permeable membrane",
+            "acts as a storage organ",
+            "is permeable to the salt solution",
+            "is a plant material"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020028,
+          "externalId": "supplied-keyed-2004-biology-004",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[Refers to the osmosis set-up diagram in Q3] Which of the following results is to be expected if the set-up is left for several hours?",
+          "options": [
+            "Movement of water from the salt solution",
+            "Decrease in the size of the yam",
+            "Movement of the salt solution into the water",
+            "Decrease in the volume of water inside the yam."
+          ],
+          "answerIndex": 1,
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350210,
+          "externalId": "biology_0511",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "A plant cell placed in a concentrated salt solution is likely to",
+          "options": [
+            "become turgid",
+            "gain water",
+            "become plasmolysed",
+            "increase in turgor pressure"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350531,
+          "externalId": "biology_0966",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Which of the following substances passes through the root cell membrane by osmosis?",
+          "options": [
+            "Cell sap",
+            "Carbon dioxide",
+            "Oxygen",
+            "Water"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350600,
+          "externalId": "biology_1048",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When a Spirogyra cell is immersed in a salt solution more concentrated than its cell sap, it?",
+          "options": [
+            "remains unchanged",
+            "takes up water and burst",
+            "absorbs a little water",
+            "loses water and shrivels"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1470009,
+          "externalId": "BIO-OWNER-20260822-009",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "Osmosis is the movement of",
+          "options": [
+            "solute particles through any membrane",
+            "water molecules through a selectively permeable membrane",
+            "proteins from low to high concentration",
+            "mineral salts through the cell wall only"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 1470010,
+          "externalId": "BIO-OWNER-20260822-010",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When an animal cell is placed in a very concentrated salt solution, it will most likely",
+          "options": [
+            "gain water and burst",
+            "lose water and shrink",
+            "remain unchanged because water cannot move",
+            "develop a cell wall"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 1590155,
+          "externalId": "PDF-OWNER-20260822-BIO-005",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "questionText": "Osmosis is the movement of",
+          "options": [
+            "air through a stomatal pore",
+            "solute from high to low concentration",
+            "water through a selectively permeable membrane",
+            "proteins into a nucleus"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 1–50 · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1590217,
+          "externalId": "PDF-OWNER-20260822-BIO-067",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "questionText": "A plant cell placed in a concentrated salt solution loses water and becomes flaccid because of",
+          "options": [
+            "active transport of water in",
+            "photosynthesis",
+            "respiration stopping",
+            "osmosis out of the cell"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 990190,
+          "externalId": "jamb-500-master-chemistry-095",
+          "subject": "Chemistry",
+          "topic": "Acids, bases and salts",
+          "questionText": "A salt solution may be acidic or alkaline due to:",
+          "options": [
+            "nuclear fission",
+            "hydrolysis of its ions",
+            "loss of all water",
+            "metallic bonding"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB 500 Question Master Bank · Chemistry · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1050053,
+          "externalId": "kairo-csv-chemistry_06dbe3",
+          "subject": "Chemistry",
+          "topic": "Electrolysis",
+          "questionText": "Calculate the mass of copper deposited when 0.2 Faraday of electricity is passed through a copper(II) salt solution. [Cu = 64]",
+          "options": [
+            "3.2 g",
+            "6.4 g",
+            "12.8 g",
+            "64.0 g"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1050054,
+          "externalId": "kairo-csv-chemistry_074ad4",
+          "subject": "Chemistry",
+          "topic": "Solubility",
+          "questionText": "On heating 12.5 g of a saturated salt solution to dryness at 60°C, 2.0 g of anhydrous salt was recovered. Calculate the solubility of the salt in grams per 100 g of water.",
+          "options": [
+            "16.0 g per 100 g water",
+            "19.05 g per 100 g water",
+            "20.0 g per 100 g water",
+            "25.0 g per 100 g water"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1050274,
+          "externalId": "kairo-csv-chemistry_609363",
+          "subject": "Chemistry",
+          "topic": "Oxidation and reduction",
+          "questionText": "Which of the following metals is displaced from its aqueous salt solution by iron?",
+          "options": [
+            "Magnesium",
+            "Zinc",
+            "Copper",
+            "Aluminium"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351101,
+          "externalId": "physics_0398",
+          "subject": "Physics",
+          "topic": "Structure of matter and kinetic theory",
+          "questionText": "I. change of state II. Diffusion III. Radiation IV. Osmosis Which combination of the above is evidence of the molecular nature of matter?",
+          "options": [
+            "I, II, III and IV",
+            "I, II and III",
+            "I, III and IV",
+            "I, II and IV"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        }
+      ]
+    },
+    {
+      "key": "flower_section",
+      "count": 69,
+      "candidates": [
+        {
+          "id": 45,
+          "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-44-49",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "The function of xylem vessels in a flowering plant is to",
+          "options": [
+            "transport organic solutes from leaves to all parts of the plant",
+            "transport water and mineral salts from roots to leaves",
+            "provide flexible support to the plant",
+            "store starch in the root cortex"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Drive: TUTOR DAVE BIOLOGY.pdf",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 30054,
+          "externalId": "BIO-OWNER-M2-Q11",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "The bright coloration of the petals of hibiscus flowers is an adaptation for:",
+          "options": [
+            "Photosynthesis",
+            "Attracting pollinators",
+            "Repelling predators",
+            "Water retention"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30078,
+          "externalId": "BIO-OWNER-M2-Q35",
+          "subject": "Biology",
+          "topic": "Genetics and Evolution",
+          "questionText": "A cross between a pure-breeding red-flowered plant (RR) and a pure-breeding white-flowered plant (rr) yields pink flowers (Rr) in the F₁ generation. This pattern of inheritance is an example of:",
+          "options": [
+            "Complete dominance",
+            "Codominance",
+            "Incomplete dominance",
+            "Multiple alleles"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30138,
+          "externalId": "BIO-OWNER-M3-Q47",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "In a flowering plant, double fertilization results in the formation of a zygote and a triploid:",
+          "options": [
+            "Seed coat",
+            "Endosperm",
+            "Fruit wall",
+            "Embryo sac"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30205,
+          "externalId": "BIO-OWNER-M5-Q16",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "Which of the following is a characteristic of a wind-pollinated flower?",
+          "options": [
+            "Brightly colored petals",
+            "Scented flowers",
+            "Feathery stigmas",
+            "Heavy, sticky pollen grains"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30221,
+          "externalId": "BIO-OWNER-M5-Q33",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "If an ovary is positioned on the receptacle above all other floral parts, it is called a:",
+          "options": [
+            "Half inferior ovary",
+            "Superior ovary",
+            "Inferior ovary",
+            "Half superior ovary"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30267,
+          "externalId": "BIO-OWNER-M6-Q30",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "In flowering plants, pollination by insects is referred to as:",
+          "options": [
+            "Anemophily",
+            "Entomophily",
+            "Hydrophily",
+            "Ornithophily"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30268,
+          "externalId": "BIO-OWNER-M6-Q31",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "The transfer of pollen grains from the anther to the stigma of a different flower on the same plant is called:",
+          "options": [
+            "Self-pollination",
+            "Geitonogamy",
+            "Cross-pollination",
+            "Hybridization"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30269,
+          "externalId": "BIO-OWNER-M6-Q32",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "The male gamete in flowering plants is contained within the:",
+          "options": [
+            "Ovule",
+            "Pollen grain",
+            "Embryo sac",
+            "Receptacle"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30307,
+          "externalId": "BIO-OWNER-M7-Q22",
+          "subject": "Biology",
+          "topic": "Genetics and Evolution",
+          "questionText": "A cross between a pure-breeding red-flowered plant and a pure-breeding white- flowered plant producing all pink offspring in the F₁ generation demonstrates:",
+          "options": [
+            "Complete dominance",
+            "Incomplete dominance",
+            "Codominance",
+            "Epistasis"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30313,
+          "externalId": "BIO-OWNER-M7-Q28",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "In flowering plants, double fertilization results in the formation of a diploid zygote and a triploid:",
+          "options": [
+            "Embryo sac",
+            "Endosperm nucleus",
+            "Perisperm",
+            "Seed coat"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30362,
+          "externalId": "BIO-OWNER-M8-Q30",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "In flowering plants, pollination by wind is characterized by flowers having:",
+          "options": [
+            "Large, brightly colored petals",
+            "Sweet nectar and fragrance",
+            "Light, smooth, non-sticky pollen produced in large quantities",
+            "Sticky, heavy pollen grains"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30369,
+          "externalId": "BIO-OWNER-M8-Q37",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "What type of fruit develops from a single ovary without fertilization occurring?",
+          "options": [
+            "Aggregate fruit",
+            "Parthenocarpic fruit",
+            "Multiple fruit",
+            "Simple dry fruit"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30396,
+          "externalId": "BIO-OWNER-M9-Q14",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "Cross-pollination in flowering plants is favored by dichogamy, which specifically refers to:",
+          "options": [
+            "Male and female organs maturing at different times",
+            "Flowers remaining closed throughout their lifespan",
+            "Stigma and anthers being placed at incompatible levels",
+            "Pollen grains being self-sterile on the same stigma"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 30464,
+          "externalId": "BIO-OWNER-M10-Q38",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "What type of fruit is a cashew nut, where the edible juicy portion develops from the swollen flower stalk?",
+          "options": [
+            "True fruit",
+            "False accessory fruit",
+            "Aggregate fruit",
+            "Composite fruit"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Biology non-diagram collection — pending provenance review",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 90099,
+          "externalId": "TechMed-Complete-Question-Bank-md-52",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "What type of fruit is formed from a single flower having several free carpels?",
+          "options": [
+            "Multiple fruit",
+            "Simple fruit",
+            "Aggregate fruit",
+            "Dehiscent fruit"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 150178,
+          "externalId": "bio-part1-md-Biology-22",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "The collection of all stamens in a flower is called:",
+          "options": [
+            "Pistil",
+            "Androecium",
+            "Gynoecium",
+            "Perianth"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 150185,
+          "externalId": "bio-part1-md-Biology-31",
+          "subject": "Biology",
+          "topic": "Plant Biology",
+          "questionText": "A cross between red (RR) and white (WW) flowers producing pink (RW) demonstrates:",
+          "options": [
+            "Complete dominance",
+            "Incomplete dominance",
+            "Codominance",
+            "Multiple alleles"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · bio_part1.md · Biology",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330043,
+          "externalId": "biology-past-questions-aug15-part2-26-50-txt-Biology-43",
+          "subject": "Biology",
+          "topic": "Plant Reproduction (Pollination)",
+          "questionText": "Wind-pollinated (anemophilous) flowers are typically characterized by having:",
+          "options": [
+            "Brightly colored petals and sweet nectar",
+            "Feathery stigmas and light, smooth pollen grains",
+            "Sticky pollen and strong scents",
+            "Heavy, spiky pollen grains"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330061,
+          "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-61",
+          "subject": "Biology",
+          "topic": "Plant Hormones (Fruit Ripening)",
+          "questionText": "Which gaseous plant hormone promotes fruit ripening, flower senescence, and leaf abscission?",
+          "options": [
+            "Auxin",
+            "Gibberellin",
+            "Ethylene (Ethene)",
+            "Cytokinin"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 330063,
+          "externalId": "biology-past-questions-aug15-part3-51-75-txt-Biology-63",
+          "subject": "Biology",
+          "topic": "Plant Morphology (Flower Organs)",
+          "questionText": "The collective structural term for all female reproductive carpels present within a flower is the:",
+          "options": [
+            "Calyx",
+            "Corolla",
+            "Androecium",
+            "Gynoecium"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Biology Bank · Trusted owner batch · August 2026 · Questions 1–100",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 450100,
+          "externalId": "owner-aug15-biology-biology-100-md-44",
+          "subject": "Biology",
+          "topic": "Genetics — Incomplete Dominance",
+          "questionText": "In incomplete dominance, a cross between a red-flowered (RR) and a white-flowered (rr) plant produces:",
+          "options": [
+            "All red-flowered offspring",
+            "All white-flowered offspring",
+            "All pink-flowered offspring",
+            "A 3:1 ratio of red to white"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020036,
+          "externalId": "supplied-keyed-2004-biology-012",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a flower cross-section with four parts labelled I, II, III, IV] The part labelled II is the",
+          "options": [
+            "anther",
+            "style",
+            "filament",
+            "stigma"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020037,
+          "externalId": "supplied-keyed-2004-biology-013",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[Refers to the flower diagram in Q12] The process of pollination involves the transfer of pollens from",
+          "options": [
+            "III to IV",
+            "IV to I",
+            "II to III",
+            "I to II"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1020048,
+          "externalId": "supplied-keyed-2004-biology-025",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "questionText": "In a Mendelian cross of red and white varieties of the four o'clock plant, the F1 generation expresses incomplete dominance by having flowers which are",
+          "options": [
+            "multicoloured",
+            "pink",
+            "red",
+            "white"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1170005,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2025-005_51f986ac.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1320007,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-007",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "The flower of plants belongs to the part labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007_78063897.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350037,
+          "externalId": "biology_0281",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "A flower that has both stamens and pistils is said to be",
+          "options": [
+            "staminate",
+            "pistillate",
+            "No explanation available",
+            "imperfect"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 1350082,
+          "externalId": "biology_0352",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "questionText": "In a Mendelian cross of red and white varieties of the four O'clock plants, the F1 generation expresses incomplete dominance by having flower which are",
+          "options": [
+            "white",
+            "red",
+            "pink",
+            "multicoloured"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350242,
+          "externalId": "biology_0549",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "In the diagram, the likely pollinating agent of the flower is?",
+          "options": [
+            "wind",
+            "water",
+            "insect",
+            "man"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350296,
+          "externalId": "biology_0625",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "questionText": "If the cross of a red-flowered plant with a white-flowered plant produces a pink-flowered plant, it is an example of",
+          "options": [
+            "codominance",
+            "incomplete dominance",
+            "mutation",
+            "linkage"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350352,
+          "externalId": "biology_0693",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The transfer of pollen grains from the anther to a stigma is",
+          "options": [
+            "propagation",
+            "placentation",
+            "pollination",
+            "fertilization"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350357,
+          "externalId": "biology_0699",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The male reproductive organ of a flower is the",
+          "options": [
+            "carpel",
+            "stamen",
+            "petal",
+            "sepal"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350458,
+          "externalId": "biology_0874",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "A seed of a flowering plant can best be described as",
+          "options": [
+            "radicle and plumule",
+            "the developed ovule",
+            "the embryo and endosperm",
+            "developed ovary"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350467,
+          "externalId": "biology_0884",
+          "subject": "Biology",
+          "topic": "Growth",
+          "questionText": "The immediate product of meiosis in flowering plants is the",
+          "options": [
+            "sporophyte",
+            "gametophyte",
+            "zygote",
+            "endosperm"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350566,
+          "externalId": "biology_1005",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "A flowering plant having both the male and female flowers on the same plant is said to be",
+          "options": [
+            "Regular",
+            "Irregular",
+            "Monoecious",
+            "Dioecious"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350596,
+          "externalId": "biology_1044",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "Which of the statements below is not characteristic of wind-pollinated flowers?",
+          "options": [
+            "Stigmas are usually large and feathery",
+            "Nectary is usually absent",
+            "The pollen grains have rough spiny surfaces",
+            "The flowers are not scented."
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350623,
+          "externalId": "biology_1073",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The type of fruit that is formed from a single flower having several free carpels is?",
+          "options": [
+            "indehiscent fruit",
+            "aggregate fruit",
+            "simple fruit",
+            "fleshy fruit"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350644,
+          "externalId": "biology_1097",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "Petaloid sepals serve the function of?",
+          "options": [
+            "carrying out photosynthesis",
+            "attracting pollinating agents to a flower",
+            "retaining pollen grains in the corolla tubes",
+            "protecting the inner floral parts of the flower"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350721,
+          "externalId": "biology_1188",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "questionText": "In a cross involving a heterozygous red flower plant (Rr) and a white flowered plant (rr). What is the probability that the offspring will be Rr?",
+          "options": [
+            "1/2",
+            "1",
+            "2",
+            "1/4"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350735,
+          "externalId": "biology_1202",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "A fruit formed from one flower with many carpels is referred to as",
+          "options": [
+            "simple",
+            "multiple",
+            "aggregate",
+            "false"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350757,
+          "externalId": "biology_1227",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "One of the characteristics of insect pollinated flowers is",
+          "options": [
+            "large anthers",
+            "absence of nectar",
+            "scented flowers",
+            "scentless flowers"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350759,
+          "externalId": "biology_1229",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The bright colouration of the flower of a flowering plant is an adaptation for",
+          "options": [
+            "reproduction",
+            "growth",
+            "excretion",
+            "respiration"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350785,
+          "externalId": "biology_1259",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "When calyx of a flower is joined together, it is called",
+          "options": [
+            "gamosepalous",
+            "polypetalous",
+            "gamopetalous",
+            "polysepalous"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350805,
+          "externalId": "biology_1280",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The part of the flower that is brightly coloured and attract pollinating agents such as insects is labelled",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350818,
+          "externalId": "biology_1295",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The region of a flower stalk attached to flower parts is",
+          "options": [
+            "corolla",
+            "pedicel",
+            "calyx",
+            "receptacle"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350830,
+          "externalId": "biology_1308",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "An example of a plant whose flower is dispersed by wind is",
+          "options": [
+            "schizocarp",
+            "caryopsis",
+            "capsule",
+            "cypsela"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1350843,
+          "externalId": "biology_1322",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The stamen of a flower consists of",
+          "options": [
+            "filament and anther",
+            "ovary and stigma",
+            "filament and ovary",
+            "sepals and petals"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1470031,
+          "externalId": "BIO-OWNER-20260822-056",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The male reproductive structure of a flowering plant is the",
+          "options": [
+            "carpel",
+            "stamen",
+            "ovary",
+            "sepal"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 1470032,
+          "externalId": "BIO-OWNER-20260822-057",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The part of a flower that receives pollen grains is the",
+          "options": [
+            "anther",
+            "stigma",
+            "ovule",
+            "filament"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "explanationStatus": "needs_review"
+        },
+        {
+          "id": 1500142,
+          "externalId": "BIO-OWNER-20260822-R2-242",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "After fertilization in a flowering plant, the ovary usually develops into the",
+          "options": [
+            "seed",
+            "fruit",
+            "pollen grain",
+            "embryo sac only"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Biology 250 batch · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1590192,
+          "externalId": "PDF-OWNER-20260822-BIO-042",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "Fertilization in flowering plants is the fusion of",
+          "options": [
+            "two sepals",
+            "a seed and an ovule",
+            "male and female gametes",
+            "two pollen grains"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 1–50 · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1590290,
+          "externalId": "PDF-OWNER-20260822-BIO-140",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "Fertilisation in flowering plants occurs when",
+          "options": [
+            "the male nucleus fuses with the egg nucleus",
+            "pollen lands on a sepal",
+            "a seed absorbs water",
+            "the ovary becomes a leaf"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1620031,
+          "externalId": "PDF-OWNER-20260822-BIO-181",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "A flower that is pollinated by wind commonly has",
+          "options": [
+            "nectar guides only",
+            "small inconspicuous petals and abundant light pollen",
+            "large scented petals and little heavy pollen",
+            "no anthers"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Biology 151–250 · 23 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 90240,
+          "externalId": "TechMed-Complete-Question-Bank-md-36",
+          "subject": "Physics",
+          "topic": "Mechanics",
+          "questionText": "An object of mass 2kg moves with velocity 10m/s round a circle of radius 4m. Calculate the centripetal force.",
+          "options": [
+            "40",
+            "25",
+            "100",
+            "50 N"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 90248,
+          "externalId": "TechMed-Complete-Question-Bank-md-49",
+          "subject": "Physics",
+          "topic": "Waves, Optics and Modern Physics",
+          "questionText": "When a red rose flower is observed in blue light, what colour does the observer see?",
+          "options": [
+            "Yellow",
+            "Red",
+            "Black",
+            "Magenta"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · TechMed_Complete_Question_Bank.md · Physics",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 450006,
+          "externalId": "owner-aug15-physics-physics-100-md-6",
+          "subject": "Physics",
+          "topic": "Circular Motion — Centripetal Force",
+          "questionText": "An object moving in a horizontal circle at constant speed requires a centripetal force directed:",
+          "options": [
+            "Tangent to the circle",
+            "Radially outward",
+            "Radially inward (toward center)",
+            "Vertically upward"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest Science Bank · Owner batch · August 2026 · duplicate-safe",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 960538,
+          "externalId": "csv-aug16-physics_0023",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "An object moves in a circle of radius 2 m with angular velocity 3 rad s⁻¹. The centripetal acceleration is",
+          "options": [
+            "18 ms⁻²",
+            "6 ms⁻²",
+            "9 ms⁻²",
+            "1.5 ms⁻²"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB Quest CSV · UTME Physics Question Bank · Physics · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 990347,
+          "externalId": "jamb-500-master-physics-054",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "The centripetal force is directed:",
+          "options": [
+            "toward the centre",
+            "along the tangent",
+            "away from centre",
+            "vertically upward always"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "JAMB 500 Question Master Bank · Physics · August 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1080027,
+          "externalId": "physics-jamb-2000-md-Physics-27",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "[Mechanics — Circular Motion] I. Its velocity is constant II. No work is done on the body III. It has constant acceleration directed away from the centre IV. The centripetal force is directed towards the centre Which combination of the above is true of a body moving with constant speed in a circular track?",
+          "options": [
+            "II and IV",
+            "I and IV",
+            "II and III",
+            "I and III"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided Markdown · physics_jamb_2000.md · Physics",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1140018,
+          "externalId": "pasted_content_6.txt:https://myschool.ng/classroom/physics/...:19",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "A body of mass 2 kg is moving in a circular path of radius 0.5 m with a speed of 4 m/s. What is the centripetal force?",
+          "options": [
+            "64 N",
+            "32 N",
+            "16 N",
+            "8 N"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-provided final Physics attachments · pasted_content_6.txt",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1230104,
+          "externalId": "OWNER-PHY-AUG17-60752",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "Particles of mass 10⁻² kg is fixed to the tip of a fan blade which rotates with angular velocity of 100 rads⁻¹. If the radius of the blade is 0.2 m, the centripetal force is?",
+          "options": [
+            "2 N",
+            "20 N",
+            "200 N",
+            "400 N"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Physics 2020–2023 · audited safe subset",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1230150,
+          "externalId": "OWNER-PHY-AUG17-693",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "I. Its velocity is constant II. No work is done on the body III. It has constant acceleration directed away from the centre IV. The centripetal force is directed towards the centre. Which combination of the above is true of a body moving with constant speed in a circular track?",
+          "options": [
+            "II and IV",
+            "I and IV",
+            "II and III",
+            "I and III"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Physics 2020–2023 · audited safe subset",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351018,
+          "externalId": "physics_0284",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "A car of mass 1500 kg goes round a circular curve of radius 50m at a speed of 40 ms^-1. The magnitude of the centripetal force on the car is?",
+          "options": [
+            "4.8 × 10^4 N",
+            "4.8 × 10^3 N",
+            "1.2 × 10^3 N",
+            "1.2 × 10^2 N"
+          ],
+          "answerIndex": 0,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351380,
+          "externalId": "physics_0721",
+          "subject": "Physics",
+          "topic": "Light energy",
+          "questionText": "In Sunlight, a blue flower looks blue because we see the flower by the light it",
+          "options": [
+            "receives from our eyes",
+            "disperses",
+            "absorbed",
+            "reflects"
+          ],
+          "answerIndex": 3,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351383,
+          "externalId": "physics_0724",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "A mass of 0.5kg is whirled in a vertical circle of radius 2m at a steady rate of 2 rev/s. Calculate the centripetal force",
+          "options": [
+            "164N",
+            "160N",
+            "158N",
+            "172N"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1351401,
+          "externalId": "physics_0766",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "A particle of mass 10^-2kg is fixed to the tip of a fan blade which rotates with angular velocity of 100 rad s^-1. If the radius of the blade is 0.2m, the centripetal force is?",
+          "options": [
+            "2N",
+            "20N",
+            "200N",
+            "400N"
+          ],
+          "answerIndex": 1,
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 03",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1500378,
+          "externalId": "PHY-OWNER-20260822-R2-228",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "A body moves in a circular path of radius 2 m at a speed of 4 m/s . Its centripetal acceleration is",
+          "options": [
+            "2 m/s²",
+            "4 m/s²",
+            "8 m/s²",
+            "16 m/s²"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner-supplied Physics 250 batch · 22 Aug 2026",
+          "explanationStatus": "approved"
+        },
+        {
+          "id": 1650008,
+          "externalId": "jamb-questions-only-physics-010",
+          "subject": "Physics",
+          "topic": "Motion",
+          "questionText": "Centripetal force on a body in circular motion acts",
+          "options": [
+            "along the tangent only",
+            "upward always",
+            "towards the centre",
+            "away from the centre"
+          ],
+          "answerIndex": 2,
+          "diagramUrl": null,
+          "sourceLabel": "Owner PDF answer-matched Physics 1–250 · 25 Aug 2026",
+          "explanationStatus": "approved"
+        }
+      ]
+    }
+  ]
+}

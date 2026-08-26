@@ -1,0 +1,510 @@
+{
+  "generatedAt": "2026-08-26T11:44:03.510Z",
+  "mode": "Read-only explicit-visual candidate search. Candidates need a record-by-record match to the owner image label geometry and stored answer before any mapping can occur.",
+  "results": [
+    {
+      "key": "vertebral",
+      "candidates": [
+        {
+          "id": 1020032,
+          "externalId": "supplied-keyed-2004-biology-008",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[DIAGRAM: a vertebral column / spine diagram with two regions labelled I and II] The type of joint between adjacent bones in the part labelled II is the",
+          "optionsJson": "[\"hinge joint\",\"suture joint\",\"sliding joint\",\"ball-and-socket joint\"]",
+          "answerIndex": 1,
+          "explanation": "Adjacent vertebrae in the vertebral column are connected by suture-like fibrocartilaginous joints (intervertebral discs), which are technically classified among the slightly movable/fixed joint types depending on the specific region labelled; given the diagram shows a general vertebral column with a labelled region, the joint type between adjacent vertebral bones is best described as a suture joint in this context, distinguishing it from the freely movable hinge and ball-and-socket joints found elsewhere in the skeleton (like the elbow or hip). This tests classification of joint types across different skeletal regions, an anatomy topic requiring recognition of the vertebral column's unique joint structure. Exam tip: vertebral joints are distinct from the classic hinge/ball-and-socket joints tested for limbs - they allow limited flexibility through cartilaginous discs rather than free rotation.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "hinge joint",
+            "suture joint",
+            "sliding joint",
+            "ball-and-socket joint"
+          ],
+          "storedAnswer": "suture joint"
+        },
+        {
+          "id": 1020033,
+          "externalId": "supplied-keyed-2004-biology-009",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "[Refers to the vertebral column diagram in Q8] The bones labelled II are called",
+          "optionsJson": "[\"thoracic vertebrae\",\"lumbar vertebrae\",\"cervical vertebrae\",\"sacral vertebrae.\"]",
+          "answerIndex": 2,
+          "explanation": "Based on the typical position labelled in this classic vertebral column diagram (region II, generally positioned in the neck/upper spine area in standard versions of this question), the bones are identified as cervical vertebrae, the seven vertebrae located in the neck region that support the skull and allow head movement. Thoracic, lumbar, and sacral vertebrae are located in the chest, lower back, and pelvic regions respectively, each with distinct labelled positions along the column. This tests regional identification of vertebral column segments, a standard skeletal anatomy topic. Exam tip: memorize the vertebral column regions from top to bottom: cervical (neck, 7 bones) - thoracic (chest, 12 bones) - lumbar (lower back, 5 bones) - sacral (pelvis, fused) - coccygeal (tailbone).",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "thoracic vertebrae",
+            "lumbar vertebrae",
+            "cervical vertebrae",
+            "sacral vertebrae."
+          ],
+          "storedAnswer": "cervical vertebrae"
+        },
+        {
+          "id": 1350160,
+          "externalId": "biology_0449",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "questionText": "In the diagram, A unique characteristic that distinguishes the class of vertebrates represented from other vertebrates is the presence of",
+          "optionsJson": "[\"two pair of limbs\",\"scales on the lower legs\",\"a pair of wings\",\"a covering of feathers\"]",
+          "answerIndex": 3,
+          "explanation": "The class Aves (birds) is uniquely characterized by feathers. While they have wings, other vertebrates (bats) also have wings; scales on legs are present in some birds but not unique; two pairs of limbs are found in all tetrapods.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500001,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "sourceActive": 1,
+          "options": [
+            "two pair of limbs",
+            "scales on the lower legs",
+            "a pair of wings",
+            "a covering of feathers"
+          ],
+          "storedAnswer": "a covering of feathers"
+        },
+        {
+          "id": 1350578,
+          "externalId": "biology_1020",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "questionText": "Use the diagram to answer the question. The vertebra illustrated is",
+          "optionsJson": "[\"Lumbar\",\"Thoracic\",\"Caudal\",\"Cervical\"]",
+          "answerIndex": 1,
+          "explanation": "The illustrated vertebra is thoracic. Its long neural spine and rib-articulating processes identify it as a thoracic vertebra.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
+          "sourceId": 22500002,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "sourceActive": 1,
+          "options": [
+            "Lumbar",
+            "Thoracic",
+            "Caudal",
+            "Cervical"
+          ],
+          "storedAnswer": "Thoracic"
+        }
+      ]
+    },
+    {
+      "key": "skin",
+      "candidates": [
+        {
+          "id": 1020039,
+          "externalId": "supplied-keyed-2004-biology-015",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a cross-section of mammalian skin with structures labelled I, II, III, IV, including a hair follicle, sweat gland, and associated structures] The function of the part labelled III is to",
+          "optionsJson": "[\"produce oil for the skin\",\"carry blood and nitrogenous waste\",\"contract to pull the hair erect\",\"conduct nervous impulses\"]",
+          "answerIndex": 2,
+          "explanation": "The structure labelled III in a typical mammalian skin cross-section diagram, positioned near the hair follicle, is the arrector pili muscle, a small smooth muscle that contracts to pull the hair follicle into an upright position (causing 'goosebumps') as part of thermoregulation in response to cold or fear. This is distinct from sebaceous glands (which produce oil), blood vessels (which carry blood and waste), and sensory nerve endings (which conduct nervous impulses), each typically labelled at different positions in the same diagram. This tests identification of specific skin structures and their thermoregulatory/protective functions from a labelled diagram. Exam tip: 'arrector pili muscle = contracts to raise hair, causing goosebumps' is the specific structure-function pairing tested in skin diagrams showing hair follicles.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-skin-cross-section-neutral_c2f97b70.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "produce oil for the skin",
+            "carry blood and nitrogenous waste",
+            "contract to pull the hair erect",
+            "conduct nervous impulses"
+          ],
+          "storedAnswer": "contract to pull the hair erect"
+        },
+        {
+          "id": 1350085,
+          "externalId": "biology_0360",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "questionText": "The sweat gland is the structure labelled",
+          "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+          "answerIndex": 3,
+          "explanation": "In a skin diagram, the sweat gland is a coiled tubular structure in the dermis with a duct leading to the skin surface. Based on standard labelling, IV often represents the sweat gland. I, II, and III typically represent other structures like hair follicle, sebaceous gland, or arrector pili muscle.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500001,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "sourceActive": 1,
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "storedAnswer": "IV"
+        }
+      ]
+    },
+    {
+      "key": "potato_osmosis",
+      "candidates": [
+        {
+          "id": 990190,
+          "externalId": "jamb-500-master-chemistry-095",
+          "subject": "Chemistry",
+          "topic": "Acids, bases and salts",
+          "questionText": "A salt solution may be acidic or alkaline due to:",
+          "optionsJson": "[\"nuclear fission\",\"hydrolysis of its ions\",\"loss of all water\",\"metallic bonding\"]",
+          "answerIndex": 1,
+          "explanation": "Some ions react with water and alter pH.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 10980002,
+          "sourceLabel": "JAMB 500 Question Master Bank · Chemistry · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "nuclear fission",
+            "hydrolysis of its ions",
+            "loss of all water",
+            "metallic bonding"
+          ],
+          "storedAnswer": "hydrolysis of its ions"
+        },
+        {
+          "id": 1020027,
+          "externalId": "supplied-keyed-2004-biology-003",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[DIAGRAM: a hollowed yam tuber is placed in a beaker of water, with salt solution inside the hollow of the yam - a classic osmosis set-up] Yam is used in this set-up because it",
+          "optionsJson": "[\"acts as a semi-permeable membrane\",\"acts as a storage organ\",\"is permeable to the salt solution\",\"is a plant material\"]",
+          "answerIndex": 0,
+          "explanation": "The hollowed yam tuber acts as a semi-permeable membrane in this classic osmosis demonstration, allowing water molecules to pass through its cell walls/membranes while restricting the free movement of larger solute particles, which is essential for demonstrating osmotic water movement between the salt solution inside the yam cavity and the surrounding water in the beaker. While the yam is indeed a storage organ and plant material (true but not the tested property here), the specific reason it is used in THIS experiment is its semi-permeable membrane property, which enables the osmosis demonstration. This tests understanding of osmosis and the specific structural property (semi-permeability) that makes plant tissue useful for such experiments. Exam tip: whenever plant tissue is used in an osmosis set-up, its semi-permeable membrane property is almost always the tested reason, not its general biological function.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "acts as a semi-permeable membrane",
+            "acts as a storage organ",
+            "is permeable to the salt solution",
+            "is a plant material"
+          ],
+          "storedAnswer": "acts as a semi-permeable membrane"
+        },
+        {
+          "id": 1020028,
+          "externalId": "supplied-keyed-2004-biology-004",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "[Refers to the osmosis set-up diagram in Q3] Which of the following results is to be expected if the set-up is left for several hours?",
+          "optionsJson": "[\"Movement of water from the salt solution\",\"Decrease in the size of the yam\",\"Movement of the salt solution into the water\",\"Decrease in the volume of water inside the yam.\"]",
+          "answerIndex": 1,
+          "explanation": "Since the salt solution held inside the hollowed yam cavity has a higher solute concentration than the plain water surrounding it in the beaker, water moves by osmosis from the beaker (higher water potential) through the semi-permeable yam tissue into the salt solution inside the cavity, causing the salt solution's volume to increase and its concentration to become diluted over several hours. This directional movement is driven purely by the water potential gradient between the two solutions, with water always moving toward the region of lower water potential (higher solute concentration) across a semi-permeable membrane. This tests prediction of osmotic water movement direction based on relative solute concentrations, a core cell biology application. Exam tip: always identify which side of a semi-permeable membrane holds the higher solute concentration first, since water always moves toward that side by osmosis.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-yam-osmosis-neutral_d9275965.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "Movement of water from the salt solution",
+            "Decrease in the size of the yam",
+            "Movement of the salt solution into the water",
+            "Decrease in the volume of water inside the yam."
+          ],
+          "storedAnswer": "Decrease in the size of the yam"
+        },
+        {
+          "id": 1050053,
+          "externalId": "kairo-csv-chemistry_06dbe3",
+          "subject": "Chemistry",
+          "topic": "Electrolysis",
+          "questionText": "Calculate the mass of copper deposited when 0.2 Faraday of electricity is passed through a copper(II) salt solution. [Cu = 64]",
+          "optionsJson": "[\"3.2 g\",\"6.4 g\",\"12.8 g\",\"64.0 g\"]",
+          "answerIndex": 1,
+          "explanation": "First, write the half-equation for the reduction of copper(II) ions: Cu²⁺ + 2e⁻ → Cu. This shows that 2 moles of electrons (2 Faradays) are required to deposit 1 mole of copper (64 g). If 2 F deposits 64 g, then 1 F deposits 32 g. Therefore, 0.2 F will deposit 0.2 × 32 g = 6.4 g.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 12330001,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "sourceActive": 1,
+          "options": [
+            "3.2 g",
+            "6.4 g",
+            "12.8 g",
+            "64.0 g"
+          ],
+          "storedAnswer": "6.4 g"
+        },
+        {
+          "id": 1050054,
+          "externalId": "kairo-csv-chemistry_074ad4",
+          "subject": "Chemistry",
+          "topic": "Solubility",
+          "questionText": "On heating 12.5 g of a saturated salt solution to dryness at 60°C, 2.0 g of anhydrous salt was recovered. Calculate the solubility of the salt in grams per 100 g of water.",
+          "optionsJson": "[\"16.0 g per 100 g water\",\"19.05 g per 100 g water\",\"20.0 g per 100 g water\",\"25.0 g per 100 g water\"]",
+          "answerIndex": 1,
+          "explanation": "First, determine the mass of the water (solvent) in the original solution. Mass of water = Mass of solution - Mass of salt = 12.5 g - 2.0 g = 10.5 g. This means 2.0 g of salt dissolves in 10.5 g of water. To find the solubility (mass of salt per 100 g of water), set up a proportion: (2.0 g salt / 10.5 g water) = (x g salt / 100 g water). x = (2.0 × 100) / 10.5 = 200 / 10.5 ≈ 19.047 g. Rounding to two decimal places gives 19.05 g per 100 g of water.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 12330001,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "sourceActive": 1,
+          "options": [
+            "16.0 g per 100 g water",
+            "19.05 g per 100 g water",
+            "20.0 g per 100 g water",
+            "25.0 g per 100 g water"
+          ],
+          "storedAnswer": "19.05 g per 100 g water"
+        },
+        {
+          "id": 1050274,
+          "externalId": "kairo-csv-chemistry_609363",
+          "subject": "Chemistry",
+          "topic": "Oxidation and reduction",
+          "questionText": "Which of the following metals is displaced from its aqueous salt solution by iron?",
+          "optionsJson": "[\"Magnesium\",\"Zinc\",\"Copper\",\"Aluminium\"]",
+          "answerIndex": 2,
+          "explanation": "This relies on the reactivity series of metals. The rule of displacement is simple: a metal can only bully (displace) another metal out of its compound if it is stronger (higher up in the reactivity series). Iron is moderately reactive, but it sits distinctly higher than copper. Therefore, if you drop an iron nail into a blue copper(II) salt solution, the iron will dissolve and displace the copper, coating the nail in a brown layer of solid copper metal.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 12330001,
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "sourceActive": 1,
+          "options": [
+            "Magnesium",
+            "Zinc",
+            "Copper",
+            "Aluminium"
+          ],
+          "storedAnswer": "Copper"
+        },
+        {
+          "id": 1350210,
+          "externalId": "biology_0511",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "A plant cell placed in a concentrated salt solution is likely to",
+          "optionsJson": "[\"become turgid\",\"gain water\",\"become plasmolysed\",\"increase in turgor pressure\"]",
+          "answerIndex": 2,
+          "explanation": "A concentrated salt solution has lower water potential than the cell sap, so water moves out of the plant cell by osmosis. Continued water loss causes the cell membrane and cytoplasm to pull away from the cell wall, producing plasmolysis.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500001,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "sourceActive": 1,
+          "options": [
+            "become turgid",
+            "gain water",
+            "become plasmolysed",
+            "increase in turgor pressure"
+          ],
+          "storedAnswer": "become plasmolysed"
+        },
+        {
+          "id": 1350600,
+          "externalId": "biology_1048",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When a Spirogyra cell is immersed in a salt solution more concentrated than its cell sap, it?",
+          "optionsJson": "[\"remains unchanged\",\"takes up water and burst\",\"absorbs a little water\",\"loses water and shrivels\"]",
+          "answerIndex": 3,
+          "explanation": "A hypertonic salt solution has a higher solute concentration than the cell sap, so water moves out of the Spirogyra cell by osmosis, causing it to lose water and shrivel (plasmolysis). The cell does not take in water, nor does it remain unchanged.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500002,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "sourceActive": 1,
+          "options": [
+            "remains unchanged",
+            "takes up water and burst",
+            "absorbs a little water",
+            "loses water and shrivels"
+          ],
+          "storedAnswer": "loses water and shrivels"
+        },
+        {
+          "id": 1470010,
+          "externalId": "BIO-OWNER-20260822-010",
+          "subject": "Biology",
+          "topic": "Transport",
+          "questionText": "When an animal cell is placed in a very concentrated salt solution, it will most likely",
+          "optionsJson": "[\"gain water and burst\",\"lose water and shrink\",\"remain unchanged because water cannot move\",\"develop a cell wall\"]",
+          "answerIndex": 1,
+          "explanation": "A concentrated salt solution is hypertonic relative to the cell, meaning it has a lower water potential than the cell contents. Water therefore moves out of the animal cell by osmosis. As water leaves, the cell becomes smaller and may become wrinkled; this is called crenation in red blood cells. Unlike plant cells, animal cells have no rigid cell wall to prevent excessive shape change.",
+          "explanationStatus": "needs_review",
+          "diagramUrl": null,
+          "sourceId": 23430001,
+          "sourceLabel": "Owner-supplied Biology segments · 22 Aug 2026",
+          "sourceActive": 1,
+          "options": [
+            "gain water and burst",
+            "lose water and shrink",
+            "remain unchanged because water cannot move",
+            "develop a cell wall"
+          ],
+          "storedAnswer": "lose water and shrink"
+        },
+        {
+          "id": 1590217,
+          "externalId": "PDF-OWNER-20260822-BIO-067",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "questionText": "A plant cell placed in a concentrated salt solution loses water and becomes flaccid because of",
+          "optionsJson": "[\"active transport of water in\",\"photosynthesis\",\"respiration stopping\",\"osmosis out of the cell\"]",
+          "answerIndex": 3,
+          "explanation": "When a plant cell is placed in a concentrated salt solution (hypertonic relative to the cell), water moves out of the cell by osmosis, causing the cell to lose turgor and become flaccid. Active transport of water in, photosynthesis, and respiration stopping are unrelated to this water-loss mechanism.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 23760004,
+          "sourceLabel": "Owner PDF answer-matched Biology 51–150 · 22 Aug 2026",
+          "sourceActive": 1,
+          "options": [
+            "active transport of water in",
+            "photosynthesis",
+            "respiration stopping",
+            "osmosis out of the cell"
+          ],
+          "storedAnswer": "osmosis out of the cell"
+        }
+      ]
+    },
+    {
+      "key": "flower",
+      "candidates": [
+        {
+          "id": 1020036,
+          "externalId": "supplied-keyed-2004-biology-012",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[DIAGRAM: a flower cross-section with four parts labelled I, II, III, IV] The part labelled II is the",
+          "optionsJson": "[\"anther\",\"style\",\"filament\",\"stigma\"]",
+          "answerIndex": 0,
+          "explanation": "In a standard labelled flower diagram showing the male reproductive parts, the anther (the pollen-producing structure at the tip of the stamen) is typically the part labelled at the position described in this classic question, distinguishing it from the style (the stalk connecting stigma to ovary), filament (the stalk supporting the anther), and stigma (the pollen-receiving surface at the tip of the carpel). This tests identification of flower reproductive structures from a labelled diagram, a fundamental plant reproduction topic. Exam tip: remember the male flower parts run stamen = filament (stalk) + anther (pollen sac at tip), while female parts run carpel = stigma (top) + style (stalk) + ovary (base).",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "anther",
+            "style",
+            "filament",
+            "stigma"
+          ],
+          "storedAnswer": "anther"
+        },
+        {
+          "id": 1020037,
+          "externalId": "supplied-keyed-2004-biology-013",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "[Refers to the flower diagram in Q12] The process of pollination involves the transfer of pollens from",
+          "optionsJson": "[\"III to IV\",\"IV to I\",\"II to III\",\"I to II\"]",
+          "answerIndex": 0,
+          "explanation": "Pollination is the transfer of pollen grains from the anther (the male pollen-producing structure) to the stigma (the female pollen-receiving structure), so based on the diagram's labelling where the parts are identified in sequence, the correct transfer direction runs from the anther (part III in this diagram's typical labelling) to the stigma (part IV), consistent with the fundamental definition of pollination. This tests understanding of the basic mechanism and directional flow of pollination between flower structures. Exam tip: pollination always flows from anther (pollen source) to stigma (pollen destination) - memorize this directional relationship regardless of how a specific diagram labels the parts.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "sourceId": 11580001,
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "sourceActive": 1,
+          "options": [
+            "III to IV",
+            "IV to I",
+            "II to III",
+            "I to II"
+          ],
+          "storedAnswer": "III to IV"
+        },
+        {
+          "id": 1170005,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "questionText": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+          "optionsJson": "[\"III\",\"I\",\"IV\",\"II\"]",
+          "answerIndex": 2,
+          "explanation": "Brightly coloured petals attract insects and other pollinators to the flower. In the diagram, the petals are indicated by label IV.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2025-005_51f986ac.png",
+          "sourceId": 13830001,
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "sourceActive": 1,
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "storedAnswer": "IV"
+        },
+        {
+          "id": 1320007,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-007",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "questionText": "The flower of plants belongs to the part labelled",
+          "optionsJson": "[\"I\",\"II\",\"III\",\"IV\"]",
+          "answerIndex": 2,
+          "explanation": "A flower is a reproductive structure made of several tissues working together. It therefore belongs to the organ level, labelled III in the sequence.",
+          "explanationStatus": "approved",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007_78063897.png",
+          "sourceId": 14250001,
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "sourceActive": 1,
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "storedAnswer": "III"
+        },
+        {
+          "id": 1350242,
+          "externalId": "biology_0549",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "In the diagram, the likely pollinating agent of the flower is?",
+          "optionsJson": "[\"wind\",\"water\",\"insect\",\"man\"]",
+          "answerIndex": 2,
+          "explanation": "The flower shown has features associated with insect pollination. Insect-pollinated flowers commonly attract pollinators with conspicuous structures, scent or nectar, while their pollen is generally adapted for attachment to visiting insects.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500001,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "sourceActive": 1,
+          "options": [
+            "wind",
+            "water",
+            "insect",
+            "man"
+          ],
+          "storedAnswer": "insect"
+        },
+        {
+          "id": 1350805,
+          "externalId": "biology_1280",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "questionText": "The part of the flower that is brightly coloured and attract pollinating agents such as insects is labelled",
+          "optionsJson": "[\"III\",\"I\",\"IV\",\"II\"]",
+          "answerIndex": 0,
+          "explanation": "The brightly coloured part of the flower is typically the petals, which are often labelled III in diagrams. The other labels represent other floral parts.",
+          "explanationStatus": "approved",
+          "diagramUrl": null,
+          "sourceId": 22500002,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "sourceActive": 1,
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "storedAnswer": "III"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-08-26T11:51:54.304Z",
+  "action": "Guarded removal of non-essential diagram links only.",
+  "sourceClassification": "nonessential_diagram_link_removal_classification_20260826.json",
+  "targetCount": 22,
+  "changedCount": 0,
+  "unchangedOnRepeatCount": 22,
+  "learnerEligibilityRuleChanged": false,
+  "lekkiHeadmasterChanged": false,
+  "records": [
+    {
+      "id": 10,
+      "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-6-11",
+      "subject": "Biology",
+      "sourceId": 420003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "e0faa4e3e53d9fd2a78583d23cd3dea0ad712496d86cd0b95d728ce7d5d1351c",
+      "affectedRows": 0
+    },
+    {
+      "id": 44,
+      "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-43-48",
+      "subject": "Biology",
+      "sourceId": 420003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "8fcf1a0d67c8b6440809c94e40edec8841a764c7701f4d468bcffaf74705d45e",
+      "affectedRows": 0
+    },
+    {
+      "id": 102,
+      "externalId": "drive-1ztKF6fSA5WpO1vjuQuNHO9HvM4Z188KR-q-102-107",
+      "subject": "Biology",
+      "sourceId": 420003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "1bbff18fe90256489ed630a9f6c6b8bfd20612126f5324657f60e7243d7b7d41",
+      "affectedRows": 0
+    },
+    {
+      "id": 212,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-18-18",
+      "subject": "Physics",
+      "sourceId": 420004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "491b63f0eddbfcfb5f4b77e4afebfeeb7739830bc34b542c7d1cf1abd11ff1b4",
+      "affectedRows": 0
+    },
+    {
+      "id": 219,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-27-27",
+      "subject": "Physics",
+      "sourceId": 420004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "6e0d169a472c99173ce2945cec0711148e4b6dcf7d7e02310d682137c94528b7",
+      "affectedRows": 0
+    },
+    {
+      "id": 240,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-51-51",
+      "subject": "Physics",
+      "sourceId": 420004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "a98df09871232419a94104076bd46b7c3433e54811fca69bc459735df0e65d80",
+      "affectedRows": 0
+    },
+    {
+      "id": 303,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-123-125",
+      "subject": "Physics",
+      "sourceId": 420004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "0a97e9f8bb7e78c00992d969660323e6def5214cb5c8a88ecd19667e2ece4589",
+      "affectedRows": 0
+    },
+    {
+      "id": 343,
+      "externalId": "drive-1VHj1Gy6u2Zh4ASOHlodrhkvcO-2U616U-q-168-170",
+      "subject": "Physics",
+      "sourceId": 420004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "d0a157ee140458f7a28307fe3d977b8ba55fe6923e1ed4bb0fd39efd6f9c5c05",
+      "affectedRows": 0
+    },
+    {
+      "id": 30038,
+      "externalId": "BIO-OWNER-M1-Q43",
+      "subject": "Biology",
+      "sourceId": 1110001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "94721a9925b9fe50ab465c80845b12237d4e56b121882dc3557310aef9158579",
+      "affectedRows": 0
+    },
+    {
+      "id": 30068,
+      "externalId": "BIO-OWNER-M2-Q25",
+      "subject": "Biology",
+      "sourceId": 1110001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "e93c03086445857494bf961bcb8f9764b119e8dfd2d79faa215846abcd134c8a",
+      "affectedRows": 0
+    },
+    {
+      "id": 90185,
+      "externalId": "TechMed-Complete-Question-Bank-md-60",
+      "subject": "Chemistry",
+      "sourceId": 1290003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "f95c005dd9f665a008a0388f9416b04c8ca5f0bfec19a5e94c789d5fa0697fd0",
+      "affectedRows": 0
+    },
+    {
+      "id": 90204,
+      "externalId": "TechMed-Complete-Question-Bank-md-79",
+      "subject": "Chemistry",
+      "sourceId": 1290003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "7e801b1a52d64be669b2f6d975158581ffbe915918a25ce40485e7bb4ae2743d",
+      "affectedRows": 0
+    },
+    {
+      "id": 150136,
+      "externalId": "phys-part2-md-Physics-74",
+      "subject": "Physics",
+      "sourceId": 3480004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "d0ac4fcb79bb718f4a6a0a4bf278b06af67b3a72973ab1f7c8c428a8d9d1062a",
+      "affectedRows": 0
+    },
+    {
+      "id": 150149,
+      "externalId": "phys-part2-md-Physics-89",
+      "subject": "Physics",
+      "sourceId": 3480004,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "22ee8b8f6703f763e95550589a88e18a6a2a9010d89aeea8bbba63942a5fa439",
+      "affectedRows": 0
+    },
+    {
+      "id": 180019,
+      "externalId": "phys-part1-md-Physics-4",
+      "subject": "Physics",
+      "sourceId": 3480003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "a6886d4f28dc603454726e18d41a70d1fcbee25fed07ba7c249a3f55c130887f",
+      "affectedRows": 0
+    },
+    {
+      "id": 270008,
+      "externalId": "chemistry-past-questions-aug15-part3-51-75-txt-Chemistry-58",
+      "subject": "Chemistry",
+      "sourceId": 5760003,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "06f3d45dcd93bfc07521b3b0a771dd2971d005bff28fe3e79dad5c19636fbd29",
+      "affectedRows": 0
+    },
+    {
+      "id": 300017,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-17",
+      "subject": "Physics",
+      "sourceId": 5850001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "c1f65039c21f6d1d5fd67293e3225060683194b2f9137e7e609b86624f66ec34",
+      "affectedRows": 0
+    },
+    {
+      "id": 300019,
+      "externalId": "physics-past-questions-aug15-part1-1-25-txt-Physics-19",
+      "subject": "Physics",
+      "sourceId": 5850001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "a48314ce3e396a42598d662143e2be1e95e07b5ccafbc87a0209e218a685f355",
+      "affectedRows": 0
+    },
+    {
+      "id": 300029,
+      "externalId": "physics-past-questions-aug15-part2-26-50-txt-Physics-29",
+      "subject": "Physics",
+      "sourceId": 5850001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "d2eed8838c494fbc4595ad542be83a72067e042d4bf030bb45e48c4679f9d90f",
+      "affectedRows": 0
+    },
+    {
+      "id": 450166,
+      "externalId": "owner-aug15-chemistry-chemistry-100-md-22",
+      "subject": "Chemistry",
+      "sourceId": 8280001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "ea7ea092a02de3366b44f3e6b641181d7ee6242f85c7569439eefb183001e586",
+      "affectedRows": 0
+    },
+    {
+      "id": 750012,
+      "externalId": "biology-dr-high-0022",
+      "subject": "Biology",
+      "sourceId": 9210001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "ce1aae43881ce9b97b9b658b429d6d7379ccbcce63379488306be7f2430c182d",
+      "affectedRows": 0
+    },
+    {
+      "id": 1260014,
+      "externalId": "OWNER-PHY-DIAGRAM-2026-014",
+      "subject": "Physics",
+      "sourceId": 14070001,
+      "diagramUrlBefore": null,
+      "diagramUrlAfter": null,
+      "protectedFieldsSha256": "fb659a9ba9bdc8de2da974b791e6550b061152a6b97de41caacf2841684563d2",
+      "affectedRows": 0
+    }
+  ]
+}
