@@ -150,6 +150,31 @@ describe("owner-provided playable question mapping", () => {
     expect(toPlayableAuthorisedQuestion({ ...base, id: 237, questionText: "In the diagram, the part labelled I represents the", diagramUrl: "/manus-storage/verified-original.png" })).not.toBeNull();
   });
 
+  it("keeps optics-image and figure-of-speech wording playable when no real visual is needed", () => {
+    expect(toPlayableAuthorisedQuestion({
+      id: 238,
+      subject: "Physics",
+      topic: "Optical instruments",
+      difficulty: "medium",
+      questionText: "The image formed by a pinhole camera is",
+      optionsJson: JSON.stringify(["virtual and upright", "real and inverted", "virtual and magnified", "real and upright"]),
+      answerIndex: 1,
+      explanation: "A pinhole camera forms a real inverted image without requiring a supplied diagram.",
+      sourceLabel: "Owner-provided source",
+    })).not.toBeNull();
+    expect(toPlayableAuthorisedQuestion({
+      id: 239,
+      subject: "Use of English",
+      topic: "Ordinary, figurative and idiomatic usage",
+      difficulty: "medium",
+      questionText: "The figure of speech used is _____",
+      optionsJson: JSON.stringify(["simile", "metonymy", "personification", "hyperbole"]),
+      answerIndex: 2,
+      explanation: "The wording tests language, not a visual figure.",
+      sourceLabel: "Owner-provided source",
+    })).not.toBeNull();
+  });
+
   it("rejects malformed options before the record can enter the quiz feed", () => {
     expect(toPlayableAuthorisedQuestion({
       id: 13,
