@@ -27,3 +27,11 @@ Independent TestDriller JAMB 2007 question 19 is available at `https://www.testd
 ## `biology_1041` — JAMB 2003 frog water loss and intake
 
 Independent TestDriller JAMB 2003 question 6 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2003-6`. It supplies a clean repeated original frog-water figure with arrows I and II, but its older answer-option wording differs from the protected 2020 record. Native inspection passed and the image was released mapping-only as `/manus-storage/biology-1041-testdriller-original_f360a5e8.png`; the protected JAMB 2020 wording, key, explanation, and all other learner fields remain unchanged, with MySchool and SchoolNGR as the answer authorities.
+
+## `biology_1111` — F2 genotypic-ratio illustration
+
+TestDriller JAMB 2008 question 43 `https://www.testdriller.com/past-questions/jamb-objective-biology-2008-43` was inspected as a possible clean lead. It has a clean genetic-cross panel, but its stem is “The genotypic ratio of the offspring of the cross is,” it uses a different answer order (`1:2`, `1:2:1`, `1:1:1:1`, `3:1`), and its panel contains I–IV result cells rather than the protected JAMB 2025 F2 illustration. It is therefore a **distinct source variant**, not an exact original for `biology_1111`, and cannot be mapped or used to alter any protected learner field. The pointer-bearing 2025 original remains excluded pending a clean exact source.
+
+## `biology_1033` — JAMB 2007 countershading
+
+Independent TestDriller JAMB 2007 question 11 is available at `https://www.testdriller.com/past-questions/jamb-objective-biology-2007-11`. It matches the protected protective-adaptation prompt and option order, states C/countershading colouration, and supplies a clean complete animal figure. Native inspection, protected-record comparison, and MySchool/SchoolNGR corroboration all passed; the original was released mapping-only as `/manus-storage/biology-1033-testdriller-original_425154e0.png` with the protected key and all other learner fields unchanged.
