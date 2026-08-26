@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-26T07:32:18.026Z",
+  "scope": "Guarded mapping-only release. Question text, options, answer index, topic, explanation, source relationship, and approval status remain unchanged.",
+  "target": {
+    "externalId": "biology_0546",
+    "questionText": "Use the diagram above to answer this question. The part labelled I is the",
+    "optionsJson": "[\"spongy mesophyll\",\"upper epidermis\",\"cuticle\",\"vein\"]",
+    "answerIndex": 2,
+    "topic": "Plant and mammal structure",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png"
+  },
+  "receipt": {
+    "externalId": "biology_0546",
+    "released": true,
+    "alreadyReleased": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The part labelled I is the",
+      "optionsJson": "[\"spongy mesophyll\",\"upper epidermis\",\"cuticle\",\"vein\"]",
+      "answerIndex": 2,
+      "topic": "Plant and mammal structure",
+      "explanation": "The cuticle is the thin waxy layer covering the outer surface of a leaf. Its major role is to reduce water loss and protect the underlying tissues from environmental damage.",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The part labelled I is the",
+      "optionsJson": "[\"spongy mesophyll\",\"upper epidermis\",\"cuticle\",\"vein\"]",
+      "answerIndex": 2,
+      "topic": "Plant and mammal structure",
+      "explanation": "The cuticle is the thin waxy layer covering the outer surface of a leaf. Its major role is to reduce water loss and protect the underlying tissues from environmental damage.",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "diagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png"
+    },
+    "reason": "TestDriller JAMB 2009 question 14 supplies a clean complete native leaf-section original with neutral I–IV leaders and no answer marker, option text, correction, watermark, or source residue. Its extracted bytes are SHA-256-identical to the approved TestDriller JAMB 2009 question 13 original. TestDriller, MySchool, and SchoolNGR all match the protected prompt and C/cuticle key, so only the verified original mapping is released; all protected learner fields remain unchanged."
+  }
+}

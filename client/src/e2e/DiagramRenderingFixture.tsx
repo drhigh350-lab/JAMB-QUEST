@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -357,6 +357,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The structure that controls water vapour loss is the stoma, whose opening and closing is controlled by its guard cells. In the diagram, the stomatal structure is labelled IV.",
     diagram_url: "/manus-storage/biology-0536-testdriller-original_a59c4d17.png",
   },
+  leaf0546: {
+    id: "fixture-diagram-jamb-2009-leaf-label-i",
+    subject: "Biology",
+    topic: "Plant and mammal structure",
+    subtopic: "Leaf internal structure",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "byte-identical exact original", "leaf section", "JAMB 2009"],
+    source: "Fixture — verified JAMB 2009 original",
+    question: "Use the diagram above to answer this question. The part labelled I is the",
+    options: ["spongy mesophyll", "upper epidermis", "cuticle", "vein"],
+    answer_index: 2,
+    answer_text: "cuticle",
+    explanation: "The cuticle is the thin waxy layer covering the outer surface of a leaf. It reduces water loss and protects the underlying tissues.",
+    diagram_url: "/manus-storage/biology-0536-testdriller-original_a59c4d17.png",
+  },
   aquatic0574: {
     id: "fixture-diagram-jamb-2010-aquatic-dependence",
     subject: "Biology",
@@ -493,6 +509,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
   plantation0584: "Repaired exact JAMB 2010 plantation-II graph",
   leaf0536: "Recovered exact JAMB 2009 transpiration-control leaf figure",
+  leaf0546: "Recovered byte-identical exact JAMB 2009 leaf-label-I figure",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
   digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   raptor0569: "Repaired exact JAMB 2010 raptor beak-and-feet figure",
