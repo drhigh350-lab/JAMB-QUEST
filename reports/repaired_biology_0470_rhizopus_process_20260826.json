@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-26T07:40:29.571Z",
+  "scope": "Guarded figure-and-key repair. Only answerIndex, explanation, and diagramUrl may change; question text, option order, topic, source relationship, and approval status remain protected.",
+  "target": {
+    "externalId": "biology_0470",
+    "questionText": "Use the diagram above to answer this question. The process illustrated is",
+    "optionsJson": "[\"gametogenesis\",\"sporulation\",\"sexual reproduction in Spirogyra\",\"sexual reproduction in Rhizopus\"]",
+    "currentAnswerIndex": 2,
+    "currentExplanation": "The diagram likely shows conjugation in Spirogyra, where two filaments align and form conjugation tubes to transfer gametes. Gametogenesis is gamete formation, sporulation is spore formation, and Rhizopus reproduction is different.",
+    "replacementAnswerIndex": 3,
+    "replacementExplanation": "The diagram shows fusion of compatible Rhizopus gametangia and formation of a zygospore. This is sexual reproduction in Rhizopus; with the supplied option order, it is option D.",
+    "topic": "Reproduction",
+    "sourceId": 22500001,
+    "expectedCurrentDiagramUrl": null,
+    "replacementDiagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png"
+  },
+  "receipt": {
+    "externalId": "biology_0470",
+    "repaired": true,
+    "alreadyRepaired": false,
+    "skipped": false,
+    "before": {
+      "questionText": "Use the diagram above to answer this question. The process illustrated is",
+      "optionsJson": "[\"gametogenesis\",\"sporulation\",\"sexual reproduction in Spirogyra\",\"sexual reproduction in Rhizopus\"]",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 2,
+      "explanation": "The diagram likely shows conjugation in Spirogyra, where two filaments align and form conjugation tubes to transfer gametes. Gametogenesis is gamete formation, sporulation is spore formation, and Rhizopus reproduction is different.",
+      "diagramUrl": null
+    },
+    "after": {
+      "questionText": "Use the diagram above to answer this question. The process illustrated is",
+      "optionsJson": "[\"gametogenesis\",\"sporulation\",\"sexual reproduction in Spirogyra\",\"sexual reproduction in Rhizopus\"]",
+      "topic": "Reproduction",
+      "sourceId": 22500001,
+      "explanationStatus": "approved",
+      "answerIndex": 3,
+      "explanation": "The diagram shows fusion of compatible Rhizopus gametangia and formation of a zygospore. This is sexual reproduction in Rhizopus; with the supplied option order, it is option D.",
+      "diagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png"
+    },
+    "reason": "TestDriller JAMB 2007 question 44 provides a clean complete native fungal-fusion original with gametangia and plus/minus geometry. Its extracted bytes are SHA-256-identical to the clean TestDriller JAMB 2007 question 45 original. TestDriller, MySchool, and SchoolNGR match the protected prompt, option order, and D/sexual reproduction in Rhizopus answer, so the source-proven key/explanation correction and mapping are released together."
+  }
+}
