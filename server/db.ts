@@ -600,6 +600,80 @@ export async function getOwnerHeldDiagramRecords() {
     }));
 }
 
+type OwnerDiagramAuditSubject = "Use of English" | "Biology" | "Chemistry" | "Physics";
+type OwnerDiagramAuditState = "all" | "missing" | "linked";
+
+/** Owner-only visual desk. It exposes evidence for review but never changes learner eligibility. */
+export async function getOwnerDiagramAuditPage(input: { subject: OwnerDiagramAuditSubject | "all"; state: OwnerDiagramAuditState; search: string; page: number; pageSize: number }) {
+  const db = await getDb();
+  if (!db) throw new Error("The owner diagram desk is unavailable right now.");
+  const rows = await db.select({
+    id: questionItems.id,
+    externalId: questionItems.externalId,
+    subject: questionItems.subject,
+    topic: questionItems.topic,
+    difficulty: questionItems.difficulty,
+    questionText: questionItems.questionText,
+    optionsJson: questionItems.optionsJson,
+    answerIndex: questionItems.answerIndex,
+    explanation: questionItems.explanation,
+    explanationStatus: questionItems.explanationStatus,
+    diagramUrl: questionItems.diagramUrl,
+    sourceLabel: questionSources.label,
+    sourceActive: questionSources.isActive,
+  }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(eq(questionSources.isActive, 1)).orderBy(questionItems.id);
+
+  const search = input.search.trim().toLowerCase();
+  const records = rows.flatMap((row) => {
+    const stem = normaliseQuestionStem(row.questionText);
+    const hasDiagram = Boolean(row.diagramUrl?.trim());
+    if (!hasDiagram && !requiresDiagramAsset(stem)) return [];
+    if (input.subject !== "all" && row.subject !== input.subject) return [];
+    if (input.state === "missing" && hasDiagram) return [];
+    if (input.state === "linked" && !hasDiagram) return [];
+    if (search && ![row.id, row.externalId, row.subject, row.topic, stem, row.sourceLabel].some((value) => String(value ?? "").toLowerCase().includes(search))) return [];
+    try {
+      const options = JSON.parse(row.optionsJson) as unknown;
+      if (!Array.isArray(options) || options.some((option) => typeof option !== "string") || row.answerIndex < 0 || row.answerIndex >= options.length) return [];
+      const learnerVisible = Boolean(toPlayableAuthorisedQuestion({
+        externalId: row.externalId ?? undefined,
+        id: row.id,
+        subject: row.subject,
+        topic: row.topic,
+        difficulty: row.difficulty as "easy" | "medium" | "hard",
+        questionText: row.questionText,
+        optionsJson: row.optionsJson,
+        answerIndex: row.answerIndex,
+        explanation: row.explanation,
+        diagramUrl: row.diagramUrl,
+        explanationStatus: row.explanationStatus,
+        sourceLabel: row.sourceLabel,
+      }));
+      return [{
+        id: row.id,
+        externalId: row.externalId ?? `authorised-${row.id}`,
+        subject: row.subject as OwnerDiagramAuditSubject,
+        topic: row.topic,
+        difficulty: row.difficulty,
+        question: stem,
+        options,
+        answerIndex: row.answerIndex,
+        explanation: row.explanation ?? "",
+        diagramUrl: row.diagramUrl,
+        sourceLabel: row.sourceLabel,
+        explanationStatus: row.explanationStatus,
+        learnerVisible,
+      }];
+    } catch {
+      return [];
+    }
+  });
+  const missingCount = records.filter((record) => !record.diagramUrl).length;
+  const linkedCount = records.filter((record) => Boolean(record.diagramUrl)).length;
+  const start = input.page * input.pageSize;
+  return { total: records.length, missingCount, linkedCount, page: input.page, pageSize: input.pageSize, records: records.slice(start, start + input.pageSize) };
+}
+
 const OWNER_REVIEW_SUBJECTS = ["Use of English", "Biology", "Chemistry", "Physics"] as const;
 
 export async function getOwnerApprovedQuestionReviewSummary() {

@@ -1,0 +1,26 @@
+.owner-diagram-audit { border: 1px solid #1f3654; background: #fffdf7; }
+.owner-diagram-audit > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px; cursor: pointer; color: #122a49; }
+.owner-diagram-audit > summary span { display: grid; gap: 3px; }
+.owner-diagram-audit > summary small { color: #6e624d; font-size: .76rem; }
+.owner-diagram-audit-body { display: grid; gap: 16px; padding: 0 18px 18px; }
+.owner-diagram-audit-body > p { margin: 0; color: #594e3d; }
+.owner-diagram-audit-controls { display: grid; grid-template-columns: .8fr .8fr 1.5fr; gap: 10px; }
+.owner-diagram-audit-controls label { display: grid; gap: 5px; color: #584a37; font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.owner-diagram-audit-controls select, .owner-diagram-search input { min-height: 40px; border: 1px solid #d9cfbd; background: #fff; color: #172a44; padding: 0 10px; font: inherit; }
+.owner-diagram-search > div { display: flex; }
+.owner-diagram-search input { width: 100%; border-right: 0; }
+.owner-diagram-search button { width: 44px; border: 0; background: #f5ad24; color: #142a48; display: grid; place-items: center; cursor: pointer; }
+.owner-diagram-counts { display: flex; flex-wrap: wrap; gap: 8px; }
+.owner-diagram-counts span { padding: 7px 9px; border: 1px solid #ded3c1; background: #fff; color: #384356; font-size: .8rem; }
+.owner-diagram-counts b { color: #152f51; }
+.owner-diagram-counts .missing { border-color: #e7ae9f; background: #fff6f2; }.owner-diagram-counts .linked { border-color: #a7cdb4; background: #f4fbf6; }
+.owner-diagram-list { display: grid; gap: 8px; }
+.owner-diagram-card { border: 1px solid #dfd6c6; background: #fff; }
+.owner-diagram-card > summary { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 9px; padding: 11px; cursor: pointer; }
+.owner-diagram-card > summary > span:nth-child(2) { display: grid; gap: 2px; min-width: 0; }.owner-diagram-card small { color: #6b604e; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.diagram-state-linked, .diagram-state-missing, .learner-visible, .learner-held { padding: 4px 6px; border-radius: 999px; font-size: .62rem; font-weight: 900; letter-spacing: .04em; white-space: nowrap; }
+.diagram-state-linked, .learner-visible { color: #15543a; background: #e7f6eb; }.diagram-state-missing, .learner-held { color: #933c2c; background: #fff0eb; }
+.owner-diagram-card-body { display: grid; gap: 12px; padding: 0 12px 13px; border-top: 1px solid #eee8dc; }.owner-diagram-card-body > p { margin: 12px 0 0; font-weight: 700; color: #172a44; }
+.owner-diagram-card-body figure { margin: 0; padding: 8px; border: 1px solid #ded6c8; background: #fbfaf7; }.owner-diagram-card-body figure img { display: block; width: 100%; max-height: 300px; object-fit: contain; background: #fff; }.owner-diagram-card-body figcaption { margin-top: 6px; font-size: .78rem; }.owner-diagram-card-body figcaption a { display: inline-flex; gap: 4px; align-items: center; color: #183d64; }
+.owner-diagram-missing { display: flex; align-items: flex-start; gap: 8px; padding: 10px; border-left: 3px solid #c8513c; background: #fff5f1; color: #713a30; font-size: .84rem; }.owner-diagram-card-body ol { margin: 0; padding-left: 28px; display: grid; gap: 5px; }.owner-diagram-card-body li { padding: 6px; color: #333; }.owner-diagram-card-body li.answer { background: #e8f5ea; }.owner-diagram-card-body li b { margin-left: 8px; color: #17613c; font-size: .72rem; }.owner-diagram-source { display: grid; gap: 4px; color: #625747; font-size: .78rem; }.owner-diagram-pagination { display: flex; align-items: center; justify-content: space-between; gap: 10px; }.owner-diagram-pagination button { border: 1px solid #b8ad98; background: #fff; color: #162e50; padding: 8px 10px; display: inline-flex; align-items: center; gap: 5px; }.owner-diagram-pagination button:disabled { opacity: .45; }
+@media (max-width: 640px) { .owner-diagram-audit-controls { grid-template-columns: 1fr 1fr; }.owner-diagram-search { grid-column: 1 / -1; }.owner-diagram-card > summary { grid-template-columns: auto 1fr; }.owner-diagram-card > summary em { grid-column: 2; justify-self: start; }.owner-diagram-card small { white-space: normal; } }
