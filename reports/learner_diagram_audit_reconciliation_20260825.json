@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T07:00:05.633Z",
+  "generatedAt": "2026-08-26T07:08:40.773Z",
   "scope": "Final source-preserving learner diagram reconciliation. Counts reflect the post-repair database reconciliation; all material with a required missing original visual remains excluded from the learner pool.",
   "learnerFacingLinkedMappings": {
-    "total": 111,
+    "total": 112,
     "bySubject": {
-      "Biology": 58,
+      "Biology": 59,
       "Chemistry": 28,
       "Physics": 25,
       "Use of English": 0
@@ -37,9 +37,9 @@
     ]
   },
   "missingOriginalVisualHolds": {
-    "total": 20,
+    "total": 19,
     "bySubject": {
-      "Biology": 19,
+      "Biology": 18,
       "Chemistry": 1
     },
     "learnerState": "excluded by the production eligibility guard; no generated replacement is used",

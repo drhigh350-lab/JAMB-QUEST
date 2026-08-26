@@ -2,7 +2,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
 import type { BankQuestion } from "@/game/types";
 
-export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "aquatic0574" | "broken" | "wide" | "portrait" | "none";
+export type DiagramFixtureVariant = "svg" | "source" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "aquatic0574" | "digestive0552" | "broken" | "wide" | "portrait" | "none";
 
 const questions: Record<DiagramFixtureVariant, BankQuestion> = {
   svg: {
@@ -341,6 +341,22 @@ const questions: Record<DiagramFixtureVariant, BankQuestion> = {
     explanation: "The decreasing dependence on aquatic conditions follows fish (IV), frog (III), lizard (II), then rabbit (I).",
     diagram_url: "/manus-storage/biology-0574-testdriller-original_23e441c0.png",
   },
+  digestive0552: {
+    id: "fixture-diagram-jamb-2009-digestive-acidity",
+    subject: "Biology",
+    topic: "Nutrition and digestion",
+    subtopic: "Human digestion",
+    difficulty: "medium",
+    question_type: "multiple_choice",
+    tags: ["fixture", "exact original", "digestive system", "JAMB 2009"],
+    source: "Fixture — verified JAMB 2009 original",
+    question: "Use the diagram above to answer this question. The content of the part labelled III is usually?",
+    options: ["neutral", "alkaline", "acidic", "saline"],
+    answer_index: 2,
+    answer_text: "acidic",
+    explanation: "Label III identifies the stomach in the diagram. Its contents are usually acidic because hydrochloric acid is present in gastric juice; with the supplied option order, acidic is option C.",
+    diagram_url: "/manus-storage/biology-0552-testdriller-original_2097df8d.png",
+  },
   broken: {
     id: "fixture-diagram-unavailable",
     subject: "Biology",
@@ -428,6 +444,7 @@ const labels: Record<DiagramFixtureVariant, string> = {
   emulsification0551: "Repaired exact JAMB 2009 emulsification figure",
   plantation0583: "Repaired exact JAMB 2010 plantation-height graph",
   aquatic0574: "Repaired exact JAMB 2010 four-animal reproduction panel",
+  digestive0552: "Repaired exact JAMB 2009 digestive-system acidity figure",
   broken: "Intentional unavailable-diagram fallback",
   wide: "Wide energy profile",
   portrait: "Portrait Biology diagram",
