@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-08-26T06:36:01.394Z",
+  "scope": "Guarded learner-safety hold for active questions whose answer options contain literal no-explanation or empty placeholders. Only explanationStatus changes from approved to needs_review; all question, option, key, topic, explanation, source, and diagram fields are verified unchanged.",
+  "auditedTotal": 56,
+  "receipt": {
+    "held": [
+      {
+        "externalId": "biology_0239",
+        "id": 1350001,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0241",
+        "id": 1350002,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0246",
+        "id": 1350007,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0248",
+        "id": 1350009,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0249",
+        "id": 1350010,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0250",
+        "id": 1350011,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0251",
+        "id": 1350012,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0252",
+        "id": 1350013,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0253",
+        "id": 1350014,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0254",
+        "id": 1350015,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0257",
+        "id": 1350017,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0258",
+        "id": 1350018,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0259",
+        "id": 1350019,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0262",
+        "id": 1350021,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0265",
+        "id": 1350023,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0266",
+        "id": 1350024,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0267",
+        "id": 1350025,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0270",
+        "id": 1350028,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0271",
+        "id": 1350029,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0273",
+        "id": 1350030,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0275",
+        "id": 1350032,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0277",
+        "id": 1350033,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0278",
+        "id": 1350034,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0279",
+        "id": 1350035,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0280",
+        "id": 1350036,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0281",
+        "id": 1350037,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0283",
+        "id": 1350039,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0284",
+        "id": 1350040,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0285",
+        "id": 1350041,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0286",
+        "id": 1350042,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0287",
+        "id": 1350043,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0288",
+        "id": 1350044,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0289",
+        "id": 1350045,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0290",
+        "id": 1350046,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0291",
+        "id": 1350047,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0292",
+        "id": 1350048,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0293",
+        "id": 1350049,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0295",
+        "id": 1350051,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0297",
+        "id": 1350052,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0300",
+        "id": 1350054,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0302",
+        "id": 1350055,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0303",
+        "id": 1350056,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0304",
+        "id": 1350057,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0305",
+        "id": 1350058,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0306",
+        "id": 1350059,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0307",
+        "id": 1350060,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0309",
+        "id": 1350062,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0311",
+        "id": 1350064,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0312",
+        "id": 1350065,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0313",
+        "id": 1350066,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0315",
+        "id": 1350067,
+        "answerPointsToPlaceholder": false,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0321",
+        "id": 1350070,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0322",
+        "id": 1350071,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0323",
+        "id": 1350072,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0324",
+        "id": 1350073,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      },
+      {
+        "externalId": "biology_0325",
+        "id": 1350074,
+        "answerPointsToPlaceholder": true,
+        "reason": "active options include a literal no-explanation or empty placeholder; original source does not provide a repairable exact option"
+      }
+    ],
+    "alreadyHeld": [],
+    "skipped": []
+  }
+}

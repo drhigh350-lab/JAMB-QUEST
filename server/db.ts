@@ -1245,9 +1245,14 @@ type AuthorisedPlayableRow = {
 
 const PLAYABLE_SUBJECTS = new Set(["Use of English", "Biology", "Chemistry", "Physics"]);
 const EMBEDDED_OPTION_METADATA = /(?:✓|©|\bcorrect\s+answer\s*:|\bexplanation\s*:|\bwhy\s+others?\s+are\s+wrong\s*:)/i;
+const PLACEHOLDER_OPTION = /^no\s+explanation(?:\s+available)?$/i;
 
 export function hasEmbeddedOptionMetadata(option: string) {
   return EMBEDDED_OPTION_METADATA.test(option);
+}
+
+export function hasPlaceholderOption(option: string) {
+  return PLACEHOLDER_OPTION.test(option.trim());
 }
 
 const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:above|below|shown|illustrated)|illustration\s+(?:above|below|shown)|figure\s+(?:above|below|shown)|\b(?:use|from)\s+the\s+diagram\b|\b(?:structure|compound|graph)\s+above\b|\bgraph\s+shown\b|\brate\s+of\s+reaction\s+diagram\b|\bbeak\s+structure\s+of\s+the\s+organism\b)/i;
@@ -1271,7 +1276,7 @@ export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   try {
     const questionText = normaliseQuestionStem(row.questionText);
     const options = JSON.parse(row.optionsJson);
-    if (!Array.isArray(options) || options.length < 4 || options.length > 5 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option))) return null;
+    if (!Array.isArray(options) || options.length < 4 || options.length > 5 || options.some((option) => typeof option !== "string" || !option.trim() || hasEmbeddedOptionMetadata(option) || hasPlaceholderOption(option))) return null;
     if (!Number.isInteger(row.answerIndex) || row.answerIndex < 0 || row.answerIndex >= options.length) return null;
     const mappedTopic = resolveSyllabusTopic(row.subject as SyllabusSubject, row.topic);
     if (!mappedTopic) return null;

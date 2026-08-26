@@ -161,4 +161,18 @@ describe("owner-provided playable question mapping", () => {
       sourceLabel: "Owner-provided Drive: TUTOR DAVE PHYSICS.pdf",
     })).toBeNull();
   });
+
+  it("rejects literal no-explanation placeholders before they can reach a learner as answer options", () => {
+    expect(toPlayableAuthorisedQuestion({
+      id: 240,
+      subject: "Biology",
+      topic: "Nutrition and digestion",
+      difficulty: "medium",
+      questionText: "The mode of nutrition exhibited by a tapeworm is",
+      optionsJson: JSON.stringify(["symbiotic", "saprophytic", "No explanation available", "holozoic"]),
+      answerIndex: 2,
+      explanation: "A placeholder cannot be a valid JAMB answer option.",
+      sourceLabel: "Owner-provided source",
+    })).toBeNull();
+  });
 });

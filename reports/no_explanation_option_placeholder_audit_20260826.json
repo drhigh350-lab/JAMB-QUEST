@@ -1,0 +1,1344 @@
+{
+  "generatedAt": "2026-08-26T06:33:25.611Z",
+  "scope": "Read-only inventory of active approved learner questions containing an empty or no-explanation placeholder in optionsJson. This audit makes no database mutation.",
+  "totalAffected": 56,
+  "bySubject": {
+    "Biology": 56
+  },
+  "bySourceId": {
+    "22500001": 56
+  },
+  "answerPointsToPlaceholderExternalIds": [
+    "biology_0248",
+    "biology_0249",
+    "biology_0251",
+    "biology_0257",
+    "biology_0258",
+    "biology_0262",
+    "biology_0266",
+    "biology_0267",
+    "biology_0270",
+    "biology_0271",
+    "biology_0273",
+    "biology_0275",
+    "biology_0278",
+    "biology_0279",
+    "biology_0280",
+    "biology_0281",
+    "biology_0283",
+    "biology_0284",
+    "biology_0285",
+    "biology_0287",
+    "biology_0288",
+    "biology_0289",
+    "biology_0290",
+    "biology_0291",
+    "biology_0292",
+    "biology_0293",
+    "biology_0295",
+    "biology_0303",
+    "biology_0304",
+    "biology_0305",
+    "biology_0306",
+    "biology_0307",
+    "biology_0309",
+    "biology_0312",
+    "biology_0313",
+    "biology_0321",
+    "biology_0322",
+    "biology_0323",
+    "biology_0324",
+    "biology_0325"
+  ],
+  "requiredDisposition": "Hold every affected record outside learner play until its exact original/source supports a guarded option repair; never replace a placeholder option by inference.",
+  "findings": [
+    {
+      "id": 1350001,
+      "externalId": "biology_0239",
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "questionText": "The most common means of transmiting the Acquired Immune Deficiency Syndrome (AIDS) is",
+      "options": [
+        "from mother to child",
+        "through blood transfusion",
+        "No explanation available",
+        "through the sharing of needles"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350002,
+      "externalId": "biology_0241",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "A step in the movement of energy through an ecosystem is a description that best fits the term",
+      "options": [
+        "food chain",
+        "No explanation available",
+        "pyramid of numbers",
+        "food web"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350007,
+      "externalId": "biology_0246",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "Example of competitors are",
+      "options": [
+        "lizard and mouse",
+        "No explanation available",
+        "grasshopper and mouse",
+        "rabbit and snake"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350009,
+      "externalId": "biology_0248",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "The mode of nutrition exhibited by a tapeworm is",
+      "options": [
+        "symbiotic",
+        "saprophytic",
+        "No explanation available",
+        "holozoic"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350010,
+      "externalId": "biology_0249",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "The capture and digestion of insects by a pitcher plant is a special form of nutrition termed",
+      "options": [
+        "autotrophic",
+        "No explanation available",
+        "chemosynthetic",
+        "saprophytic"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350011,
+      "externalId": "biology_0250",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "A person that is obese must avoid meals containing",
+      "options": [
+        "carrots and oranges",
+        "No explanation available",
+        "beaf and beans",
+        "rice and yam"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350012,
+      "externalId": "biology_0251",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "A feature of the caste system of bees and termites ia that",
+      "options": [
+        "No explanation available",
+        "the kings are bigger than the queens",
+        "only the worker perform duties",
+        "nuptial flight is performed by all members"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350013,
+      "externalId": "biology_0252",
+      "subject": "Biology",
+      "topic": "Soil",
+      "questionText": "The addition of lime to clayed soil serves to",
+      "options": [
+        "aid water retention",
+        "close up the texture",
+        "prevent water logging",
+        "No explanation available"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350014,
+      "externalId": "biology_0253",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "questionText": "In which of the following groups of fruits is the pericarp inseparable from the seed coat?",
+      "options": [
+        "Nut",
+        "Follicle",
+        "Cypsela",
+        "No explanation available"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350015,
+      "externalId": "biology_0254",
+      "subject": "Biology",
+      "topic": "Transport",
+      "questionText": "The function of the absorption is performed by the structure labelled",
+      "options": [
+        "I",
+        "No explanation available",
+        "III",
+        "IV"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350017,
+      "externalId": "biology_0257",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "To select and retain the desirable trait of large body size which a farmer has observed in his herd, the farmer needs to",
+      "options": [
+        "feed the animals in the herd with more food",
+        "cross-breed his animals with a different herd",
+        "No explanation available",
+        "prevent disease in herd"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350018,
+      "externalId": "biology_0258",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "Animals aestivate when the environment in which they live becomes",
+      "options": [
+        "No explanation available",
+        "cold and wet",
+        "warm and humid",
+        "windy and snowy"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350019,
+      "externalId": "biology_0259",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "Which of the following statement is correct about the experiment?",
+      "options": [
+        "The flask must be of the conical type",
+        "Caustic soda can be replaced with distilled water",
+        "The enclosed leaf will lose its green colour",
+        "No explanation available"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350021,
+      "externalId": "biology_0262",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "questionText": "Plants tend to prevent overcrowding by means of efficient",
+      "options": [
+        "water uptake",
+        "seed germination",
+        "pollination",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350023,
+      "externalId": "biology_0265",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "The structure labelled I represented the",
+      "options": [
+        "phloem",
+        "xylem",
+        "cortex",
+        "No explanation available"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350024,
+      "externalId": "biology_0266",
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "questionText": "When oil is poured into the breeding site of mosquitoes, it",
+      "options": [
+        "deprives the larvae of water",
+        "kills the adults",
+        "No explanation available",
+        "slows doen egg development"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350025,
+      "externalId": "biology_0267",
+      "subject": "Biology",
+      "topic": "Support and movement",
+      "questionText": "The supporting tissue in xylem is most poorly developed in",
+      "options": [
+        "mangrove swamp plants",
+        "grassland plants",
+        "No explanation available",
+        "desert plants"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350028,
+      "externalId": "biology_0270",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "In the diagram, the hawk is",
+      "options": [
+        "an omnivore",
+        "a primary consumer",
+        "No explanation available",
+        "a scavenger"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350029,
+      "externalId": "biology_0271",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "Which of the following pairs of organ is located in the anterior half of the mammalian body cavity?",
+      "options": [
+        "Kidneys and lungs",
+        "Heart and ovary",
+        "No explanation available",
+        "Kidneys and heart"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350030,
+      "externalId": "biology_0273",
+      "subject": "Biology",
+      "topic": "Respiration",
+      "questionText": "Tissue respiration is important for the",
+      "options": [
+        "absorption of oxygen into the alveoli",
+        "release of carbon (IV) oxide into the lungs",
+        "No explanation available",
+        "exhalation of carbon(IV) oxide from the lungs"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350032,
+      "externalId": "biology_0275",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "The experimental set-up can be used to demonstrate that",
+      "options": [
+        "light is necessary for photosynthesis",
+        "oxygen is necessary for photosynthesis",
+        "photosynthesis occurs in the leaves of plants",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350033,
+      "externalId": "biology_0277",
+      "subject": "Biology",
+      "topic": "Nigerian biomes",
+      "questionText": "The community of plants in which the same species occur from year to year is the",
+      "options": [
+        "annual species",
+        "pioneer vegetation",
+        "perennial species",
+        "No explanation available"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350034,
+      "externalId": "biology_0278",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "What proportion of the offspring of a cross between two heterozygous parents will exhibit the recessive condition phenotypically",
+      "options": [
+        "No explanation available",
+        "1/2",
+        "3/4",
+        "4/4"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350035,
+      "externalId": "biology_0279",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "The animals that move by means of flagella include",
+      "options": [
+        "No explanation available",
+        "Planeria and Amoeba",
+        "Amoeba and Hydra",
+        "Paramecium and Planeria"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350036,
+      "externalId": "biology_0280",
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "questionText": "The structure that is common in the embryos of mammals, amphibians, birds, fishes and reptiles and which is an evidence of their common ancestry is the",
+      "options": [
+        "eye",
+        "chorion",
+        "allantois",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350037,
+      "externalId": "biology_0281",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "questionText": "A flower that has both stamens and pistils is said to be",
+      "options": [
+        "staminate",
+        "pistillate",
+        "No explanation available",
+        "imperfect"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350039,
+      "externalId": "biology_0283",
+      "subject": "Biology",
+      "topic": "Excretion",
+      "questionText": "In mammalian males, the excretory and reproductive systems share the",
+      "options": [
+        "Ureter",
+        "vas deferens",
+        "No explanation available",
+        "Testes"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350040,
+      "externalId": "biology_0284",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "If a DNA strand has a base sequence TCA, its complementary strand must be",
+      "options": [
+        "ATG",
+        "TAG",
+        "GAT",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350041,
+      "externalId": "biology_0285",
+      "subject": "Biology",
+      "topic": "Transport",
+      "questionText": "In the experiment, the layer of oil serves to prevent water loss",
+      "options": [
+        "transpiration",
+        "No explanation available",
+        "osmosis",
+        "guttation"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350042,
+      "externalId": "biology_0286",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "An insect with a mandibulate mouth part will obtain its food by",
+      "options": [
+        "No explanation available",
+        "chewing and sucking",
+        "chewing",
+        "sucking"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350043,
+      "externalId": "biology_0287",
+      "subject": "Biology",
+      "topic": "Plant and mammal structure",
+      "questionText": "Mycorriza is an associationn between fungi and",
+      "options": [
+        "protozoans",
+        "No explanation available",
+        "Bacteria",
+        "Filamentous algae"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350044,
+      "externalId": "biology_0288",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "An insect whose economic importance is both harmful and beneficial is the",
+      "options": [
+        "Tsetsefly",
+        "Blackfly",
+        "Mosquito",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350045,
+      "externalId": "biology_0289",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "questionText": "An example of a caryopsis is",
+      "options": [
+        "Guava",
+        "No explanation available",
+        "Coconut",
+        "Tomato"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350046,
+      "externalId": "biology_0290",
+      "subject": "Biology",
+      "topic": "Heredity",
+      "questionText": "A feature associated with  the Y-chromosome in human is",
+      "options": [
+        "long eyelashes",
+        "prominent fingernails",
+        "No explanation available",
+        "enlarged breast"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350047,
+      "externalId": "biology_0291",
+      "subject": "Biology",
+      "topic": "Evidence of evolution",
+      "questionText": "Which of the following requires the use of carbon dating to prove that evolution has occurred?",
+      "options": [
+        "Comparative anatomy",
+        "Biochemical similarities",
+        "molecular records",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350048,
+      "externalId": "biology_0292",
+      "subject": "Biology",
+      "topic": "Transport",
+      "questionText": "If water that has been coloured red is poured at the base of a wilting plant, it will appear as a red stain in the cells of the",
+      "options": [
+        "No explanation available",
+        "epidermis",
+        "phloem",
+        "parenchyma"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350049,
+      "externalId": "biology_0293",
+      "subject": "Biology",
+      "topic": "Growth",
+      "questionText": "Homologous pairs of chromosome separate during",
+      "options": [
+        "Cytolysis",
+        "Cleavage",
+        "Mitosis",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350051,
+      "externalId": "biology_0295",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "The dark reaction of photosynthesis involves the",
+      "options": [
+        "No explanation available",
+        "release of oxygen and the splitting of water",
+        "photolysis of water and the production of starch",
+        "splitting of water into hydrogen"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350052,
+      "externalId": "biology_0297",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "The pioneer organisms in ecological succession are usually the",
+      "options": [
+        "mosses",
+        "No explanation available",
+        "ferns",
+        "algae"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350054,
+      "externalId": "biology_0300",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "The similarity among organisms belonging to the same group will be least within each",
+      "options": [
+        "family",
+        "order",
+        "No explanation available",
+        "species"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350055,
+      "externalId": "biology_0302",
+      "subject": "Biology",
+      "topic": "Soil",
+      "questionText": "Soil fertility can best be conserved by the activities of",
+      "options": [
+        "Earthworm",
+        "Man",
+        "Rodent",
+        "No explanation available"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350056,
+      "externalId": "biology_0303",
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "questionText": "One example of fossil fuels is",
+      "options": [
+        "Limestone",
+        "Coral",
+        "No explanation available",
+        "Firewood"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350057,
+      "externalId": "biology_0304",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "Spines and shells on animals are adaptation for",
+      "options": [
+        "camouglage",
+        "chemical defence",
+        "No explanation available",
+        "mimicry"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350058,
+      "externalId": "biology_0305",
+      "subject": "Biology",
+      "topic": "Nigerian biomes",
+      "questionText": "The correct sequence of biomes from northern to southern Nigeria is",
+      "options": [
+        "Guinea savanna → sudan savanna → tropical rain forest → sahel savanna → estuarine",
+        "Estuarine → tropical rain forest → guinea savanna → sahel savanna",
+        "Sahel savanna → tropical rain forest → estuarine → guinea savanna",
+        "No explanation available"
+      ],
+      "answerIndex": 3,
+      "placeholderIndices": [
+        {
+          "index": 3,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350059,
+      "externalId": "biology_0306",
+      "subject": "Biology",
+      "topic": "Nutrition and digestion",
+      "questionText": "The experiment is used to demonstrate that",
+      "options": [
+        "plants lose water through guttation",
+        "No explanation available",
+        "water is necessary for photosynthesis",
+        "leaves are important to photosynthesis"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350060,
+      "externalId": "biology_0307",
+      "subject": "Biology",
+      "topic": "Respiration",
+      "questionText": "The aim of the experiment is to demonstrate",
+      "options": [
+        "that in mammal gaseous exchange takes place in the lungs",
+        "No explanation available",
+        "that a large amount of oxygen is absorbed by the lungs",
+        "the presence of carbon (IV)  oxide in the exhaled air"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350062,
+      "externalId": "biology_0309",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "One distinctive feature in the life history of liverworts is that they exhibit",
+      "options": [
+        "No explanation available",
+        "Vegetative reproduction",
+        "Asexual reproduction",
+        "Sexual reproduction"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350064,
+      "externalId": "biology_0311",
+      "subject": "Biology",
+      "topic": "Humans and environment",
+      "questionText": "The most effective method of dealing with non-biodegradable pollutant is by",
+      "options": [
+        "Dumping",
+        "No explanation available",
+        "Incineration",
+        "Burying"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 1,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350065,
+      "externalId": "biology_0312",
+      "subject": "Biology",
+      "topic": "Transport",
+      "questionText": "Organisms I, II, III and IV have surface/volume ratios of 1:2, 1:3, 1:4 and 1:5 respectively. The organism that is likely to have the most complex transport system is",
+      "options": [
+        "No explanation available",
+        "III",
+        "I",
+        "II"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350066,
+      "externalId": "biology_0313",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "The stunted growth of a leguminous plant suffering from nitrogen deficiency may be corrected by inoculating the soil with",
+      "options": [
+        "denitrifying bacteria",
+        "Saprophytic bacteria",
+        "No explanation available",
+        "Nitrosomonas"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350067,
+      "externalId": "biology_0315",
+      "subject": "Biology",
+      "topic": "Reproduction",
+      "questionText": "In the egg of a bird, the embryo is located in the",
+      "options": [
+        "No explanation available",
+        "Embryo disc IV",
+        "Chalaza",
+        "Albumen"
+      ],
+      "answerIndex": 1,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": false,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350070,
+      "externalId": "biology_0321",
+      "subject": "Biology",
+      "topic": "Adaptations of organisms",
+      "questionText": "An example of cryptic colouration is the",
+      "options": [
+        "No explanation available",
+        "bright colour of an insect pollinated flower",
+        "Green colour of a plant",
+        "Bright marks on poisonous tropical frog on veriegated leaves"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350071,
+      "externalId": "biology_0322",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "A noticeable adaptation of the animal to its aquatic habitat is the possession of",
+      "options": [
+        "a wide mouth",
+        "large eyes",
+        "No explanation available",
+        "fore limbs"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350072,
+      "externalId": "biology_0323",
+      "subject": "Biology",
+      "topic": "Respiration",
+      "questionText": "In the experimental set-up, the rubber sheet represents the organ called",
+      "options": [
+        "pleural cavity",
+        "lungs",
+        "No explanation available",
+        "intercostal muscles"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350073,
+      "externalId": "biology_0324",
+      "subject": "Biology",
+      "topic": "Natural habitats",
+      "questionText": "A density-dependent factor that regulates the population size of organism is",
+      "options": [
+        "No explanation available",
+        "Sudden flood",
+        "Drought",
+        "Fire outbreak"
+      ],
+      "answerIndex": 0,
+      "placeholderIndices": [
+        {
+          "index": 0,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    },
+    {
+      "id": 1350074,
+      "externalId": "biology_0325",
+      "subject": "Biology",
+      "topic": "Theories of evolution",
+      "questionText": "An argument against Lamarck's theory of evolution is that",
+      "options": [
+        "disuse of body part cannot weaken the part",
+        "disused part is dropped off in the offspring",
+        "No explanation available",
+        "trait cannot be acquired through constant use of body parts"
+      ],
+      "answerIndex": 2,
+      "placeholderIndices": [
+        {
+          "index": 2,
+          "option": "No explanation available"
+        }
+      ],
+      "answerPointsToPlaceholder": true,
+      "sourceId": 22500001,
+      "diagramUrl": null
+    }
+  ]
+}
