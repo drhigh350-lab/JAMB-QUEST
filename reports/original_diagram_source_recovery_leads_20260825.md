@@ -320,6 +320,8 @@ MySchool JAMB 2025 page `https://myschool.ng/classroom/biology/74648` exactly ma
 
 Direct inspection confirms the genetic cross labels and complete four-offspring outcome, but also shows an embedded pointer/cursor residue through the central crossing lines. Cropping it out would cut necessary cross geometry, and removing it would be an impermissible in-figure edit. `biology_1111` remains held; no mapping, key, explanation, topic, or other protected record field changed.
 
+On 2026-08-26, TestDriller JAMB 2008 question 43 `https://www.testdriller.com/past-questions/jamb-objective-biology-2008-43` was inspected as a potential clean alternative. Although its genetic-cross panel is clean, it is a distinct source: its stem is “The genotypic ratio of the offspring of the cross is,” its option order is `1:2` / `1:2:1` / `1:1:1:1` / `3:1`, and its panel contains I–IV result cells rather than the protected JAMB 2025 F2 illustration. It cannot be mapped to `biology_1111` or used to alter any protected content. The pointer-bearing exact 2025 visual remains excluded pending a clean exact source.
+
 ## `biology_1225` — labelled bird structure
 
 MySchool JAMB 2025 page `https://myschool.ng/classroom/biology/74398` exactly matches the protected prompt and `tearing` / `sieving` / `boring` / `sucking` option order. It identifies **sucking** as option D (index `3`), which conflicts with the held record’s previous index `2`/boring explanation. Its direct exact original is `https://myschool.ng/storage/classroom/WFUlwyLwHojXbgTNxDzlvCh2XoUZYuWJVOAE8xPj.png`.

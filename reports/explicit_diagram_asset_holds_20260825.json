@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:30:22.506Z",
+  "generatedAt": "2026-08-26T08:33:55.665Z",
   "scope": "Read-only audit of active approved records that the production learner-eligibility guard excludes because an explicit visual reference has no linked original diagram asset.",
   "totalHeld": 4,
   "bySubject": {
