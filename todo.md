@@ -891,9 +891,9 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Move the owner-supplied orbital picture from `supplied-keyed-2021-chemistry-036` / ID `1020081` to the exact Kairo nitrogen question `kairo-csv-chemistry_2bdf6a` shown in the owner screenshot. Clear the picture from Chemistry 036, keep Chemistry 036 held from students, and preserve all other question fields and records. Guarded verification passed; the rerun made zero source changes and preserved protected fields.
 
 - [x] Owner batch: terminate `kairo-csv-chemistry_1ea741` and keep it hidden from learners. Read-only verification confirms ID `1050117` is already `needs_review` with no picture, so students cannot see it.
-- [ ] Owner batch: map the supplied organic structural-formula image to the exact stored Kairo record `kairo-csv-chemistry_30bd42` / ID `1050171` (the screenshot spelling `30b0d42` was not found). Apply only after owner approval.
-- [ ] Owner batch: map the supplied new energy-profile image to `kairo-csv-chemistry_20650b`.
-- [ ] Owner batch: verify both owner mappings, learner visibility, and no Lekki Headmaster changes.
+- [x] Owner batch: map the supplied organic structural-formula image to the exact stored Kairo record `kairo-csv-chemistry_30bd42` / ID `1050171` (the screenshot spelling `30b0d42` was not found). Applied owner-approved picture `/manus-storage/361320_b9c7bf03.png`; readback and HTTP 200 check passed.
+- [x] Owner batch: map the supplied new energy-profile image to `kairo-csv-chemistry_20650b`. Applied `/manus-storage/361319_fa65243d.png`; readback and HTTP 200 check passed.
+- [x] Owner batch: verify both owner mappings, learner visibility, and no Lekki Headmaster changes. Both records are approved with the exact expected links; no Lekki Headmaster record changed.
 - [x] Owner batch: record all 14 supplied image files and their known matching question records in `reports/owner_fourteen_diagram_mapping_queue_20260826.md`; no database question was changed during this read-only matching pass.
 
 - [x] New owner batch: replace the broken organic picture on `kairo-csv-chemistry_30bd42` with the newly supplied organic structure image. Saved as `/manus-storage/361320_b9c7bf03.png`; protected fields were unchanged.
