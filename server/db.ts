@@ -622,6 +622,7 @@ export async function getOwnerDiagramAuditPage(input: { subject: OwnerDiagramAud
 
   const search = input.search.trim().toLowerCase();
   const relevantCandidates = candidates.filter((row) => {
+    if (isReleasedFromOwnerDiagramAudit(row.externalId ?? undefined)) return false;
     const stem = normaliseQuestionStem(row.questionText);
     const hasDiagram = Boolean(row.diagramUrl?.trim());
     if (!hasDiagram && !requiresDiagramAsset(stem)) return false;
@@ -1363,6 +1364,31 @@ const OWNER_VERIFIED_PAGE_ONE_AND_TWO_IDS = new Set([
   "OWNER-BIO-DIAGRAM-2025-007",
   "OWNER-BIO-DIAGRAM-2025-008",
 ]);
+// Exact current records from the two owner-approved audit pages. They remain
+// available to learners but no longer need to occupy the private audit queue.
+const OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS = new Set([
+  "biology-dr-high-0012", "biology-dr-high-0013", "supplied-keyed-2004-biology-003",
+  "supplied-keyed-2004-biology-004", "supplied-keyed-2004-biology-008", "supplied-keyed-2004-biology-009",
+  "supplied-keyed-2004-biology-012", "supplied-keyed-2004-biology-013", "supplied-keyed-2004-biology-015",
+  "supplied-keyed-2004-biology-032", "supplied-keyed-2004-biology-033", "kairo-csv-biology_0223",
+  "kairo-csv-chemistry_07c53d", "kairo-csv-chemistry_129a66", "kairo-csv-chemistry_1d27b5",
+  "kairo-csv-chemistry_20650b", "kairo-csv-chemistry_2bdf6a", "kairo-csv-chemistry_30bd42",
+  "kairo-csv-chemistry_3e5b55", "kairo-csv-chemistry_4eecbb", "kairo-csv-chemistry_6200ed",
+  "kairo-csv-chemistry_719e54", "kairo-csv-chemistry_81c39e", "kairo-csv-chemistry_9462f9",
+  "kairo-csv-chemistry_9e013a", "kairo-csv-chemistry_bc4c1b", "kairo-csv-chemistry_bcfca8",
+  "kairo-csv-chemistry_d88bc9", "kairo-csv-chemistry_ea3781",
+  "pasted_content_7.txt:https://myschool.ng/classroom/physics/67249?exam_type=jamb&exam_year=2023&page=1:1",
+  "pasted_content_7.txt:https://myschool.ng/classroom/physics/67267?exam_type=jamb&exam_year=2023&page=1:3",
+  "pasted_content_7.txt:https://myschool.ng/classroom/physics/67830?exam_type=jamb&exam_year=2023&page=4:18",
+  "pasted_content_7.txt:https://myschool.ng/classroom/physics/67919?exam_type=jamb&exam_year=2023&page=6:26",
+  "OWNER-BIO-DIAGRAM-2025-001", "OWNER-BIO-DIAGRAM-2025-002", "OWNER-BIO-DIAGRAM-2025-003",
+  "OWNER-BIO-DIAGRAM-2025-004", "OWNER-BIO-DIAGRAM-2025-005", "OWNER-BIO-DIAGRAM-2025-006",
+  "OWNER-BIO-DIAGRAM-2025-007",
+]);
+
+export function isReleasedFromOwnerDiagramAudit(externalId?: string) {
+  return Boolean(externalId && OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS.has(externalId));
+}
 
 export function requiresDiagramAsset(questionText: string) {
   return DIAGRAM_REFERENCE.test(questionText) && !TEXTUAL_STRUCTURE_EVIDENCE.test(questionText);
