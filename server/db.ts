@@ -1351,6 +1351,18 @@ const DIAGRAM_REFERENCE = /(?:\[(?:diagram|refers to .*diagram)\b|diagram\s+(?:a
 const TEXTUAL_STRUCTURE_EVIDENCE = /(?:\[structure\]|(?:\bCH\d*|\bH\d*C)\s*(?:[-–—=]|\()|C\(=O\)|CH\(OH\))/i;
 const OWNER_REJECTED_SCREENSHOT_BATCH = /^OWNER-(?:PHY|CHEM|BIO)-DIAGRAM-/;
 const RECOVERED_OWNER_ORIGINAL_ASSET = /^\/manus-storage\/owner-(?:phy|chem|bio)-diagram-/i;
+// These are the only owner screenshot-batch records cleared by the owner after review
+// on live Owner Diagram Audit Page 2. Later-page records remain held until individually cleared.
+const OWNER_VERIFIED_PAGE_ONE_AND_TWO_IDS = new Set([
+  "OWNER-BIO-DIAGRAM-2025-001",
+  "OWNER-BIO-DIAGRAM-2025-002",
+  "OWNER-BIO-DIAGRAM-2025-003",
+  "OWNER-BIO-DIAGRAM-2025-004",
+  "OWNER-BIO-DIAGRAM-2025-005",
+  "OWNER-BIO-DIAGRAM-2025-006",
+  "OWNER-BIO-DIAGRAM-2025-007",
+  "OWNER-BIO-DIAGRAM-2025-008",
+]);
 
 export function requiresDiagramAsset(questionText: string) {
   return DIAGRAM_REFERENCE.test(questionText) && !TEXTUAL_STRUCTURE_EVIDENCE.test(questionText);
@@ -1363,8 +1375,9 @@ export function normaliseQuestionStem(questionText: string) {
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
   // Reconstructed screenshot-batch visuals are rejected. These records may return only with
-  // a recovered owner-original asset, never with a generated replacement URL.
-  if (row.externalId && OWNER_REJECTED_SCREENSHOT_BATCH.test(row.externalId) && (!row.diagramUrl || !RECOVERED_OWNER_ORIGINAL_ASSET.test(row.diagramUrl))) return null;
+  // a recovered owner-original asset or the owner's explicit Page 1–2 clearance, never with
+  // an inferred/generated replacement URL. All later owner-batch records remain held.
+  if (row.externalId && OWNER_REJECTED_SCREENSHOT_BATCH.test(row.externalId) && !OWNER_VERIFIED_PAGE_ONE_AND_TWO_IDS.has(row.externalId) && (!row.diagramUrl || !RECOVERED_OWNER_ORIGINAL_ASSET.test(row.diagramUrl))) return null;
   try {
     const questionText = normaliseQuestionStem(row.questionText);
     const options = JSON.parse(row.optionsJson);

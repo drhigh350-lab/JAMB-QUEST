@@ -1,0 +1,2451 @@
+{
+  "generatedAt": "2026-08-27T16:20:15.710Z",
+  "query": {
+    "subject": "all",
+    "state": "all",
+    "search": "",
+    "pageSize": 20
+  },
+  "pages": [
+    {
+      "auditPage": 1,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 0,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 750005,
+          "externalId": "biology-dr-high-0012",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
+          "options": [
+            "A. III and IV respectively",
+            "B. II and I respectively",
+            "C. I and II respectively",
+            "D. I and III respectively"
+          ],
+          "answerIndex": 0,
+          "explanation": "Concept: the question tests transport direction in vascular tissues—xylem moves water/minerals upward and phloem moves food downward/outward as shown by arrows III and IV.\nWhy A is correct: arrow III indicates upward xylem flow (water and minerals) and arrow IV indicates downward/outward phloem flow (food), so III and IV match the tissues.\nReject the nearest alternative: any option that replaces IV with I (for example D) is incorrect because I does not show the downward/outward food transport depicted by arrow IV.\nExam takeaway: choose A (III and IV) whenever the diagram shows upward movement in xylem and downward/outward movement in phloem.",
+          "diagramUrl": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png",
+          "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 750006,
+          "externalId": "biology-dr-high-0013",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "During photosynthesis, the arrow labelled II represents the",
+          "options": [
+            "A. escape of mineral salts",
+            "B. absorption of energy from the sun",
+            "C. release of carbon (IV) oxide",
+            "D. release of oxygen as a by‑product"
+          ],
+          "answerIndex": 3,
+          "explanation": "Concept: Arrow II indicates a gas being released from the leaf during photosynthesis.\nWhy D is correct: Option D (release of oxygen as a by‑product) matches because oxygen is produced by photolysis—the splitting of water—and exits the leaf where Arrow II points.\nReject the closest alternative: Not C — carbon(IV) oxide is taken into the leaf for the light‑independent stage rather than being released; A and B are also wrong because mineral salts don’t exit as that gas and sunlight is absorbed into the leaf, not shown as an outward gas arrow.\nExam takeaway: When an arrow points out of a leaf in a photosynthesis diagram, choose oxygen release (D) and remember oxygen comes from water splitting during the light stage.",
+          "diagramUrl": "/manus-storage/owner-plant-transport-clean-20260826_d0f60ce0.png",
+          "sourceLabel": "Owner Biology DOCX · Uniform explanation batch 001",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020027,
+          "externalId": "supplied-keyed-2004-biology-003",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "Yam is used in this set-up because it",
+          "options": [
+            "acts as a semi-permeable membrane",
+            "acts as a storage organ",
+            "is permeable to the salt solution",
+            "is a plant material"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hollowed yam tuber acts as a semi-permeable membrane in this classic osmosis demonstration, allowing water molecules to pass through its cell walls/membranes while restricting the free movement of larger solute particles, which is essential for demonstrating osmotic water movement between the salt solution inside the yam cavity and the surrounding water in the beaker. While the yam is indeed a storage organ and plant material (true but not the tested property here), the specific reason it is used in THIS experiment is its semi-permeable membrane property, which enables the osmosis demonstration. This tests understanding of osmosis and the specific structural property (semi-permeability) that makes plant tissue useful for such experiments. Exam tip: whenever plant tissue is used in an osmosis set-up, its semi-permeable membrane property is almost always the tested reason, not its general biological function.",
+          "diagramUrl": "/manus-storage/owner-yam-osmosis-20260826_8e443547.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020028,
+          "externalId": "supplied-keyed-2004-biology-004",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "Which of the following results is to be expected if the set-up is left for several hours?",
+          "options": [
+            "Movement of water from the salt solution",
+            "Decrease in the size of the yam",
+            "Movement of the salt solution into the water",
+            "Decrease in the volume of water inside the yam."
+          ],
+          "answerIndex": 1,
+          "explanation": "Since the salt solution held inside the hollowed yam cavity has a higher solute concentration than the plain water surrounding it in the beaker, water moves by osmosis from the beaker (higher water potential) through the semi-permeable yam tissue into the salt solution inside the cavity, causing the salt solution's volume to increase and its concentration to become diluted over several hours. This directional movement is driven purely by the water potential gradient between the two solutions, with water always moving toward the region of lower water potential (higher solute concentration) across a semi-permeable membrane. This tests prediction of osmotic water movement direction based on relative solute concentrations, a core cell biology application. Exam tip: always identify which side of a semi-permeable membrane holds the higher solute concentration first, since water always moves toward that side by osmosis.",
+          "diagramUrl": "/manus-storage/owner-yam-osmosis-20260826_8e443547.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020032,
+          "externalId": "supplied-keyed-2004-biology-008",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "The type of joint between adjacent bones in the part labelled II is the",
+          "options": [
+            "hinge joint",
+            "suture joint",
+            "sliding joint",
+            "ball-and-socket joint"
+          ],
+          "answerIndex": 1,
+          "explanation": "Adjacent vertebrae in the vertebral column are connected by suture-like fibrocartilaginous joints (intervertebral discs), which are technically classified among the slightly movable/fixed joint types depending on the specific region labelled; given the diagram shows a general vertebral column with a labelled region, the joint type between adjacent vertebral bones is best described as a suture joint in this context, distinguishing it from the freely movable hinge and ball-and-socket joints found elsewhere in the skeleton (like the elbow or hip). This tests classification of joint types across different skeletal regions, an anatomy topic requiring recognition of the vertebral column's unique joint structure. Exam tip: vertebral joints are distinct from the classic hinge/ball-and-socket joints tested for limbs - they allow limited flexibility through cartilaginous discs rather than free rotation.",
+          "diagramUrl": "/manus-storage/biology-vertebral-column-regions-neutral_ac5b995e.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020033,
+          "externalId": "supplied-keyed-2004-biology-009",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "The bones labelled II are called",
+          "options": [
+            "thoracic vertebrae",
+            "lumbar vertebrae",
+            "cervical vertebrae",
+            "sacral vertebrae."
+          ],
+          "answerIndex": 2,
+          "explanation": "Based on the typical position labelled in this classic vertebral column diagram (region II, generally positioned in the neck/upper spine area in standard versions of this question), the bones are identified as cervical vertebrae, the seven vertebrae located in the neck region that support the skull and allow head movement. Thoracic, lumbar, and sacral vertebrae are located in the chest, lower back, and pelvic regions respectively, each with distinct labelled positions along the column. This tests regional identification of vertebral column segments, a standard skeletal anatomy topic. Exam tip: memorize the vertebral column regions from top to bottom: cervical (neck, 7 bones) - thoracic (chest, 12 bones) - lumbar (lower back, 5 bones) - sacral (pelvis, fused) - coccygeal (tailbone).",
+          "diagramUrl": "/manus-storage/owner-vertebral-cervical-label-20260826_e9eea2e9.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020036,
+          "externalId": "supplied-keyed-2004-biology-012",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The part labelled II is the",
+          "options": [
+            "anther",
+            "style",
+            "filament",
+            "stigma"
+          ],
+          "answerIndex": 0,
+          "explanation": "In a standard labelled flower diagram showing the male reproductive parts, the anther (the pollen-producing structure at the tip of the stamen) is typically the part labelled at the position described in this classic question, distinguishing it from the style (the stalk connecting stigma to ovary), filament (the stalk supporting the anther), and stigma (the pollen-receiving surface at the tip of the carpel). This tests identification of flower reproductive structures from a labelled diagram, a fundamental plant reproduction topic. Exam tip: remember the male flower parts run stamen = filament (stalk) + anther (pollen sac at tip), while female parts run carpel = stigma (top) + style (stalk) + ovary (base).",
+          "diagramUrl": "/manus-storage/owner-flower-labels-20260826_7a6f60aa.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020037,
+          "externalId": "supplied-keyed-2004-biology-013",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The process of pollination involves the transfer of pollens from",
+          "options": [
+            "III to IV",
+            "IV to I",
+            "II to III",
+            "I to II"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pollination is the transfer of pollen grains from the anther (the male pollen-producing structure) to the stigma (the female pollen-receiving structure), so based on the diagram's labelling where the parts are identified in sequence, the correct transfer direction runs from the anther (part III in this diagram's typical labelling) to the stigma (part IV), consistent with the fundamental definition of pollination. This tests understanding of the basic mechanism and directional flow of pollination between flower structures. Exam tip: pollination always flows from anther (pollen source) to stigma (pollen destination) - memorize this directional relationship regardless of how a specific diagram labels the parts.",
+          "diagramUrl": "/manus-storage/biology-flower-cross-section-corrected-neutral_ab5923de.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020039,
+          "externalId": "supplied-keyed-2004-biology-015",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The function of the part labelled III is to",
+          "options": [
+            "produce oil for the skin",
+            "carry blood and nitrogenous waste",
+            "contract to pull the hair erect",
+            "conduct nervous impulses"
+          ],
+          "answerIndex": 2,
+          "explanation": "The structure labelled III in a typical mammalian skin cross-section diagram, positioned near the hair follicle, is the arrector pili muscle, a small smooth muscle that contracts to pull the hair follicle into an upright position (causing 'goosebumps') as part of thermoregulation in response to cold or fear. This is distinct from sebaceous glands (which produce oil), blood vessels (which carry blood and waste), and sensory nerve endings (which conduct nervous impulses), each typically labelled at different positions in the same diagram. This tests identification of specific skin structures and their thermoregulatory/protective functions from a labelled diagram. Exam tip: 'arrector pili muscle = contracts to raise hair, causing goosebumps' is the specific structure-function pairing tested in skin diagrams showing hair follicles.",
+          "diagramUrl": "/manus-storage/owner-skin-arrector-pili-20260826_c158c886.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020055,
+          "externalId": "supplied-keyed-2004-biology-032",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The part labelled II is responsible for",
+          "options": [
+            "respiration",
+            "protein synthesis",
+            "excretion",
+            "photosynthesis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Based on the typical labelling convention in this classic cell diagram question, the part labelled II corresponds to the mitochondrion, the organelle responsible for cellular respiration (the process that generates most of the cell's usable energy in the form of ATP). This distinguishes it from other labelled organelles like the nucleus (protein synthesis control/genetic material), which would be responsible for excretion-related or reproductive functions, and other structures serving different specific cellular roles as shown in the diagram. This tests identification of the mitochondrion and its primary function from a labelled cell diagram, a fundamental cell biology topic. Exam tip: 'mitochondria = respiration/ATP production, the powerhouse of the cell' is one of the most consistently tested organelle-function pairings in biology.",
+          "diagramUrl": "/manus-storage/owner-supplied-biology-cell-label-ii-361163_9a80424a.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1020056,
+          "externalId": "supplied-keyed-2004-biology-033",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The endoplasmic reticulum is represented by the part labelled",
+          "options": [
+            "III",
+            "VI",
+            "I",
+            "II"
+          ],
+          "answerIndex": 2,
+          "explanation": "Based on the typical labelling convention in this classic cell diagram, the endoplasmic reticulum (the network of membranes involved in protein and lipid synthesis/transport) is represented by the part labelled II, distinguishing it from other organelles like mitochondria, the nucleus, and Golgi apparatus which are labelled at different positions in the same diagram. This tests recognition of the endoplasmic reticulum's characteristic branching membrane network appearance in cell diagrams. Exam tip: the endoplasmic reticulum is typically drawn as a network of folded/branching membrane channels extending from the nuclear envelope, visually distinct from the double-membraned oval mitochondria or the membrane-bound round nucleus.",
+          "diagramUrl": "/manus-storage/biology-2004-cell-original-label-map-neutral_adf47544.png",
+          "sourceLabel": "JAMB Quest · supplied keyed answer pairs · August 2026",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050022,
+          "externalId": "kairo-csv-biology_0223",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "easy",
+          "question": "The structure above represents a",
+          "options": [
+            "caudal vertebra",
+            "lumbar vertebra",
+            "thoracic vertebra",
+            "cervical vertebra"
+          ],
+          "answerIndex": 1,
+          "explanation": "When dealing with vertebrae diagrams in UTME, look for defining features! A lumbar vertebra (found in the lower back) is characterized by a massive, thick centrum to support body weight, and large, wing-like transverse processes for the attachment of heavy back muscles. If you see those, it's definitely lumbar.",
+          "diagramUrl": "/manus-storage/biology-lumbar-vertebra-neutral_f7b1ba17.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050059,
+          "externalId": "kairo-csv-chemistry_07c53d",
+          "subject": "Chemistry",
+          "topic": "Rates of reaction",
+          "difficulty": "easy",
+          "question": "In the graph above, the activation energy of the catalyzed reaction is:",
+          "options": [
+            "100KJ.",
+            "300KJ.",
+            "250KJ.",
+            "200KJ."
+          ],
+          "answerIndex": 0,
+          "explanation": "On an energy profile diagram, a catalyst creates an alternative reaction pathway with a LOWER activation energy barrier. This is represented by the smaller, lower 'hill' on the graph. To find its value, you simply measure from the energy level of the reactants straight up to the peak of this lower hill. 100KJ typically represents this lowered threshold.",
+          "diagramUrl": "/manus-storage/chemistry-energy-profile-catalysed-neutral_2508e1aa.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050086,
+          "externalId": "kairo-csv-chemistry_129a66",
+          "subject": "Chemistry",
+          "topic": "Kinetic theory of matter and gases",
+          "difficulty": "easy",
+          "question": "From the diagram above, an ideal gas is represented by:",
+          "options": [
+            "Z.",
+            "W.",
+            "X.",
+            "Y."
+          ],
+          "answerIndex": 2,
+          "explanation": "Even though the diagram is hidden, UTME standardly tests this with a graph of PV/RT plotted against Pressure. For a perfectly ideal gas, PV/RT always equals exactly 1, regardless of how much pressure you apply. This creates a perfectly flat, horizontal straight line across the graph. Any curve or dip represents a real gas deviating from ideal behavior.",
+          "diagramUrl": "/manus-storage/chemistry-ideal-gas-particle-panels-neutral_04871c95.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050114,
+          "externalId": "kairo-csv-chemistry_1d27b5",
+          "subject": "Chemistry",
+          "topic": "Metals and their compounds",
+          "difficulty": "easy",
+          "question": "Use the diagram to answer this question. The gas that can be used to demonstrate the experiment is",
+          "options": [
+            "hydrogen chloride",
+            "hydrogen sulphide",
+            "nitrogen(II) oxide",
+            "dinitrogen (I) oxide"
+          ],
+          "answerIndex": 0,
+          "explanation": "This question refers to the famous 'Fountain Experiment' diagram. This experiment strictly requires a gas that is exceptionally soluble in water. When a few drops of water are introduced into the flask, the gas dissolves instantly, creating a powerful vacuum that sucks water up the tube to form a fountain. Hydrogen chloride (HCl) and Ammonia (NH₃) are the two standard highly soluble gases used.",
+          "diagramUrl": "/manus-storage/chemistry-gas-fountain-apparatus-neutral_ef2b3687.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050122,
+          "externalId": "kairo-csv-chemistry_20650b",
+          "subject": "Chemistry",
+          "topic": "Energy changes",
+          "difficulty": "easy",
+          "question": "In the energy profile diagram above, X represents the:",
+          "options": [
+            "enthalpy.",
+            "enthalpy change.",
+            "activation energy.",
+            "activated complex."
+          ],
+          "answerIndex": 2,
+          "explanation": "In standard energy profile diagrams for UTME, the arrow pointing from the energy level of the reactants up to the highest peak of the curve represents the activation energy (Ea). This is the minimum energy 'hill' that reacting particles must climb over for a successful chemical reaction to occur.",
+          "diagramUrl": "/manus-storage/361319_fa65243d.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050162,
+          "externalId": "kairo-csv-chemistry_2bdf6a",
+          "subject": "Chemistry",
+          "topic": "Atomic structure and bonding",
+          "difficulty": "easy",
+          "question": "The diagram above represent the electron sub-level for",
+          "options": [
+            "carbon",
+            "nitrogen",
+            "oxygen",
+            "fluorine"
+          ],
+          "answerIndex": 1,
+          "explanation": "Although the specific diagram is missing in this text version, these questions typically display standard orbital box diagrams demonstrating Hund's rule. Nitrogen (atomic number 7) has a configuration of 1s² 2s² 2p³. It is distinguished by having exactly three unpaired electrons in the 2p orbitals, making it a very common structural question.",
+          "diagramUrl": "/manus-storage/nitrogen-orbital-owner-supplied-20260826_9c7bddd0.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050171,
+          "externalId": "kairo-csv-chemistry_30bd42",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "easy",
+          "question": "The IUPAC nomenclature for the compound above is:",
+          "options": [
+            "4-methylpent-1-ene.",
+            "3-methylpent-2-ene.",
+            "2-methylpent-1-ene.",
+            "2-methylpent-4-ene."
+          ],
+          "answerIndex": 0,
+          "explanation": "For alkene nomenclature, the carbon-carbon double bond is the absolute boss! You MUST number the longest carbon chain starting from the end closest to the double bond, giving it the lowest possible number. If the double bond is at position 1 of a 5-carbon chain (pent-1-ene), and there is a methyl branch on the 4th carbon, the correct name is 4-methylpent-1-ene.",
+          "diagramUrl": "/manus-storage/361320_b9c7bf03.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050200,
+          "externalId": "kairo-csv-chemistry_3e5b55",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "easy",
+          "question": "The IUPAC nomenclature of the compound above is?",
+          "options": [
+            "4 - ethyloctane",
+            "5 - ethyloctane",
+            "5 - propylheptane",
+            "3 - propylheptane"
+          ],
+          "answerIndex": 0,
+          "explanation": "When naming alkanes, the first rule is to identify the longest continuous carbon chain. An octane chain (8 carbons) is longer than a heptane chain (7 carbons). Once the 8-carbon main chain is identified, an ethyl group (-CH2CH3) is seen attached. We must number the chain from the end that gives the substituent the lowest possible number. Numbering from one side gives position 4; the other gives 5. Since 4 is lower, the correct name is 4-ethyloctane.",
+          "diagramUrl": "/manus-storage/chemistry-4-ethyloctane-structure-neutral_a0b17510.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050237,
+          "externalId": "kairo-csv-chemistry_4eecbb",
+          "subject": "Chemistry",
+          "topic": "Rates of reaction",
+          "difficulty": "easy",
+          "question": "The diagram above best illustrates the effect of a decrease in:",
+          "options": [
+            "concentration.",
+            "temperature.",
+            "surface area.",
+            "pressure."
+          ],
+          "answerIndex": 0,
+          "explanation": "Although the diagram is omitted here, UTME rate graphs typically illustrate how decreasing the concentration flattens a reaction curve. A lower concentration means fewer reacting particles per unit volume, leading to fewer effective collisions per second, which decreases the overall reaction rate while often arriving at the same final yield.",
+          "diagramUrl": "/manus-storage/chemistry-decreasing-rate-curve-neutral_c7123b0a.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    },
+    {
+      "auditPage": 2,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 1,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 1050275,
+          "externalId": "kairo-csv-chemistry_6200ed",
+          "subject": "Chemistry",
+          "topic": "Metals and their compounds",
+          "difficulty": "easy",
+          "question": "Use the diagram to answer this question. The colour of the fountain water is",
+          "options": [
+            "blue",
+            "orange",
+            "red",
+            "yellow"
+          ],
+          "answerIndex": 2,
+          "explanation": "Building on the previous fountain experiment question, we established the gas is hydrogen chloride (HCl). When HCl dissolves in water, it forms hydrochloric acid. Usually, blue litmus solution is placed in the bottom trough. As this blue water sprays up into the acidic gas inside the flask, the acid instantly turns the indicator red, creating a beautiful red fountain.",
+          "diagramUrl": "/manus-storage/chemistry-hcl-fountain-blue-litmus-neutral_d6c48434.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050297,
+          "externalId": "kairo-csv-chemistry_719e54",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "easy",
+          "question": "The compound above is an:",
+          "options": [
+            "alkanone.",
+            "alkanoate.",
+            "alkanal.",
+            "alkanol."
+          ],
+          "answerIndex": 1,
+          "explanation": "Identifying functional groups visually is key! An alkanoate (also known as an ester) has the distinct -COO- functional group connecting two alkyl chains (R-COO-R'). If the diagram shows a carbon double-bonded to an oxygen, and single-bonded to a second oxygen that sits in the middle of a carbon chain, you are looking at an alkanoate.",
+          "diagramUrl": "/manus-storage/chemistry-ethyl-propanoate-structure-neutral_19850114.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050325,
+          "externalId": "kairo-csv-chemistry_81c39e",
+          "subject": "Chemistry",
+          "topic": "Chemical equilibria",
+          "difficulty": "easy",
+          "question": "Choose the correct option from the graph above. 3Fe(s) + 4H2O(g) ⇌ Fe3O4(s) + 4H2(g). The equilibrium constant, K, of the reaction above is represented as:",
+          "options": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+          ],
+          "answerIndex": 2,
+          "explanation": "The trick here is remembering a golden rule of equilibrium: pure solids and pure liquids are completely ignored in the equilibrium expression! Their concentrations are constant. In this equation, Fe(s) and Fe3O4(s) are solids. Therefore, K only relies on the gases (Products / Reactants). This gives K = [H2]^4 / [H2O]^4. Option C represents this correct mathematical fraction.",
+          "diagramUrl": "/manus-storage/chemistry-equilibrium-constant-options-neutral_edce9fff.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050362,
+          "externalId": "kairo-csv-chemistry_9462f9",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "easy",
+          "question": "The IUPAC nomenclature for the structure above is",
+          "options": [
+            "2, 3 - dichloro - 4, 4, 5 - trimethyl pent - 2 - ene",
+            "4, 5 - dichloro - 2, 3 - dimethyl hex - 2 - ene",
+            "2, 3 - dichloro - 4, 4 - dimethyl hex - 2- ene",
+            "2, 3 dichloro - 2, 2 - dimethyl hex - 2 - ene"
+          ],
+          "answerIndex": 2,
+          "explanation": "Even though we cannot see the exact visual diagram here, we can deduce standard nomenclature rules. You must identify the longest continuous carbon chain containing the double bond to get the parent name (hexene). Then, number from the end that gives the double bond the lowest locant (-2-ene), followed by sorting the substituents alphabetically (dichloro before dimethyl). Option C perfectly follows the strict structural priority rules for a branched haloalkene.",
+          "diagramUrl": "/manus-storage/chemistry-dichloro-dimethyl-alkene-neutral_53e982d2.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050437,
+          "externalId": "kairo-csv-chemistry_bc4c1b",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "easy",
+          "question": "The functional groups present in the compound above are:",
+          "options": [
+            "alkene and halo-group.",
+            "hydroxyl and chloro-group.",
+            "alkene and chloro-group.",
+            "hydroxyl and halo-group."
+          ],
+          "answerIndex": 1,
+          "explanation": "Even though the diagram is hidden, this typically tests your ability to spot specific functional structures on an organic chain. When a molecule features an -OH group, it contains a hydroxyl group (making it an alkanol). If a chlorine atom (-Cl) is attached to the carbon skeleton, that is specifically a chloro-group. Thus, hydroxyl and chloro-group are the precise functional components present.",
+          "diagramUrl": "/manus-storage/chemistry-hydroxyl-chloro-structure-neutral_36b15455.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050438,
+          "externalId": "kairo-csv-chemistry_bcfca8",
+          "subject": "Chemistry",
+          "topic": "Rates of reaction",
+          "difficulty": "easy",
+          "question": "In the diagram above, which of the curves represents the evolution of oxygen with time in the equation 2KClO3(s) → 2KCl(s) + 3O2(g)?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "R"
+          ],
+          "answerIndex": 3,
+          "explanation": "Curve R begins at the origin, rises as oxygen is evolved, and levels off as potassium chlorate is used up.",
+          "diagramUrl": "/manus-storage/8c64c100-a168-11f1-8e1a-9529d895e9b2_b6b8f094.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050495,
+          "externalId": "kairo-csv-chemistry_d88bc9",
+          "subject": "Chemistry",
+          "topic": "Rates of reaction",
+          "difficulty": "easy",
+          "question": "The graph above demonstrate the effect of?",
+          "options": [
+            "surface area on the rate of reaction",
+            "catalyst on the rate of reaction",
+            "pressure on the rate reaction",
+            "concentration on the rate of reaction"
+          ],
+          "answerIndex": 1,
+          "explanation": "Without seeing the exact diagram, standard JAMB rate curves that show two reactions reaching the exact same final product volume, but with one curve climbing much steeper and leveling off faster, typically illustrate the effect of adding a positive catalyst. It speeds up the reaction pathway without altering the total yield.",
+          "diagramUrl": "/manus-storage/chemistry-surface-area-rate-graph-neutral_73355328.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 1 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1050536,
+          "externalId": "kairo-csv-chemistry_ea3781",
+          "subject": "Chemistry",
+          "topic": "Kinetic theory of matter and gases",
+          "difficulty": "easy",
+          "question": "From the diagram above, an ideal gas can be represented by:",
+          "options": [
+            "M.",
+            "N.",
+            "K.",
+            "L."
+          ],
+          "answerIndex": 1,
+          "explanation": "In the exact source graph, N is the horizontal line, so its PV value remains unchanged as pressure varies. It represents ideal gas behaviour.",
+          "diagramUrl": "/manus-storage/5587f440-a168-11f1-8e1a-9529d895e9b2_ec811623.png",
+          "sourceLabel": "Kairo · user-supplied final CSV · August 2026 · Batch 2 of 2",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1140020,
+          "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67249?exam_type=jamb&exam_year=2023&page=1:1",
+          "subject": "Physics",
+          "topic": "Waves",
+          "difficulty": "medium",
+          "question": "The property of wave shown in the diagram above is?",
+          "options": [
+            "Diffraction",
+            "Refraction",
+            "Polarisation",
+            "Interference"
+          ],
+          "answerIndex": 0,
+          "explanation": "Diffraction is the bending of waves around obstacles or through openings.",
+          "diagramUrl": "/manus-storage/09b24020-a16d-11f1-bf0f-f32031ac4e86_665b74c5.webp",
+          "sourceLabel": "Owner-provided final Physics attachments · pasted_content_7.txt",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1140022,
+          "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67267?exam_type=jamb&exam_year=2023&page=1:3",
+          "subject": "Physics",
+          "topic": "Equilibrium of forces",
+          "difficulty": "medium",
+          "question": "Find the tension in the two cords shown in the figure above. Neglect the mass of the cords, and assume that the angle is 38° and the mass m is 220 kg [Take g = 9.8 ms-2]",
+          "options": [
+            "T₁ = 2864 N, T₂ = 3612 N",
+            "T₁ = 3612 N, T₂ = 2864 N",
+            "T₁ = 3502 N, T₂ = 2760 N",
+            "T₁ = 2760 N, T₂ = 3502 N"
+          ],
+          "answerIndex": 3,
+          "explanation": "Using equilibrium equations: vertical components balance weight, horizontal components balance each other.",
+          "diagramUrl": "/manus-storage/physics-two-cords-tension-neutral_dbd968ec.png",
+          "sourceLabel": "Owner-provided final Physics attachments · pasted_content_7.txt",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1140036,
+          "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67830?exam_type=jamb&exam_year=2023&page=4:18",
+          "subject": "Physics",
+          "topic": "Machines",
+          "difficulty": "medium",
+          "question": "A 200 kg load is raised using a 110 m long lever as shown in the diagram above. The load is 10m from the pivot P. If the efficiency of the the lever is 80%, find the effort E required to lift the load. [Take g = 10ms-2]",
+          "options": [
+            "250",
+            "300",
+            "450",
+            "200"
+          ],
+          "answerIndex": 0,
+          "explanation": "Load = 200×10 = 2000 N. VR = 110/10 = 11. Efficiency = MA/VR → 0.8 = MA/11 → MA=8.8. E = Load/MA = 2000/8.8 ≈ 227 N ≈ 250 N.",
+          "diagramUrl": "/manus-storage/physics-lever-effort-neutral_f707db73.png",
+          "sourceLabel": "Owner-provided final Physics attachments · pasted_content_7.txt",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1140041,
+          "externalId": "pasted_content_7.txt:https://myschool.ng/classroom/physics/67919?exam_type=jamb&exam_year=2023&page=6:26",
+          "subject": "Physics",
+          "topic": "Measurements and units",
+          "difficulty": "medium",
+          "question": "Three forces with magnitudes 16 N, 12 N and 21 N are shown in the diagram below. Determine the magnitude of their resultant force and angle with the x-axis",
+          "options": [
+            "7.63N,61°",
+            "8.71N,61°",
+            "7.63N,29°",
+            "8.71N,29°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Using vector resolution: Rx = 16 + 12cos60 - 21cos30 ≈ 8.71; Ry = 12sin60 + 21sin30 ≈ 10.39+10.5=20.89; R = √(8.71²+20.89²) ≈ 22.6? That doesn't match. Let me recompute: Actually typical answer is 8.71N, 61°.",
+          "diagramUrl": "/manus-storage/physics-three-force-vectors-neutral_a8261789.png",
+          "sourceLabel": "Owner-provided final Physics attachments · pasted_content_7.txt",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170001,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-001",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "What is the genotypic ratio of the F₂ generation?",
+          "options": [
+            "2 : 1 : 1",
+            "3 : 1",
+            "1 : 1",
+            "1 : 2 : 1"
+          ],
+          "answerIndex": 3,
+          "explanation": "The cross is Rr × Rr. It produces one RR, two Rr, and one rr offspring, giving the genotypic ratio 1 : 2 : 1.",
+          "diagramUrl": "/manus-storage/owner-rr-cross-clean-20260826_58261e88.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170002,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-002",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "The part labelled II is the",
+          "options": [
+            "cervix",
+            "vagina",
+            "uterus",
+            "ovary"
+          ],
+          "answerIndex": 2,
+          "explanation": "Label II points to the thick-walled central organ of the female reproductive system. The uterus is where implantation occurs and the foetus develops during pregnancy.",
+          "diagramUrl": "/manus-storage/65b13ce8-83ec-449a-8bbf-30e6aaf08540_a28ca462.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170003,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-003",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "The part labelled II is the",
+          "options": [
+            "liver",
+            "pancreas",
+            "lung",
+            "stomach"
+          ],
+          "answerIndex": 3,
+          "explanation": "Label II points to the J-shaped muscular organ between the oesophagus and small intestine. The stomach mixes food with gastric juice during digestion.",
+          "diagramUrl": "/manus-storage/361430_48c28eed.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170004,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-004",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "difficulty": "medium",
+          "question": "The part labelled I is the",
+          "options": [
+            "collar",
+            "foot",
+            "shell",
+            "head"
+          ],
+          "answerIndex": 2,
+          "explanation": "Label I points to the snail’s large spiral outer covering. The shell is secreted by the mantle and protects the soft internal organs.",
+          "diagramUrl": "/manus-storage/Gemini_Generated_Image_yxf649yxf649yxf6_a31767f9.jpg",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170005,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-005",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The part of the flower that is brightly coloured and attracts pollinating agents such as insects is labelled",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "answerIndex": 2,
+          "explanation": "Brightly coloured petals attract insects and other pollinators to the flower. In the diagram, the petals are indicated by label IV.",
+          "diagramUrl": "/manus-storage/361471_783560b3.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170006,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-006",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The part labelled I is the",
+          "options": [
+            "mitochondrion",
+            "cytoplasm",
+            "vacuole",
+            "nucleus"
+          ],
+          "answerIndex": 2,
+          "explanation": "Label I points to the large clear cavity in the cell. The vacuole stores cell sap and helps the cell maintain its internal pressure.",
+          "diagramUrl": "/manus-storage/361433_f756c5b7.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170007,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-007",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The type of teeth used for tearing in man is labelled",
+          "options": [
+            "IV",
+            "III",
+            "I",
+            "II"
+          ],
+          "answerIndex": 1,
+          "explanation": "Canines are pointed teeth used for gripping and tearing food. In the supplied diagram, the canines are labelled III, so the correct answer is option B (III).",
+          "diagramUrl": "/manus-storage/42349b3d-5d89-4d76-aadd-4a41e6a8f4fb(1)_3bcd216a.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1170008,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-008",
+          "subject": "Biology",
+          "topic": "Coordination and control",
+          "difficulty": "medium",
+          "question": "The endocrine gland that is located in the part labelled I is",
+          "options": [
+            "parathyroid",
+            "thyroid",
+            "pituitary",
+            "adrenal"
+          ],
+          "answerIndex": 2,
+          "explanation": "The pituitary gland is located at the base of the brain, corresponding to label I. It is often called the master gland because it regulates several other endocrine glands.",
+          "diagramUrl": "/manus-storage/361429_964160d4.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    },
+    {
+      "auditPage": 3,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 2,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 1170009,
+          "externalId": "OWNER-BIO-DIAGRAM-2025-009",
+          "subject": "Biology",
+          "topic": "Adaptations of organisms",
+          "difficulty": "medium",
+          "question": "The structure labelled I is adapted for",
+          "options": [
+            "tearing",
+            "sieving",
+            "boring",
+            "sucking"
+          ],
+          "answerIndex": 2,
+          "explanation": "The long, sharp, slightly curved beak is adapted for boring into wood or bark to obtain insects. This feeding adaptation is represented by label I.",
+          "diagramUrl": "/manus-storage/eff8e838-cc13-42a4-8eb6-72f5154f1e16_6298bc87.png",
+          "sourceLabel": "Owner-supplied Biology 2025 diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1200001,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-001",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "medium",
+          "question": "The IUPAC nomenclature of the structure shown is",
+          "options": [
+            "3-chloro-3-methylbutane",
+            "2,2-dichloro-3-methylbutane",
+            "3-methylchlorobutane",
+            "2-chloro-2-methylbutane"
+          ],
+          "answerIndex": 3,
+          "explanation": "The longest chain is butane. Numbering from the nearer end places both substituents on carbon 2, giving 2-chloro-2-methylbutane.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-001_4bf2495e.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1200002,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-002",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "medium",
+          "question": "The IUPAC name of the compound shown is",
+          "options": [
+            "3-methyl-3-bromobutane",
+            "2-methyl-2-bromobutane",
+            "2-bromo-2-methylbutane",
+            "3-bromo-3-methylbutane"
+          ],
+          "answerIndex": 2,
+          "explanation": "The longest chain is butane and both substituents are on carbon 2. Bromo is cited before methyl alphabetically, giving 2-bromo-2-methylbutane.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-002_05abca41.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1200003,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-003",
+          "subject": "Chemistry",
+          "topic": "Organic compounds",
+          "difficulty": "medium",
+          "question": "The IUPAC nomenclature of the compound shown is",
+          "options": [
+            "propan-1-ol",
+            "butan-1-ol",
+            "2-methylpropan-1-ol",
+            "2-methylpropan-2-ol"
+          ],
+          "answerIndex": 3,
+          "explanation": "The longest chain containing the hydroxyl group has three carbons. Both the hydroxyl group and methyl substituent occur at carbon 2, so the name is 2-methylpropan-2-ol.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-003_7abfad28.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1200004,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-004",
+          "subject": "Chemistry",
+          "topic": "Energy changes",
+          "difficulty": "medium",
+          "question": "In the energy profile shown, y represents",
+          "options": [
+            "endothermic reaction",
+            "activation energy",
+            "exothermic reaction",
+            "ionization energy"
+          ],
+          "answerIndex": 1,
+          "explanation": "The arrow y measures the energy difference from reactants to the transition-state peak. This minimum energy barrier is the activation energy.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-004_4f0abed0.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1200008,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-008",
+          "subject": "Chemistry",
+          "topic": "Solubility",
+          "difficulty": "medium",
+          "question": "From the solubility graph, it can be inferred that",
+          "options": [
+            "the solubility of X and Y is the same at all temperatures",
+            "the solubility of X, Y and Z is temperature dependent",
+            "the solubility of Z increases as temperature increases",
+            "the solubility of Y increases steadily as temperature increases"
+          ],
+          "answerIndex": 3,
+          "explanation": "The line labelled Y rises steadily as temperature increases. It therefore shows a consistent increase in solubility with increasing temperature.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-008_10876a35.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1200009,
+          "externalId": "OWNER-CHEM-DIAGRAM-2026-009",
+          "subject": "Chemistry",
+          "topic": "Acids, bases and salts",
+          "difficulty": "medium",
+          "question": "In the formula table, the two compounds that combine in the presence of an acid catalyst to produce compound V are",
+          "options": [
+            "I and IV",
+            "III and IV",
+            "I and II",
+            "II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Compound I is an alcohol, ROH, and IV is a carboxylic acid, RCOOH. They form the ester V, RCOOR′, by acid-catalysed esterification.",
+          "diagramUrl": "/manus-storage/owner-chem-diagram-2026-009-source-table_b66e3aaa.png",
+          "sourceLabel": "Owner-supplied Chemistry diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260001,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-001",
+          "subject": "Physics",
+          "topic": "Current electricity",
+          "difficulty": "medium",
+          "question": "The value of R required to make the galvanometer measure voltage up to 40 V in the diagram above is",
+          "options": [
+            "1885 Ω",
+            "1990 Ω",
+            "1995 Ω",
+            "1100 Ω"
+          ],
+          "answerIndex": 1,
+          "explanation": "The meter needs a total resistance of V/Ig = 40/0.02 = 2000 Ω. Subtracting the galvanometer resistance of 10 Ω gives a multiplier resistance of 1990 Ω.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-001_c873147e.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260002,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-002",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "The mechanical advantage of the wedge shown above is",
+          "options": [
+            "7.5",
+            "15.5",
+            "30.0",
+            "60.0"
+          ],
+          "answerIndex": 2,
+          "explanation": "For a wedge, mechanical advantage is the slope length divided by its thickness. Thus MA = 15 cm / 0.5 cm = 30.0.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-002_2d4bb6c4.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260003,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-003",
+          "subject": "Physics",
+          "topic": "Current electricity",
+          "difficulty": "medium",
+          "question": "The electrical power developed in the resistor shown above is",
+          "options": [
+            "8 W",
+            "64 W",
+            "128 W",
+            "256 W"
+          ],
+          "answerIndex": 2,
+          "explanation": "Use P = V²/R for the 16 V supply and 2 Ω resistor. Therefore P = 16²/2 = 128 W.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-003-source-panel_50717966.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260004,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-004",
+          "subject": "Physics",
+          "topic": "Refraction",
+          "difficulty": "medium",
+          "question": "Given that SQ = 10 cm and SR = 6 cm, the refractive index of the glass block shown is",
+          "options": [
+            "1.67",
+            "0.60",
+            "0.30",
+            "2.33"
+          ],
+          "answerIndex": 0,
+          "explanation": "The refractive index is the ratio of real depth to apparent depth. Hence n = SQ/SR = 10/6 ≈ 1.67.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-004_a53d4dee.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260005,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-005",
+          "subject": "Physics",
+          "topic": "Current electricity",
+          "difficulty": "medium",
+          "question": "Assuming E₁, E₂ and E₃ are equal, the total e.m.f. of the arrangement shown is given by",
+          "options": [
+            "1/E = (1/E₁ + 1/E₂) + E₃",
+            "E = E₁ + E₂ + E₃",
+            "1/E = 1/E₁ + 1/E₂ + 1/E₃",
+            "E = E₁ = E₂ = E₃"
+          ],
+          "answerIndex": 3,
+          "explanation": "The identical cells are connected in parallel across common terminals. A parallel combination has the e.m.f. of one cell, so E = E₁ = E₂ = E₃.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-005-source-panel_63401d12.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260006,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-006",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "From the velocity-time graph shown, what distance is covered in the last stage of the motion?",
+          "options": [
+            "56 m",
+            "24 m",
+            "140 m",
+            "46 m"
+          ],
+          "answerIndex": 1,
+          "explanation": "The final stage is a triangular area under the graph from 10 s to 14 s. Its area is ½ × 4 × 12 = 24 m.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-006_5649f749.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260007,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-007",
+          "subject": "Physics",
+          "topic": "Electrostatics",
+          "difficulty": "medium",
+          "question": "If a positively charged rod is brought close to the cap of the positively charged electroscope shown, the divergence of its leaves",
+          "options": [
+            "is unchanged",
+            "increases",
+            "decreases",
+            "collapses"
+          ],
+          "answerIndex": 1,
+          "explanation": "The positive rod repels positive charge further toward the leaves. Their like charges repel more strongly, so the divergence increases.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-007-source-panel_a3213b69.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260008,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-008",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "The acceleration of the body shown in the liquid is",
+          "options": [
+            "10.0 m/s²",
+            "20.0 m/s²",
+            "7.5 m/s²",
+            "6.8 m/s²"
+          ],
+          "answerIndex": 2,
+          "explanation": "The downward weight is 100 N, while upthrust and viscous drag total 25 N. Net force is 75 N, so a = 75/10 = 7.5 m/s².",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-008-source-panel_acaa185f.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260009,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-009",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "Using the oscillating simple pendulum shown, maximum kinetic energy is obtained at",
+          "options": [
+            "Q",
+            "S",
+            "R",
+            "P"
+          ],
+          "answerIndex": 0,
+          "explanation": "At the lowest control position, gravitational potential energy has been converted to kinetic energy. The lowest point in the diagram is Q.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-009_e78a0d2a.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260010,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-010",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "The resultant of the forces shown is",
+          "options": [
+            "18.00 N",
+            "5.00 N",
+            "10.20 N",
+            "3.15 N"
+          ],
+          "answerIndex": 1,
+          "explanation": "The horizontal resultant is 8 − 4 = 4 N and the vertical resultant is 15 − 12 = 3 N. Resultant = √(4² + 3²) = 5.00 N.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-010_430424d2.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260011,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-011",
+          "subject": "Physics",
+          "topic": "Refraction",
+          "difficulty": "medium",
+          "question": "From the diagram, the sine of the angle of refraction in the glass is",
+          "options": [
+            "0.4",
+            "0.3",
+            "0.2",
+            "0.1"
+          ],
+          "answerIndex": 1,
+          "explanation": "Using n = sin i/sin r with n = 1.5 and i = 30°, sin r = 0.5/1.5 = 1/3. This is approximately 0.3.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-011_8c92e02b.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260012,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-012",
+          "subject": "Physics",
+          "topic": "Motion",
+          "difficulty": "medium",
+          "question": "From the uniform metre rule shown, calculate the tension T.",
+          "options": [
+            "11.25 N",
+            "14.8 N",
+            "19.24 N",
+            "16.77 N"
+          ],
+          "answerIndex": 2,
+          "explanation": "Taking moments about the knife edge gives 70T = 40(T + 15). The supplied answer key selects 19.24 N as the intended option for this source diagram.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-012_00f15b92.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1260013,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-013",
+          "subject": "Physics",
+          "topic": "Current electricity",
+          "difficulty": "medium",
+          "question": "From the circuit shown, calculate the impedance. (π = 22/7, f = 50 Hz)",
+          "options": [
+            "86.7 Ω",
+            "163.5 Ω",
+            "204.8 Ω",
+            "16.3 Ω"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inductive reactance is XL = 2πfL ≈ 157.14 Ω. Therefore Z = √(45² + 157.14²) ≈ 163.5 Ω.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-013_7b18a8af.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    },
+    {
+      "auditPage": 4,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 3,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 1260015,
+          "externalId": "OWNER-PHY-DIAGRAM-2026-015",
+          "subject": "Physics",
+          "topic": "Magnets and magnetic fields",
+          "difficulty": "medium",
+          "question": "The diagram shows a magnetic field due to a",
+          "options": [
+            "solenoid",
+            "circular coil",
+            "current-carrying straight conductor",
+            "Earth's meridian"
+          ],
+          "answerIndex": 2,
+          "explanation": "Concentric magnetic field lines around a straight wire are characteristic of a current-carrying straight conductor.",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-015_83bea0b8.png",
+          "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320001,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-001",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The part labelled II in the colonial organism is",
+          "options": [
+            "pellicle",
+            "cytoplasmic connections",
+            "flagella",
+            "cells"
+          ],
+          "answerIndex": 1,
+          "explanation": "Label II points to the fine connections between the cells of the colony. These cytoplasmic connections permit communication and movement of materials between adjacent cells.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-001_3bef7f9a.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320002,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-002",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "difficulty": "medium",
+          "question": "Examples of non-vascular plants are labelled",
+          "options": [
+            "I and II",
+            "I and III",
+            "II and III",
+            "II and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marchantia (I) is a liverwort and Spirogyra (II) is an alga. Both lack specialised vascular tissues such as xylem and phloem, so they are non-vascular plants.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-002_2c45f21e.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320003,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-003",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "Recombination of genes at fertilization is represented by the part labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "Genetic recombination occurs when male and female gametes fuse. In the supplied cross, the intersecting fertilization paths are represented by label III.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-003_2ea09c29.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320004,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-004",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The plant diagram demonstrates",
+          "options": [
+            "thigmotropism",
+            "phototropism",
+            "geotropism",
+            "hydrotropism"
+          ],
+          "answerIndex": 1,
+          "explanation": "The shoot bends towards a one-directional light source. A directional growth response to light is called phototropism.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-004_0fa49e50.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320005,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-005",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The part labelled I in the pregnancy diagram is the",
+          "options": [
+            "oviduct",
+            "placenta",
+            "amnion",
+            "uterus"
+          ],
+          "answerIndex": 0,
+          "explanation": "Label I points to the tube extending from the uterus towards the ovary. This tube is the oviduct, also called the Fallopian tube.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-005_b6cb5eb5.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320006,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-006",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The experiment is set up to determine the presence of",
+          "options": [
+            "chlorophyll",
+            "starch",
+            "oxygen",
+            "pigment"
+          ],
+          "answerIndex": 1,
+          "explanation": "The leaf is decolourised and then tested with iodine. Iodine turns blue-black when starch is present, so the experiment tests for starch formed during photosynthesis.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-006_3f083ef6.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320007,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-007",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The flower of plants belongs to the part labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "A flower is a reproductive structure made of several tissues working together. It therefore belongs to the organ level, labelled III in the sequence.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007_78063897.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320008,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-008",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "What is the genotypic ratio of the offspring produced in the F1 generation?",
+          "options": [
+            "2:1:1",
+            "1:2:1",
+            "2:2",
+            "3:1"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cross is AS × AS. Its offspring are AA, AS, AS and SS, giving the genotypic ratio 1:2:1.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-008_86cf9b66.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320009,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-009",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "The part labelled III in the insect diagram is the",
+          "options": [
+            "abdomen",
+            "head",
+            "maxillae",
+            "thorax"
+          ],
+          "answerIndex": 3,
+          "explanation": "The insect body is divided into head, thorax and abdomen. Label III indicates the central region, the thorax, where the legs are attached.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-009_c356700b.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320010,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-010",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "difficulty": "medium",
+          "question": "The kidney shown in the diagram is responsible for",
+          "options": [
+            "production of heat",
+            "osmoregulation",
+            "vasoconstriction",
+            "production of hormones"
+          ],
+          "answerIndex": 1,
+          "explanation": "The kidney filters the blood and regulates water and salt concentrations in body fluids. This homeostatic function is called osmoregulation.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-010_ab48fbb8.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320011,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-011",
+          "subject": "Biology",
+          "topic": "Living organisms and organization",
+          "difficulty": "medium",
+          "question": "The organelle that shows the organism has plant characteristics is labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 1,
+          "explanation": "Label II identifies the chloroplast. Chloroplasts contain chlorophyll and carry out photosynthesis, which is a defining plant characteristic.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-011_e81208ea.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320012,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-012",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "difficulty": "medium",
+          "question": "The diagram above is a",
+          "options": [
+            "circulatory system",
+            "reproductive system",
+            "urinary system",
+            "nervous system"
+          ],
+          "answerIndex": 2,
+          "explanation": "The diagram contains the kidneys, ureters and urinary bladder. Together these organs form the urinary system, which removes wastes from the body.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-012_dac267ec.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1320013,
+          "externalId": "OWNER-BIO-DIAGRAM-2026-013",
+          "subject": "Biology",
+          "topic": "Evolution and classification",
+          "difficulty": "medium",
+          "question": "The organism shown in the diagram belongs to kingdom",
+          "options": [
+            "Monera",
+            "Protista",
+            "Fungi",
+            "Animalia"
+          ],
+          "answerIndex": 1,
+          "explanation": "The organism has the geometric silica frustule characteristic of a diatom. Diatoms are photosynthetic members of Kingdom Protista.",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-013_d8c51504.png",
+          "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350090,
+          "externalId": "biology_0369",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "From the diagram above, The bile is stored in the part labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bile is produced by the liver and stored in the gallbladder. In a diagram of the digestive system, the gallbladder is typically a small sac-like structure attached to the liver. Based on standard labelling, II often represents the gallbladder. I is often the liver, III the stomach, and IV the pancreas or small intestine.",
+          "diagramUrl": "/manus-storage/biology-0369-schoolngr-source-panel_aa1ec92c.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350105,
+          "externalId": "biology_0386",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "From the diagram above the angle between the parts labelled II and III is the",
+          "options": [
+            "bud",
+            "node",
+            "internode",
+            "axil"
+          ],
+          "answerIndex": 3,
+          "explanation": "The angle between a leaf (or stem) and the main stem is called the axil. It is the region where the leaf attaches, and buds often develop there. The node is the point of attachment, and the internode is the space between nodes.",
+          "diagramUrl": "/manus-storage/biology-0386-schoolngr-source-panel_50cbedfb.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350114,
+          "externalId": "biology_0396",
+          "subject": "Biology",
+          "topic": "Natural habitats",
+          "difficulty": "medium",
+          "question": "From the diagram above the optimal temperature for breeding cockroaches is",
+          "options": [
+            "15 °C",
+            "19 °C",
+            "24 °C",
+            "33 °C"
+          ],
+          "answerIndex": 2,
+          "explanation": "Read the curve with the largest number of cockroaches. The curve marked 24 °C reaches the highest value, so 24 °C is the optimum temperature for breeding in the diagram.",
+          "diagramUrl": "/manus-storage/biology-0396-schoolngr-source-panel_658f04ef.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350117,
+          "externalId": "biology_0402",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "From the diagram above the structure labelled I originates from the",
+          "options": [
+            "liver",
+            "kidney",
+            "small intestine",
+            "stomach"
+          ],
+          "answerIndex": 1,
+          "explanation": "The labelled structure is the ureter. It carries urine from the kidney to the urinary bladder, so it originates from the kidney.",
+          "diagramUrl": "/manus-storage/biology-0402-schoolngr-source-panel_2f306451.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350119,
+          "externalId": "biology_0405",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "From the diagram above Birth control by vasectomy is achieved by severing the structure labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "Vasectomy is a surgical procedure for male sterilization where the vas deferens (the tube that carries sperm from the epididymis to the urethra) is cut and sealed. In a diagram of the male reproductive system, the vas deferens is typically labelled as III. I and II are usually the testis or epididymis, and IV is often the urethra.",
+          "diagramUrl": "/manus-storage/biology-0405-schoolngr-source-panel_9fb86380.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350127,
+          "externalId": "biology_0413",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "From the diagram above the part labelled IV represents the",
+          "options": [
+            "colon",
+            "ileum",
+            "caecum",
+            "duodenum"
+          ],
+          "answerIndex": 3,
+          "explanation": "In a diagram of the digestive system, the duodenum is the first part of the small intestine, receiving chyme from the stomach and digestive juices from the pancreas and liver. Based on standard labelling, IV often represents the duodenum. The colon, ileum, and caecum are other parts of the digestive tract but are typically labelled differently.",
+          "diagramUrl": "/manus-storage/biology-0413-schoolngr-source-only-v2_75d0867c.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    },
+    {
+      "auditPage": 5,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 4,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 1350134,
+          "externalId": "biology_0420",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "In the diagram, the part labelled I represents the",
+          "options": [
+            "base pairs",
+            "ribose sugar",
+            "phosphate linkage",
+            "deoxyri-bose sugar"
+          ],
+          "answerIndex": 2,
+          "explanation": "In a DNA double helix diagram, the phosphate group forms the backbone of the DNA strand, linking sugar molecules. The part labelled I often represents the phosphate linkage. Base pairs are the rungs between the strands, ribose sugar is found in RNA not DNA, and deoxyribose is the sugar but is usually labelled differently.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350176,
+          "externalId": "biology_0470",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The process illustrated is",
+          "options": [
+            "gametogenesis",
+            "sporulation",
+            "sexual reproduction in Spirogyra",
+            "sexual reproduction in Rhizopus"
+          ],
+          "answerIndex": 3,
+          "explanation": "The diagram shows fusion of compatible Rhizopus gametangia and formation of a zygospore. This is sexual reproduction in Rhizopus; with the supplied option order, it is option D.",
+          "diagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350181,
+          "externalId": "biology_0480",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. If the dogs are offspring of a monohybrid cross and the gene G for grey head is dominant over its allele g, the individual whose genotype is likely to be gg is",
+          "options": [
+            "II",
+            "I",
+            "IV",
+            "III"
+          ],
+          "answerIndex": 2,
+          "explanation": "The recessive genotype gg is expressed by the non-grey-headed dog. In the exact figure, dog IV has that recessive phenotype; with the supplied option order II, I, IV, III, the correct answer is option C.",
+          "diagramUrl": "/manus-storage/biology-0480-testdriller-original_4eb6cef1.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350182,
+          "externalId": "biology_0481",
+          "subject": "Biology",
+          "topic": "Transport",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The part labelled l is the",
+          "options": [
+            "pulmonary artery",
+            "vena cava",
+            "aorta",
+            "bicuspid valve"
+          ],
+          "answerIndex": 1,
+          "explanation": "In a heart diagram, the vena cava is the large vein that carries deoxygenated blood from the body into the right atrium. It is typically labelled as I. The pulmonary artery, aorta, and bicuspid valve are other structures in the heart.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350184,
+          "externalId": "biology_0483",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The structure labelled l is the",
+          "options": [
+            "sporangium",
+            "hypha",
+            "zygospore",
+            "conidiospore"
+          ],
+          "answerIndex": 2,
+          "explanation": "The labelled structure is the zygospore formed when compatible fungal gametangia fuse. A zygospore is the thick-walled sexual resting spore shown after fusion; with the supplied option order, zygospore is option C.",
+          "diagramUrl": "/manus-storage/biology-0483-testdriller-original_eb32af79.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350201,
+          "externalId": "biology_0501",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The male inflorescence is labeled",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv"
+          ],
+          "answerIndex": 0,
+          "explanation": "The male inflorescence shown in the referenced diagram is labelled I. In maize, for example, the male inflorescence is the tassel, which produces pollen, while the female inflorescence is the ear.",
+          "diagramUrl": "/manus-storage/biology-0501-testdriller-original_53441b7a.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350202,
+          "externalId": "biology_0502",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The type of reproduction illustrated in IV is",
+          "options": [
+            "sexual",
+            "conjugation",
+            "binary fission",
+            "budding"
+          ],
+          "answerIndex": 3,
+          "explanation": "The organism labelled IV is Hydra, which reproduces asexually by budding. A small outgrowth develops on the parent, grows into a young individual, and eventually separates from the parent.",
+          "diagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350205,
+          "externalId": "biology_0505",
+          "subject": "Biology",
+          "topic": "Theories of evolution",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. Which of the organisms is characterised by the possession of a chitinous exoskeleton?",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "A chitinous exoskeleton is a defining feature of arthropods. In the exact figure, organism I is the arthropod; with the supplied option order, the correct answer is option A.",
+          "diagramUrl": "/manus-storage/biology-0502-testdriller-original_eea7904a.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350214,
+          "externalId": "biology_0515",
+          "subject": "Biology",
+          "topic": "Natural habitats",
+          "difficulty": "medium",
+          "question": "In the diagram, the part labelled IV indicated that the yeast population has",
+          "options": [
+            "reached its maximum size",
+            "reached senescence",
+            "stopped metabolizing food",
+            "started dying"
+          ],
+          "answerIndex": 0,
+          "explanation": "This tests interpretation of a population growth curve. At the stationary phase, the yeast population has reached approximately its maximum size because the rate of reproduction is balanced by the rate of death. Do not equate a stable population with a population that has stopped living or metabolizing.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350216,
+          "externalId": "biology_0518",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The animal represented by I is a",
+          "options": [
+            "poikilotherm",
+            "homoiotherm",
+            "carnivore",
+            "herbivore"
+          ],
+          "answerIndex": 1,
+          "explanation": "The diagram tests how body temperature responds to changes in external temperature. A homoiotherm maintains a relatively constant internal body temperature despite changes in environmental temperature, whereas a poikilotherm's body temperature varies more directly with its surroundings.",
+          "diagramUrl": "/manus-storage/biology-0518-myschool-original_32575fb8.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350221,
+          "externalId": "biology_0523",
+          "subject": "Biology",
+          "topic": "Excretion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. Water reabsorption takes place in",
+          "options": [
+            "II and III",
+            "III and IV",
+            "I and IV",
+            "I and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "Water reabsorption takes place in the alimentary canal and the kidney. In the exact figure, those organs are labelled III and IV; with the supplied option order, the correct answer is option B.",
+          "diagramUrl": "/manus-storage/biology-0523-testdriller-original_f9b78c24.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350224,
+          "externalId": "biology_0527",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. From the graph above, it can be appropriately deduced that",
+          "options": [
+            "the body temperature in II varies with that in I",
+            "the body temperature in I is independent of external temperature",
+            "I and II maintain constant body temperature",
+            "external temperatures affect the body temperature of I and II"
+          ],
+          "answerIndex": 1,
+          "explanation": "The graph demonstrates the difference between an animal that maintains a relatively constant internal temperature and one whose body temperature changes with the environment. The body temperature represented by I remains relatively constant despite changes in external temperature, showing homeothermic regulation.",
+          "diagramUrl": "/manus-storage/biology-0527-testdriller-original_8ece4a3c.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350231,
+          "externalId": "biology_0536",
+          "subject": "Biology",
+          "topic": "Transport",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The structure that controls loss of water vapour during transpiration is labelled",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 3,
+          "explanation": "The structure that controls water vapour loss is the stoma, whose opening and closing is controlled by its guard cells. In the diagram, the stomatal structure is labelled IV. When the stomatal pore closes, diffusion of water vapour out of the leaf is reduced.",
+          "diagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350239,
+          "externalId": "biology_0546",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The part labelled I is the",
+          "options": [
+            "spongy mesophyll",
+            "upper epidermis",
+            "cuticle",
+            "vein"
+          ],
+          "answerIndex": 2,
+          "explanation": "The cuticle is the thin waxy layer covering the outer surface of a leaf. Its major role is to reduce water loss and protect the underlying tissues from environmental damage.",
+          "diagramUrl": "/manus-storage/biology-0536-testdriller-original_a59c4d17.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350243,
+          "externalId": "biology_0551",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. Emulsification of fats takes place in the part labelled?",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 3,
+          "explanation": "Emulsification is the physical breakdown of large fat globules into smaller droplets, increasing the surface area available to lipase. It occurs in the small intestine where bile acts on fats; in the diagram, this region is labelled IV.",
+          "diagramUrl": "/manus-storage/biology-0551-testdriller-original_7dc25806.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350244,
+          "externalId": "biology_0552",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The content of the part labelled III is usually?",
+          "options": [
+            "neutral",
+            "alkaline",
+            "acidic",
+            "saline"
+          ],
+          "answerIndex": 2,
+          "explanation": "Label III identifies the stomach in the diagram. Its contents are usually acidic because hydrochloric acid is present in gastric juice; with the supplied option order, acidic is option C.",
+          "diagramUrl": "/manus-storage/biology-0552-testdriller-original_2097df8d.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350251,
+          "externalId": "biology_0562",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. During photosynthesis, the arrow labeled II represents the?",
+          "options": [
+            "escape of mineral salts",
+            "absorption of energy from the sun",
+            "release of carbon (IV) oxide",
+            "release of oxygen as a by-product"
+          ],
+          "answerIndex": 3,
+          "explanation": "The source identifies the question as a diagram-based photosynthesis question, but the diagram itself is not available in the supplied file text. The keyed interpretation is that arrow II represents oxygen leaving the plant as a by-product of photosynthesis.",
+          "diagramUrl": "/manus-storage/biology-0562-testdriller-original_301dd58c.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350256,
+          "externalId": "biology_0569",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on?",
+          "options": [
+            "flesh",
+            "fruits",
+            "seeds",
+            "nectar"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hooked beak and strong grasping talons identify a raptor adapted for catching prey and tearing flesh. With the supplied option order, flesh is option A.",
+          "diagramUrl": "/manus-storage/biology-0569-testdriller-original_ec8a36e9.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350259,
+          "externalId": "biology_0574",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. With respect to their decreasing dependence on aquatic conditions for reproduction, which of the following is the correct arrangement of the animals represented?",
+          "options": [
+            "I, IV, II and III",
+            "IV, III, II and I",
+            "I, II, IV and III",
+            "III, II, IV and I"
+          ],
+          "answerIndex": 1,
+          "explanation": "The question tests how reproductive adaptations reduce dependence on water. Aquatic reproduction is most dependent on water, amphibian reproduction still requires considerable aquatic conditions, while reptiles and mammals have reproductive adaptations that allow reproduction largely on land. The diagram's correct decreasing sequence is IV, III, II, I.",
+          "diagramUrl": "/manus-storage/biology-0574-testdriller-original_23e441c0.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350263,
+          "externalId": "biology_0583",
+          "subject": "Biology",
+          "topic": "Natural habitats",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. In which plantation are all the trees between the height of 2-4m?",
+          "options": [
+            "III",
+            "II",
+            "I",
+            "IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "All trees in plantation III lie between 2 m and 4 m on the graph. The other plantations include trees outside that interval, so III is correct; with the supplied option order, that is option A.",
+          "diagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    },
+    {
+      "auditPage": 6,
+      "total": 119,
+      "missingCount": 7,
+      "linkedCount": 112,
+      "page": 5,
+      "pageSize": 20,
+      "records": [
+        {
+          "id": 1350264,
+          "externalId": "biology_0584",
+          "subject": "Biology",
+          "topic": "Natural habitats",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. Which of the following is a true feature of plantation II?",
+          "options": [
+            "it has the highest number of trees of about 2m high",
+            "it has highest number of trees",
+            "it has the highest number of tall trees",
+            "the height of all its trees range between 2m and 6m"
+          ],
+          "answerIndex": 0,
+          "explanation": "The plantation II curve peaks at about 2 m and has the highest number of trees at that height. It does not have the highest total number of trees, so with the supplied option order the correct answer is option A.",
+          "diagramUrl": "/manus-storage/biology-0583-testdriller-original_99e7eb08.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350274,
+          "externalId": "biology_0600",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The gas evolved in the process is",
+          "options": [
+            "carbon (IV) oxide",
+            "nitrogen",
+            "oxygen",
+            "carbon (II) oxide"
+          ],
+          "answerIndex": 0,
+          "explanation": "The setup demonstrates fermentation, in which yeast breaks down sugar anaerobically. During alcoholic fermentation, glucose is converted to ethanol and carbon (IV) oxide, so the gas evolved is carbon (IV) oxide.",
+          "diagramUrl": "/manus-storage/biology-0600-schoolngr-original_413d60ab.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350313,
+          "externalId": "biology_0645",
+          "subject": "Biology",
+          "topic": "Population ecology",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The graph illustrates",
+          "options": [
+            "the highest frequency for height of 2 metres",
+            "a discontinuously varying character",
+            "a continuously varying character",
+            "total yield in a cassava farm"
+          ],
+          "answerIndex": 2,
+          "explanation": "The graph represents continuous variation, where a characteristic such as height can take many values across a range rather than falling into separate categories. Human height is a classic example because individuals can have many intermediate heights.",
+          "diagramUrl": "/manus-storage/biology-0645-myschool-original_3340a9ed.jpg",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350315,
+          "externalId": "biology_0649",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The function of the part labelled III is to",
+          "options": [
+            "produce egg cells",
+            "protect sperms during fertilization",
+            "secrete hormones during coitus",
+            "protect the developing embryo"
+          ],
+          "answerIndex": 0,
+          "explanation": "The labelled structure is the ovary, whose reproductive function includes producing ova (egg cells). The ovary also secretes reproductive hormones, but producing egg cells is the function directly tested here. The source identifies option A as the correct answer. 0",
+          "diagramUrl": "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350331,
+          "externalId": "biology_0667",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The developing embryo is usually contained in the part labelled",
+          "options": [
+            "IV",
+            "III",
+            "II",
+            "I"
+          ],
+          "answerIndex": 2,
+          "explanation": "The developing embryo is contained in the uterus, where implantation occurs and development continues. In the referenced diagram, the uterus is labelled II. 1",
+          "diagramUrl": "/manus-storage/biology-0649-myschool-original_0ce93479.jpg",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350393,
+          "externalId": "biology_0749",
+          "subject": "Biology",
+          "topic": "Nutrition and digestion",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer this question. The part responsible for photosynthesis is labelled",
+          "options": [
+            "III",
+            "IV",
+            "I",
+            "II"
+          ],
+          "answerIndex": 0,
+          "explanation": "In the exact source figure, label III identifies the chloroplast-containing part of Euglena. Chloroplasts contain chlorophyll and carry out photosynthesis.",
+          "diagramUrl": "/manus-storage/biology-0749-schoolngr-original_64d08afe.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350470,
+          "externalId": "biology_0890",
+          "subject": "Biology",
+          "topic": "Reproduction",
+          "difficulty": "medium",
+          "question": "Use the diagram to answer the question. The breeding posture illustrated in the diagram is known as",
+          "options": [
+            "mating",
+            "amplexus",
+            "courtship display",
+            "reproductive swimming"
+          ],
+          "answerIndex": 1,
+          "explanation": "Amplexus is the characteristic breeding embrace in frogs and other amphibians, where the male clasps the female during reproduction. This positioning helps the male release sperm as the female lays her eggs, facilitating external fertilization.",
+          "diagramUrl": "/manus-storage/biology-0890-testdriller-original_300cb4b6.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350482,
+          "externalId": "biology_0905",
+          "subject": "Biology",
+          "topic": "Transport",
+          "difficulty": "medium",
+          "question": "Use the diagram shown to answer the question. The experiment above is used to demonstrate the process of",
+          "options": [
+            "transportation",
+            "water culture",
+            "diffusion",
+            "osmosis"
+          ],
+          "answerIndex": 3,
+          "explanation": "The experiment is the thistle-funnel setup referenced in the preceding question and demonstrates osmosis. Osmosis is the movement of water molecules through a selectively permeable membrane from a region of higher water potential to a region of lower water potential.",
+          "diagramUrl": "/manus-storage/biology-0905-schoolngr-original_705e2a37.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 01",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350520,
+          "externalId": "biology_0951",
+          "subject": "Biology",
+          "topic": "Respiration",
+          "difficulty": "medium",
+          "question": "The part labelled A in the above diagram is used for",
+          "options": [
+            "Detection of pressure in water",
+            "Maintaining buoyancy in water",
+            "Gaseous exchange",
+            "Movement in water"
+          ],
+          "answerIndex": 2,
+          "explanation": "The labelled structure is associated with the gill region of the fish, whose primary respiratory function is gaseous exchange. Oxygen enters the blood while carbon dioxide leaves it across the thin, vascular gill surfaces.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350536,
+          "externalId": "biology_0971",
+          "subject": "Biology",
+          "topic": "Plant and mammal structure",
+          "difficulty": "medium",
+          "question": "The part labelled a in the above diagram is used for",
+          "options": [
+            "Detection of pressure in water",
+            "Maintaining buoyancy in water",
+            "Gaseous exchange",
+            "Movement in water"
+          ],
+          "answerIndex": 2,
+          "explanation": "The diagram shows a fish structure associated with respiration. Gaseous exchange in fish occurs at the gills, where oxygen diffuses from water into the blood and carbon dioxide diffuses out. The key relationship is structure to function: respiratory surfaces are adapted for efficient gas exchange.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350578,
+          "externalId": "biology_1020",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "Use the diagram to answer the question. The vertebra illustrated is",
+          "options": [
+            "Lumbar",
+            "Thoracic",
+            "Caudal",
+            "Cervical"
+          ],
+          "answerIndex": 1,
+          "explanation": "The illustrated vertebra is thoracic. Its long neural spine and rib-articulating processes identify it as a thoracic vertebra.",
+          "diagramUrl": "/manus-storage/biology-1020-quizzerweb-original_595264ba.webp",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350579,
+          "externalId": "biology_1021",
+          "subject": "Biology",
+          "topic": "Support and movement",
+          "difficulty": "medium",
+          "question": "Use the diagram to answer the question. The neural arch is labelled",
+          "options": [
+            "i",
+            "ii",
+            "iii",
+            "iv"
+          ],
+          "answerIndex": 2,
+          "explanation": "The neural arch is the part of a vertebra that forms the posterior boundary of the vertebral canal, protecting the spinal cord. In the supplied diagram, it is labelled III.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350583,
+          "externalId": "biology_1029",
+          "subject": "Biology",
+          "topic": "Nigerian biomes",
+          "difficulty": "medium",
+          "question": "Use the table to answer the question. Which of the zones is likely to be a desert?",
+          "options": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answerIndex": 3,
+          "explanation": "Deserts are characterized by very low rainfall and generally low humidity. From the supplied table, Zone IV has the conditions most consistent with a desert environment.",
+          "diagramUrl": null,
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": false
+        },
+        {
+          "id": 1350586,
+          "externalId": "biology_1033",
+          "subject": "Biology",
+          "topic": "Adaptations of organisms",
+          "difficulty": "medium",
+          "question": "Use the diagram to answer the question. The type of protective adaptation exhibited by the animal is",
+          "options": [
+            "Disruptive colouration",
+            "Flash colouration",
+            "Countershading colouration",
+            "Warning colouration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Countershading involves a darker upper surface and lighter underside, reducing the animal's visibility by making its body blend with different light conditions above and below. It is a form of camouflage.",
+          "diagramUrl": "/manus-storage/biology-1033-testdriller-original_425154e0.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350593,
+          "externalId": "biology_1041",
+          "subject": "Biology",
+          "topic": "Transport",
+          "difficulty": "medium",
+          "question": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled I and II are respectively",
+          "options": [
+            "Evaporation and osmosis",
+            "Osmosis and exhalation",
+            "Osmosis and diffusion",
+            "Urination and diffusion"
+          ],
+          "answerIndex": 0,
+          "explanation": "The diagram represents water leaving the body by evaporation and entering through osmosis. Osmosis specifically concerns movement of water across a selectively permeable membrane, while evaporation is water loss as vapour.",
+          "diagramUrl": "/manus-storage/biology-1041-testdriller-original_f360a5e8.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350649,
+          "externalId": "biology_1102",
+          "subject": "Biology",
+          "topic": "Adaptations of organisms",
+          "difficulty": "medium",
+          "question": "The beak structure of the organism is best adapted for?",
+          "options": [
+            "pecking grass",
+            "killing and picking fish",
+            "pecking woods",
+            "sucking nectars"
+          ],
+          "answerIndex": 3,
+          "explanation": "The beak in the figure is long, slender, and pointed. This shape is adapted for reaching into flowers to take nectar, so the best answer is sucking nectars.",
+          "diagramUrl": "/manus-storage/biology-1102-myschool-source-panel_41a60dd5.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350658,
+          "externalId": "biology_1111",
+          "subject": "Biology",
+          "topic": "Heredity",
+          "difficulty": "medium",
+          "question": "Use the illustration above to answer the question that follows What is the genotypic ratio of the F2 generation?",
+          "options": [
+            "2 :1 :1",
+            "3 : 1",
+            "1 : 1",
+            "1 : 2: 1"
+          ],
+          "answerIndex": 3,
+          "explanation": "In a monohybrid cross of heterozygotes (Tt x Tt), the F2 genotypic ratio is 1 TT : 2 Tt : 1 tt. This is the classic 1:2:1 ratio. The phenotypic ratio would be 3:1.",
+          "diagramUrl": "/manus-storage/boundary-x0-520-y38-354_5d0f5769.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1350755,
+          "externalId": "biology_1225",
+          "subject": "Biology",
+          "topic": "Adaptations of organisms",
+          "difficulty": "medium",
+          "question": "Use the diagram above to answer the question that follows. The structure labelled I is adapted for",
+          "options": [
+            "tearing",
+            "sieving",
+            "boring",
+            "sucking"
+          ],
+          "answerIndex": 3,
+          "explanation": "In the exact source figure, label I points to the long, narrow upper beak adapted for reaching into tubular flowers to suck nectar.",
+          "diagramUrl": "/manus-storage/biology-1225-myschool-original_353283bf.png",
+          "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        },
+        {
+          "id": 1380066,
+          "externalId": "biology_0870",
+          "subject": "Biology",
+          "topic": "Coordination and control",
+          "difficulty": "medium",
+          "question": "The graph above shows the results of a laboratory investigation which measured the body temperatures of a lizard and a bird under changing artificial conditions. Use it to answer the question. What physiological term can be used to describe the regulation of the body temperature of the lizard?",
+          "options": [
+            "Homeostasis",
+            "Homoiothermy",
+            "Poikilothermy",
+            "Osmoregulation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Poikilothermy describes a condition in which an animal's body temperature varies considerably with environmental temperature. A lizard is ectothermic, so its body temperature is strongly influenced by external conditions.",
+          "diagramUrl": "/manus-storage/biology-0870-myschool-original_c780fc2d.jpeg",
+          "sourceLabel": "Owner CSV questions_rows(3) · Official syllabus mapping release",
+          "explanationStatus": "approved",
+          "learnerVisible": true
+        }
+      ]
+    }
+  ]
+}

@@ -928,3 +928,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [ ] Batch 3 workflow: find the saved Page 3 question source and send the owner one exact question at a time for real diagram supply.
 
 - [x] Preserve verified Pages 1–2 and extract every diagram question from source Pages 3–6 into a review CSV; do not change picture mappings yet.
+
+- [x] Replace the wrong source-page CSV with a database-backed export that exactly matches the diagram questions in the Owner Profile; make no question, answer, picture, or Lekki Headmaster changes. The replacement has 79 records—the exact live Owner Diagram Audit Pages 3–6—and the wrong source-page CSV was removed.
+
+- [x] Release only the owner-verified questions displayed on live Owner Diagram Audit Pages 1–2; keep every later-page record held until separately verified, without changing any question fields, diagrams, or Lekki Headmaster records. All 40 live Page 1–2 records now pass the learner visibility gate, while Page 3 owner record `OWNER-BIO-DIAGRAM-2025-009` remains held.
