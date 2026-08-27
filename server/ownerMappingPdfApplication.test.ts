@@ -17,8 +17,28 @@ const ownerPdfHeldForKeyReview = [
   "OWNER-BIO-DIAGRAM-2026-009",
 ];
 
+const orderedOwnerChemistryImages = [
+  ["361452.png", "OWNER-CHEM-DIAGRAM-2026-002"],
+  ["361425.png", "OWNER-CHEM-DIAGRAM-2026-004"],
+  ["361472.png", "OWNER-CHEM-DIAGRAM-2026-008"],
+  ["362228.png", "OWNER-CHEM-DIAGRAM-2026-009"],
+] as const;
+
 describe("Question-to-image mapping PDF safeguards", () => {
-  it("keeps the direct, unambiguous replacements separate from key conflicts", () => {
+  it("preserves the owner-given four-image order", () => {
+    expect(orderedOwnerChemistryImages).toEqual([
+      ["361452.png", "OWNER-CHEM-DIAGRAM-2026-002"],
+      ["361425.png", "OWNER-CHEM-DIAGRAM-2026-004"],
+      ["361472.png", "OWNER-CHEM-DIAGRAM-2026-008"],
+      ["362228.png", "OWNER-CHEM-DIAGRAM-2026-009"],
+    ]);
+  });
+
+  it("keeps direct owner image files separate from old website links", () => {
+    expect(orderedOwnerChemistryImages.every(([file]) => /^\d+\.png$/.test(file))).toBe(true);
+  });
+
+  it("keeps direct, unambiguous replacements separate from key conflicts", () => {
     expect(ownerPdfSafeReplacements).toHaveLength(7);
     expect(new Set([...ownerPdfSafeReplacements, ...ownerPdfHeldForKeyReview]).size).toBe(11);
   });

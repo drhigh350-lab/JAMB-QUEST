@@ -942,3 +942,5 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Undo the mistaken old-picture assumptions and restore every image link changed in the last mapping pass to its exact pre-change URL; do not change any answer or Lekki Headmaster record. The seven assumed replacement links were guardedly restored, while the four answer-conflict safety holds remain.
 - [ ] Rebuild only the owner’s intended Row 3 mapping from exact new uploaded files, after the owner identifies the Row 3 pictures and provides or re-sends the matching new files; do not change any answer or Lekki Headmaster record.
+
+- [x] Link the four new owner pictures in the stated order: 361452.png → OWNER-CHEM-DIAGRAM-2026-002; 361425.png → OWNER-CHEM-DIAGRAM-2026-004; 361472.png → OWNER-CHEM-DIAGRAM-2026-008; 362228.png → OWNER-CHEM-DIAGRAM-2026-009. Uploaded first, then updated only diagramUrl; readback confirms the new durable links and unchanged answer indexes. All protected fields and Lekki Headmaster records were preserved.
