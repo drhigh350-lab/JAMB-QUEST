@@ -924,3 +924,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Fix repeated diagram previews that show “This picture could not open” even when the image link works; make “Open picture” stay inside the question flow instead of leaving the page. The owner audit now loads images eagerly, has an in-page larger viewer, and uses a retry button instead of an external link. The affected Chemistry image returned HTTP 200; 144 test files and 364 tests passed, TypeScript and build passed.
 
 - [x] Fix the diagram retry button so it performs a real cache-busting reload and does not repeat the same failed image request. Retry now adds a fresh `diagramRetry` URL token and resets the image state; focused tests, TypeScript, and build passed.
+
+- [ ] Batch 3 workflow: find the saved Page 3 question source and send the owner one exact question at a time for real diagram supply.
+
+- [x] Preserve verified Pages 1–2 and extract every diagram question from source Pages 3–6 into a review CSV; do not change picture mappings yet.
