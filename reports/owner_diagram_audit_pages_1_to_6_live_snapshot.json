@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T16:20:15.710Z",
+  "generatedAt": "2026-08-27T17:19:31.148Z",
   "query": {
     "subject": "all",
     "state": "all",
@@ -1032,8 +1032,8 @@
           "explanation": "Use P = V²/R for the 16 V supply and 2 Ω resistor. Therefore P = 16²/2 = 128 W.",
           "diagramUrl": "/manus-storage/owner-phy-diagram-2026-003-source-panel_50717966.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
-          "explanationStatus": "approved",
-          "learnerVisible": true
+          "explanationStatus": "needs_review",
+          "learnerVisible": false
         },
         {
           "id": 1260004,
@@ -1150,7 +1150,7 @@
           ],
           "answerIndex": 0,
           "explanation": "At the lowest control position, gravitational potential energy has been converted to kinetic energy. The lowest point in the diagram is Q.",
-          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-009_e78a0d2a.png",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-009-362348_e25ad10d.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1170,10 +1170,10 @@
           ],
           "answerIndex": 1,
           "explanation": "The horizontal resultant is 8 − 4 = 4 N and the vertical resultant is 15 − 12 = 3 N. Resultant = √(4² + 3²) = 5.00 N.",
-          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-010_430424d2.png",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-010-362357_9338dbb0.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
-          "explanationStatus": "approved",
-          "learnerVisible": true
+          "explanationStatus": "needs_review",
+          "learnerVisible": false
         },
         {
           "id": 1260011,
@@ -1210,7 +1210,7 @@
           ],
           "answerIndex": 2,
           "explanation": "Taking moments about the knife edge gives 70T = 40(T + 15). The supplied answer key selects 19.24 N as the intended option for this source diagram.",
-          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-012_00f15b92.png",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-012-362355_4edc4b09.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1230,7 +1230,7 @@
           ],
           "answerIndex": 1,
           "explanation": "Inductive reactance is XL = 2πfL ≈ 157.14 Ω. Therefore Z = √(45² + 157.14²) ≈ 163.5 Ω.",
-          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-013_7b18a8af.png",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-013-362349_1861e7a6.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1260,7 +1260,7 @@
           ],
           "answerIndex": 2,
           "explanation": "Concentric magnetic field lines around a straight wire are characteristic of a current-carrying straight conductor.",
-          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-015_83bea0b8.png",
+          "diagramUrl": "/manus-storage/owner-phy-diagram-2026-015-362356_2932f2f9.png",
           "sourceLabel": "Owner-supplied Physics diagram questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1340,7 +1340,7 @@
           ],
           "answerIndex": 1,
           "explanation": "The shoot bends towards a one-directional light source. A directional growth response to light is called phototropism.",
-          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-004_0fa49e50.png",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-004-362350_ba7ea7da.png",
           "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1380,7 +1380,7 @@
           ],
           "answerIndex": 1,
           "explanation": "The leaf is decolourised and then tested with iodine. Iodine turns blue-black when starch is present, so the experiment tests for starch formed during photosynthesis.",
-          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-006_3f083ef6.png",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-006-362358_b0f056b0.png",
           "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
           "explanationStatus": "approved",
           "learnerVisible": true
@@ -1400,10 +1400,10 @@
           ],
           "answerIndex": 2,
           "explanation": "A flower is a reproductive structure made of several tissues working together. It therefore belongs to the organ level, labelled III in the sequence.",
-          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007_78063897.png",
+          "diagramUrl": "/manus-storage/owner-bio-diagram-2026-007-362365_1a78ecad.png",
           "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
-          "explanationStatus": "approved",
-          "learnerVisible": true
+          "explanationStatus": "needs_review",
+          "learnerVisible": false
         },
         {
           "id": 1320008,
@@ -1442,8 +1442,8 @@
           "explanation": "The insect body is divided into head, thorax and abdomen. Label III indicates the central region, the thorax, where the legs are attached.",
           "diagramUrl": "/manus-storage/owner-bio-diagram-2026-009_c356700b.png",
           "sourceLabel": "Owner-supplied final Biology image questions · verified key and explanation",
-          "explanationStatus": "approved",
-          "learnerVisible": true
+          "explanationStatus": "needs_review",
+          "learnerVisible": false
         },
         {
           "id": 1320010,
@@ -2400,7 +2400,7 @@
           ],
           "answerIndex": 3,
           "explanation": "In a monohybrid cross of heterozygotes (Tt x Tt), the F2 genotypic ratio is 1 TT : 2 Tt : 1 tt. This is the classic 1:2:1 ratio. The phenotypic ratio would be 3:1.",
-          "diagramUrl": "/manus-storage/boundary-x0-520-y38-354_5d0f5769.png",
+          "diagramUrl": "/manus-storage/biology-1111-owner-mapping-362361_3df5beb8.png",
           "sourceLabel": "Owner CSV questions_rows(3) · Clean supported release · Batch 02",
           "explanationStatus": "approved",
           "learnerVisible": true

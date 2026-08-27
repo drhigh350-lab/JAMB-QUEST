@@ -1374,6 +1374,9 @@ export function normaliseQuestionStem(questionText: string) {
 
 export function toPlayableAuthorisedQuestion(row: AuthorisedPlayableRow) {
   if (!PLAYABLE_SUBJECTS.has(row.subject)) return null;
+  // Database records always carry this enum. Keeping an omitted legacy test fixture neutral
+  // preserves the pure mapper contract, while an explicit non-approved status stays held.
+  if (row.explanationStatus && row.explanationStatus !== "approved") return null;
   // Reconstructed screenshot-batch visuals are rejected. These records may return only with
   // a recovered owner-original asset or the owner's explicit Page 1–2 clearance, never with
   // an inferred/generated replacement URL. All later owner-batch records remain held.

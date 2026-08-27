@@ -27,4 +27,9 @@ describe("owner-verified Page 1–2 diagram release", () => {
   it("keeps the next owner-page record held until the owner clears it separately", () => {
     expect(toPlayableAuthorisedQuestion(ownerDiagramRow("OWNER-BIO-DIAGRAM-2025-009"))).toBeNull();
   });
+
+  it("keeps a review-held diagram out of students' practice even when it has a picture link", () => {
+    const heldRow = { ...ownerDiagramRow("OWNER-BIO-DIAGRAM-2025-001"), explanationStatus: "needs_review" as const };
+    expect(toPlayableAuthorisedQuestion(heldRow)).toBeNull();
+  });
 });
