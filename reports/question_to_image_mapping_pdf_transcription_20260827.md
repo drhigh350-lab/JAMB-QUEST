@@ -76,21 +76,3 @@ The following rows were protected from student practice rather than guessed. The
 The owner reported that the Row 3 pictures were still old pictures. Therefore, the seven assumed image-link replacements described above were **fully reversed**. The current database is back on the exact pre-application links for the pendulum, AC impedance circuit, phototropism plant, metre-rule tension, magnetic-field, starch-test, and `biology_1111` records. This PDF alone must not be used as proof that any old website picture is acceptable.
 
 The only remaining changes from this review are the protective `needs_review` holds on four records with diagram/key conflicts. These holds do not modify their picture, question words, options, answer, explanation, source, or topic. A new image link will be applied only when the exact intended new file is available and it is confirmed against the named row.
-
-## Final owner confirmation — supplied images applied
-
-The owner confirmed that the new PNG files were supplied together with this PDF. The full supplied image set available in this task was therefore deliberately re-applied to its named records after the rollback. These are new direct owner PNG links, not the older website links:
-
-| Owner image | Exact question ID | Current state |
-|---|---|---|
-| `362348.png` | `OWNER-PHY-DIAGRAM-2026-009` | New supplied picture linked; approved. |
-| `362349.png` | `OWNER-PHY-DIAGRAM-2026-013` | New supplied picture linked; approved. |
-| `362350.png` | `OWNER-BIO-DIAGRAM-2026-004` | New supplied picture linked; approved. |
-| `362355.png` | `OWNER-PHY-DIAGRAM-2026-012` | New supplied picture linked; approved. |
-| `362356.png` | `OWNER-PHY-DIAGRAM-2026-015` | New supplied picture linked; approved. |
-| `362357.png` | `OWNER-PHY-DIAGRAM-2026-010` | New supplied picture linked; held for the pre-existing answer conflict. |
-| `362358.png` | `OWNER-BIO-DIAGRAM-2026-006` | New supplied picture linked; approved. |
-| `362361.png` | `biology_1111` | New supplied picture linked; approved. |
-| `362365.png` | `OWNER-BIO-DIAGRAM-2026-007` | New supplied picture linked; held for the pre-existing wording conflict. |
-
-No answer, option, explanation, question text, source, topic, or Lekki Headmaster record changed in this final application.
