@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, ExternalLink, ImageOff, Search, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import type { Subject } from "@/game/types";
@@ -11,10 +11,13 @@ const SUBJECTS: Array<{ value: Subject | "all"; label: string }> = [
 function OwnerDiagramPreview({ src }: { src: string }) {
   const [failed, setFailed] = useState(false);
   const [open, setOpen] = useState(false);
-  const retry = () => setFailed(false);
+  const [reloadToken, setReloadToken] = useState(0);
+  useEffect(() => { setFailed(false); setOpen(false); setReloadToken(0); }, [src]);
+  const imageSrc = `${src}${src.includes("?") ? "&" : "?"}diagramRetry=${reloadToken}`;
+  const retry = () => { setFailed(false); setReloadToken((token) => token + 1); };
   return <>
-    {failed ? <div className="owner-diagram-missing"><ImageOff size={17} /><span>This picture could not open yet.</span><button type="button" onClick={retry}>Try again</button></div> : <figure><button type="button" className="owner-diagram-image-button" onClick={() => setOpen(true)} aria-label="View picture larger"><img key={src} src={src} alt="Owner preview of linked question diagram" loading="eager" decoding="async" onLoad={() => setFailed(false)} onError={() => setFailed(true)} /></button><figcaption><button type="button" className="owner-diagram-view-button" onClick={() => setOpen(true)}>View picture larger <ExternalLink size={13} /></button></figcaption></figure>}
-    {open && !failed && <div className="owner-diagram-lightbox" role="dialog" aria-modal="true" aria-label="Picture viewer" onClick={() => setOpen(false)}><div className="owner-diagram-lightbox-panel" onClick={(event) => event.stopPropagation()}><button type="button" className="owner-diagram-close" onClick={() => setOpen(false)}>Close</button><img src={src} alt="Enlarged owner question diagram" /></div></div>}
+    {failed ? <div className="owner-diagram-missing"><ImageOff size={17} /><span>This picture could not open yet.</span><button type="button" onClick={retry}>Try again</button></div> : <figure><button type="button" className="owner-diagram-image-button" onClick={() => setOpen(true)} aria-label="View picture larger"><img key={imageSrc} src={imageSrc} alt="Owner preview of linked question diagram" loading="eager" decoding="async" onLoad={() => setFailed(false)} onError={() => setFailed(true)} /></button><figcaption><button type="button" className="owner-diagram-view-button" onClick={() => setOpen(true)}>View picture larger <ExternalLink size={13} /></button></figcaption></figure>}
+    {open && !failed && <div className="owner-diagram-lightbox" role="dialog" aria-modal="true" aria-label="Picture viewer" onClick={() => setOpen(false)}><div className="owner-diagram-lightbox-panel" onClick={(event) => event.stopPropagation()}><button type="button" className="owner-diagram-close" onClick={() => setOpen(false)}>Close</button><img src={imageSrc} alt="Enlarged owner question diagram" /></div></div>}
   </>;
 }
 
