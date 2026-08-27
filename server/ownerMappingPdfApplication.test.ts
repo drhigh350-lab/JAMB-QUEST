@@ -30,6 +30,14 @@ const orderedOwnerPhysicsImages = [
   ["362231.png", "OWNER-PHY-DIAGRAM-2026-004"],
 ] as const;
 
+const orderedOwnerBiologyImages = [
+  ["74842a80-a253-11f1-aa24-55c7b9d504e7.png", ["biology_0369", "biology_0413"]],
+  ["a7fcbda0-a253-11f1-aa24-55c7b9d504e7.webp", ["biology_0386"]],
+  ["file_00000000dd9c820a81b85136a84b24c0.png", ["biology_0396"]],
+  ["file_000000007210820ab898d091fd230dab.png", ["biology_0402", "biology_0405"]],
+  ["file_0000000055e481f4bf248f36f734b8f6.png", ["biology_0420"]],
+] as const;
+
 describe("Question-to-image mapping PDF safeguards", () => {
   it("preserves the owner-given four-image order", () => {
     expect(orderedOwnerChemistryImages).toEqual([
@@ -50,6 +58,17 @@ describe("Question-to-image mapping PDF safeguards", () => {
       ["362233.png", "OWNER-PHY-DIAGRAM-2026-002"],
       ["362231.png", "OWNER-PHY-DIAGRAM-2026-004"],
     ]);
+  });
+
+  it("preserves the owner-given five-Biology-image order and shared targets", () => {
+    expect(orderedOwnerBiologyImages).toEqual([
+      ["74842a80-a253-11f1-aa24-55c7b9d504e7.png", ["biology_0369", "biology_0413"]],
+      ["a7fcbda0-a253-11f1-aa24-55c7b9d504e7.webp", ["biology_0386"]],
+      ["file_00000000dd9c820a81b85136a84b24c0.png", ["biology_0396"]],
+      ["file_000000007210820ab898d091fd230dab.png", ["biology_0402", "biology_0405"]],
+      ["file_0000000055e481f4bf248f36f734b8f6.png", ["biology_0420"]],
+    ]);
+    expect(orderedOwnerBiologyImages.flatMap(([, targets]) => targets)).toHaveLength(7);
   });
 
   it("keeps direct, unambiguous replacements separate from key conflicts", () => {

@@ -952,3 +952,9 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Release every remaining owner diagram question from Audit Pages 3–6, including all records currently marked held, into the learner question bank; leave Lekki Headmaster records unchanged and verify the audit queue is empty for this owner diagram set. Superseded by the complete owner-diagram release recorded immediately below; all 46 owner records are approved and removed from the private audit queue.
 
 - [x] Release all remaining owner diagram records from students’ hold state and remove the complete owner diagram set from the private audit queue after the owner confirmed they are clean; preserve every question field and Lekki Headmaster record. All 46 owner diagram records are now approved and excluded from the private diagram audit. Four records still have no stored picture (`OWNER-CHEM-DIAGRAM-2026-005`, `OWNER-CHEM-DIAGRAM-2026-006`, `OWNER-CHEM-DIAGRAM-2026-007`, and `OWNER-PHY-DIAGRAM-2026-014`), so the learner eligibility guard will not show any required-visual one until an owner image exists.
+
+- [ ] Diagnose why the remaining owner diagram images do not open or show, then repair only confirmed broken storage or preview links; preserve all question fields, answers, and Lekki Headmaster records.
+
+- [ ] Audit live open learner feedback reports and unreleased questions, separating real unresolved errors from expected quality holds; make no data changes during the audit.
+
+- [x] Link the five new owner Biology pictures in order: first picture → biology_0369 and biology_0413; second → biology_0386; third → biology_0396; fourth → biology_0402 and biology_0405; fifth → biology_0420. Uploaded first, then changed only diagramUrl; database readback, live HTTP checks, TypeScript, production build, and 147-file/375-test validation passed. All answers, question text, options, explanations, and Lekki Headmaster records were preserved.
