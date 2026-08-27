@@ -70,3 +70,9 @@ The following rows were protected from student practice rather than guessed. The
 | `OWNER-BIO-DIAGRAM-2026-009` | The insect image points label III to the abdomen, but the current saved key identifies label III as thorax. |
 
 `362351.png` remains unassigned because the PDF identifies no exact target. The alternate electrical diagram `362325.png` was not used because the higher-confidence `362288.png` already matches `OWNER-PHY-DIAGRAM-2026-005`. No Lekki Headmaster record was inspected or changed.
+
+## Correction — application reversed
+
+The owner reported that the Row 3 pictures were still old pictures. Therefore, the seven assumed image-link replacements described above were **fully reversed**. The current database is back on the exact pre-application links for the pendulum, AC impedance circuit, phototropism plant, metre-rule tension, magnetic-field, starch-test, and `biology_1111` records. This PDF alone must not be used as proof that any old website picture is acceptable.
+
+The only remaining changes from this review are the protective `needs_review` holds on four records with diagram/key conflicts. These holds do not modify their picture, question words, options, answer, explanation, source, or topic. A new image link will be applied only when the exact intended new file is available and it is confirmed against the named row.
