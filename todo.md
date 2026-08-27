@@ -944,3 +944,5 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [ ] Rebuild only the owner’s intended Row 3 mapping from exact new uploaded files, after the owner identifies the Row 3 pictures and provides or re-sends the matching new files; do not change any answer or Lekki Headmaster record.
 
 - [x] Link the four new owner pictures in the stated order: 361452.png → OWNER-CHEM-DIAGRAM-2026-002; 361425.png → OWNER-CHEM-DIAGRAM-2026-004; 361472.png → OWNER-CHEM-DIAGRAM-2026-008; 362228.png → OWNER-CHEM-DIAGRAM-2026-009. Uploaded first, then updated only diagramUrl; readback confirms the new durable links and unchanged answer indexes. All protected fields and Lekki Headmaster records were preserved.
+
+- [x] Link the three new owner Physics pictures in the stated order: 362227.png → OWNER-PHY-DIAGRAM-2026-001; 362233.png → OWNER-PHY-DIAGRAM-2026-002; 362231.png → OWNER-PHY-DIAGRAM-2026-004. Uploaded first, then updated only diagramUrl; readback and live HTTP checks passed, with unchanged answers, question text, options, explanations, and Lekki Headmaster records.

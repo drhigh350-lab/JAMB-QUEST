@@ -24,6 +24,12 @@ const orderedOwnerChemistryImages = [
   ["362228.png", "OWNER-CHEM-DIAGRAM-2026-009"],
 ] as const;
 
+const orderedOwnerPhysicsImages = [
+  ["362227.png", "OWNER-PHY-DIAGRAM-2026-001"],
+  ["362233.png", "OWNER-PHY-DIAGRAM-2026-002"],
+  ["362231.png", "OWNER-PHY-DIAGRAM-2026-004"],
+] as const;
+
 describe("Question-to-image mapping PDF safeguards", () => {
   it("preserves the owner-given four-image order", () => {
     expect(orderedOwnerChemistryImages).toEqual([
@@ -36,6 +42,14 @@ describe("Question-to-image mapping PDF safeguards", () => {
 
   it("keeps direct owner image files separate from old website links", () => {
     expect(orderedOwnerChemistryImages.every(([file]) => /^\d+\.png$/.test(file))).toBe(true);
+  });
+
+  it("preserves the owner-given three-Physics-image order", () => {
+    expect(orderedOwnerPhysicsImages).toEqual([
+      ["362227.png", "OWNER-PHY-DIAGRAM-2026-001"],
+      ["362233.png", "OWNER-PHY-DIAGRAM-2026-002"],
+      ["362231.png", "OWNER-PHY-DIAGRAM-2026-004"],
+    ]);
   });
 
   it("keeps direct, unambiguous replacements separate from key conflicts", () => {
