@@ -10,8 +10,12 @@ const SUBJECTS: Array<{ value: Subject | "all"; label: string }> = [
 
 function OwnerDiagramPreview({ src }: { src: string }) {
   const [failed, setFailed] = useState(false);
-  if (failed) return <div className="owner-diagram-missing"><ImageOff size={17} /><span>This picture could not open. Use “Open picture” to try it again.</span><a href={src} target="_blank" rel="noreferrer">Open picture <ExternalLink size={13} /></a></div>;
-  return <figure><img src={src} alt="Owner preview of linked question diagram" loading="lazy" onError={() => setFailed(true)} /><figcaption><a href={src} target="_blank" rel="noreferrer">Open picture <ExternalLink size={13} /></a></figcaption></figure>;
+  const [open, setOpen] = useState(false);
+  const retry = () => setFailed(false);
+  return <>
+    {failed ? <div className="owner-diagram-missing"><ImageOff size={17} /><span>This picture could not open yet.</span><button type="button" onClick={retry}>Try again</button></div> : <figure><button type="button" className="owner-diagram-image-button" onClick={() => setOpen(true)} aria-label="View picture larger"><img key={src} src={src} alt="Owner preview of linked question diagram" loading="eager" decoding="async" onLoad={() => setFailed(false)} onError={() => setFailed(true)} /></button><figcaption><button type="button" className="owner-diagram-view-button" onClick={() => setOpen(true)}>View picture larger <ExternalLink size={13} /></button></figcaption></figure>}
+    {open && !failed && <div className="owner-diagram-lightbox" role="dialog" aria-modal="true" aria-label="Picture viewer" onClick={() => setOpen(false)}><div className="owner-diagram-lightbox-panel" onClick={(event) => event.stopPropagation()}><button type="button" className="owner-diagram-close" onClick={() => setOpen(false)}>Close</button><img src={src} alt="Enlarged owner question diagram" /></div></div>}
+  </>;
 }
 
 export function OwnerDiagramAudit({ isOwner }: { isOwner: boolean }) {
