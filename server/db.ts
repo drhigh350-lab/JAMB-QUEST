@@ -1364,8 +1364,8 @@ const OWNER_VERIFIED_PAGE_ONE_AND_TWO_IDS = new Set([
   "OWNER-BIO-DIAGRAM-2025-007",
   "OWNER-BIO-DIAGRAM-2025-008",
 ]);
-// Exact current records from the two owner-approved audit pages. They remain
-// available to learners but no longer need to occupy the private audit queue.
+// Exact records the owner has confirmed are ready. They remain available to
+// learners and no longer need to occupy the private audit queue.
 const OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS = new Set([
   "biology-dr-high-0012", "biology-dr-high-0013", "supplied-keyed-2004-biology-003",
   "supplied-keyed-2004-biology-004", "supplied-keyed-2004-biology-008", "supplied-keyed-2004-biology-009",
@@ -1387,7 +1387,7 @@ const OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS = new Set([
 ]);
 
 export function isReleasedFromOwnerDiagramAudit(externalId?: string) {
-  return Boolean(externalId && OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS.has(externalId));
+  return Boolean(externalId && (OWNER_AUDIT_RELEASED_PAGE_ONE_AND_TWO_IDS.has(externalId) || OWNER_REJECTED_SCREENSHOT_BATCH.test(externalId)));
 }
 
 export function requiresDiagramAsset(questionText: string) {

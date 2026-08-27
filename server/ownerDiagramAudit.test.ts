@@ -31,11 +31,13 @@ describe("owner-only diagram audit desk", () => {
     expect(home).toContain("<OwnerDiagramAudit isOwner={isOwner} />");
   });
 
-  it("removes only the ready first-two-page records from the owner audit queue", () => {
+  it("removes all owner diagram records from the audit queue after owner confirmation", () => {
     expect(isReleasedFromOwnerDiagramAudit("biology-dr-high-0012")).toBe(true);
     expect(isReleasedFromOwnerDiagramAudit("OWNER-BIO-DIAGRAM-2025-007")).toBe(true);
-    expect(isReleasedFromOwnerDiagramAudit("OWNER-BIO-DIAGRAM-2025-008")).toBe(false);
-    expect(isReleasedFromOwnerDiagramAudit("OWNER-PHY-DIAGRAM-2026-007")).toBe(false);
+    expect(isReleasedFromOwnerDiagramAudit("OWNER-BIO-DIAGRAM-2025-008")).toBe(true);
+    expect(isReleasedFromOwnerDiagramAudit("OWNER-CHEM-DIAGRAM-2026-009")).toBe(true);
+    expect(isReleasedFromOwnerDiagramAudit("OWNER-PHY-DIAGRAM-2026-007")).toBe(true);
+    expect(isReleasedFromOwnerDiagramAudit("OWNER-PHY-DIAGRAM-2026-014")).toBe(true);
     expect(isReleasedFromOwnerDiagramAudit("lekki-headmaster-001")).toBe(false);
   });
 });
