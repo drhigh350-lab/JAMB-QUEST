@@ -8,13 +8,19 @@ const SUBJECTS: Array<{ value: Subject | "all"; label: string }> = [
   { value: "all", label: "All subjects" }, { value: "Use of English", label: "Use of English" }, { value: "Biology", label: "Biology" }, { value: "Chemistry", label: "Chemistry" }, { value: "Physics", label: "Physics" },
 ];
 
+function OwnerDiagramPreview({ src }: { src: string }) {
+  const [failed, setFailed] = useState(false);
+  if (failed) return <div className="owner-diagram-missing"><ImageOff size={17} /><span>This picture could not open. Use “Open picture” to try it again.</span><a href={src} target="_blank" rel="noreferrer">Open picture <ExternalLink size={13} /></a></div>;
+  return <figure><img src={src} alt="Owner preview of linked question diagram" loading="lazy" onError={() => setFailed(true)} /><figcaption><a href={src} target="_blank" rel="noreferrer">Open picture <ExternalLink size={13} /></a></figcaption></figure>;
+}
+
 export function OwnerDiagramAudit({ isOwner }: { isOwner: boolean }) {
   const [subject, setSubject] = useState<Subject | "all">("all");
   const [state, setState] = useState<"all" | "missing" | "linked">("all");
   const [searchDraft, setSearchDraft] = useState("");
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(0);
-  const pageSize = 12;
+  const pageSize = 20;
   const query = trpc.qualityReview.diagramAuditPage.useQuery({ subject, state, search, page, pageSize }, { enabled: isOwner, retry: false });
   const pageCount = useMemo(() => Math.max(1, Math.ceil((query.data?.total ?? 0) / pageSize)), [query.data?.total]);
   if (!isOwner) return null;
@@ -34,7 +40,7 @@ export function OwnerDiagramAudit({ isOwner }: { isOwner: boolean }) {
         <div className="owner-diagram-counts"><span><b>{query.data?.total ?? 0}</b> diagram questions</span><span className="missing"><b>{query.data?.missingCount ?? 0}</b> need a real picture</span><span className="linked"><b>{query.data?.linkedCount ?? 0}</b> have a picture link</span></div>
         <div className="owner-diagram-list">{query.data?.records.map((record) => <details key={record.id} className="owner-diagram-card" open={record.id === query.data.records[0]?.id}>
           <summary><span className={record.diagramUrl ? "diagram-state-linked" : "diagram-state-missing"}>{record.diagramUrl ? "HAS PICTURE" : "NEEDS PICTURE"}</span><span><b>{record.externalId}</b><small>{record.subject} · {record.topic}</small></span><em className={record.learnerVisible ? "learner-visible" : "learner-held"}>{record.learnerVisible ? "Students can see" : "Held from students"}</em></summary>
-          <div className="owner-diagram-card-body"><p>{record.question}</p>{record.diagramUrl ? <figure><img src={record.diagramUrl} alt="Owner preview of linked question diagram" /><figcaption><a href={record.diagramUrl} target="_blank" rel="noreferrer">Open picture <ExternalLink size={13} /></a></figcaption></figure> : <div className="owner-diagram-missing"><ImageOff size={17} /><span>No safe picture is linked. Keep this question out of student practice until you have the real one.</span></div>}<ol type="A">{record.options.map((option, index) => <li key={`${record.id}-${index}`} className={index === record.answerIndex ? "answer" : ""}>{option}{index === record.answerIndex && <b>Saved answer</b>}</li>)}</ol><div className="owner-diagram-source"><span><b>Source:</b> {record.sourceLabel}</span><span><b>Status:</b> {record.explanationStatus}</span></div></div>
+          <div className="owner-diagram-card-body"><p>{record.question}</p>{record.diagramUrl ? <OwnerDiagramPreview src={record.diagramUrl} /> : <div className="owner-diagram-missing"><ImageOff size={17} /><span>No safe picture is linked. Keep this question out of student practice until you have the real one.</span></div>}<ol type="A">{record.options.map((option, index) => <li key={`${record.id}-${index}`} className={index === record.answerIndex ? "answer" : ""}>{option}{index === record.answerIndex && <b>Saved answer</b>}</li>)}</ol><div className="owner-diagram-source"><span><b>Source:</b> {record.sourceLabel}</span><span><b>Status:</b> {record.explanationStatus}</span></div></div>
         </details>)}{!query.data?.records.length && <p className="compact-empty">No diagram questions match this search.</p>}</div>
         {(query.data?.total ?? 0) > pageSize && <div className="owner-diagram-pagination"><button disabled={page === 0} onClick={() => setPage((current) => Math.max(0, current - 1))}><ArrowLeft size={15} /> Previous</button><span>Page {page + 1} of {pageCount}</span><button disabled={page >= pageCount - 1} onClick={() => setPage((current) => Math.min(pageCount - 1, current + 1))}>Next <ArrowRight size={15} /></button></div>}
       </>}

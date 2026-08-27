@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-27T12:07:05.438Z",
+  "target": "OWNER-BIO-DIAGRAM-2025-007",
+  "id": 1170007,
+  "changedFields": [
+    "answerIndex",
+    "explanation"
+  ],
+  "oldAnswerIndex": 3,
+  "newAnswerIndex": 1,
+  "protectedFieldsVerified": true,
+  "lekkiHeadmasterTouched": false,
+  "idempotentRerunGuard": "requires the old answer index and would make zero changes on a safe rerun"
+}
