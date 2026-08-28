@@ -153,6 +153,40 @@ export const questionItems = mysqlTable("questionItems", {
 });
 
 /**
+ * Public Arcade challenges contain only approved JAMB Quest question IDs.
+ * The question ID snapshot keeps a shared challenge stable even if the bank is updated later.
+ */
+export const publicChallenges = mysqlTable("publicChallenges", {
+  id: int("id").autoincrement().primaryKey(),
+  challengeCode: varchar("challengeCode", { length: 16 }).notNull().unique(),
+  creatorUserId: int("creatorUserId").notNull().references(() => users.id),
+  challengeName: varchar("challengeName", { length: 80 }).notNull(),
+  subjectScope: varchar("subjectScope", { length: 160 }).notNull(),
+  questionIdsJson: text("questionIdsJson").notNull(),
+  questionCount: int("questionCount").notNull(),
+  status: mysqlEnum("status", ["open", "closed"]).notNull().default("open"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  closedAt: timestamp("closedAt"),
+});
+
+/**
+ * Completed public challenge attempts feed the global leaderboard.
+ * A nullable user ID allows a friend to play with a display name before signing in.
+ */
+export const challengeAttempts = mysqlTable("challengeAttempts", {
+  id: int("id").autoincrement().primaryKey(),
+  attemptToken: varchar("attemptToken", { length: 96 }).notNull().unique(),
+  challengeId: int("challengeId").notNull().references(() => publicChallenges.id),
+  participantUserId: int("participantUserId").references(() => users.id),
+  participantName: varchar("participantName", { length: 48 }).notNull(),
+  answerJson: text("answerJson").notNull(),
+  correctCount: int("correctCount").notNull(),
+  score: int("score").notNull(),
+  durationSeconds: int("durationSeconds").notNull().default(0),
+  completedAt: timestamp("completedAt").defaultNow().notNull(),
+});
+
+/**
  * The learner’s daily study system: target, streak resilience, and the accumulated comeback identity.
  */
 export const learnerSystems = mysqlTable("learnerSystems", {
@@ -275,6 +309,10 @@ export const projectPushConfigs = mysqlTable("projectPushConfigs", {
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });
 
+export type PublicChallenge = typeof publicChallenges.$inferSelect;
+export type InsertPublicChallenge = typeof publicChallenges.$inferInsert;
+export type ChallengeAttempt = typeof challengeAttempts.$inferSelect;
+export type InsertChallengeAttempt = typeof challengeAttempts.$inferInsert;
 export type LearnerProfile = typeof learnerProfiles.$inferSelect;
 export type LearnerProgress = typeof learnerProgress.$inferSelect;
 export type QuizRound = typeof quizRounds.$inferSelect;

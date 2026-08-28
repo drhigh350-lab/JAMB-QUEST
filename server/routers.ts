@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import { confirmProviderEnrollment, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
+import {   confirmProviderEnrollment, createPublicChallenge, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getPublicChallenge, getPublicChallengeLeaderboard, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, submitPublicChallengeAttempt, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -96,6 +96,20 @@ export const appRouter = router({
   push: router({
     publicKey: publicProcedure.query(() => getWebPushPublicKey()),
     oneSignalAppId: publicProcedure.query(() => getOneSignalAppId()),
+  }),
+  challenges: router({
+    create: protectedProcedure.input(z.object({
+      challengeName: z.string().trim().min(2).max(80),
+      questionIds: z.array(z.string().trim().min(1).max(128)).min(5).max(30),
+    })).mutation(({ ctx, input }) => createPublicChallenge(ctx.user.id, input.challengeName, input.questionIds)),
+    get: publicProcedure.input(z.object({ challengeCode: z.string().trim().min(6).max(16) })).query(({ input }) => getPublicChallenge(input.challengeCode)),
+    leaderboard: publicProcedure.input(z.object({ challengeCode: z.string().trim().min(6).max(16) })).query(({ input }) => getPublicChallengeLeaderboard(input.challengeCode)),
+    submit: publicProcedure.input(z.object({
+      challengeCode: z.string().trim().min(6).max(16),
+      participantName: z.string().trim().min(1).max(48),
+      answers: z.array(z.object({ questionId: z.string().min(1).max(128), selectedIndex: z.number().int().min(0).max(4).nullable() })).max(30),
+      durationSeconds: z.number().int().min(0).max(21_600),
+    })).mutation(({ ctx, input }) => submitPublicChallengeAttempt(ctx.user?.id ?? null, input.challengeCode, input.participantName, input.answers, input.durationSeconds)),
   }),
   qualityReview: router({
     questionReports: adminProcedure.query(() => getOwnerQuestionReports()),

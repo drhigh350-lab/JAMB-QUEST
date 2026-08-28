@@ -1,12 +1,13 @@
 /* Field Notes Arcade: database helpers keep learner identity, revision ledger, question provenance, and comeback system explicit. */
 
-import { and, desc, eq, gt, inArray, isNull } from "drizzle-orm";
+import { and, asc, desc, eq, gt, inArray, isNull } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { createHash } from "node:crypto";
+import { createHash, randomBytes } from "node:crypto";
 import mysql, { type Pool } from "mysql2";
 import webpush, { type PushSubscription } from "web-push";
 import {
   InsertUser,
+  challengeAttempts,
   learnerAchievements,
   learnerBookmarks,
   learnerDailyActivities,
@@ -19,6 +20,7 @@ import {
   learnerReminderPreferences,
   learnerSystems,
   projectPushConfigs,
+  publicChallenges,
   questionImports,
   questionItems,
   questionSources,
@@ -32,6 +34,59 @@ import { resolveSyllabusTopic, type SyllabusSubject } from "../shared/syllabusTo
 
 let _db: ReturnType<typeof drizzle> | null = null;
 let _pool: Pool | null = null;
+
+export type ChallengeQuestion = {
+  questionId: string;
+  subject: string;
+  topic: string;
+  difficulty: string;
+  questionText: string;
+  options: string[];
+  diagramUrl?: string;
+};
+
+export type ChallengeLeaderboardRow = {
+  rank: number;
+  participantName: string;
+  correctCount: number;
+  questionCount: number;
+  score: number;
+  durationSeconds: number;
+  completedAt: Date;
+};
+
+export function cleanChallengeName(value: string) {
+  return value.trim().replace(/\s+/g, " ").slice(0, 80);
+}
+
+export function calculateChallengeScore(correctCount: number, durationSeconds: number) {
+  const safeCorrect = Math.max(0, Math.round(correctCount));
+  const safeDuration = Math.max(0, Math.min(21600, Math.round(durationSeconds)));
+  return safeCorrect * 1000 + Math.max(0, 600 - safeDuration);
+}
+
+function parseOptions(options: unknown) {
+  if (Array.isArray(options)) return options.map((option) => String(option));
+  if (typeof options !== "string") return [];
+  try {
+    const parsed = JSON.parse(options);
+    return Array.isArray(parsed) ? parsed.map((option) => String(option)) : [];
+  } catch {
+    return [];
+  }
+}
+
+function toChallengeQuestion(row: { id: string; subject: string; topic: string; difficulty: string; question: string; options: string[]; diagram_url?: string }): ChallengeQuestion {
+  return {
+    questionId: row.id,
+    subject: row.subject,
+    topic: row.topic,
+    difficulty: row.difficulty,
+    questionText: row.question,
+    options: parseOptions(row.options),
+    diagramUrl: row.diagram_url,
+  };
+}
 
 export type LedgerSnapshot = {
   totalAnswered: number;
@@ -1307,6 +1362,79 @@ export async function sendDailyDirectBrowserReminders(window: ReminderWindow) {
     } else skipped += 1;
   }
   return { window, sent, skipped, totalEnabled: preferences.length, transport: "direct-browser" as const };
+}
+
+export async function createPublicChallenge(userId: number, challengeName: string, questionIds: string[]) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const uniqueIds = Array.from(new Set(questionIds));
+  if (uniqueIds.length < 5 || uniqueIds.length > 30) throw new Error("Choose between 5 and 30 JAMB Quest questions.");
+  const playable = await getPlayableAuthorisedQuestions();
+  const selected = playable.filter((question) => uniqueIds.includes(question.id));
+  if (selected.length !== uniqueIds.length) throw new Error("Every challenge question must be an approved JAMB Quest question.");
+  const selectedById = new Map(selected.map((question) => [question.id, question]));
+  const orderedIds = uniqueIds.filter((id) => selectedById.has(id));
+  const subjectScope = Array.from(new Set(selected.map((question) => question.subject))).sort().join(", ");
+  const safeName = cleanChallengeName(challengeName);
+  if (safeName.length < 2) throw new Error("Give your challenge a name.");
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    const challengeCode = randomBytes(5).toString("hex").toUpperCase();
+    try {
+      const created = await db.insert(publicChallenges).values({ challengeCode, creatorUserId: userId, challengeName: safeName, subjectScope, questionIdsJson: JSON.stringify(orderedIds), questionCount: orderedIds.length }).$returningId();
+      return { challengeCode, challengeName: safeName, subjectScope, questionCount: orderedIds.length, questions: orderedIds.map((id) => toChallengeQuestion(selectedById.get(id)!)) };
+    } catch (error) {
+      if (attempt === 4) throw error;
+    }
+  }
+  throw new Error("Could not create the challenge.");
+}
+
+async function findPublicChallenge(challengeCode: string) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const rows = await db.select().from(publicChallenges).where(eq(publicChallenges.challengeCode, challengeCode.trim().toUpperCase())).limit(1);
+  const challenge = rows[0];
+  if (!challenge || challenge.status !== "open") throw new Error("This challenge is not available.");
+  let questionIds: string[];
+  try { questionIds = JSON.parse(challenge.questionIdsJson); } catch { throw new Error("This challenge has invalid questions."); }
+  if (!Array.isArray(questionIds) || questionIds.length !== challenge.questionCount) throw new Error("This challenge has invalid questions.");
+  return { db, challenge, questionIds };
+}
+
+export async function getPublicChallenge(challengeCode: string) {
+  const { challenge, questionIds } = await findPublicChallenge(challengeCode);
+  const playable = await getPlayableAuthorisedQuestions();
+  const byId = new Map(playable.map((question) => [question.id, question]));
+  const questions = questionIds.map((id) => byId.get(id)).filter((question): question is NonNullable<typeof question> => Boolean(question));
+  if (questions.length !== questionIds.length) throw new Error("This challenge contains a question that is no longer available.");
+  return { challengeCode: challenge.challengeCode, challengeName: challenge.challengeName, subjectScope: challenge.subjectScope, questionCount: challenge.questionCount, createdAt: challenge.createdAt, questions: questions.map((question) => toChallengeQuestion(question)) };
+}
+
+export async function submitPublicChallengeAttempt(userId: number | null, challengeCode: string, participantName: string, answers: Array<{ questionId: string; selectedIndex: number | null }>, durationSeconds: number) {
+  const { db, challenge, questionIds } = await findPublicChallenge(challengeCode);
+  const playable = await getPlayableAuthorisedQuestions();
+  const byId = new Map(playable.map((question) => [question.id, question]));
+  const questions = questionIds.map((id) => byId.get(id)).filter((question): question is NonNullable<typeof question> => Boolean(question));
+  if (questions.length !== questionIds.length) throw new Error("This challenge contains a question that is no longer available.");
+  if (userId) {
+    const existing = await db.select({ id: challengeAttempts.id }).from(challengeAttempts).where(and(eq(challengeAttempts.challengeId, challenge.id), eq(challengeAttempts.participantUserId, userId))).limit(1);
+    if (existing.length) throw new Error("You have already completed this challenge.");
+  }
+  const answerMap = new Map(answers.map((answer) => [answer.questionId, answer.selectedIndex]));
+  const correctCount = questions.reduce((count, question) => count + (answerMap.get(question.id) === question.answer_index ? 1 : 0), 0);
+  const safeDuration = Math.max(0, Math.min(21600, Math.round(durationSeconds)));
+  const score = calculateChallengeScore(correctCount, safeDuration);
+  const safeName = participantName.trim().replace(/\s+/g, " ").slice(0, 48);
+  if (safeName.length < 1) throw new Error("Enter your name for the leaderboard.");
+  const attemptToken = randomBytes(18).toString("hex");
+  await db.insert(challengeAttempts).values({ attemptToken, challengeId: challenge.id, participantUserId: userId, participantName: safeName, answerJson: JSON.stringify(questionIds.map((questionId) => ({ questionId, selectedIndex: answerMap.get(questionId) ?? null }))), correctCount, score, durationSeconds: safeDuration });
+  return { attemptToken, correctCount, questionCount: questionIds.length, score, durationSeconds: safeDuration, participantName: safeName };
+}
+
+export async function getPublicChallengeLeaderboard(challengeCode: string) {
+  const { db, challenge } = await findPublicChallenge(challengeCode);
+  const rows = await db.select({ participantName: challengeAttempts.participantName, correctCount: challengeAttempts.correctCount, score: challengeAttempts.score, durationSeconds: challengeAttempts.durationSeconds, completedAt: challengeAttempts.completedAt }).from(challengeAttempts).where(eq(challengeAttempts.challengeId, challenge.id)).orderBy(desc(challengeAttempts.score), asc(challengeAttempts.durationSeconds), asc(challengeAttempts.completedAt)).limit(100);
+  return rows.map((row, index) => ({ ...row, rank: index + 1, questionCount: challenge.questionCount }));
 }
 
 export async function getQuestionSourceCatalogue() {

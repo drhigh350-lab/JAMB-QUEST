@@ -15,6 +15,7 @@ import { downloadAchievementShareCard, shareAchievementShareCard } from "@/game/
 import { OfflineStudyPackPanel, type PwaControls } from "@/components/OfflineStudyPackPanel";
 import { QuestRush } from "@/components/QuestRush";
 import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
+import { ChallengeMode } from "@/components/ChallengeMode";
 import { PresidentsDesk } from "@/components/PresidentsDesk";
 import { GreatArchive } from "@/components/GreatArchive";
 import { SyllabusJourney } from "@/components/SyllabusJourney";
@@ -139,7 +140,9 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [customGoalError, setCustomGoalError] = useState("");
   const [achievementDownloaded, setAchievementDownloaded] = useState(false);
   const [arcadeMode, setArcadeMode] = useState<ArcadeMode | null>(null);
+  const sharedChallengeCode = typeof window !== "undefined" ? new URLSearchParams(window.location.search).get("challenge")?.toUpperCase() ?? "" : "";
   const [gameArcadeOpen, setGameArcadeOpen] = useState(false);
+  const [challengeOpen, setChallengeOpen] = useState(Boolean(sharedChallengeCode));
   const [syllabusJourneyOpen, setSyllabusJourneyOpen] = useState(false);
   const [topicDrillOpen, setTopicDrillOpen] = useState(false);
   const [onboardingDismissed, setOnboardingDismissed] = useState(() => typeof window !== "undefined" && window.localStorage.getItem("jamb-quest-onboarding-v1") === "done");
@@ -232,7 +235,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   }} />;
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
-  if (gameArcadeOpen) return <GameArcade onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
+  if (challengeOpen) return <ChallengeMode questions={activeQuestions} initialCode={sharedChallengeCode} onExit={() => { setChallengeOpen(false); if (sharedChallengeCode) window.history.replaceState({}, "", window.location.pathname); }} />;
+  if (gameArcadeOpen) return <GameArcade questions={activeQuestions} onChallenge={() => { setGameArcadeOpen(false); setChallengeOpen(true); }} onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
   if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("practice"); }} onStart={onStart} />;
   if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("practice"); }} />;
 
