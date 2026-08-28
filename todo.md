@@ -963,3 +963,4 @@ Note: the achievement-sharing release is implemented locally but still requires 
 
 - [x] Fix shared Challenge Mode links so the question picker is not English-only and the shared page clearly shows join, leaderboard, and set-challenge controls. Challenge Mode now receives the complete approved pool: Biology 2,484, Chemistry 2,394, Physics 1,967, and Use of English 1,531; shared links land on visible play, leaderboard, and create-your-own controls.
 - [x] Add regression coverage for multi-subject Challenge Mode loading and visible shared-link action controls. The suite now includes the client wiring contract and passed 149 Vitest files / 380 tests, TypeScript, production build, and visual shell verification.
+- [x] Start the shared challenge timer only when the learner presses Play, not while the shared-link landing page is still open. Focused tests, full 149-file suite, TypeScript, and production build passed.

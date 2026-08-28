@@ -48,10 +48,6 @@ export function ChallengeMode({ questions, onExit, initialCode = "" }: Challenge
   const pickerSubjects = useMemo(() => ["All", ...Array.from(new Set(questions.map((question) => question.subject)))], [questions]);
   const pickerQuestions = useMemo(() => questions.filter((question) => pickerSubject === "All" || question.subject === pickerSubject).slice(0, 60), [pickerSubject, questions]);
 
-  useEffect(() => {
-    if (initialCode && challengeQuery.data) setStartedAt(Date.now());
-  }, [initialCode, challengeQuery.data]);
-
   const toggleQuestion = (id: string) => {
     setSelectedIds((current) => current.includes(id) ? current.filter((item) => item !== id) : current.length < 30 ? [...current, id] : current);
   };
