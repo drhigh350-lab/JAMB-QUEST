@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { startLogin } from "@/const";
-import { ArrowRight, Atom, Award, BellOff, BellRing, BookmarkCheck, BookOpen, CalendarCheck2, CheckCircle2, CircleHelp, CircleUserRound, Clock3, Download, Flame, FlaskConical, Leaf, ListChecks, LogIn, Map as MapIcon, Medal, RotateCcw, Send, Share2, ShieldCheck, Sparkles, Target, Trophy, Wifi, WifiOff, Zap } from "lucide-react";
+import { ArrowRight, Atom, Award, BellOff, BellRing, BookmarkCheck, BookOpen, CalendarCheck2, CheckCircle2, CircleHelp, CircleUserRound, Clock3, Download, Flame, FlaskConical, Leaf, ListChecks, LogIn, Map as MapIcon, Medal, RotateCcw, Send, Share2, ShieldCheck, Sparkles, Swords, Target, Trophy, Wifi, WifiOff, Zap } from "lucide-react";
 import { ProfilePanel } from "@/components/ProfilePanel";
 import { DailyMissionPanel } from "@/components/DailyMissionPanel";
 import { ProgressSignals } from "@/components/ProgressSignals";
@@ -44,7 +44,7 @@ const badgeDefinitions = [
   { key: "hundred-mark-club", label: "1,000 XP", note: "Earn serious JAMB momentum", icon: Medal },
 ];
 
-type AppTab = "practice" | "progress" | "profile" | "about";
+type AppTab = "practice" | "arcade" | "progress" | "profile" | "about";
 
 function formatCbtTime(seconds: number) {
   const safeSeconds = Math.max(0, Math.round(seconds));
@@ -141,7 +141,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   const [achievementDownloaded, setAchievementDownloaded] = useState(false);
   const [arcadeMode, setArcadeMode] = useState<ArcadeMode | null>(null);
   const sharedChallengeCode = typeof window !== "undefined" ? new URLSearchParams(window.location.search).get("challenge")?.toUpperCase() ?? "" : "";
-  const [gameArcadeOpen, setGameArcadeOpen] = useState(false);
+
   const [challengeOpen, setChallengeOpen] = useState(Boolean(sharedChallengeCode));
   const [syllabusJourneyOpen, setSyllabusJourneyOpen] = useState(false);
   const [topicDrillOpen, setTopicDrillOpen] = useState(false);
@@ -193,7 +193,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     return () => window.cancelAnimationFrame(frame);
   }, []);
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
-    { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
+    { id: "practice", label: "Practice", icon: BookOpen }, { id: "arcade", label: "Arcade", icon: Swords }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
   const pushFeedbackMessages: Partial<Record<HomeProps["pushStatus"], string>> = {
     unsupported: "This browser cannot receive push reminders. Your in-app daily system still works.", denied: "Browser notifications were declined. You can enable them later in your browser settings.", failed: "The reminder could not be set up on this device. Please try again later.", enabled: "JAMB Quest browser reminders are enabled on this device. The Lagos daily timetable is active.", disabled: "Browser reminders are off for this device. Your in-app system stays active.", "test-sent": "Test reminder sent. Check this device’s notification shade now.", "test-failed": "No reminder reached this device. Re-enable notifications and try the test again.",
@@ -236,8 +236,8 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "president") return <PresidentsDesk questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   const arcadeQuestions = challengeQuestions.length ? challengeQuestions : activeQuestions;
-  if (challengeOpen) return <ChallengeMode questions={arcadeQuestions} initialCode={sharedChallengeCode} onExit={() => { setChallengeOpen(false); if (sharedChallengeCode) window.history.replaceState({}, "", window.location.pathname); }} />;
-  if (gameArcadeOpen) return <GameArcade questions={arcadeQuestions} onChallenge={() => { setGameArcadeOpen(false); setChallengeOpen(true); }} onExit={() => setGameArcadeOpen(false)} onSelect={(mode) => { setGameArcadeOpen(false); setArcadeMode(mode); }} />;
+  if (challengeOpen) return <ChallengeMode questions={arcadeQuestions} initialCode={sharedChallengeCode} onExit={() => { setChallengeOpen(false); setActiveTab("arcade"); if (sharedChallengeCode) window.history.replaceState({}, "", window.location.pathname); }} />;
+  if (activeTab === "arcade") return <GameArcade questions={arcadeQuestions} onChallenge={() => setChallengeOpen(true)} onExit={() => setActiveTab("practice")} onSelect={(mode) => setArcadeMode(mode)} />;
   if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("practice"); }} onStart={onStart} />;
   if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("practice"); }} />;
 
@@ -313,7 +313,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
           </CompactPanel>
 
           <CompactPanel eyebrow="03 / STUDY TOOLS" title="Go deeper with the syllabus" note="Topic Drill, Syllabus Journey, and Game Arcade are separate practice tools. Open one only when it serves today’s work." tone="maize">
-            <section className="study-destination-grid practice-study-destinations" aria-label="Study tools inside Practice"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Take one official syllabus area, or refine it to one specific topic, in an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read the learning objective, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button><button data-testid="game-arcade-destination" className="study-destination-card study-destination-game" onClick={() => setGameArcadeOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 5}><Sparkles size={22} /><span><b>Game Arcade</b><small>Take a different revision break with a fresh approved question mix.</small></span><ArrowRight size={18} /></button></section>
+            <section className="study-destination-grid practice-study-destinations" aria-label="Study tools inside Practice"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Take one official syllabus area, or refine it to one specific topic, in an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read the learning objective, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button></section>
           </CompactPanel>
 
         </section>

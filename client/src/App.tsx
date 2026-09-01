@@ -47,9 +47,9 @@ function App() {
   const serviceWorkerRegistrationRef = useRef<ServiceWorkerRegistration | null>(null);
   const [showOpening, setShowOpening] = useState(() => shouldShowQuestOpening(window.location.search));
   const [examReviewError, setExamReviewError] = useState<string | null>(null);
-  const [homeTab, setHomeTab] = useState<"practice" | "progress" | "profile" | "about">(() => {
+  const [homeTab, setHomeTab] = useState<"practice" | "arcade" | "progress" | "profile" | "about">(() => {
     const requested = new URLSearchParams(window.location.search).get("tab");
-    return requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
+    return requested === "arcade" || requested === "progress" || requested === "profile" || requested === "about" ? requested : "practice";
   });
   const cbtHistoryQuery = trpc.learner.cbtHistory.useQuery(undefined, { enabled: isAuthenticated, retry: false });
   const pushKeyQuery = trpc.push.publicKey.useQuery(undefined, { enabled: isAuthenticated, retry: false });

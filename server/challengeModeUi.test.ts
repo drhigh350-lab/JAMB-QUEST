@@ -4,6 +4,8 @@ import { describe, expect, it } from "vitest";
 const home = readFileSync(new URL("../client/src/pages/Home.tsx", import.meta.url), "utf8");
 const app = readFileSync(new URL("../client/src/App.tsx", import.meta.url), "utf8");
 const challenge = readFileSync(new URL("../client/src/components/ChallengeMode.tsx", import.meta.url), "utf8");
+const vercel = JSON.parse(readFileSync(new URL("../vercel.json", import.meta.url), "utf8")) as { buildCommand: string; outputDirectory: string; installCommand: string };
+const handover = readFileSync(new URL("../OWNER_AND_VERCEL.md", import.meta.url), "utf8");
 
 describe("Challenge Mode shared-link UI contract", () => {
   it("passes the complete approved bank separately from the normal game list", () => {
@@ -17,5 +19,19 @@ describe("Challenge Mode shared-link UI contract", () => {
     expect(challenge).toContain("Play this challenge");
     expect(challenge).toContain("See leaderboard");
     expect(challenge).toContain("Create your own");
+  });
+
+  it("keeps Arcade out of Practice and exposes it as its own tab", () => {
+    expect(home).toContain('{ id: "arcade", label: "Arcade", icon: Swords }');
+    expect(home).toContain('if (activeTab === "arcade") return <GameArcade');
+    expect(home).not.toContain('data-testid="game-arcade-destination"');
+  });
+
+  it("keeps the Vercel handover explicit and buildable", () => {
+    expect(vercel.installCommand).toBe("pnpm install --frozen-lockfile");
+    expect(vercel.buildCommand).toBe("pnpm run build");
+    expect(vercel.outputDirectory).toBe("dist/public");
+    expect(handover).toContain("frontend-only Vercel deployment is not a complete JAMB Quest deployment");
+    expect(handover).toContain("The repository is `drhigh350-lab/JAMB-QUEST`");
   });
 });

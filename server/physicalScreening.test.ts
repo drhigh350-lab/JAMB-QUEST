@@ -26,7 +26,7 @@ describe("owner physical-screening corrections", () => {
     expect(home).toContain('<span>study level</span>');
   });
 
-  it("keeps Practice concise while grouping its three optional Study tools in a separate compact panel", () => {
+  it("keeps Practice concise while grouping its two optional study tools and keeps Arcade separate", () => {
     const home = readFileSync("client/src/pages/Home.tsx", "utf8");
     expect(home).toContain("Choose a practice path or go deeper with the official syllabus. Your progress updates as you go.");
     expect(home).not.toContain("LIVE DESK");
@@ -35,7 +35,8 @@ describe("owner physical-screening corrections", () => {
     expect(practice).toContain('aria-label="Study tools inside Practice"');
     expect(practice).toContain('data-testid="topic-drill-destination"');
     expect(practice).toContain('data-testid="syllabus-journey-destination"');
-    expect(practice).toContain('data-testid="game-arcade-destination"');
+    expect(practice).not.toContain('data-testid="game-arcade-destination"');
+    expect(home).toContain('{ id: "arcade", label: "Arcade", icon: Swords }');
   });
 
   it("uses source-neutral objectives and subtopics in a reading-only Syllabus Journey", () => {
