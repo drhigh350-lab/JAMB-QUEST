@@ -968,3 +968,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Move Game Arcade out of the Practice tools section and give it its own top-level main tab. Arcade now appears in the primary header and mobile tab bar, while Practice keeps only Topic Drill and Syllabus Journey.
 - [x] Add clear GitHub and Vercel deployment instructions, including required environment variables and the backend/database limitation. Added OWNER_AND_VERCEL.md with the real deployment boundary: a frontend-only Vercel build will not provide the database, auth, reports, storage, Challenge Mode leaderboard, or reminder callbacks.
 - [x] Document the owner controls: question review, reports, approved/released content, and protected records. Added the owner workflow and safe release checks to OWNER_AND_VERCEL.md.
+
+- [x] Verify the published UI routes and owner-only controls in the live app. Source-level route checks, live deployment health, and visual shell checks passed; owner-only data actions remain protected by the server role guard and need the owner’s real signed-in browser for final click testing.
+- [x] Add safe owner self-service actions for report handling and question review, with no direct learner-bank edits from the browser. The owner can update report status, browse by subject, inspect answer/explanation/source/diagram evidence, and download the current review page as CSV.
+- [x] Add regression tests and publish the owner self-service update. Full suite passed: 149 files / 382 tests, TypeScript, and production build.

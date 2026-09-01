@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, ArrowRight, Eye, FileText, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, Eye, FileText, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import type { BankQuestion, Subject } from "@/game/types";
 import { loadQuestionBank } from "@/game/questionBank";
@@ -64,6 +64,15 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
   const remaining = Math.max(0, pageSize - modelSlice.length);
   const authorisedSlice = (authorisedQuery.data?.questions ?? []).slice(authorisedOffset, authorisedOffset + remaining).map((record) => ({ ...record, sourceKind: "Owner-authorised ledger" as const }));
   const records: ReviewRecord[] = [...modelSlice, ...authorisedSlice];
+  const downloadReviewPage = () => {
+    const escape = (value: string) => `"${value.replace(/"/g, '""').replace(/\r?\n/g, " ")}"`;
+    const csv = [
+      ["Record ID", "Subject", "Topic", "Difficulty", "Question", "Option A", "Option B", "Option C", "Option D", "Option E", "Answer", "Explanation", "Source"].map(escape).join(","),
+      ...records.map((record) => [record.externalId, record.subject, record.topic, record.difficulty, record.question, ...record.options, record.options[record.answerIndex] ?? "", record.explanation, record.sourceLabel].map(escape).join(",")),
+    ].join("\\n");
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const anchor = document.createElement("a"); anchor.href = url; anchor.download = `jamb-quest-${subject.toLowerCase().replace(/\\s+/g, "-")}-review-page-${page + 1}.csv`; anchor.click(); URL.revokeObjectURL(url);
+  };
   const overallActive = (summaryQuery.data ?? []).reduce((sum, entry) => sum + entry.authorisedCount, 0) + activeModelQuestions.length;
 
   useEffect(() => {
@@ -94,7 +103,7 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
       })}
     </div>
 
-    <div className="owner-review-toolbar"><div className="owner-review-unified"><ShieldCheck size={15} /><span>ONE LIVE JAMB QUEST BANK</span><b>{total.toLocaleString()}</b></div><span className="owner-review-range"><Eye size={14} /> {total ? `${page * pageSize + 1}–${Math.min(total, (page + 1) * pageSize)} of ${total.toLocaleString()}` : "No active records"}</span></div>
+    <div className="owner-review-toolbar"><div className="owner-review-unified"><ShieldCheck size={15} /><span>ONE LIVE JAMB QUEST BANK</span><b>{total.toLocaleString()}</b></div><span className="owner-review-range"><Eye size={14} /> {total ? `${page * pageSize + 1}–${Math.min(total, (page + 1) * pageSize)} of ${total.toLocaleString()}` : "No active records"}</span><button className="owner-review-export" onClick={downloadReviewPage} disabled={!records.length}><Download size={14} /> Download this page</button></div>
 
     {authorisedQuery.isLoading ? <div className="owner-review-loading">Loading the live question bank for {subject}…</div> : authorisedQuery.error ? <div className="owner-review-error">The private review desk could not load this subject. Refresh and try again.</div> : <div className="owner-question-list">
       {records.map((record, index) => <details key={record.id} className="owner-question-card" open={index === 0}>
