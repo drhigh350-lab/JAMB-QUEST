@@ -237,7 +237,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
   if (arcadeMode === "archive") return <GreatArchive questions={activeQuestions} onExit={() => setArcadeMode(null)} onOpenCorrection={(subject, questionIds) => { setArcadeMode(null); onStart({ subject, mode: "review", count: questionIds.length, questionIds, recoveryOrigin: "missed-questions" }); }} />;
   const arcadeQuestions = challengeQuestions.length ? challengeQuestions : activeQuestions;
   if (challengeOpen) return <ChallengeMode questions={arcadeQuestions} initialCode={sharedChallengeCode} onExit={() => { setChallengeOpen(false); setActiveTab("arcade"); if (sharedChallengeCode) window.history.replaceState({}, "", window.location.pathname); }} />;
-  if (activeTab === "arcade") return <GameArcade questions={arcadeQuestions} onChallenge={() => setChallengeOpen(true)} onExit={() => setActiveTab("practice")} onSelect={(mode) => setArcadeMode(mode)} />;
+  if (activeTab === "arcade") return <GameArcade questions={arcadeQuestions} onChallenge={() => setChallengeOpen(true)} onJoinChallenge={(code) => { window.history.pushState({}, "", `${window.location.pathname}?challenge=${code}`); setChallengeOpen(true); }} onExit={() => setActiveTab("practice")} onSelect={(mode) => setArcadeMode(mode)} />;
   if (topicDrillOpen) return <TopicDrill questions={activeQuestions} onExit={() => { setTopicDrillOpen(false); setActiveTab("practice"); }} onStart={onStart} />;
   if (syllabusJourneyOpen) return <SyllabusJourney onExit={() => { setSyllabusJourneyOpen(false); setActiveTab("practice"); }} />;
 

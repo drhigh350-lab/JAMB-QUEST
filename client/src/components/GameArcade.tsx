@@ -2,14 +2,17 @@ import { ArrowRight, Archive, Building2, Map, ShieldCheck, Swords, X } from "luc
 import { useEffect, useState } from "react";
 import { cleanArcadeDisplayName, emptyArcadeProfile, readArcadeProfile, type GameArcadeProfile, writeArcadeProfile } from "@/game/arcadeProfile";
 import type { BankQuestion } from "@/game/types";
+import { trpc } from "@/lib/trpc";
 import "./game-arcade.css";
 import "./game-arcade-personal.css";
 import "./game-arcade-missions.css";
 
 export type ArcadeMode = "expedition" | "president" | "archive";
 
-export function GameArcade({ onExit, onSelect, questions, onChallenge }: { onExit: () => void; onSelect: (mode: ArcadeMode) => void; questions: BankQuestion[]; onChallenge: () => void }) {
+export function GameArcade({ onExit, onSelect, questions, onChallenge, onJoinChallenge }: { onExit: () => void; onSelect: (mode: ArcadeMode) => void; questions: BankQuestion[]; onChallenge: () => void; onJoinChallenge: (challengeCode: string) => void }) {
   const [profile, setProfile] = useState<GameArcadeProfile>(emptyArcadeProfile);
+  const [arenaSubject, setArenaSubject] = useState<string>("All");
+  const discoverQuery = trpc.challenges.discover.useQuery(arenaSubject === "All" ? undefined : { subject: arenaSubject as "Use of English" | "Biology" | "Chemistry" | "Physics" }, { retry: false });
   useEffect(() => { setProfile(readArcadeProfile()); }, []);
   const totalStamps = Object.values(profile.expedition.stamps).reduce((total, value) => total + value, 0);
   const totalProjects = Object.values(profile.presidentsDesk.projects).reduce((total, value) => total + value, 0);
@@ -26,6 +29,7 @@ export function GameArcade({ onExit, onSelect, questions, onChallenge }: { onExi
   };
   const updateName = (displayName: string) => { const next = { ...profile, displayName: cleanArcadeDisplayName(displayName) }; setProfile(next); writeArcadeProfile(next); };
   return <main className="game-arcade" aria-labelledby="game-arcade-title">
+    <section className="arena-home-panel" aria-labelledby="arena-home-title"><div className="arena-home-heading"><div><span className="eyebrow">JAMB QUEST ARENA</span><h2 id="arena-home-title">Find a challenge.</h2><p>Real students can publish public quizzes here. Every card uses approved JAMB Quest questions.</p></div><button className="button button-dark" onClick={onChallenge}>Create challenge <ArrowRight size={16} /></button></div><div className="arena-subject-tabs" role="tablist" aria-label="Arena subject filter">{["All", "Use of English", "Biology", "Chemistry", "Physics"].map((item) => <button key={item} role="tab" aria-selected={arenaSubject === item} className={arenaSubject === item ? "active" : ""} onClick={() => setArenaSubject(item)}>{item}</button>)}</div>{discoverQuery.isLoading ? <p className="arena-empty">Looking for live challenges…</p> : discoverQuery.error ? <p className="arena-empty">Arena challenges could not load right now.</p> : discoverQuery.data?.length ? <div className="arena-discover-grid">{discoverQuery.data.map((challenge) => <article className="arena-discover-card" key={challenge.challengeCode}><span className="eyebrow">{challenge.subjectScope}</span><h3>{challenge.challengeName}</h3><p>{challenge.description || "A public JAMB Quest challenge."}</p><small>{challenge.questionCount} questions · {challenge.participantCount} players · {challenge.expiresAt ? `ends ${new Date(challenge.expiresAt).toLocaleDateString()}` : "open challenge"}</small><button className="button button-light" onClick={() => onJoinChallenge(challenge.challengeCode)}>Join challenge <ArrowRight size={15} /></button></article>)}</div> : <div className="arena-empty"><b>No public challenges yet.</b><span>Make the first one. Your old share-link challenges still work privately.</span><button className="button button-light" onClick={onChallenge}>Create the first public challenge</button></div>}</section>
     <header className="game-arcade-head"><button onClick={onExit}><X size={17} /> Back to practice</button><span className="game-arcade-brand"><i /><i /><i /><i /><b>JAMB QUEST ARCADE</b></span><span>THREE WORLDS / ONE QUESTION BANK</span></header>
     <section className="game-arcade-hero"><div><span className="eyebrow">YOUR STUDY GAMES</span><h1 id="game-arcade-title">{profile.displayName ? `${profile.displayName}, pick a game.` : "Pick a game."}</h1><p>These are ongoing study worlds, not one-off mini quizzes. Your paths, districts, tiles, and recent cards save on this device; each new turn draws a fresh approved mix and avoids immediate repeats. Normal Practice and CBT stay separate.</p></div><div className="game-arcade-orbit" aria-hidden="true"><span>ENG</span><span>BIO</span><span>CHE</span><span>PHY</span><b>IQ</b></div></section>
     <section className="game-arcade-player" aria-label="Personal arcade settings"><label><span>WHAT SHOULD WE CALL YOU?</span><input value={profile.displayName} onChange={(event) => updateName(event.target.value)} placeholder="Your first name" maxLength={24} /></label><small>This name is saved only on this device for the game screens.</small></section>

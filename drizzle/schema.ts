@@ -165,6 +165,10 @@ export const publicChallenges = mysqlTable("publicChallenges", {
   questionIdsJson: text("questionIdsJson").notNull(),
   questionCount: int("questionCount").notNull(),
   status: mysqlEnum("status", ["open", "closed"]).notNull().default("open"),
+  visibility: mysqlEnum("visibility", ["link_only", "public"]).notNull().default("link_only"),
+  description: varchar("description", { length: 240 }),
+  expiresAt: timestamp("expiresAt"),
+  lastActivityAt: timestamp("lastActivityAt").defaultNow().notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   closedAt: timestamp("closedAt"),
 });

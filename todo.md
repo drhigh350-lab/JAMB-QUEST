@@ -972,3 +972,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Verify the published UI routes and owner-only controls in the live app. Source-level route checks, live deployment health, and visual shell checks passed; owner-only data actions remain protected by the server role guard and need the owner’s real signed-in browser for final click testing.
 - [x] Add safe owner self-service actions for report handling and question review, with no direct learner-bank edits from the browser. The owner can update report status, browse by subject, inspect answer/explanation/source/diagram evidence, and download the current review page as CSV.
 - [x] Add regression tests and publish the owner self-service update. Full suite passed: 149 files / 382 tests, TypeScript, and production build.
+
+- [x] Analyse the Arena master prompt against the existing Challenge Mode and write the preserve/improve/defer decision record. Saved `reports/arena_mvp_plan_2026-09-01.md`.
+- [x] Design the Phase 1 Arena MVP data boundaries without changing protected question content or Lekki Headmaster records. Added only visibility, description, and expiration fields; existing link-only challenges remain safe by default.
+- [x] Implement the first Arena MVP slice in one controlled milestone, starting with Arena Home, discoverable approved challenges, and rankings. Arena Home now discovers real public challenges by subject, lets learners join them, and reuses the existing challenge leaderboard flow; creators can choose Public Arena or Link only.

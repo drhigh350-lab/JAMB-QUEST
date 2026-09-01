@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import {   confirmProviderEnrollment, createPublicChallenge, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getPublicChallenge, getPublicChallengeLeaderboard, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, submitPublicChallengeAttempt, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
+import {   confirmProviderEnrollment, createPublicChallenge, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getPublicChallenge, getPublicChallengeLeaderboard, getArenaDiscoverChallenges, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, submitPublicChallengeAttempt, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -98,10 +98,13 @@ export const appRouter = router({
     oneSignalAppId: publicProcedure.query(() => getOneSignalAppId()),
   }),
   challenges: router({
+    discover: publicProcedure.input(z.object({ subject: subjectSchema.optional() }).optional()).query(({ input }) => getArenaDiscoverChallenges(input?.subject)),
     create: protectedProcedure.input(z.object({
       challengeName: z.string().trim().min(2).max(80),
       questionIds: z.array(z.string().trim().min(1).max(128)).min(5).max(30),
-    })).mutation(({ ctx, input }) => createPublicChallenge(ctx.user.id, input.challengeName, input.questionIds)),
+      visibility: z.enum(["link_only", "public"]).default("link_only"),
+      description: z.string().trim().max(240).optional(),
+    })).mutation(({ ctx, input }) => createPublicChallenge(ctx.user.id, input.challengeName, input.questionIds, input.visibility, input.description)),
     get: publicProcedure.input(z.object({ challengeCode: z.string().trim().min(6).max(16) })).query(({ input }) => getPublicChallenge(input.challengeCode)),
     leaderboard: publicProcedure.input(z.object({ challengeCode: z.string().trim().min(6).max(16) })).query(({ input }) => getPublicChallengeLeaderboard(input.challengeCode)),
     submit: publicProcedure.input(z.object({

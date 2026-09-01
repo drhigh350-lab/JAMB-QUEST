@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 
 const home = readFileSync(new URL("../client/src/pages/Home.tsx", import.meta.url), "utf8");
 const app = readFileSync(new URL("../client/src/App.tsx", import.meta.url), "utf8");
+const router = readFileSync(new URL("./routers.ts", import.meta.url), "utf8");
 const challenge = readFileSync(new URL("../client/src/components/ChallengeMode.tsx", import.meta.url), "utf8");
 const vercel = JSON.parse(readFileSync(new URL("../vercel.json", import.meta.url), "utf8")) as { buildCommand: string; outputDirectory: string; installCommand: string };
 const handover = readFileSync(new URL("../OWNER_AND_VERCEL.md", import.meta.url), "utf8");
@@ -25,6 +26,13 @@ describe("Challenge Mode shared-link UI contract", () => {
     expect(home).toContain('{ id: "arcade", label: "Arcade", icon: Swords }');
     expect(home).toContain('if (activeTab === "arcade") return <GameArcade');
     expect(home).not.toContain('data-testid="game-arcade-destination"');
+  });
+
+  it("keeps the first Arena discovery slice wired to safe public challenges", () => {
+    expect(router).toContain("discover: publicProcedure");
+    expect(router).toContain("visibility: z.enum([\"link_only\", \"public\"]).default(\"link_only\")");
+    expect(challenge).toContain("Public Arena — show it in Discover");
+    expect(challenge).toContain("Short description (optional)");
   });
 
   it("keeps the Vercel handover explicit and buildable", () => {

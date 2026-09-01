@@ -1364,7 +1364,7 @@ export async function sendDailyDirectBrowserReminders(window: ReminderWindow) {
   return { window, sent, skipped, totalEnabled: preferences.length, transport: "direct-browser" as const };
 }
 
-export async function createPublicChallenge(userId: number, challengeName: string, questionIds: string[]) {
+export async function createPublicChallenge(userId: number, challengeName: string, questionIds: string[], visibility: "link_only" | "public" = "link_only", description?: string) {
   const db = await getDb();
   if (!db) throw new Error("Database is unavailable");
   const uniqueIds = Array.from(new Set(questionIds));
@@ -1377,10 +1377,11 @@ export async function createPublicChallenge(userId: number, challengeName: strin
   const subjectScope = Array.from(new Set(selected.map((question) => question.subject))).sort().join(", ");
   const safeName = cleanChallengeName(challengeName);
   if (safeName.length < 2) throw new Error("Give your challenge a name.");
+  const safeDescription = description?.trim().replace(/\s+/g, " ").slice(0, 240) || null;
   for (let attempt = 0; attempt < 5; attempt += 1) {
     const challengeCode = randomBytes(5).toString("hex").toUpperCase();
     try {
-      const created = await db.insert(publicChallenges).values({ challengeCode, creatorUserId: userId, challengeName: safeName, subjectScope, questionIdsJson: JSON.stringify(orderedIds), questionCount: orderedIds.length }).$returningId();
+      const created = await db.insert(publicChallenges).values({ challengeCode, creatorUserId: userId, challengeName: safeName, subjectScope, questionIdsJson: JSON.stringify(orderedIds), questionCount: orderedIds.length, visibility, description: safeDescription }).$returningId();
       return { challengeCode, challengeName: safeName, subjectScope, questionCount: orderedIds.length, questions: orderedIds.map((id) => toChallengeQuestion(selectedById.get(id)!)) };
     } catch (error) {
       if (attempt === 4) throw error;
@@ -1435,6 +1436,18 @@ export async function getPublicChallengeLeaderboard(challengeCode: string) {
   const { db, challenge } = await findPublicChallenge(challengeCode);
   const rows = await db.select({ participantName: challengeAttempts.participantName, correctCount: challengeAttempts.correctCount, score: challengeAttempts.score, durationSeconds: challengeAttempts.durationSeconds, completedAt: challengeAttempts.completedAt }).from(challengeAttempts).where(eq(challengeAttempts.challengeId, challenge.id)).orderBy(desc(challengeAttempts.score), asc(challengeAttempts.durationSeconds), asc(challengeAttempts.completedAt)).limit(100);
   return rows.map((row, index) => ({ ...row, rank: index + 1, questionCount: challenge.questionCount }));
+}
+
+export async function getArenaDiscoverChallenges(subject?: string) {
+  const db = await getDb();
+  if (!db) return [];
+  const rows = await db.select({ id: publicChallenges.id, challengeCode: publicChallenges.challengeCode, challengeName: publicChallenges.challengeName, subjectScope: publicChallenges.subjectScope, questionCount: publicChallenges.questionCount, description: publicChallenges.description, createdAt: publicChallenges.createdAt, expiresAt: publicChallenges.expiresAt }).from(publicChallenges).where(and(eq(publicChallenges.status, "open"), eq(publicChallenges.visibility, "public"))).orderBy(desc(publicChallenges.createdAt)).limit(60);
+  const filtered = rows.filter((row) => !row.expiresAt || row.expiresAt.getTime() > Date.now()).filter((row) => !subject || row.subjectScope.split(", ").includes(subject));
+  if (!filtered.length) return [];
+  const attempts = await db.select({ challengeId: challengeAttempts.challengeId }).from(challengeAttempts).where(inArray(challengeAttempts.challengeId, filtered.map((row) => row.id)));
+  const participantCounts = new Map<number, number>();
+  for (const attempt of attempts) participantCounts.set(attempt.challengeId, (participantCounts.get(attempt.challengeId) ?? 0) + 1);
+  return filtered.map((row) => ({ ...row, participantCount: participantCounts.get(row.id) ?? 0 }));
 }
 
 export async function getQuestionSourceCatalogue() {
