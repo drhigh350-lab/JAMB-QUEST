@@ -976,3 +976,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Analyse the Arena master prompt against the existing Challenge Mode and write the preserve/improve/defer decision record. Saved `reports/arena_mvp_plan_2026-09-01.md`.
 - [x] Design the Phase 1 Arena MVP data boundaries without changing protected question content or Lekki Headmaster records. Added only visibility, description, and expiration fields; existing link-only challenges remain safe by default.
 - [x] Implement the first Arena MVP slice in one controlled milestone, starting with Arena Home, discoverable approved challenges, and rankings. Arena Home now discovers real public challenges by subject, lets learners join them, and reuses the existing challenge leaderboard flow; creators can choose Public Arena or Link only.
+
+- [x] Add a guarded owner correction desk for approved question text, options, answer, explanation, topic, and owner-supplied picture URL. The owner review desk now has an inline editor and HTTPS picture-link field.
+- [x] Keep Lekki Headmaster records and learner-facing release protections safe during owner corrections. The server blocks Lekki Headmaster records and only permits approved owner-authorised records through an admin-only procedure.
+- [x] Add correction audit history, validation tests, and a simple owner guide update. Added `ownerQuestionCorrections`, correction-history access, contract tests, and guide instructions; 149 files / 384 tests, TypeScript, and production build passed.

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, ArrowRight, Download, Eye, FileText, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, Eye, FileText, Pencil, Save, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import type { BankQuestion, Subject } from "@/game/types";
 import { loadQuestionBank } from "@/game/questionBank";
@@ -44,8 +44,12 @@ function asModelRecord(question: BankQuestion): ReviewRecord {
   };
 }
 
+type CorrectionDraft = { questionText: string; options: string[]; answerIndex: number; explanation: string; topic: string; diagramUrl: string | null };
+
 export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boolean; activeQuestions: BankQuestion[] }) {
   const [subject, setSubject] = useState<Subject>("Use of English");
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [draft, setDraft] = useState<CorrectionDraft | null>(null);
   const [page, setPage] = useState(0);
   const [loadedModelQuestions, setLoadedModelQuestions] = useState<BankQuestion[]>([]);
   const pageSize = 24;
@@ -55,6 +59,7 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
   const authorisedPage = Math.floor(authorisedStart / 30);
   const authorisedOffset = authorisedStart % 30;
   const authorisedQuery = trpc.qualityReview.approvedQuestionPage.useQuery({ subject, page: authorisedPage, pageSize: 30 }, { enabled: isOwner, retry: false });
+  const correctionMutation = trpc.qualityReview.correctApprovedQuestion.useMutation({ onSuccess: () => { setEditingId(null); setDraft(null); void authorisedQuery.refetch(); }, onError: () => undefined });
   const modelQuestions = useMemo(() => activeModelQuestions.filter((question) => question.subject === subject).map(asModelRecord), [activeModelQuestions, subject]);
   const modelPageCount = Math.max(1, Math.ceil(modelQuestions.length / pageSize));
   const authorisedCount = summaryQuery.data?.find((entry) => entry.subject === subject)?.authorisedCount ?? 0;
@@ -64,6 +69,17 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
   const remaining = Math.max(0, pageSize - modelSlice.length);
   const authorisedSlice = (authorisedQuery.data?.questions ?? []).slice(authorisedOffset, authorisedOffset + remaining).map((record) => ({ ...record, sourceKind: "Owner-authorised ledger" as const }));
   const records: ReviewRecord[] = [...modelSlice, ...authorisedSlice];
+  const openEditor = (record: ReviewRecord) => {
+    if (record.sourceKind !== "Owner-authorised ledger" || !record.id.startsWith("authorised-")) return;
+    setEditingId(record.id);
+    setDraft({ questionText: record.question, options: [...record.options], answerIndex: record.answerIndex, explanation: record.explanation, topic: record.topic, diagramUrl: record.diagramUrl ?? null });
+  };
+  const saveCorrection = () => {
+    if (!editingId || !draft) return;
+    const questionItemId = Number(editingId.replace("authorised-", ""));
+    if (!Number.isInteger(questionItemId) || questionItemId < 1) return;
+    correctionMutation.mutate({ questionItemId, ...draft });
+  };
   const downloadReviewPage = () => {
     const escape = (value: string) => `"${value.replace(/"/g, '""').replace(/\r?\n/g, " ")}"`;
     const csv = [
@@ -113,7 +129,8 @@ export function OwnerQuestionReview({ isOwner, activeQuestions }: { isOwner: boo
           <ol className="owner-question-options" type="A">{record.options.map((option, optionIndex) => <li key={`${record.id}-${optionIndex}`} className={optionIndex === record.answerIndex ? "correct" : ""}><span>{option}</span>{optionIndex === record.answerIndex && <b>Answer</b>}</li>)}</ol>
           <div className="owner-question-explanation"><span><FileText size={14} /> Explanation</span><p>{record.explanation || "No learner explanation was supplied."}</p></div>
           {record.diagramUrl && <p className="owner-question-diagram">Diagram asset attached to this source record.</p>}
-          <footer><span><b>Record</b> {record.externalId}</span><span><b>Source</b> {record.sourceLabel}</span></footer>
+          <footer><span><b>Record</b> {record.externalId}</span><span><b>Source</b> {record.sourceLabel}</span>{record.sourceKind === "Owner-authorised ledger" && <button type="button" className="owner-question-edit" onClick={() => openEditor(record)}><Pencil size={14} /> Correct this question</button>}</footer>
+          {editingId === record.id && draft && <div className="owner-question-editor" aria-label={`Correct ${record.externalId}`}><label>Question<textarea value={draft.questionText} onChange={(event) => setDraft({ ...draft, questionText: event.target.value })} /></label><div className="owner-editor-options">{draft.options.map((option, optionIndex) => <label key={optionIndex}>Option {String.fromCharCode(65 + optionIndex)}<input value={option} onChange={(event) => setDraft({ ...draft, options: draft.options.map((item, index) => index === optionIndex ? event.target.value : item) })} /></label>)}</div><label>Correct option<select value={draft.answerIndex} onChange={(event) => setDraft({ ...draft, answerIndex: Number(event.target.value) })}>{draft.options.map((_, optionIndex) => <option key={optionIndex} value={optionIndex}>{String.fromCharCode(65 + optionIndex)}</option>)}</select></label><label>Topic<input value={draft.topic} onChange={(event) => setDraft({ ...draft, topic: event.target.value })} /></label><label>Explanation<textarea value={draft.explanation} onChange={(event) => setDraft({ ...draft, explanation: event.target.value })} /></label><label>Owner picture HTTPS link<input value={draft.diagramUrl ?? ""} onChange={(event) => setDraft({ ...draft, diagramUrl: event.target.value || null })} placeholder="Leave empty when no picture is needed" /></label><div className="owner-editor-actions"><button type="button" className="owner-review-export" onClick={() => { setEditingId(null); setDraft(null); }}>Cancel</button><button type="button" className="owner-question-save" disabled={correctionMutation.isPending} onClick={saveCorrection}><Save size={14} /> {correctionMutation.isPending ? "Saving…" : "Save correction"}</button></div>{correctionMutation.error && <p className="owner-review-error">{correctionMutation.error.message}</p>}</div>}
         </div>
       </details>)}
       {!records.length && <p className="compact-empty">No active JAMB Quest questions are ready for this subject.</p>}

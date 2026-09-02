@@ -313,6 +313,16 @@ export const projectPushConfigs = mysqlTable("projectPushConfigs", {
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });
 
+export const ownerQuestionCorrections = mysqlTable("ownerQuestionCorrections", {
+  id: int("id").autoincrement().primaryKey(),
+  questionItemId: int("questionItemId").notNull().references(() => questionItems.id),
+  ownerUserId: int("ownerUserId").notNull().references(() => users.id),
+  beforeJson: text("beforeJson").notNull(),
+  afterJson: text("afterJson").notNull(),
+  changedFieldsJson: text("changedFieldsJson").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
 export type PublicChallenge = typeof publicChallenges.$inferSelect;
 export type InsertPublicChallenge = typeof publicChallenges.$inferInsert;
 export type ChallengeAttempt = typeof challengeAttempts.$inferSelect;

@@ -7,3 +7,14 @@
 @media (prefers-reduced-motion: reduce) { .owner-review-subjects button, .owner-question-card summary svg { transition: none; } }
 
 .owner-review-export { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px; color: var(--ink); border: 1px solid rgba(18,40,63,.22); background: var(--maize); cursor: pointer; font: 800 10px "Space Grotesk", sans-serif; white-space: nowrap; }.owner-review-export:disabled { opacity: .45; cursor: not-allowed; } @media (max-width: 720px) { .owner-review-export { width: 100%; justify-content: center; } }
+.owner-question-edit, .owner-question-save { display: inline-flex; align-items: center; justify-content: center; gap: 6px; width: fit-content; padding: 8px 10px; border: 1px solid rgba(18,40,63,.22); cursor: pointer; font: 800 10px "Space Grotesk", sans-serif; }
+.owner-question-edit { color: var(--ink); background: var(--maize); }
+.owner-question-save { color: var(--chalk); background: var(--ink); }
+.owner-question-save:disabled { opacity: .55; cursor: wait; }
+.owner-question-editor { display: grid; gap: 10px; padding: 14px; border: 1px solid rgba(18,40,63,.2); background: rgba(255,255,255,.55); }
+.owner-question-editor label { display: grid; gap: 5px; color: var(--ink); font: 800 10px "Space Grotesk", sans-serif; letter-spacing: .04em; text-transform: uppercase; }
+.owner-question-editor input, .owner-question-editor textarea, .owner-question-editor select { width: 100%; padding: 9px 10px; color: var(--ink); border: 1px solid rgba(18,40,63,.2); background: var(--chalk); font: 500 13px/1.45 "DM Sans", sans-serif; text-transform: none; letter-spacing: normal; }
+.owner-question-editor textarea { min-height: 86px; resize: vertical; }
+.owner-editor-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.owner-editor-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+@media (max-width: 720px) { .owner-editor-options { grid-template-columns: 1fr; } .owner-question-edit, .owner-question-save { width: 100%; } .owner-editor-actions { display: grid; grid-template-columns: 1fr; } }

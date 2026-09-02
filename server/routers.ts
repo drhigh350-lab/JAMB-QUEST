@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
-import {   confirmProviderEnrollment, createPublicChallenge, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, getPublicChallenge, getPublicChallengeLeaderboard, getArenaDiscoverChallenges, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, submitPublicChallengeAttempt, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
+import {   confirmProviderEnrollment, createPublicChallenge, disablePushSubscriptions, getLearnerCbtHistory, getLearnerDashboard, getLearnerQuestionReportReceipts, getLearnerRoundReview, getOneSignalAppId, getOwnerApprovedQuestionReviewPage, getOwnerApprovedQuestionReviewSummary, getOwnerDiagramAuditPage, getOwnerQuestionCorrectionHistory, getOwnerHeldDiagramRecords, getOwnerQuestionReports, getPlayableAuthorisedQuestions, updateOwnerApprovedQuestion, getPublicChallenge, getPublicChallengeLeaderboard, getArenaDiscoverChallenges, getQuestionSourceCatalogue, getWebPushPublicKey, importAuthorisedQuestionSet, learnerQuestionReportStatuses, recordLearnerRound, refreshProviderScheduledReminders, reportLearnerQuestion, sendLearnerTestPush, submitPublicChallengeAttempt, toggleLearnerBookmark, updateLearnerProfile, updateLearnerSystem, updateOwnerQuestionReportStatus, updateReminderPreferences, upsertPushSubscription } from "./db";
 import { authorisedImportSchema } from "./questionImport";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
@@ -134,6 +134,16 @@ export const appRouter = router({
       reportId: z.number().int().positive(),
       status: z.enum(learnerQuestionReportStatuses),
     })).mutation(({ ctx, input }) => updateOwnerQuestionReportStatus(ctx.user.id, input.reportId, input.status)),
+    correctApprovedQuestion: adminProcedure.input(z.object({
+      questionItemId: z.number().int().positive(),
+      questionText: z.string().trim().min(5).max(2_000),
+      options: z.array(z.string().trim().min(1).max(500)).min(2).max(5),
+      answerIndex: z.number().int().min(0).max(4),
+      explanation: z.string().trim().min(5).max(4_000),
+      topic: z.string().trim().min(1).max(160),
+      diagramUrl: z.string().trim().url().max(500).nullable(),
+    })).mutation(({ ctx, input }) => updateOwnerApprovedQuestion(ctx.user.id, input)),
+    correctionHistory: adminProcedure.input(z.object({ questionItemId: z.number().int().positive() })).query(({ input }) => getOwnerQuestionCorrectionHistory(input.questionItemId)),
   }),
   questionImports: router({
     validate: adminProcedure.input(authorisedImportSchema).query(({ input }) => ({

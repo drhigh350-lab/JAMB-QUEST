@@ -19,6 +19,7 @@ import {
   learnerQuestionReports,
   learnerReminderPreferences,
   learnerSystems,
+  ownerQuestionCorrections,
   projectPushConfigs,
   publicChallenges,
   questionImports,
@@ -814,6 +815,47 @@ export async function getOwnerApprovedQuestionReviewPage(input: { subject: (type
       }
     }),
   };
+}
+
+export type OwnerQuestionCorrectionInput = {
+  questionItemId: number;
+  questionText: string;
+  options: string[];
+  answerIndex: number;
+  explanation: string;
+  topic: string;
+  diagramUrl: string | null;
+};
+
+export async function updateOwnerApprovedQuestion(ownerUserId: number, input: OwnerQuestionCorrectionInput) {
+  const db = await getDb();
+  if (!db) throw new Error("The owner correction desk is unavailable right now.");
+  const rows = await db.select({ question: questionItems, sourceLabel: questionSources.label }).from(questionItems).innerJoin(questionSources, eq(questionItems.sourceId, questionSources.id)).where(eq(questionItems.id, input.questionItemId)).limit(1);
+  const row = rows[0];
+  if (!row) throw new Error("Question record not found.");
+  const sourceText = `${row.sourceLabel ?? ""} ${row.question.topic ?? ""}`.toLowerCase();
+  if (sourceText.includes("lekki headmaster")) throw new Error("Lekki Headmaster records are protected and cannot be edited here.");
+  if (row.question.explanationStatus !== "approved") throw new Error("Only approved JAMB Quest questions can be corrected here.");
+  const safeQuestion = input.questionText.trim().replace(/\s+/g, " ").slice(0, 2_000);
+  const safeOptions = input.options.map((option) => option.trim().replace(/\s+/g, " ").slice(0, 500));
+  const safeExplanation = input.explanation.trim().slice(0, 4_000);
+  const safeTopic = input.topic.trim().replace(/\s+/g, " ").slice(0, 160);
+  const safeDiagramUrl = input.diagramUrl?.trim() || null;
+  if (safeQuestion.length < 5 || safeOptions.length < 2 || safeOptions.some((option) => option.length < 1) || input.answerIndex < 0 || input.answerIndex >= safeOptions.length || safeExplanation.length < 5 || safeTopic.length < 1) throw new Error("Check the question, options, answer, explanation, and topic.");
+  if (safeDiagramUrl && (!/^https:\/\//i.test(safeDiagramUrl) || safeDiagramUrl.length > 500)) throw new Error("Picture link must be a secure HTTPS link.");
+  const before = { questionText: row.question.questionText, options: JSON.parse(row.question.optionsJson), answerIndex: row.question.answerIndex, explanation: row.question.explanation, topic: row.question.topic, diagramUrl: row.question.diagramUrl };
+  const after = { questionText: safeQuestion, options: safeOptions, answerIndex: input.answerIndex, explanation: safeExplanation, topic: safeTopic, diagramUrl: safeDiagramUrl };
+  const changedFields = Object.keys(after).filter((key) => JSON.stringify(before[key as keyof typeof before]) !== JSON.stringify(after[key as keyof typeof after]));
+  if (!changedFields.length) return { changed: false, questionItemId: input.questionItemId };
+  await db.update(questionItems).set({ questionText: safeQuestion, optionsJson: JSON.stringify(safeOptions), answerIndex: input.answerIndex, explanation: safeExplanation, topic: safeTopic, diagramUrl: safeDiagramUrl }).where(eq(questionItems.id, input.questionItemId));
+  await db.insert(ownerQuestionCorrections).values({ questionItemId: input.questionItemId, ownerUserId, beforeJson: JSON.stringify(before), afterJson: JSON.stringify(after), changedFieldsJson: JSON.stringify(changedFields) });
+  return { changed: true, questionItemId: input.questionItemId, changedFields };
+}
+
+export async function getOwnerQuestionCorrectionHistory(questionItemId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("The owner correction desk is unavailable right now.");
+  return db.select({ id: ownerQuestionCorrections.id, questionItemId: ownerQuestionCorrections.questionItemId, beforeJson: ownerQuestionCorrections.beforeJson, afterJson: ownerQuestionCorrections.afterJson, changedFieldsJson: ownerQuestionCorrections.changedFieldsJson, createdAt: ownerQuestionCorrections.createdAt }).from(ownerQuestionCorrections).where(eq(ownerQuestionCorrections.questionItemId, questionItemId)).orderBy(desc(ownerQuestionCorrections.createdAt)).limit(20);
 }
 
 export async function updateOwnerQuestionReportStatus(ownerUserId: number, reportId: number, status: LearnerQuestionReportStatus) {
