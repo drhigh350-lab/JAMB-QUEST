@@ -835,6 +835,7 @@ export async function updateOwnerApprovedQuestion(ownerUserId: number, input: Ow
   if (!row) throw new Error("Question record not found.");
   const sourceText = `${row.sourceLabel ?? ""} ${row.question.topic ?? ""}`.toLowerCase();
   if (sourceText.includes("lekki headmaster")) throw new Error("Lekki Headmaster records are protected and cannot be edited here.");
+  if (!String(row.question.externalId ?? "").toUpperCase().startsWith("OWNER-") && !String(row.sourceLabel ?? "").toLowerCase().includes("owner")) throw new Error("Only owner-authorised records can be corrected here.");
   if (row.question.explanationStatus !== "approved") throw new Error("Only approved JAMB Quest questions can be corrected here.");
   const safeQuestion = input.questionText.trim().replace(/\s+/g, " ").slice(0, 2_000);
   const safeOptions = input.options.map((option) => option.trim().replace(/\s+/g, " ").slice(0, 500));

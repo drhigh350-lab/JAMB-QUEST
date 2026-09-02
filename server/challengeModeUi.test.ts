@@ -42,6 +42,7 @@ describe("Challenge Mode shared-link UI contract", () => {
     expect(router).toContain("correctionHistory: adminProcedure");
     expect(db).toContain("Lekki Headmaster records are protected");
     expect(db).toContain("Only approved JAMB Quest questions can be corrected here");
+    expect(db).toContain("Only owner-authorised records can be corrected here");
     expect(ownerReview).toContain("Correct this question");
     expect(ownerReview).toContain("Save correction");
   });
