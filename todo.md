@@ -982,3 +982,7 @@ Note: the achievement-sharing release is implemented locally but still requires 
 - [x] Add correction audit history, validation tests, and a simple owner guide update. Added `ownerQuestionCorrections`, correction-history access, contract tests, and guide instructions; 149 files / 384 tests, TypeScript, and production build passed.
 - [x] Enforce the owner-authorised source boundary server-side for question corrections, not only in the browser editor. The mutation now permits only OWNER- records or owner-labelled sources, and still blocks Lekki Headmaster records.
 - [x] Put Arcade back inside the Practice tab as one separate, clearly labeled card; keep it out of the ordinary Practice tools list. The main tab bar no longer shows Arcade; Practice now has a distinct Game Arcade card that opens the existing Arcade screen and Challenge Mode.
+
+- [ ] Audit every non-Lekki owner review record and classify formatting, answer-key, explanation, topic, and diagram problems.
+- [ ] Apply only evidence-backed owner-queue corrections and retain uncertain records out of learner release.
+- [ ] Produce a correction receipt and verify all protected fields, Lekki Headmaster records, and correction history before publishing.
