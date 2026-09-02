@@ -193,7 +193,7 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
     return () => window.cancelAnimationFrame(frame);
   }, []);
   const tabItems: Array<{ id: AppTab; label: string; icon: typeof BookOpen }> = [
-    { id: "practice", label: "Practice", icon: BookOpen }, { id: "arcade", label: "Arcade", icon: Swords }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
+    { id: "practice", label: "Practice", icon: BookOpen }, { id: "progress", label: "Progress", icon: Target }, { id: "profile", label: "Profile", icon: CircleUserRound }, { id: "about", label: "About", icon: CircleHelp },
   ];
   const pushFeedbackMessages: Partial<Record<HomeProps["pushStatus"], string>> = {
     unsupported: "This browser cannot receive push reminders. Your in-app daily system still works.", denied: "Browser notifications were declined. You can enable them later in your browser settings.", failed: "The reminder could not be set up on this device. Please try again later.", enabled: "JAMB Quest browser reminders are enabled on this device. The Lagos daily timetable is active.", disabled: "Browser reminders are off for this device. Your in-app system stays active.", "test-sent": "Test reminder sent. Check this device’s notification shade now.", "test-failed": "No reminder reached this device. Re-enable notifications and try the test again.",
@@ -312,9 +312,10 @@ export default function Home({ initialTab = "practice", onActiveTabChange, loadi
             </details>
           </CompactPanel>
 
-          <CompactPanel eyebrow="03 / STUDY TOOLS" title="Go deeper with the syllabus" note="Topic Drill, Syllabus Journey, and Game Arcade are separate practice tools. Open one only when it serves today’s work." tone="maize">
+          <CompactPanel eyebrow="03 / STUDY TOOLS" title="Go deeper with the syllabus" note="Topic Drill and Syllabus Journey are separate practice tools. Open one only when it serves today’s work." tone="maize">
             <section className="study-destination-grid practice-study-destinations" aria-label="Study tools inside Practice"><button data-testid="topic-drill-destination" className="study-destination-card study-destination-drill" onClick={() => setTopicDrillOpen(true)} disabled={loading || !!loadError || activeQuestions.length < 1}><MapIcon size={22} /><span><b>Topic Drill</b><small>Take one official syllabus area, or refine it to one specific topic, in an untimed drill.</small></span><ArrowRight size={18} /></button><button data-testid="syllabus-journey-destination" className="study-destination-card" onClick={() => setSyllabusJourneyOpen(true)}><BookOpen size={22} /><span><b>Syllabus Journey</b><small>Read the learning objective, what to read, official subtopics, and study direction. No quiz here.</small></span><ArrowRight size={18} /></button></section>
           </CompactPanel>
+          <section className="practice-arcade-card" aria-label="Game Arcade"><div><span className="eyebrow">04 / GAME ARCADE</span><h2>Study by playing.</h2><p>Enter the Arcade for Expedition, President’s Desk, Great Archive, and Challenge Mode. It uses the JAMB Quest question bank, but it is kept separate from your normal practice controls.</p></div><button className="button button-dark" data-testid="game-arcade-destination" onClick={() => setActiveTab("arcade")}><Swords size={17} /> Open Game Arcade <ArrowRight size={17} /></button></section>
 
         </section>
       </>}

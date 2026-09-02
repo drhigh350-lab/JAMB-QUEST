@@ -24,10 +24,11 @@ describe("Challenge Mode shared-link UI contract", () => {
     expect(challenge).toContain("Create your own");
   });
 
-  it("keeps Arcade out of Practice and exposes it as its own tab", () => {
-    expect(home).toContain('{ id: "arcade", label: "Arcade", icon: Swords }');
+  it("keeps Arcade as a dedicated Practice card", () => {
+    expect(home).toContain('data-testid="game-arcade-destination"');
+    expect(home).toContain('aria-label="Game Arcade"');
     expect(home).toContain('if (activeTab === "arcade") return <GameArcade');
-    expect(home).not.toContain('data-testid="game-arcade-destination"');
+    expect(home).not.toContain('{ id: "arcade", label: "Arcade", icon: Swords }');
   });
 
   it("keeps the first Arena discovery slice wired to safe public challenges", () => {
