@@ -9,5 +9,6 @@ build/
 .cache/
 .turbo/
 .vercel/
+.open-next/
 .manus-logs/
 drizzle/migrations/
