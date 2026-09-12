@@ -7,7 +7,160 @@ settings:
 overrides:
   tailwindcss>nanoid: 3.3.7
 
-patchedDependencies:
-  wouter@3.7.1:
-    hash: 4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072
-    path: patches/wouter@3.7.1.patch
+importers:
+
+  .:
+    dependencies:
+      '@aws-sdk/client-s3':
+        specifier: ^3.693.0
+        version: 3.1109.0
+      '@aws-sdk/s3-request-presigner':
+        specifier: ^3.693.0
+        version: 3.1109.0
+      '@hookform/resolvers':
+        specifier: ^5.2.2
+        version: 5.2.2
+      '@radix-ui/react-label':
+        specifier: ^2.1.7
+        version: 2.1.7
+      '@tanstack/react-query':
+        specifier: ^5.90.2
+        version: 5.101.4
+      '@trpc/client':
+        specifier: ^11.6.0
+        version: 11.18.0
+      '@trpc/react-query':
+        specifier: ^11.6.0
+        version: 11.18.0
+      '@trpc/server':
+        specifier: ^11.6.0
+        version: 11.18.0
+      axios:
+        specifier: ^1.12.0
+        version: 1.12.2
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
+      cmdk:
+        specifier: ^1.1.1
+        version: 1.1.1
+      cookie:
+        specifier: ^1.0.2
+        version: 1.1.1
+      date-fns:
+        specifier: ^4.1.0
+        version: 4.1.0
+      dotenv:
+        specifier: ^17.2.2
+        version: 17.4.2
+      drizzle-orm:
+        specifier: ^0.44.5
+        version: 0.44.7
+      express:
+        specifier: ^4.21.2
+        version: 4.21.2
+      framer-motion:
+        specifier: ^12.23.22
+        version: 12.23.22
+      input-otp:
+        specifier: ^1.4.2
+        version: 1.4.2
+      jose:
+        specifier: 6.1.0
+        version: 6.1.0
+      lucide-react:
+        specifier: ^0.453.0
+        version: 0.453.0
+      mysql2:
+        specifier: ^3.15.0
+        version: 3.23.3
+      nanoid:
+        specifier: ^5.1.5
+        version: 5.1.6
+      next-themes:
+        specifier: ^0.4.6
+        version: 0.4.6
+      react:
+        specifier: ^19.2.1
+        version: 19.2.1
+      react-day-picker:
+        specifier: ^9.11.1
+        version: 9.11.1
+      react-dom:
+        specifier: ^19.2.1
+        version: 19.2.1
+      react-hook-form:
+        specifier: ^7.64.0
+        version: 7.64.0
+      react-resizable-panels:
+        specifier: ^3.0.6
+        version: 3.0.6
+      recharts:
+        specifier: ^2.15.4
+        version: 2.15.4
+      sonner:
+        specifier: ^2.0.7
+        version: 2.0.7
+      superjson:
+        specifier: ^1.13.3
+        version: 1.13.3
+      tailwind-merge:
+        specifier: ^3.3.1
+        version: 3.3.1
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7
+      vaul:
+        specifier: ^1.1.2
+        version: 1.1.2
+      web-push:
+        specifier: ^3.6.7
+        version: 3.6.7
+      zod:
+        specifier: ^4.1.12
+        version: 4.1.12
+    devDependencies:
+      '@types/express':
+        specifier: 4.17.21
+        version: 4.17.21
+      '@types/node':
+        specifier: ^24.7.0
+        version: 24.7.0
+      '@types/react':
+        specifier: ^19.2.1
+        version: 19.2.1
+      '@types/react-dom':
+        specifier: ^19.2.1
+        version: 19.2.1
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.21
+      drizzle-kit:
+        specifier: ^0.31.4
+        version: 0.31.10
+      esbuild:
+        specifier: ^0.25.0
+        version: 0.25.10
+      postcss:
+        specifier: ^8.4.47
+        version: 8.5.6
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
+      tailwindcss:
+        specifier: ^4.1.14
+        version: 4.1.14
+      tsx:
+        specifier: ^4.19.1
+        version: 4.20.6
+      typescript:
+        specifier: 5.9.3
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.4
+        version: 2.1.9
+
+packages: {}
