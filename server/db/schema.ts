@@ -1,11 +1,11 @@
-import { mysqlTable, serial, varchar, text, datetime, json } from "drizzle-orm/mysql-core";
+import { mysqlTable, serial, varchar, text, timestamp, json } from "drizzle-orm/mysql-core";
 
 export const users = mysqlTable("users", {
   id: serial("id").primaryKey(),
   email: varchar("email", { length: 255 }).unique(),
   name: varchar("name", { length: 255 }),
-  createdAt: datetime("created_at").defaultNow(),
-  updatedAt: datetime("updated_at").defaultNow().onUpdateNow(),
+  createdAt: timestamp("created_at").defaultNow(),
+  updatedAt: timestamp("updated_at").defaultNow().onUpdateNow(),
 });
 
 export const questions = mysqlTable("questions", {
@@ -17,7 +17,7 @@ export const questions = mysqlTable("questions", {
   correctAnswer: varchar("correct_answer", { length: 10 }),
   explanation: text("explanation"),
   imageUrl: varchar("image_url", { length: 500 }),
-  createdAt: datetime("created_at").defaultNow(),
+  createdAt: timestamp("created_at").defaultNow(),
 });
 
 export const userProgress = mysqlTable("user_progress", {
@@ -27,5 +27,5 @@ export const userProgress = mysqlTable("user_progress", {
   userAnswer: varchar("user_answer", { length: 10 }),
   isCorrect: varchar("is_correct", { length: 5 }),
   timeSpent: serial("time_spent"),
-  attemptedAt: datetime("attempted_at").defaultNow(),
+  attemptedAt: timestamp("attempted_at").defaultNow(),
 });

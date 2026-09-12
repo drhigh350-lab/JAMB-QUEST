@@ -7,7 +7,7 @@ const REQUESTS_PER_MINUTE = 60;
 const requestCounts = new Map<string, number[]>();
 
 export function checkRateLimit(req: NextRequest): boolean {
-  const ip = req.ip || "unknown";
+  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
   const now = Date.now();
   const oneMinuteAgo = now - 60 * 1000;
 

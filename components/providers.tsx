@@ -5,6 +5,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { httpBatchLink } from "@trpc/client";
 import { ThemeProvider } from "next-themes";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import superjson from "superjson";
 import { trpc } from "@/lib/trpc";
 import { queryClient } from "@/lib/query-client";
 
@@ -14,7 +15,7 @@ export function Providers({ children }: { children: ReactNode }) {
       links: [
         httpBatchLink({
           url: `${getBaseUrl()}/api/trpc`,
-          credentials: "include",
+          transformer: superjson,
         }),
       ],
     })

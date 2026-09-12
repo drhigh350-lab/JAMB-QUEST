@@ -1,9 +1,8 @@
 import { initTRPC, TRPCError } from "@trpc/server";
-import { type NextRequest } from "next/server";
 import superjson from "superjson";
 
 interface CreateContextOptions {
-  req?: NextRequest;
+  req?: Request;
 }
 
 export const createTRPCContext = (opts: CreateContextOptions) => {

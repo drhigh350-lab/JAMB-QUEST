@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import * as ButtonPrimitive from "@radix-ui/react-primitive";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 

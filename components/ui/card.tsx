@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import * as CardPrimitive from "@radix-ui/react-primitive";
 import { cn } from "@/lib/utils";
 
 const Card = React.forwardRef<

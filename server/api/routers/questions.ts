@@ -1,7 +1,5 @@
-import { publicProcedure, createTRPCRouter } from "./trpc";
+import { publicProcedure, createTRPCRouter } from "../trpc";
 import { z } from "zod";
-import { db } from "@/server/db";
-import { questions } from "@/server/db/schema";
 
 export const questionsRouter = createTRPCRouter({
   getAll: publicProcedure
