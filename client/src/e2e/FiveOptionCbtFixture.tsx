@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { QuizShell } from "@/components/QuizShell";
-import type { AnswerRecord, BankQuestion } from "@/game/types";
+import { QuizShell } from "@/client/components/QuizShell";
+import type { AnswerRecord, BankQuestion } from "@/client/game/types";
 
 const fiveOptionQuestion: BankQuestion = {
   id: "e2e-five-option-physics",

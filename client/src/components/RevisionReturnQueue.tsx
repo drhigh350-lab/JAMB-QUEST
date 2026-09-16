@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CalendarClock, CheckCircle2, ChevronRight, Clock3, Trash2 } from "lucide-react";
-import { readRevisionReturnQueue, removeRevisionReturn, returnDueLabel, snoozeRevisionReturn, type RevisionReturnQueue as QueueState, writeRevisionReturnQueue } from "@/game/revisionReturnQueue";
-import type { RoundConfig } from "@/game/types";
+import { readRevisionReturnQueue, removeRevisionReturn, returnDueLabel, snoozeRevisionReturn, type RevisionReturnQueue as QueueState, writeRevisionReturnQueue } from "@/client/game/revisionReturnQueue";
+import type { RoundConfig } from "@/client/game/types";
 import "./revision-return-queue.css";
 
 export function RevisionReturnQueue({ onStart }: { onStart: (config: RoundConfig) => void }) {

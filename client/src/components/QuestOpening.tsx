@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { getAtomicIntroStory } from "@/content/atomicIntroStories";
-import { getTypewriterStepDelay } from "@/lib/openingTypewriter";
+import { getAtomicIntroStory } from "@/client/content/atomicIntroStories";
+import { getTypewriterStepDelay } from "@/client/lib/openingTypewriter";
 
 export function QuestOpening({ onComplete, hold = false }: { onComplete: () => void; hold?: boolean }) {
   const [leaving, setLeaving] = useState(false);

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { OfflineStudyPackPanel } from "@/components/OfflineStudyPackPanel";
-import { isUnsavedQuestionFlow } from "@/lib/appUpdateSafety";
+import { OfflineStudyPackPanel } from "@/client/components/OfflineStudyPackPanel";
+import { isUnsavedQuestionFlow } from "@/client/lib/appUpdateSafety";
 
 export function DeferredAppUpdateFixture() {
   const startAfterExit = new URLSearchParams(window.location.search).get("afterExit") === "1";

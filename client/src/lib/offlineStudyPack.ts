@@ -1,4 +1,4 @@
-import type { BankQuestion } from "@/game/types";
+import type { BankQuestion } from "@/client/game/types";
 
 const STUDY_PACK_CACHE = "jamb-quest-study-pack-v10";
 const STUDY_PACK_DATA_URL = "/__jamb-quest__/offline-study-pack-v10.json";

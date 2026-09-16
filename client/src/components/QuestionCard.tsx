@@ -2,11 +2,11 @@
 
 import React, { useEffect, useState } from "react";
 import { Bookmark, BookmarkCheck, CheckCircle2, Clock3, FlagTriangleRight, Send, XCircle } from "lucide-react";
-import type { AnswerRecord, BankQuestion } from "@/game/types";
-import { normalisedTopic, questionExplanationLines } from "@/game/explanation";
-import { preserveEnglishCompletionGap, splitQuestionPresentation } from "@/game/questionPresentation";
-import { formatLearnerText } from "@/game/learnerText";
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import type { AnswerRecord, BankQuestion } from "@/client/game/types";
+import { normalisedTopic, questionExplanationLines } from "@/client/game/explanation";
+import { preserveEnglishCompletionGap, splitQuestionPresentation } from "@/client/game/questionPresentation";
+import { formatLearnerText } from "@/client/game/learnerText";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/client/components/ui/dialog";
 
 interface QuestionCardProps {
   question: BankQuestion;

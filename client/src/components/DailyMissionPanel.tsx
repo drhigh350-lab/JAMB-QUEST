@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, Gauge, Target } from "lucide-react";
-import type { RoundConfig } from "@/game/types";
+import type { RoundConfig } from "@/client/game/types";
 
 export function DailyMissionPanel({ label, note, config, onStart }: { label: string; note: string; config: RoundConfig; onStart: (config: RoundConfig) => void }) {
   const recovery = config.mode === "review";

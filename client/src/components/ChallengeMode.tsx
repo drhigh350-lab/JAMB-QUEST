@@ -1,6 +1,6 @@
 import { CheckCircle2, Copy, Crown, Link2, Play, Trophy, Users, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import type { BankQuestion } from "@/game/types";
+import type { BankQuestion } from "@/client/game/types";
 import { trpc } from "@/lib/trpc";
 import "./challenge-mode.css";
 

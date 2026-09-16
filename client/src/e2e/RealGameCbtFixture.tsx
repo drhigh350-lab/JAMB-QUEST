@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { QuizShell } from "@/components/QuizShell";
-import { useQuizGame } from "@/game/useQuizGame";
+import { QuizShell } from "@/client/components/QuizShell";
+import { useQuizGame } from "@/client/game/useQuizGame";
 
 export default function RealGameCbtFixture() {
   const game = useQuizGame();

@@ -1,5 +1,5 @@
-import { TopicDrill } from "@/components/TopicDrill";
-import type { BankQuestion } from "@/game/types";
+import { TopicDrill } from "@/client/components/TopicDrill";
+import type { BankQuestion } from "@/client/game/types";
 
 const questions: BankQuestion[] = Array.from({ length: 12 }, (_, index) => ({
   id: `BIO-TOPIC-DRILL-${index + 1}`,

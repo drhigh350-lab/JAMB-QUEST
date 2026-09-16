@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { QuestionCard } from "@/components/QuestionCard";
-import type { BankQuestion } from "@/game/types";
+import { QuestionCard } from "@/client/components/QuestionCard";
+import type { BankQuestion } from "@/client/game/types";
 
 const energyProfileQuestion: BankQuestion = {
   id: "kairo-csv-chemistry_20650b",

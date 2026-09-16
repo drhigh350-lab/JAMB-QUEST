@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, BookOpenCheck, Check, ChevronRight, Compass, Flag, Map, Route, ShieldCheck, Sparkles, Stamp, X } from "lucide-react";
-import { formatLearnerText } from "@/game/learnerText";
-import type { BankQuestion, Subject } from "@/game/types";
-import { readArcadeProfile, selectArcadeQuestions, type ExpeditionArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
+import { formatLearnerText } from "@/client/game/learnerText";
+import type { BankQuestion, Subject } from "@/client/game/types";
+import { readArcadeProfile, selectArcadeQuestions, type ExpeditionArcadeState, writeArcadeProfile } from "@/client/game/arcadeProfile";
 import { ArcadeWorldBoard } from "./ArcadeWorldBoard";
 import "./quest-rush.css";
 

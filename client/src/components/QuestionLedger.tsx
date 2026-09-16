@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Check, Circle, X } from "lucide-react";
-import type { AnswerRecord, BankQuestion, Subject } from "@/game/types";
+import type { AnswerRecord, BankQuestion, Subject } from "@/client/game/types";
 
 const fullMockSubjects: Subject[] = ["Use of English", "Biology", "Chemistry", "Physics"];
 

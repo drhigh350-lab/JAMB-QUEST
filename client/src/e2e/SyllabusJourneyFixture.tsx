@@ -1,6 +1,6 @@
-import { SyllabusJourney } from "@/components/SyllabusJourney";
-import { confirmSyllabusRead, parseSyllabusJourney, writeSyllabusJourney } from "@/game/syllabusJourney";
-import type { BankQuestion } from "@/game/types";
+import { SyllabusJourney } from "@/client/components/SyllabusJourney";
+import { confirmSyllabusRead, parseSyllabusJourney, writeSyllabusJourney } from "@/client/game/syllabusJourney";
+import type { BankQuestion } from "@/client/game/types";
 
 const questions: BankQuestion[] = Array.from({ length: 7 }, (_, index) => ({
   id: `BIO-JOURNEY-${index + 1}`,

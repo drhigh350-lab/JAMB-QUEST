@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowRight, CircleCheck, Map, X } from "lucide-react";
 import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
-import type { BankQuestion, RoundConfig, Subject } from "@/game/types";
+import type { BankQuestion, RoundConfig, Subject } from "@/client/game/types";
 import "./syllabus-journey.css";
 import "./topic-drill.css";
 

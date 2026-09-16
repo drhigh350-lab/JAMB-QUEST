@@ -1,5 +1,5 @@
-import { QuestionCard } from "@/components/QuestionCard";
-import type { BankQuestion } from "@/game/types";
+import { QuestionCard } from "@/client/components/QuestionCard";
+import type { BankQuestion } from "@/client/game/types";
 
 const submittedQuestion: BankQuestion = {
   id: "chem-part1-md-Chemistry-1",

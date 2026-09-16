@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { QuizShell } from "@/components/QuizShell";
-import { loadQuestionBank } from "@/game/questionBank";
-import type { AnswerRecord, BankQuestion } from "@/game/types";
+import { QuizShell } from "@/client/components/QuizShell";
+import { loadQuestionBank } from "@/client/game/questionBank";
+import type { AnswerRecord, BankQuestion } from "@/client/game/types";
 
 export default function QuizFlowFixture() {
   const [question, setQuestion] = useState<BankQuestion | null>(null);

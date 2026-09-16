@@ -1,33 +1,33 @@
 /* JAMB Quest: compact study desk. The daily action remains visible; supporting tools live in focused, tappable groups. */
 
 import React, { useEffect, useState } from "react";
-import { startLogin } from "@/const";
+import { startLogin } from "@/client/const";
 import { ArrowRight, Atom, Award, BellOff, BellRing, BookmarkCheck, BookOpen, CalendarCheck2, CheckCircle2, CircleHelp, CircleUserRound, Clock3, Download, Flame, FlaskConical, Leaf, ListChecks, LogIn, Map as MapIcon, Medal, RotateCcw, Send, Share2, ShieldCheck, Sparkles, Swords, Target, Trophy, Wifi, WifiOff, Zap } from "lucide-react";
-import { ProfilePanel } from "@/components/ProfilePanel";
-import { DailyMissionPanel } from "@/components/DailyMissionPanel";
-import { ProgressSignals } from "@/components/ProgressSignals";
-import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics, type CoreSubjectFocus } from "@/game/dailyMission";
-import { getPinnedDailyFocus } from "@/game/pinnedDailyFocus";
-import { STANDARD_FULL_CBT_SECONDS, type RoundConfig, type RoundSubject, type StoredProgress, type Subject } from "@/game/types";
-import { summariseAchievements } from "@/game/achievements";
-import { downloadDailyGoalAchievement, shareDailyGoalAchievement } from "@/game/dailyGoalAchievement";
-import { downloadAchievementShareCard, shareAchievementShareCard } from "@/game/achievementShareCard";
-import { OfflineStudyPackPanel, type PwaControls } from "@/components/OfflineStudyPackPanel";
-import { QuestRush } from "@/components/QuestRush";
-import { GameArcade, type ArcadeMode } from "@/components/GameArcade";
-import { ChallengeMode } from "@/components/ChallengeMode";
-import { PresidentsDesk } from "@/components/PresidentsDesk";
-import { GreatArchive } from "@/components/GreatArchive";
-import { SyllabusJourney } from "@/components/SyllabusJourney";
-import { TopicDrill } from "@/components/TopicDrill";
-import { RevisionReturnQueue } from "@/components/RevisionReturnQueue";
-import { OwnerDiagramAudit } from "@/components/OwnerDiagramAudit";
-import "@/components/study-expedition-entry.css";
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import "@/components/physical-screening.css";
-import "@/components/progress-clarity.css";
-import "@/components/daily-report-reflection.css";
-import "@/components/study-destinations.css";
+import { ProfilePanel } from "@/client/components/ProfilePanel";
+import { DailyMissionPanel } from "@/client/components/DailyMissionPanel";
+import { ProgressSignals } from "@/client/components/ProgressSignals";
+import { selectDailyMission, selectProgressNextAction, summariseRoundAnalytics, type CoreSubjectFocus } from "@/client/game/dailyMission";
+import { getPinnedDailyFocus } from "@/client/game/pinnedDailyFocus";
+import { STANDARD_FULL_CBT_SECONDS, type RoundConfig, type RoundSubject, type StoredProgress, type Subject } from "@/client/game/types";
+import { summariseAchievements } from "@/client/game/achievements";
+import { downloadDailyGoalAchievement, shareDailyGoalAchievement } from "@/client/game/dailyGoalAchievement";
+import { downloadAchievementShareCard, shareAchievementShareCard } from "@/client/game/achievementShareCard";
+import { OfflineStudyPackPanel, type PwaControls } from "@/client/components/OfflineStudyPackPanel";
+import { QuestRush } from "@/client/components/QuestRush";
+import { GameArcade, type ArcadeMode } from "@/client/components/GameArcade";
+import { ChallengeMode } from "@/client/components/ChallengeMode";
+import { PresidentsDesk } from "@/client/components/PresidentsDesk";
+import { GreatArchive } from "@/client/components/GreatArchive";
+import { SyllabusJourney } from "@/client/components/SyllabusJourney";
+import { TopicDrill } from "@/client/components/TopicDrill";
+import { RevisionReturnQueue } from "@/client/components/RevisionReturnQueue";
+import { OwnerDiagramAudit } from "@/client/components/OwnerDiagramAudit";
+import "@/client/components/study-expedition-entry.css";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/client/components/ui/dialog";
+import "@/client/components/physical-screening.css";
+import "@/client/components/progress-clarity.css";
+import "@/client/components/daily-report-reflection.css";
+import "@/client/components/study-destinations.css";
 
 const subjects: Array<{ name: Subject; short: string; note: string; icon: typeof BookOpen; tint: string }> = [
   { name: "Use of English", short: "ENG", note: "Lexis, structure & oral forms", icon: BookOpen, tint: "subject-english" },
@@ -80,7 +80,7 @@ interface HomeProps {
   ownerQuestionReports?: Array<{ id: number; questionId: string; subject: string; topic: string; reason: string; note: string | null; status: "open" | "reviewing" | "resolved" | "dismissed"; createdAt: Date; statusUpdatedAt: Date }>;
   onOwnerReportStatus?: (reportId: number, status: "open" | "reviewing" | "resolved" | "dismissed") => void;
   ownerReportUpdatingId?: number | null;
-  activeQuestions?: import("@/game/types").BankQuestion[]; challengeQuestions?: import("@/game/types").BankQuestion[];
+  activeQuestions?: import("@/client/game/types").BankQuestion[]; challengeQuestions?: import("@/client/game/types").BankQuestion[];
   comparison?: { latest: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; previous: { id: number; accuracy: number; durationSeconds: number; flaggedCount: number; completedAt: Date } | null; accuracyChange: number | null; recommendation: string };
   comeback?: ComebackState; reminder?: ReminderState; achievementStats?: { activeDays: number; completedGoalDays: number; cbtRounds: number; fullMocks: number; recordedStudyMinutes: number; subjectsPractised: string[] }; onUpdateDailyMinimum: (dailyMinimum: number) => void; onUpdateDailyGoal?: (dailyGoalCount: number, dailyGoalSubject: Subject | null, dailyGoalTopic: string | null) => void; onEnablePush: () => void; onDisablePush: () => void; onTestPush?: () => void; pushWorking: boolean; pushStatus: "idle" | "unsupported" | "denied" | "enabling" | "enabled" | "disabled" | "failed" | "test-sent" | "test-failed";
   pwa: PwaControls;

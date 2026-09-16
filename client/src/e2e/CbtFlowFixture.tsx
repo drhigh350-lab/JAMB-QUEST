@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { ExamReview } from "@/components/ExamReview";
-import { QuizShell } from "@/components/QuizShell";
-import { loadQuestionBank } from "@/game/questionBank";
-import type { AnswerRecord, BankQuestion } from "@/game/types";
+import { ExamReview } from "@/client/components/ExamReview";
+import { QuizShell } from "@/client/components/QuizShell";
+import { loadQuestionBank } from "@/client/game/questionBank";
+import type { AnswerRecord, BankQuestion } from "@/client/game/types";
 
 export default function CbtFlowFixture() {
   const exitDialogOpen = new URLSearchParams(window.location.search).get("openExitDialog") === "1";

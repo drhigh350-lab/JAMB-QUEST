@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowRight, BookOpenCheck, Map, X } from "lucide-react";
-import { confirmSyllabusRead, entryFor, readSyllabusJourney, type SyllabusJourneyProfile, writeSyllabusJourney } from "@/game/syllabusJourney";
-import type { Subject } from "@/game/types";
+import { confirmSyllabusRead, entryFor, readSyllabusJourney, type SyllabusJourneyProfile, writeSyllabusJourney } from "@/client/game/syllabusJourney";
+import type { Subject } from "@/client/game/types";
 import { getSyllabusParentGroups } from "@shared/syllabusTopicGroups";
 import { getSyllabusJourneyDetail } from "@shared/syllabusJourneyDetails";
 import "./syllabus-journey.css";

@@ -3,7 +3,7 @@
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": [
-      "ES2020",
+      "ES2022",
       "DOM",
       "DOM.Iterable"
     ],
@@ -38,6 +38,9 @@
       ],
       "@/_core/*": [
         "./client/src/_core/*"
+      ],
+      "@/client/*": [
+        "./client/src/*"
       ],
       "@shared/*": [
         "./shared/*"

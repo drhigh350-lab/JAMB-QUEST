@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, Download, Eye, FileText, Pencil, Save, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
-import type { BankQuestion, Subject } from "@/game/types";
-import { loadQuestionBank } from "@/game/questionBank";
+import type { BankQuestion, Subject } from "@/client/game/types";
+import { loadQuestionBank } from "@/client/game/questionBank";
 import "./owner-question-review.css";
 
 const SUBJECTS: Array<{ subject: Subject; short: string }> = [

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { QuestionCard } from "@/components/QuestionCard";
-import type { BankQuestion } from "@/game/types";
+import { QuestionCard } from "@/client/components/QuestionCard";
+import type { BankQuestion } from "@/client/game/types";
 
 export type DiagramFixtureVariant = "svg" | "source" | "ownerCell" | "ownerFlower" | "ownerSpine" | "ownerOsmosis" | "ownerSkin" | "ownerPlantTransport" | "ownerCleanRr" | "benzeneNoPicture" | "sourceGraph" | "thermoregulation" | "lizardGraph" | "osmosis" | "fermentation" | "variation" | "ovary" | "embryo" | "beak" | "vertebra" | "digestive0413" | "euglena0749" | "beak1225" | "kclo3Oxygen" | "idealGas" | "photosynthesis0562" | "emulsification0551" | "plantation0583" | "plantation0584" | "leaf0536" | "leaf0546" | "fungal0483" | "fungal0470" | "dog0480" | "maize0501" | "hydra0502" | "chitin0505" | "water0523" | "thermo0527" | "amplexus0890" | "frog1041" | "countershade1033" | "f2ratio1111" | "aquatic0574" | "digestive0552" | "raptor0569" | "broken" | "wide" | "portrait" | "none";
 

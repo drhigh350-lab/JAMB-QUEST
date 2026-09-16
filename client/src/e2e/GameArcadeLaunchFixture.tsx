@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import type { BankQuestion } from "@/game/types";
+import type { BankQuestion } from "@/client/game/types";
 import Home from "@/pages/Home";
 
 const questions: BankQuestion[] = ["Use of English", "Biology", "Chemistry", "Physics"].flatMap((subject) => Array.from({ length: 6 }, (_, index) => ({ id: `arcade-launch-${subject}-${index + 1}`, subject: subject as BankQuestion["subject"], topic: `${subject} fixture territory`, subtopic: "Fixture", difficulty: "medium", question_type: "multiple_choice", question: `Approved-style arcade fixture question ${index + 1}: choose the correct option.`, options: ["Option A", "Option B", "Option C", "Option D"], answer_index: 0, answer_text: "Option A", explanation: "This controlled fixture verifies the arcade uses available question cards and opens a safe correction-capable mode.", tags: [], source: "fixture" })));

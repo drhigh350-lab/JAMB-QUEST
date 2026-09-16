@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Home from "@/pages/Home";
-import { useQuizGame } from "@/game/useQuizGame";
+import { useQuizGame } from "@/client/game/useQuizGame";
 
 export default function RecoveryEmptyStateFixture() {
   const game = useQuizGame();

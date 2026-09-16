@@ -1,7 +1,7 @@
 import { AlertTriangle, Compass, Sparkles } from "lucide-react";
 import type { ReactNode } from "react";
 import { useEffect, useState } from "react";
-import type { Subject } from "@/game/types";
+import type { Subject } from "@/client/game/types";
 import "./arcade-world-board.css";
 
 export type ArcadeWorld = "expedition" | "asterra" | "archive";

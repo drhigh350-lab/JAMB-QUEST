@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { QuestOpening } from "@/components/QuestOpening";
+import { QuestOpening } from "@/client/components/QuestOpening";
 
 export default function OpeningSequenceFixture() {
   const [open, setOpen] = useState(true);

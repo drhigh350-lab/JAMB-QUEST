@@ -1,7 +1,7 @@
 import { Calculator, Delete, RotateCcw } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { calculateExpression, formatCalculation } from "@/game/calculator";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/client/components/ui/dialog";
+import { calculateExpression, formatCalculation } from "@/client/game/calculator";
 
 export const CALCULATOR_KEYS = ["7", "8", "9", "÷", "4", "5", "6", "×", "1", "2", "3", "−", "0", ".", "(", "+", ")", "⌫", "AC", "="];
 const keys = CALCULATOR_KEYS;

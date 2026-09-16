@@ -1,8 +1,8 @@
 import { Archive, ArrowRight, BookOpenCheck, Check, ChevronRight, LibraryBig, ShieldCheck, Sparkles, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { formatLearnerText } from "@/game/learnerText";
-import { emptyArcadeProfile, readArcadeProfile, selectArcadeQuestions, type ArchiveBlueprintId, type GreatArchiveArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
-import type { BankQuestion, Subject } from "@/game/types";
+import { formatLearnerText } from "@/client/game/learnerText";
+import { emptyArcadeProfile, readArcadeProfile, selectArcadeQuestions, type ArchiveBlueprintId, type GreatArchiveArcadeState, writeArcadeProfile } from "@/client/game/arcadeProfile";
+import type { BankQuestion, Subject } from "@/client/game/types";
 import { ArcadeWorldBoard } from "./ArcadeWorldBoard";
 import "./great-archive.css";
 

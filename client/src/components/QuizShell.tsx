@@ -2,12 +2,12 @@
 
 import { ArrowLeft, Flag, Flame, Pause, Send, TimerReset } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/client/components/ui/alert-dialog";
 import { QuestionCard } from "./QuestionCard";
 import { QuestionLedger } from "./QuestionLedger";
 import { JambCalculator } from "./JambCalculator";
-import { isRoundTimed } from "@/game/dailyMission";
-import type { AnswerRecord, BankQuestion, RoundConfig } from "@/game/types";
+import { isRoundTimed } from "@/client/game/dailyMission";
+import type { AnswerRecord, BankQuestion, RoundConfig } from "@/client/game/types";
 
 interface QuizShellProps {
   config: RoundConfig;

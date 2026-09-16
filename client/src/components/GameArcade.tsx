@@ -1,7 +1,7 @@
 import { ArrowRight, Archive, Building2, Map, ShieldCheck, Swords, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { cleanArcadeDisplayName, emptyArcadeProfile, readArcadeProfile, type GameArcadeProfile, writeArcadeProfile } from "@/game/arcadeProfile";
-import type { BankQuestion } from "@/game/types";
+import { cleanArcadeDisplayName, emptyArcadeProfile, readArcadeProfile, type GameArcadeProfile, writeArcadeProfile } from "@/client/game/arcadeProfile";
+import type { BankQuestion } from "@/client/game/types";
 import { trpc } from "@/lib/trpc";
 import "./game-arcade.css";
 import "./game-arcade-personal.css";

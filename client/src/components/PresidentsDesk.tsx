@@ -1,8 +1,8 @@
 import { ArrowRight, BookOpenCheck, Building2, Check, ChevronRight, HeartPulse, Lightbulb, Sparkles, Users, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { formatLearnerText } from "@/game/learnerText";
-import type { BankQuestion, Subject } from "@/game/types";
-import { emptyArcadeProfile, readArcadeProfile, selectArcadeQuestions, type PresidentsDeskArcadeState, writeArcadeProfile } from "@/game/arcadeProfile";
+import { formatLearnerText } from "@/client/game/learnerText";
+import type { BankQuestion, Subject } from "@/client/game/types";
+import { emptyArcadeProfile, readArcadeProfile, selectArcadeQuestions, type PresidentsDeskArcadeState, writeArcadeProfile } from "@/client/game/arcadeProfile";
 import { ArcadeWorldBoard } from "./ArcadeWorldBoard";
 import "./presidents-desk.css";
 import "./presidents-desk-simple.css";

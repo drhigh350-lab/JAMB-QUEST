@@ -1,8 +1,8 @@
 import React from "react";
 import { ArrowRight, BarChart3, CheckCircle2, Flag, XCircle } from "lucide-react";
-import { questionExplanationLines } from "@/game/explanation";
-import { formatLearnerText } from "@/game/learnerText";
-import type { AnswerRecord, BankQuestion, MistakeReason, RoundConfig } from "@/game/types";
+import { questionExplanationLines } from "@/client/game/explanation";
+import { formatLearnerText } from "@/client/game/learnerText";
+import type { AnswerRecord, BankQuestion, MistakeReason, RoundConfig } from "@/client/game/types";
 
 interface ExamReviewProps {
   config: RoundConfig;

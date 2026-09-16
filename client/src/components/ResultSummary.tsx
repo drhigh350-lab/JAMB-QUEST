@@ -1,7 +1,7 @@
 /* Field Notes Arcade: results read like a stamped score receipt with a useful next action. */
 
 import { ArrowLeft, BookOpenCheck, RotateCcw, Trophy } from "lucide-react";
-import type { BankQuestion, RoundConfig } from "@/game/types";
+import type { BankQuestion, RoundConfig } from "@/client/game/types";
 
 interface ResultSummaryProps {
   config: RoundConfig;

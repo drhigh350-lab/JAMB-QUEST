@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Radio, Sparkles } from "lucide-react";
-import type { Subject } from "@/game/types";
+import type { Subject } from "@/client/game/types";
 import "./arcade-transmission.css";
 
 type ArcadeWorld = "expedition" | "asterra" | "archive";

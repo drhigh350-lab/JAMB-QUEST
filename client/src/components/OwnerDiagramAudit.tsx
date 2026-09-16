@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, ArrowRight, ExternalLink, ImageOff, Search, ShieldCheck } from "lucide-react";
 import { trpc } from "@/lib/trpc";
-import type { Subject } from "@/game/types";
+import type { Subject } from "@/client/game/types";
 import "./owner-diagram-audit.css";
 
 const SUBJECTS: Array<{ value: Subject | "all"; label: string }> = [

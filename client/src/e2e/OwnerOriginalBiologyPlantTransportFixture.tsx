@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { QuestionCard } from "@/components/QuestionCard";
-import type { BankQuestion } from "@/game/types";
+import { QuestionCard } from "@/client/components/QuestionCard";
+import type { BankQuestion } from "@/client/game/types";
 
 const sharedDiagramUrl = "/manus-storage/biology-plant-transport-original_1e2a8b38.png";
 
